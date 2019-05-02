@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Christoph Biedl 
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: debian-security-support@packages.debian.org\n"
+"POT-Creation-Date: 2016-06-07 12:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../check-support-status.in:24
+#, sh-format
+msgid ""
+"Unknown DEBIAN_VERSION $DEBIAN_VERSION. Valid values from "
+"$DEB_LOWEST_VER_ID and $DEB_NEXT_VER_ID"
+msgstr ""
+
+#: ../check-support-status.in:63
+msgid "Failed to parse the command line parameters"
+msgstr ""
+
+#: ../check-support-status.in:72
+#, sh-format
+msgid "$name version $VERSION"
+msgstr ""
+
+#: ../check-support-status.in:101
+msgid "E: Internal error"
+msgstr ""
+
+#: ../check-support-status.in:117
+msgid "E: Need a --type if --list is given"
+msgstr ""
+
+#: ../check-support-status.in:130
+#, sh-format
+msgid "E: Unknown --type '$TYPE'"
+msgstr ""
+
+#: ../check-support-status.in:152
+msgid "E: Cannot detect dpkg version, assuming wheezy or newer"
+msgstr ""
+
+#: ../check-support-status.in:282
+msgid "Future end of support for one or more packages"
+msgstr ""
+
+#: ../check-support-status.in:285
+msgid ""
+"Unfortunately, it will be necessary to end security support for some "
+"packages before the end of the regular security maintenance life "
+"cycle."
+msgstr ""
+
+#: ../check-support-status.in:288 ../check-support-status.in:298
+#: ../check-support-status.in:308
+msgid ""
+"The following packages found on this system are affected by this:"
+msgstr ""
+
+#: ../check-support-status.in:292
+msgid "Ended security support for one or more packages"
+msgstr ""
+
+#: ../check-support-status.in:295
+msgid ""
+"Unfortunately, it has been necessary to end security support for some "
+"packages before the end of the regular security maintenance life "
+"cycle."
+msgstr ""
+
+#: ../check-support-status.in:302
+msgid "Limited security support for one or more packages"
+msgstr ""
+
+#: ../check-support-status.in:305
+msgid ""
+"Unfortunately, it has been necessary to limit security support for "
+"some packages."
+msgstr ""
+
+#: ../check-support-status.in:320
+#, sh-format
+msgid "* Source:$SRC_NAME, will end on $ALERT_WHEN"
+msgstr ""
+
+#: ../check-support-status.in:323
+#, sh-format
+msgid ""
+"* Source:$SRC_NAME, ended on $ALERT_WHEN at version $ALERT_VERSION"
+msgstr ""
+
+#: ../check-support-status.in:326
+#, sh-format
+msgid "* Source:$SRC_NAME"
+msgstr ""
+
+#: ../check-support-status.in:330
+#, sh-format
+msgid "  Details: $ALERT_WHY"
+msgstr ""
+
+#: ../check-support-status.in:333
+msgid "  Affected binary package:"
+msgstr ""
+
+#: ../check-support-status.in:335
+msgid "  Affected binary packages:"
+msgstr ""
+
+#: ../check-support-status.in:338
+#, sh-format
+msgid "  - $BIN_NAME (installed version: $BIN_VERSION)"
+msgstr ""

@@ -1,0 +1,9248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid "\t\tend: (c,h,s) expected (%ld,%ld,%ld) found (%ld,%ld,%ld)\n"
+msgstr ""
+
+#, c-format
+msgid "\t\tstart: (c,h,s) expected (%ld,%ld,%ld) found (%ld,%ld,%ld)\n"
+msgstr ""
+
+#, c-format
+msgid "\t... %s ...\n"
+msgstr ""
+
+#, c-format
+msgid "\tNOTE: elvtune only works with 2.4 kernels\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\tSorry - this fdisk cannot handle AIX disk labels.\n"
+"\tIf you want to add DOS-type partitions, create\n"
+"\ta new empty DOS partition table first. (Use o.)\n"
+"\tWARNING: This will destroy the present disk contents.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\tSorry - this fdisk cannot handle Mac disk labels.\n"
+"\tIf you want to add DOS-type partitions, create\n"
+"\ta new empty DOS partition table first. (Use o.)\n"
+"\tWARNING: This will destroy the present disk contents.\n"
+msgstr ""
+
+#, c-format
+msgid "\tUTC: %s\n"
+msgstr ""
+
+#, c-format
+msgid "\tYou have chosen an unusual boot file name.\n"
+msgstr ""
+
+#, c-format
+msgid "\ttv.tv_sec = %ld, tv.tv_usec = %ld\n"
+msgstr ""
+
+#, c-format
+msgid "\ttz.tz_minuteswest = %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\tBe aware, that the bootfile is not checked for existence.\n"
+"\tSGI's default is \"/unix\" and for backup \"/unix.save\".\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\tBootfile is changed to \"%s\".\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\tBootfile must have a fully qualified pathname.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\tName of Bootfile too long:  16 bytes maximum.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"\tSorry, no experts menu for SGI partition tables available.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"\tThere is a valid AIX label on this disk.\n"
+"\tUnfortunately Linux cannot handle these\n"
+"\tdisks at the moment.  Nevertheless some\n"
+"\tadvice:\n"
+"\t1. fdisk will destroy its contents on write.\n"
+"\t2. Be sure that this disk is NOT a still vital\n"
+"\t   part of a volume group. (Otherwise you may\n"
+"\t   erase the other disks as well, if unmirrored.)\n"
+"\t3. Before deleting this physical volume be sure\n"
+"\t   to remove the disk logically from your AIX\n"
+"\t   machine.  (Otherwise you become an AIXpert)."
+msgstr ""
+
+msgid ""
+"\n"
+"\tThere is a valid Mac label on this disk.\n"
+"\tUnfortunately fdisk(1) cannot handle these disks.\n"
+"\tUse either pdisk or parted to modify the partition table.\n"
+"\tNevertheless some advice:\n"
+"\t1. fdisk will destroy its contents on write.\n"
+"\t2. Be sure that this disk is NOT a still vital\n"
+"\t   part of a volume group. (Otherwise you may\n"
+"\t   erase the other disks as well, if unmirrored.)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"%6d regular files\n"
+"%6d directories\n"
+"%6d character device files\n"
+"%6d block device files\n"
+"%6d links\n"
+"%6d symbolic links\n"
+"------\n"
+"%6d files\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"%6ld inodes used (%ld%%)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"%d partitions:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"%s login: "
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"*** %s: directory ***\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"******** %s: Not a text file ********\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"***Back***\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"...Skipping "
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Aborted.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"BSD label for device: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s (SGI disk label): %d heads, %llu sectors\n"
+"%d cylinders, %d physical cylinders\n"
+"%d extra sects/cyl, interleave %d:1\n"
+"%s\n"
+"Units = %s of %d * %d bytes\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s (SGI disk label): %d heads, %llu sectors, %d cylinders\n"
+"Units = %s of %d * %d bytes\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s (Sun disk label): %u heads, %llu sectors, %d rpm\n"
+"%u cylinders, %d alternate cylinders, %d physical cylinders\n"
+"%d extra sects/cyl, interleave %d:1\n"
+"Label ID: %s\n"
+"Volume ID: %s\n"
+"Units = %s of %d * 512 bytes\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s (Sun disk label): %u heads, %llu sectors, %u cylinders\n"
+"Units = %s of %d * 512 bytes\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s: %d heads, %llu sectors, %d cylinders\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s: %ld MB, %lld bytes\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s: %ld.%ld GB, %lld bytes\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Disk %s: %lu cylinders, %lu heads, %lu sectors/track\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Error closing file\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see fallocate(1).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see findmnt(1).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see fsfreeze(8).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see ipcmk(1).\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see namei(1).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see setarch(8).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see swaplabel(8).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see taskset(1).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see unshare(1).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"For more information see wipefs(8).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Invalid Bootfile!\n"
+"\tThe bootfile must be an absolute non-zero pathname,\n"
+"\te.g. \"/unix\" or \"/unix.save\".\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Known <iflag> names:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Known <ldisc> names:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Login incorrect\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Message Queue msqid=%d\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Most commands optionally preceded by integer argument k.  Defaults in "
+"brackets.\n"
+"Star (*) indicates argument becomes new default.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Now you can turn off the power..."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+"  -h | --help          display this help\n"
+"  -m | --max           show min and max valid priorities\n"
+"  -p | --pid           operate on existing given pid\n"
+"  -v | --verbose       display status information\n"
+"  -V | --version       output version information\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+" -e | --encryption <type> enable data encryption with specified <name/num>\n"
+" -h | --help              this help\n"
+" -o | --offset <num>      start at offset <num> into file\n"
+"      --sizelimit <num>   loop limited to only <num> bytes of the file\n"
+" -p | --pass-fd <num>     read passphrase from file descriptor <num>\n"
+" -r | --read-only         setup read-only loop device\n"
+"      --show              print device name (with -f <file>)\n"
+" -v | --verbose           verbose mode\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+" -s, --fstab            search in static table of filesystems\n"
+" -m, --mtab             search in table of mounted filesystems\n"
+" -k, --kernel           search in kernel table of mounted \n"
+"                        filesystems (default)\n"
+"\n"
+" -c, --canonicalize     canonicalize printed paths\n"
+" -d, --direction <word> search direction - 'forward' or 'backward'\n"
+" -e, --evaluate         print all TAGs (LABEL/UUID) evaluated\n"
+" -f, --first-only       print the first found filesystem only\n"
+" -h, --help             print this help\n"
+" -i, --invert           invert sense of matching\n"
+" -l, --list             use list format ouput\n"
+" -n, --noheadings       don't print headings\n"
+" -u, --notruncate       don't truncate text in columns\n"
+" -O, --options <list>   limit the set of filesystems by mount options\n"
+" -o, --output <list>    output columns\n"
+" -r, --raw              use raw format output\n"
+" -a, --ascii            use ascii chars for tree formatting\n"
+" -t, --types <list>     limit the set of filesystem by FS types\n"
+" -S, --source <string>  device, LABEL= or UUID=device\n"
+" -T, --target <string>  mountpoint\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Partition table entries are not in disk order\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Pattern not found\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Scheduling flags:\n"
+"  -R | --reset-on-fork set SCHED_RESET_ON_FORK for FIFO or RR\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Scheduling policies:\n"
+"  -b | --batch         set policy to SCHED_BATCH\n"
+"  -f | --fifo          set policy to SCHED_FIFO\n"
+"  -i | --idle          set policy to SCHED_IDLE\n"
+"  -o | --other         set policy to SCHED_OTHER\n"
+"  -r | --rr            set policy to SCHED_RR (default)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Script done on %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Semaphore Array semid=%d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Session setup problem, abort.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Shared memory Segment shmid=%d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Syncing disks.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"The boot partition does not exist.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"The current boot file is: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"The device presents a logical sector size that is smaller than\n"
+"the physical sector size. Aligning to a physical sector (or optimal\n"
+"I/O) size boundary is recommended, or performance may be impacted.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"The swap partition does not exist.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"The swap partition has no swap type.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"This disk is currently in use - repartitioning is probably a bad idea.\n"
+"Umount all file systems, and swapoff all swap partitions on this disk.\n"
+"Use the --no-reread flag to suppress this check.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage:\n"
+" %1$s -a [-e] [-v] [-f]             enable all swaps from /etc/fstab\n"
+" %1$s [-p priority] [-v] [-f] <special>  enable given swap\n"
+" %1$s -s                            display swap usage summary\n"
+" %1$s -h                            display help\n"
+" %1$s -V                            display version\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage:\n"
+" %1$s -a [-v]                      disable all swaps\n"
+" %1$s [-v] <special>               disable given swap\n"
+" %1$s -h                           display help\n"
+" %1$s -V                           display version\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage:\n"
+" %1$s [options]\n"
+" %1$s [options] <device> | <mountpoint>\n"
+" %1$s [options] <device> <mountpoint>\n"
+" %1$s [options] [--source <device>] [--target <mountpoint>]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage:\n"
+" %1$s loop_device                             give info\n"
+" %1$s -a | --all                              list all used\n"
+" %1$s -d | --detach <loopdev> [<loopdev> ...] delete\n"
+" %1$s -f | --find                             find unused\n"
+" %1$s -c | --set-capacity <loopdev>           resize\n"
+" %1$s -j | --associated <file> [-o <num>]     list all associated with "
+"<file>\n"
+" %1$s [ options ] {-f|--find|loopdev} <file>  setup\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage:\n"
+" renice [-n] priority [-p|--pid] pid  [... pid]\n"
+" renice [-n] priority  -g|--pgrp pgrp [... pgrp]\n"
+" renice [-n] priority  -u|--user user [... user]\n"
+" renice -h | --help\n"
+" renice -v | --version\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage:\n"
+"Print version:\n"
+"        %s -v\n"
+"Print partition table:\n"
+"        %s -P {r|s|t} [options] device\n"
+"Interactive use:\n"
+"        %s [options] device\n"
+"\n"
+"Options:\n"
+"-a: Use arrow instead of highlighting;\n"
+"-z: Start with a zero partition table, instead of reading the pt from disk;\n"
+"-c C -h H -s S: Override the kernel's idea of the number of cylinders,\n"
+"                the number of heads and the number of sectors/track.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [ -dhV78neo12 ] [ -s <speed> ] [ -i [-]<iflag> ] <ldisc> <device>\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [options] pathname [pathname ...]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: DOS-compatible mode is deprecated. It's strongly recommended to\n"
+"         switch off the mode (with command 'c')."
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: GPT (GUID Partition Table) detected on '%s'! The util fdisk doesn't "
+"support GPT. Use GNU Parted.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: GPT (GUID Partition Table) detected on '%s'! The util sfdisk "
+"doesn't support GPT. Use GNU Parted.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: If you have created or modified any\n"
+"DOS 6.x partitions, please see the cfdisk manual\n"
+"page for additional information.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: If you have created or modified any DOS 6.x\n"
+"partitions, please see the fdisk manual page for additional\n"
+"information.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: Re-reading the partition table failed with error %d: %s.\n"
+"The kernel still uses the old table. The new table will be used at\n"
+"the next reboot or after you run partprobe(8) or kpartx(8)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: The size of this disk is %d.%d TB (%llu bytes).\n"
+"DOS partition table format can not be used on drives for volumes\n"
+"larger than (%llu bytes) for %d-byte sectors. Use parted(1) and GUID \n"
+"partition table format (GPT).\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"WARNING: cylinders as display units are deprecated. Use command 'u' to\n"
+"         change units to sectors.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Why am I still alive after reboot?"
+msgstr ""
+
+msgid ""
+"\n"
+"Wrong password.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"chrt - manipulate real-time attributes of a process\n"
+"\n"
+"Set policy:\n"
+"  chrt [options] <policy> <priority> {<pid> | <command> [<arg> ...]}\n"
+"\n"
+"Get policy:\n"
+"  chrt [options] {<pid> | <command> [<arg> ...]}\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"elvtune is only useful on older kernels;\n"
+"for 2.6 use IO scheduler sysfs tunables instead..\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"got EOF thrice - exiting..\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"ionice - sets or gets process io scheduling class and priority.\n"
+"\n"
+"Usage:\n"
+"  ionice [ options ] -p <pid> [<pid> ...]\n"
+"  ionice [ options ] <command> [<arg> ...]\n"
+"\n"
+"Options:\n"
+"  -n <classdata>      class data (0-7, lower being higher prio)\n"
+"  -c <class>          scheduling class\n"
+"                      0: none, 1: realtime, 2: best-effort, 3: idle\n"
+"  -t                  ignore failures\n"
+"  -h                  this help\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"mount: warning: /etc/mtab is not writable (e.g. read-only filesystem).\n"
+"       It's possible that information reported by mount(8) is not\n"
+"       up to date. For actual information about system mount points\n"
+"       check the /proc/mounts file.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"sfdisk: premature end of input\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+
+msgid "                r - Raw data (exactly what would be written to disk)"
+msgstr ""
+
+msgid "                s - Table ordered by sectors"
+msgstr ""
+
+msgid "                t - Table in raw format"
+msgstr ""
+
+msgid "               First       Last\n"
+msgstr ""
+
+msgid "              parameters\n"
+msgstr ""
+
+msgid "             DOS, OS/2, ..."
+msgstr ""
+
+msgid "             Note: This may make the partition incompatible with"
+msgstr ""
+
+msgid "             Rotates through MB, sectors and cylinders"
+msgstr ""
+
+msgid "             Since this might destroy data on the disk, you must"
+msgstr ""
+
+msgid "             There are several different formats for the partition"
+msgstr ""
+
+msgid "             WARNING: This option should only be used by people who"
+msgstr ""
+
+msgid "             `no'"
+msgstr ""
+
+msgid "             either confirm or deny the write by entering `yes' or"
+msgstr ""
+
+msgid "             know what they are doing."
+msgstr ""
+
+msgid "             that you can choose from:"
+msgstr ""
+
+msgid "         ---Starting----      ----Ending-----    Start     Number of\n"
+msgstr ""
+
+#, c-format
+msgid "        (%s partition table detected). "
+msgstr ""
+
+#, c-format
+msgid "        (compiled without libblkid). "
+msgstr ""
+
+#, c-format
+msgid "        on whole disk. "
+msgstr ""
+
+#, c-format
+msgid "       %s -k\n"
+msgstr ""
+
+#, c-format
+msgid "       %s -l [ signal ]\n"
+msgstr ""
+
+#, c-format
+msgid "       %s [-r|t] [-n num] [-s socketpath]\n"
+msgstr ""
+
+msgid ""
+"       (aren't you trying to mount an extended partition,\n"
+"       instead of some logical partition inside?)"
+msgstr ""
+
+msgid ""
+"       (could this be the IDE device where you in fact use\n"
+"       ide-scsi so that sr0 or sda or so is needed?)"
+msgstr ""
+
+msgid ""
+"       (for several filesystems (e.g. nfs, cifs) you might\n"
+"       need a /sbin/mount.<type> helper program)"
+msgstr ""
+
+#, c-format
+msgid "       I will try all types mentioned in %s or %s\n"
+msgstr ""
+
+#, c-format
+msgid "       I will try type %s\n"
+msgstr ""
+
+msgid ""
+"       In some cases useful info is found in syslog - try\n"
+"       dmesg | tail  or so\n"
+msgstr ""
+
+#, c-format
+msgid "       and it looks like this is swapspace\n"
+msgstr ""
+
+msgid "       getopt [options] -o|--options optstring [options] [--]\n"
+msgstr ""
+
+msgid "       getopt [options] [--] optstring parameters\n"
+msgstr ""
+
+#, c-format
+msgid "     phys=(%d, %d, %d) "
+msgstr ""
+
+msgid "    -? [or --help]:      print this message"
+msgstr ""
+
+msgid "    -C# [or --cylinders #]:set the number of cylinders to use"
+msgstr ""
+
+msgid "    -D [or --DOS]:       for DOS-compatibility: waste a little space"
+msgstr ""
+
+msgid ""
+"    -G [or --show-pt-geometry]: print geometry guessed from the partition "
+"table"
+msgstr ""
+
+msgid "    -H# [or --heads #]:    set the number of heads to use"
+msgstr ""
+
+msgid "    -I file :            restore these sectors again"
+msgstr ""
+
+msgid ""
+"    -L  [or --Linux]:      do not complain about things irrelevant for Linux"
+msgstr ""
+
+msgid "    -N# :                change only the partition with number #"
+msgstr ""
+
+msgid ""
+"    -O file :            save the sectors that will be overwritten to file"
+msgstr ""
+
+msgid "    -R [or --re-read]:   make kernel reread partition table"
+msgstr ""
+
+msgid "    -S# [or --sectors #]:  set the number of sectors to use"
+msgstr ""
+
+msgid "    -T [or --list-types]:list the known partition types"
+msgstr ""
+
+msgid "    -c [or --id]:        print or change partition Id"
+msgstr ""
+
+msgid "    -d [or --dump]:      idem, but in a format suitable for later input"
+msgstr ""
+
+msgid "    -f  [or --force]:      do what I say, even if it is stupid"
+msgstr ""
+
+msgid "    -g [or --show-geometry]: print the kernel's idea of the geometry"
+msgstr ""
+
+#, c-format
+msgid ""
+"    -h      display this help\n"
+"    -i id   print details on resource identified by id\n"
+"\n"
+msgstr ""
+
+msgid "    -i [or --increment]: number cylinders etc. from 1 instead of from 0"
+msgstr ""
+
+msgid "    -l [or --list]:      list partitions of each device"
+msgstr ""
+
+msgid "    -n :                 do not actually write to disk"
+msgstr ""
+
+msgid "    -q  [or --quiet]:      suppress warning messages"
+msgstr ""
+
+msgid "    -s [or --show-size]: list size of a partition"
+msgstr ""
+
+msgid ""
+"    -uS, -uB, -uC, -uM:  accept/report in units of sectors/blocks/cylinders/"
+"MB"
+msgstr ""
+
+msgid "    -v [or --version]:   print version"
+msgstr ""
+
+msgid ""
+"    -x [or --show-extended]: also list extended partitions on output\n"
+"                             or expect descriptors for them on input"
+msgstr ""
+
+msgid "    Sectors"
+msgstr ""
+
+msgid "    You can override the detected geometry using:"
+msgstr ""
+
+#, c-format
+msgid "   %f int/sec; %f rec (char/sec)\n"
+msgstr ""
+
+#, c-format
+msgid "   %f int/sec; %f rec, %f send (char/sec)\n"
+msgstr ""
+
+#, c-format
+msgid "   Device Boot    Start       End   #sectors  Id  System\n"
+msgstr ""
+
+#, c-format
+msgid "   Device Boot   Start       End    #blocks   Id  System\n"
+msgstr ""
+
+#, c-format
+msgid "   Device Boot Start     End   #cyls    #blocks   Id  System\n"
+msgstr ""
+
+#, c-format
+msgid "   Device Boot Start   End    MiB    #blocks   Id  System\n"
+msgstr ""
+
+msgid "   Logical"
+msgstr ""
+
+msgid "   None   "
+msgstr ""
+
+msgid "   Pri/Log"
+msgstr ""
+
+msgid "   Primary"
+msgstr ""
+
+msgid "   a   change number of alternate cylinders"
+msgstr ""
+
+msgid "   a   select bootable partition"
+msgstr ""
+
+msgid "   a   toggle a bootable flag"
+msgstr ""
+
+msgid "   a   toggle a read only flag"
+msgstr ""
+
+msgid "   b   edit bootfile entry"
+msgstr ""
+
+msgid "   b   edit bsd disklabel"
+msgstr ""
+
+msgid "   b   move beginning of data in a partition"
+msgstr ""
+
+msgid "   c   change number of cylinders"
+msgstr ""
+
+msgid "   c   select sgi swap partition"
+msgstr ""
+
+msgid "   c   toggle the dos compatibility flag"
+msgstr ""
+
+msgid "   c   toggle the mountable flag"
+msgstr ""
+
+msgid "   d   delete a BSD partition"
+msgstr ""
+
+msgid "   d   delete a partition"
+msgstr ""
+
+msgid "   d   print the raw data in the partition table"
+msgstr ""
+
+msgid "   e   change number of extra sectors per cylinder"
+msgstr ""
+
+msgid "   e   edit drive data"
+msgstr ""
+
+msgid "   e   list extended partitions"
+msgstr ""
+
+msgid "   f   fix partition order"
+msgstr ""
+
+msgid "   g   create an IRIX (SGI) partition table"
+msgstr ""
+
+msgid "   h   change number of heads"
+msgstr ""
+
+msgid "   i   change interleave factor"
+msgstr ""
+
+msgid "   i   change the disk identifier"
+msgstr ""
+
+msgid "   i   install bootstrap"
+msgstr ""
+
+msgid "   l   list known filesystem types"
+msgstr ""
+
+msgid "   l   list known partition types"
+msgstr ""
+
+msgid "   m   print this menu"
+msgstr ""
+
+msgid "   n   add a new BSD partition"
+msgstr ""
+
+msgid "   n   add a new partition"
+msgstr ""
+
+msgid "   o   change rotation speed (rpm)"
+msgstr ""
+
+msgid "   o   create a new empty DOS partition table"
+msgstr ""
+
+msgid "   p   print BSD partition table"
+msgstr ""
+
+msgid "   p   print the partition table"
+msgstr ""
+
+msgid "   q   quit without saving changes"
+msgstr ""
+
+msgid "   r   return to main menu"
+msgstr ""
+
+msgid "   s   change number of sectors/track"
+msgstr ""
+
+msgid "   s   create a new empty Sun disklabel"
+msgstr ""
+
+msgid "   s   show complete disklabel"
+msgstr ""
+
+msgid "   t   change a partition's filesystem id"
+msgstr ""
+
+msgid "   t   change a partition's system id"
+msgstr ""
+
+msgid "   u   change display/entry units"
+msgstr ""
+
+msgid "   u   change units (cylinders/sectors)"
+msgstr ""
+
+msgid "   v   verify the partition table"
+msgstr ""
+
+msgid "   w   write disklabel to disk"
+msgstr ""
+
+msgid "   w   write table to disk and exit"
+msgstr ""
+
+msgid "   x   extra functionality (experts only)"
+msgstr ""
+
+msgid "   x   link BSD partition to non-BSD partition"
+msgstr ""
+
+msgid "   y   change number of physical cylinders"
+msgstr ""
+
+#, c-format
+msgid "  %s --report [devices]\n"
+msgstr ""
+
+#, c-format
+msgid "  %s -V\n"
+msgstr ""
+
+#, c-format
+msgid "  %s [-v|-q] commands devices\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -J|--jensen, -A|--arc, -S|--srm, -F|--funky-toy\n"
+"       tell hwclock the type of alpha you have (see hwclock(8))\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -M <size>     create shared memory segment of size <size>\n"
+"  -S <nsems>    create semaphore array with <nsems> elements\n"
+"  -Q            create message queue\n"
+"  -p <mode>     permission for the resource (default is 0644)\n"
+msgstr ""
+
+msgid "  -Q, --quiet-output           No normal output\n"
+msgstr ""
+
+msgid "  -T, --test                   Test for getopt(1) version\n"
+msgstr ""
+
+msgid "  -V, --version                Output version information\n"
+msgstr ""
+
+msgid ""
+"  -a, --alternative            Allow long options starting with single -\n"
+msgstr ""
+
+msgid "  -h, --help                   This small usage guide\n"
+msgstr ""
+
+msgid "  -l, --longoptions=longopts   Long options to be recognized\n"
+msgstr ""
+
+msgid ""
+"  -n, --name=progname          The name under which errors are reported\n"
+msgstr ""
+
+msgid "  -o, --options=optstring      Short options to be recognized\n"
+msgstr ""
+
+msgid "  -q, --quiet                  Disable error reporting by getopt(3)\n"
+msgstr ""
+
+msgid "  -s, --shell=shell            Set shell quoting conventions\n"
+msgstr ""
+
+msgid "  -u, --unqote                 Do not quote the output\n"
+msgstr ""
+
+msgid "  ?          Print this screen"
+msgstr ""
+
+msgid "  Cylinders"
+msgstr ""
+
+msgid "  Overflow\n"
+msgstr ""
+
+msgid "  Size (GB)"
+msgstr ""
+
+msgid "  Size (MB)"
+msgstr ""
+
+msgid "  W          Write partition table to disk (must enter upper case W)"
+msgstr ""
+
+#, c-format
+msgid "  [ -appcursorkeys [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -append [1-NR_CONSOLES] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -background black|blue|green|cyan"
+msgstr ""
+
+#, c-format
+msgid "  [ -bfreq freqnumber ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -blank [0-60|force|poke] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -blength [0-2000] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -blink [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -bold [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -clear [all|rest] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -clrtabs [ tab1 tab2 tab3 ... ] ]   (tabn = 1-160)\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -cursor [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -default ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -dump   [1-NR_CONSOLES] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -file dumpfilename ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -foreground black|blue|green|cyan"
+msgstr ""
+
+#, c-format
+msgid "  [ -half-bright [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -hbcolor black|grey|blue|green|cyan"
+msgstr ""
+
+#, c-format
+msgid "  [ -hbcolor bright blue|green|cyan"
+msgstr ""
+
+#, c-format
+msgid "  [ -initialize ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -inversescreen [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -linewrap [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -msg [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -msglevel [0-8] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -powerdown [0-60] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -powersave [on|vsync|hsync|powerdown|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -regtabs [1-160] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -repeat [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -reset ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -reverse [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -snow [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -softscroll [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -standout [ attr ] ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -store ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -tabs [ tab1 tab2 tab3 ... ] ]      (tabn = 1-160)\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -term terminal_name ]\n"
+msgstr ""
+
+#, c-format
+msgid "  [ -ulcolor black|grey|blue|green|cyan"
+msgstr ""
+
+#, c-format
+msgid "  [ -ulcolor bright blue|green|cyan"
+msgstr ""
+
+#, c-format
+msgid "  [ -underline [on|off] ]\n"
+msgstr ""
+
+msgid "  b          Toggle bootable flag of the current partition"
+msgstr ""
+
+msgid "  d          Delete the current partition"
+msgstr ""
+
+msgid "  g          Change cylinders, heads, sectors-per-track parameters"
+msgstr ""
+
+msgid "  h          Print this screen"
+msgstr ""
+
+#, c-format
+msgid "  hole at %ld (%zd)\n"
+msgstr ""
+
+msgid "  m          Maximize disk usage of the current partition"
+msgstr ""
+
+msgid "  n          Create new partition from free space"
+msgstr ""
+
+msgid "  p          Print partition table to the screen or to a file"
+msgstr ""
+
+msgid "  q          Quit program without writing partition table"
+msgstr ""
+
+msgid "  still logged in"
+msgstr ""
+
+msgid "  t          Change the filesystem type"
+msgstr ""
+
+msgid "  u          Change units of the partition size display"
+msgstr ""
+
+#, c-format
+msgid "  uncompressing block at %ld to %ld (%ld)\n"
+msgstr ""
+
+msgid " # Flags Head Sect  Cyl   ID  Head Sect  Cyl     Sector    Sectors\n"
+msgstr ""
+
+msgid ""
+" # Type       Sector      Sector   Offset    Length   Filesystem Type (ID) "
+"Flag\n"
+msgstr ""
+
+#, c-format
+msgid " %s: unrecognized partition table type\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" -a, --all           wipe all magic strings (BE CAREFUL!)\n"
+" -h, --help          show this help text\n"
+" -n, --no-act        do everything except the actual write() call\n"
+" -o, --offset <num>  offset to erase, in bytes\n"
+" -p, --parsable      print out in parsable instead of printable format\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" -h, --help               displays this help text\n"
+" -v, --verbose            says what options are being switched on\n"
+" -R, --addr-no-randomize  disables randomization of the virtual address "
+"space\n"
+" -F, --fdpic-funcptrs     makes function pointers point to descriptors\n"
+" -Z, --mmap-page-zero     turns on MMAP_PAGE_ZERO\n"
+" -L, --addr-compat-layout changes the way virtual memory is allocated\n"
+" -X, --read-implies-exec  turns on READ_IMPLIES_EXEC\n"
+" -B, --32bit              turns on ADDR_LIMIT_32BIT\n"
+" -I, --short-inode        turns on SHORT_INODE\n"
+" -S, --whole-seconds      turns on WHOLE_SECONDS\n"
+" -T, --sticky-timeouts    turns on STICKY_TIMEOUTS\n"
+" -3, --3gb                limits the used address space to a maximum of 3 "
+"GB\n"
+"     --4gb                ignored (for backward compatibility only)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" -h, --help          displays this help text\n"
+" -x, --mountpoints   show mount point directories with a 'D'\n"
+" -m, --modes         show the mode bits of each file\n"
+" -o, --owners        show owner and group name of each file\n"
+" -l, --long          use a long listing format (-m -o -v) \n"
+" -n, --nosymlinks    don't follow symlinks\n"
+" -v, --vertical      vertical align of modes and owners\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" -h, --help          this help\n"
+" -L, --label <label> specify a new label\n"
+" -U, --uuid <uuid>   specify a new uuid\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" -h, --help          this help\n"
+" -f, --freeze        freeze the filesystem\n"
+" -u, --unfreeze      unfreeze the filesystem\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" -h, --help          this help\n"
+" -n, --keep-size     don't modify the length of the file\n"
+" -o, --offset <num>  offset of the allocation, in bytes\n"
+" -l, --length <num>  length of the allocation, in bytes\n"
+msgstr ""
+
+#, c-format
+msgid " Last %s"
+msgstr ""
+
+msgid " Remove"
+msgstr ""
+
+msgid " and "
+msgstr ""
+
+#, c-format
+msgid " and %d."
+msgstr ""
+
+#, c-format
+msgid " badsect"
+msgstr ""
+
+#, c-format
+msgid " ecc"
+msgstr ""
+
+#, c-format
+msgid " removable"
+msgstr ""
+
+msgid "!!! Internal error !!!"
+msgstr ""
+
+msgid ""
+"!!!! Internal error creating logical drive with no extended partition !!!!"
+msgstr ""
+
+#, c-format
+msgid "\"%s\" line %d"
+msgstr ""
+
+#, c-format
+msgid "#       start       end      size     fstype   [fsize bsize   cpg]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"# The following is the parsable format, which can be fed to other\n"
+"# programs. Each different item in every column has an unique ID\n"
+"# starting from zero.\n"
+"# CPU,Core,Socket,Node"
+msgstr ""
+
+#, c-format
+msgid "%*s Boot      Start         End      Blocks   Id  System\n"
+msgstr ""
+
+#, c-format
+msgid "%*s Flag    Start       End    Blocks   Id  System\n"
+msgstr ""
+
+#, c-format
+msgid "%1$s: warning: ignore -U (UUIDs are unsupported by %1$s)\n"
+msgstr ""
+
+#, c-format
+msgid "%2d: %-10s sector%5u size%8u\n"
+msgstr ""
+
+#, c-format
+msgid "%6.2f%% (%+ld bytes)\t%s\n"
+msgstr ""
+
+#, c-format
+msgid "%6ld zones used (%ld%%)\n"
+msgstr ""
+
+#, c-format
+msgid "%c: unknown command\n"
+msgstr ""
+
+#, c-format
+msgid "%d LOGIN FAILURES FROM %s, %s"
+msgstr ""
+
+#, c-format
+msgid "%d LOGIN FAILURES ON %s, %s"
+msgstr ""
+
+#, c-format
+msgid "%d bad blocks\n"
+msgstr ""
+
+#, c-format
+msgid "%d heads, %llu sectors/track, %d cylinders"
+msgstr ""
+
+#, c-format
+msgid "%d: old priority %d, new priority %d\n"
+msgstr ""
+
+#, c-format
+msgid "%ld blocks\n"
+msgstr ""
+
+#, c-format
+msgid "%ld inodes\n"
+msgstr ""
+
+#, c-format
+msgid "%lu bad pages\n"
+msgstr ""
+
+#, c-format
+msgid "%s  %.6f seconds\n"
+msgstr ""
+
+#, c-format
+msgid "%s %d"
+msgstr ""
+
+#, c-format
+msgid "%s %s: status is %x, should never happen.\n"
+msgstr ""
+
+#, c-format
+msgid "%s (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "%s (%u-%u, default %u): "
+msgstr ""
+
+#, c-format
+msgid "%s -An device\t activate partition n, inactivate the other ones\n"
+msgstr ""
+
+#, c-format
+msgid "%s <timingfile> [<typescript> [<divisor>]]\n"
+msgstr ""
+
+#, c-format
+msgid "%s and subsequent %d UUIDs\n"
+msgstr ""
+
+#, c-format
+msgid "%s cache:"
+msgstr ""
+
+#, c-format
+msgid "%s contains no disklabel.\n"
+msgstr ""
+
+#, c-format
+msgid "%s device\t\t list active partitions on device\n"
+msgstr ""
+
+#, c-format
+msgid "%s device n1 n2 ... activate partitions n1 ..., inactivate the rest\n"
+msgstr ""
+
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr ""
+
+#, c-format
+msgid "%s failed.\n"
+msgstr ""
+
+#, c-format
+msgid "%s from %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s has been unmounted\n"
+msgstr ""
+
+#, c-format
+msgid "%s is clean, no check.\n"
+msgstr ""
+
+#, c-format
+msgid "%s is mounted.\t "
+msgstr ""
+
+#, c-format
+msgid "%s is mounted; will not make a filesystem here!"
+msgstr ""
+
+#, c-format
+msgid "%s is not a block special device"
+msgstr ""
+
+#, c-format
+msgid "%s is not a serial line"
+msgstr ""
+
+#, c-format
+msgid "%s is unable to get I/O port access:  the iopl(3) call failed.\n"
+msgstr ""
+
+#, c-format
+msgid "%s login refused on this terminal.\n"
+msgstr ""
+
+#, c-format
+msgid "%s looks like swapspace - not mounted"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s of partition %s has impossible value for cylinders: %lu (should be in 0-"
+"%lu)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s of partition %s has impossible value for head: %lu (should be in 0-%lu)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s of partition %s has impossible value for sector: %lu (should be in 1-"
+"%lu)\n"
+msgstr ""
+
+#, c-format
+msgid "%s on %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s requires an argument\n"
+msgstr ""
+
+#, c-format
+msgid "%s status is %d"
+msgstr ""
+
+#, c-format
+msgid "%s succeeded.\n"
+msgstr ""
+
+#, c-format
+msgid "%s takes no non-option arguments.  You supplied %d.\n"
+msgstr ""
+
+#, c-format
+msgid "%s using IRQ %d\n"
+msgstr ""
+
+#, c-format
+msgid "%s using polling\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s%s.\n"
+"You can do this from the extra functions menu.\n"
+msgstr ""
+
+#, c-format
+msgid "%s-sided, %d tracks, %d sec/track. Total capacity %d kB.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: \"%s\" does not exist.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: \"%s\" is not executable.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: \"%s\" is not listed in /etc/shells.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: $TERM is not defined.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %ld current threshold and %ld current timeout\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %ld cylinders, %ld heads, %ld sectors/track\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %ld default threshold and %ld default timeout\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: %lu ints, %lu chars; fifo: %lu thresh, %lu tmout, %lu max, %lu now\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: %lu ints, %lu/%lu chars; fifo: %lu thresh, %lu tmout, %lu max, %lu now\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try `%s --help' for more information.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s is not authorized to change the finger info of %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s is not authorized to change the shell of %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s not an lp device.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s not enabled for wakeup events\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s requires exactly one command argument\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s unchanged\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s(%i): wrong map line\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s: device is busy"
+msgstr ""
+
+#, c-format
+msgid "%s: %s: unable to obtain selinux file label: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: %s: unable to write signature page: %s"
+msgstr ""
+
+#, c-format
+msgid "%s: %s: warning: don't erase bootbits sectors\n"
+msgstr ""
+
+#, c-format
+msgid "%s: '%c' is not allowed.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: /dev directory does not exist."
+msgstr ""
+
+#, c-format
+msgid "%s: Argument error, usage\n"
+msgstr ""
+
+#, c-format
+msgid "%s: BAD ERROR"
+msgstr ""
+
+#, c-format
+msgid "%s: Can't get context for %s"
+msgstr ""
+
+#, c-format
+msgid "%s: Can't set context for %s"
+msgstr ""
+
+#, c-format
+msgid "%s: Can't set default context for /etc/passwd"
+msgstr ""
+
+#, c-format
+msgid "%s: Cannot create tempfile\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Cannot fork\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Control characters are not allowed.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: Could not find any loop device. Maybe this kernel does not know\n"
+"       about the loop device? (If so, recompile or `modprobe loop'.)"
+msgstr ""
+
+#, c-format
+msgid "%s: Error %d while executing fsck.%s for %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: OK\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Only root can shut a system down.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Out of memory!\n"
+msgstr ""
+
+#, c-format
+msgid "%s: PAM failure, aborting: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Read error from %s file\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: Running UID doesn't match UID of user we're altering, shell change "
+"denied\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: The --adjfile and --noadjfile options are mutually exclusive.  You "
+"specified both.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: The --adjust and --noadjfile options are mutually exclusive.  You "
+"specified both.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: The --utc and --localtime options are mutually exclusive.  You specified "
+"both.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Unable to allocate memory for fsck_path\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Unable to connect to audit system\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Unexpected EOF in %s file\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Unknown command: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Unknown error in %s file\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Unrecognized architecture"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: Usage: \"%s [options]\n"
+"\t -m <mapfile>  (defaults: \"%s\" and\n"
+"\t\t\t\t  \"%s\")\n"
+"\t -p <pro-file> (default: \"%s\")\n"
+"\t -M <mult>     set the profiling multiplier to <mult>\n"
+"\t -i            print only info about the sampling step\n"
+"\t -v            print verbose data\n"
+"\t -a            print all symbols, even if count is 0\n"
+"\t -b            print individual histogram-bin counts\n"
+"\t -s            print individual counters within functions\n"
+"\t -r            reset all the counters (root only)\n"
+"\t -n            disable byte order auto-detection\n"
+"\t -V            print version and exit\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: Usage: %s [-number] [-p string] [-cefnrs] [+line] [+/pattern/] [files]\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Use -l option to see list.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Warning: unrecognized third line in adjtime file\n"
+msgstr ""
+
+#, c-format
+msgid "%s: With --noadjfile, you must specify either --utc or --localtime\n"
+msgstr ""
+
+#, c-format
+msgid "%s: Your shell is not in /etc/shells, shell change denied\n"
+msgstr ""
+
+#, c-format
+msgid "%s: ambivalent probing result, use wipefs(8)"
+msgstr ""
+
+#, c-format
+msgid "%s: assuming RTC uses UTC ...\n"
+msgstr ""
+
+#, c-format
+msgid "%s: atomic %s failed for 1000 iterations!"
+msgstr ""
+
+#, c-format
+msgid "%s: bad directory: '.' isn't first\n"
+msgstr ""
+
+#, c-format
+msgid "%s: bad directory: '..' isn't second\n"
+msgstr ""
+
+#, c-format
+msgid "%s: bad directory: size < 32"
+msgstr ""
+
+#, c-format
+msgid "%s: bad number: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: bad value\n"
+msgstr ""
+
+#, c-format
+msgid "%s: calloc() failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can only change local entries; use yp%s instead.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't exec %s: %m"
+msgstr ""
+
+#, c-format
+msgid "%s: can't find \"_stext\" in %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't find process \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't link %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't open temporary file.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't read %s.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't read temporary file.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't stat temporary file.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: can't unlock %s: %s (your changes are still in %s)\n"
+msgstr ""
+
+#, c-format
+msgid "%s: cannot add inotify watch (limit of inotify watches was reached)."
+msgstr ""
+
+#, c-format
+msgid "%s: cannot add inotify watch."
+msgstr ""
+
+#, c-format
+msgid "%s: cannot open %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: cannot open lock file %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: cannot read inotify events"
+msgstr ""
+
+#, c-format
+msgid "%s: cannot write script file, error: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: could not find any free loop device"
+msgstr ""
+
+#, c-format
+msgid "%s: does not support swapspace version %d.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: dup problem: %m"
+msgstr ""
+
+#, c-format
+msgid "%s: error: %s is mounted; will not make swapspace.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: error: Nowhere to set up swap on?\n"
+msgstr ""
+
+#, c-format
+msgid "%s: error: size %llu KiB is larger than device size %llu KiB\n"
+msgstr ""
+
+#, c-format
+msgid "%s: error: swap area needs to be at least %ld KiB\n"
+msgstr ""
+
+#, c-format
+msgid "%s: error: will not try to make swapdevice on '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "%s: exceeded limit of symlinks"
+msgstr ""
+
+#, c-format
+msgid "%s: failed to open"
+msgstr ""
+
+#, c-format
+msgid "%s: failed to open: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: failed to seek to offset 0x%jx"
+msgstr ""
+
+#, c-format
+msgid "%s: failed to seek to swap UUID"
+msgstr ""
+
+#, c-format
+msgid "%s: failed to seek to swap label "
+msgstr ""
+
+#, c-format
+msgid "%s: failed to write UUID"
+msgstr ""
+
+#, c-format
+msgid "%s: failed to write label"
+msgstr ""
+
+#, c-format
+msgid "%s: fallocate failed"
+msgstr ""
+
+#, c-format
+msgid "%s: fork failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: found swap signature: version %d, page-size %d, %s byte order"
+msgstr ""
+
+#, c-format
+msgid "%s: freeze failed"
+msgstr ""
+
+#, c-format
+msgid "%s: fstat failed"
+msgstr ""
+
+#, c-format
+msgid "%s: get size failed"
+msgstr ""
+
+#, c-format
+msgid "%s: illegal interval %s seconds\n"
+msgstr ""
+
+#, c-format
+msgid "%s: illegal key (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr ""
+
+#, c-format
+msgid "%s: illegal option -- %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: illegal time_t value %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: input overrun"
+msgstr ""
+
+#, c-format
+msgid "%s: insecure permissions %04o, %04o suggested."
+msgstr ""
+
+#, c-format
+msgid "%s: invalid offset '%s' specified"
+msgstr ""
+
+#, c-format
+msgid "%s: invalid sizelimit '%s' specified"
+msgstr ""
+
+#, c-format
+msgid "%s: ioctl error on %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: is not a directory"
+msgstr ""
+
+#, c-format
+msgid "%s: last_page 0x%08llx is larger than actual size of swapspace"
+msgstr ""
+
+#, c-format
+msgid "%s: lseek failed"
+msgstr ""
+
+#, c-format
+msgid "%s: must provide wake time\n"
+msgstr ""
+
+#, c-format
+msgid "%s: no changes made\n"
+msgstr ""
+
+#, c-format
+msgid "%s: no permission to look at /dev/loop%s<N>"
+msgstr ""
+
+#, c-format
+msgid "%s: no such partition\n"
+msgstr ""
+
+#, c-format
+msgid "%s: not a block device\n"
+msgstr ""
+
+#, c-format
+msgid "%s: not a valid swap partition"
+msgstr ""
+
+#, c-format
+msgid "%s: not open for read/write"
+msgstr ""
+
+#, c-format
+msgid "%s: open failed"
+msgstr ""
+
+#, c-format
+msgid "%s: option parse error\n"
+msgstr ""
+
+#, c-format
+msgid "%s: option requires an argument -- %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: out of memory\n"
+msgstr ""
+
+#, c-format
+msgid "%s: pagesize=%d, swapsize=%llu, devsize=%llu"
+msgstr ""
+
+#, c-format
+msgid "%s: parse error: %s"
+msgstr ""
+
+#, c-format
+msgid "%s: profile address out of range. Wrong map file?\n"
+msgstr ""
+
+#, c-format
+msgid "%s: read error on %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: read swap header failed"
+msgstr ""
+
+#, c-format
+msgid "%s: read: %m"
+msgstr ""
+
+#, c-format
+msgid "%s: reinitializing the swap."
+msgstr ""
+
+#, c-format
+msgid "%s: renaming %s to %s failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: requires file descriptor, file or directory\n"
+msgstr ""
+
+#, c-format
+msgid "%s: seek error on %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: shell must be a full path name.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: skipping - it appears to have holes."
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: skipping bad line in /etc/fstab: bind mount with nonzero fsck pass "
+"number\n"
+msgstr ""
+
+#, c-format
+msgid "%s: skipping nonexistent device\n"
+msgstr ""
+
+#, c-format
+msgid "%s: software suspend data detected. Rewriting the swap signature."
+msgstr ""
+
+#, c-format
+msgid "%s: stat failed"
+msgstr ""
+
+#, c-format
+msgid "%s: swap format pagesize does not match."
+msgstr ""
+
+#, c-format
+msgid ""
+"%s: swap format pagesize does not match. (Use --fixpgsz to reinitialize it.)"
+msgstr ""
+
+#, c-format
+msgid "%s: swapoff failed"
+msgstr ""
+
+#, c-format
+msgid "%s: swapon failed"
+msgstr ""
+
+#, c-format
+msgid "%s: the %s file is busy (%s present)\n"
+msgstr ""
+
+#, c-format
+msgid "%s: the group file is busy.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: the password file is busy.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: time doesn't go backward to %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: too many arguments\n"
+msgstr ""
+
+#, c-format
+msgid "%s: too many devices\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unable to execute %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unable to probe device"
+msgstr ""
+
+#, c-format
+msgid "%s: unable to relabel %s to %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unexpected file format"
+msgstr ""
+
+#, c-format
+msgid "%s: unfreeze failed"
+msgstr ""
+
+#, c-format
+msgid "%s: unknown argument: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unknown option \"-%c\"\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unknown signal %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unknown signal %s; valid signals:\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unrecognized suspend state '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "%s: unsupported swap version '%s'"
+msgstr ""
+
+#, c-format
+msgid "%s: user \"%s\" does not exist.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: version %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: wait: No more child process?!?\n"
+msgstr ""
+
+#, c-format
+msgid "%s: wakeup from \"%s\" using %s at %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: warning: truncating swap area to %llu KiB\n"
+msgstr ""
+
+#, c-format
+msgid "%s: will not read %s - use stdin.\n"
+msgstr ""
+
+#, c-format
+msgid "%s: write error %d: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: write error: %s\n"
+msgstr ""
+
+#, c-format
+msgid "%s: write failed"
+msgstr ""
+
+#, c-format
+msgid "%s: write signature failed"
+msgstr ""
+
+#, c-format
+msgid "%s: you (user %d) don't exist.\n"
+msgstr ""
+
+#, c-format
+msgid "%zd bytes ["
+msgstr ""
+
+#, c-format
+msgid "'%c' is not allowed.\n"
+msgstr ""
+
+#, c-format
+msgid "'%s' is unsupported program name (must be 'swapon' or 'swapoff')."
+msgstr ""
+
+#, c-format
+msgid "(%02X)"
+msgstr ""
+
+msgid "(EOF)"
+msgstr ""
+
+#, c-format
+msgid "(Expected: `UTC' or `LOCAL' or nothing.)\n"
+msgstr ""
+
+msgid "(Next file: "
+msgstr ""
+
+#, c-format
+msgid "(Next file: %s)"
+msgstr ""
+
+msgid ", NC"
+msgstr ""
+
+#, c-format
+msgid ", busy"
+msgstr ""
+
+#, c-format
+msgid ", encryption %s (type %<PRIu32>)"
+msgstr ""
+
+#, c-format
+msgid ", encryption type %d\n"
+msgstr ""
+
+#, c-format
+msgid ", error"
+msgstr ""
+
+#, c-format
+msgid ", offset %<PRIu64>"
+msgstr ""
+
+#, c-format
+msgid ", offset %d"
+msgstr ""
+
+#, c-format
+msgid ", on-line"
+msgstr ""
+
+#, c-format
+msgid ", out of paper"
+msgstr ""
+
+#, c-format
+msgid ", ready"
+msgstr ""
+
+#, c-format
+msgid ", sizelimit %<PRIu64>"
+msgstr ""
+
+#, c-format
+msgid ", total %llu sectors"
+msgstr ""
+
+msgid "-- ----- ---- ---- ----- ---- ---- ---- ----- ----------- -----------\n"
+msgstr ""
+
+msgid ""
+"-- ------- ----------- ----------- ------ ----------- -------------------- "
+"----\n"
+msgstr ""
+
+msgid "-- line already flushed"
+msgstr ""
+
+#, c-format
+msgid ""
+"----- Bootinfo -----\n"
+"Bootfile: %s\n"
+"----- Directory Entries -----\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"----- partitions -----\n"
+"Pt# %*s  Info     Start       End   Sectors  Id  System\n"
+msgstr ""
+
+#, c-format
+msgid "------ Message Queues --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Message Queues Creators/Owners --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Message Queues PIDs --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Message Queues Send/Recv/Change Times --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Messages Limits --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Messages Status --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Semaphore Arrays --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Semaphore Arrays Creators/Owners --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Semaphore Limits --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Semaphore Operation/Change Times --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Semaphore Status --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Shared Memory Attach/Detach/Change Times --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Shared Memory Creator/Last-op PIDs --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Shared Memory Limits --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Shared Memory Segment Creators/Owners --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Shared Memory Segments --------\n"
+msgstr ""
+
+#, c-format
+msgid "------ Shared Memory Status --------\n"
+msgstr ""
+
+msgid "-------      -------"
+msgstr ""
+
+#, c-format
+msgid ""
+"----------------------------\n"
+"FILE SYSTEM HAS BEEN CHANGED\n"
+"----------------------------\n"
+msgstr ""
+
+#, c-format
+msgid "--More--"
+msgstr ""
+
+#, c-format
+msgid "--date argument too long\n"
+msgstr ""
+
+msgid "--offset and --all are mutually exclusive"
+msgstr ""
+
+#, c-format
+msgid "--waiting-- (pass %d)\n"
+msgstr ""
+
+msgid "-n flag was given: Nothing changed\n"
+msgstr ""
+
+msgid "...Skipping back to file "
+msgstr ""
+
+msgid "...Skipping to file "
+msgstr ""
+
+#, c-format
+msgid "...back %d pages"
+msgstr ""
+
+msgid "...back 1 page"
+msgstr ""
+
+#, c-format
+msgid "...got clock tick\n"
+msgstr ""
+
+msgid "...skipping\n"
+msgstr ""
+
+#, c-format
+msgid "...skipping %d lines"
+msgstr ""
+
+msgid "...skipping backward\n"
+msgstr ""
+
+msgid "...skipping forward\n"
+msgstr ""
+
+msgid "...skipping one line"
+msgstr ""
+
+#, c-format
+msgid "...synchronization failed\n"
+msgstr ""
+
+#, c-format
+msgid "/dev/%s: cannot open as standard input: %m"
+msgstr ""
+
+#, c-format
+msgid "/dev/%s: not a character device"
+msgstr ""
+
+#, c-format
+msgid "/dev: chdir() failed: %m"
+msgstr ""
+
+msgid ": !command not allowed in rflag mode.\n"
+msgstr ""
+
+msgid "; rest of file ignored"
+msgstr ""
+
+msgid "; see strings(1)."
+msgstr ""
+
+msgid ""
+"<space>                 Display next k lines of text [current screen size]\n"
+"z                       Display next k lines of text [current screen size]*\n"
+"<return>                Display next k lines of text [1]*\n"
+"d or ctrl-D             Scroll k lines [current scroll size, initially 11]*\n"
+"q or Q or <interrupt>   Exit from more\n"
+"s                       Skip forward k lines of text [1]\n"
+"f                       Skip forward k screenfuls of text [1]\n"
+"b or ctrl-B             Skip backwards k screenfuls of text [1]\n"
+"'                       Go to place where previous search started\n"
+"=                       Display current line number\n"
+"/<regular expression>   Search for kth occurrence of regular expression [1]\n"
+"n                       Search for kth occurrence of last r.e [1]\n"
+"!<cmd> or :!<cmd>       Execute <cmd> in a subshell\n"
+"v                       Start up /usr/bin/vi at current line\n"
+"ctrl-L                  Redraw screen\n"
+":n                      Go to kth next file [1]\n"
+":p                      Go to kth previous file [1]\n"
+":f                      Display current file name and line number\n"
+".                       Repeat previous command\n"
+msgstr ""
+
+#, c-format
+msgid "AIEEE: block \"compressed\" to > 2*blocklength (%ld)\n"
+msgstr ""
+
+msgid "AIX"
+msgstr ""
+
+msgid "AIX bootable"
+msgstr ""
+
+msgid "AST SmartSleep"
+msgstr ""
+
+#, c-format
+msgid ""
+"According to MIPS Computer Systems, Inc the Label must not contain more than "
+"512 bytes\n"
+msgstr ""
+
+msgid "Add partition at beginning of free space"
+msgstr ""
+
+msgid "Add partition at end of free space"
+msgstr ""
+
+#, c-format
+msgid "Adding a primary partition\n"
+msgstr ""
+
+#, c-format
+msgid "Alignment offset: %lu bytes\n"
+msgstr ""
+
+#, c-format
+msgid "All logical partitions are in use\n"
+msgstr ""
+
+#, c-format
+msgid "All primary partitions have been defined already!\n"
+msgstr ""
+
+msgid ""
+"All rights reserved.\n"
+"-------------------------------------------------------\n"
+"  h                       this screen\n"
+"  q or Q                  quit program\n"
+"  <newline>               next page\n"
+"  f                       skip a page forward\n"
+"  d or ^D                 next halfpage\n"
+"  l                       next line\n"
+"  $                       last page\n"
+"  /regex/                 search forward for regex\n"
+"  ?regex? or ^regex^      search backward for regex\n"
+"  . or ^L                 redraw screen\n"
+"  w or z                  set page size and go to next page\n"
+"  s filename              save current file to filename\n"
+"  !command                shell escape\n"
+"  p                       go to previous file\n"
+"  n                       go to next file\n"
+"\n"
+"Many commands accept preceding numbers, for example:\n"
+"+1<newline> (next page); -1<newline> (previous page); 1<newline> (first "
+"page).\n"
+"\n"
+"See pg(1) for more information.\n"
+"-------------------------------------------------------\n"
+msgstr ""
+
+msgid "Amoeba"
+msgstr ""
+
+msgid "Amoeba BBT"
+msgstr ""
+
+msgid ""
+"Among the primary partitions, at most one can be extended\n"
+" (although this is not a problem under Linux)\n"
+msgstr ""
+
+msgid "Architecture:"
+msgstr ""
+
+#, c-format
+msgid "Are you satisfied with this? [ynq] "
+msgstr ""
+
+msgid ""
+"Are you sure you want to write the partition table to disk? (yes or no): "
+msgstr ""
+
+#, c-format
+msgid "Assuming hardware clock is kept in %s time.\n"
+msgstr ""
+
+#, c-format
+msgid "Assuming reversed byte order. Use -n to force native byte order.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"At %ld seconds after 1969, RTC is predicted to read %ld seconds after 1969.\n"
+msgstr ""
+
+#, c-format
+msgid "Attempting to generate entire disk entry automatically.\n"
+msgstr ""
+
+#, c-format
+msgid "Available commands:\n"
+msgstr ""
+
+msgid "BBT"
+msgstr ""
+
+#, c-format
+msgid "BLKGETSIZE ioctl failed on %s\n"
+msgstr ""
+
+msgid "BSD disklabel command (m for help): "
+msgstr ""
+
+msgid "BSD/OS"
+msgstr ""
+
+msgid "BSDI fs"
+msgstr ""
+
+msgid "BSDI swap"
+msgstr ""
+
+#, c-format
+msgid "Bad Id %lx\n"
+msgstr ""
+
+msgid "Bad logical partition"
+msgstr ""
+
+#, c-format
+msgid "Bad number: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Bad offset in primary extended partition\n"
+msgstr ""
+
+msgid "Bad primary partition"
+msgstr ""
+
+msgid "Bad signature on partition table"
+msgstr ""
+
+#, c-format
+msgid "Bad swap header size, no label written.\n"
+msgstr ""
+
+#, c-format
+msgid "Bad user-specified page size %d\n"
+msgstr ""
+
+msgid "BeOS fs"
+msgstr ""
+
+msgid "Beginning"
+msgstr ""
+
+#, c-format
+msgid "Block %d in file `%s' is marked not in use."
+msgstr ""
+
+#, c-format
+msgid "Block has been used before. Now in file `%s'."
+msgstr ""
+
+#, c-format
+msgid "BlockSize: %d\n"
+msgstr ""
+
+#, c-format
+msgid "Blocks: %lld\n"
+msgstr ""
+
+msgid "Boot"
+msgstr ""
+
+msgid "Boot Wizard hidden"
+msgstr ""
+
+#, c-format
+msgid "Boot file unchanged\n"
+msgstr ""
+
+msgid "BootIt"
+msgstr ""
+
+msgid "Bootable"
+msgstr ""
+
+msgid "Booting to single user mode.\n"
+msgstr ""
+
+#, c-format
+msgid "Bootstrap installed on %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Bootstrap overlaps with disk label!\n"
+msgstr ""
+
+#, c-format
+msgid "Bootstrap: %sboot -> boot%s (%s): "
+msgstr ""
+
+#, c-format
+msgid "Broadcast Message from %s@%s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Building a new DOS disklabel with disk identifier 0x%08x.\n"
+"Changes will remain in memory only, until you decide to write them.\n"
+"After that, of course, the previous content won't be recoverable.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Building a new SGI disklabel. Changes will remain in memory only,\n"
+"until you decide to write them. After that, of course, the previous\n"
+"content will be unrecoverably lost.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Building a new sun disklabel. Changes will remain in memory only,\n"
+"until you decide to write them. After that, of course, the previous\n"
+"content won't be recoverable.\n"
+"\n"
+msgstr ""
+
+msgid "CP/M"
+msgstr ""
+
+msgid "CP/M / CTOS / ..."
+msgstr ""
+
+msgid "CPU MHz:"
+msgstr ""
+
+msgid ""
+"CPU architecture information helper\n"
+"\n"
+"  -h, --help     usage information\n"
+"  -p, --parse    print out in parsable instead of printable format.\n"
+"  -s, --sysroot  use the directory as a new system root.\n"
+msgstr ""
+
+msgid "CPU family:"
+msgstr ""
+
+msgid "CPU list"
+msgstr ""
+
+msgid "CPU mask"
+msgstr ""
+
+msgid "CPU op-mode(s):"
+msgstr ""
+
+msgid "CPU socket(s):"
+msgstr ""
+
+#, c-format
+msgid "CRC: %x\n"
+msgstr ""
+
+msgid "CTRL-L       Redraws the screen"
+msgstr ""
+
+#, c-format
+msgid "Calling ioctl() to re-read partition table.\n"
+msgstr ""
+
+#, c-format
+msgid "Calling kernel power-off facility...\n"
+msgstr ""
+
+#, c-format
+msgid "Calling settimeofday:\n"
+msgstr ""
+
+#, c-format
+msgid "Can't get threshold for %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Can't get timeout for %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Can't issue CYGETMON on %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Can't lock lock file %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Can't open %s: %s\n"
+msgstr ""
+
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr ""
+
+#, c-format
+msgid "Can't set %s to threshold %d: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Can't set %s to time threshold %d: %s\n"
+msgstr ""
+
+msgid "Can't set signal handler"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+#, c-format
+msgid "Cannot access the Hardware Clock via any known method.\n"
+msgstr ""
+
+msgid "Cannot change FS Type to empty"
+msgstr ""
+
+msgid "Cannot change FS Type to extended"
+msgstr ""
+
+msgid "Cannot change the type of an empty partition"
+msgstr ""
+
+#, c-format
+msgid ""
+"Cannot create link %s\n"
+"Perhaps there is a stale lock file?\n"
+msgstr ""
+
+msgid ""
+"Cannot create logical drive here -- would create two extended partitions"
+msgstr ""
+
+msgid "Cannot delete an empty partition"
+msgstr ""
+
+#, c-format
+msgid "Cannot exec %s, trying umount.\n"
+msgstr ""
+
+msgid "Cannot exec swapoff, hoping umount will do the trick."
+msgstr ""
+
+msgid "Cannot exec umount, giving up on umount."
+msgstr ""
+
+msgid "Cannot fork for swapoff. Shrug!"
+msgstr ""
+
+msgid "Cannot fork for umount, trying manually."
+msgstr ""
+
+msgid "Cannot get disk size"
+msgstr ""
+
+#, c-format
+msgid "Cannot get size of %s\n"
+msgstr ""
+
+#, c-format
+msgid "Cannot locate block device '%s' (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "Cannot locate raw device '%s' (%s)\n"
+msgstr ""
+
+msgid "Cannot make this partition bootable"
+msgstr ""
+
+msgid "Cannot maximize this partition"
+msgstr ""
+
+msgid "Cannot open "
+msgstr ""
+
+#, c-format
+msgid "Cannot open %s\n"
+msgstr ""
+
+#, c-format
+msgid "Cannot open /dev/port: %s"
+msgstr ""
+
+msgid "Cannot open disk drive"
+msgstr ""
+
+#, c-format
+msgid "Cannot open file '%s'"
+msgstr ""
+
+#, c-format
+msgid "Cannot open master raw device '"
+msgstr ""
+
+msgid "Cannot read disk drive"
+msgstr ""
+
+msgid "Cannot seek on disk drive"
+msgstr ""
+
+msgid "Cannot unmount \"\"\n"
+msgstr ""
+
+msgid "Cannot write disk drive"
+msgstr ""
+
+msgid "Change cylinder geometry"
+msgstr ""
+
+msgid "Change disk geometry (experts only)"
+msgstr ""
+
+msgid "Change head geometry"
+msgstr ""
+
+msgid "Change sector geometry"
+msgstr ""
+
+msgid "Change the filesystem type (DOS, Linux, OS/2 and so on)"
+msgstr ""
+
+msgid "Change units of the partition size display (MB, sect, cyl)"
+msgstr ""
+
+#, c-format
+msgid "Changed system type of partition %d to %x (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "Changing display/entry units to cylinders (DEPRECATED!)\n"
+msgstr ""
+
+#, c-format
+msgid "Changing display/entry units to sectors\n"
+msgstr ""
+
+#, c-format
+msgid "Changing finger information for %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Changing shell for %s.\n"
+msgstr ""
+
+msgid "Checking all file systems.\n"
+msgstr ""
+
+msgid "Checking that no-one is using this disk right now ...\n"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+#, c-format
+msgid ""
+"Clock drifted %.1f seconds in the past %d seconds in spite of a drift factor "
+"of %f seconds/day.\n"
+"Adjusting drift factor by %f seconds/day\n"
+msgstr ""
+
+#, c-format
+msgid "Clock not changed - testing only.\n"
+msgstr ""
+
+msgid "Command      Meaning"
+msgstr ""
+
+msgid "Command (m for help): "
+msgstr ""
+
+msgid "Command action"
+msgstr ""
+
+#, c-format
+msgid ""
+"Command action\n"
+"   %s\n"
+"   p   primary partition (1-4)\n"
+msgstr ""
+
+msgid "Compaq diagnostics"
+msgstr ""
+
+#, c-format
+msgid ""
+"Consider leaving partition 3 as Whole disk (5),\n"
+"as SunOS/Solaris expects it and even Linux likes it.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Consider leaving partition 9 as volume header (0),\n"
+"and partition 11 as entire volume (6), as IRIX expects it.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Control characters are not allowed.\n"
+msgstr ""
+
+msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+msgstr ""
+
+#, c-format
+msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+msgstr ""
+
+msgid "Core(s) per socket:"
+msgstr ""
+
+msgid "Correct"
+msgstr ""
+
+msgid "Could not determine current format type"
+msgstr ""
+
+#, c-format
+msgid "Could not find %s in mtab\n"
+msgstr ""
+
+#, c-format
+msgid "Could not open %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Could not open file with the clock adjustment parameters in it (%s) for "
+"writing"
+msgstr ""
+
+#, c-format
+msgid "Could not update file with the clock adjustment parameters (%s) in it"
+msgstr ""
+
+msgid "Couldn't allocate memory for filesystem types\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't bind unix socket %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't create unix stream socket: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't find matching filesystem: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't initialize PAM: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't kill uuidd running at pid %d: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't listen on unix socket %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't lock into memory, exiting.\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't open %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't read %s\n"
+msgstr ""
+
+msgid "Create a new logical partition"
+msgstr ""
+
+msgid "Create a new primary partition"
+msgstr ""
+
+msgid "Create new partition from free space"
+msgstr ""
+
+#, c-format
+msgid "Current system time: %ld = %s\n"
+msgstr ""
+
+msgid "Cylinders"
+msgstr ""
+
+#, c-format
+msgid "DIALUP AT %s BY %s"
+msgstr ""
+
+msgid "DM6 signature found - giving up\n"
+msgstr ""
+
+#, c-format
+msgid "DOS Compatibility flag is not set\n"
+msgstr ""
+
+#, c-format
+msgid "DOS Compatibility flag is set (DEPRECATED!)\n"
+msgstr ""
+
+msgid "DOS R/O"
+msgstr ""
+
+msgid "DOS access"
+msgstr ""
+
+msgid "DOS secondary"
+msgstr ""
+
+msgid "DRDOS/sec (FAT-12)"
+msgstr ""
+
+msgid "DRDOS/sec (FAT-16 < 32M)"
+msgstr ""
+
+msgid "DRDOS/sec (FAT-16)"
+msgstr ""
+
+msgid "Darwin UFS"
+msgstr ""
+
+msgid "Darwin boot"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete the current partition"
+msgstr ""
+
+msgid "Dell Utility"
+msgstr ""
+
+#, c-format
+msgid "Detected an OSF/1 disklabel on %s, entering disklabel mode.\n"
+msgstr ""
+
+#, c-format
+msgid "Detected sgi disklabel with wrong checksum.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Detected sun disklabel with wrong checksum.\n"
+"Probably you'll have to set all the values,\n"
+"e.g. heads, sectors, cylinders and partitions\n"
+"or force a fresh label (s command in main menu)\n"
+msgstr ""
+
+#, c-format
+msgid "Detected sun disklabel with wrong num_partitions [%u].\n"
+msgstr ""
+
+#, c-format
+msgid "Detected sun disklabel with wrong sanity [0x%08x].\n"
+msgstr ""
+
+#, c-format
+msgid "Detected sun disklabel with wrong version [0x%08x].\n"
+msgstr ""
+
+msgid "Device"
+msgstr ""
+
+#, c-format
+msgid ""
+"Device '%s' is control raw dev (use raw<N> where <N> is greater than zero)\n"
+msgstr ""
+
+#, c-format
+msgid "Device '%s' is not a block dev\n"
+msgstr ""
+
+#, c-format
+msgid "Device '%s' is not a raw dev\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Device contains neither a valid DOS partition table, nor Sun, SGI or OSF "
+"disklabel\n"
+msgstr ""
+
+#, c-format
+msgid "Device: %s\n"
+msgstr ""
+
+msgid "Did not write partition table to disk"
+msgstr ""
+
+#, c-format
+msgid "Directory data: %zd bytes\n"
+msgstr ""
+
+#, c-format
+msgid "Disk %s doesn't contain a valid partition table\n"
+msgstr ""
+
+#, c-format
+msgid "Disk %s: cannot get geometry\n"
+msgstr ""
+
+#, c-format
+msgid "Disk %s: cannot get size\n"
+msgstr ""
+
+#, c-format
+msgid "Disk Drive: %s"
+msgstr ""
+
+#, c-format
+msgid "Disk Drive: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Disk has been changed.\n"
+msgstr ""
+
+#, c-format
+msgid "Disk identifier: 0x%08x\n"
+msgstr ""
+
+msgid "DiskSecure Multi-Boot"
+msgstr ""
+
+#, c-format
+msgid "Do You know, You got a partition overlap on the disk?\n"
+msgstr ""
+
+msgid "Do you really want to continue"
+msgstr ""
+
+msgid "Do you want to create a disklabel? (y/n) "
+msgstr ""
+
+#, c-format
+msgid "Do you want to write this to disk? [ynq] "
+msgstr ""
+
+msgid "Do you wish to start with a zero table [y/N] ?"
+msgstr ""
+
+msgid "Don't create a partition"
+msgstr ""
+
+msgid "Don't print the table"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid ""
+"Done\n"
+"\n"
+msgstr ""
+
+msgid "Done with changing geometry"
+msgstr ""
+
+#, c-format
+msgid "Done.\n"
+msgstr ""
+
+msgid "Double"
+msgstr ""
+
+msgid "Down Arrow   Move cursor to the next partition"
+msgstr ""
+
+#, c-format
+msgid "Drift adjustment parameters not updated.\n"
+msgstr ""
+
+msgid "EFI (FAT-12/16/32)"
+msgstr ""
+
+#, c-format
+msgid "ERROR: sector %lu does not have an msdos signature\n"
+msgstr ""
+
+msgid "EXCESSIVE linefeeds"
+msgstr ""
+
+msgid "EZ-Drive"
+msgstr ""
+
+msgid ""
+"Either all or none of the filesystem types passed to -t must be prefixed\n"
+"with 'no' or '!'.\n"
+msgstr ""
+
+msgid "Empty"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Enter filename or press RETURN to display on screen: "
+msgstr ""
+
+msgid "Enter filesystem type: "
+msgstr ""
+
+msgid "Enter the number of cylinders: "
+msgstr ""
+
+msgid "Enter the number of heads: "
+msgstr ""
+
+msgid "Enter the number of sectors per track: "
+msgstr ""
+
+#, c-format
+msgid "Error calling uuidd daemon (%s): %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error closing %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error executing\t%s\n"
+msgstr ""
+
+#, c-format
+msgid "Error powering off\t%s\n"
+msgstr ""
+
+#, c-format
+msgid "Error querying raw device (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "Error reading from client, len = %d\n"
+msgstr ""
+
+#, c-format
+msgid "Error setting raw device (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "Error writing screendump\n"
+msgstr ""
+
+#, c-format
+msgid "Everything: %zd kilobytes\n"
+msgstr ""
+
+#, c-format
+msgid "Executing the program \"%s\" ...\n"
+msgstr ""
+
+msgid "Expert command (m for help): "
+msgstr ""
+
+msgid "Extended"
+msgstr ""
+
+msgid "Extended partition not where expected\n"
+msgstr ""
+
+msgid "Extra sectors per cylinder"
+msgstr ""
+
+#, c-format
+msgid "FAILED LOGIN %d FROM %s FOR %s, %s"
+msgstr ""
+
+#, c-format
+msgid "FAILED LOGIN SESSION FROM %s FOR %s, %s"
+msgstr ""
+
+msgid "FAT12"
+msgstr ""
+
+msgid "FAT16"
+msgstr ""
+
+msgid "FAT16 <32M"
+msgstr ""
+
+msgid "FATAL ERROR"
+msgstr ""
+
+#, c-format
+msgid "FATAL: %s is not a terminal"
+msgstr ""
+
+msgid "FATAL: bad tty"
+msgstr ""
+
+#, c-format
+msgid "FATAL: can't reopen tty: %s"
+msgstr ""
+
+msgid "FS Type"
+msgstr ""
+
+#, c-format
+msgid "FSname: <%-6s>\n"
+msgstr ""
+
+msgid "Failed saving the old sectors - aborting\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to lock %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to open %s for reading, exiting."
+msgstr ""
+
+#, c-format
+msgid "Failed to open/create %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to set personality to %s"
+msgstr ""
+
+#, c-format
+msgid "Failed writing the partition on %s\n"
+msgstr ""
+
+msgid "Fatal error\n"
+msgstr ""
+
+#, c-format
+msgid "Fatal error: cannot find %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"File %s, For threshold value %lu and timrout value %lu, Maximum characters "
+"in fifo were %d,\n"
+"and the maximum transfer rate in characters/second was %f\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"File %s, For threshold value %lu, Maximum characters in fifo were %d,\n"
+"and the maximum transfer rate in characters/second was %f\n"
+msgstr ""
+
+#, c-format
+msgid "Filesystem on %s is dirty, needs checking.\n"
+msgstr ""
+
+#, c-format
+msgid "Filesystem state=%d\n"
+msgstr ""
+
+#, c-format
+msgid "Finger information *NOT* changed.  Try again later.\n"
+msgstr ""
+
+#, c-format
+msgid "Finger information changed.\n"
+msgstr ""
+
+#, c-format
+msgid "Finger information not changed.\n"
+msgstr ""
+
+#, c-format
+msgid "Finished with %s (exit status %d)\n"
+msgstr ""
+
+#, c-format
+msgid "First %s"
+msgstr ""
+
+#, c-format
+msgid "Firstdatazone=%ld (%ld)\n"
+msgstr ""
+
+msgid "Flags"
+msgstr ""
+
+#, c-format
+msgid "Forcing filesystem check on %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Formatting ... "
+msgstr ""
+
+msgid "Free Space"
+msgstr ""
+
+msgid "FreeBSD"
+msgstr ""
+
+msgid "GNU HURD or SysV"
+msgstr ""
+
+msgid "GPT"
+msgstr ""
+
+#, c-format
+msgid "Generated %d UUIDs:\n"
+msgstr ""
+
+#, c-format
+msgid "Generated random UUID: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Generated time UUID %s and %d following\n"
+msgstr ""
+
+#, c-format
+msgid "Generated time UUID: %s\n"
+msgstr ""
+
+msgid "Geometry"
+msgstr ""
+
+msgid "Golden Bow"
+msgstr ""
+
+#, c-format
+msgid "Got %d bytes from %s\n"
+msgstr ""
+
+msgid "HFS / HFS+"
+msgstr ""
+
+msgid "HPFS/NTFS"
+msgstr ""
+
+#, c-format
+msgid "Hardware clock is on %s time\n"
+msgstr ""
+
+msgid "Heads"
+msgstr ""
+
+#, c-format
+msgid "Heads: %d   Sectors per Track: %d   Cylinders: %lld"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Help Screen for cfdisk"
+msgstr ""
+
+msgid "Hex code (type L to list codes): "
+msgstr ""
+
+msgid "Hidden FAT12"
+msgstr ""
+
+msgid "Hidden FAT16"
+msgstr ""
+
+msgid "Hidden FAT16 <32M"
+msgstr ""
+
+msgid "Hidden HPFS/NTFS"
+msgstr ""
+
+msgid "Hidden W95 FAT16 (LBA)"
+msgstr ""
+
+msgid "Hidden W95 FAT32"
+msgstr ""
+
+msgid "Hidden W95 FAT32 (LBA)"
+msgstr ""
+
+msgid "Home Phone"
+msgstr ""
+
+#, c-format
+msgid "Hw clock time : %4d/%.2d/%.2d %.2d:%.2d:%.2d = %ld seconds since 1969\n"
+msgstr ""
+
+msgid "Hypervisor vendor:"
+msgstr ""
+
+msgid ""
+"I don't like these partitions - nothing changed.\n"
+"(If you really want this, use the --force option.)\n"
+msgstr ""
+
+msgid "I don't like this - probably you should answer No\n"
+msgstr ""
+
+#, c-format
+msgid "I failed to get permission because I didn't try.\n"
+msgstr ""
+
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes\n"
+msgstr ""
+
+msgid "IBM Thinkpad hibernation"
+msgstr ""
+
+#, c-format
+msgid "ID=%02x\tSTART=%d\tLENGTH=%d\n"
+msgstr ""
+
+#, c-format
+msgid "IRIX likes when Partition 11 covers the entire disk.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Id  Name\n"
+"\n"
+msgstr ""
+
+msgid ""
+"If you created or changed a DOS partition, /dev/foo7, say, then use dd(1)\n"
+"to zero the first 512 bytes:  dd if=/dev/zero of=/dev/foo7 bs=512 count=1\n"
+"(See fdisk(8).)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"If you want to maintain SunOS/Solaris compatibility, consider leaving this\n"
+"partition as Whole disk (5), starting at 0, with %u sectors\n"
+msgstr ""
+
+#, c-format
+msgid "Ignoring extra extended partition %d\n"
+msgstr ""
+
+msgid "Illegal command"
+msgstr ""
+
+msgid "Illegal cylinders value"
+msgstr ""
+
+msgid "Illegal heads value"
+msgstr ""
+
+msgid "Illegal key"
+msgstr ""
+
+msgid "Illegal sectors value"
+msgstr ""
+
+msgid "Illegal type\n"
+msgstr ""
+
+msgid "Illegal username"
+msgstr ""
+
+#, c-format
+msgid "Including: %s\n"
+msgstr ""
+
+msgid "Incorrect password."
+msgstr ""
+
+#, c-format
+msgid "Inode %d (mode = %07o), i_nlinks=%d, counted=%d."
+msgstr ""
+
+#, c-format
+msgid "Inode %d marked unused, but used for file '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "Inode %d mode not cleared."
+msgstr ""
+
+#, c-format
+msgid "Inode %d not used, marked used in the bitmap."
+msgstr ""
+
+#, c-format
+msgid "Inode %d used, marked unused in the bitmap."
+msgstr ""
+
+#, c-format
+msgid "Inode end: %d, Data end: %d\n"
+msgstr ""
+
+#, c-format
+msgid "Inodes: %d (in %lld blocks)\n"
+msgstr ""
+
+#, c-format
+msgid "Inodes: %d (in 1 block)\n"
+msgstr ""
+
+msgid ""
+"Input in the following format; absent fields get a default value.\n"
+"<start> <size> <type [E,S,L,X,hex]> <bootable [-,*]> <c,h,s> <c,h,s>\n"
+"Usually you only need to specify <start> and <size> (and perhaps <type>).\n"
+msgstr ""
+
+#, c-format
+msgid "Input line too long.\n"
+msgstr ""
+
+msgid "Interleave factor"
+msgstr ""
+
+#, c-format
+msgid "Internal error\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Internal error: trying to write bad block\n"
+"Write request ignored\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid default time value: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid default value: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid interval value: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid operation %d\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid partition number for type `%c'\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid set time value: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid set value: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid user name \"%s\" in %s:%d. Abort."
+msgstr ""
+
+#, c-format
+msgid "Invalid values in hardware clock: %4d/%.2d/%.2d %.2d:%.2d:%.2d\n"
+msgstr ""
+
+#, c-format
+msgid "Is /proc mounted?\n"
+msgstr ""
+
+#, c-format
+msgid "Issuing date command: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"It is highly recommended that eleventh partition\n"
+"covers the entire disk and is of type `SGI volume'\n"
+msgstr ""
+
+msgid ""
+"It is highly recommended that the partition at offset 0\n"
+"is UFS, EXT2FS filesystem or SunOS swap. Putting Linux swap\n"
+"there may destroy your partition table and bootblock.\n"
+"Type YES if you're very sure you would like that partition\n"
+"tagged with 82 (Linux swap): "
+msgstr ""
+
+msgid ""
+"It is highly recommended that the partition at offset 0\n"
+"is of type \"SGI volhdr\", the IRIX system will rely on it to\n"
+"retrieve from its directory standalone tools like sash and fx.\n"
+"Only the \"SGI volume\" entire disk section may violate this.\n"
+"Type YES if you are sure about tagging this partition differently.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"It is highly recommended that the third partition covers the whole disk\n"
+"and is of type `Whole disk'\n"
+msgstr ""
+
+msgid "Just print the partition table"
+msgstr ""
+
+msgid "KDGHWCLK ioctl failed"
+msgstr ""
+
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr ""
+
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr ""
+
+#, c-format
+msgid "Kernel is assuming an epoch value of %lu\n"
+msgstr ""
+
+#, c-format
+msgid "Killed uuidd running at pid %d\n"
+msgstr ""
+
+msgid "LANstep"
+msgstr ""
+
+#, c-format
+msgid "LOGIN %s REFUSED FROM %s ON TTY %s"
+msgstr ""
+
+#, c-format
+msgid "LOGIN %s REFUSED ON TTY %s"
+msgstr ""
+
+#, c-format
+msgid "LOGIN FAILURE FROM %s, %s"
+msgstr ""
+
+#, c-format
+msgid "LOGIN FAILURE ON %s, %s"
+msgstr ""
+
+#, c-format
+msgid "LOGIN ON %s BY %s"
+msgstr ""
+
+#, c-format
+msgid "LOGIN ON %s BY %s FROM %s"
+msgstr ""
+
+msgid "LPGETIRQ error"
+msgstr ""
+
+msgid "LPGETSTATUS error"
+msgstr ""
+
+#, c-format
+msgid "Label was truncated.\n"
+msgstr ""
+
+#, c-format
+msgid "Last %1$s, +%2$s or +size{K,M,G}"
+msgstr ""
+
+#, c-format
+msgid "Last %s or +size or +sizeM or +sizeK"
+msgstr ""
+
+#, c-format
+msgid "Last calibration done at %ld seconds after 1969\n"
+msgstr ""
+
+#, c-format
+msgid "Last drift adjustment done at %ld seconds after 1969\n"
+msgstr ""
+
+#, c-format
+msgid "Last login: %.*s "
+msgstr ""
+
+msgid "Line too long"
+msgstr ""
+
+msgid "Linux"
+msgstr ""
+
+msgid "Linux LVM"
+msgstr ""
+
+msgid "Linux RAID"
+msgstr ""
+
+msgid "Linux extended"
+msgstr ""
+
+msgid "Linux native"
+msgstr ""
+
+msgid "Linux plaintext"
+msgstr ""
+
+msgid "Linux raid autodetect"
+msgstr ""
+
+msgid "Linux swap"
+msgstr ""
+
+msgid "Linux swap / Solaris"
+msgstr ""
+
+msgid "Linux/PA-RISC boot"
+msgstr ""
+
+#, c-format
+msgid "List of UUIDs:\n"
+msgstr ""
+
+#, c-format
+msgid "Logging in with home = \"/\".\n"
+msgstr ""
+
+msgid "Logical"
+msgstr ""
+
+#, c-format
+msgid "Logical partition %d not entirely in partition %d\n"
+msgstr ""
+
+#, c-format
+msgid "Login incorrect\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Login incorrect\n"
+"\n"
+msgstr ""
+
+msgid "Login is therefore prohibited."
+msgstr ""
+
+#, c-format
+msgid "Login on %s from %s denied by default.\n"
+msgstr ""
+
+#, c-format
+msgid "Login on %s from %s denied.\n"
+msgstr ""
+
+#, c-format
+msgid "Login timed out after %d seconds\n"
+msgstr ""
+
+#, c-format
+msgid "Loop device is %s\n"
+msgstr ""
+
+msgid "Mark in use"
+msgstr ""
+
+msgid "Maximize"
+msgstr ""
+
+msgid "Maximize disk usage of the current partition (experts only)"
+msgstr ""
+
+#, c-format
+msgid "Maxsize=%ld\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Maxsize=%ld\n"
+"\n"
+msgstr ""
+
+msgid "Menu item too long. Menu may look odd."
+msgstr ""
+
+msgid "Menu without direction. Defaulting to horizontal."
+msgstr ""
+
+#, c-format
+msgid "Message from %s@%s (as %s) on %s at %s ..."
+msgstr ""
+
+#, c-format
+msgid "Message from %s@%s on %s at %s ..."
+msgstr ""
+
+#, c-format
+msgid "Message queue id: %d\n"
+msgstr ""
+
+msgid "Minix / old Linux"
+msgstr ""
+
+msgid "Model:"
+msgstr ""
+
+#, c-format
+msgid "More than one entire disk entry present.\n"
+msgstr ""
+
+msgid ""
+"More than one primary partition is marked bootable. DOS MBR cannot boot this."
+msgstr ""
+
+#, c-format
+msgid "Must be <= sectors/track * tracks/cylinder (default).\n"
+msgstr ""
+
+#, c-format
+msgid "Must be root to scan for matching filesystems: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Must be superuser to set system clock.\n"
+msgstr ""
+
+msgid "NAME too long"
+msgstr ""
+
+msgid "NC"
+msgstr ""
+
+msgid "NEC DOS"
+msgstr ""
+
+msgid "NTFS volume set"
+msgstr ""
+
+#, c-format
+msgid "NULL user name in %s:%d. Abort."
+msgstr ""
+
+#, c-format
+msgid "NUMA node%d CPU(s):"
+msgstr ""
+
+msgid "NUMA node(s):"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "NeXTSTEP"
+msgstr ""
+
+#, c-format
+msgid "Need to insert %d seconds and refer time back %.6f seconds ago\n"
+msgstr ""
+
+#, c-format
+msgid "Needed adjustment is less than one second, so not setting clock.\n"
+msgstr ""
+
+msgid "NetBSD"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New beginning of data"
+msgstr ""
+
+#, c-format
+msgid "New disk identifier (current 0x%08x): "
+msgstr ""
+
+msgid "New shell"
+msgstr ""
+
+#, c-format
+msgid "New situation:\n"
+msgstr ""
+
+#, c-format
+msgid "No --date option specified.\n"
+msgstr ""
+
+#, c-format
+msgid "No directory %s!\n"
+msgstr ""
+
+#, c-format
+msgid "No free sectors available\n"
+msgstr ""
+
+#, c-format
+msgid "No known shells.\n"
+msgstr ""
+
+#, c-format
+msgid "No loop support was available at compile time. Please recompile.\n"
+msgstr ""
+
+msgid "No more partitions"
+msgstr ""
+
+msgid "No next file"
+msgstr ""
+
+#, c-format
+msgid "No partition is defined yet!\n"
+msgstr ""
+
+msgid "No partition table.\n"
+msgstr ""
+
+msgid "No partition table. Starting with zero table."
+msgstr ""
+
+#, c-format
+msgid "No partitions defined\n"
+msgstr ""
+
+msgid "No partitions found\n"
+msgstr ""
+
+msgid "No previous command to substitute for"
+msgstr ""
+
+msgid "No previous file"
+msgstr ""
+
+msgid "No primary partitions are marked bootable. DOS MBR cannot boot this."
+msgstr ""
+
+msgid "No remembered search string"
+msgstr ""
+
+msgid "No room for more\n"
+msgstr ""
+
+msgid "No room to create the extended partition"
+msgstr ""
+
+msgid "No shell"
+msgstr ""
+
+#, c-format
+msgid "No usable clock interface found.\n"
+msgstr ""
+
+#, c-format
+msgid "No usable set-to time.  Cannot set clock.\n"
+msgstr ""
+
+msgid "Non-FS data"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+#, c-format
+msgid ""
+"Not adjusting drift factor because it has been less than a day since the "
+"last calibration.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Not adjusting drift factor because last calibration time is zero,\n"
+"so history is bad and calibration startover is necessary.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Not adjusting drift factor because the Hardware Clock previously contained "
+"garbage.\n"
+msgstr ""
+
+msgid "Not enough arguments"
+msgstr ""
+
+msgid "Not set"
+msgstr ""
+
+#, c-format
+msgid ""
+"Not setting clock because last adjustment time is zero, so history is bad."
+msgstr ""
+
+#, c-format
+msgid "Not setting system clock because running in test mode.\n"
+msgstr ""
+
+#, c-format
+msgid "Not setting the epoch to %d - testing only.\n"
+msgstr ""
+
+msgid "Not superuser."
+msgstr ""
+
+#, c-format
+msgid "Not updating adjtime file because of testing mode.\n"
+msgstr ""
+
+msgid "Note: All of the commands can be entered with either upper or lower"
+msgstr ""
+
+#, c-format
+msgid "Note: sector size is %d (not %d)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Nothing to do. Ordering is correct already.\n"
+"\n"
+msgstr ""
+
+msgid "Novell Netware 286"
+msgstr ""
+
+msgid "Novell Netware 386"
+msgstr ""
+
+#, c-format
+msgid "Nr AF  Hd Sec  Cyl  Hd Sec  Cyl     Start      Size ID\n"
+msgstr ""
+
+msgid "Number of alternate cylinders"
+msgstr ""
+
+msgid "Number of cylinders"
+msgstr ""
+
+msgid "Number of heads"
+msgstr ""
+
+msgid "Number of physical cylinders"
+msgstr ""
+
+msgid "Number of sectors"
+msgstr ""
+
+msgid "OK\n"
+msgstr ""
+
+msgid "OPUS"
+msgstr ""
+
+msgid "OS/2 Boot Manager"
+msgstr ""
+
+msgid "OS/2 hidden C: drive"
+msgstr ""
+
+msgid "Office"
+msgstr ""
+
+msgid "Office Phone"
+msgstr ""
+
+msgid "Old Minix"
+msgstr ""
+
+#, c-format
+msgid "Old situation:\n"
+msgstr ""
+
+msgid "OnTrack DM"
+msgstr ""
+
+msgid "OnTrack DM6 Aux1"
+msgstr ""
+
+msgid "OnTrack DM6 Aux3"
+msgstr ""
+
+msgid "OnTrackDM6"
+msgstr ""
+
+#, c-format
+msgid "One Partition (#11) should cover the entire disk.\n"
+msgstr ""
+
+msgid "Only 1k blocks/zones supported"
+msgstr ""
+
+#, c-format
+msgid "Open of %s failed"
+msgstr ""
+
+msgid "OpenBSD"
+msgstr ""
+
+msgid "Opened disk read-only - you have no permission to write"
+msgstr ""
+
+#, c-format
+msgid ""
+"Options:\n"
+" -p, --pid               operate on existing given pid\n"
+" -c, --cpu-list          display and specify cpus in list format\n"
+" -h, --help              display this help\n"
+" -V, --version           output version information\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Other partitions already cover the whole disk.\n"
+"Delete some/shrink them before retry.\n"
+msgstr ""
+
+msgid "Out of memory"
+msgstr ""
+
+msgid "Out of memory\n"
+msgstr ""
+
+#, c-format
+msgid "Out of memory when growing buffer.\n"
+msgstr ""
+
+msgid "Out of memory while reading passphrase"
+msgstr ""
+
+#, c-format
+msgid "Out of pty's\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Output format:\n"
+"    -t      time\n"
+"    -p      pid\n"
+"    -c      creator\n"
+"    -l      limits\n"
+"    -u      summary\n"
+msgstr ""
+
+msgid "PC/IX"
+msgstr ""
+
+msgid "PPC PReP Boot"
+msgstr ""
+
+msgid "Part Type"
+msgstr ""
+
+#, c-format
+msgid "Partition %d does not end on cylinder boundary.\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d does not exist yet!\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d does not exist, cannot change it\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d does not start on cylinder boundary.\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d doesn't end on cylinder boundary\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d has different physical/logical beginnings (non-Linux?):\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d has different physical/logical endings:\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d has no data area\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d is already defined.  Delete it before re-adding it.\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d overlaps with others in sectors %d-%d\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d: head %d greater than maximum %d\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d: previous sectors %d disagrees with total %d\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %d: sector %d greater than maximum %llu\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %i does not end on cylinder boundary.\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %i does not start on cylinder boundary:\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %i does not start on physical sector boundary.\n"
+msgstr ""
+
+#, c-format
+msgid "Partition %s has invalid starting sector 0.\n"
+msgstr ""
+
+#, c-format
+msgid "Partition (a-%c): "
+msgstr ""
+
+#, c-format
+msgid "Partition Table for %s\n"
+msgstr ""
+
+msgid "Partition begins after end-of-disk"
+msgstr ""
+
+msgid "Partition begins before sector 0"
+msgstr ""
+
+msgid "Partition ends after end-of-disk"
+msgstr ""
+
+msgid "Partition ends before sector 0"
+msgstr ""
+
+msgid "Partition ends in the final partial cylinder"
+msgstr ""
+
+msgid "Partition number"
+msgstr ""
+
+msgid "PartitionMagic recovery"
+msgstr ""
+
+#, c-format
+msgid "Partitions %d: cylinder %d greater than maximum %d\n"
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Pattern not found"
+msgstr ""
+
+msgid "Plan 9"
+msgstr ""
+
+#, c-format
+msgid "Please answer one of y,n,q\n"
+msgstr ""
+
+msgid "Please enter `yes' or `no'"
+msgstr ""
+
+msgid "Please enter the name of the new boot file: "
+msgstr ""
+
+msgid "Press a key to continue"
+msgstr ""
+
+msgid "Press any key to exit cfdisk"
+msgstr ""
+
+msgid "Pri/Log"
+msgstr ""
+
+msgid "Priam Edisk"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "Print help screen"
+msgstr ""
+
+msgid "Print partition table to the screen or to a file"
+msgstr ""
+
+msgid "Print the table ordered by sectors"
+msgstr ""
+
+msgid "Print the table using raw data format"
+msgstr ""
+
+#, c-format
+msgid "Probably you need root privileges.\n"
+msgstr ""
+
+#, c-format
+msgid "Problem reading cylinder %d, expected %d, read %d\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Provide information on IPC facilities for which you have read access.\n"
+"\n"
+msgstr ""
+
+msgid "QNX4.x"
+msgstr ""
+
+msgid "QNX4.x 2nd part"
+msgstr ""
+
+msgid "QNX4.x 3rd part"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Quit program without writing partition table"
+msgstr ""
+
+msgid "Quitting - nothing changed\n"
+msgstr ""
+
+msgid "RE error: "
+msgstr ""
+
+#, c-format
+msgid "RO    RA   SSZ   BSZ   StartSec            Size   Device\n"
+msgstr ""
+
+msgid "ROM image"
+msgstr ""
+
+msgid "ROM image map"
+msgstr ""
+
+#, c-format
+msgid "ROM image write failed (%zd %zd)\n"
+msgstr ""
+
+#, c-format
+msgid "ROOT LOGIN ON %s"
+msgstr ""
+
+#, c-format
+msgid "ROOT LOGIN ON %s FROM %s"
+msgstr ""
+
+msgid "Raw"
+msgstr ""
+
+#, c-format
+msgid "Raw device '%s' is not a character dev\n"
+msgstr ""
+
+#, c-format
+msgid "Re-reading the partition table ...\n"
+msgstr ""
+
+#, c-format
+msgid "Read error: bad block in file '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "Read error: unable to seek to block in file '%s'\n"
+msgstr ""
+
+msgid "Read: "
+msgstr ""
+
+#, c-format
+msgid "Reading disklabel of %s at sector %d.\n"
+msgstr ""
+
+#, c-format
+msgid "Reboot the system to ensure the partition table is correctly updated.\n"
+msgstr ""
+
+msgid "Regular expression botch"
+msgstr ""
+
+#, c-format
+msgid "Remaining %lld unallocated %d-byte sectors\n"
+msgstr ""
+
+msgid "Remove block"
+msgstr ""
+
+#, c-format
+msgid ""
+"Resource options:\n"
+"    -m      shared memory segments\n"
+"    -q      message queues\n"
+"    -s      semaphores\n"
+"    -a      all (default)\n"
+"\n"
+msgstr ""
+
+msgid "Rotation speed (rpm)"
+msgstr ""
+
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr ""
+
+msgid ""
+"Run program with some namespaces unshared from parent\n"
+"\n"
+"  -h, --help        usage information (this)\n"
+"  -m, --mount       unshare mounts namespace\n"
+"  -u, --uts         unshare UTS namespace (hostname etc)\n"
+"  -i, --ipc         unshare System V IPC namespace\n"
+"  -n, --net         unshare network namespace\n"
+msgstr ""
+
+#, c-format
+msgid "SCHED_%s min/max priority\t: %d/%d\n"
+msgstr ""
+
+#, c-format
+msgid "SCHED_%s not supported?\n"
+msgstr ""
+
+msgid ""
+"SCHED_RESET_ON_FORK flag is suppoted for SCHED_FIFO and SCHED_RR policies "
+"only"
+msgstr ""
+
+msgid "SFS"
+msgstr ""
+
+msgid "SGI bsd"
+msgstr ""
+
+msgid "SGI efs"
+msgstr ""
+
+msgid "SGI lvol"
+msgstr ""
+
+msgid "SGI raw"
+msgstr ""
+
+msgid "SGI rlvol"
+msgstr ""
+
+msgid "SGI secrepl"
+msgstr ""
+
+msgid "SGI sysv"
+msgstr ""
+
+msgid "SGI trkrepl"
+msgstr ""
+
+msgid "SGI volhdr"
+msgstr ""
+
+msgid "SGI volume"
+msgstr ""
+
+msgid "SGI xfs"
+msgstr ""
+
+msgid "SGI xfslog"
+msgstr ""
+
+msgid "SGI xlv"
+msgstr ""
+
+msgid "SGI xvm"
+msgstr ""
+
+#, c-format
+msgid "Sampling_step: %i\n"
+msgstr ""
+
+#, c-format
+msgid "Script done, file is %s\n"
+msgstr ""
+
+#, c-format
+msgid "Script started on %s"
+msgstr ""
+
+#, c-format
+msgid "Script started, file is %s\n"
+msgstr ""
+
+#, c-format
+msgid "Sector %d is already allocated\n"
+msgstr ""
+
+#, c-format
+msgid "Sector %d:\n"
+msgstr ""
+
+#, c-format
+msgid "Sector %llu is already allocated\n"
+msgstr ""
+
+msgid "Sector 0:\n"
+msgstr ""
+
+#, c-format
+msgid "Sector size (logical/physical): %u bytes / %lu bytes\n"
+msgstr ""
+
+msgid "Sectors"
+msgstr ""
+
+msgid "Sectors/track"
+msgstr ""
+
+#, c-format
+msgid "Selected partition %d\n"
+msgstr ""
+
+#, c-format
+msgid "Semaphore id: %d\n"
+msgstr ""
+
+msgid "Set"
+msgstr ""
+
+msgid "Set i_nlinks to count"
+msgstr ""
+
+#, c-format
+msgid "Setting Hardware Clock to %.2d:%.2d:%.2d = %ld seconds since 1969\n"
+msgstr ""
+
+#, c-format
+msgid "Setting up swapspace version 1, size = %llu KiB\n"
+msgstr ""
+
+#, c-format
+msgid "Shared memory id: %d\n"
+msgstr ""
+
+#, c-format
+msgid "Shell *NOT* changed.  Try again later.\n"
+msgstr ""
+
+#, c-format
+msgid "Shell changed.\n"
+msgstr ""
+
+#, c-format
+msgid "Shell not changed.\n"
+msgstr ""
+
+msgid "Shutdown process aborted"
+msgstr ""
+
+msgid "Single"
+msgstr ""
+
+msgid "Size (in MB): "
+msgstr ""
+
+#, c-format
+msgid "Size: %lld bytes, %lld MB"
+msgstr ""
+
+#, c-format
+msgid "Size: %lld bytes, %lld.%lld GB"
+msgstr ""
+
+msgid "Solaris"
+msgstr ""
+
+msgid "Solaris boot"
+msgstr ""
+
+#, c-format
+msgid "Sorry You may change the Tag of non-empty partitions.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Sorry, only the superuser can change the Hardware Clock epoch in the "
+"kernel.\n"
+msgstr ""
+
+#, c-format
+msgid "Sorry, only the superuser can change the Hardware Clock.\n"
+msgstr ""
+
+#, c-format
+msgid "Sorry, only the superuser can change the System Clock.\n"
+msgstr ""
+
+msgid "SpeedStor"
+msgstr ""
+
+msgid "St. Tib's Day"
+msgstr ""
+
+msgid "Stepping:"
+msgstr ""
+
+#, c-format
+msgid "Stopped service: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Successfully wrote the new partition table\n"
+"\n"
+msgstr ""
+
+msgid "SunOS alt sectors"
+msgstr ""
+
+msgid "SunOS cachefs"
+msgstr ""
+
+msgid "SunOS home"
+msgstr ""
+
+msgid "SunOS reserved"
+msgstr ""
+
+msgid "SunOS root"
+msgstr ""
+
+msgid "SunOS stand"
+msgstr ""
+
+msgid "SunOS swap"
+msgstr ""
+
+msgid "SunOS usr"
+msgstr ""
+
+msgid "SunOS var"
+msgstr ""
+
+#, c-format
+msgid "Super block: %zd bytes\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Supported: 10^N: KB (KiloByte), MB (MegaByte), GB (GigaByte)\n"
+"            2^N: K  (KibiByte), M  (MebiByte), G  (GibiByte)\n"
+msgstr ""
+
+#, c-format
+msgid "Swap performance: %ld attempts\t %ld successes\n"
+msgstr ""
+
+#, c-format
+msgid "Switching on %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Syncing disks.\n"
+msgstr ""
+
+msgid "Syrinx"
+msgstr ""
+
+#, c-format
+msgid "System going down IMMEDIATELY!\n"
+msgstr ""
+
+#, c-format
+msgid "System going down in %d hours %d minutes"
+msgstr ""
+
+#, c-format
+msgid "System going down in %d minutes\n"
+msgstr ""
+
+#, c-format
+msgid "System going down in 1 hour %d minutes"
+msgstr ""
+
+#, c-format
+msgid "System going down in 1 minute\n"
+msgstr ""
+
+#, c-format
+msgid "System type of partition %d is unchanged: %x (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "TIOCSCTTY failed: %m"
+msgstr ""
+
+#, c-format
+msgid "TOO MANY LOGIN TRIES (%d) FROM %s FOR %s, %s"
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+#, c-format
+msgid "That must be tomorrow, can't you wait till then?\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The <special> parameter:\n"
+" {-L label | LABEL=label}             LABEL of device to be used\n"
+" {-U uuid  | UUID=uuid}               UUID of device to be used\n"
+" <device>                             name of device to be used\n"
+" <file>                               name of file to be used\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The Hardware Clock does not contain a valid time, so we cannot adjust it.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The Hardware Clock does not contain a valid time, so we cannot set the "
+"System Time from it.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The Hardware Clock registers contain values that are either invalid (e.g. "
+"50th day of month) or beyond the range we can handle (e.g. Year 2095).\n"
+msgstr ""
+
+#, c-format
+msgid "The Partition %d and %d overlap by %d sectors.\n"
+msgstr ""
+
+msgid ""
+"The command to re-read the partition table failed.\n"
+"Run partprobe(8), kpartx(8) or reboot your system now,\n"
+"before using mkfs\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The date command issued by %s returned something other than an integer where "
+"the converted time value was expected.\n"
+"The command was:\n"
+"  %s\n"
+"The response was:\n"
+" %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The date command issued by %s returned unexpected results.\n"
+"The command was:\n"
+"  %s\n"
+"The response was:\n"
+"  %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The default behavior is to run a new command:\n"
+"    %1$s 03 sshd -b 1024\n"
+"You can retrieve the mask of an existing task:\n"
+"    %1$s -p 700\n"
+"Or set it:\n"
+"    %1$s -p 03 700\n"
+"List format uses a comma-separated list instead of a mask:\n"
+"    %1$s -pc 0,3,7-11 700\n"
+"Ranges in list format can take a stride argument:\n"
+"    e.g. 0-31:2 is equivalent to mask 0x55555555\n"
+msgstr ""
+
+#, c-format
+msgid "The directory '%s' contains a bad inode number for file '%.*s'."
+msgstr ""
+
+#, c-format
+msgid "The entire disk is already covered with partitions.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The entire disk partition is only %d diskblock large,\n"
+"but the disk is %d diskblocks long.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The entire disk partition should start at block 0,\n"
+"not at diskblock %d.\n"
+msgstr ""
+
+#, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld\n"
+msgstr ""
+
+#, c-format
+msgid "The file `%s' has mode %05o\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The kernel keeps an epoch value for the Hardware Clock only on an Alpha "
+"machine.\n"
+"This copy of hwclock was built for a machine other than Alpha\n"
+"(and thus is presumably not running on an Alpha now).  No action taken.\n"
+msgstr ""
+
+#, c-format
+msgid "The maximum number of partitions has been created\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The partition table has been altered!\n"
+"\n"
+msgstr ""
+
+msgid "The system is being shut down within 5 minutes"
+msgstr ""
+
+#, c-format
+msgid ""
+"The value of the --date option is not a valid date.\n"
+"In particular, it contains quotation marks.\n"
+msgstr ""
+
+#, c-format
+msgid "There is no *BSD partition on %s.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"This disk has both DOS and BSD magic.\n"
+"Give the 'b' command to go to BSD mode.\n"
+msgstr ""
+
+msgid "This disk is currently in use.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"This doesn't look like a partition table\n"
+"Probably you selected the wrong device.\n"
+"\n"
+msgstr ""
+
+msgid "This is cfdisk, a curses based disk partitioning program, which"
+msgstr ""
+
+#, c-format
+msgid "This kernel finds the sector size itself - -b option ignored\n"
+msgstr ""
+
+#, c-format
+msgid "This mount was compiled without loop support. Please recompile.\n"
+msgstr ""
+
+#, c-format
+msgid "This partition already exists.\n"
+msgstr ""
+
+msgid "This partition is already in use"
+msgstr ""
+
+msgid "This partition is unusable"
+msgstr ""
+
+msgid "Thread(s) per core:"
+msgstr ""
+
+#, c-format
+msgid ""
+"Time elapsed since reference time has been %.6f seconds.\n"
+"Delaying further to reach the new time.\n"
+msgstr ""
+
+#, c-format
+msgid "Time read from Hardware Clock: %4d/%.2d/%.2d %02d:%02d:%02d\n"
+msgstr ""
+
+#, c-format
+msgid "Time since last adjustment is %d seconds\n"
+msgstr ""
+
+#, c-format
+msgid "Timed out waiting for time change.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"To set the epoch value, you must use the 'epoch' option to tell to what "
+"value to set it.\n"
+msgstr ""
+
+msgid "Toggle bootable flag of the current partition"
+msgstr ""
+
+msgid "Too many partitions"
+msgstr ""
+
+#, c-format
+msgid "Total allocated sectors %llu greater than the maximum %llu\n"
+msgstr ""
+
+msgid "Try `getopt --help' for more information.\n"
+msgstr ""
+
+#, c-format
+msgid "Trying %s\n"
+msgstr ""
+
+#, c-format
+msgid "Trying to keep parameters of partition %d.\n"
+msgstr ""
+
+#, c-format
+msgid "Trying to unmount %s\n"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+#, c-format
+msgid ""
+"Type 0 means free space to many systems\n"
+"(but not to Linux). Having partitions of\n"
+"type 0 is probably unwise. You can delete\n"
+"a partition using the `d' command.\n"
+msgstr ""
+
+#, c-format
+msgid "URGENT: broadcast message from %s:"
+msgstr ""
+
+msgid "UTC"
+msgstr ""
+
+msgid "Unable to allocate any more memory\n"
+msgstr ""
+
+msgid "Unable to allocate buffer for inode count"
+msgstr ""
+
+msgid "Unable to allocate buffer for inode map"
+msgstr ""
+
+msgid "Unable to allocate buffer for inodes"
+msgstr ""
+
+msgid "Unable to allocate buffer for zone count"
+msgstr ""
+
+msgid "Unable to allocate buffer for zone map"
+msgstr ""
+
+#, c-format
+msgid "Unable to allocate buffer.\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to get the epoch value from the kernel.\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to open %s\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to read %s\n"
+msgstr ""
+
+msgid "Unable to read inode map"
+msgstr ""
+
+msgid "Unable to read inodes"
+msgstr ""
+
+msgid "Unable to read zone map"
+msgstr ""
+
+msgid "Unable to run 'date' program in /bin/sh shell. popen() failed"
+msgstr ""
+
+#, c-format
+msgid "Unable to seek on %s\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to set system clock.\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to set the epoch value in the kernel.\n"
+msgstr ""
+
+msgid "Unable to set up swap-space: unreadable"
+msgstr ""
+
+#, c-format
+msgid "Unable to write %s\n"
+msgstr ""
+
+msgid "Unable to write inode map"
+msgstr ""
+
+msgid "Unable to write inodes"
+msgstr ""
+
+msgid "Unable to write zone map"
+msgstr ""
+
+msgid "Unassigned"
+msgstr ""
+
+#, c-format
+msgid "Unexpected reply length from server %d\n"
+msgstr ""
+
+msgid "Units"
+msgstr ""
+
+#, c-format
+msgid "Units = %s of %d * %d = %d bytes\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Units = blocks of 1024 bytes, counting from %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Units = cylinders of %lu bytes, blocks of 1024 bytes, counting from %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Units = mebibytes of 1048576 bytes, blocks of 1024 bytes, counting from %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Units = sectors of 512 bytes, counting from %d\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Unk(%02X)"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+#, c-format
+msgid "Unknown (%02X)"
+msgstr ""
+
+#, c-format
+msgid "Unknown escape sequence in input: %o, %o\n"
+msgstr ""
+
+msgid "Unknown partition table type"
+msgstr ""
+
+msgid "Unknown user context"
+msgstr ""
+
+msgid "Unmark"
+msgstr ""
+
+msgid "Unmounting any remaining filesystems..."
+msgstr ""
+
+#, c-format
+msgid "Unsupported suffix: '%s'.\n"
+msgstr ""
+
+# "無法建立 %s: %s\n"
+msgid "Unusable"
+msgstr ""
+
+#, c-format
+msgid "Unused gap - sectors %d-%d\n"
+msgstr ""
+
+#, c-format
+msgid "Unused gap - sectors 0-%d\n"
+msgstr ""
+
+#, c-format
+msgid "Unused gap of %8u sectors - sectors %8u-%u\n"
+msgstr ""
+
+msgid "Up Arrow     Move cursor to the previous partition"
+msgstr ""
+
+msgid "Usage:"
+msgstr ""
+
+#, c-format
+msgid "Usage:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage:\n"
+"  %s "
+msgstr ""
+
+msgid ""
+"Usage:\n"
+" fdisk [options] <disk>    change partition table\n"
+" fdisk [options] -l <disk> list partition table(s)\n"
+" fdisk -s <partition>      give partition size(s) in blocks\n"
+"\n"
+"Options:\n"
+" -b <size>             sector size (512, 1024, 2048 or 4096)\n"
+" -c[=<mode>]           compatible mode: 'dos' or 'nondos' (default)\n"
+" -h                    print this help text\n"
+" -u[=<unit>]           dysplay units: 'cylinders' or 'sectors' (default)\n"
+" -v                    print program version\n"
+" -C <number>           specify the number of cylinders\n"
+" -H <number>           specify the number of heads\n"
+" -S <number>           specify the number of sectors per track\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %1$s [-asmq] [-t|-c|-l|-u|-p]\n"
+"       %1$s [-s|-m|-q] -i id\n"
+"       %1$s -h for help\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %1$s [-sxun][-w #] fd#\n"
+"       %1$s [-sxon][-w #] file [-c] command...\n"
+"       %1$s [-sxon][-w #] directory [-c] command...\n"
+"  -s  --shared     Get a shared lock\n"
+"  -x  --exclusive  Get an exclusive lock\n"
+"  -u  --unlock     Remove a lock\n"
+"  -n  --nonblock   Fail rather than wait\n"
+"  -w  --timeout    Wait for a limited amount of time\n"
+"  -o  --close      Close file descriptor before running command\n"
+"  -c  --command    Run a single command string through the shell\n"
+"  -h  --help       Display this text\n"
+"  -V  --version    Display version\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %1$s [resource]... [output-format]\n"
+"       %1$s [resource] -i id\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s <device> [ -i <IRQ> | -t <TIME> | -c <CHARS> | -w <WAIT> | \n"
+"          -a [on|off] | -o [on|off] | -C [on|off] | -q [on|off] | -s | \n"
+"          -T [on|off] ]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s LABEL=<label>|UUID=<uuid>\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [ -f full-name ] [ -o office ] "
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [ -s shell ] [ --list-shells ] [ --help ] [ --version ]\n"
+"       [ username ]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [-8hiLmUw] [-l login_program] [-t timeout] [-I initstring] [-H "
+"login_host] baud_rate,... line [termtype]\n"
+"or\t[-hiLmw] [-l login_program] [-t timeout] [-I initstring] [-H login_host] "
+"line baud_rate,... [termtype]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [-c | -l filename] [-nXX] [-iXX] /dev/name [blocks]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [-c] [-n level] [-r] [-s bufsize]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [-c] [-pPAGESZ] [-L label] [-U UUID] /dev/name [blocks]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [-d] [-p pidfile] [-s socketpath] [-T timeout]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [-larvsmf] /dev/name\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [-q [-i interval]] ([-s value]|[-S value]) ([-t value]|[-T value]) "
+"[-g|-G] file [file...]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [-r] [-t]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [-v] [-N nr-of-inodes] [-V volume-name]\n"
+"       [-F fsname] device [block-count]\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [-x] [-d <num>] iso9660-image\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [option]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [options] <device>\n"
+"\n"
+"Options:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [options] <filename>\n"
+"\n"
+"Options:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [options] <mount point>\n"
+"\n"
+"Options:\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [options] <program> [args...]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s [options] [mask | cpu-list] [pid|cmd [args...]]\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: %s [options] device ...\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: %s%s [options] [program [program arguments]]\n"
+"\n"
+"Options:\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: ctrlaltdel hard|soft\n"
+msgstr ""
+
+msgid ""
+"Usage: fsck [-AMNPRTV] [ -C [ fd ] ] [-t fstype] [fs-options] [filesys ...]\n"
+msgstr ""
+
+msgid "Usage: getopt optstring parameters\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: mkfs [-V] [-t fstype] [fs-options] device [size]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: mount -V                 : print version\n"
+"       mount -h                 : print this help\n"
+"       mount                    : list mounted filesystems\n"
+"       mount -l                 : idem, including volume labels\n"
+"So far the informational part. Next the mounting.\n"
+"The command is `mount [-t fstype] something somewhere'.\n"
+"Details found in /etc/fstab may be omitted.\n"
+"       mount -a [-t|-O] ...     : mount all stuff from /etc/fstab\n"
+"       mount device             : mount device at the known place\n"
+"       mount directory          : mount known device here\n"
+"       mount -t type dev dir    : ordinary mount command\n"
+"Note that one does not really mount a device, one mounts\n"
+"a filesystem (of the given type) found on the device.\n"
+"One can also mount an already visible directory tree elsewhere:\n"
+"       mount --bind olddir newdir\n"
+"or move a subtree:\n"
+"       mount --move olddir newdir\n"
+"One can change the type of mount containing the directory dir:\n"
+"       mount --make-shared dir\n"
+"       mount --make-slave dir\n"
+"       mount --make-private dir\n"
+"       mount --make-unbindable dir\n"
+"One can change the type of all the mounts in a mount subtree\n"
+"containing the directory dir:\n"
+"       mount --make-rshared dir\n"
+"       mount --make-rslave dir\n"
+"       mount --make-rprivate dir\n"
+"       mount --make-runbindable dir\n"
+"A device can be given by name, say /dev/hda1 or /dev/cdrom,\n"
+"or by label, using  -L label  or by uuid, using  -U uuid .\n"
+"Other options: [-nfFrsvw] [-o options] [-p passwdfd].\n"
+"For many more details, say  man 8 mount .\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: shutdown [-h|-r] [-fqs] [now|hh:ss|+mins]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Usage: umount -h | -V\n"
+"       umount -a [-d] [-f] [-r] [-n] [-v] [-t vfstypes] [-O opts]\n"
+"       umount [-d] [-f] [-r] [-n] [-v] special | node...\n"
+msgstr ""
+
+#, c-format
+msgid "Use %s -l to see list.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Use the --debug option to see the details of our search for an access "
+"method.\n"
+msgstr ""
+
+msgid "Use the --force flag to overrule all checks.\n"
+msgstr ""
+
+#, c-format
+msgid "Use the --force flag to overrule this check.\n"
+msgstr ""
+
+#, c-format
+msgid "Using %s.\n"
+msgstr ""
+
+#, c-format
+msgid "Using UTC time.\n"
+msgstr ""
+
+#, c-format
+msgid "Using default value %u\n"
+msgstr ""
+
+#, c-format
+msgid "Using local time.\n"
+msgstr ""
+
+#, c-format
+msgid "Using user-specified page size %d, instead of the system value %d\n"
+msgstr ""
+
+msgid "VMware VMFS"
+msgstr ""
+
+msgid "VMware VMKCORE"
+msgstr ""
+
+#, c-format
+msgid "Value out of range.\n"
+msgstr ""
+
+msgid "Vendor ID:"
+msgstr ""
+
+msgid "Venix 80286"
+msgstr ""
+
+#, c-format
+msgid "Verifying ... "
+msgstr ""
+
+#, c-format
+msgid ""
+"Very long (%zu bytes) filename `%s' found.\n"
+" Please increase MAX_INPUT_NAMELEN in mkcramfs.c and recompile.  Exiting.\n"
+msgstr ""
+
+msgid "Virtualization type:"
+msgstr ""
+
+msgid "Virtualization:"
+msgstr ""
+
+#, c-format
+msgid "Volume: <%-6s>\n"
+msgstr ""
+
+msgid "W95 Ext'd (LBA)"
+msgstr ""
+
+msgid "W95 FAT16 (LBA)"
+msgstr ""
+
+msgid "W95 FAT32"
+msgstr ""
+
+msgid "W95 FAT32 (LBA)"
+msgstr ""
+
+#, c-format
+msgid "WARNING: %s: appears to contain '%s' partition table"
+msgstr ""
+
+#, c-format
+msgid "WARNING: Partition %d is an extended partition\n"
+msgstr ""
+
+msgid ""
+"WARNING: Your /etc/fstab does not contain the fsck passno\n"
+"\tfield.  I will kludge around things for you, but you\n"
+"\tshould fix your /etc/fstab file as soon as you can.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "WARNING: bad format on line %d of %s\n"
+msgstr ""
+
+#, c-format
+msgid "WARNING: couldn't open %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"WARNING: device numbers truncated to %u bits.  This almost certainly means\n"
+"that some device files will be wrong.\n"
+msgstr ""
+
+#, c-format
+msgid "Waiting for clock tick...\n"
+msgstr ""
+
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr ""
+
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr ""
+
+msgid "Warning!!  This may destroy data on your disk!"
+msgstr ""
+
+msgid ""
+"Warning!!  Unsupported GPT (GUID Partition Table) detected. Use GNU Parted."
+msgstr ""
+
+#, c-format
+msgid "Warning... %s for device %s exited with signal %d.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning:  BLKGETSIZE ioctl failed on %s.  Using geometry cylinder value of "
+"%d.\n"
+"This value may be truncated for devices > 33.8 GB.\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: \"%s\" is not listed in /etc/shells.\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: %s is not a block device\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: BLKGETSIZE/HDIO_GETGEO says that there are %lu cylinders\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: Firstzone != Norm_firstzone\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: HDIO_GETGEO says that there are %lu heads\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: HDIO_GETGEO says that there are %lu sectors\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: The partition table looks like it was made\n"
+"  for C/H/S=*/%ld/%ld (instead of %ld/%ld/%ld).\n"
+"For this listing I'll assume that geometry.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: Wrong values need to be fixed up and will be corrected by w(rite)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: `%s' is a link.\n"
+"Use `%s [options] %s' if you really want to use it.\n"
+"Script not started.\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: bad partition start (earliest %lu)\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: bad start-of-data in partition %d\n"
+msgstr ""
+
+msgid "Warning: empty partition\n"
+msgstr ""
+
+msgid ""
+"Warning: extended partition does not start at a cylinder boundary.\n"
+"DOS and Linux will interpret the contents differently.\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: extra link pointer in partition table %d\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: given size (%lu) exceeds max allowable size (%lu)\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: ignoring extra data in partition table %d\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: inode count too big.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: invalid flag 0x%04x of partition table %d will be corrected by "
+"w(rite)\n"
+msgstr ""
+
+msgid ""
+"Warning: more than one primary partition is marked bootable (active)\n"
+"This does not matter for LILO, but the DOS MBR will not boot this disk.\n"
+msgstr ""
+
+msgid ""
+"Warning: no primary partition is marked bootable (active)\n"
+"This does not matter for LILO, but the DOS MBR will not boot this disk.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: omitting partitions after #%d.\n"
+"They will be deleted if you save this partition table.\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %d contains sector 0\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %d has empty type\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %d is empty\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %d overlaps partition %d.\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s "
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: partition %s contains part of the partition table (sector %lu),\n"
+"and will destroy it when filled\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s does not end at a cylinder boundary\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s does not start at a cylinder boundary\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s extends past end of disk\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s has size 0 and is bootable\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s has size 0 and nonzero start\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s has size 0 but is not marked Empty\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partition %s starts at sector 0\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: partitions %s "
+msgstr ""
+
+#, c-format
+msgid "Warning: setting sector offset for DOS compatiblity\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: shifted start of the extd partition from %ld to %ld\n"
+"(For listing purposes only. Do not change its contents.)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: start=%lu - this looks like a partition rather than\n"
+"the entire disk. Using fdisk on it is probably meaningless.\n"
+"[Use the --force option if you really want this]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: the -b (set sector size) option should be used with one specified "
+"device\n"
+msgstr ""
+
+#, c-format
+msgid "Warning: too many partitions (%d, maximum is %d).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: unlikely number of sectors (%lu) - usually at most 63\n"
+"This will give problems with all software that uses C/H/S addressing.\n"
+msgstr ""
+
+msgid ""
+"Warning: usually one can boot from primary partitions only\n"
+"LILO disregards the `bootable' flag.\n"
+msgstr ""
+
+#, c-format
+msgid "Weird values in do_check: probably bugs\n"
+msgstr ""
+
+msgid "Whole disk"
+msgstr ""
+
+#, c-format
+msgid ""
+"Would have written the following to %s:\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid "Would you like to edit %s now [y/n]? "
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+#, c-format
+msgid "Write error: bad block in file '%s'\n"
+msgstr ""
+
+msgid "Write partition table to disk (this might destroy data)"
+msgstr ""
+
+#, c-format
+msgid "Writing disklabel to %s.\n"
+msgstr ""
+
+msgid "Writing partition table to disk..."
+msgstr ""
+
+msgid "Wrote partition table to disk"
+msgstr ""
+
+msgid ""
+"Wrote partition table, but re-read table failed.  Run partprobe(8), "
+"kpartx(8) or reboot to update table."
+msgstr ""
+
+msgid "XENIX root"
+msgstr ""
+
+msgid "XENIX usr"
+msgstr ""
+
+msgid "YES\n"
+msgstr ""
+
+#, c-format
+msgid "You are using shadow groups on this system.\n"
+msgstr ""
+
+#, c-format
+msgid "You are using shadow passwords on this system.\n"
+msgstr ""
+
+msgid "You can disable all consistency checking with:"
+msgstr ""
+
+#, c-format
+msgid ""
+"You cannot change a partition into an extended one or vice versa\n"
+"Delete it first.\n"
+msgstr ""
+
+#, c-format
+msgid "You got a partition overlap on the disk. Fix it first!\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"You have %d active primary partitions. This does not matter for LILO,\n"
+"but the DOS MBR will only boot a disk with 1 active partition.\n"
+msgstr ""
+
+#, c-format
+msgid "You have mail.\n"
+msgstr ""
+
+#, c-format
+msgid "You have new mail.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"You have specified multiple functions.\n"
+"You can only perform one function at a time.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"You haven't covered the whole disk with the 3rd partition, but your value\n"
+"%d %s covers some other partition. Your entry has been changed\n"
+"to %d %s\n"
+msgstr ""
+
+#, c-format
+msgid "You must be root to set the Ctrl-Alt-Del behaviour.\n"
+msgstr ""
+
+#, c-format
+msgid "You must delete some partition and add an extended partition first\n"
+msgstr ""
+
+#, c-format
+msgid "You must set"
+msgstr ""
+
+msgid "You specified more cylinders than fit on disk"
+msgstr ""
+
+#, c-format
+msgid "You will get a partition overlap on the disk. Fix it first!\n"
+msgstr ""
+
+#, c-format
+msgid "You will not be able to write the partition table.\n"
+msgstr ""
+
+#, c-format
+msgid "Zone %d: in use, counted=%d\n"
+msgstr ""
+
+#, c-format
+msgid "Zone %d: marked in use, no file uses it."
+msgstr ""
+
+#, c-format
+msgid "Zone %d: not in use, counted=%d\n"
+msgstr ""
+
+#, c-format
+msgid "Zone nr < FIRSTZONE in file `%s'."
+msgstr ""
+
+#, c-format
+msgid "Zone nr >= ZONES in file `%s'."
+msgstr ""
+
+#, c-format
+msgid "Zonesize=%d\n"
+msgstr ""
+
+#, c-format
+msgid "[ --help ] [ --version ]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"[ -p office-phone ]\n"
+"\t[ -h home-phone ] "
+msgstr ""
+
+msgid "[Label]"
+msgstr ""
+
+#, c-format
+msgid "[Not a file] line %d"
+msgstr ""
+
+#, c-format
+msgid "[Press 'h' for instructions.]"
+msgstr ""
+
+#, c-format
+msgid "[Press space to continue, 'q' to quit.]"
+msgstr ""
+
+#, c-format
+msgid "[Use q or Q to quit]"
+msgstr ""
+
+#, c-format
+msgid "[mntent]: line %d in %s is bad%s\n"
+msgstr ""
+
+#, c-format
+msgid "[mntent]: warning: no final newline at the end of %s\n"
+msgstr ""
+
+#, c-format
+msgid "] erased at offset 0x%jx (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "alarm %ld, sys_time %ld, rtc_time %ld, seconds %u\n"
+msgstr ""
+
+#, c-format
+msgid "allocated queues = %d\n"
+msgstr ""
+
+#, c-format
+msgid "allocated semaphores = %d\n"
+msgstr ""
+
+msgid "allows you to create, delete and modify partitions on your hard"
+msgstr ""
+
+msgid "already removed id"
+msgstr ""
+
+msgid "already removed key"
+msgstr ""
+
+#, c-format
+msgid "and %s overlap\n"
+msgstr ""
+
+#, c-format
+msgid "att_time=%-26.24s\n"
+msgstr ""
+
+msgid "attached"
+msgstr ""
+
+#, c-format
+msgid "bad active byte: 0x%x instead of 0x80\n"
+msgstr ""
+
+msgid "bad arguments"
+msgstr ""
+
+msgid "bad blocks before data-area: cannot make fs"
+msgstr ""
+
+#, c-format
+msgid ""
+"bad data in cyl %d\n"
+"Continuing ... "
+msgstr ""
+
+msgid "bad filename length"
+msgstr ""
+
+msgid "bad inode offset"
+msgstr ""
+
+msgid "bad inode size"
+msgstr ""
+
+msgid "bad input\n"
+msgstr ""
+
+msgid "bad magic number in super-block"
+msgstr ""
+
+#, c-format
+msgid "bad prio class %d"
+msgstr ""
+
+msgid "bad response length"
+msgstr ""
+
+#, c-format
+msgid "bad root offset (%lu)"
+msgstr ""
+
+msgid "bad s_imap_blocks field in super-block"
+msgstr ""
+
+msgid "bad s_zmap_blocks field in super-block"
+msgstr ""
+
+#, c-format
+msgid "bad speed: %s"
+msgstr ""
+
+#, c-format
+msgid "bad timeout value: %s"
+msgstr ""
+
+msgid "bad v2 inode size"
+msgstr ""
+
+#, c-format
+msgid "badblock number input error on line %d\n"
+msgstr ""
+
+msgid "block device "
+msgstr ""
+
+#, c-format
+msgid "block size smaller than physical sector size of %s"
+msgstr ""
+
+#, c-format
+msgid "blocks argument too large, max is %llu"
+msgstr ""
+
+#, c-format
+msgid "bogus mode: %s (%o)"
+msgstr ""
+
+#, c-format
+msgid "booted from MILO\n"
+msgstr ""
+
+msgid "bug in xstrndup call"
+msgstr ""
+
+msgid "bytes"
+msgstr ""
+
+msgid "bytes/sector"
+msgstr ""
+
+#, c-format
+msgid "bytes/sector: %ld\n"
+msgstr ""
+
+#, c-format
+msgid "bytes=%ld\tlpid=%d\tcpid=%d\tnattch=%ld\n"
+msgstr ""
+
+#, c-format
+msgid "call: %s from to files...\n"
+msgstr ""
+
+msgid "calloc failed"
+msgstr ""
+
+msgid "can specify only one device (except with -l or -s)\n"
+msgstr ""
+
+#, c-format
+msgid "can't create lock file %s: %s (use -n flag to override)"
+msgstr ""
+
+msgid "can't fork\n"
+msgstr ""
+
+#, c-format
+msgid "can't link lock file %s: %s (use -n flag to override)"
+msgstr ""
+
+#, c-format
+msgid "can't lock lock file %s: %s"
+msgstr ""
+
+msgid "can't malloc for grplist"
+msgstr ""
+
+msgid "can't malloc for ttyclass"
+msgstr ""
+
+msgid "can't malloc initstring"
+msgstr ""
+
+msgid "can't open file of bad blocks"
+msgstr ""
+
+#, c-format
+msgid "can't open lock file %s: %s (use -n flag to override)"
+msgstr ""
+
+#, c-format
+msgid "can't read: %s"
+msgstr ""
+
+#, c-format
+msgid "can't rename %s to %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "cannot (un)set powersave mode\n"
+msgstr ""
+
+msgid "cannot build surrounding extended partition\n"
+msgstr ""
+
+msgid "cannot daemonize"
+msgstr ""
+
+msgid "cannot determine NR_CPUS; aborting"
+msgstr ""
+
+#, c-format
+msgid "cannot determine sector size for %s"
+msgstr ""
+
+#, c-format
+msgid "cannot determine size of %s"
+msgstr ""
+
+#, c-format
+msgid "cannot find the device for %s"
+msgstr ""
+
+#, c-format
+msgid "cannot force blank\n"
+msgstr ""
+
+#, c-format
+msgid "cannot force unblank\n"
+msgstr ""
+
+#, c-format
+msgid "cannot fork"
+msgstr ""
+
+#, c-format
+msgid "cannot get blank status\n"
+msgstr ""
+
+#, c-format
+msgid "cannot get size of %s"
+msgstr ""
+
+#, c-format
+msgid "cannot get terminal attributes for %s"
+msgstr ""
+
+#, c-format
+msgid "cannot open \"%s\" for read"
+msgstr ""
+
+#, c-format
+msgid "cannot open %s"
+msgstr ""
+
+#, c-format
+msgid "cannot open %s\n"
+msgstr ""
+
+#, c-format
+msgid "cannot open %s (%s) - mtab not updated"
+msgstr ""
+
+#, c-format
+msgid "cannot open %s for reading\n"
+msgstr ""
+
+#, c-format
+msgid "cannot open %s read-write\n"
+msgstr ""
+
+#, c-format
+msgid "cannot open device %s for writing\n"
+msgstr ""
+
+msgid "cannot open inittab\n"
+msgstr ""
+
+#, c-format
+msgid "cannot open partition restore file (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "cannot open partition sector save file (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "cannot open timing file %s"
+msgstr ""
+
+#, c-format
+msgid "cannot open typescript file %s"
+msgstr ""
+
+#, c-format
+msgid "cannot parse number '%s'"
+msgstr ""
+
+msgid "cannot read badblocks file"
+msgstr ""
+
+#, c-format
+msgid "cannot remove id %s (%s)\n"
+msgstr ""
+
+msgid "cannot set group id"
+msgstr ""
+
+msgid "cannot set line discipline"
+msgstr ""
+
+#, c-format
+msgid "cannot set terminal attributes for %s"
+msgstr ""
+
+msgid "cannot set user id"
+msgstr ""
+
+#, c-format
+msgid "cannot stat \"%s\""
+msgstr ""
+
+#, c-format
+msgid "cannot stat device %s"
+msgstr ""
+
+#, c-format
+msgid "cannot stat partition restore file (%s)\n"
+msgstr ""
+
+msgid "case letters (except for Writes)."
+msgstr ""
+
+#, c-format
+msgid "cbytes=%ld\tqbytes=%ld\tqnum=%ld\tlspid=%d\tlrpid=%d\n"
+msgstr ""
+
+msgid "cgid"
+msgstr ""
+
+msgid "change"
+msgstr ""
+
+#, c-format
+msgid "change_time=%-26.24s\n"
+msgstr ""
+
+msgid "changed"
+msgstr ""
+
+#, c-format
+msgid "check aborted.\n"
+msgstr ""
+
+#, c-format
+msgid "chown failed: %s"
+msgstr ""
+
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr ""
+
+#, c-format
+msgid "cmos_read(): read data address %X failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "cmos_read(): write to control address %X failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "cmos_write(): write to control address %X failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "cmos_write(): write to data address %X failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "col: bad -l argument %s.\n"
+msgstr ""
+
+#, c-format
+msgid "col: warning: can't back up %s.\n"
+msgstr ""
+
+#, c-format
+msgid "col: write error.\n"
+msgstr ""
+
+msgid "compiled without -x support"
+msgstr ""
+
+msgid "connect"
+msgstr ""
+
+#, c-format
+msgid "connect: %s.\n"
+msgstr ""
+
+msgid "convert rtc time"
+msgstr ""
+
+#, c-format
+msgid "could not stat '%s'"
+msgstr ""
+
+msgid "couldn't compute selinux context"
+msgstr ""
+
+msgid "cpid"
+msgstr ""
+
+msgid "cpuset_alloc failed"
+msgstr ""
+
+msgid "crc error"
+msgstr ""
+
+msgid "create message queue failed"
+msgstr ""
+
+msgid "create semaphore failed"
+msgstr ""
+
+msgid "create share memory failed"
+msgstr ""
+
+#, c-format
+msgid "ctime = %-26.24s\n"
+msgstr ""
+
+msgid "cuid"
+msgstr ""
+
+msgid "cylinder"
+msgstr ""
+
+msgid "cylinders"
+msgstr ""
+
+#, c-format
+msgid "cylinders: %ld\n"
+msgstr ""
+
+msgid "cylinderskew"
+msgstr ""
+
+#, c-format
+msgid "cylinderskew: %d\n"
+msgstr ""
+
+msgid "dangerous options:"
+msgstr ""
+
+msgid "data block too large"
+msgstr ""
+
+#, c-format
+msgid "date string %s equates to %ld seconds since 1969.\n"
+msgstr ""
+
+#, c-format
+msgid "decompression error %p(%d): %s"
+msgstr ""
+
+#, c-format
+msgid "default max size of queue (bytes) = %d\n"
+msgstr ""
+
+#, c-format
+msgid "del_loop(%s): success\n"
+msgstr ""
+
+#, c-format
+msgid "deprecated usage: %s {shm | msg | sem} id ...\n"
+msgstr ""
+
+msgid "dest"
+msgstr ""
+
+#, c-format
+msgid "det_time=%-26.24s\n"
+msgstr ""
+
+msgid "detached"
+msgstr ""
+
+msgid "detected Disk Manager - unable to handle that\n"
+msgstr ""
+
+#, c-format
+msgid "device %s is associated with %s\n"
+msgstr ""
+
+#, c-format
+msgid "device %s is not associated with %s\n"
+msgstr ""
+
+msgid "device: something like /dev/hda or /dev/sda"
+msgstr ""
+
+msgid "different"
+msgstr ""
+
+#, c-format
+msgid "directory data end (%ld) != file data start (%ld)"
+msgstr ""
+
+#, c-format
+msgid "directory data start (%ld) < sizeof(struct cramfs_super) + start (%ld)"
+msgstr ""
+
+#, c-format
+msgid "directory inode has zero offset and non-zero size: %s"
+msgstr ""
+
+msgid "disable rtc alarm interrupt"
+msgstr ""
+
+msgid "disk drive."
+msgstr ""
+
+#, c-format
+msgid "disk: %.*s\n"
+msgstr ""
+
+#, c-format
+msgid "divisor '%s'"
+msgstr ""
+
+#, c-format
+msgid "done\n"
+msgstr ""
+
+#, c-format
+msgid "drivedata: "
+msgstr ""
+
+msgid "e   extended"
+msgstr ""
+
+msgid "empty long option after -l or --long argument"
+msgstr ""
+
+msgid "enable rtc alarm"
+msgstr ""
+
+msgid "end"
+msgstr ""
+
+msgid "enlarged logical partitions overlap"
+msgstr ""
+
+#, c-format
+msgid "error at starting service \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "error at stopping service \"%s\"\n"
+msgstr ""
+
+#, c-format
+msgid "error changing mode of %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "error changing owner of %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "error closing %s"
+msgstr ""
+
+msgid "error forking finalprog\n"
+msgstr ""
+
+msgid "error opening fifo\n"
+msgstr ""
+
+#, c-format
+msgid "error reading %s\n"
+msgstr ""
+
+msgid "error running finalprog\n"
+msgstr ""
+
+msgid "error setting close-on-exec on /dev/initctl"
+msgstr ""
+
+#, c-format
+msgid "error writing %s: %s"
+msgstr ""
+
+msgid "error writing . entry"
+msgstr ""
+
+msgid "error writing .. entry"
+msgstr ""
+
+msgid "error writing inode"
+msgstr ""
+
+msgid "error writing root inode"
+msgstr ""
+
+#, c-format
+msgid "error writing sector %lu on %s\n"
+msgstr ""
+
+msgid "error writing superblock"
+msgstr ""
+
+#, c-format
+msgid "error: %s: probing initialization failed"
+msgstr ""
+
+msgid "error: UUID parsing failed"
+msgstr ""
+
+msgid "error: calloc failed"
+msgstr ""
+
+#, c-format
+msgid "error: cannot open %s"
+msgstr ""
+
+msgid "error: strdup failed"
+msgstr ""
+
+msgid "error: uname failed"
+msgstr ""
+
+#, c-format
+msgid "excessively long line arg"
+msgstr ""
+
+#, c-format
+msgid "exec %s failed"
+msgstr ""
+
+msgid "exec failed\n"
+msgstr ""
+
+msgid "exec of single user shell failed\n"
+msgstr ""
+
+#, c-format
+msgid "executing %s failed"
+msgstr ""
+
+msgid "execv failed"
+msgstr ""
+
+#, c-format
+msgid "expected a number, but got '%s'"
+msgstr ""
+
+msgid "failed to add line to output"
+msgstr ""
+
+msgid "failed to allocate outbuffer"
+msgstr ""
+
+msgid "failed to callocate cpu set"
+msgstr ""
+
+#, c-format
+msgid "failed to execute %s"
+msgstr ""
+
+#, c-format
+msgid "failed to get pid %d's affinity"
+msgstr ""
+
+#, c-format
+msgid "failed to get pid %d's attributes"
+msgstr ""
+
+#, c-format
+msgid "failed to get pid %d's policy"
+msgstr ""
+
+msgid "failed to initialize libmount cache"
+msgstr ""
+
+msgid "failed to initialize libmount iterator"
+msgstr ""
+
+msgid "failed to initialize libmount tab"
+msgstr ""
+
+#, c-format
+msgid "failed to initialize line buffer\n"
+msgstr ""
+
+msgid "failed to initialize output column"
+msgstr ""
+
+msgid "failed to initialize output table"
+msgstr ""
+
+#, c-format
+msgid "failed to parse %s %s"
+msgstr ""
+
+#, c-format
+msgid "failed to parse CPU mask %s"
+msgstr ""
+
+#, c-format
+msgid "failed to parse UUID: %s"
+msgstr ""
+
+msgid "failed to parse pid"
+msgstr ""
+
+msgid "failed to parse priority"
+msgstr ""
+
+#, c-format
+msgid "failed to read symlink: %s"
+msgstr ""
+
+#, c-format
+msgid "failed to read timing file %s"
+msgstr ""
+
+#, c-format
+msgid "failed to read typescript file %s"
+msgstr ""
+
+#, c-format
+msgid "failed to read: %s"
+msgstr ""
+
+#, c-format
+msgid "failed to set pid %d's affinity"
+msgstr ""
+
+#, c-format
+msgid "failed to set pid %d's policy"
+msgstr ""
+
+#, c-format
+msgid "failed to stat: %s"
+msgstr ""
+
+#, c-format
+msgid "field is too long.\n"
+msgstr ""
+
+#, c-format
+msgid "fifo has non-zero size: %s"
+msgstr ""
+
+msgid "file inode has zero offset and non-zero size"
+msgstr ""
+
+msgid "file inode has zero size and non-zero offset"
+msgstr ""
+
+msgid "file length too short"
+msgstr ""
+
+msgid "filename length is zero"
+msgstr ""
+
+#, c-format
+msgid "filesystem too big.  Exiting.\n"
+msgstr ""
+
+#, c-format
+msgid "flags:"
+msgstr ""
+
+msgid "flush buffers"
+msgstr ""
+
+msgid "for maintenance; bounce, bounce"
+msgstr ""
+
+msgid "fork failed"
+msgstr ""
+
+msgid "fork failed\n"
+msgstr ""
+
+msgid "fork of single user shell failed\n"
+msgstr ""
+
+msgid "fork() failed, try again later\n"
+msgstr ""
+
+#, c-format
+msgid "fork: %s"
+msgstr ""
+
+#, c-format
+msgid "from %.*s\n"
+msgstr ""
+
+#, c-format
+msgid "fsck from %s\n"
+msgstr ""
+
+#, c-format
+msgid "fsck: %s: not found\n"
+msgstr ""
+
+#, c-format
+msgid "fsck: cannot check %s: fsck.%s not found\n"
+msgstr ""
+
+msgid "fsname name too long"
+msgstr ""
+
+msgid "fsync failed"
+msgstr ""
+
+msgid "full"
+msgstr ""
+
+#, c-format
+msgid "funky TOY!\n"
+msgstr ""
+
+msgid "get 32-bit sector count"
+msgstr ""
+
+msgid "get alignment offset"
+msgstr ""
+
+msgid "get blocksize"
+msgstr ""
+
+msgid "get filesystem readahead"
+msgstr ""
+
+msgid "get logical block (sector) size"
+msgstr ""
+
+msgid "get max sectors per request"
+msgstr ""
+
+msgid "get minimum I/O size"
+msgstr ""
+
+msgid "get optimal I/O size"
+msgstr ""
+
+msgid "get physical block (sector) size"
+msgstr ""
+
+msgid "get read-only"
+msgstr ""
+
+msgid "get readahead"
+msgstr ""
+
+msgid "get size in 512-byte sectors"
+msgstr ""
+
+msgid "get size in bytes"
+msgstr ""
+
+#, c-format
+msgid "getopt (enhanced) 1.1.4\n"
+msgstr ""
+
+msgid "getpriority"
+msgstr ""
+
+msgid "gettimeofday failed"
+msgstr ""
+
+msgid "gid"
+msgstr ""
+
+#, c-format
+msgid "halted by %s: %s"
+msgstr ""
+
+msgid "heads"
+msgstr ""
+
+msgid "headswitch"
+msgstr ""
+
+#, c-format
+msgid "headswitch: %ld\t\t# milliseconds\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: %%s requires a precision or a byte count.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"hexdump: [-bcCdovx] [-e fmt] [-f fmt_file] [-n length] [-s skip] [file ...]\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: bad byte count for conversion character %s.\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: bad conversion character %%%s.\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: bad format {%s}\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: bad length value.\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: bad skip value.\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: byte count with multiple conversion characters.\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: can't read %s.\n"
+msgstr ""
+
+#, c-format
+msgid "hexdump: line too long.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"hwclock - query and set the hardware clock (RTC)\n"
+"\n"
+"Usage: hwclock [function] [options...]\n"
+"\n"
+"Functions:\n"
+"  -h | --help         show this help\n"
+"  -r | --show         read hardware clock and print result\n"
+"       --set          set the rtc to the time given with --date\n"
+"  -s | --hctosys      set the system time from the hardware clock\n"
+"  -w | --systohc      set the hardware clock to the current system time\n"
+"       --systz        set the system time based on the current timezone\n"
+"       --adjust       adjust the rtc to account for systematic drift since\n"
+"                      the clock was last set or adjusted\n"
+"       --getepoch     print out the kernel's hardware clock epoch value\n"
+"       --setepoch     set the kernel's hardware clock epoch value to the \n"
+"                      value given with --epoch\n"
+"       --predict      predict rtc reading at time given with --date\n"
+"  -v | --version      print out the version of hwclock to stdout\n"
+"\n"
+"Options: \n"
+"  -u | --utc          the hardware clock is kept in UTC\n"
+"       --localtime    the hardware clock is kept in local time\n"
+"  -f | --rtc=path     special /dev/... file to use instead of default\n"
+"       --directisa    access the ISA bus directly instead of %s\n"
+"       --badyear      ignore rtc's year because the bios is broken\n"
+"       --date         specifies the time to which to set the hardware clock\n"
+"       --epoch=year   specifies the year which is the beginning of the \n"
+"                      hardware clock's epoch value\n"
+"       --noadjfile    do not access /etc/adjtime. Requires the use of\n"
+"                      either --utc or --localtime\n"
+"       --adjfile=path specifies the path to the adjust file (default is\n"
+"                      /etc/adjtime)\n"
+"       --test         do everything except actually updating the hardware\n"
+"                      clock or anything else\n"
+"  -D | --debug        debug mode\n"
+"\n"
+msgstr ""
+
+msgid "ignore -U (UUIDs are unsupported)"
+msgstr ""
+
+msgid "ignoring given class data for idle class"
+msgstr ""
+
+msgid "ignoring given class data for none class"
+msgstr ""
+
+#, c-format
+msgid "illegal day value: use 1-%d"
+msgstr ""
+
+msgid "illegal month value: use 1-12"
+msgstr ""
+
+msgid "illegal year value: use 1-9999"
+msgstr ""
+
+#, c-format
+msgid "incomplete write to \"%s\" (written %zd, expected %zd)\n"
+msgstr ""
+
+#, c-format
+msgid "input error: `=' expected after %s field\n"
+msgstr ""
+
+#, c-format
+msgid "input error: unexpected character %c after %s field\n"
+msgstr ""
+
+msgid "interleave"
+msgstr ""
+
+#, c-format
+msgid "interleave: %d\n"
+msgstr ""
+
+msgid "internal error"
+msgstr ""
+
+msgid "internal error, contact the author."
+msgstr ""
+
+msgid "invalid file data offset"
+msgstr ""
+
+msgid "invalid id"
+msgstr ""
+
+#, c-format
+msgid "invalid id: %s\n"
+msgstr ""
+
+#, c-format
+msgid "invalid iflag: %s"
+msgstr ""
+
+msgid "invalid key"
+msgstr ""
+
+msgid "invalid length value specified"
+msgstr ""
+
+#, c-format
+msgid "invalid line discipline: %s"
+msgstr ""
+
+msgid "invalid number of lines"
+msgstr ""
+
+#, c-format
+msgid "invalid offset value '%s' specified"
+msgstr ""
+
+msgid "invalid offset value specified"
+msgstr ""
+
+msgid "invalid option"
+msgstr ""
+
+#, c-format
+msgid "invalid speed: %s"
+msgstr ""
+
+msgid "ioctl KDSHWCLK failed"
+msgstr ""
+
+#, c-format
+msgid "ioctl LOOP_SET_FD failed: %s\n"
+msgstr ""
+
+#, c-format
+msgid "ioctl failed: unable to determine device size: %s"
+msgstr ""
+
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr ""
+
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr ""
+
+#, c-format
+msgid "ioctl() to %s to read the time failed.\n"
+msgstr ""
+
+#, c-format
+msgid "ioctl() to %s to set the time failed.\n"
+msgstr ""
+
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr ""
+
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr ""
+
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr ""
+
+msgid "ioprio_get failed"
+msgstr ""
+
+msgid "ioprio_set failed"
+msgstr ""
+
+#, c-format
+msgid "is n\n"
+msgstr ""
+
+#, c-format
+msgid "is not contained in partition %s\n"
+msgstr ""
+
+#, c-format
+msgid "is y\n"
+msgstr ""
+
+msgid "keep size mode (-n option) unsupported"
+msgstr ""
+
+#, c-format
+msgid "kernel not configured for message queues\n"
+msgstr ""
+
+#, c-format
+msgid "kernel not configured for semaphores\n"
+msgstr ""
+
+#, c-format
+msgid "kernel not configured for shared memory\n"
+msgstr ""
+
+msgid "key"
+msgstr ""
+
+#, c-format
+msgid "klogctl error: %s\n"
+msgstr ""
+
+msgid "l   logical (5 or over)"
+msgstr ""
+
+#, c-format
+msgid "label is too long. Truncating it to '%s'"
+msgstr ""
+
+#, c-format
+msgid "label: %.*s\n"
+msgstr ""
+
+msgid "last-changed"
+msgstr ""
+
+msgid "last-op"
+msgstr ""
+
+msgid "last: gethostname"
+msgstr ""
+
+msgid "last: malloc failure.\n"
+msgstr ""
+
+#, c-format
+msgid "lchown failed: %s"
+msgstr ""
+
+#, c-format
+msgid "ldattach from %s\n"
+msgstr ""
+
+msgid "line too long"
+msgstr ""
+
+msgid "local"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
+#, c-format
+msgid "logger: %s: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "logger: openlog: pathname too long\n"
+msgstr ""
+
+#, c-format
+msgid "logger: unknown facility name: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "logger: unknown priority name: %s.\n"
+msgstr ""
+
+msgid "logical partitions not in disk order"
+msgstr ""
+
+msgid "logical partitions overlap"
+msgstr ""
+
+#, c-format
+msgid "logical=(%d, %d, %d)\n"
+msgstr ""
+
+#, c-format
+msgid "login name much too long.\n"
+msgstr ""
+
+#, c-format
+msgid "login names may not start with '-'.\n"
+msgstr ""
+
+msgid "login: "
+msgstr ""
+
+#, c-format
+msgid "login: -h for super-user only.\n"
+msgstr ""
+
+#, c-format
+msgid "login: Out of memory\n"
+msgstr ""
+
+#, c-format
+msgid "login: couldn't exec shell script: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "login: failure forking: %s"
+msgstr ""
+
+#, c-format
+msgid "login: memory low, login may fail\n"
+msgstr ""
+
+#, c-format
+msgid "login: no memory for shell script.\n"
+msgstr ""
+
+#, c-format
+msgid "login: no shell: %s.\n"
+msgstr ""
+
+msgid "long or incomplete input line - quitting\n"
+msgstr ""
+
+#, c-format
+msgid "loop: can't delete device %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "loop: can't get info on device %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "loop: can't open device %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "loop: can't set capacity on device %s: %s\n"
+msgstr ""
+
+msgid "lpid"
+msgstr ""
+
+msgid "lrpid"
+msgstr ""
+
+msgid "lspid"
+msgstr ""
+
+msgid "lstat of path failed\n"
+msgstr ""
+
+msgid "malloc error"
+msgstr ""
+
+msgid "malloc failed"
+msgstr ""
+
+msgid "malloc() failed"
+msgstr ""
+
+#, c-format
+msgid "max number of arrays = %d\n"
+msgstr ""
+
+#, c-format
+msgid "max number of segments = %lu\n"
+msgstr ""
+
+#, c-format
+msgid "max ops per semop call = %d\n"
+msgstr ""
+
+#, c-format
+msgid "max queues system wide = %d\n"
+msgstr ""
+
+#, c-format
+msgid "max seg size (kbytes) = %lu\n"
+msgstr ""
+
+#, c-format
+msgid "max semaphores per array = %d\n"
+msgstr ""
+
+#, c-format
+msgid "max semaphores system wide = %d\n"
+msgstr ""
+
+#, c-format
+msgid "max size of message (bytes) = %d\n"
+msgstr ""
+
+#, c-format
+msgid "max total shared memory (kbytes) = %llu\n"
+msgstr ""
+
+msgid "messages"
+msgstr ""
+
+#, c-format
+msgid "min seg size (bytes) = %lu\n"
+msgstr ""
+
+#, c-format
+msgid "missing blockdevice, use -h for help\n"
+msgstr ""
+
+msgid "missing optstring argument"
+msgstr ""
+
+#, c-format
+msgid "mkdir failed: %s"
+msgstr ""
+
+#, c-format
+msgid "mkfs (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "mknod failed: %s"
+msgstr ""
+
+#, c-format
+msgid "mode=%#o\taccess_perms=%#o\n"
+msgstr ""
+
+#, c-format
+msgid "mode=%#o, access_perms=%#o\n"
+msgstr ""
+
+msgid "mount failed"
+msgstr ""
+
+msgid "mount table full"
+msgstr ""
+
+#, c-format
+msgid "mount: %s already mounted on %s\n"
+msgstr ""
+
+#, c-format
+msgid "mount: %s already mounted or %s busy"
+msgstr ""
+
+#, c-format
+msgid ""
+"mount: %s does not contain SELinux labels.\n"
+"       You just mounted an file system that supports labels which does not\n"
+"       contain labels, onto an SELinux box. It is likely that confined\n"
+"       applications will generate AVC messages and not be allowed access to\n"
+"       this file system.  For more details see restorecon(8) and mount(8).\n"
+msgstr ""
+
+#, c-format
+msgid "mount: %s has wrong device number or fs type %s not supported"
+msgstr ""
+
+#, c-format
+msgid "mount: %s is busy"
+msgstr ""
+
+#, c-format
+msgid "mount: %s is not a block device"
+msgstr ""
+
+#, c-format
+msgid "mount: %s is not a block device (maybe try `-o loop'?)"
+msgstr ""
+
+#, c-format
+msgid "mount: %s is not a block device, and stat fails?"
+msgstr ""
+
+#, c-format
+msgid "mount: %s is not a valid block device"
+msgstr ""
+
+#, c-format
+msgid "mount: %s not mounted already, or bad option"
+msgstr ""
+
+#, c-format
+msgid "mount: %s%s is write-protected but explicit `-w' flag given"
+msgstr ""
+
+#, c-format
+msgid "mount: %s%s is write-protected, mounting read-only"
+msgstr ""
+
+#, c-format
+msgid "mount: %s: can't read superblock"
+msgstr ""
+
+#, c-format
+msgid ""
+"mount: %s: more filesystems detected. This should not happen,\n"
+"       use -t <type> to explicitly specify the filesystem type or\n"
+"       use wipefs(8) to clean up the device.\n"
+msgstr ""
+
+#, c-format
+msgid "mount: %s: unknown device"
+msgstr ""
+
+msgid ""
+"mount: I could not determine the filesystem type, and none was specified"
+msgstr ""
+
+#, c-format
+msgid "mount: according to mtab %s is already mounted on %s as loop"
+msgstr ""
+
+#, c-format
+msgid "mount: according to mtab, %s is already mounted on %s"
+msgstr ""
+
+#, c-format
+msgid "mount: according to mtab, %s is already mounted on %s\n"
+msgstr ""
+
+#, c-format
+msgid "mount: according to mtab, %s is mounted on %s"
+msgstr ""
+
+msgid "mount: argument to -p or --pass-fd must be a number"
+msgstr ""
+
+#, c-format
+msgid "mount: can't find %s in %s or %s"
+msgstr ""
+
+#, c-format
+msgid "mount: can't open %s for writing: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: can't open %s: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: cannot fork: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: cannot mount %s%s read-only"
+msgstr ""
+
+#, c-format
+msgid "mount: cannot open %s for setting speed"
+msgstr ""
+
+#, c-format
+msgid "mount: cannot remount %s%s read-write, is write-protected"
+msgstr ""
+
+#, c-format
+msgid "mount: cannot set group id: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: cannot set speed: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: cannot set user id: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: could not open %s - using %s instead\n"
+msgstr ""
+
+#, c-format
+msgid "mount: error changing mode of %s: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: error writing %s: %s"
+msgstr ""
+
+#, c-format
+msgid "mount: failed setting up loop device\n"
+msgstr ""
+
+#, c-format
+msgid "mount: going to use the loop device %s\n"
+msgstr ""
+
+#, c-format
+msgid "mount: improperly quoted option string '%s'"
+msgstr ""
+
+#, c-format
+msgid "mount: invalid offset '%s' specified"
+msgstr ""
+
+#, c-format
+msgid "mount: invalid sizelimit '%s' specified"
+msgstr ""
+
+msgid "mount: loop device specified twice"
+msgstr ""
+
+msgid "mount: maybe you meant 'iso9660'?"
+msgstr ""
+
+msgid "mount: maybe you meant 'vfat'?"
+msgstr ""
+
+msgid "mount: mount failed"
+msgstr ""
+
+#, c-format
+msgid "mount: mount point %s does not exist"
+msgstr ""
+
+#, c-format
+msgid "mount: mount point %s is a symbolic link to nowhere"
+msgstr ""
+
+#, c-format
+msgid "mount: mount point %s is not a directory"
+msgstr ""
+
+msgid "mount: must be superuser to use mount"
+msgstr ""
+
+#, c-format
+msgid "mount: no %s found - creating it..\n"
+msgstr ""
+
+#, c-format
+msgid "mount: no medium found on %s"
+msgstr ""
+
+msgid "mount: no such partition found"
+msgstr ""
+
+#, c-format
+msgid "mount: no type was given - I'll assume cifs because of the // prefix\n"
+msgstr ""
+
+#, c-format
+msgid "mount: no type was given - I'll assume nfs because of the colon\n"
+msgstr ""
+
+msgid "mount: only root can do that"
+msgstr ""
+
+#, c-format
+msgid "mount: only root can do that (effective UID is %u)"
+msgstr ""
+
+#, c-format
+msgid "mount: only root can mount %s on %s"
+msgstr ""
+
+msgid "mount: permission denied"
+msgstr ""
+
+#, c-format
+msgid "mount: probably you meant %s"
+msgstr ""
+
+msgid "mount: proc already mounted"
+msgstr ""
+
+#, c-format
+msgid "mount: setup loop device successfully\n"
+msgstr ""
+
+#, c-format
+msgid "mount: skipping the setup of a loop device\n"
+msgstr ""
+
+#, c-format
+msgid "mount: special device %s does not exist"
+msgstr ""
+
+#, c-format
+msgid ""
+"mount: special device %s does not exist\n"
+"       (a path prefix is not a directory)\n"
+msgstr ""
+
+#, c-format
+msgid "mount: stolen loop=%s"
+msgstr ""
+
+#, c-format
+msgid "mount: stolen loop=%s ...trying again\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"mount: the kernel does not recognize %s as a block device\n"
+"       (maybe `modprobe driver'?)"
+msgstr ""
+
+#, c-format
+msgid "mount: translated %s '%s' to '%s'\n"
+msgstr ""
+
+msgid "mount: type specified twice"
+msgstr ""
+
+#, c-format
+msgid "mount: unknown filesystem type '%s'"
+msgstr ""
+
+#, c-format
+msgid "mount: warning: %s seems to be mounted read-only.\n"
+msgstr ""
+
+#, c-format
+msgid "mount: warning: %s seems to be mounted read-write.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"mount: wrong fs type, bad option, bad superblock on %s,\n"
+"       missing codepage or helper program, or other error"
+msgstr ""
+
+#, c-format
+msgid "mount: you didn't specify a filesystem type for %s\n"
+msgstr ""
+
+msgid "mount: you must specify the filesystem type"
+msgstr ""
+
+msgid "msgctl failed"
+msgstr ""
+
+msgid "msqid"
+msgstr ""
+
+#, c-format
+msgid ""
+"namelen=%d\n"
+"\n"
+msgstr ""
+
+msgid "nattch"
+msgstr ""
+
+msgid "ncount"
+msgstr ""
+
+msgid "need terminal for interactive repairs"
+msgstr ""
+
+msgid "newgrp: No such group."
+msgstr ""
+
+msgid "newgrp: Permission denied"
+msgstr ""
+
+msgid "newgrp: Who are you?"
+msgstr ""
+
+msgid "newgrp: setgid"
+msgstr ""
+
+msgid "newgrp: setuid"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "no TERM or cannot stat tty\n"
+msgstr ""
+
+msgid "no action specified"
+msgstr ""
+
+msgid "no command?\n"
+msgstr ""
+
+msgid "no filename specified"
+msgstr ""
+
+msgid "no filename specified."
+msgstr ""
+
+#, c-format
+msgid "no label, "
+msgstr ""
+
+msgid "no length argument specified"
+msgstr ""
+
+#, c-format
+msgid "no magic string found at offset 0x%jx -- ignored"
+msgstr ""
+
+msgid "no partition table present.\n"
+msgstr ""
+
+msgid "no room for partition descriptor\n"
+msgstr ""
+
+#, c-format
+msgid "no umount2, trying umount...\n"
+msgstr ""
+
+#, c-format
+msgid "no uuid\n"
+msgstr ""
+
+#, c-format
+msgid "non-block (%ld) bytes"
+msgstr ""
+
+#, c-format
+msgid "non-size (%ld vs %ld) bytes"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+#, c-format
+msgid "not a block device or file: %s"
+msgstr ""
+
+msgid "not enough good blocks"
+msgstr ""
+
+msgid "not enough memory"
+msgstr ""
+
+#, c-format
+msgid "not enough space allocated for ROM image (%lld allocated, %zu used)\n"
+msgstr ""
+
+#, c-format
+msgid "not enough space, need at least %llu blocks"
+msgstr ""
+
+msgid "nothing was mounted"
+msgstr ""
+
+msgid "nsems"
+msgstr ""
+
+#, c-format
+msgid "nsems = %ld\n"
+msgstr ""
+
+msgid "number of blocks too small"
+msgstr ""
+
+msgid "number too big\n"
+msgstr ""
+
+#, c-format
+msgid "od: hexdump(1) compatibility doesn't support the -%c option%s\n"
+msgstr ""
+
+#, c-format
+msgid "od: od(1) has been deprecated for hexdump(1).\n"
+msgstr ""
+
+#, c-format
+msgid "omitting empty partition (%d)\n"
+msgstr ""
+
+#, c-format
+msgid "on %.*s\n"
+msgstr ""
+
+#, c-format
+msgid "one bad block\n"
+msgstr ""
+
+#, c-format
+msgid "one bad page\n"
+msgstr ""
+
+#, c-format
+msgid "open failed: %s"
+msgstr ""
+
+msgid "open of directory failed\n"
+msgstr ""
+
+#, c-format
+msgid "open() of %s failed"
+msgstr ""
+
+#, c-format
+msgid "openpty failed\n"
+msgstr ""
+
+#, c-format
+msgid "operation %d\n"
+msgstr ""
+
+#, c-format
+msgid "operation %d, incoming num = %d\n"
+msgstr ""
+
+msgid ""
+"options --target and --source can't be used together with command line "
+"element that is not an option"
+msgstr ""
+
+msgid "options are mutually exclusive"
+msgstr ""
+
+#, c-format
+msgid "otime = %-26.24s\n"
+msgstr ""
+
+#, c-format
+msgid "out of memory"
+msgstr ""
+
+msgid "out of memory - giving up\n"
+msgstr ""
+
+msgid "out of memory?"
+msgstr ""
+
+msgid "out of memory?\n"
+msgstr ""
+
+msgid "owner"
+msgstr ""
+
+#, c-format
+msgid "pages allocated %ld\n"
+msgstr ""
+
+#, c-format
+msgid "pages resident  %ld\n"
+msgstr ""
+
+#, c-format
+msgid "pages swapped   %ld\n"
+msgstr ""
+
+msgid "para"
+msgstr ""
+
+#, c-format
+msgid "parse error\n"
+msgstr ""
+
+msgid "parse error at line: "
+msgstr ""
+
+msgid "parse error at lines: "
+msgstr ""
+
+#, c-format
+msgid "parse error: %s"
+msgstr ""
+
+msgid "partial c,h,s specification?\n"
+msgstr ""
+
+#, c-format
+msgid "partition %s ends on cylinder %ld, beyond the end of the disk\n"
+msgstr ""
+
+#, c-format
+msgid "partition %s has id %x and is not hidden\n"
+msgstr ""
+
+#, c-format
+msgid "partition %s: end: (c,h,s) expected (%ld,%ld,%ld) found (%ld,%ld,%ld)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"partition %s: start: (c,h,s) expected (%ld,%ld,%ld) found (%ld,%ld,%ld)\n"
+msgstr ""
+
+#, c-format
+msgid "partition ends on cylinder %ld, beyond the end of the disk\n"
+msgstr ""
+
+msgid "partition restore file has wrong size - not restoring\n"
+msgstr ""
+
+msgid "past first line"
+msgstr ""
+
+msgid "permission denied for id"
+msgstr ""
+
+msgid "permission denied for key"
+msgstr ""
+
+msgid "perms"
+msgstr ""
+
+msgid "pid"
+msgstr ""
+
+#, c-format
+msgid "pid %d's current affinity list: %s\n"
+msgstr ""
+
+#, c-format
+msgid "pid %d's current affinity mask: %s\n"
+msgstr ""
+
+#, c-format
+msgid "pid %d's current scheduling policy: "
+msgstr ""
+
+#, c-format
+msgid "pid %d's current scheduling priority: %d\n"
+msgstr ""
+
+#, c-format
+msgid "pid %d's new affinity list: %s\n"
+msgstr ""
+
+#, c-format
+msgid "pid %d's new affinity mask: %s\n"
+msgstr ""
+
+#, c-format
+msgid "pid %d's new scheduling policy: "
+msgstr ""
+
+#, c-format
+msgid "pid %d's new scheduling priority: %d\n"
+msgstr ""
+
+#, c-format
+msgid "raw%d:\tbound to major %d, minor %d\n"
+msgstr ""
+
+#, c-format
+msgid "rcv_time=%-26.24s\n"
+msgstr ""
+
+msgid "read count"
+msgstr ""
+
+#, c-format
+msgid "read error on %s - cannot read sector %lu\n"
+msgstr ""
+
+#, c-format
+msgid "read failed: %s"
+msgstr ""
+
+msgid "read rtc time"
+msgstr ""
+
+msgid "read system time"
+msgstr ""
+
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr ""
+
+#, c-format
+msgid "readprofile: error writing %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "rebooted by %s: %s"
+msgstr ""
+
+msgid "recv"
+msgstr ""
+
+#, c-format
+msgid "renice from %s\n"
+msgstr ""
+
+#, c-format
+msgid "renice: %s: bad value\n"
+msgstr ""
+
+#, c-format
+msgid "renice: %s: unknown user\n"
+msgstr ""
+
+msgid "reread partition table"
+msgstr ""
+
+#, c-format
+msgid "resource(s) deleted\n"
+msgstr ""
+
+#, c-format
+msgid "respawning: \"%s\" too fast: quenching entry\n"
+msgstr ""
+
+#, c-format
+msgid "response from date command = %s\n"
+msgstr ""
+
+msgid "root inode is not directory"
+msgstr ""
+
+msgid "root inode isn't a directory"
+msgstr ""
+
+msgid "rpm"
+msgstr ""
+
+#, c-format
+msgid "rpm: %d\n"
+msgstr ""
+
+msgid "rtc read"
+msgstr ""
+
+msgid "same"
+msgstr ""
+
+msgid "saved"
+msgstr ""
+
+msgid "sector"
+msgstr ""
+
+#, c-format
+msgid "sector count: %d, sector size: %d\n"
+msgstr ""
+
+msgid "sectors"
+msgstr ""
+
+msgid "sectors/cylinder"
+msgstr ""
+
+#, c-format
+msgid "sectors/cylinder: %ld\n"
+msgstr ""
+
+msgid "sectors/track"
+msgstr ""
+
+#, c-format
+msgid "sectors/track: %ld\n"
+msgstr ""
+
+msgid "seek error"
+msgstr ""
+
+#, c-format
+msgid "seek error on %s - cannot seek to %lu\n"
+msgstr ""
+
+#, c-format
+msgid "seek error: wanted 0x%08x%08x, got 0x%08x%08x\n"
+msgstr ""
+
+msgid "seek failed"
+msgstr ""
+
+msgid "seek failed during testing of blocks"
+msgstr ""
+
+msgid "seek failed in bad_zone"
+msgstr ""
+
+msgid "seek failed in check_blocks"
+msgstr ""
+
+msgid "seek failed in write_block"
+msgstr ""
+
+msgid "seek failed in write_super_block"
+msgstr ""
+
+msgid "seek failed in write_tables"
+msgstr ""
+
+msgid "seek to boot block failed in write_tables"
+msgstr ""
+
+#, c-format
+msgid "segments allocated %d\n"
+msgstr ""
+
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr ""
+
+#, c-format
+msgid "select() to %s to wait for clock tick timed out\n"
+msgstr ""
+
+#, c-format
+msgid "semaphore max value = %d\n"
+msgstr ""
+
+msgid "semctl failed"
+msgstr ""
+
+msgid "semid"
+msgstr ""
+
+msgid "semnum"
+msgstr ""
+
+msgid "send"
+msgstr ""
+
+#, c-format
+msgid "send_time=%-26.24s\n"
+msgstr ""
+
+msgid "set blocksize"
+msgstr ""
+
+msgid "set filesystem readahead"
+msgstr ""
+
+msgid "set read-only"
+msgstr ""
+
+msgid "set read-write"
+msgstr ""
+
+msgid "set readahead"
+msgstr ""
+
+msgid "set rtc alarm"
+msgstr ""
+
+msgid "set rtc wake alarm"
+msgstr ""
+
+#, c-format
+msgid "set_loop(%s,%s,%llu,%llu): success\n"
+msgstr ""
+
+msgid "setpriority"
+msgstr ""
+
+msgid "settimeofday() failed"
+msgstr ""
+
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr ""
+
+msgid "setuid() failed"
+msgstr ""
+
+msgid "shmctl failed"
+msgstr ""
+
+msgid "shmid"
+msgstr ""
+
+#, c-format
+msgid "should be (%d, %d, %d)\n"
+msgstr ""
+
+#, c-format
+msgid "should be (%d, %d, 1)\n"
+msgstr ""
+
+#, c-format
+msgid "shutdown: Couldn't umount %s: %s\n"
+msgstr ""
+
+#, c-format
+msgid "size error in symlink: %s"
+msgstr ""
+
+msgid "socket"
+msgstr ""
+
+#, c-format
+msgid "socket has non-zero size: %s"
+msgstr ""
+
+#, c-format
+msgid "socket: %s.\n"
+msgstr ""
+
+#, c-format
+msgid "special file has non-zero offset: %s"
+msgstr ""
+
+#, c-format
+msgid "speed %d unsupported"
+msgstr ""
+
+msgid "start"
+msgstr ""
+
+#, c-format
+msgid "stat failed: %s"
+msgstr ""
+
+msgid "stat of path failed\n"
+msgstr ""
+
+msgid "status"
+msgstr ""
+
+#, c-format
+msgid "stolen loop=%s...trying again\n"
+msgstr ""
+
+#, c-format
+msgid "strange, only %d partitions defined.\n"
+msgstr ""
+
+msgid "strange..., a BSD partition of size 0?\n"
+msgstr ""
+
+msgid "strange..., an extended partition of size 0?\n"
+msgstr ""
+
+msgid "strdup failed"
+msgstr ""
+
+#, c-format
+msgid "strtol error: number of blocks not specified"
+msgstr ""
+
+msgid "superblock magic not found"
+msgstr ""
+
+#, c-format
+msgid "superblock size (%d) too small"
+msgstr ""
+
+#, c-format
+msgid "suspend mode: %s; suspending system\n"
+msgstr ""
+
+#, c-format
+msgid "suspend mode: disable; disabling alarm\n"
+msgstr ""
+
+#, c-format
+msgid "suspend mode: no; leaving\n"
+msgstr ""
+
+#, c-format
+msgid "suspend mode: off; executing %s\n"
+msgstr ""
+
+#, c-format
+msgid "suspend mode: on; reading rtc\n"
+msgstr ""
+
+msgid "symbolic link has zero offset"
+msgstr ""
+
+msgid "symbolic link has zero size"
+msgstr ""
+
+#, c-format
+msgid "symlink failed: %s"
+msgstr ""
+
+msgid "timed out"
+msgstr ""
+
+#, c-format
+msgid "timings file %s: %lu: unexpected format"
+msgstr ""
+
+msgid "too many alternate speeds"
+msgstr ""
+
+msgid "too many bad blocks"
+msgstr ""
+
+msgid "too many bad pages"
+msgstr ""
+
+#, c-format
+msgid "too many bare linefeeds.\n"
+msgstr ""
+
+msgid "too many inodes - max is 512"
+msgstr ""
+
+msgid "too many input fields\n"
+msgstr ""
+
+msgid "too many iov's (change code in wall/ttymsg.c)"
+msgstr ""
+
+msgid "too many partitions\n"
+msgstr ""
+
+#, c-format
+msgid "too many partitions - ignoring those past nr (%d)\n"
+msgstr ""
+
+msgid "total"
+msgstr ""
+
+#, c-format
+msgid "total: %llu blocks\n"
+msgstr ""
+
+msgid "track-to-track seek"
+msgstr ""
+
+#, c-format
+msgid "track-to-track seek: %ld\t# milliseconds\n"
+msgstr ""
+
+msgid "tracks/cylinder"
+msgstr ""
+
+#, c-format
+msgid "tracks/cylinder: %ld\n"
+msgstr ""
+
+msgid "trackskew"
+msgstr ""
+
+#, c-format
+msgid "trackskew: %d\n"
+msgstr ""
+
+msgid "trailing junk after number\n"
+msgstr ""
+
+msgid "tree of partitions?\n"
+msgstr ""
+
+#, c-format
+msgid "trouble reading terminfo"
+msgstr ""
+
+msgid "tunelp: ioctl failed"
+msgstr ""
+
+#, c-format
+msgid "type: %d\n"
+msgstr ""
+
+#, c-format
+msgid "type: %s\n"
+msgstr ""
+
+msgid "uid"
+msgstr ""
+
+#, c-format
+msgid "uid=%d\t gid=%d\t cuid=%d\t cgid=%d\n"
+msgstr ""
+
+#, c-format
+msgid "uid=%d\tgid=%d\tcuid=%d\tcgid=%d\tmode=%#o\n"
+msgstr ""
+
+#, c-format
+msgid "uid=%d\tgid=%d\tcuid=%d\tcgid=%d\n"
+msgstr ""
+
+#, c-format
+msgid "umount: %s busy - remounted read-only\n"
+msgstr ""
+
+#, c-format
+msgid "umount: %s is not in the fstab (and you are not root)"
+msgstr ""
+
+#, c-format
+msgid "umount: %s is not mounted (according to mtab)"
+msgstr ""
+
+#, c-format
+msgid "umount: %s mount disagrees with the fstab"
+msgstr ""
+
+#, c-format
+msgid "umount: %s: %s"
+msgstr ""
+
+#, c-format
+msgid "umount: %s: block devices not permitted on fs"
+msgstr ""
+
+#, c-format
+msgid "umount: %s: can't write superblock"
+msgstr ""
+
+#, c-format
+msgid ""
+"umount: %s: device is busy.\n"
+"        (In some cases useful info about processes that use\n"
+"         the device is found by lsof(8) or fuser(1))"
+msgstr ""
+
+#, c-format
+msgid "umount: %s: invalid block device"
+msgstr ""
+
+#, c-format
+msgid "umount: %s: must be superuser to umount"
+msgstr ""
+
+#, c-format
+msgid "umount: %s: not found"
+msgstr ""
+
+#, c-format
+msgid "umount: %s: not mounted"
+msgstr ""
+
+msgid "umount: cannot find list of filesystems to unmount"
+msgstr ""
+
+#, c-format
+msgid "umount: cannot fork: %s"
+msgstr ""
+
+#, c-format
+msgid "umount: cannot set group id: %s"
+msgstr ""
+
+#, c-format
+msgid "umount: cannot set user id: %s"
+msgstr ""
+
+#, c-format
+msgid "umount: cannot unmount %s -- %s is mounted over it on the same point"
+msgstr ""
+
+#, c-format
+msgid "umount: compiled without support for -f\n"
+msgstr ""
+
+msgid "umount: confused when analyzing mtab"
+msgstr ""
+
+#, c-format
+msgid "umount: could not remount %s read-only\n"
+msgstr ""
+
+#, c-format
+msgid "umount: it seems %s is mounted multiple times"
+msgstr ""
+
+#, c-format
+msgid "umount: only %s can unmount %s from %s"
+msgstr ""
+
+msgid "umount: only root can do that"
+msgstr ""
+
+msgid "unable to alloc buffer for superblock"
+msgstr ""
+
+msgid "unable to alloc new libblkid probe"
+msgstr ""
+
+msgid "unable to allocate buffer for inodes"
+msgstr ""
+
+msgid "unable to allocate buffers for maps"
+msgstr ""
+
+msgid "unable to allocate bufferspace"
+msgstr ""
+
+msgid "unable to assign device to libblkid probe"
+msgstr ""
+
+msgid "unable to clear boot sector"
+msgstr ""
+
+msgid "unable to create new selinux context"
+msgstr ""
+
+msgid "unable to erase bootbits sectors"
+msgstr ""
+
+msgid "unable to matchpathcon()"
+msgstr ""
+
+#, c-format
+msgid "unable to open %s"
+msgstr ""
+
+#, c-format
+msgid "unable to open '%s': %s"
+msgstr ""
+
+msgid "unable to read super block"
+msgstr ""
+
+#, c-format
+msgid "unable to resolve '%s'"
+msgstr ""
+
+msgid "unable to rewind swap-device"
+msgstr ""
+
+#, c-format
+msgid "unable to stat %s"
+msgstr ""
+
+msgid "unable to test CRC: old cramfs format"
+msgstr ""
+
+msgid "unable to write inode map"
+msgstr ""
+
+msgid "unable to write inodes"
+msgstr ""
+
+msgid "unable to write super-block"
+msgstr ""
+
+msgid "unable to write zone map"
+msgstr ""
+
+#, c-format
+msgid "unexpected end of file on %s"
+msgstr ""
+
+msgid "unexpected number of arguments"
+msgstr ""
+
+#, c-format
+msgid "unimplemented format - using %s\n"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+#, c-format
+msgid "unknown\n"
+msgstr ""
+
+#, c-format
+msgid "unknown column: %s"
+msgstr ""
+
+#, c-format
+msgid "unknown direction '%s'"
+msgstr ""
+
+msgid "unknown error in id"
+msgstr ""
+
+msgid "unknown error in key"
+msgstr ""
+
+#, c-format
+msgid "unknown resource type: %s\n"
+msgstr ""
+
+msgid "unknown shell after -s or --shell argument"
+msgstr ""
+
+msgid "unrecognized bootable flag - choose - or *\n"
+msgstr ""
+
+msgid "unrecognized format - using sectors\n"
+msgstr ""
+
+#, c-format
+msgid "unrecognized input: %s\n"
+msgstr ""
+
+msgid "unshare failed"
+msgstr ""
+
+msgid "unsupported filesystem features"
+msgstr ""
+
+#, c-format
+msgid "usage:\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s [ - ] [ -2 ] [ file ... ]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s [ -i ] [ -tTerm ] file...\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s [ -n ] device\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s [ -s signal | -p ] [ -a ] pid ...\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"usage: %s [ [-q msqid] [-m shmid] [-s semid]\n"
+"          [-Q msgkey] [-M shmkey] [-S semkey] ... ]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s [+format] [day month year]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s [-dflpcsu] [+linenum | +/pattern] name1 name2 ...\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"usage: %s [-h] [-v] [-b blksize] [-e edition] [-N endian] [-i file] [-n "
+"name] dirname outfile\n"
+" -h         print this help\n"
+" -v         be verbose\n"
+" -E         make all warnings errors (non-zero exit status)\n"
+" -b blksize use this blocksize, must equal page size\n"
+" -e edition set edition number (part of fsid)\n"
+" -N endian  set cramfs endianness (big|little|host), default host\n"
+" -i file    insert a file image into the filesystem (requires >= 2.4.0)\n"
+" -n name    set name of cramfs filesystem\n"
+" -p         pad by %d bytes for boot code\n"
+" -s         sort directory entries (old option, ignored)\n"
+" -z         make explicit holes (requires >= 2.3.39)\n"
+" dirname    root of the filesystem to be compressed\n"
+" outfile    output file\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"usage: %s [-hv] [-x dir] file\n"
+" -h         print this help\n"
+" -x dir     extract into dir\n"
+" -v         be more verbose\n"
+" file       file to test\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s [file]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"usage: %s [options]\n"
+"    -d | --device <device>    select rtc device (rtc0|rtc1|...)\n"
+"    -n | --dry-run            does everything, but suspend\n"
+"    -l | --local              RTC uses local timezone\n"
+"    -m | --mode               standby|mem|... sleep mode\n"
+"    -s | --seconds <seconds>  seconds to sleep\n"
+"    -t | --time <time_t>      time to wake\n"
+"    -u | --utc                RTC uses UTC\n"
+"    -v | --verbose            verbose messages\n"
+"    -V | --version            show version\n"
+msgstr ""
+
+#, c-format
+msgid "usage: %s program [arg ...]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: cal [-13smjyV] [[[day] month] year]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: col [-bfpx] [-l nline]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: column [-tx] [-c columns] [file ...]\n"
+msgstr ""
+
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"usage: logger [-is] [-f file] [-p pri] [-t tag] [-u socket] [ message ... ]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: login [-fp] [username]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: look [-dfa] [-t char] string [file]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: mesg [y | n]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: rev [file ...]\n"
+msgstr ""
+
+#, c-format
+msgid "usage: script [-a] [-e] [-f] [-q] [-t] [file]\n"
+msgstr ""
+
+msgid "usage: sfdisk --change-id device partition-number Id\n"
+msgstr ""
+
+msgid "usage: sfdisk --id device partition-number [Id]\n"
+msgstr ""
+
+msgid "usage: sfdisk --print-id device partition-number\n"
+msgstr ""
+
+msgid "usage: tailf [-n N | -N] logfile"
+msgstr ""
+
+#, c-format
+msgid "usage: write user [tty]\n"
+msgstr ""
+
+#, c-format
+msgid "used arrays = %d\n"
+msgstr ""
+
+#, c-format
+msgid "used headers = %d\n"
+msgstr ""
+
+#, c-format
+msgid "used space = %d bytes\n"
+msgstr ""
+
+msgid "used-bytes"
+msgstr ""
+
+msgid "useful options:"
+msgstr ""
+
+#, c-format
+msgid "user"
+msgstr ""
+
+#, c-format
+msgid "users"
+msgstr ""
+
+#, c-format
+msgid "utime failed: %s"
+msgstr ""
+
+#, c-format
+msgid "uuidd daemon already running at pid %s\n"
+msgstr ""
+
+msgid "value"
+msgstr ""
+
+msgid "volume name too long"
+msgstr ""
+
+msgid "waitpid failed"
+msgstr ""
+
+#, c-format
+msgid "warning: %s is already associated with %s\n"
+msgstr ""
+
+#, c-format
+msgid "warning: %s: is write-protected, using read-only.\n"
+msgstr ""
+
+#, c-format
+msgid "warning: can't open %s: %s"
+msgstr ""
+
+#, c-format
+msgid "warning: error reading %s: %s"
+msgstr ""
+
+#, c-format
+msgid "warning: file extends past end of filesystem\n"
+msgstr ""
+
+#, c-format
+msgid "warning: file sizes truncated to %luMB (minus 1 byte).\n"
+msgstr ""
+
+#, c-format
+msgid "warning: filenames truncated to 255 bytes.\n"
+msgstr ""
+
+#, c-format
+msgid "warning: files were skipped due to errors.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"warning: gids truncated to %u bits.  (This may be a security concern.)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"warning: guestimate of required size (upper bound) is %lldMB, but maximum "
+"image size is %uMB.  We might die prematurely.\n"
+msgstr ""
+
+#, c-format
+msgid "warning: old cramfs format\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"warning: uids truncated to %u bits.  (This may be a security concern.)\n"
+msgstr ""
+
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr ""
+
+#, c-format
+msgid "whereis [ -sbmu ] [ -SBM dir ... -f ] name...\n"
+msgstr ""
+
+#, c-format
+msgid "will not try to make filesystem on '%s'"
+msgstr ""
+
+msgid "write"
+msgstr ""
+
+#, c-format
+msgid "write error on %s\n"
+msgstr ""
+
+#, c-format
+msgid "write error on %s - cannot write sector %lu\n"
+msgstr ""
+
+msgid "write failed in write_block"
+msgstr ""
+
+#, c-format
+msgid "write failed: %s"
+msgstr ""
+
+msgid "write to stdout failed"
+msgstr ""
+
+#, c-format
+msgid "write: %s has messages disabled\n"
+msgstr ""
+
+#, c-format
+msgid "write: %s has messages disabled on %s\n"
+msgstr ""
+
+#, c-format
+msgid "write: %s is logged in more than once; writing to %s\n"
+msgstr ""
+
+#, c-format
+msgid "write: %s is not logged in\n"
+msgstr ""
+
+#, c-format
+msgid "write: %s is not logged in on %s.\n"
+msgstr ""
+
+#, c-format
+msgid "write: can't find your tty's name\n"
+msgstr ""
+
+#, c-format
+msgid "write: you have write permission turned off.\n"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "zcount"
+msgstr ""
+
+msgid "zero file count"
+msgstr ""
+
+#, c-format
+msgid "|red|magenta|yellow|white ]\n"
+msgstr ""
+
+#, c-format
+msgid "|red|magenta|yellow|white|default ]\n"
+msgstr ""

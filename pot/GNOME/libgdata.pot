@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Translators: the parameter is the name of an XML element, including the angle brackets ("<" and ">").
+#. *
+#. * For example:
+#. *  A <title> element was missing required content.
+#, c-format
+msgid "A %s element was missing required content."
+msgstr ""
+
+#. Translators: see http://en.wikipedia.org/wiki/CAPTCHA for information about CAPTCHAs
+msgid "A CAPTCHA must be filled out to log in."
+msgstr ""
+
+#. Translators: the parameter is the name of an XML element, including the angle brackets ("<" and ">").
+#. *
+#. * For example:
+#. *  A required element (<entry/title>) was not present.
+#, c-format
+msgid "A required element (%s) was not present."
+msgstr ""
+
+#. Translators: the first parameter is the name of an XML element (including the angle brackets ("<" and ">")),
+#. * and the second is the name of an XML property which it should have contained.
+#. *
+#. * For example:
+#. *  A required property of a <entry/gAcl:role> element (@value) was not present.
+#, c-format
+msgid "A required property of a %s element (%s) was not present."
+msgstr ""
+
+#. Translators: the parameter is the name of an XML element, including the angle brackets ("<" and ">").
+#. *
+#. * For example:
+#. *  A singleton element (<feed/title>) was duplicated.
+#. Translators: the parameter is the name of an JSON element.
+#. *
+#. * For example:
+#. *  A singleton element (title) was duplicated.
+#, c-format
+msgid "A singleton element (%s) was duplicated."
+msgstr ""
+
+#. Translators: the parameter is the name of an JSON element.
+#. *
+#. * For example:
+#. *  A ‘title’ element was missing required content.
+#, c-format
+msgid "A ‘%s’ element was missing required content."
+msgstr ""
+
+#. Server returned an error. This either means that there was a server error or, more likely, the server doesn't trust the client
+#. * or the user denied authorization to the token on the authorization web page.
+msgid "Access was denied by the user or server."
+msgstr ""
+
+#. Translators: the parameter is an error message returned by the server.
+#, c-format
+msgid "Authentication required: %s"
+msgstr ""
+
+msgid "Batch operations are unsupported by this service."
+msgstr ""
+
+msgid "Cannot connect to the proxy server."
+msgstr ""
+
+msgid "Cannot connect to the service’s server."
+msgstr ""
+
+#. Translators: This is an error message for if a user attempts to add a comment to an entry (such as a video) which doesn't support
+#. * comments.
+#. Translators: This is an error message for if a user attempts to add a comment to an entry
+#. * (such as a video) which doesn't support comments.
+msgid "Comments may not be added to this entry."
+msgstr ""
+
+#. Translators: this is a dummy error message to be substituted into "Error parsing XML: %s".
+msgid "Empty document."
+msgstr ""
+
+#. Translators: the first parameter is an HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when authenticating: %s"
+msgstr ""
+
+#. Translators: the first parameter is an HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when deleting an entry: %s"
+msgstr ""
+
+#. Translators: the first parameter is an HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when downloading: %s"
+msgstr ""
+
+#. Translators: the first parameter is an HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when inserting an entry: %s"
+msgstr ""
+
+#. Translators: the first parameter is an HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when querying: %s"
+msgstr ""
+
+#. Translators: the first parameter is a HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when running a batch operation: %s"
+msgstr ""
+
+#. Translators: the first parameter is an HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when updating an entry: %s"
+msgstr ""
+
+#. Translators: the first parameter is an HTTP status,
+#. * and the second is an error message returned by the server.
+#, c-format
+msgid "Error code %u when uploading: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message
+#, c-format
+msgid "Error parsing JSON: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message
+#, c-format
+msgid "Error parsing XML: %s"
+msgstr ""
+
+#. Resumable upload error.
+msgid "Error received from server after uploading a resumable upload chunk."
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Invalid JSON was received from the server: %s"
+msgstr ""
+
+#. Translators: the parameter is the URI which is invalid.
+#, c-format
+msgid "Invalid redirect URI: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message returned by the server.
+#. Translators: the parameter is an
+#. * error message returned by the
+#. * server.
+#, c-format
+msgid "Invalid request URI or header, or unsupported nonstandard parameter: %s"
+msgstr ""
+
+#. Tried to seek too far
+msgid "Invalid seek request"
+msgstr ""
+
+msgid "Outermost JSON node is not an object."
+msgstr ""
+
+msgid "Parent folder not found"
+msgstr ""
+
+#, c-format
+msgid "Property ‘%s’ does not hold an image"
+msgstr ""
+
+msgid "Query parameter not allowed for albums."
+msgstr ""
+
+msgid "Stream is already closed"
+msgstr ""
+
+msgid "The album did not have a feed link."
+msgstr ""
+
+msgid "The album has already been inserted."
+msgstr ""
+
+#. Translators: the first parameter is the name of an XML element (including the angle brackets ("<" and ">")),
+#. * and the second parameter is the erroneous value (which was not in ISO 8601 format).
+#. *
+#. * For example:
+#. *  The content of a <media:group/media:uploaded> element (‘2009-05-06 26:30Z’) was not in ISO 8601 format.
+#, c-format
+msgid "The content of a %s element (‘%s’) was not in ISO 8601 format."
+msgstr ""
+
+#. Translators: the first parameter is the name of an XML element (including the angle brackets
+#. * ("<" and ">"), and the second parameter is the erroneous value (which was not in hexadecimal
+#. * RGB format).
+#. *
+#. * For example:
+#. *  The content of a <entry/gCal:color> element (‘00FG56’) was not in hexadecimal RGB format.
+#, c-format
+msgid "The content of a %s element (‘%s’) was not in hexadecimal RGB format."
+msgstr ""
+
+#. Translators: the first parameter is the name of an XML element (including the angle brackets ("<" and ">")),
+#. * and the second parameter is the unknown content of that element.
+#. *
+#. * For example:
+#. *  The content of a <gphoto:access> element (‘protected’) was unknown.
+#, c-format
+msgid "The content of a %s element (‘%s’) was unknown."
+msgstr ""
+
+#. Translators: the first parameter is the name of an JSON element,
+#. * and the second parameter is the erroneous value (which was not in ISO 8601 format).
+#. *
+#. * For example:
+#. *  The content of a ‘uploaded’ element (‘2009-05-06 26:30Z’) was not in ISO 8601 format.
+#, c-format
+msgid "The content of a ‘%s’ element (‘%s’) was not in ISO 8601 format."
+msgstr ""
+
+#, c-format
+msgid ""
+"The content type of the supplied document (‘%s’) could not be recognized."
+msgstr ""
+
+msgid "The document has already been uploaded."
+msgstr ""
+
+msgid "The entry has already been inserted."
+msgstr ""
+
+#. Translators: the parameter is an error message returned by the server.
+#, c-format
+msgid "The entry has been modified since it was downloaded: %s"
+msgstr ""
+
+msgid "The group has already been inserted."
+msgstr ""
+
+#. Translators: the parameter is an error message returned by the server.
+#. Translators: the parameter is an
+#. * error message returned by the
+#. * server.
+#. Translators: the parameter is an error message returned by the server.
+#, c-format
+msgid "The requested resource was not found: %s"
+msgstr ""
+
+msgid "The server rejected the temporary credentials request."
+msgstr ""
+
+msgid "The server returned a malformed response."
+msgstr ""
+
+#. Translators: the first parameter is the name of an XML property, the second is the name of an XML element
+#. * (including the angle brackets ("<" and ">")) to which the property belongs, and the third is the unknown value.
+#. *
+#. * For example:
+#. *  The value of the @time property of a <media:group/media:thumbnail> element (‘00:01:42.500’) was unknown.
+#, c-format
+msgid "The value of the %s property of a %s element (‘%s’) was unknown."
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid "This account has been deleted. (%s)"
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid "This account has been disabled. (%s)"
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid ""
+"This account has been migrated. Please log in online to receive your new "
+"username and password. (%s)"
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid "This account requires an application-specific password. (%s)"
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid "This account’s access to this service has been disabled. (%s)"
+msgstr ""
+
+#. Translators: This is an error message for if a user attempts to delete a comment they're not allowed to delete.
+msgid "This comment may not be deleted."
+msgstr ""
+
+#. Translators: This is an error message for if a user attempts to retrieve comments from an entry (such as a video) which doesn't
+#. * support comments.
+#. Translators: This is an error message for if a user attempts to retrieve comments from an entry
+#. * (such as a video) which doesn't support comments.
+msgid "This entry does not support comments."
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid "This service is not available at the moment. (%s)"
+msgstr ""
+
+#, c-format
+msgid "Unknown or unsupported document export format ‘%s’."
+msgstr ""
+
+#. Translators: the first two parameters are the names of XML properties of an XML element given in the third
+#. * parameter (including the angle brackets ("<" and ">")).
+#. *
+#. * For example:
+#. *  Values were present for properties @rel and @label of a <entry/gContact:relation> element when only one of the
+#. *  two is allowed.
+#, c-format
+msgid ""
+"Values were present for properties %s and %s of a %s element when only one "
+"of the two is allowed."
+msgstr ""
+
+msgid ""
+"You have exceeded your entry quota. Please delete some entries and try again."
+msgstr ""
+
+msgid ""
+"You have made too many API calls recently. Please wait a few minutes and try "
+"again."
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid "You have not agreed to the service’s terms and conditions. (%s)"
+msgstr ""
+
+msgid "You must be authenticated to copy documents."
+msgstr ""
+
+msgid "You must be authenticated to do this."
+msgstr ""
+
+msgid "You must be authenticated to download documents."
+msgstr ""
+
+msgid "You must be authenticated to insert a group."
+msgstr ""
+
+msgid "You must be authenticated to insert an album."
+msgstr ""
+
+msgid "You must be authenticated to insert or move documents and folders."
+msgstr ""
+
+msgid "You must be authenticated to move documents and folders."
+msgstr ""
+
+msgid "You must be authenticated to query all calendars."
+msgstr ""
+
+msgid "You must be authenticated to query all tasklists."
+msgstr ""
+
+msgid "You must be authenticated to query contact groups."
+msgstr ""
+
+msgid "You must be authenticated to query contacts."
+msgstr ""
+
+msgid "You must be authenticated to query documents."
+msgstr ""
+
+msgid "You must be authenticated to query your own calendars."
+msgstr ""
+
+msgid "You must be authenticated to query your own tasks."
+msgstr ""
+
+msgid "You must be authenticated to update documents."
+msgstr ""
+
+msgid "You must be authenticated to upload a file."
+msgstr ""
+
+msgid "You must be authenticated to upload a video."
+msgstr ""
+
+msgid "You must be authenticated to upload documents."
+msgstr ""
+
+msgid "You must specify a username or be authenticated to query a user."
+msgstr ""
+
+msgid "You must specify a username or be authenticated to query all albums."
+msgstr ""
+
+#. Translators: the parameter is a URI.
+#, c-format
+msgid ""
+"Your Google Account must be associated with a YouTube channel to do this. "
+"Visit %s to create one."
+msgstr ""
+
+#. Translators: the parameter is a URI for further information.
+#, c-format
+msgid "Your account’s e-mail address has not been verified. (%s)"
+msgstr ""
+
+msgid "Your username or password were incorrect."
+msgstr ""

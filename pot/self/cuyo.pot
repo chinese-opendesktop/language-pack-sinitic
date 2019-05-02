@@ -1,0 +1,2094 @@
+# Message catalog for the game Cuyo.
+# This is a partly generated file. The copyright of the original messages is identical to the one of the source files they are generated from. The copyright of the translations is by the translators.
+# This file is distributed under the same license as the Cuyo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cuyo VERSION\n"
+"Report-Msgid-Bugs-To: cuyo-devel@nongnu.org\n"
+"POT-Creation-Date: 2012-2-16\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/aufnahme.cpp:131
+#, c-format
+msgid "Stopped replay, because it requires level %s.\n"
+msgstr ""
+
+#: src/aufnahme.cpp:135
+#, c-format
+msgid "Stopped replay, because it requires %d players.\n"
+msgstr ""
+
+#: src/aufnahme.cpp:139 src/aufnahme.cpp:220
+msgid "Stopped replay, because it seems to be broken.\n"
+msgstr ""
+
+#: src/aufnahme.cpp:185
+msgid "Stopped replay, because a key was pressed.\n"
+msgstr ""
+
+#: src/aufnahme.cpp:205
+msgid "End of replay.\n"
+msgstr ""
+
+#: src/aufnahme.cpp:234
+#, c-format
+msgid "Could not open log file \"%s\" for reading."
+msgstr ""
+
+#: src/aufnahme.cpp:239
+#, c-format
+msgid "Parse Error at the beginning of the log file \"%s\"."
+msgstr ""
+
+#: src/aufnahme.cpp:242
+#, c-format
+msgid "Warning: log file version is %s while cuyo version is %s\n"
+msgstr ""
+
+#: src/aufnahme.cpp:265
+#, c-format
+msgid "Could not open log file \"%s\" for writing."
+msgstr ""
+
+#: src/bilddatei.cpp:185
+#, c-format
+msgid "Image '%s' too small for Icon %d"
+msgstr ""
+
+#: src/bilddatei.cpp:243
+#, c-format
+msgid ""
+"* Warning: Some part of '%s' is drawn with coordinates which are\n"
+"* not divisible by 4. This may cause graphic glitches in downscaled mode.\n"
+msgstr ""
+
+#: src/bildstapel.cpp:127
+msgid "Internal error: Too many pictures drawn for one single blob"
+msgstr ""
+
+#: src/bildstapel.cpp:133
+#, c-format
+msgid "Position pos=%d out of range (allowed for file=%d: 0 - %d)"
+msgstr ""
+
+#: src/bildstapel.cpp:137
+#, c-format
+msgid "Quarter qu=%d out of range (allowed: %d - %d)"
+msgstr ""
+
+#. TRANSLATORS: This is to add further information to error messages
+#: src/bildstapel.cpp:189
+#, c-format
+msgid ""
+"In kind %s, file %d:\n"
+"%s"
+msgstr ""
+
+#: src/blatt.cpp:211
+msgid "Computer"
+msgstr ""
+
+#: src/blatt.cpp:211
+#, c-format
+msgid "Player %d"
+msgstr ""
+
+#. TRANSLATORS: During game: short version of "%d blops explode"
+#: src/blatt.cpp:244
+#, c-format
+msgid "%d"
+msgstr ""
+
+#. TRANSLATORS: During game: short version of
+#. "between %d and %d blops explode"
+#: src/blatt.cpp:249
+#, c-format
+msgid "%d-%d"
+msgstr ""
+
+#. TRANSLATORS: During game: short version of
+#. "%d or %d blops explode"
+#: src/blatt.cpp:254
+#, c-format
+msgid "%d/%d"
+msgstr ""
+
+#: src/blatt.cpp:1085
+#, c-format
+msgid "%s  -  Debug mode; Press alt-h for help."
+msgstr ""
+
+#. TRANSLATORS: Now follows the main menu. The characters preceded by a tilde
+#. are hotkeys. Please choose them disjoint within the menu. If this
+#. cannot be achieved in a sensible manner, feel free to leave some out.
+#: src/blatt.cpp:1096
+msgid "~New Game"
+msgstr ""
+
+#: src/blatt.cpp:1099
+msgid "~Restart last level"
+msgstr ""
+
+#: src/blatt.cpp:1104
+msgid "Start ~at level..."
+msgstr ""
+
+#: src/blatt.cpp:1107
+msgid "~1 Player"
+msgstr ""
+
+#: src/blatt.cpp:1109
+msgid "~2 Players"
+msgstr ""
+
+#: src/blatt.cpp:1111
+msgid "Player vs. ~Computer"
+msgstr ""
+
+#: src/blatt.cpp:1116
+msgid "~Level track"
+msgstr ""
+
+#: src/blatt.cpp:1122
+msgid "~Difficulty"
+msgstr ""
+
+#: src/blatt.cpp:1127
+msgid ""
+"Setting the difficulty affects some, but not all levels.\n"
+"On difficulty \"Easy\", the \"Standard\" level track\n"
+"consists of levels which are affected by that difficulty,\n"
+"and of levels which are easy in themselves.\n"
+"The same holds for \"Hard\"."
+msgstr ""
+
+#: src/blatt.cpp:1133
+msgid "~Preferences..."
+msgstr ""
+
+#. TRANSLATORS: This is the last entry of the main menu.
+#: src/blatt.cpp:1142
+msgid "~Quit"
+msgstr ""
+
+#: src/blatt.cpp:1152
+#, c-format
+msgid "Keys Player %d:"
+msgstr ""
+
+#: src/blatt.cpp:1154
+msgid "Left"
+msgstr ""
+
+#: src/blatt.cpp:1155
+msgid "Right"
+msgstr ""
+
+#: src/blatt.cpp:1156
+msgid "Turn"
+msgstr ""
+
+#: src/blatt.cpp:1157
+msgid "Down"
+msgstr ""
+
+#: src/blatt.cpp:1161
+msgid "AI Speed"
+msgstr ""
+
+#: src/blatt.cpp:1163
+msgid "Sound"
+msgstr ""
+
+#: src/blopbesitzer.cpp:32
+msgid "Internal error in const BlopBesitzer::getFeld()"
+msgstr ""
+
+#: src/blopbesitzer.cpp:37
+msgid "Internal error in BlopBesitzer::getFeld()"
+msgstr ""
+
+#. TRANSLATORS: This is to improve an error message.
+#. The first %s is a description of the place where the error occured.
+#. The second %s is the error message to be improved.
+#: src/blop.cpp:210
+#, c-format
+msgid ""
+"%s, during drawing:\n"
+"%s"
+msgstr ""
+
+#. TRANSLATORS: This is to improve an error message.
+#. The first %s is a description of the place where the error occured.
+#. The second %s is the error message to be improved.
+#: src/blop.cpp:341
+#, c-format
+msgid ""
+"%s, during animation:\n"
+"%s"
+msgstr ""
+
+#. TRANSLATORS: This is to improve an error message.
+#. The first %s is a description of the place where the error occured.
+#. The second %s is the name of an event.
+#. The third %s is the error message to be improved.
+#: src/blop.cpp:378
+#, c-format
+msgid ""
+"%s, during %s event:\n"
+"%s"
+msgstr ""
+
+#: src/blop.cpp:390
+msgid "Empty Blops are not allowed to explode."
+msgstr ""
+
+#: src/blop.cpp:496
+#, c-format
+msgid "Blop %s at %s"
+msgstr ""
+
+#. TRANSLATORS: "bonus" is a programming keyword that should not be
+#. translated.
+#: src/blop.cpp:506
+msgid "bonus() does not work in the global blob."
+msgstr ""
+
+#. TRANSLATORS: "message" is a programming keyword that should not be
+#. translated.
+#: src/blop.cpp:515
+msgid "message() does not work in the global blob."
+msgstr ""
+
+#. TRANSLATORS: "Blop::getSpezConst" and "AbsOrtArt" are
+#. programming keywords that should not be translated.
+#: src/blop.cpp:569
+#, c-format
+msgid "Internal error in Blop::getSpezConst(): Wrong AbsOrtArt %d"
+msgstr ""
+
+#: src/blop.cpp:621
+#, c-format
+msgid "The variable \"%s\" is read-only."
+msgstr ""
+
+#. TRANSLATORS: "Blop" and "setVariable" are
+#. programming keywords that should not be translated.
+#: src/blop.cpp:678
+#, c-format
+msgid "Internal error in Blop::setVariable() (op = %d)"
+msgstr ""
+
+#. TRANSLATORS: "kind" is a programming keyword that should not be
+#. translated.
+#: src/blop.cpp:690
+#, c-format
+msgid "Value %d for kind out of range (allowed: %d - %d)"
+msgstr ""
+
+#: src/blop.cpp:803 src/blop.cpp:820
+msgid "Drawing is not allowed at the moment."
+msgstr ""
+
+#. TRANSLATORS: "Code", "getStapelHoehe", and "CodeArt" are programming
+#. keywords that should not be translated.
+#. The %s describes, which part of a program triggered the error.
+#: src/code.cpp:294
+#, c-format
+msgid ""
+"%s: Internal error in Code::getStapelHoehe(): Call illegal for CodeArt %d"
+msgstr ""
+
+#. TRANSLATORS: "Code", "getStapelHoehe", and "CodeArt" are programming
+#. keywords that should not be translated.
+#. The %s describes, which part of a program triggered the error.
+#: src/code.cpp:302
+#, c-format
+msgid "%s: Internal error in Code::getStapelHoehe(): Unknown CodeArt %d"
+msgstr ""
+
+#: src/code.cpp:344 src/code.cpp:551
+msgid "Division by zero"
+msgstr ""
+
+#: src/code.cpp:347 src/code.cpp:558
+msgid "Modulo zero"
+msgstr ""
+
+#. TRANSLATORS: "explode" is a programming keyword
+#. that should not be translated.
+#: src/code.cpp:467
+msgid "Warning: Can't use 'explode' in falling blob.\n"
+msgstr ""
+
+#. TRANSLATORS: The colon in "x:0" is a programming keyword
+#. that should not be translated.
+#: src/code.cpp:494
+msgid "Probability x:0 in the animation program"
+msgstr ""
+
+#. TRANSLATORS: "rnd" is a programming keyword
+#. that should not be translated.
+#: src/code.cpp:530
+msgid "rnd(<=0) in the animation program"
+msgstr ""
+
+#. TRANSLATORS: "Code", "eval", "CodeArt", and "undefined_code" are
+#. programming keywords that should not be translated.
+#: src/code.cpp:597
+msgid "Internal error in Code::eval(): CodeArt undefined_code"
+msgstr ""
+
+#. TRANSLATORS: "Code", "eval", and "CodeArt" are programming
+#. keywords that should not be translated.
+#: src/code.cpp:604
+#, c-format
+msgid "Internal error in Code::eval(): Unknown CodeArt %d"
+msgstr ""
+
+#. TRANSLATORS: Add line number information (first %s)
+#. to an error message (second %s).
+#: src/code.cpp:611
+#, c-format
+msgid "%s: %s"
+msgstr ""
+
+#. TRANSLATORS: The first %s is the file name,
+#. the second %s is the erroneous line.
+#: src/configdatei.cpp:177
+#, c-format
+msgid "Parse error in file %s: %s\n"
+msgstr ""
+
+#: src/cuyo.cpp:229
+msgid "There are no (more?) (working?) levels."
+msgstr ""
+
+#: src/cuyo.cpp:274
+#, c-format
+msgid ""
+"Score: %d\n"
+"\n"
+"Loading Level %d...\n"
+"\n"
+msgstr ""
+
+#: src/cuyo.cpp:315
+#, c-format
+msgid "1 blop explodes"
+msgid_plural "%d blops explode"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/cuyo.cpp:321
+#, c-format
+msgid "between %d and %d blops explode"
+msgstr ""
+
+#: src/cuyo.cpp:324
+#, c-format
+msgid "%d or %d blops explode"
+msgstr ""
+
+#. TRANSLATORS: The seond %s (after "by ") is the level's author's name
+#: src/cuyo.cpp:327
+#, c-format
+msgid ""
+"Score: %d\n"
+"\n"
+"Level %d\n"
+"%s\n"
+"by %s\n"
+"\n"
+"%s\n"
+"%s\n"
+"%s\n"
+"\n"
+"Space = Start"
+msgstr ""
+
+#: src/cuyo.cpp:335
+msgid "Chain reaction necessary\n"
+msgstr ""
+
+#: src/cuyo.cpp:538
+#, c-format
+msgid ""
+"Game over\n"
+"\n"
+"Score: %d\n"
+"\n"
+msgstr ""
+
+#: src/cuyo.cpp:557
+#, c-format
+msgid ""
+"Level %s complete!\n"
+"\n"
+"Time Bonus: %d\n"
+"Score: %d\n"
+"\n"
+"%s"
+msgstr ""
+
+#: src/cuyo.cpp:579
+msgid "Space = Continue"
+msgstr ""
+
+#: src/cuyo.cpp:648
+#, c-format
+msgid ""
+"***\n"
+"You won even a bit more!!!\n"
+"\n"
+"Score: %d\n"
+"***\n"
+"\n"
+msgstr ""
+
+#: src/cuyo.cpp:649
+#, c-format
+msgid ""
+"***\n"
+"You won!!!\n"
+"\n"
+"Score: %d\n"
+"***\n"
+"\n"
+msgstr ""
+
+#: src/cuyo.cpp:655
+msgid "Could not start level:\n"
+msgstr ""
+
+#: src/cuyo.cpp:703
+msgid "Error during the game:\n"
+msgstr ""
+
+#: src/cuyo.cpp:787
+msgid ""
+"Warning: Env-Variable $HOME not found. Using the current directory for cuyo."
+"log"
+msgstr ""
+
+#: src/cuyo.cpp:1049
+msgid "Debug: Receive greys\n"
+msgstr ""
+
+#: src/cuyo.cpp:1053
+#, c-format
+msgid "Debug: Single step mode = %d\n"
+msgstr ""
+
+#: src/cuyo.cpp:1064
+msgid "Debug: Replace fall\n"
+msgstr ""
+
+#: src/cuyo.cpp:1069
+msgid "Debug: Load log file\n"
+msgstr ""
+
+#. TRANSLATORS: The %d is the level number
+#: src/cuyo.cpp:1076
+#, c-format
+msgid ""
+"Level %s (%d)\n"
+"For replay start level.\n"
+msgstr ""
+
+#: src/cuyo.cpp:1080 src/cuyo.cpp:1119
+msgid "Debug: Do *not* load log file during the game.\n"
+msgstr ""
+
+#: src/cuyo.cpp:1084
+#, c-format
+msgid "Debug: Replay log file = %d\n"
+msgstr ""
+
+#: src/cuyo.cpp:1091
+msgid "Debug: Win instantly\n"
+msgstr ""
+
+#: src/cuyo.cpp:1095
+msgid ""
+"Debug: Help (all keys to be combined with Alt)\n"
+"  b: Receive greys\n"
+"  e: Single step mode on/off\n"
+"  f: Replace fall\n"
+"  g: Win instantly\n"
+"  h: Help (this one)\n"
+"  L: Load log file\n"
+"  l: Replay log file on/off\n"
+"  r: Reload level\n"
+"  S: Save log file\n"
+"  t: Test of row-exchange on/off\n"
+"  v: Fast forward on/off\n"
+"  z: Slow motion on/off\n"
+msgstr ""
+
+#: src/cuyo.cpp:1111
+msgid "Debug: Reload levelconf\n"
+msgstr ""
+
+#: src/cuyo.cpp:1115
+msgid ""
+"Could not reload the level description file because of the following error:\n"
+msgstr ""
+
+#: src/cuyo.cpp:1122
+msgid "Debug: Save log file\n"
+msgstr ""
+
+#: src/cuyo.cpp:1127
+#, c-format
+msgid "Debug: Test of row-exchange = %d\n"
+msgstr ""
+
+#: src/cuyo.cpp:1132
+#, c-format
+msgid "Debug: Fast forward = %d\n"
+msgstr ""
+
+#: src/cuyo.cpp:1136
+#, c-format
+msgid "Debug: Slow motion = %d\n"
+msgstr ""
+
+#: src/cuyo.cpp:1281
+#, c-format
+msgid "Conflicting versions: %s"
+msgstr ""
+
+#: src/datendatei.cpp:137 src/version.cpp:584
+#, c-format
+msgid "%s required but not defined"
+msgstr ""
+
+#: src/datendatei.cpp:145
+#, c-format
+msgid "Wrong type on the righthand side of %s%s="
+msgstr ""
+
+#: src/datendatei.cpp:210
+#, c-format
+msgid "0 or 1 expected, got %d."
+msgstr ""
+
+#: src/datendatei.cpp:232 src/datendatei.cpp:247
+msgid "Color (r,g,b) expected"
+msgstr ""
+
+#: src/datendatei.cpp:266
+msgid "List of atomic data expected"
+msgstr ""
+
+#: src/datendatei.cpp:319
+#, c-format
+msgid "Section %s does not exist."
+msgstr ""
+
+#: src/fehler.h:87
+msgid "Please send the log-file \"cuyo.log\" to cuyo@karimmi.de"
+msgstr ""
+
+#. TRANSLATORS: This is to prepend an error message
+#: src/fehler.h:99
+#, c-format
+msgid "%s:%d: %s\n"
+msgstr ""
+
+#: src/fehler.h:121
+#, c-format
+msgid "Internal error: \"%s\" in %s:%d"
+msgstr ""
+
+#. TRANSLATORS: "SDL" is a library name and should not be translated
+#: src/fehler.h:129
+#, c-format
+msgid "SDL error: \"%s\" in %s:%d: %s"
+msgstr ""
+
+#: src/knoten.cpp:222 src/knoten.cpp:426
+#, c-format
+msgid "\"%s\" already defined."
+msgstr ""
+
+#. TRANSLATORS: "Cual" is a programming language's name
+#: src/knoten.cpp:437
+msgid ""
+"Warning: There's global Cual code _after_ some level definitions. Be sure\n"
+"not to use that Cual code in the levels before it. (Due to a bug, this will\n"
+"sometimes not result in an error message but in strange behaviour.)\n"
+msgstr ""
+
+#. TRANSLATORS: "<<" and ">>" are programming keywords
+#. and should not be translated.
+#: src/knoten.cpp:466
+#, c-format
+msgid "\"%s\" not defined inside << >>."
+msgstr ""
+
+#: src/knoten.cpp:491
+#, c-format
+msgid "\"%s\" not defined."
+msgstr ""
+
+#: src/knoten.cpp:724
+msgid "Value is a list and should not."
+msgstr ""
+
+#: src/knoten.cpp:734
+msgid "<unknown type, please report>"
+msgstr ""
+
+#: src/knoten.cpp:741
+#, c-format
+msgid "%s is of wrong type. %s expected"
+msgstr ""
+
+#. TRANSLATORS: "pics" is a programming keyword and should not be
+#. translated
+#: src/leveldaten.cpp:258
+#, c-format
+msgid "Number of pics exceeds limit %d"
+msgstr ""
+
+#: src/leveldaten.cpp:308 src/leveldaten.cpp:328 src/leveldaten.cpp:601
+#: src/leveldaten.cpp:609
+msgid "Sorry, no working level description file available."
+msgstr ""
+
+#. TRANSLATORS: This prepends an error message with position information
+#: src/leveldaten.cpp:339
+#, c-format
+msgid "At position %s (or somewhere below): "
+msgstr ""
+
+#. TRANSLATORS: "toptime" is a programming keyword which should not
+#. be translated.
+#: src/leveldaten.cpp:392
+msgid "toptime must be positive"
+msgstr ""
+
+#. TRANSLATORS: "neighbours" is a programming keyword which
+#. should not be translated.
+#: src/leveldaten.cpp:424 src/sorte.cpp:253
+msgid "neighbours out of range"
+msgstr ""
+
+#. TRANSLATORS: "nogreyprob" is a programming keyword which
+#. should not be translated.
+#: src/leveldaten.cpp:510
+msgid "nogreyprob must not be negative"
+msgstr ""
+
+#. TRANSLATORS: Don't worry about the %s, it will be a programming
+#. keyword.
+#: src/leveldaten.cpp:519
+#, c-format
+msgid "At least one %s must be positive."
+msgstr ""
+
+#. TRANSLATORS: "nogreyprob" is a programming keyword which
+#. should not be translated.
+#. Also, don't worry about the %s, it will be a programming keyword.
+#: src/leveldaten.cpp:525
+#, c-format
+msgid "nogreyprob or at least one %s must be positive."
+msgstr ""
+
+#. TRANSLATORS: This postpends an error message with some information
+#: src/leveldaten.cpp:553
+#, c-format
+msgid " (Level \"%s\")\n"
+msgstr ""
+
+#. TRANSLATORS: This indicates an unknown value
+#: src/leveldaten.cpp:641
+msgid "???"
+msgstr ""
+
+#. TRANSLATORS: "distkey" is a programming keyword which should not
+#. be translated
+#: src/leveldaten.cpp:702
+#, c-format
+msgid "distkey \"%s\" does not have length %d as others do."
+msgstr ""
+
+#. TRANSLATORS: "startdist" and "distkey" are programming keyword
+#. which should not be translated
+#: src/leveldaten.cpp:731
+#, c-format
+msgid "Illegal character \"%c\" in startdist or distkey %s"
+msgstr ""
+
+#. TRANSLATORS: "startdist" and "distkey" are programming keyword
+#. which should not be translated
+#: src/leveldaten.cpp:738
+msgid "All-spaces startdist entry or distkey is not allowed."
+msgstr ""
+
+#. TRANSLATORS: "cuyo" is a program's name,
+#. "-f", "-g", and "-h" are options' names,
+#. "ld" is a file suffix. None of these should be translated.
+#: src/main.cpp:51
+msgid ""
+"usage: cuyo [-g <width>x<height>] [-h] [-f] [ld-file]\n"
+"  -g <width>x<height>  set window size\n"
+"  -f   fullscreen mode\n"
+"  -h   print this help message\n"
+msgstr ""
+
+#: src/main.cpp:89
+#, c-format
+msgid "Argument to -%c missing\n"
+msgstr ""
+
+#: src/main.cpp:99
+#, c-format
+msgid "Unknown option '%c'\n"
+msgstr ""
+
+#: src/main.cpp:196
+msgid "Could not parse option -g\n"
+msgstr ""
+
+#: src/main.cpp:209
+msgid "Internal error during parsing of options"
+msgstr ""
+
+#: src/main.cpp:222
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr ""
+
+#: src/main.cpp:261
+#, c-format
+msgid "Error: %s\n"
+msgstr ""
+
+#: src/menueintrag.cpp:79
+msgid "Invalid alignment"
+msgstr ""
+
+#. TRANSLATORS: "Done" is a menu entry for quitting a submenu.
+#: src/menueintrag.cpp:449
+msgid "Done"
+msgstr ""
+
+#: src/menueintrag.cpp:572
+msgid "Press `return' or click for a full list"
+msgstr ""
+
+#: src/menueintrag.cpp:820
+msgid "Type a new key"
+msgstr ""
+
+#: src/menueintrag.cpp:821
+msgid "To enter a new key, click or press `return' first"
+msgstr ""
+
+#: src/menueintrag.cpp:914
+msgid "On"
+msgstr ""
+
+#: src/menueintrag.cpp:914
+msgid "Off"
+msgstr ""
+
+#. TRANSLATORS: "neighbours" is a programming keyword that should not
+#. be translated.
+#: src/nachbariterator.cpp:94
+msgid "Non-existent neighbours value."
+msgstr ""
+
+#: src/ort.cpp:62 src/ort.cpp:83 src/ort.cpp:100 src/ort.cpp:284
+#: src/sound.cpp:251
+msgid "Data corruption."
+msgstr ""
+
+#. TRANSLATORS: "ort_absolut", "finde" and "korrekt" are programming
+#. identifiers and should not be translated.
+#: src/ort.cpp:81
+msgid "Internal error in ort_absolut::finde(): No ort_absolut::korrekt()"
+msgstr ""
+
+#. TRANSLATORS: "ort", "ort_absolut" and "playSample" are programming
+#. identifiers and should not be translated.
+#: src/ort.cpp:138
+msgid "illegal ort for ort_absolut::playSample"
+msgstr ""
+
+#. TRANSLATORS: "Ort", "berechne" and "AbsOrtArt" are programming
+#. identifiers and should not be translated.
+#: src/ort.cpp:280
+#, c-format
+msgid "Internal error in Ort::berechne(): Unknown AbsOrtArt %d"
+msgstr ""
+
+#. TRANSLATORS: "Ort", "toString" and "AbsOrtArt" are programming
+#. identifiers and should not be translated.
+#: src/ort.cpp:321
+#, c-format
+msgid "Internal error in Ort::toString(): Unknown AbsOrtArt %d"
+msgstr ""
+
+#: parser.yy:277
+msgid "Unknown error during file inclusion!\n"
+msgstr ""
+
+#: parser.yy:376
+#, c-format
+msgid "%s not a number"
+msgstr ""
+
+#: parser.yy:421
+msgid "Procedure names can't be single letters."
+msgstr ""
+
+#: parser.yy:457 parser.yy:728
+msgid "Variable names can't be single letters."
+msgstr ""
+
+#. TRANSLATORS: The text in the literal strings should not be translated.
+#: parser.yy:506
+msgid "Please specify \"else ->\" or \"else =>\""
+msgstr ""
+
+#: parser.yy:547 parser.yy:577
+#, c-format
+msgid "%s is a constant. (Variable expected.)"
+msgstr ""
+
+#: parser.yy:884
+msgid "There have been errors parsing the level description files."
+msgstr ""
+
+#: src/pfaditerator.cpp:65
+msgid "Internal error: got confused with all those paths I have to deal with."
+msgstr ""
+
+#: src/pfaditerator.cpp:93
+#, c-format
+msgid ""
+"Could not find \"%s\".\n"
+"Tried the following places:%s"
+msgstr ""
+
+#: src/prefsdaten.cpp:89
+msgid "Error reading preferences file '.cuyo':\n"
+msgstr ""
+
+#. TRANSLATORS: ".cuyo" is a file name and should not be translated
+#: src/prefsdaten.cpp:135
+msgid ""
+"Warning: Env-Variable $HOME not found. Using the current directory for .cuyo"
+msgstr ""
+
+#: src/prefsdaten.cpp:213
+#, c-format
+msgid "Warning: Could not write preferences file \"%s\"."
+msgstr ""
+
+#: scanner.ll:84
+msgid "Unknown escape sequence"
+msgstr ""
+
+#: scanner.ll:238
+#, c-format
+msgid "Wrong character '%s'"
+msgstr ""
+
+#. TRANSLATORS: "cuyo" is the program's name
+#: src/sdltools.cpp:310
+msgid "Cuyo - debug mode"
+msgstr ""
+
+#. TRANSLATORS: This is a window title
+#: src/sdltools.cpp:315
+#, c-format
+msgid "Cuyo - level %s"
+msgstr ""
+
+#: src/sdltools.cpp:907
+msgid ""
+"Probably trying to fill rectangle of negative size; this causes an "
+"overflow.\n"
+msgstr ""
+
+#: src/sorte.cpp:122
+#, c-format
+msgid "Using %s for %s\n"
+msgstr ""
+
+#. TRANSLATORS: "%s.%s" is a programming construction and should
+#. not be translated
+#: src/sorte.cpp:151
+#, c-format
+msgid ""
+"Warning: %s.%s contains drawing commands.\n"
+"Drawing is not allowed during events.\n"
+msgstr ""
+
+#. TRANSLATORS: "Sorte" (both) and "mBlopart" are programming identifiers
+#. and should not be translated
+#: src/sorte.cpp:213
+#, c-format
+msgid "Internal Error in Sorte::Sorte(): mBlopart = %d"
+msgstr ""
+
+#. TRANSLATORS: "distkey" is a programming keyword and should not be
+#. translated
+#: src/sorte.cpp:308
+#, c-format
+msgid "illegal distkey %s for %s"
+msgstr ""
+
+#. TRANSLATORS: "versions" is a programming keyword and should not be
+#. translated
+#: src/sorte.cpp:315
+#, c-format
+msgid "illegal versions=%d for %s"
+msgstr ""
+
+#. TRANSLATORS: "numexplode" is a programming keyword and should not be
+#. translated
+#: src/sorte.cpp:324
+#, c-format
+msgid "numexplode undefined for %s"
+msgstr ""
+
+#: src/sorte.cpp:332
+#, c-format
+msgid "%s must not be negative"
+msgstr ""
+
+#. TRANSLATORS: "global" and "semiglobal" are programming keywords
+#. and should not be translated
+#: src/sorte.cpp:345
+#, c-format
+msgid "%s>0 not allowed for global or semiglobal"
+msgstr ""
+
+#. TRANSLATORS: "nothing", "global", and "semiglobal" are
+#. programming keywords and should not be translated
+#: src/sorte.cpp:363
+#, c-format
+msgid "%s>0 not allowed for nothing, global or semiglobal"
+msgstr ""
+
+#. TRANSLATORS: "file" in "file=%d" is a programming keyword and should
+#. not be translated
+#: src/sorte.cpp:442
+#, c-format
+msgid "File number file=%d out of range (allowed: 0 - %ld)"
+msgstr ""
+
+#. TRANSLATORS: The %s is a (hopefully) more specific error message
+#: src/sound.cpp:121
+#, c-format
+msgid "Sound does not work: %s\n"
+msgstr ""
+
+#: src/spielfeld.cpp:202
+msgid ""
+"Game paused\n"
+"\n"
+"Space = Resume\n"
+"Esc = Abort Game\n"
+"\n"
+msgstr ""
+
+#. TRANSLATORS: "startdist" is a programming keyword and should not
+#. be translated.
+#: src/spielfeld.cpp:376
+#, c-format
+msgid "\"%s\" used in startdist, although all %s are 0."
+msgstr ""
+
+#. TRANSLATORS: "distkey" is a programming keyword and should not
+#. be translated.
+#: src/spielfeld.cpp:400
+#, c-format
+msgid "\"%s\" used as a distkey but no such distkey specified."
+msgstr ""
+
+#. TRANSLATORS: "distkey" are "startdist" are programming keywords
+#. and should not be translated.
+#: src/spielfeld.cpp:444
+#, c-format
+msgid ""
+"All values for distkey have length %d, so lines in startdist must have "
+"length %d or %d"
+msgstr ""
+
+#: src/variable.cpp:108
+msgid "<unknown>"
+msgstr ""
+
+#. TRANSLATORS: Name of a level track
+#: src/version.cpp:33
+msgid "Standard"
+msgstr ""
+
+#. TRANSLATORS: Name of a level track
+#: src/version.cpp:35
+msgid "All levels"
+msgstr ""
+
+#. TRANSLATORS: Name of a level track
+#: src/version.cpp:37
+msgid "Games"
+msgstr ""
+
+#. TRANSLATORS: Name of a level track
+#: src/version.cpp:39
+msgid "Extremes"
+msgstr ""
+
+#. TRANSLATORS: Name of a level track
+#: src/version.cpp:41
+msgid "No FX"
+msgstr ""
+
+#. TRANSLATORS: Name of a level track
+#: src/version.cpp:43
+msgid "Weird"
+msgstr ""
+
+#. TRANSLATORS: Name of a level track
+#: src/version.cpp:45
+msgid "Contributions"
+msgstr ""
+
+#: src/version.cpp:47
+msgid "A selection of levels for the common taste"
+msgstr ""
+
+#: src/version.cpp:48
+msgid "All official levels"
+msgstr ""
+
+#: src/version.cpp:49
+msgid "Levels simulating board games or other computer games"
+msgstr ""
+
+#: src/version.cpp:50
+msgid "Levels setting records such as `fastest dropping ceiling'"
+msgstr ""
+
+#: src/version.cpp:51
+msgid "Plain levels without any disturbing tweaks to the rules"
+msgstr ""
+
+#: src/version.cpp:52
+msgid "Levels interpreting the general theme of cuyo more broadly"
+msgstr ""
+
+#: src/version.cpp:53
+msgid "Levels donated and maintained by the community"
+msgstr ""
+
+#. TRANSLATORS: Name of a difficulty setting
+#: src/version.cpp:63
+msgid "Easy"
+msgstr ""
+
+#. TRANSLATORS: Name of a difficulty setting
+#: src/version.cpp:65
+msgid "Normal"
+msgstr ""
+
+#. TRANSLATORS: Name of a difficulty setting
+#: src/version.cpp:67
+msgid "Hard"
+msgstr ""
+
+#. TRANSLATORS: The composition "%s%s" is programming specific and
+#. should not be translated.
+#: src/version.cpp:209
+#, c-format
+msgid "%s lacks version %s%s"
+msgstr ""
+
+#: src/version.cpp:289
+msgid "Uninitialized dimension"
+msgstr ""
+
+#. TRANSLATORS: The composition "%s%s" is programming specific and
+#. should not be translated.
+#: src/version.cpp:481
+#, c-format
+msgid "%s was already accessed, new version %s%s is not allowed"
+msgstr ""
+
+#: src/version.cpp:555
+#, c-format
+msgid "Previous problem with %s still persists"
+msgstr ""
+
+#. TRANSLATORS: The composition "%s%s" is programming specific and
+#. should not be translated.
+#: src/version.cpp:578
+#, c-format
+msgid "Illegal version %s%s"
+msgstr ""
+
+#. TRANSLATORS: The composition "%s%s" is programming specific and
+#. should not be translated.
+#: src/version.cpp:598
+#, c-format
+msgid "%s%s not uniquely defined"
+msgstr ""
+
+#. TRANSLATORS: The composition "%s%s" is programming specific and
+#. should not be translated.
+#: src/version.cpp:610
+#, c-format
+msgid "%s%s eclipsed by more specialized versions"
+msgstr ""
+
+#: src/xpmladen.cpp:97 src/xpmladen.cpp:103
+msgid "Read error"
+msgstr ""
+
+#: src/xpmladen.cpp:164
+msgid "Endless comment."
+msgstr ""
+
+#: src/xpmladen.cpp:176
+#, c-format
+msgid "\"%s\" expected"
+msgstr ""
+
+#: src/xpmladen.cpp:186
+#, c-format
+msgid "'%c' expected; found: '%c' (filepos: %d)"
+msgstr ""
+
+#: src/xpmladen.cpp:197
+#, c-format
+msgid "'%c' expected"
+msgstr ""
+
+#: src/xpmladen.cpp:231
+msgid "Number expected"
+msgstr ""
+
+#: src/xpmladen.cpp:244
+msgid "Hex number expected"
+msgstr ""
+
+#: src/xpmladen.cpp:288
+msgid "Undefined pixel name"
+msgstr ""
+
+#: src/xpmladen.cpp:446
+#, c-format
+msgid ""
+"Fast xpm loading did not work for \"%s\":\n"
+"%s\n"
+msgstr ""
+
+#. TRANSLATORS: This is to prepend an error message
+#: src/xpmladen.cpp:458
+#, c-format
+msgid "File \"%s.gz\": %s\n"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/3d.ld:29
+msgid "3D"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/3d.ld:30 data/ascii.ld:27 data/baelle.ld:28 data/doors.ld:28
+#: data/ebene.ld:27 data/hecken.ld:25 data/hexkugeln.ld:29 data/hormone.ld:28
+#: data/nasenkugeln.ld:32 data/pfeile.ld:30 data/schach.ld:33
+#: data/theater.ld:40 data/tiere.ld:29 data/viecher.ld:33 data/wachsen.ld:26
+#: data/walls.ld:28 data/wuerfel.ld:27
+msgid "Immi"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/3d.ld:31
+msgid "Well, just a little bit 3D."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/aehnlich.ld:21
+msgid "Similar balls"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/aehnlich.ld:22
+msgid "Numerically equal colours connect"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/aehnlich.ld:23 data/angst.ld:27 data/augen.ld:24 data/baender.ld:23
+#: data/bonimali.ld:23 data/bunt.ld:23 data/dungeon.ld:36 data/fische.ld:24
+#: data/flechtwerk.ld:21 data/go2.ld:29 data/gold.ld:23 data/jump.ld:23
+#: data/kacheln4.ld:23 data/kacheln5.ld:22 data/kacheln6.ld:23
+#: data/kachelnR.ld:24 data/kolben.ld:24 data/maennchen.ld:22 data/maze.ld:24
+#: data/novips.ld:22 data/octopi.ld:24 data/puzzle.ld:24 data/rechnen.ld:22
+#: data/rollenspiel.ld:22 data/schemen.ld:23 data/secret.ld:21
+#: data/silbergold.ld:22 data/slime.ld:25 data/tennis.ld:22 data/trees.ld:22
+#: data/unmoeglich.ld:22 data/zahn.ld:23 data/ziehlen.ld:22
+msgid "Mark Weyer"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/aliens.ld:36
+msgid "Aliens"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/aliens.ld:37 data/antarctic.ld:55 data/bonus.ld:29
+#: data/colorshape.ld:35 data/disco.ld:35 data/letters.ld:36 data/memory.ld:48
+#: data/tetris.ld:42
+msgid "Berni"
+msgstr ""
+
+#: data/aliens.ld:203
+msgid "Hurry up!!!"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/angst.ld:24
+msgid "Balls at ease"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/angst.ld:25
+msgid "Frightened balls"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/angst.ld:26
+msgid "Angry balls"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/angst.ld:28
+msgid "These balls are oblivious to the rules of cuyo"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/angst.ld:29
+msgid "These balls are learning the rules of cuyo"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/angst.ld:30
+msgid "These balls have learned the rules of cuyo"
+msgstr ""
+
+#: data/angst.ld:43
+msgid "Also try this level in normal and hard difficulty"
+msgstr ""
+
+#: data/angst.ld:44
+msgid "Also try this level in easy and hard difficulty"
+msgstr ""
+
+#: data/angst.ld:45
+msgid "Also try this level in easy and normal difficulty"
+msgstr ""
+
+#: data/angst.ld:51
+msgid "Commercial break"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/antarctic.ld:53
+msgid "Antarctic"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/antarctic.ld:54
+msgid "Beware of freezing!"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/ascii.ld:26
+msgid "ASCII"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/ascii.ld:39
+msgid "A very basic level"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/augen.ld:23
+msgid "Eyes"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/augen.ld:25
+msgid ""
+"They are watching you.\n"
+"Get rid of them."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/baelle.ld:27
+msgid "Rotating Balls"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/baelle.ld:41
+msgid "Well, all balls look the same, don't they?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/baender.ld:22
+msgid "Ribbons"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/baender.ld:24
+msgid "Ribbons connect diagonally."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/baggis.ld:32
+msgid "Baggis"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/baggis.ld:33 data/pacman.ld:31
+msgid "Simon"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/baggis.ld:47
+msgid "Protect yourself from the flash!"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/bonimali.ld:22
+msgid "PowerUps and -Downs"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/bonimali.ld:24
+msgid "Collect PowerUps but avoid the bad ones"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/bonimali.ld:25
+msgid "Collect PowerUps and hand the bad ones to the other player"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/bonimali.ld:26
+msgid ""
+"Collect PowerUps and hand the bad ones to your "
+"opponent^H^H^H^H^H^H^H^Hpartner"
+msgstr ""
+
+#: data/bonimali.ld:122 data/bonimali.ld:232
+msgid "3 blops explode"
+msgstr ""
+
+#: data/bonimali.ld:230
+msgid "4 blops explode"
+msgstr ""
+
+#: data/bonimali.ld:231
+msgid "2 blops explode"
+msgstr ""
+
+#: data/bonimali.ld:269
+msgid "Chain reaction necessary"
+msgstr ""
+
+#: data/bonimali.ld:271
+msgid "Chain reaction not necessary"
+msgstr ""
+
+#: data/bonimali.ld:831
+msgid "Extra points"
+msgstr ""
+
+#: data/bonimali.ld:834
+msgid "Power missiles"
+msgstr ""
+
+#: data/bonimali.ld:835
+msgid "Extra ships"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/bonus.ld:28
+msgid "Bonus"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/bonus.ld:39
+msgid "Hurry up, get bonus points!"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/bunt.ld:22
+msgid "Gaudy balls"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/colorshape.ld:34
+msgid "Shape and Color"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/colorshape.ld:36
+msgid "An explosion changes the way, they connect..."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/darken.ld:26
+msgid "Darken"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/darken.ld:27 data/elemente.ld:26 data/explosive.ld:24
+#: data/paratroopers.ld:28 data/pressure.ld:27 data/reversi_brl.ld:23
+#: data/rohre.ld:28 data/wohnungen.ld:27
+msgid "brl"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/darken.ld:28
+msgid "The less you know..."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/disco.ld:34
+msgid "Disco"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/disco.ld:36
+msgid "Get rid of the strobos!"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/doors.ld:27
+msgid "Doors"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/doors.ld:29
+msgid "It was late and I was tired"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/dungeon.ld:35
+msgid "Treasure hunt"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/dungeon.ld:37
+msgid "Collect gold for extra points"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/ebene.ld:26
+msgid "Plane"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/elemente.ld:25
+msgid "Elements"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/embroidery.ld:29
+msgid "Embroidery"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/embroidery.ld:30 data/himmel.ld:32 data/jahreszeiten.ld:35
+msgid "Jela"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/embroidery.ld:45
+msgid "Do you like doing some Needlework?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/explosive.ld:23
+msgid "Explosive"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/fische.ld:23
+msgid "Fish"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/flechtwerk.ld:20
+msgid "Wickerwork"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/go2.ld:28
+msgid "Go"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/go2.ld:30
+msgid "Why to place your goban horizontally"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/gold.ld:22
+msgid "Gold"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/gold.ld:24
+msgid "Yes, it CAN be completed"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/gold.ld:25
+msgid ""
+"Yes, it CAN be completed\n"
+"...cooperatively"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/hecken.ld:24
+msgid "Gardens"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/hecken.ld:37
+msgid ""
+"Gardens need hedges for separation. The hedges do not count for the size of "
+"a garden, though."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/hexkugeln.ld:28
+msgid "Balls & Rods"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/hexkugeln.ld:46
+msgid "Most dense packing of spheres"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/himmel.ld:31
+msgid "Sky"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/himmel.ld:50
+msgid "In which direction do balloons fall?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/hormone.ld:27
+msgid "Hormones"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/hormone.ld:42
+msgid "When do the \"hormones\" connect?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/jahreszeiten.ld:34
+msgid "The four Seasons"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/jahreszeiten.ld:47
+msgid "Everything changes..."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/jump.ld:22
+msgid "Jump"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/jump.ld:24
+msgid "8 bit nostalgia"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/kacheln4.ld:22
+msgid "Tiling II"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/kacheln5.ld:21
+msgid "Tiling III"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/kacheln6.ld:22
+msgid "Tiling I"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/kachelnR.ld:22
+msgid "Tiling IV"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/kachelnR.ld:23
+msgid "Random aperiodic tiling"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/kolben.ld:22
+msgid "Flasks"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/kolben.ld:23
+msgid "It depends on the gas they are filled with..."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/kunst.ld:34
+msgid "Modern Art"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/kunst.ld:35 data/unterwasser.ld:33
+msgid "Berni & Immi"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/kunst.ld:47
+msgid "Beware of ink!"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/labskaus.ld:66
+msgid "Potpourri"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/labskaus.ld:67
+msgid "Mark Weyer (editor)"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/labskaus.ld:68
+msgid "Made of 100% recycled graphics"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/letters.ld:35
+msgid "Letters"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/letters.ld:37
+msgid "Try to find out, which letters do connect!"
+msgstr ""
+
+#: data/letters.ld:84 data/letters.ld:103
+msgid ""
+"You have found\n"
+"the name of the game:\n"
+"*** CUYO ***\n"
+"100 Bonus Points"
+msgstr ""
+
+#: data/letters.ld:132 data/letters.ld:151
+msgid ""
+"You have found\n"
+"the name of the\n"
+"programmer of Cuyo:\n"
+"*** IMMI ***\n"
+"200 Bonus Points"
+msgstr ""
+
+#: data/letters.ld:183 data/letters.ld:205
+msgid ""
+"You have found\n"
+"the name of the\n"
+"programmer of this Level:\n"
+"*** BERNI ***\n"
+"2000 Bonus Points"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/maennchen.ld:21
+msgid "Characters"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/maze.ld:22
+msgid "Maze"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/maze.ld:23
+msgid "Collect all treasures. Finding the exit is optional."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/memory.ld:47
+msgid "Memory"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/memory.ld:60
+msgid "Well, memory."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/mfs.ld:27
+msgid "mfs"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/mfs.ld:28
+msgid "Konrad"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/mfs.ld:44
+msgid "Who cleans the room?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/nasenkugeln.ld:31
+msgid "Noseballs"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/nasenkugeln.ld:43
+msgid ""
+"Put four balls together; then, they will explode. Try to make the grass "
+"explode, too."
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/nasenkugeln.ld:44
+msgid ""
+"Put six balls together; then, they will explode. Try to make the grass "
+"explode, too."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/novips.ld:20
+msgid "All colours are equal"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/novips.ld:21
+msgid "Get rid of everything"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/octopi.ld:23
+msgid "Octopi"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/octopi.ld:25
+msgid ""
+"Octopi connect in eight directions. They also remove the anemones that way."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/pacman.ld:30
+msgid "Pacman"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/pacman.ld:45
+msgid "Wanna play Pacman?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/paratroopers.ld:26
+msgid "Paratroopers"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/paratroopers.ld:27
+msgid "the other way around"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/pfeile.ld:29
+msgid "Arrows"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/pfeile.ld:45
+msgid "Arrows can be turned"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/pressure.ld:26
+msgid "Excess Pressure"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/puzzle.ld:23
+msgid "Jigsaw"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/puzzle.ld:25
+msgid "Get rid of the border"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/rechnen.ld:21
+msgid "Calculations"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/reversi_brl.ld:22
+msgid "Reversi"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/rohre.ld:27
+msgid "Heating"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/rollenspiel.ld:21
+msgid "Fantasy role playing"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/schach.ld:32
+msgid "Chess"
+msgstr ""
+
+#: data/schach.ld:225
+msgid ""
+"King confused.\n"
+"Castling both sides\n"
+"300 Bonus Points"
+msgstr ""
+
+#: data/schach.ld:230
+msgid ""
+"Castling queen's side\n"
+"150 Bonus Points"
+msgstr ""
+
+#: data/schach.ld:235
+msgid ""
+"Castling king's side\n"
+"100 Bonus Points"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/schemen.ld:22
+msgid "Silhouettes"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/schemen.ld:24
+msgid ""
+"Almost each level has its very own graphics.\n"
+"At least this level has exactly the same rules as the previous one."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/secret.ld:20
+msgid " "
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/secret.ld:22
+msgid "Congratulations, you found the secret level"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/silbergold.ld:21
+msgid "Silver and Gold"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/slime.ld:24
+msgid "Slime"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/springer.ld:31
+msgid "Knights"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/springer.ld:32
+msgid "brl & Immi"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/springer.ld:33
+msgid "Knights connect via knight moves. Pawns don't connect at all."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/tennis.ld:21
+msgid "Tennis"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/tennis.ld:23
+msgid "Don't be confused by extra balls."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/tetris.ld:41
+msgid "Tetris"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/tetris.ld:43
+msgid "Complete lines will disappear."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/theater.ld:39
+msgid "Theater"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/theater.ld:68
+msgid "Please keep quiet. Otherwise you will be blasted."
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/tiere.ld:28
+msgid "Tiling Animals"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/trees.ld:20
+msgid "Holes"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/trees.ld:21
+msgid "Singly connected"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/trees.ld:23
+msgid "Groups with holes explode."
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/trees.ld:24
+msgid "Complexes with nonpositive Euler characteristic explode."
+msgstr ""
+
+#: data/trees.ld:45
+msgid "Multiple holes"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/unmoeglich.ld:21
+msgid "impossible"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/unterwasser.ld:32
+msgid "Under Water"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/unterwasser.ld:48
+msgid "Bubbles (Level still under construction.)"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/viecher.ld:32
+msgid "Beasts"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/viecher.ld:46
+msgid "Warning! Fire hazard!"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/wachsen.ld:25
+msgid "Growing"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/walls.ld:27
+msgid "Walls"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/walls.ld:29
+msgid "Floors don't connect through walls."
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/wohnungen.ld:25
+msgid "Build a nicer neighborhood"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/wohnungen.ld:26
+msgid "Housing"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/wuerfel.ld:26
+msgid "Cubes"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/wuerfel.ld:41
+msgid "Will they land in front of or behind the others?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/xtradick.ld:59
+msgid "Extra fat toys"
+msgstr ""
+
+#. TRANSLATORS: level author
+#: data/xtradick.ld:60
+msgid "Berni/Jela"
+msgstr ""
+
+#. TRANSLATORS: level description
+#: data/xtradick.ld:61
+msgid "What do they do?"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/zahn.ld:22
+msgid "Teeth"
+msgstr ""
+
+#. TRANSLATORS: level name
+#: data/ziehlen.ld:21
+msgid "Target practice"
+msgstr ""

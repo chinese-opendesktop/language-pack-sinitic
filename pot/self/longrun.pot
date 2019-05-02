@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: ../longrun.c:366
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2001-02-27 21:41+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: ../longrun.c:253
+msgid "# %%   MHz  Volts  usage\n"
+msgstr ""
+
+#: ../longrun.c:236
+#, c-format
+msgid "# set %d, got %d\n"
+msgstr ""
+
+#: ../longrun.c:257
+#, c-format
+msgid "%3d %5d %6.3f %6.3f\n"
+msgstr ""
+
+#: ../longrun.c:76
+#, c-format
+msgid ""
+"%s %s (%s)\n"
+"usage: %s [-c device] [-m device] [-hlpv] [-f flag] [-s low high]\n"
+" -c device     set CPUID device\n"
+" -m device     set MSR device\n"
+" -h            print this help\n"
+" -l            list LongRun information about available performance levels\n"
+" -p            print current LongRun settings and status\n"
+" -v            be more verbose\n"
+" -f [flag]     set a LongRun mode flag\n"
+" -s low high   set current LongRun performance window (0 to 100)\n"
+"\n"
+"supported flags:\n"
+" economy       set economy mode (turn off performance mode)\n"
+" performance   set performance mode (turn off economy mode)\n"
+msgstr ""
+
+#: ../longrun.c:107 ../longrun.c:118
+#, c-format
+msgid "%s: "
+msgstr ""
+
+#: ../longrun.c:410
+#, c-format
+msgid "%s: must be run as root\n"
+msgstr ""
+
+#: ../longrun.c:191
+#, c-format
+msgid "%s: not a Transmeta x86 CPU\n"
+msgstr ""
+
+#: ../longrun.c:342
+msgid "12.5%% reduction\n"
+msgstr ""
+
+#: ../longrun.c:340
+msgid "25%% reduction\n"
+msgstr ""
+
+#: ../longrun.c:338
+msgid "37.5%% reduction\n"
+msgstr ""
+
+#: ../longrun.c:336
+msgid "50%% reduction\n"
+msgstr ""
+
+#: ../longrun.c:334
+msgid "62.5%% reduction\n"
+msgstr ""
+
+#: ../longrun.c:332
+msgid "75%% reduction\n"
+msgstr ""
+
+#: ../longrun.c:109 ../longrun.c:120
+#, c-format
+msgid ": %s\n"
+msgstr ""
+
+#: ../longrun.c:347
+#, c-format
+msgid "Current performance level: %d\n"
+msgstr ""
+
+#: ../longrun.c:346
+#, c-format
+msgid "Current performance window: %d to %d\n"
+msgstr ""
+
+#: ../longrun.c:326
+msgid "LTX setting: "
+msgstr ""
+
+#: ../longrun.c:324
+#, c-format
+msgid "LongRun Thermal Extensions (LTX): %s\n"
+msgstr ""
+
+#: ../longrun.c:349
+#, c-format
+msgid "LongRun flags: %s\n"
+msgstr ""
+
+#: ../longrun.c:323
+#, c-format
+msgid "LongRun: %s\n"
+msgstr ""
+
+#: ../longrun.c:198
+msgid "LongRun: unsupported\n"
+msgstr ""
+
+#: ../longrun.c:298
+msgid "Setting flag: economy\n"
+msgstr ""
+
+#: ../longrun.c:305
+msgid "Setting flag: performance\n"
+msgstr ""
+
+#: ../longrun.c:286
+#, c-format
+msgid "Setting performance window: %d to %d\n"
+msgstr ""
+
+#: ../longrun.c:324
+msgid "active"
+msgstr ""
+
+#: ../longrun.c:374
+msgid "c:f:m:hlpsv"
+msgstr ""
+
+#: ../longrun.c:323
+msgid "disabled"
+msgstr ""
+
+#: ../longrun.c:295 ../longrun.c:349
+msgid "economy"
+msgstr ""
+
+#: ../longrun.c:323
+msgid "enabled"
+msgstr ""
+
+#: ../longrun.c:132 ../longrun.c:415 ../longrun.c:423
+#, c-format
+msgid "error opening %s"
+msgstr ""
+
+#: ../longrun.c:139 ../longrun.c:150 ../longrun.c:175
+#, c-format
+msgid "error reading %s"
+msgstr ""
+
+#: ../longrun.c:165
+#, c-format
+msgid "error writing %s"
+msgstr ""
+
+#: ../longrun.c:324
+msgid "inactive"
+msgstr ""
+
+#: ../longrun.c:364
+msgid "longrun"
+msgstr ""
+
+#: ../longrun.c:134
+msgid "make sure /proc is mounted\n"
+msgstr ""
+
+#: ../longrun.c:417
+msgid "make sure your kernel was compiled with CONFIG_X86_CPUID=y\n"
+msgstr ""
+
+#: ../longrun.c:425
+msgid "make sure your kernel was compiled with CONFIG_X86_MSR=y\n"
+msgstr ""
+
+#: ../longrun.c:301 ../longrun.c:349
+msgid "performance"
+msgstr ""
+
+#: ../longrun.c:330
+msgid "reserved\n"
+msgstr ""

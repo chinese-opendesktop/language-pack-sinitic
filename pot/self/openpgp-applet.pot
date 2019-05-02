@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tails developers
+# This file is distributed under the same license as the OpenPGP_Applet package.
+# 
+# Translators:
+# Ivo, 2015
+# Kaloyan Nikolov <kotipuka01@gmail.com>, 2016
+# Ивайло Малинов <iv.malinov@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: tails@boum.org\n"
+"POT-Creation-Date: 2017-08-05 15:07-0400\n"
+"PO-Revision-Date: 2017-09-22 17:51+0000\n"
+"Last-Translator: Kaloyan Nikolov <kotipuka01@gmail.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/otf/torproject/language/bg/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bin/openpgp-applet:160
+msgid "You are about to exit OpenPGP Applet. Are you sure?"
+msgstr "Искате да излезете от OpenPGP аплета. Сигурни ли сте ?"
+
+#: bin/openpgp-applet:172
+msgid "OpenPGP encryption applet"
+msgstr "OpenPGP аплет за криптиране"
+
+#: bin/openpgp-applet:175
+msgid "Exit"
+msgstr "Изход"
+
+#: bin/openpgp-applet:177
+msgid "About"
+msgstr "Относно"
+
+#: bin/openpgp-applet:232
+msgid "Encrypt Clipboard with _Passphrase"
+msgstr "Криптиране на клипборда с _Passphrase"
+
+#: bin/openpgp-applet:235
+msgid "Sign/Encrypt Clipboard with Public _Keys"
+msgstr "Регистриране/Криптиране на Клипборда с Обществени _Keys"
+
+#: bin/openpgp-applet:240
+msgid "_Decrypt/Verify Clipboard"
+msgstr "_Decrypt/Verify Clipboard"
+
+#: bin/openpgp-applet:244
+msgid "_Manage Keys"
+msgstr "_Управление на Ключовете"
+
+#: bin/openpgp-applet:248
+msgid "_Open Text Editor"
+msgstr "_Отвори Текстов Редактор"
+
+#: bin/openpgp-applet:292
+msgid "The clipboard does not contain valid input data."
+msgstr "Клипбордът не съдържа валидни входни данни."
+
+#: bin/openpgp-applet:337 bin/openpgp-applet:339 bin/openpgp-applet:341
+msgid "Unknown Trust"
+msgstr "Неизвестен Доверител"
+
+#: bin/openpgp-applet:343
+msgid "Marginal Trust"
+msgstr "Ограничено Доверие"
+
+#: bin/openpgp-applet:345
+msgid "Full Trust"
+msgstr "Пълно Доверие"
+
+#: bin/openpgp-applet:347
+msgid "Ultimate Trust"
+msgstr "Максимално Доверие"
+
+#: bin/openpgp-applet:400
+msgid "Name"
+msgstr "Име"
+
+#: bin/openpgp-applet:401
+msgid "Key ID"
+msgstr "ID Ключ"
+
+#: bin/openpgp-applet:402
+msgid "Status"
+msgstr "Статус"
+
+#: bin/openpgp-applet:433
+msgid "Fingerprint:"
+msgstr "Пръстов отпечатък:"
+
+#: bin/openpgp-applet:436
+msgid "User ID:"
+msgid_plural "User IDs:"
+msgstr[0] "Потребителско ID:"
+msgstr[1] "Потребителски ID-та:"
+
+#: bin/openpgp-applet:465
+msgid "None (Don't sign)"
+msgstr "Няма (Не подписвайте)"
+
+#: bin/openpgp-applet:528
+msgid "Select recipients:"
+msgstr "Изберете получатели:"
+
+#: bin/openpgp-applet:536
+msgid "Hide recipients"
+msgstr "Скрий получателите"
+
+#: bin/openpgp-applet:539
+msgid ""
+"Hide the user IDs of all recipients of an encrypted message. Otherwise "
+"anyone that sees the encrypted message can see who the recipients are."
+msgstr "Скриване на потребителски ID-та на всички получатели на криптирано съобщение. В противен случай всеки, който вижда криптираното съобщение може да види кой са получателите."
+
+#: bin/openpgp-applet:545
+msgid "Sign message as:"
+msgstr "Подпишете съобщението като:"
+
+#: bin/openpgp-applet:549
+msgid "Choose keys"
+msgstr "Изберете ключове"
+
+#: bin/openpgp-applet:589
+msgid "Do you trust these keys?"
+msgstr "Вярвате ли на тези ключове?"
+
+#: bin/openpgp-applet:592
+msgid "The following selected key is not fully trusted:"
+msgid_plural "The following selected keys are not fully trusted:"
+msgstr[0] "Следният избран ключ не е напълно надежден:"
+msgstr[1] "Следните избрани ключове не са напълно надеждни:"
+
+#: bin/openpgp-applet:610
+msgid "Do you trust this key enough to use it anyway?"
+msgid_plural "Do you trust these keys enough to use them anyway?"
+msgstr[0] "Вярвате ли на този ключ достатъчно, за да го използвате така или иначе?"
+msgstr[1] "Вярвате ли на тези ключове достатъчно, за да ги използвате\nтака или иначе?"
+
+#: bin/openpgp-applet:623
+msgid "No keys selected"
+msgstr "Няма избрани ключове"
+
+#: bin/openpgp-applet:625
+msgid ""
+"You must select a private key to sign the message, or some public keys to "
+"encrypt the message, or both."
+msgstr "Трябва да изберете личен ключ, за да подпишете съобщението, или някои публични ключове за криптиране на съобщението, или и двете."
+
+#: bin/openpgp-applet:653
+msgid "No keys available"
+msgstr "Няма налични ключове "
+
+#: bin/openpgp-applet:655
+msgid ""
+"You need a private key to sign messages or a public key to encrypt messages."
+msgstr "Имате нужда от личен ключ за подписване на съобщенията или публичен ключ за криптиране на съобщения."
+
+#: bin/openpgp-applet:783
+msgid "GnuPG error"
+msgstr "GnuPG грешка"
+
+#: bin/openpgp-applet:804
+msgid "Therefore the operation cannot be performed."
+msgstr "Ето защо не може да бъде извършена операцията."
+
+#: bin/openpgp-applet:854
+msgid "GnuPG results"
+msgstr "GnuPG резултати"
+
+#: bin/openpgp-applet:860
+msgid "Output of GnuPG:"
+msgstr "Продукция на GnuPG:"
+
+#: bin/openpgp-applet:885
+msgid "Other messages provided by GnuPG:"
+msgstr "Други съобщения, предоставяни от GnuPG:"

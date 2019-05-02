@@ -1,0 +1,422 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"Camera multipliers:"
+msgstr ""
+
+msgid ""
+"\n"
+"Daylight multipliers:"
+msgstr ""
+
+msgid ""
+"\n"
+"Filename: %s\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Filter pattern: "
+msgstr ""
+
+msgid ""
+"\n"
+"Raw photo decoder \"dcraw\" v%s"
+msgstr ""
+
+msgid ""
+"\n"
+"Usage:  %s [OPTION]... [FILE]...\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"by Dave Coffin, dcoffin a cybercom o net\n"
+msgstr ""
+
+msgid "%0.1f sec\n"
+msgstr ""
+
+msgid "%d-pass X-Trans interpolation...\n"
+msgstr ""
+
+msgid "%s has no embedded profile.\n"
+msgstr ""
+
+msgid "%s has no thumbnail.\n"
+msgstr ""
+
+msgid "%s has no timestamp.\n"
+msgstr ""
+
+msgid "%s has the wrong dimensions!\n"
+msgstr ""
+
+msgid "%s has unknown CAMF type %d.\n"
+msgstr ""
+
+msgid "%s is a %s %s image.\n"
+msgstr ""
+
+msgid "%s is not a valid PGM file!\n"
+msgstr ""
+
+msgid "%s time set to %d.\n"
+msgstr ""
+
+msgid "%s: \"%s\" matrix not found!\n"
+msgstr ""
+
+msgid "%s: \"%s\" matrix not foundq!\n"
+msgstr ""
+
+msgid "%s: \"-s %d\" requests a nonexistent image!\n"
+msgstr ""
+
+msgid "%s: Cannot use camera white balance.\n"
+msgstr ""
+
+msgid "%s: Invalid white balance \"%s\"\n"
+msgstr ""
+
+msgid "%s: Out of memory in %s\n"
+msgstr ""
+
+msgid "%s: Tail is missing, parsing from head...\n"
+msgstr ""
+
+msgid "%s: You must link dcraw with %s!!\n"
+msgstr ""
+
+msgid "%s: You must link dcraw with libjpeg!!\n"
+msgstr ""
+
+msgid "%s: decoder table overflow\n"
+msgstr ""
+
+msgid "%s: incorrect JPEG dimensions\n"
+msgstr ""
+
+msgid "+M/-M     Use/don't use an embedded color matrix"
+msgstr ""
+
+msgid "-4        Linear 16-bit, same as \"-6 -W -g 1 1\""
+msgstr ""
+
+msgid "-4        Write 16-bit linear instead of 8-bit with gamma"
+msgstr ""
+
+msgid "-6        Write 16-bit instead of 8-bit"
+msgstr ""
+
+msgid "-A <x y w h> Average a grey box for white balance"
+msgstr ""
+
+msgid "-B <domain> <range> Apply bilateral filter to smooth noise"
+msgstr ""
+
+msgid "-C <r b>  Correct chromatic aberration"
+msgstr ""
+
+msgid "-D        Document mode without scaling (totally raw)"
+msgstr ""
+
+msgid "-H [0-9]  Highlight mode (0=clip, 1=no clip, 2+=recover)"
+msgstr ""
+
+msgid "-H [0-9]  Highlight mode (0=clip, 1=unclip, 2=blend, 3+=rebuild)"
+msgstr ""
+
+msgid "-K <file> Subtract dark frame (16-bit raw PGM)"
+msgstr ""
+
+msgid "-P <file> Fix the dead pixels listed in this file"
+msgstr ""
+
+msgid "-S <num>  Set the saturation level"
+msgstr ""
+
+msgid "-T        Write TIFF instead of PPM"
+msgstr ""
+
+msgid "-W        Don't automatically brighten the image"
+msgstr ""
+
+msgid "-a        Average the whole image for white balance"
+msgstr ""
+
+msgid "-a        Use automatic white balance"
+msgstr ""
+
+msgid "-b <num>  Adjust brightness (default = 1.0)"
+msgstr ""
+
+msgid "-c        Write image data to standard output"
+msgstr ""
+
+msgid "-d        Document mode (no color, no interpolation)"
+msgstr ""
+
+msgid "-e        Extract embedded thumbnail image"
+msgstr ""
+
+msgid "-f        Interpolate RGGB as four colors"
+msgstr ""
+
+msgid "-g <p s>  Set custom gamma curve (default = 2.222 4.5)"
+msgstr ""
+
+msgid "-g <p ts> Set custom gamma curve (default = 2.222 4.5)"
+msgstr ""
+
+msgid "-h        Half-size color image (twice as fast as \"-q 0\")"
+msgstr ""
+
+msgid "-i        Identify files without decoding them"
+msgstr ""
+
+msgid "-i -v     Identify files and show metadata"
+msgstr ""
+
+msgid "-j        Don't stretch or rotate raw pixels"
+msgstr ""
+
+msgid "-k <num>  Set black point"
+msgstr ""
+
+msgid "-k <num>  Set the black level"
+msgstr ""
+
+msgid "-k <num>  Set the darkness level"
+msgstr ""
+
+msgid "-m <num>  Apply a 3x3 median filter to R-G and B-G"
+msgstr ""
+
+msgid "-n <num>  Set threshold for wavelet denoising"
+msgstr ""
+
+msgid "-o <file> Apply output ICC profile from file"
+msgstr ""
+
+msgid "-o [0-6]  Output colorspace (raw,sRGB,Adobe,Wide,ProPhoto,XYZ,ACES)"
+msgstr ""
+
+msgid "-p <file> Apply camera ICC profile from file or \"embed\""
+msgstr ""
+
+msgid "-q [0-3]  Set the interpolation quality"
+msgstr ""
+
+msgid "-r <4 numbers> Set custom white balance"
+msgstr ""
+
+msgid "-r <r g b g> Set custom white balance"
+msgstr ""
+
+msgid "-s [0-99] Select a different raw image from the same file"
+msgstr ""
+
+msgid "-s [0..N-1] Select one raw image or \"all\" from each file"
+msgstr ""
+
+msgid "-t [0-7]  Flip image (0=none, 3=180, 5=90CCW, 6=90CW)"
+msgstr ""
+
+msgid "-v        Print verbose messages"
+msgstr ""
+
+msgid "-w        Use camera white balance, if possible"
+msgstr ""
+
+msgid "-z        Change file dates to camera timestamp"
+msgstr ""
+
+msgid "AHD interpolation...\n"
+msgstr ""
+
+msgid "Aperture: f/%0.1f\n"
+msgstr ""
+
+msgid "Applying color profile...\n"
+msgstr ""
+
+msgid "Bilateral filtering...\n"
+msgstr ""
+
+msgid "Bilinear interpolation...\n"
+msgstr ""
+
+msgid "Blending highlights...\n"
+msgstr ""
+
+msgid "Building histograms...\n"
+msgstr ""
+
+msgid "Camera: %s %s\n"
+msgstr ""
+
+msgid "Cannot decode file %s\n"
+msgstr ""
+
+msgid "Cannot open file %s!\n"
+msgstr ""
+
+msgid "Converting to %s colorspace...\n"
+msgstr ""
+
+msgid "Correcting chromatic aberration...\n"
+msgstr ""
+
+msgid "Corrupt data near 0x%llx\n"
+msgstr ""
+
+msgid "Corrupt data near 0x%lx\n"
+msgstr ""
+
+msgid "DNG Version: "
+msgstr ""
+
+msgid "Decodable with dcraw: %s\n"
+msgstr ""
+
+msgid "Embedded ICC profile: %s\n"
+msgstr ""
+
+msgid "Failed to read metadata from %s\n"
+msgstr ""
+
+msgid "Fixed bad pixels at:"
+msgstr ""
+
+msgid "Fixed dead pixels at:"
+msgstr ""
+
+msgid "Focal length: %0.1f mm\n"
+msgstr ""
+
+msgid "Foveon interpolation...\n"
+msgstr ""
+
+msgid "Full size:   %4d x %d\n"
+msgstr ""
+
+msgid "Highlight recovery...\n"
+msgstr ""
+
+msgid "ISO speed: %d\n"
+msgstr ""
+
+msgid "Image size:  %4d x %d\n"
+msgstr ""
+
+msgid "Loading %s %s image from %s ...\n"
+msgstr ""
+
+msgid "Median filter pass %d...\n"
+msgstr ""
+
+msgid "No files to process.\n"
+msgstr ""
+
+msgid "Non-numeric argument to \"-%c\"\n"
+msgstr ""
+
+msgid "Number of raw images: %d\n"
+msgstr ""
+
+msgid "Output size: %4d x %d\n"
+msgstr ""
+
+msgid "Owner: %s\n"
+msgstr ""
+
+msgid "PPG interpolation...\n"
+msgstr ""
+
+msgid "Phase One correction...\n"
+msgstr ""
+
+msgid "Pixel Aspect Ratio: %0.6f\n"
+msgstr ""
+
+msgid "Raw colors: %d"
+msgstr ""
+
+msgid "Reading metadata from %s ...\n"
+msgstr ""
+
+msgid "Rebuilding highlights...\n"
+msgstr ""
+
+msgid "Rotating image 45 degrees...\n"
+msgstr ""
+
+msgid "Scaling with black %d, multipliers"
+msgstr ""
+
+msgid ""
+"Scaling with darkness %d, saturation %d, and\n"
+"multipliers"
+msgstr ""
+
+msgid "Secondary pixels: %s\n"
+msgstr ""
+
+msgid "Shutter: "
+msgstr ""
+
+msgid "Stretching the image...\n"
+msgstr ""
+
+msgid "Thumb size:  %4d x %d\n"
+msgstr ""
+
+msgid "Timestamp: %s"
+msgstr ""
+
+msgid "Unexpected end of file\n"
+msgstr ""
+
+msgid "Unknown option \"-%c\".\n"
+msgstr ""
+
+msgid "VNG interpolation...\n"
+msgstr ""
+
+msgid "Wavelet denoising...\n"
+msgstr ""
+
+msgid "Will not write an image to the terminal!\n"
+msgstr ""
+
+msgid "Writing data to %s ...\n"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "standard output"
+msgstr ""
+
+msgid "yes"
+msgstr ""

@@ -1,0 +1,4042 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " (Or if using OpenID, it hasn't been associated with a user account.)"
+msgstr ""
+
+#, python-format
+msgid ""
+" <p class=\"empty\">This dataset has no data, <a href=\"%(url)s\">why not "
+"add some?</a> "
+msgstr ""
+
+msgid " <p class=\"extra\">Please try another search.</p> "
+msgstr ""
+
+#, python-format
+msgid " <p><strong>%(item_count)s</strong> related items found</p> "
+msgstr ""
+
+msgid ""
+" <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage group members.</p> <p><strong>Editor:</strong> Can add and edit "
+"datasets, but not manage group members.</p> <p><strong>Member:</strong> Can "
+"view the group's private datasets, but not add new datasets.</p> "
+msgstr ""
+
+msgid ""
+" <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage organization members.</p> <p><strong>Editor:</strong> Can add and "
+"edit datasets, but not manage organization members.</p> <p><strong>Member:</"
+"strong> Can view the organization's private datasets, but not add new "
+"datasets.</p> "
+msgstr ""
+
+#, python-format
+msgid ""
+" <p><strong>Site Title:</strong> This is the title of this CKAN instance It "
+"appears in various places throughout CKAN.</p> <p><strong>Style:</strong> "
+"Choose from a list of simple variations of the main colour scheme to get a "
+"very quick custom theme working.</p> <p><strong>Site Tag Logo:</strong> This "
+"is the logo that appears in the header of all the CKAN instance templates.</"
+"p> <p><strong>About:</strong> This text will appear on this CKAN instances "
+"<a href=\"%(about_url)s\">about page</a>.</p> <p><strong>Intro Text:</"
+"strong> This text will appear on this CKAN instances <a href=\"%(home_url)s"
+"\">home page</a> as a welcome to visitors.</p> <p><strong>Custom CSS:</"
+"strong> This is a block of CSS that appears in <code>&lt;head&gt;</code> tag "
+"of every page. If you wish to customize the templates more fully we "
+"recommend <a href=\"%(docs_url)s\" target=\"_blank\">reading the "
+"documentation</a>.</p> "
+msgstr ""
+
+msgid ""
+" <p><strong>There was an error while searching.</strong> Please try again.</"
+"p> "
+msgstr ""
+
+msgid ""
+" <p>A sysadmin is someone that has full control over a CKAN instance. You "
+"can only add CKAN sysadmins via the <code>sysadmin</code> paster command.</"
+"p> "
+msgstr ""
+
+msgid ""
+" <p>CKAN is the world’s leading open-source data portal platform.</p> "
+"<p>CKAN is a complete out-of-the-box software solution that makes data "
+"accessible and usable – by providing tools to streamline publishing, "
+"sharing, finding and using data (including storage of data and provision of "
+"robust data APIs). CKAN is aimed at data publishers (national and regional "
+"governments, companies and organizations) wanting to make their data open "
+"and available.</p> <p>CKAN is used by governments and user groups worldwide "
+"and powers a variety of official and community data portals including "
+"portals for local, national and international government, such as the UK’s "
+"<a href=\"http://data.gov.uk\">data.gov.uk</a> and the European Union’s <a "
+"href=\"http://publicdata.eu/\">publicdata.eu</a>, the Brazilian <a href="
+"\"http://dados.gov.br/\">dados.gov.br</a>, Dutch and Netherland government "
+"portals, as well as city and municipal sites in the US, UK, Argentina, "
+"Finland and elsewhere.</p> <p>CKAN: <a href=\"http://ckan.org/\">http://ckan."
+"org/</a><br /> CKAN Tour: <a href=\"http://ckan.org/tour/\">http://ckan.org/"
+"tour/</a><br /> Features overview: <a href=\"http://ckan.org/features/"
+"\">http://ckan.org/features/</a></p> "
+msgstr ""
+
+msgid ""
+" <p>Groups allow you to group together datasets under a community (for "
+"example, Civil Liberty data) or topic (e.g. Transport, Health, Environment) "
+"to make it easier for users to browse datasets by theme. Datasets can be "
+"part of a group, but do not belong to the group for editing or authorisation "
+"purposes.</p> "
+msgstr ""
+
+msgid ""
+" <p>Organizations act like publishing departments for datasets (for example, "
+"the Department of Health). This means that datasets can be published by and "
+"belong to a department instead of an individual user.</p> <p>Within "
+"organizations, admins can assign roles and authorisation its members, giving "
+"individual users the right to publish datasets from that particular "
+"organisation (e.g. Office of National Statistics).</p> "
+msgstr ""
+
+msgid ""
+" <p>Related Media is any app, article, visualisation or idea related to this "
+"dataset.</p> <p>For example, it could be a custom visualisation, pictograph "
+"or bar chart, an app using all or part of the data or even a news story that "
+"references this dataset.</p> "
+msgstr ""
+
+#, python-format
+msgid ""
+" <p>Showing items <strong>%(first)s - %(last)s</strong> of <strong>"
+"%(item_count)s</strong> related items found</p> "
+msgstr ""
+
+msgid ""
+" Datasets are simply used to group related pieces of data. These can then be "
+"found under a single url with a description and licensing information. "
+msgstr ""
+
+msgid ""
+" Further information in the <a       href=\"http://docs.ckan.org/en/latest/"
+"datastore.html\" target=\"_blank\">main CKAN Data API and DataStore "
+"documentation</a>.</p> "
+msgstr ""
+
+msgid ""
+" License definitions and additional information can be found at <a href="
+"\"http://opendefinition.org/licenses/\">opendefinition.org</a> "
+msgstr ""
+
+msgid ""
+" These are applications built with the datasets as well as ideas for things "
+"that could be done with them. "
+msgstr ""
+
+#, python-format
+msgid ""
+" You can also access this registry using the %(api_link)s (see "
+"%(api_doc_link)s) or download a %(dump_link)s. "
+msgstr ""
+
+#, python-format
+msgid ""
+" You can also access this registry using the %(api_link)s (see "
+"%(api_doc_link)s). "
+msgstr ""
+
+msgid ""
+" Your profile lets other CKAN users know about who you are and what you do. "
+msgstr ""
+
+msgid " found for \"{query}\""
+msgstr ""
+
+#, python-format
+msgid "\"%s\" matched several users"
+msgstr ""
+
+msgid "\"page\" parameter must be a positive integer"
+msgstr ""
+
+#, python-format
+msgid ""
+"%(site_title)s is a community-run catalogue of useful sets of data on the "
+"Internet. You can collect links here to data from around the web for "
+"yourself and others to use, or search for data that others have collected. "
+"Depending on the type of data (and its conditions of use), %(site_title)s "
+"may also be able to store a copy of the data or host it in a database, and "
+"provide some basic visualisation tools."
+msgstr ""
+
+#, python-format
+msgid "%s <%s>"
+msgstr ""
+
+#, python-format
+msgid "%s is now logged in"
+msgstr ""
+
+#, python-format
+msgid "%s uses your email address if you need to reset your password."
+msgstr ""
+
+msgid "'s Followers"
+msgstr ""
+
+msgid ""
+"(Don't worry if you don't know which license the data has been released "
+"under)."
+msgstr ""
+
+msgid "(None)"
+msgstr ""
+
+msgid "(edit)"
+msgstr ""
+
+msgid "(no name)"
+msgstr ""
+
+msgid "(none)"
+msgstr ""
+
+msgid "(required)"
+msgstr ""
+
+msgid "(see"
+msgstr ""
+
+msgid "(settings)"
+msgstr ""
+
+msgid ""
+",\n"
+"      Tag -"
+msgstr ""
+
+msgid ", why not"
+msgstr ""
+
+msgid "- Apps, Ideas etc"
+msgstr ""
+
+msgid "- Dashboard - User"
+msgstr ""
+
+msgid "- Dataset - Resource"
+msgstr ""
+
+msgid "- Datasets"
+msgstr ""
+
+msgid "- Datasets - Followers"
+msgstr ""
+
+msgid "- Datasets - History"
+msgstr ""
+
+msgid "- Edit - Datasets"
+msgstr ""
+
+msgid "- Edit - User"
+msgstr ""
+
+msgid "- Edit Resources - Datasets"
+msgstr ""
+
+msgid "- Followers - User"
+msgstr ""
+
+msgid "- Tags"
+msgstr ""
+
+msgid "- User"
+msgstr ""
+
+msgid ". It may differ significantly from the"
+msgstr ""
+
+msgid ". Please"
+msgstr ""
+
+msgid "0 Datasets"
+msgstr ""
+
+msgid "1 new activity from {site_title}{n} new activities from {site_title}"
+msgstr ""
+
+msgid "2+ characters, lowercase, using only 'a-z0-9' and '-_'"
+msgstr ""
+
+msgid "3+ chars, using only 'a-z0-9' and '-_'"
+msgstr ""
+
+msgid ""
+"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" href="
+"\"http://ckan.org\">CKAN</a>"
+msgstr ""
+
+msgid "A little about you..."
+msgstr ""
+
+msgid "A little information about my group..."
+msgstr ""
+
+msgid "A little information about my organization..."
+msgstr ""
+
+msgid "A little information about the item..."
+msgstr ""
+
+msgid "A little information about yourself"
+msgstr ""
+
+msgid "A number representing the version (if applicable)"
+msgstr ""
+
+msgid "A organization must be supplied"
+msgstr ""
+
+msgid "A resource can be any file or link to a file containing useful data."
+msgstr ""
+
+msgid "A short descriptive title for the dataset"
+msgstr ""
+
+msgid "A simple ajax (JSONP) request to the data API using jQuery."
+msgstr ""
+
+msgid "API"
+msgstr ""
+
+msgid "API Docs"
+msgstr ""
+
+msgid "API Endpoint"
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+msgid "API URL"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About page text"
+msgstr ""
+
+msgid "About {0}"
+msgstr ""
+
+msgid "Access denied"
+msgstr ""
+
+msgid "Access resource data via a web API with powerful query support"
+msgstr ""
+
+msgid "Account Info"
+msgstr ""
+
+#, python-format
+msgid "Action name not known: %s"
+msgstr ""
+
+msgid "Action not implemented."
+msgstr ""
+
+msgid "Activity Stream"
+msgstr ""
+
+msgid "Activity from items that you follow"
+msgstr ""
+
+msgid "Activity from:"
+msgstr ""
+
+msgid "Activity type"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add - Datasets"
+msgstr ""
+
+msgid "Add / Edit resources"
+msgstr ""
+
+msgid "Add A Group"
+msgstr ""
+
+msgid "Add Dataset"
+msgstr ""
+
+msgid "Add Extra Field"
+msgstr ""
+
+msgid "Add Group"
+msgstr ""
+
+msgid "Add Item"
+msgstr ""
+
+msgid "Add Member"
+msgstr ""
+
+msgid "Add New Resource"
+msgstr ""
+
+msgid "Add Organization"
+msgstr ""
+
+msgid "Add Related Item"
+msgstr ""
+
+msgid "Add Resources"
+msgstr ""
+
+msgid "Add Role"
+msgstr ""
+
+msgid "Add Roles for Any User"
+msgstr ""
+
+msgid "Add a Dataset"
+msgstr ""
+
+msgid "Add a Group"
+msgstr ""
+
+msgid "Add a dataset"
+msgstr ""
+
+msgid "Add a new dataset"
+msgstr ""
+
+msgid "Add data"
+msgstr ""
+
+msgid "Add data to the dataset"
+msgstr ""
+
+msgid "Add dataset"
+msgstr ""
+
+msgid "Add datasets"
+msgstr ""
+
+msgid "Add item"
+msgstr ""
+
+msgid "Add metadata to the dataset"
+msgstr ""
+
+msgid "Add to:"
+msgstr ""
+
+msgid ""
+"Add your own datasets to share them with others and\n"
+"          to find other people interested in your data."
+msgstr ""
+
+msgid "Add..."
+msgstr ""
+
+msgid ""
+"Adding custom fields to the dataset such as \"location:uk\" can help users "
+"find it in the search engine. This data will also appear under"
+msgstr ""
+
+msgid "Additional Info"
+msgstr ""
+
+msgid "Additional Information"
+msgstr ""
+
+msgid "Additional data"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Administration"
+msgstr ""
+
+msgid "Administration - Authorization"
+msgstr ""
+
+msgid "Administration - Trash"
+msgstr ""
+
+msgid "Administration Dashboard"
+msgstr ""
+
+msgid "Administrators"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All Users"
+msgstr ""
+
+msgid "All dataset revisions"
+msgstr ""
+
+msgid "An Error Occurred"
+msgstr ""
+
+msgid "Application"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Apps & Ideas"
+msgstr ""
+
+msgid "Apps, Ideas etc"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "Are you sure you want to delete dataset - {name}?"
+msgstr ""
+
+msgid "Are you sure you want to delete group - {name}?"
+msgstr ""
+
+msgid "Are you sure you want to delete member - {name}?"
+msgstr ""
+
+msgid "Are you sure you want to delete organization - {name}?"
+msgstr ""
+
+msgid "Are you sure you want to delete related item - {name}?"
+msgstr ""
+
+msgid "Are you sure you want to delete resource - {name}?"
+msgstr ""
+
+msgid "Are you sure you want to delete this Group?"
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete this Organization? This will delete all the "
+"public and private datasets belonging to this organization."
+msgstr ""
+
+msgid "Are you sure you want to delete this dataset?"
+msgstr ""
+
+msgid "Are you sure you want to delete this member?"
+msgstr ""
+
+msgid "Are you sure you want to delete this related item?"
+msgstr ""
+
+msgid "Are you sure you want to delete this resource?"
+msgstr ""
+
+msgid "Are you sure you want to perform this action?"
+msgstr ""
+
+msgid "Are you sure you want to reset the config?"
+msgstr ""
+
+msgid "August"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Author Email"
+msgstr ""
+
+msgid "Author email"
+msgstr ""
+
+msgid "Author not given"
+msgstr ""
+
+msgid "Author:"
+msgstr ""
+
+#, python-format
+msgid "Authorization function not found: %s"
+msgstr ""
+
+msgid "Authorization:"
+msgstr ""
+
+msgid "Average rating"
+msgstr ""
+
+msgid "Back to all members"
+msgstr ""
+
+msgid "Bad Captcha. Please try again."
+msgstr ""
+
+msgid "Bad request"
+msgstr ""
+
+#, python-format
+msgid "Bad request data: %s"
+msgstr ""
+
+#, python-format
+msgid "Bad search option: %s"
+msgstr ""
+
+msgid "Basic Information"
+msgstr ""
+
+msgid "Briefly describe the changes you have made..."
+msgstr ""
+
+msgid ""
+"By submitting content, you agree to release your contributions under the"
+msgstr ""
+
+msgid "CKAN"
+msgstr ""
+
+msgid "CKAN API"
+msgstr ""
+
+msgid "CKAN Data API"
+msgstr ""
+
+msgid "CKAN Dataset Revision History"
+msgstr ""
+
+msgid "CKAN Group Revision History"
+msgstr ""
+
+msgid "CKAN Repository Revision History"
+msgstr ""
+
+msgid "CKAN config options"
+msgstr ""
+
+msgid ""
+"CKAN powers a number of data catalogues on the Internet. [1:The Data Hub] is "
+"an openly editable open data catalogue, in the style of Wikipedia. The UK "
+"Government uses CKAN to run [2:data.gov.uk], which currently lists 8,000 "
+"government datasets. Official public data from most European countries is "
+"listed in a CKAN catalogue at [3:publicdata.eu]. There is a comprehensive "
+"list of catalogues like these around the world at [4:datacatalogs.org], "
+"which is itself powered by CKAN."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot add any groups."
+msgstr ""
+
+#, python-format
+msgid "Cannot change value of key from %s to %s. This key is read-only"
+msgstr ""
+
+#, python-format
+msgid "Cannot create new entity of this type: %s %s"
+msgstr ""
+
+#, python-format
+msgid "Cannot delete entity of this type: %s %s"
+msgstr ""
+
+msgid "Cannot embed as resource is private."
+msgstr ""
+
+#, python-format
+msgid "Cannot list entity of this type: %s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Cannot purge package %s as associated revision %s includes non-deleted "
+"packages %s"
+msgstr ""
+
+#, python-format
+msgid "Cannot read entity of this type: %s"
+msgstr ""
+
+#, python-format
+msgid "Cannot update entity of this type: %s"
+msgstr ""
+
+msgid "Change your details"
+msgstr ""
+
+msgid "Change your password"
+msgstr ""
+
+msgid "Change your username"
+msgstr ""
+
+msgid "Changes"
+msgstr ""
+
+msgid ""
+"Changing your username will log you out, and require you to log back in with "
+"the new username"
+msgstr ""
+
+msgid "Checking upload permissions ..."
+msgstr ""
+
+msgid "Checking..."
+msgstr ""
+
+msgid ""
+"Choose a dataset attribute and find out which categories in that area have "
+"the most datasets. E.g. tags, groups, license, res_format, country."
+msgstr ""
+
+msgid "Choose area"
+msgstr ""
+
+msgid "Choose width and height in pixels:"
+msgstr ""
+
+msgid "Clear All"
+msgstr ""
+
+msgid "Clear search"
+msgstr ""
+
+msgid "Click here for more information."
+msgstr ""
+
+msgid "Click here to sign in"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Collaborate"
+msgstr ""
+
+msgid ""
+"Comma-separated terms that may link this dataset to similar ones. For more "
+"information on conventions, see [1:this wiki page]."
+msgstr ""
+
+msgid "Compare"
+msgstr ""
+
+msgid "Compare »"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Confirm Delete"
+msgstr ""
+
+msgid "Confirm Password"
+msgstr ""
+
+msgid "Confirm Reset"
+msgstr ""
+
+msgid "Contact Us"
+msgstr ""
+
+msgid ""
+"Copyright (c) 2010 Michael Leibman, http://github.com/mleibman/slickgrid\n"
+"\n"
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
+"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
+"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
+"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#, python-format
+msgid "Could not find tag \"%s\""
+msgstr ""
+
+#, python-format
+msgid "Could not find vocabulary \"%s\""
+msgstr ""
+
+msgid "Could not load preview"
+msgstr ""
+
+#, python-format
+msgid "Could not read parameters: %r"
+msgstr ""
+
+#, python-format
+msgid "Could not send reset link: %s"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Country Code"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Create Account"
+msgstr ""
+
+msgid "Create Dataset"
+msgstr ""
+
+msgid "Create Group"
+msgstr ""
+
+msgid "Create Organization"
+msgstr ""
+
+msgid "Create Related"
+msgstr ""
+
+msgid "Create Related Item"
+msgstr ""
+
+msgid "Create a Group"
+msgstr ""
+
+msgid "Create a dataset »"
+msgstr ""
+
+msgid "Create a group or a tag"
+msgstr ""
+
+msgid "Create a related item"
+msgstr ""
+
+msgid "Create an Account"
+msgstr ""
+
+msgid "Create an Organization"
+msgstr ""
+
+msgid "Create dataset"
+msgstr ""
+
+msgid "Create datasets, groups and other exciting things"
+msgstr ""
+
+msgid "Create one now?"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Created new dataset."
+msgstr ""
+
+msgid "Creative Commons Attribution"
+msgstr ""
+
+msgid "Creative Commons Attribution Share-Alike"
+msgstr ""
+
+msgid "Creative Commons CCZero"
+msgstr ""
+
+msgid "Creative Commons Non-Commercial (Any)"
+msgstr ""
+
+msgid "Current Sysadmins"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "Custom Field"
+msgstr ""
+
+msgid "Custom Field (empty)"
+msgstr ""
+
+msgid "Custom Text"
+msgstr ""
+
+msgid "Customisable css inserted into the page header"
+msgstr ""
+
+msgid "DOWNLOAD"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+#, python-format
+msgid "Dashboard (%(num)d new item)Dashboard (%(num)d new items)"
+msgstr ""
+
+msgid "Data API"
+msgstr ""
+
+msgid "Data API is unavailable for this resource as DataStore is disabled"
+msgstr ""
+
+msgid "Data File"
+msgstr ""
+
+msgid "Data File (Uploaded)"
+msgstr ""
+
+msgid "Data and Resources"
+msgstr ""
+
+msgid "DataPatterns.org"
+msgstr ""
+
+msgid "DataProxy returned an error"
+msgstr ""
+
+msgid "DataStore enabled"
+msgstr ""
+
+msgid "DataStore resource not found"
+msgstr ""
+
+msgid "DataStore returned an error"
+msgstr ""
+
+msgid "Dataset"
+msgstr ""
+
+msgid "Dataset -"
+msgstr ""
+
+msgid "Dataset History"
+msgstr ""
+
+msgid "Dataset Leaderboard"
+msgstr ""
+
+msgid "Dataset Revisions per Week"
+msgstr ""
+
+msgid "Dataset has been deleted."
+msgstr ""
+
+msgid "Dataset not found"
+msgstr ""
+
+msgid "Datasets"
+msgstr ""
+
+#, python-format
+msgid "Datasets affected: %s.\n"
+msgstr ""
+
+msgid "Datasets in group: {group}"
+msgstr ""
+
+msgid "Datasets with no organization can't be private."
+msgstr ""
+
+msgid "Datasets' Tags"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date format incorrect"
+msgstr ""
+
+#, python-format
+msgid ""
+"Dates are in %aISO Format%b — eg. %c2012-12-25%d or %c2010-05-31T14:30%d."
+msgstr ""
+
+#, python-format
+msgid "Dear %s,"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Resource"
+msgstr ""
+
+msgid "Delete the resource '%name%'?"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Deleted Datasets"
+msgstr ""
+
+msgid "Deleted Revisions"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Difference"
+msgstr ""
+
+msgid "Differences"
+msgstr ""
+
+msgid "Differences - Revisions"
+msgstr ""
+
+msgid "Do not specify if using \"query\" parameter"
+msgstr ""
+
+msgid "Do you know of a dataset that should be added to"
+msgstr ""
+
+msgid "Do you really want to change the state of this dataset?"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Don't have an OpenID?"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download resource"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+#, python-format
+msgid "Duplicate key \"%s\""
+msgstr ""
+
+msgid "E-Mail"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit Dataset"
+msgstr ""
+
+msgid "Edit Group"
+msgstr ""
+
+msgid "Edit Member"
+msgstr ""
+
+msgid "Edit Organization"
+msgstr ""
+
+msgid "Edit Profile"
+msgstr ""
+
+msgid "Edit Related"
+msgstr ""
+
+msgid "Edit Related Item"
+msgstr ""
+
+msgid "Edit Resources"
+msgstr ""
+
+msgid "Edit Resources:"
+msgstr ""
+
+msgid "Edit User:"
+msgstr ""
+
+msgid "Edit datasets"
+msgstr ""
+
+msgid ""
+"Edit not allowed as it looks like spam. Please avoid links in your "
+"description."
+msgstr ""
+
+msgid "Edit related item"
+msgstr ""
+
+msgid "Edit settings"
+msgstr ""
+
+msgid "Edit summary (briefly describe the changes you have made)"
+msgstr ""
+
+msgid "Edit:"
+msgstr ""
+
+msgid "Edited resources."
+msgstr ""
+
+msgid "Edited settings."
+msgstr ""
+
+msgid "Editor"
+msgstr ""
+
+msgid "Edits"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Embed"
+msgstr ""
+
+msgid "Embed Data Viewer"
+msgstr ""
+
+msgid "Embed this view"
+msgstr ""
+
+msgid "Embed this view by copying this into your webpage:"
+msgstr ""
+
+msgid "Endpoints"
+msgstr ""
+
+msgid ""
+"Enter your username into the box and we will send you an email with a link "
+"to enter a new password."
+msgstr ""
+
+msgid "Entity"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+#, python-format
+msgid "Error %(error_code)s"
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Errors in form"
+msgstr ""
+
+msgid "Everything"
+msgstr ""
+
+msgid "Example"
+msgstr ""
+
+msgid "Example: Javascript"
+msgstr ""
+
+msgid "Example: Python"
+msgstr ""
+
+msgid "Existing Dataset..."
+msgstr ""
+
+msgid "Explore"
+msgstr ""
+
+msgid "Extra Fields"
+msgstr ""
+
+msgid "Extras"
+msgstr ""
+
+msgid "Failed to get credentials for storage upload. Upload cannot proceed"
+msgstr ""
+
+msgid "Failed to load data API information"
+msgstr ""
+
+msgid "Failed to save, possibly due to invalid data "
+msgstr ""
+
+msgid "Featured items only?"
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "Field \"{field}\" not recognised in resource_search."
+msgstr ""
+
+msgid "File Size"
+msgstr ""
+
+msgid "File URL"
+msgstr ""
+
+msgid "File:"
+msgstr ""
+
+msgid "Filed uploaded to:"
+msgstr ""
+
+msgid "Filter Results"
+msgstr ""
+
+msgid "Filter by type"
+msgstr ""
+
+msgid "Find data"
+msgstr ""
+
+msgid "Find datasets"
+msgstr ""
+
+msgid ""
+"Find out more about working with open data by exploring \n"
+"          these resources:"
+msgstr ""
+
+msgid "Finish"
+msgstr ""
+
+msgid "Follow"
+msgstr ""
+
+msgid "Follow another user"
+msgstr ""
+
+msgid "Follow item not found"
+msgstr ""
+
+msgid "Followers"
+msgstr ""
+
+msgid "Followers ({num_followers})"
+msgstr ""
+
+msgid "Followers:"
+msgstr ""
+
+msgid "Forgot your password?"
+msgstr ""
+
+msgid "Forgotten your details?"
+msgstr ""
+
+msgid "Format"
+msgstr ""
+
+msgid "Formats"
+msgstr ""
+
+msgid "From the [1:Dataset]:"
+msgstr ""
+
+msgid "From the dataset abstract"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Full Name"
+msgstr ""
+
+msgid "Full Width Input"
+msgstr ""
+
+msgid "Full name"
+msgstr ""
+
+msgid "Full name (optional)"
+msgstr ""
+
+msgid "Further Information"
+msgstr ""
+
+msgid "Further dataset previews not shown."
+msgstr ""
+
+msgid "GNU Free Documentation License"
+msgstr ""
+
+msgid "GetTheData.org"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Go to resource"
+msgstr ""
+
+msgid "Go to {related_item_type}"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Group Form"
+msgstr ""
+
+msgid "Group History"
+msgstr ""
+
+msgid "Group has been deleted."
+msgstr ""
+
+msgid "Group member has been deleted."
+msgstr ""
+
+msgid "Group name already exists in database"
+msgstr ""
+
+msgid "Group not found"
+msgstr ""
+
+msgid "Group was not found."
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Groups of Datasets"
+msgstr ""
+
+msgid "Harvest Source"
+msgstr ""
+
+msgid "Hash"
+msgstr ""
+
+msgid "Have to be logged in to edit user"
+msgstr ""
+
+msgid "Height:"
+msgstr ""
+
+msgid ""
+"Here you can supply an Excel file with details of multiple datasets and "
+"import these into"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "History:"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Home Page"
+msgstr ""
+
+msgid "How about creating one?"
+msgstr ""
+
+msgid "How does this work?"
+msgstr ""
+
+msgid "How it works"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Idea"
+msgstr ""
+
+msgid ""
+"If there is another important contact person (in addition to the person in "
+"the Author field) then provide details here."
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Image URL"
+msgstr ""
+
+msgid "Image URL:"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import Datasets"
+msgstr ""
+
+msgid "Import Preview"
+msgstr ""
+
+msgid "Import Results"
+msgstr ""
+
+msgid "Important:"
+msgstr ""
+
+msgid ""
+"Important: By submitting content, you agree to release your contributions "
+"under the Open Database License."
+msgstr ""
+
+msgid "Importer"
+msgstr ""
+
+msgid "Input is too short, must be at least one character"
+msgstr ""
+
+msgid "Integrity Error"
+msgstr ""
+
+msgid "Intro Text"
+msgstr ""
+
+msgid "Invalid integer"
+msgstr ""
+
+msgid "Invalid reset key. Please try again."
+msgstr ""
+
+#, python-format
+msgid "Invalid revision format: %r"
+msgstr ""
+
+msgid "Item was not found."
+msgstr ""
+
+#, python-format
+msgid "JSON Error: %s"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "Joe Bloggs"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "Just now"
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Key ="
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Languages"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Large Input"
+msgstr ""
+
+msgid "Largest Groups"
+msgstr ""
+
+msgid "Last Modified"
+msgstr ""
+
+msgid "Last updated"
+msgstr ""
+
+msgid "Leaderboard - Stats"
+msgstr ""
+
+msgid "Least Viewed"
+msgstr ""
+
+msgid "Least viewed"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "License Not Specified"
+msgstr ""
+
+msgid "License unknown"
+msgstr ""
+
+msgid "License:"
+msgstr ""
+
+msgid "Licensed under the"
+msgstr ""
+
+msgid "Link to a file"
+msgstr ""
+
+msgid "Link to an API"
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "List Groups"
+msgstr ""
+
+msgid "Load less"
+msgstr ""
+
+msgid "Load more"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Log Message"
+msgstr ""
+
+msgid "Log Message:"
+msgstr ""
+
+msgid "Log in"
+msgstr ""
+
+msgid "Log in to use this tool"
+msgstr ""
+
+msgid "Log message: "
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+
+msgid "Log out now"
+msgstr ""
+
+msgid "Logged Out"
+msgstr ""
+
+msgid "Logged in - User"
+msgstr ""
+
+msgid "Logged into"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Login - User"
+msgstr ""
+
+msgid "Login failed. Bad username or password."
+msgstr ""
+
+msgid "Login to"
+msgstr ""
+
+msgid "Login to Add a Group"
+msgstr ""
+
+msgid "Login using Open ID"
+msgstr ""
+
+msgid "Login:"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Logout - User"
+msgstr ""
+
+msgid "Logout from"
+msgstr ""
+
+msgid "MIME Type"
+msgstr ""
+
+msgid "Maintainer"
+msgstr ""
+
+msgid "Maintainer Email"
+msgstr ""
+
+msgid "Maintainer email"
+msgstr ""
+
+msgid "Maintainer not given"
+msgstr ""
+
+msgid "Make private"
+msgstr ""
+
+msgid "Make public"
+msgstr ""
+
+#, python-format
+msgid "Malformed qjson value: %r"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "Markdown"
+msgstr ""
+
+msgid "Markdown formatting"
+msgstr ""
+
+msgid "Master content template placeholder … please replace me."
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Medium Width Input"
+msgstr ""
+
+msgid "Member"
+msgstr ""
+
+msgid "Member Since"
+msgstr ""
+
+msgid "Member for"
+msgstr ""
+
+msgid "Member of:"
+msgstr ""
+
+msgid "Member since"
+msgstr ""
+
+msgid "Members"
+msgstr ""
+
+msgid "Meta"
+msgstr ""
+
+msgid "Metadata"
+msgstr ""
+
+msgid "Mimetype"
+msgstr ""
+
+msgid "Mimetype (Inner)"
+msgstr ""
+
+msgid "Missing Value"
+msgstr ""
+
+msgid "Missing search term ('since_id=UUID' or  'since_time=TIMESTAMP')"
+msgstr ""
+
+msgid "Missing value"
+msgstr ""
+
+msgid "More details..."
+msgstr ""
+
+msgid "More information"
+msgstr ""
+
+msgid "Most Edited Datasets"
+msgstr ""
+
+msgid "Most Viewed"
+msgstr ""
+
+#, python-format
+msgid ""
+"Most of the data indexed at %(site_title)s is openly licensed, meaning "
+"anyone is free to use or re-use it however they like. Perhaps someone will "
+"take that nice dataset of a city's public art that you found, and add it to "
+"a tourist map - or even make a neat app for your phone that'll help you find "
+"artworks when you visit the city. Open data means more enterprise, "
+"collaborative science and transparent government. You can read more about "
+"open data in the [1:Open Data Handbook]."
+msgstr ""
+
+msgid "Most viewed"
+msgstr ""
+
+msgid "Must be <field>:<value> pair(s)"
+msgstr ""
+
+msgid "Must be larger than 0"
+msgstr ""
+
+msgid "Must be natural number"
+msgstr ""
+
+msgid "My Datasets"
+msgstr ""
+
+msgid "My Followers ({num_followers})"
+msgstr ""
+
+msgid "My Group"
+msgstr ""
+
+msgid "My Groups"
+msgstr ""
+
+msgid "My Organization"
+msgstr ""
+
+msgid "My Organizations"
+msgstr ""
+
+msgid "My Profile"
+msgstr ""
+
+msgid "My Related Item"
+msgstr ""
+
+msgid ""
+"NB: To set-up your OpenID for this site, you first need to [1:Register] and "
+"then edit your Profile to provide your OpenID."
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+#, python-format
+msgid "Name \"%s\" length is less than minimum %s"
+msgstr ""
+
+#, python-format
+msgid "Name \"%s\" length is more than maximum %s"
+msgstr ""
+
+msgid "Name Ascending"
+msgstr ""
+
+msgid "Name Descending"
+msgstr ""
+
+#, python-format
+msgid "Name must be a maximum of %i characters long"
+msgstr ""
+
+#, python-format
+msgid "Name must be at least %s characters long"
+msgstr ""
+
+msgid "Need an Account?"
+msgstr ""
+
+msgid "Need to be system administrator to administer"
+msgstr ""
+
+msgid "New Dataset..."
+msgstr ""
+
+msgid "New activity item"
+msgstr ""
+
+msgid "New datasets"
+msgstr ""
+
+msgid "New key"
+msgstr ""
+
+msgid "New resource..."
+msgstr ""
+
+msgid "Newest"
+msgstr ""
+
+msgid "News Article"
+msgstr ""
+
+msgid "News feed"
+msgstr ""
+
+msgid "Next: Add Data"
+msgstr ""
+
+msgid "Next: Additional Info"
+msgstr ""
+
+msgid "No Differences"
+msgstr ""
+
+msgid "No License Provided"
+msgstr ""
+
+msgid "No activities are within this activity stream"
+msgstr ""
+
+msgid ""
+"No apps, ideas, news stories or images have been related to this dataset yet."
+msgstr ""
+
+msgid "No description for this item"
+msgstr ""
+
+msgid "No description for this resource"
+msgstr ""
+
+msgid "No differences"
+msgstr ""
+
+msgid "No download is available"
+msgstr ""
+
+msgid "No downloadable resources."
+msgstr ""
+
+msgid "No edited datasets"
+msgstr ""
+
+msgid "No email"
+msgstr ""
+
+msgid "No followers"
+msgstr ""
+
+msgid "No groups"
+msgstr ""
+
+#, python-format
+msgid "No handler defined for data type: %(type)s."
+msgstr ""
+
+msgid "No links are allowed in the log_message."
+msgstr ""
+
+msgid "No matches found"
+msgstr ""
+
+msgid "No package found for this resource, cannot check auth."
+msgstr ""
+
+msgid "No preview available."
+msgstr ""
+
+msgid "No preview handler for resource of type {0}"
+msgstr ""
+
+msgid "No preview has been defined."
+msgstr ""
+
+msgid "No problem, use our password recovery form to reset it."
+msgstr ""
+
+msgid "No ratings"
+msgstr ""
+
+msgid "No recipient email address available!"
+msgstr ""
+
+msgid "No related items"
+msgstr ""
+
+msgid "No revision specified"
+msgstr ""
+
+#, python-format
+msgid "No such user: %s"
+msgstr ""
+
+msgid "No tag name"
+msgstr ""
+
+msgid "No user specified"
+msgstr ""
+
+msgid "No valid API key provided."
+msgstr ""
+
+msgid "No web page given"
+msgstr ""
+
+msgid "Not Openly Licensed"
+msgstr ""
+
+msgid "Not a list"
+msgstr ""
+
+msgid "Not a string"
+msgstr ""
+
+msgid "Not authorized"
+msgstr ""
+
+msgid "Not authorized to perform bulk update"
+msgstr ""
+
+msgid "Not authorized to see this page"
+msgstr ""
+
+msgid "Not found"
+msgstr ""
+
+msgid "Nothing new on CKAN?"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "Number of Datasets"
+msgstr ""
+
+msgid "Number of datasets"
+msgstr ""
+
+msgid "Number of edits"
+msgstr ""
+
+msgid "Number of ratings"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid "Oldest"
+msgstr ""
+
+msgid "Only show featured items"
+msgstr ""
+
+msgid "Only the owner can delete a related item"
+msgstr ""
+
+msgid "Only the owner can update a related item"
+msgstr ""
+
+msgid "Open Data Commons Attribution License"
+msgstr ""
+
+msgid "Open Data Commons Open Database License (ODbL)"
+msgstr ""
+
+msgid "Open Data Commons Public Domain Dedication and License (PDDL)"
+msgstr ""
+
+msgid "Open Data Handbook"
+msgstr ""
+
+msgid "Open Database License"
+msgstr ""
+
+msgid "Open ID"
+msgstr ""
+
+msgid "Open Knowledge Foundation"
+msgstr ""
+
+msgid "Open data and the Open Knowledge Foundation"
+msgstr ""
+
+msgid "OpenID Identifier:"
+msgstr ""
+
+msgid ""
+"OpenID is service that allows you to log-on to many different websites\n"
+"          using a single identity. Find out [1:more\n"
+"          about OpenID] and [2:how to get an\n"
+"          OpenID enabled account]. Probably the simplest way is sign up with "
+"a\n"
+"          free OpenID provider such as [3:https://www.myopenid.com/]."
+msgstr ""
+
+msgid "OpenId"
+msgstr ""
+
+msgid "Or simply browse the repository"
+msgstr ""
+
+msgid "Order by"
+msgstr ""
+
+msgid "Organization"
+msgstr ""
+
+msgid "Organization Form"
+msgstr ""
+
+msgid "Organization does not exist"
+msgstr ""
+
+msgid "Organization has been deleted."
+msgstr ""
+
+msgid "Organization was not found."
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Other (Attribution)"
+msgstr ""
+
+msgid "Other (Non-Commercial)"
+msgstr ""
+
+msgid "Other (Not Open)"
+msgstr ""
+
+msgid "Other (Open)"
+msgstr ""
+
+msgid "Other (Public Domain)"
+msgstr ""
+
+msgid "Other access"
+msgstr ""
+
+msgid "Package not found"
+msgstr ""
+
+msgid "Package resource(s) invalid"
+msgstr ""
+
+msgid "Package was not found."
+msgstr ""
+
+msgid "Page Logo"
+msgstr ""
+
+msgid "Page last updated:"
+msgstr ""
+
+msgid "Paper"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password (repeat)"
+msgstr ""
+
+msgid "Password (repeat):"
+msgstr ""
+
+msgid "Password Reset"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+#, python-format
+msgid ""
+"Please <a href=\"%s\">update your profile</a> and add your email address. "
+msgstr ""
+
+#, python-format
+msgid "Please <a href=\"%s\">update your profile</a> and add your full name."
+msgstr ""
+
+msgid ""
+"Please <a href=\"{link}\">update your profile</a> and add your email address "
+"and your full name. {site} uses your email address if you need to reset your "
+"password."
+msgstr ""
+
+msgid "Please Confirm Action"
+msgstr ""
+
+msgid "Please add a link to the image"
+msgstr ""
+
+msgid "Please add a url"
+msgstr ""
+
+msgid "Please add the title for the item"
+msgstr ""
+
+msgid "Please check your inbox for a reset code."
+msgstr ""
+
+msgid "Please click your account provider:"
+msgstr ""
+
+msgid "Please describe the item"
+msgstr ""
+
+msgid "Please enter an integer value"
+msgstr ""
+
+msgid "Please enter both passwords"
+msgstr ""
+
+msgid "Please provide a valid URL"
+msgstr ""
+
+msgid "Popular"
+msgstr ""
+
+msgid "Popular Tags"
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Powered by"
+msgstr ""
+
+msgid "Prepend"
+msgstr ""
+
+msgid "Prepend Input"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Preview - Importer"
+msgstr ""
+
+msgid "Preview not available for data type: "
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "Private"
+msgstr ""
+
+#, python-format
+msgid "Problem purging revision %s: %s"
+msgstr ""
+
+msgid "Profile updated"
+msgstr ""
+
+msgid "Public"
+msgstr ""
+
+msgid "Public Activity"
+msgstr ""
+
+msgid "Purge complete"
+msgstr ""
+
+msgid "Purge them all (forever and irreversibly)"
+msgstr ""
+
+msgid "Query"
+msgstr ""
+
+msgid "Query (via SQL)"
+msgstr ""
+
+msgid "Query example (first 5 results)"
+msgstr ""
+
+msgid "Query example (results containing 'jones')"
+msgstr ""
+
+msgid "Query example (via SQL statement)"
+msgstr ""
+
+msgid "Querying"
+msgstr ""
+
+msgid "RDF/XML"
+msgstr ""
+
+#, python-format
+msgid "REST API: Create member object %s"
+msgstr ""
+
+#, python-format
+msgid "REST API: Create object %s"
+msgstr ""
+
+#, python-format
+msgid "REST API: Create package relationship: %s %s %s"
+msgstr ""
+
+#, python-format
+msgid "REST API: Delete %s"
+msgstr ""
+
+#, python-format
+msgid "REST API: Delete Member: %s"
+msgstr ""
+
+#, python-format
+msgid "REST API: Delete Package: %s"
+msgstr ""
+
+#, python-format
+msgid "REST API: Update object %s"
+msgstr ""
+
+#, python-format
+msgid "REST API: Update package relationship: %s %s %s"
+msgstr ""
+
+msgid "RSS"
+msgstr ""
+
+msgid "Rating must be an integer value."
+msgstr ""
+
+#, python-format
+msgid "Rating must be between %i and %i."
+msgstr ""
+
+#, python-format
+msgid "Read dataset as of %s"
+msgstr ""
+
+msgid "Read the documentation"
+msgstr ""
+
+msgid "Recent Revision History"
+msgstr ""
+
+msgid "Recent changes to CKAN Dataset: "
+msgstr ""
+
+msgid "Recent changes to CKAN Group: "
+msgstr ""
+
+msgid "Recent changes to the CKAN repository."
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Register - User"
+msgstr ""
+
+msgid "Register Account"
+msgstr ""
+
+msgid "Register for a new Account"
+msgstr ""
+
+msgid "Register for an Account"
+msgstr ""
+
+msgid "Register it now"
+msgstr ""
+
+msgid "Register now"
+msgstr ""
+
+msgid "Registration"
+msgstr ""
+
+msgid "Related"
+msgstr ""
+
+msgid "Related Datasets"
+msgstr ""
+
+msgid "Related Form"
+msgstr ""
+
+msgid "Related Media for {dataset}"
+msgstr ""
+
+msgid "Related item has been deleted."
+msgstr ""
+
+msgid "Related item not found"
+msgstr ""
+
+msgid "Related item was successfully created"
+msgstr ""
+
+msgid "Related item was successfully updated"
+msgstr ""
+
+msgid "Relevance"
+msgstr ""
+
+msgid "Remember me"
+msgstr ""
+
+msgid "Remember me:"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Request Reset"
+msgstr ""
+
+msgid "Request a password reset"
+msgstr ""
+
+msgid "Request params must be in form of a json encoded dictionary."
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset Your Password"
+msgstr ""
+
+msgid "Reset password"
+msgstr ""
+
+msgid "Reset your password"
+msgstr ""
+
+msgid "Resource"
+msgstr ""
+
+msgid "Resource \"{0}\" was not found."
+msgstr ""
+
+msgid "Resource Formats"
+msgstr ""
+
+msgid "Resource Type"
+msgstr ""
+
+msgid "Resource has been deleted."
+msgstr ""
+
+msgid "Resource not found"
+msgstr ""
+
+msgid "Resource uploaded"
+msgstr ""
+
+msgid "Resource was not found."
+msgstr ""
+
+msgid "Resources"
+msgstr ""
+
+msgid "Resources (0)"
+msgstr ""
+
+msgid "Results - Importer"
+msgstr ""
+
+msgid "Revision"
+msgstr ""
+
+msgid "Revision Actions"
+msgstr ""
+
+msgid "Revision Differences"
+msgstr ""
+
+msgid "Revision Differences -"
+msgstr ""
+
+msgid "Revision History"
+msgstr ""
+
+msgid "Revision updated"
+msgstr ""
+
+msgid "Revision:"
+msgstr ""
+
+msgid "Revisions"
+msgstr ""
+
+msgid "Revisions to Datasets per week"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save & add another"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Save Group"
+msgstr ""
+
+msgid "Save Organization"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search -"
+msgstr ""
+
+msgid "Search Datasets"
+msgstr ""
+
+msgid "Search Tags"
+msgstr ""
+
+msgid "Search Users"
+msgstr ""
+
+msgid "Search Your Data"
+msgstr ""
+
+msgid "Search datasets..."
+msgstr ""
+
+msgid "Search for a Dataset"
+msgstr ""
+
+msgid "Search groups..."
+msgstr ""
+
+msgid "Search list..."
+msgstr ""
+
+msgid "Search organizations..."
+msgstr ""
+
+msgid "Search..."
+msgstr ""
+
+msgid "Sections"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select an organization..."
+msgstr ""
+
+msgid "Select two revisions before doing the comparison."
+msgstr ""
+
+msgid "September"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Share data"
+msgstr ""
+
+msgid "Show More {facet_type}"
+msgstr ""
+
+msgid "Show Only Popular {facet_type}"
+msgstr ""
+
+msgid "Show more"
+msgstr ""
+
+msgid "Showing items"
+msgstr ""
+
+msgid "Sign In"
+msgstr ""
+
+msgid "Sign in with OpenID"
+msgstr ""
+
+msgid "Sign up »"
+msgstr ""
+
+msgid "Simply enter a new password and we'll update your account"
+msgstr ""
+
+msgid "Since you have not signed in this will just be your IP address."
+msgstr ""
+
+msgid ""
+"Since you have not signed in this will just be your IP address.\n"
+"    [1:Click here to sign in] before saving (opens in new window)."
+msgstr ""
+
+msgid "Site Admin"
+msgstr ""
+
+msgid "Site Tag Line"
+msgstr ""
+
+msgid "Site Tag Logo"
+msgstr ""
+
+msgid "Site Title"
+msgstr ""
+
+msgid "Size (Bytes)"
+msgstr ""
+
+msgid "So, why don't you ..."
+msgstr ""
+
+msgid "Social"
+msgstr ""
+
+msgid "Some useful notes about the data"
+msgstr ""
+
+msgid "Sorry no datasets found"
+msgstr ""
+
+msgid "Sorry no datasets found for \"{query}\""
+msgstr ""
+
+msgid "Sorry no groups found"
+msgstr ""
+
+msgid "Sorry no groups found for \"{query}\""
+msgstr ""
+
+msgid "Sorry no organizations found"
+msgstr ""
+
+msgid "Sorry no organizations found for \"{query}\""
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Sort by edits"
+msgstr ""
+
+msgid "Sort by name"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+#, python-format
+msgid "Source: <a href=\"%(url)s\">%(dataset)s</a>"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Input"
+msgstr ""
+
+msgid "Start typing…"
+msgstr ""
+
+msgid "Start with a summary sentence ..."
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "State:"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Statistics Menu"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Subscribe to notification emails"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Sysadmin settings"
+msgstr ""
+
+msgid "Sysadmins"
+msgstr ""
+
+#, python-format
+msgid "Tag \"%s\" length is less than minimum %s"
+msgstr ""
+
+#, python-format
+msgid "Tag \"%s\" length is more than maximum %i"
+msgstr ""
+
+#, python-format
+msgid "Tag \"%s\" must be alphanumeric characters or symbols: -_."
+msgstr ""
+
+#, python-format
+msgid "Tag \"%s\" must not be uppercase"
+msgstr ""
+
+#, python-format
+msgid "Tag %s already belongs to vocabulary %s"
+msgstr ""
+
+#, python-format
+msgid "Tag %s does not belong to vocabulary %s"
+msgstr ""
+
+msgid "Tag Name"
+msgstr ""
+
+msgid "Tag not found"
+msgstr ""
+
+#, python-format
+msgid "Tag vocabulary \"%s\" does not exist"
+msgstr ""
+
+msgid "Tag vocabulary was not found."
+msgstr ""
+
+msgid "Tag:"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "TaskStatus was not found."
+msgstr ""
+
+msgid "Text on home page"
+msgstr ""
+
+msgid "Textarea"
+msgstr ""
+
+msgid "That URL is already in use."
+msgstr ""
+
+msgid "That group name or ID does not exist."
+msgstr ""
+
+msgid "That login name is not available."
+msgstr ""
+
+msgid "That name cannot be used"
+msgstr ""
+
+msgid "That vocabulary name is already in use."
+msgstr ""
+
+msgid ""
+"The Data API can be accessed via the following actions of the CKAN action "
+"API."
+msgstr ""
+
+msgid "The URL for the image that is associated with this group."
+msgstr ""
+
+msgid "The URL for the web page describing the data (not the data itself)."
+msgstr ""
+
+msgid ""
+"The [1:Open Knowledge Foundation] is a non-profit organisation [2:promoting] "
+"open knowledge: writing and improving CKAN is one of the ways we do that. If "
+"you want to get involved with its design or code, join the discussion or "
+"development [3:mailing lists], or take a look at the [4:OKFN] site to find "
+"out about our other projects."
+msgstr ""
+
+msgid "The dataset {id} could not be found."
+msgstr ""
+
+msgid "The form contains invalid entries:"
+msgstr ""
+
+#, python-format
+msgid "The input field %(name)s was not expected."
+msgstr ""
+
+msgid ""
+"The name of the main contact, for enquiries about this particular dataset, "
+"using the e-mail address in the following field."
+msgstr ""
+
+msgid "The passwords you entered do not match"
+msgstr ""
+
+msgid "The passwords you entered do not match."
+msgstr ""
+
+msgid "The requested related item was not found"
+msgstr ""
+
+msgid "The resource format is not specified."
+msgstr ""
+
+msgid "The resource url is not specified."
+msgstr ""
+
+msgid "Then sign right up, it only takes a minute."
+msgstr ""
+
+msgid "There are"
+msgstr ""
+
+#, python-format
+msgid "There are %(count)s datasets tagged with [1:%(tagname)s]:"
+msgstr ""
+
+msgid "There are currently no groups for this site"
+msgstr ""
+
+msgid "There are currently no organizations for this site"
+msgstr ""
+
+msgid "There are no datasets currently in this group."
+msgstr ""
+
+msgid "There are no items here yet"
+msgstr ""
+
+msgid "There are no {facet_type} that match this search"
+msgstr ""
+
+msgid "There are unsaved modifications to this form"
+msgstr ""
+
+msgid "There have been no apps submitted yet."
+msgstr ""
+
+msgid "There is no API data to load for this resource"
+msgstr ""
+
+msgid "There is no description for this dataset"
+msgstr ""
+
+msgid "There is no description for this group"
+msgstr ""
+
+msgid "There is no description for this organization"
+msgstr ""
+
+msgid "There is no description for this resource"
+msgstr ""
+
+#, python-format
+msgid "There is no revision with id: %s"
+msgstr ""
+
+msgid "This Content and Data is Open"
+msgstr ""
+
+msgid "This URL is already used, please use a different one."
+msgstr ""
+
+msgid "This URL is available!"
+msgstr ""
+
+msgid ""
+"This compiled version of SlickGrid has been obtained with the Google "
+"Closure\n"
+"Compiler, using the following command:\n"
+"\n"
+"java -jar compiler.jar --js=slick.core.js --js=slick.grid.js --js=slick."
+"editors.js --js_output_file=slick.grid.min.js\n"
+"\n"
+"There are two other files required for the SlickGrid view to work properly:\n"
+"\n"
+" * jquery-ui-1.8.16.custom.min.js \n"
+" * jquery.event.drag-2.0.min.js\n"
+"\n"
+"These are included in the Recline source, but have not been included in the\n"
+"built file to make easier to handle compatibility problems.\n"
+"\n"
+"Please check SlickGrid license in the included MIT-LICENSE.txt file.\n"
+"\n"
+"[1] https://developers.google.com/closure/compiler/"
+msgstr ""
+
+msgid "This dataset has no description"
+msgstr ""
+
+msgid "This dataset is"
+msgstr ""
+
+msgid "This dataset satisfies the Open Definition."
+msgstr ""
+
+msgid "This group has no description"
+msgstr ""
+
+msgid "This is a featured section"
+msgstr ""
+
+msgid ""
+"This is a nice introductory paragraph about CKAN or the site in general. We "
+"don't have any copy to go here yet but soon we will "
+msgstr ""
+
+msgid "This is an old revision of this dataset, as edited"
+msgstr ""
+
+#, python-format
+msgid ""
+"This is an old revision of this dataset, as edited at %(timestamp)s. It may "
+"differ significantly from the <a href=\"%(url)s\">current revision</a>."
+msgstr ""
+
+msgid "This is generated automatically. You can edit if you wish"
+msgstr ""
+
+msgid "This is the current URL."
+msgstr ""
+
+msgid "This is the current revision of this dataset, as edited"
+msgstr ""
+
+#, python-format
+msgid ""
+"This is the current revision of this dataset, as edited at %(timestamp)s."
+msgstr ""
+
+msgid "This item has no description"
+msgstr ""
+
+msgid "This means only you can see this"
+msgstr ""
+
+msgid "This organization has no datasets associated to it"
+msgstr ""
+
+msgid "This organization has no description"
+msgstr ""
+
+msgid "This resource can not be previewed at the moment."
+msgstr ""
+
+msgid "This resource has unsaved changes."
+msgstr ""
+
+msgid "This site is currently off-line. Database is not initialised."
+msgstr ""
+
+msgid ""
+"This site is running a powerful piece of open-source data cataloguing "
+"software called [1:CKAN], written and maintained by the [2:Open Knowledge "
+"Foundation]. Each 'dataset' record on CKAN contains a description of the "
+"data and other useful information, such as what formats it is available in, "
+"who owns it and whether it is freely available, and what subject areas the "
+"data is about. Other users can improve or add to this information (CKAN "
+"keeps a fully versioned history)."
+msgstr ""
+
+msgid ""
+"This upload form is valid for a limited time (usually 1h or so). If the\n"
+"    form expires please reload the page."
+msgstr ""
+
+msgid "This user has no biography."
+msgstr ""
+
+msgid "Timestamp"
+msgstr ""
+
+msgid "Timestamp:"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "To register or log in as another user, you need to"
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "Top Rated Datasets"
+msgstr ""
+
+msgid "Top Tags"
+msgstr ""
+
+msgid "Total Number of Datasets"
+msgstr ""
+
+msgid "Total datasets"
+msgstr ""
+
+msgid "Total number of Datasets"
+msgstr ""
+
+msgid ""
+"Track the most recent changes to the system, with most recent\n"
+"    changes first."
+msgstr ""
+
+msgid "Trackback URL"
+msgstr ""
+
+msgid "Trash"
+msgstr ""
+
+msgid "Trying to create an organization as a group"
+msgstr ""
+
+msgid "Twitter @ckanproject"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type at least two characters..."
+msgstr ""
+
+msgid "Type of item"
+msgstr ""
+
+msgid "UK Open Government Licence (OGL)"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "URL:"
+msgstr ""
+
+msgid "Unable to add package to search index"
+msgstr ""
+
+msgid "Unable to add package to search index."
+msgstr ""
+
+msgid "Unable to authenticate upload"
+msgstr ""
+
+msgid "Unable to get data for uploaded file"
+msgstr ""
+
+msgid "Unable to update search index"
+msgstr ""
+
+msgid "Unable to update search index."
+msgstr ""
+
+msgid "Unable to upload file"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to add member to group %s"
+msgstr ""
+
+msgid "Unauthorized to create a group"
+msgstr ""
+
+msgid "Unauthorized to create a package"
+msgstr ""
+
+msgid "Unauthorized to create a resource"
+msgstr ""
+
+msgid "Unauthorized to create a user"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to create user %s"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to delete group %s"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to delete group %s members"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to delete package %s"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to delete related item %s"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to delete resource %s"
+msgstr ""
+
+msgid "Unauthorized to edit a user."
+msgstr ""
+
+msgid "Unauthorized to edit this resource"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to edit user %s"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to read dataset %s"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to read group %s"
+msgstr ""
+
+msgid "Unauthorized to read group {group_id}"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to read package %s"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to read resource %s"
+msgstr ""
+
+msgid "Unauthorized to read {0} {1}"
+msgstr ""
+
+msgid "Unauthorized to register as a user."
+msgstr ""
+
+msgid "Unauthorized to request reset password."
+msgstr ""
+
+msgid "Unauthorized to reset password."
+msgstr ""
+
+msgid "Unauthorized to update dataset"
+msgstr ""
+
+#, python-format
+msgid "Unauthorized to view followers %s"
+msgstr ""
+
+msgid "Undelete"
+msgstr ""
+
+msgid "Unfollow"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+#, python-format
+msgid "Unknown register: %s"
+msgstr ""
+
+msgid "Unnamed resource"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update / Insert"
+msgstr ""
+
+msgid "Update Dataset"
+msgstr ""
+
+msgid "Update Existing Roles"
+msgstr ""
+
+msgid "Update Group"
+msgstr ""
+
+msgid "Update Organization"
+msgstr ""
+
+msgid "Update Password"
+msgstr ""
+
+msgid "Update Profile"
+msgstr ""
+
+msgid "Update Resource"
+msgstr ""
+
+msgid "Update your avatar at gravatar.com"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Upload - Successful"
+msgstr ""
+
+msgid "Upload a file"
+msgstr ""
+
+msgid "Upload another »"
+msgstr ""
+
+msgid ""
+"Upload or link data files, APIs and other materials related to your dataset."
+msgstr ""
+
+msgid "Uploading file ..."
+msgstr ""
+
+msgid "Url"
+msgstr ""
+
+msgid ""
+"Url must be purely lowercase alphanumeric (ascii) characters and these "
+"symbols: -_"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+#, python-format
+msgid ""
+"User \"%s\" is now registered but you are still logged in as \"%s\" from "
+"before"
+msgstr ""
+
+#, python-format
+msgid "User %r not authorized to edit %r"
+msgstr ""
+
+#, python-format
+msgid "User %r not authorized to edit %s"
+msgstr ""
+
+#, python-format
+msgid "User %r not authorized to edit %s authorizations"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to add dataset to this organization"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to add members"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to change state of group %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to change state of package %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to change state of revision"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to create groups"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to create organizations"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to create packages"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to create users"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete group %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete groups"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete organization %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete organization %s members"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete organizations"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete package %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete relationship %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete resource %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to delete task_status"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit group %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit organization %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit package %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit permissions of group %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit resource %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit these groups"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit these packages"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to edit user %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to read package %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to read resource %s"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to read these packages"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to update task_status table"
+msgstr ""
+
+#, python-format
+msgid "User %s not authorized to update term_translation table"
+msgstr ""
+
+msgid "User hasn't created any datasets."
+msgstr ""
+
+msgid "User name:"
+msgstr ""
+
+msgid "User not found"
+msgstr ""
+
+msgid "User {0} not authorized to update resource {1}"
+msgstr ""
+
+msgid "User {username} does not exist."
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Users Owning Most Datasets"
+msgstr ""
+
+msgid "Users owning most datasets"
+msgstr ""
+
+msgid "Valid API key needed to create a group"
+msgstr ""
+
+msgid "Valid API key needed to create a package"
+msgstr ""
+
+msgid "Valid API key needed to edit a group"
+msgstr ""
+
+msgid "Valid API key needed to edit a package"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Value ="
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+#, python-format
+msgid "Version must be a maximum of %i characters long"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "View Profile"
+msgstr ""
+
+msgid "View dataset"
+msgstr ""
+
+msgid "View dataset resources"
+msgstr ""
+
+msgid "View group"
+msgstr ""
+
+msgid "View my profile"
+msgstr ""
+
+msgid "View organization"
+msgstr ""
+
+msgid "View profile"
+msgstr ""
+
+msgid "View resource"
+msgstr ""
+
+msgid "View this"
+msgstr ""
+
+msgid "View {name}"
+msgstr ""
+
+msgid "View {organization_name}"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Warning: URL is very long. Consider changing it to something shorter."
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+msgid "Welcome to"
+msgstr ""
+
+msgid "Welcome to CKAN"
+msgstr ""
+
+msgid "What Are Groups?"
+msgstr ""
+
+msgid "What are Groups?"
+msgstr ""
+
+msgid "What are Organizations?"
+msgstr ""
+
+msgid "What are applications?"
+msgstr ""
+
+msgid "What are datasets?"
+msgstr ""
+
+msgid "What are related items?"
+msgstr ""
+
+msgid "What are roles?"
+msgstr ""
+
+msgid "What are sysadmins?"
+msgstr ""
+
+msgid ""
+"What was the [1:average price] of a house in the UK in 1935? When will "
+"India's projected population [2:overtake] that of China? Where can you see "
+"[3:publicly-funded art] in Seattle? Data to answer many, many questions like "
+"these is out there on the Internet somewhere - but it is not always easy to "
+"find."
+msgstr ""
+
+msgid "What's a resource?"
+msgstr ""
+
+msgid "What's going on?"
+msgstr ""
+
+msgid ""
+"Whilst tags are great at collecting datasets together, there are occasions "
+"when you want to restrict users from editing a collection. A [1:group] can "
+"be set-up to specify which users have permission to add or remove datasets "
+"from it."
+msgstr ""
+
+msgid "Who else is here?"
+msgstr ""
+
+msgid "Why Sign Up?"
+msgstr ""
+
+msgid "Width:"
+msgstr ""
+
+msgid "Would you like to [1:create a new dataset?]"
+msgstr ""
+
+msgid "Yes!"
+msgstr ""
+
+msgid "You are already following {0}"
+msgstr ""
+
+msgid "You are no longer following {0}"
+msgstr ""
+
+msgid "You are not a member of any groups."
+msgstr ""
+
+msgid "You are not a member of any organizations."
+msgstr ""
+
+msgid "You are not following anything"
+msgstr ""
+
+msgid "You are not following {0}."
+msgstr ""
+
+msgid "You are now following {0}"
+msgstr ""
+
+msgid "You are now logged out."
+msgstr ""
+
+msgid ""
+"You are uploading a file. Are you sure you want to navigate away and stop "
+"this upload?"
+msgstr ""
+
+msgid "You can also access this registry using the"
+msgstr ""
+
+msgid "You can use"
+msgstr ""
+
+msgid "You can use %aMarkdown formatting%b here."
+msgstr ""
+
+msgid ""
+"You can use <a href=\"http://daringfireball.net/projects/markdown/syntax\" "
+"target=\"_blank\">Markdown formatting</a> here"
+msgstr ""
+
+msgid "You cannot add a dataset to this organization"
+msgstr ""
+
+msgid "You cannot follow yourself"
+msgstr ""
+
+msgid "You have logged out successfully."
+msgstr ""
+
+msgid "You have not provided a biography."
+msgstr ""
+
+#, python-format
+msgid ""
+"You have requested your password on %(site_title)s to be reset.\n"
+"\n"
+"Please click the following link to confirm this request:\n"
+"\n"
+"   %(reset_link)s\n"
+msgstr ""
+
+msgid ""
+"You have unsaved changes. Make sure to click 'Save Changes' below before "
+"leaving this page."
+msgstr ""
+
+msgid "You haven't created any datasets."
+msgstr ""
+
+msgid "You must add at least one data resource"
+msgstr ""
+
+msgid "You must be a sysadmin to change a related item's featured field."
+msgstr ""
+
+msgid "You must be a sysadmin to create a featured related item"
+msgstr ""
+
+msgid "You must be logged in to access your dashboard."
+msgstr ""
+
+msgid "You must be logged in to add a related item"
+msgstr ""
+
+msgid "You must be logged in to follow a dataset."
+msgstr ""
+
+msgid "You must be logged in to follow a group."
+msgstr ""
+
+msgid "You must be logged in to follow users"
+msgstr ""
+
+msgid "You must be logged in to unfollow something."
+msgstr ""
+
+msgid "You must provide a password"
+msgstr ""
+
+msgid "You must supply a package id or name (parameter \"package\")."
+msgstr ""
+
+msgid "You must supply a rating (parameter \"rating\")."
+msgstr ""
+
+msgid "You need to log out before you can log in with another account."
+msgstr ""
+
+msgid "You're already logged in"
+msgstr ""
+
+msgid "You're already logged in as {user}."
+msgstr ""
+
+msgid "Your browser does not support iframes."
+msgstr ""
+
+msgid "Your password has been reset."
+msgstr ""
+
+msgid "Your password must be 4 characters or longer"
+msgstr ""
+
+msgid "Your password must be 4 characters or longer."
+msgstr ""
+
+#, python-format
+msgid "[1:%(item_count)s] datasets found"
+msgstr ""
+
+#, python-format
+msgid "[1:%(item_count)s] users found."
+msgstr ""
+
+#, python-format
+msgid ""
+"[1:Dataset page] on \n"
+"            [2:%(harvest_catalogue_name)s]"
+msgstr ""
+
+msgid ""
+"[1:Important:] By submitting content, you agree to release your "
+"contributions under the [2:Open Database License]. Please [3:refrain] from "
+"editing this page if you are [4:not] happy to do this."
+msgstr ""
+
+msgid ""
+"[1:There was an error while searching.] \n"
+"            Please try again."
+msgstr ""
+
+#, python-format
+msgid ""
+"[1:You searched for \"%(query)s\". ]%(number_of_results)s datasets found."
+msgstr ""
+
+msgid "[Open Data]"
+msgstr ""
+
+msgid "active"
+msgstr ""
+
+msgid "add one"
+msgstr ""
+
+msgid "and see all tags."
+msgstr ""
+
+msgid "at"
+msgstr ""
+
+msgid "before saving (opens in new window)."
+msgstr ""
+
+msgid "by copying this into your webpage:"
+msgstr ""
+
+msgid "contains"
+msgstr ""
+
+msgid "current revision"
+msgstr ""
+
+msgid "custom text"
+msgstr ""
+
+msgid "dataset"
+msgstr ""
+
+msgid "datasets"
+msgstr ""
+
+msgid "datasets."
+msgstr ""
+
+msgid "deleted"
+msgstr ""
+
+#, python-format
+msgid "depends on %s"
+msgstr ""
+
+#, python-format
+msgid "derives from %s"
+msgstr ""
+
+msgid "dump"
+msgstr ""
+
+msgid "e.g. 1.2.0"
+msgstr ""
+
+msgid "e.g. csv, html, xls, rdf, ..."
+msgstr ""
+
+msgid "e.g. http://www.example.com/growth-figures.html"
+msgstr ""
+
+msgid "e.g. pollution, rivers, water quality"
+msgstr ""
+
+msgid "eg. 1024"
+msgstr ""
+
+msgid "eg. 2012-06-05"
+msgstr ""
+
+msgid "eg. A descriptive title"
+msgstr ""
+
+msgid "eg. CSV, XML or JSON"
+msgstr ""
+
+msgid "eg. Gold Prices"
+msgstr ""
+
+msgid "eg. January 2011 Gold Prices"
+msgstr ""
+
+msgid "eg. Joe Bloggs"
+msgstr ""
+
+msgid "eg. Some useful notes about the data"
+msgstr ""
+
+msgid "eg. application/json"
+msgstr ""
+
+msgid "eg. economy, mental health, government"
+msgstr ""
+
+msgid "eg. http://example.com/gold-prices-jan-2011.json"
+msgstr ""
+
+msgid "eg. joe@example.com"
+msgstr ""
+
+msgid "eg. my-dataset"
+msgstr ""
+
+msgid "first."
+msgstr ""
+
+msgid "from editing this page if you are"
+msgstr ""
+
+msgid "full"
+msgstr ""
+
+msgid "full {format} dump"
+msgstr ""
+
+msgid "happy to do this."
+msgstr ""
+
+msgid "has"
+msgstr ""
+
+#, python-format
+msgid "has derivation %s"
+msgstr ""
+
+#, python-format
+msgid "has sibling %s"
+msgstr ""
+
+msgid "here."
+msgstr ""
+
+msgid "http://example.com/"
+msgstr ""
+
+msgid "http://example.com/image.png"
+msgstr ""
+
+msgid "http://example.com/my-image.jpg"
+msgstr ""
+
+msgid "id not in data"
+msgstr ""
+
+#, python-format
+msgid "is a child of %s"
+msgstr ""
+
+#, python-format
+msgid "is a dependency of %s"
+msgstr ""
+
+#, python-format
+msgid "is a parent of %s"
+msgstr ""
+
+msgid "is currently logged in"
+msgstr ""
+
+#, python-format
+msgid "is linked from %s"
+msgstr ""
+
+msgid "joe@example.com"
+msgstr ""
+
+#, python-format
+msgid "links to %s"
+msgstr ""
+
+msgid "logout"
+msgstr ""
+
+msgid "my-group"
+msgstr ""
+
+msgid "my-organization"
+msgstr ""
+
+msgid "no ratings yet"
+msgstr ""
+
+msgid "no-sidebar"
+msgstr ""
+
+msgid "not"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "or download a"
+msgstr ""
+
+msgid "read from"
+msgstr ""
+
+msgid "read more"
+msgstr ""
+
+msgid "refrain"
+msgstr ""
+
+msgid "related items found"
+msgstr ""
+
+msgid "results for tags."
+msgstr ""
+
+msgid "results for ‘"
+msgstr ""
+
+msgid "role does not exist."
+msgstr ""
+
+msgid "show less"
+msgstr ""
+
+msgid "show more"
+msgstr ""
+
+msgid ""
+"that you can \n"
+"            browse, learn about and download."
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "unknown user:"
+msgstr ""
+
+msgid "v"
+msgstr ""
+
+msgid "when viewing the dataset."
+msgstr ""
+
+msgid "with value"
+msgstr ""
+
+msgid "x"
+msgstr ""
+
+msgid "{0} not found"
+msgstr ""
+
+msgid "{actor} added the extra {extra} to the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} added the resource {resource} to the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} added the tag {tag} to the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} added the {related_type} {related_item}"
+msgstr ""
+
+msgid ""
+"{actor} added the {related_type} {related_item} to the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} changed the extra {extra} of the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} created the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} created the group {group}"
+msgstr ""
+
+msgid "{actor} created the organization {organization}"
+msgstr ""
+
+msgid "{actor} deleted the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} deleted the extra {extra} from the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} deleted the group {group}"
+msgstr ""
+
+msgid "{actor} deleted the organization {organization}"
+msgstr ""
+
+msgid "{actor} deleted the related item {related_item}"
+msgstr ""
+
+msgid "{actor} deleted the resource {resource} from the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} removed the tag {tag} from the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} signed up"
+msgstr ""
+
+msgid "{actor} started following {dataset}"
+msgstr ""
+
+msgid "{actor} started following {group}"
+msgstr ""
+
+msgid "{actor} started following {user}"
+msgstr ""
+
+msgid "{actor} updated the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} updated the group {group}"
+msgstr ""
+
+msgid "{actor} updated the organization {organization}"
+msgstr ""
+
+msgid "{actor} updated the resource {resource} in the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} updated the {related_type} {related_item}"
+msgstr ""
+
+msgid ""
+"{actor} updated the {related_type} {related_item} of the dataset {dataset}"
+msgstr ""
+
+msgid "{actor} updated their profile"
+msgstr ""
+
+msgid "{bytes} bytes"
+msgstr ""
+
+msgid "{days} day ago{days} days ago"
+msgstr ""
+
+msgid "{e}E"
+msgstr ""
+
+msgid "{gibibytes} GiB"
+msgstr ""
+
+msgid "{g}G"
+msgstr ""
+
+msgid "{hours} hour ago{hours} hours ago"
+msgstr ""
+
+msgid "{kibibytes} KiB"
+msgstr ""
+
+msgid "{k}k"
+msgstr ""
+
+msgid "{mebibytes} MiB"
+msgstr ""
+
+msgid "{mins} minute ago{mins} minutes ago"
+msgstr ""
+
+msgid "{month} {day}, {year}"
+msgstr ""
+
+msgid "{m}M"
+msgstr ""
+
+msgid ""
+"{number} dataset found for \"{query}\"{number} datasets found for \"{query}\""
+msgstr ""
+
+msgid "{number} dataset found{number} datasets found"
+msgstr ""
+
+msgid ""
+"{number} group found for \"{query}\"{number} groups found for \"{query}\""
+msgstr ""
+
+msgid "{number} group found{number} groups found"
+msgstr ""
+
+msgid ""
+"{number} organization found for \"{query}\"{number} organizations found for "
+"\"{query}\""
+msgstr ""
+
+msgid "{number} organization found{number} organizations found"
+msgstr ""
+
+msgid "{number} recent view{number} recent views"
+msgstr ""
+
+msgid "{number} view{number} views"
+msgstr ""
+
+msgid "{num} Dataset{num} Datasets"
+msgstr ""
+
+msgid "{n}"
+msgstr ""
+
+msgid "{p}P"
+msgstr ""
+
+msgid "{tebibytes} TiB"
+msgstr ""
+
+msgid "{t}T"
+msgstr ""
+
+msgid "{y}Y"
+msgstr ""
+
+msgid "{z}Z"
+msgstr ""
+
+msgid ""
+"–\n"
+"    rate it now"
+msgstr ""
+
+msgid "– Note: your API key is visible only to you!"
+msgstr ""

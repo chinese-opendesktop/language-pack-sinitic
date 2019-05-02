@@ -1,0 +1,1014 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " and _name:"
+msgstr ""
+
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#. interface name is max 15 chars
+msgid "(automatic)"
+msgstr ""
+
+msgid ""
+"<i>Select this option if your organization requires the use of a proxy "
+"server to access the Internet.</i>"
+msgstr ""
+
+msgid "A password is required."
+msgstr ""
+
+msgid "A private key password is required."
+msgstr ""
+
+msgid "A username and password are required."
+msgstr ""
+
+msgid "A username is required."
+msgstr ""
+
+msgid "Accept authenticated packets from any address (F_loat)"
+msgstr ""
+
+msgid "Ad_vanced…"
+msgstr ""
+
+msgid ""
+"Add an additional layer of HMAC authentication on top of the TLS control "
+"channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+"control channel is also encrypted.\n"
+"config: tls-auth <file> [direction] | tls-crypt <file>"
+msgstr ""
+
+msgid "Add an additional layer of encryption or HMAC authentication."
+msgstr ""
+
+msgid "Additional TLS authentication or encryption"
+msgstr ""
+
+msgid ""
+"Allow remote peer to change its IP address and/or port number, such as due "
+"to DHCP (this is the default if --remote is not used). --float when "
+"specified with --remote allows an OpenVPN session to initially connect to a "
+"peer at a known address, however if packets arrive from a new address and "
+"pass all authentication tests, the new address will take control of the "
+"session. This is useful when you are connecting to a peer which holds a "
+"dynamic address such as a dial-in user or DHCP client.\n"
+"\n"
+"Essentially, --float tells OpenVPN to accept authenticated packets from any "
+"address, not only the address which was specified in the --remote option.\n"
+"\n"
+"config: float"
+msgstr ""
+
+msgid "An HTTP Proxy password is required."
+msgstr ""
+
+msgid "An HTTP Proxy username and password are required."
+msgstr ""
+
+msgid "An HTTP Proxy username is required."
+msgstr ""
+
+msgid "Authenticate VPN"
+msgstr ""
+
+#, c-format
+msgid "Authenticate VPN %s"
+msgstr ""
+
+msgid ""
+"Authenticate packets with HMAC using message digest algorithm. The default "
+"is SHA1.\n"
+"config: auth"
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid ""
+"Build a tun link capable of forwarding IPv6 traffic\n"
+"config: tun-ipv6"
+msgstr ""
+
+msgid "CA"
+msgstr ""
+
+msgid "Certificate pass_word:"
+msgstr ""
+
+msgid "Certificate password:"
+msgstr ""
+
+msgid "Certificates (TLS)"
+msgstr ""
+
+msgid ""
+"Check peer certificate against the specified file in PEM format. A CRL "
+"(certificate revocation list) is used when a particular key is compromised "
+"but when the overall PKI is still intact."
+msgstr ""
+
+msgid ""
+"Check peer certificate by looking at files in the specified directory. The "
+"directory must contain files named as revoked serial numbers (the files may "
+"be empty, the contents are never read)."
+msgstr ""
+
+msgid "Choose CRL directory"
+msgstr ""
+
+msgid "Choose CRL file"
+msgstr ""
+
+msgid "Choose an OpenVPN static key…"
+msgstr ""
+
+msgid "Ci_pher:"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Client for OpenVPN virtual private networks"
+msgstr ""
+
+msgid "Compatible with the OpenVPN server."
+msgstr ""
+
+msgid "Connect timeout"
+msgstr ""
+
+msgid ""
+"Connect to remote host through a proxy with this address.\n"
+"config: http-proxy or socks-proxy"
+msgstr ""
+
+msgid ""
+"Connect to remote host through a proxy with this port.\n"
+"config: http-proxy or socks-proxy"
+msgstr ""
+
+msgid "Could not find the openvpn binary."
+msgstr ""
+
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid ""
+"Direction for Static Key encryption mode (non-TLS).\n"
+"If key direction is used, it must be the opposite of that used on the VPN "
+"peer. For example, if the peer uses “1”, this connection must use “0”. If "
+"you are unsure what value to use, contact your system administrator.\n"
+"config: static <file> [direction]"
+msgstr ""
+
+msgid ""
+"Direction parameter for static key mode.\n"
+"If key direction is used, it must be the opposite of that used on the VPN "
+"peer. For example, if the peer uses “1”, this connection must use “0”. If "
+"you are unsure what value to use, contact your system administrator.\n"
+"config: tls-auth <file> [direction]"
+msgstr ""
+
+msgid "Disable cipher _negotiation"
+msgstr ""
+
+msgid ""
+"Disable cipher negotiation between client and server.\n"
+"config: ncp-disable"
+msgstr ""
+
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+msgid "Don’t verify certificate identification"
+msgstr ""
+
+msgid ""
+"Enable internal datagram fragmentation with this maximum size.\n"
+"config: fragment"
+msgstr ""
+
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+msgid ""
+"Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+"Cipher Block Chaining mode).\n"
+"config: cipher"
+msgstr ""
+
+msgid ""
+"Exit or restart after n seconds pass without reception of a ping or other "
+"packet from remote.\n"
+"config: ping-exit | ping-restart <n>"
+msgstr ""
+
+msgid ""
+"Explicitly set virtual device type (TUN/TAP).\n"
+"config: dev-type tun | tap"
+msgstr ""
+
+msgid "Explicitly set virtual device type and name (TUN/TAP)."
+msgstr ""
+
+msgid "Extra Certificates:"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+#, c-format
+msgid "Group “%s” not found, check NM_OPENVPN_GROUP."
+msgstr ""
+
+msgid "HTTP"
+msgstr ""
+
+msgid "HTTP proxy password:"
+msgstr ""
+
+msgid "HTTP/Socks proxy password passed to OpenVPN when prompted for it."
+msgstr ""
+
+msgid "HTTP/Socks proxy username passed to OpenVPN when prompted for it."
+msgstr ""
+
+msgid ""
+"IP address of the local VPN endpoint.\n"
+"config: ifconfig <l> <rn>"
+msgstr ""
+
+msgid ""
+"IP address of the remote VPN endpoint.\n"
+"config: ifconfig <l> <rn>"
+msgstr ""
+
+msgid "IPv6 tun link"
+msgstr ""
+
+#, c-format
+msgid "Invalid TUN MTU size “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid configuration with tls-remote and verify-x509-name."
+msgstr ""
+
+#, c-format
+msgid "Invalid connect timeout “%s”."
+msgstr ""
+
+msgid "Invalid connection type."
+msgstr ""
+
+#, c-format
+msgid "Invalid fragment size “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid keysize “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid max-routes argument “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid ping duration “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid ping-exit duration “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid ping-restart duration “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid port number “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid proto “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid proxy type “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid reneg seconds “%s”."
+msgstr ""
+
+#, c-format
+msgid "Invalid verify-x509-name."
+msgstr ""
+
+msgid "Key Direction:"
+msgstr ""
+
+msgid "Key _Direction:"
+msgstr ""
+
+msgid "Key _File:"
+msgstr ""
+
+msgid "Local IP Address:"
+msgstr ""
+
+msgid "MD-5"
+msgstr ""
+
+msgid "Maybe"
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "Mode:"
+msgstr ""
+
+msgid "No VPN configuration options."
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Not required"
+msgstr ""
+
+msgid "OpenVPN"
+msgstr ""
+
+msgid "OpenVPN Advanced Options"
+msgstr ""
+
+msgid "OpenVPN Static Keys (*.key)"
+msgstr ""
+
+msgid "OpenVPN client"
+msgstr ""
+
+msgid "OpenVPN is a popular and flexible free-software VPN solution."
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid ""
+"Password passed to OpenVPN when prompted for it.\n"
+"config: auth-user-pass"
+msgstr ""
+
+msgid "Password with Certificates (TLS)"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Path mtu discovery"
+msgstr ""
+
+msgid ""
+"Ping remote over the TCP/UDP control channel if no packets have been sent "
+"for at least n seconds.\n"
+"config: ping <n>"
+msgstr ""
+
+msgid ""
+"Pre-shared file for Static Key encryption mode (non-TLS).\n"
+"config: static <file>"
+msgstr ""
+
+msgid "Proxies"
+msgstr ""
+
+msgid "Proxy Passwor_d:"
+msgstr ""
+
+msgid "Proxy _Type:"
+msgstr ""
+
+msgid "Proxy _Username:"
+msgstr ""
+
+msgid ""
+"Proxy type: HTTP or Socks.\n"
+"config: http-proxy or socks-proxy"
+msgstr ""
+
+msgid "RIPEMD-160"
+msgstr ""
+
+msgid "RSA MD-4"
+msgstr ""
+
+msgid "Rando_mize remote hosts"
+msgstr ""
+
+msgid ""
+"Randomize the order of gateways list (remote) as a kind of basic load-"
+"balancing measure.\n"
+"config: remote-random"
+msgstr ""
+
+msgid "Remote IP Address:"
+msgstr ""
+
+msgid ""
+"Remote gateway(s), with optional port and protocol (e.g. ovpn.corp.com:1234:"
+"tcp). You can specify multiple hosts for redundancy (use commas or spaces as "
+"delimiters).\n"
+"config: remote"
+msgstr ""
+
+msgid ""
+"Renegotiate data channel key after the specified number of seconds.\n"
+"config: reneg-sec"
+msgstr ""
+
+msgid ""
+"Require that peer certificate was signed with an explicit key usage and "
+"extended key usage based on RFC3280 TLS rules."
+msgstr ""
+
+msgid ""
+"Require that peer certificate was signed with an explicit key usage and "
+"extended key usage based on RFC3280 TLS rules.\n"
+"config: remote-cert-tls client|server"
+msgstr ""
+
+msgid ""
+"Require that peer certificate was signed with an explicit nsCertType "
+"designation."
+msgstr ""
+
+msgid ""
+"Require that peer certificate was signed with an explicit nsCertType "
+"designation.\n"
+"config: ns-cert-type client|server"
+msgstr ""
+
+msgid ""
+"Restrict tunnel TCP MSS.\n"
+"config: mssfix"
+msgstr ""
+
+msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+msgstr ""
+
+msgid ""
+"Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+"config: http-proxy-retry or socks-proxy-retry"
+msgstr ""
+
+msgid "SHA-1"
+msgstr ""
+
+msgid "SHA-224"
+msgstr ""
+
+msgid "SHA-256"
+msgstr ""
+
+msgid "SHA-384"
+msgstr ""
+
+msgid "SHA-512"
+msgstr ""
+
+msgid "SOCKS"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Select an authentication mode."
+msgstr ""
+
+msgid ""
+"Select the LZO data compression mode.\n"
+"config: comp-lzo"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Server _Address:"
+msgstr ""
+
+msgid "Server _Certificate Check:"
+msgstr ""
+
+msgid ""
+"Set cipher key size to a custom value. If unspecified, it defaults to cipher-"
+"specific size.\n"
+"config: keysize <n>"
+msgstr ""
+
+msgid "Set virtual _device type:"
+msgstr ""
+
+msgid "Specify _exit or restart ping:"
+msgstr ""
+
+msgid ""
+"Specify a file containing one or more PEM certs (concatenated together) that "
+"complete the local certificate chain.\n"
+"config: extra-certs <file>"
+msgstr ""
+
+msgid "Specify max routes:"
+msgstr ""
+
+msgid "Specify pin_g interval:"
+msgstr ""
+
+msgid ""
+"Specify the maximum number of routes the server is allowed to specify.\n"
+"config: max-routes <n>"
+msgstr ""
+
+msgid "Static Key"
+msgstr ""
+
+msgid "Static Key:"
+msgstr ""
+
+msgid ""
+"Subject or Common Name to verify server certificate information against.\n"
+"\n"
+"config: verify-x509-name subject-or-name [mode]\n"
+"config (legacy mode): tls-remote subject-or-name"
+msgstr ""
+
+msgid "Support for configuring OpenVPN virtual private network connections."
+msgstr ""
+
+msgid "TAP"
+msgstr ""
+
+msgid ""
+"TCP/UDP port number for peer. (Default value when there is no port for "
+"gateway).\n"
+"config: port"
+msgstr ""
+
+msgid "TLS Authentication"
+msgstr ""
+
+msgid "TLS-Auth"
+msgstr ""
+
+msgid "TLS-Crypt"
+msgstr ""
+
+msgid "TUN"
+msgstr ""
+
+msgid ""
+"Take the TUN device MTU to be the specified value and derive the link MTU "
+"from it.\n"
+"config: tun-mtu"
+msgstr ""
+
+msgid "The NetworkManager Developers"
+msgstr ""
+
+msgid "The file to import wasn’t a valid OpenVPN client configuration"
+msgstr ""
+
+msgid "The file to import wasn’t a valid OpenVPN configure (no remote)"
+msgstr ""
+
+msgid ""
+"The timeout in seconds before trying the next server. This timeout includes "
+"proxy and TCP connect timeouts.\n"
+"config: connect-timeout <n> | server-poll-timeout <n>"
+msgstr ""
+
+msgid "Type:"
+msgstr ""
+
+msgid "Unhandled pending authentication."
+msgstr ""
+
+#, c-format
+msgid "Unknown connection type “%s”."
+msgstr ""
+
+msgid "Use L_ZO data compression"
+msgstr ""
+
+msgid ""
+"Use TCP for communicating with remote host.\n"
+"(This is a default setting only used when no protocol is specified for the "
+"gateway.)\n"
+"config: proto tcp-client | udp"
+msgstr ""
+
+msgid "Use a _TCP connection"
+msgstr ""
+
+msgid "Use custom UDP _fragment size:"
+msgstr ""
+
+msgid "Use custom _renegotiation interval:"
+msgstr ""
+
+msgid "Use custom _size of cipher key:"
+msgstr ""
+
+msgid "Use custom gateway p_ort:"
+msgstr ""
+
+msgid ""
+"Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+"“tap”).\n"
+"config: dev <name>"
+msgstr ""
+
+msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+msgstr ""
+
+msgid ""
+"Use fast LZO compression.\n"
+"config: comp-lzo"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "User name:"
+msgstr ""
+
+#, c-format
+msgid "User “%s” not found, check NM_OPENVPN_USER."
+msgstr ""
+
+msgid ""
+"Username passed to OpenVPN when prompted for it. If omitted, use the name of "
+"the system user that activates the connection.\n"
+"config: auth-user-pass"
+msgstr ""
+
+msgid "Verify CRL from directory"
+msgstr ""
+
+msgid "Verify CRL from file"
+msgstr ""
+
+msgid "Verify name by prefix"
+msgstr ""
+
+msgid "Verify name exactly"
+msgstr ""
+
+msgid ""
+"Verify server certificate identification.\n"
+"\n"
+"When enabled, connection will only succeed if the server certificate matches "
+"some expected properties.\n"
+"Matching can either apply to the whole certificate subject (all the "
+"fields),\n"
+"or just the Common Name (CN field).\n"
+"\n"
+"The legacy option tls-remote is deprecated and removed from OpenVPN 2.4 and "
+"newer. Do not use it anymore.\n"
+"\n"
+"config: verify-x509-name subject-or-name [mode]\n"
+"config (legacy mode): tls-remote subject-or-name"
+msgstr ""
+
+msgid "Verify subject partially (legacy mode, strongly discouraged)"
+msgstr ""
+
+msgid "Verify whole subject exactly"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network “%s”."
+msgstr ""
+
+msgid "_Gateway:"
+msgstr ""
+
+msgid "_HMAC Authentication:"
+msgstr ""
+
+msgid "_HTTP proxy password:"
+msgstr ""
+
+msgid "_Port:"
+msgstr ""
+
+msgid "_Remote peer certificate TLS type:"
+msgstr ""
+
+msgid "_Remote peer certificate nsCert designation:"
+msgstr ""
+
+msgid "_Retry indefinitely when errors occur"
+msgstr ""
+
+msgid "_Show password"
+msgstr ""
+
+msgid "_Subject Match:"
+msgstr ""
+
+msgid "_Verify peer (server) certificate nsCertType designation"
+msgstr ""
+
+msgid "_Verify peer (server) certificate usage signature"
+msgstr ""
+
+#, c-format
+msgid "argument %s of “%s” can not be empty"
+msgstr ""
+
+#, c-format
+msgid "argument %s of “%s” must be UTF-8 encoded"
+msgstr ""
+
+#, c-format
+msgid "argument of “%s” can not be empty"
+msgstr ""
+
+#, c-format
+msgid "argument of “%s” must be UTF-8 encoded"
+msgstr ""
+
+#, c-format
+msgid "cannot create “%s” directory"
+msgstr ""
+
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#, c-format
+msgid "cannot read user/password from HTTP proxy auth file"
+msgstr ""
+
+#, c-format
+msgid "cannot write <%s> blob from line %ld to file (%s)"
+msgstr ""
+
+#, c-format
+msgid "cannot write <%s> blob from line %ld to file “%s”"
+msgstr ""
+
+#, c-format
+msgid "configuration error: %s (line %ld)"
+msgstr ""
+
+msgid "connection is not a valid OpenVPN connection"
+msgstr ""
+
+msgid "connection was incomplete (missing gateway)"
+msgstr ""
+
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+msgid "could not load UI widget"
+msgstr ""
+
+msgid "double quote"
+msgstr ""
+
+#, c-format
+msgid "empty host"
+msgstr ""
+
+#, c-format
+msgid "failed to write file: %s"
+msgstr ""
+
+#, c-format
+msgid "invalid %uth argument to “%s”"
+msgstr ""
+
+#, c-format
+msgid "invalid %uth argument to “%s” where IPv4 address expected"
+msgstr ""
+
+#, c-format
+msgid "invalid %uth argument to “%s” where number expected"
+msgstr ""
+
+#, c-format
+msgid "invalid %uth key-direction argument to “%s”"
+msgstr ""
+
+#, c-format
+msgid "invalid address “%s”"
+msgstr ""
+
+#. Translators: keep "yes" and "no" untranslated!
+#, c-format
+msgid "invalid boolean property “%s” (not yes or no)"
+msgstr ""
+
+#, c-format
+msgid "invalid delimiter character '%c'"
+msgstr ""
+
+#, c-format
+msgid "invalid integer property “%s” or out of range [%d -> %d]"
+msgstr ""
+
+#, c-format
+msgid "invalid non-utf-8 character"
+msgstr ""
+
+#, c-format
+msgid "invalid option"
+msgstr ""
+
+#, c-format
+msgid "invalid port"
+msgstr ""
+
+#, c-format
+msgid "invalid protocol"
+msgstr ""
+
+#, c-format
+msgid "invalid verify-x509-name type"
+msgstr ""
+
+msgid "missing path argument"
+msgstr ""
+
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+msgid ""
+"nm-openvpn-service provides integrated OpenVPN capability to NetworkManager."
+msgstr ""
+
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#, c-format
+msgid ""
+"option %s expects between %u and %u argumentoption %s expects between %u and "
+"%u arguments"
+msgstr ""
+
+#, c-format
+msgid ""
+"option %s expects exactly one argumentoption %s expects exactly %u arguments"
+msgstr ""
+
+#, c-format
+msgid "option %s expects no arguments"
+msgstr ""
+
+msgid "ping-exit"
+msgstr ""
+
+msgid "ping-restart"
+msgstr ""
+
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#, c-format
+msgid "property “%s” invalid or not supported"
+msgstr ""
+
+#, c-format
+msgid "remote cannot contain comma"
+msgstr ""
+
+#, c-format
+msgid "remote cannot contain space"
+msgstr ""
+
+#, c-format
+msgid "remote expects protocol type like “udp” or “tcp”"
+msgstr ""
+
+msgid "single quote"
+msgstr ""
+
+#, c-format
+msgid "trailing escaping backslash at position %lld"
+msgstr ""
+
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#, c-format
+msgid "unable to read HTTP proxy auth file"
+msgstr ""
+
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#, c-format
+msgid "unhandled property “%s” type %s"
+msgstr ""
+
+msgid "unknown error creating editor instance"
+msgstr ""
+
+msgid "unknown or unsupported option"
+msgstr ""
+
+#. we don't support these special destinations, as they currently cannot be expressed
+#. * in a connection.
+#, c-format
+msgid "unsupported %uth argument %s to “%s”"
+msgstr ""
+
+#. we also don't support specifing a FQDN.
+#, c-format
+msgid ""
+"unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+"address supported"
+msgstr ""
+
+#, c-format
+msgid "unsupported blob/xml element"
+msgstr ""
+
+#, c-format
+msgid "unsupported comp-lzo argument"
+msgstr ""
+
+#, c-format
+msgid "unsupported crl-verify argument"
+msgstr ""
+
+#, c-format
+msgid "unsupported mtu-disc argument"
+msgstr ""
+
+#, c-format
+msgid "unterminated %s at position %lld"
+msgstr ""
+
+#, c-format
+msgid "unterminated blob element <%s>"
+msgstr ""
+
+#, c-format
+msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+msgstr ""
+
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#, c-format
+msgid "“%s” is not a directory"
+msgstr ""

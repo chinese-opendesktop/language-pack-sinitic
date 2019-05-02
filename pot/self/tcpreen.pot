@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Remi Denis-Courmont
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: tcpreen 1.4.4\n"
+"Report-Msgid-Bugs-To: tcpreen-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2007-12-19 23:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/main.cpp:72
+msgid ""
+"Usage: tcpreen [OPTION]... SERVER_PORT [LOCAL_PORT]\n"
+"Establishes a bridge between two TCP ports then monitors TCP sessions.\n"
+"\n"
+"  -a, --bind     listen for connections on the following address\n"
+"  -b, --bytes    limit maximum sessions length in bytes; e.g.: -b 1024\n"
+"  -c, --connect  connect to the client instead of listening for it\n"
+"  -d, --daemon   run in the background\n"
+"  -f, --format   selects log file(s) output format\n"
+"  -F, --fork     specify number of client processes to spawn\n"
+"  -h, --help     display this help and exit\n"
+"  -l, --listen   listen for the server instead of connecting to it\n"
+"  -m, --maxconn  limit number of monitored connections (faster)\n"
+"  -n, --numeric  disable reverse DNS lookup\n"
+"  -o, --output   open a log file; e.g.: -o mylog.txt\n"
+"  -p, --protocol use the following protocol for connections\n"
+"  -q, --quiet    do not write to stdout\n"
+"  -s, --server   connect to this host (local host by default)\n"
+"  -u, --user     specify an unprivilieged username to be used\n"
+"  -v, --verbose  increase verbosity - cumulative\n"
+"  -V, --version  display program version and exit\n"
+msgstr ""
+
+#: src/main.cpp:100
+#, c-format
+msgid "Report any bug to: <%s>.\n"
+msgstr ""
+
+#: src/main.cpp:115
+msgid ""
+"This is free software; see the source for copying conditions.\n"
+"There is NO warranty; not even for MERCHANTABILITY or\n"
+"FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+
+#: src/main.cpp:118
+#, c-format
+msgid ""
+"Written by %s.\n"
+"Configured with: %s\n"
+msgstr ""
+
+#: src/main.cpp:127
+msgid "Try \"tcpreeen -h | more\" for more information.\n"
+msgstr ""
+
+#: src/main.cpp:147
+msgid "invalid number (or capacity exceeded)"
+msgstr ""
+
+#: src/main.cpp:154
+msgid "unexpected extra parameter"
+msgstr ""
+
+#: src/main.cpp:245
+msgid "Unrecognized log format"
+msgstr ""
+
+#: src/main.cpp:292 src/main.cpp:359 src/tcpreen.cpp:94
+msgid "Fatal error"
+msgstr ""
+
+#: src/main.cpp:301
+msgid "unknown or unsupported protocol(s)"
+msgstr ""
+
+#: src/main.cpp:315
+msgid "only root can select an user"
+msgstr ""
+
+#: src/main.cpp:320
+msgid "invalid user"
+msgstr ""
+
+#: src/main.cpp:369
+msgid "no server port specified"
+msgstr ""
+
+#: src/main.cpp:372
+msgid "no client port specified with -c option"
+msgstr ""
+
+#: src/main.cpp:375
+msgid "dynamically allocated port but nowhere to tell you which one"
+msgstr ""
+
+#: src/main.cpp:458
+msgid "starting\n"
+msgstr ""
+
+#: src/main.cpp:465
+msgid "stopping\n"
+msgstr ""
+
+#: src/proto.cpp:124
+msgid "List of available protocols:"
+msgstr ""
+
+#: src/format.cpp:77
+msgid "List of available log formats:"
+msgstr ""
+
+#: src/tcpreen.cpp:102
+#, c-format
+msgid "%s port %s: %s\n"
+msgstr ""
+
+#: src/tcpreen.cpp:105
+#, c-format
+msgid "port %s: %s\n"
+msgstr ""
+
+#: src/tcpreen.cpp:157
+#, c-format
+msgid "Listening on: %s port %s\n"
+msgstr ""
+
+#: src/tcpreen.cpp:211
+#, c-format
+msgid "Child %d returned an error (%d)\n"
+msgstr ""
+
+#: src/tcpreen.cpp:220
+#, c-format
+msgid "Child %d killed by signal %d (%s)\n"
+msgstr ""
+
+#: src/tcpreen.cpp:314
+msgid "UID setting"
+msgstr ""
+
+#: src/tcpreen.cpp:322
+msgid "Background mode"
+msgstr ""
+
+#: src/tcpreen.cpp:351
+msgid "Process creation"
+msgstr ""
+
+#: src/tcpreen.cpp:405 logs/basiclog.cpp:45
+#, c-format
+msgid "Connection from: %s port %s\n"
+msgstr ""
+
+#: src/tcpreen.cpp:441 logs/basiclog.cpp:46
+#, c-format
+msgid "Connection to: %s port %s\n"
+msgstr ""
+
+#: src/tcpreen.cpp:455
+msgid "Log file error"
+msgstr ""
+
+#: src/tcpreen.cpp:483 src/tcpreen.cpp:486
+msgid "Caught signal"
+msgstr ""
+
+#: logs/output.c:36 logs/output.c:188
+msgid "byte"
+msgid_plural "bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: logs/basiclog.cpp:36
+msgid "End of transmission.\n"
+msgstr ""
+
+#: logs/basiclog.cpp:47
+msgid "Transmission follows...\n"
+msgstr ""
+
+#: logs/basiclog.cpp:96
+msgid "End of output"
+msgstr ""
+
+#: logs/basiclog.cpp:98
+#, c-format
+msgid ": %ld byte sent.\n"
+msgid_plural ": %ld bytes sent.\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: logs/basiclog.cpp:108
+msgid "End of input"
+msgstr ""
+
+#: logs/basiclog.cpp:110
+#, c-format
+msgid ": %ld byte received.\n"
+msgid_plural ": %ld bytes received.\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libsolve/sockprot.cpp:73
+msgid "unknown_node"
+msgstr ""
+
+#: libsolve/sockprot.cpp:74
+msgid "unknown_service"
+msgstr ""

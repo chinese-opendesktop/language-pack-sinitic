@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-08-09 18:21-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mf.c:89 maildir-filter.c:89 maildir-filter.c:94
+#, c-format
+msgid "Unkown option: %c\n"
+msgstr ""
+
+#: mf.c:109 maildir-filter.c:109 maildir-filter.c:114
+#, c-format
+msgid "%s: OOM: %s\n"
+msgstr ""
+
+#: mf.c:115 maildir-filter.c:115 maildir-filter.c:120
+#, c-format
+msgid "Error compiling regexp: '%s' at character %i\n"
+msgstr ""
+
+#: mf.c:140 maildir-filter.c:140 maildir-filter.c:145
+msgid "we got a match at line"
+msgstr ""
+
+#: mf.c:142 maildir-filter.c:142 maildir-filter.c:147
+#, c-format
+msgid " bouncing\n"
+msgstr ""
+
+#: mf.c:144 maildir-filter.c:144 maildir-filter.c:149
+#, c-format
+msgid " delivering to %s. %lu bytes\n"
+msgstr ""
+
+#: mf.c:150 maildir-filter.c:150 maildir-filter.c:155
+#, c-format
+msgid "Unexpect error matching string: %i\n"
+msgstr ""
+
+#: mf.c:177 maildir-filter.c:178 maildir-filter.c:185
+#, c-format
+msgid "Incorrect usage\n"
+msgstr ""
+
+#: mf.c:178 maildir-filter.c:179 maildir-filter.c:186
+#, c-format
+msgid ""
+"%s -r <regexp> [-d ./Maildir/.folder | -b] [-D] [-p] [-i] [-V] [-n] [-H]\n"
+msgstr ""
+
+#: mf.c:179 maildir-filter.c:180 maildir-filter.c:187
+#, c-format
+msgid "\t-b\tbounce if matches\n"
+msgstr ""
+
+#: mf.c:180 maildir-filter.c:181 maildir-filter.c:188
+#, c-format
+msgid "\t-D\tturn on a few debug messages\n"
+msgstr ""
+
+#: mf.c:181 maildir-filter.c:182 maildir-filter.c:189
+#, c-format
+msgid "\t-p\tprint message to stdout\n"
+msgstr ""
+
+#: mf.c:182 maildir-filter.c:183 maildir-filter.c:190
+#, c-format
+msgid "\t-i\tcase insensitive match (m//i)\n"
+msgstr ""
+
+#: mf.c:183 maildir-filter.c:184 maildir-filter.c:191
+#, c-format
+msgid "\t-V\tprint version and exit\n"
+msgstr ""
+
+#: mf.c:184 maildir-filter.c:185 maildir-filter.c:192
+#, c-format
+msgid "\t-n\tnegate regexp. (!~ m//)\n"
+msgstr ""
+
+#: mf.c:185 maildir-filter.c:186 maildir-filter.c:194
+#, c-format
+msgid "\t-H\tmatch headers only\n"
+msgstr ""
+
+#: maildir-filter.c:193
+#, c-format
+msgid "\t-k\tkill message (delete)\n"
+msgstr ""

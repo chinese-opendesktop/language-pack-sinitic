@@ -1,0 +1,598 @@
+# ClamTk language file, 5.24
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ClamTk package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-11 02:42-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/Analysis.pm:49 lib/GUI.pm:525 lib/GUI.pm:608 lib/GUI.pm:749
+#: lib/Results.pm:136 lib/Results.pm:209
+msgid "Analysis"
+msgstr ""
+
+#: lib/Analysis.pm:72
+msgid "File Analysis"
+msgstr ""
+
+#: lib/Analysis.pm:79 lib/Results.pm:35
+msgid "Results"
+msgstr ""
+
+#: lib/Analysis.pm:143
+msgid "Vendor"
+msgstr ""
+
+#: lib/Analysis.pm:152
+msgid "Date"
+msgstr ""
+
+#: lib/Analysis.pm:161
+msgid "Result"
+msgstr ""
+
+#: lib/Analysis.pm:180
+msgid "Save results"
+msgstr ""
+
+#: lib/Analysis.pm:196
+msgid "Check or recheck a file's reputation"
+msgstr ""
+
+#: lib/Analysis.pm:213 lib/GUI.pm:648 lib/Shortcuts.pm:40
+msgid "Select a file"
+msgstr ""
+
+#: lib/Analysis.pm:247
+msgid "Submit file for analysis"
+msgstr ""
+
+#: lib/Analysis.pm:268
+msgid "Uploaded files must be smaller than 32MB"
+msgstr ""
+
+#: lib/Analysis.pm:287
+msgid ""
+"No information exists for this file. Press OK to submit this file for "
+"analysis."
+msgstr ""
+
+#: lib/Analysis.pm:298 lib/Analysis.pm:618
+msgid "Unable to submit file: try again later"
+msgstr ""
+
+#: lib/Analysis.pm:310
+msgid "View or delete previous results"
+msgstr ""
+
+#: lib/Analysis.pm:336
+msgid "View file results"
+msgstr ""
+
+#: lib/Analysis.pm:398
+msgid "Delete file results"
+msgstr ""
+
+#: lib/Analysis.pm:471 lib/Analysis.pm:572 lib/Assistant.pm:103
+#: lib/Update.pm:156
+msgid "Please wait..."
+msgstr ""
+
+#: lib/Analysis.pm:616
+msgid "File successfully submitted for analysis."
+msgstr ""
+
+#: lib/Analysis.pm:676 lib/Analysis.pm:681
+msgid "Unable to save file"
+msgstr ""
+
+#: lib/Analysis.pm:690
+msgid "File has been saved"
+msgstr ""
+
+#: lib/App.pm:245
+msgid "Unknown"
+msgstr ""
+
+#: lib/App.pm:396 lib/Prefs.pm:172
+msgid "Never"
+msgstr ""
+
+#: lib/App.pm:454 clamtk-gnome.py:58
+msgid "Scan for threats..."
+msgstr ""
+
+#: lib/App.pm:455
+msgid "Advanced"
+msgstr ""
+
+#: lib/App.pm:456 lib/GUI.pm:499 lib/GUI.pm:500 lib/GUI.pm:611
+msgid "Scan a file"
+msgstr ""
+
+#: lib/App.pm:457 lib/GUI.pm:504 lib/GUI.pm:505 lib/GUI.pm:614
+msgid "Scan a directory"
+msgstr ""
+
+#: lib/App.pm:459
+msgid "ClamTk is a graphical front-end for Clam Antivirus"
+msgstr ""
+
+#: lib/Assistant.pm:37
+msgid "Please choose how you will update your antivirus signatures"
+msgstr ""
+
+#: lib/Assistant.pm:55
+msgid "My computer automatically receives updates"
+msgstr ""
+
+#: lib/Assistant.pm:70
+msgid "I would like to update signatures myself"
+msgstr ""
+
+#: lib/Assistant.pm:96 lib/Assistant.pm:154
+msgid "Press Apply to save changes"
+msgstr ""
+
+#: lib/Assistant.pm:126
+msgid "Your changes were saved."
+msgstr ""
+
+#: lib/Assistant.pm:129 lib/Update.pm:175 lib/Update.pm:181
+msgid "Error updating: try again later"
+msgstr ""
+
+#: lib/GUI.pm:54
+msgid "Virus Scanner"
+msgstr ""
+
+#: lib/GUI.pm:87
+msgid "ClamTk Virus Scanner"
+msgstr ""
+
+#: lib/GUI.pm:99 lib/GUI.pm:605
+msgid "Help"
+msgstr ""
+
+#: lib/GUI.pm:105 lib/GUI.pm:602 lib/Shortcuts.pm:28
+msgid "About"
+msgstr ""
+
+#: lib/GUI.pm:113
+msgid "Quit"
+msgstr ""
+
+#: lib/GUI.pm:160
+msgid "Updates are available"
+msgstr ""
+
+#: lib/GUI.pm:163
+msgid "The antivirus signatures are outdated"
+msgstr ""
+
+#: lib/GUI.pm:166
+msgid "An update is available"
+msgstr ""
+
+#: lib/GUI.pm:264 lib/GUI.pm:627
+msgid "Settings"
+msgstr ""
+
+#: lib/GUI.pm:265
+msgid "View and set your preferences"
+msgstr ""
+
+#: lib/GUI.pm:269 lib/GUI.pm:635
+msgid "Whitelist"
+msgstr ""
+
+#: lib/GUI.pm:270
+msgid "View or update scanning whitelist"
+msgstr ""
+
+#: lib/GUI.pm:274 lib/GUI.pm:633
+msgid "Network"
+msgstr ""
+
+#: lib/GUI.pm:275
+msgid "Edit proxy settings"
+msgstr ""
+
+#: lib/GUI.pm:279 lib/GUI.pm:617
+msgid "Scheduler"
+msgstr ""
+
+#: lib/GUI.pm:280
+msgid "Schedule a scan or signature update"
+msgstr ""
+
+#: lib/GUI.pm:349 lib/GUI.pm:629
+msgid "Update"
+msgstr ""
+
+#: lib/GUI.pm:350
+msgid "Update antivirus signatures"
+msgstr ""
+
+#: lib/GUI.pm:354 lib/GUI.pm:637
+msgid "Update Assistant"
+msgstr ""
+
+#: lib/GUI.pm:355
+msgid "Signature update preferences"
+msgstr ""
+
+#: lib/GUI.pm:423 lib/GUI.pm:625 lib/GUI.pm:737 lib/History.pm:38
+msgid "History"
+msgstr ""
+
+#: lib/GUI.pm:424
+msgid "View previous scans"
+msgstr ""
+
+#: lib/GUI.pm:428 lib/GUI.pm:631 lib/Results.pm:121 lib/Results.pm:194
+msgid "Quarantine"
+msgstr ""
+
+#: lib/GUI.pm:429
+msgid "Manage quarantined files"
+msgstr ""
+
+#: lib/GUI.pm:526
+msgid "View a file's reputation"
+msgstr ""
+
+#: lib/GUI.pm:671 lib/GUI.pm:709 lib/Scan.pm:740 lib/Scan.pm:751
+msgid "You do not have permissions to scan that file or directory"
+msgstr ""
+
+#: lib/GUI.pm:685 lib/Shortcuts.pm:46 lib/Whitelist.pm:96
+msgid "Select a directory"
+msgstr ""
+
+#: lib/GUI.pm:730
+msgid "Configuration"
+msgstr ""
+
+#: lib/GUI.pm:743
+msgid "Updates"
+msgstr ""
+
+#: lib/GUI.pm:811
+msgid "Please install yelp to view documentation"
+msgstr ""
+
+#: lib/GUI.pm:837
+msgid "Homepage"
+msgstr ""
+
+#: lib/History.pm:74
+msgid "View"
+msgstr ""
+
+#: lib/History.pm:144
+#, perl-format
+msgid "Viewing %s"
+msgstr ""
+
+#: lib/History.pm:160
+#, perl-format
+msgid "Problems opening %s..."
+msgstr ""
+
+#: lib/Network.pm:48
+msgid "No proxy"
+msgstr ""
+
+#: lib/Network.pm:54
+msgid "Environment settings"
+msgstr ""
+
+#: lib/Network.pm:60
+msgid "Set manually"
+msgstr ""
+
+#: lib/Network.pm:65
+msgid "IP address or host"
+msgstr ""
+
+#: lib/Network.pm:90
+msgid "Port"
+msgstr ""
+
+#: lib/Network.pm:271
+msgid "Settings saved"
+msgstr ""
+
+#: lib/Network.pm:275
+msgid "Error"
+msgstr ""
+
+#: lib/Quarantine.pm:53
+msgid "Number"
+msgstr ""
+
+#: lib/Quarantine.pm:61 lib/Results.pm:68
+msgid "File"
+msgstr ""
+
+#: lib/Quarantine.pm:74
+msgid "Restore"
+msgstr ""
+
+#: lib/Quarantine.pm:110 lib/Results.pm:259
+#, perl-format
+msgid "Really delete this file (%s) ?"
+msgstr ""
+
+#: lib/Quarantine.pm:171
+msgid "Save file as..."
+msgstr ""
+
+#: lib/Results.pm:79 lib/Schedule.pm:187
+msgid "Status"
+msgstr ""
+
+#: lib/Results.pm:90
+msgid "Action Taken"
+msgstr ""
+
+#: lib/Results.pm:127 lib/Results.pm:202
+msgid "Delete"
+msgstr ""
+
+#: lib/Results.pm:148
+msgid "Close"
+msgstr ""
+
+#: lib/Results.pm:197
+msgid "Quarantined"
+msgstr ""
+
+#: lib/Results.pm:205
+msgid "Deleted"
+msgstr ""
+
+#: lib/Scan.pm:134
+msgid "Preparing..."
+msgstr ""
+
+#: lib/Scan.pm:145 lib/Scan.pm:380
+#, perl-format
+msgid "Files scanned: %d"
+msgstr ""
+
+#: lib/Scan.pm:149 lib/Scan.pm:450
+#, perl-format
+msgid "Possible threats: %d"
+msgstr ""
+
+#: lib/Scan.pm:363
+#, perl-format
+msgid "Scanning %s..."
+msgstr ""
+
+#: lib/Scan.pm:448
+msgid "None"
+msgstr ""
+
+#: lib/Scan.pm:474
+msgid "Cleaning up..."
+msgstr ""
+
+#: lib/Scan.pm:483
+msgid "Scanning complete"
+msgstr ""
+
+#: lib/Scan.pm:485
+msgid "Possible threats found"
+msgstr ""
+
+#: lib/Scan.pm:527
+msgid "No threats found"
+msgstr ""
+
+#: lib/Scan.pm:564
+#, perl-format
+msgid "ClamAV Signatures: %d\n"
+msgstr ""
+
+#: lib/Scan.pm:566
+msgid "Directories Scanned:\n"
+msgstr ""
+
+#: lib/Scan.pm:571
+#, perl-format
+msgid ""
+"\n"
+"Found %d possible %s (%d %s scanned).\n"
+"\n"
+msgstr ""
+
+#: lib/Scan.pm:573
+msgid "threat"
+msgstr ""
+
+#: lib/Scan.pm:573
+msgid "threats"
+msgstr ""
+
+#: lib/Scan.pm:575
+msgid "file"
+msgstr ""
+
+#: lib/Scan.pm:575
+msgid "files"
+msgstr ""
+
+#: lib/Scan.pm:587
+msgid "No threats found.\n"
+msgstr ""
+
+#: lib/Schedule.pm:46
+msgid "Schedule"
+msgstr ""
+
+#: lib/Schedule.pm:63
+msgid "Scan"
+msgstr ""
+
+#: lib/Schedule.pm:69
+msgid "Select a time to scan your home directory"
+msgstr ""
+
+#: lib/Schedule.pm:73
+msgid "Set the scan time using a 24 hour clock"
+msgstr ""
+
+#: lib/Schedule.pm:83 lib/Schedule.pm:139
+msgid "Set the hour using a 24 hour clock"
+msgstr ""
+
+#: lib/Schedule.pm:84 lib/Schedule.pm:140
+msgid "Hour"
+msgstr ""
+
+#: lib/Schedule.pm:91 lib/Schedule.pm:146
+msgid "Minute"
+msgstr ""
+
+#: lib/Schedule.pm:122 lib/Update.pm:77 lib/Update.pm:201 lib/Update.pm:219
+msgid "Antivirus signatures"
+msgstr ""
+
+#: lib/Schedule.pm:129
+msgid "Select a time to update your signatures"
+msgstr ""
+
+#: lib/Schedule.pm:196 lib/Schedule.pm:258
+msgid "A daily scan is scheduled"
+msgstr ""
+
+#: lib/Schedule.pm:201 lib/Schedule.pm:271
+msgid "A daily definitions update is scheduled"
+msgstr ""
+
+#: lib/Schedule.pm:262
+msgid "A daily scan is not scheduled"
+msgstr ""
+
+#: lib/Schedule.pm:276
+msgid "A daily definitions update is not scheduled"
+msgstr ""
+
+#: lib/Schedule.pm:285
+msgid "You are set to automatically receive updates"
+msgstr ""
+
+#: lib/Settings.pm:42
+msgid "Scan for PUAs"
+msgstr ""
+
+#: lib/Settings.pm:45
+msgid "Detect packed binaries, password recovery tools, and more"
+msgstr ""
+
+#: lib/Settings.pm:58
+msgid "Scan files beginning with a dot (.*)"
+msgstr ""
+
+#: lib/Settings.pm:60
+msgid "Scan files typically hidden from view"
+msgstr ""
+
+#: lib/Settings.pm:73
+msgid "Scan files larger than 20 MB"
+msgstr ""
+
+#: lib/Settings.pm:76
+msgid "Scan large files which are typically not examined"
+msgstr ""
+
+#: lib/Settings.pm:89
+msgid "Scan directories recursively"
+msgstr ""
+
+#: lib/Settings.pm:92
+msgid "Scan all files and directories within a directory"
+msgstr ""
+
+#: lib/Settings.pm:105
+msgid "Check for updates to this program"
+msgstr ""
+
+#: lib/Settings.pm:108
+msgid "Check online for application and signature updates"
+msgstr ""
+
+#: lib/Settings.pm:121
+msgid "Double click icons to activate"
+msgstr ""
+
+#: lib/Settings.pm:124
+msgid "Uncheck this box to activate icons with single click"
+msgstr ""
+
+#: lib/Shortcuts.pm:34
+msgid "Exit"
+msgstr ""
+
+#: lib/Update.pm:57
+msgid "Product"
+msgstr ""
+
+#: lib/Update.pm:65
+msgid "Installed"
+msgstr ""
+
+#: lib/Update.pm:100
+msgid "You are configured to automatically receive updates"
+msgstr ""
+
+#: lib/Update.pm:102
+msgid "Check for updates"
+msgstr ""
+
+#: lib/Update.pm:193
+msgid "Downloading..."
+msgstr ""
+
+#: lib/Update.pm:223
+msgid "Complete"
+msgstr ""
+
+#: lib/Whitelist.pm:48
+msgid "Directory"
+msgstr ""
+
+#: lib/Whitelist.pm:71
+msgid "Add a directory"
+msgstr ""
+
+#: lib/Whitelist.pm:82
+msgid "Remove a directory"
+msgstr ""
+
+#: clamtk-gnome.py:59
+#, python-format
+msgid "Scan %s for threats..."
+msgstr ""
+
+#: clamtk-gnome.py:70
+msgid "Scan directory for threats..."
+msgstr ""
+
+#: clamtk-gnome.py:71
+msgid "Scan this directory for threats..."
+msgstr ""

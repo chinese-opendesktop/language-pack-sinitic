@@ -1,0 +1,872 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Ben Asselstine.
+# This file is distributed under the same license as the licenseutils package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: src/png-boilerplate.c:85
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: licenseutils 0.0.9\n"
+"Report-Msgid-Bugs-To: bing@nym.hush.com\n"
+"POT-Creation-Date: 2017-10-03 17:13-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/opts.c:40
+msgid "don't show the welcome message"
+msgstr ""
+
+#: src/opts.c:41
+msgid "generate a bashrc file and exit"
+msgstr ""
+
+#: src/opts.c:42
+msgid "show all supported styles"
+msgstr ""
+
+#: src/opts.c:43
+msgid "show some licenses"
+msgstr ""
+
+#: src/opts.c:44
+msgid "show all supported licenses"
+msgstr ""
+
+#: src/opts.c:163
+msgid "A command-line interface for free software licensing."
+msgstr ""
+
+#: src/opts.c:164
+msgid "To see a list of all commands type `"
+msgstr ""
+
+#: src/licensing.c:166
+msgid "notice"
+msgstr ""
+
+#: src/licensing.c:168
+msgid "A simple script to write license notices to files."
+msgstr ""
+
+#: src/licensing.c:344
+#, c-format
+msgid "%s: unrecognized command `%s'\n"
+msgstr ""
+
+#: src/gpl.c:32 src/lgpl.c:38 src/agpl.c:32 src/fdl.c:39
+msgid "show the full license text"
+msgstr ""
+
+#: src/gpl.c:33
+msgid "show version 1 of the gpl"
+msgstr ""
+
+#: src/gpl.c:34
+msgid "show version 2 of the gpl"
+msgstr ""
+
+#: src/gpl.c:35
+msgid "show version 3 of the gpl"
+msgstr ""
+
+#: src/gpl.c:36 src/lgpl.c:42 src/agpl.c:33 src/fdl.c:43
+msgid "remove the or-any-later-version clause"
+msgstr ""
+
+#: src/gpl.c:37 src/lgpl.c:43 src/agpl.c:34 src/all-permissive.c:32
+#: src/bsd.c:34 src/mit.c:32 src/isc.c:32 src/apache.c:36 src/fdl.c:44
+msgid "show licenses and exit"
+msgstr ""
+
+#: src/gpl.c:86 src/lgpl.c:92 src/agpl.c:73 src/fdl.c:91
+#, c-format
+msgid "--jerkwad cannot be used with --full"
+msgstr ""
+
+#: src/gpl.c:92 src/lgpl.c:98 src/agpl.c:79
+#, c-format
+msgid "cannot use an address option with --full"
+msgstr ""
+
+#: src/gpl.c:110
+msgid "Show the GNU General Public License notice."
+msgstr ""
+
+#: src/gpl.c:199
+msgid "gpl"
+msgstr ""
+
+#: src/lgpl.c:39
+msgid "show version 2.0 of the lgpl"
+msgstr ""
+
+#: src/lgpl.c:40
+msgid "show version 2.1 of the lgpl"
+msgstr ""
+
+#: src/lgpl.c:41
+msgid "show version 3 of the lgpl"
+msgstr ""
+
+#: src/lgpl.c:116
+msgid "Show the GNU Lesser General Public License notice."
+msgstr ""
+
+#: src/lgpl.c:219
+msgid "lgpl"
+msgstr ""
+
+#: src/agpl.c:97
+msgid "Show the GNU Affero General Public License notice."
+msgstr ""
+
+#: src/agpl.c:150
+msgid "agpl"
+msgstr ""
+
+#: src/all-permissive.c:59
+msgid "Show the GNU All-Permissive License."
+msgstr ""
+
+#: src/all-permissive.c:102
+msgid "all-permissive"
+msgstr ""
+
+#: src/bsd.c:32
+msgid "show the 2-clause bsd license"
+msgstr ""
+
+#: src/bsd.c:33
+msgid "show the 3-clause bsd license"
+msgstr ""
+
+#: src/bsd.c:73
+msgid "Show the Berkeley Software Distribution license."
+msgstr ""
+
+#: src/bsd.c:132
+msgid "bsd"
+msgstr ""
+
+#: src/mit.c:59
+msgid "Show the MIT (also X11) License."
+msgstr ""
+
+#: src/mit.c:101
+msgid "mit"
+msgstr ""
+
+#: src/isc.c:59
+msgid "Show the ISC (OpenBSD) License."
+msgstr ""
+
+#: src/isc.c:101
+msgid "isc"
+msgstr ""
+
+#: src/apache.c:33
+msgid "show the license for version 1.1"
+msgstr ""
+
+#: src/apache.c:34
+msgid "show the license notice for version 2.0"
+msgstr ""
+
+#: src/apache.c:35
+msgid "show the full license text (2.0)"
+msgstr ""
+
+#: src/apache.c:79
+msgid "Show the Apache License notice."
+msgstr ""
+
+#: src/apache.c:152
+msgid "apache"
+msgstr ""
+
+#: src/fdl.c:40
+msgid "show version 1.1 of the fdl"
+msgstr ""
+
+#: src/fdl.c:41
+msgid "show version 1.2 of the fdl"
+msgstr ""
+
+#: src/fdl.c:42
+msgid "show version 1.3 of the fdl"
+msgstr ""
+
+#: src/fdl.c:102
+msgid "Show the GNU Free Documentation License notice."
+msgstr ""
+
+#: src/fdl.c:173
+msgid "fdl"
+msgstr ""
+
+#: src/warranty.c:26
+msgid "Show a disclaimer on use of this program."
+msgstr ""
+
+#: src/warranty.c:49
+#, c-format
+msgid ""
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License \n"
+"    along with this program. If not, see <http://www.gnu.org/licenses/>.\n"
+"\n"
+"    The Free Software Foundation, Inc.\n"
+"    51 Franklin Street, Fifth Floor\n"
+"    Boston, MA 02110-1301  USA\n"
+"\n"
+msgstr ""
+
+#: src/warranty.c:72
+msgid "warranty"
+msgstr ""
+
+#: src/welcome.c:29
+msgid "Show the greeting."
+msgstr ""
+
+#: src/welcome.c:52
+msgid "This is free software with ABSOLUTELY NO WARRANTY."
+msgstr ""
+
+#: src/welcome.c:53
+#, c-format
+msgid "For warranty details type `%s'.\n"
+msgstr ""
+
+#: src/welcome.c:63
+#, c-format
+msgid "For a full list of commands type `%s'.\n"
+msgstr ""
+
+#: src/welcome.c:69
+msgid "welcome"
+msgstr ""
+
+#: src/help.c:42
+#, c-format
+msgid "Too many arguments"
+msgstr ""
+
+#: src/help.c:56
+msgid "Show some explanatory text for commands."
+msgstr ""
+
+#: src/help.c:57
+msgid "If no COMMAND is specified then a list of commands is shown."
+msgstr ""
+
+#: src/help.c:89
+#, c-format
+msgid "unknown command `%s'"
+msgstr ""
+
+#: src/help.c:95
+#, c-format
+msgid "Frequently Used Commands:\n"
+msgstr ""
+
+#: src/help.c:101
+#, c-format
+msgid "Full List of Commands:\n"
+msgstr ""
+
+#: src/help.c:104
+#, c-format
+msgid "List of Commands that show Licenses and License Notices:\n"
+msgstr ""
+
+#: src/help.c:109
+msgid "For more information on a command, type `help COMMAND'."
+msgstr ""
+
+#: src/help.c:116
+msgid "help"
+msgstr ""
+
+#: src/boilerplate.c:44
+msgid "instead of topmost comments, show them all"
+msgstr ""
+
+#: src/boilerplate.c:46
+msgid "remove boilerplate from FILE instead of showing"
+msgstr ""
+
+#: src/boilerplate.c:47 src/apply.c:41
+msgid "used with -r to force removal copyright notices"
+msgstr ""
+
+#: src/boilerplate.c:49
+msgid "select these comment blocks to show or remove"
+msgstr ""
+
+#: src/boilerplate.c:50 src/png-boilerplate.c:33
+msgid "don't save .bak files when removing boilerplate"
+msgstr ""
+
+#: src/boilerplate.c:51 src/png-apply.c:37 src/copyright.c:46 src/choose.c:39
+#: src/top.c:32 src/project.c:37 src/extra.c:33 src/apply.c:37
+#: src/new-boilerplate.c:28
+msgid "don't show diagnostic messages"
+msgstr ""
+
+#: src/boilerplate.c:52 src/apply.c:42
+msgid "do not actually modify any files"
+msgstr ""
+
+#: src/boilerplate.c:53
+msgid "always print headers giving file names"
+msgstr ""
+
+#: src/boilerplate.c:126
+#, c-format
+msgid "Malformed blockspec"
+msgstr ""
+
+#: src/boilerplate.c:158
+#, c-format
+msgid "--full cannot be used with --remove"
+msgstr ""
+
+#: src/boilerplate.c:164
+#, c-format
+msgid "-b cannot be used with --remove"
+msgstr ""
+
+#: src/boilerplate.c:170
+#, c-format
+msgid "--dry-run can only be used with --remove"
+msgstr ""
+
+#: src/boilerplate.c:176 src/png-boilerplate.c:75 src/apply.c:101
+#, c-format
+msgid "--force can only be used with --remove"
+msgstr ""
+
+#: src/boilerplate.c:182 src/png-boilerplate.c:69
+#, c-format
+msgid "--no-backup can only be used with --remove"
+msgstr ""
+
+#: src/boilerplate.c:194 src/uncomment.c:73
+msgid "Commenting Style Options:"
+msgstr ""
+
+#: src/boilerplate.c:199
+msgid "Show or remove the boilerplate text at the top of a file."
+msgstr ""
+
+#: src/boilerplate.c:200 src/uncomment.c:80 src/cbb.c:77
+msgid "Comment style is auto-detected if a style option is not provided."
+msgstr ""
+
+#: src/boilerplate.c:201 src/comment.c:67 src/cbb.c:78
+msgid "With no FILE, or when FILE is -, read from standard input."
+msgstr ""
+
+#: src/boilerplate.c:202
+msgid "Modified files are backed-up into files with a .bak suffix."
+msgstr ""
+
+#: src/boilerplate.c:203
+msgid ""
+"LIST is a comma separated set of numbers, indicating comment blocks (starts "
+"counting at 1.)"
+msgstr ""
+
+#: src/boilerplate.c:266
+#, c-format
+msgid "invalid block id %ld"
+msgstr ""
+
+#: src/boilerplate.c:286
+#, c-format
+msgid "no boilerplate found in `%s'"
+msgstr ""
+
+#: src/boilerplate.c:330 src/png-boilerplate.c:269
+#, c-format
+msgid "`%s' contains copyright notices.  use --force to remove them."
+msgstr ""
+
+#: src/boilerplate.c:372
+#, c-format
+msgid "could not chmod `%s'"
+msgstr ""
+
+#: src/boilerplate.c:378 src/boilerplate.c:383
+#, c-format
+msgid "could not move %s -> %s"
+msgstr ""
+
+#: src/boilerplate.c:388
+#, c-format
+msgid "%s -> Boilerplate removed."
+msgstr ""
+
+#: src/boilerplate.c:449 src/png-boilerplate.c:337 src/png-apply.c:297
+#: src/comment.c:161 src/uncomment.c:111 src/cbb.c:156 src/apply.c:167
+#, c-format
+msgid "could not open `%s' for reading"
+msgstr ""
+
+#: src/boilerplate.c:458 src/png-boilerplate.c:359 src/png-apply.c:304
+#: src/apply.c:174
+#, c-format
+msgid "could not open `%s' for writing"
+msgstr ""
+
+#: src/boilerplate.c:491
+msgid "boilerplate"
+msgstr ""
+
+#: src/png-boilerplate.c:32
+msgid "remove the comment in FILE"
+msgstr ""
+
+#: src/png-boilerplate.c:34
+msgid "force the removal copyright notices"
+msgstr ""
+
+#: src/png-boilerplate.c:85
+msgid "Show or remove the comment in a png file."
+msgstr ""
+
+#: src/png-boilerplate.c:111 src/png-boilerplate.c:117
+#: src/png-boilerplate.c:280 src/png-boilerplate.c:285 src/png-apply.c:216
+#: src/png-apply.c:221
+#, c-format
+msgid "`%s' is not a PNG file"
+msgstr ""
+
+#: src/png-boilerplate.c:301 src/png-apply.c:241
+#, c-format
+msgid "couldn't move %s -> %s"
+msgstr ""
+
+#: src/png-boilerplate.c:306 src/png-apply.c:238 src/png-apply.c:250
+#, c-format
+msgid "couldn't copy %s -> %s"
+msgstr ""
+
+#: src/png-boilerplate.c:317
+#, c-format
+msgid "couldn't move %s - > %s"
+msgstr ""
+
+#: src/png-boilerplate.c:320 src/png-apply.c:255
+#, c-format
+msgid "couldn't remove `%s'"
+msgstr ""
+
+#: src/png-boilerplate.c:370
+msgid "png-boilerplate"
+msgstr ""
+
+#: src/png-apply.c:36
+msgid "don't retain original png file in a .bak file"
+msgstr ""
+
+#: src/png-apply.c:67 src/apply.c:90
+#, c-format
+msgid "no files specified"
+msgstr ""
+
+#: src/png-apply.c:79
+msgid "Put the current working boilerplate into a PNG file."
+msgstr ""
+
+#: src/png-apply.c:312 src/apply.c:217 src/apply.c:236
+#, c-format
+msgid "%s -> Boilerplate applied."
+msgstr ""
+
+#: src/png-apply.c:324
+msgid "png-apply"
+msgstr ""
+
+#: src/copyright.c:37
+msgid "abbreviate the years if possible"
+msgstr ""
+
+#: src/copyright.c:39
+msgid "use © instead of (C)"
+msgstr ""
+
+#: src/copyright.c:40
+msgid "use (c) instead of (C)"
+msgstr ""
+
+#: src/copyright.c:42
+msgid "don't separate names with commas"
+msgstr ""
+
+#: src/copyright.c:43
+msgid "do not modify the current working boilerplate"
+msgstr ""
+
+#: src/copyright.c:45
+msgid "remove copyright from the working boilerplate"
+msgstr ""
+
+#: src/copyright.c:47
+msgid "specify the years"
+msgstr ""
+
+#: src/copyright.c:285 src/copyright.c:341
+#, c-format
+msgid "Malformed yearspec"
+msgstr ""
+
+#: src/copyright.c:300 src/copyright.c:308
+#, c-format
+msgid "`%s' is an invalid line number"
+msgstr ""
+
+#: src/copyright.c:388
+msgid "Add or modify copyright notices in the working boilerplate."
+msgstr ""
+
+#: src/copyright.c:389
+msgid ""
+"If NAME is not specified, a series of names are read from standard input."
+msgstr ""
+
+#: src/copyright.c:390
+msgid "If YEARSPEC is not specified, the current year is assumed."
+msgstr ""
+
+#: src/copyright.c:391
+msgid ""
+"If both YEARSPEC and NAME are not given, the copyright holders in the "
+"current working boilerplate are displayed."
+msgstr ""
+
+#: src/copyright.c:392
+msgid "LINENO begins counting at zero."
+msgstr ""
+
+#: src/copyright.c:393
+msgid ""
+"To remove the first copyright line and leave the rest intact use -r0 or --"
+"remove=0."
+msgstr ""
+
+#: src/copyright.c:503 src/copyright.c:512
+#, c-format
+msgid "Copyright removed."
+msgstr ""
+
+#: src/copyright.c:618
+#, c-format
+msgid "Copyright added."
+msgstr ""
+
+#: src/copyright.c:627
+msgid "copyright"
+msgstr ""
+
+#: src/comment.c:65
+msgid "Create a comment block out of some arbitrary text."
+msgstr ""
+
+#: src/comment.c:66
+msgid "By default, comments are created in the C style."
+msgstr ""
+
+#: src/comment.c:198
+msgid "comment"
+msgstr ""
+
+#: src/uncomment.c:38
+msgid "remove leading and trailing whitespace on lines"
+msgstr ""
+
+#: src/uncomment.c:79
+msgid ""
+"Remove comment delimiters but leave the comment text at the top of a file."
+msgstr ""
+
+#: src/uncomment.c:81
+msgid ""
+"Files are not modified, the uncommented files are shown on the standard "
+"output."
+msgstr ""
+
+#: src/uncomment.c:82
+msgid "Only comment blocks at the start of the file are uncommented."
+msgstr ""
+
+#: src/uncomment.c:83 src/detect.c:123
+msgid "With no FILE, or when FILE is -, it is read from standard input."
+msgstr ""
+
+#: src/uncomment.c:207
+msgid "uncomment"
+msgstr ""
+
+#: src/cbb.c:32
+msgid "count the number of lines in the boilerplate"
+msgstr ""
+
+#: src/cbb.c:34
+msgid "count the number of sections in the boilerplate"
+msgstr ""
+
+#: src/cbb.c:76
+msgid "Count boilerplate blocks in a file."
+msgstr ""
+
+#: src/cbb.c:224
+msgid "cbb"
+msgstr ""
+
+#: src/choose.c:38
+msgid "force the selection of an unrecommended license"
+msgstr ""
+
+#: src/choose.c:67
+#, c-format
+msgid ""
+"`%s' is not recommended!  Use --force, or maybe try `%s+' if the license is "
+"GNU related"
+msgstr ""
+
+#: src/choose.c:75
+#, c-format
+msgid "Unknown license or comment style `%s'"
+msgstr ""
+
+#: src/choose.c:92
+#, c-format
+msgid "Selected: %s %s"
+msgstr ""
+
+#: src/choose.c:131
+#, c-format
+msgid "Supported Licenses: %s no-license"
+msgstr ""
+
+#: src/choose.c:150
+msgid "Pick license and comment style for the working boilerplate."
+msgstr ""
+
+#: src/choose.c:350
+#, c-format
+msgid "could not copy %s -> %s"
+msgstr ""
+
+#: src/choose.c:467
+msgid "choose"
+msgstr ""
+
+#: src/top.c:31
+msgid "remove the topmost line from the current working boilerplate."
+msgstr ""
+
+#: src/top.c:67
+msgid "Add or modify the top line of the working boilerplate."
+msgstr ""
+
+#: src/top.c:130
+msgid "top-line"
+msgstr ""
+
+#: src/project.c:35
+msgid "remove the project line from the current working boilerplate."
+msgstr ""
+
+#: src/project.c:36
+msgid "use `this file belongs' alternative text"
+msgstr ""
+
+#: src/project.c:76
+msgid "Add a project name to the current working boilerplate."
+msgstr ""
+
+#: src/project.c:76
+msgid ""
+"This command causes a line identifying the project to be added to the "
+"current working boilerplate.  It has the form: `This file is part of NAME.'"
+msgstr ""
+
+#: src/project.c:106
+#, c-format
+msgid "This file belongs to the %s project.\n"
+msgstr ""
+
+#: src/project.c:109
+#, c-format
+msgid "This file is part of %s.\n"
+msgstr ""
+
+#: src/project.c:143
+msgid "project"
+msgstr ""
+
+#: src/extra.c:32
+msgid "remove the extra text from the current working boilerplate."
+msgstr ""
+
+#: src/extra.c:34
+msgid "instead of TEXT use a preformatted FILE"
+msgstr ""
+
+#: src/extra.c:64
+#, c-format
+msgid "could not open `%s' for reading (%m)"
+msgstr ""
+
+#: src/extra.c:91
+msgid ""
+"Add some pre-license text to the working boilerplate.\vTEXT will be "
+"automatically wrapped with the `fmt' command."
+msgstr ""
+
+#: src/extra.c:169
+msgid "extra"
+msgstr ""
+
+#: src/apply.c:36
+msgid "don't retain original source file in a .bak file"
+msgstr ""
+
+#: src/apply.c:39
+msgid "prepend after existing boilerplate if any"
+msgstr ""
+
+#: src/apply.c:40
+msgid "remove any existing boilerplate if any"
+msgstr ""
+
+#: src/apply.c:95
+#, c-format
+msgid "did you mean to use --after?"
+msgstr ""
+
+#: src/apply.c:114
+msgid "Commenting Style Options (for use with --after):"
+msgstr ""
+
+#: src/apply.c:118
+msgid "Prepend the current working boilerplate to a file."
+msgstr ""
+
+#: src/apply.c:215
+#, c-format
+msgid "%s -> Boilerplate replaced."
+msgstr ""
+
+#: src/apply.c:248
+msgid "apply"
+msgstr ""
+
+#: src/preview.c:40
+msgid "show the boilerplate without comment delimiters"
+msgstr ""
+
+#: src/preview.c:65
+msgid "Show the current working boilerplate."
+msgstr ""
+
+#: src/preview.c:243
+msgid "preview"
+msgstr ""
+
+#: src/new-boilerplate.c:53
+msgid "Clear the current working boilerplate."
+msgstr ""
+
+#: src/new-boilerplate.c:102
+msgid "new-boilerplate"
+msgstr ""
+
+#: src/detect.c:52
+msgid "also detect references to licenses"
+msgstr ""
+
+#: src/detect.c:53
+msgid "detect in all comments instead of topmost"
+msgstr ""
+
+#: src/detect.c:54
+msgid "show a full list of how the licenses match"
+msgstr ""
+
+#: src/detect.c:55
+msgid "show matching licenses over PERCENT (default 75)"
+msgstr ""
+
+#: src/detect.c:56
+msgid "do not cull results"
+msgstr ""
+
+#: src/detect.c:122
+msgid "Statistically determine the license notice of a file."
+msgstr ""
+
+#: src/detect.c:124
+msgid ""
+"When FILE is given on the command line it is passed through the boilerplate "
+"command, and the uncomment command, while the standard input is not."
+msgstr ""
+
+#: src/detect.c:468
+msgid "(standard input)"
+msgstr ""
+
+#: src/detect.c:524 src/detect.c:533 src/detect.c:548
+msgid "unknown"
+msgstr ""
+
+#: src/detect.c:860
+msgid "detect"
+msgstr ""
+
+#: src/forget.c:28
+msgid "Clear the downloaded files cache."
+msgstr ""
+
+#: src/forget.c:54
+msgid "forget"
+msgstr ""
+
+#: src/fsf-addresses.c:64
+msgid "show with the old Temple Place address"
+msgstr ""
+
+#: src/fsf-addresses.c:66
+msgid "show with the old Mass Ave address"
+msgstr ""
+
+#: src/fsf-addresses.c:68
+msgid "show with the Franklin Ave address"
+msgstr ""
+
+#: src/fsf-addresses.c:70
+msgid "show with the online address (default)"
+msgstr ""
+
+#: src/url-downloader.c:93
+#, c-format
+msgid "got unexpected response code %d from %s"
+msgstr ""

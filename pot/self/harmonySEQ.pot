@@ -1,0 +1,1032 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "\tNote:"
+msgstr ""
+
+msgid ""
+"\n"
+"<span size='small'><b>harmonySEQ supports following OSC messages:</b>\n"
+"<i>/harmonyseq/pause</i> and <i>/harmonyseq/play</i>\n"
+"<i>/harmonyseq/tempo [float]</i>\n"
+"<i>/harmonyseq/sync</i> (for synchronizing)\n"
+"<i>/karmonyseq/kill</i> (to quit immidiatelly)\n"
+"<i>/harmonyseq/event [int]</i> (to trigger events with\n"
+"the given tag).</span>"
+msgstr ""
+
+msgid " %d"
+msgstr ""
+
+msgid " Controller No."
+msgstr ""
+
+msgid " octave(s)."
+msgstr ""
+
+msgid " to: "
+msgstr ""
+
+msgid "%d"
+msgstr ""
+
+msgid "%d*"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "(No sequencer selected)"
+msgstr ""
+
+msgid "(Waiting for an event...)"
+msgstr ""
+
+msgid "(empty action)"
+msgstr ""
+
+msgid "(unexisting)"
+msgstr ""
+
+msgid "(unexisting, the handle was: %d)"
+msgstr ""
+
+msgid "(unknown action)"
+msgstr ""
+
+msgid "1/4 bar:"
+msgstr ""
+
+msgid "<b>Chord</b>"
+msgstr ""
+
+msgid "<b>Disable diodes</b>"
+msgstr ""
+
+msgid "<b>Metronome:</b>"
+msgstr ""
+
+msgid "<b>Pattern display quality</b>"
+msgstr ""
+
+msgid ""
+"<b>There is no sequencer selected</b>, so it's properties cannot be "
+"displayed.\n"
+"\n"
+"Select one from the list above, or add a new one."
+msgstr ""
+
+msgid "<b>Visible colums:</b>"
+msgstr ""
+
+msgid "<b>Zoom in</b> (Ctrl+MouseScroll)"
+msgstr ""
+
+msgid "<b>Zoom out</b> (Ctrl+MouseScroll)"
+msgstr ""
+
+msgid ""
+"<span size='small'><b>harmonySEQ was compiled without OSC support!</b>\n"
+"This means this event cannot be triggered.</span>"
+msgstr ""
+
+msgid ""
+"<span size='small'>Changing this setting needs restarting\n"
+"harmonySEQ to take effect.</span>"
+msgstr ""
+
+msgid ""
+"<span size='small'>harmonySEQ listens for OSC messages at port %d</span>"
+msgstr ""
+
+msgid ""
+"A MIDI sequencing application helpful for music composers and live artists."
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Active pattern:"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add Action"
+msgstr ""
+
+msgid "Add Event"
+msgstr ""
+
+msgid "Add control sequencer"
+msgstr ""
+
+msgid "Add note sequencer"
+msgstr ""
+
+msgid ""
+"Adds a new <b>action</b> assigned to selected event.\n"
+"\n"
+"Actions define what harmonySEQ should do on corresponding event - for "
+"example it can toggle one of the sequencers, or change it's chord."
+msgstr ""
+
+msgid ""
+"Adds a new <b>event</b>.\n"
+"\n"
+"Events define on what should harmonySEQ react - examples include keypresses "
+"on computer's keyboard or MIDI input from an external controller."
+msgstr ""
+
+msgid ""
+"Adds a new control seqencer. Control sequencers store a graph of a "
+"particular setting, and output it as MIDI control messages."
+msgstr ""
+
+msgid ""
+"Adds a new note seqencer. Note sequencers store melodies and output them as "
+"MIDI notes."
+msgstr ""
+
+msgid "Adds a new pattern to this sequencer."
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Alsa midi driver init successfull.\n"
+msgstr ""
+
+msgid "Are sure you want to loose them and open another file?"
+msgstr ""
+
+msgid "Are sure you want to loose them?"
+msgstr ""
+
+msgid "Are sure you want to quit?"
+msgstr ""
+
+msgid "Are you sure you want to loose all your settings?"
+msgstr ""
+
+msgid "Augmented"
+msgstr ""
+
+msgid "Bar:"
+msgstr ""
+
+msgid "Base:"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Capture"
+msgstr ""
+
+msgid ""
+"Cathes next event end fill this one's type and arguments to fit the one "
+"triggered.\n"
+"<i>Example usage: press this button and then the X key on your keyboard. The "
+"event will be automatically set to type: keyboard, key: X.</i>"
+msgstr ""
+
+msgid ""
+"Changes selected points mode to <b>flat</b>\n"
+"harmonySEQ will output a single MIDI Control Event on such points."
+msgstr ""
+
+msgid ""
+"Changes selected points mode to <b>linear</b>\n"
+"It allows to create linear slopes, for smooth parameter changes."
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Channel:"
+msgstr ""
+
+msgid "Choose a file to open..."
+msgstr ""
+
+msgid "Choose a file to save..."
+msgstr ""
+
+msgid "Chord (notes) / Ctrl. No."
+msgstr ""
+
+msgid "Chord summary"
+msgstr ""
+
+msgid "Clear pattern"
+msgstr ""
+
+msgid "Clears all notes of this pattern."
+msgstr ""
+
+msgid "Clone"
+msgstr ""
+
+msgid "Clones this pattern, creating a new one."
+msgstr ""
+
+msgid "Consultants:"
+msgstr ""
+
+msgid "Controller:"
+msgstr ""
+
+msgid "Creates a new file."
+msgstr ""
+
+msgid "Ctrl %d"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom, base %d"
+msgstr ""
+
+msgid "Custom: %d, %d, %d, %d, %d, %d"
+msgstr ""
+
+msgid "Custom: %d, %d, %d, %d, %d, %d (base: %d)"
+msgstr ""
+
+msgid "Debug mode started.\n"
+msgstr ""
+
+msgid "Decrease sequencer '%s' chord's  octave by %d"
+msgstr ""
+
+msgid "Diminished"
+msgstr ""
+
+msgid "Disable all animated diodes"
+msgstr ""
+
+msgid ""
+"Disables animated diodes, which may improve performance.\n"
+"<b>Requires restart to take effect.</b>"
+msgstr ""
+
+msgid "Do not change chord's octave"
+msgstr ""
+
+msgid "Do you want to open this file?"
+msgstr ""
+
+msgid "Do you want to overwrite this file?"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Duplicates selected sequencer"
+msgstr ""
+
+msgid "Duplicates the sequencer"
+msgstr ""
+
+msgid ""
+"ERROR - Cannot init SequencerWidget's notebook - no sequencer selected.\n"
+msgstr ""
+
+msgid "ERROR - Glib::KeyFile error while processing file '%s': "
+msgstr ""
+
+msgid "ERROR - Missing sequencer %d in file\n"
+msgstr ""
+
+msgid "ERROR - error while building menus: "
+msgstr ""
+
+msgid "ERROR - error while opening file %s to write.\n"
+msgstr ""
+
+msgid "ERROR - error while reading file '%s'\n"
+msgstr ""
+
+msgid "ERROR - error while trying to read file '%s'\n"
+msgstr ""
+
+msgid "ERROR - error while trying to read file '%s': "
+msgstr ""
+
+msgid ""
+"ERROR - error while trying to save config file %s.\n"
+"(errno = %d)"
+msgstr ""
+
+msgid "ERROR - unknown error while processing file '%s': "
+msgstr ""
+
+msgid "Empty"
+msgstr ""
+
+msgid "Error - cannot colorize triggered action: row is empty.\n"
+msgstr ""
+
+msgid "Error - cannot colorize triggered event: row is empty.\n"
+msgstr ""
+
+msgid "Error - empty event would be triggered.\n"
+msgstr ""
+
+msgid "Error: apply octave has changed, while action is not change-chord-type."
+msgstr ""
+
+msgid "Error: channel has changed, while event is not MIDI-type."
+msgstr ""
+
+msgid "Error: controller has changed, while event is not ctrl-type."
+msgstr ""
+
+msgid "Error: key has changed, while event is not key-type."
+msgstr ""
+
+msgid "Error: note has changed, while event is not note-type."
+msgstr ""
+
+msgid "Error: note number has changed, while action is not set-seq-note-type."
+msgstr ""
+
+msgid "Error: note to set has changed, while action is not set-seq-note-type."
+msgstr ""
+
+msgid ""
+"Error: octave has changed, while action is not transpose-by-octave type."
+msgstr ""
+
+msgid ""
+"Error: on-off-toggle has changed, while action is not on-off-toggle-type."
+msgstr ""
+
+msgid "Error: pattern has changed, while action is not pattern-type."
+msgstr ""
+
+msgid ""
+"Error: play-pause-toggle has changed, while action is not play-pause-type."
+msgstr ""
+
+msgid "Error: porthas changed, while event is not OSC-type."
+msgstr ""
+
+msgid "Error: tempo has changed, while action is not tempo-type."
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "Failed to create input port.\n"
+msgstr ""
+
+msgid "Failed to create output port.\n"
+msgstr ""
+
+msgid "Failed to open ALSA sequencer.\n"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "File '%s'  already exist."
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Guitar"
+msgstr ""
+
+msgid "Guitar %s m"
+msgstr ""
+
+msgid "Guitar %s m7"
+msgstr ""
+
+msgid "Guitar %s maj"
+msgstr ""
+
+msgid "Guitar %s maj7"
+msgstr ""
+
+msgid "Guitar: %s m"
+msgstr ""
+
+msgid "Guitar: %s m7"
+msgstr ""
+
+msgid "Guitar: %s maj"
+msgstr ""
+
+msgid "Guitar: %s maj7"
+msgstr ""
+
+msgid "Handle"
+msgstr ""
+
+msgid ""
+"HarmonySEQ is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"HarmonySEQ is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with HarmonySEQ.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "If checked, the octave will not be applied to the chord."
+msgstr ""
+
+msgid ""
+"If on, notes will be snapped to the visible grid.\n"
+"Grid density changes with sequence resolution."
+msgstr ""
+
+msgid "Increase sequencer '%s's chord's octave by %d"
+msgstr ""
+
+msgid "Inversion: "
+msgstr ""
+
+msgid "Key:"
+msgstr ""
+
+msgid "Keyboard"
+msgstr ""
+
+msgid "Length"
+msgstr ""
+
+msgid "Length:"
+msgstr ""
+
+msgid "MIDI"
+msgstr ""
+
+msgid "MIDI Controller"
+msgstr ""
+
+msgid "MIDI Note"
+msgstr ""
+
+msgid "MIDI channel:"
+msgstr ""
+
+msgid "Main author:"
+msgstr ""
+
+msgid "Major"
+msgstr ""
+
+msgid "Mark here, and the metronome will also tick on every 1/4 of each bar."
+msgstr ""
+
+msgid "Max. FPS: "
+msgstr ""
+
+msgid "Metronome"
+msgstr ""
+
+msgid "Minor"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Note:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "ON/OFF"
+msgstr ""
+
+msgid "OSC"
+msgstr ""
+
+msgid "OSC message tag:"
+msgstr ""
+
+msgid "OSC port: "
+msgstr ""
+
+msgid "Octave:"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Opens a file."
+msgstr ""
+
+msgid "Pass MIDI events"
+msgstr ""
+
+msgid "Patern"
+msgstr ""
+
+msgid "Pattern"
+msgstr ""
+
+msgid "Pattern number: "
+msgstr ""
+
+msgid "Pattern:"
+msgstr ""
+
+msgid "Pause"
+msgstr ""
+
+msgid "Play"
+msgstr ""
+
+msgid "Play once"
+msgstr ""
+
+msgid "Play sequence in '%s' once"
+msgstr ""
+
+msgid "Play/Pause"
+msgstr ""
+
+msgid "Play/pause"
+msgstr ""
+
+msgid "Plays sequence in this sequencer <b>once</b>."
+msgstr ""
+
+msgid "Plays the sequence once."
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Quits harmonySEQ."
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Removes selected action or event."
+msgstr ""
+
+msgid "Removes selected sequencer"
+msgstr ""
+
+msgid "Removes the sequencer."
+msgstr ""
+
+msgid "Removes this pattern."
+msgstr ""
+
+msgid "Resolution"
+msgstr ""
+
+msgid "Resolution:"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Restoring default configuration"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save as..."
+msgstr ""
+
+msgid "Saves the current file with a different name."
+msgstr ""
+
+msgid "Saves the current file."
+msgstr ""
+
+msgid "Selects the <b>MIDI channel</b> this sequencer will output notes to. "
+msgstr ""
+
+msgid ""
+"Selects the <b>length</b> of this sequencer. It defines <i>how many bars</i> "
+"the sequence in this sequencer will last. In case it's smaller then 1, the "
+"sequence may be repeated few times in each bar."
+msgstr ""
+
+msgid ""
+"Selects the <b>length</b> of this sequencer. It defines <i>how many bars</i> "
+"the sequence in this sequencer will last. In case it's smaller then 1, the "
+"sequence may be repeated few times in each bar.\n"
+"\n"
+"This it the length's fraction denominator."
+msgstr ""
+
+msgid ""
+"Selects the <b>length</b> of this sequencer. It defines <i>how many bars</i> "
+"the sequence in this sequencer will last. In case it's smaller then 1, the "
+"sequence may be repeated few times in each bar.\n"
+"\n"
+"This it the length's fraction numerator."
+msgstr ""
+
+msgid ""
+"Selects the <b>resolution</b> of this sequencer. It defines the grid density "
+"in this sequencer's patterns."
+msgstr ""
+
+msgid ""
+"Selects which patter is <b>active</b>.\n"
+"Active pattern is the one that is played back. It's marked on a list with an "
+"asterisk (*).\n"
+"\n"
+"<i>This way all patterns can be edited while only the selected (the active) "
+"is played back. </i>"
+msgstr ""
+
+msgid "Sequencer properties"
+msgstr ""
+
+msgid "Sequencer/Change chord's octave"
+msgstr ""
+
+msgid "Sequencer/Play once"
+msgstr ""
+
+msgid "Sequencer/Set active pattern"
+msgstr ""
+
+msgid "Sequencer/Set chord"
+msgstr ""
+
+msgid "Sequencer/Set one note"
+msgstr ""
+
+msgid "Sequencer/Switch On-Off"
+msgstr ""
+
+msgid "Sequencer:"
+msgstr ""
+
+msgid "Set active pattern of sequencer '%s' to %d"
+msgstr ""
+
+msgid "Set as active pattern"
+msgstr ""
+
+msgid "Set chord of sequencer '%s' to %s"
+msgstr ""
+
+msgid "Set note "
+msgstr ""
+
+msgid "Set note %d of sequencer '%s' to %d"
+msgstr ""
+
+msgid "Set tempo"
+msgstr ""
+
+msgid "Set tempo to %d BPM"
+msgstr ""
+
+msgid "Sets <b>mode</b> of this chord."
+msgstr ""
+
+msgid "Sets <b>root</b> of this chord."
+msgstr ""
+
+msgid "Sets <b>type</b> of this chord."
+msgstr ""
+
+msgid "Sets the <b>inversion</b> of the triad."
+msgstr ""
+
+msgid "Sets the <b>tempo</b> applied to all sequencers."
+msgstr ""
+
+msgid "Sets the <b>value</b> of selected point(s)."
+msgstr ""
+
+msgid ""
+"Sets the <b>velocity</b> of selected note(s).\n"
+"Usually higher velocities result in louder sounds."
+msgstr ""
+
+msgid ""
+"Sets the chosen pattern to be the <b>active</b> one, which means the one "
+"that  will be played back."
+msgstr ""
+
+msgid ""
+"Sets whether this chord uses the base note.\n"
+" - If on, chord notes are set relatively to the base note.\n"
+" - If off, the chord ignores the base note."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Shows/hides the chord's detailed settings."
+msgstr ""
+
+msgid "Snap to grid"
+msgstr ""
+
+msgid ""
+"Sorry, but harmonySEQ cannot convert this file to current format.\n"
+"This applies only to files from harmonySEQ older than 0.15.\n"
+"\n"
+"If you really need to open this file, try downloading harmonySEQ 0.15, and "
+"using it to convert this file to 0.15 format, which will make it openable "
+"with this harmonySEQ version."
+msgstr ""
+
+msgid "States whether MIDI events are passed-through harmonySEQ."
+msgstr ""
+
+msgid "Switch sequencer '%s' OFF"
+msgstr ""
+
+msgid "Switch sequencer '%s' ON"
+msgstr ""
+
+msgid "Synchronize"
+msgstr ""
+
+msgid "Tempo:"
+msgstr ""
+
+msgid "Testers:"
+msgstr ""
+
+msgid ""
+"The <b>MIDI controller number</b> this sequencer outputs data on.\n"
+"\n"
+"For example, synthesizers supporting GM standard should interpret data from "
+"controller 7 as volume setting."
+msgstr ""
+
+msgid ""
+"The <b>base note</b> for this chord. If it uses the base, which is "
+"determined by the switch on the left-hand side, all notes of this chord are "
+"given relatively to this base note."
+msgstr ""
+
+msgid ""
+"The <b>maximum</b> FPS value used when smooth animation is needed, for "
+"example when dragging notes. Note this is the maximum value, it is usually "
+"much much lower, as the pattern is redrawn only when nessesary.\n"
+"\n"
+"High values may cause higher CPU usage when dragging notes, moving graph "
+"points etc., but result in much smoothier animations."
+msgstr ""
+
+msgid "The channel the metronome will output it's ticks to."
+msgstr ""
+
+msgid "The file has unsaved changes."
+msgstr ""
+
+msgid "The metronome's MIDI note pitch"
+msgstr ""
+
+msgid "The metronome's MIDI note velocity'"
+msgstr ""
+
+msgid "The port OSC server will listen at."
+msgstr ""
+
+msgid "This file contains data in format, which is too old."
+msgstr ""
+
+msgid ""
+"This file was created by harmonySEQ in a newer version (%d.%d.%d). This "
+"means it may contain data that is suppored by the newer wersion, but not by "
+"the version you are using (%d.%d.%d). It is recommended not to open such "
+"file, since it is very likely it may produce strange errors, or may event "
+"crash the program unexpectedly. However, in some cases one may want to open "
+"such file anyway, for example if it is sure it will open without trouble. "
+"Select YES to do so."
+msgstr ""
+
+msgid "This file was created by older harmonySEQ version (%d.%d)"
+msgstr ""
+
+msgid "This is an empty event, that will never be triggered."
+msgstr ""
+
+msgid "Toggle"
+msgstr ""
+
+msgid "Toggle metronome on/off"
+msgstr ""
+
+msgid "Toggle passing MIDI events"
+msgstr ""
+
+msgid "Toggle pause/play"
+msgstr ""
+
+msgid "Toggle play/pause"
+msgstr ""
+
+msgid "Toggle sequencer '%s'"
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Transpose by "
+msgstr ""
+
+msgid "Triad"
+msgstr ""
+
+msgid "Triad %s aug"
+msgstr ""
+
+msgid "Triad %s aug, i:%d"
+msgstr ""
+
+msgid "Triad %s dim"
+msgstr ""
+
+msgid "Triad %s dim, i:%d"
+msgstr ""
+
+msgid "Triad %s maj"
+msgstr ""
+
+msgid "Triad %s maj, i:%d"
+msgstr ""
+
+msgid "Triad %s min"
+msgstr ""
+
+msgid "Triad %s min, i:%d"
+msgstr ""
+
+msgid "Triad: %s augmented"
+msgstr ""
+
+msgid "Triad: %s augmented, inversion: %d"
+msgstr ""
+
+msgid "Triad: %s diminisched"
+msgstr ""
+
+msgid "Triad: %s diminisched, inversion: %d"
+msgstr ""
+
+msgid "Triad: %s major"
+msgstr ""
+
+msgid "Triad: %s major, inversion: %d"
+msgstr ""
+
+msgid "Triad: %s minor"
+msgstr ""
+
+msgid "Triad: %s minor, inversion: %d"
+msgstr ""
+
+msgid "Turns this sequencer <b>on/off</b>."
+msgstr ""
+
+msgid "Type:"
+msgstr ""
+
+msgid "Type: "
+msgstr ""
+
+msgid "Unknown event."
+msgstr ""
+
+msgid "Untitled"
+msgstr ""
+
+msgid "Value:"
+msgstr ""
+
+msgid "Velocity:"
+msgstr ""
+
+msgid "WARNING: Unknown action triggered.\n"
+msgstr ""
+
+msgid "When OSC message '/harmonyseq/event i %d' is got..."
+msgstr ""
+
+msgid "When controller %d on any channel is moved..."
+msgstr ""
+
+msgid "When controller %d on channel %d is moved..."
+msgstr ""
+
+msgid "When key %s is pressed..."
+msgstr ""
+
+msgid "When note %d on any channel gets on..."
+msgstr ""
+
+msgid "When note %d on channel %d gets on..."
+msgstr ""
+
+msgid "harmonySEQ configuration."
+msgstr ""
+
+msgid "harmonySEQ website"
+msgstr ""
+
+msgid "harmonySEQ will convert this file automatically. This may take a while."
+msgstr ""
+
+msgid ""
+"harmonySEQ, version %s\n"
+"\n"
+"usage: harmonySEQ [-hdv] [FILE]\n"
+"\n"
+"   -d    --debug       enters debug mode, prints lots of debug messeges\n"
+"         --pass-midi   passes the midi events through the program by "
+"default\n"
+"   -h    --help        prints this help messase and exits\n"
+"   -v    --version     prints the program version\n"
+msgstr ""
+
+msgid "m"
+msgstr ""
+
+msgid "m7"
+msgstr ""
+
+msgid "maj"
+msgstr ""
+
+msgid "maj7"
+msgstr ""
+
+msgid "o:%d"
+msgstr ""
+
+msgid "octave: %d"
+msgstr ""
+
+msgid "seq %d"
+msgstr ""
+
+msgid "translator-credits"
+msgstr ""
+
+msgid "unknown option '%c'\n"
+msgstr ""
+
+msgid "unrecognized option '%s'\n"
+msgstr ""

@@ -1,0 +1,506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, python-format
+msgid "\tAdmin Password: %s"
+msgstr ""
+
+msgid "\tErrata Found!"
+msgstr ""
+
+msgid "\tNo errata found, if this machine is having issues please go to"
+msgstr ""
+
+#, python-format
+msgid "\tYour admin token  could not be cached: %s\n"
+msgstr ""
+
+msgid ""
+"\tYour pub_uuid could not be written.\n"
+"\n"
+msgstr ""
+
+msgid "\tbenefit"
+msgstr ""
+
+msgid "\tyour profile and create a wiki page for the device so others can"
+msgstr ""
+
+#, python-format
+msgid ""
+"%(title)s<br>\t\t\t\t%(description)s<br>\t\t\t\t%(authors)s<br>\t\t\t\t<br>\t"
+"\t\t\t<b>License:</b><br>\t\t\t\tThis program is free software; you can "
+"redistribute it and/or \t\t\t\tmodify it under the terms of the GNU General "
+"Public License \t\t\t\tas published by the Free Software Foundation; either "
+"version 3 \t\t\t\tof the License, or (at your option) any later version."
+msgstr ""
+
+msgid "&About"
+msgstr ""
+
+msgid "&Exit"
+msgstr ""
+
+msgid "&File"
+msgstr ""
+
+msgid "&Help"
+msgstr ""
+
+msgid "&My Smolt Page"
+msgstr ""
+
+msgid "&Send Profile"
+msgstr ""
+
+msgid "(optional) Fedora Account System registration"
+msgstr ""
+
+msgid "(q)uit Smolt?  (or [n] for no)"
+msgstr ""
+
+msgid "(s)end this information to the Smolt server? (or [y] for yes)"
+msgstr ""
+
+msgid "(v)iew details on collected information?"
+msgstr ""
+
+msgid ""
+"<b>About Smolt:</b><br/>The smolt hardware profiler is a server-client \t\t\t"
+"\tsystem that does a hardware scan against a machine and sends the results \t"
+"\t\t\tto a public Fedora Project turbogears server. The sends are anonymous "
+"\t\t\t\tand should not contain any private information other than the "
+"physical \t\t\t\thardware information and basic OS info.<br/>"
+msgstr ""
+
+msgid "<b>Authors:</b><br/>Carlos Gonçalves &lt;mail@cgoncalves.info&gt;"
+msgstr ""
+
+#, python-format
+msgid ""
+"<b>Your profile was sent successfully!</b><br>\t\t\t\t<br>\t\t\t\tYour "
+"profiles is available online at:<br>\t\t\t\t<a href=\"%(url)s\">%(url)s</"
+"a><br>\t\t\t\t<br>\t\t\t\tYour profile admin password is:<br><i>"
+"%(password)s</i>"
+msgstr ""
+
+msgid ""
+"<br/>Smolt Qt is a Smolt GUI client to submit Smolt hardware profiles \t\t\t"
+"\tto a Smoon server.<br/>"
+msgstr ""
+
+#, python-format
+msgid "<h3>Smolt Qt</h3>Version %(version)s<br/>"
+msgstr ""
+
+#, python-format
+msgid ""
+"<span></span>\n"
+"Smolt will only send hardware and basic operating system information to the\n"
+"Fedora smolt server (smoon).  The only tie from the database to a "
+"submitters\n"
+"machine is the UUID.  As long as the submitter does not give out this UUID\n"
+"the submission is anonymous.  If at any point in time a user wants to "
+"delete\n"
+"his/her profile from the database they need only run<br>\n"
+"<br>\n"
+"&nbsp;&nbsp;&nbsp;<tt>smoltDeleteProfile</tt><br>\n"
+"<br>\n"
+"The information sent to the smolt database server should be considered "
+"public\n"
+"in that anyone can view the statistics, data and share machine profiles.  "
+"In \n"
+"many ways smolt is designed to get hardware vendors and other 3rd parties'\n"
+"attention.  As such, not only will this information be shared with 3rd "
+"parties,\n"
+"we will be using smolt as leverage to gain better support for open source\n"
+"drivers and better support in general.<br>\n"
+"<br>\n"
+"IP Logging:  In Fedora's smolt install all web traffic goes through a proxy\n"
+"server first.  This is the only place IP addresses are being logged and "
+"they\n"
+"are kept on that server for a period of 4 weeks at which time log rotation\n"
+"removes these logs.  The Fedora Project does not aggregate IP addresses in\n"
+"the smolt database.  These logs are private and will not be available to "
+"the\n"
+"general public.<br>\n"
+"<br>\n"
+"Users unhappy with this policy should simply not use smolt.  Users with\n"
+"questions about this policy should contact the Fedora Infrastructure Team "
+"at\n"
+"<a href=\"mailto:%(mail)s\">%(mail)s</a>.  Also remember that users can "
+"delete their\n"
+"profiles at any time using<br>\n"
+"<br>\n"
+"&nbsp;&nbsp;&nbsp;<tt>smoltDeleteProfile</tt><br>\n"
+"<br>\n"
+"Thanks for participating and for your interest in our privacy policy.\n"
+msgstr ""
+
+msgid "About &Qt"
+msgstr ""
+
+#, python-format
+msgid "An error has occured while contacting the server: %s"
+msgstr ""
+
+msgid "An error occurred while sending the data to the server."
+msgstr ""
+
+msgid ""
+"Are you sure you wouldn't like to send the profile?  Submitting your profile "
+"is a valuable source of information for our development and can help "
+"troubleshoot issues that may come up with your hardware."
+msgstr ""
+
+msgid "BogoMIPS"
+msgstr ""
+
+msgid "Bus"
+msgstr ""
+
+msgid "CPU Family"
+msgstr ""
+
+msgid "CPU Model"
+msgstr ""
+
+msgid "CPU Model Num"
+msgstr ""
+
+msgid "CPU Speed"
+msgstr ""
+
+msgid "CPU Stepping"
+msgstr ""
+
+msgid "CPU Vendor"
+msgstr ""
+
+msgid "Cannot Determine Runlevel"
+msgstr ""
+
+msgid "Could not bind to dbus.  Is dbus running?"
+msgstr ""
+
+msgid ""
+"Could not connect to hal, is it running?\n"
+"Run \"service haldaemon start\" as root"
+msgstr ""
+
+#, python-format
+msgid "Could not contact server: %s"
+msgstr ""
+
+msgid "Could not send - Exiting"
+msgstr ""
+
+msgid "Current rating for vendor/model."
+msgstr ""
+
+msgid "D_o not send profile"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Default run level"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "Distribution"
+msgstr ""
+
+msgid "Distribution-specific"
+msgstr ""
+
+msgid "Do you want to .."
+msgstr ""
+
+msgid "Driver"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error contacting Server:"
+msgstr ""
+
+#, python-format
+msgid "Error contacting Server: %s"
+msgstr ""
+
+#, python-format
+msgid "Error determining public UUID: %s"
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Exiting..."
+msgstr ""
+
+msgid "File system-related"
+msgstr ""
+
+msgid "Filesystem Information"
+msgstr ""
+
+msgid "Form factor"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "HTTP proxy"
+msgstr ""
+
+msgid "Hardware Profile"
+msgstr ""
+
+msgid "Hint:"
+msgstr ""
+
+msgid "Kernel"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Main Tool Bar"
+msgstr ""
+
+msgid ""
+"No Public UUID found!  Please re-run with -n to generate a new public uuid"
+msgstr ""
+
+msgid "No distribution-specific data yet"
+msgstr ""
+
+msgid "Non-working"
+msgstr ""
+
+msgid "Number of CPUs"
+msgstr ""
+
+msgid "OS"
+msgstr ""
+
+msgid "Partially-working"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Platform"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "Profile Sent"
+msgstr ""
+
+msgid "Profile removed, please verify at"
+msgstr ""
+
+msgid "Registration Failed, Try again"
+msgstr ""
+
+msgid "Request a new public UUID"
+msgstr ""
+
+msgid "Requires 3rd party drivers"
+msgstr ""
+
+msgid "Retry Enabled - Retrying"
+msgstr ""
+
+msgid "SELinux Enabled"
+msgstr ""
+
+msgid "SELinux Enforce"
+msgstr ""
+
+msgid "SELinux Policy"
+msgstr ""
+
+#, python-format
+msgid "Scanning %s for known errata.\n"
+msgstr ""
+
+#, python-format
+msgid "Server Message: \"%s\""
+msgstr ""
+
+msgid "Show &Privacy Policy"
+msgstr ""
+
+msgid "Smolt"
+msgstr ""
+
+msgid "Smolt has collected four types of information:"
+msgstr ""
+
+msgid ""
+"Smolt is a hardware profiler for The Fedora Project.  Submitting your "
+"profile is a great way to give back to the community as this information is "
+"used to help focus our efforts on popular hardware and platforms.  "
+"Submissions are anonymous.  Sending your profile will enable a monthly "
+"update."
+msgstr ""
+
+msgid ""
+"Smolt set to checkin but checkins are disabled (hint: service smolt start)"
+msgstr ""
+
+msgid "Something went wrong fetching a token"
+msgstr ""
+
+msgid "Submit profile link to _Bodhi"
+msgstr ""
+
+#, python-format
+msgid "Success!  Your new public UUID is: %s"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "System Memory"
+msgstr ""
+
+msgid "System Swap"
+msgstr ""
+
+#, python-format
+msgid ""
+"To share your profile: \n"
+"\t%s (public)"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "UUID"
+msgstr ""
+
+msgid "Unable to determine Public UUID!\n"
+msgstr ""
+
+msgid "Unable to determine UUID of system!\n"
+msgstr ""
+
+msgid "Unable to save UUID, continuing...\n"
+msgstr ""
+
+msgid "Unrated/Unknown"
+msgstr ""
+
+msgid "Vendor"
+msgstr ""
+
+msgid "Works out of the box"
+msgstr ""
+
+msgid "Works, needs additional configuration"
+msgstr ""
+
+msgid "Wrong version, server incapable of handling your client"
+msgstr ""
+
+#, python-format
+msgid "Your UUID file could not be created: %s\n"
+msgstr ""
+
+msgid "Your choice (s/v/q/y/n): "
+msgstr ""
+
+msgid "_No, do not send."
+msgstr ""
+
+msgid "_Participate in KernelOOPS"
+msgstr ""
+
+msgid "_Reconsider sending"
+msgstr ""
+
+msgid "_Send Profile"
+msgstr ""
+
+msgid "continue to send until success"
+msgstr ""
+
+msgid "do not scan this machine for know hardware errata, only submit profile."
+msgstr ""
+
+msgid "don't prompt to send, just send"
+msgstr ""
+
+msgid "enable debug information"
+msgstr ""
+
+msgid "only scan this machine for known hardware errata, do not send profile."
+msgstr ""
+
+msgid "password, will prompt if not specified"
+msgstr ""
+
+msgid "print information only, do not send"
+msgstr ""
+
+msgid "q|n|no"
+msgstr ""
+
+#, python-format
+msgid "specify HTTP timeout in seconds (default %default seconds)"
+msgstr ""
+
+#, python-format
+msgid "specify HTTP user agent (default \"%default\")"
+msgstr ""
+
+#, python-format
+msgid "specify the URL of the server (default \"%default\")"
+msgstr ""
+
+msgid "specify the location of the (only) config file to use"
+msgstr ""
+
+msgid "specify which uuid to use, useful for debugging and testing mostly."
+msgstr ""
+
+msgid "s|y|yes"
+msgstr ""
+
+msgid ""
+"this is an automated checkin, will only run if the \"smolt\" service has "
+"been started"
+msgstr ""
+
+msgid "v"
+msgstr ""

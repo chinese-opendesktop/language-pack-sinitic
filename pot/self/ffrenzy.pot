@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-31 21:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/audio.c:125
+msgid "No music tracks found"
+msgstr ""
+
+#: src/configuration.c:81
+#, c-format
+msgid "Parsing of xml node %s failed"
+msgstr ""
+
+#: src/configuration.c:88
+#, c-format
+msgid "Unknown xml node: %s"
+msgstr ""
+
+#: src/configuration.c:146
+#, c-format
+msgid "Action tag has unknown name attribute: %s"
+msgstr ""
+
+#: src/configuration.c:166
+msgid "Player tag without id found"
+msgstr ""
+
+#: src/configuration.c:174
+msgid "Player tag without name found"
+msgstr ""
+
+#: src/configuration.c:205
+#, c-format
+msgid "Invalid configuration file: %s"
+msgstr ""
+
+#: src/configuration.c:237
+msgid "Parsing config file failed, using defaults"
+msgstr ""
+
+#: src/graphics.c:413
+#, c-format
+msgid "Score: %6d"
+msgstr ""
+
+#: src/graphics.c:455
+#, c-format
+msgid "items: %3d"
+msgstr ""
+
+#: src/graphics.c:605
+msgid "Setting SDL Videomode: "
+msgstr ""
+
+#: src/graphics.c:621
+#, c-format
+msgid "Couldn't open default font: %s"
+msgstr ""
+
+#: src/graphics.c:642
+msgid "done"
+msgstr ""
+
+#: src/graphics.c:802
+msgid "Couldn't parse SVGserie for object"
+msgstr ""
+
+#: src/graphics.c:836
+#, c-format
+msgid "Couldn't parse SVGserie for type: %d"
+msgstr ""
+
+#: src/graphics.c:856
+msgid "Couldn't parse SVGserie for background"
+msgstr ""
+
+#: src/main.c:171
+msgid "Couldn't open level file"
+msgstr ""
+
+#: src/main.c:179
+msgid "Starting feeding frenzy"
+msgstr ""
+
+#: src/main.c:180
+msgid "Released under the GNU Public License\n"
+msgstr ""
+
+#: src/main.c:183
+#, c-format
+msgid "SDL initialisation failed: %s"
+msgstr ""
+
+#: src/main.c:188
+#, c-format
+msgid "SDL-ttf2 init failed: %s"
+msgstr ""
+
+#: src/main.c:203
+#, c-format
+msgid "error: %s"
+msgstr ""
+
+#: src/main.c:205
+#, c-format
+msgid "Usage: %s [OPTIONS]"
+msgstr ""
+
+#: src/main.c:206
+msgid "\t-p players    \tNumber of players on the local machine"
+msgstr ""
+
+#: src/main.c:207
+msgid "\t-l levelname  \tLoad levelname as the level to play"
+msgstr ""
+
+#: src/main.c:208
+msgid "\t-s nrplayers  \tStart network server for nrplayers players"
+msgstr ""
+
+#: src/main.c:209
+msgid "\t-c server     \tConnect to network server server"
+msgstr ""
+
+#: src/main.c:210
+msgid "\t-C configfile \tAlternate config file to use"
+msgstr ""
+
+#: src/main.c:211
+msgid "\t-f            \tPlay fullscreen"
+msgstr ""
+
+#: src/main.c:212
+msgid "\t-m            \tTurn on the music"
+msgstr ""
+
+#: src/main.c:213
+msgid "\t-q            \tTurn off the sound effect (quiet)"
+msgstr ""
+
+#: src/main.c:214
+msgid "\t-i inputfile  \tUse input from inputfile"
+msgstr ""
+
+#: src/main.c:215
+msgid "\t-o outputfile \tPut all events in the outputfile"
+msgstr ""
+
+#: src/main.c:216
+msgid "\t-d debugmask  \tDebug mask to use"
+msgstr ""
+
+#: src/main.c:217
+msgid "\t\tGraphics:     \t0x1"
+msgstr ""
+
+#: src/main.c:218
+msgid "\t\tModel:        \t0x2"
+msgstr ""
+
+#: src/main.c:219
+msgid "\t\tNetwork:      \t0x4"
+msgstr ""
+
+#: src/main.c:220
+msgid "\t\tLocalio:      \t0x8"
+msgstr ""
+
+#: src/main.c:221
+msgid "\t\tMain:         \t0x10"
+msgstr ""
+
+#: src/main.c:222
+msgid "\t\tCommunication:\t0x20"
+msgstr ""
+
+#: src/main.c:233
+#, c-format
+msgid "FPS: %d"
+msgstr ""
+
+#: src/main.c:302
+msgid "End of input file"
+msgstr ""
+
+#: src/main.c:306
+#, c-format
+msgid "Expecting %d but got %d"
+msgstr ""
+
+#: src/main.c:312
+#, c-format
+msgid "Delimeter : not found in string %s"
+msgstr ""
+
+#: src/main.c:546
+msgid "Couldn't set background"
+msgstr ""
+
+#: src/main.c:602
+msgid "\t-----------------------Player scores------------------"
+msgstr ""
+
+#: src/main.c:604
+#, c-format
+msgid "\t%c %-30s: %8d"
+msgstr ""
+
+#: src/main.c:609
+msgid "\t-----------------------------------------------------"
+msgstr ""
+
+#: src/main.c:610
+msgid "Game finished"
+msgstr ""
+
+#: src/main.c:630
+#, c-format
+msgid "Single machine, players: %d, level: %s"
+msgstr ""
+
+#: src/main.c:636 src/main.c:711
+msgid "Loading level failed"
+msgstr ""
+
+#: src/main.c:640 src/main.c:714
+#, c-format
+msgid "Level loaded for %d players"
+msgstr ""
+
+#: src/main.c:642 src/main.c:716
+#, c-format
+msgid "Level can only support %d players"
+msgstr ""
+
+#: src/main.c:672
+msgid "Waiting for other players failed"
+msgstr ""
+
+#: src/main.c:675
+msgid "All needed players have arrived"
+msgstr ""
+
+#: src/main.c:677
+msgid "Sending connections failed"
+msgstr ""
+
+#: src/main.c:680
+msgid "Networking setup done, sending network player info"
+msgstr ""
+
+#: src/main.c:685
+msgid "Sending level"
+msgstr ""
+
+#: src/main.c:723
+msgid "Setting up ffrenzy server failed"
+msgstr ""
+
+#: src/main.c:755
+#, c-format
+msgid "Couldn't register more then %d player(s)"
+msgstr ""
+
+#: src/main.c:763
+msgid "Players registered to server"
+msgstr ""
+
+#: src/main.c:765 src/main.c:770 src/main.c:775 src/main.c:780
+msgid "Network error"
+msgstr ""
+
+#: src/main.c:773
+msgid "Waiting for player info"
+msgstr ""
+
+#: src/main.c:778
+msgid "Waiting for level info"
+msgstr ""
+
+#: src/main.c:800
+msgid "Connecting to  ffrenzy server failed"
+msgstr ""
+
+#: src/main.c:813
+msgid "Level parsing failed"
+msgstr ""
+
+#: src/main.c:846 src/main.c:856
+#, c-format
+msgid "Opening output file failed: %s"
+msgstr ""
+
+#: src/main.c:943
+msgid "Can't be both server and client"
+msgstr ""

@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xcfa 5.0.2\n"
+"Report-Msgid-Bugs-To: http://www.xcfa.tuxfamily.org/\n"
+"POT-Creation-Date: 2015-03-03 11:27+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src_cli/main.c:313
+#, c-format
+msgid ""
+"xcfa_cli is an implementation of xcfa in command line.\n"
+"xcfa_cli is an application for conversion, normalization, reconfiguring wav "
+"files and cut audio files ...\n"
+"\n"
+"What xcfa_cli can do:\n"
+"  - replaygain on files: flac, mp3, ogg, wavpack\n"
+"  - conversions:\n"
+"      - from files:\n"
+"         wav, flac, ape, wavpack, ogg, m4a, mpc, mp3, wma, shorten, rm, dts, "
+"aif, ac3\t\t\n"
+"      - to files:\t\t\t\n"
+"        wav, flac, ape, wavpack, ogg, m4a, mpc, mp3, aac\n"
+"  - conversion settings for file management:\n"
+"        flac, ape, wavpack, ogg, m4a, aac, mpc, mp3\n"
+"  - management tags\n"
+"  - management cue wav file\n"
+"  - manipulation of the frequency, track and bit wav files\n"
+"  - standardization on files: wav, mp3, ogg\n"
+"  - cuts (split) wav files\n"
+"  - displaying information on files\n"
+msgstr ""
+
+#: src_cli/main.c:338
+#, c-format
+msgid ""
+"  --verbose                             Verbose mode\n"
+"  -h    --help                          Print help mode and quit\n"
+"\n"
+"  -i <\"file.type\">   --input <\"file.type\">\n"
+"                                        Input name file to convert in "
+"inverted commas, by example: --input \"*.flac\"\n"
+"                                        Type input files: wav, flac, ape, "
+"wavpack, ogg, m4a, mpc, mp3, wma, shorten, rm, dts, aif, ac3\n"
+"  -o <path_dest/>    --output <path_dest/>\n"
+"                                        Destination folder. By default in "
+"the source file folder.\n"
+"  -d <wav,flac,ape,...>    --dest <wav,flac,ape,...>\n"
+"                                        Destination file: wav, flac, ape, "
+"wavpack, ogg, m4a, mpc, mp3, aac\n"
+"  -r    --recursion                     Recursive search\n"
+"  -e    --ext2src                       Extract in the source folder. This "
+"option is useful with '--recursion'\n"
+"  --nice <priority>                     Change the priority of running "
+"processes in the interval: 0 .. 20\n"
+"\n"
+"Management options with default parameters:\n"
+"\n"
+"  --op_flac <\"-5\">\n"
+"  --op_ape <\"c2000\">\n"
+"  --op_wavpack <\"-y -j1\">\n"
+"  --op_ogg <\"--quality=3\">\n"
+"  --op_m4a <\"-q 100\">\n"
+"  --op_aac <\"48\">\n"
+"  --op_mpc <\"--verbose --overwrite --insane\">\n"
+"  --op_mp3 <\"-h --nohist --noreplaygain -b 128\">\n"
+"\n"
+"Displays information about the files:\n"
+"\n"
+"  --info_files                          Displays time, level dBFS, frequency/"
+"track/quantification\n"
+"  --info_tags                           Displays tags\n"
+"  --info_head                           Displays head\n"
+"\n"
+"Management tags:\n"
+"\n"
+"  --no_tag                              The tags will not be carried\n"
+"  --tag_album <\"tags\">                  Tag of album\n"
+"  --tag_artist <\"tags\">                 Tag of artist\n"
+"  --tag_title <\"tags\">                  Tag of title\n"
+"  --tag_number <\"tags\">                 Tag of number\n"
+"  --tag_genre <\"tags\">                  Tag of genre\n"
+"  --tag_year <\"tags\">                   Tag of year\n"
+"  --tag_comment <\"tags\">                Tag of comment\n"
+"  --tag_description <\"tags\">            Tag of description\n"
+"\n"
+"Management cue file:\n"
+"  -c <info|extract>   --cue <info|extract>\n"
+"                                        info     Provides information on a "
+"WAV or CUE file.\n"
+"                                        extract  Extract all tracks of a WAV "
+"file.\n"
+"\n"
+"Management split:\n"
+"\n"
+"  -s <hh:mm:ss>   --split <hh:mm:ss>    Mark the beginning of the file to be "
+"cut.\n"
+"  -l <sec>   --length <sec>             Specifies the length of the file to "
+"cut with the seconds parameter.\n"
+"\n"
+"Changing the settings of a WAV file:\n"
+"\n"
+"  -f <num>   --frequency <num>          Changing the frequency:        8000, "
+"22000, 32000, 44056, 44100, 48000, 88200, 96000 or other\n"
+"  -t <num>   --track <num>              Changing the number of tracks: 1, 2, "
+"4, 6\n"
+"  -q <num>   --quantification <num>     Changing the quantification:   8, "
+"16, 24, 32, 64\n"
+"\n"
+"Replaygain: dynamic modification for next files: FLAC, MP3, OGG, WAVPACK\n"
+"\n"
+"  -g <clear|album|track>   --replaygain <clear|album|track>\n"
+"                                        FLAC    [ clear | album ]\n"
+"                                        MP3     [ clear | album | track ]\n"
+"                                        OGG     [ clear | album | track ]\n"
+"                                        WAVPACK [ clear | album | track ]\n"
+"\n"
+"Normalize: static modification for next files: MP3, WAV, OGG\n"
+"   See an excellent article by @Dzef on standardization: http://ubunteros."
+"tuxfamily.org/spip.php?article159\n"
+"\n"
+"  --peak                                Action on a single file.\n"
+"                                        Maximum volume amplification  for "
+"each file:\n"
+"                                        Increase the overall level of the "
+"signal so as to bring the level to 0 dBFS peak without changing dynamics.\n"
+"  --peak_album                          Action on a group of files.\n"
+"                                        Maximum volume boost for a group of "
+"files in accordance with the level of differences between each of them.\n"
+"                                        If the maximum level of one or more "
+"files is already at 0 dBFS, the level of all the selected files remain "
+"unchanged\n"
+"                                        after normalization. So this mode "
+"can be safely used almost systematically.\n"
+"  --mix_rms_album <dBFS>                Action on a group of files.\n"
+"                                        Adjusting the average volume for a "
+"group of files respecting average level of the differences between each of "
+"them.\n"
+"                                        The selecting a value for a file "
+"modifies the other files in the group.\n"
+"  --fix_rms <dBFS>                      Action on a single file.\n"
+"                                        Adjusting the average volume of each "
+"file..\n"
+"\n"
+msgstr ""
+
+#: src_cli/main.c:431
+#, c-format
+msgid "Example conversion:\n"
+msgstr ""
+
+#: src_cli/main.c:438
+#, c-format
+msgid "Conversion example with two inputs:\n"
+msgstr ""
+
+#: src_cli/main.c:443
+#, c-format
+msgid "Example split:\n"
+msgstr ""
+
+#: src_cli/main.c:450
+#, c-format
+msgid "Example cue:\n"
+msgstr ""
+
+#: src_cli/main.c:458
+#, c-format
+msgid "Example setting wav:\n"
+msgstr ""
+
+#: src_cli/main.c:463
+#, c-format
+msgid "Example replaygain:\n"
+msgstr ""
+
+#: src_cli/main.c:469
+#, c-format
+msgid "Example normalize:\n"
+msgstr ""
+
+#: src_cli/main.c:478
+#, c-format
+msgid "Example info:\n"
+msgstr ""
+
+#: src_cli/prg_init.c:54
+msgid " Decode ATSC A/52 audio streams"
+msgstr ""
+
+#: src_cli/prg_init.c:62
+msgid " AAC+ encoder"
+msgstr ""
+
+#: src_cli/prg_init.c:70
+msgid " Cherche des renseignements sur les formats mp3"
+msgstr ""
+
+#: src_cli/prg_init.c:78
+msgid " Audio Codeur freeware"
+msgstr ""
+
+#: src_cli/prg_init.c:86
+msgid " MPEG-4 AAC decodeur"
+msgstr ""
+
+#: src_cli/prg_init.c:94
+msgid " Conversion wav : flac"
+msgstr ""
+
+#: src_cli/prg_init.c:102
+msgid " Conversion wav : mp3"
+msgstr ""
+
+#: src_cli/prg_init.c:111
+msgid " Monkey's Audio Console Front End : APE"
+msgstr ""
+
+#: src_cli/prg_init.c:120 src_cli/prg_init.c:128
+msgid " MusePack commandline utilities"
+msgstr ""
+
+#: src_cli/prg_init.c:136
+msgid " Lecteur et extracteur"
+msgstr ""
+
+#: src_cli/prg_init.c:144
+msgid " Replaygain pour les fichiers mp3"
+msgstr ""
+
+#: src_cli/prg_init.c:152
+msgid " Normaliseur de fichier wav"
+msgstr ""
+
+#: src_cli/prg_init.c:160
+msgid " A program to send desktop notifications"
+msgstr ""
+
+#: src_cli/prg_init.c:168
+msgid " Forte compression au format wave"
+msgstr ""
+
+#: src_cli/prg_init.c:176
+msgid " Decoupage de fichiers sans decodage"
+msgstr ""
+
+#: src_cli/prg_init.c:184
+msgid " Transformation universelle de fichiers son"
+msgstr ""
+
+#: src_cli/prg_init.c:192
+msgid " Conversion wav : ogg"
+msgstr ""
+
+#: src_cli/prg_init.c:200
+msgid " Replaygain pour les fichiers ogg"
+msgstr ""
+
+#: src_cli/prg_init.c:208
+msgid " WAVPACK  Hybrid Lossless Audio Compressor"
+msgstr ""

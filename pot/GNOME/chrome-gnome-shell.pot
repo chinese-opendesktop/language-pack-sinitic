@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. $GS_CHROME$ is placeholder for 'GNOME Shell integration' string. This
+#. string used as title for Options page. This title is not shown in Chrome,
+#. but may be shown in other browsers.
+#.
+#. String placeholders:
+#. gs_chrome
+#.
+msgid "$GS_CHROME$ options"
+msgstr ""
+
+#. Link name for translation credits tab in options dialog.
+msgid "About translation"
+msgstr ""
+
+msgid ""
+"Although GNOME Shell integration extension is running, native host connector "
+"is not detected. Refer <a href='https://wiki.gnome.org/Projects/"
+"GnomeShellIntegrationForChrome/Installation'>documentation</a> for "
+"instructions about installing connector."
+msgstr ""
+
+msgid "An update for GNOME Shell extensions available"
+msgstr ""
+
+#. Option name. Allow enable/disable update check for GNOME Shell extensions.
+msgid "Check for GNOME Shell extensions update"
+msgstr ""
+
+#. Option name.
+msgid "Check update of enabled GNOME Shell extensions only"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Do not enable synchronization."
+msgstr ""
+
+#. Used as title, eg in table header. Means 'Does GNOME Shell extension
+#. enabled?'
+msgid "Enabled"
+msgstr ""
+
+#. Used as title, eg in table header. Means 'GNOME Shell extension name'.
+msgid "Extension"
+msgstr ""
+
+#. $CAUSE$ is placeholder for error that caused update failure.
+#.
+#. String placeholders:
+#. cause
+#.
+msgid "Failed to check GNOME Shell extensions updates: $CAUSE$"
+msgstr ""
+
+#. $CAUSE$ is placeholder for error that caused synchronization failure.
+#.
+#. String placeholders:
+#. cause
+#.
+msgid "Failed to synchronize extensions: $CAUSE$"
+msgstr ""
+
+#. This is a project title. Used as extension name in Chrome Store and in some
+#. titlebars.
+msgid "GNOME Shell integration"
+msgstr ""
+
+#. This is a notice under option name.
+msgid ""
+"If enabled, your GNOME Shell extensions list will be synchronized with your "
+"Google account."
+msgstr ""
+
+#. Used as title, eg in table header. Means 'Does GNOME Shell extension
+#. installed?'
+msgid "Installed"
+msgstr ""
+
+#. This is a start of phrase (followed by date/time) of last GNOME Shell
+#. extensions update check.
+msgid "Last check"
+msgstr ""
+
+msgid "Native host connector is not supported for your platform."
+msgstr ""
+
+#. This is a start of phrase (followed by date/time) of next GNOME Shell
+#. extensions update check.
+msgid "Next check"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+#. Means 'Web extension does not received answer from native messaging host
+#. application.'
+msgid "No host response"
+msgstr ""
+
+#. Tooltip for browser extensions icon.
+msgid "Open GNOME Shell extensions website"
+msgstr ""
+
+#. Link name for options tab.
+msgid "Options"
+msgstr ""
+
+#. Means 'Options were saved successfully after user clicked Save button'
+msgid "Options saved."
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+#. Option name. Allow to enable/disable popup with release notes when Web
+#. extension is updated.
+msgid "Show release notes when browser extension updated"
+msgstr ""
+
+#. Link name for synchronization tab in options dialog.
+msgid "Synchronization"
+msgstr ""
+
+#. Option name. Allow to enable/disable synchronization of GNOME Shell
+#. extensions with remote browser storage.
+msgid "Synchronize GNOME Shell extensions list"
+msgstr ""
+
+#. Used as title, eg in table header. Means 'Does GNOME Shell extension status
+#. synchronized with remote browser storage?'
+msgid "Synchronized"
+msgstr ""
+
+#. Used as extension description in Chrome Store
+msgid ""
+"This extension provides integration with GNOME Shell and the corresponding "
+"extensions repository https://extensions.gnome.org"
+msgstr ""
+
+#. Shown to user when native connector unable to query GNOME Shell version or
+#. settings
+msgid ""
+"Unable to locate GNOME Shell settings or version. Make sure it is installed "
+"and running."
+msgstr ""
+
+#. Option name. Allow to set interval between GNOME Shell extensions update
+#. checks.
+msgid "Update check period"
+msgstr ""
+
+#. Use light icon that is looked better with dark themes.
+msgid "Use light icon (dark theme)"
+msgstr ""
+
+msgid "Use local extensions list, overwrite remote."
+msgstr ""
+
+msgid "Use remote extensions list, overwrite local."
+msgstr ""
+
+#. Shown to user when response from connector API call does not follow known
+#. format.
+msgid "Wrong connector response received"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#. Chrome store description
+msgid ""
+"You MUST install native connector for this extension to work.\n"
+"\n"
+"For Arch Linux there is a PKGBUILD available in the AUR: https://aur."
+"archlinux.org/packages/chrome-gnome-shell-git\n"
+"\n"
+"For Debian, Fedora, Gentoo and Ubuntu you can install package named \"chrome-"
+"gnome-shell\".\n"
+"\n"
+"You also can install connector manually. See https://wiki.gnome.org/Projects/"
+"GnomeShellIntegrationForChrome/Installation for install instructions.\n"
+msgstr ""
+
+#. $$1 is a placeholder for a list of missing APIs
+msgid ""
+"Your native host connector do not support following APIs: $$1. Probably you "
+"should upgrade native host connector or install plugins for missing APIs. "
+"Refer <a href='https://wiki.gnome.org/Projects/"
+"GnomeShellIntegrationForChrome/Installation'>documentation</a> for "
+"instructions."
+msgstr ""
+
+msgid ""
+"Your native host connector does not support check for GNOME Shell extensions "
+"updates. Probably python-requests package is missing."
+msgstr ""
+
+msgid ""
+"Your native host connector does not support updates check for enabled GNOME "
+"Shell extensions only. Consider update."
+msgstr ""
+
+msgid "Your remote synchronization storage already contains extensions list."
+msgstr ""
+
+#. This is a part of phrase like 'Extension Top Icons can be upgraded'.
+msgid "can be upgraded"
+msgstr ""
+
+#. This is a part of phrase 'Update check period: xx hours'
+msgid "hours"
+msgstr ""
+
+#. This is a part of phrase like 'Extension Top Icons must be downgraded'.
+msgid "must be downgraded"
+msgstr ""
+
+#. This is a part of phrase 'Last check: never'
+msgid "never"
+msgstr ""
+
+#. This is content of 'About translation' tab in Options dialog. Thank you for
+#. translation and feel free to add yourself here. HTML markup enabled for
+#. this string. New line character is treated as line break (<br />)
+msgid "translation_credits"
+msgstr ""
+
+#. This should newer be shown to user. However better safe than sorry.
+msgid "unknown error"
+msgstr ""
+
+#. $REQUEST$ is a placeholder for technical name of request that web extension
+#. make via native messaging host application.
+#.
+#. String placeholders:
+#. request
+#.
+msgid "«$REQUEST$» native request failed"
+msgstr ""

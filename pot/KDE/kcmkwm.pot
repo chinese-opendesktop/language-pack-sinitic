@@ -1,0 +1,672 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "   + "
+msgstr ""
+
+msgid " ms"
+msgstr ""
+
+msgid " pixel"
+msgstr ""
+
+msgid "&Border snap zone:"
+msgstr ""
+
+msgid "&Center snap zone:"
+msgstr ""
+
+msgid "&Delay focus by"
+msgstr ""
+
+msgid "&Double-click:"
+msgstr ""
+
+msgid "&Enable hover"
+msgstr ""
+
+msgid "&Focus"
+msgstr ""
+
+msgid "&Left button:"
+msgstr ""
+
+msgid "&Moving"
+msgstr ""
+
+msgid "&Placement:"
+msgstr ""
+
+msgid "&Raise on hover, delayed by"
+msgstr ""
+
+msgid "&Right button:"
+msgstr ""
+
+msgid "&Titlebar Actions"
+msgstr ""
+
+msgid "&Wheel"
+msgstr ""
+
+msgid "&Window snap zone:"
+msgstr ""
+
+msgid "(c) 1997 - 2002 KWin and KControl Authors"
+msgstr ""
+
+msgid ""
+"<b>Click To Focus - Mouse Precedence</b><br>\n"
+"This is mostly the same as <i>Click To Focus</i><br><br>\n"
+"If an active window has to be chosen by the system<br>\n"
+"(eg. because the currently active one was closed) <br>\n"
+"the window under the mouse is the preferred candidate.<br><br>\n"
+"Unusual, but possible variant of <i>Click To Focus</i>."
+msgstr ""
+
+msgid ""
+"<b>Click To Focus</b><br>\n"
+"A window becomes active when you click into it.<br><br>\n"
+"This behaviour is common on other operating systems and<br>\n"
+"likely what you want."
+msgstr ""
+
+msgid ""
+"<b>Focus Follows Mouse - Mouse Precedence</b><br>\n"
+"This is mostly the same as <i>Focus Follows Mouse</i><br><br>\n"
+"If an active window has to be chosen by the system<br>\n"
+"(eg. because the currently active one was closed) <br>\n"
+"the window under the mouse is the preferred candidate.<br><br>\n"
+"Choose this, if you want a hover controlled focus."
+msgstr ""
+
+msgid ""
+"<b>Focus Follows Mouse</b><br>\n"
+"Moving the mouse onto a window will activate it.<br><br>\n"
+"Eg. windows randomly appearing under the mouse will not gain the focus.<br>\n"
+"Focus stealing prevention takes place as usual.<br><br>\n"
+"Think as <i>Click To Focus</i> just without having to actually click."
+msgstr ""
+
+msgid ""
+"<b>Focus Strictly Under Mouse</b><br>\n"
+"The focus is always on the window under the mouse - in doubt nowhere -<br>\n"
+"very much like the focus behaviour in an unmanaged legacy X11 environment."
+"<br><br>\n"
+"\n"
+"Notice:<br>\n"
+"<b>Focus stealing prevention</b> and the <b>tabbox (\"Alt+Tab\")</b><br>\n"
+"contradict the policy and <b>will not work</b>.<br><br>\n"
+"You very likely want to use<br>\n"
+"<i>Focus Follows Mouse - Mouse Precedence</i> instead!"
+msgstr ""
+
+msgid ""
+"<b>Focus Under Mouse</b><br>\n"
+"The focus always remains on the window under the mouse.<br><br>\n"
+"\n"
+"Notice:<br>\n"
+"<b>Focus stealing prevention</b> and the <b>tabbox (\"Alt+Tab\")</b><br>\n"
+"contradict the policy and <b>will not work</b>.<br><br>\n"
+"You very likely want to use<br>\n"
+"<i>Focus Follows Mouse - Mouse Precedence</i> instead!"
+msgstr ""
+
+msgid ""
+"<p><h1>Window Behavior</h1> Here you can customize the way windows behave "
+"when being moved, resized or clicked on. You can also specify a focus policy "
+"as well as a placement policy for new windows.</p> <p>Please note that this "
+"configuration will not take effect if you do not use KWin as your window "
+"manager. If you do use a different window manager, please refer to its "
+"documentation for how to customize window behavior.</p>"
+msgstr ""
+
+msgid ""
+"<p>This option specifies how much KWin will try to prevent unwanted focus "
+"stealing caused by unexpected activation of new windows. (Note: This feature "
+"does not work with the Focus Under Mouse or Focus Strictly Under Mouse focus "
+"policies.)\n"
+"<ul>\n"
+"<li><em>None:</em> Prevention is turned off and new windows always become "
+"activated.</li>\n"
+"<li><em>Low:</em> Prevention is enabled; when some window does not have "
+"support for the underlying mechanism and KWin cannot reliably decide whether "
+"to activate the window or not, it will be activated. This setting may have "
+"both worse and better results than the medium level, depending on the "
+"applications.</li>\n"
+"<li><em>Medium:</em> Prevention is enabled.</li>\n"
+"<li><em>High:</em> New windows get activated only if no window is currently "
+"active or if they belong to the currently active application. This setting "
+"is probably not really usable when not using mouse focus policy.</li>\n"
+"<li><em>Extreme:</em> All windows must be explicitly activated by the user.</"
+"li>\n"
+"</ul></p>\n"
+"<p>Windows that are prevented from stealing focus are marked as demanding "
+"attention, which by default means their taskbar entry will be highlighted. "
+"This can be changed in the Notifications control module.</p>"
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Activate & Lower"
+msgstr ""
+
+msgid "Activate & Pass Click"
+msgstr ""
+
+msgid "Activate & Raise"
+msgstr ""
+
+msgid "Activate & Scroll"
+msgstr ""
+
+msgid "Activate, Raise & Move"
+msgstr ""
+
+msgid "Activate, Raise & Pass Click"
+msgstr ""
+
+msgid "Activate, Raise & Scroll"
+msgstr ""
+
+msgid "Activating windows"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Active screen follows &mouse"
+msgstr ""
+
+msgid "Ad&vanced"
+msgstr ""
+
+msgid "Alt"
+msgstr ""
+
+msgid "Automatically group similar windows"
+msgstr ""
+
+msgid "Behavior on <em>double</em> click into the titlebar."
+msgstr ""
+
+msgid ""
+"Behavior on <em>left</em> click into the titlebar or frame of an <em>active</"
+"em> window."
+msgstr ""
+
+msgid ""
+"Behavior on <em>left</em> click into the titlebar or frame of an "
+"<em>inactive</em> window."
+msgstr ""
+
+msgid "Behavior on <em>left</em> click onto the maximize button."
+msgstr ""
+
+msgid ""
+"Behavior on <em>middle</em> click into the titlebar or frame of an "
+"<em>active</em> window."
+msgstr ""
+
+msgid "Behavior on <em>middle</em> click onto the maximize button."
+msgstr ""
+
+msgid ""
+"Behavior on <em>right</em> click into the titlebar or frame of an "
+"<em>active</em> window."
+msgstr ""
+
+msgid "Behavior on <em>right</em> click onto the maximize button."
+msgstr ""
+
+msgid "Bernd Wuebben"
+msgstr ""
+
+msgid "C&lick raises active window"
+msgstr ""
+
+msgid "Cascade"
+msgstr ""
+
+msgid "Centered"
+msgstr ""
+
+msgid "Change Opacity"
+msgstr ""
+
+msgid "Click"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Cristian Tibirna"
+msgstr ""
+
+msgid "Daniel Molkentin"
+msgstr ""
+
+msgid "Decrease Opacity"
+msgstr ""
+
+msgid "Dela&y:"
+msgstr ""
+
+msgid "Display window &geometry when moving or resizing"
+msgstr ""
+
+msgid ""
+"Enable this option if you want a window's geometry to be displayed while it "
+"is being moved or resized. The window position relative to the top-left "
+"corner of the screen is displayed together with its size."
+msgstr ""
+
+msgid "Extreme"
+msgstr ""
+
+msgid "Focus &stealing prevention"
+msgstr ""
+
+msgid "Handle mouse wheel events"
+msgstr ""
+
+msgid ""
+"Here you can customize KDE's behavior when scrolling with the mouse wheel in "
+"a window while pressing the modifier key."
+msgstr ""
+
+msgid ""
+"Here you can set that windows will be only snapped if you try to overlap "
+"them, i.e. they will not be snapped if the windows comes only near another "
+"window or border."
+msgstr ""
+
+msgid ""
+"Here you can set the snap zone for screen borders, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the border when moved "
+"near it."
+msgstr ""
+
+msgid ""
+"Here you can set the snap zone for the screen center, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the center of the screen "
+"when moved near it."
+msgstr ""
+
+msgid ""
+"Here you can set the snap zone for windows, i.e. the 'strength' of the "
+"magnetic field which will make windows snap to each other when they are "
+"moved near another window."
+msgstr ""
+
+msgid ""
+"Here you select whether holding the Meta key or Alt key will allow you to "
+"perform the following actions."
+msgstr ""
+
+msgid "Hide inactive window tabs from the taskbar"
+msgstr ""
+
+msgid "Hide utility windows for inactive applications"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Hover"
+msgstr ""
+
+msgid ""
+"If Shade Hover is enabled, a shaded window will un-shade automatically when "
+"the mouse pointer has been over the title bar for some time."
+msgstr ""
+
+msgid ""
+"In this column you can customize mouse clicks into the titlebar or the frame "
+"of an active window."
+msgstr ""
+
+msgid ""
+"In this column you can customize mouse clicks into the titlebar or the frame "
+"of an inactive window."
+msgstr ""
+
+msgid ""
+"In this row you can customize behavior when scrolling into an inactive inner "
+"window ('inner' means: not titlebar, not frame)."
+msgstr ""
+
+msgid ""
+"In this row you can customize left click behavior when clicking into an "
+"inactive inner window ('inner' means: not titlebar, not frame)."
+msgstr ""
+
+msgid ""
+"In this row you can customize left click behavior when clicking into the "
+"titlebar or the frame."
+msgstr ""
+
+msgid ""
+"In this row you can customize middle click behavior when clicking into an "
+"inactive inner window ('inner' means: not titlebar, not frame)."
+msgstr ""
+
+msgid ""
+"In this row you can customize middle click behavior when clicking into the "
+"titlebar or the frame."
+msgstr ""
+
+msgid ""
+"In this row you can customize right click behavior when clicking into an "
+"inactive inner window ('inner' means: not titlebar, not frame)."
+msgstr ""
+
+msgid ""
+"In this row you can customize right click behavior when clicking into the "
+"titlebar or the frame."
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Inactive Inner Window"
+msgstr ""
+
+msgid "Increase Opacity"
+msgstr ""
+
+msgid "Inner Window, Titlebar & Frame"
+msgstr ""
+
+msgid "Keep Above/Below"
+msgstr ""
+
+msgid "Left &button"
+msgstr ""
+
+msgid "Left button:"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Lower"
+msgstr ""
+
+msgid "M&iddle button:"
+msgstr ""
+
+msgid "M&ouse wheel:"
+msgstr ""
+
+msgid "Matthias Ettrich"
+msgstr ""
+
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr ""
+
+msgid "Matthias Kalle Dalheimer"
+msgstr ""
+
+msgid "Maximize"
+msgstr ""
+
+msgid "Maximize (horizontal only)"
+msgstr ""
+
+msgid "Maximize (vertical only)"
+msgstr ""
+
+msgid "Maximize Button"
+msgstr ""
+
+msgid "Maximize/Restore"
+msgstr ""
+
+msgid "Maximizing"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Meta"
+msgstr ""
+
+msgid "Middle b&utton:"
+msgstr ""
+
+msgid "Middle button:"
+msgstr ""
+
+msgid "Minimize"
+msgstr ""
+
+msgid "Modifier &key:"
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Move to Previous/Next Desktop"
+msgstr ""
+
+msgid "Multiscreen behaviour"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Nothing"
+msgstr ""
+
+msgid "On All Desktops"
+msgstr ""
+
+msgid "Operations Menu"
+msgstr ""
+
+msgid "Pat Dowler"
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid "Raise"
+msgstr ""
+
+msgid "Raise/Lower"
+msgstr ""
+
+msgid "Raising windows"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Resize"
+msgstr ""
+
+msgid "Ri&ght button:"
+msgstr ""
+
+msgid "Right button:"
+msgstr ""
+
+msgid "S&eparate screen focus"
+msgstr ""
+
+msgid "Scroll"
+msgstr ""
+
+msgid ""
+"Sets the time in milliseconds before the window unshades when the mouse "
+"pointer goes over the shaded window."
+msgstr ""
+
+msgid "Shade"
+msgstr ""
+
+msgid "Shade/Unshade"
+msgstr ""
+
+msgid "Shading"
+msgstr ""
+
+msgid "Smart"
+msgstr ""
+
+msgid "Snap Zones"
+msgstr ""
+
+msgid "Snap windows onl&y when overlapping"
+msgstr ""
+
+msgid "Special Windows"
+msgstr ""
+
+msgid "Start Window Tab Drag"
+msgstr ""
+
+msgid "Switch to Window Tab to the Left/Right"
+msgstr ""
+
+msgid "Switch to automatically grouped windows immediately"
+msgstr ""
+
+msgid ""
+"The placement policy determines where a new window will appear on the "
+"desktop.<br><ul>\n"
+"<li><em>Smart</em> will try to achieve a minimum overlap of windows</li>\n"
+"<li><em>Maximizing</em> will try to maximize every window to fill the whole "
+"screen. It might be useful to selectively affect placement of some windows "
+"using the window-specific settings.</li>\n"
+"<li><em>Cascade</em> will cascade the windows</li>\n"
+"<li><em>Random</em> will use a random position</li>\n"
+"<li><em>Centered</em> will place the window centered</li>\n"
+"<li><em>Zero-Cornered</em> will place the window in the top-left corner</"
+"li>\n"
+"<li><em>Under Mouse</em> will place the window under the pointer</li>\n"
+"</ul>"
+msgstr ""
+
+msgid ""
+"This is the delay after which the window that the mouse pointer is over will "
+"automatically come to the front."
+msgstr ""
+
+msgid ""
+"This is the delay after which the window the mouse pointer is over will "
+"automatically receive focus."
+msgstr ""
+
+msgid "Titlebar"
+msgstr ""
+
+msgid "Titlebar & Frame"
+msgstr ""
+
+msgid "Toggle Raise & Lower"
+msgstr ""
+
+msgid "Under Mouse"
+msgstr ""
+
+msgid "Waldo Bastian"
+msgstr ""
+
+msgid "Wheel event:"
+msgstr ""
+
+msgid ""
+"When this option is enabled, a window in the background will automatically "
+"come to the front when the mouse pointer has been over it for some time."
+msgstr ""
+
+msgid ""
+"When this option is enabled, focus operations are limited only to the active "
+"Xinerama screen"
+msgstr ""
+
+msgid ""
+"When this option is enabled, the active Xinerama screen (where new windows "
+"appear, for example) is the screen containing the mouse pointer. When "
+"disabled, the active Xinerama screen is the screen containing the focused "
+"window. By default this option is disabled for Click to focus and enabled "
+"for other focus policies."
+msgstr ""
+
+msgid ""
+"When this option is enabled, the active window will be brought to the front "
+"when you click somewhere into the window contents. To change it for inactive "
+"windows, you need to change the settings in the Actions tab."
+msgstr ""
+
+msgid ""
+"When turned on attempt to automatically detect when a newly opened window is "
+"related to an existing one and place them in the same window group."
+msgstr ""
+
+msgid "When turned on hide all tabs that are not active from the taskbar."
+msgstr ""
+
+msgid ""
+"When turned on immediately switch to any new window tabs that were "
+"automatically added to the current group."
+msgstr ""
+
+msgid ""
+"When turned on, utility windows (tool windows, torn-off menus,...) of "
+"inactive applications will be hidden and will be shown only when the "
+"application becomes active. Note that applications have to mark the windows "
+"with the proper window type for this feature to work."
+msgstr ""
+
+msgid "Window Actio&ns"
+msgstr ""
+
+msgid "Window Behavior Configuration Module"
+msgstr ""
+
+msgid "Window Tabbing"
+msgstr ""
+
+msgid "Windows"
+msgstr ""
+
+msgid "Wynn Wilkes"
+msgstr ""
+
+msgid "Your emails"
+msgstr ""
+
+msgid "Your names"
+msgstr ""
+
+msgid "Zero-Cornered"
+msgstr ""
+
+msgid "no border snap zone"
+msgstr ""
+
+msgid "no center snap zone"
+msgstr ""
+
+msgid "no window snap zone"
+msgstr ""

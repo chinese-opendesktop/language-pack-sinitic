@@ -1,0 +1,1768 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Translators: Text displayed in the bottom bar; second part (and end) of a sentence like "One gsettings operation and 2 dconf operations delayed.", so:
+#. * the space before the "and" is probably wanted, if you keeped the "%s%s" translation as-is, and
+#. * the "delayed" refers to both the gsettings and dconf operations (at least one of each).
+#. Also, "dconf" is a technical term, notably a shell command, so you probably should not translate it.
+#, c-format
+msgid " and one dconf operation delayed. and %u dconf operations delayed."
+msgstr ""
+
+#. Translators: text copied when the users request a copy while an erased key is selected; the %s is the key path
+#, c-format
+msgid "%s (key erased)"
+msgstr ""
+
+#. Translators: header displayed in the keys list during a search only; indicates that the schema (the %s is the schema id) is installed at the path where the search has started
+#, c-format
+msgid "%s (local keys)"
+msgstr ""
+
+#. Translators: Text displayed in the bottom bar. Hacky: I split a sentence like "One gsettings operation and 2 dconf operations delayed." in two parts, before the "and"; there is at least one gsettings operation and one dconf operation. So, you can either keep "%s%s" like that, and have the second part of the translation starting with a space (if that makes sense in your language), or you might use "%s %s" here.
+#, c-format
+msgid "%s%s"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 type-conflict'
+msgid "A (simple) string conflicting key that should give a error"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-enum'
+msgid "A 1-choice enumeration"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-range'
+msgid "A 1-choice integer value"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-16-signed'
+msgid "A 16-bit signed integer. See also the “integer-16-unsigned” key."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-16-unsigned'
+msgid "A 16-bit unsigned integer. See also the “integer-16-signed” key."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/relocatable/integer' (with default /ca/desrt/dconf-editor/relocatable-* settings)
+msgid "A 32-bit signed integer, defined by a relocatable schema."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-32-signed'
+msgid "A 32-bit signed integer. See also the “integer-32-unsigned” key."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-32-unsigned'
+msgid "A 32-bit unsigned integer. See also the “integer-32-signed” key."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/enumeration'
+msgid "A 5-choices enumeration"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-64-signed'
+msgid "A 64-bit signed integer. See also the “integer-64-unsigned” key."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-64-unsigned'
+msgid "A 64-bit unsigned integer. See also the “integer-64-signed” key."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-handle'
+msgid "A D-Bus handle type, type ‘h’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path-array'
+msgid "A D-Bus object path array, type ‘ao’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path'
+msgid "A D-Bus object path, type ‘o’"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-signature'
+msgid ""
+"A D-Bus signature is a string used as type signature for a D-Bus method or "
+"message. If you are not interacting with D-Bus, then there is no reason to "
+"make use of this type."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-signature'
+msgid "A D-Bus signature, type ‘g’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean'
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/relocatable/boolean' (with default /ca/desrt/dconf-editor/relocatable-* settings)
+msgid "A boolean, type ‘b’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/byte'
+msgid "A byte (unsigned), type ‘y’"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/byte'
+msgid ""
+"A byte value is an integer between 0 and 255. It may be used to pass around "
+"characters."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/bytestring-array'
+msgid "A bytestring array, type ‘aay’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/bytestring'
+msgid "A bytestring, type ‘ay’"
+msgstr ""
+
+#. Translators: do not forget the parenthesis, they are meaningful; summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/pair-of-integers'
+msgid "A custom type, here ‘(ii)’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dict-entry'
+msgid "A dictionary entry of type ‘{ss}’"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dict-entry'
+msgid ""
+"A dictionary maps values of a basic type to another value (of any type). A "
+"dictionary entry is one such mapping."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dictionary'
+msgid ""
+"A dictionary maps values of a basic type to another value (of any type). One "
+"simple use case is to map strings to variants."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/relocatable-schemas-user-paths'
+msgid ""
+"A dictionary that maps schema IDs with path specifications. It is used to "
+"allow the user to associate a relocatable schema to certain paths. Path "
+"specifications may contain wildcards in the form of empty segments (e.g. /ca/"
+"desrt/dconf-editor//), defining possibly multiple paths. The same schema ID "
+"may be associated with multiple path specifications."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/double'
+msgid "A double value could represent any real number."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/double'
+msgid "A double, type ‘d’"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/use-shortpaths'
+msgid "A flag for skipping unnecessary subfolders"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/refresh-settings-schema-source'
+msgid "A flag to check for added or removed schemas"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/window-is-maximized'
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/window-is-maximized'
+msgid "A flag to enable maximized mode"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-bookmarks-rows'
+msgid "A flag to enable small rows for bookmarks list"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-keys-list-rows'
+msgid "A flag to enable small rows for keys list"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/restore-view'
+msgid "A flag to restore the last view"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/sort-case-sensitive'
+msgid "A flag to sort keys list case-sensitively"
+msgstr ""
+
+msgid "A graphical tool for editing the dconf database"
+msgstr ""
+
+#. Translators: about dialog text
+msgid "A graphical viewer and editor of applications’ internal settings."
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/bookmarks'
+msgid "A list of bookmarked paths"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-64-signed'
+msgid "A long integer, type ‘x’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 a-non-conflicting-key'
+msgid "A normal non-conflicting key from Conflict1"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 another-non-conflicting-key'
+msgid "A normal non-conflicting key from Conflict2"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean-nullable'
+msgid "A nullable boolean, type ‘mb’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/string-nullable'
+msgid "A nullable string, type ‘ms’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 type-conflict'
+msgid "A nullable-string conflicting key that should give an error"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/number-with-range'
+msgid "A number with range"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/saved-view'
+msgid "A path to restore the last view"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/saved-pathbar-path'
+msgid "A path to restore the pathbar state"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-range'
+msgid ""
+"A range could limit an integer key to only allow one value, but that’s "
+"probably an error. Dconf Editor warns you in that case."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-16-signed'
+msgid "A short integer, type ‘n’"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/string-array'
+msgid ""
+"A string array contains any number of strings of whatever length. It may be "
+"an empty array, “[]”."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/string-array'
+msgid "A string array, type ‘as’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/string'
+msgid "A string, type ‘s’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/variant'
+msgid "A variant, type ‘v’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dictionary'
+msgid "A “vardict”, type ‘a{sv}’"
+msgstr ""
+
+#. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the label of one of two buttons that have the same role as the stack switcher in the usual about dialog, the second is "Credits"
+#. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the name of the view, displayed in the headerbar
+#. Translators: Shift-F1 action; opens the About dialog
+msgid "About"
+msgstr ""
+
+#. Translators: usual menu entry of the hamburger menu
+msgid "About Dconf Editor"
+msgstr ""
+
+#. Translators: accessible name of the hamburger menu
+#. Translators: header in the shortcut window, for usual headerbar menus actions
+msgid "Actions"
+msgstr ""
+
+#. Translators: F10 key action
+msgid "Actions menu"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-enum'
+msgid ""
+"An enumeration could contain only one item, but that’s probably an error. "
+"Dconf Editor warns you in that case."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path-array'
+msgid ""
+"An object path array could contain any number of object paths (including "
+"none: “[]”). If you are not interacting with D-Bus, then there is no reason "
+"to make use of this type."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-object-path'
+msgid ""
+"An object path is used to identify D-Bus objects at a given destination on "
+"the bus. If you are not interacting with D-Bus, then there is no reason to "
+"make use of this type."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-64-unsigned'
+msgid "An unsigned long integer, type ‘t’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-16-unsigned'
+msgid "An unsigned short integer, type ‘q’"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-32-unsigned'
+msgid "An unsigned usual integer, type ‘u’"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/relocatable/boolean' (with default /ca/desrt/dconf-editor/relocatable-* settings)
+msgid "An usual boolean value, defined by a relocatable schema."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/integer-32-signed'
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/relocatable/integer' (with default /ca/desrt/dconf-editor/relocatable-* settings)
+msgid "An usual integer, type ‘i’"
+msgstr ""
+
+#. Translators: when a change is requested, on a small window, entry of the menu of the "delayed settings button" that appears in place of the close button
+#. Translators: when there are pending changes, label of the "apply" button in the bottom bar, on large windows
+msgid "Apply"
+msgstr ""
+
+#. Translators: when in delayed mode, on a small window, entry of the "three-dots menu" that appears when showing the pending changes list (if there is pending changes)
+msgid "Apply all"
+msgstr ""
+
+#. Translators: Ctrl-Shift-Q action
+msgid "Apply pending changes and quit"
+msgstr ""
+
+#. Translators: command-line header description, see 'dconf-editor --help'
+msgid "Arguments description:"
+msgstr ""
+
+#. Translators: hamburger menu entry on small windows, to bookmark the currently browsed path
+msgid "Bookmark"
+msgstr ""
+
+#. Translators: label of the switch in the bookmarks popover, when browsing
+msgid "Bookmark this Location"
+msgstr ""
+
+#. Translators: label of the switch in the bookmarks popover, when searching
+msgid "Bookmark this Search"
+msgstr ""
+
+#. Translators: Ctrl-D action
+msgid "Bookmark this path"
+msgstr ""
+
+#. Translators: on really small windows, the bookmarks popover is replaced by an in-window view; here is the name of the view, displayed in the headerbar
+#. Translators: accessible name of the button for opening the bookmarks popover
+#. Translators: header displayed in the keys list during a search only; indicates that the following results are found in the user bookmarks
+msgid "Bookmarks"
+msgstr ""
+
+#. Translators: Ctrl-B action
+msgid "Bookmarks menu"
+msgstr ""
+
+#. Translators: placeholder text of the bookmarks list, displayed when the user has no bookmarks
+msgid ""
+"Bookmarks will\n"
+"be added here"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "Boolean"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean'
+msgid "Booleans can only take two values, “true” or “false”."
+msgstr ""
+
+#. Translators: Escape key action, when searching; cancels search
+msgid "Browse keys tree"
+msgstr ""
+
+msgid "Browse the keys used by installed applications"
+msgstr ""
+
+#. Translators: notification text at startup, use 'dconf-editor /org/example/test'; the %s is the key path
+#, c-format
+msgid "Cannot find key “%s”."
+msgstr ""
+
+#. Translators: command-line error message, try 'dconf-editor / a'
+msgid "Cannot understand second argument in this context.\n"
+msgstr ""
+
+#. Translators: command-line error message, try 'dconf-editor //'
+msgid "Cannot understand: given path contains “//”.\n"
+msgstr ""
+
+#. Translators: command-line error message, try 'dconf-editor org.example /'
+msgid "Cannot understand: slash character in second argument.\n"
+msgstr ""
+
+#. Translators: command-line error message, try 'dconf-editor "org example" a'
+msgid "Cannot understand: space character in argument.\n"
+msgstr ""
+
+#. Translators: command-line error message, try 'dconf-editor a b c d'
+msgid "Cannot understand: too many arguments.\n"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/behaviour'
+msgid "Change the behaviour of a key value change request"
+msgstr ""
+
+#. Translators: Text displayed in the bottom bar; displayed if there are no pending changes, to document what is the "delay mode".
+msgid "Changes will be delayed until you request it."
+msgstr ""
+
+#. Translators: header in the shortcut window, for the copy-to-clipboard actions
+msgid "Clipboard"
+msgstr ""
+
+#. Translators: accessible name of the "close" button that is linked with the search entry on small windows
+msgid "Close search"
+msgstr ""
+
+#. Translators: accessible description of the "close" button that is linked with the search entry on small windows
+msgid "Close search results"
+msgstr ""
+
+#. Translators: a GenericName that gives the application goal, as defined in the desktop file spec
+msgid "Configuration editor for dconf"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 default-value-conflict'
+msgid "Conflicting key defaulting to “1” that should give an error"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 default-value-conflict'
+msgid "Conflicting key defaulting to “2” that should give an error"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 warning-similar'
+msgid "Conflicting key from Conflict1 that should give a warning"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 warning-similar'
+msgid "Conflicting key from Conflict2 that should give a warning"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 range-conflict'
+msgid "Conflicting key with no range that should give an error"
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 range-conflict'
+msgid "Conflicting key with range 0~5 that should give an error"
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/bookmarks'
+msgid "Contains all paths bookmarked by the user as an array of strings."
+msgstr ""
+
+#. Translators: Menu key action, when browsing
+msgid "Contextual menu"
+msgstr ""
+
+#. Translators: notification header, try ctrl-c while in the keys list
+msgid "Copied to clipboard"
+msgstr ""
+
+#. Translators: "copy to clipboard" action in the right-click menu on the list of keys
+msgid "Copy"
+msgstr ""
+
+#. Translators: menu entry of the pathbar menu
+msgid "Copy current path"
+msgstr ""
+
+#. Translators: Ctrl-C action; copies to clipboard something that identifies the current selection (schema, name and value, for a gsettings key)
+msgid "Copy descriptor"
+msgstr ""
+
+#. Translators: Ctrl-Shift-C action; copies to clipboard the path of the currently browsed key or folder
+msgid "Copy path"
+msgstr ""
+
+#. Translators: about dialog text
+msgid ""
+"Copyright © 2010-2014 – Canonical Ltd\n"
+"Copyright © 2017-2018 – Davi da Silva Böger\n"
+"Copyright © 2015-2019 – Arnaud Bonatti"
+msgstr ""
+
+#. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the header of the programmers names
+msgid "Creators"
+msgstr ""
+
+#. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the label of one of two buttons that have the same role as the stack switcher in the usual about dialog, the first is "About"
+msgid "Credits"
+msgstr ""
+
+#. Translators: field description when displaying key properties; the current value of the key
+msgid "Current value"
+msgstr ""
+
+#. Translators: accessible description of the hamburger menu
+msgid "Current view actions"
+msgstr ""
+
+#. Translators: field description when displaying key properties; the field content is a widget that allows setting the value of the key (depending of its type, an entry, a switch, etc.)
+msgid "Custom value"
+msgstr ""
+
+#. Translators: "open key-editor page" action in the right-click menu on the list of keys
+msgid "Customize…"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense); this handle type is an index; you may maintain the word "handle"
+#. Translators: that's the name of a data type; non capitalized (if that makes sense); this handle type is an index; you may maintain the word "handle"
+msgid "D-Bus handle type"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "D-Bus object path"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "D-Bus object path array"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "D-Bus signature"
+msgstr ""
+
+#. Translators: field content when displaying key properties; the field description is "Defined by", this text is displayed if the key is not defined by a schema (the value is given by dconf but cannot be used by the GSettings functions)
+msgid "DConf backend"
+msgstr ""
+
+msgid "Dconf Editor"
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/refresh-settings-schema-source'
+msgid ""
+"Dconf Editor can monitor if schemas are added or removed from the multiple "
+"possible locations. That’s done by checking every three seconds if the "
+"schemas list has changed. As this way to do is suboptimal, this function can "
+"be disabled by setting this flag to “false”. Note that this option will be "
+"removed when a better way to do things is found."
+msgstr ""
+
+msgid ""
+"Dconf Editor is a tool to allow direct editing of the dconf configuration "
+"database. This is useful when developing applications that use these "
+"settings."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/pair-of-integers'
+msgid ""
+"Dconf Editor lets you edit any settings type supported by GSettings, falling "
+"back on a string entry when it doesn’t have a better way to do. Here is a "
+"tuple of two 32-bit signed integers."
+msgstr ""
+
+#. Translators: field description when displaying key properties; the default value of the key (defined if it has a schema)
+msgid "Default"
+msgstr ""
+
+#. Translators: displayed in the list of pending changes (could be an in-window panel, or in the popover of the bottom bar); for gsettings keys
+#. Translators: "reset key value" option of a multi-choice list (checks or radios) in the right-click menu on the list of keys
+#. Translators: field content when displaying key properties; the field description is "Current value", and as the default value of the key is written near, there's just this text displayed if the key uses its default value
+msgid "Default value"
+msgstr ""
+
+#. Translators: field description when displaying key properties; the key can be defined by a schema or by the dconf engine
+msgid "Defined by"
+msgstr ""
+
+#. Translators: placeholder text of the list of pending modifications, displayed when the user is in delayed mode but has no pending modifications
+msgid ""
+"Delayed mode is on\n"
+"but\n"
+"no pending changes"
+msgstr ""
+
+#. Translators: field description when displaying key properties; a description describing deeply the key use
+msgid "Description"
+msgstr ""
+
+#. Translators: a Comment that gives the application function, as defined in the desktop file spec
+msgid "Directly edit your entire configuration database"
+msgstr ""
+
+#. Translators: when a change is requested, on a small window, entry of the menu of the "delayed settings button" that appears in place of the close button
+msgid "Dismiss"
+msgstr ""
+
+#. Translators: when in delayed mode, on a small window, entry of the "three-dots menu" that appears when showing the pending changes list (if there is pending changes)
+msgid "Dismiss all"
+msgstr ""
+
+#. Translators: "dismiss change" action in the right-click menu on a key with pending changes
+msgid "Dismiss change"
+msgstr ""
+
+#. Translators: Ctrl-Delete action in the list of pending modifications; dismisses the selected modification
+msgid "Dismiss modification"
+msgstr ""
+
+#. Translators: Alt-F4 action
+msgid "Dismiss pending changes and quit"
+msgstr ""
+
+#. Translators: "dismiss change" action in the right-click menu on a key without schema planned to be erased
+msgid "Do not erase"
+msgstr ""
+
+#. Translators: command-line option description, see 'dconf-editor --help'; the option removes the initial "use at your own risks" dialog
+msgid "Do not show initial warning"
+msgstr ""
+
+#. Translators: initial "use at your own risk" dialog, the warning text
+msgid "Don’t forget that some options may break applications, so be careful."
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "Double"
+msgstr ""
+
+#. Translators: label of one of the two buttons of the bookmarks list, to switch between using the bookmarks and editing the list; the first is "Use"
+msgid "Edit"
+msgstr ""
+
+#. Translators: Ctrl-Shift-L action when browsing; opens search on parent path
+msgid "Edit parent path"
+msgstr ""
+
+#. Translators: Ctrl-L action when browsing; opens search on current path
+msgid "Edit path"
+msgstr ""
+
+#. Translators: '/' key action when browsing; opens search on root path
+msgid "Edit root path"
+msgstr ""
+
+msgid ""
+"Editing your configuration directly is an advanced feature and may cause "
+"applications to not work correctly."
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "Empty tuple"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/relocatable-schemas-enabled-mappings'
+msgid "Enabled relocatable schema mapping facilities"
+msgstr ""
+
+#. Translators: hamburger menu entry, to enter in a special mode called "delay mode" where changes are not applied until validation
+msgid "Enter delay mode"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "Enumeration"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/enumeration'
+msgid ""
+"Enumerations could be done either with the “enum” attribute, or with a "
+"“choices” tag."
+msgstr ""
+
+#. Translators: "erase key" action in the right-click menu on a key without schema
+#. Translators: "erase key" option in the right-click menu on a key without schema when on delayed mode
+#. Translators: label of the action button of an infobar, when a key is not defined by a schema
+msgid "Erase key"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/number-with-range'
+msgid ""
+"Every numeral setting (integers and unsigned integers of every type, plus "
+"doubles) could be limited to a custom range of values. For example, this "
+"integer could only take a value between -2 and 10."
+msgstr ""
+
+#. Translators: tooltip text of the entry's icon when editing the value of a signed 64-bit key, if the written value cannot be parsed
+msgid "Failed to parse as 64-bit integer."
+msgstr ""
+
+#. Translators: tooltip text of the entry's icon when editing the value of a double key, if the written value cannot be parsed
+msgid "Failed to parse as double."
+msgstr ""
+
+#. Translators: tooltip text of the entry's icon when editing the value of an unsigned 64-bit key, if the written value cannot be parsed
+msgid "Failed to parse as unsigned 64-bit integer."
+msgstr ""
+
+#. Translators: the boolean "false" value; capitalized (if that makes sense)
+msgid "False"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "Flags"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/flags'
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/relocatable/flags' (with default /ca/desrt/dconf-editor/relocatable-* settings)
+msgid "Flags could be set by the “enum” attribute."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/relocatable-schemas-enabled-mappings'
+msgid ""
+"Flags for the relocatable schemas mapping facilities. “User” enables "
+"mappings defined by the “relocatable-schemas-user-paths” key; “Built-in” "
+"enables well-known mappings hardcoded into Dconf Editor; “Internal” is "
+"reserved for Dconf Editor own mappings; “Startup” is for mapping a "
+"relocatable schema from the command-line."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/flags'
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/relocatable/flags' (with default /ca/desrt/dconf-editor/relocatable-* settings)
+msgid "Flags: choose-colors-you-love"
+msgstr ""
+
+#. Translators: notification text, when the requested folder has been removed; the %s is the folder path
+#, c-format
+msgid "Folder “%s” is now empty."
+msgstr ""
+
+#. Translators: header displayed in the keys list during a search only
+msgid "Folders"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/automatic-night-mode'
+msgid "Follow system night light"
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-use-extra-buttons'
+msgid ""
+"For users with mice that have buttons for “Forward” and “Back”, this key "
+"will determine if any action is taken inside of a browser window when either "
+"is pressed."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-back-buttons'
+msgid ""
+"For users with mice that have buttons for “Forward” and “Back”, this key "
+"will set which button activates the “Back” command in a browser window. "
+"Possible values range between 6 and 14."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-forward-buttons'
+msgid ""
+"For users with mice that have buttons for “Forward” and “Back”, this key "
+"will set which button activates the “Forward” command in a browser window. "
+"Possible values range between 6 and 14."
+msgstr ""
+
+#. Translators: field description when displaying key properties; if the numeral key has a minimum or a maximum set
+msgid "Forced range"
+msgstr ""
+
+#. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the label of the link to the GPL license; TODO better text, as in the usual about dialog
+msgid ""
+"GNU General Public License\n"
+"version 3 or later"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/boolean-nullable'
+msgid ""
+"GSettings allows nullable types, that are similar to other types but could "
+"take a “nothing” value. A nullable boolean can only take three values, "
+"“true”, “false” and “nothing”."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/string-nullable'
+msgid ""
+"GSettings allows nullable types, that are similar to other types but could "
+"take a “nothing” value. A nullable string can take any string as value, "
+"including the empty string “''”, or can be NULL (nothing)."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/sort-case-sensitive'
+msgid ""
+"GSettings doesn’t allow keys to use upper-case in their names, but "
+"installation paths of schemas can. If “true”, the keys list is sorted case-"
+"sensitively, with in usual order upper-case folders first."
+msgstr ""
+
+#. Translators: header in the shortcut window, for opening the usual helpful dialogs
+msgid "Generic"
+msgstr ""
+
+#. Translators: tooltip text of the entry's icon when editing the value of a double or a 64-bit (signed or unsigned) key, if the key only allows a range of values and the written value is out of range
+msgid "Given value is out of range."
+msgstr ""
+
+#. Translators: "go to" action in the right-click menu on a "go back" line during search
+msgid "Go to this path"
+msgstr ""
+
+#. Translators: first item of the keys list displayed during a search, the %s is a folder path usually
+#, c-format
+msgid "Go to “%s”"
+msgstr ""
+
+#. Translators: command-line text, description of the application in 'dconf-editor --help'; try to put that string in 80 characters or less, if possible.
+msgid "Graphical interface for editing other applications settings."
+msgstr ""
+
+#. Translators: hamburger menu entry on small windows (not used in current design)
+msgid "Hide bookmarks"
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/saved-view'
+msgid ""
+"If the “restore-view” key is set to “true”, Dconf Editor tries at launch to "
+"navigate to this path."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/saved-pathbar-path'
+msgid ""
+"If the “restore-view” key is set to “true”, and if the path requested at "
+"startup is a parent path of this one, Dconf Editor tries to restore the "
+"pathbar state at this path."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/show-warning'
+msgid ""
+"If “true”, Dconf Editor opens a popup when launched reminding the user to be "
+"careful."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/restore-view'
+msgid ""
+"If “true”, Dconf Editor tries at launch to navigate to the path described in "
+"the “saved-view” key."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-bookmarks-rows'
+msgid "If “true”, the bookmarks list use smaller rows."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/small-keys-list-rows'
+msgid "If “true”, the keys list use smaller rows."
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense); this handle type is an index; you may maintain the word "handle"
+#. private const string _H_ = C_("capitalized", "D-Bus handle type");
+#. Translators: that's the name of a data type; non capitalized (if that makes sense); this handle type is an index; you may maintain the word "handle"
+#. private const string _h_ = C_("non-capitalized", "D-Bus handle type");
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+#. private const string _O_ = C_("capitalized", "D-Bus object path");
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+#. private const string _o_ = C_("non-capitalized", "D-Bus object path");
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+#. private const string _Ao_ = C_("capitalized", "D-Bus object path array");
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+#. private const string _ao_ = C_("non-capitalized", "D-Bus object path array");
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+#. private const string _G_ = C_("capitalized", "D-Bus signature");
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+#. private const string _g_ = C_("non-capitalized", "D-Bus signature");
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "Integer"
+msgstr ""
+
+#. Translators: initial "use at your own risk" dialog, the button label
+msgid "I’ll be careful."
+msgstr ""
+
+#. Translators: displayed in the list of pending changes (could be an in-window panel, or in the popover of the bottom bar); for dconf keys
+msgid "Key erased"
+msgstr ""
+
+#. Translators: field content when displaying key properties; the field description is "Current value", this text displayed if the key, not defined by a schema, has been erased (and so has no value anymore)
+msgid "Key erased."
+msgstr ""
+
+#. Translators: notification text, when the requested key has been removed; the %s is the key path
+#, c-format
+msgid "Key “%s” has been deleted."
+msgstr ""
+
+#. Translators: usual menu entry of the hamburger menu
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#. Translators: header in the shortcut window, for when browsing
+msgid "Keys list actions"
+msgstr ""
+
+#. Translators: header displayed in the keys list during a search or during browsing
+msgid "Keys not defined by a schema"
+msgstr ""
+
+#. Translators: command-line text, if --list-relocatable-schemas is given; introduces a list of schemas ids
+msgid "Known schemas installed:"
+msgstr ""
+
+#. Translators: command-line text, if --list-relocatable-schemas is given; introduces a list of schemas ids
+msgid "Known schemas skipped:"
+msgstr ""
+
+#. Translators: header displayed in the keys list during a search only; indicates that the following non-defined keys are installed at the path where the search has started
+msgid "Local keys not defined by a schema"
+msgstr ""
+
+#. Translators: accessible name of the switch for bookmarking current path in the bookmarks popover
+msgid "Location bookmarked"
+msgstr ""
+
+#. Translators: accessible description of the button for opening the bookmarks popover
+msgid "Manage your bookmarks"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/relocatable-schemas-user-paths'
+msgid "Mapping of paths to manually associated schemas"
+msgstr ""
+
+#. Translators: field description when displaying key properties; the maximum value a numeral key can take
+msgid "Maximum"
+msgstr ""
+
+#. Translators: field description when displaying key properties; the minimum value a numeral key can take
+msgid "Minimum"
+msgstr ""
+
+#. Translators: header in the shortcut window, for when there are pending changes
+msgid "Modifications list actions"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-back-buttons'
+msgid "Mouse button to activate the “Back” command in browser window"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-forward-buttons'
+msgid "Mouse button to activate the “Forward” command in browser window"
+msgstr ""
+
+#. Translators: field description when displaying folder properties; name of the folder
+msgid "Name"
+msgstr ""
+
+#. Translators: Ctrl-G action, when browsing
+msgid "Next line"
+msgstr ""
+
+#. Translators: field content when displaying key properties; "Yes" if the key has a range set, "No" if not
+msgid "No"
+msgstr ""
+
+#. Translators: "no change" option in the right-click menu on a key when on delayed mode
+msgid "No change"
+msgstr ""
+
+#. Translators: field content when displaying key properties; if the key does not have a description describing deeply its use
+msgid "No description provided"
+msgstr ""
+
+#. Translators: placeholder text of the keys list when there's nothing to display in a path (not used in current design)
+msgid "No keys in this path"
+msgstr ""
+
+#. Translators: command-line text, if --list-relocatable-schemas is given
+msgid "No known schemas installed."
+msgstr ""
+
+#. Translators: command-line text, if --list-relocatable-schemas is given
+msgid "No known schemas skipped."
+msgstr ""
+
+#. Translators: placeholder text of the search list when there's no search results (not used in current design)
+msgid "No matches"
+msgstr ""
+
+#. Translators: warning text of an infobar, when a key is not defined by a schema
+msgid ""
+"No schema available. A schema is what describes the use of a key, and Dconf "
+"Editor can’t find one associated with this key. If the application that was "
+"using this key has been uninstalled, or if this key is obsolete, you may "
+"want to erase it."
+msgstr ""
+
+#. Translators: "subtitle" in the keys list of a key not defined by a schema; keys defined by a schema have in place a summary describing the key use
+msgid "No schema found"
+msgstr ""
+
+#. Translators: field content when displaying key properties; if the key does not have a summary describing its use
+#. Translators: "subtitle" in the keys list of a key defined by a schema but missing a summary describing the key use
+msgid "No summary provided"
+msgstr ""
+
+#. Translators: command-line text, if --list-relocatable-schemas is given
+msgid "No unknown schemas."
+msgstr ""
+
+#. Translators: "nothing" value of a nullable key; capitalized (if that makes sense); "nothing" here is a keyword, but you do not need to show it in your translation, that will be done with the non-capitalized version of the word
+msgid "Nothing"
+msgstr ""
+
+#. Translators: displayed in the bottom bar in normal sized windows, when the user tries to reset keys from/for a folder that has nothing to reset
+msgid "Nothing to reset."
+msgstr ""
+
+#. Translators: Text displayed in the bottom bar; "dconf" is a technical term, notably a shell command, so you probably should not translate it.
+#, c-format
+msgid "One dconf operation delayed.%u dconf operations delayed."
+msgstr ""
+
+#. Translators: Text displayed in the bottom bar; "gsettings" is a technical term, notably a shell command, so you probably should not translate it.
+#, c-format
+msgid "One gsettings operation delayed.%u gsettings operations delayed."
+msgstr ""
+
+#. Translators: Text displayed in the bottom bar; beginning of a sentence like "One gsettings operation and 2 dconf operations delayed.", you could duplicate "delayed" if needed, as it refers to both the gsettings and dconf operations (at least one of each).
+#. Also, "gsettings" is a technical term, notably a shell command, so you probably should not translate it.
+#, c-format
+msgid "One gsettings operation%u gsettings operations"
+msgstr ""
+
+#. Translators: command-line error message, when the user requests a specific path while there is already a window opened
+msgid "Only one window can be opened for now.\n"
+msgstr ""
+
+#. Translators: "open folder" action in the right-click menu on a folder
+msgid "Open"
+msgstr ""
+
+#. Translators: Alt-Down action; browse to the child of the current path displayed in the headerbar, if any
+msgid "Open active direct child"
+msgstr ""
+
+#. Translators: Alt-Shift-Down action; browse to the complete path of the headerbar
+msgid "Open active last child"
+msgstr ""
+
+#. Translators: Alt-Up action; browse to the parent folder
+#. Translators: "open parent folder" action in the right-click menu on a folder in a search result
+msgid "Open parent folder"
+msgstr ""
+
+#. Translators: first item of the keys list displayed during browsing at root path
+msgid "Open path entry"
+msgstr ""
+
+#. Translators: Alt-Shift-Up action; browse to the '/' folder
+msgid "Open root folder"
+msgstr ""
+
+#. Translators: Return/Enter keys action in the list of pending modifications; go to the key with pending modification
+msgid "Open selected row key"
+msgstr ""
+
+#. Translators: last header displayed in the keys list during a local search
+msgid "Other actions"
+msgstr ""
+
+#. Translators: about dialog text; label of the website link
+msgid "Page on GNOME wiki"
+msgstr ""
+
+#. Translators: Ctrl-V action; open search with clipboard content
+msgid "Paste as search"
+msgstr ""
+
+#. Translators: Ctrl-Shift-V action; does the same thing as "Paste as search", but works even if an entry or textview is selected; entry hidden for now
+msgid "Paste as search (force)"
+msgstr ""
+
+#. Translators: Shift-F10 action
+msgid "Path bar menu"
+msgstr ""
+
+#. Translators: header in the shortcut window, for moving to paths known by the headerbar
+msgid "Path bar navigation"
+msgstr ""
+
+#. Translators: there are three related actions: "use", "reuse" and "pause"; displayed in the hamburger menu at night
+msgid "Pause night mode"
+msgstr ""
+
+#. Translators: on really small windows, the bottom bar that appears in "delay mode" or when there're pending changes is replaced by an in-window view; here is the name of the view, displayed in the headerbar
+msgid "Pending"
+msgstr ""
+
+#. Translators: Ctrl-Shift-G action, when browsing
+msgid "Previous line"
+msgstr ""
+
+#. Translators: command-line option description, see 'dconf-editor --help'
+msgid "Print release version and exit"
+msgstr ""
+
+#. Translators: command-line option description, see 'dconf-editor --help'
+msgid "Print relocatable schemas and exit"
+msgstr ""
+
+#. Translators: on really small windows, name of the view when showing a folder properties, displayed in the headerbar
+msgid "Properties"
+msgstr ""
+
+#. Translators: header in the shortcut window, for the various ways of quitting the application
+msgid "Quit"
+msgstr ""
+
+#. Translators: Ctrl-Q action; displays a notification if there are pending changes
+msgid "Quit if there’s no pending changes"
+msgstr ""
+
+#. Translators: when in delayed mode, on a small window, entry of the "three-dots menu" that appears when showing the pending changes list (if there is no pending changes)
+msgid "Quit mode"
+msgstr ""
+
+msgid "Read keys descriptions and edit their values"
+msgstr ""
+
+#. Translators: button of an infobar to sort again the keys list ("refresh" only, no "reload")
+#. Translators: accessible name of the "refresh" button that is linked with the search entry on large windows
+msgid "Refresh"
+msgstr ""
+
+#. Translators: accessible description of the "refresh" button that is linked with the search entry on large windows
+msgid "Refresh search results"
+msgstr ""
+
+#. Translators: button of an infobar to reload the keys list because of a new key (for example)
+#. Translators: button of an infobar to reload the key properties because something has changed
+msgid "Reload"
+msgstr ""
+
+#. Translators: field content when displaying key properties; the field description is "Defined by", this text is displayed if the key is defined by a schema, and if this schema is relocatable (it has not a fixed path)
+msgid "Relocatable schema"
+msgstr ""
+
+#. Translators: "reset recursively" action in the right-click menu on a folder
+msgid "Reset recursively"
+msgstr ""
+
+#. Translators: hamburger menu entry that appears when browsing a folder path, to set to their default value all currently visible keys, and all keys in subfolders
+msgid "Reset view recursively"
+msgstr ""
+
+#. Translators: hamburger menu entry that appears when browsing a folder path, to set to their default value all currently visible keys, not including keys in subfolders
+msgid "Reset visible keys"
+msgstr ""
+
+#. Translators: there are three related actions: "use", "reuse" and "pause"; displayed in the hamburger menu at night
+msgid "Reuse night mode"
+msgstr ""
+
+#. Translators: label of one of the two buttons of the list of pending modifications, to switch between applying changes to the whole list and selecting some items for more advanced things (not displayed currently, but this change is wanted); the second is "Select"
+msgid "Rule all"
+msgstr ""
+
+#. Translators: field description when displaying key properties; the schema id (if the key is defined by a schema)
+msgid "Schema"
+msgstr ""
+
+#. Translators: command-line startup warning, try 'dconf-editor ca.desrt.dconf-editor.Settings:/org/gnome/dconf-editor/'
+msgid "Schema is not installed on given path."
+msgstr ""
+
+#. Translators: command-line startup warning, try 'dconf-editor ca.desrt.dconf-editor.Demo.Relocatable'
+msgid "Schema is relocatable, a path is needed."
+msgstr ""
+
+#. Translators: command-line error message, try 'dconf-editor org.example:a'
+msgid "Schema path should start and end with a “/”.\n"
+msgstr ""
+
+#. Translators: field content when displaying key properties; the field description is "Defined by", this text is displayed if the key is defined by a schema, and if this schema has a fixed path (it is not relocatable)
+msgid "Schema with path"
+msgstr ""
+
+#. Translators: "open search" action in the right-click menu on a search
+#. Translators: accessible name of the enter-search button displayed in small-size windows
+#. Translators: accessible name of the search togglebutton displayed in usual-size windows
+msgid "Search"
+msgstr ""
+
+#. Translators: Ctrl-Alt-F action; does the same thing as "Toggle search", but loads the search entry with the last searched text
+msgid "Search again"
+msgstr ""
+
+#. Translators: Ctrl-Shift-Alt-F action; does the same thing as "Toggle local search", but loads the search entry with the last searched text
+msgid "Search again, locally"
+msgstr ""
+
+#. Translators: last item of the keys list displayed during a local search
+msgid "Search everywhere"
+msgstr ""
+
+#. Translators: first item of the keys list displayed during browsing, the %s is the current folder name
+#, c-format
+msgid "Search in “%s” folder"
+msgstr ""
+
+#. Translators: accessible description of the enter-search button displayed in small-size windows
+#. Translators: accessible description of the search togglebutton displayed in usual-size windows
+msgid "Search keys"
+msgstr ""
+
+#. Translators: header in the shortcut window, for the various ways of opening search
+msgid "Search options"
+msgstr ""
+
+#. Translators: label of one of the two buttons of the list of pending modifications, to switch between applying changes to the whole list and selecting some items for more advanced things (not displayed currently, but this change is wanted); the first is "Rule all"
+msgid "Select"
+msgstr ""
+
+#. Translators: Ctrl-Delete action, when browsing; sets the selected key to its default value
+#. Translators: "reset key value" action in the right-click menu on the list of keys
+msgid "Set to default"
+msgstr ""
+
+#. Translators: hamburger menu entry on small windows, to show the bookmarks list
+msgid "Show bookmarks"
+msgstr ""
+
+#. Translators: "open key-editor page" action in the right-click menu on the list of keys, when key is hard-conflicting
+msgid "Show details…"
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/show-warning'
+msgid "Show initial warning"
+msgstr ""
+
+#. Translators: menu entry of the pathbar menu (not displayed for now)
+#. Translators: "open" action in the right-click menu on a "show folder info" row
+msgid "Show properties"
+msgstr ""
+
+#. Translators: initial "use at your own risk" dialog, the checkbox label
+msgid "Show this dialog next time."
+msgstr ""
+
+#. Translators: Ctrl-F1 action; opens the Keyboard shortcuts dialog
+msgid "Show this help"
+msgstr ""
+
+#. Translators: that's a name of a data type; capitalized (if that makes sense)
+msgid "Signed 16-bit integer"
+msgstr ""
+
+#. Translators: that's a name of a data type; capitalized (if that makes sense)
+msgid "Signed 32-bit integer"
+msgstr ""
+
+#. Translators: that's a name of a data type; capitalized (if that makes sense)
+msgid "Signed 64-bit integer"
+msgstr ""
+
+#. Translators: text of an infobar to sort again the keys list ("refresh" only, no "reload")
+msgid "Sort preferences have changed. Do you want to refresh the view?"
+msgstr ""
+
+#. Translators: command-line startup warning
+msgid "Startup mappings are disabled."
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "String"
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "String array"
+msgstr ""
+
+#. Translators: annotation under the entry that allows customizing a key, when displaying key properties; for keys of a type composed with a string type (or similar)
+msgid ""
+"Strings, signatures and object paths should be surrounded by quotation marks."
+msgstr ""
+
+#. Translators: header displayed in the keys list during a search or during browsing
+msgid "Subfolders"
+msgstr ""
+
+#. Translators: field description when displaying key properties; a summary describing the key use
+msgid "Summary"
+msgstr ""
+
+#. Translators: initial "use at your own risk" dialog, the welcoming text
+msgid "Thanks for using Dconf Editor for editing your settings!"
+msgstr ""
+
+#. a translatable version of project_group
+msgid "The GNOME Project"
+msgstr ""
+
+#. Translators: text that might appear in the bookmarks popover in place of the switch and its label
+msgid "The bookmarks list is not editable."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/bytestring'
+msgid ""
+"The bytestring type is commonly used to pass around strings that may not be "
+"valid utf8. In that case, the convention is that the nul terminator "
+"character should be included as the last character in the array."
+msgstr ""
+
+#. Translators: displayed in the bottom bar in normal sized windows, when the user edits a key (with default "always confirm implicit" behaviour notably)
+msgid "The change will be applied on such request or if you quit this view."
+msgstr ""
+
+#. Translators: displayed in the bottom bar in normal sized windows, when the user edits a key (with the "always confirm explicit" behaviour)
+msgid "The change will be dismissed if you quit this view without applying."
+msgstr ""
+
+#. Translators: summary of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-triv'
+msgid "The empty tuple, type and value “()”"
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/dbus-handle'
+msgid ""
+"The handle type is a 32-bit signed integer value that is, by convention, "
+"used as an index into an array of file descriptors that are sent alongside a "
+"D-Bus message. If you are not interacting with D-Bus, then there is no "
+"reason to make use of this type."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/window-height'
+msgid "The height of the main window in pixels."
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/window-height'
+msgid "The height of the window"
+msgstr ""
+
+#. Translators: command-line message, when the user uses the backward/forward buttons of the mouse
+msgid ""
+"The same mouse button is set for going backward and forward. Doing nothing."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/string'
+msgid ""
+"The string type could accept any utf8 string. Note that an empty string “''” "
+"is not the same as NULL (nothing); see also the “string-nullable” key."
+msgstr ""
+
+#. Translators: displayed in the bottom bar in normal sized windows, when the user edits a key and enters in the entry or text view a value that cannot be parsed to the correct data type
+msgid "The value is invalid."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/window-width'
+msgid "The width of the main window in pixels."
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/window-width'
+msgid "The width of the window"
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/behaviour'
+msgid ""
+"The “unsafe” value is discouraged: for keys that have a non-special-cased "
+"type, it updates the key value each time something changes in the entry, so "
+"including intermediate states. The “safe” value asks for confirmation in "
+"these cases, but allows instant changes for booleans and nullable booleans, "
+"enums and flags. The “always-confirm-implicit” and “always-confirm-explicit” "
+"values always asks for confirmation, but the first applies the change if you "
+"change path whereas the second dismiss it. The “always-delay” value adds "
+"each change in delay mode, allowing to apply multiple keys at once."
+msgstr ""
+
+#. Translators: field content when displaying key properties; displayed instead of the value, in case of conflicting keys
+msgid ""
+"There are conflicting definitions of this key, getting value would be either "
+"problematic or meaningless."
+msgstr ""
+
+#. Translators: notification text, after a user Ctrl+Q keyboard action; same way to spell the shortcut as in the Settings application
+msgid ""
+"There are pending changes. Use Shift+Ctrl+Q to apply changes and quit, or Alt"
+"+F4 to dismiss changes and quit."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-triv'
+msgid ""
+"There’s an empty tuple type (called sometimes “triv”) that is a tuple with "
+"no content, and can only take “()” as value."
+msgstr ""
+
+#. Translators: notification text at startup, use 'dconf-editor /org/example/empty/'; the %s is the folder path
+#, c-format
+msgid "There’s nothing in requested folder “%s”."
+msgstr ""
+
+#. Translators: warning text of an infobar, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-enum'
+msgid ""
+"This enumeration offers only one choice. That’s probably an error of the "
+"application that installed this schema. If possible, please open a bug about "
+"it."
+msgstr ""
+
+#. Translators: text of an infobar to reload the keys list because of a new key (for example)
+msgid "This folder content has changed. Do you want to reload the view?"
+msgstr ""
+
+#. Translators: warning text of an infobar, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-range'
+msgid ""
+"This integer key can only take one value. That’s probably an error of the "
+"application that installed this schema. If possible, please open a bug about "
+"it."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/bytestring-array'
+msgid ""
+"This is the type of an array of bytestrings. The bytestring type is commonly "
+"used to pass around strings that may not be valid utf8."
+msgstr ""
+
+#. Translators: warning text of an infobar, see 'dconf-editor /ca/desrt/dconf-editor/Demo/weird-triv'
+msgid ""
+"This key has a special “empty tuple” type. That’s probably an error of the "
+"application that installed this schema. If possible, please open a bug about "
+"it."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 warning-similar'
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 warning-similar'
+msgid ""
+"This key is a test for multiple schemas in the same path with conflicting "
+"keys. It can be edited, since the types are compatible, but it is still an "
+"issue."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 default-value-conflict'
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 default-value-conflict'
+msgid ""
+"This key is a test for multiple schemas in the same path with conflicting "
+"keys. It shouldn’t be editable as a key mapped to the same path has a "
+"different default value."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 range-conflict'
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 range-conflict'
+msgid ""
+"This key is a test for multiple schemas in the same path with conflicting "
+"keys. It shouldn’t be editable as a key mapped to the same path has a "
+"different range."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 type-conflict'
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 type-conflict'
+msgid ""
+"This key is a test for multiple schemas in the same path with conflicting "
+"keys. It shouldn’t be editable as a key mapped to the same path has a "
+"different type."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict1 a-non-conflicting-key'
+#. Translators: description of a demo key, see 'dconf-editor ca.desrt.dconf-editor.Demo.Conflict2 another-non-conflicting-key'
+msgid ""
+"This key is a test for multiple schemas in the same path with conflicting "
+"keys. Non-conflicting keys should have no issues."
+msgstr ""
+
+#. Translators: warning text of an infobar, see 'dconf-editor /ca/desrt/dconf-editor/Demo/Conflict/warning-similar'
+msgid ""
+"This key is defined and used by more than one schema. This could lead to "
+"problems. Edit value at your own risk."
+msgstr ""
+
+#. Translators: warning text of an infobar, see 'dconf-editor /ca/desrt/dconf-editor/Demo/Conflict/type-conflict'
+msgid ""
+"This key is incompatibly defined and used by more than one schema. It is "
+"impossible to work with its value in a meaningful way."
+msgstr ""
+
+#. Translators: text of an infobar to reload the key properties because something has changed
+msgid "This key’s properties have changed. Do you want to reload the view?"
+msgstr ""
+
+#. Translators: tooltip text of the entry's icon (if using an entry) or text displayed under the text view (if using a text view) when editing the value of a key, if the written text cannot be parsed regarding to the key's value type
+msgid "This value is invalid for the key type."
+msgstr ""
+
+#. Translators: Ctrl-Return action, when browsing; does nothing if the selection is not a boolean key
+msgid "Toggle boolean value"
+msgstr ""
+
+#. Translators: entry disabled for now; Ctrl-I action, when browsing; displays informations on selected folder
+msgid "Toggle folder properties"
+msgstr ""
+
+#. Translators: Ctrl-Shift-F action; opens search, searching only from current folder
+msgid "Toggle local search"
+msgstr ""
+
+#. Translators: Alt-I action if there are pending changes; the modifications list is either a popover, or an in-window panel
+msgid "Toggle modifications list"
+msgstr ""
+
+#. Translators: Ctrl-F action; opens search, searching everywhere
+msgid "Toggle search"
+msgstr ""
+
+#. Translators: accessible description of the switch for bookmarking current path in the bookmarks popover
+msgid "Toggle to bookmark this location"
+msgstr ""
+
+#. Translators: on really small windows, the about dialog is replaced by an in-window view; here is the header of the translators names
+msgid "Translators"
+msgstr ""
+
+#. Translators: the boolean "true" value; capitalized (if that makes sense)
+msgid "True"
+msgstr ""
+
+#. Translators: field description when displaying key properties; the datatype of the key (integer, boolean, string, etc.)
+msgid "Type"
+msgstr ""
+
+#. Translators: field description when displaying key properties; technical code of the datatype of the key ("q" for uint16, "b" for boolean, etc.)
+msgid "Type code"
+msgstr ""
+
+#. Translators: field description when displaying key properties; specific name of the datatype of the key ("Signed 32-bit integer" for example)
+msgid "Type name"
+msgstr ""
+
+#. Translators: hamburger menu entry on small windows, to unbookmark the currently browsed path
+msgid "Unbookmark"
+msgstr ""
+
+#. Translators: Ctrl-Shift-D action
+msgid "Unbookmark this path"
+msgstr ""
+
+#. Translators: command-line startup warning, try 'dconf-editor org.example.nothing'; the %s is the schema id
+#, c-format
+msgid "Unknown schema “%s”."
+msgstr ""
+
+#. Translators: command-line text, if --list-relocatable-schemas is given; introduces a list of schemas ids
+msgid "Unknown schemas:"
+msgstr ""
+
+#. Translators: that's a name of a data type; capitalized (if that makes sense)
+msgid "Unsigned 16-bit integer"
+msgstr ""
+
+#. Translators: that's a name of a data type; capitalized (if that makes sense)
+msgid "Unsigned 32-bit integer"
+msgstr ""
+
+#. Translators: that's a name of a data type; capitalized (if that makes sense)
+msgid "Unsigned 64-bit integer"
+msgstr ""
+
+#. Translators: label of one of the two buttons of the bookmarks list, to switch between using the bookmarks and editing the list; the second is "Edit"
+msgid "Use"
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/automatic-night-mode'
+msgid "Use GNOME night light setting to activate night-mode."
+msgstr ""
+
+#. Translators: annotation under the entry that allows customizing a key, when displaying key properties; for keys of type "double"
+msgid ""
+"Use a dot as decimal mark and no thousands separator. You can use the X.Ye+Z "
+"notation."
+msgstr ""
+
+#. Translators: field description when displaying key properties; the field content is a switch widget that allows using or not the default value of the key, as provided by its schema
+msgid "Use default value"
+msgstr ""
+
+#. Translators: there are three related actions: "use", "reuse" and "pause"; displayed in the hamburger menu at night
+msgid "Use night mode"
+msgstr ""
+
+#. Translators: annotation under the entry that allows customizing a key, when displaying key properties; for keys of a type composed with a "maybe type"; neither the "nothing" keyword nor the "m" type should be translated; a "maybe type" is a type of variant that is nullable.
+msgid ""
+"Use the keyword “nothing” to set a maybe type (beginning with “m”) to its "
+"empty value."
+msgstr ""
+
+#. Translators: annotation under the entry that allows customizing a key, when displaying key properties; for keys of a type composed with a "maybe type" and with a string type (or similar); neither the "nothing" keyword nor the "m" type should be translated; a "maybe type" is a type of variant that is nullable.
+msgid ""
+"Use the keyword “nothing” to set a maybe type (beginning with “m”) to its "
+"empty value. Strings, signatures and object paths should be surrounded by "
+"quotation marks."
+msgstr ""
+
+#. Translators: summary of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/mouse-use-extra-buttons'
+msgid "Use “Back” and “Forward” mouse button events"
+msgstr ""
+
+#. Translators: command-line text, describes how the application proceeds for editing other applications settings, in 'dconf-editor --help'; try to put that string in 80 characters or less, if possible.
+msgid "Uses the gsettings API of the glib library, among others."
+msgstr ""
+
+#. Translators: that's the name of a data type; capitalized (if that makes sense)
+msgid "Variant"
+msgstr ""
+
+#. Translators: annotation under the entry that allows customizing a key, when displaying key properties; for keys of type "variant" (or of a type composed with a variant)
+msgid ""
+"Variants content should be surrounded by XML brackets (‘<’ and ‘>’). See "
+"https://developer.gnome.org/glib/stable/gvariant-text.html for complete "
+"documentation."
+msgstr ""
+
+#. Translators: description of a demo key, see 'dconf-editor /ca/desrt/dconf-editor/Demo/variant'
+msgid ""
+"Variants could be stored inside variants, and consequently as a GSettings "
+"type. Their representation use the XML brackets (‘<’ and ‘>’ characters, in "
+"a gschema file “&#60;” and “&#62;” respectively), with a parsable "
+"representation of their content inside. If unclear, the type can be given in "
+"the value with a prefix annotation like “@x” (where “x” is the type string) "
+"or “int64”. See https://developer.gnome.org/glib/stable/gvariant-text.html "
+"for complete documentation."
+msgstr ""
+
+#. Translators: description of a settings key, see 'dconf-editor /ca/desrt/dconf-editor/use-shortpaths'
+msgid ""
+"When a folder only contains one subfolder and no keys, Dconf Editor can jump "
+"to that subfolder directly. This flag enables that behaviour."
+msgstr ""
+
+#. Translators: field content when displaying key properties; "Yes" if the key has a range set, "No" if not
+msgid "Yes"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "a folder path or a key path"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "boolean"
+msgstr ""
+
+#. Translators: means that the key has (at least) one other key defined by a different schema but at the same path and with the same name; used on small windows ("conflicting keys" is used on large windows)
+msgid "conflict"
+msgstr ""
+
+#. Translators: means that the key has (at least) one other key defined by a different schema but at the same path and with the same name; used on large windows ("conflict" is used on small windows)
+msgid "conflicting keys"
+msgstr ""
+
+#. Translators: application name, as used in the window manager, the window title, the about dialog...
+msgid "dconf Editor"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "double"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "empty tuple"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "enumeration"
+msgstr ""
+
+#. Translators: means that the key has been erased; used on small windows ("key erased" is used on large windows)
+msgid "erased"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "example: “/org/gnome/” or “/ca/desrt/dconf-editor/Demo/boolean”"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "example: “bookmarks”"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "example: “ca.desrt.dconf-editor.Bookmarks:/ca/desrt/dconf-editor/”"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "example: “ca.desrt.dconf-editor.Settings”"
+msgstr ""
+
+#. Translators: the boolean "false" value; non capitalized (if that makes sense)
+msgid "false"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "flags"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "integer"
+msgstr ""
+
+#. Translators: means that the key has been erased; used on large windows ("erased" is used on small windows)
+msgid "key erased"
+msgstr ""
+
+#. Translators: "nothing" value of a nullable key; non capitalized (if that makes sense)
+msgid "nothing"
+msgstr ""
+
+#. Translators: "nothing" value of a nullable key; non capitalized (if that makes sense); the %s is replaced by the text "nothing" (as a technical keyword); it isn't introduced with quotation marks around it, but you might want to add some, depending of your language typographic rules
+#, c-format
+msgid "nothing (%s)"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "see list with the “--list-relocatable-schemas” option"
+msgstr ""
+
+#. Translators: some search Keywords to find this application, as defined in the desktop file spec. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+msgid "settings;configuration;"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "string"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "string array"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "the name of a key from the schema"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "the name of a schema with fixed path"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'; no need to put your translation of "relocatable" between quotation marks, that's done in English to highlight why the option is called "RELOC_SCHEMA"
+msgid "the name of a “relocatable” schema, without fixed path"
+msgstr ""
+
+#. Translators: command-line argument description, see 'dconf-editor --help'
+msgid "the path where to map the relocatable schema"
+msgstr ""
+
+#. Translators: about dialog text; this string should be replaced by a text crediting yourselves and your translation team, or should be left empty. Do not translate literally!
+msgid "translator-credits"
+msgstr ""
+
+#. Translators: the boolean "true" value; non capitalized (if that makes sense)
+msgid "true"
+msgstr ""
+
+#. Translators: displayed on small windows; indicates the data type of the key (the %s is the variant type code)
+#, c-format
+msgid "type “%s”"
+msgstr ""
+
+#. Translators: that's the name of a data type; non capitalized (if that makes sense)
+msgid "variant"
+msgstr ""

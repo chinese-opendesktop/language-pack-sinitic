@@ -1,0 +1,1579 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid "\t-P       : obtain list of server and plugin preferences.\n"
+msgstr ""
+
+#, c-format
+msgid "\t-S       : issue SQL output for -p and -P (experimental).\n"
+msgstr ""
+
+#, c-format
+msgid "\t-T : Output format: 'nbe', 'html', 'html_graph', 'text', 'xml',\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-V : make the batch mode display status messages\n"
+"\t    to the screen.\n"
+msgstr ""
+
+#, c-format
+msgid "\t-h : shows this help\n"
+msgstr ""
+
+#, c-format
+msgid "\t-n : No pixmaps\n"
+msgstr ""
+
+#, c-format
+msgid "\t-p       : obtain list of plugins installed on the server.\n"
+msgstr ""
+
+#, c-format
+msgid "\t-v : shows version number\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\t-x : override SSL \"paranoia\" question preventing nessus from\n"
+"\t    checking certificates.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "\tSSL used for client - server communication\n"
+msgstr ""
+
+#, c-format
+msgid "\tclient - server communication is done in PLAIN TEXT\n"
+msgstr ""
+
+#, c-format
+msgid "\thost     : nessusd host\n"
+msgstr ""
+
+#, c-format
+msgid "\tpass     : password\n"
+msgstr ""
+
+#, c-format
+msgid "\tport     : nessusd host port\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\tresult   : name of the file where \n"
+"\t\t   nessus will store the results\n"
+msgstr ""
+
+#, c-format
+msgid "\ttargets  : file containing the list of targets\n"
+msgstr ""
+
+#, c-format
+msgid "\tuser     : user name\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Batch-mode scan:\n"
+" %s -q [-pPS] <host> <port> <user> <pass> <targets-file> <result-file>"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Batch-mode scan:\n"
+" %s -q [-pPS] <user> <pass> <targets-file> <result-file>"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Common options :\n"
+" %s [-vnh] [-c .rcfile] [-V] [-T <format>]"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"List sessions  :\n"
+" %s -s -q <host> <port> <user> <pass> "
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"List sessions  :\n"
+" %s -s -q <user> <pass> "
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Ooops ...\n"
+"  This nessus version has no gui support.  You need to give nessus the\n"
+"  arguments SERVER PORT LOGIN TRG RESULT as explained in more detail\n"
+"  using the --help option.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Report conversion :\n"
+" %s -i in.[nsr|nbe] -o out.[html|xml|nsr|nbe]\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Restore session:\n"
+" %s -R <sessionid> -q <host> <port> <user> <pass> <result-file> "
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"Restore session:\n"
+" %s -R <sessionid> -q <user> <pass> <result-file> "
+msgstr ""
+
+#, c-format
+msgid ""
+"# Nessus Client Preferences File\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "# This file was automagically created by nessus\n"
+msgstr ""
+
+#, c-format
+msgid "%d plugins; %d enabled"
+msgstr ""
+
+#, c-format
+msgid "%s could not be opened write only"
+msgstr ""
+
+msgid "), currently "
+msgstr ""
+
+#, c-format
+msgid "--restore-session and --list-sessions are mutually exclusive\n"
+msgstr ""
+
+#, c-format
+msgid "A new nessusrc file has been saved\n"
+msgstr ""
+
+msgid ""
+"A textfile can be specified that contains the list of targets. This textfile "
+"may contain comma-separated lists of host and also may contain many of such "
+"lines."
+msgstr ""
+
+msgid "About the Nessus Client"
+msgstr ""
+
+msgid "Access Rules"
+msgstr ""
+
+msgid "Action:"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add rule"
+msgstr ""
+
+msgid "Advanced Plugins preferences"
+msgstr ""
+
+msgid ""
+"Are the target hosts protected by a firewall ? If so and if we are outside "
+"the firewall, it is a good idea to turn this option ON, so that Nessus "
+"Server will perform some additional tests to check that the remote firewall "
+"is well configured (this option is still experimental)."
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid "Authentication by certi_ficate"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid ""
+"Authors:\n"
+" Renaud Deraison\n"
+" Thomas Arendsen Hein\n"
+" Jan-Oliver Wagner\n"
+" Bernhard Herzog\n"
+" Michel Arboi (SSL Support)\n"
+" Bruce Verderaime (Pie/Charts)"
+msgstr ""
+
+msgid "Auto expand tree elements"
+msgstr ""
+
+msgid "Automatically connect"
+msgstr ""
+
+msgid "BID"
+msgstr ""
+
+msgid "BugTraq IDs:"
+msgstr ""
+
+#, c-format
+msgid "Bugtraq ID: %s"
+msgstr ""
+
+msgid "CVE"
+msgstr ""
+
+msgid "CVE IDs:"
+msgstr ""
+
+#, c-format
+msgid "CVE: %s"
+msgstr ""
+
+#, c-format
+msgid "Can't move \"%s\" to \"%s\"."
+msgstr ""
+
+#, c-format
+msgid "Can't open %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot stat %s (%s)\n"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+#, c-format
+msgid "Category: %s"
+msgstr ""
+
+msgid "Checks:"
+msgstr ""
+
+msgid "Clientside user rules"
+msgstr ""
+
+msgid "Collapse all"
+msgstr ""
+
+msgid "Comment:"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Connect"
+msgstr ""
+
+msgid "Connect to Nessus Server"
+msgstr ""
+
+msgid "Connecting ..."
+msgstr ""
+
+#, c-format
+msgid "Connecting to Nessus server \"%s\" ..."
+msgstr ""
+
+msgid "Connection to Nessus Server"
+msgstr ""
+
+#, c-format
+msgid "Connection: %s@%s %s"
+msgstr ""
+
+#, c-format
+msgid "Connection: %s@%s:%d %s"
+msgstr ""
+
+#, c-format
+msgid "Connection: user %s %s"
+msgstr ""
+
+msgid "Consider unscanned ports as closed"
+msgstr ""
+
+msgid "Context"
+msgstr ""
+
+#, c-format
+msgid "Could not connect to %s - %s\n"
+msgstr ""
+
+#, c-format
+msgid "Could not connect to nessusd\n"
+msgstr ""
+
+msgid "Could not create this file !"
+msgstr ""
+
+msgid "Could not fork (out of memory?)"
+msgstr ""
+
+#, c-format
+msgid "Could not import '%s' - is it a .nsr or .nbe file ?\n"
+msgstr ""
+
+msgid ""
+"Could not initialize the OpenSSL library !\n"
+"Please launch nessus-mkrand(1) first !"
+msgstr ""
+
+#, c-format
+msgid ""
+"Could not open %s\n"
+"open(%s): %s"
+msgstr ""
+
+#, c-format
+msgid "Could not open a connection to %s\n"
+msgstr ""
+
+msgid "Could not register the connection"
+msgstr ""
+
+msgid "Could not save server certificate"
+msgstr ""
+
+msgid "Couldn't find prefs file... Creating a new one..."
+msgstr ""
+
+msgid "Credentials"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+#, c-format
+msgid "Dependencies of Plugin '%s'"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Designate hosts by their MAC address"
+msgstr ""
+
+msgid "Determine if hosts are alive before testing them"
+msgstr ""
+
+#, c-format
+msgid "Directory %s couldn't be created: %s."
+msgstr ""
+
+#, c-format
+msgid "Directory %s couldn't be deleted: %s."
+msgstr ""
+
+#, c-format
+msgid "Directory %s couldn't be renamed to %s: %s."
+msgstr ""
+
+msgid "Disable all"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Display and remember the server certificate, do not care about the CA"
+msgstr ""
+
+msgid "Do a reverse lookup on the IP before testing it"
+msgstr ""
+
+msgid "Do not execute DoS plugins that have already been executed"
+msgstr ""
+
+msgid "Do not execute attack plugins that have already been executed"
+msgstr ""
+
+msgid "Do not execute info gathering plugins that have already been executed"
+msgstr ""
+
+msgid "Do not execute scanners that have already been executed"
+msgstr ""
+
+#, c-format
+msgid "Do you accept it? (y/n) "
+msgstr ""
+
+msgid "Do you accept this certificate?"
+msgstr ""
+
+msgid "E_xport"
+msgstr ""
+
+msgid "Enable KB saving"
+msgstr ""
+
+msgid "Enable all"
+msgstr ""
+
+msgid "Enable dependencies at runtime"
+msgstr ""
+
+#, c-format
+msgid "Enter a new filter : "
+msgstr ""
+
+msgid ""
+"Enter the channel encryption <cipher>/<hash>:<compression>. A good choice "
+"for <cipher> is BLOWFISH, or TWOFISH an a good choice for <hash> is "
+"RIPEMD160. If you do not want any compression, use <cipher>/<hash>, only. If "
+"your bandwidth is a precious, use <cipher>/<hash>:9. For lowest compression "
+"(optimized for speed on your local computer) use <cipher>/<hash>:0."
+msgstr ""
+
+msgid ""
+"Enter the port number where you will be serviced by the Nessus Server. With "
+"older server systems, this is the port 3001, but the official port is 1241."
+msgstr ""
+
+msgid ""
+"Enter the secure channel encrytion type as <cipher>/<hash>:<compression>. A "
+"good choice for <cipher> is blowfish, or twofish an a good choice for <hash> "
+"is ripemd160."
+msgstr ""
+
+msgid ""
+"Enter the server name, where the Nessus Server resides on. This may be a "
+"domain name or an IP address."
+msgstr ""
+
+msgid ""
+"Enter the user name where you are registerd with on the Nessus Server. If "
+"you log in for the first time, you will be asked for a password. Maybe you "
+"need to ask your Nessus Server administrator to create a login for you."
+msgstr ""
+
+#, c-format
+msgid "Error ! Null hostname in the list\n"
+msgstr ""
+
+#, c-format
+msgid "Error ! Plugin selected not found ?!\n"
+msgstr ""
+
+#, c-format
+msgid "Error : we received a preference (%s) for the plugin %s\n"
+msgstr ""
+
+#, c-format
+msgid "Error creating %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error reading %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Error reading from %s: %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error while setting the trusted CA: %s\n"
+"SSL connections are likely to fail."
+msgstr ""
+
+#, c-format
+msgid "Error writing %s: %s"
+msgstr ""
+
+msgid "Execute"
+msgstr ""
+
+msgid "Expand all"
+msgstr ""
+
+msgid "External Links in HTML/PDF"
+msgstr ""
+
+#, c-format
+msgid "Family: %s"
+msgstr ""
+
+msgid "Federal Office for Information Security"
+msgstr ""
+
+msgid "Fi_lter..."
+msgstr ""
+
+#, c-format
+msgid "File \"%s\" already exists."
+msgstr ""
+
+#, c-format
+msgid "File \"%s\" doesn't exist."
+msgstr ""
+
+#, c-format
+msgid "File %s couldn't be deleted: %s."
+msgstr ""
+
+#, c-format
+msgid "Filter matches %u plugins"
+msgstr ""
+
+msgid "Filter on:"
+msgstr ""
+
+msgid "Filter plugins..."
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+#, c-format
+msgid "General options :\n"
+msgstr ""
+
+msgid "General scan options"
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Holes"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgid "Host not found!"
+msgstr ""
+
+msgid "Hostname:"
+msgstr ""
+
+msgid "ID number"
+msgstr ""
+
+msgid ""
+"If this option is checked, then Nessus Server will send some TCP packets to "
+"the target host to determine if the target host is alive. This method does "
+"not use ICMP as ICMP is unreliable as less and less hosts are answering to "
+"ICMP echo requests."
+msgstr ""
+
+msgid ""
+"If this option is set, Nessus Server will do a reverse lookup on the IP "
+"addresses before it tests them. This may slow down the whole test."
+msgstr ""
+
+msgid ""
+"If this option is set, the client will only report what has changed between "
+"the new scan and the last one."
+msgstr ""
+
+msgid ""
+"If you enable this option, the hosts on the local network will be designated "
+"by their ethernet MAC address instead of their IP address. This is "
+"especially useful if you are using Nessus in a DHCP network. If unsure, "
+"disable this option."
+msgstr ""
+
+msgid ""
+"If you enable this option, then Nessus Server will enable the plugins that "
+"are depended on by the set of plugins you selected."
+msgstr ""
+
+msgid ""
+"If you enable this option, then nessusd will not report data coming from the "
+"plugins that you did not specifically enable."
+msgstr ""
+
+msgid ""
+"If you select this option, all the hosts selected in the 'Target' section of "
+"the Nessus Client will be tested."
+msgstr ""
+
+msgid ""
+"If you select this option, all the plugins that may harm the target hosts "
+"and which have already been launched will not be launched again."
+msgstr ""
+
+msgid ""
+"If you select this option, all the plugins that performs attacks and which "
+"have already been launched against the target hosts will not be launched "
+"again."
+msgstr ""
+
+msgid ""
+"If you select this option, all the plugins that performs information "
+"gathering and which have already been launched against the target hosts will "
+"not be launched again."
+msgstr ""
+
+msgid ""
+"If you select this option, only the hosts to which a recent knowledge base "
+"is attached will be tested."
+msgstr ""
+
+msgid ""
+"If you select this option, only the hosts which have no (or an outdated) "
+"knowledge base attached will be tested. Use this option to populate your "
+"knowledge bases."
+msgstr ""
+
+msgid ""
+"If you select this option, the knowledge bases of the target hosts will be "
+"restored in memory if they are recent enough. You can use this option with "
+"the following ones to prevent Nessus Server to scan a host which was scanned "
+"in the past, or to prevent the security checks that were performed in the "
+"past to be performed again."
+msgstr ""
+
+msgid ""
+"If you select this option, the port scanners that were launched in the past "
+"against the targetted hosts will not be launched again and the data of the "
+"knowledge base will be used as the result of the portscan."
+msgstr ""
+
+msgid ""
+"If you turn on this option, all the information collected about the target "
+"hosts will be saved on the side of Nessus Server for further re-use. See "
+"http://www.nessus.org/doc/kb_saving.html for details."
+msgstr ""
+
+msgid "Informational"
+msgstr ""
+
+#
+msgid "Initiating connection ..."
+msgstr ""
+
+msgid "Intevation GmbH"
+msgstr ""
+
+msgid "Invalid regular expression"
+msgstr ""
+
+msgid "Invalid server certificate"
+msgstr ""
+
+msgid "Issue regarding port"
+msgstr ""
+
+msgid ""
+"It is possible to check for the presence of CGIs in multiple paths like /cgi-"
+"bin, /cgis, /home-cgis, and so on. In that case, put all your paths here "
+"separated by colons. For instance: '/cgi-bin:/cgi-aws:/~deraison/cgi'."
+msgstr ""
+
+msgid "KB"
+msgstr ""
+
+msgid "Load file"
+msgstr ""
+
+msgid "Login failed"
+msgstr ""
+
+msgid "Login:"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Mailing list: http://list.nessus.org/"
+msgstr ""
+
+msgid "Max age of a saved KB (in secs) : "
+msgstr ""
+
+msgid "Max threads : "
+msgstr ""
+
+msgid ""
+"Maximal number of security checks that will be launched at the same time "
+"against each host. Be aware that the Nessus Server will spawn max_hosts x "
+"max_checks processes!"
+msgstr ""
+
+msgid ""
+"Maximal of number of hosts that the Nessus Server will test at the same "
+"time. Be aware that the Nessus Server will spawn max_hosts x max_checks "
+"processes!"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Message log"
+msgstr ""
+
+msgid "Misc."
+msgstr ""
+
+#, c-format
+msgid "Missing 'end' in %s"
+msgstr ""
+
+#, c-format
+msgid "Missing parameter\n"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name of the remote file that several plugins will attempt to read."
+msgstr ""
+
+msgid "Nessus"
+msgstr ""
+
+msgid "Nessus Client"
+msgstr ""
+
+msgid "Nessus IDs:"
+msgstr ""
+
+msgid "Nessus Knowledge Base"
+msgstr ""
+
+#, c-format
+msgid "Nessus Plugin ID: %d"
+msgstr ""
+
+msgid "Nessus Scan Report"
+msgstr ""
+
+msgid "Nessus Server"
+msgstr ""
+
+msgid ""
+"Nessus Server will determine which hosts can mount the filesystems exported "
+"by the target server, and will test them. Beware : this test is recursive."
+msgstr ""
+
+msgid ""
+"Nessus Server will perform an AXFR request (that is, a zone transfer) to the "
+"target name server and will attempt to obtain the list of the hosts of the "
+"target domain. Then, it will test each host."
+msgstr ""
+
+msgid ""
+"Nessus Server will test the whole subnet of the target host. If you select "
+"this option, you should allow Nessus Server to ping the hosts before "
+"scanning them in the 'Scan options' section."
+msgstr ""
+
+#, c-format
+msgid ""
+"NessusClient %s\n"
+"Copyright 1998-2005 Renaud Deraison"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Information"
+msgstr ""
+
+msgid "No dependencies found."
+msgstr ""
+
+msgid "No filter active"
+msgstr ""
+
+msgid "No noticeable information found"
+msgstr ""
+
+msgid "No plugins"
+msgstr ""
+
+msgid "Not yet implemented."
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Number of checks to perform at the same time:"
+msgstr ""
+
+msgid "Number of hosts to test at the same time:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Only test hosts that have been tested in the past"
+msgstr ""
+
+msgid "Only test hosts that have never been tested in the past"
+msgstr ""
+
+msgid "Open configuration for new scope"
+msgstr ""
+
+msgid "Optimize the test"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+#, c-format
+msgid "Other references: %s"
+msgstr ""
+
+msgid ""
+"PDF report export failed!\n"
+"Maybe HTMLDoc (required for PDF export) is not installed or in search path."
+msgstr ""
+
+#, c-format
+msgid "PDF report export failed! (htmldoc exit code: %d)"
+msgstr ""
+
+#, c-format
+msgid "Parse error in %s: %s"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Path to the CGIs:"
+msgstr ""
+
+msgid "Pattern:"
+msgstr ""
+
+msgid "Perform a DNS zone transfer"
+msgstr ""
+
+msgid "Please choose a filename."
+msgstr ""
+
+msgid "Please choose a target filename."
+msgstr ""
+
+msgid ""
+"Please choose your level of SSL paranoia (Hint: if you want to manage\n"
+"many servers from your client, choose 2. Otherwise, choose 1, or 3,\n"
+"if you are paranoid.\n"
+msgstr ""
+
+msgid "Please enter a name for the current scope:"
+msgstr ""
+
+msgid "Please enter a name for your task:"
+msgstr ""
+
+msgid "Please enter the targets to scan:"
+msgstr ""
+
+msgid ""
+"Please follow the recommended steps and procedures to eradicate these "
+"threats.\n"
+msgstr ""
+
+msgid "Plugin selection"
+msgstr ""
+
+msgid "Plugins"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "Port range:"
+msgstr ""
+
+msgid "Port scanner:"
+msgstr ""
+
+msgid "Port:"
+msgstr ""
+
+msgid ""
+"Ports that will be scanned by Nessus Server. You can enter single ports, "
+"such as \"1-8000\"; or more complex sets, such as "
+"\"21,23,25,1024-2048,6000\". Put \"-1\" for no portscan, or put \"default\" "
+"to scan the default ports in the Nessus services file."
+msgstr ""
+
+msgid "Portscan:"
+msgstr ""
+
+msgid "Possible Issues"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Prefs."
+msgstr ""
+
+msgid "Read file..."
+msgstr ""
+
+#, c-format
+msgid ""
+"Really delete report\n"
+" `%s'?"
+msgstr ""
+
+#, c-format
+msgid ""
+"Really delete scope\n"
+" `%s'\n"
+"all reports in it?"
+msgstr ""
+
+#, c-format
+msgid ""
+"Really delete task\n"
+" `%s'\n"
+"and all scopes and reports in it?"
+msgstr ""
+
+#, c-format
+msgid "Receiving dependencies: %d"
+msgstr ""
+
+#, c-format
+msgid "Receiving plugins: %d"
+msgstr ""
+
+msgid "Remember the set of plugins"
+msgstr ""
+
+msgid ""
+"Remote host is not using the good version of the Nessus communication "
+"protocol (1.2) or is tcpwrapped"
+msgstr ""
+
+msgid "Remove rule"
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+#, c-format
+msgid "Report for scope: %s (Task: %s)"
+msgstr ""
+
+msgid "Reports per Host"
+msgstr ""
+
+msgid "Reuse the knowledge bases about the hosts for the test"
+msgstr ""
+
+msgid "Rules"
+msgstr ""
+
+msgid "SSL Setup"
+msgstr ""
+
+msgid "SSL error: cannot get server certificate"
+msgstr ""
+
+msgid "SSL options"
+msgstr ""
+
+msgid "Safe checks"
+msgstr ""
+
+msgid "Save _Global Settings"
+msgstr ""
+
+msgid "Save scope configuration"
+msgstr ""
+
+msgid "Scan Assistant"
+msgstr ""
+
+#, c-format
+msgid "Scan finished at: %s<br>\n"
+msgstr ""
+
+#, c-format
+msgid "Scan finished on %s"
+msgstr ""
+
+#, c-format
+msgid "Scan of this host finished at: %s<br>\n"
+msgstr ""
+
+#, c-format
+msgid "Scan of this host started at: %s<br>\n"
+msgstr ""
+
+#, c-format
+msgid "Scan started at: %s<br>\n"
+msgstr ""
+
+#, c-format
+msgid "Scan started on %s"
+msgstr ""
+
+#, c-format
+msgid "Scan took place from %s to %s"
+msgstr ""
+
+#, c-format
+msgid "Scanning network from %s"
+msgstr ""
+
+#, c-format
+msgid "Scope: %s (Task: %s)"
+msgstr ""
+
+msgid ""
+"Scopes are part of a task. Each scope represents a connection\n"
+"to a Nessus Server and a list of hosts to scan.\n"
+"Possible scopes names are:\n"
+" - Internet servers (e.g. in task \"Weekly Checks\")\n"
+" - Application servers (e.g. in task \"Customer XYZ\")\n"
+" - Workstations (e.g. in task \"Hosts of project ABC\")\n"
+"You should also enter a comment further explaining the scope."
+msgstr ""
+
+#, c-format
+msgid "Security Issues and Fixes - Host %s"
+msgstr ""
+
+msgid "Security hole found"
+msgstr ""
+
+msgid "Security hole(s) found"
+msgstr ""
+
+msgid "Security note(s) found"
+msgstr ""
+
+msgid "Security notes found"
+msgstr ""
+
+msgid ""
+"Security tests may ask the Nessus Server to be launched if and only if some "
+"information gathered by other test exist in the knowledge base, or if and "
+"only if a given port is open. This option speeds up the test, but may make "
+"Nessus Server miss some vulnerability. If you are paranoid, disable this "
+"option"
+msgstr ""
+
+msgid "Security warning(s) found"
+msgstr ""
+
+msgid "Select ..."
+msgstr ""
+
+msgid "Select File"
+msgstr ""
+
+msgid "Select file"
+msgstr ""
+
+msgid "Select..."
+msgstr ""
+
+msgid "Server rules (priority over user rules): can not be shown"
+msgstr ""
+
+msgid "Serverside user rules (priority over clientside user rules)"
+msgstr ""
+
+msgid "Service (Port)"
+msgstr ""
+
+msgid "Set plugin timeout..."
+msgstr ""
+
+msgid "Set plugin timeout:"
+msgstr ""
+
+msgid "Set to default Nessus port 1241."
+msgstr ""
+
+msgid "Severity"
+msgstr ""
+
+msgid "Show dependencies"
+msgstr ""
+
+msgid "Silent dependencies"
+msgstr ""
+
+msgid ""
+"Some security checks may harm the target server, by disabling the remote "
+"service temporarily or until a reboot. If you enable this option, Nessus "
+"Server will rely on banners instead of actually performing a security check. "
+"You will obtain a less reliable report, but you will less likely disrupt the "
+"network users by doing a test. From a security point of view, we recommend "
+"you disable this option. From a sysadmin point of view, we recommand you "
+"enable it."
+msgstr ""
+
+msgid "Step 1: Task"
+msgstr ""
+
+msgid "Step 2: Scope"
+msgstr ""
+
+msgid "Step 3: Targets"
+msgstr ""
+
+msgid "Step 4: Execute"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop the whole test"
+msgstr ""
+
+msgid "Subnet"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Target selection"
+msgstr ""
+
+msgid "Target(s):"
+msgstr ""
+
+msgid "Target:"
+msgstr ""
+
+msgid ""
+"Targets are the hosts and networks you want to scan in this scope.\n"
+"They can be entered in the following formats:\n"
+" - simple hostname (for hosts in your LAN)\n"
+" - fully qualified host name (e.g. www.example.com)\n"
+" - IP adress (e.g. 192.168.0.1)\n"
+" - IP network (e.g. 192.168.0.0/24 or 192.168.0.0/255.255.255.0)\n"
+"You can enter several targets by separating them with a comma."
+msgstr ""
+
+#, c-format
+msgid "Task: %s"
+msgstr ""
+
+msgid ""
+"Tasks describe what you want to do. You can use it to logically group\n"
+"your duties by subject, frequency, location or anything else.\n"
+"Possible task names are:\n"
+" - Weekly checks\n"
+" - Customer XYZ\n"
+" - Hosts of project ABC\n"
+"You should also enter a comment further explaining the task."
+msgstr ""
+
+msgid "Tenable Network Security"
+msgstr ""
+
+msgid "Test all hosts"
+msgstr ""
+
+#, c-format
+msgid "The Nessus client doesn't have the right to read %s\n"
+msgstr ""
+
+#, c-format
+msgid "The batch mode (-q) arguments are :\n"
+msgstr ""
+
+msgid "The daemon shut down the communication"
+msgstr ""
+
+msgid ""
+"The first host(s) that will be attacked by Nessus Server. The options below "
+"allow you to extend the test to a larger set of computer. You may define "
+"several primary targets by separating them with a comma (,). ie : \"host1,"
+"host2\"."
+msgstr ""
+
+msgid "The global settings have been saved."
+msgstr ""
+
+msgid "The port number is out of range"
+msgstr ""
+
+msgid "The target for this rule must be a valid IP or Subnet.\n"
+msgstr ""
+
+msgid ""
+"The warning sign means that this plugin may harm the target host by "
+"disabling the attacked service or by crashing the host. You should be "
+"careful when you enable it since it may force you to reboot your servers or "
+"restart some services manually."
+msgstr ""
+
+#, c-format
+msgid "This certificate has never been seen before and can't be shown\n"
+msgstr ""
+
+msgid "This certificate has never been shown before. Here it is:"
+msgstr ""
+
+msgid ""
+"This file was generated by <a href=\"http://www.nessus.org\">Nessus</a>, the "
+"free security scanner."
+msgstr ""
+
+msgid "This page is not available in the current context."
+msgstr ""
+
+msgid ""
+"This report gives details on hosts that were tested and issues that were "
+"found."
+msgstr ""
+
+msgid "This value defines the maximum age (in seconds) of a knowledge base."
+msgstr ""
+
+msgid "Time of scan not available."
+msgstr ""
+
+msgid ""
+"To save scanning time, you may ask Nessus Server to declare TCP ports it did "
+"not scan as closed. This will result in an incomplete audit but it will "
+"reduce scanning time and prevent Nessus Server from sending packets to ports "
+"you did not specify. If this option is disabled, then Nessus Server will "
+"consider ports whose state it does not know as open."
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid ""
+"Trust the server certificate if and only if it is valid and certified by the "
+"CA"
+msgstr ""
+
+msgid "Trusted CA:"
+msgstr ""
+
+#, c-format
+msgid ""
+"Unknown SSL version \"%s\"\n"
+"Using default: %s"
+msgstr ""
+
+#, c-format
+msgid "Unsupported report type '%s'\n"
+msgstr ""
+
+msgid "Use SSL encryption"
+msgstr ""
+
+msgid "User Access Rules"
+msgstr ""
+
+msgid "User Certificate File:"
+msgstr ""
+
+msgid "User Key File:"
+msgstr ""
+
+msgid "User interface"
+msgstr ""
+
+#, c-format
+msgid "Verbose mode can only be used in batch mode\n"
+msgstr ""
+
+msgid "Verify that the server certificate is valid *and* remember it"
+msgstr ""
+
+msgid "Vulnerability"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid ""
+"Warning: Please make sure you are allowed to scan these hosts!\n"
+"Harmful checks are disabled by default, but some computers and\n"
+"especially print servers have bugs which might crash them.\n"
+"Consider getting a written permission before scanning important\n"
+"servers which are in production."
+msgstr ""
+
+msgid "Warnings"
+msgstr ""
+
+msgid ""
+"Welcome to NessusClient, http://www.nessus.org/\n"
+"Copyright 1998-2005 by Renaud Deraison\n"
+"Authors: Renaud Deraison, Thomas Arendsen Hein, Jan-Oliver Wagner, Bernhard "
+"Herzog, Michel Arboi (SSL-Support), Bruce Verderaime (Pie/Charts)\n"
+msgstr ""
+
+msgid "What is shown if the attack is successful:"
+msgstr ""
+
+msgid "XREF"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid ""
+"You are now ready to start the scan.\n"
+"\n"
+"When clicking on \"Execute\", the connection dialog will appear.\n"
+"You have to choose a Nessus Server which can reach the targets\n"
+"you have specified in the previous step.\n"
+"\n"
+"Note: You need to have an account on this server. Contact your\n"
+"system administrator if you don't have one yet.\n"
+"\n"
+"The scan progress window will inform you about the current\n"
+"status and allows you to stop scanning a single host or abort\n"
+"the whole scan.\n"
+"\n"
+"To repeat this scan, select the scope which will be created now,\n"
+"and choose \"Execute\" from the toolbar or the \"Scope\" menu.\n"
+"Each scan will create a separate new report under the current Scope."
+msgstr ""
+
+msgid "You must enter a filename for Trusted CA"
+msgstr ""
+
+msgid "You must enter a filename for the SSL Certificate"
+msgstr ""
+
+msgid "You must enter a filename for the SSL Key"
+msgstr ""
+
+msgid "You must enter a valid hostname or IP"
+msgstr ""
+
+msgid "You must enter a valid password"
+msgstr ""
+
+msgid "You must enter a valid username"
+msgstr ""
+
+msgid ""
+"You must enter the name of the primary target\n"
+"to attack in the 'target' section"
+msgstr ""
+
+#, c-format
+msgid "[ return to %s ]"
+msgstr ""
+
+msgid "[ return to summary ]"
+msgstr ""
+
+msgid "_About"
+msgstr ""
+
+msgid "_Connect"
+msgstr ""
+
+msgid "_Default"
+msgstr ""
+
+msgid "_Disconnect"
+msgstr ""
+
+msgid "_File"
+msgstr ""
+
+msgid "_Help"
+msgstr ""
+
+msgid "_Import"
+msgstr ""
+
+msgid "_Message log"
+msgstr ""
+
+msgid "_Move to task"
+msgstr ""
+
+msgid "_New"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+msgid "_Report"
+msgstr ""
+
+msgid "_Scan Assistant"
+msgstr ""
+
+msgid "_Scope"
+msgstr ""
+
+msgid "_Task"
+msgstr ""
+
+msgid "_Toolbar"
+msgstr ""
+
+msgid "_Users Manual"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+#, c-format
+msgid "but apparently the server has not loaded it\n"
+msgstr ""
+
+msgid "context_delete() deleted the current context."
+msgstr ""
+
+msgid "context_new(): No name provided for context"
+msgstr ""
+
+msgid "context_remove_child detected existing children."
+msgstr ""
+
+msgid "context_rename() called with illegal type"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+msgid "enabled"
+msgstr ""
+
+msgid "encrypted"
+msgstr ""
+
+#, c-format
+msgid "file mapping failed: %s\n"
+msgstr ""
+
+msgid "file mapping failed: unexpected end-of-file\n"
+msgstr ""
+
+msgid "http://www.bsi.de/english/"
+msgstr ""
+
+msgid "http://www.intevation.net/"
+msgstr ""
+
+msgid "http://www.nessus.org/"
+msgstr ""
+
+msgid "http://www.tenablesecurity.com/"
+msgstr ""
+
+#, c-format
+msgid "idle_server: soc(%d) out of range\n"
+msgstr ""
+
+#, c-format
+msgid "is_server_present: fd(%d) out of range\n"
+msgstr ""
+
+msgid "list-sessions only requires "
+msgstr ""
+
+#, c-format
+msgid "list-sessions requires %s\n"
+msgstr ""
+
+msgid "not connected"
+msgstr ""
+
+msgid "on_scope_edited(): menuitem has no label."
+msgstr ""
+
+#, c-format
+msgid "paranoia_level=%d but \"trusted_ca\" not set"
+msgstr ""
+
+msgid "prefs_context_update called with illegal context."
+msgstr ""
+
+msgid "prefs_set_value() called with illegal type"
+msgstr ""
+
+msgid "report_save() called with illegal type"
+msgstr ""
+
+msgid "report_save() coudn't create context"
+msgstr ""
+
+msgid "report_save() coudn't find a report filename"
+msgstr ""
+
+msgid "report_save() coudn't save the report"
+msgstr ""
+
+msgid "restore-session only requires "
+msgstr ""
+
+#, c-format
+msgid "restore-session requires -q %s result\n"
+msgstr ""
+
+msgid "scopetree_context_delete() called with illegal type"
+msgstr ""
+
+msgid "scopetree_delete() called with illegal type"
+msgstr ""
+
+msgid "scopetree_new_with_parent(): parent type >= child type"
+msgstr ""
+
+msgid "scopetree_rename() called with illegal type"
+msgstr ""
+
+msgid "some host"
+msgstr ""
+
+msgid "unencrypted"
+msgstr ""
+
+msgid "unnamed scope"
+msgstr ""
+
+msgid "unnamed task"
+msgstr ""
+
+msgid "users-manual.pdf"
+msgstr ""

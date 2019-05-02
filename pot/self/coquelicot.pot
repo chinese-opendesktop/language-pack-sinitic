@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the coquelicot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: coquelicot 0.9.6\n"
+"Report-Msgid-Bugs-To: Coquelicot developers <coquelicot@potager.org>\n"
+"POT-Creation-Date: 2016-12-20 12:58+0100\n"
+"PO-Revision-Date: 2016-12-20 12:58+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. Abbreviated unit of storage. See https://en.wiktionary.org/wiki/tebibyte
+#: lib/coquelicot/num.rb:26
+msgid "TiB"
+msgstr ""
+
+#. Abbreviated unit of storage. See https://en.wiktionary.org/wiki/gibibyte
+#: lib/coquelicot/num.rb:28
+msgid "GiB"
+msgstr ""
+
+#. Abbreviated unit of storage. See https://en.wiktionary.org/wiki/mebibyte
+#: lib/coquelicot/num.rb:30
+msgid "MiB"
+msgstr ""
+
+#. Abbreviated unit of storage. See https://en.wiktionary.org/wiki/kibibyte
+#: lib/coquelicot/num.rb:32 views/layout.haml:41
+msgid "KiB"
+msgstr ""
+
+#. Abbreviated unit of storage. See https://en.wiktionary.org/wiki/byte
+#: lib/coquelicot/num.rb:34
+msgid "B"
+msgstr ""
+
+#: lib/coquelicot/rack/upload.rb:191
+msgid ""
+"File is bigger than maximum allowed size: %s would exceed the maximum "
+"allowed %s."
+msgstr ""
+
+#: lib/coquelicot/rack/upload.rb:194
+msgid "File is bigger than maximum allowed size %s."
+msgstr ""
+
+#: lib/coquelicot/rack/upload.rb:201
+msgid "File has no content"
+msgstr ""
+
+#: views/about_your_data.haml:18 views/layout.haml:53
+msgid "About your data…"
+msgstr ""
+
+#: views/about_your_data.haml:20
+msgid ""
+"Welcome to *Coquelicot*. A simple way to share files with people you know,\n"
+"with a little bit of privacy."
+msgstr ""
+
+#: views/about_your_data.haml:23
+msgid "What should I expect from “a little bit of privacy”?"
+msgstr ""
+
+#: views/about_your_data.haml:25
+msgid "Exchanges between your computer and %s are encrypted."
+msgstr ""
+
+#: views/about_your_data.haml:26
+msgid ""
+"An attacker in-between will be able to see how much data is exchanged,\n"
+"but not its nature."
+msgstr ""
+
+#: views/about_your_data.haml:29
+msgid ""
+"Files are stored encrypted. In case someone gets access to the server\n"
+"storage, they will know the size, arrival and expiration dates of the\n"
+"files; but they will not be able to get their content without the\n"
+"password.\n"
+"\n"
+"In case no *download password* has been specified, the password might\n"
+"be kept in the server request logs. This means that the server might\n"
+"store enough information to retrieve the actual file content.\n"
+"\n"
+"When a *download password* has been specified, the password will not be\n"
+"stored anywhere on the server. This will prevent retrieval of the\n"
+"file content, except if the server has been actively compromised\n"
+"beforehand."
+msgstr ""
+
+#: views/about_your_data.haml:43
+msgid "What if I don't trust the server admins?"
+msgstr ""
+
+#: views/about_your_data.haml:44
+msgid ""
+"You are [free](http://www.gnu.org/licenses/agpl.txt) to install Coquelicot\n"
+"on your own system. Please refer to the [README](README) if you wish to\n"
+"know how."
+msgstr ""
+
+#: views/auth/imap.haml:20
+msgid "E-mail User:"
+msgstr ""
+
+#: views/auth/imap.haml:23 views/auth/ldap.haml:23 views/enter_file_key.haml:22
+msgid "Password:"
+msgstr ""
+
+#: views/auth/ldap.haml:20
+msgid "LDAP User:"
+msgstr ""
+
+#: views/auth/simplepass.haml:19 views/auth/userpass.haml:23
+msgid "Upload password:"
+msgstr ""
+
+#: views/auth/userpass.haml:20
+msgid "Upload user:"
+msgstr ""
+
+#: views/download_in_progress.haml:1
+msgid "Download in progress"
+msgstr ""
+
+#: views/download_in_progress.haml:2
+msgid "The requested file is currently being downloaded by another client."
+msgstr ""
+
+#: views/enter_file_key.haml:18
+msgid "Enter download password…"
+msgstr ""
+
+#: views/error.haml:1
+msgid "Error"
+msgstr ""
+
+#: views/error.haml:2
+msgid "Something bad happened: %s"
+msgstr ""
+
+#: views/expired.haml:18
+msgid "Too late…"
+msgstr ""
+
+#: views/expired.haml:20
+msgid "Sorry, file has expired."
+msgstr ""
+
+#: views/forbidden.haml:1
+msgid "Forbidden"
+msgstr ""
+
+#: views/forbidden.haml:2
+msgid "This password does not allow access to this resource."
+msgstr ""
+
+#: views/index.haml:22
+msgid "Share a file!"
+msgstr ""
+
+#: views/index.haml:32
+msgid "Available for:"
+msgstr ""
+
+#: views/index.haml:34
+msgid "1 day"
+msgstr ""
+
+#: views/index.haml:34
+msgid "1 hour"
+msgstr ""
+
+#: views/index.haml:34
+msgid "1 month"
+msgstr ""
+
+#: views/index.haml:34
+msgid "1 week"
+msgstr ""
+
+#: views/index.haml:43
+msgid "Unlimited downloads until expiration"
+msgstr ""
+
+#: views/index.haml:46
+msgid "Remove after one download"
+msgstr ""
+
+#: views/index.haml:48
+msgid "Download password (<em>optional</em>):"
+msgstr ""
+
+#: views/index.haml:51
+msgid "File (<em>max. size: %s</em>):"
+msgstr ""
+
+#: views/index.haml:55
+msgid "Share!"
+msgstr ""
+
+#: views/layout.haml:23
+msgid "Coquelicot"
+msgstr ""
+
+#: views/layout.haml:34
+msgid "Generate random"
+msgstr ""
+
+#: views/layout.haml:35
+msgid "Generating…"
+msgstr ""
+
+#: views/layout.haml:36
+msgid "Don't forget to write it down!"
+msgstr ""
+
+#: views/layout.haml:37
+msgid "Please try again!"
+msgstr ""
+
+#: views/layout.haml:38
+msgid "Error:"
+msgstr ""
+
+#: views/layout.haml:39
+msgid "Upload starting..."
+msgstr ""
+
+#: views/layout.haml:40
+msgid "Uploading: "
+msgstr ""
+
+#: views/not_found.haml:1
+msgid "Not found"
+msgstr ""
+
+#: views/not_found.haml:2
+msgid "The requested URL %s was not found on this server."
+msgstr ""
+
+#: views/ready.haml:18
+msgid "Share this!"
+msgstr ""
+
+#: views/ready.haml:23
+msgid "A password is required to download this file."
+msgstr ""
+
+#: views/ready.haml:24
+msgid "The file will be available until %s."
+msgstr ""
+
+#: views/ready.haml:26
+msgid "Share another file…"
+msgstr ""

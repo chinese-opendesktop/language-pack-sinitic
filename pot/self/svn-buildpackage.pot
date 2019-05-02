@@ -1,0 +1,941 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: svn-buildpackage@packages.debian.org\n"
+"POT-Creation-Date: 2016-07-18 14:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../svn-buildpackage:46
+msgid ""
+"\n"
+"Usage: svn-buildpackage [ OPTIONS... ] [ OPTIONS for dpkg-buildpackage ]\n"
+"Builds Debian package within the SVN repository. The source code\n"
+"repository must be in the format created by svn-inject, and this script\n"
+"must be executed from the work directory (trunk/package).\n"
+"\n"
+"Building and working directory management:\n"
+"  --svn-builder CMD    Use CMD as build command instead of dpkg-"
+"buildpackage\n"
+"  --svn-ignore-new     Don't stop on svn conflicts or new/changed files\n"
+"  --svn-dont-clean     Don't run debian/rules clean (default: clean first)\n"
+"  --svn-savecfg        Create a .svn/deb-layout file from the detected/"
+"imported\n"
+"                       layout information. (replicates old behaviour)\n"
+"Source copying behavior:\n"
+"  --svn-no-links       Don't use file links (default: use links where "
+"possible)\n"
+"  --svn-dont-purge     Don't wipe the build directory (default: purge after "
+"build)\n"
+"  --svn-reuse          Reuse an existing build directory, copy trunk over "
+"it\n"
+"  --svn-rm-prev-dir    Remove an existing build directory instead of making "
+"a\n"
+"                       copy; if --svn-reuse is specified, this option is "
+"reset\n"
+"  --svn-export         Just prepares the build directory and exits\n"
+"Tagging and post-tagging:\n"
+"  --svn-tag            Final build: Export && build && tag && dch -i\n"
+"  --svn-retag          Replace an existing tag directory if found while "
+"tagging\n"
+"  --svn-only-tag       Tags the current trunk directory without building\n"
+"  --svn-noautodch      Don't add a new Debian changelog entry when done\n"
+"Post-build processing:\n"
+"  --svn-lintian        Run lintian after the build\n"
+"  --svn-move           Move package files to .. after successful build\n"
+"  --svn-move-to XYZ    Move package files to XYZ, implies --svn-move\n"
+"Miscelaneous:\n"
+"  --svn-pkg PACKAGE    Specifies the package name\n"
+"  --svn-override a=b   Override some config variable (comma separated list)\n"
+"  --svn-arch ARCH      Allows specifying the build architecture\n"
+"  --svn-verbose        More verbose program output\n"
+"  --svn-noninteractive Turn off interactive mode\n"
+"  --svn-download-orig  Use apt and uscan to download the .orig.tar.gz\n"
+"  -h, --help           Show this help message\n"
+"\n"
+"If the debian directory has the mergeWithUpstream property, svn-"
+"buildpackage\n"
+"will extract .orig.tar.gz file first and add the Debian files to it.\n"
+"\n"
+msgstr ""
+
+#: ../svn-buildpackage:252 ../svn-inject:177 ../svn-upgrade:139
+msgid "Imported config directives:"
+msgstr ""
+
+#: ../svn-buildpackage:271
+msgid "D: Configuration will not be saved.\n"
+msgstr ""
+
+#: ../svn-buildpackage:284
+msgid ""
+"W: You are tagging while your working copy is not up to date with the "
+"repository!\n"
+msgstr ""
+
+#: ../svn-buildpackage:318
+msgid "Insufficient Build-Deps, stop!\n"
+msgstr ""
+
+#: ../svn-buildpackage:330
+msgid "Failed to parse changelog"
+msgstr ""
+
+#: ../svn-buildpackage:333
+msgid "UNRELEASED tag found - you don't want to release with it, do you?\n"
+msgstr ""
+
+#. Translators: retain $FORCETAG untranslated.
+#: ../svn-buildpackage:335
+msgid "Aborting now, set $FORCETAG to ignore it.\n"
+msgstr ""
+
+#: ../svn-buildpackage:346
+#, perl-format
+msgid ""
+"Could not create tag copy\n"
+"%s\n"
+"It does already exist. Add the --svn-retag option to replace that tag.\n"
+msgstr ""
+
+#: ../svn-buildpackage:355
+msgid ""
+"\n"
+"I: Done! No pending changelog entry was created since it was not requested.\n"
+msgstr ""
+
+#: ../svn-buildpackage:359
+msgid ""
+"\n"
+"I: Done! Created the next changelog entry, please commit later or revert.\n"
+msgstr ""
+
+#. Translators: relates to the use of --svn-tag
+#: ../svn-buildpackage:371 ../svn-buildpackage:840 ../svn-inject:547
+#, perl-format
+msgid "Tagging %s (%s)\n"
+msgstr ""
+
+#: ../svn-buildpackage:431
+#, perl-format
+msgid "Orig tarball not found (expected %s)\n"
+msgstr ""
+
+#: ../svn-buildpackage:434
+#, perl-format
+msgid "fetching tarball from %s...\n"
+msgstr ""
+
+#: ../svn-buildpackage:441
+msgid "Trying to download tarball using apt\n"
+msgstr ""
+
+#: ../svn-buildpackage:462
+msgid "Trying to download tarball using uscan\n"
+msgstr ""
+
+#: ../svn-buildpackage:469
+msgid "Couldn't find a tarball\n"
+msgstr ""
+
+#: ../svn-buildpackage:479
+#, perl-format
+msgid "%s exists, removing it, as requested\n"
+msgstr ""
+
+#: ../svn-buildpackage:485
+#, perl-format
+msgid "%s exists, renaming to %s\n"
+msgstr ""
+
+#. Translators, leave 'mergeWithUpstream' untranslated.
+#: ../svn-buildpackage:494
+#, perl-format
+msgid "mergeWithUpstream mode detected, looking for %s\n"
+msgstr ""
+
+#: ../svn-buildpackage:504
+msgid "upsCurrentUrl not set and not located, expect problems...\n"
+msgstr ""
+
+#: ../svn-buildpackage:525
+msgid "Trying different methods to export the upstream source:\n"
+msgstr ""
+
+#: ../svn-buildpackage:526
+#, perl-format
+msgid " - making hard or symbolic link from %s\n"
+msgstr ""
+
+#: ../svn-buildpackage:527
+msgid " - copying the tarball to the expected destination file\n"
+msgstr ""
+
+#: ../svn-buildpackage:530
+#, perl-format
+msgid "W: %s not found, expect problems...\n"
+msgstr ""
+
+#: ../svn-buildpackage:545
+#, perl-format
+msgid ""
+"%s exists but differs from %s!\n"
+"Aborting, fix this manually..."
+msgstr ""
+
+#. contents examination for "cp -l" emulation
+#: ../svn-buildpackage:571 ../svn-buildpackage:579
+msgid "Creating file list...\n"
+msgstr ""
+
+#. Translators, leave 'mergeWithUpstream' untranslated.
+#: ../svn-buildpackage:599
+msgid ""
+"I: mergeWithUpstream property set, looking for upstream source tarball...\n"
+msgstr ""
+
+#: ../svn-buildpackage:602
+msgid "E: Could not find the origDir directory, please check the settings!"
+msgstr ""
+
+#: ../svn-buildpackage:606
+#, perl-format
+msgid "E: Could not find the upstream source file! (should be %s)\n"
+msgstr ""
+
+#: ../svn-buildpackage:614
+msgid "Reusing old build directory\n"
+msgstr ""
+
+#: ../svn-buildpackage:680
+msgid "I: useNativeDist property set, running make native-dist ...\n"
+msgstr ""
+
+#: ../svn-buildpackage:683
+#, perl-format
+msgid ""
+"useNativeDist command failed in %s\n"
+"Aborting.\n"
+msgstr ""
+
+#: ../svn-buildpackage:684 ../svn-buildpackage:749
+msgid "W: build directory not purged!\n"
+msgstr ""
+
+#: ../svn-buildpackage:685 ../svn-buildpackage:750
+msgid "W: no lintian checks done!\n"
+msgstr ""
+
+#: ../svn-buildpackage:686 ../svn-buildpackage:751
+msgid "W: package not tagged!\n"
+msgstr ""
+
+#: ../svn-buildpackage:715
+msgid "Warning, uncommited changes found, using combinediff to merge them...\n"
+msgstr ""
+
+#: ../svn-buildpackage:744
+#, perl-format
+msgid "Build directory exported to %s\n"
+msgstr ""
+
+#: ../svn-buildpackage:748
+#, perl-format
+msgid ""
+"build command failed in %s\n"
+"Aborting.\n"
+msgstr ""
+
+#: ../svn-buildpackage:795
+msgid "build command was successful"
+msgstr ""
+
+#: ../svn-buildpackage:798
+#, perl-format
+msgid "; binaries are in %s"
+msgstr ""
+
+#: ../svn-buildpackage:799
+msgid ""
+"The changes file is:\n"
+" "
+msgstr ""
+
+#: ../svn-buildpackage:801
+msgid "Binary package"
+msgstr ""
+
+#: ../svn-buildpackage:807
+#, perl-format
+msgid ""
+"Warning: %s should have an orig tarball but it does not!\n"
+"Expected filename: %s\n"
+msgstr ""
+
+#: ../svn-buildpackage:818
+msgid "Could not read the .changes file: "
+msgstr ""
+
+#. Translators: this line is optional, hence may appear out-of-place in the POT
+#: ../svn-buildpackage:820
+msgid " and thus failed to move the resulting files"
+msgstr ""
+
+#: ../svn-buildpackage:823
+msgid " and run lintian"
+msgstr ""
+
+#: ../svn-buildpackage:825
+msgid " and thus failed to run lintian"
+msgstr ""
+
+#: ../svn-inject:75
+msgid ""
+"\n"
+"Usage: svn-inject [options] <package>.dsc [ <repository URL> ]\n"
+"Options:\n"
+"  -h            print this message\n"
+"  -v            Make the commands verbose\n"
+"  -q            Don't show command calls\n"
+"  -l <digit>    Layout type (1=pkg/function, 2=function/pkg/)\n"
+"  -t <string>   Directory where you like to store the .orig files\n"
+"  --add-tar     Keep tarballs in the repository\n"
+"  -o            Only keep modified files under SVN control (incl. debian/ "
+"dir),\n"
+"                track only parts of upstream branch\n"
+"  -c <digit>    Checkout the tree after injecting\n"
+"                (0=don't do, 1=trunk only (default), 2=complete tree)\n"
+"  -d <string>   Do-Like-OtherPackage feature. Looks at a local working\n"
+"                directory, removes lastword/trunk from its URL and uses\n"
+"                the result as base URL\n"
+"  --no-branches Like -o but never tracking upstream branch\n"
+"  -s            Save the detected layout configuration (has effect only if "
+"a\n"
+"                checkout is done after the inject)\n"
+"  --setprops    Set svn-bp props after injecting\n"
+"  --tag         Create a tag after importing\n"
+"\n"
+"If the base repository URL is omitted, svn-inject tries to get it from\n"
+"the current directory. In this case, -c becomes ineffective.\n"
+"\n"
+msgstr ""
+
+#: ../svn-inject:200
+#, perl-format
+msgid "Cannot open %s for writing: %s\n"
+msgstr ""
+
+#: ../svn-inject:203
+msgid "Checking if the default $TMPDIR allows execution...\n"
+msgstr ""
+
+#: ../svn-inject:205
+msgid "Default $TMPDIR allows execution.\n"
+msgstr ""
+
+#: ../svn-inject:207
+msgid "Default $TMPDIR does NOT allow execution.\n"
+msgstr ""
+
+#: ../svn-inject:208
+msgid "All temporary files will be created in the current directory.\n"
+msgstr ""
+
+#: ../svn-inject:216
+msgid "-c 2 only works with -t 1\n"
+msgstr ""
+
+#: ../svn-inject:222
+msgid "Failed to extract the base URL, maybe not in layout type 2?\n"
+msgstr ""
+
+#: ../svn-inject:233
+msgid "Got base URL:"
+msgstr ""
+
+#: ../svn-inject:234
+#, perl-format
+msgid "Working directory goes to %s/\n"
+msgstr ""
+
+#: ../svn-inject:235
+#, perl-format
+msgid "Tarball to %s/ or so...\n"
+msgstr ""
+
+#: ../svn-inject:252
+msgid "Need two arguments: <dsc file> <SVN url>\n"
+msgstr ""
+
+#: ../svn-inject:258
+#, perl-format
+msgid "Dsc file %s not readable!\n"
+msgstr ""
+
+#. $SDCommon::opt_quiet=$opt_quiet;
+#: ../svn-inject:281
+#, perl-format
+msgid "Could not read %s"
+msgstr ""
+
+#. XXX: debug stuff, remove or disable!
+#: ../svn-inject:299
+msgid "Import details:"
+msgstr ""
+
+#: ../svn-inject:302
+msgid "Press ^C to stop or Enter to continue!"
+msgstr ""
+
+#: ../svn-inject:326
+#, perl-format
+msgid ""
+"svn-buildpackage doesn't support Debian source package format %s. Aborting."
+msgstr ""
+
+#: ../svn-inject:330
+#, perl-format
+msgid "%s/%s already exists, aborting...\n"
+msgstr ""
+
+#: ../svn-inject:453
+msgid "Internal operation error, unable to create local import directory\n"
+msgstr ""
+
+#: ../svn-inject:478 ../svn-inject:483
+#, perl-format
+msgid "Installing original source of %s (%s)"
+msgstr ""
+
+#: ../svn-inject:498
+#, perl-format
+msgid "Tagging upstream source version of %s (%s)"
+msgstr ""
+
+#: ../svn-inject:505
+#, perl-format
+msgid "Forking %s source to Trunk"
+msgstr ""
+
+#: ../svn-inject:532
+#, perl-format
+msgid "Applying Debian modifications (%s) to trunk"
+msgstr ""
+
+#: ../svn-inject:540
+msgid "Setting svn-bp props"
+msgstr ""
+
+#: ../svn-inject:567
+#, perl-format
+msgid "Storing copy of your repository tree in %s/%s.\n"
+msgstr ""
+
+#: ../svn-inject:571
+msgid ""
+"Full checkout with layout 2 is not supported. Falling back to trunk checkout."
+msgstr ""
+
+#: ../svn-inject:579
+#, perl-format
+msgid "Storing trunk copy in %s/%s.\n"
+msgstr ""
+
+#: ../svn-inject:592
+msgid "Done!\n"
+msgstr ""
+
+#: ../svn-inject:593
+#, perl-format
+msgid "Checked out source is in %s - have fun!\n"
+msgstr ""
+
+#: ../svn-inject:597
+#, perl-format
+msgid "Removing tempdir %s.\n"
+msgstr ""
+
+#: ../svn-upgrade:42
+msgid ""
+"\n"
+"Usage: svn-upgrade newsource [ OPTIONS... ]\n"
+"Upgrade a source code package from an upstream revision. The source code\n"
+"repository must be in the format created by svn-inject.\n"
+"\n"
+"  -V, --upstreamversion  STRING    Forces a different upstream version "
+"string\n"
+"  -c, --clean                      generic cleanup of upstream source - "
+"remove\n"
+"                                   debian directory and object files\n"
+"  --debclean                       run debclean before merging the new "
+"upstream source\n"
+"  -f, --force                      Force execution of certain operations\n"
+"  -v, --verbose                    More verbose program output\n"
+"  -r, --replay-conflicting         Special cleanup action: replaces all\n"
+"                                   conflicting files with upstream versions\n"
+"  -u, --uscan                      Use uscan to download the new version\n"
+"  --ignored-files-action STRING    Make files that are ignored due to "
+"subversion\n"
+"                                   ignore patterns to be either 'import'ed "
+"or 'skip'ed\n"
+"  -e, --auto-epoch                 Increase epoch of package version if the "
+"new\n"
+"                                   upstream version is lower than the "
+"current\n"
+"\n"
+"The new source may be a tarball compressed with gzip, bzip2 or xz a\n"
+"directory with extraced source.\n"
+msgstr ""
+
+#: ../svn-upgrade:184
+msgid ""
+"new upstream version is already downloaded, and it isn't easily locatable"
+msgstr ""
+
+#: ../svn-upgrade:190
+msgid ""
+"uscan's output didn't give an obvious tarball name. the last line of it's "
+"output should include the name of the tarball, which should include .orig."
+msgstr ""
+
+#: ../svn-upgrade:196
+msgid "couldn't find the downloaded file"
+msgstr ""
+
+#: ../svn-upgrade:202
+msgid "no new upstream version"
+msgstr ""
+
+#: ../svn-upgrade:204
+#, perl-format
+msgid "uscan returned this error code: %s"
+msgstr ""
+
+#: ../svn-upgrade:245
+msgid "Unrecognized upstream version, use -V\n"
+msgstr ""
+
+#. Translators: 'import' and 'skip' are not to be translated
+#: ../svn-upgrade:253 ../SDCommon.pm:689
+msgid ""
+"Action for ignored files must be either 'import' or 'skip'!\n"
+"Aborting!"
+msgstr ""
+
+#: ../svn-upgrade:328
+msgid "Unknown compression method!\n"
+msgstr ""
+
+#: ../svn-upgrade:333
+#, perl-format
+msgid "%s exists, aborting...\n"
+msgstr ""
+
+#: ../svn-upgrade:350
+msgid "Trunk is already at this version.\n"
+msgstr ""
+
+#: ../svn-upgrade:354
+msgid "This version has already been tagged.\n"
+msgstr ""
+
+#: ../svn-upgrade:363
+msgid "I: Upstream source not maintained in the repository.\n"
+msgstr ""
+
+#: ../svn-upgrade:364
+msgid "I: Assuming that it will be merged at build time.\n"
+msgstr ""
+
+#: ../svn-upgrade:369
+#, perl-format
+msgid ""
+"\n"
+"         Could not find the unmodified upstream version in\n"
+"         %s!\n"
+"         If you think that %s is the upstream source\n"
+"         which %s is based on, run:\n"
+"\n"
+"         svn copy %s %s\n"
+"\n"
+"         Otherwise, please fix the headline of debian/changelog.\n"
+msgstr ""
+
+#: ../svn-upgrade:412
+#, perl-format
+msgid "Failed to exec find -type f | grep -v \"\\.svn\": %s"
+msgstr ""
+
+#: ../svn-upgrade:435
+msgid ""
+"\n"
+"Warning: it is generally a bad idea to keep the debian directory in the\n"
+"upstream source tarball unless you explicitly try to track an upstream "
+"source\n"
+"including Debianisation. Consider using uclean to remove the junk there.\n"
+msgstr ""
+
+#: ../svn-upgrade:457
+msgid "Integrating new upstream version"
+msgstr ""
+
+#: ../svn-upgrade:459
+msgid "Tagging new upstream version"
+msgstr ""
+
+#: ../svn-upgrade:476
+#, perl-format
+msgid "Failed to run `svn status`: %s"
+msgstr ""
+
+#: ../svn-upgrade:481
+msgid "Files in conflict state:"
+msgstr ""
+
+#: ../svn-upgrade:482
+msgid ""
+"Resolve them manually and run \"svn resolved\" on each file\n"
+"      Or use \"svn-upgrade -r\" to overwrite them with new upstream "
+"versions\n"
+msgstr ""
+
+#: ../svn-upgrade:488
+msgid "Version mismatch. New version is not greater than current.\n"
+msgstr ""
+
+#: ../svn-upgrade:490 ../svn-upgrade:501
+msgid "Increasing epoch as requested.\n"
+msgstr ""
+
+#: ../svn-upgrade:493 ../svn-upgrade:504
+msgid "Aborting."
+msgstr ""
+
+#. Translators: retain i, e and a as untranslated.
+#: ../svn-upgrade:495
+msgid "(i)gnore, increase (e)poch or (a)bort (default)?\n"
+msgstr ""
+
+#: ../svn-upgrade:498
+msgid "Ignoring.\n"
+msgstr ""
+
+#: ../svn-upgrade:512
+msgid "Done! Last commit pending, please execute manually.\n"
+msgstr ""
+
+#: ../svn-upgrade:527
+#, perl-format
+msgid "Process ended with code %s\n"
+msgstr ""
+
+#: ../SDCommon.pm:94
+#, perl-format
+msgid "Command '%s' failed in '%s', how to continue now? [Qri?]: "
+msgstr ""
+
+#: ../SDCommon.pm:98
+msgid "Aborting.\n"
+msgstr ""
+
+#: ../SDCommon.pm:107
+msgid "Invalid selection! "
+msgstr ""
+
+#. Translators: retain the letters q, r and i as untranslated.
+#: ../SDCommon.pm:109
+msgid "The choices are: Quit (q), Retry (r), Ignore & continue (i).\n"
+msgstr ""
+
+#: ../SDCommon.pm:157
+#, perl-format
+msgid "Creating %s directory."
+msgstr ""
+
+#: ../SDCommon.pm:167
+msgid "Found conflicting .svn directories in the upstream source:\n"
+msgstr ""
+
+#: ../SDCommon.pm:172
+msgid "use -v to display the files\n"
+msgstr ""
+
+#: ../SDCommon.pm:174
+msgid "Hint: use the uclean program to fix upstream source tarball\n"
+msgstr ""
+
+#: ../SDCommon.pm:229
+#, perl-format
+msgid "Repository lookup, probing '%s' ...\n"
+msgstr ""
+
+#: ../SDCommon.pm:231
+#, perl-format
+msgid "Can't open svn ls '%s': %s"
+msgstr ""
+
+#. huch, URL was specified as $basedir?
+#: ../SDCommon.pm:269
+#, perl-format
+msgid "W: %s not specified anywhere, looking in the local repository...\n"
+msgstr ""
+
+#: ../SDCommon.pm:282
+msgid "I: Trying blind lookup for resource directories in SVN repository.\n"
+msgstr ""
+
+#: ../SDCommon.pm:292
+#, perl-format
+msgid "Looking in SVN for: %s\n"
+msgstr ""
+
+#: ../SDCommon.pm:295
+#, perl-format
+msgid "I: adding the URLs to the '%s' to skip the check later.\n"
+msgstr ""
+
+#: ../SDCommon.pm:300
+msgid "Failed, assuming non-existent directory..."
+msgstr ""
+
+#: ../SDCommon.pm:320
+#, perl-format
+msgid ""
+"upsTagUrl setting is required, but could not be found in %s or repository "
+"tree."
+msgstr ""
+
+#. Translators: %s is the name of the config file.
+#: ../SDCommon.pm:333
+#, perl-format
+msgid ""
+"upsCurrentUrl setting is required, but could not be found in %s or "
+"repository tree."
+msgstr ""
+
+#. Translators: %s is the name of the config file.
+#: ../SDCommon.pm:343
+#, perl-format
+msgid ""
+"tagsUrl setting is required, but could not be found in %s or repository tree."
+msgstr ""
+
+#. Translators: %s is the name of the config file.
+#: ../SDCommon.pm:348
+#, perl-format
+msgid "I: Configuration saving was overriden (%s should be intact).\n"
+msgstr ""
+
+#. Translators: %s is the name of the config file.
+#: ../SDCommon.pm:352
+#, perl-format
+msgid "I: Trying to save the configuration to %s.\n"
+msgstr ""
+
+#: ../SDCommon.pm:353
+#, perl-format
+msgid "Could not open %s for writing.\n"
+msgstr ""
+
+#: ../SDCommon.pm:364
+#, perl-format
+msgid "Writing config: %s"
+msgstr ""
+
+#: ../SDCommon.pm:376
+msgid ""
+"Not started from the Trunk directory or not a valid SVN repository. "
+"Aborting.\n"
+msgstr ""
+
+#: ../SDCommon.pm:408
+msgid "I: Got package name and version from debian/changelog.\n"
+msgstr ""
+
+#: ../SDCommon.pm:412
+msgid ""
+"E: Not started from the trunk/PACKAGE directory (debian/changelog "
+"garbled?).\n"
+msgstr ""
+
+#: ../SDCommon.pm:414
+#, perl-format
+msgid ""
+"\n"
+"   Package name: %s\n"
+"   Current upstream version: %s\n"
+"   Debian tag: %s\n"
+"\n"
+"   "
+msgstr ""
+
+#: ../SDCommon.pm:460
+msgid "Importing layout information via Subversion properties... \n"
+msgstr ""
+
+#: ../SDCommon.pm:470
+msgid "Layout info"
+msgstr ""
+
+#: ../SDCommon.pm:476
+msgid "no information"
+msgstr ""
+
+#: ../SDCommon.pm:483
+#, perl-format
+msgid ""
+"No layout information imported through %s.\n"
+"%s does not exist.\n"
+msgstr ""
+
+#: ../SDCommon.pm:486
+#, perl-format
+msgid "Importing layout information from %s.\n"
+msgstr ""
+
+#: ../SDCommon.pm:518
+msgid "Versioned layout properties"
+msgstr ""
+
+#: ../SDCommon.pm:520
+msgid "the versioned file layout"
+msgstr ""
+
+#. status of the versioned layout info
+#: ../SDCommon.pm:522
+msgid "Versioned layout information"
+msgstr ""
+
+#: ../SDCommon.pm:524
+msgid "the local override"
+msgstr ""
+
+#. give a nice status of the currently set options
+#: ../SDCommon.pm:527
+msgid "Layout information with local overrides"
+msgstr ""
+
+#: ../SDCommon.pm:536
+msgid "We are not in a working copy of SVN trunk directory"
+msgstr ""
+
+#: ../SDCommon.pm:540
+#, perl-format
+msgid ""
+"\n"
+"The directory %s does not exist!\n"
+"\n"
+"Create this directory or fix the setting in .svn/deb-layout or remove that\n"
+"line and let svn-buildpackage redetect the value. Also check the associated\n"
+"URL.\n"
+"\n"
+msgstr ""
+
+#: ../SDCommon.pm:563
+#, perl-format
+msgid "Overriding variable: %s with %s\n"
+msgstr ""
+
+#: ../SDCommon.pm:567
+#, perl-format
+msgid "Warning, unable to parse the override string: %s\n"
+msgstr ""
+
+#: ../SDCommon.pm:571
+msgid "Complete layout information"
+msgstr ""
+
+#: ../SDCommon.pm:606
+#, perl-format
+msgid "E: Found unresolved issues: %s"
+msgstr ""
+
+#: ../SDCommon.pm:607
+msgid "E: Resolve them manually before continuing\n"
+msgstr ""
+
+#: ../SDCommon.pm:650
+msgid "Creating trunk directory"
+msgstr ""
+
+#: ../SDCommon.pm:694
+msgid ""
+"One or more files were ignored due to (global) subversion svn:ignore "
+"properties,\n"
+"\thow to procede (quit, import, skip)? [Qis?]: "
+msgstr ""
+
+#: ../SDCommon.pm:697
+msgid "Aborting!\n"
+msgstr ""
+
+#: ../SDCommon.pm:704
+msgid ""
+"Your choices are:\n"
+"\tQuit (q), import (i) which means to add ignored files or skip (s)\n"
+"\twhich means to NOT include those files.\n"
+msgstr ""
+
+#: ../SDCommon.pm:741
+msgid "Starting ssh connection..\n"
+msgstr ""
+
+#: ../SDCommon.pm:747
+msgid "Failed to make the ssh connection, ssh's return code was: "
+msgstr ""
+
+#: ../uclean:31
+msgid ""
+"\n"
+"uclean -- remove suspicious/redundant files from upstream source\n"
+"  tarball, convert bz2 -> gz and/or recompress better\n"
+"\n"
+"Usage:\n"
+"  uclean FILE\n"
+"    fix the source in tarball FILE, recompress, store in the same file \n"
+"  uclean FILE NEW\n"
+"    fix the source in tarball FILE, recompress, store in a new file \n"
+msgstr ""
+
+#: ../uclean:46
+msgid "Could not create the temp directory!\n"
+msgstr ""
+
+#: ../uclean:48
+msgid "Problems creating the temporary directory..."
+msgstr ""
+
+#: ../uclean:55
+#, perl-format
+msgid "No file contents? Check %s\n"
+msgstr ""
+
+#: ../uclean:58
+#, perl-format
+msgid "Failed to run `find %s`: %s"
+msgstr ""
+
+#: ../uclean:60
+msgid "Problems scanning the package contents!\n"
+msgstr ""
+
+#: ../uclean:80
+#, perl-format
+msgid "Could not rename %s to %s"
+msgstr ""
+
+#: ../uclean:82
+#, perl-format
+msgid "Could not create %s!\n"
+msgstr ""

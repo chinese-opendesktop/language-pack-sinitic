@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-02 22:28-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../unp:71
+#, perl-format
+msgid ""
+"\n"
+"USAGE:\n"
+"   %s [ options ] file [ files... ]\n"
+"   file: compressed file(s) to expand/extract\n"
+"\n"
+"   Use -- [ ARGUMENTS ] to pass arguments to external programs, eg. some tar "
+"options:\n"
+"   unp fastgl.tgz xmnt.tgz -- -C /tmp\n"
+"\n"
+"   Options:\n"
+"   -f Continue even if program availability checks fail or directory "
+"collision occurs\n"
+"   -u Special helper mode.\n"
+"      For most archive types:\n"
+"      - create directory <filename without suffix>/\n"
+"      - extract contents there\n"
+"      For Debian/Ubuntu packages:\n"
+"      - extract data.tar.gz after each operation in local directory\n"
+"      - extract control.tar.gz into control/<package_version_arch>/\n"
+"   -U Smart mode, acts like -u (see above) if archive contains multiple\n"
+"      elements but if there is only one file/directory element then it's "
+"stored \n"
+"      in the current directory.\n"
+"   -s Show the list of supported formats\n"
+"   -v More verbosity\n"
+"   -h Show this help\n"
+msgstr ""
+
+#: ../unp:95
+#, perl-format
+msgid ""
+"\n"
+"USAGE:\n"
+"   %s [ options ] file [ files... ]\n"
+"   Uncompress multiple files to STDOUT\n"
+"\n"
+"   Options:\n"
+"   -s  Show the list of supported formats\n"
+"   -h  Show this help\n"
+"   -v  More verbosity, to STDERR\n"
+msgstr ""
+
+#: ../unp:143
+msgid "tar with gzip"
+msgstr ""
+
+#: ../unp:147
+msgid "tar with bzip2"
+msgstr ""
+
+#: ../unp:151
+msgid "tar with xz-utils"
+msgstr ""
+
+#: ../unp:156
+msgid "tar with lzip"
+msgstr ""
+
+#: ../unp:161
+msgid "tar with lzop"
+msgstr ""
+
+#: ../unp:166
+msgid "tar with compress"
+msgstr ""
+
+#: ../unp:194
+msgid "xz-utils or lzma"
+msgstr ""
+
+#: ../unp:199
+msgid "cpio or afio"
+msgstr ""
+
+#: ../unp:204
+msgid "rpm2cpio and cpio"
+msgstr ""
+
+#: ../unp:208
+msgid "formail and mpack"
+msgstr ""
+
+#: ../unp:212
+msgid "libchm-bin or archmage"
+msgstr ""
+
+#: ../unp:217
+msgid "rar or unrar or unrar-free"
+msgstr ""
+
+#: ../unp:259
+msgid "p7zip or p7zip-full"
+msgstr ""
+
+#: ../unp:407
+msgid "Error, following packages must be installed in order to proceed:\n"
+msgstr ""
+
+#: ../unp:460
+#, perl-format
+msgid "Cannot read %s, skipping...\n"
+msgstr ""
+
+#: ../unp:467
+#, perl-format
+msgid "Failed to detect file type of %s.\n"
+msgstr ""
+
+#: ../unp:517
+#, perl-format
+msgid ""
+"Cannot create target %s: file already exists. Trying alternative targets...\n"
+msgstr ""
+
+#: ../unp:523 ../unp:529
+#, perl-format
+msgid "Cannot create target %s: file already exists\n"
+msgstr ""
+
+#: ../unp:591
+msgid ""
+"Cannot create target directory (already exists), using alternative name\n"
+msgstr ""

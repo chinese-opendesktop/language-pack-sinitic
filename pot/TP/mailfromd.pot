@@ -1,0 +1,3832 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Sergey Poznyakoff
+# This file is distributed under the same license as the mailfromd package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mailfromd 8.6\n"
+"Report-Msgid-Bugs-To: bug-mailfromd@gnu.org.ua\n"
+"POT-Creation-Date: 2018-07-24 13:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gacopyz/gacopyz.c:21 gacopyz/io.c:176
+#, c-format
+msgid "send header: size=%lu, cmd=%c"
+msgstr ""
+
+#: gacopyz/gacopyz.c:25 gacopyz/gacopyz.c:27 gacopyz/io.c:179
+msgid "send data"
+msgstr ""
+
+#: gacopyz/gacopyz.c:42
+#, c-format
+msgid ""
+"smfi_register: %s: version mismatch; application %d != implementation %d"
+msgstr ""
+
+#: gacopyz/gacopyz.c:204 gacopyz/gacopyz.c:273
+#, c-format
+msgid "%s: %s: cannot unlink: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:229
+#, c-format
+msgid "%s: invalid connection type: %s; port is meaningless for UNIX sockets"
+msgstr ""
+
+#: gacopyz/gacopyz.c:239
+#, c-format
+msgid "%s: %s: UNIX socket name too long"
+msgstr ""
+
+#: gacopyz/gacopyz.c:255
+#, c-format
+msgid "%s: %s: cannot stat socket: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:265
+#, c-format
+msgid "%s: %s: not a socket"
+msgstr ""
+
+#: gacopyz/gacopyz.c:291
+#, c-format
+msgid "%s: invalid connection type: %s; missing port number"
+msgstr ""
+
+#: gacopyz/gacopyz.c:302
+#, c-format
+msgid "%s: invalid connection type: %s; bad port number"
+msgstr ""
+
+#: gacopyz/gacopyz.c:314
+#, c-format
+msgid "%s: invalid connection type: %s; unknown port name"
+msgstr ""
+
+#: gacopyz/gacopyz.c:330
+#, c-format
+msgid "%s: unknown host name %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:345
+#, c-format
+msgid "%s: invalid connection type: %s; unsupported address family"
+msgstr ""
+
+#: gacopyz/gacopyz.c:369 gacopyz/gacopyz.c:1201 gacopyz/server.c:886
+#: lib/srvman.c:260 src/builtin/io.bi:559
+#, c-format
+msgid "%s:%s: cannot parse address: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:376 gacopyz/gacopyz.c:1209 gacopyz/server.c:893
+#: lib/srvman.c:266 src/builtin/io.bi:565
+#, c-format
+msgid "%s:%d: internal error converting %s:%s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:393 gacopyz/gacopyz.c:1227 gacopyz/server.c:912
+#: src/builtin/io.bi:581
+#, c-format
+msgid "%s:%s: address length too big (%lu)"
+msgstr ""
+
+#: gacopyz/gacopyz.c:408 gacopyz/server.c:927 lib/srvman.c:289
+#, c-format
+msgid "%s:%s resolves to several addresses; using %s:%s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:419
+#, c-format
+msgid "%s: unsupported protocol: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:428
+#, c-format
+msgid "%s: unable to create new socket: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:437
+#, c-format
+msgid "%s: cannot set close-on-exec: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:448
+#, c-format
+msgid "%s: set reuseaddr failed (%s)"
+msgstr ""
+
+#: gacopyz/gacopyz.c:460
+#, c-format
+msgid "%s: cannot bind to port %s: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:470
+#, c-format
+msgid "%s: cannot listen on port %s: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:490
+msgid "empty or missing socket information"
+msgstr ""
+
+#: gacopyz/gacopyz.c:497
+#, c-format
+msgid "%s: opening listen socket on %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:653 gacopyz/gacopyz.c:721 gacopyz/io.c:41 gacopyz/io.c:115
+#, c-format
+msgid "%s: connection timed out"
+msgstr ""
+
+#: gacopyz/gacopyz.c:667 gacopyz/gacopyz.c:735 gacopyz/io.c:55 gacopyz/io.c:129
+#, c-format
+msgid "%s: exception on control fd"
+msgstr ""
+
+#: gacopyz/gacopyz.c:679 gacopyz/io.c:67
+#, c-format
+msgid "%s: read failed: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:687 gacopyz/io.c:75
+#, c-format
+msgid "%s: end of file"
+msgstr ""
+
+#: gacopyz/gacopyz.c:747 gacopyz/io.c:141
+#, c-format
+msgid "%s: write failed: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:755 gacopyz/io.c:149
+#, c-format
+msgid "%s: wrote 0 bytes"
+msgstr ""
+
+#: gacopyz/gacopyz.c:802 gacopyz/io.c:216
+#, c-format
+msgid "read header: size=%lu, cmd=%c"
+msgstr ""
+
+#: gacopyz/gacopyz.c:810 gacopyz/gacopyz.c:812 gacopyz/io.c:223
+msgid "read data"
+msgstr ""
+
+#: gacopyz/gacopyz.c:910
+#, c-format
+msgid "%s: milter claimed not to reply in state %d, but it did"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1153
+msgid "path too long"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1166
+#, c-format
+msgid "%s: shan_connect: inet_aton(%s) failed"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1243
+#, c-format
+msgid "%s: shan_connect: unknown family %d"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1334
+#, c-format
+msgid "protocol version too old: %lu"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1383
+#, c-format
+msgid "xxfi_negotiate returned %d (protocol options=0x%lx, actions=0x%lx)"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1403
+#, c-format
+msgid "%s: shan_optneg: MTA flags %#lx do not match actions requirements %#lx"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1425
+#, c-format
+msgid "%s: shan_optneg: MTA flags %#lx do not match protocol requirements %#lx"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1633
+#, c-format
+msgid "state %s is unreachable from %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1637
+#, c-format
+msgid "ignoring milter command: %c"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1638
+#, c-format
+msgid "ignoring milter command: \\%03o"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1640 gacopyz/gacopyz.c:1718 gacopyz/gacopyz.c:1768
+msgid "buffer"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1700
+msgid "start of context loop"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1714
+#, c-format
+msgid "unknown command: %c"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1715
+#, c-format
+msgid "unknown command: \\%03o"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1730
+#, c-format
+msgid "state %s, next state %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1739
+#, c-format
+msgid "transition from state %s to %s is prohibited"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1766
+msgid "argument parsing failed"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1800
+#, c-format
+msgid "%s handler returned failure"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1807
+#, c-format
+msgid "%s handler returned abort"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1818
+#, c-format
+msgid "end of context loop: %d"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1850
+#, c-format
+msgid "accept failed: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1858
+msgid "connection refused by xxfi_accept"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1868
+#, c-format
+msgid "fork() failed: %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1898
+#, c-format
+msgid "connect from socket %s"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1905
+#, c-format
+msgid "connect from %s:%u"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1913
+#, c-format
+msgid "connection from unsupported family: %d"
+msgstr ""
+
+#: gacopyz/gacopyz.c:1921
+msgid "finishing connection"
+msgstr ""
+
+#: gacopyz/proc.c:64
+#, c-format
+msgid "child %lu exited successfully"
+msgstr ""
+
+#: gacopyz/proc.c:69
+#, c-format
+msgid "child %lu failed with status %d"
+msgstr ""
+
+#: gacopyz/proc.c:81
+#, c-format
+msgid "child %lu terminated on signal %d"
+msgstr ""
+
+#: gacopyz/proc.c:86
+#, c-format
+msgid "child %lu stopped on signal %d"
+msgstr ""
+
+#: gacopyz/proc.c:93
+#, c-format
+msgid "child %lu dumped core"
+msgstr ""
+
+#: gacopyz/proc.c:99
+#, c-format
+msgid "child %lu terminated with unrecognized status"
+msgstr ""
+
+#: gacopyz/proc.c:131
+msgid "terminating subprocesses"
+msgstr ""
+
+#: gacopyz/server.c:64
+#, c-format
+msgid "%s:%lu: not enough memory"
+msgstr ""
+
+#: gacopyz/server.c:409 gacopyz/server.c:419
+#, c-format
+msgid "%s: not a valid X spec"
+msgstr ""
+
+#: gacopyz/server.c:433
+#, c-format
+msgid "%s: not a valid X spec, missing = near %s"
+msgstr ""
+
+#: gacopyz/server.c:444 gacopyz/server.c:456 gacopyz/server.c:493
+#, c-format
+msgid "%s: not a valid X spec, duplicate field %s"
+msgstr ""
+
+#: gacopyz/server.c:465 gacopyz/server.c:482
+#, c-format
+msgid "%s: not a valid X spec, invalid field %s"
+msgstr ""
+
+#: gacopyz/server.c:525 gacopyz/server.c:533 gacopyz/server.c:553
+#, c-format
+msgid "%s: not a valid X spec, invalid T field near %s"
+msgstr ""
+
+#: gacopyz/server.c:569
+#, c-format
+msgid "%s: not a valid X spec, invalid delimiter near %s"
+msgstr ""
+
+#: gacopyz/server.c:601
+#, c-format
+msgid "%s: not a valid X spec, missing port"
+msgstr ""
+
+#: gacopyz/server.c:772 src/builtin/io.bi:454
+#, c-format
+msgid "invalid connection type: %s; port is meaningless for UNIX sockets"
+msgstr ""
+
+#: gacopyz/server.c:781 src/builtin/io.bi:460
+#, c-format
+msgid "%s: UNIX socket name too long"
+msgstr ""
+
+#: gacopyz/server.c:792 src/builtin/io.bi:469
+#, c-format
+msgid "%s: cannot stat socket: %s"
+msgstr ""
+
+#: gacopyz/server.c:799 src/builtin/io.bi:475
+#, c-format
+msgid "%s: not a socket"
+msgstr ""
+
+#: gacopyz/server.c:815 src/builtin/io.bi:489 src/builtin/io.bi:541
+#, c-format
+msgid "invalid connection type: %s; missing port number"
+msgstr ""
+
+#: gacopyz/server.c:825 src/builtin/io.bi:497
+#, c-format
+msgid "invalid connection type: %s; bad port number"
+msgstr ""
+
+#: gacopyz/server.c:835 src/builtin/io.bi:506
+#, c-format
+msgid "invalid connection type: %s; unknown port name"
+msgstr ""
+
+#: gacopyz/server.c:849 src/builtin/io.bi:518
+#, c-format
+msgid "unknown host name %s"
+msgstr ""
+
+#: gacopyz/server.c:862 src/builtin/io.bi:529
+#, c-format
+msgid "invalid connection type: %s; unsupported address family"
+msgstr ""
+
+#: gacopyz/server.c:937 lib/srvman.c:300 src/builtin/io.bi:590
+#, c-format
+msgid "unsupported protocol: %s"
+msgstr ""
+
+#: gacopyz/server.c:945 src/builtin/io.bi:597
+#, c-format
+msgid "unable to create new socket: %s"
+msgstr ""
+
+#: gacopyz/server.c:953
+#, c-format
+msgid "cannot bind to local address: %s"
+msgstr ""
+
+#: gacopyz/server.c:986 src/builtin/io.bi:606
+#, c-format
+msgid "cannot connect to %s: %s"
+msgstr ""
+
+#: gacopyz/server.c:1005
+#, c-format
+msgid "connecting to %s"
+msgstr ""
+
+#: gacopyz/server.c:1008
+#, c-format
+msgid "%s: already connected, disconnect first"
+msgstr ""
+
+#: gacopyz/server.c:1092
+msgid "received invalid stage number"
+msgstr ""
+
+#: gacopyz/server.c:1102
+msgid "invalid macro list"
+msgstr ""
+
+#: gacopyz/server.c:1106
+#, c-format
+msgid "macros for stage \"%s\" (%d): %s"
+msgstr ""
+
+#: gacopyz/server.c:1126
+#, c-format
+msgid "%s: server not connected, cannot negotiate"
+msgstr ""
+
+#: gacopyz/server.c:1132
+#, c-format
+msgid "%s: server already passed negotiation"
+msgstr ""
+
+#: gacopyz/server.c:1146
+#, c-format
+msgid "error reading reply to SMFIC_OPTNEG: %s"
+msgstr ""
+
+#: gacopyz/server.c:1152
+#, c-format
+msgid "gacopyz_srv_negotiate: got %c instead of %c"
+msgstr ""
+
+#: gacopyz/server.c:1159
+msgid "gacopyz_srv_negotiate: not enough data returned"
+msgstr ""
+
+#: gacopyz/server.c:1171
+#, c-format
+msgid "client requested unsupported milter version: %#lx"
+msgstr ""
+
+#: gacopyz/server.c:1179
+#, c-format
+msgid "filter abilities %#lx do not match MTA milter abilities %#lx"
+msgstr ""
+
+#: gacopyz/server.c:1188
+#, c-format
+msgid "protocol abilities %#lx do not match MTA milter abilities %#lx"
+msgstr ""
+
+#: gacopyz/server.c:1287
+#, c-format
+msgid "gacopyz_srv_send_command: size=%lu, cmd=%c"
+msgstr ""
+
+#: gacopyz/server.c:1315
+#, c-format
+msgid "error reading reply to '%c': %s"
+msgstr ""
+
+#: gacopyz/server.c:1465
+#, c-format
+msgid "%s: %s called with flags=%x"
+msgstr ""
+
+#: gacopyz/smfi.c:107
+msgid "connection not initialized"
+msgstr ""
+
+#: lib/cache.c:112 lib/db.c:323
+#, c-format
+msgid "cannot remove record `%s' from `%s': %s"
+msgstr ""
+
+#: lib/cache.c:125 lib/db.c:157
+#, c-format
+msgid "cannot fetch record `%s' from `%s': %s"
+msgstr ""
+
+#: lib/cache.c:166 lib/tbf_rate.c:184
+#, c-format
+msgid "cannot store datum `%s' into `%s': %s"
+msgstr ""
+
+#: lib/db.c:115 lib/db.c:450
+#, c-format
+msgid "unable to create database %s: %s"
+msgstr ""
+
+#: lib/db.c:122 src/builtin/db.bi:191
+#, c-format
+msgid "%s fails safety check: %s"
+msgstr ""
+
+#: lib/db.c:130
+#, c-format
+msgid "mu_dbm_open(%s) failed: %s (%s)"
+msgstr ""
+
+#: lib/db.c:191
+#, c-format
+msgid "cannot fetch data `%*.*s' from `%s': %s"
+msgstr ""
+
+#: lib/db.c:200
+#, c-format
+msgid "unexpected error scanning database %s: %s"
+msgstr ""
+
+#: lib/db.c:293
+#, c-format
+msgid "cannot remove record `%*.*s' from `%s': %s"
+msgstr ""
+
+#: lib/db.c:377 src/builtin/sa.bi:250 src/calloutd.c:44 src/engine.c:96
+#: src/mfdbtool.c:353 src/prog.c:71 src/prog.c:92 src/prog.c:107
+#: src/prog.c:1525 src/prog.c:2746 src/prog.c:2753 mtasim/mtasim.c:678
+msgid "not enough memory"
+msgstr ""
+
+#: lib/db.c:388 lib/rate.c:132
+#, c-format
+msgid "cannot insert datum `%s' into `%s': %s"
+msgstr ""
+
+#: lib/db.c:397
+#, c-format
+msgid "cannot insert datum `%*.*s' into `%s': %s"
+msgstr ""
+
+#: lib/db.c:458
+#, c-format
+msgid "unable to open database %s: %s"
+msgstr ""
+
+#: lib/db.c:474
+#, c-format
+msgid "cannot rename %s to %s: %s"
+msgstr ""
+
+#: lib/dbcfg.c:47
+msgid "positive-expire-interval is valid only for cache database"
+msgstr ""
+
+#: lib/dbcfg.c:68
+msgid "negative-expire-interval is valid only for cache database"
+msgstr ""
+
+#: lib/dbcfg.c:86
+msgid "Name of the database file"
+msgstr ""
+
+#: lib/dbcfg.c:87
+msgid "name: string"
+msgstr ""
+
+#: lib/dbcfg.c:89
+msgid "Enable or disable the database"
+msgstr ""
+
+#: lib/dbcfg.c:92
+msgid "Set database record expiration interval"
+msgstr ""
+
+#: lib/dbcfg.c:93 lib/dbcfg.c:97 lib/dbcfg.c:102 pmult/pmult.c:425
+#: pmult/pmult.c:428 pmult/pmult.c:431 pmult/pmult.c:434
+msgid "arg: interval"
+msgstr ""
+
+#: lib/dbcfg.c:96
+msgid "Set positive expiration interval (for database \"cache\" only)"
+msgstr ""
+
+#: lib/dbcfg.c:100
+msgid "Set negative expiration interval (for database id \"cache\")"
+msgstr ""
+
+#: lib/dbcfg.c:121 src/mfdbtool.c:202
+#, c-format
+msgid "unknown database format: %s"
+msgstr ""
+
+#: lib/dbcfg.c:144
+msgid "invalid file mode"
+msgstr ""
+
+#: lib/dbcfg.c:156
+msgid "id"
+msgstr ""
+
+#: lib/dbcfg.c:158
+msgid "Define a database."
+msgstr ""
+
+#: lib/dbcfg.c:169 src/mfdbtool.c:312 src/srvcfg.c:524
+msgid "Configure file mode for database files"
+msgstr ""
+
+#: lib/dbcfg.c:170 src/mfdbtool.c:313 src/srvcfg.c:525 pmult/pmult.c:712
+msgid "mode: octal"
+msgstr ""
+
+#: lib/dns.c:107
+#, c-format
+msgid "%s too big"
+msgstr ""
+
+#: lib/logger.c:68
+#, c-format
+msgid "cannot configure asynchronous syslog: %s; falling back to system one"
+msgstr ""
+
+#: lib/rate.c:87 lib/tbf_rate.c:150
+#, c-format
+msgid "cannot fetch `%s' from `%s': %s"
+msgstr ""
+
+#: lib/server.c:51
+#, c-format
+msgid "cannot open pidfile `%s': %s"
+msgstr ""
+
+#: lib/server.c:56
+#, c-format
+msgid "cannot get pid from pidfile `%s'"
+msgstr ""
+
+#: lib/server.c:59
+#, c-format
+msgid "%s appears to run with pid %lu. If it does not, remove `%s' and retry."
+msgstr ""
+
+#: lib/server.c:68
+#, c-format
+msgid "cannot unlink pidfile `%s': %s"
+msgstr ""
+
+#: lib/server.c:79
+#, c-format
+msgid "cannot create pidfile `%s': %s"
+msgstr ""
+
+#: lib/server.c:145
+msgid "when running as root, --user option is mandatory."
+msgstr ""
+
+#: lib/server.c:150 lib/userprivs.c:328 mtasim/mtasim.c:127
+#, c-format
+msgid "no such user: %s"
+msgstr ""
+
+#: lib/server.c:171
+#, c-format
+msgid "pipe: %s"
+msgstr ""
+
+#: lib/server.c:176
+#, c-format
+msgid "fork: %s"
+msgstr ""
+
+#: lib/server.c:189
+#, c-format
+msgid "cannot open input stream: %s"
+msgstr ""
+
+#: lib/server.c:221
+msgid "syntax check failed; restart cancelled"
+msgstr ""
+
+#: lib/server.c:236 src/mfdbtool.c:407
+#, c-format
+msgid "cannot change to %s: %s"
+msgstr ""
+
+#: lib/server.c:248
+msgid "program started without full file name"
+msgstr ""
+
+#: lib/server.c:254
+msgid "restart (SIGHUP) will not work"
+msgstr ""
+
+#: lib/server.c:262
+#, c-format
+msgid "cannot become a daemon: %s"
+msgstr ""
+
+#: lib/server.c:274
+#, c-format
+msgid "%s started"
+msgstr ""
+
+#: lib/server.c:286
+#, c-format
+msgid "%s restarting"
+msgstr ""
+
+#: lib/server.c:296
+#, c-format
+msgid "cannot restart: %s"
+msgstr ""
+
+#: lib/server.c:298
+#, c-format
+msgid "command line was: %s"
+msgstr ""
+
+#: lib/server.c:300
+#, c-format
+msgid "%s terminating"
+msgstr ""
+
+#: lib/srvman.c:158
+#, c-format
+msgid "cannot get URL scheme: %s"
+msgstr ""
+
+#: lib/srvman.c:172
+#, c-format
+msgid "cannot get URL path: %s"
+msgstr ""
+
+#: lib/srvman.c:179
+#, c-format
+msgid "socket path name too long: %s"
+msgstr ""
+
+#: lib/srvman.c:195 lib/srvman.c:249
+#, c-format
+msgid "cannot get URL port: %s"
+msgstr ""
+
+#: lib/srvman.c:201 src/builtin/sa.bi:288
+#, c-format
+msgid "port out of range: %u"
+msgstr ""
+
+#: lib/srvman.c:206 lib/srvman.c:243
+#, c-format
+msgid "cannot get URL host: %s"
+msgstr ""
+
+#: lib/srvman.c:213
+#, c-format
+msgid "unknown host name: %s"
+msgstr ""
+
+#: lib/srvman.c:218
+msgid "unsupported address family"
+msgstr ""
+
+#: lib/srvman.c:350
+#, c-format
+msgid "%s [%lu] failed with status %d"
+msgstr ""
+
+#: lib/srvman.c:360
+#, c-format
+msgid "%s [%lu] terminated on signal %d"
+msgstr ""
+
+#: lib/srvman.c:364
+#, c-format
+msgid "%s [%lu] stopped on signal %d"
+msgstr ""
+
+#: lib/srvman.c:368
+#, c-format
+msgid "%s [%lu] terminated with unrecognized status"
+msgstr ""
+
+#: lib/srvman.c:547
+#, c-format
+msgid "server %s: access from %s blocked: cannot check ACLs: %s"
+msgstr ""
+
+#: lib/srvman.c:554
+#, c-format
+msgid "server %s: undefined ACL result; access from %s allowed"
+msgstr ""
+
+#: lib/srvman.c:565
+#, c-format
+msgid "server %s: access from %s blocked"
+msgstr ""
+
+#: lib/srvman.c:634
+#, c-format
+msgid "removing shut down server %s"
+msgstr ""
+
+#: lib/srvman.c:641
+#, c-format
+msgid "server %s: too many children (%lu)"
+msgstr ""
+
+#: lib/srvman.c:649
+#, c-format
+msgid "server %s: accept failed: %s"
+msgstr ""
+
+#: lib/srvman.c:739
+#, c-format
+msgid "too many children (%lu)"
+msgstr ""
+
+#: lib/srvman.c:761
+#, c-format
+msgid "select failed: %s"
+msgstr ""
+
+#: lib/srvman.c:785
+#, c-format
+msgid "%s: file %s exists but cannot be stat'd: %s"
+msgstr ""
+
+#: lib/srvman.c:792
+#, c-format
+msgid "%s: file %s is not a socket"
+msgstr ""
+
+#: lib/srvman.c:798
+#, c-format
+msgid "%s: cannot unlink file %s: %s"
+msgstr ""
+
+#: lib/srvman.c:804
+#, c-format
+msgid "socket `%s' already exists"
+msgstr ""
+
+#: lib/srvman.c:821
+#, c-format
+msgid "%s: cannot bind to %s: %s"
+msgstr ""
+
+#: lib/srvman.c:829
+#, c-format
+msgid "%s: listen on %s failed: %s"
+msgstr ""
+
+#: lib/srvman.c:862
+msgid "no servers configured"
+msgstr ""
+
+#: lib/symtab.c:174
+msgid "element not found in table"
+msgstr ""
+
+#: lib/symtab.c:176
+msgid "symbol table is full"
+msgstr ""
+
+#: lib/tbf_rate.c:110 src/builtin/db.bi:227 src/builtin/db.bi:309
+#: src/builtin/db.bi:353 src/builtin/db.bi:397 src/builtin/db.bi:484
+#: src/builtin/db.bi:641 src/builtin/db.bi:767 src/builtin/db.bi:864
+#, c-format
+msgid "mf_dbm_open(%s) failed: %s"
+msgstr ""
+
+#: lib/transform.c:238 lib/transform.c:316
+msgid "invalid transform expression"
+msgstr ""
+
+#: lib/transform.c:253
+msgid "missing 2nd delimiter"
+msgstr ""
+
+#: lib/transform.c:266
+msgid "missing trailing delimiter"
+msgstr ""
+
+#: lib/transform.c:296
+msgid "unknown flag"
+msgstr ""
+
+#: lib/transform.c:349
+msgid "back reference out of range"
+msgstr ""
+
+#: lib/userprivs.c:199
+msgid "refusing to run as root"
+msgstr ""
+
+#: lib/userprivs.c:210
+#, c-format
+msgid "setgroups failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:221
+#, c-format
+msgid "setegid(%lu) failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:225
+#, c-format
+msgid "setregid(%lu,%lu) failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:230
+#, c-format
+msgid "setresgid(%lu,%lu,%lu) failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:239
+#, c-format
+msgid "setgid(%lu) failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:242
+#, c-format
+msgid "cannot set effective gid to %lu"
+msgstr ""
+
+#: lib/userprivs.c:260
+#, c-format
+msgid "setreuid(%lu,-1) failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:266
+#, c-format
+msgid "second setuid(%lu) failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:274
+#, c-format
+msgid "setuid(%lu) failed: %s"
+msgstr ""
+
+#: lib/userprivs.c:283
+msgid "seteuid(0) succeeded when it should not"
+msgstr ""
+
+#: lib/userprivs.c:286
+msgid "cannot drop non-root setuid privileges"
+msgstr ""
+
+#: lib/userprivs.c:302 src/srvcfg.c:145 mtasim/mtasim.c:285
+#, c-format
+msgid "unknown group: %s"
+msgstr ""
+
+#: lib/userprivs.c:354
+#, c-format
+msgid "No such user: %s"
+msgstr ""
+
+#: lib/userprivs.c:365
+#, c-format
+msgid "cannot switch to EGID %lu: %s"
+msgstr ""
+
+#: lib/userprivs.c:370
+#, c-format
+msgid "cannot switch to EUID %lu: %s"
+msgstr ""
+
+#: lib/utils.c:95 src/main.c:707
+msgid "unexpected list"
+msgstr ""
+
+#: lib/utils.c:99 src/main.c:711
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: please report"
+msgstr ""
+
+#: lib/utils.c:106 src/builtin/other.bi:67 src/drivers.c:1206 src/mfdbtool.c:87
+#: src/mfdbtool.c:231
+#, c-format
+msgid "unrecognized time format (near `%s')"
+msgstr ""
+
+#: lib/utils.c:120
+#, c-format
+msgid "this statement has no effect in %s"
+msgstr ""
+
+#: lib/utils.c:136
+#, c-format
+msgid "%s: not a valid number"
+msgstr ""
+
+#: lib/utils.c:153 src/main.c:427
+#, c-format
+msgid "%s: not a valid interval"
+msgstr ""
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version.c:48
+msgid "(C)"
+msgstr ""
+
+#: lib/version.c:50
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version.c:59
+#, c-format
+msgid "Written by %s.\n"
+msgstr ""
+
+#: src/optab.opc:45
+#, c-format
+msgid "%08lx: unknown opcode %u; aborting dump"
+msgstr ""
+
+#: src/gram.y:223
+#, c-format
+msgid "function `%s' cannot be used in prog `%s'"
+msgstr ""
+
+#: src/gram.y:249
+#, c-format
+msgid "built-in function `%s' cannot be used in prog `%s'"
+msgstr ""
+
+#: src/gram.y:552
+msgid "missing module declaration"
+msgstr ""
+
+#: src/gram.y:564 src/gram.y:575
+msgid "duplicate module declaration"
+msgstr ""
+
+#: src/gram.y:579
+msgid "invalid module declaration"
+msgstr ""
+
+#: src/gram.y:661
+msgid "`precious' used with func"
+msgstr ""
+
+#: src/gram.y:665 src/gram.y:717 src/gram.y:732 src/gram.y:828
+msgid "`static' and `public' used together"
+msgstr ""
+
+#: src/gram.y:795
+#, c-format
+msgid "duplicate `%s'"
+msgstr ""
+
+#: src/gram.y:824
+msgid "`precious' used with const"
+msgstr ""
+
+#: src/gram.y:833
+#, c-format
+msgid "constant name `%s' clashes with a variable name"
+msgstr ""
+
+#: src/gram.y:836 src/gram.y:3776 src/gram.y:3789 src/gram.y:3814
+#: src/drivers.c:2707
+msgid "this is the location of the previous definition"
+msgstr ""
+
+#: src/gram.y:855
+msgid "initializer element is not constant"
+msgstr ""
+
+#: src/gram.y:972
+msgid "unnamed formal parameters are deprecated"
+msgstr ""
+
+#: src/gram.y:1019 src/builtin/macro.bi:25 src/main.c:293
+#, c-format
+msgid "unknown smtp state tag: %s"
+msgstr ""
+
+#: src/gram.y:1055
+#, c-format
+msgid "return from %s is ignored"
+msgstr ""
+
+#: src/gram.y:1072 src/gram.y:1793 src/gram.y:3529
+msgid "unspecified value not ignored as it should be"
+msgstr ""
+
+#: src/gram.y:1112
+msgid "Sendmail action is not allowed in begin block"
+msgstr ""
+
+#: src/gram.y:1116
+msgid "Sendmail action is not allowed in end block"
+msgstr ""
+
+#: src/gram.y:1125
+msgid "header action is not allowed in end block"
+msgstr ""
+
+#: src/gram.y:1143
+msgid "arguments are ignored for accept"
+msgstr ""
+
+#: src/gram.y:1267
+msgid "invalid SMTP reply code"
+msgstr ""
+
+#: src/gram.y:1289
+msgid "invalid extended reply code"
+msgstr ""
+
+#: src/gram.y:1349
+msgid "duplicate default statement"
+msgstr ""
+
+#: src/gram.y:1351 src/symbols.c:855 src/symbols.c:861
+msgid "previously defined here"
+msgstr ""
+
+#: src/gram.y:1438
+#, c-format
+msgid "expected string, but found %s"
+msgstr ""
+
+#: src/gram.y:1527
+msgid "duplicate loop increment"
+msgstr ""
+
+#: src/gram.y:1534
+msgid "duplicate for statement"
+msgstr ""
+
+#: src/gram.y:1541
+msgid "duplicate while statement"
+msgstr ""
+
+#: src/gram.y:1583 src/gram.y:1597
+#, c-format
+msgid "no such loop: %s"
+msgstr ""
+
+#: src/gram.y:1586
+msgid "`break' used outside of `loop'"
+msgstr ""
+
+#: src/gram.y:1600
+msgid "`next' used outside `loop'"
+msgstr ""
+
+#: src/gram.y:1604
+msgid "`next' is used outside `loop'; did you mean `pass'?"
+msgstr ""
+
+#: src/gram.y:1890 src/gram.y:1898
+msgid "$(expr) is allowed only in a function with variable number of arguments"
+msgstr ""
+
+#: src/gram.y:1919 src/gram.y:1944 src/gram.y:3545
+#, c-format
+msgid "too few arguments in call to `%s'"
+msgstr ""
+
+#: src/gram.y:1925 src/gram.y:3548
+#, c-format
+msgid "too many arguments in call to `%s'"
+msgstr ""
+
+#: src/gram.y:2038
+#, c-format
+msgid "expected numeric value, but found `%s'"
+msgstr ""
+
+#: src/gram.y:2066
+msgid "exception code not a number"
+msgstr ""
+
+#: src/gram.y:2069 src/prog.c:1879
+#, c-format
+msgid "invalid exception number: %lu"
+msgstr ""
+
+#: src/gram.y:2081 src/gram.y:2093
+msgid "`return' outside of a function"
+msgstr ""
+
+#: src/gram.y:2084
+msgid "`return' with no value, in function returning non-void"
+msgstr ""
+
+#: src/gram.y:2098
+msgid "`return' with a value, in function returning void"
+msgstr ""
+
+#: src/gram.y:2122
+msgid "`on poll' used without prior `require poll'"
+msgstr ""
+
+#: src/gram.y:2132
+msgid "recipient address not specified in `on poll' construct"
+msgstr ""
+
+#: src/gram.y:2269
+msgid "invalid data type, expected number"
+msgstr ""
+
+#: src/gram.y:2580 src/gram.y:3067
+#, c-format
+msgid "INTERNAL ERROR at %s:%d, unexpected node type %d"
+msgstr ""
+
+#: src/gram.y:3095
+msgid "nothing to pop"
+msgstr ""
+
+#: src/gram.y:3139
+#, c-format
+msgid "unknown regexp flag: %s"
+msgstr ""
+
+#: src/gram.y:3188
+#, c-format
+msgid "invalid size suffix (near %s)"
+msgstr ""
+
+#: src/gram.y:3193
+msgid "invalid size: numeric overflow occurred"
+msgstr ""
+
+#: src/gram.y:3389
+#, c-format
+msgid "$%d is not a number"
+msgstr ""
+
+#: src/gram.y:3657
+#, c-format
+msgid "cannot convert %s to %s"
+msgstr ""
+
+#: src/gram.y:3725
+msgid "cannot define variable of unspecified type"
+msgstr ""
+
+#: src/gram.y:3737
+#, c-format
+msgid "INTERNAL ERROR at %s:%d, declaring %s %s"
+msgstr ""
+
+#: src/gram.y:3745
+#, c-format
+msgid "automatic variable `%s' is shadowing a parameter"
+msgstr ""
+
+#: src/gram.y:3750
+#, c-format
+msgid "automatic variable `%s' is shadowing a global"
+msgstr ""
+
+#: src/gram.y:3758
+#, c-format
+msgid "parameter `%s' is shadowing a global"
+msgstr ""
+
+#: src/gram.y:3772 src/gram.y:3785
+#, c-format
+msgid "redeclaring `%s' as different data type"
+msgstr ""
+
+#: src/gram.y:3794
+#, c-format
+msgid "duplicate variable: %s"
+msgstr ""
+
+#: src/gram.y:3801
+#, c-format
+msgid "duplicate parameter: %s"
+msgstr ""
+
+#: src/gram.y:3811
+#, c-format
+msgid "variable name `%s' clashes with a constant name"
+msgstr ""
+
+#: src/gram.y:3852
+#, c-format
+msgid "cannot convert `%s' to number"
+msgstr ""
+
+#: src/gram.y:3893
+#, c-format
+msgid "redefining variable %s"
+msgstr ""
+
+#: src/gram.y:3917
+#, c-format
+msgid "<command line>: warning: no such variable: %s"
+msgstr ""
+
+#: src/gram.y:3924
+#, c-format
+msgid "error initialising variable %s: incompatible types"
+msgstr ""
+
+#: src/gram.y:3976
+#, c-format
+msgid "variable `%s' already initialized"
+msgstr ""
+
+#: src/gram.y:3979
+msgid "this is the location of the previous initialization"
+msgstr ""
+
+#: src/gram.y:4011
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: variable to be initialized is not declared"
+msgstr ""
+
+#: src/gram.y:4017
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: variable to be initialized has wrong type"
+msgstr ""
+
+#: src/gram.y:4396
+msgid "argument number too high"
+msgstr ""
+
+#: src/lex.l:178
+#, c-format
+msgid "unable to start external preprocessor `%s': %s"
+msgstr ""
+
+#: src/lex.l:187
+#, c-format
+msgid "cannot open %s: %s"
+msgstr ""
+
+#: src/lex.l:209
+#, c-format
+msgid "cannot open `%s': %s"
+msgstr ""
+
+#: src/lex.l:213
+#, c-format
+msgid "`%s' is not a regular file"
+msgstr ""
+
+#: src/lex.l:222
+msgid "recursive inclusion"
+msgstr ""
+
+#: src/lex.l:225
+#, c-format
+msgid "`%s' already included here"
+msgstr ""
+
+#: src/lex.l:228
+#, c-format
+msgid "`%s' already included at top level"
+msgstr ""
+
+#: src/lex.l:280
+#, c-format
+msgid "variable %s is not defined"
+msgstr ""
+
+#: src/lex.l:612
+msgid "including a module file is unreliable and may cause subtle errors"
+msgstr ""
+
+#: src/lex.l:615
+#, c-format
+msgid "use `require %*.*s' instead"
+msgstr ""
+
+#: src/lex.l:623
+msgid "unexpected end of file"
+msgstr ""
+
+#: src/lex.l:631
+msgid "misplaced `module'"
+msgstr ""
+
+#: src/lex.l:1133
+msgid "end of file in comment"
+msgstr ""
+
+#: src/lex.l:1141
+msgid "end of file in string"
+msgstr ""
+
+#: src/lex.l:1146
+msgid "end of file in shell block"
+msgstr ""
+
+#: src/builtin/builtin.c:52
+#, c-format
+msgid "no such module: %*.*s"
+msgstr ""
+
+#: src/builtin/body.bi:51 src/builtin/burst.bi:538 src/builtin/mail.bi:309
+#: src/builtin/mbox.bi:229 src/builtin/msg.bi:486 src/builtin/msg.bi:667
+msgid "no more message slots available"
+msgstr ""
+
+#: src/builtin/burst.bi:343
+#, c-format
+msgid "Cannot open temporary file: %s"
+msgstr ""
+
+#: src/builtin/burst.bi:356
+#, c-format
+msgid "error writing temporary stream: %s"
+msgstr ""
+
+#: src/builtin/burst.bi:527
+msgid "message is not a RFC-934 digest"
+msgstr ""
+
+#: src/builtin/curhdr.bi:79 src/builtin/curhdr.bi:110
+#, c-format
+msgid "requested item (#%ld) not found"
+msgstr ""
+
+#: src/builtin/curhdr.bi:141
+#, c-format
+msgid "requested item (%s,%ld) not found"
+msgstr ""
+
+#: src/builtin/db.bi:101
+msgid "bad numeric file mode"
+msgstr ""
+
+#: src/builtin/db.bi:107
+#, c-format
+msgid "not a valid URL: %s"
+msgstr ""
+
+#: src/builtin/db.bi:112
+#, c-format
+msgid "bad symbolic file mode (near %s)"
+msgstr ""
+
+#: src/builtin/db.bi:121
+#, c-format
+msgid "cannot create list: %s"
+msgstr ""
+
+#: src/builtin/db.bi:133
+#, c-format
+msgid "Cannot create list: %s"
+msgstr ""
+
+#: src/builtin/db.bi:179
+#, c-format
+msgid "cannot create database URL for %s: %s"
+msgstr ""
+
+#: src/builtin/db.bi:241
+#, c-format
+msgid "cannot fetch data: %s"
+msgstr ""
+
+#: src/builtin/db.bi:327 src/builtin/db.bi:375
+#, c-format
+msgid "failed to insert data to %s: %s %s: %s"
+msgstr ""
+
+#: src/builtin/db.bi:371
+msgid "record already exists"
+msgstr ""
+
+#: src/builtin/db.bi:407
+#, c-format
+msgid "error deleting %s from %s: %s"
+msgstr ""
+
+#: src/builtin/db.bi:412
+#, c-format
+msgid "failed to delete data `%s' from `%s': %s"
+msgstr ""
+
+#: src/builtin/db.bi:496
+#, c-format
+msgid "mf_dbm_firstkey failed: %s"
+msgstr ""
+
+#: src/builtin/db.bi:503
+msgid "no more database entries available"
+msgstr ""
+
+#: src/builtin/db.bi:519 src/builtin/db.bi:544 src/builtin/db.bi:564
+msgid "invalid database descriptor"
+msgstr ""
+
+#: src/builtin/db.bi:525
+#, c-format
+msgid "mu_dbm_nextkey: %s"
+msgstr ""
+
+#: src/builtin/db.bi:570
+#, c-format
+msgid "cannot fetch key: %s"
+msgstr ""
+
+#. TRANSLATORS: Do not translate keywords:
+#. traditional, gray, ct, con-tassios
+#: src/builtin/db.bi:604
+msgid ""
+"unknown semantics; allowed values are: traditional (or gray) and ct (or con-"
+"tassios)"
+msgstr ""
+
+#: src/builtin/db.bi:656 src/builtin/db.bi:782 src/builtin/db.bi:879
+#, c-format
+msgid "greylist database %s has wrong data size"
+msgstr ""
+
+#: src/builtin/db.bi:690
+#, c-format
+msgid "cannot insert datum `%-.*s' in greylist database %s: %s"
+msgstr ""
+
+#: src/builtin/db.bi:716 src/builtin/db.bi:806 src/builtin/db.bi:834
+#, c-format
+msgid "Cannot insert datum `%-.*s' in greylist database %s: %s"
+msgstr ""
+
+#: src/builtin/db.bi:740
+#, c-format
+msgid ""
+"is_greylisted is not implemented for traditional greylist databases; see "
+"documentation, chapter %s %s for more info"
+msgstr ""
+
+#: src/builtin/db.bi:935 src/builtin/db.bi:945 src/builtin/db.bi:955
+#: src/builtin/db.bi:965
+#, c-format
+msgid "no such db format: %s"
+msgstr ""
+
+#: src/builtin/debug.bi:28
+#, c-format
+msgid "invalid module name: %s"
+msgstr ""
+
+#: src/builtin/debug.bi:108 src/prog.c:729
+msgid "out of stack space; increase #pragma stacksize"
+msgstr ""
+
+#: src/builtin/dns.bi:32
+#, c-format
+msgid "cannot resolve IP %s"
+msgstr ""
+
+#: src/builtin/dns.bi:49
+#, c-format
+msgid "cannot resolve %s.%s"
+msgstr ""
+
+#: src/builtin/dns.bi:54
+#, c-format
+msgid "cannot resolve %s"
+msgstr ""
+
+#: src/builtin/dns.bi:102
+#, c-format
+msgid "failed to get A record for %s"
+msgstr ""
+
+#: src/builtin/dns.bi:121
+#, c-format
+msgid "invalid IP: %s"
+msgstr ""
+
+#: src/builtin/dns.bi:145 src/builtin/dns.bi:274
+#, c-format
+msgid "failed to get PTR record for %s"
+msgstr ""
+
+#: src/builtin/dns.bi:159 src/builtin/dns.bi:179
+#, c-format
+msgid "cannot get MX records for %s"
+msgstr ""
+
+#: src/builtin/dns.bi:242
+#, c-format
+msgid "cannot resolve host name %s"
+msgstr ""
+
+#: src/builtin/dns.bi:247
+#, c-format
+msgid "cannot get MXs for %s"
+msgstr ""
+
+#: src/builtin/dspam.bi:152
+#, c-format
+msgid "cannot open configuration file `%s': %s"
+msgstr ""
+
+#: src/builtin/dspam.bi:164
+#, c-format
+msgid "cannot open filter stream for `%s': %s"
+msgstr ""
+
+#: src/builtin/geoip.bi:34 src/builtin/geoip.bi:53
+msgid "country code not found"
+msgstr ""
+
+#: src/builtin/getpw.bi:52
+#, c-format
+msgid "%s: user not found"
+msgstr ""
+
+#: src/builtin/getpw.bi:71
+#, c-format
+msgid "%lu: uid not found"
+msgstr ""
+
+#: src/builtin/io.bi:28
+msgid "Maximum number of stream descriptors."
+msgstr ""
+
+#: src/builtin/io.bi:135
+#, c-format
+msgid "pipe failed: %s"
+msgstr ""
+
+#: src/builtin/io.bi:143
+#, c-format
+msgid "fork failed: %s"
+msgstr ""
+
+#: src/builtin/io.bi:165
+#, c-format
+msgid "unknown syslog facility (%s), redirecting stderr to %s"
+msgstr ""
+
+#: src/builtin/io.bi:172
+#, c-format
+msgid "unknown syslog priority (%s), redirecting stderr to %s"
+msgstr ""
+
+#: src/builtin/io.bi:235
+#, c-format
+msgid "cannot open file %s for appending: %s"
+msgstr ""
+
+#: src/builtin/io.bi:365
+#, c-format
+msgid "cannot parse command line %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:370
+#, c-format
+msgid "cannot run %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:692 src/builtin/io.bi:696 src/builtin/io.bi:872
+#: src/builtin/io.bi:891 src/builtin/io.bi:894 src/builtin/io.bi:926
+#: src/builtin/io.bi:945 src/builtin/io.bi:963 src/builtin/io.bi:984
+#: src/builtin/io.bi:1066 src/builtin/io.bi:1087 src/builtin/io.bi:1108
+#: src/builtin/io.bi:1122
+msgid "invalid file descriptor"
+msgstr ""
+
+#: src/builtin/io.bi:715 src/builtin/io.bi:774 src/builtin/io.bi:837
+msgid "no more files available"
+msgstr ""
+
+#: src/builtin/io.bi:753 src/builtin/io.bi:811
+#, c-format
+msgid "cannot open stream %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:932 src/builtin/io.bi:949
+#, c-format
+msgid "write error on %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:968 src/builtin/io.bi:1070 src/builtin/io.bi:1092
+#, c-format
+msgid "EOF on %s"
+msgstr ""
+
+#: src/builtin/io.bi:971 src/builtin/io.bi:1073 src/builtin/io.bi:1095
+#, c-format
+msgid "read error on %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:1009
+msgid "invalid source file descriptor"
+msgstr ""
+
+#: src/builtin/io.bi:1012
+msgid "invalid destination file descriptor"
+msgstr ""
+
+#: src/builtin/ipaddr.bi:55
+#, c-format
+msgid "invalid IP address (%s)"
+msgstr ""
+
+#: src/builtin/ipaddr.bi:76
+#, c-format
+msgid "invalid netmask: %lu"
+msgstr ""
+
+#: src/builtin/macro.bi:36 src/prog.c:1112
+#, c-format
+msgid "macro not defined: %s"
+msgstr ""
+
+#: src/builtin/mail.bi:35
+#, c-format
+msgid "cannot create mailer `%s': %s"
+msgstr ""
+
+#: src/builtin/mail.bi:45
+#, c-format
+msgid "bad recipient address `%s': %s"
+msgstr ""
+
+#: src/builtin/mail.bi:58
+#, c-format
+msgid "bad sender address `%s': %s"
+msgstr ""
+
+#: src/builtin/mail.bi:70
+#, c-format
+msgid "opening mailer `%s' failed: %s"
+msgstr ""
+
+#: src/builtin/mail.bi:80
+#, c-format
+msgid "cannot send message: %s"
+msgstr ""
+
+#: src/builtin/mail.bi:300 src/builtin/mail.bi:328
+#, c-format
+msgid "cannot create DSN: %s"
+msgstr ""
+
+#: src/builtin/mbox.bi:24
+msgid "Maximum number of mailboxes to open simultaneously."
+msgstr ""
+
+#: src/builtin/mbox.bi:89
+msgid "no more mailboxes available"
+msgstr ""
+
+#: src/builtin/mbox.bi:118 src/builtin/mbox.bi:124
+#, c-format
+msgid "incorrect mode near `%s'"
+msgstr ""
+
+#: src/builtin/mbox.bi:146
+#, c-format
+msgid "invalid permissions (near %s)"
+msgstr ""
+
+#: src/builtin/mbox.bi:150
+msgid ""
+"this version of Mailutils does not support configurable mailbox permissions"
+msgstr ""
+
+#: src/builtin/mbox.bi:158
+#, c-format
+msgid "cannot create mailbox `%s': %s"
+msgstr ""
+
+#: src/builtin/mbox.bi:164
+#, c-format
+msgid "cannot open mailbox `%s': %s"
+msgstr ""
+
+#: src/builtin/mbox.bi:180 src/builtin/mbox.bi:191
+msgid "invalid mailbox descriptor"
+msgstr ""
+
+#: src/builtin/mbox.bi:195
+msgid "mailbox not open"
+msgstr ""
+
+#: src/builtin/mbox.bi:245
+#, c-format
+msgid "cannot append message: %s"
+msgstr ""
+
+#: src/builtin/msg.bi:24
+msgid "Maximum number of messages to open simultaneously."
+msgstr ""
+
+#: src/builtin/msg.bi:127
+msgid "invalid message descriptor"
+msgstr ""
+
+#: src/builtin/msg.bi:131
+msgid "message not open"
+msgstr ""
+
+#: src/builtin/msg.bi:202
+msgid "message size out of representable range"
+msgstr ""
+
+#: src/builtin/msg.bi:236
+msgid "body size out of representable range"
+msgstr ""
+
+#: src/builtin/msg.bi:271
+#, c-format
+msgid "can't create filter for encoding %s: %s"
+msgstr ""
+
+#: src/builtin/msg.bi:324
+msgid "header size out of representable range"
+msgstr ""
+
+#: src/builtin/msg.bi:399
+msgid "header not found"
+msgstr ""
+
+#: src/builtin/msg.bi:524 src/builtin/msg.bi:559
+msgid "end of input"
+msgstr ""
+
+#: src/builtin/other.bi:38
+#, c-format
+msgid "temporary failure querying for username %s"
+msgstr ""
+
+#: src/builtin/other.bi:44
+#, c-format
+msgid "failure querying for username %s"
+msgstr ""
+
+#: src/builtin/prereq.bi:25
+msgid "invalid version syntax"
+msgstr ""
+
+#: src/builtin/prereq.bi:27
+#, c-format
+msgid "this source file requires %s version %s or later,"
+msgstr ""
+
+#: src/builtin/prereq.bi:29
+#, c-format
+msgid "but you use version %s"
+msgstr ""
+
+#: src/builtin/prereq.bi:39
+#, c-format
+msgid "not a valid version number: %s (argument %d)"
+msgstr ""
+
+#: src/builtin/rate.bi:26
+#, c-format
+msgid "cannot get rate for %s"
+msgstr ""
+
+#: src/builtin/rate.bi:40
+#, c-format
+msgid "cannot check TBF rate for %s"
+msgstr ""
+
+#: src/builtin/sa.bi:46
+#, c-format
+msgid "cannot create debug stream; transcript disabled: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:53
+#, c-format
+msgid "cannot create transcript stream: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:258 src/srvcfg.c:94
+#, c-format
+msgid "cannot create URL from `%s': %s"
+msgstr ""
+
+#: src/builtin/sa.bi:264
+#, c-format
+msgid "%s: cannot get scheme: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:272
+#, c-format
+msgid "%s: cannot get path: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:281
+#, c-format
+msgid "%s: cannot get port: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:295
+#, c-format
+msgid "%s: cannot get host: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:300
+#, c-format
+msgid "invalid URL: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:374
+#, c-format
+msgid "unknown command: %ld"
+msgstr ""
+
+#: src/builtin/sa.bi:403
+#, c-format
+msgid "send stream failed: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:412
+msgid "remote side has closed connection"
+msgstr ""
+
+#: src/builtin/sa.bi:417
+#, c-format
+msgid "spamd responded with bad string '%s'"
+msgstr ""
+
+#: src/builtin/sa.bi:423
+#, c-format
+msgid "unsupported SPAMD version: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:436
+#, c-format
+msgid "spamd responded with bad Spam header '%s'"
+msgstr ""
+
+#: src/builtin/sa.bi:531
+#, c-format
+msgid "bad response from clamav: expected `PORT' but found `%s'"
+msgstr ""
+
+#: src/builtin/sa.bi:550
+#, c-format
+msgid "sending to stream failed: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:555
+#, c-format
+msgid "error reading clamav response: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:560 src/builtin/sa.bi:584
+#, c-format
+msgid "unknown clamav response: %s"
+msgstr ""
+
+#: src/builtin/sa.bi:581
+#, c-format
+msgid "clamav error: %s"
+msgstr ""
+
+#: src/builtin/sieve.bi:61
+msgid "sieve called from here"
+msgstr ""
+
+#: src/builtin/sieve.bi:93
+#, c-format
+msgid "failed to initialize sieve machine: %s"
+msgstr ""
+
+#: src/builtin/sieve.bi:132
+#, c-format
+msgid "compilation of Sieve script %s failed"
+msgstr ""
+
+#: src/builtin/sieve.bi:142
+#, c-format
+msgid "sieving failed: %s"
+msgstr ""
+
+#: src/builtin/string.bi:60
+msgid "argument out of range"
+msgstr ""
+
+#: src/builtin/string.bi:78 src/builtin/string.bi:100 src/builtin/string.bi:122
+#, c-format
+msgid "argument out of range: start=%ld"
+msgstr ""
+
+#: src/builtin/string.bi:82
+#, c-format
+msgid "argument out of range: start=%ld, len=%ld"
+msgstr ""
+
+#: src/builtin/string.bi:167
+#, c-format
+msgid "argument out of range: count=%ld"
+msgstr ""
+
+#: src/builtin/string.bi:187
+#, c-format
+msgid "error decoding string: %s"
+msgstr ""
+
+#: src/builtin/string.bi:203
+#, c-format
+msgid "error encoding string: %s"
+msgstr ""
+
+#: src/callout.c:170
+#, c-format
+msgid "%s: stream_write: wrote 0 bytes"
+msgstr ""
+
+#: src/callout.c:179 src/callout.c:244
+#, c-format
+msgid "%s: smtp_wait failed: %s"
+msgstr ""
+
+#: src/callout.c:237
+#, c-format
+msgid "%s: stream_read: read 0 bytes"
+msgstr ""
+
+#: src/callout.c:287
+#, c-format
+msgid "%s: unexpected reply from server: %s"
+msgstr ""
+
+#: src/callout.c:294
+#, c-format
+msgid "%s: unexpected reply code from server: %d"
+msgstr ""
+
+#: src/callout.c:478
+#, c-format
+msgid "cannot create debug stream: %s; transcript disabled"
+msgstr ""
+
+#: src/callout.c:497
+#, c-format
+msgid "cannot create transcript filterstream: %s"
+msgstr ""
+
+#: src/callout.c:502
+#, c-format
+msgid "cannot create transcript stream: %s; transcript disabled"
+msgstr ""
+
+#: src/callout.c:529 src/srvcfg.c:186
+#, c-format
+msgid "cannot convert %s to sockaddr: %s"
+msgstr ""
+
+#: src/callout.c:539
+#, c-format
+msgid "%s: cannot connect to `%s': %s"
+msgstr ""
+
+#: src/callout.c:601
+#, c-format
+msgid "%s: cannot create address `%s': %s"
+msgstr ""
+
+#: src/callout.c:694
+#, c-format
+msgid "%s: invalid address: %s"
+msgstr ""
+
+#: src/calloutd.c:49
+msgid "calloutd -- a call out server"
+msgstr ""
+
+#: src/calloutd.c:57 src/main.c:853 src/mfdbtool.c:328
+msgid "Retry acquiring DBM file lock this number of times."
+msgstr ""
+
+#: src/calloutd.c:58 src/mfdbtool.c:329 pmult/pmult.c:718
+msgid "arg: number"
+msgstr ""
+
+#: src/calloutd.c:61 src/main.c:856 src/mfdbtool.c:332
+msgid "Set the time span between the two DBM locking attempts."
+msgstr ""
+
+#: src/calloutd.c:62 src/main.c:823 src/main.c:857 src/mfdbtool.c:333
+#: src/srvcfg.c:419 src/srvcfg.c:424 src/srvcfg.c:429 src/srvcfg.c:434
+#: src/srvcfg.c:440 src/srvcfg.c:446 src/srvcfg.c:452 pmult/pmult.c:721
+msgid "time: interval"
+msgstr ""
+
+#: src/calloutd.c:86 src/main.c:548
+msgid "General options"
+msgstr ""
+
+#: src/calloutd.c:87 src/main.c:541 src/main.c:565 src/main.c:568
+#: src/mfdbtool.c:254 src/srvcfg.c:628 mtasim/mtasim.c:649 mtasim/mtasim.c:661
+#: mtasim/mtasim.c:664 mtasim/mtasim.c:667
+msgid "FILE"
+msgstr ""
+
+#: src/calloutd.c:88 src/main.c:569
+msgid "read resolver configuration from FILE"
+msgstr ""
+
+#: src/drivers.c:274 src/drivers.c:283 src/drivers.c:439 src/drivers.c:449
+msgid "division by zero"
+msgstr ""
+
+#: src/drivers.c:317
+msgid ""
+"left-hand side argument to the arithmetical operation is of wrong data type"
+msgstr ""
+
+#: src/drivers.c:322
+msgid ""
+"right-hand side argument to the arithmetical operation is of wrong data type"
+msgstr ""
+
+#: src/drivers.c:666
+#, c-format
+msgid "cannot compile regex: %s"
+msgstr ""
+
+#: src/drivers.c:713
+msgid "left-hand side argument to match is of wrong data type"
+msgstr ""
+
+#: src/drivers.c:727
+msgid ""
+"right-hand side argument to match is of wrong data type (should not happen)"
+msgstr ""
+
+#: src/drivers.c:745
+msgid "left-hand side argument to fnmatch is of wrong data type"
+msgstr ""
+
+#: src/drivers.c:749
+msgid "right-hand side argument to fnmatch is of wrong data type"
+msgstr ""
+
+#: src/drivers.c:768
+msgid "invalid argument type in binary operation"
+msgstr ""
+
+#: src/drivers.c:1095
+msgid "reject code should be 5xx"
+msgstr ""
+
+#: src/drivers.c:1099
+msgid "reject extended code should be 5.x.x"
+msgstr ""
+
+#: src/drivers.c:1106
+msgid "tempfail code should be 4xx"
+msgstr ""
+
+#: src/drivers.c:1110
+msgid "tempfail extended code should be 4.x.x"
+msgstr ""
+
+#: src/drivers.c:2099 src/drivers.c:2153
+#, c-format
+msgid "cannot convert %s to number"
+msgstr ""
+
+#: src/drivers.c:2393 src/drivers.c:2425
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: cannot find loop"
+msgstr ""
+
+#: src/drivers.c:2627
+msgid "expression evaluates to unspecified data type"
+msgstr ""
+
+#: src/drivers.c:2704
+#, c-format
+msgid "redefinition of handler `%s'"
+msgstr ""
+
+#: src/engine.c:299
+msgid "execution of the filter program was not finished"
+msgstr ""
+
+#: src/engine.c:369
+#, c-format
+msgid "mlfi_connect: unsupported address family: %d"
+msgstr ""
+
+#: src/engine.c:558 pmult/pmult.c:149
+#, c-format
+msgid "cannot create opool: %s"
+msgstr ""
+
+#: src/engine.c:575
+#, c-format
+msgid "failed to append to opool: %s"
+msgstr ""
+
+#: src/engine.c:588 src/engine.c:604 src/engine.c:733 pmult/pmult.c:2175
+#, c-format
+msgid "%s failed: %s"
+msgstr ""
+
+#: src/main.c:127
+#, c-format
+msgid "cannot create trace stream, using standard log: %s"
+msgstr ""
+
+#: src/main.c:194
+#, c-format
+msgid "cannot open file `%s': %s"
+msgstr ""
+
+#: src/main.c:282
+msgid "mailfromd -- a general purpose milter daemon"
+msgstr ""
+
+#: src/main.c:369
+msgid "-O level must be a non-negative integer"
+msgstr ""
+
+#: src/main.c:383
+#, c-format
+msgid "expected assignment, but found `%s'"
+msgstr ""
+
+#: src/main.c:432
+#, c-format
+msgid "invalid milter timeout: %s"
+msgstr ""
+
+#: src/main.c:500 mtasim/mtasim.c:582
+#, c-format
+msgid "%s: invalid log level"
+msgstr ""
+
+#: src/main.c:515 mtasim/mtasim.c:607
+msgid "Operation modifiers"
+msgstr ""
+
+#: src/main.c:516
+msgid "HANDLER"
+msgstr ""
+
+#: src/main.c:517
+msgid "run in test mode"
+msgstr ""
+
+#: src/main.c:519
+msgid "FUNC"
+msgstr ""
+
+#: src/main.c:520
+msgid "run script and execute function FUNC (\"main\" if not given)"
+msgstr ""
+
+#: src/main.c:523
+msgid "check syntax and exit"
+msgstr ""
+
+#: src/main.c:527
+msgid "show compilation defaults"
+msgstr ""
+
+#: src/main.c:531
+msgid "run in daemon mode (default)"
+msgstr ""
+
+#: src/main.c:535
+msgid "preprocess source files and exit"
+msgstr ""
+
+#: src/main.c:539
+msgid "compile files"
+msgstr ""
+
+#: src/main.c:542
+msgid "load library"
+msgstr ""
+
+#: src/main.c:544 src/main.c:549 src/mfdbtool.c:280 src/srvcfg.c:641
+msgid "DIR"
+msgstr ""
+
+#: src/main.c:545
+msgid "add DIR to the load path"
+msgstr ""
+
+#: src/main.c:550
+msgid ""
+"add the directory DIR to the list of directories to be searched for header "
+"files"
+msgstr ""
+
+#: src/main.c:553 src/srvcfg.c:668 mtasim/mtasim.c:641 pmult/pmult.c:831
+msgid "STRING"
+msgstr ""
+
+#: src/main.c:554
+msgid "set communication socket"
+msgstr ""
+
+#: src/main.c:557
+msgid "run in mtasim compatibility mode"
+msgstr ""
+
+#: src/main.c:559 src/main.c:622 src/mfdbtool.c:275 src/srvcfg.c:649
+#: mtasim/mtasim.c:655 pmult/pmult.c:834
+msgid "LEVEL"
+msgstr ""
+
+#: src/main.c:560
+msgid "set code optimization level"
+msgstr ""
+
+#: src/main.c:562
+msgid "VAR=VALUE"
+msgstr ""
+
+#: src/main.c:563
+msgid "assign VALUE to VAR"
+msgstr ""
+
+#: src/main.c:566
+msgid "read relayed domains from FILE"
+msgstr ""
+
+#: src/main.c:572
+msgid "Preprocessor options"
+msgstr ""
+
+#: src/main.c:573
+msgid "COMMAND"
+msgstr ""
+
+#: src/main.c:574
+msgid "use command as external preprocessor"
+msgstr ""
+
+#: src/main.c:577
+msgid "disable the use of external preprocessor"
+msgstr ""
+
+#: src/main.c:579
+msgid "NAME[=VALUE]"
+msgstr ""
+
+#: src/main.c:580
+msgid "define a preprocessor symbol NAME as having VALUE, or empty"
+msgstr ""
+
+#: src/main.c:582 src/srvcfg.c:631 src/srvcfg.c:634 mtasim/mtasim.c:599
+#: mtasim/mtasim.c:602
+msgid "NAME"
+msgstr ""
+
+#: src/main.c:583
+msgid "undefine a preprocessor symbol NAME"
+msgstr ""
+
+#: src/main.c:586
+msgid "Timeout control"
+msgstr ""
+
+#: src/main.c:587
+msgid "TIME"
+msgstr ""
+
+#: src/main.c:588
+msgid "set MTA connection timeout"
+msgstr ""
+
+#: src/main.c:591
+msgid "Informational and debugging options"
+msgstr ""
+
+#: src/main.c:593
+msgid "print location column numbers in compiler diagnostics messages"
+msgstr ""
+
+#: src/main.c:596
+msgid "trace executed actions"
+msgstr ""
+
+#: src/main.c:598
+msgid "MODULES"
+msgstr ""
+
+#: src/main.c:599
+msgid "enable filter program tracing"
+msgstr ""
+
+#: src/main.c:603
+msgid "dump disassembled code"
+msgstr ""
+
+#: src/main.c:607
+msgid "dump grammar traces"
+msgstr ""
+
+#: src/main.c:610
+msgid "dump lexical analyzer traces"
+msgstr ""
+
+#: src/main.c:613
+msgid "dump parser tree"
+msgstr ""
+
+#: src/main.c:616
+msgid "show used Sendmail macros"
+msgstr ""
+
+#: src/main.c:619
+msgid "produce a cross-reference listing"
+msgstr ""
+
+#: src/main.c:623 mtasim/mtasim.c:656
+msgid "set Gacopyz log level"
+msgstr ""
+
+#: src/main.c:626
+msgid "enable stack traces on runtime errors"
+msgstr ""
+
+#: src/main.c:668
+#, c-format
+msgid "Invalid milter timeout: %lu"
+msgstr ""
+
+#: src/main.c:686
+msgid "not enough arguments"
+msgstr ""
+
+#: src/main.c:689 src/main.c:1389
+msgid "too many arguments"
+msgstr ""
+
+#: src/main.c:810
+msgid "expected string or list of strings"
+msgstr ""
+
+#: src/main.c:819
+msgid "Dump stack traces on runtime errors."
+msgstr ""
+
+#: src/main.c:822
+msgid "Set milter timeout."
+msgstr ""
+
+#: src/main.c:825
+msgid "Sets the URL of the default callout server."
+msgstr ""
+
+#: src/main.c:826
+msgid "url"
+msgstr ""
+
+#: src/main.c:828
+msgid ""
+"Add directories to the list of directories to be searched for header files.  "
+"Argument is a list of directory names separated by colons."
+msgstr ""
+
+#: src/main.c:831
+msgid "path: string"
+msgstr ""
+
+#: src/main.c:833
+msgid "Initialize a mailfromd variable <var> to <value>."
+msgstr ""
+
+#: src/main.c:834
+msgid "var: string> <value: string-or-number"
+msgstr ""
+
+#: src/main.c:836
+msgid "Read filter script from <file>."
+msgstr ""
+
+#: src/main.c:837 src/srvcfg.c:510
+msgid "file"
+msgstr ""
+
+#: src/main.c:839
+msgid "Trace executed actions."
+msgstr ""
+
+#: src/main.c:841
+msgid "Enable filter program tracing."
+msgstr ""
+
+#: src/main.c:842
+msgid "modules: list"
+msgstr ""
+
+#: src/main.c:846
+msgid "Read relayed domain names from the file"
+msgstr ""
+
+#: src/main.c:847
+msgid "file: string"
+msgstr ""
+
+#: src/main.c:900
+msgid "Configure MFL runtime values."
+msgstr ""
+
+#: src/main.c:973
+msgid "unknown"
+msgstr ""
+
+#: src/main.c:1123
+#, c-format
+msgid "no servers defined; will listen on %s"
+msgstr ""
+
+#: src/main.c:1205
+#, c-format
+msgid "cannot create echo output stream: %s"
+msgstr ""
+
+#: src/main.c:1302
+#, c-format
+msgid "script file specified twice (%s and %s)"
+msgstr ""
+
+#: src/main.c:1358
+#, c-format
+msgid "function %s is not defined"
+msgstr ""
+
+#: src/main.c:1364
+#, c-format
+msgid "function %s must take variable number of arguments"
+msgstr ""
+
+#: src/main.c:1370
+#, c-format
+msgid "function %s must return number"
+msgstr ""
+
+#: src/main.c:1394
+msgid "script file is given without full file name"
+msgstr ""
+
+#: src/mfdbtool.c:49
+msgid "operation is not applicable"
+msgstr ""
+
+#: src/mfdbtool.c:62
+msgid "database file name is not given"
+msgstr ""
+
+#: src/mfdbtool.c:116
+msgid "list is not applicable to this DB format"
+msgstr ""
+
+#: src/mfdbtool.c:148
+msgid "expire is not applicable to this DB format"
+msgstr ""
+
+#: src/mfdbtool.c:162
+msgid "compact is not applicable to this DB format"
+msgstr ""
+
+#: src/mfdbtool.c:171
+msgid "mfdbtool -- Mailfromd database management tool"
+msgstr ""
+
+#: src/mfdbtool.c:239
+msgid "Database management commands"
+msgstr ""
+
+#: src/mfdbtool.c:241
+msgid "delete given entries from the database"
+msgstr ""
+
+#: src/mfdbtool.c:244
+msgid "list given database (default cache)"
+msgstr ""
+
+#: src/mfdbtool.c:247
+msgid "delete expired entries from the database"
+msgstr ""
+
+#: src/mfdbtool.c:250
+msgid "compact the database"
+msgstr ""
+
+#: src/mfdbtool.c:253
+msgid "Command modifiers"
+msgstr ""
+
+#: src/mfdbtool.c:255
+msgid "DB file name to operate upon"
+msgstr ""
+
+#: src/mfdbtool.c:257
+msgid "FORMAT"
+msgstr ""
+
+#: src/mfdbtool.c:258
+msgid "format of the DB file to operate upon"
+msgstr ""
+
+#: src/mfdbtool.c:261
+msgid "ignore failed reads while compacting the database"
+msgstr ""
+
+#: src/mfdbtool.c:263
+msgid "RATE"
+msgstr ""
+
+#: src/mfdbtool.c:264
+msgid "predict when the user will be able to send next message"
+msgstr ""
+
+#: src/mfdbtool.c:267
+msgid ""
+"with --compact or --expire: apply the operation to all available databases"
+msgstr ""
+
+#: src/mfdbtool.c:276 src/srvcfg.c:650
+msgid "set debugging level"
+msgstr ""
+
+#: src/mfdbtool.c:279
+msgid "Configuration modifiers"
+msgstr ""
+
+#: src/mfdbtool.c:281 src/srvcfg.c:642
+msgid "set new program state directory"
+msgstr ""
+
+#: src/mfdbtool.c:283 mtasim/mtasim.c:617
+msgid "NUMBER"
+msgstr ""
+
+#: src/mfdbtool.c:284
+msgid "set database expiration interval to NUMBER seconds"
+msgstr ""
+
+#: src/mfdbtool.c:307 src/srvcfg.c:519
+msgid "Default database type"
+msgstr ""
+
+#: src/mfdbtool.c:308 src/srvcfg.c:520
+msgid "type"
+msgstr ""
+
+#: src/mfdbtool.c:315 src/srvcfg.c:516
+msgid "Set program state directory."
+msgstr ""
+
+#: src/mfdbtool.c:316
+msgid "dir"
+msgstr ""
+
+#: src/mfdbtool.c:318 src/srvcfg.c:483 pmult/pmult.c:699
+msgid ""
+"Set Mailfromd debug verbosity level.  Argument is a comma-separated list of "
+"debug specifications, each of which has the following form:\n"
+"  <module: string>[=<level: number>]\n"
+"where <module> is the name of a Mailfromd module, and <level> is the desired "
+"verbosity level for that module."
+msgstr ""
+
+#: src/mfdbtool.c:324 src/srvcfg.c:489 pmult/pmult.c:705
+msgid "spec: list"
+msgstr ""
+
+#: src/mfdbtool.c:374 src/srvcfg.c:763
+#, c-format
+msgid "cannot initialize DBM hint: %s"
+msgstr ""
+
+#: src/mfdbtool.c:383
+msgid "you must specify one of --list, --delete, --expire or --compat"
+msgstr ""
+
+#: src/mfdbtool.c:389
+msgid "--all is meaningful only with --expire or --compact option"
+msgstr ""
+
+#: src/mfdbtool.c:394
+msgid "--format is incompatible with --all"
+msgstr ""
+
+#: src/pp.c:73
+#, c-format
+msgid "cannot create include path list: %s"
+msgstr ""
+
+#: src/pp.c:80
+#, c-format
+msgid "cannot append to the include path list: %s"
+msgstr ""
+
+#: src/pp.c:145
+#, c-format
+msgid "%s: no such file or directory"
+msgstr ""
+
+#: src/pp.c:161
+#, c-format
+msgid "input file %s is not readable: %s"
+msgstr ""
+
+#: src/pp.c:182
+#, c-format
+msgid "cannot parse include line: %s"
+msgstr ""
+
+#: src/pp.c:262 src/pp.c:288
+#, c-format
+msgid "cannot parse #line line: %s"
+msgstr ""
+
+#: src/pp.c:275 src/pp.c:295
+msgid "malformed #line statement"
+msgstr ""
+
+#: src/pp.c:292
+msgid "invalid #line statement"
+msgstr ""
+
+#: src/pp.c:375
+#, c-format
+msgid "cannot parse line: %s"
+msgstr ""
+
+#: src/pp.c:423
+#, c-format
+msgid "preprocessor exited with status %d"
+msgstr ""
+
+#: src/pp.c:427
+#, c-format
+msgid "preprocessor terminated on signal %d"
+msgstr ""
+
+#: src/pp.c:430
+msgid "preprocessor stopped"
+msgstr ""
+
+#: src/pp.c:432
+msgid "preprocessor terminated abnormally"
+msgstr ""
+
+#: src/pp.c:462
+msgid "default preprocessor is not set; use --preprocessor option"
+msgstr ""
+
+#: src/pragma.c:175
+msgid "too few arguments in pragma"
+msgstr ""
+
+#: src/pragma.c:179
+msgid "too many arguments in pragma"
+msgstr ""
+
+#: src/pragma.c:205
+#, c-format
+msgid "error parsing pragma: %s"
+msgstr ""
+
+#: src/pragma.c:211
+msgid "empty pragma"
+msgstr ""
+
+#: src/pragma.c:218
+msgid "unknown pragma"
+msgstr ""
+
+#: src/prog.c:578
+#, c-format
+msgid "stack segment expanded, new size=%lu"
+msgstr ""
+
+#: src/prog.c:607
+msgid "stack trace:"
+msgstr ""
+
+#: src/prog.c:644
+msgid "stack trace finishes"
+msgstr ""
+
+#: src/prog.c:653
+#, c-format
+msgid "RUNTIME WARNING near %s:%u: "
+msgstr ""
+
+#: src/prog.c:667
+#, c-format
+msgid "RUNTIME ERROR near %s:%u: "
+msgstr ""
+
+#: src/prog.c:738
+msgid "stack underflow"
+msgstr ""
+
+#: src/prog.c:748 src/prog.c:766
+msgid "heap overrun; increase #pragma stacksize"
+msgstr ""
+
+#: src/prog.c:805
+msgid "memory chunk too big to fit into heap"
+msgstr ""
+
+#: src/prog.c:994
+msgid "Out of stack space; increase #pragma stacksize"
+msgstr ""
+
+#: src/prog.c:1021
+msgid "no previous regular expression"
+msgstr ""
+
+#: src/prog.c:1025
+msgid "invalid back-reference number"
+msgstr ""
+
+#: src/prog.c:1722
+msgid ""
+"`accept' causes previous message modification commands to be ignored; call "
+"mmq_purge() prior to `accept', to suppress this warning"
+msgstr ""
+
+#: src/prog.c:2288
+msgid "pc out of range"
+msgstr ""
+
+#: src/prog.c:2302
+msgid "out of memory while formatting error message:"
+msgstr ""
+
+#: src/prog.c:2362
+#, c-format
+msgid "unknown exception: %d: %s"
+msgstr ""
+
+#: src/prog.c:2380
+#, c-format
+msgid "uncaught exception %s: %s"
+msgstr ""
+
+#: src/prog.c:2464
+#, c-format
+msgid "%scannot create temporary stream: %s"
+msgstr ""
+
+#: src/prog.c:2499
+#, c-format
+msgid "%stemporary stream seek failed: %s"
+msgstr ""
+
+#: src/prog.c:2514
+#, c-format
+msgid "%stemporary stream write failed: %s"
+msgstr ""
+
+#: src/prog.c:2704
+#, c-format
+msgid "unknown built-in private data requested (%d)"
+msgstr ""
+
+#: src/prog.c:2709
+msgid "no built-in private data registered"
+msgstr ""
+
+#: src/prog.c:2717
+#, c-format
+msgid "initial allocation for built-in private data #%d failed"
+msgstr ""
+
+#: src/spf.c:66
+#, c-format
+msgid "spf_data_init: invalid IP address: %s"
+msgstr ""
+
+#: src/srvcfg.c:116
+#, c-format
+msgid "%s: error parsing URL"
+msgstr ""
+
+#: src/srvcfg.c:156 src/srvcfg.c:571 mtasim/mtasim.c:746
+#, c-format
+msgid "cannot stat file `%s': %s"
+msgstr ""
+
+#: src/srvcfg.c:162 src/srvcfg.c:577
+#, c-format
+msgid "`%s' is not a directory"
+msgstr ""
+
+#: src/srvcfg.c:166 src/srvcfg.c:582
+#, c-format
+msgid "state directory `%s' is not an absolute file name"
+msgstr ""
+
+#: src/srvcfg.c:205
+#, c-format
+msgid "INTERNAL ERROR: no such server type: %s"
+msgstr ""
+
+#: src/srvcfg.c:209 src/srvcfg.c:323
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: server function not defined"
+msgstr ""
+
+#: src/srvcfg.c:262
+msgid "Server ID."
+msgstr ""
+
+#: src/srvcfg.c:266
+msgid "Listen on this URL."
+msgstr ""
+
+#: src/srvcfg.c:267 pmult/pmult.c:677
+msgid "url: string"
+msgstr ""
+
+#: src/srvcfg.c:271
+msgid "Maximum number of instances allowed for this server."
+msgstr ""
+
+#: src/srvcfg.c:274
+msgid "Single-process mode."
+msgstr ""
+
+#: src/srvcfg.c:277
+msgid "Reuse existing socket (default)."
+msgstr ""
+
+#: src/srvcfg.c:282
+msgid "Server-dependent options"
+msgstr ""
+
+#: src/srvcfg.c:285
+msgid ""
+"Deprecated. It is equivalent to `option \"default\"', i.e. it marks this "
+"callout server as the default one."
+msgstr ""
+
+#: src/srvcfg.c:289
+msgid "Size of queue of pending connections."
+msgstr ""
+
+#: src/srvcfg.c:320
+msgid "unknown server type"
+msgstr ""
+
+#: src/srvcfg.c:367
+msgid "Configure server."
+msgstr ""
+
+#: src/srvcfg.c:368
+msgid "label"
+msgstr ""
+
+#: src/srvcfg.c:394
+#, c-format
+msgid "unknown timeout class: %s"
+msgstr ""
+
+#: src/srvcfg.c:418
+msgid "Initial SMTP connection timeout."
+msgstr ""
+
+#: src/srvcfg.c:423
+msgid "Timeout for initial SMTP response."
+msgstr ""
+
+#: src/srvcfg.c:428
+msgid "Timeout for HELO response."
+msgstr ""
+
+#: src/srvcfg.c:433
+msgid "Timeout for MAIL response."
+msgstr ""
+
+#: src/srvcfg.c:439
+msgid "Timeout for RCPT response."
+msgstr ""
+
+#: src/srvcfg.c:445
+msgid "Timeout for RSET response."
+msgstr ""
+
+#: src/srvcfg.c:451
+msgid "Timeout for QUIT response."
+msgstr ""
+
+#: src/srvcfg.c:463
+msgid "Set SMTP timeouts."
+msgstr ""
+
+#. TRANSLATORS: soft and hard are keywords, do not translate
+#. them
+#: src/srvcfg.c:466
+msgid "[soft | hard]"
+msgstr ""
+
+#: src/srvcfg.c:492
+msgid "Enable transcript of call-out SMTP sessions."
+msgstr ""
+
+#: src/srvcfg.c:496
+msgid "Timeout for all SMTP I/O operations."
+msgstr ""
+
+#: src/srvcfg.c:497
+msgid "time: seconds"
+msgstr ""
+
+#: src/srvcfg.c:500
+msgid "Set source address for TCP connections."
+msgstr ""
+
+#: src/srvcfg.c:501
+msgid "ip: ipaddr"
+msgstr ""
+
+#: src/srvcfg.c:503
+msgid "Retain the supplementary group <name> when switching to user privileges"
+msgstr ""
+
+#: src/srvcfg.c:505
+msgid "group: string"
+msgstr ""
+
+#: src/srvcfg.c:507
+msgid "Switch to this user privileges after startup."
+msgstr ""
+
+#: src/srvcfg.c:509
+msgid "Set file to store PID value in."
+msgstr ""
+
+#: src/srvcfg.c:514 pmult/pmult.c:695
+msgid "Set logger stream."
+msgstr ""
+
+#: src/srvcfg.c:517 pmult/pmult.c:715
+msgid "dir: string"
+msgstr ""
+
+#: src/srvcfg.c:527
+msgid "Set the domain name for EHLO command."
+msgstr ""
+
+#: src/srvcfg.c:529
+msgid ""
+"Set email address for use in SMTP `MAIL FROM' command.  Argument is an email "
+"address or a comma-separated list of addresses.  Use <> for null address.  "
+"Other addresses can be given without angle brackets."
+msgstr ""
+
+#: src/srvcfg.c:533
+msgid "addr"
+msgstr ""
+
+#: src/srvcfg.c:535
+msgid "Use the SMTP VRFY command, when available."
+msgstr ""
+
+#: src/srvcfg.c:614
+msgid "invalid pidfile name: must be absolute"
+msgstr ""
+
+#: src/srvcfg.c:621
+msgid "Server configuration modifiers"
+msgstr ""
+
+#: src/srvcfg.c:623
+msgid "stay in foreground"
+msgstr ""
+
+#: src/srvcfg.c:626
+msgid "run in single-process mode"
+msgstr ""
+
+#: src/srvcfg.c:629
+msgid "set pidfile name"
+msgstr ""
+
+#: src/srvcfg.c:632
+msgid "switch to this user privileges after startup"
+msgstr ""
+
+#: src/srvcfg.c:635 mtasim/mtasim.c:603
+msgid "retain the supplementary group NAME when switching to user privileges"
+msgstr ""
+
+#: src/srvcfg.c:638
+msgid "ADDRESS"
+msgstr ""
+
+#: src/srvcfg.c:639
+msgid "set source address for TCP connections"
+msgstr ""
+
+#: src/srvcfg.c:645
+msgid "Logging and debugging options"
+msgstr ""
+
+#: src/srvcfg.c:647
+msgid "enable transcript of SMTP sessions"
+msgstr ""
+
+#: src/srvcfg.c:660 pmult/pmult.c:829
+msgid "log to stderr"
+msgstr ""
+
+#: src/srvcfg.c:663 pmult/pmult.c:826
+msgid "log to syslog (default)"
+msgstr ""
+
+#: src/srvcfg.c:665
+msgid "STREAM"
+msgstr ""
+
+#: src/srvcfg.c:666
+msgid "select logger stream"
+msgstr ""
+
+#: src/srvcfg.c:669 pmult/pmult.c:832
+msgid "set the identifier used in syslog messages to STRING"
+msgstr ""
+
+#: src/srvcfg.c:672
+msgid "debug messages include source information"
+msgstr ""
+
+#: src/srvcfg.c:777 pmult/pmult.c:2280
+#, c-format
+msgid "unsupported logger stream: %s"
+msgstr ""
+
+#: src/symbols.c:114
+#, c-format
+msgid "invalid transform string: %s"
+msgstr ""
+
+#: src/symbols.c:151
+#, c-format
+msgid "cannot compile regex (%s): %s"
+msgstr ""
+
+#: src/symbols.c:296
+#, c-format
+msgid "cannot install builtin function %s: %s"
+msgstr ""
+
+#: src/symbols.c:374
+#, c-format
+msgid "cannot import symbol `%s': %s"
+msgstr ""
+
+#: src/symbols.c:390
+#, c-format
+msgid "symbol import conflict: %s"
+msgstr ""
+
+#: src/symbols.c:391
+msgid "imported symbol location"
+msgstr ""
+
+#: src/symbols.c:392
+msgid "conflicting symbol location"
+msgstr ""
+
+#: src/symbols.c:578
+#, c-format
+msgid "cannot install module %s: %s"
+msgstr ""
+
+#: src/symbols.c:778
+#, c-format
+msgid "cannot install variable %s: %s"
+msgstr ""
+
+#: src/symbols.c:801
+#, c-format
+msgid "INTERNAL ERROR: variable %s not found"
+msgstr ""
+
+#: src/symbols.c:841
+#, c-format
+msgid "cannot install function %s: %s"
+msgstr ""
+
+#: src/symbols.c:852
+#, c-format
+msgid "redefinition of function %s by alias %s"
+msgstr ""
+
+#: src/symbols.c:858
+#, c-format
+msgid "redefinition of function %s"
+msgstr ""
+
+#: src/symbols.c:917
+#, c-format
+msgid "cannot install literal %s: %s"
+msgstr ""
+
+#: src/symbols.c:942
+#, c-format
+msgid "cannot install constant %s: %s"
+msgstr ""
+
+#: src/symbols.c:1014
+#, c-format
+msgid "cannot install pragma %s: %s"
+msgstr ""
+
+#: src/symbols.c:1019
+#, c-format
+msgid "INTERNAL ERROR: pragma %s already defined"
+msgstr ""
+
+#: mtasim/mtasim.c:231
+#, c-format
+msgid "expected %s, but got %3.3s"
+msgstr ""
+
+#: mtasim/mtasim.c:246
+msgid "mtasim -- MTA simulator for mailfromd"
+msgstr ""
+
+#: mtasim/mtasim.c:268
+msgid "unsupported mode"
+msgstr ""
+
+#: mtasim/mtasim.c:295
+#, c-format
+msgid "wrong assignment format: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:331
+#, c-format
+msgid "invalid version syntax (near %s)"
+msgstr ""
+
+#: mtasim/mtasim.c:372
+#, c-format
+msgid "unknown timeout: %c"
+msgstr ""
+
+#: mtasim/mtasim.c:377
+#, c-format
+msgid "missing '=' after %c"
+msgstr ""
+
+#: mtasim/mtasim.c:391
+#, c-format
+msgid "unexpected character: %c"
+msgstr ""
+
+#: mtasim/mtasim.c:566
+#, c-format
+msgid "error parsing --sender-sockaddr argument: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:589
+msgid "Mode selection"
+msgstr ""
+
+#: mtasim/mtasim.c:590
+msgid "MODE"
+msgstr ""
+
+#: mtasim/mtasim.c:591
+msgid "set MTA mode (-bd or -bs)"
+msgstr ""
+
+#: mtasim/mtasim.c:594
+msgid "use the SMTP protocol on standard input and output (same as -bs)"
+msgstr ""
+
+#: mtasim/mtasim.c:597
+msgid "run as daemon (same as -bd)"
+msgstr ""
+
+#: mtasim/mtasim.c:600
+msgid "run with this user privileges"
+msgstr ""
+
+#: mtasim/mtasim.c:608
+msgid "MACRO=VALUE"
+msgstr ""
+
+#: mtasim/mtasim.c:609
+msgid "define Sendmail macro"
+msgstr ""
+
+#: mtasim/mtasim.c:611
+msgid "PORT"
+msgstr ""
+
+#: mtasim/mtasim.c:612
+msgid "communicate with Milter PORT"
+msgstr ""
+
+#: mtasim/mtasim.c:615
+msgid "pass temporary directory to mailfromd as its state dir (with -Xauto)"
+msgstr ""
+
+#: mtasim/mtasim.c:618
+msgid "set the body chunk for xxfi_body calls"
+msgstr ""
+
+#: mtasim/mtasim.c:620
+msgid "VER"
+msgstr ""
+
+#: mtasim/mtasim.c:621
+msgid "force using the given Milter protocol version number"
+msgstr ""
+
+#: mtasim/mtasim.c:623 mtasim/mtasim.c:626
+msgid "BITMASK"
+msgstr ""
+
+#: mtasim/mtasim.c:624
+msgid "force the given Milter actions"
+msgstr ""
+
+#: mtasim/mtasim.c:627
+msgid "set Milter protocol capabilities"
+msgstr ""
+
+#: mtasim/mtasim.c:629
+msgid "F=V[,F=V...]"
+msgstr ""
+
+#: mtasim/mtasim.c:630
+msgid "set milter timeouts"
+msgstr ""
+
+#: mtasim/mtasim.c:633
+msgid "FAMILY[,HOSTNAME,ADDRESS[,PORT]]"
+msgstr ""
+
+#: mtasim/mtasim.c:634
+msgid "set sender socket address"
+msgstr ""
+
+#: mtasim/mtasim.c:638
+msgid "interactive mode"
+msgstr ""
+
+#: mtasim/mtasim.c:642
+msgid "set readline prompt"
+msgstr ""
+
+#: mtasim/mtasim.c:645
+msgid "Debugging and tracing"
+msgstr ""
+
+#: mtasim/mtasim.c:647
+msgid "append to the trace file"
+msgstr ""
+
+#: mtasim/mtasim.c:650
+msgid "set name of the trace file"
+msgstr ""
+
+#: mtasim/mtasim.c:653
+msgid "increase verbosity level"
+msgstr ""
+
+#: mtasim/mtasim.c:660
+msgid "TLS options"
+msgstr ""
+
+#: mtasim/mtasim.c:662
+msgid "set name of the TLS certificate file"
+msgstr ""
+
+#: mtasim/mtasim.c:665
+msgid "set name of the TLS CA file"
+msgstr ""
+
+#: mtasim/mtasim.c:668
+msgid "set name of the TLS key file"
+msgstr ""
+
+#: mtasim/mtasim.c:724
+#, c-format
+msgid "cannot change to directory %s: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:732
+#, c-format
+msgid "cannot open directory %s: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:753
+#, c-format
+msgid "cannot unlink %s: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:816
+#, c-format
+msgid "cannot save current directory: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:822
+#, c-format
+msgid "cannot restore current directory: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:829
+#, c-format
+msgid "cannot remove directory %s: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:854
+#, c-format
+msgid "mailfromd exited with status %d"
+msgstr ""
+
+#: mtasim/mtasim.c:857
+#, c-format
+msgid "mailfromd terminated on signal %d"
+msgstr ""
+
+#: mtasim/mtasim.c:859
+msgid "mailfromd terminated with unrecognized status"
+msgstr ""
+
+#: mtasim/mtasim.c:872
+#, c-format
+msgid "cannot create temporary directory (%s): %s"
+msgstr ""
+
+#: mtasim/mtasim.c:887
+#, c-format
+msgid "cannot fork: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:920
+#, c-format
+msgid "cannot execute mailfromd: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:933
+msgid "child process exited unexpectedly"
+msgstr ""
+
+#: mtasim/mtasim.c:983
+#, c-format
+msgid "cannot open trace output: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:990
+msgid "use either --stdio or --daemon"
+msgstr ""
+
+#: mtasim/mtasim.c:1017
+msgid "cannot create gacopyz server"
+msgstr ""
+
+#: mtasim/mtasim.c:1045
+#, c-format
+msgid "cannot connect to the milter using %s"
+msgstr ""
+
+#: mtasim/mtasim.c:1076
+msgid "end of file reached"
+msgstr ""
+
+#: mtasim/mtasim.c:1294 mtasim/mtasim.c:1318
+#, c-format
+msgid "write failed: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:1350
+#, c-format
+msgid "read failed: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:1526 mtasim/mtasim.c:1644 mtasim/mtasim.c:1708
+#, c-format
+msgid "%s:%d: INTERNAL ERROR: no reply (%s)"
+msgstr ""
+
+#: mtasim/openat-die.c:31
+#, c-format
+msgid "unable to record current working directory: %s"
+msgstr ""
+
+#: mtasim/openat-die.c:39
+#, c-format
+msgid "failed to return to initial working directory: %s"
+msgstr ""
+
+#: pmult/pmult.c:156
+#, c-format
+msgid "cannot append body chunk: %s"
+msgstr ""
+
+#: pmult/pmult.c:261
+#, c-format
+msgid "cannot get the value of {%s}: %s"
+msgstr ""
+
+#: pmult/pmult.c:298
+#, c-format
+msgid "client type %s is not supported yet"
+msgstr ""
+
+#: pmult/pmult.c:301
+#, c-format
+msgid "unknown client type %s"
+msgstr ""
+
+#: pmult/pmult.c:386
+#, c-format
+msgid "invalid log level: %s"
+msgstr ""
+
+#: pmult/pmult.c:417
+msgid "Set remote milter type. Only `milter' is understood so far."
+msgstr ""
+
+#. TRANSLATORS: 'milter' and 'pmilter' are keywords, do not translate
+#. them.
+#: pmult/pmult.c:420
+msgid "arg: milter [version: number]|pmilter"
+msgstr ""
+
+#: pmult/pmult.c:422
+msgid "Set remote client URL."
+msgstr ""
+
+#: pmult/pmult.c:424
+msgid "Set write timeout."
+msgstr ""
+
+#: pmult/pmult.c:427
+msgid "Set read timeout."
+msgstr ""
+
+#: pmult/pmult.c:430
+msgid "Set timeout for EOM."
+msgstr ""
+
+#: pmult/pmult.c:433
+msgid "Set connect timeout."
+msgstr ""
+
+#: pmult/pmult.c:436
+msgid ""
+"Set log verbosity level. Arg is a list of items separated by commas or "
+"whitespace.  Each item is a log level optionally prefixed with `!' to "
+"indicate `any level except this', or '<', meaning `all levels up to and "
+"including this'.  Log levels in order of increasing priority are: proto, "
+"debug, info, warn, err, fatal."
+msgstr ""
+
+#: pmult/pmult.c:441
+msgid "arg: list"
+msgstr ""
+
+#: pmult/pmult.c:513 pmult/pmult.c:1300
+#, c-format
+msgid "macro table %d is full, symbol {%s} ignored"
+msgstr ""
+
+#: pmult/pmult.c:520
+#, c-format
+msgid "unknown MeTA1 macro %s"
+msgstr ""
+
+#: pmult/pmult.c:530 pmult/pmult.c:539
+#, c-format
+msgid "macro \"%s\" cannot be requested at this stage"
+msgstr ""
+
+#: pmult/pmult.c:547
+#, c-format
+msgid "macro %s already defined"
+msgstr ""
+
+#: pmult/pmult.c:554 pmult/pmult.c:665 pmult/pmult.c:1320
+#, c-format
+msgid "INTERNAL ERROR at %s:%d"
+msgstr ""
+
+#: pmult/pmult.c:571
+msgid "unknown SMTP stage"
+msgstr ""
+
+#: pmult/pmult.c:615
+msgid "not enough arguments to define-macros"
+msgstr ""
+
+#: pmult/pmult.c:620
+msgid "too many arguments to define-macros"
+msgstr ""
+
+#: pmult/pmult.c:653
+msgid ""
+"too many macros defined for stage \"mail\", while processing \"auth-macros\" "
+"statement"
+msgstr ""
+
+#: pmult/pmult.c:676
+msgid "Listen for milter requests on the given URL."
+msgstr ""
+
+#: pmult/pmult.c:679
+msgid "Maximum number of threads (soft limit)."
+msgstr ""
+
+#: pmult/pmult.c:681
+msgid "Maximum number of threads (hard limit)."
+msgstr ""
+
+#: pmult/pmult.c:683
+msgid "Maximum number of file descriptors pmilter is allowed to open"
+msgstr ""
+
+#: pmult/pmult.c:686
+msgid "Set pmilter debug verbosity level."
+msgstr ""
+
+#: pmult/pmult.c:688
+msgid "Write PID to this file."
+msgstr ""
+
+#: pmult/pmult.c:690
+msgid "Pass auth macros to MAIL handler."
+msgstr ""
+
+#: pmult/pmult.c:692
+msgid "Define macros for the given SMTP stage."
+msgstr ""
+
+#: pmult/pmult.c:693
+msgid "stage: string> <macros: strings"
+msgstr ""
+
+#: pmult/pmult.c:708 pmult/pmult.c:711 pmult/pmult.c:714 pmult/pmult.c:717
+#: pmult/pmult.c:720
+msgid "Ignored for compatibility with mailfromd"
+msgstr ""
+
+#: pmult/pmult.c:709
+msgid "type: string"
+msgstr ""
+
+#: pmult/pmult.c:798
+msgid "ident"
+msgstr ""
+
+#: pmult/pmult.c:805
+msgid "pmilter multiplexer"
+msgstr ""
+
+#: pmult/pmult.c:822
+msgid "URL"
+msgstr ""
+
+#: pmult/pmult.c:823
+msgid "listen on the given URL"
+msgstr ""
+
+#: pmult/pmult.c:835
+msgid "set debug verbosity level"
+msgstr ""
+
+#: pmult/pmult.c:839
+msgid "disable signal handling in the main thread (use for debugging)."
+msgstr ""
+
+#: pmult/pmult.c:1107
+#, c-format
+msgid "unsupported reply code: %c (%d)"
+msgstr ""
+
+#: pmult/pmult.c:1110
+#, c-format
+msgid "unsupported reply code: (%d)"
+msgstr ""
+
+#: pmult/pmult.c:1308
+#, c-format
+msgid "Sendmail macro {%s} does not translate to a MeTA1 one"
+msgstr ""
+
+#: pmult/pmult.c:1353
+#, c-format
+msgid "failed to connect to %s (milter %s)"
+msgstr ""
+
+#: pmult/pmult.c:1356
+#, c-format
+msgid "failed to connect to %s"
+msgstr ""
+
+#: pmult/pmult.c:1467
+#, c-format
+msgid "%sfailed to connect to %s (milter %s)"
+msgstr ""
+
+#: pmult/pmult.c:2023
+#, c-format
+msgid "%scannot get the size of the header stream: %s"
+msgstr ""
+
+#: pmult/pmult.c:2031
+#, c-format
+msgid "%scannot create header: %s"
+msgstr ""
+
+#: pmult/pmult.c:2160
+#, c-format
+msgid "reading from header stream failed: %s"
+msgstr ""
+
+#: pmult/pmult.c:2210
+#, c-format
+msgid "got signal %d"
+msgstr ""
+
+#: pmult/pmult.c:2244
+#, c-format
+msgid "%s starting"
+msgstr ""
+
+#: pmult/pmult.c:2246
+#, c-format
+msgid "%s terminated"
+msgstr ""
+
+#: pmult/pmult.c:2266
+#, c-format
+msgid "failed to set up signals: %s"
+msgstr ""
+
+#: pmult/pmult.c:2329
+msgid "URL to listen on was not specified"
+msgstr ""
+
+#: pmult/pmult.c:2335
+msgid "no clients configured"
+msgstr ""
+
+#: pmult/pmult.c:2343
+#, c-format
+msgid "version mismatch: compile_time=%d, run_time=%d"
+msgstr ""
+
+#: pmult/pmult.c:2383
+#, c-format
+msgid "cannot create PID file `%s': %s"
+msgstr ""
+
+#: pmult/pmult.c:2394
+#, c-format
+msgid "cannot create main thread: %s"
+msgstr ""

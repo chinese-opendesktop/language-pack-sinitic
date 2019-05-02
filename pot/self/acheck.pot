@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR 2001-2003 Nicolas Bertolissio
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Nicolas Bertolissio <nico.bertol@free.fr>\n"
+"POT-Creation-Date: 2017-01-03 16:07-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../acheck:123
+#, c-format
+msgid "`%s': unknow offset\n"
+msgstr ""
+
+#: ../acheck:150
+msgid "comment: no stop regex\n"
+msgstr ""
+
+#: ../acheck:389
+msgid ""
+"Edit current line\n"
+"Add hint\n"
+"Skip the rest of the line\n"
+"Exit and discard all changes\n"
+"Add in dictionnary\n"
+"Add lowercase in dictionnary\n"
+"Ignore\n"
+"Ignore all\n"
+msgstr ""
+
+#: ../acheck:433
+msgid "Enter correction to replace the highlighted part:\n"
+msgstr ""
+
+#: ../acheck:436 ../acheck:457
+msgid "Enter explanation, use displayed hint if empty:\n"
+msgstr ""
+
+#: ../acheck:454
+msgid "Modify the line:\n"
+msgstr ""
+
+#: ../acheck:502
+msgid "Exit and discard all changes! type `yes' to confirm: "
+msgstr ""
+
+#: ../acheck:504
+msgid "yes"
+msgstr ""
+
+#: ../acheck:596 ../acheck:649 ../acheck:680 ../acheck:728
+#, c-format
+msgid "%s: %s"
+msgstr ""
+
+#: ../acheck:826
+#, c-format
+msgid "`%s': unknown operation\n"
+msgstr ""
+
+#: ../acheck:843
+#, c-format
+msgid "spelling for `%s'"
+msgstr ""
+
+#: ../acheck:951
+#, c-format
+msgid "%s: spelling for `%s'"
+msgstr ""
+
+#: ../acheck:1041 ../Parser.pm:374
+#, c-format, perl-format
+msgid "Cannot read `%s': %s\n"
+msgstr ""
+
+#: ../acheck:1046
+msgid "Empty file\n"
+msgstr ""
+
+#: ../acheck:1066
+#, c-format
+msgid "Cannot backup `%s': %s\n"
+msgstr ""
+
+#: ../acheck:1067
+#, c-format
+msgid "Cannot write to `%s': %s\n"
+msgstr ""
+
+#: ../acheck:1083
+#, c-format
+msgid "%s version %s\n"
+msgstr ""
+
+#: ../acheck:1098
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS] [INPUT_FILE]\n"
+"\n"
+"options:\n"
+"  -q, --quiet          quiet mode\n"
+"  -v                   verbose, add more for more verbosity\n"
+"      --verbose        set verbosity to n\n"
+"      --rules <set>    use rules set <set>\n"
+"      --type <type>    set filetype to <type>\n"
+"  -i, --input <file>   input filename\n"
+"  -o, --output <file>  output filename\n"
+"  -s, --spell          check spelling with aspell\n"
+"  -d, --dict <lang>    use <lang> dictionary\n"
+"  -n, --nospell        don't check spelling\n"
+"  -r, --review         add comments (for reviewers)\n"
+"  -t, --trans          don't add comments (for translators)\n"
+"      --dump           dump the rules and exit (for debugging)\n"
+"  -V, --version        print version and exit\n"
+"  -h, --help           print this message and exit\n"
+"\n"
+"If input filename is '-' or not provided, data are read from STDIN\n"
+"If output filename is not provided, input filename is used, '-' write to "
+"STDOUT\n"
+"\n"
+"%s version %s\n"
+msgstr ""
+
+#: ../acheck:1163 ../acheck:1167
+msgid "Aspell Perl module not found, spelling check cancelled."
+msgstr ""
+
+#: ../acheck:1164
+msgid "Press 'Enter' to continue"
+msgstr ""
+
+#: ../acheck:1171
+#, c-format
+msgid "Aspell: unable to use `%s'.\n"
+msgstr ""
+
+#: ../Common.pm:92
+msgid "ERROR    "
+msgstr ""
+
+#: ../Common.pm:110
+msgid "WARNING  "
+msgstr ""
+
+#: ../Parser.pm:118
+#, perl-format
+msgid "%s: value not valid\n"
+msgstr ""
+
+#: ../Parser.pm:159 ../Parser.pm:191 ../Parser.pm:238 ../Parser.pm:293
+#: ../Parser.pm:324
+#, perl-format
+msgid "%s: syntax error\n"
+msgstr ""
+
+#: ../Parser.pm:289
+#, perl-format
+msgid ""
+"%s: name %s\n"
+"reserved word\n"
+msgstr ""
+
+#: ../Parser.pm:333
+#, perl-format
+msgid ""
+"unable to resolve %s\n"
+"undefined name as `valid' rule\n"
+msgstr ""
+
+#: ../Parser.pm:346
+#, perl-format
+msgid ""
+"unable to resolve %s\n"
+"name defined more than once as `rule', `list' and `comment'\n"
+msgstr ""
+
+#: ../Parser.pm:350
+#, perl-format
+msgid ""
+"unable to resolve %s\n"
+"undefined name as `rule', `list' or `comment'\n"
+msgstr ""
+
+#: ../Parser.pm:418
+#, perl-format
+msgid "%s/%s:%s: `%s', unknown field name\n"
+msgstr ""

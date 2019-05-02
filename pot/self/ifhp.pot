@@ -1,0 +1,809 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-24 13:18-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/accounting.c:38
+#, c-format
+msgid "Do_accounting: pagecounter %d"
+msgstr ""
+
+#: src/accounting.c:40
+#, c-format
+msgid "Do_accounting: pagecounter %d, pages %d"
+msgstr ""
+
+#: src/accounting.c:113
+msgid "ACCOUNTING"
+msgstr ""
+
+#: src/accounting.c:117
+#, c-format
+msgid "Do_accounting: script '%s' failed"
+msgstr ""
+
+#: src/ifhp.c:129
+msgid "ifhp: stdin is not open"
+msgstr ""
+
+#: src/ifhp.c:133
+msgid "ifhp: stdout is not open"
+msgstr ""
+
+#: src/ifhp.c:138
+msgid "ifhp: open /dev/null failed"
+msgstr ""
+
+#: src/ifhp.c:227
+msgid "TRANSLATE TEST"
+msgstr ""
+
+#: src/ifhp.c:238
+#, c-format
+msgid "main: '%s'"
+msgstr ""
+
+#: src/ifhp.c:243
+#, c-format
+msgid "main: no config file information in '%s'"
+msgstr ""
+
+#: src/ifhp.c:316
+msgid "main: you opened the statusfile too early!!!"
+msgstr ""
+
+#: src/ifhp.c:320
+#, c-format
+msgid "main: using model '%s'"
+msgstr ""
+
+#: src/ifhp.c:320
+msgid "DEFAULT"
+msgstr ""
+
+#: src/ifhp.c:342
+#, c-format
+msgid "main: Appsocket and bad printcap :lp='%s'"
+msgstr ""
+
+#: src/ifhp.c:369
+msgid "ifhp: requires socketpair() system call for snmp monitoring"
+msgstr ""
+
+#: src/ifhp.c:373
+msgid "ifhp: socketpair() failed"
+msgstr ""
+
+#: src/ifhp.c:378
+msgid "ifhp: missing snmp_sync_status value"
+msgstr ""
+
+#: src/ifhp.c:382
+msgid "ifhp: missing snmp_end_status value"
+msgstr ""
+
+#: src/ifhp.c:386
+msgid "ifhp: missing snmp_monitor value"
+msgstr ""
+
+#: src/ifhp.c:396
+msgid "ifhp: missing snmp_dev device"
+msgstr ""
+
+#: src/ifhp.c:406
+#, c-format
+msgid "ifhp: missing snmp_program '%s'"
+msgstr ""
+
+#: src/ifhp.c:411
+msgid "ifhp: fork failed"
+msgstr ""
+
+#: src/ifhp.c:420 src/ifhp.c:5378 src/ifhp.c:5822
+#, c-format
+msgid "execv '%s' failed - %s"
+msgstr ""
+
+#: src/ifhp.c:797
+#, c-format
+msgid "Put_outbuf_len: realloc %d failed"
+msgstr ""
+
+#: src/ifhp.c:918
+#, c-format
+msgid "Pr_status: printer status '%s'"
+msgstr ""
+
+#: src/ifhp.c:1147
+#, c-format
+msgid "Check_device_status: code = %s, '%s'%s"
+msgstr ""
+
+#: src/ifhp.c:1152
+#, c-format
+msgid "Check_device_status: write(fd %d) failed"
+msgstr ""
+
+#: src/ifhp.c:1156
+msgid "Check_device_status: lseek failed"
+msgstr ""
+
+#: src/ifhp.c:1158
+msgid "ALERT"
+msgstr ""
+
+#: src/ifhp.c:1206
+msgid "yes"
+msgstr ""
+
+#: src/ifhp.c:1207
+msgid "on"
+msgstr ""
+
+#: src/ifhp.c:1253
+msgid "Process_job: setting up printer"
+msgstr ""
+
+#: src/ifhp.c:1258
+msgid "Process_job: dup(0) failed"
+msgstr ""
+
+#: src/ifhp.c:1262
+msgid "Process_job: dup(1) failed"
+msgstr ""
+
+#: src/ifhp.c:1265
+msgid "Process_job: starting OF mode passthrough"
+msgstr ""
+
+#: src/ifhp.c:1271
+msgid "Process_job: lseek of tempfd failed"
+msgstr ""
+
+#: src/ifhp.c:1275
+msgid "Process_job: ftruncate of tempfd failed"
+msgstr ""
+
+#: src/ifhp.c:1280
+#, c-format
+msgid "Process_job: tempfd dup2(%d,1) failed"
+msgstr ""
+
+#: src/ifhp.c:1285
+msgid "Process_job: stat failed"
+msgstr ""
+
+#: src/ifhp.c:1292
+msgid "Process_job: lseek failed"
+msgstr ""
+
+#: src/ifhp.c:1296
+msgid "Process_job: tempfd dup2() failed"
+msgstr ""
+
+#: src/ifhp.c:1303 src/ifhp.c:1346
+#, c-format
+msgid "Process_job: outfd dup2(%d,1) failed"
+msgstr ""
+
+#: src/ifhp.c:1306
+#, c-format
+msgid "Process_job: sending %0.0f bytes of OF input"
+msgstr ""
+
+#: src/ifhp.c:1319
+msgid "Process_job: using shutdown on appsocket connection"
+msgstr ""
+
+#: src/ifhp.c:1331
+msgid "Process_job: OF process suspending"
+msgstr ""
+
+#: src/ifhp.c:1337
+msgid "Process_job: OF process running"
+msgstr ""
+
+#: src/ifhp.c:1341
+#, c-format
+msgid "Process_job: infd dup2(%d,1) failed"
+msgstr ""
+
+#: src/ifhp.c:1353
+msgid "Process_job: ending OF mode passthrough"
+msgstr ""
+
+#: src/ifhp.c:1357
+msgid "Process_job: sending job file"
+msgstr ""
+
+#: src/ifhp.c:1359
+msgid "Process_job: sent job file"
+msgstr ""
+
+#: src/ifhp.c:1363
+msgid "Process_job: done"
+msgstr ""
+
+#: src/ifhp.c:1383
+msgid "Start_of_job: fd 1 not open"
+msgstr ""
+
+#: src/ifhp.c:1442
+msgid "Start_of_job: timeout"
+msgstr ""
+
+#: src/ifhp.c:1472
+msgid "End_of_job: FD 1 IS CLOSED AND ifhp DID NOT CLOSE IT"
+msgstr ""
+
+#: src/ifhp.c:1503
+msgid "End_of_job: timeout"
+msgstr ""
+
+#: src/ifhp.c:1826
+msgid "plp_block_all_signals: sigprocmask failed"
+msgstr ""
+
+#: src/ifhp.c:1840
+msgid "plp_unblock_all_signals: sigprocmask failed"
+msgstr ""
+
+#: src/ifhp.c:1850
+msgid "plp_set_signal_mask: sigprocmask failed"
+msgstr ""
+
+#: src/ifhp.c:1868
+msgid "plp_unblock_one_signal: sigprocmask failed"
+msgstr ""
+
+#: src/ifhp.c:1883
+msgid "plp_block_one_signal: sigprocmask failed"
+msgstr ""
+
+#: src/ifhp.c:2061 src/ifhp.c:2204
+msgid "Write_read_timeout: write error"
+msgstr ""
+
+#: src/ifhp.c:2098
+msgid "Write_read_timeout: EOF or TIMEOUT on output"
+msgstr ""
+
+#: src/ifhp.c:2107
+msgid "Write_read_timeout: EOF on input"
+msgstr ""
+
+#: src/ifhp.c:2158
+msgid "Write_read_timeout: select error"
+msgstr ""
+
+#: src/ifhp.c:2171
+msgid "Write_read_timeout: read from printer failed"
+msgstr ""
+
+#: src/ifhp.c:2627
+#, c-format
+msgid "Fix_option_str: bad form '%s'"
+msgstr ""
+
+#: src/ifhp.c:2809
+#, c-format
+msgid "Find_sub_value: bad conditional format '%s'"
+msgstr ""
+
+#: src/ifhp.c:3010
+#, c-format
+msgid "Font_download: no value for %sfontdir"
+msgstr ""
+
+#: src/ifhp.c:3031
+msgid "Font_download: no 'font' value"
+msgstr ""
+
+#: src/ifhp.c:3319
+#, c-format
+msgid ""
+"Pjl_setvar: WARNING - value for PJL variable '%s' = '%s' is not one of '%s'"
+msgstr ""
+
+#: src/ifhp.c:3329
+#, c-format
+msgid "Pjl_setvar: WARNING - missing value for PJL variable '%s'"
+msgstr ""
+
+#: src/ifhp.c:3368
+#, c-format
+msgid ""
+"Pjl_setvar: WARNING - bad value for PJL variable '%s' = '%s', not in range %s"
+msgstr ""
+
+#: src/ifhp.c:3376
+#, c-format
+msgid "Pjl_setvar: WARNING - unknown type for PJL variable '%s' = '%s', %s"
+msgstr ""
+
+#: src/ifhp.c:3400
+#, c-format
+msgid "Pjl_setvar: PJL option too long! '%s'"
+msgstr ""
+
+#: src/ifhp.c:3510
+#, c-format
+msgid "Do_sync: sync '%s' and method not supported"
+msgstr ""
+
+#: src/ifhp.c:3518
+#, c-format
+msgid "Do_sync: getting sync using '%s'%s"
+msgstr ""
+
+#: src/ifhp.c:3572
+#, c-format
+msgid "Do_sync: sync '%s' and no ps_status_code value"
+msgstr ""
+
+#: src/ifhp.c:3618
+msgid "Do_sync: printer not detected, trying again"
+msgstr ""
+
+#: src/ifhp.c:3619
+msgid "Do_sync: Perhaps printer offline or not detected by Operating System"
+msgstr ""
+
+#: src/ifhp.c:3620
+msgid ""
+"Do_sync: If on a parallel port then parallel port may not be bidirectional"
+msgstr ""
+
+#: src/ifhp.c:3621
+msgid "Do_sync: Use the 'status@' filter option to suppress this check"
+msgstr ""
+
+#: src/ifhp.c:3622
+msgid "Do_sync: See the ifhp man page or the ifhp HOWTO for details"
+msgstr ""
+
+#: src/ifhp.c:3660
+msgid "Do_sync: EOF on connection"
+msgstr ""
+
+#: src/ifhp.c:3666
+#, c-format
+msgid "Do_sync: error '%s'"
+msgstr ""
+
+#: src/ifhp.c:3675
+msgid "Do_sync: sync done"
+msgstr ""
+
+#: src/ifhp.c:3732
+#, c-format
+msgid "Do_waitend: invalid endstatus value '%s'"
+msgstr ""
+
+#: src/ifhp.c:3747
+#, c-format
+msgid "Do_waitend: waitend '%s' and interactive method not supported"
+msgstr ""
+
+#: src/ifhp.c:3757
+#, c-format
+msgid "Do_waitend: getting end using '%s'%s"
+msgstr ""
+
+#: src/ifhp.c:3841
+#, c-format
+msgid "Do_waitend: sleep %d before getting SNMP status"
+msgstr ""
+
+#: src/ifhp.c:3911
+msgid "Do_waitend: EOF reading status"
+msgstr ""
+
+#: src/ifhp.c:3956
+msgid "Do_waitend: job canceled"
+msgstr ""
+
+#: src/ifhp.c:3962
+msgid "Do_waitend: ECHO END detected"
+msgstr ""
+
+#: src/ifhp.c:3993
+#, c-format
+msgid "Do_waitend: error '%s'"
+msgstr ""
+
+#: src/ifhp.c:3998
+#, c-format
+msgid "Do_waitend: no end response from printer, timeout %d"
+msgstr ""
+
+#: src/ifhp.c:4001
+#, c-format
+msgid "Do_waitend: %s detected %s END"
+msgstr ""
+
+#: src/ifhp.c:4001
+msgid "BANNER PAGE"
+msgstr ""
+
+#: src/ifhp.c:4001
+msgid "JOB"
+msgstr ""
+
+#: src/ifhp.c:4069
+#, c-format
+msgid "Check_pagecount: pagecount '%s' and method not supported"
+msgstr ""
+
+#: src/ifhp.c:4077
+#, c-format
+msgid "Check_pagecount: pagecount using '%s'%s"
+msgstr ""
+
+#: src/ifhp.c:4102
+#, c-format
+msgid "Do_pagecount: pagecounter %d from program"
+msgstr ""
+
+#: src/ifhp.c:4104
+#, c-format
+msgid "Do_pagecount: pagecounter %d"
+msgstr ""
+
+#: src/ifhp.c:4110
+#, c-format
+msgid ""
+"Do_pagecount: polling pagecounter %d times at %d second intervals, max "
+"timeout %d"
+msgstr ""
+
+#: src/ifhp.c:4133
+msgid "Do_pagecount: timeout getting pagecount"
+msgstr ""
+
+#: src/ifhp.c:4136
+msgid "Do_pagecount: IO error getting pagecount"
+msgstr ""
+
+#: src/ifhp.c:4155
+#, c-format
+msgid "Do_pagecount: pagecounter %d after %d attempts"
+msgstr ""
+
+#: src/ifhp.c:4201
+msgid "Current_pagecounter: no ps_pagecount_code config info"
+msgstr ""
+
+#: src/ifhp.c:4254
+msgid "Current_pagecounter: EOF reading status"
+msgstr ""
+
+#: src/ifhp.c:4264
+#, c-format
+msgid "Current_pagecounter: error '%s'"
+msgstr ""
+
+#: src/ifhp.c:4325
+msgid "Send_job: starting transfer"
+msgstr ""
+
+#: src/ifhp.c:4346 src/ifhp.c:4365 src/ifhp.c:4409 src/ifhp.c:4548
+#: src/ifhp.c:4602 src/ifhp.c:4688
+msgid "Send_job: lseek failed"
+msgstr ""
+
+#: src/ifhp.c:4357 src/ifhp.c:4611 src/ifhp.c:4723 src/ifhp.c:4856
+msgid "Send_job: read error on stdin"
+msgstr ""
+
+#: src/ifhp.c:4360 src/ifhp.c:4726
+msgid "Send_job: zero length job file"
+msgstr ""
+
+#: src/ifhp.c:4376
+msgid "Send_job: missing file_util_path value"
+msgstr ""
+
+#: src/ifhp.c:4413
+msgid "Send_job: fstat3 failed"
+msgstr ""
+
+#: src/ifhp.c:4416
+#, c-format
+msgid "Send_job: initial job type '%s', size %d"
+msgstr ""
+
+#: src/ifhp.c:4417
+msgid "Send_job: HPGL/2 flag set"
+msgstr ""
+
+#: src/ifhp.c:4455
+#, c-format
+msgid "Send_job: wrong number of fields in 'file_output_match' - '%s'"
+msgstr ""
+
+#: src/ifhp.c:4478
+#, c-format
+msgid "Send_job: decoded job type '%s'"
+msgstr ""
+
+#: src/ifhp.c:4488
+msgid "Send_job: job is PJL and PJL not supported"
+msgstr ""
+
+#: src/ifhp.c:4493
+msgid "Send_job: job is HPGL2 and neither PCL nor HPGL2 are supported"
+msgstr ""
+
+#: src/ifhp.c:4496
+msgid "Send_job: job is PCL and PCL not supported"
+msgstr ""
+
+#: src/ifhp.c:4500
+msgid "Send_job: HPGL2 not supported, resorting to PCL"
+msgstr ""
+
+#: src/ifhp.c:4505
+msgid "Send_job: job is PostScript and PostScript not supported"
+msgstr ""
+
+#: src/ifhp.c:4515
+msgid "Send_job: foomatic enabled and no path to foomatic-rip"
+msgstr ""
+
+#: src/ifhp.c:4517
+msgid "Send_job: foomatic enabled and no PPD file specified"
+msgstr ""
+
+#: src/ifhp.c:4527
+msgid "Send_job: job is Text and Text not supported"
+msgstr ""
+
+#: src/ifhp.c:4533
+msgid "Send_job: filter wanted and no filter specified"
+msgstr ""
+
+#: src/ifhp.c:4536
+#, c-format
+msgid "Send_job: cannot process language '%s'"
+msgstr ""
+
+#: src/ifhp.c:4544
+#, c-format
+msgid "Send_job: job type '%s', converter '%s'"
+msgstr ""
+
+#: src/ifhp.c:4560
+msgid "CONVERTER"
+msgstr ""
+
+#: src/ifhp.c:4567
+#, c-format
+msgid "Send_job: converter failed, exit code %d"
+msgstr ""
+
+#: src/ifhp.c:4578
+msgid "Send_job: fstat2 failed"
+msgstr ""
+
+#: src/ifhp.c:4580
+#, c-format
+msgid "Send_job: converter done, output %ld bytes"
+msgstr ""
+
+#: src/ifhp.c:4584
+msgid "Send_job: zero length conversion output"
+msgstr ""
+
+#: src/ifhp.c:4589
+msgid "Send_job: dup2 failed"
+msgstr ""
+
+#: src/ifhp.c:4593
+#, c-format
+msgid "Send_job: close(tempfd %d) failed"
+msgstr ""
+
+#: src/ifhp.c:4599
+#, c-format
+msgid "Send_job: job type '%s', stripping leading PJL "
+msgstr ""
+
+#: src/ifhp.c:4643
+msgid "Send_job: write error to tempfile"
+msgstr ""
+
+#: src/ifhp.c:4652 src/ifhp.c:5093
+msgid "Make_stdin_file: dup2 failed"
+msgstr ""
+
+#: src/ifhp.c:4659
+#, c-format
+msgid "Send_job: job type '%s'"
+msgstr ""
+
+#: src/ifhp.c:4683
+msgid "Send_job: cannot fstat fd 0"
+msgstr ""
+
+#: src/ifhp.c:4707
+#, c-format
+msgid "Send_job: transferring %0.0f bytes"
+msgstr ""
+
+#: src/ifhp.c:4821
+msgid "Send_job: job failed during copy"
+msgstr ""
+
+#: src/ifhp.c:4832 src/ifhp.c:4840
+#, c-format
+msgid "Send_job: %d percent done"
+msgstr ""
+
+#: src/ifhp.c:4842
+#, c-format
+msgid "Send_job: %d Kbytes done"
+msgstr ""
+
+#: src/ifhp.c:4923
+msgid "Process_OF_mode: ftruncate fd 1 failed"
+msgstr ""
+
+#: src/ifhp.c:4936 src/ifhp.c:4941 src/ifhp.c:4946
+msgid "Process_OF_mode: write failed"
+msgstr ""
+
+#: src/ifhp.c:4985
+#, c-format
+msgid "Use_file_util: file program = '%s'"
+msgstr ""
+
+#: src/ifhp.c:4990 src/ifhp.c:5000
+msgid "Use_file_util: lseek failed"
+msgstr ""
+
+#: src/ifhp.c:4993
+msgid "FILE_UTIL"
+msgstr ""
+
+#: src/ifhp.c:4996
+#, c-format
+msgid "Use_file_util: exit code %d"
+msgstr ""
+
+#: src/ifhp.c:5004
+msgid "Use_file_util: read failed"
+msgstr ""
+
+#: src/ifhp.c:5026
+#, c-format
+msgid "Use_file_util: file information = '%s'"
+msgstr ""
+
+#: src/ifhp.c:5059
+msgid "Make_stdin_file: cannot fstat fd 1"
+msgstr ""
+
+#: src/ifhp.c:5074
+#, c-format
+msgid "Make_stdin_file: write to tempfile fd %d failed"
+msgstr ""
+
+#: src/ifhp.c:5085
+msgid "Make_stdin_file: read from stdin"
+msgstr ""
+
+#: src/ifhp.c:5099
+msgid "Make_stdin_file: lseek failed"
+msgstr ""
+
+#: src/ifhp.c:5134
+msgid "ifhp: fd is not open"
+msgstr ""
+
+#: src/ifhp.c:5159
+#, c-format
+msgid "Fd_readable: cannot fstat fd %d"
+msgstr ""
+
+#: src/ifhp.c:5300
+msgid "Term_job: job error on cleanup strings"
+msgstr ""
+
+#: src/ifhp.c:5326
+#, c-format
+msgid ""
+"Filter_file: WARNING - 'ZOPTS' and 'TOPS' conversion options replaced by {Z} "
+"and {T} - '%s'"
+msgstr ""
+
+#: src/ifhp.c:5349
+msgid "Filter_file: pipe failed"
+msgstr ""
+
+#: src/ifhp.c:5356
+msgid "Filter_file: fork failed"
+msgstr ""
+
+#: src/ifhp.c:5360 src/ifhp.c:5364
+msgid "Filter_file: open(/dev/null) failed"
+msgstr ""
+
+#: src/ifhp.c:5370
+msgid "Filter_file: dup2 failed"
+msgstr ""
+
+#: src/ifhp.c:5393
+#, c-format
+msgid "Filter_file: started %s- '%s'"
+msgstr ""
+
+#: src/ifhp.c:5402 src/ifhp.c:5408
+#, c-format
+msgid "Filter_file: '%s' msg '%s'"
+msgstr ""
+
+#: src/ifhp.c:5414
+msgid "ifhp: waitpid and no child!"
+msgstr ""
+
+#: src/ifhp.c:5426
+#, c-format
+msgid "Filter_file: converter process died with signal %d, '%s'"
+msgstr ""
+
+#: src/ifhp.c:5702
+#, c-format
+msgid ""
+"Select_model_info: looking for '%s' and recursion too deep at model '%s'"
+msgstr ""
+
+#: src/ifhp.c:5708
+#, c-format
+msgid ""
+"Select_model_info: looking for '%s' %s cannot find information for model '%s'"
+msgstr ""
+
+#: src/ifhp.c:5801
+msgid "Get_prog_status: pipe failed"
+msgstr ""
+
+#: src/ifhp.c:5808
+msgid "Get_prog_status: fork failed"
+msgstr ""
+
+#: src/ifhp.c:5814
+msgid "Get_prog_status: dup2 failed"
+msgstr ""
+
+#: src/ifhp.c:5837
+#, c-format
+msgid "Get_prog_status: started '%s'"
+msgstr ""
+
+#: src/ifhp.c:5850
+msgid "Get_prog_status: waitpid and no child!"
+msgstr ""
+
+#: src/ifhp.c:5864
+#, c-format
+msgid "Get_prog_status: status process exited with %d, '%s'"
+msgstr ""
+
+#: src/ifhp.c:5876
+#, c-format
+msgid "Get_prog_status: converter process died with signal %d, '%s'"
+msgstr ""

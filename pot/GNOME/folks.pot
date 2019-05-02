@@ -1,0 +1,681 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. FIXME: Ideally we’d use a format string translated to the locale of the
+#. * persona whose name is being formatted, but no backend provides
+#. * information about personas’ locales, so we have to settle for the
+#. * current user’s locale.
+#. *
+#. * We thought about using nl_langinfo(_NL_NAME_NAME_FMT) here, but
+#. * decided against it because:
+#. *  1. It’s not the best documented API in the world, and its stability
+#. *     is in question.
+#. *  2. An attempt to improve the interface in glibc met with a wall of
+#. *     complaints: https://sourceware.org/bugzilla/show_bug.cgi?id=14641.
+#. *
+#. * However, we do re-use the string format placeholders from
+#. * _NL_NAME_NAME_FMT (as documented here:
+#. * http://lh.2xlibre.net/values/name_fmt/) because there’s a chance glibc
+#. * might eventually grow a useful interface for this.
+#. *
+#. * It does mean we have to implement our own parser for the name_fmt
+#. * format though, since glibc doesn’t provide a formatting function.
+#. Translators: This is a format string used to convert structured names
+#. * to a single string. It should be translated to the predominant
+#. * semi-formal name format for your locale, using the placeholders
+#. * documented here: http://lh.2xlibre.net/values/name_fmt/. You may be
+#. * able to re-use the existing glibc format string for your locale on that
+#. * page if it’s suitable.
+#. *
+#. * More explicitly: the supported placeholders are %f, %F, %g, %G, %m, %M,
+#. * %t. The romanisation modifier (e.g. %Rf) is recognized but ignored.
+#. * %s, %S and %d are all replaced by the same thing (the ‘Honorific
+#. * Prefixes’ from vCard) so please avoid using more than one.
+#. *
+#. * For example, the format string ‘%g%t%m%t%f’ expands to ‘John Andrew
+#. * Lees’ when used for a persona with first name ‘John’, additional names
+#. * ‘Andrew’ and family names ‘Lees’.
+#. *
+#. * If you need additional placeholders with other information or
+#. * punctuation, please file a bug against libfolks:
+#. *   https://bugzilla.gnome.org/enter_bug.cgi?product=folks
+#.
+msgid "%g%t%m%t%f"
+msgstr ""
+
+#, c-format
+msgid "%s, %s, %s, %s, %s, %s, %s"
+msgstr ""
+
+#. Translators: "account" refers to an instant messaging
+#. * account.
+msgid "Account is offline."
+msgstr ""
+
+#. Translators: the first parameter is an error message.
+#, c-format
+msgid "Address book is offline and a new contact cannot be created: %s"
+msgstr ""
+
+#. Translators: the first parameter is an address book
+#. * URI and the second is a persona UID.
+#, c-format
+msgid "Address book ‘%s’ is offline, so contact ‘%s’ cannot be removed."
+msgstr ""
+
+#. Translators: the parameter is an address book
+#. * URI.
+#, c-format
+msgid "Address book ‘%s’ is offline."
+msgstr ""
+
+msgid "Alias is not writeable on this contact."
+msgstr ""
+
+#. Translators: the first parameter is a Bluetooth device
+#. * alias, and the second is an error message.
+#, c-format
+msgid "An OBEX address book transfer from device ‘%s’ could not be started: %s"
+msgstr ""
+
+msgid "Anti-links are not writeable on this contact."
+msgstr ""
+
+msgid "Anti-links can’t be removed between personas being linked."
+msgstr ""
+
+msgid "Available"
+msgstr ""
+
+msgid "Avatar is not writeable on this contact."
+msgstr ""
+
+msgid "Away"
+msgstr ""
+
+msgid "Birthday event ID is not writeable on this contact."
+msgstr ""
+
+msgid "Birthday is not writeable on this contact."
+msgstr ""
+
+#, c-format
+msgid "Bluetooth device ‘%s’ disappeared during address book transfer."
+msgstr ""
+
+msgid "Busy"
+msgstr ""
+
+msgid "Cannot create a new Telepathy contact while offline."
+msgstr ""
+
+msgid "Can’t add personas with no primary store."
+msgstr ""
+
+msgid "Can’t link personas with no primary store."
+msgstr ""
+
+#, c-format
+msgid "Can’t remove contact ‘%s’: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Can’t update avatar: %s"
+msgstr ""
+
+#, c-format
+msgid "Can’t write to requested property (‘%s’) of the writeable store."
+msgstr ""
+
+#. Translators: the parameter is the name of a property on a
+#. * contact, formatted in the normal GObject style (e.g.
+#. * lowercase with hyphens to separate words).
+#, c-format
+msgid "Changing the ‘%s’ property failed due to reaching the timeout."
+msgstr ""
+
+#, c-format
+msgid ""
+"Check the relevant service is running, or change the default store in that "
+"service or using the ‘%s’ GSettings key."
+msgstr ""
+
+#. Translators: the first parameter is a filename, the second is
+#. * an error message.
+#, c-format
+msgid "Could not write updated key file ‘%s’: %s"
+msgstr ""
+
+#. Translators: the parameteter is an error message.
+#, c-format
+msgid "Couldn’t get address book capabilities: %s"
+msgstr ""
+
+#. Translators: the parameter is an address book URI.
+#, c-format
+msgid "Couldn’t get view for address book ‘%s’."
+msgstr ""
+
+#. Translators: the first parameter is an address book URI
+#. * and the second is an error message.
+#, c-format
+msgid "Couldn’t get view for address book ‘%s’: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Couldn’t load data from key file: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Couldn’t load the backends: %s"
+msgstr ""
+
+#. Translators: the parameter is a backend identifier.
+#, c-format
+msgid "Couldn’t load the ‘%s’ backend."
+msgstr ""
+
+#. Translators: the parameter is a backend identifier.
+#, c-format
+msgid "Couldn’t load the ‘%s’ backend’s persona store."
+msgstr ""
+
+#. Translators: the first parameter is an address book URI
+#. * and the second is an error message.
+#, c-format
+msgid "Couldn’t open address book ‘%s’: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Couldn’t parse command line options: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Couldn’t prepare libsocialweb service: %s"
+msgstr ""
+
+#. Translators: the first parameter is a backend identifier and the
+#. * second parameter is an error message.
+#, c-format
+msgid "Couldn’t prepare the ‘%s’ backend: %s"
+msgstr ""
+
+#. Translators: the first parameter is a backend identifier and the
+#. * second parameter is an error message.
+#, c-format
+msgid "Couldn’t prepare the ‘%s’ backend’s persona store: %s"
+msgstr ""
+
+#. Translators: the first parameter is a persona identifier, the
+#. * second is an alias for the persona, and the third is a set of IM
+#. * addresses each on a new line.
+#, c-format
+msgid ""
+"Created contact ‘%s’ for buddy with alias ‘%s’ and IM addresses:\n"
+"%s"
+msgstr ""
+
+msgid "Creating a new contact failed due to reaching the timeout."
+msgstr ""
+
+msgid "E-mail addresses are not writeable on this contact."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+#. Translators: the first parameter is a persona identifier,
+#. * and the second is an error message.
+#, c-format
+msgid "Error changing group of contact ‘%s’: %s"
+msgstr ""
+
+msgid ""
+"Error connecting to OBEX transfer daemon over D-Bus. Ensure BlueZ and obexd "
+"are installed."
+msgstr ""
+
+#. Translators: the first parameter is a Bluetooth device
+#. * alias, and the second is an error message.
+#, c-format
+msgid ""
+"Error during transfer of the address book from Bluetooth device ‘%s’: %s"
+msgstr ""
+
+#. Translators: the first parameter is the name of the
+#. * failed transfer, and the second is a Bluetooth device
+#. * alias.
+#. Translators: the first parameter is the name of the failed
+#. * transfer, and the second is a Bluetooth device alias.
+#, c-format
+msgid ""
+"Error during transfer of the address book ‘%s’ from Bluetooth device ‘%s’."
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Error importing contacts: %s"
+msgstr ""
+
+#. Translators: the first parameter is a folder path and the second
+#. * is an error message.
+#, c-format
+msgid "Error listing contents of folder ‘%s’: %s"
+msgstr ""
+
+msgid "Error opening contacts view."
+msgstr ""
+
+#. Translators: the first parameter is a persona store identifier
+#. * and the second is an error message.
+#, c-format
+msgid "Error preparing persona store ‘%s’: %s"
+msgstr ""
+
+#. Translators: the first parameter is a folder path and the second
+#. * is an error message.
+#, c-format
+msgid "Error querying info for target ‘%s’ of symlink ‘%s’: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Error reading the transferred address book file: %s"
+msgstr ""
+
+msgid "Extended away"
+msgstr ""
+
+msgid "Extended fields are not writeable on this contact."
+msgstr ""
+
+msgid ""
+"Extended information cannot be written because the store is disconnected."
+msgstr ""
+
+msgid "Extended information may only be set on the user’s Telepathy contact."
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Failed to add a persona from details: %s"
+msgstr ""
+
+#. Translators: the first parameter is a store identifier
+#. * and the second parameter is an error message.
+#, c-format
+msgid "Failed to add contact for persona store ID ‘%s’: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Failed to change contact’s alias: %s"
+msgstr ""
+
+#. Translators: the parameter is a contact identifier.
+#, c-format
+msgid "Failed to change favorite status for Telepathy contact ‘%s’."
+msgstr ""
+
+msgid ""
+"Failed to change favorite status of Telepathy Persona because it has no "
+"attached TpContact."
+msgstr ""
+
+#. Translators: "telepathy-logger" is the name of an application,
+#. * and should not be translated.
+msgid ""
+"Failed to change favorite without a connection to the telepathy-logger "
+"service."
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Failed to change group membership: %s"
+msgstr ""
+
+#, c-format
+msgid "Failed to change property ‘%s’: No suitable personas were found."
+msgstr ""
+
+#, c-format
+msgid ""
+"Failed to create new contact for buddy with alias ‘%s’ and IM addresses:\n"
+"%s\n"
+"Error: %s\n"
+msgstr ""
+
+#. Translators: the parameter is a filename.
+#, c-format
+msgid "Failed to get content type for ‘%s’."
+msgstr ""
+
+#. Translators: the first parameter is a filename, and the second
+#. * is an error message.
+#, c-format
+msgid "Failed to get information about file %s: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Failed to remove a persona from store: %s"
+msgstr ""
+
+msgid "Favorite status is not writeable on this contact."
+msgstr ""
+
+#. Translators: the parameter is a filename.
+#, c-format
+msgid "File %s does not exist."
+msgstr ""
+
+#. Translators: the parameter is a filename.
+#, c-format
+msgid "File %s is not readable."
+msgstr ""
+
+#. Translators: the parameter is a filename.
+#, c-format
+msgid "File or directory ‘%s’ does not exist."
+msgstr ""
+
+msgid "Full name is not writeable on this contact."
+msgstr ""
+
+msgid "Gender is not writeable on this contact."
+msgstr ""
+
+msgid "Groups are not writeable on this contact."
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "IM addresses are not writeable on this contact."
+msgstr ""
+
+#. Translators: the parameter is the buddy's IM address.
+#, c-format
+msgid ""
+"Ignoring buddy with no alias and only one IM address:\n"
+"%s"
+msgstr ""
+
+#. Translators: the first parameter is the number of buddies which
+#. * were successfully imported, and the second is a filename.
+#, c-format
+msgid "Imported %u buddy from ‘%s’.Imported %u buddies from ‘%s’."
+msgstr ""
+
+#. Translators: this is an error message for if the user
+#. * provides an invalid IM address. The first parameter is
+#. * an IM address (e.g. “foo@jabber.org”), the second is
+#. * the name of a protocol (e.g. “jabber”) and the third is
+#. * an error message.
+#, c-format
+msgid "Invalid IM address ‘%s’ for protocol ‘%s’: %s"
+msgstr ""
+
+#. Translators: the first parameter is a non-human-readable
+#. * property name and the second parameter is an error
+#. * message.
+#, c-format
+msgid "Invalid value for property ‘%s’: %s"
+msgstr ""
+
+#. Translators: the first parameter is an error message.
+#, c-format
+msgid "Invalid value in contact: %s"
+msgstr ""
+
+msgid "Local IDs are not writeable on this contact."
+msgstr ""
+
+msgid "Location is not writeable on this contact."
+msgstr ""
+
+msgid "My Contacts is only available for Google Contacts"
+msgstr ""
+
+#. Translators: the first parameter is a non-human-readable
+#. * property name and the second parameter is an error
+#. * message.
+#, c-format
+msgid "New contact is not writeable: %s"
+msgstr ""
+
+msgid "Nickname is not writeable on this contact."
+msgstr ""
+
+msgid ""
+"No BlueZ 5 object manager running, so the BlueZ backend will be inactive. "
+"Either your BlueZ installation is too old (only version 5 is supported) or "
+"the service can’t be started."
+msgstr ""
+
+msgid "No capabilities were found."
+msgstr ""
+
+msgid "No contacts capability was found."
+msgstr ""
+
+msgid ""
+"No oFono object manager running, so the oFono backend will be inactive. "
+"Either oFono isn’t installed or the service can’t be started."
+msgstr ""
+
+msgid "Notes are not writeable on this contact."
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+#. Translators: the first parameter is an address
+#. * book URI and the second is an error message.
+#, c-format
+msgid "Permission denied to open address book ‘%s’: %s"
+msgstr ""
+
+#. Translators: the first parameter is an address book
+#. * URI and the second is an error message.
+#, c-format
+msgid "Permission denied to remove contact ‘%s’: %s"
+msgstr ""
+
+#. Translators: the first parameter is an error message.
+#, c-format
+msgid "Permission denied when creating new contact: %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Permission to access the address book on Bluetooth device ‘%s’ was denied by "
+"the user."
+msgstr ""
+
+#. Translators: the first two parameters are store identifiers and
+#. * the third is a contact identifier.
+#, c-format
+msgid ""
+"Persona store (%s, %s) requires the following details:\n"
+"    contact (provided: ‘%s’)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"Persona store ‘%s:%s’ is configured as primary, but could not be found or "
+"failed to load."
+msgstr ""
+
+msgid "Phone numbers are not writeable on this contact."
+msgstr ""
+
+msgid "Postal addresses are not writeable on this contact."
+msgstr ""
+
+msgid "Primary store ID"
+msgstr ""
+
+#. Translators: the first parameter is a non-human-readable
+#. * property name and the second parameter is an error
+#. * message.
+#, c-format
+msgid "Property ‘%s’ is not writeable: %s"
+msgstr ""
+
+#. Translators: the parameter is an error message.
+#, c-format
+msgid "Removing contacts isn’t supported by this persona store: %s"
+msgstr ""
+
+msgid "Roles are not writeable on this contact."
+msgstr ""
+
+msgid "Source backend name (default: ‘pidgin’)"
+msgstr ""
+
+msgid "Source filename (default: specific to source backend)"
+msgstr ""
+
+#. The timeout after which we consider a property change to have failed if we
+#. * haven't received a property change notification for it.
+#. seconds
+#. The timeout after which we consider a contact addition to have failed if we
+#. * haven't received an object addition signal for it.
+#. seconds
+#. Translators: This should be translated to the name of the “Starred in
+#. * Android” group in Google Contacts for your language. If Google have not
+#. * localised the group for your language, or Google Contacts isn't available
+#. * in your language, please *do not* translate this string (i.e. just copy
+#. * the msgid to the msgstr unchanged).
+msgid "Starred in Android"
+msgstr ""
+
+msgid "Structured name is not writeable on this contact."
+msgstr ""
+
+msgid "Telepathy contacts representing the local user may not be removed."
+msgstr ""
+
+msgid ""
+"The ID of the persona store which folks should use as primary (i.e. to store "
+"linking data in). The type ID of the store may optionally be prepended, "
+"separated by a colon. For example: ‘eds:system-address-book’ or ‘key-file’."
+msgstr ""
+
+#. Translators: the parameter is an IM address.
+#, c-format
+msgid "The IM address ‘%s’ could not be understood."
+msgstr ""
+
+#. Translators: the first parameter is a Bluetooth device
+#. * alias, and the second is an error message.
+#, c-format
+msgid "The OBEX address book transfer from device ‘%s’ failed: %s"
+msgstr ""
+
+#. Translators: the parameter is a filename.
+#, c-format
+msgid "The Pidgin buddy list file ‘%s’ could not be loaded."
+msgstr ""
+
+#. Translators: the parameter is a filename.
+#, c-format
+msgid ""
+"The Pidgin buddy list file ‘%s’ could not be loaded: the root element could "
+"not be found or was not recognized."
+msgstr ""
+
+msgid "The contact cannot be marked as favourite."
+msgstr ""
+
+#. Translators: the first parameter is a path, and the
+#. * second is an error message.
+#, c-format
+msgid "The relationship key file directory ‘%s’ could not be created: %s"
+msgstr ""
+
+#. Translators: the first parameter is a filename, and
+#. * the second is an error message.
+#, c-format
+msgid "The relationship key file ‘%s’ could not be created: %s"
+msgstr ""
+
+#. Translators: the first parameter is a filename, and
+#. * the second is an error message.
+#, c-format
+msgid "The relationship key file ‘%s’ could not be loaded: %s"
+msgstr ""
+
+#, c-format
+msgid "Title: %s, Organisation: %s, Role: %s"
+msgstr ""
+
+msgid "URLs are not writeable on this contact."
+msgstr ""
+
+#. Translators: the first parameter is an error message.
+#, c-format
+msgid "Unknown error adding contact: %s"
+msgstr ""
+
+#. Translators: the first parameter is a non-human-readable
+#. * property name and the second parameter is an error message.
+#, c-format
+msgid "Unknown error setting property ‘%s’: %s"
+msgstr ""
+
+#. Translators: the parameter is a property name.
+#, c-format
+msgid "Unknown property ‘%s’ in linkable property list."
+msgstr ""
+
+msgid "Unknown status"
+msgstr ""
+
+#. Translators: This is the default name for an Individual
+#. * when displayed in the UI if no personal details are available
+#. * for them.
+msgid "Unnamed Person"
+msgstr ""
+
+#. Translators: the first parameter is the unknown key that
+#. * was received with the details params, and the second
+#. * identifies the persona store.
+#, c-format
+msgid "Unrecognized parameter ‘%s’ passed to persona store ‘%s’."
+msgstr ""
+
+#. Translators: both parameters are identifiers for backends.
+#, c-format
+msgid ""
+"Unrecognized source backend name ‘%s’. ‘%s’ is currently the only supported "
+"source backend."
+msgstr ""
+
+msgid "Web service addresses are not writeable on this contact."
+msgstr ""
+
+msgid "— import meta-contact information to libfolks"
+msgstr ""

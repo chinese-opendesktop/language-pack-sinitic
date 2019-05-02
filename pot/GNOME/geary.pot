@@ -1,0 +1,2351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Displayed in the From dropdown to indicate an
+#. "alternate email address" for an account.  The first
+#. printf argument will be the alternate email address,
+#. and the second will be the account's primary email
+#. address.
+#, c-format
+msgid "%1$s via %2$s"
+msgstr ""
+
+#. / Date format that shows the weekday (Monday, Tuesday, ...)
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#, c-format
+msgid "%A"
+msgstr ""
+
+#. / Verbose datetime format for 24-hour time, i.e. November 8, 2010 16:35
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%B %-e, %Y %-H:%M"
+msgstr ""
+
+#. / Verbose datetime format for 12-hour time, i.e. November 8, 2010 8:42 am
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#. / Verbose datetime format for the locale default (full month, day and time)
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%B %-e, %Y %-l:%M %P"
+msgstr ""
+
+#. / Datetime format for 24-hour time, i.e. 16:35
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%H:%M"
+msgstr ""
+
+#. / 24 hours format for the datetime that a message being replied to was received
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%a, %b %-e, %Y at %H:%M"
+msgstr ""
+
+#. / Format for the datetime that a message being replied to was received
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%a, %b %-e, %Y at %X"
+msgstr ""
+
+#. / 12 hours format for datetime that a message being replied to was received
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%a, %b %-e, %Y at %l:%M %P"
+msgstr ""
+
+#. / Datetime format for the locale default, i.e. 8:31 am or 16:35,
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#. / Date format for dates within the current year, i.e. Nov 8
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%b %-e"
+msgstr ""
+
+#, c-format
+msgid "%d day back%d days back"
+msgstr ""
+
+#. Label displaying total number of email messages in a folder
+#, c-format
+msgid "%d message%d messages"
+msgstr ""
+
+#, c-format
+msgid "%d new message%d new messages"
+msgstr ""
+
+#, c-format
+msgid "%d result%d results"
+msgstr ""
+
+#. / Label displaying number of unread email messages in a folder
+#, c-format
+msgid "%d unread%d unread"
+msgstr ""
+
+#, c-format
+msgid "%dh ago%dh ago"
+msgstr ""
+
+#, c-format
+msgid "%dm ago%dm ago"
+msgstr ""
+
+#. / Datetime format for 12-hour time, i.e. 8:31 am
+#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+msgid "%l:%M %P"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s\n"
+"(%d other new message for %s)%s\n"
+"(%d other new messages for %s)"
+msgstr ""
+
+#, c-format
+msgid "%s (%d)"
+msgstr ""
+
+#. / In the composer, the filename followed by its filesize, i.e. "notes.txt (1.12KB)"
+#. Translators: The first argument will be a
+#. description of the document type, the second will
+#. be a human-friendly size string. For example:
+#. Document (100.9MB)
+#, c-format
+msgid "%s (%s)"
+msgstr ""
+
+#. Translators: This is used for displaying a short list of
+#. email recipients lists with two or more addresses. The
+#. first (string) substitution is address of the first, the
+#. second substitution is the number of n - 1 remaining
+#. recipients.
+#, c-format
+msgid "%s and %d other%s and %d others"
+msgstr ""
+
+#. Add a suffix for OAuth2 auth so people know they
+#. shouldn't expect to be prompted for a password
+#. Translators: Label used when an account's IMAP or
+#. SMTP service uses OAuth2. The string replacement is
+#. the service's login name.
+#, c-format
+msgid "%s using OAuth2"
+msgstr ""
+
+#. / The quoted header for a message being replied to (in case the date is not known).
+#. / %s will be replaced by the original sender.
+#, c-format
+msgid "%s wrote:"
+msgstr ""
+
+#, c-format
+msgid "%s — New Messages"
+msgstr ""
+
+#, c-format
+msgid "%s, %d new message total%s, %d new messages total"
+msgstr ""
+
+#. / This string represents the divider between two messages: "n messages" and "n unread",
+#. / shown in the folder list as a tooltip.  Please use your languages conventions for
+#. / combining the two, i.e. a comma (",") for English; "6 messages, 3 unread"
+#, c-format
+msgid "%s, %s"
+msgstr ""
+
+#. Translators: This is shown for displaying a list of
+#. email recipients that happens to be empty,
+#. i.e. contains no email addresses.
+msgid "(No recipients)"
+msgstr ""
+
+msgid "(no subject)"
+msgstr ""
+
+#. Translators: This separates multiple 'from'
+#. addresses in the compact header for a message.
+msgid ", "
+msgstr ""
+
+msgid "---------- Forwarded message ----------"
+msgstr ""
+
+msgid "1 month back"
+msgstr ""
+
+msgid "1 year back"
+msgstr ""
+
+msgid "1/1/1970\t"
+msgstr ""
+
+msgid "2 weeks back"
+msgstr ""
+
+msgid "2 years back"
+msgstr ""
+
+msgid "3 months back"
+msgstr ""
+
+msgid "4 years back"
+msgstr ""
+
+msgid "6 months back"
+msgstr ""
+
+#. Translators: Dialog primary label when prompting to
+#. overwrite a file. The string substitution is the file'sx
+#. name.
+#, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr ""
+
+#. Translators: Info bar title for an incoming account
+#. problem. String substitution is the account name
+#, c-format
+msgid "A problem occurred checking email for %s"
+msgstr ""
+
+#. Translators: Info bar title for an outgoing account
+#. problem. String substitution is the account name
+#, c-format
+msgid "A problem occurred sending email for %s"
+msgstr ""
+
+#. Translators: Info bar title for a generic account
+#. problem. String substitution is the account name
+#, c-format
+msgid "A problem occurred with account %s"
+msgstr ""
+
+#. Translators: Tooltip used when an entry requires a valid,
+#. resolvable server name to be entered, but one is not
+#. provided.
+msgid "A server name is required"
+msgstr ""
+
+#, c-format
+msgid "About %s"
+msgstr ""
+
+msgid ""
+"Acceptable values are “exact”, “conservative”, “aggressive”, and “horizon”."
+msgstr ""
+
+msgid "Account Name"
+msgstr ""
+
+#. Translators: Label in the account editor for the user's
+#. custom name for an account.
+msgid "Account name"
+msgstr ""
+
+#. Translators: In-app notification label, the
+#. string substitution is a more detailed reason.
+#, c-format
+msgid "Account not created: %s"
+msgstr ""
+
+#. Translators: In-app notification label, the
+#. string substitution is a more detailed reason.
+#, c-format
+msgid "Account not updated: %s"
+msgstr ""
+
+#. Infobar title when one or more accounts have encounted an error
+msgid "Account problem"
+msgstr ""
+
+#. Translators: This label describes the program that
+#. created the account, e.g. an SSO service like GOA, or
+#. locally by Geary.
+msgid "Account source"
+msgstr ""
+
+#. Translators: Notification shown after removing an
+#. account. The string substitution is the name of the
+#. account.
+#, c-format
+msgid "Account “%s” removed"
+msgstr ""
+
+#. Translators: Notification shown after removing an account
+#. is undone. The string substitution is the name of the
+#. account.
+#, c-format
+msgid "Account “%s” restored"
+msgstr ""
+
+msgid "Accounts"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+#. Translators: Tooltip for adding a new email sender/from
+#. address's address to an account
+msgid "Add a new sender email address"
+msgstr ""
+
+msgid "Add an account"
+msgstr ""
+
+msgid "Add attachment"
+msgstr ""
+
+msgid "Add label to conversationAdd label to conversations"
+msgstr ""
+
+msgid "Add this language to the preferred list"
+msgstr ""
+
+#. Translators: Label used as the undo tooltip after removing
+#. a sender address from an account. The string substitution
+#. is the email address edited.
+#, c-format
+msgid "Add “%s” back"
+msgstr ""
+
+msgid "Additional Shortcuts"
+msgstr ""
+
+msgid "Advisory strategy for full-text searching"
+msgstr ""
+
+msgid "All Mail"
+msgstr ""
+
+#. Translators: Label for adding an email account
+#. account for a generic IMAP service provider.
+msgid "All others"
+msgstr ""
+
+msgid "Allow inspection of WebView"
+msgstr ""
+
+msgid "Always Show From Sender"
+msgstr ""
+
+#. Label and tooltip for authentication problem infobar
+msgid "An account has reported an incorrect login or password."
+msgstr ""
+
+#. Label and tooltip for authentication problem infobar
+msgid ""
+"An account has reported an incorrect login or password.\n"
+"Please check your login name and try again."
+msgstr ""
+
+#. Label and tooltip for TLS cert validation error infobar
+msgid "An account has reported an untrusted server."
+msgstr ""
+
+#. Label and tooltip for TLS cert validation error infobar
+msgid ""
+"An account has reported an untrusted server.\n"
+"Please check the server configuration and try again."
+msgstr ""
+
+#. Translators: Tooltip used when an entry requires a valid
+#. email address to be entered, but one is not provided.
+msgid "An email address is required"
+msgstr ""
+
+msgid "An error has occurred processing the server’s certificate"
+msgstr ""
+
+#. Translators: In-app notification label for a
+#. generic error creating an account
+msgid "An unexpected problem occurred"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Archive conversation (A)Archive conversations (A)"
+msgstr ""
+
+#. List of general possible folder names to match for the
+#. Archive mailbox. Separate names using a vertical bar
+#. and put the most common localized name to the front for
+#. the default. English names do not need to be included.
+msgid "Archive | Archives"
+msgstr ""
+
+msgid "Are you sure you want to open these attachments?"
+msgstr ""
+
+msgid "Ask when opening an attachment"
+msgstr ""
+
+msgid "Attach File (Ctrl+T)"
+msgstr ""
+
+msgid ""
+"Attachments may cause damage to your system if opened.  Only open files from "
+"trusted sources."
+msgstr ""
+
+msgid "Autoselect next message"
+msgstr ""
+
+#. Translators: Human-readable version of the RFC 822 BCC header
+msgid "Bcc:"
+msgstr ""
+
+msgid "Bold (Ctrl+B)"
+msgstr ""
+
+msgid "Bold text"
+msgstr ""
+
+msgid "But actually goes to:"
+msgstr ""
+
+msgid "C_olor"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cannot add attachment"
+msgstr ""
+
+#. Translators: Human-readable version of the RFC 822 CC header
+msgid "Cc:"
+msgstr ""
+
+#. Translators: Tooltip used to undo changing
+#. the name of an account. The string
+#. substitution is the old name of the
+#. account.
+#, c-format
+msgid "Change account name back to “%s”"
+msgstr ""
+
+#. Translators: Tooltip for undoing a change
+#. to the length of time that past email
+#. should be downloaded for an account. The
+#. string substitution is the duration,
+#. e.g. "1 month back".
+#, c-format
+msgid "Change download period back to: %s"
+msgstr ""
+
+#. Button label for retrying TLS cert validation
+msgid "Check"
+msgstr ""
+
+#. Button tooltip for retrying TLS cert validation
+msgid "Check the security details for the connection"
+msgstr ""
+
+#. Translators: In-app notification label
+msgid "Check your email address and password"
+msgstr ""
+
+#. Translators: In-app notification label
+msgid "Check your receiving login and password"
+msgstr ""
+
+#. Translators: In-app notification label
+msgid "Check your receiving server details"
+msgstr ""
+
+#. Translators: In-app notification label
+#. There was an SMTP auth error, but IMAP already
+#. succeeded, so the user probably needs to
+#. specify custom creds here
+#. Translators: In-app notification label
+msgid "Check your sending login and password"
+msgstr ""
+
+#. Translators: In-app notification label
+msgid "Check your sending server details"
+msgstr ""
+
+msgid "Choose a file"
+msgstr ""
+
+#. Translators: Sub-title label for placeholder when multiple
+#. conversations have been selected.
+msgid "Choosing an action will apply to all selected conversations"
+msgstr ""
+
+msgid "Close composer window"
+msgstr ""
+
+msgid "Close the draft message?Close all draft messages?"
+msgstr ""
+
+msgid "Compatible with GMail, Yahoo! Mail, Outlook.com and other IMAP servers"
+msgstr ""
+
+msgid "Compose Message"
+msgstr ""
+
+msgid "Compose a new message"
+msgstr ""
+
+msgid "Composer Shortcuts"
+msgstr ""
+
+#. This title is shown to users when confirming if they want to remove an account. The string substitution is replaced with the account's name.
+#, c-format
+msgid "Confirm removing: %s"
+msgstr ""
+
+#. Translators: This label describes what form of transport
+#. security (TLS, StartTLS, etc) used by an account's IMAP or SMTP
+#. service.
+msgid "Connection security"
+msgstr ""
+
+msgid ""
+"Contact your system administrator or email service provider if you have any "
+"question about these issues."
+msgstr ""
+
+msgid "Conversation Shortcuts"
+msgstr ""
+
+msgid ""
+"Conversations allow you to read a complete discussion without having to find "
+"and click from message to message."
+msgstr ""
+
+msgid "Copy Email _Address"
+msgstr ""
+
+msgid "Copy Link _Address"
+msgstr ""
+
+#. Button tooltip for copying technical information to the clipboard
+msgid ""
+"Copy technical details to clipboard for pasting into an email or bug report"
+msgstr ""
+
+#. Button label for copying technical information to the clipboard
+msgid "Copy to Clipboard"
+msgstr ""
+
+msgid "Copyright 2016 Software Freedom Conservancy Inc."
+msgstr ""
+
+msgid "Copyright 2016-2019 Geary Development Team."
+msgstr ""
+
+#. Translators: In-app notification label
+msgid "Could not connect, check your network"
+msgstr ""
+
+#. Translators: Tooltip used when an entry requires a valid
+#. server name to be entered, but it was unable to be
+#. looked-up in the DNS.
+msgid "Could not look up server name"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+#. Translators: Human-readable version of the RFC 822 Date header
+msgid "Date:"
+msgstr ""
+
+msgid "Deceptive link found"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete conversation"
+msgstr ""
+
+msgid "Delete conversation (Shift+Delete)Delete conversations (Shift+Delete)"
+msgstr ""
+
+msgid "Delete this link"
+msgstr ""
+
+#. The localised name(s) of the Trash folder name as used
+#. by MS Outlook/Exchange.
+msgid "Deleted Items"
+msgstr ""
+
+msgid "Desktop notification of new mail"
+msgstr ""
+
+msgid "Detach (Ctrl+D)"
+msgstr ""
+
+msgid "Detach composer window"
+msgstr ""
+
+#. Button label for displaying technical details about an account problem
+#. Dialog title for displaying technical details of a problem. Same as the button that invokes it.
+msgid "Details"
+msgstr ""
+
+msgid "Details:"
+msgstr ""
+
+msgid "Discard and Close"
+msgstr ""
+
+msgid "Display message previews"
+msgstr ""
+
+msgid "Display program version"
+msgstr ""
+
+msgid "Display the message menu"
+msgstr ""
+
+#. Translators: This dialog text is displayed to the
+#. user when closing a composer where the options are
+#. only Discard or Cancel.
+msgid "Do you want to discard this draft message?"
+msgstr ""
+
+#. Translators: This dialog text is displayed to the
+#. user when closing a composer where the options are
+#. Keep, Discard or Cancel.
+msgid "Do you want to keep or discard this draft message?"
+msgstr ""
+
+msgid ""
+"Do you want to permanently delete this message?Do you want to permanently "
+"delete these messages?"
+msgstr ""
+
+msgid "Don’t _ask me again"
+msgstr ""
+
+#. Translators: This label describes the account
+#. preference for the length of time (weeks, months or
+#. years) that past email should be downloaded.
+msgid "Download mail"
+msgstr ""
+
+msgid "Draft message"
+msgstr ""
+
+msgid "Drafts"
+msgstr ""
+
+#. List of general possible folder names to match for the
+#. Draft mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+msgid "Drafts | Draft"
+msgstr ""
+
+#. Translators: Tooltip for dragging list items
+msgid "Drag to move this item"
+msgstr ""
+
+msgid "Drop files here"
+msgstr ""
+
+msgid "E_xit"
+msgstr ""
+
+msgid "Edit Account"
+msgstr ""
+
+msgid "Edit Draft"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+#. Translators: Label used for the address part of an
+#. email address when editing a user's sender address
+#. preferences for an account.
+msgid "Email address"
+msgstr ""
+
+msgid "Email addresses"
+msgstr ""
+
+#. Translators: Info bar sub-title for an incoming account
+#. problem.
+msgid "Email will not be received until re-connected"
+msgstr ""
+
+#. Translators: Info bar sub-title for an outgoing
+#. account problem.
+msgid "Email will not be sent until re-connected"
+msgstr ""
+
+#. Translators: These are desktop search terms. Do not translate semicolons, end line with a semicolon.
+msgid "Email;E-mail;Mail;"
+msgstr ""
+
+#, c-format
+msgid "Empty %s"
+msgstr ""
+
+msgid "Empty _Spam…"
+msgstr ""
+
+msgid "Empty _Trash…"
+msgstr ""
+
+#, c-format
+msgid "Empty all email from your %s folder?"
+msgstr ""
+
+msgid "Enable notification sounds"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error during rebuild:\n"
+"\n"
+"%s"
+msgstr ""
+
+#, c-format
+msgid "Error emptying %s"
+msgstr ""
+
+msgid "Error saving"
+msgstr ""
+
+#. Displayed in the space-limited status bar when a message fails to be uploaded
+#. to Sent Mail after being sent.
+msgid "Error saving sent mail"
+msgstr ""
+
+#. / Displayed in the space-limited status bar when a message fails to be sent due to error.
+msgid "Error sending email"
+msgstr ""
+
+msgid "Everything"
+msgstr ""
+
+msgid "Failed to open default text editor."
+msgstr ""
+
+#. i18n: Command line arguments are invalid
+#, c-format
+msgid "Failed to parse command line options: %s\n"
+msgstr ""
+
+#. Translators: In-app notification label, when
+#. the app had a problem pinning an otherwise
+#. untrusted TLS certificate
+msgid "Failed to store certificate"
+msgstr ""
+
+msgid ""
+"False to check for the old “org.yorba.geary”-schema and copy its values."
+msgstr ""
+
+msgid "Fast, full text and keyword search"
+msgstr ""
+
+msgid "Find in conversation"
+msgstr ""
+
+msgid "Find in current conversation"
+msgstr ""
+
+msgid "Find next/previous in current conversation"
+msgstr ""
+
+msgid "Find the next occurrence of the search string."
+msgstr ""
+
+msgid "Find the previous occurrence of the search string."
+msgstr ""
+
+msgid "Find:"
+msgstr ""
+
+msgid "Forward"
+msgstr ""
+
+#. Geary account mail will be sent from
+msgid "From"
+msgstr ""
+
+msgid "From <email>"
+msgstr ""
+
+#. Translators: Human-readable version of the RFC 822 From header
+msgid "From:"
+msgstr ""
+
+msgid "Full-featured HTML and plain text message composer"
+msgstr ""
+
+msgid "GB"
+msgstr ""
+
+msgid "GNOME Online Accounts"
+msgstr ""
+
+#. Translators: The application name
+msgid "Geary"
+msgstr ""
+
+#. Translators: The development team's name
+msgid "Geary Development Team"
+msgstr ""
+
+#. Translators: A screenshot description.
+msgid "Geary displaying a conversation"
+msgstr ""
+
+#. Label and tooltip for account service problem infobar
+msgid "Geary encountered a problem connecting to an account."
+msgstr ""
+
+#. Label and tooltip for account service problem infobar
+msgid ""
+"Geary encountered a problem connecting to an account.\n"
+"Please check your Internet connection, the server configuration and try "
+"again."
+msgstr ""
+
+#. Translators: Info bar title for a generic application
+#. problem.
+msgid "Geary has encountered a problem"
+msgstr ""
+
+msgid ""
+"Geary is an email application built around conversations, for the GNOME 3 "
+"desktop. It allows you to read, find and send email with a straightforward, "
+"modern interface."
+msgstr ""
+
+#. We can't keep these in the glade file, because Gnome doesn't want markup in translatable
+#. strings, and Glade doesn't support the "larger" size attribute. See this bug report for
+#. details: https://bugzilla.gnome.org/show_bug.cgi?id=679006
+msgid "Geary requires your email password to continue"
+msgstr ""
+
+#. Translators: A screenshot description.
+msgid "Geary showing the rich text composer"
+msgstr ""
+
+msgid "Geary update in progress…"
+msgstr ""
+
+msgid "Geary will keep running after all windows are closed"
+msgstr ""
+
+msgid "Geary will not add or update this email account."
+msgstr ""
+
+msgid "Geary’s features include:"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Gmail"
+msgstr ""
+
+msgid "Height of window"
+msgstr ""
+
+#. Translators: Label for the IMAP server hostname when
+#. adding an account.
+#. Translators: This label describes the host name or IP
+#. address and port used by an account's IMAP service.
+msgid "IMAP server"
+msgstr ""
+
+msgid ""
+"If the problem is serious or persists, please copy and send these details to "
+"the <a href=\"https://wiki.gnome.org/Apps/Geary/Contact\">mailing list</a> "
+"or file a <a href=\"https://wiki.gnome.org/Apps/Geary/ReportingABug\">new "
+"bug report</a>."
+msgstr ""
+
+msgid "If unsure, contact the sender and ask before continuing."
+msgstr ""
+
+#. Translators: This string is used as the HTML IMG ALT
+#. attribute value when displaying an inline image in an email
+#. that did not specify a file name. E.g. <IMG ALT="Image" ...
+msgid "Image"
+msgstr ""
+
+#. Translators: This is the name of the file chooser filter
+#. when inserting an image in the composer.
+msgid "Images"
+msgstr ""
+
+msgid "Important"
+msgstr ""
+
+msgid "Inbox"
+msgstr ""
+
+msgid "Inboxes"
+msgstr ""
+
+msgid "Include Original Attachments"
+msgstr ""
+
+#, c-format
+msgid "Indexing %s account"
+msgstr ""
+
+msgid "Insert a link"
+msgstr ""
+
+msgid "Insert an image (Ctrl+G)"
+msgstr ""
+
+msgid "Insert or update selection link (Ctrl+L)"
+msgstr ""
+
+msgid "Insert ordered list"
+msgstr ""
+
+#. Note that this button and the Update button will never be shown at the same time to the user.
+msgid "Insert the new link with this URL"
+msgstr ""
+
+msgid "Insert unordered list"
+msgstr ""
+
+msgid "Invalid email address"
+msgstr ""
+
+msgid "Invalid link URL"
+msgstr ""
+
+msgid "Italic (Ctrl+I)"
+msgstr ""
+
+msgid "Italicize text"
+msgstr ""
+
+msgid "Jump to next (older) conversation"
+msgstr ""
+
+msgid "Jump to previous (newer) conversation"
+msgstr ""
+
+msgid "Jump to search box"
+msgstr ""
+
+#. List of general possible folder names to match for the
+#. Spam mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+msgid ""
+"Junk | Spam | Junk Mail | Junk Email | Junk E-Mail | Bulk Mail | Bulk Email "
+"| Bulk E-Mail"
+msgstr ""
+
+msgid "KB"
+msgstr ""
+
+msgid "Label the conversation"
+msgstr ""
+
+msgid "Labels"
+msgstr ""
+
+msgid "Languages that are displayed in the spell checker popover"
+msgstr ""
+
+msgid "Languages that shall be used in the spell checker"
+msgstr ""
+
+msgid "Lar_ge"
+msgstr ""
+
+msgid "Link URL"
+msgstr ""
+
+msgid "Link URL is not correctly formatted, e.g. http://example.com"
+msgstr ""
+
+msgid ""
+"List of languages that are always displayed in the popover of the spell "
+"checker."
+msgstr ""
+
+msgid "List of the languages to use in the spell checker."
+msgstr ""
+
+#. / The IMAP replay queue is how changes on the server are replicated on the client.
+#. / It could also be called the IMAP events queue.
+msgid "Log IMAP replay queue"
+msgstr ""
+
+msgid "Log conversation monitoring"
+msgstr ""
+
+msgid "Log database queries (generates lots of messages)"
+msgstr ""
+
+#. / "Normalization" can also be called "synchronization"
+msgid "Log folder normalization"
+msgstr ""
+
+msgid "Log network activity"
+msgstr ""
+
+msgid "Log network deserialization"
+msgstr ""
+
+#. / Serialization is how commands and responses are converted into a stream of bytes for
+#. / network transmission
+msgid "Log network serialization"
+msgstr ""
+
+msgid "Log periodic activity"
+msgstr ""
+
+#. Translators: Label for source of SMTP authentication
+#. credentials (none, use IMAP, custom) when adding a new
+#. account
+#. Button label for retrying when a login error has occurred
+msgid "Login"
+msgstr ""
+
+#. Translators: Label for an IMAP/SMTP service login/user name
+#. when adding an account
+#. Translators: Label for the user's login name for an
+#. IMAP, SMTP, etc service
+msgid "Login name"
+msgstr ""
+
+#. Infobar title when one or more accounts have a login error
+msgid "Login problem"
+msgstr ""
+
+msgid "MB"
+msgstr ""
+
+#. Translators: These are desktop search terms. Do not translate semicolons, end line with a semicolon.
+msgid "Mail;E-mail;IMAP;GMail;Yahoo;Hotmail;Outlook;"
+msgstr ""
+
+#. Translators: Menu item to mark all messages in a
+#. conversation from this one as unread.
+msgid "Mark Unread From _Here"
+msgstr ""
+
+msgid "Mark as S_pam"
+msgstr ""
+
+msgid "Mark as _Read"
+msgstr ""
+
+msgid "Mark as _Unread"
+msgstr ""
+
+msgid "Mark as not S_pam"
+msgstr ""
+
+msgid "Mark conversationMark conversations"
+msgstr ""
+
+msgid "Mark read"
+msgstr ""
+
+#. Note: The application will never show this button at the same time as star_button, one will always be hidden.
+msgid "Mark this message as not starred"
+msgstr ""
+
+#. Note: The application will never show this button at the same time as unstar_button, one will always be hidden.
+msgid "Mark this message as starred"
+msgstr ""
+
+msgid "Mark unread"
+msgstr ""
+
+msgid "Maximize window"
+msgstr ""
+
+msgid "Me"
+msgstr ""
+
+msgid "Message not saved"
+msgstr ""
+
+msgid ""
+"Move conversation to Trash (Delete, Backspace)Move conversations to Trash "
+"(Delete, Backspace)"
+msgstr ""
+
+msgid "Move conversationMove conversations"
+msgstr ""
+
+msgid "Move focus to conversation list"
+msgstr ""
+
+msgid "Move focus to the next/previous pane"
+msgstr ""
+
+msgid "Move the conversation"
+msgstr ""
+
+msgid "Move to trash"
+msgstr ""
+
+#. Translators: Title label for placeholder when multiple
+#. conversations have been selected.
+msgid "Multiple conversations selected"
+msgstr ""
+
+#. Translators: Label used to indicate the user has
+#. provided no display name for one of their sender
+#. email addresses in their account settings.
+msgid "Name not set"
+msgstr ""
+
+msgid "New Message"
+msgstr ""
+
+#. Translators: Title label for placeholder when no
+#. conversations have exist in a folder.
+#. Translators: Title label for placeholder when no
+#. conversations have been found in a search.
+msgid "No conversations found"
+msgstr ""
+
+#. Translators: Title label for placeholder when no
+#. conversations have been selected.
+msgid "No conversations selected"
+msgstr ""
+
+#. Translators: ComboBox value for source of SMTP
+#. authentication credentials (none) when adding a new
+#. account
+msgid "No login needed"
+msgstr ""
+
+#. Compact headers
+#. Translators: This is displayed in place of the from address
+#. when the message has no from address.
+msgid "No sender"
+msgstr ""
+
+#. Translators: Label used when no auth scheme is used
+#. by an account's IMAP or SMTP service.
+msgid "None"
+msgstr ""
+
+#. Translators: Tooltip used when an entry requires a valid
+#. email address to be entered, but the address is invalid.
+msgid "Not a valid email address"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Notify of new mail at startup"
+msgstr ""
+
+msgid "Now"
+msgstr ""
+
+#. / The quoted header for a message being replied to.
+#. / %1$s will be substituted for the date, and %2$s will be substituted for
+#. / the original sender.
+#, c-format
+msgid "On %1$s, %2$s wrote:"
+msgstr ""
+
+#. / The quoted header for a message being replied to (in case the sender is not known).
+#. / %s will be replaced by the original date
+#, c-format
+msgid "On %s:"
+msgstr ""
+
+msgid "Only show remote images from senders you trust."
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open selected attachments"
+msgstr ""
+
+msgid "Open this link"
+msgstr ""
+
+msgid "Orientation of the folder list pane"
+msgstr ""
+
+#. Translators: Label for adding a generic email account
+msgid "Other email providers"
+msgstr ""
+
+msgid "Outbox"
+msgstr ""
+
+msgid "Outlook.com"
+msgstr ""
+
+msgid "Output debugging information"
+msgstr ""
+
+#. Translators: Label for the user's password for an IMAP,
+#. SMTP, etc service
+msgid "Password"
+msgstr ""
+
+msgid "Paste _Without Formatting"
+msgstr ""
+
+msgid "Perform a graceful quit"
+msgstr ""
+
+#. Translators: Info bar sub-title for a generic
+#. application problem.
+msgid ""
+"Please check the technical details and report the problem if it persists."
+msgstr ""
+
+msgid "Please report comments, suggestions and bugs to:"
+msgstr ""
+
+msgid "Position of folder list pane"
+msgstr ""
+
+msgid "Position of folder list pane when horizontal"
+msgstr ""
+
+msgid "Position of folder list pane when vertical"
+msgstr ""
+
+msgid "Position of message list pane"
+msgstr ""
+
+msgid ""
+"Position of the folder list Paned grabber in the horizontal orientation."
+msgstr ""
+
+msgid "Position of the folder list Paned grabber in the vertical orientation."
+msgstr ""
+
+msgid "Position of the folder list Paned grabber."
+msgstr ""
+
+msgid "Position of the message list Paned grabber."
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Press Backspace to delete quote"
+msgstr ""
+
+msgid "Preview body text."
+msgstr ""
+
+msgid "Quick email account setup"
+msgstr ""
+
+msgid "Quit the application"
+msgstr ""
+
+msgid "Quote text"
+msgstr ""
+
+msgid "Quote text  (Ctrl+])"
+msgstr ""
+
+msgid "R_eply All"
+msgstr ""
+
+msgid "Reading"
+msgstr ""
+
+msgid "Receiving"
+msgstr ""
+
+msgid "Redo"
+msgstr ""
+
+msgid "Redo last edit  (Ctrl+Shift+Z)"
+msgstr ""
+
+msgid "Remote images not shown"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+#. This is the remove account button in the account settings.
+msgid "Remove Account"
+msgstr ""
+
+msgid "Remove account"
+msgstr ""
+
+msgid "Remove formatting"
+msgstr ""
+
+msgid "Remove selection formatting (Ctrl+Space)"
+msgstr ""
+
+msgid "Remove this account from Geary"
+msgstr ""
+
+msgid "Remove this language from the preferred list"
+msgstr ""
+
+#. Translators: Label used as the undo tooltip after adding an
+#. new sender email address to an account. The string
+#. substitution is the email address added.
+#, c-format
+msgid "Remove “%s”"
+msgstr ""
+
+msgid ""
+"Removing an account will remove it from Geary and delete locally cached "
+"email data from your computer, but not from your service provider."
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Reply All"
+msgstr ""
+
+#. Translators: Menu item to reply to a specific message.
+msgid "Reply to _All"
+msgstr ""
+
+msgid "Reply to all"
+msgstr ""
+
+msgid "Reply to sender "
+msgstr ""
+
+msgid "Reply to:"
+msgstr ""
+
+#. Translators: Human-readable version of the RFC 822 Reply-To header
+msgid "Reply-To: "
+msgstr ""
+
+msgid "Reset zoom"
+msgstr ""
+
+#. Button label for retrying an account problem
+msgid "Retry"
+msgstr ""
+
+#. Button tooltip for retrying when a login error has occurred
+msgid "Retry login, you will be prompted for your password"
+msgstr ""
+
+#. Translators: Tooltip label for Retry button
+msgid "Retry sending queued messages"
+msgstr ""
+
+msgid "Revoke all server certificates with TLS warnings"
+msgstr ""
+
+msgid "Rich text mode"
+msgstr ""
+
+msgid "SMTP Credentials"
+msgstr ""
+
+#. Translators: Label for the SMTP server hostname when
+#. adding an account.
+#. Translators: This label describes the host name or IP
+#. address and port used by an account's SMTP service.
+msgid "SMTP server"
+msgstr ""
+
+msgid "S_ans Serif"
+msgstr ""
+
+msgid "S_erif"
+msgstr ""
+
+msgid "Save _Image As…"
+msgstr ""
+
+msgid "Save all attachments"
+msgstr ""
+
+msgid "Save and Close"
+msgstr ""
+
+#. Translators: This label describes an account
+#. preference.
+msgid "Save draft email on server"
+msgstr ""
+
+msgid "Save selected attachments"
+msgstr ""
+
+#. Translators: This label describes an account
+#. preference.
+msgid "Save sent email on server"
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "Saving"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+#, c-format
+msgid "Search %s account"
+msgstr ""
+
+#. Search entry.
+msgid "Search all mail in account for keywords (Ctrl+S)"
+msgstr ""
+
+msgid "Search for messages from"
+msgstr ""
+
+msgid "Search for more languages"
+msgstr ""
+
+#. Infobar title when one or more accounts have a TLS cert validation error
+msgid "Security problem"
+msgstr ""
+
+msgid "Select Color"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "Select all attachments"
+msgstr ""
+
+msgid "Select spell checking languages"
+msgstr ""
+
+#. Translators: Sub-title label for placeholder when no
+#. conversations have been selected.
+msgid "Selecting a conversation from the list will display it here"
+msgstr ""
+
+msgid ""
+"Selecting “Don’t Trust This Server” will cause Geary not to access this "
+"server."
+msgstr ""
+
+msgid ""
+"Selecting “Don’t Trust This Server” will cause Geary to stop accessing this "
+"account."
+msgstr ""
+
+msgid ""
+"Selecting “Trust This Server” or “Always Trust This Server” may cause your "
+"username and password to be transmitted insecurely."
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Send (Ctrl+Enter)"
+msgstr ""
+
+msgid "Send New _Message…"
+msgstr ""
+
+#. Translators: The application's summary / tagline
+msgid "Send and receive email"
+msgstr ""
+
+msgid "Send by email"
+msgstr ""
+
+msgid "Send files using Geary"
+msgstr ""
+
+msgid "Send message with an empty body?"
+msgstr ""
+
+msgid "Send message with an empty subject and body?"
+msgstr ""
+
+msgid "Send message with an empty subject?"
+msgstr ""
+
+msgid "Send message without an attachment?"
+msgstr ""
+
+#. Translators: This is used as a placeholder for the
+#. display name for an email address when editing a user's
+#. sender address preferences for an account.
+msgid "Sender Name"
+msgstr ""
+
+#. Translators: Label used for the display name part of an
+#. email address when editing a user's sender address
+#. preferences for an account.
+msgid "Sender name"
+msgstr ""
+
+msgid "Sending"
+msgstr ""
+
+#. / Displayed in the space-limited status bar while a message is in the process of being sent.
+msgid "Sending…"
+msgstr ""
+
+#. The localised name(s) of the Sent folder name as used
+#. by MS Outlook/Exchange.
+msgid "Sent Items"
+msgstr ""
+
+msgid "Sent Mail"
+msgstr ""
+
+msgid "Sent by:"
+msgstr ""
+
+#. List of general possible folder names to match for the
+#. Sent mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+msgid "Sent | Sent Mail | Sent Email | Sent E-Mail"
+msgstr ""
+
+#. This is a button in the account settings to show server settings.
+msgid "Server Settings"
+msgstr ""
+
+#. Translators: Label describes the service provider
+#. hosting the email account, e.g. Gmail, Yahoo, or some
+#. other generic IMAP service.
+msgid "Service provider"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Show Extended Fields"
+msgstr ""
+
+msgid "Show Images"
+msgstr ""
+
+msgid "Show _notifications for new mail"
+msgstr ""
+
+msgid "Show help"
+msgstr ""
+
+msgid "Show keyboard shortcuts"
+msgstr ""
+
+msgid "Show notifications for new mail"
+msgstr ""
+
+msgid "Shows related messages together in conversations"
+msgstr ""
+
+msgid "Signature"
+msgstr ""
+
+msgid "Size of detached composer window"
+msgstr ""
+
+#. Translators: Info bar sub-title for a generic account
+#. problem.
+msgid "Something went wrong, please file a bug report if the problem persists"
+msgstr ""
+
+msgid "Spam"
+msgstr ""
+
+msgid "Star"
+msgstr ""
+
+msgid "Starred"
+msgstr ""
+
+msgid "Start Geary with hidden main window"
+msgstr ""
+
+msgid "StartTLS"
+msgstr ""
+
+msgid "Strike text"
+msgstr ""
+
+msgid "Strikethrough (Ctrl+K)"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+#. Translators: Human-readable version of the RFC 822 Subject header
+msgid "Subject:"
+msgstr ""
+
+#. Translators: The label for an in-app notification. The
+#. string substitution is a list of recipients of the email.
+#, c-format
+msgid "Successfully sent mail to %s."
+msgstr ""
+
+msgid "TB"
+msgstr ""
+
+msgid "TLS"
+msgstr ""
+
+msgid "The email sender may be leading you to the wrong web site."
+msgstr ""
+
+#. Translators: Dialog secondary label when prompting to
+#. overwrite a file. The string substitution is the parent
+#. folder's name.
+#, c-format
+msgid ""
+"The file already exists in “%s”.  Replacing it will overwrite its contents."
+msgstr ""
+
+#, c-format
+msgid "The identity of the %s mail server at %s:%u could not be verified."
+msgstr ""
+
+msgid "The last recorded height of the application window."
+msgstr ""
+
+msgid "The last recorded size of the detached composer window."
+msgstr ""
+
+msgid "The last recorded width of the application window."
+msgstr ""
+
+msgid "The link appears to go to:"
+msgstr ""
+
+msgid "The server’s certificate has been revoked and is now invalid"
+msgstr ""
+
+msgid "The server’s certificate has expired"
+msgstr ""
+
+msgid "The server’s certificate has not been activated"
+msgstr ""
+
+msgid "The server’s certificate is considered insecure"
+msgstr ""
+
+msgid "The server’s certificate is not signed by a known authority"
+msgstr ""
+
+msgid "The server’s identity does not match the identity in the certificate"
+msgstr ""
+
+msgid "The zoom to apply on the conservation view."
+msgstr ""
+
+#, c-format
+msgid ""
+"There was an error opening the local mail database for this account. This is "
+"possibly due to corruption of the database file in this directory:\n"
+"\n"
+"%s\n"
+"\n"
+"Geary can rebuild the database and re-synchronize with the server or exit.\n"
+"\n"
+"Rebuilding the database will destroy all local email and its attachments. "
+"<b>The mail on the your server will not be affected.</b>"
+msgstr ""
+
+#. Translators: Tooltip for accounts that have been
+#. loaded but disabled by the user.
+msgid "This account has been disabled"
+msgstr ""
+
+#. Translators: Tooltip for accounts that have been
+#. loaded but because of some error are not able to be
+#. used.
+msgid "This account has encountered a problem and is unavailable"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+msgid "This email address may have been forged"
+msgstr ""
+
+#. Translators: Sub-title label for placeholder when no
+#. conversations have exist in a folder.
+msgid "This folder does not contain any conversations"
+msgstr ""
+
+msgid "This message has not yet been sent."
+msgstr ""
+
+msgid "This message was sent, but has not been saved to your account."
+msgstr ""
+
+msgid "This removes the email from Geary and your email server."
+msgstr ""
+
+msgid "To add them as attachments"
+msgstr ""
+
+msgid "To get started, select an email provider below."
+msgstr ""
+
+#. Translators: Human-readable version of the RFC 822 To header
+msgid "To:"
+msgstr ""
+
+msgid "Toggle find bar"
+msgstr ""
+
+msgid "Toggle search bar"
+msgstr ""
+
+msgid "Toggle spam"
+msgstr ""
+
+msgid "Trash"
+msgstr ""
+
+#. List of general possible folder names to match for the
+#. Trash mailbox. Separate names using a vertical bar and
+#. put the most common localized name to the front for the
+#. default. English names do not need to be included.
+msgid "Trash | Rubbish | Rubbish Bin"
+msgstr ""
+
+msgid "True if the application window is maximized, false otherwise."
+msgstr ""
+
+msgid "True if the folder list Paned is in the horizontal orientation."
+msgstr ""
+
+msgid "True if we should autoselect the next available conversation."
+msgstr ""
+
+msgid "True if we should display a short preview of each message."
+msgstr ""
+
+msgid "True to ask when opening an attachment."
+msgstr ""
+
+msgid "True to compose emails in HTML; false for plain text."
+msgstr ""
+
+msgid "True to notify of new mail at startup."
+msgstr ""
+
+msgid "True to play sounds for notifications and sending."
+msgstr ""
+
+msgid "True to show notification bubbles."
+msgstr ""
+
+#. Translators: Tooltip label for Retry button
+#. Button tooltip for retrying an account problem
+msgid "Try reconnecting"
+msgstr ""
+
+msgid "U_nstar"
+msgstr ""
+
+#. give the user two options: reset the Account local store, or exit Geary.  A third
+#. could be done to leave the Account in an unopened state, but we don't currently
+#. have provisions for that.
+#, c-format
+msgid "Unable to open the database for %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to rebuild database for “%s”"
+msgstr ""
+
+msgid "Underline (Ctrl+U)"
+msgstr ""
+
+msgid "Underline text"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Undo (Ctrl+Z)"
+msgstr ""
+
+msgid "Undo archive (Ctrl+Z)"
+msgstr ""
+
+#. Translators: Label used as the undo tooltip after editing a
+#. sender address for an account. The string substitution is
+#. the email address edited.
+#, c-format
+msgid "Undo changes to “%s”"
+msgstr ""
+
+msgid "Undo last edit (Ctrl+Z)"
+msgstr ""
+
+msgid "Undo move (Ctrl+Z)"
+msgstr ""
+
+#. Translators: Label used as the undo tooltip after removing
+#. a sender address from an account. The string substitution
+#. is the email address edited.
+msgid "Undo signature changes"
+msgstr ""
+
+msgid "Undo trash (Ctrl+Z)"
+msgstr ""
+
+#. Translators: This is the file type displayed for
+#. attachments with unknown file types.
+msgid "Unknown"
+msgstr ""
+
+msgid "Unquote text"
+msgstr ""
+
+msgid "Unquote text  (Ctrl+[)"
+msgstr ""
+
+#, c-format
+msgid "Unrecognized command line option “%s”\n"
+msgstr ""
+
+msgid "Unstar"
+msgstr ""
+
+#. Translators: File name used in save chooser when saving
+#. attachments that do not otherwise have a name.
+msgid "Untitled"
+msgstr ""
+
+msgid "Untrusted Connection"
+msgstr ""
+
+#, c-format
+msgid "Untrusted Connection: %s"
+msgstr ""
+
+#. Note that this button and the Insert button will never be shown at the same time to the user.
+msgid "Update this link’s URL"
+msgstr ""
+
+#. This gives a command-line hint on how to open new composer windows with mailto:
+#, c-format
+msgid "Use %s to open a new composer window"
+msgstr ""
+
+msgid "Use _three pane view"
+msgstr ""
+
+#. Translators: ComboBox value for source of SMTP
+#. authentication credentials (custom) when adding a new
+#. account
+msgid "Use a different login"
+msgstr ""
+
+msgid "Use receiving server login"
+msgstr ""
+
+#. Translators: ComboBox value for source of SMTP
+#. authentication credentials (use IMAP) when adding a new
+#. account
+msgid "Use same login as receiving"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+#. Translators: Tooltip for viewing technical details for
+#. a problem report.
+#. Button tooltip for displaying technical details about an account problem
+msgid "View technical details about the error"
+msgstr ""
+
+msgid "Visit the Geary web site"
+msgstr ""
+
+msgid "Welcome to Geary"
+msgstr ""
+
+msgid "Whether to compose emails in HTML"
+msgstr ""
+
+msgid "Whether we migrated the old settings"
+msgstr ""
+
+msgid "Width of window"
+msgstr ""
+
+#. Infobar title when one or more accounts are offline
+msgid "Working offline"
+msgstr ""
+
+msgid "Yahoo"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+#. Label and tooltip for offline infobar
+msgid "You will not be able to send or receive email until re-connected."
+msgstr ""
+
+#. Label and tooltip for offline infobar
+msgid ""
+"Your computer does not appear to be connected to the Internet.\n"
+"You will not be able to send or receive email until it is re-connected."
+msgstr ""
+
+#. Translators: Label for the person's actual name when adding
+#. an account
+msgid "Your name"
+msgstr ""
+
+#. Translators: Sub-title label for placeholder when no
+#. conversations have been found in a search.
+msgid "Your search returned no results, try refining your search terms"
+msgstr ""
+
+msgid "Zoom in"
+msgstr ""
+
+msgid "Zoom of conversation viewer"
+msgstr ""
+
+msgid "Zoom out"
+msgstr ""
+
+msgid "_About"
+msgstr ""
+
+msgid "_About Geary"
+msgstr ""
+
+msgid "_Accounts"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Always Trust This Server"
+msgstr ""
+
+msgid "_Archive"
+msgstr ""
+
+msgid "_Attach"
+msgstr ""
+
+msgid "_Authenticate"
+msgstr ""
+
+msgid "_Automatically select next message"
+msgstr ""
+
+msgid "_Bcc"
+msgstr ""
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "_Case sensitive"
+msgstr ""
+
+msgid "_Cc"
+msgstr ""
+
+msgid "_Close"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+#. Translators: Menu item to delete a single, specific message
+msgid "_Delete…"
+msgstr ""
+
+#. Translators: Button label for viewing technical details
+#. for a problem report.
+msgid "_Details"
+msgstr ""
+
+msgid "_Discard"
+msgstr ""
+
+msgid "_Display conversation preview"
+msgstr ""
+
+msgid "_Don’t Trust This Server"
+msgstr ""
+
+msgid "_Fixed Width"
+msgstr ""
+
+#. Translators: Menu item to forward a specific message.
+msgid "_Forward"
+msgstr ""
+
+#. Composer label (with mnemonic underscore) for the account selector
+#. when choosing what address to send a message from.
+msgid "_From:"
+msgstr ""
+
+msgid "_Help"
+msgstr ""
+
+msgid "_Inspect…"
+msgstr ""
+
+msgid "_Keep"
+msgstr ""
+
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#. Translators: Menu item to mark a specific message as
+#. read.
+msgid "_Mark Read"
+msgstr ""
+
+msgid "_Mark Unread"
+msgstr ""
+
+msgid "_Medium"
+msgstr ""
+
+msgid "_Next"
+msgstr ""
+
+msgid "_OK"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+msgid "_Open Link"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "_Play notification sounds"
+msgstr ""
+
+msgid "_Preferences"
+msgstr ""
+
+msgid "_Previous"
+msgstr ""
+
+#. Translators: Menu item to print a single, specific message
+msgid "_Print…"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Rebuild"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "_Remember password"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "_Replace"
+msgstr ""
+
+#. Translators: Menu item to reply to a specific message.
+msgid "_Reply"
+msgstr ""
+
+msgid "_Reply-To"
+msgstr ""
+
+#. Translators: Button label for retrying a server
+#. connection
+msgid "_Retry"
+msgstr ""
+
+msgid "_Rich Text"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "_Save All"
+msgstr ""
+
+msgid "_Select All"
+msgstr ""
+
+msgid "_Send"
+msgstr ""
+
+msgid "_Small"
+msgstr ""
+
+msgid "_Star"
+msgstr ""
+
+msgid "_Subject"
+msgstr ""
+
+#. Address(es) e-mail is to be sent to
+msgid "_To"
+msgstr ""
+
+#. Translators: Menu item to move a single, specific message
+#. to the trash
+msgid "_Trash"
+msgstr ""
+
+msgid "_Trust This Server"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+#. Translators: Menu item to view the source for a message
+msgid "_View Source"
+msgstr ""
+
+msgid "_Watch for new mail when closed"
+msgstr ""
+
+#. Map of possibly translated search operator names and values
+#. to English/internal names and values. We include the
+#. English version anyway so that when translations provide a
+#. localised version of the operator names but have not also
+#. translated the user manual, the English version in the
+#. manual still works.
+#. Can be typed in the search box like "attachment:file.txt"
+#. to find messages with attachments with a particular name.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "attachment"
+msgstr ""
+
+#. Translators: This is list of keywords, separated by pipe ("|")
+#. characters, that suggest an attachment; since this is full-word
+#. checking, include all variants of each word.  No spaces are
+#. allowed.
+msgid ""
+"attach|attaching|attaches|attachment|attachments|attached|enclose|enclosed|"
+"enclosing|encloses|enclosure|enclosures"
+msgstr ""
+
+#. Can be typed in the search box like
+#. "bcc:johndoe@example.com" to find messages bcc'd to a
+#. particular person.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "bcc"
+msgstr ""
+
+#. Can be typed in the search box like "body:word" to find
+#. "word" only if it occurs in the body of a message.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "body"
+msgstr ""
+
+msgid "bytes"
+msgstr ""
+
+#. Can be typed in the search box like
+#. "cc:johndoe@example.com" to find messages cc'd to a
+#. particular person.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "cc"
+msgstr ""
+
+#. Can be typed in the search box like
+#. "from:johndoe@example.com" to find messages from a
+#. particular sender.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "from"
+msgstr ""
+
+#. Translators: Placeholder for the IMAP server hostname
+#. when adding an account.
+msgid "imap.example.com"
+msgstr ""
+
+#. Can be typed in the search box like "is:unread" to find
+#. messages that are read, unread, or starred.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "is"
+msgstr ""
+
+msgid "label"
+msgstr ""
+
+#. Can be typed in the search box after "to:", "cc:" and
+#. "bcc:" e.g.: "to:me". Matches conversations that are
+#. addressed to the user.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+#. Can be typed in the search box after "from:" i.e.:
+#. "from:me". Matches conversations were sent by the user.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "me"
+msgstr ""
+
+#. Translators: Placeholder for the default sender address
+#. when adding an account
+#. Translators: This is used as a placeholder for the
+#. address part of an email address when editing a user's
+#. sender address preferences for an account.
+msgid "person@example.com"
+msgstr ""
+
+#. Can be typed in the search box after "is:" i.e.:
+#. "is:read". Matches conversations that are flagged as read.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "read"
+msgstr ""
+
+#. Translators: Placeholder for the SMTP server hostname
+#. when adding an account.
+msgid "smtp.example.com"
+msgstr ""
+
+#. Can be typed in the search box after "is:" i.e.:
+#. "is:starred". Matches conversations that are flagged as
+#. starred.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "starred"
+msgstr ""
+
+#. Can be typed in the search box like "subject:word" to find
+#. "word" only if it occurs in the subject of a message.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary
+#. User Guide.
+msgid "subject"
+msgstr ""
+
+#. Can be typed in the search box like
+#. "to:johndoe@example.com" to find messages received by a
+#. particular person.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "to"
+msgstr ""
+
+#. Translators: add your name and email address to receive
+#. credit in the About dialog For example: Yamada Taro
+#. <yamada.taro@example.com>
+msgid "translator-credits"
+msgstr ""
+
+#. Can be typed in the search box after "is:" i.e.:
+#. "is:unread". Matches conversations that are flagged unread.
+#.
+#. The translated string must be a single word (use '-', '_'
+#. or similar to combine words into one), should be short, and
+#. also match the translation in "search.page" of the Geary User
+#. Guide.
+msgid "unread"
+msgstr ""
+
+#, c-format
+msgid "“%s” already attached for delivery."
+msgstr ""
+
+#, c-format
+msgid "“%s” could not be found."
+msgstr ""
+
+#, c-format
+msgid "“%s” could not be opened for reading."
+msgstr ""
+
+#, c-format
+msgid "“%s” is a folder."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an empty file."
+msgstr ""

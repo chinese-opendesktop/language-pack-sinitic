@@ -1,0 +1,1260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright © 2009-2017,  B. Clausius <barcc@gmx.de>
+# This file is distributed under the same license as the pybik package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pybik 3.0~alpha1\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/pybik/+filebug\n"
+"POT-Creation-Date: 2017-09-10 21:58+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: pybiklib/application.py:294
+msgid "Press the Esc key to exit Edit Mode"
+msgstr ""
+
+#. substitution for {move_text} in statusbar text
+#: pybiklib/application.py:302
+#, python-brace-format
+msgid "{current} / {total} move"
+msgid_plural "{current} / {total} moves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. substitution for {solved_text} in statusbar text
+#: pybiklib/application.py:306
+msgid "solved"
+msgstr ""
+
+#: pybiklib/application.py:306
+msgid "not solved"
+msgstr ""
+
+#. statusbar text
+#: pybiklib/application.py:309
+#, python-brace-format
+msgid "{move_text}, {solved_text}"
+msgstr ""
+
+#: pybiklib/application.py:314
+msgid "Congratulations, you have solved the puzzle!"
+msgstr ""
+
+#. Name of the application, probably should not be translated.
+#: pybiklib/config.py:35 data/ui/qt/main.ui.h:271
+#: data/app-meta/pybik.desktop.in:3
+msgid "Pybik"
+msgstr ""
+
+#. short description
+#: pybiklib/config.py:65 data/app-meta/pybik.desktop.in:4
+msgid "Rubik's cube game"
+msgstr ""
+
+#. The next 7 lines belong together and form the long description
+#: pybiklib/config.py:68
+msgid "Pybik is a 3D puzzle game about the cube invented by Ernő Rubik."
+msgstr ""
+
+#: pybiklib/config.py:70
+msgid ""
+"Various 3D puzzles, such as cubes, towers, prisms, tetrahedra, octahedra, "
+"dodecahedra and many more"
+msgstr ""
+
+#: pybiklib/config.py:71
+msgid "Solvers for some puzzles"
+msgstr ""
+
+#. Use something that is common in the Rubik scene in your language, sometimes it's just the equivalent of "patterns".
+#: pybiklib/config.py:72 data/plugins/80-pretty-patterns.plugins.py:19
+#: data/plugins/80-pretty-patterns.plugins.py:22
+#: data/plugins/80-pretty-patterns.plugins.py:26
+#: data/plugins/80-pretty-patterns.plugins.py:30
+#: data/plugins/80-pretty-patterns.plugins.py:34
+#: data/plugins/80-pretty-patterns.plugins.py:39
+#: data/plugins/80-pretty-patterns.plugins.py:43
+#: data/plugins/80-pretty-patterns.plugins.py:48
+#: data/plugins/80-pretty-patterns.plugins.py:52
+#: data/plugins/80-pretty-patterns.plugins.py:56
+#: data/plugins/80-pretty-patterns.plugins.py:60
+#: data/plugins/80-pretty-patterns.plugins.py:64
+#: data/plugins/80-pretty-patterns.plugins.py:68
+#: data/plugins/80-pretty-patterns.plugins.py:72
+#: data/plugins/80-pretty-patterns.plugins.py:76
+#: data/plugins/80-pretty-patterns.plugins.py:82
+#: data/plugins/80-pretty-patterns.plugins.py:86
+#: data/plugins/80-pretty-patterns.plugins.py:91
+#: data/plugins/80-pretty-patterns.plugins.py:95
+#: data/plugins/80-pretty-patterns.plugins.py:99
+#: data/plugins/80-pretty-patterns.plugins.py:103
+#: data/plugins/80-pretty-patterns.plugins.py:107
+#: data/plugins/80-pretty-patterns.plugins.py:111
+#: data/plugins/80-pretty-patterns.plugins.py:116
+#: data/plugins/80-pretty-patterns.plugins.py:120
+#: data/plugins/80-pretty-patterns.plugins.py:124
+#: data/plugins/80-pretty-patterns.plugins.py:128
+#: data/plugins/80-pretty-patterns.plugins.py:133
+#: data/plugins/80-pretty-patterns.plugins.py:137
+#: data/plugins/80-pretty-patterns.plugins.py:141
+#: data/plugins/80-pretty-patterns.plugins.py:145
+#: data/plugins/80-pretty-patterns.plugins.py:149
+#: data/plugins/80-pretty-patterns.plugins.py:153
+#: data/plugins/80-pretty-patterns.plugins.py:157
+#: data/plugins/80-pretty-patterns.plugins.py:161
+#: data/plugins/80-pretty-patterns.plugins.py:165
+#: data/plugins/80-pretty-patterns.plugins.py:169
+#: data/plugins/80-pretty-patterns.plugins.py:173
+#: data/plugins/80-pretty-patterns.plugins.py:177
+#: data/plugins/80-pretty-patterns.plugins.py:181
+#: data/plugins/80-pretty-patterns.plugins.py:185
+#: data/plugins/80-pretty-patterns.plugins.py:190
+#: data/plugins/80-pretty-patterns.plugins.py:195
+#: data/plugins/80-pretty-patterns.plugins.py:199
+#: data/plugins/80-pretty-patterns.plugins.py:203
+#: data/plugins/80-pretty-patterns.plugins.py:207
+#: data/plugins/80-pretty-patterns.plugins.py:211
+#: data/plugins/80-pretty-patterns.plugins.py:215
+#: data/plugins/80-pretty-patterns.plugins.py:219
+msgid "Pretty patterns"
+msgstr ""
+
+#: pybiklib/config.py:73
+msgid "Editor for move sequences"
+msgstr ""
+
+#: pybiklib/config.py:74
+msgid "Custom colors and images on the surface of the puzzles"
+msgstr ""
+
+#: pybiklib/config.py:78
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+
+#. Text between "<" and ">" is expanded to a link by the program and should not be modified.
+#. Text between "<LINK|>" and "<|>" is the translatable text for the link.
+#: pybiklib/config.py:90
+msgid ""
+"Read the full text of the <text:FULL_LICENSE_TEXT|>GNU General Public "
+"License<|> or see <http://www.gnu.org/licenses/>."
+msgstr ""
+
+#: pybiklib/config.py:93
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+
+#: pybiklib/config.py:98
+#, python-brace-format
+msgid ""
+"If you find any bugs in Pybik or have a suggestion for an improvement then "
+"please submit a <{CONTACT_FILEBUG}|>bug report<|>."
+msgstr ""
+
+#: pybiklib/config.py:103
+msgid ""
+"Translations are managed by the <https://translations.launchpad.net/+groups/"
+"launchpad-translators|>Launchpad translation group<|>.\n"
+"\n"
+"If you want help to translate Pybik to your language you can do it through "
+"the <https://translations.launchpad.net/pybik|>web interface<|>.\n"
+"\n"
+"Read more about <https://help.launchpad.net/Translations|>\"Translating with "
+"Launchpad\"<|> and <https://help.launchpad.net/Translations/"
+"StartingToTranslate|>\"Starting to translate\"<|>."
+msgstr ""
+
+#: pybiklib/dialogs.py:44
+msgid "Lighting"
+msgstr ""
+
+#: pybiklib/dialogs.py:44
+msgid "Simple"
+msgstr ""
+
+#. labels are the colored stickers on the cube
+#: pybiklib/dialogs.py:46
+msgid "Labels"
+msgstr ""
+
+#: pybiklib/dialogs.py:104 data/ui/qt/main.ui.h:275
+msgid "Select Puzzle"
+msgstr ""
+
+#. 1 slice, 2 slices, 3 slices, ...
+#: pybiklib/dialogs.py:134 pybiklib/dialogs.py:154 pybiklib/dialogs.py:180
+#: pybiklib/dialogs.py:201
+msgid "{} slice"
+msgid_plural "{} slices"
+msgstr[0] ""
+msgstr[1] ""
+
+#: pybiklib/dialogs.py:196 pybiklib/dialogs.py:225
+msgid "{}×{} slices"
+msgstr ""
+
+#. The next strings form the text in the help dialog:
+#. Title of the 1st paragraph
+#: pybiklib/dialogs.py:290
+msgid "Using the mouse to rotate the cube"
+msgstr ""
+
+#. Text of the 1st paragraph, followed by bullet list items
+#: pybiklib/dialogs.py:292
+msgid ""
+"Position the mouse cursor over the puzzle and you will see an arrow that "
+"gives you a hint in which direction the slice under the mouse cursor will be "
+"rotated."
+msgstr ""
+
+#: pybiklib/dialogs.py:294
+msgid ""
+"The left mouse button rotates a single slice of the cube in the direction of "
+"the arrow."
+msgstr ""
+
+#: pybiklib/dialogs.py:295
+msgid ""
+"The right mouse button rotates a single slice of the cube against the "
+"direction of the arrow."
+msgstr ""
+
+#: pybiklib/dialogs.py:296
+msgid ""
+"To rotate the whole cube instead of a single slice press the Ctrl key "
+"together with the mouse button."
+msgstr ""
+
+#. Title of the 2nd paragraph
+#: pybiklib/dialogs.py:298
+msgid "Using the keyboard to rotate the cube"
+msgstr ""
+
+#. Text of the 2nd paragraph, followed by bullet list items
+#: pybiklib/dialogs.py:300
+msgid ""
+"Make sure the keyboard focus is on the cube area (e.g. click on the "
+"background of the cube). The keys can be configured in the preferences "
+"dialog, the default is:"
+msgstr ""
+
+#. before the item text is a list of keys
+#: pybiklib/dialogs.py:303 pybiklib/dialogs.py:318
+msgid "Moves the left, right, upper, down, front or back slice clockwise."
+msgstr ""
+
+#: pybiklib/dialogs.py:304 pybiklib/dialogs.py:319
+msgid "Moves a slice couterclockwise."
+msgstr ""
+
+#: pybiklib/dialogs.py:305 pybiklib/dialogs.py:320
+msgid "Moves the whole cube."
+msgstr ""
+
+#. Title of the 3rd paragraph
+#: pybiklib/dialogs.py:307
+msgid "Other keys and buttons"
+msgstr ""
+
+#. bullet list items of the 3rd paragraph
+#: pybiklib/dialogs.py:309
+msgid "Mouse wheel – Zoom in/out"
+msgstr ""
+
+#: pybiklib/dialogs.py:310
+msgid ""
+"Arrow keys, Left mouse button on the background – Changes the direction of "
+"looking at the cube."
+msgstr ""
+
+#: pybiklib/dialogs.py:311
+msgid ""
+"Moves keyboard focus to the sequence editor above the cube area where you "
+"can edit the move sequence in the notation described below. Hit enter when "
+"done."
+msgstr ""
+
+#. Title of the 4th paragraph
+#: pybiklib/dialogs.py:315
+msgid "Notation for moves"
+msgstr ""
+
+#. Text of the 4th paragraph, followed by bullet list items
+#: pybiklib/dialogs.py:317
+msgid ""
+"All moves, however they are made, are displayed progressively above the cube "
+"area:"
+msgstr ""
+
+#: pybiklib/dialogs.py:321
+msgid ""
+"Moves the first, second or third slice from left clockwise. The allowed "
+"numbers are in the range from 1 to the count of parallel slices. \"l1\" is "
+"always the same as \"l\" and for the classic 3×3×3-Cube \"l2\" is the same "
+"as \"r2-\" and \"l3\" is the same as \"r-\"."
+msgstr ""
+
+#: pybiklib/dialogs.py:325
+msgid "You can use a space to separate groups of moves."
+msgstr ""
+
+#: pybiklib/dialogs.py:379
+msgid "Pybik project website"
+msgstr ""
+
+#: pybiklib/pluginlib.py:301
+msgid "This plugin does not work for any model."
+msgstr ""
+
+#: pybiklib/pluginlib.py:303 pybiklib/pluginlib.py:306
+msgid "This plugin only works for:"
+msgstr ""
+
+#: pybiklib/pluginlib.py:498
+msgid "This puzzle is not solvable."
+msgstr ""
+
+#. The following 6 words are for the antialiasing levels: disabled, ugly, low, medium, high, higher
+#: pybiklib/schema.py:211
+msgid "disabled"
+msgstr ""
+
+#: pybiklib/schema.py:211
+msgid "ugly"
+msgstr ""
+
+#: pybiklib/schema.py:211
+msgid "low"
+msgstr ""
+
+#: pybiklib/schema.py:212
+msgid "medium"
+msgstr ""
+
+#: pybiklib/schema.py:212
+msgid "high"
+msgstr ""
+
+#: pybiklib/schema.py:212
+msgid "higher"
+msgstr ""
+
+#: data/ui/qt/about.ui.h:212
+msgid "About Pybik"
+msgstr ""
+
+#: data/ui/qt/about.ui.h:213
+msgid "Translators:"
+msgstr ""
+
+#: data/ui/qt/about.ui.h:214
+msgid "About"
+msgstr ""
+
+#: data/ui/qt/about.ui.h:215
+msgid "Contribute"
+msgstr ""
+
+#: data/ui/qt/about.ui.h:216
+msgid "License"
+msgstr ""
+
+#: data/ui/qt/help.ui.h:53 data/ui/qt/main.ui.h:297
+msgid "Help"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:272
+msgid "&New Challenge"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:273
+msgid "Ne&w Solved"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:274
+msgid "&Quit"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:276
+msgid "&Set as Initial State"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:277
+msgid "&Reset Rotation"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:278
+msgid "&Preferences …"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:279
+msgid "&Status Bar"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:280
+msgid "&Info …"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:281
+msgid "Rewind"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:282
+msgid "Previous"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:283
+msgid "Stop"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:284
+msgid "Play"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:285
+msgid "Next"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:286
+msgid "Forward"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:287
+msgid "Add Mark"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:289
+msgid "Mark the current place in the sequence of moves"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:291
+msgid "Remove Mark"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:293
+msgid "Remove the mark at the current place in the sequence of moves"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:295
+msgid "&Edit Bar"
+msgstr ""
+
+#: data/ui/qt/main.ui.h:296
+msgid "&Help …"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:372
+msgid "Preferences"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:373
+msgid "Animation Speed:"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:375
+msgid "Mirror Distance:"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:377
+msgid "Quality:"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:380
+msgid ""
+"Lower antialiasing has better performance, higher antialiasing has better "
+"quality."
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:382
+msgid "Antialiasing:"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:384
+msgid "The program needs to be restarted for the changes to take effect."
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:385
+msgid "Graphic"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:386
+msgid "Point and click, all directions"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:387
+msgid "Point and click, simplified"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:388
+msgid "Gestures"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:389
+msgid "Mouse"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:391 data/ui/qt/preferences.ui.h:393
+msgid "Add"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:395 data/ui/qt/preferences.ui.h:397
+msgid "Remove"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:399 data/ui/qt/preferences.ui.h:401
+msgid "Reset"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:402
+msgid "Keys"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:403
+msgid "Color:"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:405
+msgid "Image File:"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:407
+msgid "Tiled"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:408
+msgid "Mosaic"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:409
+msgid "Background:"
+msgstr ""
+
+#: data/ui/qt/preferences.ui.h:411
+msgid "Appearance"
+msgstr ""
+
+#: pybiklib/ext/qt.py:1578
+msgid "Move"
+msgstr ""
+
+#: pybiklib/ext/qt.py:1581
+msgid "Key"
+msgstr ""
+
+#: pybiklib/ext/qt.py:1682
+msgid "Open Image"
+msgstr ""
+
+#: pybiklib/ext/qt.py:1720
+msgid "plain"
+msgstr ""
+
+#: pybiklib/ext/qt.py:1723
+msgid "select …"
+msgstr ""
+
+#: pybiklib/ext/qtui.py:94
+msgid "Press a key …"
+msgstr ""
+
+#. Add whatever keywords you want in your language, separated by semicolons, last character must be a semicolon. These keywords are used when searching for applications in Unity, GNOME Shell, etc.
+#: data/app-meta/pybik.desktop.in:10
+msgid "rubik;cube;puzzle;magic;"
+msgstr ""
+
+#: data/plugins/01-challenges.plugins.py:18
+#: data/plugins/01-challenges.plugins.py:21
+#: data/plugins/01-challenges.plugins.py:24
+#: data/plugins/01-challenges.plugins.py:27
+#: data/plugins/01-challenges.plugins.py:30
+#: data/plugins/01-challenges.plugins.py:33
+#: data/plugins/01-challenges.plugins.py:36
+#: data/plugins/01-challenges.plugins.py:39
+#: data/plugins/01-challenges.plugins.py:42
+#: data/plugins/01-challenges.plugins.py:45
+#: data/plugins/01-challenges.plugins.py:48
+msgid "Challenges"
+msgstr ""
+
+#: data/plugins/01-challenges.plugins.py:19
+msgid "Solve random puzzle"
+msgstr ""
+
+#: data/plugins/01-challenges.plugins.py:22
+#: data/plugins/01-challenges.plugins.py:25
+#: data/plugins/01-challenges.plugins.py:28
+#: data/plugins/01-challenges.plugins.py:31
+#: data/plugins/01-challenges.plugins.py:34
+#: data/plugins/01-challenges.plugins.py:37
+#: data/plugins/01-challenges.plugins.py:40
+#: data/plugins/01-challenges.plugins.py:43
+#: data/plugins/01-challenges.plugins.py:46
+#: data/plugins/01-challenges.plugins.py:49
+msgid "Solve in {} move"
+msgid_plural "Solve in {} moves"
+msgstr[0] ""
+msgstr[1] ""
+
+#: data/plugins/10-beginners.plugins.py:31
+#: data/plugins/10-beginners.plugins.py:34
+#: data/plugins/10-beginners.plugins.py:56
+#: data/plugins/10-beginners.plugins.py:73
+#: data/plugins/10-beginners.plugins.py:100
+#: data/plugins/10-beginners.plugins.py:118
+#: data/plugins/10-beginners.plugins.py:140
+#: data/plugins/10-beginners.plugins.py:158
+#: data/plugins/14-leyan-lo.plugins.py:21
+#: data/plugins/14-leyan-lo.plugins.py:24
+#: data/plugins/14-leyan-lo.plugins.py:53
+#: data/plugins/14-leyan-lo.plugins.py:74
+#: data/plugins/14-leyan-lo.plugins.py:90
+#: data/plugins/14-leyan-lo.plugins.py:107
+#: data/plugins/14-leyan-lo.plugins.py:129
+#: data/plugins/14-leyan-lo.plugins.py:170
+#: data/plugins/150-spiegel.plugins.py:32
+#: data/plugins/150-spiegel.plugins.py:35
+#: data/plugins/150-spiegel.plugins.py:64
+#: data/plugins/150-spiegel.plugins.py:85
+#: data/plugins/150-spiegel.plugins.py:100
+#: data/plugins/150-spiegel.plugins.py:113
+#: data/plugins/150-spiegel.plugins.py:130
+#: data/plugins/150-spiegel.plugins.py:141
+#: data/plugins/151-spiegel-improved.plugins.py:20
+#: data/plugins/151-spiegel-improved.plugins.py:23
+#: data/plugins/151-spiegel-improved.plugins.py:68
+#: data/plugins/151-spiegel-improved.plugins.py:107
+#: data/plugins/151-spiegel-improved.plugins.py:139
+#: data/plugins/151-spiegel-improved.plugins.py:165
+#: data/plugins/151-spiegel-improved.plugins.py:183
+#: data/plugins/151-spiegel-improved.plugins.py:197
+#: data/plugins/20-2x2x2.plugins.py:18 data/plugins/20-2x2x2.plugins.py:21
+#: data/plugins/20-2x2x2.plugins.py:37 data/plugins/20-2x2x2.plugins.py:55
+msgid "Solvers"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:32
+#: data/plugins/10-beginners.plugins.py:35
+#: data/plugins/10-beginners.plugins.py:57
+#: data/plugins/10-beginners.plugins.py:74
+#: data/plugins/10-beginners.plugins.py:101
+#: data/plugins/10-beginners.plugins.py:119
+#: data/plugins/10-beginners.plugins.py:141
+#: data/plugins/10-beginners.plugins.py:159
+msgid "Beginner's method"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:36
+#: data/plugins/14-leyan-lo.plugins.py:26
+#: data/plugins/150-spiegel.plugins.py:37
+#: data/plugins/151-spiegel-improved.plugins.py:25
+msgid "Top edges"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:58
+#: data/plugins/14-leyan-lo.plugins.py:55
+#: data/plugins/150-spiegel.plugins.py:66
+#: data/plugins/151-spiegel-improved.plugins.py:70
+msgid "Top corners"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:75
+#: data/plugins/14-leyan-lo.plugins.py:76
+#: data/plugins/150-spiegel.plugins.py:87
+#: data/plugins/151-spiegel-improved.plugins.py:109
+msgid "Middle slice"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:102
+#: data/plugins/14-leyan-lo.plugins.py:92
+#: data/plugins/150-spiegel.plugins.py:115
+#: data/plugins/151-spiegel-improved.plugins.py:167
+msgid "Bottom edge orient"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:120
+#: data/plugins/14-leyan-lo.plugins.py:131
+#: data/plugins/150-spiegel.plugins.py:143
+#: data/plugins/151-spiegel-improved.plugins.py:199
+#: data/plugins/20-2x2x2.plugins.py:57
+msgid "Bottom corner orient"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:142
+#: data/plugins/14-leyan-lo.plugins.py:109
+#: data/plugins/150-spiegel.plugins.py:132
+#: data/plugins/151-spiegel-improved.plugins.py:185
+#: data/plugins/20-2x2x2.plugins.py:39
+msgid "Bottom corner place"
+msgstr ""
+
+#: data/plugins/10-beginners.plugins.py:160
+#: data/plugins/14-leyan-lo.plugins.py:172
+#: data/plugins/150-spiegel.plugins.py:102
+#: data/plugins/151-spiegel-improved.plugins.py:141
+msgid "Bottom edge place"
+msgstr ""
+
+#. Leyan Lo is the inventor of the solution
+#: data/plugins/14-leyan-lo.plugins.py:23
+#: data/plugins/14-leyan-lo.plugins.py:25
+#: data/plugins/14-leyan-lo.plugins.py:54
+#: data/plugins/14-leyan-lo.plugins.py:75
+#: data/plugins/14-leyan-lo.plugins.py:91
+#: data/plugins/14-leyan-lo.plugins.py:108
+#: data/plugins/14-leyan-lo.plugins.py:130
+#: data/plugins/14-leyan-lo.plugins.py:171
+msgid "Leyan Lo"
+msgstr ""
+
+#. Spiegel is a german magazine
+#: data/plugins/150-spiegel.plugins.py:34
+#: data/plugins/150-spiegel.plugins.py:36
+#: data/plugins/150-spiegel.plugins.py:65
+#: data/plugins/150-spiegel.plugins.py:86
+#: data/plugins/150-spiegel.plugins.py:101
+#: data/plugins/150-spiegel.plugins.py:114
+#: data/plugins/150-spiegel.plugins.py:131
+#: data/plugins/150-spiegel.plugins.py:142
+msgid "Spiegel"
+msgstr ""
+
+#. Spiegel is a german magazine
+#: data/plugins/151-spiegel-improved.plugins.py:22
+#: data/plugins/151-spiegel-improved.plugins.py:24
+#: data/plugins/151-spiegel-improved.plugins.py:69
+#: data/plugins/151-spiegel-improved.plugins.py:108
+#: data/plugins/151-spiegel-improved.plugins.py:140
+#: data/plugins/151-spiegel-improved.plugins.py:166
+#: data/plugins/151-spiegel-improved.plugins.py:184
+#: data/plugins/151-spiegel-improved.plugins.py:198
+msgid "Spiegel improved"
+msgstr ""
+
+#: data/plugins/20-2x2x2.plugins.py:19 data/plugins/20-2x2x2.plugins.py:22
+#: data/plugins/20-2x2x2.plugins.py:38 data/plugins/20-2x2x2.plugins.py:56
+msgid "2×2×2"
+msgstr ""
+
+#: data/plugins/20-2x2x2.plugins.py:23
+msgid "Top slice"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:20
+#: data/plugins/80-pretty-patterns.plugins.py:23
+#: data/plugins/80-pretty-patterns.plugins.py:27
+#: data/plugins/80-pretty-patterns.plugins.py:31
+#: data/plugins/80-pretty-patterns.plugins.py:35
+#: data/plugins/80-pretty-patterns.plugins.py:40
+#: data/plugins/80-pretty-patterns.plugins.py:44
+msgid "Stripes"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:49
+#: data/plugins/80-pretty-patterns.plugins.py:53
+msgid "Criss-Cross"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:57
+msgid "Fried Eggs"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:61
+msgid "Big Fried Eggs"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:65
+#: data/plugins/80-pretty-patterns.plugins.py:69
+msgid "4 Fried Eggs"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:73
+msgid "2 Fried Eggs"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:77
+msgid "Chessboard"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:83
+msgid "Cross"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:87
+msgid "Zig Zag"
+msgstr ""
+
+#. T is the shape formed by the cube labels. T-Time is a pun (Tea Time) and not suitable for literal translation. Don't translate it or use something common or whatever you think makes sense.
+#: data/plugins/80-pretty-patterns.plugins.py:93
+#: data/plugins/80-pretty-patterns.plugins.py:96
+#: data/plugins/80-pretty-patterns.plugins.py:100
+#: data/plugins/80-pretty-patterns.plugins.py:104
+#: data/plugins/80-pretty-patterns.plugins.py:108
+#: data/plugins/80-pretty-patterns.plugins.py:112
+msgid "T-Time"
+msgstr ""
+
+#. C is the shape formed by the cube labels
+#: data/plugins/80-pretty-patterns.plugins.py:118
+msgid "C"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:121
+msgid "Cube in a Cube"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:125
+msgid "Striped Cube in a Cube"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:129
+msgid "Six square cuboids"
+msgstr ""
+
+#. Superflip may be not translated, because it has a special meaning in the mathematical theory behind the Rubik's Cube.
+#: data/plugins/80-pretty-patterns.plugins.py:135
+msgid "Superflip"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:138
+msgid "Superflip easy"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:142
+msgid "Green Mamba"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:146
+msgid "Anaconda"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:150
+msgid "Duck Feet"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:154
+#: data/plugins/80-pretty-patterns.plugins.py:158
+#: data/plugins/80-pretty-patterns.plugins.py:162
+#: data/plugins/80-pretty-patterns.plugins.py:166
+#: data/plugins/80-pretty-patterns.plugins.py:170
+#: data/plugins/80-pretty-patterns.plugins.py:174
+#: data/plugins/80-pretty-patterns.plugins.py:178
+#: data/plugins/80-pretty-patterns.plugins.py:182
+msgid "Plus"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:186
+#: data/plugins/80-pretty-patterns.plugins.py:191
+#: data/plugins/80-pretty-patterns.plugins.py:196
+#: data/plugins/80-pretty-patterns.plugins.py:200
+msgid "Minus"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:204
+msgid "Volcano"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:208
+msgid "Checkerboard (easy)"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:212
+msgid "Checkerboard (fast)"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:216
+msgid "Mixed Checkerboard"
+msgstr ""
+
+#: data/plugins/80-pretty-patterns.plugins.py:220
+msgid "Tipi"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:18 data/plugins/90-library.plugins.py:22
+#: data/plugins/90-library.plugins.py:26 data/plugins/90-library.plugins.py:30
+#: data/plugins/90-library.plugins.py:34 data/plugins/90-library.plugins.py:38
+#: data/plugins/90-library.plugins.py:42 data/plugins/90-library.plugins.py:46
+#: data/plugins/90-library.plugins.py:50 data/plugins/90-library.plugins.py:54
+#: data/plugins/90-library.plugins.py:58 data/plugins/90-library.plugins.py:62
+#: data/plugins/90-library.plugins.py:66 data/plugins/90-library.plugins.py:70
+#: data/plugins/90-library.plugins.py:74 data/plugins/90-library.plugins.py:78
+#: data/plugins/90-library.plugins.py:82 data/plugins/90-library.plugins.py:86
+#: data/plugins/90-library.plugins.py:91 data/plugins/90-library.plugins.py:96
+#: data/plugins/90-library.plugins.py:101
+#: data/plugins/90-library.plugins.py:105
+#: data/plugins/90-library.plugins.py:110
+#: data/plugins/90-library.plugins.py:115
+#: data/plugins/90-library.plugins.py:119
+#: data/plugins/90-library.plugins.py:123
+#: data/plugins/90-library.plugins.py:127
+msgid "Library"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:19 data/plugins/90-library.plugins.py:23
+#: data/plugins/90-library.plugins.py:27 data/plugins/90-library.plugins.py:31
+#: data/plugins/90-library.plugins.py:35
+msgid "Swap edges"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:20
+msgid "3 edges ⟳, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:24
+msgid "3 edges ⟲, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:28
+msgid "3 edges, middle layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:32
+msgid "4 edges, front and right"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:36
+msgid "4 edges, front and back"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:39
+msgid "Swap 2 edges and 2 corners, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:43 data/plugins/90-library.plugins.py:47
+msgid "Flip edges"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:44
+msgid "4 edges"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:48
+msgid "2 edges, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:51 data/plugins/90-library.plugins.py:55
+#: data/plugins/90-library.plugins.py:59 data/plugins/90-library.plugins.py:63
+#: data/plugins/90-library.plugins.py:67 data/plugins/90-library.plugins.py:71
+msgid "Swap corners"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:52 data/plugins/90-library.plugins.py:76
+msgid "2 corners, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:56
+msgid "2 corners diagonal, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:60 data/plugins/90-library.plugins.py:80
+msgid "3 corners ⟳, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:64
+msgid "3 corners ⟲, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:68
+msgid "4 corners, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:72
+msgid "2 corners, partial sequence, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:75 data/plugins/90-library.plugins.py:79
+#: data/plugins/90-library.plugins.py:83 data/plugins/90-library.plugins.py:87
+msgid "Rotate corners"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:84
+msgid "1 corner ⟳, partial sequence, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:88
+msgid "1 corner ⟲, partial sequence, top layer"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:92 data/plugins/90-library.plugins.py:97
+#: data/plugins/90-library.plugins.py:102
+#: data/plugins/90-library.plugins.py:111
+msgid "Rotate center"
+msgstr ""
+
+#. 2 rotations of the center face in the upper layer
+#: data/plugins/90-library.plugins.py:94
+msgid "2×Up"
+msgstr ""
+
+#. Up clockwise and front clockwise
+#: data/plugins/90-library.plugins.py:99
+msgid "Up ⟳ and front ⟳"
+msgstr ""
+
+#. Up clockwise and front counterclockwise
+#: data/plugins/90-library.plugins.py:104
+msgid "Up ⟳ and front ⟲"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:106
+msgid "Swap center parts, up and front"
+msgstr ""
+
+#. Up clockwise and down counterclockwise
+#: data/plugins/90-library.plugins.py:113
+msgid "Up ⟳ and down ⟲"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:116
+#: data/plugins/90-library.plugins.py:120
+#: data/plugins/90-library.plugins.py:124
+#: data/plugins/90-library.plugins.py:128
+msgid "Misc"
+msgstr ""
+
+#. Yields in a rotated back layer, but the sequence of moves does not touch the back layer
+#: data/plugins/90-library.plugins.py:118
+#: data/plugins/90-library.plugins.py:125
+#: data/plugins/90-library.plugins.py:129
+msgid "Back without back"
+msgstr ""
+
+#: data/plugins/90-library.plugins.py:121
+msgid "2×Back without back"
+msgstr ""
+
+#: data/plugins/95-transformations.plugins.py:18
+#: data/plugins/95-transformations.plugins.py:21
+#: data/plugins/95-transformations.plugins.py:24
+msgid "Move transformations"
+msgstr ""
+
+#: data/plugins/95-transformations.plugins.py:19
+msgid "Invert move sequence"
+msgstr ""
+
+#: data/plugins/95-transformations.plugins.py:22
+msgid "Normalize cube rotations"
+msgstr ""
+
+#: data/plugins/95-transformations.plugins.py:25
+msgid "Normalize move sequence"
+msgstr ""
+
+#: buildlib/modeldef.py:110
+msgid "Brick"
+msgstr ""
+
+#: buildlib/modeldef.py:111
+#, python-brace-format
+msgid "{0}×{1}×{2}-Brick"
+msgstr ""
+
+#: buildlib/modeldef.py:112
+msgid "Width:"
+msgstr ""
+
+#: buildlib/modeldef.py:112 buildlib/modeldef.py:151 buildlib/modeldef.py:249
+#: buildlib/modeldef.py:300 buildlib/modeldef.py:311
+msgid "Height:"
+msgstr ""
+
+#: buildlib/modeldef.py:112
+msgid "Depth:"
+msgstr ""
+
+#: buildlib/modeldef.py:120 buildlib/modeldef.py:257 buildlib/modeldef.py:319
+#: buildlib/modeldef.py:374 buildlib/modeldef.py:433
+msgid "up"
+msgstr ""
+
+#: buildlib/modeldef.py:120 buildlib/modeldef.py:205 buildlib/modeldef.py:257
+#: buildlib/modeldef.py:319 buildlib/modeldef.py:373 buildlib/modeldef.py:430
+msgid "down"
+msgstr ""
+
+#: buildlib/modeldef.py:120 buildlib/modeldef.py:205 buildlib/modeldef.py:257
+msgid "left"
+msgstr ""
+
+#: buildlib/modeldef.py:120 buildlib/modeldef.py:205 buildlib/modeldef.py:257
+msgid "right"
+msgstr ""
+
+#: buildlib/modeldef.py:120 buildlib/modeldef.py:374
+msgid "front"
+msgstr ""
+
+#: buildlib/modeldef.py:120 buildlib/modeldef.py:205 buildlib/modeldef.py:257
+#: buildlib/modeldef.py:320 buildlib/modeldef.py:373
+msgid "back"
+msgstr ""
+
+#: buildlib/modeldef.py:149
+msgid "Tower"
+msgstr ""
+
+#: buildlib/modeldef.py:150
+#, python-brace-format
+msgid "{0}×{1}-Tower"
+msgstr ""
+
+#: buildlib/modeldef.py:151 buildlib/modeldef.py:249 buildlib/modeldef.py:300
+#: buildlib/modeldef.py:311
+msgid "Basis:"
+msgstr ""
+
+#: buildlib/modeldef.py:163
+msgid "Cube"
+msgstr ""
+
+#: buildlib/modeldef.py:164
+#, python-brace-format
+msgid "{0}×{0}×{0}-Cube"
+msgstr ""
+
+#: buildlib/modeldef.py:165 buildlib/modeldef.py:197 buildlib/modeldef.py:365
+#: buildlib/modeldef.py:422
+msgid "Size:"
+msgstr ""
+
+#: buildlib/modeldef.py:177 buildlib/modeldef.py:178
+msgid "Void Cube"
+msgstr ""
+
+#: buildlib/modeldef.py:195
+msgid "Tetrahedron"
+msgstr ""
+
+#: buildlib/modeldef.py:196
+#, python-brace-format
+msgid "{0}-Tetrahedron"
+msgstr ""
+
+#: buildlib/modeldef.py:247
+msgid "Triangular Prism"
+msgstr ""
+
+#: buildlib/modeldef.py:248
+#, python-brace-format
+msgid "{0}×{1} Triangular Prism"
+msgstr ""
+
+#: buildlib/modeldef.py:298
+msgid "Triangular Prism (complex)"
+msgstr ""
+
+#: buildlib/modeldef.py:299
+#, python-brace-format
+msgid "{0}×{1} Triangular Prism (complex)"
+msgstr ""
+
+#: buildlib/modeldef.py:309
+msgid "Pentagonal Prism"
+msgstr ""
+
+#: buildlib/modeldef.py:310
+#, python-brace-format
+msgid "{0}×{1} Pentagonal Prism"
+msgstr ""
+
+#: buildlib/modeldef.py:320 buildlib/modeldef.py:373
+msgid "front-right"
+msgstr ""
+
+#: buildlib/modeldef.py:320 buildlib/modeldef.py:374
+msgid "back-right"
+msgstr ""
+
+#: buildlib/modeldef.py:320 buildlib/modeldef.py:374
+msgid "back-left"
+msgstr ""
+
+#: buildlib/modeldef.py:320 buildlib/modeldef.py:373
+msgid "front-left"
+msgstr ""
+
+#: buildlib/modeldef.py:354
+msgid "Pentagonal Prism (stretched)"
+msgstr ""
+
+#: buildlib/modeldef.py:355
+#, python-brace-format
+msgid "{0}×{1} Pentagonal Prism (stretched)"
+msgstr ""
+
+#: buildlib/modeldef.py:363
+msgid "Octahedron"
+msgstr ""
+
+#: buildlib/modeldef.py:364
+#, python-brace-format
+msgid "{0}-Octahedron"
+msgstr ""
+
+#: buildlib/modeldef.py:420
+msgid "Dodecahedron"
+msgstr ""
+
+#: buildlib/modeldef.py:421
+#, python-brace-format
+msgid "{0}-Dodecahedron"
+msgstr ""
+
+#: buildlib/modeldef.py:430
+msgid "down-back-right"
+msgstr ""
+
+#: buildlib/modeldef.py:430
+msgid "down-front-right"
+msgstr ""
+
+#: buildlib/modeldef.py:431
+msgid "down-front"
+msgstr ""
+
+#: buildlib/modeldef.py:431
+msgid "down-front-left"
+msgstr ""
+
+#: buildlib/modeldef.py:431
+msgid "down-back-left"
+msgstr ""
+
+#: buildlib/modeldef.py:432
+msgid "up-back"
+msgstr ""
+
+#: buildlib/modeldef.py:432
+msgid "up-back-right"
+msgstr ""
+
+#: buildlib/modeldef.py:432
+msgid "up-front-right"
+msgstr ""
+
+#: buildlib/modeldef.py:433
+msgid "up-front-left"
+msgstr ""
+
+#: buildlib/modeldef.py:433
+msgid "up-back-left"
+msgstr ""

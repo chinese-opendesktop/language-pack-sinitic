@@ -1,0 +1,483 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: rrakus@redhat.com\n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Note that the %s architecture does not feature a relocatable kernel at this "
+"time, and thus requires a separate kernel-kdump package to be installed for "
+"kdump to function. This can be installed via 'yum install kernel-kdump' at "
+"your convenience.\n"
+"\n"
+msgstr ""
+
+#, python-format
+msgid " and type %s wasn't found"
+msgstr ""
+
+msgid "(MB)"
+msgstr ""
+
+msgid "(c)"
+msgstr ""
+
+msgid "(d)"
+msgstr ""
+
+msgid "<b>Capture kernel selection</b>"
+msgstr ""
+
+msgid "<b>Command line options</b>"
+msgstr ""
+
+msgid "<b>Core collector</b>"
+msgstr ""
+
+msgid "<b>Default action</b>"
+msgstr ""
+
+msgid "<b>Filtering level </b>"
+msgstr ""
+
+msgid "<b>Output file format</b>"
+msgstr ""
+
+msgid "<b>initrd selection</b>"
+msgstr ""
+
+msgid "About system-config-kdump"
+msgstr ""
+
+msgid "Actual filter level:"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid ""
+"Apply changes, save booloader config file and save kexec/kdump config file"
+msgstr ""
+
+msgid "Basic Settings"
+msgstr ""
+
+#, python-format
+msgid ""
+"Changing Kdump settings requires rebooting the system to reallocate memory "
+"accordingly. %sYou will have to reboot the system for the new settings to "
+"take effect."
+msgstr ""
+
+msgid "Choose custom initrd file"
+msgstr ""
+
+msgid "Choose default action"
+msgstr ""
+
+msgid "Choose local filesystem target directory"
+msgstr ""
+
+msgid "Choose partition where you want to save your kdump"
+msgstr ""
+
+msgid "Choose your custom kernel"
+msgstr ""
+
+msgid "Configurations sucessfully saved"
+msgstr ""
+
+msgid "Core collector must begin with 'makedumpfile'"
+msgstr ""
+
+msgid "Current kdump Memory:"
+msgstr ""
+
+msgid "Custom initrd"
+msgstr ""
+
+msgid "Custom kernel"
+msgstr ""
+
+msgid "Default initrd"
+msgstr ""
+
+msgid "Default kernel"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disable kdump"
+msgstr ""
+
+msgid "ELF file format"
+msgstr ""
+
+msgid "Edited:"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable kdump"
+msgstr ""
+
+msgid "Error executing system-config-kdump"
+msgstr ""
+
+msgid "Error handling kdump services"
+msgstr ""
+
+#, python-format
+msgid "Error reading kdump configuration: %s"
+msgstr ""
+
+msgid "Error writing bootloader configuration"
+msgstr ""
+
+msgid "Error writing kdump configuration"
+msgstr ""
+
+#, python-format
+msgid "Error writing kdump configuration: %s"
+msgstr ""
+
+msgid "Exclude cache page"
+msgstr ""
+
+msgid "Exclude cache private"
+msgstr ""
+
+msgid "Exclude free page"
+msgstr ""
+
+msgid "Exclude user data"
+msgstr ""
+
+msgid "Exclude zero page"
+msgstr ""
+
+msgid "Exit and discard not saved changes"
+msgstr ""
+
+msgid "Expert settings"
+msgstr ""
+
+msgid "Failed to detect total system memory"
+msgstr ""
+
+msgid "Filtering settings"
+msgstr ""
+
+msgid ""
+"Kdump is a new kernel crash dumping mechanism. In the event of a system "
+"crash, a core file can be captured using kdump, which runs in the context of "
+"a freshly booted kernel, making it far more reliable than methods capturing "
+"within the context of the crashed kernel. Being able to capture a core file "
+"can be invaluable in helping determine the root cause of a system crash. "
+"Note that kdump does require reserving a portion of system memory that will "
+"be unavailable for other uses."
+msgstr ""
+
+msgid ""
+"Kdump will attempt to place the vmcore at the specified location. In the "
+"event that it fails to place the vmcore at location, the default action "
+"(specified below) will be executed."
+msgstr ""
+
+msgid "Kernel Dump Configuration"
+msgstr ""
+
+msgid "Kernel command line options"
+msgstr ""
+
+#, python-format
+msgid "Local file system partition with name %s"
+msgstr ""
+
+msgid "Local filesystem"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "NFS"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Network server name"
+msgstr ""
+
+msgid "New kdump Memory:"
+msgstr ""
+
+msgid "Original kernel command line options"
+msgstr ""
+
+msgid "Original:"
+msgstr ""
+
+msgid "Partition:"
+msgstr ""
+
+#, python-format
+msgid "Path cannot be empty for '%s' locations. "
+msgstr ""
+
+msgid "Path to direcotory:"
+msgstr ""
+
+msgid "Path to directory to save kdump file on server"
+msgstr ""
+
+msgid "Path:"
+msgstr ""
+
+#, python-format
+msgid ""
+"Please be sure you have the non-xen %s RPM of the same version as your xen "
+"kernel installed."
+msgstr ""
+
+msgid "Raw device"
+msgstr ""
+
+#, python-format
+msgid "Raw device %s wasn't found on this machine"
+msgstr ""
+
+msgid "Reload"
+msgstr ""
+
+msgid "Reload original settings from config files"
+msgstr ""
+
+#, python-format
+msgid "Reset path to default ('%s')?."
+msgstr ""
+
+msgid "SSH"
+msgstr ""
+
+msgid "Save kdump file in local filesystem"
+msgstr ""
+
+msgid "Save kdump file in raw device"
+msgstr ""
+
+msgid "Save kdump file via NFS"
+msgstr ""
+
+msgid "Save kdump file via SSH"
+msgstr ""
+
+msgid "Save kdump file via network"
+msgstr ""
+
+msgid "Select A Local Filesystem Directory"
+msgstr ""
+
+msgid "Select An initrd File"
+msgstr ""
+
+msgid "Select raw device"
+msgstr ""
+
+msgid "Server name:"
+msgstr ""
+
+msgid "Sorry, ia64 xen kernels do not support kdump at this time."
+msgstr ""
+
+msgid "Sorry, this architecture does not currently support kdump"
+msgstr ""
+
+msgid "Target directory on local file system"
+msgstr ""
+
+msgid "Target settings"
+msgstr ""
+
+msgid ""
+"The help viewer could not be found. To be able to view help, the 'yelp' "
+"package needs to be installed."
+msgstr ""
+
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA."
+msgstr ""
+
+msgid "This system does not have enough memory for kdump to be viable"
+msgstr ""
+
+msgid "Total System Memory:"
+msgstr ""
+
+msgid "Usable Memory:"
+msgstr ""
+
+msgid "Use custom initrd"
+msgstr ""
+
+msgid "Use custom kernel image"
+msgstr ""
+
+msgid "Use default initrd"
+msgstr ""
+
+msgid "Use default kernel image"
+msgstr ""
+
+msgid "User must have necessary write permissions on the server"
+msgstr ""
+
+msgid "User name:"
+msgstr ""
+
+#, python-format
+msgid ""
+"WARNING: xen kdump support requires a non-xen %s RPM to perform actual crash "
+"dump capture."
+msgstr ""
+
+msgid "You must select one of the partitions"
+msgstr ""
+
+msgid "You must select one of the raw devices"
+msgstr ""
+
+msgid "You must specify server. "
+msgstr ""
+
+msgid "You must specify user name. "
+msgstr ""
+
+msgid "_File"
+msgstr ""
+
+msgid "_Help"
+msgstr ""
+
+msgid "_Options"
+msgstr ""
+
+msgid "cache page"
+msgstr ""
+
+msgid "cache private"
+msgstr ""
+
+msgid "diskdump file format"
+msgstr ""
+
+msgid "free page"
+msgstr ""
+
+msgid "gtk-about"
+msgstr ""
+
+msgid "gtk-apply"
+msgstr ""
+
+msgid "gtk-help"
+msgstr ""
+
+msgid "gtk-quit"
+msgstr ""
+
+msgid "gtk-refresh"
+msgstr ""
+
+msgid "gtk-revert-to-saved"
+msgstr ""
+
+msgid "mount rootfs and run /sbin/init"
+msgstr ""
+
+msgid "system-config-kdump: Bad core collector"
+msgstr ""
+
+msgid "system-config-kdump: Configuration saved"
+msgstr ""
+
+msgid "system-config-kdump: Empty path"
+msgstr ""
+
+msgid "system-config-kdump: Error handle services"
+msgstr ""
+
+msgid "system-config-kdump: Error write bootloader configuration"
+msgstr ""
+
+msgid "system-config-kdump: Error write kdump configuration"
+msgstr ""
+
+msgid "system-config-kdump: Local partition error"
+msgstr ""
+
+msgid "system-config-kdump: Memory error"
+msgstr ""
+
+msgid "system-config-kdump: Need non-xen kernel"
+msgstr ""
+
+msgid "system-config-kdump: Need reboot"
+msgstr ""
+
+msgid "system-config-kdump: Not enough memory"
+msgstr ""
+
+msgid "system-config-kdump: Raw device error"
+msgstr ""
+
+msgid "system-config-kdump: Server name not set"
+msgstr ""
+
+msgid "system-config-kdump: User name not set"
+msgstr ""
+
+msgid "system-config-kdump: kdump configuration file error"
+msgstr ""
+
+msgid "system-config-kdump: kdump not supported"
+msgstr ""
+
+msgid "system-config-kdump: write kdump configuration file error"
+msgstr ""
+
+msgid "user data"
+msgstr ""
+
+msgid "zero page"
+msgstr ""

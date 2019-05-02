@@ -1,0 +1,1140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Bino developers
+# This file is distributed under the same license as the bino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bino 1.6.6\n"
+"Report-Msgid-Bugs-To: bino-list@nongnu.org\n"
+"POT-Creation-Date: 2018-01-15 15:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/base/dbg.cpp:49
+#, c-format
+msgid "Caught signal %d (%s). Aborting."
+msgstr ""
+
+#: src/base/dbg.cpp:56
+msgid "Unexpected exception."
+msgstr ""
+
+#. TRANSLATORS: %s will be a mail address.
+#: src/base/dbg.cpp:221
+#, c-format
+msgid "Report bugs to <%s>."
+msgstr ""
+
+#: src/base/exc.cpp:52 src/base/exc.cpp:70 src/base/exc.cpp:104
+#, c-format
+msgid "Exception: %s"
+msgstr ""
+
+#: src/base/opt.cpp:168
+#, c-format
+msgid "Invalid option %s."
+msgstr ""
+
+#: src/base/opt.cpp:172
+#, c-format
+msgid "Option --%s does not take an argument."
+msgstr ""
+
+#: src/base/opt.cpp:177
+#, c-format
+msgid "Invalid option -%c."
+msgstr ""
+
+#: src/base/opt.cpp:186
+#, c-format
+msgid "Option --%s requires an argument."
+msgstr ""
+
+#: src/base/opt.cpp:191
+#, c-format
+msgid "Option -%c requires an argument."
+msgstr ""
+
+#: src/base/opt.cpp:212
+#, c-format
+msgid "Invalid argument for -%c."
+msgstr ""
+
+#: src/base/opt.cpp:216
+#, c-format
+msgid "Invalid argument for --%s."
+msgstr ""
+
+#: src/base/opt.cpp:239
+#, c-format
+msgid "Option --%s (-%c) is mandatory."
+msgstr ""
+
+#: src/base/opt.cpp:243
+#, c-format
+msgid "Option --%s is mandatory."
+msgstr ""
+
+#: src/base/opt.cpp:257
+msgid "Too few arguments."
+msgstr ""
+
+#: src/base/opt.cpp:262
+msgid "Too many arguments."
+msgstr ""
+
+#: src/base/str.cpp:459
+#, c-format
+msgid "Cannot convert string to %s."
+msgstr ""
+
+#: src/base/str.cpp:993 src/base/str.cpp:1012 src/base/str.cpp:1023
+#: src/base/str.cpp:1035
+#, c-format
+msgid "Cannot convert %s to %s: %s"
+msgstr ""
+
+#: src/base/str.cpp:1041
+#, c-format
+msgid "Cannot convert %s to %s."
+msgstr ""
+
+#: src/base/pth.cpp:38 src/base/pth.cpp:48 src/base/pth.cpp:61
+#: src/base/pth.cpp:74 src/base/pth.cpp:85 src/base/pth.cpp:95
+#: src/base/pth.cpp:108 src/base/pth.cpp:116 src/base/pth.cpp:124
+#: src/base/pth.cpp:204 src/base/pth.cpp:211 src/base/pth.cpp:225
+#: src/base/pth.cpp:245
+msgid "System function failed: "
+msgstr ""
+
+#: src/base/tmr.cpp:63 src/base/tmr.cpp:72 src/base/tmr.cpp:81
+msgid "Cannot get time."
+msgstr ""
+
+#: src/audio_output.cpp:93
+msgid "No OpenAL device available."
+msgstr ""
+
+#: src/audio_output.cpp:98 src/audio_output.cpp:104
+#, c-format
+msgid "OpenAL device '%s' is not available."
+msgstr ""
+
+#: src/audio_output.cpp:98 src/lib_versions.cpp:121 src/lib_versions.cpp:159
+#: src/media_data.cpp:1207 src/media_data.cpp:1230 src/media_data.cpp:1268
+#: src/media_data.cpp:1273
+msgid "unknown"
+msgstr ""
+
+#: src/audio_output.cpp:111
+msgid "No OpenAL context available."
+msgstr ""
+
+#: src/audio_output.cpp:122
+msgid "Cannot create OpenAL buffers."
+msgstr ""
+
+#: src/audio_output.cpp:131
+msgid "Cannot create OpenAL source."
+msgstr ""
+
+#: src/audio_output.cpp:144
+msgid "Cannot set OpenAL source parameters."
+msgstr ""
+
+#: src/audio_output.cpp:198
+msgid "Cannot check OpenAL source state."
+msgstr ""
+
+#: src/audio_output.cpp:205
+msgid "Cannot restart OpenAL source playback."
+msgstr ""
+
+#: src/audio_output.cpp:358
+#, c-format
+msgid "No OpenAL format available for audio data format %s."
+msgstr ""
+
+#: src/audio_output.cpp:374
+msgid "Cannot set OpenAL audio volume."
+msgstr ""
+
+#: src/audio_output.cpp:400
+msgid "Cannot buffer initial OpenAL data."
+msgstr ""
+
+#: src/audio_output.cpp:414
+msgid "Cannot buffer OpenAL data."
+msgstr ""
+
+#: src/audio_output.cpp:439
+msgid "Cannot start OpenAL source playback."
+msgstr ""
+
+#: src/audio_output.cpp:453
+msgid "Cannot pause OpenAL source playback."
+msgstr ""
+
+#: src/audio_output.cpp:462
+msgid "Cannot unpause OpenAL source playback."
+msgstr ""
+
+#: src/audio_output.cpp:471
+msgid "Cannot stop OpenAL source playback."
+msgstr ""
+
+#: src/audio_output.cpp:482
+msgid "Cannot unqueue OpenAL source buffers."
+msgstr ""
+
+#: src/command_file.cpp:63 src/command_file.cpp:79 src/command_file.cpp:125
+#: src/main.cpp:402 src/media_object.cpp:855 src/media_object.cpp:1339
+#: src/video_output.cpp:420
+#, c-format
+msgid "%s: %s"
+msgstr ""
+
+#: src/command_file.cpp:174
+#, c-format
+msgid "%s: invalid command '%s'"
+msgstr ""
+
+#: src/dispatch.cpp:167
+msgid "Cannot connect to X server."
+msgstr ""
+
+#: src/dispatch.cpp:183
+msgid "No video to play."
+msgstr ""
+
+#: src/dispatch.cpp:438 src/player_equalizer.cpp:87
+msgid "No video streams found."
+msgstr ""
+
+#: src/dispatch.cpp:455
+msgid "Cannot set requested stereo layout: incompatible media."
+msgstr ""
+
+#: src/dispatch.cpp:470
+#, c-format
+msgid "Video stream %d not found."
+msgstr ""
+
+#: src/dispatch.cpp:476
+#, c-format
+msgid "Audio stream %d not found."
+msgstr ""
+
+#: src/dispatch.cpp:484
+#, c-format
+msgid "Subtitle stream %d not found."
+msgstr ""
+
+#: src/dispatch.cpp:559 src/main.cpp:796
+msgid "This version of Bino was compiled without support for Equalizer."
+msgstr ""
+
+#: src/lib_versions.cpp:183 src/lib_versions.cpp:195
+msgid "not used"
+msgstr ""
+
+#: src/lirc.cpp:63
+msgid "Cannot initialize LIRC."
+msgstr ""
+
+#: src/lirc.cpp:69
+msgid "Cannot set LIRC socket properties."
+msgstr ""
+
+#: src/lirc.cpp:76
+msgid "Cannot read LIRC default configuration."
+msgstr ""
+
+#: src/lirc.cpp:91
+#, c-format
+msgid "Cannot read LIRC configuration file %s."
+msgstr ""
+
+#: src/lirc.cpp:119
+msgid "Cannot get LIRC event; disabling LIRC support."
+msgstr ""
+
+#: src/lirc.cpp:133
+#, c-format
+msgid "Received invalid command '%s' from LIRC."
+msgstr ""
+
+#: src/lirc.cpp:143
+msgid "Cannot get command for LIRC code."
+msgstr ""
+
+#: src/main.cpp:414
+#, c-format
+msgid "%s version %s"
+msgstr ""
+
+#: src/main.cpp:415
+msgid "Copyright (C) 2018 the Bino developers."
+msgstr ""
+
+#: src/main.cpp:416
+msgid ""
+"This is free software. You may redistribute copies of it under the terms of "
+"the GNU General Public License. There is NO WARRANTY, to the extent "
+"permitted by law."
+msgstr ""
+
+#: src/main.cpp:419
+msgid "Platform:"
+msgstr ""
+
+#: src/main.cpp:421
+msgid "Libraries used:"
+msgstr ""
+
+#. TRANSLATORS: This is the --help text. Please keep the line length limited.
+#. * The --help output should look good with a line width of 80 characters.
+#: src/main.cpp:434
+msgid "Usage:"
+msgstr ""
+
+#: src/main.cpp:436
+msgid "Options:"
+msgstr ""
+
+#: src/main.cpp:437
+msgid "Print help"
+msgstr ""
+
+#: src/main.cpp:438
+msgid "Print version"
+msgstr ""
+
+#: src/main.cpp:439
+msgid "Do not use the GUI, just show a plain window"
+msgstr ""
+
+#: src/main.cpp:440
+msgid "Append all log messages to the given file"
+msgstr ""
+
+#: src/main.cpp:441
+msgid "Set log level (debug/info/warning/error/quiet)"
+msgstr ""
+
+#: src/main.cpp:442
+msgid "Print a list of known audio devices and exit"
+msgstr ""
+
+#: src/main.cpp:443
+msgid "Use audio device number N (N=0 is the default)"
+msgstr ""
+
+#: src/main.cpp:444
+msgid "Delay audio by D milliseconds (default 0)"
+msgstr ""
+
+#: src/main.cpp:445
+msgid "Set audio volume (0 to 1, default 1)"
+msgstr ""
+
+#: src/main.cpp:446
+msgid "Mute audio"
+msgstr ""
+
+#: src/main.cpp:447
+msgid "Type of input device: default, firewire, x11"
+msgstr ""
+
+#: src/main.cpp:448
+msgid "Request frame size WxH from input device"
+msgstr ""
+
+#: src/main.cpp:449
+msgid "Request frame rate N/D from input device"
+msgstr ""
+
+#: src/main.cpp:450
+msgid "Request device format 'default' or 'mjpeg'"
+msgstr ""
+
+#: src/main.cpp:451
+msgid "Read commands from a file"
+msgstr ""
+
+#: src/main.cpp:452
+msgid "Use the given LIRC configuration file"
+msgstr ""
+
+#: src/main.cpp:453
+msgid "This option can be used more than once"
+msgstr ""
+
+#: src/main.cpp:454
+msgid "Output quality (0=fastest to 4=best/default)"
+msgstr ""
+
+#: src/main.cpp:455
+msgid "Select video stream (1-n, depending on input)"
+msgstr ""
+
+#: src/main.cpp:456
+msgid "Select audio stream (1-n, depending on input)"
+msgstr ""
+
+#: src/main.cpp:457
+msgid "Select subtitle stream (0-n, dep. on input)"
+msgstr ""
+
+#: src/main.cpp:458
+msgid "Select input type (default autodetect):"
+msgstr ""
+
+#: src/main.cpp:459
+msgid "2D"
+msgstr ""
+
+#: src/main.cpp:460
+msgid "Separate streams, left first"
+msgstr ""
+
+#: src/main.cpp:461
+msgid "Separate streams, right first"
+msgstr ""
+
+#: src/main.cpp:462
+msgid "Alternating, left first"
+msgstr ""
+
+#: src/main.cpp:463
+msgid "Alternating, right first"
+msgstr ""
+
+#: src/main.cpp:464 src/main.cpp:479
+msgid "Top/bottom"
+msgstr ""
+
+#: src/main.cpp:465 src/main.cpp:480
+msgid "Top/bottom, half height"
+msgstr ""
+
+#: src/main.cpp:466
+msgid "Bottom/top"
+msgstr ""
+
+#: src/main.cpp:467
+msgid "Bottom/top, half height"
+msgstr ""
+
+#: src/main.cpp:468 src/main.cpp:481
+msgid "Left/right"
+msgstr ""
+
+#: src/main.cpp:469 src/main.cpp:482
+msgid "Left/right, half width"
+msgstr ""
+
+#: src/main.cpp:470
+msgid "Right/left"
+msgstr ""
+
+#: src/main.cpp:471
+msgid "Right/left, half width"
+msgstr ""
+
+#: src/main.cpp:472 src/main.cpp:483
+msgid "Even/odd rows"
+msgstr ""
+
+#: src/main.cpp:473
+msgid "Odd/even rows"
+msgstr ""
+
+#: src/main.cpp:474
+msgid "Select output type:"
+msgstr ""
+
+#: src/main.cpp:475
+msgid "OpenGL stereo"
+msgstr ""
+
+#: src/main.cpp:476
+msgid "Left/right alternating"
+msgstr ""
+
+#: src/main.cpp:477
+msgid "Left view"
+msgstr ""
+
+#: src/main.cpp:478
+msgid "Right view"
+msgstr ""
+
+#: src/main.cpp:484
+msgid "Even/odd columns"
+msgstr ""
+
+#: src/main.cpp:485
+msgid "Checkerboard pattern"
+msgstr ""
+
+#: src/main.cpp:486
+msgid "HDMI frame packing mode"
+msgstr ""
+
+#: src/main.cpp:487
+msgid "Red/cyan glasses, monochrome"
+msgstr ""
+
+#: src/main.cpp:488
+msgid "Red/cyan glasses, half color"
+msgstr ""
+
+#: src/main.cpp:489
+msgid "Red/cyan glasses, full color"
+msgstr ""
+
+#: src/main.cpp:490
+msgid "Red/cyan glasses, Dubois"
+msgstr ""
+
+#: src/main.cpp:491
+msgid "Green/magenta glasses, monochrome"
+msgstr ""
+
+#: src/main.cpp:492
+msgid "Green/magenta glasses, half color"
+msgstr ""
+
+#: src/main.cpp:493
+msgid "Green/magenta glasses, full color"
+msgstr ""
+
+#: src/main.cpp:494
+msgid "Green/magenta glasses, Dubois"
+msgstr ""
+
+#: src/main.cpp:495
+msgid "Amber/blue glasses, monochrome"
+msgstr ""
+
+#: src/main.cpp:496
+msgid "Amber/blue glasses, half color"
+msgstr ""
+
+#: src/main.cpp:497
+msgid "Amber/blue glasses, full color"
+msgstr ""
+
+#: src/main.cpp:498
+msgid "Amber/blue glasses, Dubois"
+msgstr ""
+
+#: src/main.cpp:499
+msgid "Red/green glasses, monochrome"
+msgstr ""
+
+#: src/main.cpp:500
+msgid "Red/blue glasses, monochrome"
+msgstr ""
+
+#: src/main.cpp:501
+msgid "Multi-display via Equalizer (2D setup)"
+msgstr ""
+
+#: src/main.cpp:502
+msgid "Multi-display via Equalizer (3D setup)"
+msgstr ""
+
+#: src/main.cpp:503
+msgid "Swap left/right view"
+msgstr ""
+
+#: src/main.cpp:504
+msgid "Fullscreen"
+msgstr ""
+
+#: src/main.cpp:505
+msgid "Use the listed screens in fullscreen mode"
+msgstr ""
+
+#: src/main.cpp:506
+msgid "Screen numbers start with 1"
+msgstr ""
+
+#: src/main.cpp:507
+msgid "An empty list defaults to the primary screen"
+msgstr ""
+
+#: src/main.cpp:508
+msgid "Flip left view vertically when fullscreen"
+msgstr ""
+
+#: src/main.cpp:509
+msgid "Flop left view horizontally when fullscreen"
+msgstr ""
+
+#: src/main.cpp:510
+msgid "Flip right view vertically when fullscreen"
+msgstr ""
+
+#: src/main.cpp:511
+msgid "Flop right view horizontally when fullscreen"
+msgstr ""
+
+#: src/main.cpp:512
+msgid "Use DLP 3-D Ready Sync when fullscreen"
+msgstr ""
+
+#: src/main.cpp:513
+msgid "Set zoom for wide videos (0=off to 1=full)"
+msgstr ""
+
+#: src/main.cpp:514
+msgid "Crop video to given aspect ratio (0:0=off)"
+msgstr ""
+
+#: src/main.cpp:515
+msgid "Center window on screen"
+msgstr ""
+
+#: src/main.cpp:516
+msgid "Set subtitle encoding"
+msgstr ""
+
+#: src/main.cpp:517
+msgid "Set subtitle font name"
+msgstr ""
+
+#: src/main.cpp:518
+msgid "Set subtitle font size"
+msgstr ""
+
+#: src/main.cpp:519
+msgid "Set subtitle scale factor"
+msgstr ""
+
+#: src/main.cpp:520
+msgid "Set subtitle color, in [AA]RRGGBB format"
+msgstr ""
+
+#: src/main.cpp:521
+msgid "Set subtitle shadow, -1=default, 0=off, 1=on"
+msgstr ""
+
+#: src/main.cpp:522
+msgid "Subtitle parallax adjustment (-1 to +1)"
+msgstr ""
+
+#: src/main.cpp:523
+msgid "Parallax adjustment (-1 to +1)"
+msgstr ""
+
+#: src/main.cpp:524
+msgid "Crosstalk leak level (0 to 1)"
+msgstr ""
+
+#: src/main.cpp:525
+msgid "Comma-separated values for R,G,B"
+msgstr ""
+
+#: src/main.cpp:526
+msgid "Amount of ghostbusting to apply (0 to 1)"
+msgstr ""
+
+#: src/main.cpp:527
+msgid "Benchmark mode (no audio, show fps)"
+msgstr ""
+
+#: src/main.cpp:528
+msgid "Frame rate divisor for display refresh rate"
+msgstr ""
+
+#: src/main.cpp:529
+msgid "Default is 0 for benchmark mode, 1 otherwise"
+msgstr ""
+
+#: src/main.cpp:530
+msgid "Loop the input media"
+msgstr ""
+
+#: src/main.cpp:531
+msgid "Set SDI output format"
+msgstr ""
+
+#: src/main.cpp:533
+msgid "Interactive control:"
+msgstr ""
+
+#: src/main.cpp:534
+msgid "ESC"
+msgstr ""
+
+#: src/main.cpp:534
+msgid "Leave fullscreen mode, or quit"
+msgstr ""
+
+#: src/main.cpp:535
+msgid "Quit"
+msgstr ""
+
+#: src/main.cpp:536
+msgid "SPACE"
+msgstr ""
+
+#: src/main.cpp:536
+msgid "Pause / unpause"
+msgstr ""
+
+#: src/main.cpp:537
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: src/main.cpp:538
+msgid "Center window"
+msgstr ""
+
+#: src/main.cpp:539
+msgid "Swap left/right eye"
+msgstr ""
+
+#: src/main.cpp:540
+msgid "Cycle through available video streams"
+msgstr ""
+
+#: src/main.cpp:541
+msgid "Cycle through available audio streams"
+msgstr ""
+
+#: src/main.cpp:542
+msgid "Cycle through available subtitle streams"
+msgstr ""
+
+#: src/main.cpp:543
+msgid "Adjust contrast"
+msgstr ""
+
+#: src/main.cpp:544
+msgid "Adjust brightness"
+msgstr ""
+
+#: src/main.cpp:545
+msgid "Adjust hue"
+msgstr ""
+
+#: src/main.cpp:546
+msgid "Adjust saturation"
+msgstr ""
+
+#: src/main.cpp:547
+msgid "Adjust parallax"
+msgstr ""
+
+#: src/main.cpp:548
+msgid "Adjust ghostbusting"
+msgstr ""
+
+#: src/main.cpp:549
+msgid "Adjust zoom for wide videos"
+msgstr ""
+
+#: src/main.cpp:550
+msgid "Adjust audio volume"
+msgstr ""
+
+#: src/main.cpp:551
+msgid "Toggle audio mute"
+msgstr ""
+
+#: src/main.cpp:552
+msgid "Step a single video frame forward"
+msgstr ""
+
+#: src/main.cpp:553
+msgid "left, right"
+msgstr ""
+
+#: src/main.cpp:553
+msgid "Seek 10 seconds backward / forward"
+msgstr ""
+
+#: src/main.cpp:554
+msgid "down, up"
+msgstr ""
+
+#: src/main.cpp:554
+msgid "Seek 1 minute backward / forward"
+msgstr ""
+
+#: src/main.cpp:555
+msgid "page down, page up"
+msgstr ""
+
+#: src/main.cpp:555
+msgid "Seek 10 minutes backward / forward"
+msgstr ""
+
+#: src/main.cpp:556
+msgid "Mouse click"
+msgstr ""
+
+#: src/main.cpp:556
+msgid "Seek according to horizontal click position"
+msgstr ""
+
+#: src/main.cpp:557
+msgid "Media keys"
+msgstr ""
+
+#: src/main.cpp:557
+msgid "Media keys should work as expected"
+msgstr ""
+
+#: src/main.cpp:627
+msgid "No audio devices known."
+msgstr ""
+
+#: src/main.cpp:642
+msgid "Benchmark mode: audio and time synchronization disabled."
+msgstr ""
+
+#: src/main.cpp:656
+#, c-format
+msgid "Unknown mode %s."
+msgstr ""
+
+#: src/main.cpp:788
+msgid "This version of Bino was compiled without support for LIRC."
+msgstr ""
+
+#. TRANSLATORS: This is a very short string describing the video size and aspect ratio.
+#: src/media_data.cpp:1075
+#, c-format
+msgid "%dx%d, %.3g:1"
+msgstr ""
+
+#. TRANSLATORS: This is a very short string describing the audio language, channels, frequency, and bits.
+#: src/media_data.cpp:1206
+#, c-format
+msgid "%s, %d ch., %g kHz, %d bit"
+msgstr ""
+
+#: src/media_input.cpp:277
+msgid "Input:"
+msgstr ""
+
+#: src/media_input.cpp:282
+#, c-format
+msgid "Video %s: %s"
+msgstr ""
+
+#: src/media_input.cpp:287
+msgid "No video."
+msgstr ""
+
+#: src/media_input.cpp:293
+#, c-format
+msgid "Audio %s: %s"
+msgstr ""
+
+#: src/media_input.cpp:298
+msgid "No audio."
+msgstr ""
+
+#: src/media_input.cpp:304
+#, c-format
+msgid "Subtitle %s: %s"
+msgstr ""
+
+#: src/media_input.cpp:309
+msgid "No subtitle."
+msgstr ""
+
+#: src/media_input.cpp:311
+#, c-format
+msgid "Duration: %g seconds"
+msgstr ""
+
+#: src/media_input.cpp:314
+#, c-format
+msgid "Stereo layout: %s"
+msgstr ""
+
+#: src/media_object.cpp:687
+#, c-format
+msgid "%s video stream %d: Unsupported stereo layout %s."
+msgstr ""
+
+#: src/media_object.cpp:725
+#, c-format
+msgid "%s audio stream %d: Cannot handle audio with %d channels."
+msgstr ""
+
+#: src/media_object.cpp:759
+#, c-format
+msgid "%s audio stream %d: Cannot handle audio with sample format %s."
+msgstr ""
+
+#: src/media_object.cpp:830
+#, c-format
+msgid "No support available for %s device."
+msgstr ""
+
+#: src/media_object.cpp:831
+msgid "Firewire"
+msgstr ""
+
+#: src/media_object.cpp:832
+msgid "X11"
+msgstr ""
+
+#: src/media_object.cpp:833
+msgid "default"
+msgstr ""
+
+#: src/media_object.cpp:866
+#, c-format
+msgid "%s: Cannot read stream info: %s"
+msgstr ""
+
+#: src/media_object.cpp:914
+#, c-format
+msgid "%s stream %d: Cannot open %s: %s"
+msgstr ""
+
+#: src/media_object.cpp:915
+msgid "video codec"
+msgstr ""
+
+#: src/media_object.cpp:916
+msgid "audio codec"
+msgstr ""
+
+#: src/media_object.cpp:917
+msgid "subtitle codec"
+msgstr ""
+
+#: src/media_object.cpp:918
+msgid "data"
+msgstr ""
+
+#: src/media_object.cpp:919
+msgid "codec not supported"
+msgstr ""
+
+#: src/media_object.cpp:929
+#, c-format
+msgid "%s video stream %d: Invalid frame size."
+msgstr ""
+
+#: src/media_object.cpp:982
+#, c-format
+msgid "%s video stream %d: Cannot initialize conversion context."
+msgstr ""
+
+#: src/media_object.cpp:1045
+#, c-format
+msgid "Video stream %d: %s / %s, %g seconds"
+msgstr ""
+
+#: src/media_object.cpp:1049
+#, c-format
+msgid "Using up to %d threads for decoding."
+msgstr ""
+
+#: src/media_object.cpp:1054
+#, c-format
+msgid "Audio stream %d: %s / %s, %g seconds"
+msgstr ""
+
+#: src/media_object.cpp:1061
+#, c-format
+msgid "Subtitle stream %d: %s / %s, %g seconds"
+msgstr ""
+
+#: src/media_object.cpp:1068
+msgid "No usable streams."
+msgstr ""
+
+#: src/media_object.cpp:1355 src/media_object.cpp:1385
+#: src/media_object.cpp:1415
+#, c-format
+msgid "%s: Cannot duplicate packet."
+msgstr ""
+
+#: src/media_object.cpp:1508
+#, c-format
+msgid "%s video stream %d: Dropping %dx%d frame"
+msgstr ""
+
+#: src/media_object.cpp:1996
+#, c-format
+msgid "%s: Seeking failed."
+msgstr ""
+
+#: src/player.cpp:437
+#, c-format
+msgid "Video: delay %g seconds/%g frames; dropping next frame."
+msgstr ""
+
+#: src/player.cpp:453
+#, c-format
+msgid "FPS: %.2f"
+msgstr ""
+
+#: src/player_equalizer.cpp:119
+msgid "Reading input frame failed."
+msgstr ""
+
+#: src/player_equalizer.cpp:168 src/video_output_qt.cpp:687
+#: src/video_output_qt.cpp:694
+msgid "Waiting for subtitle renderer initialization..."
+msgstr ""
+
+#: src/player_equalizer.cpp:382
+msgid "No canvas in Equalizer configuration."
+msgstr ""
+
+#: src/player_equalizer.cpp:389
+#, c-format
+msgid "Equalizer canvas: %gx%g, aspect ratio %g:1"
+msgstr ""
+
+#: src/player_equalizer.cpp:736
+msgid "Init data mapping failed."
+msgstr ""
+
+#: src/player_equalizer.cpp:742
+msgid "Frame data mapping failed."
+msgstr ""
+
+#: src/player_equalizer.cpp:755
+msgid "Video player initialization failed."
+msgstr ""
+
+#: src/player_equalizer.cpp:870
+msgid ""
+"This OpenGL implementation does not support OpenGL 2.1 and framebuffer "
+"objects."
+msgstr ""
+
+#: src/player_equalizer.cpp:1048
+msgid "Equalizer initialization failed."
+msgstr ""
+
+#: src/player_equalizer.cpp:1056
+msgid "Cannot get equalizer configuration."
+msgstr ""
+
+#: src/player_equalizer.cpp:1072
+msgid "Equalizer configuration initialization failed."
+msgstr ""
+
+#: src/subtitle_renderer.cpp:223
+msgid "Cannot initialize LibASS."
+msgstr ""
+
+#: src/subtitle_renderer.cpp:232
+msgid "Cannot initialize LibASS renderer."
+msgstr ""
+
+#: src/subtitle_renderer.cpp:404
+msgid "Cannot initialize LibASS track."
+msgstr ""
+
+#: src/subtitle_renderer.cpp:415
+#, c-format
+msgid "Subtitle character set conversion failed: %s"
+msgstr ""
+
+#: src/video_output.cpp:351
+#, c-format
+msgid "OpenGL error 0x%04X."
+msgstr ""
+
+#: src/video_output.cpp:363
+#, c-format
+msgid "OpenGL Framebuffer status error 0x%04X."
+msgstr ""
+
+#: src/video_output.cpp:411
+#, c-format
+msgid "OpenGL %s '%s': compiler warning:"
+msgstr ""
+
+#: src/video_output.cpp:412 src/video_output.cpp:417
+msgid "vertex shader"
+msgstr ""
+
+#: src/video_output.cpp:412 src/video_output.cpp:417
+msgid "fragment shader"
+msgstr ""
+
+#: src/video_output.cpp:416
+#, c-format
+msgid "OpenGL %s '%s': compilation failed."
+msgstr ""
+
+#: src/video_output.cpp:419 src/video_output.cpp:496
+msgid "unknown error"
+msgstr ""
+
+#: src/video_output.cpp:492
+#, c-format
+msgid "OpenGL program '%s': linker warning:"
+msgstr ""
+
+#: src/video_output.cpp:495
+#, c-format
+msgid "OpenGL program '%s': linking failed."
+msgstr ""
+
+#: src/video_output.cpp:1556 src/video_output.cpp:1700
+msgid "Cannot create a PBO buffer."
+msgstr ""
+
+#: src/video_output_qt.cpp:293 src/video_output_qt.cpp:536
+#: src/video_output_qt.cpp:733 src/video_output_qt.cpp:745
+#: src/video_output_qt.cpp:766
+msgid "Error"
+msgstr ""
+
+#: src/video_output_qt.cpp:638
+#, c-format
+msgid "Cannot initialize GLEW: %s"
+msgstr ""
+
+#: src/video_output_qt.cpp:658
+msgid "This OpenGL implementation does not support required features."
+msgstr ""
+
+#: src/video_output_qt.cpp:685
+msgid "Please wait"
+msgstr ""
+
+#: src/video_output_qt.cpp:745
+msgid "Cannot get valid OpenGL context."
+msgstr ""
+
+#: src/video_output_qt.cpp:756
+msgid "The display does not support OpenGL stereo mode."
+msgstr ""
+
+#: src/video_output_qt.cpp:761
+msgid "Cannot set OpenGL context format."
+msgstr ""
+
+#: src/video_output_qt.cpp:865
+msgid "Cannot suspend screensaver."
+msgstr ""
+
+#: src/video_output_qt.cpp:880
+msgid "Cannot resume screensaver."
+msgstr ""

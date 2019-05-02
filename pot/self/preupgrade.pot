@@ -1,0 +1,476 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, python-format
+msgid "  now: %s"
+msgstr ""
+
+#, python-format
+msgid "  url: %s"
+msgstr ""
+
+#, python-format
+msgid "%s checksum OK"
+msgstr ""
+
+#, python-format
+msgid "%s checksum failed - removing"
+msgstr ""
+
+#, python-format
+msgid "%s: '%s' is not a valid ip"
+msgstr ""
+
+msgid "--ip=dhcp deprecated. Use --dhcp."
+msgstr ""
+
+msgid ""
+"<small><b>Tip:</b> If you quit right now, your downloads will continue the "
+"next time you run this assistant.</small>"
+msgstr ""
+
+msgid "All finished. The upgrade will begin when you reboot."
+msgstr ""
+
+msgid "Available Fedora _Releases:"
+msgstr ""
+
+#, python-format
+msgid "Available disk space for %s: %s"
+msgstr ""
+
+#. we need to set up the repos before we can clean them!
+msgid "Can't clear repo caches until repos are set up"
+msgstr ""
+
+msgid "Can't combine --dhcp and --ip"
+msgstr ""
+
+#, python-format
+msgid "Can't set up new repo %s - removing"
+msgstr ""
+
+msgid "Cannot find any kernel/initrd section for this arch in treeinfo"
+msgstr ""
+
+msgid "Cannot retrieve group lists from any repository"
+msgstr ""
+
+msgid "Check again"
+msgstr ""
+
+#. let depsolvecallback handle things
+#, python-format
+msgid "Checking %i package dependencies (this takes a while)..."
+msgstr ""
+
+msgid "Checking cached packages..."
+msgstr ""
+
+msgid "Checking package dependencies..."
+msgstr ""
+
+#. Page title
+msgid "Choose desired release"
+msgstr ""
+
+msgid "Clean up a partially-completed preupgrade run"
+msgstr ""
+
+#, python-format
+msgid "Cleaning previous upgrade to %s"
+msgstr ""
+
+#. clear out old caches / boot files / etc
+#, python-format
+msgid "Clearing data from upgrade to %s"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+#, python-format
+msgid "Detected in-progress upgrade to %s"
+msgstr ""
+
+msgid "Determine which packages to download"
+msgstr ""
+
+msgid "Display _unstable test releases (e.g. Alpha and Beta releases) above"
+msgstr ""
+
+msgid "Download installer images"
+msgstr ""
+
+msgid "Download packages"
+msgstr ""
+
+#. Step 4: download the rpms we need
+#. confirm with user
+msgid "Download packages? "
+msgstr ""
+
+msgid "Download release info"
+msgstr ""
+
+#, python-format
+msgid "Downloading %s"
+msgstr ""
+
+#, python-format
+msgid "Downloading %s..."
+msgstr ""
+
+msgid "Enabling VNC mode for the upgrade."
+msgstr ""
+
+#, python-format
+msgid "Error calculating download size for %s: %s"
+msgstr ""
+
+#, python-format
+msgid "Error: %s"
+msgstr ""
+
+msgid "Exiting on user command"
+msgstr ""
+
+msgid "Exiting."
+msgstr ""
+
+msgid "Failed to download installer data."
+msgstr ""
+
+#. Generally this means we failed to download the file
+msgid "Failed to download installer metadata"
+msgstr ""
+
+msgid "Failed to fetch release info."
+msgstr ""
+
+msgid "Failed to parse installer metadata"
+msgstr ""
+
+#, python-format
+msgid "Failed to remove %s: %s"
+msgstr ""
+
+#, python-format
+msgid "Fatal: %s"
+msgstr ""
+
+msgid "Fedora Upgrade Assistant is running"
+msgstr ""
+
+#, python-format
+msgid "Fetched treeinfo from %s"
+msgstr ""
+
+msgid "Finished!"
+msgstr ""
+
+msgid "Finishing up..."
+msgstr ""
+
+#, python-format
+msgid "Found upgrade for %s..."
+msgstr ""
+
+#. FIXME: Step 5 - generate metadata and test transaction
+#. Step 5a: make a proper yum repo from downloaded files
+msgid "Generating metadata for preupgrade repo"
+msgstr ""
+
+#. XXX FIXME: get comps data from other repos?
+msgid "Generating metadata for upgrade..."
+msgstr ""
+
+#, python-format
+msgid "Generating metadata: %d%%"
+msgstr ""
+
+msgid "Getting installer images..."
+msgstr ""
+
+msgid "Getting installer metadata..."
+msgstr ""
+
+#, python-format
+msgid "Invalid treeinfo: %s"
+msgstr ""
+
+#, python-format
+msgid "Kernel requires %s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Low disk space detected in %s\n"
+"\n"
+"We recommend that you free up %s before rebooting, or the upgrade may not "
+"run.\n"
+"\n"
+"Note: If the upgrade fails due to low diskspace, your system will not be "
+"damaged."
+msgstr ""
+
+#, python-format
+msgid ""
+"Low disk space detected in %s\n"
+"\n"
+"We recommend that you free up %s by deleting old kernels or the upgrade may "
+"not run.\n"
+"\n"
+"Note: If the upgrade fails due to low diskspace, your system will not be "
+"damaged."
+msgstr ""
+
+#, python-format
+msgid "MDGEN ERROR: %s"
+msgstr ""
+
+msgid "Networking is only needed with VNC (--vnc)"
+msgstr ""
+
+msgid "No previous run to clean up"
+msgstr ""
+
+msgid "No releases available for upgrade"
+msgstr ""
+
+#, python-format
+msgid "Not enough space in %s to download %s."
+msgstr ""
+
+msgid "Once the upgrade starts, a VNC server will open on port 5901."
+msgstr ""
+
+msgid "Packages we need to download"
+msgstr ""
+
+msgid "Prepare and test upgrade"
+msgstr ""
+
+#. Page title
+msgid "Preparing system for upgrade"
+msgstr ""
+
+#. Final step! Prepare system!
+msgid "Preparing system to boot into installer"
+msgstr ""
+
+#. Page title
+msgid "Ready to begin upgrade"
+msgstr ""
+
+msgid "Release does not match any in configuration."
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "Setting up..."
+msgstr ""
+
+#. Progress bar
+msgid "Starting download..."
+msgstr ""
+
+msgid "Static networking requires --ip, --netmask, --gateway, and --dns"
+msgstr ""
+
+msgid ""
+"The main installer image could not be saved to your hard drive. The "
+"installer can download this file once it starts, but this requires a wired "
+"network connection during installation.\n"
+"\n"
+"If you do not have a wired network connection available, you should quit now."
+msgstr ""
+
+msgid ""
+"This assistant will guide you through upgrading your system's currently-"
+"installed release of Fedora to a newer release of Fedora. This process may "
+"take several hours to complete, depending on the speed of your internet "
+"connection.\n"
+"\n"
+"You will be able to continue using your system while this assistant "
+"downloads the packages needed to upgrade your system. When the download has "
+"completed, you will be prompted to restart your system in order to complete "
+"the upgrade process."
+msgstr ""
+
+msgid "This could be caused by a missing network connection or a bad mirror."
+msgstr ""
+
+#, python-format
+msgid "Total download size: %s"
+msgstr ""
+
+msgid "Upgrade Fedora"
+msgstr ""
+
+#, python-format
+msgid "Upgrade requires %s"
+msgstr ""
+
+#, python-format
+msgid "Upgrade to %s"
+msgstr ""
+
+#. Page title
+msgid "Upgrade your system"
+msgstr ""
+
+msgid "Use it to monitor progress or fix problems that may arise."
+msgstr ""
+
+msgid "VNC password must be at least 6 characters"
+msgstr ""
+
+msgid "VNC requires a network connection (--ip or --dhcp)"
+msgstr ""
+
+msgid "WARNING: could not find __res_init in libresolv.so.2"
+msgstr ""
+
+#, python-format
+msgid "WARNING: failed to set user-agent: %s"
+msgstr ""
+
+#, python-format
+msgid "Would you like to resume your upgrade to %s?"
+msgstr ""
+
+#, python-format
+msgid ""
+"You don't have enough free disk space in %s to downloadthe packages needed "
+"to upgrade.\n"
+"\n"
+"You must free up at least %s before you can continue."
+msgstr ""
+
+msgid "You need to be root to run this."
+msgstr ""
+
+#, no-c-format
+msgid ""
+"Your system now has the necessary information and packages needed to "
+"complete the upgrade to %RELEASE%.\n"
+"\n"
+"When you are ready, you may reboot your system to complete the upgrade "
+"process. Make sure you save any unsaved work before rebooting."
+msgstr ""
+
+msgid "[password]"
+msgstr ""
+
+msgid "_Hide/Show window"
+msgstr ""
+
+msgid "_Reboot Now"
+msgstr ""
+
+msgid "changelog metadata"
+msgstr ""
+
+#, python-format
+msgid "checksum failure downloading %s"
+msgstr ""
+
+#, python-format
+msgid "don't know how to handle %s"
+msgstr ""
+
+#, python-format
+msgid "failure downloading %s: %s"
+msgstr ""
+
+msgid "filelist metadata"
+msgstr ""
+
+msgid "group metadata"
+msgstr ""
+
+msgid "installer kernel"
+msgstr ""
+
+msgid "installer metadata"
+msgstr ""
+
+msgid "installer stage 1"
+msgstr ""
+
+msgid "installer stage 2"
+msgstr ""
+
+msgid "installer updates"
+msgstr ""
+
+#, python-format
+msgid "no release named %s available"
+msgstr ""
+
+msgid "package metadata"
+msgstr ""
+
+msgid "please give a release to try to pre-upgrade to"
+msgstr ""
+
+msgid "repository metadata"
+msgstr ""
+
+msgid "run a VNC server during install, requiring the given password"
+msgstr ""
+
+msgid "treeinfo timestamp missing (possibly malformed)!"
+msgstr ""
+
+msgid "treeinfo timestamp: "
+msgstr ""
+
+#, python-format
+msgid "unknown metadata being downloaded: %s"
+msgstr ""
+
+msgid "update metadata"
+msgstr ""
+
+msgid "urltype must be mirrorlist, metalink, or baseurl"
+msgstr ""
+
+msgid "usage: preupgrade [options] release"
+msgstr ""
+
+msgid "use DHCP to autoconfigure network during upgrade"
+msgstr ""
+
+msgid "use this DNS server during upgrade"
+msgstr ""
+
+msgid "use this IP address during upgrade"
+msgstr ""
+
+msgid "use this gateway address during upgrade"
+msgstr ""
+
+msgid "use this netmask during upgrade"
+msgstr ""
+
+msgid "valid entries include:"
+msgstr ""

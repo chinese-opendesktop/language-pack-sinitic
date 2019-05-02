@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"      --tcp                  TCP mode (default)\n"
+"  -t, --telnet               answer using TELNET negotiation\n"
+"  -T                         same as --telnet (compat)\n"
+msgstr ""
+
+#, c-format
+msgid "  %s -> %s  BUT  %s -> %s"
+msgstr ""
+
+msgid ""
+"  -L, --tunnel=ADDRESS:PORT  forward local port to remote address\n"
+"  -n, --dont-resolve         numeric-only IP addresses, no DNS\n"
+"  -o, --output=FILE          output hexdump traffic to FILE (implies -x)\n"
+"  -p, --local-port=NUM       local port number\n"
+"  -r, --randomize            randomize local and remote ports\n"
+"  -s, --source=ADDRESS       local source address (ip or hostname)\n"
+msgstr ""
+
+msgid ""
+"  -t, --tcp                  TCP mode (default)\n"
+"  -T, --telnet               answer using TELNET negotiation\n"
+msgstr ""
+
+msgid ""
+"  -u, --udp                  UDP mode\n"
+"  -v, --verbose              verbose (use twice to be more verbose)\n"
+"  -V, --version              output version information and exit\n"
+"  -x, --hexdump              hexdump incoming and outgoing traffic\n"
+"  -w, --wait=SECS            timeout for connects and final net reads\n"
+"  -z, --zero                 zero-I/O mode (used for scanning)\n"
+msgstr ""
+
+#, c-format
+msgid "%s open"
+msgstr ""
+
+#, c-format
+msgid "%s: missing hostname argument"
+msgstr ""
+
+msgid "Basic usages:\n"
+msgstr ""
+
+msgid "Cannot specify `-e' option double"
+msgstr ""
+
+msgid "Cmd line:"
+msgstr ""
+
+#, c-format
+msgid "Connection from %s:%hu"
+msgstr ""
+
+msgid ""
+"Copyright (C) 2002 - 2003  Giovanni Giacobbi\n"
+"\n"
+"This program comes with NO WARRANTY, to the extent permitted by law.\n"
+"You may redistribute copies of this program under the terms of\n"
+"the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+"\n"
+"Original idea and design by Avian Research <hobbit@avian.org>,\n"
+"Written by Giovanni Giacobbi <giovanni@giacobbi.net>.\n"
+msgstr ""
+
+#, c-format
+msgid "Couldn't execute %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't resolve host \"%s\""
+msgstr ""
+
+#, c-format
+msgid "Couldn't resolve local host: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't resolve tunnel local host: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't resolve tunnel target host: %s"
+msgstr ""
+
+#, c-format
+msgid "Couldn't setup listening socket (err=%d)"
+msgstr ""
+
+msgid ""
+"Debugging support not compiled, option `-d' discarded. Using maximum "
+"verbosity."
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Exiting."
+msgstr ""
+
+#, c-format
+msgid "Failed to open output file: %s"
+msgstr ""
+
+#, c-format
+msgid "GNU netcat %s, a rewrite of the famous networking tool.\n"
+msgstr ""
+
+#, c-format
+msgid "Host %s isn't authoritative! (direct lookup failed)"
+msgstr ""
+
+#, c-format
+msgid "Host %s isn't authoritative! (direct lookup mismatch)"
+msgstr ""
+
+#, c-format
+msgid "Invalid interval time \"%s\""
+msgstr ""
+
+#, c-format
+msgid "Invalid local port: %s"
+msgstr ""
+
+#, c-format
+msgid "Invalid port specification: %s"
+msgstr ""
+
+msgid "Invalid target string for `-L' option"
+msgstr ""
+
+#, c-format
+msgid "Invalid tunnel connect port: %s"
+msgstr ""
+
+#, c-format
+msgid "Invalid tunnel target port: %s"
+msgstr ""
+
+#, c-format
+msgid "Invalid wait-time: %s"
+msgstr ""
+
+#, c-format
+msgid "Inverse name lookup failed for `%s'"
+msgstr ""
+
+#, c-format
+msgid "Listen mode failed: %s"
+msgstr ""
+
+#, c-format
+msgid "Listening on %s"
+msgstr ""
+
+#, c-format
+msgid "Listening on %s (using %d sockets)"
+msgstr ""
+
+msgid ""
+"Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr ""
+
+msgid "No ports specified for connection"
+msgstr ""
+
+msgid "Notice:"
+msgstr ""
+
+msgid ""
+"Options:\n"
+"  -c, --close                close connection on EOF from stdin\n"
+"  -e, --exec=PROGRAM         program to exec after connect\n"
+"  -g, --gateway=LIST         source-routing hop point[s], up to 8\n"
+"  -G, --pointer=NUM          source-routing pointer: 4, 8, 12, ...\n"
+"  -h, --help                 display this help and exit\n"
+"  -i, --interval=SECS        delay interval for lines sent, ports scanned\n"
+"  -l, --listen               listen mode, for inbound connects\n"
+msgstr ""
+
+msgid "Passing control to the specified program"
+msgstr ""
+
+msgid "Randomization support not compiled, option `-r' discarded."
+msgstr ""
+
+#, c-format
+msgid "Real hostname for %s [%s] is %s"
+msgstr ""
+
+#, c-format
+msgid "Received packet from %s:%d"
+msgstr ""
+
+#, c-format
+msgid "Received packet from %s:%d -> %s:%d (local)"
+msgstr ""
+
+msgid "Remote port number can also be specified as range.  Example: '1-1024'\n"
+msgstr ""
+
+msgid "Terminated."
+msgstr ""
+
+#, c-format
+msgid "This host's reverse DNS doesn't match! %s -- %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"Total received bytes: %s\n"
+"Total sent bytes: %s\n"
+msgstr ""
+
+#, c-format
+msgid "Try `%s --help' for more information."
+msgstr ""
+
+#, c-format
+msgid "Unwanted connection from %s:%hu (refused)"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "You can specify mode flags (`-l' and `-L') only once"
+msgstr ""
+
+msgid "`-L' and `-z' options are incompatible"
+msgstr ""
+
+msgid "`-e' and `-z' options are incompatible"
+msgstr ""
+
+msgid "any address"
+msgstr ""
+
+#, c-format
+msgid "connect to somewhere:  %s [options] hostname port [port] ...\n"
+msgstr ""
+
+#, c-format
+msgid "listen for inbound:    %s -l -p port [options] [hostname] [port] ...\n"
+msgstr ""
+
+#, c-format
+msgid "tunnel to somewhere:   %s -L hostname:port -p port [options]\n"
+msgstr ""

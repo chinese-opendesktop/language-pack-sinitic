@@ -1,0 +1,938 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid ""
+"\"%s\" does not specify training file. Dasher will work but entry will be "
+"slower. Check you have the latest version of the alphabet definition."
+msgstr ""
+
+#, c-format
+msgid "%s Options:"
+msgstr ""
+
+#. parse command line options
+#. Note to translators: This is the "--help" description of dasher.
+msgid "- A text input application honouring accessibility"
+msgstr ""
+
+msgid "A_ppend to file…"
+msgstr ""
+
+msgid "A_pplication"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Adapt speed automatically"
+msgstr ""
+
+msgid "Adaptation"
+msgstr ""
+
+msgid "Alphabet"
+msgstr ""
+
+#. The default display orientation for the selected alphabet, i.e., left to right for English, right to left for Arabic, etc.
+msgid "Alphabet Default"
+msgstr ""
+
+msgid "Alphabet Selection"
+msgstr ""
+
+msgid "Alphabet:"
+msgstr ""
+
+#. menu
+msgid "Alternating Direct Mode"
+msgstr ""
+
+msgid "Always Bottom-to-Top"
+msgstr ""
+
+#. This means that you always want to write left-to-right regardless of the normal direction for the alphabet you are using
+msgid "Always Left-to-Right"
+msgstr ""
+
+msgid "Always Right-to-Left"
+msgstr ""
+
+msgid "Always Top-to-Bottom"
+msgstr ""
+
+msgid "Appearance Options"
+msgstr ""
+
+msgid "Application Options"
+msgstr ""
+
+msgid "Application Style"
+msgstr ""
+
+#. {"timedata", 'w', 0, G_OPTION_ARG_NONE, &timedata, "Write basic timing information to stdout", NULL},
+#. {"preferences", 'p', 0, G_OPTION_ARG_NONE, &preferences, "Show preferences window only", NULL},
+#. {"textentry", 'o', 0, G_OPTION_ARG_NONE, &textentry, "Onscreen text entry mode", NULL},
+#. {"pipe", 's', 0, G_OPTION_ARG_NONE, &stdoutpipe, "Pipe text to stdout", NULL},
+#. Note to translators: This is the help string for "--appstyle". The four options in brackets MUST either NOT be translated or at least it MUST be clear that they must be used in english. Otherwise a user running a non-english system will receive an error message when using the translated one instead of the english one and has no chance to find out the correct option.
+msgid "Application style (traditional, direct, compose or fullscreen)"
+msgstr ""
+
+msgid "Are you sure you wish to quit?"
+msgstr ""
+
+msgid ""
+"Are you sure you wish to turn off game mode? All unsaved changes will be "
+"lost."
+msgstr ""
+
+msgid ""
+"At top and bottom, scroll more and translate less (makes error-correcting "
+"easier)"
+msgstr ""
+
+msgid "Boolean parameters"
+msgstr ""
+
+msgid "Bottom to Top"
+msgstr ""
+
+#. TRANSLATORS: The boxes (zoom targets) in button mode can either be the same size, or different sizes - this is the extent to which the sizes are allowed to differ from each other.
+#. XXX PRLW: 128 log(2) = 89, where 2 is the ratio of adjacent boxes
+#. * however the code seems to use ratio = (129/127)^-r, instead of
+#. * ratio = exp(r/128) used in the design document
+#.
+msgid "Box non-uniformity"
+msgstr ""
+
+msgid "Button offset"
+msgstr ""
+
+#. Abbreviation for Control Style
+msgid "C_ontrol"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Centre circle"
+msgstr ""
+
+msgid "Choose File..."
+msgstr ""
+
+msgid "Click Mode"
+msgstr ""
+
+msgid "Color Scheme"
+msgstr ""
+
+msgid "Colour Scheme"
+msgstr ""
+
+#. bMenu
+msgid "Compass Mode"
+msgstr ""
+
+msgid "Composition"
+msgstr ""
+
+msgid "Confirm unsaved files"
+msgstr ""
+
+#. The way in which you would like to control dasher, e.g., using buttons for up/down, buttons for select, etc.
+msgid "Control"
+msgstr ""
+
+#. The way in which you would like to control dasher, e.g., using buttons for up/down, buttons for select, etc.
+msgid "Control Style"
+msgstr ""
+
+msgid "Control mode"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy All on stop"
+msgstr ""
+
+msgid "Copy _All"
+msgstr ""
+
+#. /TRANSLATORS: %s is the name of the alphabet; the string "GameTextFile"
+#. / refers to a setting name in gsettings or equivalent, and should not be translated.
+#, c-format
+msgid ""
+"Could not find game sentences file for %s - check alphabet definition, or "
+"override with GameTextFile setting"
+msgstr ""
+
+#. TRANSLATORS: As dasher's on-screen coordinate space is not flat,
+#. the straight guide lines should in fact really be curved. This option
+#. draws the guides as correct, though possibly more confusing, curves.
+msgid "Curve lines to follow the non-linearity of the view transform"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom colour scheme:"
+msgstr ""
+
+msgid "Cut"
+msgstr ""
+
+#. Note to translators: This is the name of the dasher program as it appears
+#. in a window title.
+msgid "Dasher"
+msgstr ""
+
+msgid "Dasher Font"
+msgstr ""
+
+msgid "Dasher Module Options"
+msgstr ""
+
+msgid "Dasher Preferences"
+msgstr ""
+
+#, c-format
+msgid "Dasher Socket Input error: %s: %s"
+msgstr ""
+
+msgid "Dasher is a predictive text entry application"
+msgstr ""
+
+#. TODO should probably pop up a Gtk error message and think about how to do i18n:
+msgid "Dasher socket input: failed to launch reader thread."
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Demo Mode (no input)"
+msgstr ""
+
+#. Note to translators: This is the help string for "--help-options"
+msgid "Describe \"--options\"."
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Direct Mode"
+msgstr ""
+
+msgid "Direct entry"
+msgstr ""
+
+msgid "Direction"
+msgstr ""
+
+msgid "Display Size"
+msgstr ""
+
+#. divisor
+#. step
+msgid "Distance between down markers (long gap)"
+msgstr ""
+
+msgid "Distance between up markers, as percentage of long gap"
+msgstr ""
+
+msgid ""
+"Distance from right-hand-side Y-axis, at which maximum speed is reached. "
+"(2048=xhair)"
+msgstr ""
+
+msgid "Distance of sentence from center to decide user needs help"
+msgstr ""
+
+#, c-format
+msgid ""
+"Do you want to save your changes to %s?\n"
+"\n"
+"Your changes will be lost if you don't save them."
+msgstr ""
+
+msgid ""
+"Do you want to save your changes?\n"
+"\n"
+"Your changes will be lost if you don't save them."
+msgstr ""
+
+msgid "Don't quit"
+msgstr ""
+
+#. TRANSLATORS: Pushing the up/down button twice quickly has the same effect as pushing the other
+#. button once; in this case, one must push three times (or push-and-hold) to reverse.
+msgid "Double-click is opposite up/down — triple to reverse"
+msgstr ""
+
+#. TRANSLATORS: Double-clicks are special in some situations (they cause us to start reversing). This is the time in which the button must be pressed twice to count.
+msgid "Double-press time"
+msgstr ""
+
+msgid "Draw box outlines"
+msgstr ""
+
+#. TRANSLATORS: In click mode, when you click with the mouse, you select
+#. a piece of y-axis to be zoomed to, based on the mouse coordinates. The
+#. "guides" are lines from the mouse position to the edges of the piece of
+#. y-axis.
+msgid "Draw guides on screen to show area into which a click will zoom"
+msgstr ""
+
+msgid "Draw line between crosshairs and mouse"
+msgstr ""
+
+msgid "Editor Font"
+msgstr ""
+
+#. TRANSLATORS: Backoff = reversing in Dasher to correct mistakes. This allows a single button to be dedicated to activating backoff, rather than using multiple presses of other buttons, and another to be dedicated to starting and stopping. 'Button' in this context is a physical hardware device, not a UI element.
+msgid "Enable backoff and start/stop buttons"
+msgstr ""
+
+#. TRANSLATORS: Backoff = reversing in Dasher to correct mistakes. This allows a single button to be dedicated to activating backoff, rather than using multiple presses of other buttons.
+msgid "Enable backoff button"
+msgstr ""
+
+msgid "Enlarge input window"
+msgstr ""
+
+msgid "Enter text without a keyboard"
+msgstr ""
+
+msgid "Error binding to socket - already in use?"
+msgstr ""
+
+#. TODO This is not a very good error message even in English...???
+msgid "Error creating socket"
+msgstr ""
+
+msgid "Factor by which to zoom in"
+msgstr ""
+
+msgid "False"
+msgstr ""
+
+#, c-format
+msgid ""
+"File ends with incomplete UTF-8 character beginning 0x%x (expecting %i bytes "
+"but only %i)"
+msgstr ""
+
+msgid "Filename of sentences to enter"
+msgstr ""
+
+#. TRANSLATORS: The number of time steps over which to perform the zooming motion in button mode.
+msgid "Frames over which to perform zoom"
+msgstr ""
+
+msgid "Full Screen"
+msgstr ""
+
+#. TRANSLATORS: Intercept keyboard events for 'special' keys even when the Dasher window doesn't have keyboard focus.
+msgid "Global keyboard grab"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Hold right mouse button / key 1 to go 3/4 faster"
+msgstr ""
+
+#, c-format
+msgid ""
+"In file %s, the following %i symbol appeared without annotations saying how "
+"it should be entered, but it can be entered in several ways. Dasher will not "
+"be able to learn how you want to enter this symbol:In file %s, the following "
+"%i symbols appeared without annotations saying how they should be entered, "
+"but each can be entered in several ways. Dasher will not be able to learn "
+"how you want to enter these symbols:"
+msgstr ""
+
+#, c-format
+msgid ""
+"In file %s, the following %i symbols appeared without annotations saying how "
+"they should be entered, but each can be entered in several ways. Dasher will "
+"not be able to learn how you want to enter these symbols:"
+msgstr ""
+
+msgid "Increase line thickness"
+msgstr ""
+
+msgid "Input Device"
+msgstr ""
+
+msgid "Integer parameters"
+msgstr ""
+
+#. Note to translators: This string will be output when --options= specifies an unknown option.
+msgid "Invalid option string specified"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "Lag before user actually pushes button (ms)"
+msgstr ""
+
+msgid "Language Model"
+msgstr ""
+
+msgid "Language model adapts as you write."
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Large font "
+msgstr ""
+
+msgid "Learn offset (previous) automatically, e.g. gazetrackers"
+msgstr ""
+
+msgid "Left to Right"
+msgstr ""
+
+#. Note to translators: This is the license keyword showing for the command line option "--version"
+msgid "License"
+msgstr ""
+
+#. TRANSLATORS: The time for which a button must be held before it counts as a 'long' (rather than short) press.
+msgid "Long press time"
+msgstr ""
+
+msgid "Max time for a 'tap' (anything longer is held)"
+msgstr ""
+
+msgid "Maximum Zoom"
+msgstr ""
+
+#. TODO: specialist factory for button mode
+msgid "Menu Mode"
+msgstr ""
+
+#. PPM = Prediction by Partial Match, a statistical language model.
+msgid "Mixture model (PPM/dictionary)"
+msgstr ""
+
+msgid "Mouse Input"
+msgstr ""
+
+#. TRANSLATORS: Multiple button presses are special (like a generalisation on double clicks) in some situations. This is the maximum time between two presses to count as _part_of_ a multi-press gesture
+#. (potentially more than two presses).
+msgid "Multiple press interval"
+msgstr ""
+
+msgid "New file"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+#, c-format
+msgid ""
+"No training text (user or system) found for \"%s\". Dasher will still work "
+"but entry will be slower. We suggest downloading a training text file from "
+"the Dasher website, or constructing your own."
+msgstr ""
+
+#. /TRANSLATORS: These 3 messages will be displayed when the user has just chosen a new alphabet. The %s parameter will be the name of the alphabet.
+#, c-format
+msgid ""
+"No user training text found - if you have written in \"%s\" before, this "
+"means Dasher may not be learning from previous sessions"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Normal Control"
+msgstr ""
+
+#. /TRANSLATORS: the string "GameTextFile" is the name of a setting in gsettings
+#. / (or equivalent), and should not be translated. The %s is the value of that
+#. / setting (this message displayed only if the user has provided a value)
+#, c-format
+msgid ""
+"Note: GameTextFile setting specifies game sentences file '%s' but this does "
+"not exist"
+msgstr ""
+
+msgid "Number of forward boxes"
+msgstr ""
+
+msgid "Offset for outer (second) button"
+msgstr ""
+
+msgid "One Button Dynamic Mode"
+msgstr ""
+
+#. COneDimensionalFilter(CSettingsStore *pSettingsStore, CDasherInterfaceBase *pInterface, CDasherModel *m_pDasherModel);
+msgid "One Dimensional Mode"
+msgstr ""
+
+#. TRANSLATORS: Only use the vertical mouse coordinate - this is prefered for some disabled users.
+msgid "One Dimensional Mouse Input"
+msgstr ""
+
+msgid "Open file"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Orientation"
+msgstr ""
+
+#. Note to translators: This is the help string for "--options"
+msgid "Override stored options"
+msgstr ""
+
+#. Abbreviation for Preferences
+msgid "P"
+msgstr ""
+
+msgid "Paste"
+msgstr ""
+
+msgid "Pause outside of canvas"
+msgstr ""
+
+msgid "Percentage by which to automatically increase speed"
+msgstr ""
+
+msgid "Percentage by which to decrease speed upon reverse"
+msgstr ""
+
+msgid "Pixels covering Y range"
+msgstr ""
+
+msgid "Please Wait…"
+msgstr ""
+
+msgid "Port:"
+msgstr ""
+
+msgid "Pr_eferences…"
+msgstr ""
+
+msgid "Prediction"
+msgstr ""
+
+msgid "Predictive text entry"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Print socket-related debugging information to console:"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Quit without saving"
+msgstr ""
+
+#, c-format
+msgid "Read invalid UTF-8 character 0x%x"
+msgstr ""
+
+#. TRANSLATORS: What is normally the up button becomes the down button etc.
+msgid "Reverse up and down buttons"
+msgstr ""
+
+msgid "Right to Left"
+msgstr ""
+
+#. TRANSLATORS: The zoom factor per press when moving to the right in compass mode.
+msgid "Right zoom"
+msgstr ""
+
+msgid "Safety margin"
+msgstr ""
+
+msgid "Save and quit"
+msgstr ""
+
+msgid "Save file"
+msgstr ""
+
+msgid "Save file as"
+msgstr ""
+
+msgid "Scan time (each direction), in ms"
+msgstr ""
+
+msgid "Scan time in menu mode (0 to not scan)"
+msgstr ""
+
+msgid ""
+"Screen geometry (mostly for tall thin screens) - 0=old-style, 1=square no-"
+"xhair, 2=squish, 3=squish+log"
+msgstr ""
+
+msgid "Select Dasher Font"
+msgstr ""
+
+msgid "Select Editor Font"
+msgstr ""
+
+msgid "Select File"
+msgstr ""
+
+msgid "Select Font"
+msgstr ""
+
+msgid ""
+"Shape type: 0=disjoint rects, 1=overlapping, 2=triangles, 3=trunc-tris, "
+"4=quadrics, 5=circles"
+msgstr ""
+
+msgid "Show mouse position"
+msgstr ""
+
+msgid "Show speed slider"
+msgstr ""
+
+#. Note to translators: This is the help string for "--version"
+msgid "Show the version details."
+msgstr ""
+
+msgid "Show toolbar"
+msgstr ""
+
+msgid "Slow startup"
+msgstr ""
+
+msgid "Slow startup time"
+msgstr ""
+
+msgid "Small font"
+msgstr ""
+
+msgid "Smoothing"
+msgstr ""
+
+msgid "Socket Input"
+msgstr ""
+
+msgid "Socket input: Error reading from socket"
+msgstr ""
+
+msgid "Speak All on stop"
+msgstr ""
+
+msgid "Speak words as you write"
+msgstr ""
+
+msgid "Speed"
+msgstr ""
+
+msgid "Speed:"
+msgstr ""
+
+msgid "Stand-alone"
+msgstr ""
+
+#. PPM = Prediction by Partial Match, a statistical language model.
+msgid "Standard letter-based PPM"
+msgstr ""
+
+msgid "Start on left mouse button"
+msgstr ""
+
+msgid "Start on space bar"
+msgstr ""
+
+msgid "Start with mouse position:"
+msgstr ""
+
+msgid "Starting and Stopping"
+msgstr ""
+
+msgid "Startup time"
+msgstr ""
+
+msgid "String parameters"
+msgstr ""
+
+msgid "Stylus Control"
+msgstr ""
+
+msgid "Time after which to automatically increase speed (secs)"
+msgstr ""
+
+msgid "Time for which user must need help before help drawn"
+msgstr ""
+
+msgid "Timestamp new files"
+msgstr ""
+
+msgid "Tolerance for inaccurate timing of button pushes (in ms)"
+msgstr ""
+
+msgid "Top to Bottom"
+msgstr ""
+
+msgid "Training on System Text"
+msgstr ""
+
+msgid "Training on User Text"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+#. Note to translators: This is the help string for unrecognized command line options. Do not translate 'dasher --help' part.
+msgid "Try 'dasher --help' for more information."
+msgstr ""
+
+msgid "Two Button Dynamic Mode"
+msgstr ""
+
+msgid "Two box"
+msgstr ""
+
+msgid "Two-push Dynamic Mode (New One Button)"
+msgstr ""
+
+#, c-format
+msgid "Unable to open file \"%s\" for reading"
+msgstr ""
+
+msgid "Unable to open help file"
+msgstr ""
+
+msgid "Use Default"
+msgstr ""
+
+msgid "Use exact computation of per-frame movement (slower)"
+msgstr ""
+
+msgid ""
+"Use push and release times of single press rather than push times of two "
+"presses"
+msgstr ""
+
+#. Line wrapping not necessary, but looks better for English
+msgid ""
+"Use this control to adjust the relative sizes of the\n"
+"letter boxes. Note that selecting high values will slow\n"
+"your writing speed."
+msgstr ""
+
+#. Note to translators: This is the version keyword showing for the command line option "--version"
+msgid "Version"
+msgstr ""
+
+msgid "Vertical distance from mouse/gaze to target (400=screen height)"
+msgstr ""
+
+msgid "Very Large"
+msgstr ""
+
+msgid "Very large font"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+#, c-format
+msgid "Warning truncating socket input label '%s' to %i characters."
+msgstr ""
+
+#. no context switch commands will be executed!
+#, c-format
+msgid ""
+"Warning: faulty alphabet definition, escape sequence %s must be a single "
+"unicode character. This may worsen Dasher's text prediction."
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: faulty alphabet definition: training-start delimiter %s must be a "
+"single unicode character. May be unable to process training file."
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: in training file, annotation '<%s>' is followed by another "
+"annotation and will be ignored"
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: training file contains character '%s' as member of group '%s', but "
+"alphabet contains several such groups. Dasher will not be able to learn how "
+"you want to write this character."
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: training file contains character '%s' as member of group '%s', but "
+"no group of that name contains the character. Dasher will not be able to "
+"learn how you want to write this character."
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: training file contains character '%s' as member of group '%s', but "
+"no group of that name contains the character. Ignoring group specifier."
+msgstr ""
+
+#, c-format
+msgid ""
+"Warning: training file contains character '%s' as member of group '%s', but "
+"no group of that name contains the character; ignoring group specifier"
+msgstr ""
+
+msgid ""
+"Welcome to Dasher Game Mode! Game Mode is a fun way to practice entering "
+"text in Dasher. Please select a training text to play with:"
+msgstr ""
+
+msgid "When we give help, show the shortest path to the target sentence?"
+msgstr ""
+
+msgid "Word-based model"
+msgstr ""
+
+msgid "X label:"
+msgstr ""
+
+msgid "X maximum:"
+msgstr ""
+
+msgid "X minimum:"
+msgstr ""
+
+#. think XML_LChar==char, depends on preprocessor variables...
+#. /TRANSLATORS: the first string is the error message from the XML Parser;
+#. / the second is the URL of the file we're trying to read.
+#, c-format
+msgid "XML Error %s in file %s "
+msgstr ""
+
+msgid "XML configuration file name"
+msgstr ""
+
+msgid "Y label:"
+msgstr ""
+
+msgid "Y maximum:"
+msgstr ""
+
+msgid "Y minimum:"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "_About"
+msgstr ""
+
+msgid "_About…"
+msgstr ""
+
+msgid "_Appearance"
+msgstr ""
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "_Close"
+msgstr ""
+
+msgid "_Contents…"
+msgstr ""
+
+msgid "_Dasher Font"
+msgstr ""
+
+msgid "_Dasher Font Size"
+msgstr ""
+
+msgid "_Direct Mode"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Edit Font"
+msgstr ""
+
+msgid "_File"
+msgstr ""
+
+msgid "_Game Mode"
+msgstr ""
+
+msgid "_Help"
+msgstr ""
+
+msgid "_Import Training Text…"
+msgstr ""
+
+msgid "_Language"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+msgid "_Options"
+msgstr ""
+
+msgid "_Reset fonts"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+#. Note to translators: This message will be output for a command line
+#. with "--options foo=VAL" and foo is a boolean valued parameter, but
+#. "VAL" is not true or false.
+msgid "boolean value must be specified as 'true' or 'false'."
+msgstr ""
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+msgid "dasher"
+msgstr ""
+
+msgid "false"
+msgstr ""
+
+#. Note to translators: This message will be output for command line errors when the "=" in --options=foo is missing.
+msgid "option setting is missing \"=\"."
+msgstr ""
+
+msgid "translator-credits"
+msgstr ""
+
+msgid "true"
+msgstr ""
+
+#. Note to translators: This is output when command line "--options" doesn't
+#. specify a known option.
+msgid "unknown option, use \"--help-options\" for more information."
+msgstr ""

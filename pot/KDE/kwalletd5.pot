@@ -1,0 +1,466 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "&Advanced setup"
+msgstr ""
+
+msgid "&Basic setup (recommended)"
+msgstr ""
+
+msgid "&Deny"
+msgstr ""
+
+msgid "&Yes, migrate my wallets now."
+msgstr ""
+
+msgid "(C) 2002-2013, The KDE Developers"
+msgstr ""
+
+msgid "* Creating KF5 wallet: %1"
+msgstr ""
+
+msgid "* Migrating folder %1"
+msgstr ""
+
+msgid "* Opened KDE4 wallet: %1"
+msgstr ""
+
+msgid "* SKIPPING entry %1 in folder %2 as it seems already migrated"
+msgstr ""
+
+msgid "<b>%1</b> has requested to open a wallet (%2)."
+msgstr ""
+
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">NOTE:</span> this "
+"list shows only \"ultimate-level\" trusted keys</p></body></html>"
+msgstr ""
+
+msgid ""
+"<html><head/><body><p>The GPG-based wallet use a GPG encryption key to "
+"securely encrypt data on disk. The key must be available when decrypting is "
+"needed or your wallet will not be accessible. For example, if you choose a "
+"SmartCard-based encryption key, the GPG system will prompt you to enter it "
+"and its associated PIN when attempting to open the wallet. <span style=\" "
+"font-weight:600;\">NOTE:</span> this list contains only \"ultimate-level\" "
+"trusted keys.</p></body></html>"
+msgstr ""
+
+msgid ""
+"<html><head/><body><p>The KDE Wallet system stores your data in a <span "
+"style=\" font-style:italic;\">wallet</span> file on your local hard disk. "
+"The data is only written in the encrypted form of your choice - blowfish "
+"algorithm with your password as the key or using a GPG encryption key. When "
+"a wallet is opened, the wallet manager application will launch and display "
+"an icon in the system tray. You can use this application to manage all of "
+"your wallets. It even permits you to drag wallets and wallet contents, "
+"allowing you to easily copy a wallet to a remote system.</p></body></html>"
+msgstr ""
+
+msgid ""
+"<html><head/><body><p>The application '<span style=\" font-weight:600;\">%1</"
+"span>' has requested to open the KDE wallet. This is used to store sensitive "
+"data in a secure fashion. Please choose the new wallet's type below or click "
+"cancel to deny the application's request.</p></body></html>"
+msgstr ""
+
+msgid ""
+"<html><head/><body><p>Various applications may attempt to use the KDE wallet "
+"to store passwords or other information such as web form data and cookies. "
+"If you would like these applications to use the wallet, you must enable it "
+"now and choose method for its encryption.</p><p>GPG method is more secure, "
+"but you must have configured at least one encrypting key on your system.</"
+"p><p>If you choose the classic format, be warned that the password you "
+"choose <span style=\" font-style:italic;\">cannot</span> be recovered if it "
+"is lost, and will allow anyone who knows it to obtain all the information "
+"contained in the wallet.</p></body></html>"
+msgstr ""
+
+msgid ""
+"<qt>Encryption error while attempting to save the wallet <b>%1</b>. Error "
+"code is <b>%2 (%3)</b>. Please fix your system configuration, then try "
+"again. This error may occur if you are not using a full trust GPG key. "
+"Please ensure you have the secret key for the key you are using.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
+"%2: %3)</qt>"
+msgstr ""
+
+msgid ""
+"<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
+"you're using a SmartCard, please ensure it's inserted then try again."
+"<br><br>GPG error was <b>%2</b></qt>"
+msgstr ""
+
+msgid ""
+"<qt>Error when attempting to initialize OpenPGP while attempting to open the "
+"wallet <b>%1</b>. Error code is <b>%2</b>. Please fix your system "
+"configuration, then try again.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>Error when attempting to initialize OpenPGP while attempting to open the "
+"wallet <b>%1</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>Error when attempting to initialize OpenPGP while attempting to save the "
+"wallet <b>%1</b>. Error code is <b>%2</b>. Please fix your system "
+"configuration, then try again.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>Error when attempting to initialize OpenPGP while attempting to save the "
+"wallet <b>%1</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
+"encrypted using the GPG Key ID <b>%2</b> but this key was not found on your "
+"system.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>File handling error while attempting to save the wallet <b>%1</b>. Error "
+"was <b>%2</b>. Please fix your system configuration, then try again.</qt>"
+msgstr ""
+
+msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
+"choose a password for this wallet, or cancel to deny the application's "
+"request.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>KDE has requested to create a new wallet named '<b>%1</b>'. This is used "
+"to store sensitive data in a secure fashion. Please choose the new wallet's "
+"type below or click cancel to deny the application's request.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
+"password for this wallet below.</qt>"
+msgstr ""
+
+msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
+msgstr ""
+
+msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>The <b>%1</b> wallet is encrypted using GPG key <b>%2</b>. Please use "
+"<b>GPG</b> tools (such as <b>kleopatra</b>) to change the passphrase "
+"associated to that key.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>"
+"%2</b>'.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to create a new wallet named "
+"'<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the "
+"application's request.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to create a new wallet named "
+"'<b>%2</b>'. This is used to store sensitive data in a secure fashion. "
+"Please choose the new wallet's type below or click cancel to deny the "
+"application's request.</qt>"
+msgstr ""
+
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
+"is used to store sensitive data in a secure fashion. Please enter a password "
+"to use with this wallet or click cancel to deny the application's request.</"
+"qt>"
+msgstr ""
+
+msgid ""
+"<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
+"b>'. Please enter the password for this wallet below.</qt>"
+msgstr ""
+
+msgid "Allow &Always"
+msgstr ""
+
+msgid "Allow &Once"
+msgstr ""
+
+msgid "Already open."
+msgstr ""
+
+msgid "An application has requested to open a wallet (%1)."
+msgstr ""
+
+msgid "Automatically close idle wallets"
+msgstr ""
+
+msgid "Cannot open KDE4 wallet named: %1"
+msgstr ""
+
+msgid "Cannot read old wallet list. Aborting."
+msgstr ""
+
+msgid "Cannot retrieve folder %1 entries. Aborting."
+msgstr ""
+
+msgid "Cannot retrieve folder list. Aborting."
+msgstr ""
+
+msgid "Cannot retrieve key %1 data. Aborting."
+msgstr ""
+
+msgid "Cannot retrieve key %1 info. Aborting."
+msgstr ""
+
+msgid "Cannot write entry %1 in the new wallet. Aborting."
+msgstr ""
+
+msgid "Classic, blowfish encrypted file"
+msgstr ""
+
+msgid ""
+"Congratulations! The system detected that you're running the latest version "
+"of the KWallet, using KDE Frameworks 5.\n"
+"\n"
+"It seems that you also have KDE4 wallet(s) on your system.\n"
+"\n"
+"Would you like them to be migrated to this new KWallet version? The "
+"operation will only take one minute to be performed.\n"
+msgstr ""
+
+msgid "Corrupt file?"
+msgstr ""
+
+msgid "D-Bus Interface"
+msgstr ""
+
+msgid "DONE migrating wallet\n"
+msgstr ""
+
+msgid "Decryption error."
+msgstr ""
+
+msgid "Deny &Forever"
+msgstr ""
+
+msgid "E-Mail"
+msgstr ""
+
+msgid "ERROR when attempting new wallet creation. Aborting."
+msgstr ""
+
+msgid "Enter a new password:"
+msgstr ""
+
+msgid "Error opening file."
+msgstr ""
+
+msgid "Error re-encrypting the wallet. Password was not changed."
+msgstr ""
+
+msgid "Error reopening the wallet. Data may be lost."
+msgstr ""
+
+msgid "Error validating wallet integrity. Possibly corrupted."
+msgstr ""
+
+msgid ""
+"Failed to sync wallet <b>%1</b> to disk. Error codes are:\n"
+"RC <b>%2</b>\n"
+"SF <b>%3</b>. Please file a BUG report using this information to bugs.kde.org"
+msgstr ""
+
+msgid "Former Maintainer"
+msgstr ""
+
+msgid "Former maintainer"
+msgstr ""
+
+msgid "George Staikos"
+msgstr ""
+
+msgid "KDE Wallet Migration Agent"
+msgstr ""
+
+msgid "KDE Wallet Service"
+msgstr ""
+
+msgid ""
+"KDE has requested to open the wallet. This is used to store sensitive data "
+"in a secure fashion. Please enter a password to use with this wallet or "
+"click cancel to deny the application's request."
+msgstr ""
+
+msgid "KWallet"
+msgstr ""
+
+msgid "Key-ID"
+msgstr ""
+
+msgid "Maintainer, GPG backend support"
+msgstr ""
+
+msgid "Michael Leupold"
+msgstr ""
+
+msgid "Migrating wallet: %1"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid ""
+"No, I'd rather do this upon ne&xt session start,\n"
+"and I'll cancel this wizard for now."
+msgstr ""
+
+msgid "No, and p&lease do not prompt me again."
+msgstr ""
+
+msgid "Not a wallet file."
+msgstr ""
+
+msgid "Passwords do not match."
+msgstr ""
+
+msgid "Passwords match."
+msgstr ""
+
+msgid "Please select the signing key from the list below:"
+msgstr ""
+
+msgid "Read error - possibly incorrect password."
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid ""
+"Seems that your system has no keys suitable for encryption. Please set-up at "
+"least one encryption key, then try again."
+msgstr ""
+
+msgid "Select encryption GPG key:"
+msgstr ""
+
+msgid "Store network passwords and local passwords in separate wallet files"
+msgstr ""
+
+msgid "Switch there"
+msgstr ""
+
+msgid "Switch to %1"
+msgstr ""
+
+msgid ""
+"The GpgME library failed to initialize for the OpenPGP protocol. Please "
+"check your system's configuration then try again."
+msgstr ""
+
+msgid "The KDE Wallet System"
+msgstr ""
+
+msgid ""
+"The KDE Wallet system allows you to control the level of security of your "
+"personal data.  Some of these settings do impact usability.  While the "
+"default settings are generally acceptable for most users, you may wish to "
+"change some of them.  You may further tune these settings from the KWallet "
+"control module."
+msgstr ""
+
+msgid ""
+"There have been repeated failed attempts to gain access to a wallet. An "
+"application may be misbehaving."
+msgstr ""
+
+msgid "Thiago Maceira"
+msgstr ""
+
+msgid ""
+"Unable to locate at least one <b>encrypting GPG key</b>. KDE Wallet needs "
+"such <b>encrypting key</b> to securely store passwords or other sensitive "
+"data on disk. If you still want to setup a GPG-based wallet, then cancel "
+"this wizard, set-up an <b>encrypting GPG key</b>, then retry this assistant. "
+"Otherwise, you may still click back, then choose a classic, blowfish "
+"encrypted file format on the previous page."
+msgstr ""
+
+msgid ""
+"Unable to open wallet. The wallet must be opened in order to change the "
+"password."
+msgstr ""
+
+msgid "Unknown encryption scheme."
+msgstr ""
+
+msgid "Unsupported file format revision."
+msgstr ""
+
+msgid "Use GPG encryption, for better protection"
+msgstr ""
+
+msgid "Valentin Rusu"
+msgstr ""
+
+msgid ""
+"Various applications may attempt to use the KDE wallet to store passwords or "
+"other information such as web form data and cookies.  If you would like "
+"these applications to use the wallet, you must enable it now and choose a "
+"password.  The password you choose <i>cannot</i> be recovered if it is lost, "
+"and will allow anyone who knows it to obtain all the information contained "
+"in the wallet."
+msgstr ""
+
+msgid "Verify password:"
+msgstr ""
+
+msgid ""
+"Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
+"passwords and other personal information on disk in an encrypted file, "
+"preventing others from viewing the information.  This wizard will tell you "
+"about KWallet and help you configure it for the first time."
+msgstr ""
+
+msgid "What kind of encryption do you wish?"
+msgstr ""
+
+msgid "Yes, I wish to use the KDE wallet to store my personal information."
+msgstr ""
+
+msgid "Your emails"
+msgstr ""
+
+msgid "Your names"
+msgstr ""
+
+msgid "kwalletd"
+msgstr ""
+
+msgid "kwalletd GPG backend"
+msgstr ""

@@ -1,0 +1,570 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2002-2018 Masato Taruishi et al.
+# This file is distributed under the same license as the apt-listbugs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2002-2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: apt-listbugs 0.1.27\n"
+"Report-Msgid-Bugs-To: invernomuto@paranoici.org\n"
+"POT-Creation-Date: 2018-12-21 22:53+0100\n"
+"PO-Revision-Date: 2018-12-21 22:53+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. TRANSLATORS: "E: " is a label for error messages; you may translate it with a suitable abbreviation of the word "error"
+#: ../bin/apt-listbugs:421 ../bin/apt-listbugs:454 ../bin/apt-listbugs:459
+#: ../bin/apt-listbugs:465 ../bin/apt-listbugs:479 ../bin/apt-listbugs:509
+#: ../bin/apt-listbugs:540 ../bin/apt-listbugs:589 ../bin/apt-listbugs:602
+#: ../lib/aptlistbugs/aptcleanup:52 ../lib/aptlistbugs/aptcleanup:55
+#: ../lib/aptlistbugs/logic.rb:302 ../lib/aptlistbugs/logic.rb:312
+#: ../lib/aptlistbugs/logic.rb:1001 ../lib/aptlistbugs/logic.rb:1013
+#: ../lib/aptlistbugs/logic.rb:1026 ../lib/aptlistbugs/migratepins:52
+#: ../lib/aptlistbugs/migratepins:55
+msgid "E: "
+msgstr ""
+
+#: ../bin/apt-listbugs:422
+msgid ""
+"This may be caused by a package lacking support for the ruby interpreter in "
+"use. Try to fix the situation with the following commands:"
+msgstr ""
+
+#: ../bin/apt-listbugs:454
+msgid ""
+"APT_HOOK_INFO_FD is undefined.\n"
+msgstr ""
+
+#: ../bin/apt-listbugs:459
+msgid ""
+"APT_HOOK_INFO_FD is not correctly defined.\n"
+msgstr ""
+
+#: ../bin/apt-listbugs:465
+msgid "Cannot read from file descriptor %d"
+msgstr ""
+
+#: ../bin/apt-listbugs:479
+msgid ""
+"APT Pre-Install-Pkgs is not giving me expected 'VERSION 3' string.\n"
+msgstr ""
+
+#: ../bin/apt-listbugs:509
+msgid ""
+"APT Pre-Install-Pkgs is giving me fewer fields than expected.\n"
+msgstr ""
+
+#: ../bin/apt-listbugs:540
+msgid ""
+"APT Pre-Install-Pkgs is giving me an invalid direction of version change.\n"
+msgstr ""
+
+#: ../bin/apt-listbugs:619
+msgid "****** Exiting with an error in order to stop the installation. ******"
+msgstr ""
+
+#: ../lib/aptlistbugs/aptcleanup:52 ../lib/aptlistbugs/logic.rb:405
+#: ../lib/aptlistbugs/migratepins:52
+msgid "Cannot read from %s"
+msgstr ""
+
+#: ../lib/aptlistbugs/aptcleanup:123
+msgid "Fixed packages : "
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:50
+msgid "Usage: "
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:51
+msgid " [options] <command> [arguments]"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:53
+msgid ""
+"Options:\n"
+msgstr ""
+
+#. TRANSLATORS: the colons (:) in the following strings are vertically aligned, please keep their alignment consistent
+#. TRANSLATORS: the \"all\" between quotes should not be translated
+#: ../lib/aptlistbugs/logic.rb:56
+msgid ""
+" -s <severities>  : Filter bugs by severities you want to see\n"
+"                    (or \"all\" for all)\n"
+"                    [%s].\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:57
+msgid ""
+" -T <tags>        : Filter bugs by tags you want to see.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:58
+msgid ""
+" -S <states>      : Filter bugs by pending-state categories you want to see\n"
+"                    [%s].\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:59
+msgid ""
+" -B <bug#>        : Filter bugs by number, showing only the specified bugs.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:60
+msgid ""
+" -D               : Show downgraded packages, too.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:61
+msgid ""
+" -H <hostname>    : Hostname of Debian Bug Tracking System [%s].\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:62
+msgid ""
+" -p <port>        : Port number of the server [%s].\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:63
+msgid ""
+" -P <priority>    : Pin-Priority value [%s].\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:64
+msgid ""
+" -E <title>       : Title of RSS output.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:65
+msgid ""
+" -q               : Don't display progress bar.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:66
+msgid ""
+" -C <apt.conf>    : Additional apt.conf file to use.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:67
+msgid ""
+" -F               : Automatically pin all buggy packages.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:68
+msgid ""
+" -N               : Never automatically pin packages.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:69
+msgid ""
+" -y               : Assume that you select yes for all questions.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:70
+msgid ""
+" -n               : Assume that you select no for all questions.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:71
+msgid ""
+" -d               : Debug.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:72
+msgid ""
+" -h               : Display this help and exit.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:73
+msgid ""
+" -v               : Show version number and exit.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:74
+msgid ""
+"Commands:\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:75
+msgid ""
+" apt              : Apt mode.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:76
+msgid ""
+" list <pkg...>    : List bug reports of the specified packages.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:77
+msgid ""
+" rss <pkg...>     : List bug reports of the specified packages in RSS.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:78
+msgid ""
+"See the manual page for the long options.\n"
+msgstr ""
+
+#. TRANSLATORS: the following six strings refer to a plural quantity of bugs
+#. TRANSLATORS: please note that "Outstanding" means "unresolved", not "exceptional"
+#: ../lib/aptlistbugs/logic.rb:87
+msgid "Outstanding"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:88
+msgid "Forwarded"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:89
+msgid "Pending Upload"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:90
+msgid "Fixed in NMU"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:91
+msgid "From other Branch"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:92
+msgid "Resolved in some Version"
+msgstr ""
+
+#. TRANSLATORS: "W: " is a label for warnings; you may translate it with a suitable abbreviation of the word "warning"
+#: ../lib/aptlistbugs/logic.rb:244 ../lib/aptlistbugs/logic.rb:251
+#: ../lib/aptlistbugs/logic.rb:283 ../lib/aptlistbugs/logic.rb:405
+#: ../lib/aptlistbugs/logic.rb:423 ../lib/aptlistbugs/logic.rb:528
+#: ../lib/aptlistbugs/logic.rb:717 ../lib/aptlistbugs/logic.rb:866
+msgid "W: "
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:244
+msgid "Unrecognized severity '%s' will be ignored by the Debian BTS."
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:247
+msgid "Bugs of severity %s"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:251
+msgid ""
+"sanity check failed: environment variable http_proxy is unset and HTTP_PROXY "
+"is set."
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:283
+msgid "Cannot execute auto proxy detect command %s"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:302
+msgid "You need to specify a command."
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:312
+msgid "Unknown command "
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:423 ../lib/aptlistbugs/logic.rb:717
+msgid "Cannot write to %s"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:442
+msgid "********** on_hold IS DEPRECATED. USE p INSTEAD to use pin **********"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:462
+msgid "Are you sure you want to install/upgrade the above packages?"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:517 ../lib/aptlistbugs/logic.rb:542
+msgid "%s is unknown"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:528
+msgid "Failed to invoke querybts."
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:533
+msgid "You must install the reportbug package to be able to do this"
+msgstr ""
+
+#. TRANSLATORS: "ignored" refers to one singular bug
+#: ../lib/aptlistbugs/logic.rb:554
+msgid "%s ignored"
+msgstr ""
+
+#. TRANSLATORS: "ignored" refers to one singular bug
+#: ../lib/aptlistbugs/logic.rb:557
+msgid "%s already ignored"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:584
+msgid "You must install a web browser package to be able to do this"
+msgstr ""
+
+#. TRANSLATORS: %{plist} is a comma-separated list of %{npkgs} packages to be pinned or put on hold.
+#: ../lib/aptlistbugs/logic.rb:617
+msgid ""
+"The following %{npkgs} package will be pinned or on hold:\n"
+" %{plist}\n"
+"Are you sure?"
+msgid_plural ""
+"The following %{npkgs} packages will be pinned or on hold:\n"
+" %{plist}\n"
+"Are you sure?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/aptlistbugs/logic.rb:631
+msgid "All selected packages are already pinned or on hold. Ignoring %s command."
+msgstr ""
+
+#. TRANSLATORS: the dashes (-) in the following strings are vertically aligned, please keep their alignment consistent
+#: ../lib/aptlistbugs/logic.rb:639
+msgid ""
+"     y     - continue the APT installation, but do not mark the bugs\n"
+"             as ignored.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:640
+msgid ""
+"     a     - continue the APT installation and mark all the above bugs\n"
+"             as ignored.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:643
+msgid ""
+"     n     - stop the APT installation.\n"
+msgstr ""
+
+#. TRANSLATORS: %{prog} is the name of a program, %{user} is a user name.
+#: ../lib/aptlistbugs/logic.rb:647
+msgid ""
+"   <num>   - query the specified bug number\n"
+"             (uses %{prog} as user %{user}).\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:650
+msgid ""
+"  #<num>   - same as <num>.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:651
+msgid ""
+"   b<id>   - same as <num>, but query the bug identified by <id>.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:654
+msgid ""
+"     r     - redisplay bug lists.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:655
+msgid ""
+" p <pkg..> - pin pkgs (restart APT session to enable).\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:656
+msgid ""
+" p         - pin all the above pkgs (restart APT session to enable).\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:657
+msgid ""
+" i <num>   - mark bug number <num> as ignored.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:658
+msgid ""
+" i b<id>   - mark the bug identified by <id> as ignored.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:659
+msgid ""
+"     ?     - print this help.\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:661
+msgid ""
+"     w     - display bug lists in HTML\n"
+"             (uses %{prog} as user %{user}).\n"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:683
+msgid ""
+"None of the above bugs is assigned to package %s\n"
+"Are you sure you want to pin it?"
+msgstr ""
+
+#. TRANSLATORS: %{packgl} is a list of packages, %{filenm} is a file name.
+#: ../lib/aptlistbugs/logic.rb:709
+msgid ""
+"%{packgl} pinned by adding Pin preferences in %{filenm}. Restart APT session "
+"to enable"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:729
+msgid "%s held. Restart APT session to enable"
+msgstr ""
+
+#. TRANSLATORS: %{sevty} is the severity of some of the bugs found for package %{packg}.
+#: ../lib/aptlistbugs/logic.rb:751
+msgid "%{sevty} bugs of %{packg} ("
+msgstr ""
+
+#. TRANSLATORS: "Found" refers to one singular bug
+#: ../lib/aptlistbugs/logic.rb:764
+msgid " (Found: %s)"
+msgstr ""
+
+#. TRANSLATORS: "Fixed" refers to one singular bug
+#: ../lib/aptlistbugs/logic.rb:766
+msgid " (Fixed: %s)"
+msgstr ""
+
+#. TRANSLATORS: "Merged" refers to one singular bug
+#: ../lib/aptlistbugs/logic.rb:770 ../lib/aptlistbugs/logic.rb:927
+msgid "   Merged with:"
+msgstr ""
+
+#. TRANSLATORS: %{nbugs} is the number of bugs found for package %{packg}.
+#: ../lib/aptlistbugs/logic.rb:785
+msgid "%{packg}(%{nbugs} bug)"
+msgid_plural "%{packg}(%{nbugs} bugs)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/aptlistbugs/logic.rb:792
+msgid ""
+"Summary:\n"
+" "
+msgstr ""
+
+#. TRANSLATORS: this is a summary description of the structure of a table (for accessibility)
+#: ../lib/aptlistbugs/logic.rb:805
+msgid ""
+"The top row describes the meaning of the columns; the other rows describe bug "
+"reports, one per row"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:810 ../lib/aptlistbugs/logic.rb:921
+msgid "package"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:811
+msgid "version change"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:812 ../lib/aptlistbugs/logic.rb:922
+msgid "severity"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:813 ../lib/aptlistbugs/logic.rb:920
+msgid "bug number"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:814
+msgid "description"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:832 ../lib/aptlistbugs/logic.rb:835
+msgid "Relevant bugs for your upgrade"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:836
+msgid "by apt-listbugs"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:866
+msgid "Failed to invoke browser."
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:923
+msgid "category of bugs"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:924
+msgid "tags"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:956 ../lib/aptlistbugs/logic.rb:1044
+#: ../lib/aptlistbugs/logic.rb:1253
+msgid "Done"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:968
+msgid "Not Implemented"
+msgstr ""
+
+#. TRANSLATORS: this sentence, followed by the translation of "Done" (see above) should fit in less than 79 columns to work well with default width terminals
+#: ../lib/aptlistbugs/logic.rb:990 ../lib/aptlistbugs/logic.rb:996
+#: ../lib/aptlistbugs/logic.rb:1041 ../lib/aptlistbugs/logic.rb:1044
+msgid "Retrieving bug reports..."
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:999 ../lib/aptlistbugs/logic.rb:1011
+#: ../lib/aptlistbugs/logic.rb:1023
+msgid " Fail"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1001
+msgid "HTTP GET failed"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1003 ../lib/aptlistbugs/logic.rb:1015
+#: ../lib/aptlistbugs/logic.rb:1033
+msgid "Retry downloading bug information?"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1004 ../lib/aptlistbugs/logic.rb:1016
+#: ../lib/aptlistbugs/logic.rb:1034
+msgid "One package at a time?"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1005 ../lib/aptlistbugs/logic.rb:1017
+#: ../lib/aptlistbugs/logic.rb:1035
+msgid "One bug report at a time?"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1008 ../lib/aptlistbugs/logic.rb:1020
+#: ../lib/aptlistbugs/logic.rb:1038
+msgid "Exiting with error"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1008 ../lib/aptlistbugs/logic.rb:1020
+#: ../lib/aptlistbugs/logic.rb:1038
+msgid "Continue the installation anyway?"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1013
+msgid "Empty stream from SOAP"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1025
+msgid "Error retrieving bug reports from the server with the following error message:"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1028
+msgid ""
+"It appears that your network connection is down. Check network configuration "
+"and try again"
+msgstr ""
+
+#: ../lib/aptlistbugs/logic.rb:1030
+msgid ""
+"It could be because your network is down, or because of broken proxy servers, "
+"or the BTS server itself is down. Check network configuration and try again"
+msgstr ""
+
+#. TRANSLATORS: this sentence, followed by the translation of "Done" (see above) should fit in less than 79 columns to work well with default width terminals
+#: ../lib/aptlistbugs/logic.rb:1219 ../lib/aptlistbugs/logic.rb:1239
+#: ../lib/aptlistbugs/logic.rb:1252 ../lib/aptlistbugs/logic.rb:1253
+msgid "Parsing Found/Fixed information..."
+msgstr ""

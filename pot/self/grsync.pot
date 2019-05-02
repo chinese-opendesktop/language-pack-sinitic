@@ -1,0 +1,567 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: orsoni@gmail.com\n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, c-format
+msgid "\tUnable to save settings!\n"
+msgstr ""
+
+#, c-format
+msgid "%.f%% (%li:%02li elapsed, %li:%02li remaining)"
+msgstr ""
+
+msgid ""
+"(C) Piero Orsoni and others. Released under the GPL.\n"
+"See COPYING for details"
+msgstr ""
+
+#, c-format
+msgid "(ERROR) Can't open config file! Maybe this is the first run?\n"
+msgstr ""
+
+msgid "** Launching AFTER command:\n"
+msgstr ""
+
+msgid "** Launching BEFORE command:\n"
+msgstr ""
+
+msgid "** Launching RSYNC command (simulation mode):\n"
+msgstr ""
+
+msgid "** Launching RSYNC command:\n"
+msgstr ""
+
+msgid ""
+"<span foreground=\"darkgreen\" weight=\"bold\">Completed successfully!</span>"
+msgstr ""
+
+msgid "<span foreground=\"red\" weight=\"bold\">Completed with errors!</span>"
+msgstr ""
+
+msgid "A session named like this already exists"
+msgstr ""
+
+msgid ""
+"A trailing slash on the source directory avoids creating an additional "
+"directory level at the destination.\n"
+"You can think of a trailing / on a source as meaning \"copy the contents of "
+"this directory\" as opposed to \"copy the directory itself and its contents"
+"\".\n"
+"\n"
+"In other words, each of the following commands copies the files in the same "
+"way:\n"
+"\n"
+"\t\t\t rsync -a /src/foo /dest\n"
+"\t\t\t rsync -a /src/foo/ /dest/foo\n"
+msgstr ""
+
+msgid "About trailing slashes"
+msgstr ""
+
+msgid "Add as session set"
+msgstr ""
+
+msgid "Add session"
+msgstr ""
+
+msgid "Additional bug-fixing by Luca Marturana <lucamarturana@gmail.com>"
+msgstr ""
+
+msgid "Additional command line options to pass to the rsync program"
+msgstr ""
+
+msgid "Additional options:"
+msgstr ""
+
+msgid "Advanced options"
+msgstr ""
+
+msgid "Always checksum"
+msgstr ""
+
+msgid "Always compare file contents (by checksum)"
+msgstr ""
+
+msgid "Application icons by Roberto Gadotti <info@kuama.net>"
+msgstr ""
+
+#, c-format
+msgid "Are you sure you want to delete the '%s' session?"
+msgstr ""
+
+msgid "Basic options"
+msgstr ""
+
+msgid ""
+"Brazilian Portuguese translation by Fábio Nogueira <deb-user-ba@ubuntu.com>"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Browse S_ource"
+msgstr ""
+
+msgid "Browse _Destination"
+msgstr ""
+
+msgid "Browse files instead of folders"
+msgstr ""
+
+msgid ""
+"By setting this switch, the browse source and destination buttons will open "
+"a dialog for selecting files instead of folders"
+msgstr ""
+
+msgid "Cannot execute rsync"
+msgstr ""
+
+msgid "Catalan translation by Josep Sànchez <josep.sanchez@ubuntu.cat>"
+msgstr ""
+
+msgid "Check size only, ignore time and checksum"
+msgstr ""
+
+msgid ""
+"Check this box to show an icon of the application in the system tray instead "
+"of the application bar (may not work on Unity environments, like Ubuntu >= "
+"11.4)"
+msgstr ""
+
+msgid "Click here to switch the source with the destination directory"
+msgstr ""
+
+msgid ""
+"Click on this item if you want to run a command after syncing. Can be "
+"useful, for instance, to unmount a filesystem at the end or to do some "
+"cleanup."
+msgstr ""
+
+msgid ""
+"Click on this item if you want to run a command before syncing. Can be "
+"useful, for instance, to mount a filesystem before starting or to do some "
+"cleanup."
+msgstr ""
+
+msgid "Click this button to show the error list"
+msgstr ""
+
+msgid "Click to add a new session"
+msgstr ""
+
+msgid "Click to delete the current session"
+msgstr ""
+
+msgid "Click to open the file browser"
+msgstr ""
+
+msgid "Compress file data"
+msgstr ""
+
+msgid ""
+"Compress file data when transferring (useful only if at least one side is "
+"remote)"
+msgstr ""
+
+msgid "Copy hardlinks as hardlinks"
+msgstr ""
+
+msgid "Copy symlinks as symlinks"
+msgstr ""
+
+msgid "Create a new session set instead of a normal session"
+msgstr ""
+
+msgid "Croatian translation by Bojan Vondra <bojanvondra@hotmail.com>"
+msgstr ""
+
+msgid "Czech translation by Martin Balajka <m.balajka@gmail.com>"
+msgstr ""
+
+msgid "Delete files in destination which are not present in the source"
+msgstr ""
+
+msgid "Delete on destination"
+msgstr ""
+
+msgid "Destination directory"
+msgstr ""
+
+msgid "Disable recursion"
+msgstr ""
+
+msgid "Do not cross filesystem boundaries"
+msgstr ""
+
+msgid "Do not leave filesystem"
+msgstr ""
+
+msgid "Do not update newer files"
+msgstr ""
+
+msgid "Don't map uid/gid values"
+msgstr ""
+
+msgid "Dutch translation by Frank de Bruijn <f.d.de.bruijn@gmail.com>"
+msgstr ""
+
+msgid "Enable logging"
+msgstr ""
+
+msgid "Enable switch button"
+msgstr ""
+
+msgid "Enter session name you want to create:"
+msgstr ""
+
+msgid "Enter the name of the new session to create"
+msgstr ""
+
+msgid "Enter the rsync command to use, eventually including its full path"
+msgstr ""
+
+msgid "Error list of last rsync run:"
+msgstr ""
+
+#, c-format
+msgid "Error: conflicting arguments\n"
+msgstr ""
+
+msgid "Errors list"
+msgstr ""
+
+msgid ""
+"Execute the \"after\" command only if syncronization had errors.\n"
+"For example can be used to send an email only in the case there was "
+"trouble.\n"
+"Try a command like \"mail -s 'rsync error' you@domain.com\"."
+msgstr ""
+
+msgid "Execute this command after rsync:"
+msgstr ""
+
+msgid "Execute this command before rsync:"
+msgstr ""
+
+msgid "Extra options"
+msgstr ""
+
+msgid "Fast rsync output scrolling"
+msgstr ""
+
+msgid "Free text notes on the current session"
+msgstr ""
+
+msgid "French translation by xavier <ersplus@free.fr>"
+msgstr ""
+
+msgid "Galician translation by Daniel Espinheira <daniel.espinheira@gmail.com>"
+msgstr ""
+
+msgid "German translation by Martin Lettner <m.lettner@gmail.com>"
+msgstr ""
+
+msgid "Global progress"
+msgstr ""
+
+msgid ""
+"Global transfer progress: works only with rsync version 2.6.1 or newer, and "
+"may report wrong values depending on the ability of rsync to estimate the "
+"files to be copied in advance"
+msgstr ""
+
+msgid "Grsync"
+msgstr ""
+
+msgid "Grsync preferences"
+msgstr ""
+
+msgid "Halt on failure"
+msgstr ""
+
+msgid "Hard links are copied as such, do not copy link target file"
+msgstr ""
+
+msgid "Idle"
+msgstr ""
+
+msgid "If checked the subdirectories of the source folder will be ignored"
+msgstr ""
+
+msgid "Ignore existing"
+msgstr ""
+
+msgid "Ignore files which already exist in the destination"
+msgstr ""
+
+msgid "Include these sessions:"
+msgstr ""
+
+msgid "Indonesian translation by Waluyo Adi Siswanto <was.uthm@gmail.com>"
+msgstr ""
+
+msgid "Keep numeric uid/gid instead of mapping user names and group names"
+msgstr ""
+
+msgid "Keep partially transferred files"
+msgstr ""
+
+msgid "Maemo compatibility by Luca Donaggio <donaggio@gmail.com>"
+msgstr ""
+
+msgid "Make a full run (go!)"
+msgstr ""
+
+msgid "Make backups"
+msgstr ""
+
+msgid "Make backups of existing files on the destination"
+msgstr ""
+
+msgid "Notes:"
+msgstr ""
+
+msgid "On rsync error only"
+msgstr ""
+
+msgid "Only update existing files"
+msgstr ""
+
+msgid "Pause/resume rsync run"
+msgstr ""
+
+msgid "Preserve devices"
+msgstr ""
+
+msgid "Preserve group"
+msgstr ""
+
+msgid "Preserve owner"
+msgstr ""
+
+msgid "Preserve permissions"
+msgstr ""
+
+msgid "Preserve time"
+msgstr ""
+
+msgid "Protect remote args"
+msgstr ""
+
+msgid ""
+"Protect remote arguments from shell expansion, Avoids the need to manually "
+"escape remote folders and other options which use file names like --exclude"
+msgstr ""
+
+msgid "Provides workaround for a windows FAT filesystem limitation"
+msgstr ""
+
+msgid "Remember last used session"
+msgstr ""
+
+msgid "Rsync executable:"
+msgstr ""
+
+msgid "Rsync output:"
+msgstr ""
+
+msgid "Rsync process exit status: "
+msgstr ""
+
+msgid "Run as superuser"
+msgstr ""
+
+msgid ""
+"Run rsync with superuser (root, administrator) privileges. Use this if you "
+"need to access system files, for example when doing a full system backup."
+msgstr ""
+
+msgid "Russian translation by Evgenii Terechkov <evg@altlinux.ru>"
+msgstr ""
+
+msgid "S_essions"
+msgstr ""
+
+msgid "S_witch source with destination"
+msgstr ""
+
+msgid ""
+"Select this if you want an additional \"switch source with destination\" "
+"button in the basic options tab"
+msgstr ""
+
+msgid ""
+"Select this if you want rsync output to scroll many lines at a time, in "
+"order to be faster"
+msgstr ""
+
+msgid "Session exported"
+msgstr ""
+
+msgid "Session imported"
+msgstr ""
+
+msgid "Set options"
+msgstr ""
+
+msgid "Show additional information on every changed file"
+msgstr ""
+
+msgid "Show error list when finished"
+msgstr ""
+
+msgid "Show itemized changes list"
+msgstr ""
+
+msgid "Show more information"
+msgstr ""
+
+msgid "Show rsync output by default"
+msgstr ""
+
+msgid "Show transfer progress"
+msgstr ""
+
+msgid ""
+"Show what would have been done, but actually do nothing (\"dry-run\" in "
+"rsync language)"
+msgstr ""
+
+msgid "Simplified Chinese translation by Xie Yanbo <xieyanbo@gmail.com>"
+msgstr ""
+
+msgid "Simulation in progress"
+msgstr ""
+
+msgid "Size only"
+msgstr ""
+
+msgid "Skip newer"
+msgstr ""
+
+msgid "Source and Destination:"
+msgstr ""
+
+msgid "Source directory"
+msgstr ""
+
+msgid "Spanish translation by Ibon Castilla Varela <estri@euskalnet.net>"
+msgstr ""
+
+msgid "Stops rsync and closes the window"
+msgstr ""
+
+msgid "Swedish translation by Daniel Nylander <info@danielnylander.se>"
+msgstr ""
+
+msgid "Symbolic links are copied as such, do not copy link target file"
+msgstr ""
+
+msgid "Synchronize files and folders (a GTK GUI for rsync)."
+msgstr ""
+
+msgid "The session you specified on the command line doesn't exists"
+msgstr ""
+
+msgid "This session name is reserved, you cannot call it like this"
+msgstr ""
+
+msgid ""
+"Traditional Chinese translation by Wei-Lun Chao <bluebat@member.fsf.org>"
+msgstr ""
+
+msgid "Transfer progress of current file"
+msgstr ""
+
+msgid "Turkish translation by Doruk Fisek <dfisek@fisek.com.tr>"
+msgstr ""
+
+msgid ""
+"Unable to execute the rsync command line tool. It is needed by this program. "
+"You may need to install the rsync package or make it available in the "
+"default executable search PATH. See file/preferences to change the default "
+"rsync executable command."
+msgstr ""
+
+msgid "Use tray icon"
+msgstr ""
+
+msgid "Verbose"
+msgstr ""
+
+msgid ""
+"Wether to show rsync output by default or hide it (show graphical "
+"information only)"
+msgstr ""
+
+msgid ""
+"When rsync has finished, show all the errors encountered in a separate window"
+msgstr ""
+
+msgid ""
+"When running the \"before\" command, if it fails for some reason, don't run "
+"rsync and halt"
+msgstr ""
+
+msgid "Whether to load the last used session at startup or use the default one"
+msgstr ""
+
+msgid ""
+"Whether to save rsync output to a log file, named like the session, which "
+"will be located in the grsync directory (usually \".grsync\" into your user "
+"home)"
+msgstr ""
+
+msgid "Windows compatibility"
+msgstr ""
+
+msgid "Written by Piero Orsoni <orsoni@gmail.com>"
+msgstr ""
+
+msgid "You cannot delete the default session"
+msgstr ""
+
+msgid "_Contribute"
+msgstr ""
+
+msgid "_Export"
+msgstr ""
+
+msgid "_File"
+msgstr ""
+
+msgid "_Help"
+msgstr ""
+
+msgid "_Import"
+msgstr ""
+
+msgid "_Rsync command line"
+msgstr ""
+
+msgid "_Rsync info"
+msgstr ""
+
+msgid "_Simulate"
+msgstr ""
+
+msgid "_Simulation"
+msgstr ""
+
+msgid "rsync"
+msgstr ""

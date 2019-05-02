@@ -1,0 +1,3186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: eduardo@kalinowski.com.br\n"
+"POT-Creation-Date: 2017-12-25 11:11-0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../src/main.c:63
+msgid "Outputs version information and exits"
+msgstr ""
+
+#: ../src/main.c:65
+msgid "Directory to store settings and saved worlds"
+msgstr ""
+
+#: ../src/main.c:65
+msgid "DIR"
+msgstr ""
+
+#: ../src/main.c:67
+msgid ""
+"Dumps all data received from (after decompression, if appropriate) to the "
+"file"
+msgstr ""
+
+#: ../src/main.c:68 ../src/main.c:71
+msgid "FILE"
+msgstr ""
+
+#: ../src/main.c:70
+msgid "Dumps all data received (possibly compressed) to the file"
+msgstr ""
+
+#. Parse command-line options
+#: ../src/main.c:101
+msgid "[WORLD...]"
+msgstr ""
+
+#: ../src/main.c:108
+#, c-format
+msgid "Written by Eduardo M Kalinowski (eduardo@kalinowski.com.br)\n"
+msgstr ""
+
+#: ../src/main.c:113
+#, c-format
+msgid "Could not open dump file %s: %s\n"
+msgstr ""
+
+#: ../src/main.c:120
+#, c-format
+msgid "Could not open raw dump file %s: %s\n"
+msgstr ""
+
+#: ../src/main.c:241
+#, c-format
+msgid "There is one open world. Do you really want to quit?"
+msgid_plural "There are %d open worlds. Do you really want to quit?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/main.c:245
+msgid "Really quit KildClient?"
+msgstr ""
+
+#: ../src/main.c:247
+msgid "_Don't quit"
+msgstr ""
+
+#: ../src/main.c:248 ../src/wndmain.ui:146
+msgid "_Quit"
+msgstr ""
+
+#: ../src/net.c:166 ../src/proxy.c:209
+#, c-format
+msgid "Resolving proxy host %s..."
+msgstr ""
+
+#: ../src/net.c:169
+#, c-format
+msgid "Resolving host %s..."
+msgstr ""
+
+#: ../src/net.c:262 ../src/proxy.c:193
+#, c-format
+msgid "Could not resolve host %s: %s"
+msgstr ""
+
+#: ../src/net.c:290
+#, c-format
+msgid "Attempting to connect to host %s (%s) port %s..."
+msgstr ""
+
+#: ../src/net.c:293
+#, c-format
+msgid "Attempting to connect to proxy host %s (%s) port %s..."
+msgstr ""
+
+#: ../src/net.c:309
+#, c-format
+msgid "Could not create socket: %s"
+msgstr ""
+
+#: ../src/net.c:312
+#, c-format
+msgid "Could not create socket: error #%d"
+msgstr ""
+
+#: ../src/net.c:332
+#, c-format
+msgid "Could not connect to host %s port %s: %s"
+msgstr ""
+
+#: ../src/net.c:342
+#, c-format
+msgid "Could not connect to host %s port %s: error #%d"
+msgstr ""
+
+#: ../src/net.c:398
+#, c-format
+msgid "Unable to connect to host %s: %s."
+msgstr ""
+
+#: ../src/net.c:401
+#, c-format
+msgid "Unable to connect to proxy host %s: %s."
+msgstr ""
+
+#: ../src/net.c:443 ../src/net.c:461
+#, c-format
+msgid "Unable to connect to host %s: error #%d."
+msgstr ""
+
+#: ../src/net.c:446 ../src/net.c:464
+#, c-format
+msgid "Unable to connect to proxy host %s: error #%d."
+msgstr ""
+
+#: ../src/net.c:499
+#, c-format
+msgid "Performing SSL handshake..."
+msgstr ""
+
+#. Fatal error
+#: ../src/net.c:542
+#, c-format
+msgid "SSL handshake failed: %s"
+msgstr ""
+
+#: ../src/net.c:583
+#, c-format
+msgid "SSL handshake took too long."
+msgstr ""
+
+#: ../src/net.c:605 ../src/net.c:1091
+#, c-format
+msgid "Connected to host %s (%s) port %s."
+msgstr ""
+
+#: ../src/net.c:608 ../src/net.c:1094
+#, c-format
+msgid "Connected to host %s port %s, via proxy %s (%s) port %s."
+msgstr ""
+
+#: ../src/net.c:615 ../src/net.c:1067 ../src/net.c:1101
+msgid " SSL enabled."
+msgstr ""
+
+#: ../src/net.c:770
+#, c-format
+msgid "Disconnected from host %s."
+msgstr ""
+
+#: ../src/net.c:838 ../src/net.c:846
+#, c-format
+msgid "Disconnected from host %s: %s."
+msgstr ""
+
+#: ../src/net.c:857
+#, c-format
+msgid "Disconnected from host %s: error #%d."
+msgstr ""
+
+#: ../src/net.c:1055
+#, c-format
+msgid "Connected to host %s (%s) port %s, MCCP version %d enabled."
+msgstr ""
+
+#: ../src/net.c:1059
+#, c-format
+msgid ""
+"Connected to host %s port %s, via proxy %s (%s) port %s, MCCP version %d "
+"enabled."
+msgstr ""
+
+#: ../src/net.c:1177 ../src/we_logging.c:121
+msgid "Not connected."
+msgstr ""
+
+#. success
+#: ../src/proxy.c:57
+msgid "general failure"
+msgstr ""
+
+#: ../src/proxy.c:58
+msgid "connection not allowed by ruleset"
+msgstr ""
+
+#: ../src/proxy.c:59
+msgid "network unreachable"
+msgstr ""
+
+#: ../src/proxy.c:60
+msgid "host unreachable"
+msgstr ""
+
+#: ../src/proxy.c:61
+msgid "connection refused by destination host"
+msgstr ""
+
+#: ../src/proxy.c:62
+msgid "TTL expired"
+msgstr ""
+
+#: ../src/proxy.c:63
+msgid "command not supported / protocol error"
+msgstr ""
+
+#: ../src/proxy.c:64
+msgid "address type not supported"
+msgstr ""
+
+#: ../src/proxy.c:239 ../src/proxy.c:661
+#, c-format
+msgid "Connected to proxy server %s port %s, sending request..."
+msgstr ""
+
+#: ../src/proxy.c:294 ../src/proxy.c:423 ../src/proxy.c:468 ../src/proxy.c:542
+#: ../src/proxy.c:708
+msgid "Error while reading from proxy host."
+msgstr ""
+
+#: ../src/proxy.c:315
+msgid "request rejected or failed"
+msgstr ""
+
+#: ../src/proxy.c:319
+msgid "request failed because identd could not be reached"
+msgstr ""
+
+#: ../src/proxy.c:323
+msgid ""
+"request failed because client's identd could not confirm the user ID string "
+"in the request"
+msgstr ""
+
+#: ../src/proxy.c:327 ../src/proxy.c:568 ../src/proxy.c:724
+#, c-format
+msgid "Proxy request failed: %s."
+msgstr ""
+
+#: ../src/proxy.c:344
+#, c-format
+msgid "Connected to proxy server %s port %s, negotiating authentication..."
+msgstr ""
+
+#: ../src/proxy.c:438
+msgid "No acceptable proxy authentication methods."
+msgstr ""
+
+#: ../src/proxy.c:486
+msgid "Proxy authentication failed."
+msgstr ""
+
+#. Should never happen
+#: ../src/proxy.c:529
+msgid "Unrecognized response from proxy host."
+msgstr ""
+
+#: ../src/proxy.c:563
+msgid "unknown reason code"
+msgstr ""
+
+#: ../src/proxy.c:584
+#, c-format
+msgid "Sending proxy authentication credentials..."
+msgstr ""
+
+#: ../src/proxy.c:623
+#, c-format
+msgid "Sending connection request..."
+msgstr ""
+
+#: ../src/mainwindow.c:162 ../src/mainwindow.c:631 ../src/mainwindow.c:897
+#: ../src/worldgui.c:1128 ../src/worldselector.c:186 ../src/worldeditor.c:178
+#: ../src/we_general.c:334 ../src/we_generic_guied.c:81 ../src/we_triggers.c:83
+#: ../src/we_triggers.c:553 ../src/we_triggers.c:744 ../src/we_aliases.c:76
+#: ../src/we_aliases.c:455 ../src/we_macros.c:79 ../src/we_macros.c:420
+#: ../src/we_timers.c:76 ../src/we_timers.c:458 ../src/we_hooks.c:87
+#: ../src/we_hooks.c:620 ../src/we_vars.c:76 ../src/we_vars.c:362
+#: ../src/prefs.c:106 ../src/triggers.c:277 ../src/multilinesend.c:92
+#: ../src/cmdhistory.c:209 ../src/cmdhistory.c:439
+#, c-format
+msgid "Error loading UI from XML file: %s"
+msgstr ""
+
+#: ../src/mainwindow.c:691 ../src/mainwindow.c:692
+msgid "Not connected"
+msgstr ""
+
+#: ../src/mainwindow.c:833
+msgid ": Not yet active"
+msgstr ""
+
+#: ../src/mainwindow.c:838
+msgid ": Expired"
+msgstr ""
+
+#: ../src/mainwindow.c:852 ../src/kildclient.ui:1898
+#: ../src/dlgStatistics.ui:114 ../src/dlgStatistics.ui:327
+msgid "None"
+msgstr ""
+
+#: ../src/worldgui.c:229
+msgid "_Find:"
+msgstr ""
+
+#: ../src/worldgui.c:243 ../src/wndmain.ui:216 ../src/wndmain.ui:272
+#: ../src/dlgCmdHistory.ui:195
+msgid "Find n_ext"
+msgstr ""
+
+#: ../src/worldgui.c:270
+msgid "Click to clear the command input area."
+msgstr ""
+
+#: ../src/worldgui.c:376
+msgid "No world"
+msgstr ""
+
+#: ../src/worldgui.c:425
+msgid "KildClient ready"
+msgstr ""
+
+#: ../src/worldgui.c:435
+msgid "0 lines"
+msgstr ""
+
+#: ../src/worldgui.c:895
+msgid "Are you sure you want to close this world?"
+msgstr ""
+
+#: ../src/worldgui.c:896
+msgid "Really close?"
+msgstr ""
+
+#: ../src/worldgui.c:898
+msgid "Keep _open"
+msgstr ""
+
+#: ../src/worldgui.c:899 ../src/worldselector.c:799 ../src/worldselector.c:805
+#: ../src/wndmain.ui:82 ../src/dlgPreferences.ui:155
+#: ../src/dlgTestTriggers.ui:41 ../src/dlgCmdHistory.ui:125
+msgid "_Close"
+msgstr ""
+
+#: ../src/worldgui.c:1060
+#, c-format
+msgid "Error setting spell checker: %s\n"
+msgstr ""
+
+#: ../src/worldgui.c:1312
+msgid "Click to open link; right-click for more options."
+msgstr ""
+
+#: ../src/worldgui.c:1478
+msgid "Not found"
+msgstr ""
+
+#: ../src/ansitextview.c:429
+#, c-format
+msgid "%d line"
+msgid_plural "%d lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/worldselector.c:135 ../src/worldselector.c:677
+#, c-format
+msgid "Could not load world from file '%s': %s"
+msgstr ""
+
+#: ../src/worldselector.c:487
+#, c-format
+msgid "Could not open world '%s': %s\n"
+msgstr ""
+
+#: ../src/worldselector.c:530
+#, c-format
+msgid "Invalid argument '%s'\n"
+msgstr ""
+
+#: ../src/worldselector.c:793
+msgid "Disconnected"
+msgstr ""
+
+#: ../src/worldselector.c:796 ../src/worldselector.c:803 ../src/wndmain.ui:58
+msgid "_Reconnect"
+msgstr ""
+
+#: ../src/worldselector.c:797 ../src/worldselector.c:804
+msgid "Connect to _another world"
+msgstr ""
+
+#: ../src/worldselector.c:798
+msgid "_Offline"
+msgstr ""
+
+#: ../src/worlds.c:772
+msgid "Unnamed world"
+msgstr ""
+
+#: ../src/worlds.c:829 ../src/worlds.c:2346 ../src/we_generic_guied.c:311
+#: ../src/prefs.c:431
+#, c-format
+msgid "Could not open file '%s': %s"
+msgstr ""
+
+#: ../src/worlds.c:892
+#, c-format
+msgid "Invalid top-level element '%s'"
+msgstr ""
+
+#: ../src/worlds.c:1695
+#, c-format
+msgid "Internal error: element '%s' ends when in START mode"
+msgstr ""
+
+#: ../src/worlds.c:1964
+#, c-format
+msgid "Invalid key code '%s'"
+msgstr ""
+
+#: ../src/worlds.c:1983
+#, c-format
+msgid "Element '%s' not allowed inside element '%s'"
+msgstr ""
+
+#: ../src/worlds.c:1996
+#, c-format
+msgid "Invalid attribute '%s' for element '%s'"
+msgstr ""
+
+#: ../src/worlds.c:2503
+#, c-format
+msgid "Disconnected from world %s"
+msgstr ""
+
+#: ../src/worldeditor.c:239
+msgid "General"
+msgstr ""
+
+#: ../src/worldeditor.c:247 ../src/worldeditor.c:251
+msgid "Display"
+msgstr ""
+
+#: ../src/worldeditor.c:248
+msgid "Here you can set options to configure the appearance of KildClient."
+msgstr ""
+
+#: ../src/worldeditor.c:259
+msgid "Main window"
+msgstr ""
+
+#: ../src/worldeditor.c:267
+msgid "Colors"
+msgstr ""
+
+#: ../src/worldeditor.c:275
+msgid "Status bar"
+msgstr ""
+
+#: ../src/worldeditor.c:283
+msgid "Input"
+msgstr ""
+
+#: ../src/worldeditor.c:291
+msgid "Logging"
+msgstr ""
+
+#: ../src/worldeditor.c:297 ../src/worldeditor.c:301
+msgid "Automation"
+msgstr ""
+
+#: ../src/worldeditor.c:298
+msgid ""
+"Here you can set options to configure the automation features of KildClient, "
+"such as triggers, aliases, plugins, etc."
+msgstr ""
+
+#: ../src/worldeditor.c:309
+msgid "Scripting"
+msgstr ""
+
+#: ../src/worldeditor.c:317
+msgid "Plugins"
+msgstr ""
+
+#: ../src/worldeditor.c:328
+msgid "Triggers"
+msgstr ""
+
+#: ../src/worldeditor.c:339
+msgid "Aliases"
+msgstr ""
+
+#: ../src/worldeditor.c:350
+msgid "Macros"
+msgstr ""
+
+#: ../src/worldeditor.c:361
+msgid "Timers"
+msgstr ""
+
+#: ../src/worldeditor.c:372
+msgid "Hooks"
+msgstr ""
+
+#: ../src/worldeditor.c:383
+msgid "Variables"
+msgstr ""
+
+#: ../src/worldeditor.c:392
+msgid "Protocols"
+msgstr ""
+
+#: ../src/worldeditor.c:400
+msgid "Advanced"
+msgstr ""
+
+#: ../src/we_general.c:73
+msgid "Character"
+msgstr ""
+
+#: ../src/we_general.c:81
+msgid "Password"
+msgstr ""
+
+#: ../src/we_general.c:373
+msgid "You must specify the name."
+msgstr ""
+
+#: ../src/we_general.c:380
+msgid "You must specify the password."
+msgstr ""
+
+#: ../src/we_general.c:418
+msgid "character"
+msgstr ""
+
+#: ../src/we_logging.c:110 ../src/log.c:104
+#, c-format
+msgid "Logging to file %s."
+msgstr ""
+
+#: ../src/we_logging.c:116
+msgid "Logging is disabled."
+msgstr ""
+
+#: ../src/we_logging.c:209
+msgid "Logging not started"
+msgstr ""
+
+#: ../src/we_logging.c:238
+msgid "Select log file"
+msgstr ""
+
+#: ../src/we_logging.c:241 ../src/we_plugins.c:574 ../src/we_generic_guied.c:97
+#: ../src/we_generic_guied.c:364 ../src/kildclient.ui:64
+#: ../src/kildclient.ui:342 ../src/kildclient.ui:559 ../src/kildclient.ui:682
+#: ../src/kildclient.ui:865 ../src/kildclient.ui:1069 ../src/kildclient.ui:1369
+#: ../src/kildclient.ui:1943 ../src/dlgSelectWorld.ui:43
+#: ../src/dlgEditWorld.ui:132 ../src/dlgMLSend.ui:54
+#: ../src/dlgCmdHistory.ui:348
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/we_logging.c:243 ../src/kildclient.ui:78 ../src/kildclient.ui:356
+#: ../src/kildclient.ui:573 ../src/kildclient.ui:696 ../src/kildclient.ui:879
+#: ../src/kildclient.ui:1083 ../src/kildclient.ui:1383
+#: ../src/kildclient.ui:1957 ../src/dlgStatistics.ui:40
+#: ../src/dlgEditWorld.ui:146 ../src/dlgCmdHistory.ui:362
+msgid "_OK"
+msgstr ""
+
+#: ../src/we_plugins.c:124 ../src/we_plugins.c:336 ../src/we_triggers.c:225
+#: ../src/we_aliases.c:206 ../src/we_macros.c:209 ../src/we_timers.c:206
+#: ../src/we_hooks.c:341 ../src/perlscript.c:3429
+msgid "Name"
+msgstr ""
+
+#: ../src/we_plugins.c:136 ../src/we_plugins.c:378 ../src/perlscript.c:3430
+msgid "Description"
+msgstr ""
+
+#: ../src/we_plugins.c:148 ../src/we_plugins.c:364
+msgid "Author"
+msgstr ""
+
+#: ../src/we_plugins.c:161
+msgid "File"
+msgstr ""
+
+#: ../src/we_plugins.c:205 ../src/we_plugins.c:457
+msgid "Error loading plugin"
+msgstr ""
+
+#: ../src/we_plugins.c:322 ../src/we_triggers.c:211 ../src/we_aliases.c:192
+#: ../src/we_macros.c:195 ../src/we_timers.c:192 ../src/we_hooks.c:327
+msgid "Enabled"
+msgstr ""
+
+#: ../src/we_plugins.c:350
+msgid "Version"
+msgstr ""
+
+#: ../src/we_plugins.c:439
+msgid "Always load this plugin at _startup"
+msgstr ""
+
+#: ../src/we_plugins.c:497
+msgid "The help is displayed in main window."
+msgstr ""
+
+#: ../src/we_plugins.c:498
+msgid "KildClient information"
+msgstr ""
+
+#: ../src/we_plugins.c:499
+msgid "_Do not display this message again"
+msgstr ""
+
+#: ../src/we_plugins.c:571
+msgid "Load plugin"
+msgstr ""
+
+#: ../src/we_plugins.c:576 ../src/we_generic_guied.c:366
+msgid "_Open"
+msgstr ""
+
+#: ../src/we_generic_guied.c:94
+msgid "Export"
+msgstr ""
+
+#: ../src/we_generic_guied.c:99 ../src/wndmain.ui:104
+msgid "_Save"
+msgstr ""
+
+#: ../src/we_generic_guied.c:361
+msgid "Import"
+msgstr ""
+
+#: ../src/we_generic_guied.c:393
+#, c-format
+msgid "Could not import file '%s': %s"
+msgstr ""
+
+#: ../src/we_generic_guied.c:948
+#, c-format
+msgid "Do you really want to delete the %1$s?"
+msgid_plural "Do you really want to delete %2$d %1$s?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/we_generic_guied.c:952 ../src/we_vars.c:282
+msgid "Confirm deletion"
+msgstr ""
+
+#: ../src/we_generic_guied.c:954
+msgid "Do _not delete"
+msgstr ""
+
+#: ../src/we_generic_guied.c:955 ../src/kildclient.ui:1736
+#: ../src/wndmain.ui:194 ../src/dlgSelectWorld.ui:151
+#: ../src/dlgEditWorld.ui:634 ../src/dlgEditWorld.ui:3290
+msgid "_Delete"
+msgstr ""
+
+#: ../src/we_triggers.c:130
+msgid "_Test triggers"
+msgstr ""
+
+#: ../src/we_triggers.c:239 ../src/we_aliases.c:220 ../src/triggers.c:140
+#: ../src/aliases.c:176
+msgid "Pattern"
+msgstr ""
+
+#: ../src/we_triggers.c:257 ../src/we_aliases.c:238
+msgid "Ig. case"
+msgstr ""
+
+#: ../src/we_triggers.c:271 ../src/we_macros.c:237 ../src/we_timers.c:246
+#: ../src/we_hooks.c:355 ../src/triggers.c:141 ../src/macros.c:145
+#: ../src/timers.c:202
+msgid "Action"
+msgstr ""
+
+#: ../src/we_triggers.c:289
+msgid "Gag"
+msgstr ""
+
+#: ../src/we_triggers.c:307
+msgid "Gag log"
+msgstr ""
+
+#: ../src/we_triggers.c:325
+msgid "Keep exec"
+msgstr ""
+
+#: ../src/we_triggers.c:343
+msgid "Rewriter"
+msgstr ""
+
+#: ../src/we_triggers.c:361
+msgid "Style"
+msgstr ""
+
+#: ../src/we_triggers.c:375 ../src/we_aliases.c:284 ../src/we_macros.c:251
+#: ../src/we_timers.c:278 ../src/we_hooks.c:369
+msgid "Plugin"
+msgstr ""
+
+#: ../src/we_triggers.c:470 ../share/kildclient.pl:803
+#: ../share/kildclient.pl:865
+msgid "trigger"
+msgid_plural "triggers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/we_triggers.c:635 ../src/we_aliases.c:516
+msgid "You must specify the pattern."
+msgstr ""
+
+#: ../src/we_triggers.c:643
+msgid ""
+"You must specify the action, unless the trigger is a gag or changes the "
+"style."
+msgstr ""
+
+#: ../src/we_aliases.c:252 ../src/aliases.c:177
+msgid "Substitution"
+msgstr ""
+
+#: ../src/we_aliases.c:270
+msgid "Eval as Perl"
+msgstr ""
+
+#: ../src/we_aliases.c:379 ../share/kildclient.pl:815
+#: ../share/kildclient.pl:866
+msgid "alias"
+msgid_plural "aliases"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/we_aliases.c:523
+msgid "You must specify the substitution."
+msgstr ""
+
+#: ../src/we_macros.c:223 ../src/macros.c:144
+msgid "Key"
+msgstr ""
+
+#: ../src/we_macros.c:346 ../share/kildclient.pl:827 ../share/kildclient.pl:867
+msgid "macro"
+msgid_plural "macros"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/we_macros.c:476
+msgid "You must specify the key."
+msgstr ""
+
+#: ../src/we_macros.c:483
+msgid "Invalid key code."
+msgstr ""
+
+#: ../src/we_macros.c:490 ../src/we_timers.c:523 ../src/we_hooks.c:671
+msgid "You must specify the action."
+msgstr ""
+
+#: ../src/we_timers.c:219
+msgid "Interval"
+msgstr ""
+
+#: ../src/we_timers.c:232
+msgid "Count"
+msgstr ""
+
+#: ../src/we_timers.c:264
+msgid "Temp"
+msgstr ""
+
+#: ../src/we_timers.c:380 ../share/kildclient.pl:839 ../share/kildclient.pl:868
+msgid "timer"
+msgid_plural "timers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/we_timers.c:516
+msgid "The interval must be positive."
+msgstr ""
+
+#. The manually added combo for selecting which hook
+#: ../src/we_hooks.c:130
+msgid "_Event:"
+msgstr ""
+
+#: ../src/we_hooks.c:546 ../share/kildclient.pl:852 ../share/kildclient.pl:869
+msgid "hook"
+msgid_plural "hooks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/we_vars.c:278
+#, c-format
+msgid "Do you really want to make the variable temporary?"
+msgid_plural "Do you really want to make %d variables temporary?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/we_vars.c:284
+msgid "Keep _permanent"
+msgstr ""
+
+#: ../src/we_vars.c:285
+msgid "Make _temporary"
+msgstr ""
+
+#: ../src/we_vars.c:389
+msgid "You must specify a variable name."
+msgstr ""
+
+#: ../src/we_vars.c:395
+#, c-format
+msgid ""
+"Only scalar ($), array (@) and hash (%%) variables can be made permanent."
+msgstr ""
+
+#: ../src/we_vars.c:408
+#, c-format
+msgid "%s is already permanent."
+msgstr ""
+
+#: ../src/prefs.c:387
+#, c-format
+msgid "Invalid window size specification in config file.\n"
+msgstr ""
+
+#: ../src/prefs.c:407
+#, c-format
+msgid "Unknown directive '%s' in config file.\n"
+msgstr ""
+
+#: ../src/prefs.c:501
+#, c-format
+msgid "Could not create directory '%s': %s"
+msgstr ""
+
+#: ../src/parser.c:211
+msgid ""
+"Warning: Trying to send a very long command line. Perhaps a recursive alias "
+"definition?"
+msgstr ""
+
+#: ../src/triggers.c:139
+#, c-format
+msgid "Num Gag GLo Ena KeE ReW IgC Sty %-*.*s %-*.*s\n"
+msgstr ""
+
+#: ../src/triggers.c:161 ../src/triggers.c:162 ../src/triggers.c:163
+#: ../src/triggers.c:164 ../src/triggers.c:165 ../src/triggers.c:166
+#: ../src/triggers.c:167 ../src/aliases.c:197 ../src/aliases.c:198
+#: ../src/aliases.c:199 ../src/macros.c:167 ../src/timers.c:225
+#: ../src/timers.c:226 ../src/hooks.c:206 ../src/perlscript.c:3449
+msgid "y"
+msgstr ""
+
+#: ../src/triggers.c:161 ../src/triggers.c:162 ../src/triggers.c:163
+#: ../src/triggers.c:164 ../src/triggers.c:165 ../src/triggers.c:166
+#: ../src/triggers.c:167 ../src/aliases.c:197 ../src/aliases.c:198
+#: ../src/aliases.c:199 ../src/macros.c:167 ../src/timers.c:225
+#: ../src/timers.c:226 ../src/hooks.c:206 ../src/perlscript.c:3449
+msgid "n"
+msgstr ""
+
+#: ../src/triggers.c:361 ../src/kildclient.ui:1918
+msgid "No"
+msgstr ""
+
+#: ../src/triggers.c:361 ../src/kildclient.ui:1921
+msgid "Yes"
+msgstr ""
+
+#: ../src/aliases.c:175
+#, c-format
+msgid "Num Eval Ena IgC %-*.*s %-*.*s\n"
+msgstr ""
+
+#: ../src/macros.c:143
+#, c-format
+msgid "Num Ena %-*.*s %-*.*s\n"
+msgstr ""
+
+#: ../src/timers.c:194
+msgid "Num Ena Temp Int "
+msgstr ""
+
+#: ../src/timers.c:198
+msgid "Count "
+msgstr ""
+
+#: ../src/permanentvariables.c:115
+#, c-format
+msgid ""
+"Could not open file '%s': %s\n"
+"Variables were not saved."
+msgstr ""
+
+#: ../src/hooks.c:60 ../src/hooks.c:442
+#, c-format
+msgid "hook: Invalid event '%s'\n"
+msgstr ""
+
+#: ../src/hooks.c:76 ../src/hooks.c:225 ../share/kildclient.pl:885
+msgid "No such hook"
+msgstr ""
+
+#: ../src/hooks.c:191
+#, c-format
+msgid "Hooks for '%s':\n"
+msgstr ""
+
+#: ../src/hooks.c:192
+msgid "Num Ena Action"
+msgstr ""
+
+#: ../src/hooks.c:230
+#, c-format
+msgid ""
+"Hook number %d for event %s\n"
+"  Name:    %s\n"
+"  Action:  %s\n"
+"  Enabled: %s\n"
+msgstr ""
+
+#: ../src/hooks.c:236 ../src/perlscript.c:1769 ../src/perlscript.c:2272
+#: ../src/perlscript.c:2582 ../src/perlscript.c:2870
+msgid "Not set"
+msgstr ""
+
+#: ../src/hooks.c:238 ../src/perlscript.c:1772 ../src/perlscript.c:1773
+#: ../src/perlscript.c:1774 ../src/perlscript.c:1775 ../src/perlscript.c:1776
+#: ../src/perlscript.c:1777 ../src/perlscript.c:1778 ../src/perlscript.c:2275
+#: ../src/perlscript.c:2276 ../src/perlscript.c:2277 ../src/perlscript.c:2585
+#: ../src/perlscript.c:2874 ../src/perlscript.c:2875 ../src/perlscript.c:3487
+msgid "yes"
+msgstr ""
+
+#: ../src/hooks.c:238 ../src/perlscript.c:1772 ../src/perlscript.c:1773
+#: ../src/perlscript.c:1774 ../src/perlscript.c:1775 ../src/perlscript.c:1776
+#: ../src/perlscript.c:1777 ../src/perlscript.c:1778 ../src/perlscript.c:2275
+#: ../src/perlscript.c:2276 ../src/perlscript.c:2277 ../src/perlscript.c:2585
+#: ../src/perlscript.c:2874 ../src/perlscript.c:2875 ../src/perlscript.c:3487
+msgid "no"
+msgstr ""
+
+#: ../src/log.c:121
+msgid "File name not specified."
+msgstr ""
+
+#: ../src/log.c:187
+#, c-format
+msgid "Could not open log file: %s."
+msgstr ""
+
+#: ../src/plugins.c:101 ../src/plugins.c:160
+#, c-format
+msgid "Failed loading file %s: %s"
+msgstr ""
+
+#: ../src/cmdhistory.c:273
+msgid "No command selected."
+msgstr ""
+
+#: ../src/cmdhistory.c:277
+msgid "More than one command selected."
+msgstr ""
+
+#: ../src/cmdhistory.c:466
+msgid "Enter some text to search for."
+msgstr ""
+
+#: ../src/cmdhistory.c:491
+msgid "Use the Find button to find the first result."
+msgstr ""
+
+#: ../src/cmdhistory.c:540
+msgid "Command not found."
+msgstr ""
+
+#: ../src/util.c:180
+msgid "KildClient error"
+msgstr ""
+
+#: ../src/perlscript.c:509 ../src/perlscript.c:515 ../src/perlscript.c:522
+msgid "Invalid function call: syntax is $world->FUNCTION"
+msgstr ""
+
+#: ../src/perlscript.c:706 ../src/perlscript.c:723 ../src/perlscript.c:785
+#: ../src/perlscript.c:818 ../src/perlscript.c:1224 ../src/perlscript.c:1287
+#: ../src/perlscript.c:1389 ../src/perlscript.c:1409 ../src/perlscript.c:1433
+#: ../src/perlscript.c:1461 ../src/perlscript.c:1470 ../src/perlscript.c:2010
+#: ../src/perlscript.c:2019 ../src/perlscript.c:2198 ../src/perlscript.c:2373
+#: ../src/perlscript.c:2382 ../src/perlscript.c:2661 ../src/perlscript.c:2670
+#: ../src/perlscript.c:2945 ../src/perlscript.c:2999 ../src/perlscript.c:3044
+#: ../src/perlscript.c:3109 ../src/perlscript.c:3120 ../src/perlscript.c:3212
+#: ../src/perlscript.c:3536 ../src/kcwin.c:96
+#, c-format
+msgid "%s: Too few arguments"
+msgstr ""
+
+#: ../src/perlscript.c:751
+#, c-format
+msgid "%s: Argument must be numeric"
+msgstr ""
+
+#: ../src/perlscript.c:799 ../src/perlscript.c:831
+#, c-format
+msgid "%s: No such world"
+msgstr ""
+
+#: ../src/perlscript.c:866
+msgid "World saved."
+msgstr ""
+
+#: ../src/perlscript.c:1120 ../src/perlscript.c:1135 ../src/perlscript.c:1145
+#: ../src/perlscript.c:1345 ../share/kildclient.pl:1324
+#, c-format, perl-format
+msgid "%s: This is an internal function, do not call directly."
+msgstr ""
+
+#: ../src/perlscript.c:1124 ../src/perlscript.c:1592 ../src/perlscript.c:2121
+#: ../src/perlscript.c:2497 ../src/perlscript.c:2691 ../src/perlscript.c:3173
+#, c-format
+msgid "%s: Wrong argument type"
+msgstr ""
+
+#: ../src/perlscript.c:1355 ../src/perlscript.c:1361
+#, c-format
+msgid "Protocol %s not enabled."
+msgstr ""
+
+#: ../src/perlscript.c:1366 ../share/kildclient.pl:1166
+msgid "Unknown protocol"
+msgstr ""
+
+#: ../src/perlscript.c:1484 ../src/perlscript.c:1752 ../share/kildclient.pl:881
+msgid "No such trigger"
+msgstr ""
+
+#: ../src/perlscript.c:1502 ../src/perlscript.c:2051 ../src/perlscript.c:2426
+#: ../src/perlscript.c:3132
+#, c-format
+msgid "%s: Too many string arguments"
+msgstr ""
+
+#: ../src/perlscript.c:1525 ../src/perlscript.c:2074
+#, c-format
+msgid "%s: Pattern given twice, using the named attribute one"
+msgstr ""
+
+#: ../src/perlscript.c:1537 ../src/perlscript.c:2475 ../src/perlscript.c:3152
+#, c-format
+msgid "%s: Action given twice, using the named attribute one"
+msgstr ""
+
+#: ../src/perlscript.c:1583 ../src/perlscript.c:2112 ../src/perlscript.c:2488
+#: ../src/perlscript.c:3165
+#, c-format
+msgid "%s: Wrong type of reference"
+msgstr ""
+
+#: ../src/perlscript.c:1603
+#, c-format
+msgid "%s: Pattern not specified, not creating"
+msgstr ""
+
+#: ../src/perlscript.c:1612
+#, c-format
+msgid "%s: Action not specified, and isn't gag, not creating"
+msgstr ""
+
+#: ../src/perlscript.c:1641
+msgid "Trigger added."
+msgstr ""
+
+#: ../src/perlscript.c:1646
+msgid "Trigger modified."
+msgstr ""
+
+#: ../src/perlscript.c:1671
+#, c-format
+msgid "%s: Invalid target"
+msgstr ""
+
+#: ../src/perlscript.c:1681
+#, c-format
+msgid "%s: Invalid fg color"
+msgstr ""
+
+#: ../src/perlscript.c:1691
+#, c-format
+msgid "%s: Invalid bg color"
+msgstr ""
+
+#: ../src/perlscript.c:1701
+#, c-format
+msgid "%s: Invalid underline style"
+msgstr ""
+
+#: ../src/perlscript.c:1757
+#, c-format
+msgid ""
+"Trigger number %d\n"
+"  Name:           %s\n"
+"  Pattern:        %s\n"
+"  Action:         %s\n"
+"  Enabled:        %s\n"
+"  Ignore case:    %s\n"
+"  Gag output:     %s\n"
+"  Gag in log:     %s\n"
+"  Keep executing: %s\n"
+"  Rewriter:       %s\n"
+"  Change style:   %s\n"
+msgstr ""
+
+#: ../src/perlscript.c:1781
+#, c-format
+msgid ""
+"    Target:       %d\n"
+"    Foreground:   %d\n"
+"    Background:   %d\n"
+"    Italics:      %d\n"
+"    Striked-thru: %d\n"
+"    Underline:    %d\n"
+msgstr ""
+
+#: ../src/perlscript.c:2033 ../src/perlscript.c:2259 ../share/kildclient.pl:882
+msgid "No such alias"
+msgstr ""
+
+#: ../src/perlscript.c:2086
+#, c-format
+msgid "%s: Substitution given twice, using the named attribute one"
+msgstr ""
+
+#: ../src/perlscript.c:2132
+msgid "alias: Not creating alias without pattern"
+msgstr ""
+
+#: ../src/perlscript.c:2140
+msgid "alias: Not creating alias without substitution"
+msgstr ""
+
+#: ../src/perlscript.c:2168
+msgid "Alias added."
+msgstr ""
+
+#: ../src/perlscript.c:2173
+msgid "Alias modified."
+msgstr ""
+
+#: ../src/perlscript.c:2264
+#, c-format
+msgid ""
+"Alias number %d\n"
+"  Name:         %s\n"
+"  Pattern:      %s\n"
+"  Substitution: %s\n"
+"  Ignore case:  %s\n"
+"  Eval as Perl: %s\n"
+"  Enabled:      %s\n"
+msgstr ""
+
+#: ../src/perlscript.c:2344
+msgid "Press a key to get its keycode."
+msgstr ""
+
+#: ../src/perlscript.c:2396 ../src/perlscript.c:2570 ../share/kildclient.pl:883
+msgid "No such macro"
+msgstr ""
+
+#: ../src/perlscript.c:2415 ../src/perlscript.c:2463
+#, c-format
+msgid "%s: Invalid key code"
+msgstr ""
+
+#: ../src/perlscript.c:2452
+#, c-format
+msgid "%s: Keycode given twice, using the named attribute one"
+msgstr ""
+
+#: ../src/perlscript.c:2508
+#, c-format
+msgid "%s: Keycode not specified, not creating"
+msgstr ""
+
+#: ../src/perlscript.c:2515 ../src/perlscript.c:2782
+#, c-format
+msgid "%s: Action not specified, not creating"
+msgstr ""
+
+#: ../src/perlscript.c:2534
+msgid "Macro added."
+msgstr ""
+
+#: ../src/perlscript.c:2539
+msgid "Macro modified."
+msgstr ""
+
+#: ../src/perlscript.c:2576
+#, c-format
+msgid ""
+"Macro number %d\n"
+"  Name:     %s\n"
+"  Key code: %s\n"
+"  Action:   %s\n"
+"  Enabled:  %s\n"
+msgstr ""
+
+#: ../src/perlscript.c:2685 ../src/perlscript.c:2857 ../share/kildclient.pl:884
+msgid "No such timer"
+msgstr ""
+
+#: ../src/perlscript.c:2710
+#, c-format
+msgid "%s: Interval must be numeric"
+msgstr ""
+
+#: ../src/perlscript.c:2723
+#, c-format
+msgid "%s: Count must be numeric"
+msgstr ""
+
+#: ../src/perlscript.c:2754
+#, c-format
+msgid "%s: Interval not specified, not creating"
+msgstr ""
+
+#: ../src/perlscript.c:2761
+#, c-format
+msgid "%s: Cannot create timer with negative interval"
+msgstr ""
+
+#: ../src/perlscript.c:2822
+msgid "Timer added."
+msgstr ""
+
+#: ../src/perlscript.c:2827
+msgid "Timer modified."
+msgstr ""
+
+#: ../src/perlscript.c:2862
+#, c-format
+msgid ""
+"Timer number %d\n"
+"  Name:         %s\n"
+"  Interval:     %.3f\n"
+"  Repeat count: %d\n"
+"  Action:       %s\n"
+"  Enabled:      %s\n"
+"  Temporary:    %s\n"
+msgstr ""
+
+#: ../src/perlscript.c:2953
+#, c-format
+msgid ""
+"%s: Only scalar ($), array (@) and hash (%%) variables can be made permanent"
+msgstr ""
+
+#: ../src/perlscript.c:2962
+#, c-format
+msgid "%s: %s is already permanent"
+msgstr ""
+
+#: ../src/perlscript.c:2976
+#, c-format
+msgid "%s: Variable '%s' made permanent.\n"
+msgstr ""
+
+#: ../src/perlscript.c:3018
+#, c-format
+msgid "%s: Variable '%s' made temporary.\n"
+msgstr ""
+
+#: ../src/perlscript.c:3022
+#, c-format
+msgid "%s: %s is not permanent"
+msgstr ""
+
+#: ../src/perlscript.c:3075
+msgid "Permanent variables"
+msgstr ""
+
+#: ../src/perlscript.c:3187
+msgid "Hook defined."
+msgstr ""
+
+#: ../src/perlscript.c:3191
+msgid "Hook modified."
+msgstr ""
+
+#: ../src/perlscript.c:3296
+msgid "Logging stopped."
+msgstr ""
+
+#: ../src/perlscript.c:3428
+#, c-format
+msgid "Num Ena %-*.*s Version %-*.*s\n"
+msgstr ""
+
+#: ../src/perlscript.c:3471
+msgid "No such plugin"
+msgstr ""
+
+#: ../src/perlscript.c:3476
+#, c-format
+msgid ""
+"Plugin number %d\n"
+"  Name:        %s\n"
+"  Version:     %s\n"
+"  Description: %s\n"
+"  Author:      %s\n"
+"  Enabled:     %s\n"
+msgstr ""
+
+#: ../src/kildclient.ui:48
+msgid "Edit timer"
+msgstr ""
+
+#: ../src/kildclient.ui:107 ../src/kildclient.ui:385 ../src/kildclient.ui:602
+#: ../src/kildclient.ui:747 ../src/kildclient.ui:908 ../src/kildclient.ui:1112
+#: ../src/dlgEditWorld.ui:229 ../src/dlgEditWorld.ui:2855
+msgid "_Name:"
+msgstr ""
+
+#: ../src/kildclient.ui:120
+msgid "Enter optionally a descriptive name for the timer"
+msgstr ""
+
+#: ../src/kildclient.ui:132
+msgid "_Interval:"
+msgstr ""
+
+#: ../src/kildclient.ui:149
+msgid "Specify the interval, in seconds, between timer activations"
+msgstr ""
+
+#: ../src/kildclient.ui:165
+msgid "seconds"
+msgstr ""
+
+#: ../src/kildclient.ui:183
+msgid "_Repeat count:"
+msgstr ""
+
+#: ../src/kildclient.ui:200
+msgid ""
+"Specify how many times this timer should run before being disabled or deleted"
+msgstr ""
+
+#: ../src/kildclient.ui:215
+msgid "(-1 to repeat indefinitely)"
+msgstr ""
+
+#: ../src/kildclient.ui:233 ../src/kildclient.ui:772 ../src/kildclient.ui:970
+#: ../src/kildclient.ui:1173
+msgid "_Action:"
+msgstr ""
+
+#: ../src/kildclient.ui:246
+msgid "Enter the action to be executed whenever the timer fires"
+msgstr ""
+
+#: ../src/kildclient.ui:256
+msgid ""
+"_Temporary (will be deleted automatically when its repeat count reaches 0)"
+msgstr ""
+
+#: ../src/kildclient.ui:259
+msgid "Check to have the timer deleted after its repeat count has reached 0"
+msgstr ""
+
+#: ../src/kildclient.ui:271 ../src/kildclient.ui:485 ../src/kildclient.ui:795
+#: ../src/kildclient.ui:993 ../src/kildclient.ui:1297
+msgid "_Enabled"
+msgstr ""
+
+#: ../src/kildclient.ui:274
+msgid "Check to make the timer enabled; only enabled timers are run"
+msgstr ""
+
+#: ../src/kildclient.ui:287 ../src/kildclient.ui:501 ../src/kildclient.ui:811
+#: ../src/kildclient.ui:1009 ../src/kildclient.ui:1313
+msgid "<b>Note:</b>"
+msgstr ""
+
+#: ../src/kildclient.ui:299 ../src/kildclient.ui:513 ../src/kildclient.ui:823
+#: ../src/kildclient.ui:1021 ../src/kildclient.ui:1325
+msgid ""
+"This object belongs to a plugin. Changes made here <b>will not</b> be saved "
+"in the plugin."
+msgstr ""
+
+#: ../src/kildclient.ui:326
+msgid "Edit alias"
+msgstr ""
+
+#: ../src/kildclient.ui:398
+msgid "Enter optionally a descriptive name for the alias"
+msgstr ""
+
+#: ../src/kildclient.ui:410 ../src/kildclient.ui:1136
+msgid "_Pattern:"
+msgstr ""
+
+#: ../src/kildclient.ui:423
+msgid "Enter the pattern to match against typed commands"
+msgstr ""
+
+#: ../src/kildclient.ui:433 ../src/kildclient.ui:1159
+msgid "_Ignore case when matching"
+msgstr ""
+
+#: ../src/kildclient.ui:447
+msgid "_Substitution:"
+msgstr ""
+
+#: ../src/kildclient.ui:460
+msgid "Enter the substitution to be executed"
+msgstr ""
+
+#: ../src/kildclient.ui:470
+msgid "E_val substitution as Perl statement"
+msgstr ""
+
+#: ../src/kildclient.ui:473
+msgid "Check to have the substitution be executed in a s///e construction"
+msgstr ""
+
+#: ../src/kildclient.ui:488
+msgid "Check to make the alias enabled; only enabled aliases are tried"
+msgstr ""
+
+#: ../src/kildclient.ui:543
+msgid "Edit character information"
+msgstr ""
+
+#: ../src/kildclient.ui:615
+msgid "Enter the character's name for automatic login"
+msgstr ""
+
+#: ../src/kildclient.ui:627
+msgid "_Password:"
+msgstr ""
+
+#: ../src/kildclient.ui:640
+msgid "Enter the character's password for automatic login"
+msgstr ""
+
+#: ../src/kildclient.ui:666
+msgid "Edit hook"
+msgstr ""
+
+#: ../src/kildclient.ui:725
+msgid "Event:"
+msgstr ""
+
+#: ../src/kildclient.ui:760
+msgid "Enter optionally a descriptive name for the hook"
+msgstr ""
+
+#: ../src/kildclient.ui:785
+msgid "Enter the action to be run when the event happens"
+msgstr ""
+
+#: ../src/kildclient.ui:798
+msgid "Check to make the hook enabled; only enabled hooks are run"
+msgstr ""
+
+#: ../src/kildclient.ui:850
+msgid "Edit macro"
+msgstr ""
+
+#: ../src/kildclient.ui:921
+msgid "Enter optionally a descriptive name for the macro"
+msgstr ""
+
+#: ../src/kildclient.ui:933
+msgid "_Key:"
+msgstr ""
+
+#: ../src/kildclient.ui:946
+msgid "Press the key that will be used to run the macro"
+msgstr ""
+
+#: ../src/kildclient.ui:958
+msgid ""
+"Press the key that will be used to activate the macro while the cursor is in "
+"the text box."
+msgstr ""
+
+#: ../src/kildclient.ui:983
+msgid "Enter the action to be run when the key is pressed"
+msgstr ""
+
+#: ../src/kildclient.ui:996
+msgid "Check to make the macro enabled; only enabled macros are run"
+msgstr ""
+
+#: ../src/kildclient.ui:1050 ../src/kildclient.ui:1927
+msgid "Enter optionally a descriptive name for the trigger"
+msgstr ""
+
+#: ../src/kildclient.ui:1052
+msgid "Edit trigger"
+msgstr ""
+
+#: ../src/kildclient.ui:1149
+msgid "Enter the pattern to match against received lines"
+msgstr ""
+
+#: ../src/kildclient.ui:1186
+msgid "Enter the action that will be run when a match happens"
+msgstr ""
+
+#: ../src/kildclient.ui:1196
+msgid "Omit (_gag) from output"
+msgstr ""
+
+#: ../src/kildclient.ui:1199
+msgid "Check to make the matched line not be printed in the main output window"
+msgstr ""
+
+#: ../src/kildclient.ui:1211
+msgid "Omit (gag) from _log file"
+msgstr ""
+
+#: ../src/kildclient.ui:1214
+msgid "Check to make the matched line not be printed in the log file"
+msgstr ""
+
+#: ../src/kildclient.ui:1226
+msgid "_Keep executing other triggers after this this one matches"
+msgstr ""
+
+#: ../src/kildclient.ui:1229
+msgid ""
+"Check to make this trigger not prevent further triggers from being tried, if "
+"it matches"
+msgstr ""
+
+#: ../src/kildclient.ui:1241
+msgid "_Rewriter trigger"
+msgstr ""
+
+#: ../src/kildclient.ui:1244
+msgid "Check to make this trigger a rewriter trigger"
+msgstr ""
+
+#: ../src/kildclient.ui:1260
+msgid "C_hange style"
+msgstr ""
+
+#: ../src/kildclient.ui:1275
+msgid "C_onfigure..."
+msgstr ""
+
+#: ../src/kildclient.ui:1300
+msgid "Check to make the trigger enabled; only enabled triggers are tried"
+msgstr ""
+
+#: ../src/kildclient.ui:1355
+msgid "Permenent variable"
+msgstr ""
+
+#: ../src/kildclient.ui:1411
+msgid "_Name of variable to make permanent:"
+msgstr ""
+
+#: ../src/kildclient.ui:1425
+msgid ""
+"Enter the name of a scalar ($), array (@) or hash (%) variable whose "
+"contents are to be saved between sessions of the world"
+msgstr ""
+
+#: ../src/kildclient.ui:1467
+msgid "_Triggers"
+msgstr ""
+
+#: ../src/kildclient.ui:1480
+msgid "_Aliases"
+msgstr ""
+
+#: ../src/kildclient.ui:1493
+msgid "_Macros"
+msgstr ""
+
+#: ../src/kildclient.ui:1506
+msgid "T_imers"
+msgstr ""
+
+#: ../src/kildclient.ui:1519
+msgid "_Permanent variables"
+msgstr ""
+
+#: ../src/kildclient.ui:1532
+msgid "OnCo_nnect hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1545
+msgid "On_Disconnect hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1558
+msgid "On_ReceivedText hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1571
+msgid "On_SentCommand hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1584
+msgid "On_GetFocus hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1597
+msgid "On_LoseFocus hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1610
+msgid "OnClos_eConnected hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1623
+msgid "OnSer_verData hooks"
+msgstr ""
+
+#: ../src/kildclient.ui:1648
+msgid "Items to e_xport"
+msgstr ""
+
+#: ../src/kildclient.ui:1709 ../src/dlgSelectWorld.ui:125
+#: ../src/dlgEditWorld.ui:604
+msgid "_New"
+msgstr ""
+
+#: ../src/kildclient.ui:1722 ../src/wndmain.ui:158 ../src/dlgSelectWorld.ui:138
+#: ../src/dlgEditWorld.ui:619
+msgid "_Edit"
+msgstr ""
+
+#: ../src/kildclient.ui:1750
+msgid "_Import"
+msgstr ""
+
+#: ../src/kildclient.ui:1763
+msgid "E_xport"
+msgstr ""
+
+#: ../src/kildclient.ui:1777 ../src/dlgEditWorld.ui:649
+#: ../src/dlgEditWorld.ui:3305
+msgid "_Up"
+msgstr ""
+
+#: ../src/kildclient.ui:1791 ../src/dlgEditWorld.ui:664
+#: ../src/dlgEditWorld.ui:3320
+msgid "Do_wn"
+msgstr ""
+
+#: ../src/kildclient.ui:1830 ../src/kildclient.ui:1895
+#: ../src/kildclient.ui:1915
+msgid "Do not change"
+msgstr ""
+
+#: ../src/kildclient.ui:1833 ../src/dlgPreferences.ui:42
+msgid "Black"
+msgstr ""
+
+#: ../src/kildclient.ui:1836 ../src/dlgPreferences.ui:45
+msgid "Red"
+msgstr ""
+
+#: ../src/kildclient.ui:1839 ../src/dlgPreferences.ui:48
+msgid "Green"
+msgstr ""
+
+#: ../src/kildclient.ui:1842 ../src/dlgPreferences.ui:51
+msgid "Yellow"
+msgstr ""
+
+#: ../src/kildclient.ui:1845 ../src/dlgPreferences.ui:54
+msgid "Blue"
+msgstr ""
+
+#: ../src/kildclient.ui:1848 ../src/dlgPreferences.ui:57
+msgid "Magenta"
+msgstr ""
+
+#: ../src/kildclient.ui:1851 ../src/dlgPreferences.ui:60
+msgid "Cyan"
+msgstr ""
+
+#: ../src/kildclient.ui:1854 ../src/dlgPreferences.ui:63
+msgid "White"
+msgstr ""
+
+#: ../src/kildclient.ui:1857 ../src/dlgPreferences.ui:66
+msgid "Default"
+msgstr ""
+
+#: ../src/kildclient.ui:1860 ../src/dlgPreferences.ui:69
+msgid "Black (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1863 ../src/dlgPreferences.ui:72
+msgid "Red (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1866 ../src/dlgPreferences.ui:75
+msgid "Green (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1869 ../src/dlgPreferences.ui:78
+msgid "Yellow (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1872 ../src/dlgPreferences.ui:81
+msgid "Blue (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1875 ../src/dlgPreferences.ui:84
+msgid "Magenta (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1878 ../src/dlgPreferences.ui:87
+msgid "Cyan (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1881 ../src/dlgPreferences.ui:90
+msgid "White (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1884 ../src/dlgPreferences.ui:93
+msgid "Default (bold)"
+msgstr ""
+
+#: ../src/kildclient.ui:1901
+msgid "Single"
+msgstr ""
+
+#: ../src/kildclient.ui:1904
+msgid "Double"
+msgstr ""
+
+#: ../src/kildclient.ui:1929
+msgid "Change style"
+msgstr ""
+
+#: ../src/kildclient.ui:1987
+msgid "Apply to:"
+msgstr ""
+
+#: ../src/kildclient.ui:1998
+msgid "_Foreground:"
+msgstr ""
+
+#: ../src/kildclient.ui:2026
+msgid "_Background:"
+msgstr ""
+
+#: ../src/kildclient.ui:2054
+msgid "_Italic:"
+msgstr ""
+
+#: ../src/kildclient.ui:2082
+msgid "_Striked-thru:"
+msgstr ""
+
+#: ../src/kildclient.ui:2110
+msgid "_Underline:"
+msgstr ""
+
+#: ../src/kildclient.ui:2141
+msgid "The whole _line"
+msgstr ""
+
+#: ../src/kildclient.ui:2155
+msgid "The whole matched _text"
+msgstr ""
+
+#: ../src/kildclient.ui:2174
+msgid "The _matched substring number"
+msgstr ""
+
+#: ../src/wndmain.ui:40
+msgid "_World"
+msgstr ""
+
+#: ../src/wndmain.ui:49
+msgid "_Open..."
+msgstr ""
+
+#: ../src/wndmain.ui:66
+msgid "_Disconnect"
+msgstr ""
+
+#: ../src/wndmain.ui:74
+msgid "Connect to _another..."
+msgstr ""
+
+#: ../src/wndmain.ui:95
+msgid "_Edit..."
+msgstr ""
+
+#: ../src/wndmain.ui:112
+msgid "S_tatistics..."
+msgstr ""
+
+#: ../src/wndmain.ui:125 ../src/wndmain.ui:245
+msgid "_Previous"
+msgstr ""
+
+#: ../src/wndmain.ui:133 ../src/wndmain.ui:254
+msgid "_Next"
+msgstr ""
+
+#: ../src/wndmain.ui:167
+msgid "Cu_t"
+msgstr ""
+
+#: ../src/wndmain.ui:176
+msgid "_Copy"
+msgstr ""
+
+#: ../src/wndmain.ui:185
+msgid "_Paste"
+msgstr ""
+
+#: ../src/wndmain.ui:207 ../src/dlgCmdHistory.ui:178
+msgid "_Find"
+msgstr ""
+
+#: ../src/wndmain.ui:229
+msgid "_Input"
+msgstr ""
+
+#: ../src/wndmain.ui:237 ../src/dlgEditWorld.ui:3101 ../src/dlgMLSend.ui:157
+msgid "C_lear"
+msgstr ""
+
+#: ../src/wndmain.ui:263
+msgid "Find p_revious"
+msgstr ""
+
+#: ../src/wndmain.ui:281
+msgid "Command _history..."
+msgstr ""
+
+#: ../src/wndmain.ui:295
+msgid "_Multi-line send..."
+msgstr ""
+
+#: ../src/wndmain.ui:309
+msgid "_Test triggers..."
+msgstr ""
+
+#: ../src/wndmain.ui:321
+msgid "_Preferences"
+msgstr ""
+
+#: ../src/wndmain.ui:330
+msgid "Disable _triggers"
+msgstr ""
+
+#: ../src/wndmain.ui:339
+msgid "Disable _aliases"
+msgstr ""
+
+#: ../src/wndmain.ui:348
+msgid "Disable _macros"
+msgstr ""
+
+#: ../src/wndmain.ui:357
+msgid "Disable t_imers"
+msgstr ""
+
+#: ../src/wndmain.ui:371
+msgid "_Debug matches"
+msgstr ""
+
+#: ../src/wndmain.ui:384
+msgid "_Preferences..."
+msgstr ""
+
+#: ../src/wndmain.ui:392
+msgid "Edit default _world..."
+msgstr ""
+
+#: ../src/wndmain.ui:404
+msgid "_Display"
+msgstr ""
+
+#: ../src/wndmain.ui:413
+msgid "_Split window"
+msgstr ""
+
+#: ../src/wndmain.ui:426 ../src/dlgEditWorld.ui:3198
+msgid "_Help"
+msgstr ""
+
+#: ../src/wndmain.ui:434
+msgid "_Manual"
+msgstr ""
+
+#: ../src/wndmain.ui:443
+msgid "_About"
+msgstr ""
+
+#: ../src/dlgSelectWorld.ui:27
+msgid "Connect to"
+msgstr ""
+
+#: ../src/dlgSelectWorld.ui:56
+msgid "C_onnect"
+msgstr ""
+
+#: ../src/dlgSelectWorld.ui:78
+msgid "_Select a saved world:"
+msgstr ""
+
+#: ../src/dlgSelectWorld.ui:183
+msgid "Or connect d_irectly:"
+msgstr ""
+
+#: ../src/dlgSelectWorld.ui:206 ../src/dlgEditWorld.ui:242
+msgid "_Host:"
+msgstr ""
+
+#: ../src/dlgSelectWorld.ui:219 ../src/dlgEditWorld.ui:255
+msgid "_Port:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:104 ../src/dlgEditWorld.ui:101
+msgid "No proxy"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:107 ../src/dlgEditWorld.ui:104
+msgid "SOCKS4"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:110 ../src/dlgEditWorld.ui:107
+msgid "SOCKS5"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:113 ../src/dlgEditWorld.ui:110
+msgid "HTTP"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:124
+msgid "Left"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:127
+msgid "Right"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:130
+msgid "Top"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:133
+msgid "Bottom"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:140
+msgid "Preferences"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:188
+msgid "<b>Colors used by KildClient</b>"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:208
+msgid "_Informative messages:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:239
+msgid "Command _echo:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:278
+msgid "<b>Window configuration</b>"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:298
+msgid "_Tab position:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:329
+msgid "_Hide tabs if only one world is open"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:333
+msgid ""
+"If this is checked, when there is only one open world no tabs will be shown"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:346
+msgid "_Flash window when new text is received"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:371
+msgid "Appearance"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:386
+msgid "<b>Sending delays</b>"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:406
+msgid "Enter the default parameters for sending multiple lines or commands:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:422
+msgid "_Number of lines/commands to send at once:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:462
+msgid "_Delay between each group of lines/commands:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:510
+msgid "Sending"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:527
+msgid "<b>Audio player</b>"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:547
+#, c-format
+msgid ""
+"Enter the command to run an _audio player program. %s will be substituted by "
+"the file path:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:562
+msgid "Specify the command used to play sound files."
+msgstr ""
+
+#: ../src/dlgPreferences.ui:587
+msgid "External programs"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:603 ../src/dlgEditWorld.ui:331
+msgid "<b>Proxy</b>"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:627 ../src/dlgEditWorld.ui:355
+msgid "Proxy _type:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:669 ../src/dlgEditWorld.ui:397
+msgid "Server _address:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:682 ../src/dlgEditWorld.ui:453
+msgid "_Username:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:715 ../src/dlgEditWorld.ui:420
+msgid "Server _port:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:728 ../src/dlgEditWorld.ui:466
+msgid "Pass_word:"
+msgstr ""
+
+#: ../src/dlgPreferences.ui:781
+msgid "Proxy"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:27
+msgid "Statistics"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:70 ../src/dlgStatistics.ui:81
+#: ../src/dlgStatistics.ui:223 ../src/dlgStatistics.ui:338
+#: ../src/dlgStatistics.ui:445 ../src/dlgStatistics.ui:456
+#: ../src/dlgStatistics.ui:467 ../src/dlgStatistics.ui:478
+#: ../src/dlgStatistics.ui:489 ../src/dlgStatistics.ui:511
+#: ../src/dlgStatistics.ui:544 ../src/dlgStatistics.ui:555
+#: ../src/dlgStatistics.ui:577 ../src/dlgStatistics.ui:610
+#: ../src/dlgStatistics.ui:621
+msgid "N/A"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:92
+msgid "Proxy port:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:103
+msgid "Proxy host:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:125
+msgid "Proxy type:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:136
+msgid "World name:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:147
+msgid "Host:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:158
+msgid "Port:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:169
+msgid "Connection time:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:180
+msgid "Idle time:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:201
+msgid "Compression used:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:212
+msgid "Bytes received (compressed):"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:234
+msgid "Bytes received (decompressed):"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:245
+msgid "Compression ratio:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:256
+msgid "Lines received:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:369
+msgid "Key exchange:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:380
+msgid "SSL protocol used:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:391
+msgid "Compression algorithm:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:402
+msgid "Certificate type:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:413
+msgid "Cipher:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:424
+msgid "MAC:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:500
+msgid "Hostname:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:522
+msgid "Valid since:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:533
+msgid "Expiration:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:566
+msgid "Fingerprint:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:588
+msgid "Subject's DN:"
+msgstr ""
+
+#: ../src/dlgStatistics.ui:599
+msgid "Issuer's DN:"
+msgstr ""
+
+#: ../src/dlgAbout.ui:30
+msgid "A mud client with powerful features and support for Perl scripting"
+msgstr ""
+
+#: ../src/dlgAbout.ui:32
+msgid "Visit https://www.kildclient.org"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:81
+msgid "No auto-login"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:98
+msgid "Use global settings"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:117
+msgid "Edit world"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:207
+msgid "<b>Connection</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:268
+msgid "Enter a descriptive name for the world"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:281
+msgid "Enter the host to connect to"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:294
+msgid "Enter the port used when connecting"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:306
+msgid "Use _SSL"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:505
+msgid "<b>Auto-login</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:529
+msgid "Connection _style:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:567
+msgid "Ch_aracters in this mud:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:705 ../src/dlgEditWorld.ui:1840
+#: ../src/dlgEditWorld.ui:2502
+msgid "<b>Font</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:725
+msgid "Select the font used in the _main screen:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:741
+msgid "Select the font used in the main output screen"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:753
+msgid "Use _bold font for highlighted colors (instead of just highlighting)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:757
+msgid ""
+"Check if you want the highlighted ANSI colors to be displayed in bold also"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:779
+msgid "<b>Word wrap</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:798
+msgid "_Wrap lines at word boundaries"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:802
+msgid "Check if you want lines to be wrapped at word boundaries"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:820
+msgid "_Indent wrapped lines by"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:850
+msgid "pixels"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:869
+msgid "Wrap lines at full _screen width"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:889
+msgid "Maximum line width in _characters:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:937
+msgid "<b>Scrolling</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:956
+msgid "Sc_roll on output"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:960
+msgid ""
+"Check to have the main window scroll to the end whenever new output comes"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:978
+msgid "_Lines to save in scrollback buffer:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:991
+msgid ""
+"Specify the number of lines of output that can be seen with by scrolling the "
+"window"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1022
+msgid "<b>Tooltips</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1041
+msgid "Display _tooltips with the time when the line was received"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1045
+msgid ""
+"Check if you want tooltips to be displayed showing the time when a line was "
+"received if you leave the mouse over the line for a short while"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1067
+msgid "<b>Name display</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1086
+msgid "I_dentify as 'World name'"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1101
+msgid "I_dentify as 'World name - Character'"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1116
+msgid "I_dentify as 'Character - World name'"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1135
+msgid "C_ustom: "
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1169
+msgid ""
+"Use %Kw to represent the world's name, and %Kc to represent the auto-logon "
+"character name"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1203
+msgid "<b>Ansi colors</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1313
+msgid "Blac_k"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1326
+msgid "_Red"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1339
+msgid "_Green"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1352
+msgid "_Yellow"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1365
+msgid "_Blue"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1378
+msgid "_Magenta"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1391
+msgid "Cy_an"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1404
+msgid "_White"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1417
+msgid "Blac_k (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1430
+msgid "_Red (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1443
+msgid "_Green (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1456
+msgid "_Yellow (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1469
+msgid "_Blue (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1482
+msgid "_Magenta (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1495
+msgid "Cy_an (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1508
+msgid "_White (bold)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1647
+msgid "<b>Default colors</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1691
+msgid "_Foreground"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1704
+msgid "Bold _foreground"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1728
+msgid "Backgroun_d"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1752
+msgid "Bold backgroun_d"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1785
+msgid "<b>Revert to default colors</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1804
+msgid "Re_vert to default colors"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1808
+msgid "Click to revert all colors to their built-in defaults"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1860
+msgid "_Select the font used in the status bar:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1895
+msgid "<b>Time display</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1915
+msgid "Co_nnected time:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1935 ../src/dlgEditWorld.ui:2017
+msgid "Do not display"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1939
+msgid "Select if you do not want the connection time to be displayed"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1953 ../src/dlgEditWorld.ui:2035
+msgid "Display as hours, minutes and seconds"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1957
+msgid ""
+"Select if you want the connection time to be displayed in hours, minutes and "
+"seconds"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1971 ../src/dlgEditWorld.ui:2053
+msgid "Display as seconds"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1975
+msgid "Select if you want the connection time to be displayed in seconds"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:1998
+msgid "_Idle time:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2021
+msgid "Select if you do not want the idle time to be displayed"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2039
+msgid ""
+"Select if you want the idle time to be displayed in hours, minutes and "
+"seconds"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2057
+msgid "Select if you want the idle time to be displayed in seconds"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2071
+msgid "Only _reset idle time counter when a command is entered directly"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2075
+msgid ""
+"Check to make the idle time counter reset only when a command is entered "
+"directly by typing it in the command entry box. If not checked, if a command "
+"is sent because of a timer, of a hook, etc, the idle timer is also reset."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2115
+msgid "<b>Command entry</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2134
+msgid "_Keep last typed command in command entry box"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2138
+msgid ""
+"Check to have the last command kept in the command entry box, so that you "
+"can repeat commands only by pressing ENTER"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2150
+msgid "_Echo sent commands in main window"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2154
+msgid "Check to have the sent commands echoed in the main output window"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2166
+msgid "Store commands _between sessions"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2170
+msgid "Check to have the command history saved in a file between sessions"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2182
+msgid "Never _hide the typed text"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2186
+msgid ""
+"Check this if the text you type is displayed as black dots in the input box."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2203
+msgid "_Number of commands to save in history:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2217
+msgid "Specify the number of commands that are saved and can be later recalled"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2244
+msgid "Co_mmand separator:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2257
+msgid "Specify the separator for commands typed in the command entry box"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2278
+msgid "Use single-_line input bar"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2300
+msgid "Enable _auto-completion"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2304
+msgid "Check to enable command auto-completion (based on previous commands)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2321
+msgid "Acti_vate auto-completion only after"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2335
+msgid ""
+"Specify the number of characters that must be typed for command completion "
+"to start"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2351
+msgid "characters have been entered"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2375
+msgid "Use mul_ti-line input bar"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2402
+msgid "N_umber of lines:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2437
+msgid "S_pell check typed text"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2457
+msgid "Lan_guage:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2522
+msgid "Select the _font used in the command entry box:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2557
+msgid "<b>Flood prevention</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2580
+msgid "_Do not allow the same command to be sent"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2584
+msgid ""
+"Check to prevent more than a given number of equal commands to be sent in a "
+"row (which can disconnect your character in some muds)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2598
+msgid "Specify the maximum number of equal commands that can be sent in a row"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2614
+msgid "times in a _row"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2638
+msgid "_Send this command:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2651
+msgid ""
+"Enter a command to be sent whenever the specified maximum number of equal "
+"commands would be sent"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2690
+msgid "<b>Logging status</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2727
+msgid "_Start"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2742
+msgid "_Stop"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2768
+msgid "_Include the last"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2772
+msgid "Select to include lines from the main window in the log file."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2785
+msgid "Inform number of lines to include in the log."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2801
+msgid "_lines of the scrollback buffer in the log"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2829 ../src/dlgEditWorld.ui:3447
+msgid "<b>File</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2879
+msgid "S_elect"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2903
+msgid ""
+"Note: You can use strftime() escapes to create different files based on the "
+"date and time that logging starts. Also, %Kw represents the World name and "
+"%Kc the character name used in auto-logon."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2925
+msgid "<b>Options</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2944
+msgid "A_utomatically start logging when connected"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2949
+msgid ""
+"If this is selected, logging will be automatically started whenever you "
+"connect to the world."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2961
+msgid "Prefix lines with _date and/or time"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2966
+msgid ""
+"Select this if you want to prefix each line in the log file with the date "
+"and/or time it was received."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:2986
+msgid "_Format:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3000
+msgid ""
+"The default is to prefix lines with the date and time, but you can configure "
+"the format with strftime() escape sequences. See the manual for a "
+"description of those."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3011
+msgid "_Revert to default"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3053
+msgid "<b>Scripting</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3078
+msgid "_Perl file to load:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3142
+msgid "<b>Plugins currently loaded</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3183
+msgid "_Load"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3230
+msgid "<b>Plugins loaded on startup</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3275
+msgid "_Add"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3363
+msgid "<b>MCCP (for compression)</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3382
+msgid "_Enable if server proposes after connecting"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3397
+msgid "Enable if server proposes at _any time"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3412
+msgid "_Disable"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3471
+msgid "_File:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3506
+msgid ""
+"You can leave this field blank, and a file name will be automatically "
+"generated. Only edit this field if you know what you are doing."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3528
+msgid "<b>Character set</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3552
+msgid "C_haracter set:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3591
+msgid "<b>Graphical editors</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3610
+msgid "_Ask for confirmation before deleting triggers, aliases, etc."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3614 ../src/dlgEditWorld.ui:3676
+msgid ""
+"If not checked, objects such as triggers, aliases, etc. will be deleted "
+"directly without asking for confirmation when you press the Delete button."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3627
+msgid "_Show items defined by plugins"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3631
+msgid ""
+"If checked, triggers, aliases, macros and timers defined in plugins will "
+"appear in the corresponding World Editor sections."
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3653
+msgid "<b>TCP keep alive</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3672
+msgid "Enable TCP _keep alive packets"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3689
+msgid "(You must reconnect for changes in this setting to take effect)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3709
+msgid "<b>Input</b>"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3728
+msgid "_Disable up and down arrow keys for history navigation"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3732
+msgid ""
+"If checked, the up and down arrow keys are not used for navigating between "
+"saved commands. (You'll have to use Alt+up and Alt+down.)"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3749
+msgid "Character to run _Perl commands:"
+msgstr ""
+
+#: ../src/dlgEditWorld.ui:3785
+msgid ""
+"Warning: Changing the character to run Perl commands from the default '/' is "
+"not recommended, because doing so might prevent plugins or other code from "
+"working, if they use '/' to run Perl commands."
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:27
+msgid "Test triggers"
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:70
+msgid "Enter _line to be matched against the triggers:"
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:88
+msgid ""
+"The text entered here will be matched against triggers as if it were a line "
+"coming from the MUD"
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:99 ../src/dlgMLSend.ui:69
+#: ../src/dlgCmdHistory.ui:91
+msgid "_Send"
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:103
+msgid "Click the run the triggers against the line."
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:138
+msgid "Number of triggers that matched:"
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:166
+msgid "Commands that would be sent:"
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:196
+msgid "This is what would be printed in the main screen:"
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:208
+msgid ""
+"This is what would be printed in the main screen. If empty, the line has "
+"been gaged. It can be different from the original line because of rewriter "
+"triggers."
+msgstr ""
+
+#: ../src/dlgTestTriggers.ui:224
+msgid "Would this line be included in the log file?"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:39
+msgid "Multi-line send"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:95
+msgid "Send this text _initially:"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:115 ../src/dlgMLSend.ui:199
+msgid "Enter some text to be sent to the World"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:128
+msgid "Then send the c_ontents of this file:"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:179
+msgid "_Finally, send this text:"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:222
+msgid "Add this to the _beginning of each line:"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:238
+msgid "Specify some text to be prepended to each sent line"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:250
+msgid "Add this to the _end of each line:"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:266
+msgid "Specify some text to be appended to each sent line"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:282 ../src/dlgCmdHistory.ui:253
+msgid "_Delay"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:295
+msgid "Specify the delay between sending the group of lines"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:310 ../src/dlgCmdHistory.ui:282
+msgid "seconds e_ach"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:323
+msgid "Specify how many lines are sent at once"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:337
+msgid "line(s)"
+msgstr ""
+
+#: ../src/dlgMLSend.ui:355
+msgid "_Keep dialog open after sending"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:39
+msgid "Command history"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:56
+msgid "_Recall"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:61
+msgid "Put the selected command in the command entry box"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:74
+msgid "Reca_ll and close"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:79
+msgid "Put the selected command in the command entry box and close this dialog"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:96
+msgid "Send the selected command(s) to the mud"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:108
+msgid "Se_nd and close"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:113
+msgid "Send the selected command(s) to the mud and close the dialog"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:183
+msgid "Find a command containing a given search term"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:200
+msgid "Find the next command with the same match text"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:227
+msgid "Newest commands are on the top"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:266
+msgid "Specify the delay between sending the group of commands"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:295
+msgid "Specify how many commands are sent at once"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:311
+msgid "commands(s)"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:335
+msgid "Find command"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:390
+msgid "_Text to find:"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:404
+msgid "Enter the text to search for"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:421
+msgid "Search direction:"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:437
+msgid "_Downwards"
+msgstr ""
+
+#: ../src/dlgCmdHistory.ui:452
+msgid "_Upwards"
+msgstr ""
+
+#: ../src/mnuPopupURL.ui:29
+msgid "_Open link"
+msgstr ""
+
+#: ../src/mnuPopupURL.ui:37
+msgid "_Copy link address"
+msgstr ""
+
+#: ../share/kildclient.pl:75 ../share/kildclient.pl:96
+#: ../share/kildclient.pl:116 ../share/kildclient.pl:181
+#: ../share/kildclient.pl:393 ../share/kildclient.pl:493
+#: ../share/kildclient.pl:571 ../share/kildclient.pl:584
+#: ../share/kildclient.pl:597 ../share/kildclient.pl:610
+#: ../share/kildclient.pl:623 ../share/kildclient.pl:636
+#: ../share/kildclient.pl:649 ../share/kildclient.pl:662
+#: ../share/kildclient.pl:676 ../share/kildclient.pl:690
+#: ../share/kildclient.pl:800 ../share/kildclient.pl:812
+#: ../share/kildclient.pl:824 ../share/kildclient.pl:836
+#: ../share/kildclient.pl:849 ../share/kildclient.pl:1098
+#: ../share/kildclient.pl:1131
+#, perl-format
+msgid "%s: Too few arguments."
+msgstr ""
+
+#: ../share/kildclient.pl:297 ../share/kildclient.pl:315
+#: ../share/kildclient.pl:333 ../share/kildclient.pl:351
+#: ../share/kildclient.pl:369
+#, perl-format
+msgid "%s: Wrong number of arguments."
+msgstr ""
+
+#: ../share/kildclient.pl:488
+msgid "Successfully moved."
+msgstr ""
+
+#: ../share/kildclient.pl:871
+#, perl-format
+msgid "One %1$s deleted"
+msgid_plural "%2$d %1$s deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../share/kildclient.pl:913
+msgid "Could not open file."
+msgstr ""
+
+#: ../share/kildclient.pl:943
+msgid "Unknown"
+msgstr ""
+
+#: ../share/kildclient.pl:950
+msgid "Invalid plugin file."
+msgstr ""
+
+#: ../share/kildclient.pl:981
+msgid "Plugin already loaded. Try enabling it."
+msgstr ""
+
+#: ../share/kildclient.pl:983
+#, perl-format
+msgid "Version %s of this plugin is already loaded."
+msgstr ""
+
+#: ../share/kildclient.pl:993
+#, perl-format
+msgid "Error in plugin file: %s"
+msgstr ""
+
+#: ../share/kildclient.pl:1005
+msgid "Cannot load a plugin in another world."
+msgstr ""
+
+#: ../share/kildclient.pl:1010 ../share/kildclient.pl:1030
+msgid "Plugin not specified"
+msgstr ""
+
+#: ../share/kildclient.pl:1017 ../share/kildclient.pl:1048
+msgid "Plugin not loaded."
+msgstr ""
+
+#: ../share/kildclient.pl:1020
+#, perl-format
+msgid "Plugin '%s' loaded."
+msgstr ""
+
+#: ../share/kildclient.pl:1036
+#, perl-format
+msgid "Could not load plugin %s"
+msgstr ""
+
+#: ../share/kildclient.pl:1112
+msgid "Plugin enabled."
+msgstr ""
+
+#: ../share/kildclient.pl:1145
+msgid "Plugin disabled."
+msgstr ""
+
+#: ../share/kildclient.pl:1295
+msgid "Cannot open help file."
+msgstr ""
+
+#: ../share/kildclient.pl:1318
+msgid "Help topic not found."
+msgstr ""

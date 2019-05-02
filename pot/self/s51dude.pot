@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-24 19:53-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../usbtiny.c:114
+#, c-format
+msgid "%s: error: usbtiny_receive: (expected %d, got %d)\n"
+msgstr ""
+
+#: ../s51dude.c:413
+msgid "* Found USB programmer"
+msgstr ""
+
+#: ../s51dude.c:455
+msgid "* Lock bits programmed."
+msgstr ""
+
+#: ../s51dude.c:439
+msgid "* Memory read."
+msgstr ""
+
+#: ../s51dude.c:446
+msgid "* Target erased."
+msgstr ""
+
+#: ../s51dude.c:430
+msgid "* Upload completed but not verified."
+msgstr ""
+
+#: ../s51dude.c:425
+msgid "* Upload completed successfully!! :)"
+msgstr ""
+
+#: ../s51dude.c:357
+msgid "Action: "
+msgstr ""
+
+#: ../s51dude.c:185
+msgid "DEBUG>> Buffer to progam"
+msgstr ""
+
+#: ../s51dude.c:188
+msgid "DEBUG>> END buffer to program"
+msgstr ""
+
+#: ../s51dude.c:320
+msgid "DEBUG>> END read buffer"
+msgstr ""
+
+#: ../s51dude.c:317
+msgid "DEBUG>> Read buffer"
+msgstr ""
+
+#: ../s51dude.c:377
+msgid "Dry-run: "
+msgstr ""
+
+#: ../s51dude.c:365
+msgid "EEPROM"
+msgstr ""
+
+#: ../s51dude.c:360
+msgid "ERASE"
+msgstr ""
+
+#: ../s51dude.c:162
+msgid "ERROR: Bad hex file. Make sure it finishes with newline."
+msgstr ""
+
+#: ../s51dude.c:83
+msgid "ERROR: Can't open file!!"
+msgstr ""
+
+#: ../parse_params.c:135
+msgid "ERROR: Not enough memory."
+msgstr ""
+
+#: ../s51dude.c:427
+msgid "ERROR: Verify error! :("
+msgstr ""
+
+#: ../s51dude.c:121
+msgid "ERROR: You can't read lock bits from the selected target"
+msgstr ""
+
+#: ../s51dude.c:465
+msgid "ERROR: You should give me something to do!"
+msgstr ""
+
+#: ../s51dude.c:175
+msgid "ERROR: file too large for target"
+msgstr ""
+
+#: ../usbtiny.c:89
+msgid ""
+"ERROR: usbtiny_transmit. Check permissions on the device, or the cable "
+"connection"
+msgstr ""
+
+#: ../s51dude.c:409
+msgid "Error: Could not find USBtiny device"
+msgstr ""
+
+#: ../s51dude.c:148
+msgid "Error: Out of memory."
+msgstr ""
+
+#: ../s51dude.c:401
+msgid "Error: The selected part does not have EEPROM memory"
+msgstr ""
+
+#: ../s51dude.c:395
+msgid "Error: You must specify a part name"
+msgstr ""
+
+#: ../s51dude.c:366
+msgid "Flash"
+msgstr ""
+
+#: ../ihex.c:134
+msgid "Intel Hex Record Address: "
+msgstr ""
+
+#: ../ihex.c:135
+#, c-format
+msgid "Intel Hex Record Data: {"
+msgstr ""
+
+#: ../s51dude.c:127
+msgid "LB1 is not set"
+msgstr ""
+
+#: ../s51dude.c:124
+msgid "LB1 is set"
+msgstr ""
+
+#: ../s51dude.c:128
+msgid "LB2 is not set"
+msgstr ""
+
+#: ../s51dude.c:125
+msgid "LB2 is set"
+msgstr ""
+
+#: ../s51dude.c:129
+msgid "LB3 is not set"
+msgstr ""
+
+#: ../s51dude.c:126
+msgid "LB3 is set"
+msgstr ""
+
+#: ../s51dude.c:364
+msgid "Memory: "
+msgstr ""
+
+#: ../s51dude.c:371 ../s51dude.c:375 ../s51dude.c:379
+msgid "NO"
+msgstr ""
+
+#: ../s51dude.c:362
+msgid "READ LOCK BITS"
+msgstr ""
+
+#: ../s51dude.c:359
+msgid "READ: "
+msgstr ""
+
+#: ../s51dude.c:354
+msgid "Target part: "
+msgstr ""
+
+#: ../s51dude.c:358
+msgid "UPLOAD: "
+msgstr ""
+
+#: ../s51dude.c:369
+msgid "Verify: "
+msgstr ""
+
+#: ../s51dude.c:361
+msgid "WRITE LOCK BITS"
+msgstr ""
+
+#: ../usbtiny.c:190
+msgid "Warning: cannot open USB device."
+msgstr ""
+
+#: ../s51dude.c:370 ../s51dude.c:374 ../s51dude.c:378
+msgid "YES"
+msgstr ""
+
+#: ../parse_params.c:126
+msgid "You can't do more than one action at the same time!"
+msgstr ""
+
+#: ../parse_params.c:94
+msgid ""
+"s51dude [options] <target> <action>\n"
+" \ttarget: --part (-p) <part>\n"
+" \t\tsupported part list:\n"
+" \t\t\ts8253\n"
+" \t\t\ts8252\n"
+" \t\t\ts52\n"
+" \t\t\ts53\n"
+" \taction: --upload (-u) <in-file>\n"
+" \t\t--read (-r) <out-file>\n"
+" \t\t--write-lbits (-w) <lock-bits>\n"
+" \t\t<lock-bits> can be any combination of the following:\n"
+" \t\t\t--LB1, --LB2, --LB3\n"
+" \t\t--read-lbits (-l)\n"
+" \t\t--erase (-e)\n"
+" \tOptions:\n"
+" \t\t--eeprom: Change the target memory to EEPROM on some devices\n"
+" \t\t--no-verify: Disable verify.\n"
+"     --verify-chunk: Verify reading after sending each chunk. Enable verbose "
+"to print each chunk.\n"
+" \t\t--dry-run: Test the action but don't do nothing.\n"
+" \t\t--verbose: Enable verbose output.\n"
+" \t\t--debug: Enable debug output.\n"
+" \t\t--help (-h): This help."
+msgstr ""
+
+#: ../s51dude.c:373
+msgid "verify_chunk_flag: "
+msgstr ""

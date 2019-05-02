@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tim Stadelmann
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-07-27 20:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hotswap.c:175
+#, c-format
+msgid ""
+"hotswap %s\n"
+"Copyright 2001 Tim Stadelmann\n"
+"This program is free software, licensed under the conditions of the\n"
+"GNU General Public License version 2, or (at your option), any later\n"
+"version.\n"
+"\n"
+msgstr ""
+
+#: src/hotswap.c:193
+#, c-format
+msgid ""
+"\n"
+"The following IDE device is currently configured:\n"
+"%s\n"
+"Do you want to remove this device? "
+msgstr ""
+
+#: src/hotswap.c:201 src/hotswap.c:232 src/hotswap.c:265
+msgid "Aborting"
+msgstr ""
+
+#: src/hotswap.c:215
+msgid "You can now remove the device from the module bay."
+msgstr ""
+
+#: src/hotswap.c:219
+msgid ""
+"There is currently no IDE device configured.  (Floppy disk drives,\n"
+"batteries, and 'travel modules' are not managed by this utility.  If\n"
+"you want to swap such a module, you should remove it now.)"
+msgstr ""
+
+#: src/hotswap.c:226
+msgid ""
+"\n"
+"Would you like to insert an IDE device into the module bay? "
+msgstr ""
+
+#: src/hotswap.c:236
+msgid "Please insert the new device into the module bay and press RETURN.\n"
+msgstr ""
+
+#: src/hotswap.c:248
+#, c-format
+msgid ""
+"The following IDE device has been configured successfully:\n"
+"%s\n"
+msgstr ""
+
+#: src/hotswap.c:254
+msgid ""
+"No IDE device has been found in the module bay.  If you are sure that\n"
+"the device you want to configure connects to the IDE bus, make sure\n"
+"that the module is inserted completely.\n"
+msgstr ""
+
+#: src/hotswap.c:260
+msgid "Do you want to try again? "
+msgstr ""
+
+#: src/hotswap.c:306
+msgid "yes"
+msgstr ""
+
+#: src/hotswap.c:308
+msgid "no"
+msgstr ""
+
+#: src/hotswap.c:325
+msgid ""
+"at least one filesystem on the IDE device is currently mounted and\n"
+"cannot be removed"
+msgstr ""
+
+#: src/hotswap.c:352
+#, c-format
+msgid ""
+"an IDE device is already configured:\n"
+"%s\n"
+msgstr ""
+
+#: src/hotswap.c:371
+#, c-format
+msgid ""
+"%s: unknown action\n"
+"\n"
+msgstr ""
+
+#: src/hotswap.c:379
+msgid "too many arguments\n"
+msgstr ""
+
+#: src/hotswap.c:416
+msgid "invalid controller number\n"
+msgstr ""
+
+#: src/hotswap.c:429
+#, c-format
+msgid ""
+"hotswap %s\n"
+"Copyright 2001 Tim Stadelmann\n"
+"This program is free software, licensed under the conditions of the\n"
+"GNU General Public License version 2, or (at your option), any later\n"
+"version.\n"
+msgstr ""
+
+#: src/hotswap.c:449
+#, c-format
+msgid "%s - Supports hotswapping IDE devices.\n"
+msgstr ""
+
+#: src/hotswap.c:451
+#, c-format
+msgid "Usage: %s [OPTION]... [ACTION]\n"
+msgstr ""
+
+#: src/hotswap.c:452
+msgid ""
+"\n"
+"Options:\n"
+"  -c, --ide-controller N     use IDE controller N\n"
+"  -h, --help                 print this help text and exit successfully\n"
+"  -n, --nocheck              do not perform sanity checks before\n"
+"                             attempting an action; use with care, as\n"
+"                             this option may cause actions to fail\n"
+"                             silently\n"
+"  -v, --verbose              print more information\n"
+"  -V, --version              print version information and exit "
+"successfully\n"
+"\n"
+"If no ACTION is specified, interactive mode is entered.  In this mode\n"
+"the program guides through the hotswapping process as appropriate for\n"
+"the current configuration.\n"
+"\n"
+"ACTION can be one of:\n"
+"  probe-ide                  detect the configured IDE device\n"
+"  mounted-ide                check whether the IDE device is mounted\n"
+"  unregister-ide             unregister the IDE device\n"
+"  rescan-ide                 scan the IDE bus for a new device\n"
+"\n"
+"You should note that Linux kernel requires hotswappable devices to be\n"
+"the only device on their IDE bus.\n"
+"\n"
+"Report bugs to <t.stadelmann1@physics.ox.ac.uk>."
+msgstr ""
+
+#: src/hotswap.c:500
+msgid "probing the configured IDE device"
+msgstr ""
+
+#: src/hotswap.c:511
+msgid "absent"
+msgstr ""
+
+#: src/hotswap.c:524
+msgid "unidentified IDE device"
+msgstr ""
+
+#: src/hotswap.c:531
+msgid "obtaining IDE drive indentification failed"
+msgstr ""
+
+#: src/hotswap.c:559
+msgid "rescanning the IDE bus"
+msgstr ""
+
+#: src/hotswap.c:569 src/hotswap.c:640 src/hotswap.c:653
+msgid "opening IDE device failed"
+msgstr ""
+
+#: src/hotswap.c:585
+msgid "rescanning the IDE bus failed"
+msgstr ""
+
+#: src/hotswap.c:622
+msgid "unregistering the IDE device"
+msgstr ""
+
+#: src/hotswap.c:662
+msgid "unregistering the IDE device failed"
+msgstr ""
+
+#: src/hotswap.c:689
+#, c-format
+msgid "%s: unregistering the IDE device failed: device is probably busy\n"
+msgstr ""
+
+#: src/hotswap.c:714
+msgid "checking whether the IDE device is mounted"
+msgstr ""
+
+#: src/hotswap.c:732
+msgid "opening /etc/mtab failed"
+msgstr ""
+
+#: src/rcfile.c:89
+#, c-format
+msgid "trying to open the resource file (%s)\n"
+msgstr ""
+
+#: src/rcfile.c:100
+msgid "reading the resource file"
+msgstr ""
+
+#: src/rcfile.c:163
+msgid "invalid script requested\n"
+msgstr ""
+
+#: src/rcfile.c:226
+msgid "could not convert script\n"
+msgstr ""
+
+#: src/rcfile.c:242 src/rcfile.c:251
+msgid "could not execute script\n"
+msgstr ""

@@ -1,0 +1,1349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-29 15:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "helpcmd|ListNicks|args"
+msgid "<#chan>"
+msgstr ""
+
+msgctxt "helpcmd|Attach|args"
+msgid "<#chans>"
+msgstr ""
+
+msgctxt "helpcmd|Detach|args"
+msgid "<#chans>"
+msgstr ""
+
+msgctxt "helpcmd|DisableChan|args"
+msgid "<#chans>"
+msgstr ""
+
+msgctxt "helpcmd|EnableChan|args"
+msgid "<#chans>"
+msgstr ""
+
+msgctxt "helpcmd|ClearBuffer|args"
+msgid "<#chan|query>"
+msgstr ""
+
+msgctxt "helpcmd|PlayBuffer|args"
+msgid "<#chan|query>"
+msgstr ""
+
+msgctxt "helpcmd|SetBuffer|args"
+msgid "<#chan|query> [linecount]"
+msgstr ""
+
+msgctxt "trafficcmd"
+msgid "<Total>"
+msgstr ""
+
+msgctxt "trafficcmd"
+msgid "<Users>"
+msgstr ""
+
+msgctxt "trafficcmd"
+msgid "<ZNC>"
+msgstr ""
+
+msgctxt "helpcmd|AddPort|args"
+msgid "<[+]port> <ipv4|ipv6|all> <web|irc|all> [bindhost [uriprefix]]"
+msgstr ""
+
+msgctxt "helpcmd|AddTrustedServerFingerprint|args"
+msgid "<fi:ng:er>"
+msgstr ""
+
+msgctxt "helpcmd|DelTrustedServerFingerprint|args"
+msgid "<fi:ng:er>"
+msgstr ""
+
+msgctxt "helpcmd|SetBindHost|args"
+msgid "<host (IP preferred)>"
+msgstr ""
+
+msgctxt "helpcmd|SetUserBindHost|args"
+msgid "<host (IP preferred)>"
+msgstr ""
+
+msgctxt "helpcmd|AddServer|args"
+msgid "<host> [[+]port] [pass]"
+msgstr ""
+
+msgctxt "helpcmd|DelServer|args"
+msgid "<host> [port] [pass]"
+msgstr ""
+
+msgctxt "helpcmd|AddMOTD|args"
+msgid "<message>"
+msgstr ""
+
+msgctxt "helpcmd|SetMOTD|args"
+msgid "<message>"
+msgstr ""
+
+msgctxt "helpcmd|UpdateMod|args"
+msgid "<module>"
+msgstr ""
+
+msgctxt "helpcmd|AddNetwork|args"
+msgid "<name>"
+msgstr ""
+
+msgctxt "helpcmd|DelNetwork|args"
+msgid "<name>"
+msgstr ""
+
+msgctxt "helpcmd|JumpNetwork|args"
+msgid "<network>"
+msgstr ""
+
+msgctxt "helpcmd|MoveNetwork|args"
+msgid "<old user> <old network> <new user> [new network]"
+msgstr ""
+
+msgctxt "helpcmd|DelPort|args"
+msgid "<port> <ipv4|ipv6|all> [bindhost]"
+msgstr ""
+
+msgctxt "modhelpcmd"
+msgid "<search>"
+msgstr ""
+
+msgid "A client from {1} attempted to login as you, but was rejected: {2}"
+msgstr ""
+
+msgid "Access denied."
+msgstr ""
+
+msgctxt "helpcmd|AddNetwork|desc"
+msgid "Add a network to your user"
+msgstr ""
+
+msgctxt "helpcmd|AddServer|desc"
+msgid ""
+"Add a server to the list of alternate/backup servers of current IRC network."
+msgstr ""
+
+msgctxt "helpcmd|AddTrustedServerFingerprint|desc"
+msgid ""
+"Add a trusted server SSL certificate fingerprint (SHA-256) to current IRC "
+"network."
+msgstr ""
+
+msgctxt "helpcmd|AddPort|desc"
+msgid "Add another port for ZNC to listen on"
+msgstr ""
+
+msgid "All buffers have been cleared"
+msgstr ""
+
+msgid "All channel buffers have been cleared"
+msgstr ""
+
+msgid "All query buffers have been cleared"
+msgstr ""
+
+msgctxt "helpcmd|AddMOTD|desc"
+msgid "Append <message> to ZNC's MOTD"
+msgstr ""
+
+msgctxt "listmods"
+msgid "Arguments"
+msgstr ""
+
+msgctxt "helpcmd|Attach|desc"
+msgid "Attach to channels"
+msgstr ""
+
+msgid "Attached {1} channel"
+msgid_plural "Attached {1} channels"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Bind host cleared for this network."
+msgstr ""
+
+msgctxt "listports"
+msgid "BindHost"
+msgstr ""
+
+msgctxt "helpcmd|Broadcast|desc"
+msgid "Broadcast a message to all ZNC users"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Buffer"
+msgstr ""
+
+msgid "Buffer Playback..."
+msgstr ""
+
+msgid ""
+"Can't resolve bind hostname. Try /znc ClearBindHost and /znc "
+"ClearUserBindHost"
+msgstr ""
+
+msgid "Can't resolve server hostname"
+msgstr ""
+
+msgid "Cannot connect to IRC ({1}). Retrying..."
+msgstr ""
+
+msgid "Cannot connect to {1}, because ZNC is not compiled with SSL support."
+msgstr ""
+
+msgid "Caught an exception"
+msgstr ""
+
+msgctxt "topicscmd"
+msgid "Channel"
+msgstr ""
+
+msgid "Channel {1} is linked to another channel and was thus disabled."
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "Channels"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Clear"
+msgstr ""
+
+msgctxt "helpcmd|ClearMOTD|desc"
+msgid "Clear ZNC's MOTD"
+msgstr ""
+
+msgctxt "helpcmd|ClearAllBuffers|desc"
+msgid "Clear all channel and query buffers"
+msgstr ""
+
+msgctxt "helpcmd|ClearBindHost|desc"
+msgid "Clear the bind host for this network"
+msgstr ""
+
+msgctxt "helpcmd|ClearAllChannelBuffers|desc"
+msgid "Clear the channel buffers"
+msgstr ""
+
+msgctxt "helpcmd|ClearUserBindHost|desc"
+msgid "Clear the default bind host for this user"
+msgstr ""
+
+msgctxt "helpcmd|ClearAllQueryBuffers|desc"
+msgid "Clear the query buffers"
+msgstr ""
+
+msgctxt "helpcmd|ClearBuffer|desc"
+msgid "Clear the specified buffer"
+msgstr ""
+
+msgid "Closing link: Timeout"
+msgstr ""
+
+msgid "Closing link: Too long raw line"
+msgstr ""
+
+msgctxt "helpcmd"
+msgid "Command"
+msgstr ""
+
+msgctxt "modhelpcmd"
+msgid "Command"
+msgstr ""
+
+msgid "Connection Refused.  Reconnecting..."
+msgstr ""
+
+msgid "Copied the network to new user, but failed to delete old network"
+msgstr ""
+
+msgid "Could not find ZNCModuleEntry in module {1}"
+msgstr ""
+
+msgid "Couldn't add port"
+msgstr ""
+
+msgid "Default bind host cleared for your user."
+msgstr ""
+
+msgctxt "helpcmd|DelNetwork|desc"
+msgid "Delete a network from your user"
+msgstr ""
+
+msgctxt "helpcmd|DelTrustedServerFingerprint|desc"
+msgid "Delete a trusted server SSL certificate from current IRC network."
+msgstr ""
+
+msgid "Deleted Port"
+msgstr ""
+
+msgctxt "helpcmd"
+msgid "Description"
+msgstr ""
+
+msgctxt "listavailmods"
+msgid "Description"
+msgstr ""
+
+msgctxt "modhelpcmd"
+msgid "Description"
+msgstr ""
+
+msgctxt "helpcmd|Detach|desc"
+msgid "Detach from channels"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Detached"
+msgstr ""
+
+msgid "Detached {1} channel"
+msgid_plural "Detached {1} channels"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "helpcmd|DisableChan|desc"
+msgid "Disable channels"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "helpcmd|Disconnect|desc"
+msgid "Disconnect from IRC"
+msgstr ""
+
+msgid "Disconnected from IRC ({1}). Reconnecting..."
+msgstr ""
+
+msgid "Disconnected from IRC. Reconnecting..."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid ""
+"Done, but there were errors, module {1} could not be reloaded everywhere."
+msgstr ""
+
+msgid "Done."
+msgstr ""
+
+msgctxt "helpcmd|EnableChan|desc"
+msgid "Enable channels"
+msgstr ""
+
+msgid "Error adding network: {1}"
+msgstr ""
+
+msgid "Error from server: {1}"
+msgstr ""
+
+msgid "Error while trying to write config."
+msgstr ""
+
+msgid "Failed to delete network, perhaps this network doesn't exist"
+msgstr ""
+
+msgctxt "modhelpcmd"
+msgid "Generate this output"
+msgstr ""
+
+msgid "Global Modules"
+msgstr ""
+
+msgid "Global modules:"
+msgstr ""
+
+msgid "Hello. How may I help you?"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgctxt "listservers"
+msgid "Host"
+msgstr ""
+
+msgctxt "listports"
+msgid "IPv4"
+msgstr ""
+
+msgctxt "listports"
+msgid "IPv4 and IPv6"
+msgstr ""
+
+msgctxt "listports"
+msgid "IPv6"
+msgstr ""
+
+msgid "IPv6 is not enabled"
+msgstr ""
+
+msgctxt "listports"
+msgid "IRC"
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "IRC Server"
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "IRC User"
+msgstr ""
+
+msgid "IRC connection timed out.  Reconnecting..."
+msgstr ""
+
+msgid "Ident"
+msgstr ""
+
+msgid "If you trust this certificate, do /znc AddTrustedServerFingerprint {1}"
+msgstr ""
+
+msgid ""
+"If you want to choose another network, use /znc JumpNetwork <network>, or "
+"connect to ZNC with username {1}/<network> (instead of just {1})"
+msgstr ""
+
+msgctxt "trafficcmd"
+msgid "In"
+msgstr ""
+
+msgctxt "listchans"
+msgid "In config"
+msgstr ""
+
+msgid ""
+"In the following list all occurrences of <#chan> support wildcards (* and ?) "
+"except ListNicks"
+msgstr ""
+
+msgid "Invalid network name [{1}]"
+msgstr ""
+
+msgid ""
+"Invalid network name. It should be alphanumeric. Not to be confused with "
+"server name"
+msgstr ""
+
+msgid "Invalid port"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Joined"
+msgstr ""
+
+msgctxt "helpcmd|JumpNetwork|desc"
+msgid ""
+"Jump to another network (Alternatively, you can connect to ZNC several "
+"times, using `user/network` as username)"
+msgstr ""
+
+msgctxt "helpcmd|Jump|desc"
+msgid "Jump to the next or the specified server"
+msgstr ""
+
+msgid "Jumping servers because this server is no longer in the list"
+msgstr ""
+
+msgctxt "helpcmd|ListUsers|desc"
+msgid "List all ZNC users and their connection status"
+msgstr ""
+
+msgctxt "helpcmd|ListAllUserNetworks|desc"
+msgid "List all ZNC users and their networks"
+msgstr ""
+
+msgctxt "helpcmd|ListAvailMods|desc"
+msgid "List all available modules"
+msgstr ""
+
+msgctxt "helpcmd|ListChans|desc"
+msgid "List all channels"
+msgstr ""
+
+msgctxt "helpcmd|ListClients|desc"
+msgid "List all clients connected to your ZNC user"
+msgstr ""
+
+msgctxt "helpcmd|ListClients|desc"
+msgid "List all connected clients"
+msgstr ""
+
+msgctxt "helpcmd|ListMods|desc"
+msgid "List all loaded modules"
+msgstr ""
+
+msgctxt "helpcmd|ListNetworks|desc"
+msgid "List all networks"
+msgstr ""
+
+msgctxt "helpcmd|ListNicks|desc"
+msgid "List all nicks on a channel"
+msgstr ""
+
+msgctxt "helpcmd|ListServers|desc"
+msgid "List all servers of current IRC network"
+msgstr ""
+
+msgctxt "helpcmd|ListTrustedServerFingerprints|desc"
+msgid "List all trusted server SSL certificates of current IRC network."
+msgstr ""
+
+msgctxt "helpcmd|LoadMod|desc"
+msgid "Load a module"
+msgstr ""
+
+msgid "Loaded module {1}"
+msgstr ""
+
+msgid "Loaded module {1}: {2}"
+msgstr ""
+
+msgid "Logged in as: {1}"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Maximum buffer size is {1} line"
+msgid_plural "Maximum buffer size is {1} lines"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "listchans"
+msgid "Modes"
+msgstr ""
+
+msgid "Module [{1}] not loaded."
+msgstr ""
+
+msgid ""
+"Module names can only contain letters, numbers and underscores, [{1}] is "
+"invalid"
+msgstr ""
+
+msgid "Module {1} aborted."
+msgstr ""
+
+msgid "Module {1} aborted: {2}"
+msgstr ""
+
+msgid "Module {1} already loaded."
+msgstr ""
+
+msgid "Module {1} does not support module type {2}."
+msgstr ""
+
+msgid ""
+"Module {1} is built incompatibly: core is '{2}', module is '{3}'. Recompile "
+"this module."
+msgstr ""
+
+msgid "Module {1} requires a network."
+msgstr ""
+
+msgid "Module {1} requires a user."
+msgstr ""
+
+msgid "Module {1} unloaded."
+msgstr ""
+
+msgctxt "helpcmd|MoveNetwork|desc"
+msgid "Move an IRC network from one user to another"
+msgstr ""
+
+msgctxt "listavailmods"
+msgid "Name"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Name"
+msgstr ""
+
+msgctxt "listmods"
+msgid "Name"
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "Network"
+msgstr ""
+
+msgid "Network Modules ({1})"
+msgstr ""
+
+msgid ""
+"Network added. Use /znc JumpNetwork {1}, or connect to ZNC with username {2} "
+"(instead of just {3}) to connect to it."
+msgstr ""
+
+msgid "Network deleted"
+msgstr ""
+
+msgid "Network modules:"
+msgstr ""
+
+msgid "Network name should be alphanumeric"
+msgstr ""
+
+msgid ""
+"Network number limit reached. Ask an admin to increase the limit for you, or "
+"delete unneeded networks using /znc DelNetwork <name>"
+msgstr ""
+
+msgid "Network {1} already exists"
+msgstr ""
+
+msgid "Network {1} doesn't exist."
+msgstr ""
+
+msgid "New user {1} not found."
+msgstr ""
+
+msgid "Nick"
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "No"
+msgstr ""
+
+msgid ""
+"No Web-enabled modules have been loaded. Load modules from IRC (“<code>/msg "
+"*status help</code>” and “<code>/msg *status loadmod &lt;module&gt;</"
+"code>”). Once you have loaded some Web-enabled modules, the menu will expand."
+msgstr ""
+
+msgid "No active query with {1}"
+msgstr ""
+
+msgid "No fingerprints added."
+msgstr ""
+
+msgid "No free nick available"
+msgstr ""
+
+msgid "No free nick found"
+msgstr ""
+
+msgid "No global modules available."
+msgstr ""
+
+msgid "No global modules loaded."
+msgstr ""
+
+msgid "No matches for '{1}'"
+msgstr ""
+
+msgid "No network modules available."
+msgstr ""
+
+msgid "No network supplied."
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "No networks"
+msgstr ""
+
+msgid "No nicks on [{1}]"
+msgstr ""
+
+msgid "No such module {1}"
+msgstr ""
+
+msgid "No such server"
+msgstr ""
+
+msgid "No such user [{1}]"
+msgstr ""
+
+msgid "No user modules available."
+msgstr ""
+
+msgid "Not logged in"
+msgstr ""
+
+msgid "Old network {1} not found."
+msgstr ""
+
+msgid "Old user {1} not found."
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "On IRC"
+msgstr ""
+
+msgctxt "trafficcmd"
+msgid "Out"
+msgstr ""
+
+msgctxt "listservers"
+msgid "Password"
+msgstr ""
+
+msgid "Password is empty"
+msgstr ""
+
+msgid "Perhaps you want to add it as a new server."
+msgstr ""
+
+msgctxt "helpcmd|PlayBuffer|desc"
+msgid "Play back the specified buffer"
+msgstr ""
+
+msgid "Playback Complete."
+msgstr ""
+
+msgctxt "listports"
+msgid "Port"
+msgstr ""
+
+msgctxt "listservers"
+msgid "Port"
+msgstr ""
+
+msgid "Port added"
+msgstr ""
+
+msgctxt "helpcmd|Version|desc"
+msgid "Print which version of ZNC this is"
+msgstr ""
+
+msgctxt "listports"
+msgid "Protocol"
+msgstr ""
+
+msgid "Received a too long line from the IRC server!"
+msgstr ""
+
+msgctxt "helpcmd|Connect|desc"
+msgid "Reconnect to IRC"
+msgstr ""
+
+msgid "Rehashing failed: {1}"
+msgstr ""
+
+msgid "Rehashing succeeded!"
+msgstr ""
+
+msgctxt "helpcmd|ReloadMod|desc"
+msgid "Reload a module"
+msgstr ""
+
+msgctxt "helpcmd|UpdateMod|desc"
+msgid "Reload a module everywhere"
+msgstr ""
+
+msgctxt "helpcmd|Rehash|desc"
+msgid "Reload global settings, modules, and listeners from znc.conf"
+msgstr ""
+
+msgid "Reloaded module {1}."
+msgstr ""
+
+msgid "Reloading {1} everywhere"
+msgstr ""
+
+msgctxt "helpcmd|DelPort|desc"
+msgid "Remove a port from ZNC"
+msgstr ""
+
+msgctxt "helpcmd|DelServer|desc"
+msgid ""
+"Remove a server from the list of alternate/backup servers of current IRC "
+"network"
+msgstr ""
+
+msgid "Removing channel {1}"
+msgstr ""
+
+msgctxt "helpcmd|Restart|desc"
+msgid "Restart ZNC"
+msgstr ""
+
+msgid "Running for {1}"
+msgstr ""
+
+msgctxt "listports"
+msgid "SSL"
+msgstr ""
+
+msgctxt "listservers"
+msgid "SSL"
+msgstr ""
+
+msgctxt "listservers|cell"
+msgid "SSL"
+msgstr ""
+
+msgid "SSL is not enabled"
+msgstr ""
+
+msgctxt "helpcmd|SaveConfig|desc"
+msgid "Save the current settings to disk"
+msgstr ""
+
+msgid ""
+"Selecting network {1}. To see list of all configured networks, use /znc "
+"ListNetworks"
+msgstr ""
+
+msgid "Server added"
+msgstr ""
+
+msgid "Server address is IPv4-only, but bindhost is IPv6-only"
+msgstr ""
+
+msgid "Server address is IPv6-only, but bindhost is IPv4-only"
+msgstr ""
+
+msgid "Server removed"
+msgstr ""
+
+msgid "Server {1} redirects us to {2}:{3} with reason: {4}"
+msgstr ""
+
+msgctxt "topicscmd"
+msgid "Set By"
+msgstr ""
+
+msgctxt "helpcmd|SetMOTD|desc"
+msgid "Set ZNC's message of the day"
+msgstr ""
+
+msgid "Set bind host for network {1} to {2}"
+msgstr ""
+
+msgid "Set default bind host to {1}"
+msgstr ""
+
+msgctxt "helpcmd|SetBindHost|desc"
+msgid "Set the bind host for this network"
+msgstr ""
+
+msgctxt "helpcmd|SetBuffer|desc"
+msgid "Set the buffer count"
+msgstr ""
+
+msgctxt "helpcmd|SetUserBindHost|desc"
+msgid "Set the default bind host for this user"
+msgstr ""
+
+msgid "Setting buffer size failed for {1} buffer"
+msgid_plural "Setting buffer size failed for {1} buffers"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "helpcmd|ShowMOTD|desc"
+msgid "Show ZNC's message of the day"
+msgstr ""
+
+msgctxt "helpcmd|ListPorts|desc"
+msgid "Show all active listeners"
+msgstr ""
+
+msgctxt "helpcmd|Traffic|desc"
+msgid "Show basic traffic stats for all ZNC users"
+msgstr ""
+
+msgctxt "helpcmd|ShowBindHost|desc"
+msgid "Show currently selected bind host"
+msgstr ""
+
+msgctxt "helpcmd|Uptime|desc"
+msgid "Show for how long ZNC has been running"
+msgstr ""
+
+msgctxt "helpcmd|Topics|desc"
+msgid "Show topics in all your channels"
+msgstr ""
+
+msgctxt "helpcmd|Shutdown|desc"
+msgid "Shut down ZNC completely"
+msgstr ""
+
+msgid "Size of every buffer was set to {1} line"
+msgid_plural "Size of every buffer was set to {1} lines"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Some files seem to be in {1}. You might want to move them to {2}"
+msgstr ""
+
+msgid "Some module aborted the connection attempt"
+msgstr ""
+
+msgid "Some socket reached its max buffer limit and was closed!"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Status"
+msgstr ""
+
+msgid "Success."
+msgstr ""
+
+msgid "Switched to SSL (STARTTLS)"
+msgstr ""
+
+msgid "Switched to {1}"
+msgstr ""
+
+msgid "The buffer for channel {1} is empty"
+msgstr ""
+
+msgid "The buffer for {1} is empty"
+msgstr ""
+
+msgid "The channel {1} could not be joined, disabling it."
+msgstr ""
+
+msgid "There are no channels defined."
+msgstr ""
+
+msgid "There is no MOTD set."
+msgstr ""
+
+msgid "There was {1} channel matching [{2}]"
+msgid_plural "There were {1} channels matching [{2}]"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "This module doesn't implement any commands."
+msgstr ""
+
+msgid "This network has no modules loaded."
+msgstr ""
+
+msgid "This network is being deleted or moved to another user."
+msgstr ""
+
+msgid "This network's bind host not set"
+msgstr ""
+
+msgid "This network's default bind host is {1}"
+msgstr ""
+
+msgid "This user's default bind host is {1}"
+msgstr ""
+
+msgid "This user's default bind host not set"
+msgstr ""
+
+msgctxt "topicscmd"
+msgid "Topic"
+msgstr ""
+
+msgctxt "trafficcmd"
+msgid "Total"
+msgstr ""
+
+msgid "Total: {1}, Joined: {2}, Detached: {3}, Disabled: {4}"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Trying"
+msgstr ""
+
+msgid "Unable to add that network"
+msgstr ""
+
+msgid ""
+"Unable to add that server. Perhaps the server is already added or openssl is "
+"disabled?"
+msgstr ""
+
+msgid "Unable to bind: {1}"
+msgstr ""
+
+msgid "Unable to determine type of {1}: {2}"
+msgstr ""
+
+msgid "Unable to find a matching port"
+msgstr ""
+
+msgid "Unable to find modinfo {1}: {2}"
+msgstr ""
+
+msgid "Unable to find module {1}"
+msgstr ""
+
+msgid "Unable to find module {1}."
+msgstr ""
+
+msgid "Unable to load global module {1}: Access denied."
+msgstr ""
+
+msgid "Unable to load module {1}: {2}"
+msgstr ""
+
+msgid "Unable to load network module {1}: Not connected with a network."
+msgstr ""
+
+msgid "Unable to load {1}: Access denied."
+msgstr ""
+
+msgid "Unable to load {1}: {2}"
+msgstr ""
+
+msgid "Unable to locate pem file: {1}"
+msgstr ""
+
+msgid "Unable to open module {1}: {2}"
+msgstr ""
+
+msgid "Unable to reload global module {1}: Access denied."
+msgstr ""
+
+msgid "Unable to reload module {1}: Unknown module type"
+msgstr ""
+
+msgid "Unable to reload modules. Access denied."
+msgstr ""
+
+msgid "Unable to reload network module {1}: Not connected with a network."
+msgstr ""
+
+msgid "Unable to reload {1}: {2}"
+msgstr ""
+
+msgid "Unable to unload global module {1}: Access denied."
+msgstr ""
+
+msgid "Unable to unload module {1}."
+msgstr ""
+
+msgid "Unable to unload module {1}: Unknown module type"
+msgstr ""
+
+msgid "Unable to unload network module {1}: Not connected with a network."
+msgstr ""
+
+msgid "Unable to unload {1}: Access denied."
+msgstr ""
+
+msgid "Unknown command!"
+msgstr ""
+
+msgid "Unknown command, try 'Help'"
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Unknown module type"
+msgstr ""
+
+msgctxt "helpcmd|UnloadMod|desc"
+msgid "Unload a module"
+msgstr ""
+
+msgid "Usage: /attach <#chans>"
+msgstr ""
+
+msgid "Usage: /detach <#chans>"
+msgstr ""
+
+msgid "Usage: AddNetwork <name>"
+msgstr ""
+
+msgid ""
+"Usage: AddPort <[+]port> <ipv4|ipv6|all> <web|irc|all> [bindhost [uriprefix]]"
+msgstr ""
+
+msgid "Usage: AddServer <host> [[+]port] [pass]"
+msgstr ""
+
+msgid "Usage: AddTrustedServerFingerprint <fi:ng:er>"
+msgstr ""
+
+msgid "Usage: Attach <#chans>"
+msgstr ""
+
+msgid "Usage: ClearBuffer <#chan|query>"
+msgstr ""
+
+msgid "Usage: DelNetwork <name>"
+msgstr ""
+
+msgid "Usage: DelPort <port> <ipv4|ipv6|all> [bindhost]"
+msgstr ""
+
+msgid "Usage: DelServer <host> [port] [pass]"
+msgstr ""
+
+msgid "Usage: DelTrustedServerFingerprint <fi:ng:er>"
+msgstr ""
+
+msgid "Usage: Detach <#chans>"
+msgstr ""
+
+msgid "Usage: ListChans"
+msgstr ""
+
+msgid "Usage: ListNicks <#chan>"
+msgstr ""
+
+msgid "Usage: LoadMod [--type=global|user|network] <module> [args]"
+msgstr ""
+
+msgid "Usage: MoveNetwork <old user> <old network> <new user> [new network]"
+msgstr ""
+
+msgid "Usage: PlayBuffer <#chan|query>"
+msgstr ""
+
+msgid "Usage: ReloadMod [--type=global|user|network] <module> [args]"
+msgstr ""
+
+msgid "Usage: SetBindHost <host>"
+msgstr ""
+
+msgid "Usage: SetBuffer <#chan|query> [linecount]"
+msgstr ""
+
+msgid "Usage: SetUserBindHost <host>"
+msgstr ""
+
+msgid "Usage: UnloadMod [--type=global|user|network] <module>"
+msgstr ""
+
+msgid "Usage: UpdateMod <module>"
+msgstr ""
+
+msgid "User Modules"
+msgstr ""
+
+msgid "User [{1}] doesn't have network [{2}]"
+msgstr ""
+
+msgid "User already exists"
+msgstr ""
+
+msgid "User modules:"
+msgstr ""
+
+msgid "User {1} already has network {2}."
+msgstr ""
+
+msgid "User {1} not found"
+msgstr ""
+
+msgctxt "trafficcmd"
+msgid "Username"
+msgstr ""
+
+msgid "Username is empty"
+msgstr ""
+
+msgid "Username is invalid"
+msgstr ""
+
+msgctxt "listchans"
+msgid "Users"
+msgstr ""
+
+msgid ""
+"Version mismatch for module {1}: core is {2}, module is built for {3}. "
+"Recompile this module."
+msgstr ""
+
+msgctxt "listports"
+msgid "Web"
+msgstr ""
+
+msgid "Welcome to ZNC"
+msgstr ""
+
+msgid "Welcome to ZNC's web interface!"
+msgstr ""
+
+msgid "Wrote config to {1}"
+msgstr ""
+
+msgctxt "listnetworks"
+msgid "Yes"
+msgstr ""
+
+msgid "You already have this bind host!"
+msgstr ""
+
+msgid "You are already connected with this network."
+msgstr ""
+
+msgid ""
+"You are being disconnected because another user just authenticated as you."
+msgstr ""
+
+msgid ""
+"You are being disconnected because your IP is no longer allowed to connect "
+"to this user"
+msgstr ""
+
+msgid "You are currently disconnected from IRC. Use 'connect' to reconnect."
+msgstr ""
+
+msgid "You are not on [{1}]"
+msgstr ""
+
+msgid "You are not on [{1}] (trying)"
+msgstr ""
+
+msgid "You are not on {1}"
+msgstr ""
+
+msgid "You are not on {1} (trying to join)"
+msgstr ""
+
+msgid "You don't have a network named {1}"
+msgstr ""
+
+msgid "You don't have any servers added."
+msgstr ""
+
+msgid ""
+"You have no networks configured. Use /znc AddNetwork <network> to add one."
+msgstr ""
+
+msgid ""
+"You have several networks configured, but no network was specified for the "
+"connection."
+msgstr ""
+
+msgid "You must be connected with a network to use this command"
+msgstr ""
+
+msgid ""
+"You must be connected with a network to use this command. Try "
+"ClearUserBindHost instead"
+msgstr ""
+
+msgid ""
+"You must be connected with a network to use this command. Try "
+"SetUserBindHost instead"
+msgstr ""
+
+msgid "You quit: {1}"
+msgstr ""
+
+msgid "Your CTCP to {1} got lost, you are not connected to IRC!"
+msgstr ""
+
+msgid "Your current server was removed, jumping..."
+msgstr ""
+
+msgid "Your message to {1} got lost, you are not connected to IRC!"
+msgstr ""
+
+msgid "Your notice to {1} got lost, you are not connected to IRC!"
+msgstr ""
+
+msgid "Your user has no modules loaded."
+msgstr ""
+
+msgid "ZNC seems to be connected to itself, disconnecting..."
+msgstr ""
+
+msgctxt "helpcmd|LoadMod|args"
+msgid "[--type=global|user|network] <module>"
+msgstr ""
+
+msgctxt "helpcmd|ReloadMod|args"
+msgid "[--type=global|user|network] <module>"
+msgstr ""
+
+msgctxt "helpcmd|UnloadMod|args"
+msgid "[--type=global|user|network] <module>"
+msgstr ""
+
+msgctxt "helpcmd|Broadcast|args"
+msgid "[message]"
+msgstr ""
+
+msgctxt "helpcmd|Disconnect|args"
+msgid "[message]"
+msgstr ""
+
+msgctxt "helpcmd|Restart|args"
+msgid "[message]"
+msgstr ""
+
+msgctxt "helpcmd|Shutdown|args"
+msgid "[message]"
+msgstr ""
+
+msgctxt "helpcmd|Jump|args"
+msgid "[server]"
+msgstr ""
+
+msgctxt "helpcmd|ListChans|args"
+msgid "[user <network>]"
+msgstr ""
+
+msgctxt "helpcmd|ListClients|args"
+msgid "[user]"
+msgstr ""
+
+msgid "hostname doesn't match"
+msgstr ""
+
+msgid "hostname verification error"
+msgstr ""
+
+msgid "malformed hostname in certificate"
+msgstr ""
+
+msgctxt "listports|irc"
+msgid "no"
+msgstr ""
+
+msgctxt "listports|ssl"
+msgid "no"
+msgstr ""
+
+msgctxt "listports|web"
+msgid "no"
+msgstr ""
+
+msgctxt "listchans"
+msgid "yes"
+msgstr ""
+
+msgctxt "listports|irc"
+msgid "yes"
+msgstr ""
+
+msgctxt "listports|ssl"
+msgid "yes"
+msgstr ""
+
+msgctxt "listports|irc"
+msgid "yes, on {1}"
+msgstr ""
+
+msgid "{1} buffer matching {2} has been cleared"
+msgid_plural "{1} buffers matching {2} have been cleared"
+msgstr[0] ""
+msgstr[1] ""

@@ -1,0 +1,447 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Neoklis Kyriazis nkcyham@yahoo.com
+# This file is distributed under the same license as the GNU xdemorse package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU xdemorse 3.6.1\n"
+"Report-Msgid-Bugs-To: nkcyham@yahoo.com\n"
+"POT-Creation-Date: 2018-07-16 07:21+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/callbacks.c:282
+msgid ""
+"\n"
+"Error: "
+msgstr ""
+
+#: src/callbacks.c:306
+msgid "Failed to initialize signal detector"
+msgstr ""
+
+#: src/callbacks.c:335
+msgid "Lead/Trail Ratio"
+msgstr ""
+
+#: src/callbacks.c:352
+msgid "Squelch Level"
+msgstr ""
+
+#: src/callbacks.c:367
+msgid "Hold Display"
+msgstr ""
+
+#: src/callbacks.c:386
+msgid "Signal Detector"
+msgstr ""
+
+#: src/cat.c:295
+#, c-format
+msgid ""
+"Failed to open %s\n"
+"Transceiver CAT not setup"
+msgstr ""
+
+#: src/cat.c:318
+#, c-format
+msgid ""
+"Failed to lock %s\n"
+"Device locked by pid %d\n"
+"Transceiver CAT not setup"
+msgstr ""
+
+#: src/main.c:123
+msgid "Usage: xdemorse [-hv]"
+msgstr ""
+
+#: src/main.c:126
+msgid "       -h: Print this usage information and exit"
+msgstr ""
+
+#: src/main.c:129
+msgid "       -v: Print version number and exit"
+msgstr ""
+
+#: src/main.c:148
+msgid "xdemorse: Exiting via User Interrupt"
+msgstr ""
+
+#: src/main.c:152
+msgid "xdemorse: Segmentation Fault"
+msgstr ""
+
+#: src/main.c:156
+msgid "xdemorse: Floating Point Exception"
+msgstr ""
+
+#: src/main.c:160
+msgid "xdemorse: Abort Signal received"
+msgstr ""
+
+#: src/main.c:164
+msgid "xdemorse: Termination Request received"
+msgstr ""
+
+#: src/sound.c:71
+msgid "Cannot open audio device: "
+msgstr ""
+
+#: src/sound.c:80
+msgid "Cannot allocate hardware parameter struct"
+msgstr ""
+
+#: src/sound.c:88
+msgid "Cannot initialize hardware parameter struct"
+msgstr ""
+
+#: src/sound.c:97
+msgid "Cannot set access type (RW_INTERLEAVED)"
+msgstr ""
+
+#: src/sound.c:106
+msgid "Cannot set sample format (S16_LE)"
+msgstr ""
+
+#: src/sound.c:115
+#, c-format
+msgid "Cannot set sample rate to %d"
+msgstr ""
+
+#: src/sound.c:124
+#, c-format
+msgid "Cannot set channel count to %d"
+msgstr ""
+
+#: src/sound.c:133
+#, c-format
+msgid "Cannot set number of periods to %d"
+msgstr ""
+
+#: src/sound.c:142
+#, c-format
+msgid "Cannot set period size to %d"
+msgstr ""
+
+#: src/sound.c:150
+msgid "Cannot set capture parameters"
+msgstr ""
+
+#: src/sound.c:163
+msgid "Cannot open mixer"
+msgstr ""
+
+#: src/sound.c:171
+msgid "Cannot attach mixer to: "
+msgstr ""
+
+#: src/sound.c:180
+msgid "Cannot register mixer"
+msgstr ""
+
+#: src/sound.c:188
+msgid "Cannot load mixer"
+msgstr ""
+
+#: src/sound.c:196
+msgid "Cannot allocate selem_id struct"
+msgstr ""
+
+#: src/sound.c:206
+msgid "Cannot find capture element: "
+msgstr ""
+
+#: src/sound.c:220
+msgid "Cannot set capture device: "
+msgstr ""
+
+#: src/sound.c:228
+msgid "Device has no capture switch: "
+msgstr ""
+
+#: src/sound.c:243
+msgid "Cannot find Volume element: "
+msgstr ""
+
+#: src/sound.c:264
+#, c-format
+msgid ""
+"Cannot set capture volume to %d\n"
+"Error: %s"
+msgstr ""
+
+#: src/sound.c:273
+msgid "Element has no Volume control: "
+msgstr ""
+
+#: src/sound.c:290
+msgid "Cannot prepare audio interface"
+msgstr ""
+
+#: src/sound.c:338
+#, c-format
+msgid ""
+"Cannot recover from underrun, prepare failed\n"
+"Error: %s\n"
+msgstr ""
+
+#: src/sound.c:355
+#, c-format
+msgid ""
+"Cannot recover from suspend, prepare failed\n"
+"Error: %s\n"
+msgstr ""
+
+#: src/sound.c:392
+#, c-format
+msgid ""
+"Read from audio interface failed\n"
+"Error: %s\n"
+msgstr ""
+
+#: src/sound.c:440
+#, c-format
+msgid "sdrx: DSP_Write(): %s\n"
+msgstr ""
+
+#: src/sound.c:444
+#, c-format
+msgid "sdrx: DSP_Write(): Written only %d frames out of %d\n"
+msgstr ""
+
+#: src/utils.c:91
+msgid ""
+"A memory allocation failed\n"
+"Please quit xdemorse and correct"
+msgstr ""
+
+#: src/utils.c:109
+msgid ""
+"A memory re-allocation failed\n"
+"Please quit xdemorse and correct"
+msgstr ""
+
+#: src/utils.c:219
+#, c-format
+msgid ""
+"Error reading %s\n"
+"Premature EOF (End Of File)"
+msgstr ""
+
+#: src/utils.c:291
+#, c-format
+msgid ""
+"Error reading %s\n"
+"Line longer than 80 characters"
+msgstr ""
+
+#: src/utils.c:359
+msgid ""
+"Failed to open .xdemorserc file.\n"
+"Quit xdemorse and correct.\n"
+"(You may need to copy the file:\n"
+"/usr/share/doc/xdemorse/examples/xdemorserc.example\n"
+"to your <home-directory>/.xdemorserc and edit.)"
+msgstr ""
+
+#: src/utils.c:369
+msgid "Card Name"
+msgstr ""
+
+#: src/utils.c:374
+msgid "DSP Rate"
+msgstr ""
+
+#: src/utils.c:379
+msgid "ALSA Channel"
+msgstr ""
+
+#: src/utils.c:388
+msgid ""
+"Invalid ALSA channel name\n"
+"Quit and correct xdemorserc"
+msgstr ""
+
+#: src/utils.c:401
+msgid "Capture Source"
+msgstr ""
+
+#: src/utils.c:406
+msgid "Capture Volume Control"
+msgstr ""
+
+#: src/utils.c:411
+msgid "Capture Volume"
+msgstr ""
+
+#: src/utils.c:416
+msgid "Maximum WPM"
+msgstr ""
+
+#: src/utils.c:421
+msgid "Minimum WPM"
+msgstr ""
+
+#: src/utils.c:432
+msgid ""
+"Morse code speed (WPM)\n"
+"range is out of limits\n"
+"Quit and correct xdemorserc"
+msgstr ""
+
+#: src/utils.c:443
+msgid "Initial WPM"
+msgstr ""
+
+#: src/utils.c:454
+msgid ""
+"Initial Morse code speed (WPM)\n"
+"is out of specified range\n"
+"Quit and correct xdemorserc"
+msgstr ""
+
+#: src/utils.c:461
+msgid "CAT Serial Port"
+msgstr ""
+
+#: src/utils.c:466
+msgid "Transceiver type for CAT"
+msgstr ""
+
+#: src/utils.c:487
+msgid ""
+"Error reading Transceiver type\n"
+"Quit and correct xdemorserc"
+msgstr ""
+
+#: src/utils.c:498
+msgid "Frequency Correction Factor"
+msgstr ""
+
+#: src/utils.c:505
+msgid ""
+"Error reading Frequency Correction Factor\n"
+"Frequency Correction Factor seems excessive\n"
+"Quit and correct xdemorserc"
+msgstr ""
+
+#: src/utils.c:513
+msgid "Input Tone"
+msgstr ""
+
+#: src/utils.c:520
+msgid ""
+"Error reading BFO Tone Freq\n"
+"Quit and correct xdemorserc"
+msgstr ""
+
+#: src/utils.c:589
+msgid "Failed to create pixbuf for waterfall"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:10 .xdemorse/xdemorse.glade:344
+msgid "Xdemorse"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:101
+msgid "Generic Error Message pop-up"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:205
+msgid "Morse Decode"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:246
+msgid "Signal Input"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:284
+msgid "1000000"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:299
+msgid "Frequency"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:323
+msgid "Receive"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:375
+msgid "-- NONE --"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:376
+msgid "FT847"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:377
+msgid "FT857"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:378
+msgid "K2"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:379
+msgid "K3"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:390
+msgid "Receiver"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:414
+msgid "Auto"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:433
+msgid "18"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:454
+msgid "Speed WPM"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:495
+msgid "Signal"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:512 .xdemorse/xdemorse.glade:596
+msgid "Level"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:529 .xdemorse/xdemorse.glade:634
+msgid "Ratio"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:546
+msgid "Stop"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:567
+msgid "Display"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:613
+msgid "50"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:652
+msgid "2.0"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:674
+msgid "Threshold"
+msgstr ""
+
+#: .xdemorse/xdemorse.glade:723
+msgid "Waterfall"
+msgstr ""

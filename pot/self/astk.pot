@@ -1,0 +1,2457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-06-21 14:58+CEST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ../asrun/astout.py:40
+msgid "testcase"
+msgstr ""
+
+#: ../asrun/astout.py:40 ../asrun/multiple.py:43 ../asrun/parametric.py:38
+msgid "result"
+msgstr ""
+
+#: ../asrun/astout.py:41 ../asrun/multiple.py:44 ../asrun/parametric.py:39
+msgid "sys"
+msgstr ""
+
+#: ../asrun/astout.py:41 ../asrun/multiple.py:44 ../asrun/parametric.py:39
+#: ../asrun/repart.py:336 ../asrun/timer.py:116
+msgid "cpu"
+msgstr ""
+
+#: ../asrun/astout.py:41 ../asrun/multiple.py:44 ../asrun/parametric.py:39
+#: ../asrun/timer.py:118
+msgid "cpu+sys"
+msgstr ""
+
+#: ../asrun/astout.py:41 ../asrun/multiple.py:44 ../asrun/parametric.py:39
+#: ../asrun/timer.py:119
+msgid "elapsed"
+msgstr ""
+
+#: ../asrun/astout.py:44
+msgid "tests"
+msgstr ""
+
+#: ../asrun/astout.py:44 ../asrun/multiple.py:47 ../asrun/parametric.py:42
+msgid "errors"
+msgstr ""
+
+#: ../asrun/astout.py:62
+msgid "Code_Aster tests execution"
+msgstr ""
+
+#: ../asrun/astout.py:74
+msgid "no list of tests found"
+msgstr ""
+
+#: ../asrun/astout.py:90
+msgid "no result directory found"
+msgstr ""
+
+#: ../asrun/astout.py:94 ../asrun/parametric.py:93
+msgid "the result directory must not be on a remote host"
+msgstr ""
+
+#: ../asrun/astout.py:114 ../asrun/astout.py:119
+msgid "incorrect value for %s : %s"
+msgstr ""
+
+#: ../asrun/astout.py:127 ../asrun/maintenance.py:1500
+#: ../asrun/testlist.py:304
+msgid "error during reading file : %s"
+msgstr ""
+
+#: ../asrun/astout.py:143
+msgid ""
+"\n"
+"--- %d test-cases to run initially\n"
+"    %d test-cases previously failed (or their results have not been found) and will be run again\n"
+msgstr ""
+
+#: ../asrun/astout.py:151 ../asrun/multiple.py:185 ../asrun/parametric.py:115
+msgid "Checking hosts"
+msgstr ""
+
+#: ../asrun/astout.py:156 ../asrun/multiple.py:216 ../asrun/parametric.py:120
+msgid "Number of available hosts : %d/%d"
+msgstr ""
+
+#: ../asrun/astout.py:158 ../asrun/multiple.py:218 ../asrun/parametric.py:122
+msgid "No available host. Run cancelled."
+msgstr ""
+
+#: ../asrun/astout.py:164 ../asrun/multiple.py:230 ../asrun/parametric.py:128
+msgid "incorrect value for tpsjob : %s"
+msgstr ""
+
+#: ../asrun/astout.py:167
+msgid ""
+"\n"
+"--- %d test-cases to run\n"
+"--- Run started at %s\n"
+"--- Parameters used for this run :\n"
+"    Directory of reference files    : %s\n"
+"    Directory of developper files   : %s\n"
+"    Directory to copy results       : %s\n"
+"    Directory for job files         : %s\n"
+"    Code_Aster version              : %s (%s)\n"
+"    Executable filename             : %s\n"
+"    Commands catalogue directory    : %s\n"
+"    Elements catalogue filename     : %s\n"
+"    Maximum number of errors (NOOK) : %d\n"
+"    Criteria to copy result files   : %s\n"
+"    Time multiplicative factor      : %f\n"
+"    Working directory               : %s\n"
+"    Submission timeout (seconds)    : %.0f"
+msgstr ""
+
+#: ../asrun/astout.py:185 ../asrun/parametric.py:144
+msgid "    Number of threads               : %d"
+msgstr ""
+
+#: ../asrun/astout.py:186
+msgid "    Available hosts (resources)     : %s"
+msgstr ""
+
+#: ../asrun/astout.py:187
+msgid ""
+"\n"
+"--- All tests finished at %s\n"
+"\n"
+"--- Results :\n"
+msgstr ""
+
+#: ../asrun/astout.py:192 ../asrun/parametric.py:151
+msgid ""
+"\n"
+"--- Speed-up is %.2f\n"
+msgstr ""
+
+#: ../asrun/astout.py:229
+msgid "Tests execution"
+msgstr ""
+
+#: ../asrun/astout.py:237 ../asrun/multiple.py:281 ../asrun/parametric.py:195
+msgid "Summary of the run"
+msgstr ""
+
+#: ../asrun/astout.py:281
+msgid "%d test-cases to run, %d really run !"
+msgstr ""
+
+#: ../asrun/astout.py:296
+msgid "All tests run successfully"
+msgstr ""
+
+#: ../asrun/batch.py:162
+msgid ""
+"Failure during submitting. Error message :\n"
+"%s"
+msgstr ""
+
+#: ../asrun/batch.py:203
+msgid ""
+"Failure during retreiving job information. Error message :\n"
+"%s"
+msgstr ""
+
+#: ../asrun/batch.py:205 ../asrun/batch.py:218 ../asrun/batch.py:245
+msgid "Command line: %s"
+msgstr ""
+
+#: ../asrun/batch.py:216
+msgid ""
+"Failure during retreiving job cpu information. Error message :\n"
+"%s"
+msgstr ""
+
+#: ../asrun/batch.py:225
+msgid "Job scheduler does not know how to send a signal."
+msgstr ""
+
+#: ../asrun/batch.py:243
+msgid ""
+"Failure during killing a job. Error message :\n"
+"%s"
+msgstr ""
+
+#: ../asrun/bddetudes.py:38
+msgid "prepare the profile to insert an execution into a database."
+msgstr ""
+
+#: ../asrun/bddetudes.py:42
+msgid "Options for astketud database link"
+msgstr ""
+
+#: ../asrun/bddetudes.py:55 ../asrun/job.py:236
+msgid "'--%s' takes exactly %d arguments (%d given)"
+msgstr ""
+
+#: ../asrun/bddetudes.py:61 ../asrun/rex.py:154 ../asrun/rex.py:305
+#: ../asrun/rex.py:346
+msgid "Only available on the AGLA machine"
+msgstr ""
+
+#: ../asrun/bddetudes.py:63
+msgid "'astketud' is not defined in 'agla' configuration file."
+msgstr ""
+
+#: ../asrun/build.py:69
+msgid "Maximum number of errors reached : %d"
+msgstr ""
+
+#: ../asrun/build.py:104 ../asrun/build.py:107 ../asrun/build.py:116
+msgid "compiling %s"
+msgstr ""
+
+#: ../asrun/build.py:120
+msgid "error during compiling %s (see %s)"
+msgstr ""
+
+#: ../asrun/build.py:145
+msgid "no configuration object provided !"
+msgstr ""
+
+#: ../asrun/build.py:192
+msgid "C compiler not defined in 'config.txt' (CC)"
+msgstr ""
+
+#: ../asrun/build.py:205
+msgid "Fortran 77 compiler not defined in 'config.txt' (F77)"
+msgstr ""
+
+#: ../asrun/build.py:218
+msgid "Fortran 90 compiler not defined in 'config.txt' (F90)"
+msgstr ""
+
+#: ../asrun/build.py:229
+msgid "unknown type : %s"
+msgstr ""
+
+#: ../asrun/build.py:238
+msgid "rep_trav must be defined"
+msgstr ""
+
+#: ../asrun/build.py:279
+msgid "no source file in %s"
+msgstr ""
+
+#: ../asrun/build.py:291
+msgid "%4d files compiled from %s"
+msgstr ""
+
+#: ../asrun/build.py:293
+msgid "%4d files skipped (object more recent than source)"
+msgstr ""
+
+#: ../asrun/build.py:306 ../asrun/execute.py:252
+msgid "Compilation of source files"
+msgstr ""
+
+#: ../asrun/build.py:330 ../asrun/build.py:389
+msgid "directory does not exist : %s"
+msgstr ""
+
+#: ../asrun/build.py:343
+msgid "There is no Fortran 90 compiler in 'config.txt'. All source files from '%s' were ignored."
+msgstr ""
+
+#: ../asrun/build.py:348
+msgid "These directories will not be built :"
+msgstr ""
+
+#: ../asrun/build.py:367
+msgid "Compilation from %s directory"
+msgstr ""
+
+#: ../asrun/build.py:371
+msgid "Directory %s is in NOBUILD list"
+msgstr ""
+
+#: ../asrun/build.py:382
+msgid "Archive object files"
+msgstr ""
+
+#: ../asrun/build.py:410
+msgid "no object file in %s"
+msgstr ""
+
+#: ../asrun/build.py:431
+msgid "%4d / %4d objects added to archive..."
+msgstr ""
+
+#: ../asrun/build.py:441
+msgid "error during archiving"
+msgstr ""
+
+#: ../asrun/build.py:446
+msgid "%4d files archived"
+msgstr ""
+
+#: ../asrun/build.py:448
+msgid "%4d files skipped (objects older than library)"
+msgstr ""
+
+#: ../asrun/build.py:464
+msgid "Build Code_Aster executable"
+msgstr ""
+
+#: ../asrun/build.py:469 ../asrun/build.py:1173 ../asrun/common/utils.py:318
+#: ../asrun/config.py:101 ../asrun/config.py:227 ../asrun/execution.py:623
+#: ../asrun/job.py:197 ../asrun/maintenance.py:408 ../asrun/maintenance.py:756
+#: ../asrun/mpi.py:186 ../asrun/profil.py:300 ../asrun/run.py:248
+#: ../asrun/services.py:173 ../asrun/system.py:691 ../asrun/system.py:798
+msgid "file not found : %s"
+msgstr ""
+
+#: ../asrun/build.py:496
+msgid "extracting %s from %s..."
+msgstr ""
+
+#: ../asrun/build.py:505
+msgid "error during extracting %s"
+msgstr ""
+
+#: ../asrun/build.py:526
+msgid "creating %s..."
+msgstr ""
+
+#: ../asrun/build.py:536
+msgid "error during linking"
+msgstr ""
+
+#: ../asrun/build.py:539
+msgid "executable more recent than objects and libs in arguments"
+msgstr ""
+
+#: ../asrun/build.py:592 ../asrun/build.py:683 ../asrun/system.py:414
+msgid "copying %s..."
+msgstr ""
+
+#: ../asrun/build.py:604
+msgid "copy user's python source files"
+msgstr ""
+
+#: ../asrun/build.py:622
+msgid "unknown package '%s' in %s"
+msgstr ""
+
+#: ../asrun/build.py:646 ../asrun/build.py:664
+msgid "no catalogue found for language '%s', use standard (fr) one..."
+msgstr ""
+
+#: ../asrun/build.py:651
+msgid "no catalogue found : %s"
+msgstr ""
+
+#: ../asrun/build.py:703 ../asrun/execute.py:321 ../asrun/maintenance.py:1006
+msgid "Compilation of commands catalogue"
+msgstr ""
+
+#: ../asrun/build.py:736 ../asrun/build.py:950
+msgid "copy user's catalogues"
+msgstr ""
+
+#: ../asrun/build.py:766
+msgid "unknown module name : %s"
+msgstr ""
+
+#: ../asrun/build.py:789 ../asrun/build.py:810
+msgid "compilation of commands"
+msgstr ""
+
+#: ../asrun/build.py:844
+msgid "error during compiling %s"
+msgstr ""
+
+#: ../asrun/build.py:848
+msgid "Commands catalogue successfully compiled"
+msgstr ""
+
+#: ../asrun/build.py:857
+msgid "working for i18n (language %s)..."
+msgstr ""
+
+#: ../asrun/build.py:901
+msgid "error during building %s"
+msgstr ""
+
+#: ../asrun/build.py:904
+msgid "Commands catalogue successfully translated (language %s)"
+msgstr ""
+
+#: ../asrun/build.py:922
+msgid "Compilation of elements catalogue"
+msgstr ""
+
+#: ../asrun/build.py:931
+msgid "argument %s is required"
+msgstr ""
+
+#: ../asrun/build.py:975
+msgid "adding %s"
+msgstr ""
+
+#: ../asrun/build.py:1001
+msgid "pre-compilation of elements with %s"
+msgstr ""
+
+#: ../asrun/build.py:1028
+msgid "error during pre-compilation of elements"
+msgstr ""
+
+#: ../asrun/build.py:1045
+msgid "compilation of elements with %s"
+msgstr ""
+
+#: ../asrun/build.py:1067
+msgid "Elements catalogue successfully compiled"
+msgstr ""
+
+#: ../asrun/build.py:1070
+msgid " To re-run compilation manually :"
+msgstr ""
+
+#: ../asrun/build.py:1073
+msgid "error during compilation of elements"
+msgstr ""
+
+#: ../asrun/build.py:1088
+msgid "Prepare cata_ele.pickled"
+msgstr ""
+
+#: ../asrun/build.py:1137
+msgid "build cata_ele.pickled with %s"
+msgstr ""
+
+#: ../asrun/build.py:1152
+msgid "cata_ele.pickled successfully created"
+msgstr ""
+
+#: ../asrun/build.py:1154
+msgid "error during making cata_ele.pickled"
+msgstr ""
+
+#: ../asrun/build.py:1233
+msgid "invalid type : %s"
+msgstr ""
+
+#: ../asrun/build.py:1238
+msgid ""
+"invalid first line of file : %s\n"
+"      Should start with '%s' and have at least %s fields"
+msgstr ""
+
+#: ../asrun/build.py:1265
+msgid "path does not exist : %s"
+msgstr ""
+
+#: ../asrun/build.py:1527
+msgid "unknown type %s in unigest file"
+msgstr ""
+
+#: ../asrun/calcul.py:251
+msgid "Unknown service : %s"
+msgstr ""
+
+#: ../asrun/calcul.py:451
+msgid "Error during submitting job !"
+msgstr ""
+
+#: ../asrun/calcul.py:454
+msgid "Empty jobid"
+msgstr ""
+
+#: ../asrun/calcul.py:499
+msgid "Not an executable : %s"
+msgstr ""
+
+#: ../asrun/calcul.py:506
+msgid "Connection failure to %s (from %s)"
+msgstr ""
+
+#: ../asrun/calcul.py:536
+msgid "the configuration file (%s) does not allow mode='%s'"
+msgstr ""
+
+#: ../asrun/common/utils.py:337
+msgid "incorrect value for tps_job (%s) in %s"
+msgstr ""
+
+#: ../asrun/common/utils.py:345
+msgid "incorrect value for mem_job (%s) in %s"
+msgstr ""
+
+#: ../asrun/common/utils.py:353
+msgid "incorrect value for memjeveux_stat (%s) in %s"
+msgstr ""
+
+#: ../asrun/common/utils.py:361
+msgid "incorrect value for mem_aster (%s) in %s"
+msgstr ""
+
+#: ../asrun/common_func.py:58
+msgid "remote connection to '%s' may fail :%s'devel_server_user' not defined in '%s'"
+msgstr ""
+
+#: ../asrun/config.py:197 ../asrun/profil.py:641 ../asrun/system.py:682
+msgid "No write access to %s"
+msgstr ""
+
+#: ../asrun/contrib/copy_version.py:39
+msgid "copying %s to %s..."
+msgstr ""
+
+#: ../asrun/core/server.py:103
+msgid "execute on %s@%s : %s"
+msgstr ""
+
+#: ../asrun/core/server.py:105 ../asrun/core/server.py:296
+#: ../asrun/core/server.py:316 ../asrun/plugins/rsh_server.py:75
+#: ../asrun/plugins/rsh_server.py:83 ../asrun/plugins/rsh_server.py:99
+#: ../asrun/plugins/rsh_server.py:123 ../asrun/plugins/server.py:82
+#: ../asrun/plugins/server.py:90 ../asrun/plugins/server.py:106
+#: ../asrun/plugins/server.py:134
+msgid "returns %s"
+msgstr ""
+
+#: ../asrun/core/server.py:178 ../asrun/core/server.py:224
+msgid "no file to copy."
+msgstr ""
+
+#: ../asrun/core/server.py:267
+msgid "create directory %s..."
+msgstr ""
+
+#: ../asrun/core/server.py:272 ../asrun/core/server.py:283
+msgid "done"
+msgstr ""
+
+#: ../asrun/core/server.py:277
+msgid "delete directory %s..."
+msgstr ""
+
+#: ../asrun/core/server.py:281 ../asrun/repart.py:443
+msgid "failed"
+msgstr ""
+
+#: ../asrun/core/server.py:290 ../asrun/core/server.py:314
+#: ../asrun/plugins/rsh_server.py:97 ../asrun/plugins/rsh_server.py:121
+#: ../asrun/plugins/server.py:104 ../asrun/plugins/server.py:131
+msgid "copy %s to %s"
+msgstr ""
+
+#: ../asrun/dev/messages.py:48
+msgid "%s: %s, error: %s"
+msgstr ""
+
+#: ../asrun/dev/messages.py:129
+msgid "invalid message id"
+msgstr ""
+
+#: ../asrun/dev/messages.py:205
+msgid "errors occurred!"
+msgstr ""
+
+#: ../asrun/dev/messages.py:205
+msgid "global"
+msgstr ""
+
+#: ../asrun/dev/messages.py:365
+msgid "Error with file %s : %s"
+msgstr ""
+
+#: ../asrun/dev/messages.py:483
+msgid "no message id available in this catalog"
+msgstr ""
+
+#: ../asrun/dev/messages.py:488
+msgid "unknown message"
+msgstr ""
+
+#: ../asrun/dev/messages.py:602
+msgid "unable to import the file"
+msgstr ""
+
+#: ../asrun/dev/messages.py:644
+msgid "message already exists !"
+msgstr ""
+
+#: ../asrun/dev/messages.py:652
+msgid "this message does not exist !"
+msgstr ""
+
+#: ../asrun/dev/messages.py:659
+msgid "%3d messages (last=%3d, next=%3d) in %s"
+msgstr ""
+
+#: ../asrun/dev/messages.py:684
+msgid "message #%s invalid : %s"
+msgstr ""
+
+#: ../asrun/dev/messages.py:700
+msgid "invalid header \"#@ MODIF/AJOUT...\""
+msgstr ""
+
+#: ../asrun/dev/messages.py:738 ../asrun/dev/routines.py:67
+#: ../asrun/execute.py:595 ../asrun/execute.py:651 ../asrun/rex.py:340
+#: ../asrun/run.py:741 ../asrun/testlist.py:287
+msgid "You must define 'default_vers' in 'aster' configuration file or use '--vers' option."
+msgstr ""
+
+#: ../asrun/dev/messages.py:746 ../asrun/dev/routines.py:74
+msgid "This operation only works on local source files. \"--nolocal\" option ignored"
+msgstr ""
+
+#: ../asrun/dev/messages.py:759
+msgid "You must choose an operation from %s or give a subroutine name or a message ID"
+msgstr ""
+
+#: ../asrun/dev/messages.py:800
+msgid "'--%s %s' requires 2 arguments"
+msgstr ""
+
+#: ../asrun/dev/routines.py:85
+msgid "List of the available TE subroutines :"
+msgstr ""
+
+#: ../asrun/dev/routines.py:88
+msgid "List of the available OP subroutines :"
+msgstr ""
+
+#: ../asrun/dev/routines.py:91
+msgid "List of the available LC subroutines :"
+msgstr ""
+
+#: ../asrun/distrib.py:82
+msgid "no submission for last %.0f s (timeout %.0f s), job '%s' cancelled after %d attempts."
+msgstr ""
+
+#: ../asrun/distrib.py:87
+msgid "The job '%s' has been submitted since %.0f s and is not ended (timeout %.0f s). You can kill it and get other results."
+msgstr ""
+
+#: ../asrun/distrib.py:154
+msgid "Starting execution of %s on %s (%d/%d - %s/%s)..."
+msgstr ""
+
+#: ../asrun/distrib.py:211
+msgid "job '%s' exceeds resources limit (defined through hostfile), it will not be submitted."
+msgstr ""
+
+#: ../asrun/distrib.py:219
+msgid "'%s' no resource available (attempt #%d, no submission for %.1f s)."
+msgstr ""
+
+#: ../asrun/distrib.py:231
+msgid "'%s' not submitted. Error : %s"
+msgstr ""
+
+#: ../asrun/distrib.py:307
+msgid "no submission for last %.0f s (timeout %.0f s, equal to the time requested by the main job, named 'astout'), job '%s' cancelled after %d attempts."
+msgstr ""
+
+#: ../asrun/distrib.py:315
+msgid "Maximum number of errors reached : %d (%d errors, per thread : %s)"
+msgstr ""
+
+#: ../asrun/distrib.py:343 ../asrun/distrib.py:426 ../asrun/multiple.py:127
+msgid "no error or flashdir not defined"
+msgstr ""
+
+#: ../asrun/distrib.py:377 ../asrun/distrib.py:456 ../asrun/multiple.py:149
+msgid "%s completed (%d/%d), diagnostic : %s"
+msgstr ""
+
+#: ../asrun/distrib.py:401 ../asrun/multiple.py:69
+msgid "no submission for last %.0f s (timeout %.0f s, equal to 2 * the time requested by the main job), job '%s' cancelled after %d attempts."
+msgstr ""
+
+#: ../asrun/execute.py:59
+msgid "Execute the execution described by the profile (default action)"
+msgstr ""
+
+#: ../asrun/execute.py:64
+msgid "Start quickly an interactive execution using the files given in arguments"
+msgstr ""
+
+#: ../asrun/execute.py:69
+msgid "Start an interactive execution of a testcase"
+msgstr ""
+
+#: ../asrun/execute.py:74
+msgid "Produce a shared library named FILE by compiling the source files src1... srcN. Typically used to build a UMAT library."
+msgstr ""
+
+#: ../asrun/execute.py:85
+msgid "copy all results in the current directory (for --quick action)"
+msgstr ""
+
+#: ../asrun/execute.py:106 ../asrun/maintenance.py:1690
+#: ../asrun/maintenance.py:1714 ../asrun/rex.py:342 ../asrun/services.py:106
+#: ../asrun/services.py:121 ../asrun/toolbox.py:63
+msgid "'--%s' requires one argument"
+msgstr ""
+
+#: ../asrun/execute.py:128
+msgid "Unknown mode (%s), use 'interactif' instead"
+msgstr ""
+
+#: ../asrun/execute.py:163
+msgid "%s is not a MPI version of Code_Aster. The number of nodes/processors must be equal to 1."
+msgstr ""
+
+#: ../asrun/execute.py:167
+msgid "incorrect value for mpi_nbnoeud (%s) or mpi_nbcpu (%s)"
+msgstr ""
+
+#: ../asrun/execute.py:226
+msgid "nothing to do"
+msgstr ""
+
+#: ../asrun/execute.py:228
+msgid "unknown action : %s"
+msgstr ""
+
+#: ../asrun/execute.py:242
+msgid "The configuration of this version does not allow user developments."
+msgstr ""
+
+#: ../asrun/execute.py:276
+msgid "Build executable"
+msgstr ""
+
+#: ../asrun/execute.py:290 ../asrun/maintenance.py:944
+msgid "Add object files to library"
+msgstr ""
+
+#: ../asrun/execute.py:303 ../asrun/execute.py:337 ../asrun/execute.py:366
+#: ../asrun/execute.py:428
+msgid "Copying results"
+msgstr ""
+
+#: ../asrun/execute.py:314
+msgid "Code_Aster executable successfully created"
+msgstr ""
+
+#: ../asrun/execute.py:350
+msgid "Compilation of elements"
+msgstr ""
+
+#: ../asrun/execute.py:381
+msgid "Code_Aster execution"
+msgstr ""
+
+#: ../asrun/execute.py:397
+msgid "Preparation of environment"
+msgstr ""
+
+#: ../asrun/execute.py:399
+msgid "prepare environment in %s"
+msgstr ""
+
+#: ../asrun/execute.py:403 ../asrun/execute.py:413 ../asrun/execute.py:435
+msgid "... skipped (%s = no) !"
+msgstr ""
+
+#: ../asrun/execute.py:407
+msgid "Copying datas"
+msgstr ""
+
+#: ../asrun/execute.py:438
+msgid "Code_Aster run ended"
+msgstr ""
+
+#: ../asrun/execute.py:441
+msgid "Content of RESU file"
+msgstr ""
+
+#: ../asrun/execute.py:443
+msgid "Content of ERROR file"
+msgstr ""
+
+#: ../asrun/execute.py:492 ../asrun/execute.py:537
+msgid "Copy of source files"
+msgstr ""
+
+#: ../asrun/execute.py:505
+msgid "Execution of CRS"
+msgstr ""
+
+#: ../asrun/execute.py:506
+msgid " (Syntax Rules Control)"
+msgstr ""
+
+#: ../asrun/execute.py:516 ../asrun/execute.py:567
+msgid "content of messages files :"
+msgstr ""
+
+#: ../asrun/execute.py:521 ../asrun/execute.py:572
+msgid "messages file not found !"
+msgstr ""
+
+#: ../asrun/execute.py:555
+msgid "Execution of CRP"
+msgstr ""
+
+#: ../asrun/execute.py:556
+msgid " (Programmation Rules Control)"
+msgstr ""
+
+#: ../asrun/execute.py:590
+msgid "This functionnality is still in a beta state of development and may be removed a future release, or may never be improved. Please use --silent option to ignore this message the next time."
+msgstr ""
+
+#: ../asrun/execute.py:597
+msgid "'--%s' requires at least one argument"
+msgstr ""
+
+#: ../asrun/execute.py:642
+msgid "Profile used :"
+msgstr ""
+
+#: ../asrun/execute.py:653
+msgid "'--%s' requires exactly one argument"
+msgstr ""
+
+#: ../asrun/execute.py:668
+msgid "starting %s"
+msgstr ""
+
+#: ../asrun/execution.py:127
+msgid "empty value not allowed for \"%s\""
+msgstr ""
+
+#: ../asrun/execution.py:152
+msgid "tpmax not provided in profile"
+msgstr ""
+
+#: ../asrun/execution.py:154
+msgid "incorrect value for tpmax (%s) in profile"
+msgstr ""
+
+#: ../asrun/execution.py:159
+msgid "memjeveux not provided in profile"
+msgstr ""
+
+#: ../asrun/execution.py:161
+msgid "incorrect value for memjeveux (%s) in profile"
+msgstr ""
+
+#: ../asrun/execution.py:167
+msgid "incorrect value for memjeveux_stat (%s) in profile"
+msgstr ""
+
+#: ../asrun/execution.py:173
+msgid "incorrect value for ncpus (%s) in profile"
+msgstr ""
+
+#: ../asrun/execution.py:177
+msgid "Parameters : memory %d MB - time limit %d s"
+msgstr ""
+
+#: ../asrun/execution.py:183
+msgid "error in parameters : %s"
+msgstr ""
+
+#: ../asrun/execution.py:188
+msgid "Code_Aster environment prepared in %s"
+msgstr ""
+
+#: ../asrun/execution.py:189
+msgid "To start execution copy/paste following lines in a ksh/bash shell :"
+msgstr ""
+
+#: ../asrun/execution.py:222 ../asrun/execution.py:315
+msgid "Command line %d :"
+msgstr ""
+
+#: ../asrun/execution.py:227
+msgid "To start execution in the Python debugger you could type :"
+msgstr ""
+
+#: ../asrun/execution.py:240
+msgid "Content of %s before execution"
+msgstr ""
+
+#: ../asrun/execution.py:245
+msgid "no .comm file found"
+msgstr ""
+
+#: ../asrun/execution.py:250
+msgid "error occurs during preparing data : %s"
+msgstr ""
+
+#: ../asrun/execution.py:260
+msgid "command line to run the debugger not defined"
+msgstr ""
+
+#: ../asrun/execution.py:289
+msgid "%d command files"
+msgstr ""
+
+#: ../asrun/execution.py:303
+msgid "Code_Aster run"
+msgstr ""
+
+#: ../asrun/execution.py:356
+msgid "restore bases from %s"
+msgstr ""
+
+#: ../asrun/execution.py:363
+msgid "no glob/bhdf base to restore"
+msgstr ""
+
+#: ../asrun/execution.py:364
+msgid "execution aborted (comm file #%d)"
+msgstr ""
+
+#: ../asrun/execution.py:372
+msgid "save bases into %s"
+msgstr ""
+
+#: ../asrun/execution.py:377
+msgid "execution ended (comm file #%d)"
+msgstr ""
+
+#: ../asrun/execution.py:392
+msgid "Code_Aster run ended, diagnostic : %s"
+msgstr ""
+
+#: ../asrun/execution.py:399
+msgid "Code_Aster run created a coredump"
+msgstr ""
+
+#: ../asrun/execution.py:404
+msgid "core file name : %s"
+msgstr ""
+
+#: ../asrun/execution.py:407
+msgid "Coredump analysis"
+msgstr ""
+
+#: ../asrun/execution.py:418
+msgid "Content of %s after execution"
+msgstr ""
+
+#: ../asrun/execution.py:423
+msgid "Size of bases"
+msgstr ""
+
+#: ../asrun/execution.py:430
+msgid "size of %s : %12d bytes"
+msgstr ""
+
+#: ../asrun/execution.py:470
+msgid "'%s' overwrites '%s'"
+msgstr ""
+
+#: ../asrun/execution.py:503
+msgid "line terminators have been removed from %s"
+msgstr ""
+
+#: ../asrun/execution.py:536
+msgid "No 'bhdf' found, saving 'glob' instead"
+msgstr ""
+
+#: ../asrun/execution.py:548
+msgid "%s directory is empty !"
+msgstr ""
+
+#: ../asrun/execution.py:567
+msgid "Only the first one of [%s] is copied."
+msgstr ""
+
+#: ../asrun/execution.py:584
+msgid "Saving results in a temporary directory (%s)."
+msgstr ""
+
+#: ../asrun/execution.py:600
+msgid "reptest (%s) must be on exec host"
+msgstr ""
+
+#: ../asrun/execution.py:618 ../asrun/execution.py:639
+msgid "deleting %s (matches unigest)"
+msgstr ""
+
+#: ../asrun/execution.py:760 ../asrun/execution.py:769
+#: ../asrun/execution.py:778 ../asrun/execution.py:788
+msgid "Incorrect value (%s) for %s"
+msgstr ""
+
+#: ../asrun/execution.py:763
+msgid "Requested time (%s s) is higher than the limit (%s s)"
+msgstr ""
+
+#: ../asrun/execution.py:772
+msgid "Requested memory (%s MB) is higher than the limit (%s MB)"
+msgstr ""
+
+#: ../asrun/execution.py:781
+msgid "Requested number of processors (%s) is higher than the limit (%s)"
+msgstr ""
+
+#: ../asrun/execution.py:791
+msgid "Requested number of MPI processors (%s) is higher than the limit (%s)"
+msgstr ""
+
+#: ../asrun/histor.py:195 ../asrun/histor.py:196
+msgid "unknown"
+msgstr ""
+
+#: ../asrun/histor.py:387
+msgid "Unknown histor format : %s"
+msgstr ""
+
+#: ../asrun/job.py:59
+msgid "Returns informations from astk server configuration : batch, interactive (yes/no, limits), compute nodes, versions"
+msgstr ""
+
+#: ../asrun/job.py:66
+msgid "Returns the state, diagnosis, execution node, spent cpu time and working directory of a job"
+msgstr ""
+
+#: ../asrun/job.py:72
+msgid "Opens output or error file"
+msgstr ""
+
+#: ../asrun/job.py:77
+msgid "Kill a job and delete related files"
+msgstr ""
+
+#: ../asrun/job.py:82
+msgid "Delete files of jobs which are NOT in the list"
+msgstr ""
+
+#: ../asrun/job.py:87
+msgid "Output the last part of fort.6 file or filter lines matching a pattern"
+msgstr ""
+
+#: ../asrun/job.py:93
+msgid "Convert a file (may be on a remote machine) into html format and write result to FILE"
+msgstr ""
+
+#: ../asrun/job.py:105
+msgid "signal to the job (KILL|USR1)"
+msgstr ""
+
+#: ../asrun/job.py:114
+msgid "writes result to stdout instead of FILE"
+msgstr ""
+
+#: ../asrun/job.py:132 ../asrun/maintenance.py:706 ../asrun/maintenance.py:732
+msgid "'--%s' requires no argument"
+msgstr ""
+
+#: ../asrun/job.py:273
+msgid "unexpected mode : %s"
+msgstr ""
+
+#: ../asrun/job.py:353 ../asrun/job.py:378 ../asrun/job.py:492
+#: ../asrun/job.py:533
+msgid "'--%s' takes at least %d arguments (%d given)"
+msgstr ""
+
+#: ../asrun/job.py:381 ../asrun/job.py:495
+msgid "'--%s' takes at most %d arguments (%d given)"
+msgstr ""
+
+#: ../asrun/job.py:471
+msgid "Sorry I don't know how to ask Sun Grid Engine batch scheduler the running node."
+msgstr ""
+
+#: ../asrun/job.py:506
+msgid "file is empty"
+msgstr ""
+
+#: ../asrun/job.py:515
+msgid "tail put to output"
+msgstr ""
+
+#: ../asrun/main.py:82
+msgid "Arguments :"
+msgstr ""
+
+#: ../asrun/main.py:92
+msgid "dictionnary bad defined :"
+msgstr ""
+
+#: ../asrun/main.py:98
+msgid "'--%s' stopped by user"
+msgstr ""
+
+#: ../asrun/maintenance.py:66
+msgid "Return the main subroutine of a Code_Aster command"
+msgstr ""
+
+#: ../asrun/maintenance.py:71
+msgid "Show the main subroutine of a Code_Aster command"
+msgstr ""
+
+#: ../asrun/maintenance.py:76
+msgid "Show a source file : fortran, C, python, capy, cata, histor or test"
+msgstr ""
+
+#: ../asrun/maintenance.py:81
+msgid "Copy a source file in current directory"
+msgstr ""
+
+#: ../asrun/maintenance.py:86
+msgid "Show the diff of a source file : fortran, C, python, capy, cata or test"
+msgstr ""
+
+#: ../asrun/maintenance.py:91
+msgid "Perform one or several updates of a development version"
+msgstr ""
+
+#: ../asrun/maintenance.py:96
+msgid "Build a Code_Aster version (executable, libraries, catalogues). `target` may be all or clean"
+msgstr ""
+
+#: ../asrun/maintenance.py:102
+msgid "Download available updates from a server and apply them to the current development version up to `last_version`."
+msgstr ""
+
+#: ../asrun/maintenance.py:108
+msgid "Download available updates from a server and update astk/as_run itself"
+msgstr ""
+
+#: ../asrun/maintenance.py:113
+msgid "Return current release number of the default version"
+msgstr ""
+
+#: ../asrun/maintenance.py:118
+msgid "Return the path of the default version"
+msgstr ""
+
+#: ../asrun/maintenance.py:124
+msgid "Build the diagnosis of Code_Aster testcases (from DIR or default astest directory) and write a pickled file of the result."
+msgstr ""
+
+#: ../asrun/maintenance.py:130
+msgid "Build ctags file"
+msgstr ""
+
+#: ../asrun/maintenance.py:136
+msgid "Build a list of testcases using a list of command/keywords and/or verifying some criterias about cputime or memory."
+msgstr ""
+
+#: ../asrun/maintenance.py:143
+msgid "Operation on Code_Aster messages catalogues. subroutine = returns messages called by \"subroutine\". message_number = returns subroutines calling this message. check = check messages catalogues and print some stats. move = move a message from a catalogue to another and produce new catalogues and new source files."
+msgstr ""
+
+#: ../asrun/maintenance.py:152
+msgid "Return the available numbers for the routines TE, OP, LC... Return the first 8 items except if --all is present."
+msgstr ""
+
+#: ../asrun/maintenance.py:158
+msgid "Build an export file to run a testcase and print it to stdout"
+msgstr ""
+
+#: ../asrun/maintenance.py:163
+msgid "Return cpu and memory informations about given hosts"
+msgstr ""
+
+#: ../asrun/maintenance.py:168
+msgid "Print informations about installation"
+msgstr ""
+
+#: ../asrun/maintenance.py:178
+msgid "files will not been searched on a server but on the local machine"
+msgstr ""
+
+#: ../asrun/maintenance.py:187
+msgid "force remote files search (reverse of --local)"
+msgstr ""
+
+#: ../asrun/maintenance.py:198
+msgid "Code_Aster version to used (for get, show, showop)"
+msgstr ""
+
+#: ../asrun/maintenance.py:219
+msgid "get all the files of the test"
+msgstr ""
+
+#: ../asrun/maintenance.py:229
+msgid "testcases directory to watch"
+msgstr ""
+
+#: ../asrun/maintenance.py:238
+msgid "report only errors (but time spent by passed testcases is included)"
+msgstr ""
+
+#: ../asrun/maintenance.py:248
+msgid "list of the testcases"
+msgstr ""
+
+#: ../asrun/maintenance.py:257
+msgid "Force upgrade to the next release (for example from 10.1.xx to 10.2.0)"
+msgstr ""
+
+#: ../asrun/maintenance.py:267
+msgid "update a version increment by increment and keep intermediate executable"
+msgstr ""
+
+#: ../asrun/maintenance.py:279
+msgid "email address to send the report of a execution (only used for --auto_update)"
+msgstr ""
+
+#: ../asrun/maintenance.py:289
+msgid "use another \"config.txt\" file (only used for make, update and auto_update)."
+msgstr ""
+
+#: ../asrun/maintenance.py:299
+msgid "keep testcases using the given command and keywords."
+msgstr ""
+
+#: ../asrun/maintenance.py:308
+msgid "keep testcases matching the given regular expression (or simple string)."
+msgstr ""
+
+#: ../asrun/maintenance.py:317
+msgid "filters applied to the testcases parameters : 'nom_para < valeur' (supported comparison <, >, =)."
+msgstr ""
+
+#: ../asrun/maintenance.py:327
+msgid "file containing testlist.FILTRE classes. See [...]/share/codeaster/asrun/examples/user_filter.py for an example."
+msgstr ""
+
+#: ../asrun/maintenance.py:337
+msgid "one or more directories (comma separated) containing additionnal fortran source files"
+msgstr ""
+
+#: ../asrun/maintenance.py:347
+msgid "one or more directories (comma separated) containing additionnal python source files"
+msgstr ""
+
+#: ../asrun/maintenance.py:357
+msgid "a unigest file (for deletion)"
+msgstr ""
+
+#: ../asrun/maintenance.py:366
+msgid "redirect the result to FILE instead of stdout."
+msgstr ""
+
+#: ../asrun/maintenance.py:375
+msgid "fake root directory where files will be copied"
+msgstr ""
+
+#: ../asrun/maintenance.py:379
+msgid "Options for maintenance operations"
+msgstr ""
+
+#: ../asrun/maintenance.py:401 ../asrun/maintenance.py:467
+#: ../asrun/maintenance.py:1057 ../asrun/toolbox.py:40 ../asrun/toolbox.py:146
+msgid "'--%s' requires one or more arguments"
+msgstr ""
+
+#: ../asrun/maintenance.py:409
+msgid "'--%s' search capy files on local machine"
+msgstr ""
+
+#: ../asrun/maintenance.py:437
+msgid "op statement not found in %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:587
+msgid "type unsupported"
+msgstr ""
+
+#: ../asrun/maintenance.py:615 ../asrun/maintenance.py:636
+msgid "from cache"
+msgstr ""
+
+#: ../asrun/maintenance.py:623
+msgid "copy all files of the test"
+msgstr ""
+
+#: ../asrun/maintenance.py:625
+msgid "remote copy of the test files"
+msgstr ""
+
+#: ../asrun/maintenance.py:630 ../asrun/maintenance.py:652
+msgid "just edit"
+msgstr ""
+
+#: ../asrun/maintenance.py:645
+msgid "copy"
+msgstr ""
+
+#: ../asrun/maintenance.py:647
+msgid "remote copy"
+msgstr ""
+
+#: ../asrun/maintenance.py:656
+msgid "error occurs during copying"
+msgstr ""
+
+#: ../asrun/maintenance.py:665
+msgid "edit files"
+msgstr ""
+
+#: ../asrun/maintenance.py:669
+msgid "edit file"
+msgstr ""
+
+#: ../asrun/maintenance.py:683
+msgid "file not found"
+msgstr ""
+
+#: ../asrun/maintenance.py:695
+msgid "%(nberr)d error%(s)s detected"
+msgstr ""
+
+#: ../asrun/maintenance.py:722
+msgid "exploitation"
+msgstr ""
+
+#: ../asrun/maintenance.py:724
+msgid "development"
+msgstr ""
+
+#: ../asrun/maintenance.py:725
+msgid "Version %s %s - %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:810
+msgid "Exception raised by MakeAster:"
+msgstr ""
+
+#: ../asrun/maintenance.py:811 ../asrun/maintenance.py:1379
+msgid "Traceback:"
+msgstr ""
+
+#: ../asrun/maintenance.py:814 ../asrun/maintenance.py:1382
+msgid "Exit code : %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:822
+msgid "Built of %s ended successfully on %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:854
+msgid "remove %d object files of %s from %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:860
+msgid "unknown target : %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:900 ../asrun/maintenance.py:933
+msgid "Start build in %s mode"
+msgstr ""
+
+#: ../asrun/maintenance.py:902 ../asrun/maintenance.py:1233
+msgid "Deletion of old files"
+msgstr ""
+
+#: ../asrun/maintenance.py:907
+msgid "remove object files from %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:917
+msgid "error during deleting objects from archive"
+msgstr ""
+
+#: ../asrun/maintenance.py:936
+msgid "Compilation in %s mode"
+msgstr ""
+
+#: ../asrun/maintenance.py:960
+msgid "Build executables"
+msgstr ""
+
+#: ../asrun/maintenance.py:969
+msgid "Test executables"
+msgstr ""
+
+#: ../asrun/maintenance.py:983
+msgid "testing executable %s..."
+msgstr ""
+
+#: ../asrun/maintenance.py:996
+msgid "test of executables failed"
+msgstr ""
+
+#: ../asrun/maintenance.py:1017
+msgid "Make pickled of elements"
+msgstr ""
+
+#: ../asrun/maintenance.py:1023
+msgid "Elements compilation"
+msgstr ""
+
+#: ../asrun/maintenance.py:1039
+msgid "Code_Aster has been successfully built"
+msgstr ""
+
+#: ../asrun/maintenance.py:1084
+msgid "Extraction of archives"
+msgstr ""
+
+#: ../asrun/maintenance.py:1097
+msgid "extract archive %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1116
+msgid "error during extracting archive %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1120
+msgid "These files should have previously been deleted and now they are updated :"
+msgstr ""
+
+#: ../asrun/maintenance.py:1143
+msgid "These files have been modified by a previous update but now they are deleted :"
+msgstr ""
+
+#: ../asrun/maintenance.py:1149
+msgid "invalid tar (compressed) archive or file not found : %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1157 ../asrun/maintenance.py:1162
+#: ../asrun/maintenance.py:1281
+msgid "error occurs during getting release number"
+msgstr ""
+
+#: ../asrun/maintenance.py:1164
+msgid "Update version %s to %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1167
+msgid "Copy of updated files"
+msgstr ""
+
+#: ../asrun/maintenance.py:1169
+msgid "Copy updated files"
+msgstr ""
+
+#: ../asrun/maintenance.py:1185 ../asrun/maintenance.py:1199
+msgid "updating %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1219
+msgid "updating %s (%s)"
+msgstr ""
+
+#: ../asrun/maintenance.py:1235
+msgid "Apply unigest directives"
+msgstr ""
+
+#: ../asrun/maintenance.py:1256 ../asrun/maintenance.py:1460
+#: ../asrun/update.py:51
+msgid "'--%s' requires at most one argument"
+msgstr ""
+
+#: ../asrun/maintenance.py:1283
+msgid "Searching updates following release %s..."
+msgstr ""
+
+#: ../asrun/maintenance.py:1287 ../asrun/update.py:74
+msgid "Download archives"
+msgstr ""
+
+#: ../asrun/maintenance.py:1294 ../asrun/update.py:81 ../asrun/update.py:159
+msgid "Can not download %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1319
+msgid "Last update found   : %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1321
+msgid "for current version : %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1328 ../asrun/update.py:107
+msgid "no update found"
+msgstr ""
+
+#: ../asrun/maintenance.py:1336
+msgid "Updates exist for version%(s)s : %(vers)s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1338
+msgid "If the version %(next)s immediatly follows the version %(current)s, you can use --force_upgrade option to upgrade to %(next)s."
+msgstr ""
+
+#: ../asrun/maintenance.py:1351
+msgid "   %s successfully downloaded"
+msgstr ""
+
+#: ../asrun/maintenance.py:1376
+msgid "Update failed on %s from %s to %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1378
+msgid "Exception raised by AutoUpdate:"
+msgstr ""
+
+#: ../asrun/maintenance.py:1385
+msgid "Update ended successfully on %s from %s to %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1417
+msgid "Copy %s to %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1473
+msgid ""
+"\n"
+"--- Directory of testcases files    : %(s_astest_dir)s\n"
+"    Version                         : %(version)s\n"
+"    Number of test-cases            : %(nbtest)s\n"
+"    Number of errors                : %(err_all)s\n"
+"       - without .resu file         : %(err_noresu)s\n"
+"       - incorrect version          : %(err_vers)s\n"
+msgstr ""
+
+#: ../asrun/maintenance.py:1535
+msgid "%4d tests"
+msgstr ""
+
+#: ../asrun/maintenance.py:1536
+msgid "%d errors"
+msgstr ""
+
+#: ../asrun/maintenance.py:1561
+msgid "Diagnostic dict written into '%s'."
+msgstr ""
+
+#: ../asrun/maintenance.py:1622
+msgid "Generation of ctags database"
+msgstr ""
+
+#: ../asrun/maintenance.py:1629
+msgid "'ctags' is not in your PATH. ctags not generated."
+msgstr ""
+
+#: ../asrun/maintenance.py:1640
+msgid "'Exuberant Ctags' and 'GNU Emacs ctags' styles are supported. You must define 'ctags_style' in the config file to generate ctags."
+msgstr ""
+
+#: ../asrun/maintenance.py:1646 ../asrun/run.py:163 ../asrun/run.py:181
+msgid "no write access to %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1660
+msgid "build ctags file using source from %s"
+msgstr ""
+
+#: ../asrun/maintenance.py:1667
+msgid "error during generating ctags"
+msgstr ""
+
+#: ../asrun/maintenance.py:1670
+msgid "ctags file already exists, use --force to overwrite it."
+msgstr ""
+
+#: ../asrun/maintenance.py:1705
+msgid "unable to extract version from %s"
+msgstr ""
+
+#: ../asrun/mpi.py:71
+msgid "(*) cpu and system times may be not correctly counted using mpirun."
+msgstr ""
+
+#: ../asrun/mpi.py:139
+msgid "Content after execution of"
+msgstr ""
+
+#: ../asrun/mpi.py:235
+msgid "  %s - rank #%s"
+msgstr ""
+
+#: ../asrun/mpi.py:243
+msgid "Unable to retreive CPU info for proc #%s"
+msgstr ""
+
+#: ../asrun/multiple.py:43 ../asrun/parametric.py:38 ../asrun/repart.py:335
+msgid "job"
+msgstr ""
+
+#: ../asrun/multiple.py:47 ../asrun/parametric.py:42
+msgid "jobs"
+msgstr ""
+
+#: ../asrun/multiple.py:75
+msgid "The job '%s' has been submitted since %.0f s and is not ended (timeout %.0f s, equal to 4 * the time asked for the main job). You can kill it and get other results or wait again..."
+msgstr ""
+
+#: ../asrun/multiple.py:94
+msgid "job status is %-6s on %s"
+msgstr ""
+
+#: ../asrun/multiple.py:164
+msgid "Code_Aster multiple execution"
+msgstr ""
+
+#: ../asrun/multiple.py:176
+msgid "List of servers (\"multiple_server_list\" parameter) not found"
+msgstr ""
+
+#: ../asrun/multiple.py:204
+msgid "Version 1.9.2 or newer is required to run multiple executions. It is %s on %s (installed in %s)."
+msgstr ""
+
+#: ../asrun/multiple.py:209
+msgid "Host '%s' is not available in %s."
+msgstr ""
+
+#: ../asrun/multiple.py:220
+msgid "All the hosts are not available. Run cancelled."
+msgstr ""
+
+#: ../asrun/multiple.py:233
+msgid ""
+"\n"
+"--- Profile executed on %2d servers   : %s\n"
+"--- Run started at %s\n"
+"--- Parameters used for this run :\n"
+"    Code_Aster version               : %s\n"
+"    Results directory                : %s\n"
+"    Submission timeout (seconds)     : %.0f"
+msgstr ""
+
+#: ../asrun/multiple.py:241
+msgid "    Number of threads                : %d"
+msgstr ""
+
+#: ../asrun/multiple.py:242 ../asrun/parametric.py:146
+msgid ""
+"\n"
+"--- All executions finished at %s\n"
+"\n"
+"--- Results :\n"
+msgstr ""
+
+#: ../asrun/multiple.py:252
+msgid "on each host"
+msgstr ""
+
+#: ../asrun/multiple.py:275
+msgid "Multiple execution"
+msgstr ""
+
+#: ../asrun/multiple.py:301 ../asrun/parametric.py:215
+msgid "%d studies to run, %d really run !"
+msgstr ""
+
+#: ../asrun/multiple.py:312 ../asrun/parametric.py:230
+msgid "All calculations run successfully"
+msgstr ""
+
+#: ../asrun/myconnect.py:69
+msgid "No such file or directory : %s"
+msgstr ""
+
+#: ../asrun/myconnect.py:75
+msgid "Can not read connection parameters"
+msgstr ""
+
+#: ../asrun/myconnect.py:80
+msgid "Connection failed to %s for user %s (and password)"
+msgstr ""
+
+#: ../asrun/myconnect.py:87
+msgid "Connection to '%(host)s' on '%(db)s' database."
+msgstr ""
+
+#: ../asrun/myconnect.py:103 ../asrun/myconnect.py:146
+#: ../asrun/myconnect.py:179
+msgid "Connection not opened."
+msgstr ""
+
+#: ../asrun/myconnect.py:168
+msgid "--> %d lines added."
+msgstr ""
+
+#: ../asrun/myconnect.py:170
+msgid "ERROR : not all lines have been added."
+msgstr ""
+
+#: ../asrun/parallel_cp.py:115
+msgid "(parallel_copy) - destination : %s - seed : %s"
+msgstr ""
+
+#: ../asrun/parallel_cp.py:117
+msgid "   COPY %s into %s"
+msgstr ""
+
+#: ../asrun/parallel_cp.py:162
+msgid "can not lock the repository (timeout after %0.f)"
+msgstr ""
+
+#: ../asrun/parallel_cp.py:170
+msgid "No lock to release"
+msgstr ""
+
+#: ../asrun/parallel_cp.py:242
+msgid "(parallel_copy) - destination : %s - start time : %s"
+msgstr ""
+
+#: ../asrun/parallel_cp.py:249
+msgid "source and destination are identical"
+msgstr ""
+
+#: ../asrun/parallel_cp.py:271
+msgid "(parallel_copy) - destination : %s  -  end time : %s"
+msgstr ""
+
+#: ../asrun/parametric.py:57
+msgid "Code_Aster parametric execution"
+msgstr ""
+
+#: ../asrun/parametric.py:68
+msgid "\"distr\" file is necessary"
+msgstr ""
+
+#: ../asrun/parametric.py:89
+msgid "no result directory found (type \"repe\")"
+msgstr ""
+
+#: ../asrun/parametric.py:111
+msgid "'repe' and '%s' must be identical. '%s' is set to %s"
+msgstr ""
+
+#: ../asrun/parametric.py:131
+msgid ""
+"\n"
+"--- %d calculations to run\n"
+"--- Run started at %s\n"
+"--- Parameters used for this run :\n"
+"    Directory to copy results       : %s\n"
+"    Directory for job files         : %s\n"
+"    Code_Aster version              : %s\n"
+"    Executable filename             : %s\n"
+"    Commands catalogue directory    : %s\n"
+"    Elements catalogue filename     : %s\n"
+"    Working directory               : %s\n"
+"    Submission timeout (seconds)    : %.0f"
+msgstr ""
+
+#: ../asrun/parametric.py:145
+msgid "    Available hosts (number of cpu) : %s"
+msgstr ""
+
+#: ../asrun/parametric.py:168
+msgid "There is no value for the parameters."
+msgstr ""
+
+#: ../asrun/parametric.py:186
+msgid "Parametric execution"
+msgstr ""
+
+#: ../asrun/parametric.py:259
+msgid "a list of dicts is required, not %s"
+msgstr ""
+
+#: ../asrun/parser.py:119
+msgid "increase verbosity"
+msgstr ""
+
+#: ../asrun/parser.py:122
+msgid "run as silent as possible"
+msgstr ""
+
+#: ../asrun/parser.py:125
+msgid "print debugging information"
+msgstr ""
+
+#: ../asrun/parser.py:128
+msgid "allow to redirect messages usually written on sys.stdout"
+msgstr ""
+
+#: ../asrun/parser.py:131
+msgid "allow to redirect messages usually written on sys.stderr (only asrun messages)"
+msgstr ""
+
+#: ../asrun/parser.py:135
+msgid "redirect progress informations to a file instead of sys.stderr"
+msgstr ""
+
+#: ../asrun/parser.py:138
+msgid "disable printing of debugging information to stderr"
+msgstr ""
+
+#: ../asrun/parser.py:141
+msgid "force operations which can be cached (download, compilation...)"
+msgstr ""
+
+#: ../asrun/parser.py:148
+msgid "value of DISPLAY variable (NOTE : some functions read it from a file)"
+msgstr ""
+
+#: ../asrun/parser.py:151
+msgid "use resources directory $HOME/'DIR' (default is .astkrc). Avoid absolute path because it will be passed to remote servers."
+msgstr ""
+
+#: ../asrun/parser.py:157
+msgid "remote protocol used for shell commands"
+msgstr ""
+
+#: ../asrun/parser.py:160
+msgid "remote protocol used to copy files and directories"
+msgstr ""
+
+#: ../asrun/plugins/default.py:57
+msgid "special service : %s"
+msgstr ""
+
+#: ../asrun/plugins/default.py:65
+msgid "prepare execution for %s@%s"
+msgstr ""
+
+#: ../asrun/plugins/default.py:109
+msgid "get result files from the server"
+msgstr ""
+
+#: ../asrun/plugins/default.py:122
+msgid "the results seem already downloaded."
+msgstr ""
+
+#: ../asrun/plugins/default.py:144
+msgid "files on a third host should have been copied at the end of the calculation (if possible) : %s"
+msgstr ""
+
+#: ../asrun/plugins/default.py:246
+msgid "files on a third host may be unavailable for calculation : %s"
+msgstr ""
+
+#: ../asrun/plugins/default.py:250
+msgid "copy export files..."
+msgstr ""
+
+#: ../asrun/plugins/default.py:252
+msgid "copy data files..."
+msgstr ""
+
+#: ../asrun/plugins/default.py:296
+msgid "ask the server for the job status"
+msgstr ""
+
+#: ../asrun/plugins/default.py:300
+msgid "job status is %s"
+msgstr ""
+
+#: ../asrun/plugins/default.py:318
+msgid "ask the server to cancel the job and remove its files from 'flasheur'"
+msgstr ""
+
+#: ../asrun/plugins/default.py:369
+msgid "retreive configuration informations of the server"
+msgstr ""
+
+#: ../asrun/plugins/default.py:449
+msgid "edit file %s"
+msgstr ""
+
+#: ../asrun/plugins/rsh_server.py:70 ../asrun/plugins/server.py:77
+msgid "create remote directory %(dir)s..."
+msgstr ""
+
+#: ../asrun/plugins/rsh_server.py:81 ../asrun/plugins/server.py:88
+msgid "delete remote directory %s..."
+msgstr ""
+
+#: ../asrun/profil.py:400
+msgid "key '%s' missing"
+msgstr ""
+
+#: ../asrun/profil.py:458
+msgid "unexpected type : %s (filename: %s)"
+msgstr ""
+
+#: ../asrun/profil.py:488
+msgid "fields missing on line : %s"
+msgstr ""
+
+#: ../asrun/profil.py:625
+msgid "Invalid profile content."
+msgstr ""
+
+#: ../asrun/profil.py:643
+msgid "Can not write export file : %s"
+msgstr ""
+
+#: ../asrun/profile_modifier.py:200
+msgid "\"exectool\" is not defined !"
+msgstr ""
+
+#: ../asrun/profile_modifier.py:207
+msgid "\"exectool\" can not be used with a remote executable."
+msgstr ""
+
+#: ../asrun/profile_modifier.py:258
+msgid "unknown service name : %s"
+msgstr ""
+
+#: ../asrun/repart.py:335
+msgid "host"
+msgstr ""
+
+#: ../asrun/repart.py:336
+msgid "started"
+msgstr ""
+
+#: ../asrun/repart.py:337
+msgid "ended"
+msgstr ""
+
+#: ../asrun/repart.py:337
+msgid "memory"
+msgstr ""
+
+#: ../asrun/repart.py:439
+msgid "checking connection to %s... "
+msgstr ""
+
+#: ../asrun/repart.py:441
+msgid "connected"
+msgstr ""
+
+#: ../asrun/rex.py:88
+msgid "Insert a new entry in the issue tracking system and copy attached files if an export file is provided"
+msgstr ""
+
+#: ../asrun/rex.py:94
+msgid "Extract the content of issues listed in `input_file` to `histor`"
+msgstr ""
+
+#: ../asrun/rex.py:99
+msgid "Fill \"corrVdev\" or \"corrVexpl\" field (depends on VERS) in issues found in `histor` and eventually close them"
+msgstr ""
+
+#: ../asrun/rex.py:111
+msgid "raise an error if issues are not in this status"
+msgstr ""
+
+#: ../asrun/rex.py:122
+msgid "format of generated histor file (text or html)"
+msgstr ""
+
+#: ../asrun/rex.py:131
+msgid "retrieve all the messages of issues"
+msgstr ""
+
+#: ../asrun/rex.py:135
+msgid "Options for issue tracker interface"
+msgstr ""
+
+#: ../asrun/rex.py:149
+msgid "'--%s' requires one or two arguments"
+msgstr ""
+
+#: ../asrun/rex.py:158 ../asrun/rex.py:309 ../asrun/rex.py:356
+msgid "Imports of REX interface failed."
+msgstr ""
+
+#: ../asrun/rex.py:193
+msgid "Unknown issue type : %s"
+msgstr ""
+
+#: ../asrun/rex.py:203
+msgid "More than one user has '%s' as login in REX database, '%s' is taken"
+msgstr ""
+
+#: ../asrun/rex.py:208 ../asrun/rex.py:214
+msgid "User %s unknown in REX database"
+msgstr ""
+
+#: ../asrun/rex.py:220
+msgid "Code_Aster product not found in database !"
+msgstr ""
+
+#: ../asrun/rex.py:225
+msgid "Status 'emis' not found in database !"
+msgstr ""
+
+#: ../asrun/rex.py:231
+msgid "Version %s not found in database !"
+msgstr ""
+
+#: ../asrun/rex.py:257
+msgid "Insert issue failed"
+msgstr ""
+
+#: ../asrun/rex.py:264
+msgid "Add user to nosy list failed"
+msgstr ""
+
+#: ../asrun/rex.py:282 ../asrun/rex.py:542
+msgid "Error message: %s"
+msgstr ""
+
+#: ../asrun/rex.py:283
+msgid "Error occurs during copying message file"
+msgstr ""
+
+#: ../asrun/rex.py:293
+msgid "Error occurs during copying study files"
+msgstr ""
+
+#: ../asrun/rex.py:300
+msgid "'--%s' requires two arguments"
+msgstr ""
+
+#: ../asrun/rex.py:333
+msgid "Histor successfully generated."
+msgstr ""
+
+#: ../asrun/rex.py:352
+msgid "insufficient privileges to close issues !"
+msgstr ""
+
+#: ../asrun/rex.py:367
+msgid "Incorrect file, no issue to close."
+msgstr ""
+
+#: ../asrun/rex.py:374
+msgid "Close issues with version tag : %s"
+msgstr ""
+
+#: ../asrun/rex.py:376
+msgid "Close issues in :"
+msgstr ""
+
+#: ../asrun/rex.py:397
+msgid ""
+"error executing a query to the database\n"
+" %s"
+msgstr ""
+
+#: ../asrun/rex.py:406
+msgid "files of issue %s have been deleted."
+msgstr ""
+
+#: ../asrun/rex.py:413
+msgid "Unable to read the table"
+msgstr ""
+
+#: ../asrun/rex.py:441 ../asrun/rex.py:497
+msgid "Unable to read issue %s"
+msgstr ""
+
+#: ../asrun/rex.py:447 ../asrun/rex.py:504
+msgid "Status of issue %s is not '%s' (%s)"
+msgstr ""
+
+#: ../asrun/rex.py:455
+msgid "issue %s should not been solved in version %s"
+msgstr ""
+
+#: ../asrun/rex.py:470
+msgid "issue %s is closed"
+msgstr ""
+
+#: ../asrun/rex.py:472
+msgid "issue %s must be solved in V%s too"
+msgstr ""
+
+#: ../asrun/rex.py:481
+msgid "error occurs during writing issue"
+msgstr ""
+
+#: ../asrun/rex.py:543
+msgid "Error occurs during copying message file %s, only the summary will be printed"
+msgstr ""
+
+#: ../asrun/rex.py:548
+msgid "message %d :"
+msgstr ""
+
+#: ../asrun/run.py:65
+msgid "This script requires Python 2.6 or higher, sorry !"
+msgstr ""
+
+#: ../asrun/run.py:90
+msgid "editor command"
+msgstr ""
+
+#: ../asrun/run.py:93
+msgid "login on the development server"
+msgstr ""
+
+#: ../asrun/run.py:94
+msgid "# (name/ip address is usually set in /etc/codeaster/asrun)"
+msgstr ""
+
+#: ../asrun/run.py:269 ../asrun/run.py:272 ../asrun/run.py:285
+#: ../asrun/run.py:379 ../asrun/run.py:384
+msgid "invalid type (expect %s not %s)"
+msgstr ""
+
+#: ../asrun/run.py:275
+msgid "action already defined : %s"
+msgstr ""
+
+#: ../asrun/run.py:289
+msgid "option already defined : %s"
+msgstr ""
+
+#: ../asrun/run.py:323
+msgid "Loading extension %s from %s..."
+msgstr ""
+
+#: ../asrun/run.py:328
+msgid "Extension %s loaded"
+msgstr ""
+
+#: ../asrun/run.py:330
+msgid "Extension %s not loaded (reason : %s)"
+msgstr ""
+
+#: ../asrun/run.py:422
+msgid "Parameters (config attribute)"
+msgstr ""
+
+#: ../asrun/run.py:425
+msgid "Options (options attribute)"
+msgstr ""
+
+#: ../asrun/run.py:450
+msgid "Can not change to the home directory ('%s'). Temporay files have not been deleted."
+msgstr ""
+
+#: ../asrun/run.py:458
+msgid "Clear cache directory"
+msgstr ""
+
+#: ../asrun/run.py:472
+msgid "Clear temporary files/directories"
+msgstr ""
+
+#: ../asrun/run.py:492
+msgid ""
+"'%s' does not exist in config or options.\n"
+" Perhaps it must be defined in %s."
+msgstr ""
+
+#: ../asrun/run.py:527
+msgid "%s is already known as %s (%s is ignored). Check your configuration file : %s"
+msgstr ""
+
+#: ../asrun/run.py:561
+msgid "Warning : AsterRun object not ready for dynamic adjustement !"
+msgstr ""
+
+#: ../asrun/run.py:674
+msgid "Important messages previously printed :"
+msgstr ""
+
+#: ../asrun/run.py:675
+msgid "Successful messages previously printed:"
+msgstr ""
+
+#: ../asrun/run.py:676
+msgid "NOOK messages previously printed:"
+msgstr ""
+
+#: ../asrun/run.py:677
+msgid "<A> Alarms previously raised :"
+msgstr ""
+
+#: ../asrun/run.py:678
+msgid "<S> errors previously raised :"
+msgstr ""
+
+#: ../asrun/run.py:679
+msgid "<E> errors previously raised :"
+msgstr ""
+
+#: ../asrun/run.py:680
+msgid "<F> errors previously raised :"
+msgstr ""
+
+#: ../asrun/schema.py:263 ../asrun/schema.py:305 ../asrun/schema.py:383
+#: ../asrun/schema.py:405 ../asrun/schema.py:424 ../asrun/schema.py:438
+#: ../asrun/schema.py:779
+msgid "no database connection"
+msgstr ""
+
+#: ../asrun/schema.py:273
+msgid "only one result expected for \"\"\"%s\"\"\""
+msgstr ""
+
+#: ../asrun/schema.py:341 ../asrun/schema.py:430 ../asrun/schema.py:783
+msgid "error occurs during writing in database"
+msgstr ""
+
+#: ../asrun/schema.py:392
+msgid "no item found for %s"
+msgstr ""
+
+#: ../asrun/schema.py:395
+msgid "more than one item for %s : %s"
+msgstr ""
+
+#: ../asrun/schema.py:415
+msgid "field '%s' should be numeric"
+msgstr ""
+
+#: ../asrun/schema.py:529
+msgid "no primary keys defined for '%s'"
+msgstr ""
+
+#: ../asrun/services.py:55
+msgid "start an execution (calling as_run in a separate process)"
+msgstr ""
+
+#: ../asrun/services.py:68
+msgid "Send the content of \"filename\" (may be on a remote host) to EMAIL1,EMAIL2,..."
+msgstr ""
+
+#: ../asrun/services.py:79
+msgid "call a server to run the specified action (for example, calling as_run --serv on the server)"
+msgstr ""
+
+#: ../asrun/services.py:89
+msgid "allow to modify asrun behavior using an alternative schema"
+msgstr ""
+
+#: ../asrun/services.py:129
+msgid "no email address provided !"
+msgstr ""
+
+#: ../asrun/services.py:154
+msgid "these action can not be called through the proxy : '--%s'"
+msgstr ""
+
+#: ../asrun/services.py:157
+msgid "'--%s' : wrong number of arguments (min=%d, max=%d)"
+msgstr ""
+
+#: ../asrun/system.py:258
+msgid "Exit code : %d"
+msgstr ""
+
+#: ../asrun/system.py:289
+msgid "length of command shell greater than %d characters."
+msgstr ""
+
+#: ../asrun/system.py:295
+msgid "Command output :"
+msgstr ""
+
+#: ../asrun/system.py:350
+msgid "unexpected type"
+msgstr ""
+
+#: ../asrun/system.py:399
+msgid "no source file to copy"
+msgstr ""
+
+#: ../asrun/system.py:422
+msgid "copying a remote file to another remote server isn't allowed through RSYNC, trying with RCP."
+msgstr ""
+
+#: ../asrun/system.py:443
+msgid "remote destination not allowed through %s : %s"
+msgstr ""
+
+#: ../asrun/system.py:448
+msgid "error during copying %s to %s"
+msgstr ""
+
+#: ../asrun/system.py:449
+msgid "message : %s"
+msgstr ""
+
+#: ../asrun/system.py:451
+msgid "unexpected error or unknown copy protocol : %s"
+msgstr ""
+
+#: ../asrun/system.py:476
+msgid "adding a symbolic link %s to %s..."
+msgstr ""
+
+#: ../asrun/system.py:486
+msgid "error occurs during creating a symbolic link from %s to %s"
+msgstr ""
+
+#: ../asrun/system.py:572
+msgid "no file/directory to compress"
+msgstr ""
+
+#: ../asrun/system.py:573
+msgid "compressing %s"
+msgstr ""
+
+#: ../asrun/system.py:574
+msgid "error during compressing %s"
+msgstr ""
+
+#: ../asrun/system.py:580
+msgid "no file/directory to decompress"
+msgstr ""
+
+#: ../asrun/system.py:581
+msgid "decompressing %s"
+msgstr ""
+
+#: ../asrun/system.py:582
+msgid "error during decompressing %s"
+msgstr ""
+
+#: ../asrun/system.py:586
+msgid "unknown mode : %s"
+msgstr ""
+
+#: ../asrun/system.py:745
+msgid "creating directory %s"
+msgstr ""
+
+#: ../asrun/system.py:757
+msgid "can not change permissions on %s"
+msgstr ""
+
+#: ../asrun/system.py:760
+msgid "can not create directory %s"
+msgstr ""
+
+#: ../asrun/system.py:774
+msgid "deleting this directory seems too dangerous. %s has not been removed"
+msgstr ""
+
+#: ../asrun/system.py:784
+msgid "deleting %s"
+msgstr ""
+
+#: ../asrun/system.py:805
+msgid "error getting environment"
+msgstr ""
+
+#: ../asrun/system.py:812
+msgid "error reading profile : %s"
+msgstr ""
+
+#: ../asrun/system.py:893
+msgid "email sent at %s by as_run from %s"
+msgstr ""
+
+#: ../asrun/system.py:903
+msgid "Can not send mail from this machine"
+msgstr ""
+
+#: ../asrun/system.py:944
+msgid "unable to set %s limit to %s"
+msgstr ""
+
+#: ../asrun/system.py:963
+msgid "Find files matching a pattern only works on local files/directories"
+msgstr ""
+
+#: ../asrun/testlist.py:58
+msgid " - regular expression : %s"
+msgstr ""
+
+#: ../asrun/testlist.py:105
+msgid "Directory of testcases : %s"
+msgstr ""
+
+#: ../asrun/testlist.py:113
+msgid "Searching '*.export' from %s..."
+msgstr ""
+
+#: ../asrun/testlist.py:123
+msgid "%6d testcases in the list."
+msgstr ""
+
+#: ../asrun/testlist.py:164
+msgid ">>> Invalid criteria : %s"
+msgstr ""
+
+#: ../asrun/testlist.py:172
+msgid ">>> Unknown parameter : %s"
+msgstr ""
+
+#: ../asrun/testlist.py:297
+msgid "'--%s' : you must give testcase names or use one of --all/--test_list option"
+msgstr ""
+
+#: ../asrun/testlist.py:343 ../asrun/toolbox.py:52
+msgid "The results have been written into the file : %s"
+msgstr ""
+
+#: ../asrun/timer.py:100
+msgid "after %d timers"
+msgstr ""
+
+#: ../asrun/timer.py:117
+msgid "system"
+msgstr ""
+
+#: ../asrun/toolbox.py:65
+msgid "'--%s' requires --output=FILE option"
+msgstr ""
+
+#: ../asrun/toolbox.py:100
+msgid "checking %s... "
+msgstr ""
+
+#: ../asrun/toolbox.py:102
+msgid "connection failed"
+msgstr ""
+
+#: ../asrun/toolbox.py:104
+msgid "no result"
+msgstr ""
+
+#: ../asrun/toolbox.py:106
+msgid "ok"
+msgstr ""
+
+#: ../asrun/toolbox.py:148
+msgid "you must use '-o filename.so' or '--output=filename.so' to give the name of the shared library to build."
+msgstr ""
+
+#: ../asrun/update.py:91
+msgid "Last release found : %s"
+msgstr ""
+
+#: ../asrun/update.py:103
+msgid "version %s not found"
+msgstr ""
+
+#: ../asrun/update.py:116
+msgid "Updating in a mercurial repository is not allowed!"
+msgstr ""
+
+#: ../asrun/update.py:127
+msgid "Installation"
+msgstr ""
+
+#: ../asrun/update.py:141
+msgid "astk/asrun update ended successfully from %s to %s"
+msgstr ""
+
+#: ../asrun/update.py:145
+msgid "astk/asrun update from %s to %s failed"
+msgstr ""
+
+#: ../asrun/update.py:163
+msgid "SHA1 checksum failed (use --force to ignore this error) "
+msgstr ""
+
+#: ../asrun/update.py:164
+msgid "       reference = %s"
+msgstr ""
+
+#: ../asrun/update.py:165
+msgid " downloaded file = %s"
+msgstr ""
+

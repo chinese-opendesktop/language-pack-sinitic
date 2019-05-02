@@ -1,0 +1,535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"  -b DAY:NIGHT\tScreen brightness to apply (between 0.1 and 1.0)\n"
+"  -c FILE\tLoad settings from specified configuration file\n"
+"  -g R:G:B\tAdditional gamma correction to apply\n"
+"  -l LAT:LON\tYour current location\n"
+"  -l PROVIDER\tSelect provider for automatic location updates\n"
+"  \t\t(Type `list' to see available providers)\n"
+"  -m METHOD\tMethod to use to set color temperature\n"
+"  \t\t(Type `list' to see available methods)\n"
+"  -o\t\tOne shot mode (do not continuously adjust color temperature)\n"
+"  -O TEMP\tOne shot manual mode (set color temperature)\n"
+"  -p\t\tPrint mode (only print parameters and exit)\n"
+"  -P\t\tReset existing gamma ramps before applying new color effect\n"
+"  -x\t\tReset mode (remove adjustment from screen)\n"
+"  -r\t\tDisable fading between color temperatures\n"
+"  -t DAY:NIGHT\tColor temperature to set at daytime/night\n"
+msgstr ""
+
+msgid ""
+"  -h\t\tDisplay this help message\n"
+"  -v\t\tVerbose output\n"
+"  -V\t\tShow program version\n"
+msgstr ""
+
+msgid ""
+"  card=N\tGraphics card to apply adjustments to\n"
+"  crtc=N\tCRTC to apply adjustments to\n"
+msgstr ""
+
+msgid ""
+"  lat=N\t\tLatitude\n"
+"  lon=N\t\tLongitude\n"
+msgstr ""
+
+msgid "  screen=N\t\tX screen to apply adjustments to\n"
+msgstr ""
+
+msgid ""
+"  screen=N\t\tX screen to apply adjustments to\n"
+"  crtc=N\tList of comma separated CRTCs to apply adjustments to\n"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+msgid "2 hours"
+msgstr ""
+
+msgid "30 minutes"
+msgstr ""
+
+msgid "<b>Status:</b> {}"
+msgstr ""
+
+msgid ""
+"Access to the current location was denied by GeoClue!\n"
+"Make sure that location services are enabled and that Redshift is permitted\n"
+"to use location services. See https://github.com/jonls/redshift#faq for "
+"more\n"
+"information.\n"
+msgstr ""
+
+msgid "Adjust gamma ramps on macOS using Quartz.\n"
+msgstr ""
+
+msgid "Adjust gamma ramps with Direct Rendering Manager.\n"
+msgstr ""
+
+msgid "Adjust gamma ramps with the Windows GDI.\n"
+msgstr ""
+
+msgid "Adjust gamma ramps with the X RANDR extension.\n"
+msgstr ""
+
+msgid "Adjust gamma ramps with the X VidMode extension.\n"
+msgstr ""
+
+msgid "Assignment outside section in config file.\n"
+msgstr ""
+
+msgid "Autostart"
+msgstr ""
+
+msgid "Available adjustment methods:\n"
+msgstr ""
+
+msgid "Available location providers:\n"
+msgstr ""
+
+msgid ""
+"Both values are expected to be floating point numbers,\n"
+"negative values representing west / south, respectively.\n"
+msgstr ""
+
+msgid "Brightness values must be between %.1f and %.1f.\n"
+msgstr ""
+
+msgid "Brightness: %.2f\n"
+msgstr ""
+
+msgid "Brightness: %.2f:%.2f\n"
+msgstr ""
+
+msgid "CRTC %d does not exist. "
+msgstr ""
+
+msgid "CRTC %i lost, skipping\n"
+msgstr ""
+
+msgid "CRTC must be a non-negative integer\n"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Color temperature"
+msgstr ""
+
+msgid "Color temperature adjustment"
+msgstr ""
+
+msgid "Color temperature adjustment tool"
+msgstr ""
+
+msgid "Color temperature: %uK\n"
+msgstr ""
+
+msgid ""
+"Could not get gamma ramp size for CRTC %i\n"
+"on graphics card %i, ignoring device.\n"
+msgstr ""
+
+msgid ""
+"DRM could not read gamma ramps on CRTC %i on\n"
+"graphics card %i, ignoring device.\n"
+msgstr ""
+
+msgid "Daytime"
+msgstr ""
+
+msgid ""
+"Default values:\n"
+"\n"
+"  Daytime temperature: %uK\n"
+"  Night temperature: %uK\n"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Display device does not support gamma ramps.\n"
+msgstr ""
+
+msgid ""
+"Does not affect the display but prints the color temperature to the "
+"terminal.\n"
+msgstr ""
+
+msgid "E"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Error obtaining location from CoreLocation: %s\n"
+msgstr ""
+
+msgid "Failed to get DRM mode resources\n"
+msgstr ""
+
+msgid "Failed to open DRM device: %s\n"
+msgstr ""
+
+msgid "Failed to parse option `%s'.\n"
+msgstr ""
+
+msgid "Failed to set %s option.\n"
+msgstr ""
+
+msgid "Failed to start CoreLocation provider!\n"
+msgstr ""
+
+msgid "Failed to start GeoClue2 provider!\n"
+msgstr ""
+
+msgid "Failed to start adjustment method %s.\n"
+msgstr ""
+
+msgid "Failed to start provider %s.\n"
+msgstr ""
+
+msgid "Gamma (%s): %.3f, %.3f, %.3f\n"
+msgstr ""
+
+msgid "Gamma ramp size too small: %i\n"
+msgstr ""
+
+msgid "Gamma value must be between %.1f and %.1f.\n"
+msgstr ""
+
+msgid ""
+"High transition elevation cannot be lower than the low transition "
+"elevation.\n"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Initialization of %s failed.\n"
+msgstr ""
+
+msgid "Invalid dawn/dusk time configuration!\n"
+msgstr ""
+
+msgid "Invalid location returned from provider.\n"
+msgstr ""
+
+msgid "Latitude and longitude must be set.\n"
+msgstr ""
+
+msgid "Latitude must be between %.1f and %.1f.\n"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid ""
+"Location is temporarily unavailable; Using previous location until it "
+"becomes available...\n"
+msgstr ""
+
+msgid "Location: %.2f %s, %.2f %s\n"
+msgstr ""
+
+msgid "Longitude must be between %.1f and %.1f.\n"
+msgstr ""
+
+msgid "Malformed argument.\n"
+msgstr ""
+
+msgid "Malformed assignment in config file.\n"
+msgstr ""
+
+msgid "Malformed dawn-time setting `%s'.\n"
+msgstr ""
+
+msgid "Malformed dusk-time setting `%s'.\n"
+msgstr ""
+
+msgid "Malformed gamma argument.\n"
+msgstr ""
+
+msgid "Malformed gamma setting.\n"
+msgstr ""
+
+msgid "Malformed section header in config file.\n"
+msgstr ""
+
+msgid "Malformed temperature argument.\n"
+msgstr ""
+
+msgid "N"
+msgstr ""
+
+msgid "Night"
+msgstr ""
+
+msgid "No more location providers to try.\n"
+msgstr ""
+
+msgid "No more methods to try.\n"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Not authorized to obtain location from CoreLocation.\n"
+msgstr ""
+
+msgid "Only CRTC 0 exists.\n"
+msgstr ""
+
+msgid ""
+"Parameter `%s` is now always on;  Use the `%s` command-line option to "
+"disable.\n"
+msgstr ""
+
+msgid "Partitial time-configuration not supported!\n"
+msgstr ""
+
+msgid "Period"
+msgstr ""
+
+msgid "Period: %s\n"
+msgstr ""
+
+msgid "Period: %s (%.2f%% day)\n"
+msgstr ""
+
+msgid "Please report bugs to <%s>\n"
+msgstr ""
+
+msgid "Please run `redshift -h` for help output."
+msgstr ""
+
+msgid "Press ctrl-c to stop...\n"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Redshift"
+msgstr ""
+
+msgid ""
+"Redshift adjusts the color temperature of your screen according to your "
+"surroundings. This may help your eyes hurt less if you are working in front "
+"of the screen at night."
+msgstr ""
+
+msgid "Request for location was not authorized!\n"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "Screen %i could not be found.\n"
+msgstr ""
+
+msgid "Set color temperature of display according to time of day.\n"
+msgstr ""
+
+msgid "Solar elevation: %f\n"
+msgstr ""
+
+msgid "Solar elevations: day above %.1f, night below %.1f\n"
+msgstr ""
+
+msgid "Specify colon-separated options with `-m METHOD:OPTIONS'.\n"
+msgstr ""
+
+msgid "Specify colon-separated options with`-l PROVIDER:OPTIONS'.\n"
+msgstr ""
+
+msgid "Specify location manually.\n"
+msgstr ""
+
+msgid "Status: %s\n"
+msgstr ""
+
+msgid "Suspend for"
+msgstr ""
+
+msgid "Temperature adjustment failed.\n"
+msgstr ""
+
+msgid "Temperature must be between %uK and %uK.\n"
+msgstr ""
+
+msgid "Temperature: %i\n"
+msgstr ""
+
+msgid "Temperatures: %dK at day, %dK at night\n"
+msgstr ""
+
+msgid ""
+"The Redshift information window overlaid with an example of the redness "
+"effect"
+msgstr ""
+
+msgid ""
+"The color temperature is set according to the position of the sun. A "
+"different color temperature is set during night and daytime. During twilight "
+"and early morning, the color temperature transitions smoothly from night to "
+"daytime temperature to allow your eyes to slowly adapt."
+msgstr ""
+
+msgid ""
+"The neutral temperature is %uK. Using this value will not change the color\n"
+"temperature of the display. Setting the color temperature to a value higher\n"
+"than this results in more blue light, and setting a lower value will result "
+"in\n"
+"more red light.\n"
+msgstr ""
+
+msgid ""
+"This program provides a status icon that allows the user to control Redshift."
+msgstr ""
+
+msgid "Transition"
+msgstr ""
+
+msgid "Try -m %s:help' for more information.\n"
+msgstr ""
+
+msgid "Try `-h' for more information.\n"
+msgstr ""
+
+msgid "Try `-l %s:help' for more information.\n"
+msgstr ""
+
+msgid "Try `-l PROVIDER:help' for help.\n"
+msgstr ""
+
+msgid "Try `-m %s:help' for more information.\n"
+msgstr ""
+
+msgid "Try `-m METHOD:help' for help.\n"
+msgstr ""
+
+msgid "Trying location provider `%s'...\n"
+msgstr ""
+
+msgid "Trying next method...\n"
+msgstr ""
+
+msgid "Trying next provider...\n"
+msgstr ""
+
+msgid "Unable to get location from provider.\n"
+msgstr ""
+
+msgid "Unable to obtain GeoClue Client: %s.\n"
+msgstr ""
+
+msgid "Unable to obtain GeoClue Manager: %s.\n"
+msgstr ""
+
+msgid "Unable to obtain GeoClue client path: %s.\n"
+msgstr ""
+
+msgid "Unable to obtain location: %s.\n"
+msgstr ""
+
+msgid "Unable to open device context.\n"
+msgstr ""
+
+msgid "Unable to read screen number: `%s'.\n"
+msgstr ""
+
+msgid "Unable to read system time.\n"
+msgstr ""
+
+msgid "Unable to restore CRTC %i\n"
+msgstr ""
+
+msgid "Unable to restore gamma ramps.\n"
+msgstr ""
+
+msgid "Unable to save current gamma ramp.\n"
+msgstr ""
+
+msgid "Unable to set distance threshold: %s.\n"
+msgstr ""
+
+msgid "Unable to set gamma ramps.\n"
+msgstr ""
+
+msgid "Unable to start GeoClue client: %s.\n"
+msgstr ""
+
+msgid "Unknown adjustment method `%s'.\n"
+msgstr ""
+
+msgid "Unknown configuration setting `%s'.\n"
+msgstr ""
+
+msgid "Unknown location provider `%s'.\n"
+msgstr ""
+
+msgid "Unknown method parameter: `%s'.\n"
+msgstr ""
+
+msgid "Unsupported RANDR version (%u.%u)\n"
+msgstr ""
+
+msgid "Usage: %s -l LAT:LON -t DAY:NIGHT [OPTIONS...]\n"
+msgstr ""
+
+msgid "Use the location as discovered by a GeoClue2 provider.\n"
+msgstr ""
+
+msgid "Use the location as discovered by the Corelocation provider.\n"
+msgstr ""
+
+msgid "Using method `%s'.\n"
+msgstr ""
+
+msgid "Using provider `%s'.\n"
+msgstr ""
+
+msgid "Valid CRTCs are [0-%d].\n"
+msgstr ""
+
+msgid "W"
+msgstr ""
+
+msgid ""
+"WARNING: Using dummy gamma method! Display will not be affected by this "
+"gamma method.\n"
+msgstr ""
+
+msgid "Waiting for authorization to obtain location...\n"
+msgstr ""
+
+msgid "Waiting for current location to become available...\n"
+msgstr ""
+
+msgid "Waiting for initial location to become available...\n"
+msgstr ""
+
+msgid "X request failed: %s\n"
+msgstr ""
+
+msgid "`%s' returned error %d\n"
+msgstr ""

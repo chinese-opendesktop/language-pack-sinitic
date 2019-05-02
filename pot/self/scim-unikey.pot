@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: scim-unikey 0.3.1\n"
+"Report-Msgid-Bugs-To: mr.lequoctuan@gmail.com\n"
+"POT-Creation-Date: 2009-08-26 09:50+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/im_engine.cpp:96
+msgid ""
+"This IME work best when environment variable are\n"
+"- GTK_IM_MODULE=scim-bridge\n"
+"- QT_IM_MODULE=xim\n"
+"\n"
+"Some time, in some application, you \"must\"\n"
+"use Preedit to input properly\n"
+"\n"
+"In some application, scim can't enable,\n"
+"this is not a bug of scim-unikey.\n"
+"You can try this in terminal: app_name | scim\n"
+"\n"
+"This IME come into being not intend to\n"
+"replace scim-m17n, just a choose, I recommend\n"
+"use this combine with scim-m17n\n"
+"\n"
+"For other support goto:\n"
+"  http://code.google.com/p/scim-unikey/wiki/Support"
+msgstr ""
+
+#: src/unikey_instance.cpp:142
+msgid "Choose input method"
+msgstr ""
+
+#: src/unikey_instance.cpp:159
+msgid "Choose output charset"
+msgstr ""
+
+#: src/unikey_instance.cpp:174
+msgid "Options"
+msgstr ""
+
+#: src/unikey_instance.cpp:176
+msgid "Configure Unikey here"
+msgstr ""
+
+#: src/unikey_instance.cpp:182 setup/setup-main.glade:146
+msgid "Enable spell check"
+msgstr ""
+
+#: src/unikey_instance.cpp:184
+msgid "If enable, you can decrease mistake when typing"
+msgstr ""
+
+#: src/unikey_instance.cpp:190 setup/setup-main.glade:158
+msgid "Auto restore keys with invalid words"
+msgstr ""
+
+#: src/unikey_instance.cpp:192
+msgid ""
+"When typing a word not in Vietnamese,\n"
+"it will auto restore keystroke into original"
+msgstr ""
+
+#: src/unikey_instance.cpp:199 setup/setup-main.glade:170
+msgid "Use oà, uý (instead of òa, úy)"
+msgstr ""
+
+#: src/unikey_instance.cpp:207 setup/setup-main.glade:182
+msgid "Allow type with more freedom"
+msgstr ""
+
+#: src/unikey_instance.cpp:215
+msgid "Enable Macro"
+msgstr ""
+
+#: src/unikey_instance.cpp:223
+msgid "Process W at word begin"
+msgstr ""
+
+#: src/unikey_instance.cpp:225
+msgid ""
+"If enable, type W at begin\n"
+"of word will change to Ư."
+msgstr ""
+
+#: src/unikey_instance.cpp:231
+msgid "Launch Unikey Setup"
+msgstr ""
+
+#: setup/scim_unikey_helper.cpp:36
+msgid "Unikey Setup"
+msgstr ""
+
+#: setup/dlg_macro_table.cpp:13
+msgid "(replace text)"
+msgstr ""
+
+#: setup/dlg_macro_table.cpp:57
+msgid "Word"
+msgstr ""
+
+#: setup/dlg_macro_table.cpp:71
+msgid "Replace with"
+msgstr ""
+
+#: setup/dlg_macro_table.cpp:374
+msgid "Choose file to import"
+msgstr ""
+
+#: setup/dlg_macro_table.cpp:424
+msgid "Choose file to export"
+msgstr ""
+
+#: setup/setup-main.glade:59
+msgid "Input method:"
+msgstr ""
+
+#: setup/setup-main.glade:70
+msgid "Output charset: "
+msgstr ""
+
+#: setup/setup-main.glade:121
+msgid "<b>Input/Output</b>"
+msgstr ""
+
+#: setup/setup-main.glade:197
+msgid "Enable _macro"
+msgstr ""
+
+#: setup/setup-main.glade:210
+msgid "_Edit macro"
+msgstr ""
+
+#: setup/setup-main.glade:229
+msgid "Process _W at word begin"
+msgstr ""
+
+#: setup/setup-main.glade:247
+msgid "<b>Options</b>"
+msgstr ""
+
+#: setup/setup-macro.glade:15
+msgid "Macro table definition"
+msgstr ""
+
+#: setup/setup-macro.glade:71
+msgid "Delete _all"
+msgstr ""
+
+#: setup/setup-macro.glade:95
+msgid "_Import..."
+msgstr ""
+
+#: setup/setup-macro.glade:109
+msgid "_Export..."
+msgstr ""

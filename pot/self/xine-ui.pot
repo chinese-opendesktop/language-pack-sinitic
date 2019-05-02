@@ -1,0 +1,2274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The xine project
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xine-ui 0.99.9\n"
+"Report-Msgid-Bugs-To: xine-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-08-21 22:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "There is no MRL."
+msgstr ""
+
+#, c-format
+msgid ""
+"The stream '%s' isn't supported by xine:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The stream '%s' uses an unsupported codec:\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "Video Codec: %s (%s)\n"
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+#, c-format
+msgid "Audio Codec: %s (%s)\n"
+msgstr ""
+
+msgid "Start Playback ?"
+msgstr ""
+
+msgid ""
+"\n"
+"Start playback anyway ?\n"
+msgstr ""
+
+msgid "No MRL (input stream) specified"
+msgstr ""
+
+#, c-format
+msgid "Aspect ratio: %s"
+msgstr ""
+
+#, c-format
+msgid "Deinterlace: %s"
+msgstr ""
+
+msgid "enabled"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+#, c-format
+msgid "%s(): can't create new thread (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "Video post plugins: %s."
+msgstr ""
+
+msgid "Amplification Level"
+msgstr ""
+
+msgid "Audio Volume"
+msgstr ""
+
+#, c-format
+msgid "Audio post plugins: %s."
+msgstr ""
+
+#, c-format
+msgid "TV Mode: %d"
+msgstr ""
+
+#, c-format
+msgid "XSendEvent(display, 0x%x ...) failed.\n"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Stream(s) Loading"
+msgstr ""
+
+msgid "Pick a subtitle file"
+msgstr ""
+
+msgid "Hue"
+msgstr ""
+
+msgid "Saturation"
+msgstr ""
+
+msgid "Brightness"
+msgstr ""
+
+msgid "Contrast"
+msgstr ""
+
+msgid "Gamma"
+msgstr ""
+
+msgid "Sharpness"
+msgstr ""
+
+msgid "Noise reduction"
+msgstr ""
+
+#, c-format
+msgid "%s(): couldn't find image for background\n"
+msgstr ""
+
+msgid "xine Control Window"
+msgstr ""
+
+msgid "control: couldn't find image for background\n"
+msgstr ""
+
+msgid "Control HUE value"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Hue"
+msgstr ""
+
+msgid "Control SATURATION value"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Sat"
+msgstr ""
+
+msgid "Control BRIGHTNESS value"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Brt"
+msgstr ""
+
+msgid "Control CONTRAST value"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Ctr"
+msgstr ""
+
+msgid "Control GAMMA value"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Gam"
+msgstr ""
+
+msgid "Control SHARPNESS value"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Sha"
+msgstr ""
+
+msgid "Control NOISE REDUCTION value"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Noi"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Choose a Skin"
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+msgid "Close control window"
+msgstr ""
+
+msgid "Download in progress"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+#, c-format
+msgctxt "skin"
+msgid "Download progress: %d%%."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "More..."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+#, c-format
+msgid ""
+"- xine engine error -\n"
+"\n"
+"There is no input plugin available to handle '%s'.\n"
+"Maybe MRL syntax is wrong or file/stream source doesn't exist."
+msgstr ""
+
+#, c-format
+msgid ""
+"- xine engine error -\n"
+"\n"
+"There is no demuxer plugin available to handle '%s'.\n"
+"Usually this means that the file format was not recognized."
+msgstr ""
+
+#, c-format
+msgid ""
+"- xine engine error -\n"
+"\n"
+"Demuxer failed. Maybe '%s' is a broken file?\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"- xine engine error -\n"
+"\n"
+"Malformed mrl. Mrl '%s' seems malformed/invalid.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"- xine engine error -\n"
+"\n"
+"Input plugin failed to open mrl '%s'\n"
+msgstr ""
+
+msgid ""
+"- xine engine error -\n"
+"\n"
+"!! Unhandled error !!\n"
+msgstr ""
+
+msgid "Opening mozilla web browser, this might take a while..."
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid ""
+"The amount of dropped frame is too high, your system might be slow, not "
+"properly optimized or just too loaded.\n"
+"\n"
+"http://www.xine-project.org/faq#SPEEDUP"
+msgstr ""
+
+msgid "Warn user when too much frames are dropped."
+msgstr ""
+
+msgid "Learn More..."
+msgstr ""
+
+msgid "Disable this warning."
+msgstr ""
+
+msgid "Zoom: 1:1"
+msgstr ""
+
+#, c-format
+msgid "Zoom: 200%%"
+msgstr ""
+
+#, c-format
+msgid "Zoom: 50%%"
+msgstr ""
+
+#, c-format
+msgid "A/V offset: %s"
+msgstr ""
+
+msgid "A/V Offset: reset."
+msgstr ""
+
+#, c-format
+msgid "SPU Offset: %s"
+msgstr ""
+
+msgid "SPU Offset: reset."
+msgstr ""
+
+msgid "Playlist: no loop."
+msgstr ""
+
+msgid "Playlist: loop."
+msgstr ""
+
+msgid "Playlist: entry repeat."
+msgstr ""
+
+msgid "Playlist: shuffle."
+msgstr ""
+
+msgid "Playlist: shuffle forever."
+msgstr ""
+
+msgid "No text to display!"
+msgstr ""
+
+#, c-format
+msgid "Playlist: %s"
+msgstr ""
+
+msgid "Stop (persistent)"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+#, c-format
+msgid "gui_main: selected visual %#lx does not exist, trying default visual\n"
+msgstr ""
+
+#, c-format
+msgid "gui_main: couldn't find true color visual.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+"XInitThreads failed - looks like you don't have a thread-safe xlib.\n"
+msgstr ""
+
+#, c-format
+msgid "Cannot open display\n"
+msgstr ""
+
+msgid "Name of video display"
+msgstr ""
+
+msgid ""
+"Use this setting to configure to which display xine will show videos. When "
+"left blank, the main display will be used. Setting this option to something "
+"like ':0.1' or ':1' makes possible to display video and control on different "
+"screens (very useful for TV presentations)."
+msgstr ""
+
+#, c-format
+msgid "Cannot open display '%s' for video. Falling back to primary display.\n"
+msgstr ""
+
+msgid "Synchronized X protocol (debug)"
+msgstr ""
+
+msgid ""
+"Do X transactions in synchronous mode. Very slow, use only for debugging!"
+msgstr ""
+
+#, c-format
+msgid "Warning! Synchronized X activated - this is very slow...\n"
+msgstr ""
+
+msgid "Windows stacking"
+msgstr ""
+
+msgid ""
+"Use WM layer property to place windows on top\n"
+"except for the video window in non-fullscreen mode."
+msgstr ""
+
+msgid "Windows stacking (more)"
+msgstr ""
+
+msgid ""
+"Use WM layer property to place windows on top\n"
+"for all windows (surpasses the 'layer_above' setting)."
+msgstr ""
+
+msgid "Snapshot location"
+msgstr ""
+
+msgid "Where snapshots will be saved."
+msgstr ""
+
+msgid "Screensaver reset interval (s)"
+msgstr ""
+
+msgid ""
+"Time, in seconds, between two faked events to keep a screensaver quiet, 0 to "
+"disable."
+msgstr ""
+
+msgid "Chapter hopping"
+msgstr ""
+
+msgid "Play next|previous chapter instead of mrl (dvdnav)"
+msgstr ""
+
+msgid "Visibility behavior of output window"
+msgstr ""
+
+msgid "Hide video output window if there is no video in the stream"
+msgstr ""
+
+msgid "Visiblility behavior of panel"
+msgstr ""
+
+msgid ""
+"Automatically show/hide panel window, according to "
+"auto_video_output_visibility"
+msgstr ""
+
+msgid "Event sender behavior"
+msgstr ""
+
+msgid "Event sender window stick to main panel"
+msgstr ""
+
+msgid "Visual animation style"
+msgstr ""
+
+msgid ""
+"Display some video animations when current stream is audio only (eg: mp3)."
+msgstr ""
+
+msgid "Stream information"
+msgstr ""
+
+msgid "Update stream information (in stream info window) each half seconds."
+msgstr ""
+
+msgid "Skin Server Url"
+msgstr ""
+
+msgid "From where we can get skins."
+msgstr ""
+
+msgid "Enable OSD support"
+msgstr ""
+
+msgid ""
+"Enabling OSD permit to display some status/informations in output window."
+msgstr ""
+
+msgid "Use unscaled OSD"
+msgstr ""
+
+msgid "Use unscaled (full screen resolution) OSD if possible"
+msgstr ""
+
+msgid "Dismiss OSD time (s)"
+msgstr ""
+
+msgid "Persistence time of OSD visual, in seconds."
+msgstr ""
+
+msgid "Change xine's behavior for unexperienced user"
+msgstr ""
+
+msgid "In this mode, xine take some decisions to simplify user's life."
+msgstr ""
+
+msgid "Ask user for playback with unsupported codec"
+msgstr ""
+
+msgid ""
+"If xine don't support audio or video codec of current stream the user will "
+"be asked if the stream should be played or not"
+msgstr ""
+
+msgid "Configuration experience level"
+msgstr ""
+
+msgid ""
+"Level of user's experience, this will show more or less configuration "
+"options."
+msgstr ""
+
+msgid "Amplification level"
+msgstr ""
+
+msgid "Display splash screen"
+msgstr ""
+
+msgid "If enabled, xine will display its splash screen"
+msgstr ""
+
+msgid "Audio mixer control method"
+msgstr ""
+
+msgid "Which method used to control audio volume."
+msgstr ""
+
+msgid "Menu shortcut style"
+msgstr ""
+
+msgid "Shortcut representation in menu, 'Ctrl,Alt' or 'C,M'."
+msgstr ""
+
+#, c-format
+msgid "Unable to initialize Imlib\n"
+msgstr ""
+
+msgid "xine Event Sender"
+msgstr ""
+
+msgid "Up"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Down"
+msgstr ""
+
+msgid "Angle +"
+msgstr ""
+
+msgid "Angle -"
+msgstr ""
+
+msgid "Menu 1"
+msgstr ""
+
+msgid "Menu 2"
+msgstr ""
+
+msgid "Menu 3"
+msgstr ""
+
+msgid "Menu 4"
+msgstr ""
+
+msgid "Menu 5"
+msgstr ""
+
+msgid "Menu 6"
+msgstr ""
+
+msgid "Menu 7"
+msgstr ""
+
+msgid "Menu toggle"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+msgid "Subpicture"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Angle"
+msgstr ""
+
+msgid "Part"
+msgstr ""
+
+msgid "Top Menu"
+msgstr ""
+
+msgid "Popup Menu"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "All files"
+msgstr ""
+
+msgid "All known subtitles"
+msgstr ""
+
+msgid "All known playlists"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+#, c-format
+msgid "Unable to open directory '%s': %s."
+msgstr ""
+
+#, c-format
+msgid "Unable to delete file '%s': %s."
+msgstr ""
+
+#, c-format
+msgid "Do you really want to delete the file '%s%s%s' ?"
+msgstr ""
+
+msgid "Confirm deletion ?"
+msgstr ""
+
+#, c-format
+msgid "Unable to rename file '%s' to '%s': %s."
+msgstr ""
+
+msgid "Rename file"
+msgstr ""
+
+#, c-format
+msgid "Unable to create the directory '%s': %s."
+msgstr ""
+
+msgid "Create a new directory"
+msgstr ""
+
+msgid "File Browser"
+msgstr ""
+
+msgid "Show hidden file"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Create a directory"
+msgstr ""
+
+msgid "Undefined"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "No Help Section Available"
+msgstr ""
+
+msgid "OOCH: key binding table is NULL.\n"
+msgstr ""
+
+msgid "Ctrl"
+msgstr ""
+
+msgid "Alt"
+msgstr ""
+
+msgid "Nothing selected"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "You can only delete alias entries."
+msgstr ""
+
+msgid "No more space for additional entries!"
+msgstr ""
+
+msgid "Press Keyboard Keys..."
+msgstr ""
+
+msgid "Event Receiver Window:  Press keyboard keys to bind..."
+msgstr ""
+
+msgid "Accept?"
+msgstr ""
+
+#, c-format
+msgid ""
+"Store %s as\n"
+"'%s' key binding ?"
+msgstr ""
+
+#, c-format
+msgid ""
+"This key binding is redundant with action:\n"
+"\"%s\".\n"
+msgstr ""
+
+msgid "Key Binding Editor"
+msgstr ""
+
+msgid "Binding Action"
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Modifiers"
+msgstr ""
+
+msgid "Alias"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "ctrl"
+msgstr ""
+
+msgid "meta"
+msgstr ""
+
+msgid "mod3"
+msgstr ""
+
+msgid "mod4"
+msgstr ""
+
+msgid "mod5"
+msgstr ""
+
+msgid "Grab"
+msgstr ""
+
+#, c-format
+msgid "xine-ui: Too many Alias entries in keymap file, entry ignored.\n"
+msgstr ""
+
+msgid "and"
+msgstr ""
+
+msgid ""
+"The following key bindings pairs are identical:\n"
+"\n"
+msgstr ""
+
+msgid ""
+".\n"
+"\n"
+"What do you want to do ?\n"
+msgstr ""
+
+msgid "Keybindings error!"
+msgstr ""
+
+msgid "Editor"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+#, c-format
+msgid "Bad geometry '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "Bad visual '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "This is xine (X11 gui) - a free video player v%s"
+msgstr ""
+
+#, c-format
+msgid ""
+".\n"
+"(c) 2000-2014 The xine Team.\n"
+msgstr ""
+
+#, c-format
+msgid "Built with xine library %d.%d.%d (%s)\n"
+msgstr ""
+
+#, c-format
+msgid "Found xine library version: %d.%d.%d (%s).\n"
+msgstr ""
+
+msgid "   -Audio output:\n"
+msgstr ""
+
+msgid "   -Video output:\n"
+msgstr ""
+
+msgid "   -Demuxer:\n"
+msgstr ""
+
+msgid "   -Input:\n"
+msgstr ""
+
+msgid "   -Subpicture:\n"
+msgstr ""
+
+msgid "   -Post processing:\n"
+msgstr ""
+
+msgid "   -Audio decoder:\n"
+msgstr ""
+
+msgid "   -Video decoder:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"\n"
+" Available xine's plugins:\n"
+msgstr ""
+
+#, c-format
+msgid "No available plugins found of %s type!\n"
+msgstr ""
+
+#, c-format
+msgid "Usage: xine [OPTIONS]... [MRL]\n"
+msgstr ""
+
+#, c-format
+msgid "OPTIONS are:\n"
+msgstr ""
+
+#, c-format
+msgid "  -v, --version                Display version.\n"
+msgstr ""
+
+#, c-format
+msgid "      --verbose [=level]       Set verbosity level. Default is 1.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -c, --config <file>          Use config file instead of default one.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -V, --video-driver <drv>     Select video driver by id. Available "
+"drivers: \n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -A, --audio-driver <drv>     Select audio driver by id. Available "
+"drivers: \n"
+msgstr ""
+
+#, c-format
+msgid "  -u, --spu-channel <#>        Select SPU (subtitle) channel '#'.\n"
+msgstr ""
+
+#, c-format
+msgid "  -a, --audio-channel <#>      Select audio channel '#'.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -p, --auto-play [opt]        Play on start. Can be followed by:\n"
+"                    'f': in fullscreen mode.\n"
+"                    'h': hide GUI (panel, etc.).\n"
+"                    'w': hide video window.\n"
+"                    'q': quit when play is done.\n"
+"                    'd': retrieve playlist from DVD. (deprecated. use -s "
+"DVD)\n"
+"                    'v': retrieve playlist from VCD. (deprecated. use -s "
+"VCD)\n"
+msgstr ""
+
+#, c-format
+msgid "                    'F': in xinerama fullscreen mode.\n"
+msgstr ""
+
+#, c-format
+msgid "  -s, --auto-scan <plugin>     auto-scan play list from <plugin>\n"
+msgstr ""
+
+#, c-format
+msgid "  -f, --fullscreen             start in fullscreen mode,\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -F, --xineramafull           start in xinerama fullscreen (display on "
+"several screens),\n"
+msgstr ""
+
+#, c-format
+msgid "  -g, --hide-gui               hide GUI (panel, etc.)\n"
+msgstr ""
+
+#, c-format
+msgid "  -I, --no-gui                 disable GUI\n"
+msgstr ""
+
+#, c-format
+msgid "      --no-mouse               disable mouse event\n"
+msgstr ""
+
+#, c-format
+msgid "  -H, --hide-video             hide video window\n"
+msgstr ""
+
+#, c-format
+msgid "  -L, --no-lirc                Turn off LIRC support.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --visual <class-or-id>   Use the specified X11 visual. <class-or-id>\n"
+"                               is either an X11 visual class, or a visual "
+"id.\n"
+msgstr ""
+
+#, c-format
+msgid "      --install                Install a private colormap.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --keymap [=option]       Display keymap. Option are:\n"
+"                                 'default': display default keymap table,\n"
+"                                 'lirc': display draft of a .lircrc config "
+"file.\n"
+"                                 'remapped': user remapped keymap table.\n"
+"                                 'file:<filename>': use <filename> as "
+"keymap.\n"
+"                                 -if no option is given, 'default' is "
+"selected.\n"
+msgstr ""
+
+#, c-format
+msgid "  -n, --network                Enable network remote control server.\n"
+msgstr ""
+
+#, c-format
+msgid "      --network-port           Specify network server port number.\n"
+msgstr ""
+
+#, c-format
+msgid "  -R, --root                   Use root window as video window.\n"
+msgstr ""
+
+#, c-format
+msgid "  -W, --wid                    Use a window id.\n"
+msgstr ""
+
+#, c-format
+msgid "  -G, --geometry <WxH[+X+Y]>   Set output window geometry (X style).\n"
+msgstr ""
+
+#, c-format
+msgid "  -B, --borderless             Borderless video output window.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -N, --animation <mrl>        Specify mrl to play when video output isn't "
+"used.\n"
+"                                 -can be used more than one time.\n"
+msgstr ""
+
+#, c-format
+msgid "  -P, --playlist <filename>    Load a playlist file.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -l, --loop [=mode]           Set playlist loop mode (default: loop). Modes "
+"are:\n"
+"                                 'loop': loop entire playlist.\n"
+"                                 'repeat': repeat current playlist entry.\n"
+"                                 'shuffle': select randomly a yet unplayed "
+"entry from playlist\n"
+"                                 'shuffle+': same as 'shuffle', but "
+"indefinetely replay the playlist.\n"
+msgstr ""
+
+#, c-format
+msgid "      --skin-server-url <url>  Define the skin server url.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --enqueue <mrl> ...      Enqueue mrl of a running session (session 0)\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -S, --session <option1,option2,...>\n"
+"                               Session managements. Options can be:\n"
+"                    session=n   specify session <n> number,\n"
+"                    mrl=m       add mrl <m> to the playlist,\n"
+"                    audio=c     select audio channel (<c>: 'next' or "
+"'prev'),\n"
+"                    spu=c       select spu channel (<c>: 'next' or 'prev'),\n"
+"                    volume=v    set audio volume,\n"
+"                    amp=v       set amplification level,\n"
+"                    loop=m      set loop mode (<m>: 'none' 'loop' 'repeat' "
+"'shuffle' or 'shuffle+'),\n"
+"                    get_speed   get speed value (see man page for returned "
+"value).\n"
+"                    (playlist|pl)=p\n"
+"                                 <p> can be:\n"
+"                                   'clear'  clear the playlist,\n"
+"                                   'first'  play first entry in the "
+"playlist,\n"
+"                                   'prev'   play previous playlist entry,\n"
+"                                   'next'   play next playlist entry,\n"
+"                                   'last'   play last entry in the "
+"playlist,\n"
+"                                   'load:s' load playlist file <s>,\n"
+"                                   'stop'   stop playback at the end of "
+"current playback.\n"
+"                                   'cont'   continue playback at the end of "
+"current playback.\n"
+"                    play, slow2, slow4, pause, fast2,\n"
+"                    fast4, stop, quit, fullscreen, eject.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -Z                           Don't automatically start playback (smart "
+"mode).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -D, --deinterlace [post]...  Deinterlace video output. One or more post "
+"plugin\n"
+"                                 can be specified, with optional "
+"parameters.\n"
+"                                 Syntax is the same as --post option.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"  -r, --aspect-ratio <mode>    Set aspect ratio of video output. Modes are:\n"
+"                                 'auto', 'square', '4:3', 'anamorphic', "
+"'dvb'.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --broadcast-port <port>  Set port of xine broadcaster (master side)\n"
+"                               Slave is started with 'xine slave://address:"
+"port'\n"
+msgstr ""
+
+#, c-format
+msgid "      --no-logo                Don't display the logo.\n"
+msgstr ""
+
+#, c-format
+msgid "  -E, --no-reload              Don't reload old playlist.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --post <plugin>[:parameter=value][,...][;...]\n"
+"                               Load one or many post plugin(s).\n"
+"                               Parameters are comma separated.\n"
+"                               This option can be used more than one time.\n"
+msgstr ""
+
+#, c-format
+msgid "      --disable-post           Don't enable post plugin(s).\n"
+msgstr ""
+
+#, c-format
+msgid "      --no-splash              Don't display the splash screen.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --stdctl                 Control xine by the console, using lirc "
+"commands.\n"
+msgstr ""
+
+#, c-format
+msgid "  -T, --tvout <backend>        Turn on tvout support. Backend can be:\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --list-plugins [=type]   Display the list of all available plugins,\n"
+"                               Optional <type> can be:\n"
+"                    audio_out, video_out, demux, input, sub, post,\n"
+"                    audio_decoder, video_decoder.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"      --bug-report [=mrl]      Enable bug report mode:\n"
+"                                 Turn on verbosity, gather all output\n"
+"                                 messages and write them into a file named\n"
+"                                 BUG-REPORT.TXT.\n"
+"                                 If <mrl> is given, xine will play the mrl\n"
+"                                 then quit (like -pq).\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"examples for valid MRLs (media resource locator):\n"
+"  File:  'path/foo.vob'\n"
+"         '/path/foo.vob'\n"
+"         'file://path/foo.vob'\n"
+"         'fifo://[[mpeg1|mpeg2]:/]path/foo'\n"
+"         'stdin://[mpeg1|mpeg2]' or '-' (mpeg2 only)\n"
+"  DVD:   'dvd://VTS_01_2.VOB'\n"
+"  VCD:   'vcd://<track number>'\n"
+msgstr ""
+
+msgid "video driver to use"
+msgstr ""
+
+msgid "Choose video driver. NOTE: you may restart xine to use the new driver"
+msgstr ""
+
+#, c-format
+msgid "main: probing <%s> video output plugin\n"
+msgstr ""
+
+#, c-format
+msgid "main: all available video drivers failed.\n"
+msgstr ""
+
+#, c-format
+msgid "main: video driver <%s> failed\n"
+msgstr ""
+
+msgid "audio driver to use"
+msgstr ""
+
+msgid "Choose audio driver. NOTE: you may restart xine to use the new driver"
+msgstr ""
+
+#, c-format
+msgid "main: not using any audio driver (as requested).\n"
+msgstr ""
+
+#, c-format
+msgid "main: probing <%s> audio output plugin\n"
+msgstr ""
+
+#, c-format
+msgid "main: skipping <%s> audio output plugin from auto-probe\n"
+msgstr ""
+
+#, c-format
+msgid "main: audio driver probing failed => no audio output\n"
+msgstr ""
+
+#, c-format
+msgid "main: audio driver <%s> failed\n"
+msgstr ""
+
+msgid ""
+"*drum roll*, xine lib wants to take your attention to deliver an important "
+"message to you ;-):"
+msgstr ""
+
+msgid "No information available."
+msgstr ""
+
+msgid ""
+"The host you're trying to connect is unknown.\n"
+"Check the validity of the specified hostname."
+msgstr ""
+
+msgid "The device name you specified seems invalid."
+msgstr ""
+
+msgid ""
+"The network looks unreachable.\n"
+"Check your network setup and/or the server name."
+msgstr ""
+
+msgid ""
+"The connection was refused.\n"
+"Check the host name."
+msgstr ""
+
+msgid "The specified file or MRL could not be found. Please check it twice."
+msgstr ""
+
+msgid ""
+"The source can't be read.\n"
+"Maybe you don't have enough rights for this, or source doesn't contain data "
+"(e.g: not disc in drive)."
+msgstr ""
+
+msgid "A problem occurred while loading a library or a decoder"
+msgstr ""
+
+msgid "The source seems encrypted, and can't be read."
+msgstr ""
+
+msgid ""
+"\n"
+"Your DVD is probably crypted. According to your country laws, you can or "
+"can't install/use libdvdcss to be able to read this disc, which you bought."
+msgstr ""
+
+msgid ""
+"The audio device is unavailable. Please verify if another program already "
+"uses it."
+msgstr ""
+
+msgid "Sorry, not implemented (authentication)"
+msgstr ""
+
+msgid "*sight*, unknown error."
+msgstr ""
+
+#, c-format
+msgid "Require xine library version 1.0.0, found %d.%d.%d.\n"
+msgstr ""
+
+#, c-format
+msgid "video driver id required for -V option\n"
+msgstr ""
+
+#, c-format
+msgid "audio driver id required for -A option\n"
+msgstr ""
+
+#, c-format
+msgid "Bad aspect ratio mode '%s', see xine --help\n"
+msgstr ""
+
+#, c-format
+msgid "Bad port number: %d\n"
+msgstr ""
+
+#, c-format
+msgid "Bad geometry '%s', see xine --help\n"
+msgstr ""
+
+#, c-format
+msgid "Bad loop mode '%s', see xine --help\n"
+msgstr ""
+
+#, c-format
+msgid "*** NOTE ***\n"
+msgstr ""
+
+#, c-format
+msgid ""
+" Bug Report mode: All output messages will be added in BUG-REPORT.TXT file.\n"
+msgstr ""
+
+#, c-format
+msgid "window id required for -W option\n"
+msgstr ""
+
+#, c-format
+msgid "invalid argument %d => exit\n"
+msgstr ""
+
+#, c-format
+msgid "You should specify at least one MRL to enqueue!\n"
+msgstr ""
+
+msgid "Automatically reload old playlist"
+msgstr ""
+
+msgid ""
+"If it's enabled and if you don't specify any MRL in command line, xine will "
+"automatically load previous playlist."
+msgstr ""
+
+msgid "Subtitle autoloading"
+msgstr ""
+
+msgid "Automatically load subtitles if they exist."
+msgstr ""
+
+msgid "Enable deinterlacing by default"
+msgstr ""
+
+msgid ""
+"Deinterlace plugin will be enabled on startup. Progressive streams are "
+"automatically detected with no performance penalty."
+msgstr ""
+
+msgid "Logo MRL"
+msgstr ""
+
+msgid "!!Invalid entry!!"
+msgstr ""
+
+#, c-format
+msgid "Playlist file (%s) is invalid.\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to save playlist (%s): %s.\n"
+msgstr ""
+
+msgid "Mediamark Editor"
+msgstr ""
+
+msgid "Identifier"
+msgstr ""
+
+msgid "Mediamark Identifier"
+msgstr ""
+
+msgid "Mrl"
+msgstr ""
+
+msgid "Mediamark Mrl"
+msgstr ""
+
+msgid "Subtitle"
+msgstr ""
+
+msgid "Subtitle File"
+msgstr ""
+
+msgid "Sub File"
+msgstr ""
+
+msgid "Select a subtitle file to use together with the mrl."
+msgstr ""
+
+msgid "Start at"
+msgstr ""
+
+msgid "Mediamark start time (secs)."
+msgstr ""
+
+msgid "End at"
+msgstr ""
+
+msgid "Mediamark end time (secs)."
+msgstr ""
+
+msgid "A/V offset"
+msgstr ""
+
+msgid "Offset of Audio and Video."
+msgstr ""
+
+msgid "SPU offset"
+msgstr ""
+
+msgid "Subpicture offset."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Apply the changes and close the window."
+msgstr ""
+
+msgid "Apply the changes to the playlist."
+msgstr ""
+
+msgid "Discard changes and dismiss the window."
+msgstr ""
+
+msgid "Show controls"
+msgstr ""
+
+msgid "Show video window"
+msgstr ""
+
+msgid "Fullscreen"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open/File..."
+msgstr ""
+
+msgid "Open/Playlist..."
+msgstr ""
+
+msgid "Open/Location..."
+msgstr ""
+
+msgid "Playback"
+msgstr ""
+
+msgid "Playback/Play"
+msgstr ""
+
+msgid "Playback/Stop"
+msgstr ""
+
+msgid "Playback/Pause"
+msgstr ""
+
+msgid "Playback/SEP"
+msgstr ""
+
+msgid "Playback/Next MRL"
+msgstr ""
+
+msgid "Playback/Previous MRL"
+msgstr ""
+
+msgid "Playback/Increase Speed"
+msgstr ""
+
+msgid "Playback/Decrease Speed"
+msgstr ""
+
+msgid "Playlist"
+msgstr ""
+
+msgid "Playlist/Get from"
+msgstr ""
+
+msgid "Playlist/Load..."
+msgstr ""
+
+msgid "Playlist/Editor..."
+msgstr ""
+
+msgid "Playlist/SEP"
+msgstr ""
+
+msgid "Playlist/Loop modes"
+msgstr ""
+
+msgid "Playlist/Loop modes/Disabled"
+msgstr ""
+
+msgid "Playlist/Loop modes/Loop"
+msgstr ""
+
+msgid "Playlist/Loop modes/Repeat Selection"
+msgstr ""
+
+msgid "Playlist/Loop modes/Shuffle"
+msgstr ""
+
+msgid "Playlist/Loop modes/Non-stop Shuffle"
+msgstr ""
+
+msgid "Playlist/Continue Playback"
+msgstr ""
+
+msgid "Menus"
+msgstr ""
+
+msgid "Menus/Navigation..."
+msgstr ""
+
+msgid "Menus/SEP"
+msgstr ""
+
+msgid "Stream"
+msgstr ""
+
+msgid "Stream/Information..."
+msgstr ""
+
+msgid "Stream/Information (OSD)"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Video/Deinterlace"
+msgstr ""
+
+msgid "Video/SEP"
+msgstr ""
+
+msgid "Video/Aspect ratio"
+msgstr ""
+
+msgid "Video/Aspect ratio/Automatic"
+msgstr ""
+
+msgid "Video/Aspect ratio/Square"
+msgstr ""
+
+msgid "Video/Aspect ratio/4:3"
+msgstr ""
+
+msgid "Video/Aspect ratio/Anamorphic"
+msgstr ""
+
+msgid "Video/Aspect ratio/DVB"
+msgstr ""
+
+msgid "Video/200%"
+msgstr ""
+
+msgid "Video/100%"
+msgstr ""
+
+msgid "Video/50%"
+msgstr ""
+
+msgid "Video/Postprocess"
+msgstr ""
+
+msgid "Video/Postprocess/Chain Reaction..."
+msgstr ""
+
+msgid "Video/Postprocess/Enable Postprocessing"
+msgstr ""
+
+msgid "Audio/Volume"
+msgstr ""
+
+msgid "Audio/Volume/Mute"
+msgstr ""
+
+msgid "Audio/Volume/Increase 10%"
+msgstr ""
+
+msgid "Audio/Volume/Decrease 10%"
+msgstr ""
+
+msgid "Audio/Channel"
+msgstr ""
+
+msgid "Audio/Visualization"
+msgstr ""
+
+msgid "Audio/SEP"
+msgstr ""
+
+msgid "Audio/Postprocess"
+msgstr ""
+
+msgid "Audio/Postprocess/Chain Reaction..."
+msgstr ""
+
+msgid "Audio/Postprocess/Enable Postprocessing"
+msgstr ""
+
+msgid "Subtitle/Channel"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Settings/Setup..."
+msgstr ""
+
+msgid "Settings/Skin Downloader..."
+msgstr ""
+
+msgid "Settings/Keymap Editor..."
+msgstr ""
+
+msgid "Settings/Video..."
+msgstr ""
+
+msgid "Settings/TV Analog..."
+msgstr ""
+
+msgid "Help..."
+msgstr ""
+
+msgid "Logs..."
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+#, c-format
+msgid "xine %s"
+msgstr ""
+
+msgid "Open/Subtitle..."
+msgstr ""
+
+msgid "Playlist/Save..."
+msgstr ""
+
+msgid "Audio/Visualization/None"
+msgstr ""
+
+msgid "Audio/Channel/Off"
+msgstr ""
+
+msgid "Audio/Channel/Auto"
+msgstr ""
+
+msgid "Subtitle/Channel/Off"
+msgstr ""
+
+msgid "Subtitle/Channel/Auto"
+msgstr ""
+
+msgid "Add Mediamark"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Scan"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Play"
+msgstr ""
+
+msgid "Delete All"
+msgstr ""
+
+msgid "Move Up"
+msgstr ""
+
+msgid "Move Down"
+msgstr ""
+
+msgid "Reset video settings"
+msgstr ""
+
+msgid "Video Control"
+msgstr ""
+
+msgid "All extensions"
+msgstr ""
+
+msgid "xine MRL Browser"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Source:"
+msgstr ""
+
+msgid "post animation"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "Audio: "
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "Position in Stream"
+msgstr ""
+
+msgid "Subtitles: "
+msgstr ""
+
+msgid "Audio Channel: "
+msgstr ""
+
+msgid "Play previous chapter or mrl"
+msgstr ""
+
+msgid "Play next chapter or mrl"
+msgstr ""
+
+msgid "Play previous entry from playlist"
+msgstr ""
+
+msgid "Play next entry from playlist"
+msgstr ""
+
+msgid "Total time: "
+msgstr ""
+
+#, c-format
+msgid "Amp: %s"
+msgstr ""
+
+msgid "Muted"
+msgstr ""
+
+msgid "Unmuted"
+msgstr ""
+
+#, c-format
+msgid "Audio: %s"
+msgstr ""
+
+msgid "Volume control"
+msgstr ""
+
+msgid "Mute toggle"
+msgstr ""
+
+msgid "xine Panel"
+msgstr ""
+
+msgid "panel: couldn't find image for background\n"
+msgstr ""
+
+msgid "Stop playback"
+msgstr ""
+
+msgid "Play selected entry"
+msgstr ""
+
+msgid "Pause/Resume playback"
+msgstr ""
+
+msgid "Eject current medium"
+msgstr ""
+
+msgid "Setup window"
+msgstr ""
+
+msgid "Navigator"
+msgstr ""
+
+msgid "Hide GUI"
+msgstr ""
+
+msgid "Fullscreen/Window mode"
+msgstr ""
+
+msgid "Next audio channel"
+msgstr ""
+
+msgid "Previous audio channel"
+msgstr ""
+
+msgid "Next SPU channel"
+msgstr ""
+
+msgid "Previous SPU channel"
+msgstr ""
+
+msgid "Total time: --:--:--"
+msgstr ""
+
+msgid "Stream playback position slider"
+msgstr ""
+
+msgid "Take a snapshot"
+msgstr ""
+
+msgid "Slow motion"
+msgstr ""
+
+msgid "Fast motion"
+msgstr ""
+
+msgid "Control"
+msgstr ""
+
+msgid "Open Location"
+msgstr ""
+
+msgid "gui tips visibility"
+msgstr ""
+
+msgid "If disabled, no tooltips are shown."
+msgstr ""
+
+msgid "Tips timeout (ms)"
+msgstr ""
+
+msgid "Persistence time of tooltips, in milliseconds."
+msgstr ""
+
+msgid "gui panel visibility"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Load a playlist"
+msgstr ""
+
+msgid "Save a playlist"
+msgstr ""
+
+msgid "xine Playlist Editor"
+msgstr ""
+
+msgid "playlist: couldn't find image for background\n"
+msgstr ""
+
+msgid "Move up selected MRL"
+msgstr ""
+
+msgid "Move down selected MRL"
+msgstr ""
+
+msgid "Start playback of selected MRL"
+msgstr ""
+
+msgid "Delete selected MRL from playlist"
+msgstr ""
+
+msgid "Delete all entries in playlist"
+msgstr ""
+
+msgid "Add one or more entries in playlist"
+msgstr ""
+
+msgid "Load saved playlist"
+msgstr ""
+
+msgid "Save playlist"
+msgstr ""
+
+msgid "Close playlist window"
+msgstr ""
+
+#. TRANSLATORS: only ASCII characters (skin)
+msgctxt "skin"
+msgid "Scan for:"
+msgstr ""
+
+msgid "Direct MRL entry"
+msgstr ""
+
+msgid "Audio visualization plugin"
+msgstr ""
+
+msgid "Post audio plugin to used when playing streams without video"
+msgstr ""
+
+#, c-format
+msgid "Entered value is out of bounds (%d>%d<%d)."
+msgstr ""
+
+#, c-format
+msgid "Entered value is out of bounds (%e>%e<%e)."
+msgstr ""
+
+msgid "parameter type POST_PARAM_TYPE_STRING not supported yet.\n"
+msgstr ""
+
+msgid "parameter type POST_PARAM_TYPE_STRINGLIST not supported yet.\n"
+msgstr ""
+
+msgid "No description available"
+msgstr ""
+
+msgid "No Filter"
+msgstr ""
+
+msgid "Plugin Help"
+msgstr ""
+
+msgid "There is no parameter available for this plugin."
+msgstr ""
+
+msgid "Video Chain Reaction"
+msgstr ""
+
+msgid "Audio Chain Reaction"
+msgstr ""
+
+msgid "New Filter"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Deinterlace plugin."
+msgstr ""
+
+msgid ""
+"Plugin (with optional parameters) to use when deinterlace is used (plugin "
+"separator is ';')."
+msgstr ""
+
+#, c-format
+msgid "Session %d isn't running.\n"
+msgstr ""
+
+msgid "Important Notice"
+msgstr ""
+
+msgid ""
+"You changed some configuration value which require to restart xine to take "
+"effect."
+msgstr ""
+
+msgid "No help available"
+msgstr ""
+
+msgid ""
+"There is no configuration option available in this user experience level."
+msgstr ""
+
+msgid "xine Setup"
+msgstr ""
+
+msgid "(*)  you need to restart xine for this setting to take effect"
+msgstr ""
+
+#, c-format
+msgid "Failed to load %s/%s. Load fallback skin %s\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to load %s/%s. Reload old skin '%s'.\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to load %s, wrong version. Load fallback skin '%s'.\n"
+msgstr ""
+
+#, c-format
+msgid "Ooch, skin not found, use fallback '%s'.\n"
+msgstr ""
+
+#, c-format
+msgid "No available skin found. Say goodbye.\n"
+msgstr ""
+
+msgid "gui skin theme"
+msgstr ""
+
+#, c-format
+msgid "Ooch, gui.skin config entry isn't registered. Say goodbye.\n"
+msgstr ""
+
+#, c-format
+msgid "Ooch, skin '%s' not found, use fallback '%s'.\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to load fallback skin. Check your installed skins. Exiting.\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to load %s/%s. Exiting.\n"
+msgstr ""
+
+#, c-format
+msgid "Failed to load %s skin, wrong version. Load fallback skin '%s'.\n"
+msgstr ""
+
+#, c-format
+msgid "Unable to retrieve skin list from %s: %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to download '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "Unable to create '%s' directory: %s."
+msgstr ""
+
+#, c-format
+msgid "Skin %s correctly installed"
+msgstr ""
+
+#, c-format
+msgid "Unable to create '%s'."
+msgstr ""
+
+msgid "Be patient..."
+msgstr ""
+
+#, c-format
+msgid "Retrieving skin list from %s"
+msgstr ""
+
+msgid "Choose a skin to download..."
+msgstr ""
+
+msgid "Error: "
+msgstr ""
+
+msgid "xine_grab_video_frame.grab () failed\n"
+msgstr ""
+
+msgid "xine_new_grab_video_frame () failed\n"
+msgstr ""
+
+msgid "Wrong image size: "
+msgstr ""
+
+msgid ". Snapshot aborted."
+msgstr ""
+
+msgid "File open failed"
+msgstr ""
+
+msgid "png_create_write_struct() failed\n"
+msgstr ""
+
+msgid "png_create_info_struct() failed\n"
+msgstr ""
+
+msgid "PNG Parsing failed\n"
+msgstr ""
+
+msgid "File written: "
+msgstr ""
+
+msgid "xine_get_current_frame() failed\n"
+msgstr ""
+
+msgid "prvt_image_alloc failed\n"
+msgstr ""
+
+msgid "Framegrabber failed\n"
+msgstr ""
+
+msgid "Not supported for this video out driver\n"
+msgstr ""
+
+msgid "Error: yuy2_fudge failed\n"
+msgstr ""
+
+msgid "rgb_alloc() failed\n"
+msgstr ""
+
+msgid "xine Splash"
+msgstr ""
+
+msgid "Stream Information"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Title: "
+msgstr ""
+
+msgid "Comment: "
+msgstr ""
+
+msgid "Artist: "
+msgstr ""
+
+msgid "Genre: "
+msgstr ""
+
+msgid "Year: "
+msgstr ""
+
+msgid "Album: "
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "Input Plugin: "
+msgstr ""
+
+msgid "System Layer: "
+msgstr ""
+
+msgid "Bitrate: "
+msgstr ""
+
+msgid "Frame Duration: "
+msgstr ""
+
+msgid "Is Seekable: "
+msgstr ""
+
+msgid "Has Chapters: "
+msgstr ""
+
+msgid "Ignore Spu: "
+msgstr ""
+
+msgid "Has Still: "
+msgstr ""
+
+msgid "Has: "
+msgstr ""
+
+msgid "Handled: "
+msgstr ""
+
+msgid "Ignore: "
+msgstr ""
+
+msgid "Codec: "
+msgstr ""
+
+msgid "FourCC: "
+msgstr ""
+
+msgid "Channel(s): "
+msgstr ""
+
+msgid "Resolution: "
+msgstr ""
+
+msgid "Ratio: "
+msgstr ""
+
+msgid "Stream(s): "
+msgstr ""
+
+msgid "Bits: "
+msgstr ""
+
+msgid "Samplerate: "
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "nvtv TV output system"
+msgstr ""
+
+msgid "Select which TV output system supported by your TV."
+msgstr ""
+
+msgid "Enable XRandr extension"
+msgstr ""
+
+msgid ""
+"Enable the use of xrandr to autofit the screen to match the TV-resolution"
+msgstr ""
+
+msgid "Command to turn off TV out"
+msgstr ""
+
+msgid "atitvout command line used to turn on TV output."
+msgstr ""
+
+msgid "Command to turn on TV out"
+msgstr ""
+
+msgid "TV Analog Video Parameters"
+msgstr ""
+
+msgid "Input: "
+msgstr ""
+
+msgid "Broadcast System: "
+msgstr ""
+
+msgid "Channel: "
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Frame Rate: "
+msgstr ""
+
+msgid "Analog Standard: "
+msgstr ""
+
+msgid "Frame Size"
+msgstr ""
+
+msgid "MPEG2"
+msgstr ""
+
+#, c-format
+msgid "videowin: output driver cannot select a working visual\n"
+msgstr ""
+
+#, c-format
+msgid "videowin: output driver overrides selected visual to visual id 0x%lx\n"
+msgstr ""
+
+msgid "XF86VidMode Extension: modeline switching failed.\n"
+msgstr ""
+
+msgid ""
+"Screens to use in order to do a very fullscreen in xinerama mode. (example 0 "
+"2 3)"
+msgstr ""
+
+msgid ""
+"Example, if you want the display to expand on screen 0, 2 and 3, enter 0 2 3"
+msgstr ""
+
+msgid "x coordinate for xinerama fullscreen (-8192 = autodetect)"
+msgstr ""
+
+msgid "y coordinate for xinerama fullscreen (-8192 = autodetect)"
+msgstr ""
+
+msgid "width for xinerama fullscreen (-8192 = autodetect)"
+msgstr ""
+
+msgid "height for xinerama fullscreen (-8192 = autodetect)"
+msgstr ""
+
+msgid "xine Video Window"
+msgstr ""
+
+msgid "xine Video Fullscreen Window"
+msgstr ""
+
+msgid "xine Video Borderless Window"
+msgstr ""
+
+#, c-format
+msgid "XAllocWMHints() failed\n"
+msgstr ""
+
+msgid "New stream sizes resize output window"
+msgstr ""
+
+msgid "Double size for small streams (require stream_resize_window)"
+msgstr ""
+
+msgid "use XVidModeExtension when switching to fullscreen"
+msgstr ""
+
+#, c-format
+msgid "XF86VidMode Extension (%d.%d) detected, trying to use it.\n"
+msgstr ""
+
+#, c-format
+msgid "XF86VidMode Extension: %d modelines found.\n"
+msgstr ""
+
+#, c-format
+msgid "XF86VidModeModeLine %dx%d isn't valid: discarded.\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"XF86VidMode Extension: could not get list of available modelines. Failed.\n"
+msgstr ""
+
+#, c-format
+msgid "XF86VidMode Extension: initialization failed, not using it.\n"
+msgstr ""
+
+msgid "log info"
+msgstr ""
+
+#, c-format
+msgid "There is no log entry for logging section '%s'.\n"
+msgstr ""
+
+msgid "xine Log Viewer"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""

@@ -1,0 +1,2209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Stephen McInerney
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: spm@stedee.id.au\n"
+"POT-Creation-Date: 2008-12-13 12:46+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/awffull.c:226
+msgid "Initially processed default config file"
+msgstr ""
+
+#: src/awffull.c:266 src/awffull.c:274
+msgid "Error: Can't open log file"
+msgstr ""
+
+#: src/awffull.c:281
+msgid "Using logfile"
+msgstr ""
+
+#: src/awffull.c:292
+msgid "Error: Can't change directory to"
+msgstr ""
+
+#: src/awffull.c:298
+msgid "Creating output in"
+msgstr ""
+
+#: src/awffull.c:298
+msgid "current directory"
+msgstr ""
+
+#: src/awffull.c:310
+msgid "Hostname for reports is"
+msgstr ""
+
+#: src/awffull.c:311
+msgid "Using CSS file:"
+msgstr ""
+
+#: src/awffull.c:315
+msgid "Ignoring previous history..."
+msgstr ""
+
+#: src/awffull.c:324
+msgid "Error: Unable to restore run data"
+msgstr ""
+
+#: src/awffull.c:348
+msgid "Error: Skipping oversized log record:"
+msgstr ""
+
+#: src/awffull.c:415 src/awffull.c:424
+#, c-format
+msgid "Error! Corrupted Date/Time Record. Line: %lu Value: %s\n"
+msgstr ""
+
+#: src/awffull.c:619 src/preserve.c:705 src/preserve.c:948
+msgid "Error adding URL node, skipping"
+msgstr ""
+
+#: src/awffull.c:625 src/preserve.c:916
+msgid "Error adding Username node, skipping"
+msgstr ""
+
+#: src/awffull.c:631
+msgid "Direct Request"
+msgstr ""
+
+#: src/awffull.c:632
+#, c-format
+msgid "Warning: Can't add %s with referer %s to errorpagehash"
+msgstr ""
+
+#: src/awffull.c:641 src/preserve.c:836
+msgid "Error adding Referrer node, skipping"
+msgstr ""
+
+#: src/awffull.c:651
+msgid "Error adding host node (daily), skipping"
+msgstr ""
+
+#: src/awffull.c:663
+msgid "Error adding host node (monthly), skipping"
+msgstr ""
+
+#: src/awffull.c:670 src/preserve.c:862
+msgid "Error adding User Agent node, skipping"
+msgstr ""
+
+#: src/awffull.c:699
+msgid "Skipping Netscape header record"
+msgstr ""
+
+#: src/awffull.c:705
+msgid "Skipping bad record"
+msgstr ""
+
+#: src/awffull.c:734
+msgid "Error: Unable to save current run data"
+msgstr ""
+
+#: src/awffull.c:746
+msgid "List Match Counts:"
+msgstr ""
+
+#: src/awffull.c:777
+msgid "records"
+msgstr ""
+
+#: src/awffull.c:779
+msgid "ignored"
+msgstr ""
+
+#: src/awffull.c:781 src/awffull.c:785
+msgid "bad"
+msgstr ""
+
+#: src/awffull.c:789
+msgid "in"
+msgstr ""
+
+#: src/awffull.c:789
+msgid "seconds"
+msgstr ""
+
+#: src/awffull.c:798
+#, c-format
+msgid ", %d l/sec\n"
+msgstr ""
+
+#: src/awffull.c:808
+msgid "No valid records found!"
+msgstr ""
+
+#: src/awffull.c:971
+msgid "Error: Unable to open configuration file"
+msgstr ""
+
+#: src/awffull.c:975
+msgid "Using config file:"
+msgstr ""
+
+#: src/awffull.c:1029 src/awffull.c:1308
+msgid "Warning: Invalid keyword"
+msgstr ""
+
+#: src/awffull.c:1052 src/options.c:245
+msgid "Use of \"Quiet (-q)\" has been deprecated."
+msgstr ""
+
+#: src/awffull.c:1058 src/options.c:170
+msgid "Use of \"Debug\" has been deprecated."
+msgstr ""
+
+#: src/awffull.c:1121
+msgid "Use of \"ReallyQuiet (-Q)\" has been deprecated."
+msgstr ""
+
+#: src/awffull.c:1233 src/options.c:197
+msgid "Unknown Log Type:"
+msgstr ""
+
+#: src/awffull.c:1399
+msgid "Use of \"ColorBookM\" has been deprecated."
+msgstr ""
+
+#: src/awffull.c:1491
+#, c-format
+msgid ""
+"FATAL! You may not specify both PageType and NotPageType in the config file.%"
+"s"
+msgstr ""
+
+#: src/awffull.c:1513
+msgid "English"
+msgstr ""
+
+#: src/awffull.c:1521
+msgid "FATAL. Unable to open the GeoIP database"
+msgstr ""
+
+#: src/awffull.c:1524
+msgid "Using GeoIP for IP Address Lookups"
+msgstr ""
+
+#: src/awffull.c:1528
+msgid "GeoIP is not available in this binary. Ignoring request to use."
+msgstr ""
+
+#: src/awffull.c:1845 src/preserve.c:888
+msgid "Error adding Search String Node, skipping"
+msgstr ""
+
+#: src/awffull.c:2276
+msgid "Unknown"
+msgstr ""
+
+#: src/awffull.c:2530
+msgid "Invalid Yes/No choice. Defaulting to No. Was"
+msgstr ""
+
+#: src/options.c:52
+#, c-format
+msgid ""
+"Copyright 1997-2001 by Bradford L. Barrett\n"
+"Copyright 2004-2008 by Steve McInerney\n"
+"Other copyrights, see the source files\n"
+msgstr ""
+
+#: src/options.c:69
+msgid "Usage"
+msgstr ""
+
+#: src/options.c:69
+msgid "[options] [log file]"
+msgstr ""
+
+#: src/options.c:83
+#, c-format
+msgid ""
+"Licence GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+
+#: src/options.c:248
+msgid "Use of \"Really Quiet (-Q)\" has been deprecated."
+msgstr ""
+
+#: src/options.c:290
+msgid "Warning: Too many 'v' options. Setting to Max Verboseness"
+msgstr ""
+
+#: src/options.c:401
+msgid "Usage Statistics for"
+msgstr ""
+
+#: src/messages.c:80
+msgid ""
+"  -h, --help                 Print this help message\n"
+"  -d, --debug                Print additional debug info\n"
+"  -v, --verbose              Level of verbosity, Multiple v's will increase\n"
+"  -V, --version              Display the version information and exit\n"
+"\n"
+"  -c, --config=FILE          Use configuration file 'FILE'\n"
+"  -F, --logtype=TYPE         Log type. TYPE = (clf | ftp | squid |\n"
+"                               combined | domino | auto)\n"
+"  -m num                     Visit timout value (seconds)\n"
+"  -Z num                     Number of Months in Main Index\n"
+"\n"
+"  -f, --fold                 Fold sequence errors\n"
+"  -i, --ignore_history       Ignore history file\n"
+"  -p, --preserve_state       Preserve state (incremental)\n"
+"  -o, --output=DIR           Output directory to use\n"
+"  -T, --timing               Print timing information\n"
+"\n"
+"  -Y                         Suppress country graph\n"
+"  -G                         Suppress hourly graph\n"
+"  -H                         Suppress hourly stats\n"
+"  -L                         Suppress color coded graph legends\n"
+"  -l                         Suppress background lines on graph\n"
+"\n"
+"  -n name                    hostname to use\n"
+"  -t name                    report title 'name'\n"
+"  -a name                    hide user agent 'name'\n"
+"  -r name                    hide referrer 'name'\n"
+"  -s name                    hide site 'name'\n"
+"  -u name                    hide URL 'name'\n"
+"  -x name                    Use filename extension 'name'\n"
+"  -P name                    Page type extension 'name'\n"
+"  -I name                    Index alias 'name'\n"
+"\n"
+"  -A --top_agents=num        Display num top agents\n"
+"  -C --top_countries=num     Display num top countries\n"
+"  -R --top_refers=num        Display num top referrers\n"
+"  -S --top_sites=num         Display num top sites\n"
+"  -U --top_urls=num          Display num top URLs\n"
+"  -e --top_entry=num         Display num top Entry Pages\n"
+"  -E --top_exit=num          Display num top Exit Pages\n"
+"  -g num                     Group Domains to 'num' levels\n"
+"\n"
+"  --seg_country=COUNTRY      Segment based on the Country\n"
+"  --seg_referer=REFERER      Segment based on the Referal Text\n"
+"\n"
+"  -X                         Hide individual sites\n"
+"  -M num                     Mangle Agent Level (0-6; 0=disable)\n"
+"\n"
+"  --use_geoip                Enable GeoIP lookups\n"
+"  --match_counts             Display the various Group/Hide etc Match "
+"Counts\n"
+"  --disable_file_checks      Disable File System Checks for Monthly Reports\n"
+msgstr ""
+
+#: src/messages.c:143
+msgid "Undefined response code"
+msgstr ""
+
+#: src/messages.c:144
+msgid "Code 100 - Continue"
+msgstr ""
+
+#: src/messages.c:145
+msgid "Code 101 - Switching Protocols"
+msgstr ""
+
+#: src/messages.c:146
+msgid "Code 200 - OK"
+msgstr ""
+
+#: src/messages.c:147
+msgid "Code 201 - Created"
+msgstr ""
+
+#: src/messages.c:148
+msgid "Code 202 - Accepted"
+msgstr ""
+
+#: src/messages.c:149
+msgid "Code 203 - Non-Authoritative Information"
+msgstr ""
+
+#: src/messages.c:150
+msgid "Code 204 - No Content"
+msgstr ""
+
+#: src/messages.c:151
+msgid "Code 205 - Reset Content"
+msgstr ""
+
+#: src/messages.c:152
+msgid "Code 206 - Partial Content"
+msgstr ""
+
+#: src/messages.c:153
+msgid "Code 300 - Multiple Choices"
+msgstr ""
+
+#: src/messages.c:154
+msgid "Code 301 - Moved Permanently"
+msgstr ""
+
+#: src/messages.c:155
+msgid "Code 302 - Found"
+msgstr ""
+
+#: src/messages.c:156
+msgid "Code 303 - See Other"
+msgstr ""
+
+#: src/messages.c:157
+msgid "Code 304 - Not Modified"
+msgstr ""
+
+#: src/messages.c:158
+msgid "Code 305 - Use Proxy"
+msgstr ""
+
+#: src/messages.c:159
+msgid "Code 307 - Moved Temporarily"
+msgstr ""
+
+#: src/messages.c:160
+msgid "Code 400 - Bad Request"
+msgstr ""
+
+#: src/messages.c:161
+msgid "Code 401 - Unauthorized"
+msgstr ""
+
+#: src/messages.c:162
+msgid "Code 402 - Payment Required"
+msgstr ""
+
+#: src/messages.c:163
+msgid "Code 403 - Forbidden"
+msgstr ""
+
+#: src/messages.c:164
+msgid "Code 404 - Not Found"
+msgstr ""
+
+#: src/messages.c:165
+msgid "Code 405 - Method Not Allowed"
+msgstr ""
+
+#: src/messages.c:166
+msgid "Code 406 - Not Acceptable"
+msgstr ""
+
+#: src/messages.c:167
+msgid "Code 407 - Proxy Authentication Required"
+msgstr ""
+
+#: src/messages.c:168
+msgid "Code 408 - Request Timeout"
+msgstr ""
+
+#: src/messages.c:169
+msgid "Code 409 - Conflict"
+msgstr ""
+
+#: src/messages.c:170
+msgid "Code 410 - Gone"
+msgstr ""
+
+#: src/messages.c:171
+msgid "Code 411 - Length Required"
+msgstr ""
+
+#: src/messages.c:172
+msgid "Code 412 - Precondition Failed"
+msgstr ""
+
+#: src/messages.c:173
+msgid "Code 413 - Request Entity Too Large"
+msgstr ""
+
+#: src/messages.c:174
+msgid "Code 414 - Request-URI Too Long"
+msgstr ""
+
+#: src/messages.c:175
+msgid "Code 415 - Unsupported Media Type"
+msgstr ""
+
+#: src/messages.c:176
+msgid "Code 416 - Requested Range Not Satisfiable"
+msgstr ""
+
+#: src/messages.c:177
+msgid "Code 417 - Expectation Failed"
+msgstr ""
+
+#: src/messages.c:178
+msgid "Code 500 - Internal Server Error"
+msgstr ""
+
+#: src/messages.c:179
+msgid "Code 501 - Not Implemented"
+msgstr ""
+
+#: src/messages.c:180
+msgid "Code 502 - Bad Gateway"
+msgstr ""
+
+#: src/messages.c:181
+msgid "Code 503 - Service Unavailable"
+msgstr ""
+
+#: src/messages.c:182
+msgid "Code 504 - Gateway Timeout"
+msgstr ""
+
+#: src/messages.c:183
+msgid "Code 505 - HTTP Version Not Supported"
+msgstr ""
+
+#: src/messages.c:189
+msgid "Unresolved/Unknown"
+msgstr ""
+
+#: src/messages.c:192
+msgid "Air-Transport Industry"
+msgstr ""
+
+#: src/messages.c:193
+msgid "Businesses"
+msgstr ""
+
+#: src/messages.c:194
+msgid "Catalan Linguistic and Cultural Community"
+msgstr ""
+
+#: src/messages.c:195
+msgid "Commercial"
+msgstr ""
+
+#: src/messages.c:196
+msgid "Cooperative Associations"
+msgstr ""
+
+#: src/messages.c:197
+msgid "Information"
+msgstr ""
+
+#: src/messages.c:198
+msgid "Human Resource Managers"
+msgstr ""
+
+#: src/messages.c:199
+msgid "Mobile Products and Services"
+msgstr ""
+
+#: src/messages.c:200
+msgid "Museums"
+msgstr ""
+
+#: src/messages.c:201
+msgid "Individuals"
+msgstr ""
+
+#: src/messages.c:202
+msgid "Network"
+msgstr ""
+
+#: src/messages.c:203
+msgid "Non-Profit Organisation"
+msgstr ""
+
+#: src/messages.c:204
+msgid "Credentialed Professionals"
+msgstr ""
+
+#: src/messages.c:205
+msgid "Travel Industry"
+msgstr ""
+
+#: src/messages.c:206
+msgid "US Educational"
+msgstr ""
+
+#: src/messages.c:207
+msgid "US Government"
+msgstr ""
+
+#: src/messages.c:208
+msgid "US Military"
+msgstr ""
+
+#: src/messages.c:209
+msgid "International Treaty Organisations"
+msgstr ""
+
+#: src/messages.c:210
+msgid "Old style Arpanet (arpa)"
+msgstr ""
+
+#: src/messages.c:211
+msgid "NATO"
+msgstr ""
+
+#: src/messages.c:214
+msgid "Ascension Island"
+msgstr ""
+
+#: src/messages.c:215
+msgid "Andorra"
+msgstr ""
+
+#: src/messages.c:216
+msgid "United Arab Emirates"
+msgstr ""
+
+#: src/messages.c:217
+msgid "Afghanistan"
+msgstr ""
+
+#: src/messages.c:218
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: src/messages.c:219
+msgid "Anguilla"
+msgstr ""
+
+#: src/messages.c:220
+msgid "Albania"
+msgstr ""
+
+#: src/messages.c:221
+msgid "Armenia"
+msgstr ""
+
+#: src/messages.c:222
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: src/messages.c:223
+msgid "Angola"
+msgstr ""
+
+#: src/messages.c:224
+msgid "Antarctica"
+msgstr ""
+
+#: src/messages.c:225
+msgid "Argentina"
+msgstr ""
+
+#: src/messages.c:226
+msgid "American Samoa"
+msgstr ""
+
+#: src/messages.c:227
+msgid "Austria"
+msgstr ""
+
+#: src/messages.c:228
+msgid "Australia"
+msgstr ""
+
+#: src/messages.c:229
+msgid "Aruba"
+msgstr ""
+
+#: src/messages.c:230
+msgid "Azerbaijan"
+msgstr ""
+
+#: src/messages.c:231
+msgid "Aland Islands"
+msgstr ""
+
+#: src/messages.c:232
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: src/messages.c:233
+msgid "Barbados"
+msgstr ""
+
+#: src/messages.c:234
+msgid "Bangladesh"
+msgstr ""
+
+#: src/messages.c:235
+msgid "Belgium"
+msgstr ""
+
+#: src/messages.c:236
+msgid "Burkina Faso"
+msgstr ""
+
+#: src/messages.c:237
+msgid "Bulgaria"
+msgstr ""
+
+#: src/messages.c:238
+msgid "Bahrain"
+msgstr ""
+
+#: src/messages.c:239
+msgid "Burundi"
+msgstr ""
+
+#: src/messages.c:240
+msgid "Benin"
+msgstr ""
+
+#: src/messages.c:241
+msgid "Bermuda"
+msgstr ""
+
+#: src/messages.c:242
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: src/messages.c:243
+msgid "Bolivia"
+msgstr ""
+
+#: src/messages.c:244
+msgid "Brazil"
+msgstr ""
+
+#: src/messages.c:245
+msgid "Bahamas"
+msgstr ""
+
+#: src/messages.c:246
+msgid "Bhutan"
+msgstr ""
+
+#: src/messages.c:247
+msgid "Bouvet Island"
+msgstr ""
+
+#: src/messages.c:248
+msgid "Botswana"
+msgstr ""
+
+#: src/messages.c:249
+msgid "Belarus"
+msgstr ""
+
+#: src/messages.c:250
+msgid "Belize"
+msgstr ""
+
+#: src/messages.c:251
+msgid "Canada"
+msgstr ""
+
+#: src/messages.c:252
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: src/messages.c:253
+msgid "Congo, The Democratic Republic of the"
+msgstr ""
+
+#: src/messages.c:254
+msgid "Central African Republic"
+msgstr ""
+
+#: src/messages.c:255
+msgid "Congo, Republic of"
+msgstr ""
+
+#: src/messages.c:256
+msgid "Switzerland"
+msgstr ""
+
+#: src/messages.c:257
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: src/messages.c:258
+msgid "Cook Islands"
+msgstr ""
+
+#: src/messages.c:259
+msgid "Chile"
+msgstr ""
+
+#: src/messages.c:260
+msgid "Cameroon"
+msgstr ""
+
+#: src/messages.c:261
+msgid "China"
+msgstr ""
+
+#: src/messages.c:262
+msgid "Colombia"
+msgstr ""
+
+#: src/messages.c:263
+msgid "Costa Rica"
+msgstr ""
+
+#: src/messages.c:264
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: src/messages.c:265
+msgid "Cuba"
+msgstr ""
+
+#: src/messages.c:266
+msgid "Cape Verde"
+msgstr ""
+
+#: src/messages.c:267
+msgid "Christmas Island"
+msgstr ""
+
+#: src/messages.c:268
+msgid "Cyprus"
+msgstr ""
+
+#: src/messages.c:269
+msgid "Czech Republic"
+msgstr ""
+
+#: src/messages.c:270
+msgid "Germany"
+msgstr ""
+
+#: src/messages.c:271
+msgid "Djibouti"
+msgstr ""
+
+#: src/messages.c:272
+msgid "Denmark"
+msgstr ""
+
+#: src/messages.c:273
+msgid "Dominica"
+msgstr ""
+
+#: src/messages.c:274
+msgid "Dominican Republic"
+msgstr ""
+
+#: src/messages.c:275
+msgid "Algeria"
+msgstr ""
+
+#: src/messages.c:276
+msgid "Ecuador"
+msgstr ""
+
+#: src/messages.c:277
+msgid "Estonia"
+msgstr ""
+
+#: src/messages.c:278
+msgid "Egypt"
+msgstr ""
+
+#: src/messages.c:279
+msgid "Western Sahara"
+msgstr ""
+
+#: src/messages.c:280
+msgid "Eritrea"
+msgstr ""
+
+#: src/messages.c:281
+msgid "Spain"
+msgstr ""
+
+#: src/messages.c:282
+msgid "Ethiopia"
+msgstr ""
+
+#: src/messages.c:283
+msgid "European Union"
+msgstr ""
+
+#: src/messages.c:284
+msgid "Finland"
+msgstr ""
+
+#: src/messages.c:285
+msgid "Fiji"
+msgstr ""
+
+#: src/messages.c:286
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: src/messages.c:287
+msgid "Micronesia, Federal State of"
+msgstr ""
+
+#: src/messages.c:288
+msgid "Faroe Islands"
+msgstr ""
+
+#: src/messages.c:289
+msgid "France"
+msgstr ""
+
+#: src/messages.c:290
+msgid "Gabon"
+msgstr ""
+
+#: src/messages.c:291 src/messages.c:442
+msgid "United Kingdom"
+msgstr ""
+
+#: src/messages.c:292
+msgid "Grenada"
+msgstr ""
+
+#: src/messages.c:293
+msgid "Georgia"
+msgstr ""
+
+#: src/messages.c:294
+msgid "French Guiana"
+msgstr ""
+
+#: src/messages.c:295
+msgid "Guernsey"
+msgstr ""
+
+#: src/messages.c:296
+msgid "Ghana"
+msgstr ""
+
+#: src/messages.c:297
+msgid "Gibraltar"
+msgstr ""
+
+#: src/messages.c:298
+msgid "Greenland"
+msgstr ""
+
+#: src/messages.c:299
+msgid "Gambia"
+msgstr ""
+
+#: src/messages.c:300
+msgid "Guinea"
+msgstr ""
+
+#: src/messages.c:301
+msgid "Guadeloupe"
+msgstr ""
+
+#: src/messages.c:302
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: src/messages.c:303
+msgid "Greece"
+msgstr ""
+
+#: src/messages.c:304
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: src/messages.c:305
+msgid "Guatemala"
+msgstr ""
+
+#: src/messages.c:306
+msgid "Guam"
+msgstr ""
+
+#: src/messages.c:307
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: src/messages.c:308
+msgid "Guyana"
+msgstr ""
+
+#: src/messages.c:309
+msgid "Hong Kong"
+msgstr ""
+
+#: src/messages.c:310
+msgid "Heard and McDonald Islands"
+msgstr ""
+
+#: src/messages.c:311
+msgid "Honduras"
+msgstr ""
+
+#: src/messages.c:312
+msgid "Croatia/Hrvatska"
+msgstr ""
+
+#: src/messages.c:313
+msgid "Haiti"
+msgstr ""
+
+#: src/messages.c:314
+msgid "Hungary"
+msgstr ""
+
+#: src/messages.c:315
+msgid "Indonesia"
+msgstr ""
+
+#: src/messages.c:316
+msgid "Ireland"
+msgstr ""
+
+#: src/messages.c:317
+msgid "Israel"
+msgstr ""
+
+#: src/messages.c:318
+msgid "Isle of Man"
+msgstr ""
+
+#: src/messages.c:319
+msgid "India"
+msgstr ""
+
+#: src/messages.c:320
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: src/messages.c:321
+msgid "Iraq"
+msgstr ""
+
+#: src/messages.c:322
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: src/messages.c:323
+msgid "Iceland"
+msgstr ""
+
+#: src/messages.c:324
+msgid "Italy"
+msgstr ""
+
+#: src/messages.c:325
+msgid "Jersey"
+msgstr ""
+
+#: src/messages.c:326
+msgid "Jamaica"
+msgstr ""
+
+#: src/messages.c:327
+msgid "Jordan"
+msgstr ""
+
+#: src/messages.c:328
+msgid "Japan"
+msgstr ""
+
+#: src/messages.c:329
+msgid "Kenya"
+msgstr ""
+
+#: src/messages.c:330
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: src/messages.c:331
+msgid "Cambodia"
+msgstr ""
+
+#: src/messages.c:332
+msgid "Kiribati"
+msgstr ""
+
+#: src/messages.c:333
+msgid "Comoros"
+msgstr ""
+
+#: src/messages.c:334
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: src/messages.c:335
+msgid "Korea, Democratic People's Republic"
+msgstr ""
+
+#: src/messages.c:336
+msgid "Korea, Republic of"
+msgstr ""
+
+#: src/messages.c:337
+msgid "Kuwait"
+msgstr ""
+
+#: src/messages.c:338
+msgid "Cayman Islands"
+msgstr ""
+
+#: src/messages.c:339
+msgid "Kazakhstan"
+msgstr ""
+
+#: src/messages.c:340
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: src/messages.c:341
+msgid "Lebanon"
+msgstr ""
+
+#: src/messages.c:342
+msgid "Saint Lucia"
+msgstr ""
+
+#: src/messages.c:343
+msgid "Liechtenstein"
+msgstr ""
+
+#: src/messages.c:344
+msgid "Sri Lanka"
+msgstr ""
+
+#: src/messages.c:345
+msgid "Liberia"
+msgstr ""
+
+#: src/messages.c:346
+msgid "Lesotho"
+msgstr ""
+
+#: src/messages.c:347
+msgid "Lithuania"
+msgstr ""
+
+#: src/messages.c:348
+msgid "Luxembourg"
+msgstr ""
+
+#: src/messages.c:349
+msgid "Latvia"
+msgstr ""
+
+#: src/messages.c:350
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: src/messages.c:351
+msgid "Morocco"
+msgstr ""
+
+#: src/messages.c:352
+msgid "Monaco"
+msgstr ""
+
+#: src/messages.c:353
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: src/messages.c:354
+msgid "Madagascar"
+msgstr ""
+
+#: src/messages.c:355
+msgid "Marshall Islands"
+msgstr ""
+
+#: src/messages.c:356
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr ""
+
+#: src/messages.c:357
+msgid "Mali"
+msgstr ""
+
+#: src/messages.c:358
+msgid "Myanmar"
+msgstr ""
+
+#: src/messages.c:359
+msgid "Mongolia"
+msgstr ""
+
+#: src/messages.c:360
+msgid "Macau"
+msgstr ""
+
+#: src/messages.c:361
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: src/messages.c:362
+msgid "Martinique"
+msgstr ""
+
+#: src/messages.c:363
+msgid "Mauritania"
+msgstr ""
+
+#: src/messages.c:364
+msgid "Montserrat"
+msgstr ""
+
+#: src/messages.c:365
+msgid "Malta"
+msgstr ""
+
+#: src/messages.c:366
+msgid "Mauritius"
+msgstr ""
+
+#: src/messages.c:367
+msgid "Maldives"
+msgstr ""
+
+#: src/messages.c:368
+msgid "Malawi"
+msgstr ""
+
+#: src/messages.c:369
+msgid "Mexico"
+msgstr ""
+
+#: src/messages.c:370
+msgid "Malaysia"
+msgstr ""
+
+#: src/messages.c:371
+msgid "Mozambique"
+msgstr ""
+
+#: src/messages.c:372
+msgid "Namibia"
+msgstr ""
+
+#: src/messages.c:373
+msgid "New Caledonia"
+msgstr ""
+
+#: src/messages.c:374
+msgid "Niger"
+msgstr ""
+
+#: src/messages.c:375
+msgid "Norfolk Island"
+msgstr ""
+
+#: src/messages.c:376
+msgid "Nigeria"
+msgstr ""
+
+#: src/messages.c:377
+msgid "Nicaragua"
+msgstr ""
+
+#: src/messages.c:378
+msgid "Netherlands"
+msgstr ""
+
+#: src/messages.c:379
+msgid "Norway"
+msgstr ""
+
+#: src/messages.c:380
+msgid "Nepal"
+msgstr ""
+
+#: src/messages.c:381
+msgid "Nauru"
+msgstr ""
+
+#: src/messages.c:382
+msgid "Niue"
+msgstr ""
+
+#: src/messages.c:383
+msgid "New Zealand"
+msgstr ""
+
+#: src/messages.c:384
+msgid "Oman"
+msgstr ""
+
+#: src/messages.c:385
+msgid "Panama"
+msgstr ""
+
+#: src/messages.c:386
+msgid "Peru"
+msgstr ""
+
+#: src/messages.c:387
+msgid "French Polynesia"
+msgstr ""
+
+#: src/messages.c:388
+msgid "Papua New Guinea"
+msgstr ""
+
+#: src/messages.c:389
+msgid "Philippines"
+msgstr ""
+
+#: src/messages.c:390
+msgid "Pakistan"
+msgstr ""
+
+#: src/messages.c:391
+msgid "Poland"
+msgstr ""
+
+#: src/messages.c:392
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: src/messages.c:393
+msgid "Pitcairn Island"
+msgstr ""
+
+#: src/messages.c:394
+msgid "Puerto Rico"
+msgstr ""
+
+#: src/messages.c:395
+msgid "Palestinian Territories"
+msgstr ""
+
+#: src/messages.c:396
+msgid "Portugal"
+msgstr ""
+
+#: src/messages.c:397
+msgid "Palau"
+msgstr ""
+
+#: src/messages.c:398
+msgid "Paraguay"
+msgstr ""
+
+#: src/messages.c:399
+msgid "Qatar"
+msgstr ""
+
+#: src/messages.c:400
+msgid "Reunion Island"
+msgstr ""
+
+#: src/messages.c:401
+msgid "Romania"
+msgstr ""
+
+#: src/messages.c:402
+msgid "Russian Federation"
+msgstr ""
+
+#: src/messages.c:403
+msgid "Rwanda"
+msgstr ""
+
+#: src/messages.c:404
+msgid "Saudi Arabia"
+msgstr ""
+
+#: src/messages.c:405
+msgid "Solomon Islands"
+msgstr ""
+
+#: src/messages.c:406
+msgid "Seychelles"
+msgstr ""
+
+#: src/messages.c:407
+msgid "Sudan"
+msgstr ""
+
+#: src/messages.c:408
+msgid "Sweden"
+msgstr ""
+
+#: src/messages.c:409
+msgid "Singapore"
+msgstr ""
+
+#: src/messages.c:410
+msgid "Saint Helena"
+msgstr ""
+
+#: src/messages.c:411
+msgid "Slovenia"
+msgstr ""
+
+#: src/messages.c:412
+msgid "Svalbard and Jan Mayen Islands"
+msgstr ""
+
+#: src/messages.c:413
+msgid "Slovak Republic"
+msgstr ""
+
+#: src/messages.c:414
+msgid "Sierra Leone"
+msgstr ""
+
+#: src/messages.c:415
+msgid "San Marino"
+msgstr ""
+
+#: src/messages.c:416
+msgid "Senegal"
+msgstr ""
+
+#: src/messages.c:417
+msgid "Somalia"
+msgstr ""
+
+#: src/messages.c:418
+msgid "Suriname"
+msgstr ""
+
+#: src/messages.c:419
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: src/messages.c:420
+msgid "El Salvador"
+msgstr ""
+
+#: src/messages.c:421
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: src/messages.c:422
+msgid "Swaziland"
+msgstr ""
+
+#: src/messages.c:423
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: src/messages.c:424
+msgid "Chad"
+msgstr ""
+
+#: src/messages.c:425
+msgid "French Southern Territories"
+msgstr ""
+
+#: src/messages.c:426
+msgid "Togo"
+msgstr ""
+
+#: src/messages.c:427
+msgid "Thailand"
+msgstr ""
+
+#: src/messages.c:428
+msgid "Tajikistan"
+msgstr ""
+
+#: src/messages.c:429
+msgid "Tokelau"
+msgstr ""
+
+#: src/messages.c:430
+msgid "Timor-Leste"
+msgstr ""
+
+#: src/messages.c:431
+msgid "Turkmenistan"
+msgstr ""
+
+#: src/messages.c:432
+msgid "Tunisia"
+msgstr ""
+
+#: src/messages.c:433
+msgid "Tonga"
+msgstr ""
+
+#: src/messages.c:434
+msgid "East Timor"
+msgstr ""
+
+#: src/messages.c:435
+msgid "Turkey"
+msgstr ""
+
+#: src/messages.c:436
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: src/messages.c:437
+msgid "Tuvalu"
+msgstr ""
+
+#: src/messages.c:438
+msgid "Taiwan"
+msgstr ""
+
+#: src/messages.c:439
+msgid "Tanzania"
+msgstr ""
+
+#: src/messages.c:440
+msgid "Ukraine"
+msgstr ""
+
+#: src/messages.c:441
+msgid "Uganda"
+msgstr ""
+
+#: src/messages.c:443
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: src/messages.c:444
+msgid "United States"
+msgstr ""
+
+#: src/messages.c:445
+msgid "Uruguay"
+msgstr ""
+
+#: src/messages.c:446
+msgid "Uzbekistan"
+msgstr ""
+
+#: src/messages.c:447
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: src/messages.c:448
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: src/messages.c:449
+msgid "Venezuela"
+msgstr ""
+
+#: src/messages.c:450
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: src/messages.c:451
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: src/messages.c:452
+msgid "Vietnam"
+msgstr ""
+
+#: src/messages.c:453
+msgid "Vanuatu"
+msgstr ""
+
+#: src/messages.c:454
+msgid "Wallis and Futuna Islands"
+msgstr ""
+
+#: src/messages.c:455
+msgid "Samoa"
+msgstr ""
+
+#: src/messages.c:456
+msgid "Yemen"
+msgstr ""
+
+#: src/messages.c:457
+msgid "Mayotte"
+msgstr ""
+
+#: src/messages.c:458
+msgid "Yugoslavia"
+msgstr ""
+
+#: src/messages.c:459
+msgid "South Africa"
+msgstr ""
+
+#: src/messages.c:460
+msgid "Zambia"
+msgstr ""
+
+#: src/messages.c:461
+msgid "Zimbabwe"
+msgstr ""
+
+#: src/parser.c:78
+msgid ""
+"Cannot recognise log format. Manually configure \"LogType\" in the config "
+"file."
+msgstr ""
+
+#: src/parser.c:99
+msgid "Unknown LOG Type Setting.:"
+msgstr ""
+
+#: src/parser.c:226
+msgid "Attempting COMBINED_ENHANCED Regular Expression"
+msgstr ""
+
+#: src/parser.c:232
+msgid "Attempting COMBINED_DOMINO Regular Expression"
+msgstr ""
+
+#: src/parser.c:237
+msgid "Switching to DOMINO log format"
+msgstr ""
+
+#: src/parser.c:560
+msgid "Using COMBINED Log Format"
+msgstr ""
+
+#: src/parser.c:569
+msgid "Using COMBINED_DOMINO Log Format"
+msgstr ""
+
+#: src/parser.c:576
+msgid "Using CLF Log Format"
+msgstr ""
+
+#: src/parser.c:583
+msgid "Using FTP/XFERLOG Log Format"
+msgstr ""
+
+#: src/parser.c:593
+msgid "Using SQUID Log Format"
+msgstr ""
+
+#: src/parser.c:600
+msgid "Unrecognised Log Format"
+msgstr ""
+
+#: src/parser.c:687
+msgid "Warning: No Regular Expression Match. "
+msgstr ""
+
+#: src/parser.c:706
+msgid "Warning: Regular Expression Error:"
+msgstr ""
+
+#: src/parser.c:721
+msgid "FATAL ERROR! PCRE compilation failed at offset"
+msgstr ""
+
+#: src/parser.c:722
+msgid "  Using Regular Expression:"
+msgstr ""
+
+#: src/parser.c:736
+msgid "Error: Failed to extract substring:"
+msgstr ""
+
+#: src/graphs.c:217
+#, c-format
+msgid "grid: %f  range/grid: %f\n"
+msgstr ""
+
+#: src/graphs.c:534 src/graphs.c:571 src/graphs.c:580 src/graphs.c:581
+#: src/graphs.c:625 src/graphs.c:628 src/graphs.c:629 src/graphs.c:972
+#: src/graphs.c:986 src/graphs.c:1033 src/graphs.c:1047 src/graphs.c:1048
+#: src/graphs.c:1108 src/graphs.c:1111 src/graphs.c:1112 src/output.c:958
+#: src/output.c:1033 src/output.c:1093 src/output.c:1382 src/output.c:1474
+#: src/output.c:2167 src/output.c:2243 src/output.c:2357 src/output.c:2427
+#: src/output.c:2492 src/output.c:2960 src/output.c:3243 src/output.c:3415
+#: src/output.c:3420
+msgid "Pages"
+msgstr ""
+
+#: src/graphs.c:544 src/graphs.c:548 src/graphs.c:549 src/graphs.c:608
+#: src/graphs.c:610 src/graphs.c:611 src/graphs.c:998 src/graphs.c:999
+#: src/graphs.c:1090 src/graphs.c:1091 src/output.c:1037 src/output.c:1095
+#: src/output.c:1385 src/output.c:1474 src/output.c:1643 src/output.c:1646
+#: src/output.c:1762 src/output.c:1765 src/output.c:2613 src/output.c:2695
+#: src/output.c:2963 src/output.c:3027 src/output.c:3064 src/output.c:3175
+#: src/output.c:3243 src/output.c:3418
+msgid "Volume"
+msgstr ""
+
+#: src/graphs.c:552 src/graphs.c:561 src/graphs.c:562 src/graphs.c:614
+#: src/graphs.c:617 src/graphs.c:618 src/graphs.c:1002 src/graphs.c:1014
+#: src/graphs.c:1015 src/graphs.c:1103 src/graphs.c:1104 src/output.c:960
+#: src/output.c:1035 src/output.c:1386 src/output.c:1474 src/output.c:2614
+#: src/output.c:2695 src/output.c:3027 src/output.c:3175 src/output.c:3416
+#: src/output.c:3419
+msgid "Visits"
+msgstr ""
+
+#: src/graphs.c:554 src/graphs.c:567 src/graphs.c:568 src/graphs.c:615
+#: src/graphs.c:621 src/graphs.c:622 src/graphs.c:1029 src/graphs.c:1030
+#: src/graphs.c:1094 src/graphs.c:1098 src/graphs.c:1099 src/output.c:907
+#: src/output.c:1036 src/output.c:1094 src/output.c:1469 src/output.c:3417
+msgid "Sites"
+msgstr ""
+
+#: src/graphs.c:573 src/graphs.c:588 src/graphs.c:589 src/graphs.c:626
+#: src/graphs.c:632 src/graphs.c:633 src/graphs.c:1035 src/graphs.c:1063
+#: src/graphs.c:1064 src/graphs.c:1109 src/graphs.c:1115 src/graphs.c:1116
+#: src/output.c:1032 src/output.c:1092 src/output.c:1384 src/output.c:1474
+#: src/output.c:2612 src/output.c:2695 src/output.c:2962 src/output.c:3027
+#: src/output.c:3175 src/output.c:3243 src/output.c:3414 src/output.c:3421
+msgid "Files"
+msgstr ""
+
+#: src/graphs.c:575 src/graphs.c:596 src/graphs.c:597 src/graphs.c:636
+#: src/graphs.c:637 src/graphs.c:1037 src/graphs.c:1079 src/graphs.c:1080
+#: src/graphs.c:1119 src/graphs.c:1120 src/output.c:1031 src/output.c:1091
+#: src/output.c:1383 src/output.c:1474 src/output.c:1642 src/output.c:1645
+#: src/output.c:1762 src/output.c:1765 src/output.c:2554 src/output.c:2611
+#: src/output.c:2695 src/output.c:2961 src/output.c:3027 src/output.c:3064
+#: src/output.c:3101 src/output.c:3138 src/output.c:3175 src/output.c:3212
+#: src/output.c:3243 src/output.c:3413 src/output.c:3422
+msgid "Hits"
+msgstr ""
+
+#: src/graphs.c:1401 src/output.c:281
+msgid "Other"
+msgstr ""
+
+#: src/graphs.c:1572
+msgid "Error in setting gdFTUseFontConfig"
+msgstr ""
+
+#: src/graphs.c:1575
+msgid "Success in setting gdFTUseFontConfig"
+msgstr ""
+
+#: src/linklist.c:95
+msgid "Warning: String exceeds storage size"
+msgstr ""
+
+#: src/linklist.c:175
+msgid "Warning: Two wildcards are deemed to cancel each other:"
+msgstr ""
+
+#: src/linklist.c:183
+msgid "Error: Wildcard in the middle of a pattern:"
+msgstr ""
+
+#: src/css_file.c:143
+#, c-format
+msgid "ERROR: Writing to CSS File \"%s\" failed.\n"
+msgstr ""
+
+#: src/css_file.c:150
+#, c-format
+msgid "WARNING: Unable to create CSS File \"%s\".\n"
+msgstr ""
+
+#: src/css_file.c:153
+#, c-format
+msgid "CSS File \"%s\" Exists. Not writing a new one.\n"
+msgstr ""
+
+#: src/output.c:260
+msgid "Hits by Response Code"
+msgstr ""
+
+#: src/output.c:447
+msgid "Summary Period"
+msgstr ""
+
+#: src/output.c:448
+msgid "Generated"
+msgstr ""
+
+#: src/output.c:518
+msgid "Error adding Grouped URL node, skipping"
+msgstr ""
+
+#: src/output.c:547
+msgid "Error adding Grouped Agent node, skipping"
+msgstr ""
+
+#: src/output.c:576 src/output.c:604
+msgid "Error adding Grouped Referrer node, skipping"
+msgstr ""
+
+#: src/output.c:636
+msgid "Error adding Grouped Site node, skipping"
+msgstr ""
+
+#: src/output.c:666
+msgid "Generating report for"
+msgstr ""
+
+#: src/output.c:678
+msgid "Daily usage for"
+msgstr ""
+
+#: src/output.c:693
+msgid "Hourly usage for"
+msgstr ""
+
+#: src/output.c:895
+msgid "Daily Statistics"
+msgstr ""
+
+#: src/output.c:897
+msgid "Hourly Statistics"
+msgstr ""
+
+#: src/output.c:899
+msgid "URLs"
+msgstr ""
+
+#: src/output.c:901 src/output.c:2062
+msgid "Entry"
+msgstr ""
+
+#: src/output.c:903 src/output.c:2103
+msgid "Exit"
+msgstr ""
+
+#: src/output.c:909
+msgid "Referrers"
+msgstr ""
+
+#: src/output.c:911
+msgid "Search"
+msgstr ""
+
+#: src/output.c:913
+msgid "Users"
+msgstr ""
+
+#: src/output.c:915
+msgid "Agents"
+msgstr ""
+
+#: src/output.c:917
+msgid "Countries"
+msgstr ""
+
+#: src/output.c:951
+msgid "Monthly Report for"
+msgstr ""
+
+#: src/output.c:954
+msgid "Total Hits"
+msgstr ""
+
+#: src/output.c:956
+msgid "Total Files"
+msgstr ""
+
+#: src/output.c:962
+msgid "Total Volume"
+msgstr ""
+
+#: src/output.c:965
+msgid "Total Unique Sites"
+msgstr ""
+
+#: src/output.c:967
+msgid "Total Unique URLs"
+msgstr ""
+
+#: src/output.c:970
+msgid "Total Unique Referrers"
+msgstr ""
+
+#: src/output.c:973
+msgid "Total Unique Usernames"
+msgstr ""
+
+#: src/output.c:976
+msgid "Total Unique User Agents"
+msgstr ""
+
+#: src/output.c:979
+msgid "Total Bad Records"
+msgstr ""
+
+#: src/output.c:981
+msgid "Total Ignored Records"
+msgstr ""
+
+#: src/output.c:986 src/output.c:1100 src/output.c:1103 src/output.c:1108
+#: src/output.c:1111 src/output.c:1114
+msgid "Avg"
+msgstr ""
+
+#: src/output.c:987
+msgid "Max"
+msgstr ""
+
+#: src/output.c:989
+msgid "Hits per Hour"
+msgstr ""
+
+#: src/output.c:991
+msgid "Hits per Day"
+msgstr ""
+
+#: src/output.c:993
+msgid "Files per Day"
+msgstr ""
+
+#: src/output.c:995
+msgid "Pages per Day"
+msgstr ""
+
+#: src/output.c:997
+msgid "Visits per Day"
+msgstr ""
+
+#: src/output.c:999
+msgid "Sites per Day"
+msgstr ""
+
+#: src/output.c:1001
+msgid "Volume per Day"
+msgstr ""
+
+#: src/output.c:1026
+msgid "Daily Report for"
+msgstr ""
+
+#: src/output.c:1030
+msgid "Day"
+msgstr ""
+
+#: src/output.c:1034 src/output.c:1108
+msgid "Hits%"
+msgstr ""
+
+#: src/output.c:1087
+msgid "Hourly Report for"
+msgstr ""
+
+#: src/output.c:1090
+msgid "Hour"
+msgstr ""
+
+#: src/output.c:1100 src/output.c:1103 src/output.c:1108 src/output.c:1111
+#: src/output.c:1114
+msgid "Total"
+msgstr ""
+
+#: src/output.c:1238
+#, c-format
+msgid "Top %ld of %ld Invalid Requests"
+msgstr ""
+
+#: src/output.c:1244
+msgid "Referring URL"
+msgstr ""
+
+#: src/output.c:1256 src/output.c:1309
+msgid "- (Direct request)"
+msgstr ""
+
+#: src/output.c:1292
+msgid "Invalid Requests"
+msgstr ""
+
+#: src/output.c:1298
+msgid ""
+"Count      Invalid Requests                                    Referring URL"
+msgstr ""
+
+#: src/output.c:1301
+msgid "Count      Invalid Requests"
+msgstr ""
+
+#: src/output.c:1314
+#, c-format
+msgid ""
+"\n"
+"Output Terminated at %d Records\n"
+"\n"
+msgstr ""
+
+#: src/output.c:1367
+msgid "Top Sites by Pages for"
+msgstr ""
+
+#: src/output.c:1372
+msgid "Top Sites by Volume for"
+msgstr ""
+
+#: src/output.c:1375
+#, c-format
+msgid "Top %lu of %lu Total Sites By Volume"
+msgstr ""
+
+#: src/output.c:1377
+#, c-format
+msgid "Top %lu of %lu Total Sites"
+msgstr ""
+
+#: src/output.c:1387 src/output.c:1474 src/output.c:3027 src/output.c:3243
+msgid "Hostname"
+msgstr ""
+
+#: src/output.c:1439
+msgid "View All Sites"
+msgstr ""
+
+#: src/output.c:1591
+msgid "Top URLs by Hits for"
+msgstr ""
+
+#: src/output.c:1625
+msgid "Top URLs by Volume for"
+msgstr ""
+
+#: src/output.c:1634
+#, c-format
+msgid "Top %lu of %lu Total URLs By Volume\n"
+msgstr ""
+
+#: src/output.c:1636
+#, c-format
+msgid "Top %lu of %lu Total URLs\n"
+msgstr ""
+
+#: src/output.c:1648 src/output.c:1756 src/output.c:1762 src/output.c:1765
+#: src/output.c:1972 src/output.c:2062 src/output.c:2103 src/output.c:2168
+#: src/output.c:3064 src/output.c:3271 src/output.c:3327
+msgid "URL"
+msgstr ""
+
+#: src/output.c:1723 src/output.c:1725
+msgid "View All URLs"
+msgstr ""
+
+#: src/output.c:1901
+msgid "Top Entry Pages for"
+msgstr ""
+
+#: src/output.c:1943
+msgid "Top Exit Pages for"
+msgstr ""
+
+#: src/output.c:1956
+#, c-format
+msgid "Top %lu of %lu Total Exit Pages"
+msgstr ""
+
+#: src/output.c:1959
+#, c-format
+msgid "Top %lu of %lu Total Entry Pages"
+msgstr ""
+
+#: src/output.c:1965
+msgid "Exit Page Views"
+msgstr ""
+
+#: src/output.c:1967
+msgid "Entry Page Views"
+msgstr ""
+
+#: src/output.c:1968 src/output.c:2062 src/output.c:2103
+msgid "Single Access"
+msgstr ""
+
+#: src/output.c:1969 src/output.c:2062 src/output.c:2103
+msgid "Stickiness"
+msgstr ""
+
+#: src/output.c:1971
+msgid "Popularity (Good > 1)"
+msgstr ""
+
+#: src/output.c:2027
+msgid "View All Entry Pages"
+msgstr ""
+
+#: src/output.c:2031
+msgid "View All Exit Pages"
+msgstr ""
+
+#: src/output.c:2058
+msgid "Entry Pages"
+msgstr ""
+
+#: src/output.c:2062 src/output.c:2103 src/output.c:3271 src/output.c:3327
+msgid "Popularity"
+msgstr ""
+
+#: src/output.c:2099
+msgid "Exit Pages"
+msgstr ""
+
+#: src/output.c:2164
+#, c-format
+msgid "Top %lu of %lu Total Referrers\n"
+msgstr ""
+
+#: src/output.c:2210
+msgid "View All Referrers"
+msgstr ""
+
+#: src/output.c:2238 src/output.c:2243 src/output.c:3101
+msgid "Referrer"
+msgstr ""
+
+#: src/output.c:2346
+msgid "Top User Agents"
+msgstr ""
+
+#: src/output.c:2354
+#, c-format
+msgid "Top %lu of %lu Total User Agents"
+msgstr ""
+
+#: src/output.c:2358 src/output.c:2422 src/output.c:2427 src/output.c:3138
+msgid "User Agent"
+msgstr ""
+
+#: src/output.c:2394
+msgid "View All User Agents"
+msgstr ""
+
+#: src/output.c:2488
+#, c-format
+msgid "Top %lu of %lu Total Search Strings"
+msgstr ""
+
+#: src/output.c:2493 src/output.c:2549 src/output.c:2554 src/output.c:3212
+msgid "Search String"
+msgstr ""
+
+#: src/output.c:2519
+msgid "View All Search Strings"
+msgstr ""
+
+#: src/output.c:2608
+#, c-format
+msgid "Top %lu of %lu Total Usernames"
+msgstr ""
+
+#: src/output.c:2615 src/output.c:2690 src/output.c:2695 src/output.c:3175
+msgid "Username"
+msgstr ""
+
+#: src/output.c:2662
+msgid "View All Usernames"
+msgstr ""
+
+#: src/output.c:2942
+msgid "Usage by Country for"
+msgstr ""
+
+#: src/output.c:2956
+#, c-format
+msgid "Top %d of %d Total Countries"
+msgstr ""
+
+#: src/output.c:2964
+msgid "Country"
+msgstr ""
+
+#: src/output.c:3271
+msgid "Entries"
+msgstr ""
+
+#: src/output.c:3327
+msgid "Exits"
+msgstr ""
+
+#: src/output.c:3378
+msgid "Generating summary report"
+msgstr ""
+
+#: src/output.c:3380
+msgid "Usage summary for"
+msgstr ""
+
+#: src/output.c:3394 src/output.c:3892
+msgid "Error: Unable to open file"
+msgstr ""
+
+#: src/output.c:3398
+#, c-format
+msgid "Last %d Months"
+msgstr ""
+
+#: src/output.c:3406
+msgid "Summary by Month"
+msgstr ""
+
+#: src/output.c:3409
+msgid "Month"
+msgstr ""
+
+#: src/output.c:3410
+msgid "Daily Avg"
+msgstr ""
+
+#: src/output.c:3411
+msgid "Monthly Totals"
+msgstr ""
+
+#: src/output.c:3488
+msgid "Totals"
+msgstr ""
+
+#: src/preserve.c:109
+msgid "Reading history file..."
+msgstr ""
+
+#: src/preserve.c:127
+msgid "Error: Ignoring invalid history record"
+msgstr ""
+
+#: src/preserve.c:140
+msgid "History file not found..."
+msgstr ""
+
+#: src/preserve.c:157
+msgid "Saving history information..."
+msgstr ""
+
+#: src/preserve.c:165
+msgid "Error: Unable to write history file"
+msgstr ""
+
+#: src/preserve.c:302
+msgid "Saving current run data..."
+msgstr ""
+
+#: src/preserve.c:544
+msgid "Previous run data not found..."
+msgstr ""
+
+#: src/preserve.c:549
+msgid "Reading previous run data.."
+msgstr ""
+
+#: src/preserve.c:573
+msgid "Previous Run Version:"
+msgstr ""
+
+#: src/preserve.c:578
+msgid "Warning: Changes to Referrals & User Agents count methods. See README!"
+msgstr ""
+
+#: src/preserve.c:591
+msgid "Previous Final Timestamp:"
+msgstr ""
+
+#: src/preserve.c:757
+msgid "Error adding Host node (monthly), skipping"
+msgstr ""
+
+#: src/preserve.c:810
+msgid "Error adding Host node (daily), skipping"
+msgstr ""
+
+#: src/preserve.c:979
+msgid "Error adding Segmenting By Referrer node, skipping"
+msgstr ""

@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-17 08:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:1
+msgid "Accessories"
+msgstr ""
+
+#: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:2
+msgid "Factory for creating the glunarclock applet"
+msgstr ""
+
+#: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:3
+msgid "GLunarclock Applet Factory"
+msgstr ""
+
+#: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:4
+msgid "Lunar Clock"
+msgstr ""
+
+#: ../src/GNOME_GLunarclockApplet_Factory.server.in.in.h:5
+msgid "Monitor the current phase of the moon"
+msgstr ""
+
+#: ../src/GNOME_GLunarclockApplet.xml.h:1
+msgid "_About"
+msgstr ""
+
+#: ../src/GNOME_GLunarclockApplet.xml.h:2
+msgid "_Help"
+msgstr ""
+
+#: ../src/GNOME_GLunarclockApplet.xml.h:3
+msgid "_Preferences"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:1
+msgid "Flip image in southern hemisphere"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:2
+msgid "Geographic latitude"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:3
+msgid "Geographic latitude for which moon data is calculated"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:4
+msgid "Geographic longitude"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:5
+msgid "Geographic longitude for which moon data is calculated"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:6
+msgid "If true, the moon image will be flipped for southern latitudes."
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:7
+msgid "Latitude value is north"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:8
+msgid "Longitude value is east"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:9
+msgid "The moon image pixmap"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:10
+msgid "The number of frames in the moon image pixmap"
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:11
+msgid ""
+"This key specifies the filename of the pixmap containing the moon images to "
+"display relative to the pixmap directory."
+msgstr ""
+
+#: ../src/glunarclock.schemas.in.h:12
+msgid ""
+"This key specifies the number of frames contained in the moon image pixmap "
+"file."
+msgstr ""
+
+#: ../src/glunarclock.c:107
+#, c-format
+msgid "Could not display help document '%s'"
+msgstr ""
+
+#: ../src/glunarclock.c:133
+msgid "Error displaying help document"
+msgstr ""
+
+#: ../src/glunarclock.c:262
+msgid ""
+"Lunar Clock displays the current phase of the moon and pertinent "
+"astronomical data."
+msgstr ""
+
+#: ../src/glunarclock.c:272
+msgid "Josh Buhl <jbuhl@users.sourceforge.net>"
+msgstr ""
+
+#: ../src/glunarclock.c:273
+msgid "Christine Spang <spang@mit.edu>"
+msgstr ""
+
+#: ../src/glunarclock.c:274
+msgid "Mike Henderson: wmMoonClock"
+msgstr ""
+
+#: ../src/glunarclock.c:275
+msgid "Wanda & George: Applet Stuff"
+msgstr ""
+
+#: ../src/glunarclock.c:276
+msgid "Jon Ciesla: Release Technician & Project Admin"
+msgstr ""
+
+#: ../src/glunarclock.c:279
+msgid "Cartoon moon graphics by Nissen http://ramnet.se/~nisse"
+msgstr ""
+
+#: ../src/glunarclock.c:712
+#, c-format
+msgid "The moon is currently above the horizon."
+msgstr ""
+
+#: ../src/glunarclock.c:714
+#, c-format
+msgid "The moon is currently below the horizon."
+msgstr ""
+
+#: ../src/glunarclock.c:948
+#, c-format
+msgid "There was an error loading moon image: %s"
+msgstr ""
+
+#: ../src/moondata.c:130
+#, c-format
+msgid "no rise"
+msgstr ""
+
+#: ../src/moondata.c:137
+#, c-format
+msgid "no set"
+msgstr ""
+
+#. g_snprintf(buf, size, _("%8.4f Hours"), moondata.NewMoon*24.0);
+#. gtk_label_set_text(GTK_LABEL(mw.nwm), buf);
+#: ../src/moondata.c:290
+#, c-format
+msgid "Yes"
+msgstr ""
+
+#: ../src/moondata.c:290
+#, c-format
+msgid "No"
+msgstr ""

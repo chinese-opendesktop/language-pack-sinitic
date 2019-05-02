@@ -1,0 +1,2876 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the dgit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"#-#-#-#-#  .dgit.pot (dgit ongoing)  #-#-#-#-#\n"
+"Project-Id-Version: dgit ongoing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-01 21:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  .git-debrebase.pot (dgit ongoing)  #-#-#-#-#\n"
+"Project-Id-Version: dgit ongoing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-01 21:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  .common.pot (dgit ongoing)  #-#-#-#-#\n"
+"Project-Id-Version: dgit ongoing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-01 15:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../dgit:242
+#, perl-format
+msgid "%s: invalid configuration: %s\n"
+msgstr ""
+
+#: ../dgit:249
+msgid "warning: overriding problem due to --force:\n"
+msgstr ""
+
+#: ../dgit:257
+#, perl-format
+msgid "warning: skipping checks or functionality due to --force-%s\n"
+msgstr ""
+
+#: ../dgit:262
+#, perl-format
+msgid "%s: source package %s does not exist in suite %s\n"
+msgstr ""
+
+#: ../dgit:487
+#, perl-format
+msgid "build host child %s"
+msgstr ""
+
+#: ../dgit:492 ../dgit:498
+#, perl-format
+msgid "connection lost: %s"
+msgstr ""
+
+#: ../dgit:493
+#, perl-format
+msgid "protocol violation; %s not expected"
+msgstr ""
+
+#: ../dgit:501
+#, perl-format
+msgid "eof (reading %s)"
+msgstr ""
+
+#: ../dgit:508
+msgid "protocol message"
+msgstr ""
+
+#: ../dgit:516
+#, perl-format
+msgid "`%s'"
+msgstr ""
+
+#: ../dgit:537
+msgid "bad byte count"
+msgstr ""
+
+#: ../dgit:540
+msgid "data block"
+msgstr ""
+
+#: ../dgit:621
+#, perl-format
+msgid "failed to fetch %s: %s"
+msgstr ""
+
+#: ../dgit:633
+#, perl-format
+msgid "%s ok: %s"
+msgstr ""
+
+#: ../dgit:635
+#, perl-format
+msgid "would be ok: %s (but dry run only)"
+msgstr ""
+
+#: ../dgit:660
+msgid ""
+"main usages:\n"
+"  dgit [dgit-opts] clone [dgit-opts] package [suite] [./dir|/dir]\n"
+"  dgit [dgit-opts] fetch|pull [dgit-opts] [suite]\n"
+"  dgit [dgit-opts] build [dpkg-buildpackage-opts]\n"
+"  dgit [dgit-opts] sbuild [sbuild-opts]\n"
+"  dgit [dgit-opts] pbuilder|cowbuilder [debbuildopts]\n"
+"  dgit [dgit-opts] push [dgit-opts] [suite]\n"
+"  dgit [dgit-opts] push-source [dgit-opts] [suite]\n"
+"  dgit [dgit-opts] rpush build-host:build-dir ...\n"
+"important dgit options:\n"
+"  -k<keyid>           sign tag and package with <keyid> instead of default\n"
+"  --dry-run -n        do not change anything, but go through the motions\n"
+"  --damp-run -L       like --dry-run but make local changes, without "
+"signing\n"
+"  --new -N            allow introducing a new package\n"
+"  --debug -D          increase debug level\n"
+"  -c<name>=<value>    set git config option (used directly by dgit too)\n"
+msgstr ""
+
+#: ../dgit:679
+msgid "Perhaps the upload is stuck in incoming.  Using the version from git.\n"
+msgstr ""
+
+#: ../dgit:683
+#, perl-format
+msgid ""
+"%s: %s\n"
+"%s"
+msgstr ""
+
+#: ../dgit:688
+msgid "too few arguments"
+msgstr ""
+
+#: ../dgit:799
+#, perl-format
+msgid "multiple values for %s (in %s git config)"
+msgstr ""
+
+#: ../dgit:802
+#, perl-format
+msgid "value for config option %s (in %s git config) contains newline(s)!"
+msgstr ""
+
+#: ../dgit:822
+#, perl-format
+msgid ""
+"need value for one of: %s\n"
+"%s: distro or suite appears not to be (properly) supported"
+msgstr ""
+
+#: ../dgit:863
+#, perl-format
+msgid "bad syntax for (nominal) distro `%s' (does not match %s)"
+msgstr ""
+
+#: ../dgit:878
+#, perl-format
+msgid "backports-quirk needs % or ( )"
+msgstr ""
+
+#: ../dgit:894
+#, perl-format
+msgid "%s needs t (true, y, 1) or f (false, n, 0) not `%s'"
+msgstr ""
+
+#: ../dgit:914
+msgid "readonly needs t (true, y, 1) or f (false, n, 0) or a (auto)"
+msgstr ""
+
+#: ../dgit:923 ../git-debrebase:1586 ../Debian/Dgit.pm:201
+msgid "internal error"
+msgstr ""
+
+#: ../dgit:925
+msgid "pushing but distro is configured readonly"
+msgstr ""
+
+#: ../dgit:929
+msgid ""
+"Push failed, before we got started.\n"
+"You can retry the push, after fixing the problem, if you like.\n"
+msgstr ""
+
+#: ../dgit:1094
+msgid "this operation does not support multiple comma-separated suites"
+msgstr ""
+
+#: ../dgit:1140
+#, perl-format
+msgid ""
+"config requested specific TLS key but do not know how to get curl to use "
+"exactly that EE key (%s)"
+msgstr ""
+
+#: ../dgit:1161
+msgid "ftpmasterapi archive query method takes no data part"
+msgstr ""
+
+#: ../dgit:1169
+msgid "curl failed to print 3-digit HTTP code"
+msgstr ""
+
+#: ../dgit:1173
+#, perl-format
+msgid "fetch of %s gave HTTP code %s"
+msgstr ""
+
+#: ../dgit:1189
+#, perl-format
+msgid "unknown suite %s, maybe -d would help"
+msgstr ""
+
+#: ../dgit:1193
+#, perl-format
+msgid "multiple matches for suite %s\n"
+msgstr ""
+
+#: ../dgit:1195
+#, perl-format
+msgid "suite %s info has no codename\n"
+msgstr ""
+
+#: ../dgit:1197
+#, perl-format
+msgid "suite %s maps to bad codename\n"
+msgstr ""
+
+#: ../dgit:1199 ../dgit:1224
+msgid "bad ftpmaster api response: "
+msgstr ""
+
+#: ../dgit:1213
+#, perl-format
+msgid "bad version: %s\n"
+msgstr ""
+
+#: ../dgit:1215
+msgid "bad component"
+msgstr ""
+
+#: ../dgit:1218
+msgid "bad filename"
+msgstr ""
+
+#: ../dgit:1220
+msgid "bad sha256sum"
+msgstr ""
+
+#: ../dgit:1271
+msgid "aptget archive query method takes no data part"
+msgstr ""
+
+#: ../dgit:1355
+#, perl-format
+msgid ""
+"apt seemed to not to update dgit's cached Release files for %s.\n"
+"(Perhaps %s\n"
+" is on a filesystem mounted `noatime'; if so, please use `relatime'.)\n"
+msgstr ""
+
+#: ../dgit:1377
+#, perl-format
+msgid "Release file (%s) specifies intolerable %s"
+msgstr ""
+
+#: ../dgit:1405
+msgid "apt-get source did not produce a .dsc"
+msgstr ""
+
+#: ../dgit:1406
+#, perl-format
+msgid "apt-get source produced several .dscs (%s)"
+msgstr ""
+
+#: ../dgit:1511
+#, perl-format
+msgid ""
+"unable to canonicalise suite using package %s which does not appear to exist "
+"in suite %s; --existing-package may help"
+msgstr ""
+
+#: ../dgit:1702
+#, perl-format
+msgid "cannot operate on %s suite"
+msgstr ""
+
+#: ../dgit:1705
+#, perl-format
+msgid "canonical suite name for %s is %s"
+msgstr ""
+
+#: ../dgit:1707
+#, perl-format
+msgid "canonical suite name is %s"
+msgstr ""
+
+#: ../dgit:1727
+#, perl-format
+msgid "%s has hash %s but archive told us to expect %s"
+msgstr ""
+
+#: ../dgit:1733
+#, perl-format
+msgid "unsupported source format %s, sorry"
+msgstr ""
+
+#: ../dgit:1760
+#, perl-format
+msgid "diverting to %s (using config for %s)"
+msgstr ""
+
+#: ../dgit:1777
+msgid "unexpected results from git check query - "
+msgstr ""
+
+#: ../dgit:1792
+#, perl-format
+msgid "unknown git-check `%s'"
+msgstr ""
+
+#: ../dgit:1807
+#, perl-format
+msgid "unknown git-create `%s'"
+msgstr ""
+
+#: ../dgit:1844
+#, perl-format
+msgid "%s: warning: removing from %s: %s\n"
+msgstr ""
+
+#: ../dgit:1890
+#, perl-format
+msgid "could not parse .dsc %s line `%s'"
+msgstr ""
+
+#: ../dgit:1901
+#, perl-format
+msgid "missing any supported Checksums-* or Files field in %s"
+msgstr ""
+
+#: ../dgit:1947
+#, perl-format
+msgid "hash or size of %s varies in %s fields (between: %s)"
+msgstr ""
+
+#: ../dgit:1956
+#, perl-format
+msgid "file list in %s varies between hash fields!"
+msgstr ""
+
+#: ../dgit:1960
+#, perl-format
+msgid "%s has no files list field(s)"
+msgstr ""
+
+#: ../dgit:1966
+#, perl-format
+msgid "no file appears in all file lists (looked in: %s)"
+msgstr ""
+
+#: ../dgit:2006
+#, perl-format
+msgid "purportedly source-only changes polluted by %s\n"
+msgstr ""
+
+#: ../dgit:2019
+msgid "cannot find section/priority from .changes Files field"
+msgstr ""
+
+#: ../dgit:2032
+msgid ""
+"archive does not support .orig check; hope you used --ch:--sa/-sd if needed\n"
+msgstr ""
+
+#: ../dgit:2048
+#, perl-format
+msgid ".dsc %s missing entry for %s"
+msgstr ""
+
+#: ../dgit:2053
+#, perl-format
+msgid "%s: %s (archive) != %s (local .dsc)"
+msgstr ""
+
+#: ../dgit:2061
+#, perl-format
+msgid "archive %s: %s"
+msgstr ""
+
+#: ../dgit:2068
+#, perl-format
+msgid "archive contains %s with different checksum"
+msgstr ""
+
+#: ../dgit:2096
+#, perl-format
+msgid "edited .changes for archive .orig contents: %s %s"
+msgstr ""
+
+#: ../dgit:2104
+#, perl-format
+msgid "[new .changes left in %s]"
+msgstr ""
+
+#: ../dgit:2107
+#, perl-format
+msgid "%s already has appropriate .orig(s) (if any)"
+msgstr ""
+
+#: ../dgit:2131
+#, perl-format
+msgid ""
+"unexpected commit author line format `%s' (was generated from changelog "
+"Maintainer field)"
+msgstr ""
+
+#: ../dgit:2154
+msgid ""
+"\n"
+"Unfortunately, this source package uses a feature of dpkg-source where\n"
+"the same source package unpacks to different source code on different\n"
+"distros.  dgit cannot safely operate on such packages on affected\n"
+"distros, because the meaning of source packages is not stable.\n"
+"\n"
+"Please ask the distro/maintainer to remove the distro-specific series\n"
+"files and use a different technique (if necessary, uploading actually\n"
+"different packages, if different distros are supposed to have\n"
+"different code).\n"
+"\n"
+msgstr ""
+
+#: ../dgit:2166
+#, perl-format
+msgid ""
+"Found active distro-specific series file for %s (%s): %s, cannot continue"
+msgstr ""
+
+#: ../dgit:2197
+msgid "Dpkg::Vendor `current vendor'"
+msgstr ""
+
+#: ../dgit:2199
+msgid "(base) distro being accessed"
+msgstr ""
+
+#: ../dgit:2201
+msgid "(nominal) distro being accessed"
+msgstr ""
+
+#: ../dgit:2206
+#, perl-format
+msgid "build-products-dir %s is not accessible: %s\n"
+msgstr ""
+
+#: ../dgit:2231
+#, perl-format
+msgid ""
+"%s: found orig(s) in .. missing from build-products-dir, transferring:\n"
+msgstr ""
+
+#: ../dgit:2235
+#, perl-format
+msgid "check orig file %s in bpd %s: %s"
+msgstr ""
+
+#: ../dgit:2237
+#, perl-format
+msgid "check orig file %s in ..: %s"
+msgstr ""
+
+#: ../dgit:2240
+#, perl-format
+msgid "check target of orig symlink %s in ..: %s"
+msgstr ""
+
+#: ../dgit:2249
+#, perl-format
+msgid "%s: cloned orig symlink from ..: %s\n"
+msgstr ""
+
+#: ../dgit:2253
+#, perl-format
+msgid "%s: hardlinked orig from ..: %s\n"
+msgstr ""
+
+#: ../dgit:2256
+#, perl-format
+msgid "failed to make %s a hardlink to %s: %s"
+msgstr ""
+
+#: ../dgit:2262
+#, perl-format
+msgid "%s: symmlinked orig from .. on other filesystem: %s\n"
+msgstr ""
+
+#: ../dgit:2294 ../dgit:2299
+#, perl-format
+msgid "accessing %s: %s"
+msgstr ""
+
+#: ../dgit:2314 ../dgit:2321
+#, perl-format
+msgid "saving %s: %s"
+msgstr ""
+
+#: ../dgit:2386
+#, perl-format
+msgid "dgit (child): exec %s: %s"
+msgstr ""
+
+#: ../dgit:2450 ../dgit:5974
+msgid "source package"
+msgstr ""
+
+#: ../dgit:2468
+msgid "package changelog"
+msgstr ""
+
+#: ../dgit:2508
+msgid "package changelog has no entries!"
+msgstr ""
+
+#: ../dgit:2527
+#, perl-format
+msgid "Import %s"
+msgstr ""
+
+#: ../dgit:2608
+#, perl-format
+msgid "%s: trying slow absurd-git-apply..."
+msgstr ""
+
+#: ../dgit:2627
+#, perl-format
+msgid "%s failed: %s\n"
+msgstr ""
+
+#: ../dgit:2636
+#, perl-format
+msgid ""
+"gbp-pq import and dpkg-source disagree!\n"
+" gbp-pq import gave commit %s\n"
+" gbp-pq import gave tree %s\n"
+" dpkg-source --before-build gave tree %s\n"
+msgstr ""
+
+#: ../dgit:2651
+#, perl-format
+msgid "synthesised git commit from .dsc %s"
+msgstr ""
+
+#: ../dgit:2655
+msgid "Import of source package"
+msgstr ""
+
+#: ../dgit:2668
+#, perl-format
+msgid "Record %s (%s) in archive suite %s\n"
+msgstr ""
+
+#: ../dgit:2672
+#, perl-format
+msgid ""
+"\n"
+"Version actually in archive:   %s (older)\n"
+"Last version pushed with dgit: %s (newer or same)\n"
+"%s\n"
+msgstr ""
+
+#: ../dgit:2714
+#, perl-format
+msgid "using existing %s"
+msgstr ""
+
+#: ../dgit:2718
+#, perl-format
+msgid ""
+"file %s has hash %s but .dsc demands hash %s (perhaps you should delete this "
+"file?)"
+msgstr ""
+
+#: ../dgit:2722
+#, perl-format
+msgid "need to fetch correct version of %s"
+msgstr ""
+
+#: ../dgit:2738
+#, perl-format
+msgid ""
+"file %s has hash %s but .dsc demands hash %s (got wrong file from archive!)"
+msgstr ""
+
+#: ../dgit:2833
+msgid "too many iterations trying to get sane fetch!"
+msgstr ""
+
+#: ../dgit:2848
+#, perl-format
+msgid "warning: git ls-remote %s reported %s; this is silly, ignoring it.\n"
+msgstr ""
+
+#: ../dgit:2892
+#, perl-format
+msgid "warning: git fetch %s created %s; this is silly, deleting it.\n"
+msgstr ""
+
+#: ../dgit:2907
+msgid ""
+"--dry-run specified but we actually wanted the results of git fetch,\n"
+"so this is not going to work.  Try running dgit fetch first,\n"
+"or using --damp-run instead of --dry-run.\n"
+msgstr ""
+
+#: ../dgit:2912
+#, perl-format
+msgid ""
+"warning: git ls-remote suggests we want %s\n"
+"warning:  and it should refer to %s\n"
+"warning:  but git fetch didn't fetch that object to any relevant ref.\n"
+"warning:  This may be due to a race with someone updating the server.\n"
+"warning:  Will try again...\n"
+msgstr ""
+
+#: ../dgit:2979
+#, perl-format
+msgid "Not updating %s from %s to %s.\n"
+msgstr ""
+
+#: ../dgit:3028
+#, perl-format
+msgid "%s: NO git hash"
+msgstr ""
+
+#: ../dgit:3032
+#, perl-format
+msgid "%s: specified git info (%s)"
+msgstr ""
+
+#: ../dgit:3039
+#, perl-format
+msgid "%s: specified git hash"
+msgstr ""
+
+#: ../dgit:3041
+#, perl-format
+msgid "%s: invalid Dgit info"
+msgstr ""
+
+#: ../dgit:3063
+#, perl-format
+msgid "not chasing .dsc distro %s: not fetching %s"
+msgstr ""
+
+#: ../dgit:3068
+#, perl-format
+msgid ".dsc names distro %s: fetching %s"
+msgstr ""
+
+#: ../dgit:3073
+#, perl-format
+msgid ""
+".dsc Dgit metadata is in context of distro %s\n"
+"for which we have no configured url and .dsc provides no hint\n"
+msgstr ""
+
+#: ../dgit:3083
+#, perl-format
+msgid ""
+".dsc Dgit metadata is in context of distro %s\n"
+"for which we have no configured url;\n"
+".dsc provides hinted url with protocol %s which is unsafe.\n"
+"(can be overridden by config - consult documentation)\n"
+msgstr ""
+
+#: ../dgit:3103
+msgid "rewrite map"
+msgstr ""
+
+#: ../dgit:3110
+msgid "server's git history rewrite map contains a relevant entry!"
+msgstr ""
+
+#: ../dgit:3114
+msgid "using rewritten git hash in place of .dsc value"
+msgstr ""
+
+#: ../dgit:3116
+msgid "server data says .dsc hash is to be disregarded"
+msgstr ""
+
+#: ../dgit:3123
+msgid "additional commits"
+msgstr ""
+
+#: ../dgit:3126
+#, perl-format
+msgid ""
+".dsc Dgit metadata requires commit %s\n"
+"but we could not obtain that object anywhere.\n"
+msgstr ""
+
+#: ../dgit:3151
+msgid "last upload to archive"
+msgstr ""
+
+#: ../dgit:3155
+msgid "no version available from the archive"
+msgstr ""
+
+#: ../dgit:3238
+msgid "dgit suite branch on dgit git server"
+msgstr ""
+
+#: ../dgit:3245
+msgid "dgit client's archive history view"
+msgstr ""
+
+#: ../dgit:3250
+msgid "Dgit field in .dsc from archive"
+msgstr ""
+
+#: ../dgit:3278
+#, perl-format
+msgid ""
+"\n"
+"Git commit in archive is behind the last version allegedly pushed/uploaded.\n"
+"Commit referred to by archive: %s\n"
+"Last version pushed with dgit: %s\n"
+"%s\n"
+msgstr ""
+
+#: ../dgit:3291
+msgid "archive .dsc names newer git commit"
+msgstr ""
+
+#: ../dgit:3294
+msgid "archive .dsc names other git commit, fixing up"
+msgstr ""
+
+#: ../dgit:3315
+#, perl-format
+msgid ""
+"\n"
+"Package not found in the archive, but has allegedly been pushed using dgit.\n"
+"%s\n"
+msgstr ""
+
+#: ../dgit:3324
+#, perl-format
+msgid ""
+"\n"
+"Warning: relevant archive skew detected.\n"
+"Archive allegedly contains %s\n"
+"But we were not able to obtain any version from the archive or git.\n"
+"\n"
+msgstr ""
+
+#: ../dgit:3409
+#, perl-format
+msgid ""
+"Record %s (%s) in archive suite %s\n"
+"\n"
+"Record that\n"
+msgstr ""
+
+#: ../dgit:3422
+msgid "should be treated as descended from\n"
+msgstr ""
+
+#: ../dgit:3440
+msgid "dgit repo server tip (last push)"
+msgstr ""
+
+#: ../dgit:3442
+msgid "local tracking tip (last fetch)"
+msgstr ""
+
+#: ../dgit:3453
+#, perl-format
+msgid ""
+"\n"
+"Warning: archive skew detected.  Using the available version:\n"
+"Archive allegedly contains    %s\n"
+"We were able to obtain only   %s\n"
+"\n"
+msgstr ""
+
+#: ../dgit:3468
+msgid "fetched source tree"
+msgstr ""
+
+#: ../dgit:3504
+msgid "debian/changelog merge driver"
+msgstr ""
+
+#: ../dgit:3569
+msgid ""
+"[attr]dgit-defuse-attrs already found, and proper, in .git/info/attributes\n"
+" not doing further gitattributes setup\n"
+msgstr ""
+
+#: ../dgit:3583
+msgid "# ^ see GITATTRIBUTES in dgit(7) and dgit setup-new-tree in dgit(1)\n"
+msgstr ""
+
+#: ../dgit:3598
+#, perl-format
+msgid "install %s: %s"
+msgstr ""
+
+#: ../dgit:3625
+#, perl-format
+msgid ""
+"dgit: warning: %s contains .gitattributes\n"
+"dgit: .gitattributes not (fully) defused.  Recommended: dgit setup-new-"
+"tree.\n"
+msgstr ""
+
+#: ../dgit:3647
+#, perl-format
+msgid "fetching %s..."
+msgstr ""
+
+#: ../dgit:3655
+#, perl-format
+msgid "failed to obtain %s: %s"
+msgstr ""
+
+#: ../dgit:3694
+#, perl-format
+msgid "package %s missing in (base suite) %s"
+msgstr ""
+
+#: ../dgit:3726
+msgid "local combined tracking branch"
+msgstr ""
+
+#: ../dgit:3728
+msgid "archive seems to have rewound: local tracking branch is ahead!"
+msgstr ""
+
+#: ../dgit:3767
+#, perl-format
+msgid ""
+"Combine archive branches %s [dgit]\n"
+"\n"
+"Input branches:\n"
+msgstr ""
+
+#: ../dgit:3781
+msgid ""
+"\n"
+"Key\n"
+" * marks the highest version branch, which choose to use\n"
+" + marks each branch which was not already an ancestor\n"
+"\n"
+msgstr ""
+
+#: ../dgit:3796
+#, perl-format
+msgid "calculated combined tracking suite %s"
+msgstr ""
+
+#: ../dgit:3814
+#, perl-format
+msgid "ready for work in %s"
+msgstr ""
+
+#: ../dgit:3822
+msgid "dry run makes no sense with clone"
+msgstr ""
+
+#: ../dgit:3837
+#, perl-format
+msgid "create `%s': %s"
+msgstr ""
+
+#: ../dgit:3853
+msgid "fetching existing git history"
+msgstr ""
+
+#: ../dgit:3857
+msgid "starting new git history"
+msgstr ""
+
+#: ../dgit:3883
+#, perl-format
+msgid ""
+"FYI: Vcs-Git in %s has different url to your vcs-git remote.\n"
+" Your vcs-git remote url may be out of date.  Use dgit update-vcs-git ?\n"
+msgstr ""
+
+#: ../dgit:3888
+#, perl-format
+msgid "fetched into %s"
+msgstr ""
+
+#: ../dgit:3900
+#, perl-format
+msgid "Merge from %s [dgit]"
+msgstr ""
+
+#: ../dgit:3902
+#, perl-format
+msgid "fetched to %s and merged into HEAD"
+msgstr ""
+
+#: ../dgit:3910
+#, perl-format
+msgid "git tree contains %s"
+msgstr ""
+
+#: ../dgit:3921
+msgid "you have uncommitted changes to critical files, cannot continue:\n"
+msgstr ""
+
+#: ../dgit:3940
+#, perl-format
+msgid ""
+"quilt fixup required but quilt mode is `nofix'\n"
+"HEAD commit%s differs from tree implied by debian/patches%s"
+msgstr ""
+
+#: ../dgit:3957
+msgid "nothing quilty to commit, ok."
+msgstr ""
+
+#: ../dgit:3960
+msgid " (wanted to commit patch update)"
+msgstr ""
+
+#: ../dgit:3964
+msgid ""
+"Commit Debian 3.0 (quilt) metadata\n"
+"\n"
+msgstr ""
+
+#: ../dgit:4007
+#, perl-format
+msgid ""
+"Not doing any fixup of `%s' due to ----no-quilt-fixup or --quilt=nocheck"
+msgstr ""
+
+#: ../dgit:4012
+#, perl-format
+msgid "Format `%s', need to check/update patch stack"
+msgstr ""
+
+#: ../dgit:4022
+#, perl-format
+msgid "commit id %s"
+msgstr ""
+
+#: ../dgit:4028
+#, perl-format
+msgid "and left in %s"
+msgstr ""
+
+#: ../dgit:4054
+#, perl-format
+msgid "Wanted tag %s (%s) on dgit server, but not found\n"
+msgstr ""
+
+#: ../dgit:4057
+#, perl-format
+msgid "Wanted tag %s (one of: %s) on dgit server, but not found\n"
+msgstr ""
+
+#: ../dgit:4065
+#, perl-format
+msgid "%s (%s) .. %s (%s) is not fast forward\n"
+msgstr ""
+
+#: ../dgit:4074
+msgid "version currently in archive"
+msgstr ""
+
+#: ../dgit:4083
+#, perl-format
+msgid "Checking package changelog for archive version %s ..."
+msgstr ""
+
+#: ../dgit:4091
+#, perl-format
+msgid "%s field from dpkg-parsechangelog %s"
+msgstr ""
+
+#: ../dgit:4101
+#, perl-format
+msgid "Perhaps debian/changelog does not mention %s ?"
+msgstr ""
+
+#: ../dgit:4104
+#, perl-format
+msgid ""
+"%s is %s\n"
+"Your tree seems to based on earlier (not uploaded) %s.\n"
+msgstr ""
+
+#: ../dgit:4118
+#, perl-format
+msgid "Declaring that HEAD includes all changes in %s..."
+msgstr ""
+
+#: ../dgit:4174
+msgid "Checking that HEAD includes all changes in archive..."
+msgstr ""
+
+#: ../dgit:4183
+msgid "maintainer view tag"
+msgstr ""
+
+#: ../dgit:4185
+msgid "dgit view tag"
+msgstr ""
+
+#: ../dgit:4186
+msgid "current archive contents"
+msgstr ""
+
+#: ../dgit:4199
+msgid ""
+"| Not fast forward; maybe --overwrite is needed ?  Please see dgit(1).\n"
+msgstr ""
+
+#: ../dgit:4209
+#, perl-format
+msgid "Declare fast forward from %s\n"
+msgstr ""
+
+#: ../dgit:4210
+#, perl-format
+msgid "Make fast forward from %s\n"
+msgstr ""
+
+#: ../dgit:4214
+#, perl-format
+msgid "Made pseudo-merge of %s into dgit view."
+msgstr ""
+
+#: ../dgit:4227
+#, perl-format
+msgid "Declare fast forward from %s"
+msgstr ""
+
+#: ../dgit:4235
+#, perl-format
+msgid "Make pseudo-merge of %s into your HEAD."
+msgstr ""
+
+#: ../dgit:4247
+#, perl-format
+msgid "-p specified %s but changelog specified %s"
+msgstr ""
+
+#: ../dgit:4269
+#, perl-format
+msgid "%s is for %s %s but debian/changelog is for %s %s"
+msgstr ""
+
+#: ../dgit:4330
+#, perl-format
+msgid "changes field %s `%s' does not match changelog `%s'"
+msgstr ""
+
+#: ../dgit:4358
+#, perl-format
+msgid "%s release %s for %s (%s) [dgit]\n"
+msgstr ""
+
+#: ../dgit:4371
+#, perl-format
+msgid ""
+"%s release %s for %s (%s)\n"
+"(maintainer view tag generated by dgit --quilt=%s)\n"
+msgstr ""
+
+#: ../dgit:4423
+msgid ""
+"Push failed, while checking state of the archive.\n"
+"You can retry the push, after fixing the problem, if you like.\n"
+msgstr ""
+
+#: ../dgit:4432
+msgid ""
+"package appears to be new in this suite; if this is intentional, use --new"
+msgstr ""
+
+#: ../dgit:4437
+msgid ""
+"Push failed, while preparing your push.\n"
+"You can retry the push, after fixing the problem, if you like.\n"
+msgstr ""
+
+#: ../dgit:4460
+#, perl-format
+msgid "looked for .dsc %s, but %s; maybe you forgot to build"
+msgstr ""
+
+#: ../dgit:4477
+#, perl-format
+msgid ""
+"Branch is managed by git-debrebase (%s\n"
+"exists), but quilt mode (%s) implies a split view.\n"
+"Pass the right --quilt option or adjust your git config.\n"
+"Or, maybe, run git-debrebase forget-was-ever-debrebase.\n"
+msgstr ""
+
+#: ../dgit:4501
+#, perl-format
+msgid ""
+"--quilt=%s but no cached dgit view:\n"
+" perhaps HEAD changed since dgit build[-source] ?"
+msgstr ""
+
+#: ../dgit:4532
+msgid ""
+"dgit push: HEAD is not a descendant of the archive's version.\n"
+"To overwrite the archive's contents, pass --overwrite[=VERSION].\n"
+"To rewind history, if permitted by the archive, use --deliberately-not-fast-"
+"forward."
+msgstr ""
+
+#: ../dgit:4542
+#, perl-format
+msgid "checking that %s corresponds to HEAD"
+msgstr ""
+
+#: ../dgit:4576 ../dgit:4588
+#, perl-format
+msgid "HEAD specifies a different tree to %s:\n"
+msgstr ""
+
+#: ../dgit:4582
+#, perl-format
+msgid ""
+"There is a problem with your source tree (see dgit(7) for some hints).\n"
+"To see a full diff, run git diff %s %s\n"
+msgstr ""
+
+#: ../dgit:4592
+#, perl-format
+msgid ""
+"Perhaps you forgot to build.  Or perhaps there is a problem with your\n"
+" source tree (see dgit(7) for some hints).  To see a full diff, run\n"
+"   git diff %s %s\n"
+msgstr ""
+
+#: ../dgit:4603
+#, perl-format
+msgid ""
+"failed to find unique changes file (looked for %s in %s); perhaps you need "
+"to use dgit -C"
+msgstr ""
+
+#: ../dgit:4625
+msgid "uploading binaries, although distro policy is source only"
+msgstr ""
+
+#: ../dgit:4629
+msgid "source-only upload, although distro policy requires .debs"
+msgstr ""
+
+#: ../dgit:4633
+#, perl-format
+msgid ""
+"source-only upload, even though package is entirely NEW\n"
+"(this is contrary to policy in %s)"
+msgstr ""
+
+#: ../dgit:4640
+#, perl-format
+msgid "unknown source-only-uploads policy `%s'"
+msgstr ""
+
+#: ../dgit:4684
+msgid ""
+"Push failed, while signing the tag.\n"
+"You can retry the push, after fixing the problem, if you like.\n"
+msgstr ""
+
+#: ../dgit:4697
+msgid ""
+"Push failed, *after* signing the tag.\n"
+"If you want to try again, you should use a new version number.\n"
+msgstr ""
+
+#: ../dgit:4714
+msgid ""
+"Push failed, while updating the remote git repository - see messages above.\n"
+"If you want to try again, you should use a new version number.\n"
+msgstr ""
+
+#: ../dgit:4731
+msgid ""
+"Push failed, while obtaining signatures on the .changes and .dsc.\n"
+"If it was just that the signature failed, you may try again by using\n"
+"debsign by hand to sign the changes file (see the command dgit tried,\n"
+"above), and then dput that changes file to complete the upload.\n"
+"If you need to change the package, you must use a new version number.\n"
+msgstr ""
+
+#: ../dgit:4762
+#, perl-format
+msgid "pushed and uploaded %s"
+msgstr ""
+
+#: ../dgit:4774
+msgid "-p is not allowed with clone; specify as argument instead"
+msgstr ""
+
+#: ../dgit:4785
+msgid "incorrect arguments to dgit clone"
+msgstr ""
+
+#: ../dgit:4791 ../git-debrebase:1839
+#, perl-format
+msgid "%s already exists"
+msgstr ""
+
+#: ../dgit:4805
+#, perl-format
+msgid "remove %s: %s\n"
+msgstr ""
+
+#: ../dgit:4809
+#, perl-format
+msgid "check whether to remove %s: %s\n"
+msgstr ""
+
+#: ../dgit:4847
+msgid "incorrect arguments to dgit fetch or dgit pull"
+msgstr ""
+
+#: ../dgit:4864
+#, perl-format
+msgid "dgit pull not yet supported in split view mode (--quilt=%s)\n"
+msgstr ""
+
+#: ../dgit:4873
+msgid "dgit checkout needs a suite argument"
+msgstr ""
+
+#: ../dgit:4935
+#, perl-format
+msgid "setting up vcs-git: %s\n"
+msgstr ""
+
+#: ../dgit:4938
+#, perl-format
+msgid "vcs git already configured: %s\n"
+msgstr ""
+
+#: ../dgit:4940
+#, perl-format
+msgid "changing vcs-git url to: %s\n"
+msgstr ""
+
+#: ../dgit:4945
+#, perl-format
+msgid "fetching (%s)\n"
+msgstr ""
+
+#: ../dgit:4960
+#, perl-format
+msgid "incorrect arguments to dgit %s"
+msgstr ""
+
+#: ../dgit:4971
+#, perl-format
+msgid "dgit %s: changelog specifies %s (%s) but command line specifies %s"
+msgstr ""
+
+#: ../dgit:5009
+#, perl-format
+msgid ""
+"build host has dgit rpush protocol versions %s but invocation host has %s"
+msgstr ""
+
+#: ../dgit:5089
+#, perl-format
+msgid "create %s: %s"
+msgstr ""
+
+#: ../dgit:5126
+#, perl-format
+msgid "build host child failed: %s"
+msgstr ""
+
+#: ../dgit:5129
+msgid "all done\n"
+msgstr ""
+
+#: ../dgit:5138
+#, perl-format
+msgid "file %s (%s) twice"
+msgstr ""
+
+#: ../dgit:5146
+msgid "bad param spec"
+msgstr ""
+
+#: ../dgit:5152
+msgid "bad previously spec"
+msgstr ""
+
+#: ../dgit:5171
+#, perl-format
+msgid ""
+"rpush negotiated protocol version %s which does not support quilt mode %s"
+msgstr ""
+
+#: ../dgit:5216
+#, perl-format
+msgid "buildinfo mismatch in field %s"
+msgstr ""
+
+#: ../dgit:5219
+#, perl-format
+msgid "buildinfo contains forbidden field %s"
+msgstr ""
+
+#: ../dgit:5260
+msgid "remote changes file"
+msgstr ""
+
+#: ../dgit:5335
+msgid "not a plain file or symlink\n"
+msgstr ""
+
+#: ../dgit:5341
+msgid "mode or type changed\n"
+msgstr ""
+
+#: ../dgit:5342
+msgid "modified symlink\n"
+msgstr ""
+
+#: ../dgit:5345
+msgid "deletion of symlink\n"
+msgstr ""
+
+#: ../dgit:5349
+msgid "creation with non-default mode\n"
+msgstr ""
+
+#: ../dgit:5379
+msgid "dgit view: changes are required..."
+msgstr ""
+
+#: ../dgit:5408
+#, perl-format
+msgid ""
+"\n"
+"For full diff showing the problem(s), type:\n"
+" %s\n"
+msgstr ""
+
+#: ../dgit:5415
+#, perl-format
+msgid ""
+"--quilt=%s specified, implying patches-unapplied git tree\n"
+" but git tree differs from orig in upstream files."
+msgstr ""
+
+#: ../dgit:5421
+msgid ""
+"\n"
+" ... debian/patches is missing; perhaps this is a patch queue branch?"
+msgstr ""
+
+#: ../dgit:5428
+#, perl-format
+msgid ""
+"--quilt=%s specified, implying patches-applied git tree\n"
+" but git tree differs from result of applying debian/patches to upstream\n"
+msgstr ""
+
+#: ../dgit:5435
+msgid "dgit view: creating patches-applied version using gbp pq"
+msgstr ""
+
+#: ../dgit:5444
+#, perl-format
+msgid ""
+"--quilt=%s specified, implying that HEAD is for use with a\n"
+" tool which does not create patches for changes to upstream\n"
+" .gitignores: but, such patches exist in debian/patches.\n"
+msgstr ""
+
+#: ../dgit:5453
+msgid "dgit view: creating patch to represent .gitignore changes"
+msgstr ""
+
+#: ../dgit:5458
+#, perl-format
+msgid "%s already exists; but want to create it to record .gitignore changes"
+msgstr ""
+
+#: ../dgit:5463
+msgid ""
+"Subject: Update .gitignore from Debian packaging branch\n"
+"\n"
+"The Debian packaging git branch contains these updates to the upstream\n"
+".gitignore file(s).  This patch is autogenerated, to provide these\n"
+"updates to users of the official Debian archive view of the package.\n"
+msgstr ""
+
+#: ../dgit:5485
+msgid "Commit patch to update .gitignore\n"
+msgstr ""
+
+#: ../dgit:5499
+msgid "converted"
+msgstr ""
+
+#: ../dgit:5500
+#, perl-format
+msgid "dgit view: created (%s)"
+msgstr ""
+
+#: ../dgit:5565
+msgid "maximum search space exceeded"
+msgstr ""
+
+#: ../dgit:5583
+#, perl-format
+msgid "has %s not %s"
+msgstr ""
+
+#: ../dgit:5592
+msgid "root commit"
+msgstr ""
+
+#: ../dgit:5598
+#, perl-format
+msgid "merge (%s nontrivial parents)"
+msgstr ""
+
+#: ../dgit:5610
+#, perl-format
+msgid "changed %s"
+msgstr ""
+
+#: ../dgit:5629
+#, perl-format
+msgid ""
+"\n"
+"%s: error: quilt fixup cannot be linear.  Stopped at:\n"
+msgstr ""
+
+#: ../dgit:5636
+#, perl-format
+msgid "%s:  %s: %s\n"
+msgstr ""
+
+#: ../dgit:5648
+msgid "quilt history linearisation failed.  Search `quilt fixup' in dgit(7).\n"
+msgstr ""
+
+#: ../dgit:5651
+msgid "quilt fixup cannot be linear, smashing..."
+msgstr ""
+
+#: ../dgit:5663
+#, perl-format
+msgid ""
+"Automatically generated patch (%s)\n"
+"Last (up to) %s git changes, FYI:\n"
+"\n"
+msgstr ""
+
+#: ../dgit:5670
+msgid "quiltify linearisation planning successful, executing..."
+msgstr ""
+
+#: ../dgit:5704
+msgid "contains unexpected slashes\n"
+msgstr ""
+
+#: ../dgit:5705
+msgid "contains leading punctuation\n"
+msgstr ""
+
+#: ../dgit:5706
+msgid "contains bad character(s)\n"
+msgstr ""
+
+#: ../dgit:5707
+msgid "is series file\n"
+msgstr ""
+
+#: ../dgit:5708
+msgid "too long\n"
+msgstr ""
+
+#: ../dgit:5712
+#, perl-format
+msgid "quiltifying commit %s: ignoring/dropping Gbp-Pq %s: %s"
+msgstr ""
+
+#: ../dgit:5741
+#, perl-format
+msgid "dgit: patch title transliteration error: %s"
+msgstr ""
+
+#: ../dgit:5884
+msgid "Commit removal of .pc (quilt series tracking data)\n"
+msgstr ""
+
+#: ../dgit:5894
+msgid "starting quiltify (single-debian-patch)"
+msgstr ""
+
+#: ../dgit:5996
+#, perl-format
+msgid "dgit: split brain (separate dgit view) may be needed (--quilt=%s)."
+msgstr ""
+
+#: ../dgit:6027
+#, perl-format
+msgid "dgit view: found cached (%s)"
+msgstr ""
+
+#: ../dgit:6032
+msgid "dgit view: found cached, no changes required"
+msgstr ""
+
+#: ../dgit:6043
+#, perl-format
+msgid "examining quilt state (multiple patches, %s mode)"
+msgstr ""
+
+#: ../dgit:6134
+msgid ""
+"failed to apply your git tree's patch stack (from debian/patches/) to\n"
+" the corresponding upstream tarball(s).  Your source tree and .orig\n"
+" are probably too inconsistent.  dgit can only fix up certain kinds of\n"
+" anomaly (depending on the quilt mode).  Please see --quilt= in dgit(1).\n"
+msgstr ""
+
+#: ../dgit:6148
+msgid "Tree already contains .pc - will use it then delete it."
+msgstr ""
+
+#: ../dgit:6185
+#, perl-format
+msgid "%s: base trees orig=%.20s o+d/p=%.20s"
+msgstr ""
+
+#: ../dgit:6188
+#, perl-format
+msgid ""
+"%s: quilt differences: src:  %s orig %s     gitignores:  %s orig %s\n"
+"%s: quilt differences:      HEAD %s o+d/p               HEAD %s o+d/p"
+msgstr ""
+
+#: ../dgit:6194
+#, perl-format
+msgid "dgit:  cannot represent change: %s: %s\n"
+msgstr ""
+
+#: ../dgit:6198
+msgid ""
+"HEAD has changes to .orig[s] which are not representable by `3.0 (quilt)'\n"
+msgstr ""
+
+#: ../dgit:6205
+msgid "This might be a patches-unapplied branch."
+msgstr ""
+
+#: ../dgit:6208
+msgid "This might be a patches-applied branch."
+msgstr ""
+
+#: ../dgit:6211
+msgid "Maybe you need one of --[quilt=]gbp --[quilt=]dpm --quilt=unapplied ?"
+msgstr ""
+
+#: ../dgit:6214
+msgid "Warning: Tree has .gitattributes.  See GITATTRIBUTES in dgit(7)."
+msgstr ""
+
+#: ../dgit:6218
+msgid "Maybe orig tarball(s) are not identical to git representation?"
+msgstr ""
+
+#: ../dgit:6227
+#, perl-format
+msgid "starting quiltify (multiple patches, %s mode)"
+msgstr ""
+
+#: ../dgit:6265
+msgid ""
+"\n"
+"dgit: Building, or cleaning with rules target, in patches-unapplied tree.\n"
+"dgit: Have to apply the patches - making the tree dirty.\n"
+"dgit: (Consider specifying --clean=git and (or) using dgit sbuild.)\n"
+"\n"
+msgstr ""
+
+#: ../dgit:6277
+msgid "dgit: Unapplying patches again to tidy up the tree."
+msgstr ""
+
+#: ../dgit:6306
+msgid ""
+"If this is just missing .gitignore entries, use a different clean\n"
+"mode, eg --clean=dpkg-source,no-check (-wdn/-wddn) to ignore them\n"
+"or --clean=git (-wg/-wgf) to use `git clean' instead.\n"
+msgstr ""
+
+#: ../dgit:6318
+msgid "tree contains uncommitted files and --clean=check specified"
+msgstr ""
+
+#: ../dgit:6321
+msgid "tree contains uncommitted files (NB dgit didn't run rules clean)"
+msgstr ""
+
+#: ../dgit:6324
+msgid ""
+"tree contains uncommited, untracked, unignored files\n"
+"You can use --clean=git[-ff],always (-wga/-wgfa) to delete them."
+msgstr ""
+
+#: ../dgit:6342
+msgid "tree contains uncommitted files (after running rules clean)"
+msgstr ""
+
+#: ../dgit:6356
+msgid "clean takes no additional arguments"
+msgstr ""
+
+#: ../dgit:6369
+#, perl-format
+msgid "-p is not allowed with dgit %s"
+msgstr ""
+
+#: ../dgit:6408
+#, perl-format
+msgid "remove old changes file %s: %s"
+msgstr ""
+
+#: ../dgit:6410
+#, perl-format
+msgid "would remove %s"
+msgstr ""
+
+#: ../dgit:6436
+msgid "archive query failed (queried because --since-version not specified)"
+msgstr ""
+
+#: ../dgit:6442
+#, perl-format
+msgid "changelog will contain changes since %s"
+msgstr ""
+
+#: ../dgit:6445
+msgid "package seems new, not specifying -v<version>"
+msgstr ""
+
+#: ../dgit:6488
+msgid "Wanted to build nothing!"
+msgstr ""
+
+#: ../dgit:6526
+#, perl-format
+msgid "only one changes file from build (%s)\n"
+msgstr ""
+
+#: ../dgit:6533
+#, perl-format
+msgid "%s found in binaries changes file %s"
+msgstr ""
+
+#: ../dgit:6540
+#, perl-format
+msgid "%s unexpectedly not created by build"
+msgstr ""
+
+#: ../dgit:6544
+#, perl-format
+msgid "install new changes %s{,.inmulti}: %s"
+msgstr ""
+
+#: ../dgit:6549
+#, perl-format
+msgid "wrong number of different changes files (%s)"
+msgstr ""
+
+#: ../dgit:6552
+#, perl-format
+msgid "build successful, results in %s\n"
+msgstr ""
+
+#: ../dgit:6565
+#, perl-format
+msgid ""
+"changes files other than source matching %s already present; building would "
+"result in ambiguity about the intended results.\n"
+"Suggest you delete %s.\n"
+msgstr ""
+
+#: ../dgit:6583
+msgid "build successful\n"
+msgstr ""
+
+#: ../dgit:6590
+#, perl-format
+msgid ""
+"%s: warning: build-products-dir set, but not supported by dpkg-buildpackage\n"
+"%s: warning: build-products-dir will be ignored; files will go to ..\n"
+msgstr ""
+
+#: ../dgit:6700
+#, perl-format
+msgid "remove %s: %s"
+msgstr ""
+
+#: ../dgit:6735
+msgid "--include-dirty not supported with --build-products-dir, sorry"
+msgstr ""
+
+#: ../dgit:6755
+#, perl-format
+msgid "put in place new built file (%s): %s"
+msgstr ""
+
+#: ../dgit:6768
+msgid "build-source takes no additional arguments"
+msgstr ""
+
+#: ../dgit:6772
+#, perl-format
+msgid "source built, results in %s and %s"
+msgstr ""
+
+#: ../dgit:6779
+msgid ""
+"dgit push-source: --include-dirty/--ignore-dirty does not makesense with "
+"push-source!"
+msgstr ""
+
+#: ../dgit:6785
+msgid "source changes file"
+msgstr ""
+
+#: ../dgit:6787
+msgid "user-specified changes file is not source-only"
+msgstr ""
+
+#: ../dgit:6807 ../dgit:6809
+#, perl-format
+msgid "%s (in build products dir): %s"
+msgstr ""
+
+#: ../dgit:6822
+msgid ""
+"perhaps you need to pass -A ?  (sbuild's default is to build only\n"
+"arch-specific binaries; dgit 1.4 used to override that.)\n"
+msgstr ""
+
+#: ../dgit:6834
+msgid ""
+"you asked for a builder but your debbuildopts didn't ask for any binaries -- "
+"is this really what you meant?"
+msgstr ""
+
+#: ../dgit:6838
+msgid ""
+"we must build a .dsc to pass to the builder but your debbuiltopts forbids "
+"the building of a source package; cannot continue"
+msgstr ""
+
+#: ../dgit:6868
+msgid "incorrect arguments to dgit print-unapplied-treeish"
+msgstr ""
+
+#: ../dgit:6890
+msgid "source tree"
+msgstr ""
+
+#: ../dgit:6892
+#, perl-format
+msgid "dgit: import-dsc: %s"
+msgstr ""
+
+#: ../dgit:6905
+#, perl-format
+msgid "unknown dgit import-dsc sub-option `%s'"
+msgstr ""
+
+#: ../dgit:6909
+msgid "usage: dgit import-dsc .../PATH/TO/.DSC BRANCH"
+msgstr ""
+
+#: ../dgit:6913
+msgid "dry run makes no sense with import-dsc"
+msgstr ""
+
+#: ../dgit:6930
+#, perl-format
+msgid "%s is checked out - will not update it"
+msgstr ""
+
+#: ../dgit:6935
+#, perl-format
+msgid "open import .dsc (%s): %s"
+msgstr ""
+
+#: ../dgit:6937
+#, perl-format
+msgid "read %s: %s"
+msgstr ""
+
+#: ../dgit:6948
+msgid "import-dsc signature check failed"
+msgstr ""
+
+#: ../dgit:6951
+#, perl-format
+msgid "%s: warning: importing unsigned .dsc\n"
+msgstr ""
+
+#: ../dgit:6962
+msgid "Dgit metadata in .dsc"
+msgstr ""
+
+#: ../dgit:6973
+msgid "dgit: import-dsc of .dsc with Dgit field, using git hash"
+msgstr ""
+
+#: ../dgit:6982
+#, perl-format
+msgid ""
+".dsc contains Dgit field referring to object %s\n"
+"Your git tree does not have that object.  Try `git fetch' from a\n"
+"plausible server (browse.dgit.d.o? salsa?), and try the import-dsc again.\n"
+msgstr ""
+
+#: ../dgit:6989
+msgid "Not fast forward, forced update."
+msgstr ""
+
+#: ../dgit:6991
+#, perl-format
+msgid "Not fast forward to %s"
+msgstr ""
+
+#: ../dgit:6996
+#, perl-format
+msgid "updated git ref %s"
+msgstr ""
+
+#: ../dgit:7001
+#, perl-format
+msgid ""
+"Branch %s already exists\n"
+"Specify ..%s for a pseudo-merge, binding in existing history\n"
+"Specify  +%s to overwrite, discarding existing history\n"
+msgstr ""
+
+#: ../dgit:7021
+#, perl-format
+msgid "lstat %s works but stat gives %s !"
+msgstr ""
+
+#: ../dgit:7023
+#, perl-format
+msgid "stat %s: %s"
+msgstr ""
+
+#: ../dgit:7031
+#, perl-format
+msgid "import %s requires %s, but: %s"
+msgstr ""
+
+#: ../dgit:7050
+#, perl-format
+msgid "cannot import %s which seems to be inside working tree!"
+msgstr ""
+
+#: ../dgit:7054
+#, perl-format
+msgid "symlink %s to %s: %s"
+msgstr ""
+
+#: ../dgit:7055
+#, perl-format
+msgid "made symlink %s -> %s"
+msgstr ""
+
+#: ../dgit:7066
+msgid "Import, forced update - synthetic orphan git history."
+msgstr ""
+
+#: ../dgit:7068
+msgid "Import, merging."
+msgstr ""
+
+#: ../dgit:7082
+#, perl-format
+msgid "Merge %s (%s) import into %s\n"
+msgstr ""
+
+#: ../dgit:7091
+#, perl-format
+msgid "results are in git ref %s"
+msgstr ""
+
+#: ../dgit:7098
+msgid "need only 1 subpath argument"
+msgstr ""
+
+#: ../dgit:7104
+#, perl-format
+msgid "exec curl: %s\n"
+msgstr ""
+
+#: ../dgit:7118
+msgid "need destination argument"
+msgstr ""
+
+#: ../dgit:7123
+#, perl-format
+msgid "exec git clone: %s\n"
+msgstr ""
+
+#: ../dgit:7131
+msgid "no arguments allowed to dgit print-dgit-repos-server-source-url"
+msgstr ""
+
+#: ../dgit:7142
+msgid "no arguments allowed to dgit print-dpkg-source-ignores"
+msgstr ""
+
+#: ../dgit:7148
+msgid "no arguments allowed to dgit setup-mergechangelogs"
+msgstr ""
+
+#: ../dgit:7155 ../dgit:7161
+msgid "no arguments allowed to dgit setup-useremail"
+msgstr ""
+
+#: ../dgit:7167
+msgid "no arguments allowed to dgit setup-tree"
+msgstr ""
+
+#: ../dgit:7214
+msgid ""
+"--initiator-tempdir must be used specify an absolute, not relative, "
+"directory."
+msgstr ""
+
+#: ../dgit:7253
+#, perl-format
+msgid "%s needs a value"
+msgstr ""
+
+#: ../dgit:7257
+#, perl-format
+msgid "bad value `%s' for %s"
+msgstr ""
+
+#: ../dgit:7348
+#, perl-format
+msgid "%s: warning: ignoring unknown force option %s\n"
+msgstr ""
+
+#: ../dgit:7368
+#, perl-format
+msgid "unknown long option `%s'"
+msgstr ""
+
+#: ../dgit:7423
+#, perl-format
+msgid "unknown short option `%s'"
+msgstr ""
+
+#: ../dgit:7438
+#, perl-format
+msgid "%s is set to something other than SIG_DFL\n"
+msgstr ""
+
+#: ../dgit:7442
+#, perl-format
+msgid "%s is blocked\n"
+msgstr ""
+
+#: ../dgit:7448
+#, perl-format
+msgid ""
+"On entry to dgit, %s\n"
+"This is a bug produced by something in your execution environment.\n"
+"Giving up.\n"
+msgstr ""
+
+#: ../dgit:7465
+#, perl-format
+msgid "cannot set command for %s"
+msgstr ""
+
+#: ../dgit:7478
+#, perl-format
+msgid "cannot configure options for %s"
+msgstr ""
+
+#: ../dgit:7498
+#, perl-format
+msgid "unknown quilt-mode `%s'"
+msgstr ""
+
+#: ../dgit:7508
+#, perl-format
+msgid "unknown %s setting `%s'"
+msgstr ""
+
+#: ../dgit:7513
+msgid "dgit: --include-dirty is not supported in split view quilt mode"
+msgstr ""
+
+#: ../dgit:7524
+#, perl-format
+msgid "unknown clean-mode `%s'"
+msgstr ""
+
+#: ../dgit:7545
+msgid "DRY RUN ONLY\n"
+msgstr ""
+
+#: ../dgit:7546
+msgid "DAMP RUN - WILL MAKE LOCAL (UNSIGNED) CHANGES\n"
+msgstr ""
+
+#: ../dgit:7565
+#, perl-format
+msgid "unknown operation %s"
+msgstr ""
+
+#: ../git-debrebase:44
+msgid ""
+"usages:\n"
+"  git-debrebase [<options>] [--|-i <git rebase options...>]\n"
+"  git-debrebase [<options>] status\n"
+"  git-debrebase [<options>] prepush [--prose=...]\n"
+"  git-debrebase [<options>] quick|conclude\n"
+"  git-debrebase [<options>] new-upstream <new-version> [<details ...>]\n"
+"  git-debrebase [<options>] convert-from-* ...\n"
+"  ...\n"
+"See git-debrebase(1), git-debrebase(5), dgit-maint-debrebase(7) (in dgit).\n"
+msgstr ""
+
+#: ../git-debrebase:67
+#, perl-format
+msgid "%s: bad usage: %s\n"
+msgstr ""
+
+#: ../git-debrebase:78
+#, perl-format
+msgid "bad options follow `git-debrebase %s'"
+msgstr ""
+
+#: ../git-debrebase:89
+#, perl-format
+msgid "missing required git config %s"
+msgstr ""
+
+#: ../git-debrebase:401
+#, perl-format
+msgid "%s: snag ignored (-f%s): %s\n"
+msgstr ""
+
+#: ../git-debrebase:404
+#, perl-format
+msgid "%s: snag detected (-f%s): %s\n"
+msgstr ""
+
+#: ../git-debrebase:417
+#, perl-format
+msgid "%s: snags: %d overriden by individual -f options\n"
+msgstr ""
+
+#: ../git-debrebase:423
+#, perl-format
+msgid "%s: snags: %d overriden by global --force\n"
+msgstr ""
+
+#: ../git-debrebase:427
+#, perl-format
+msgid "%s: snags: %d blocker(s) (you could -f<tag>, or --force)"
+msgstr ""
+
+#: ../git-debrebase:459
+msgid ""
+"Branch/history seems mangled - no longer in gdr format.\n"
+"See ILLEGAL OPERATIONS in git-debrebase(5).\n"
+msgstr ""
+
+#: ../git-debrebase:466
+#, perl-format
+msgid ""
+"%s\n"
+"Is this meant to be a gdr branch?  %s\n"
+msgstr ""
+
+#: ../git-debrebase:471
+#, perl-format
+msgid ""
+"%s\n"
+"%s\n"
+"Consider git-debrebase scrap, to throw away your recent work.\n"
+msgstr ""
+
+#: ../git-debrebase:477
+#, perl-format
+msgid ""
+"%s\n"
+"Branch does not seem to be meant to be a git-debrebase branch?\n"
+"Wrong branch, or maybe you needed git-debrebase convert-from-*.\n"
+msgstr ""
+
+#: ../git-debrebase:488
+#, perl-format
+msgid ""
+"%s\n"
+"Branch/history mangled, and diverged since last git-debrebase.\n"
+"Maybe you reset to, or rebased from, somewhere inappropriate.\n"
+msgstr ""
+
+#: ../git-debrebase:935
+#, perl-format
+msgid "git-debrebase `anchor' but %s"
+msgstr ""
+
+#: ../git-debrebase:937
+msgid "has other than two parents"
+msgstr ""
+
+#: ../git-debrebase:938
+msgid "contains debian/patches"
+msgstr ""
+
+#: ../git-debrebase:964
+msgid "is an origin commit"
+msgstr ""
+
+#: ../git-debrebase:966
+msgid "upstream files differ from left parent"
+msgstr ""
+
+#: ../git-debrebase:968
+msgid "debian/ differs from right parent"
+msgstr ""
+
+#: ../git-debrebase:979
+msgid "edits debian/patches"
+msgstr ""
+
+#: ../git-debrebase:991
+msgid "parent's debian is not a directory"
+msgstr ""
+
+#: ../git-debrebase:998
+msgid "no changes"
+msgstr ""
+
+#: ../git-debrebase:1004
+msgid "origin commit"
+msgstr ""
+
+#: ../git-debrebase:1055
+#, perl-format
+msgid "unknown kind of merge from %s"
+msgstr ""
+
+#: ../git-debrebase:1058
+msgid "octopus merge"
+msgstr ""
+
+#: ../git-debrebase:1062
+msgid "general two-parent merge"
+msgstr ""
+
+#: ../git-debrebase:1079
+#, perl-format
+msgid "inconsistent anchors in merged-breakwaters %s"
+msgstr ""
+
+#: ../git-debrebase:1119
+#, perl-format
+msgid "branch needs laundering (run git-debrebase): %s"
+msgstr ""
+
+#: ../git-debrebase:1147
+#, perl-format
+msgid "packaging change (%s) follows upstream change"
+msgstr ""
+
+#: ../git-debrebase:1148
+#, perl-format
+msgid " (eg %s)"
+msgstr ""
+
+#: ../git-debrebase:1154
+msgid "found mixed upstream/packaging commit"
+msgstr ""
+
+#: ../git-debrebase:1155 ../git-debrebase:1163 ../git-debrebase:1168
+#: ../git-debrebase:1173 ../git-debrebase:1179 ../git-debrebase:1187
+#, perl-format
+msgid " (%s)"
+msgstr ""
+
+#: ../git-debrebase:1162
+#, perl-format
+msgid "found interchange bureaucracy commit (%s)"
+msgstr ""
+
+#: ../git-debrebase:1167
+msgid "found dgit dsc import"
+msgstr ""
+
+#: ../git-debrebase:1172
+msgid "found bare dgit dsc import with no prior history"
+msgstr ""
+
+#: ../git-debrebase:1178
+msgid "found vanilla merge"
+msgstr ""
+
+#: ../git-debrebase:1185
+#, perl-format
+msgid "found unprocessable commit, cannot cope: %s"
+msgstr ""
+
+#: ../git-debrebase:1253
+#, perl-format
+msgid "found unprocessable commit, cannot cope; %3$s: (commit %1$s) (d.%2$s)"
+msgstr ""
+
+#: ../git-debrebase:1254
+#, perl-format
+msgid "found unprocessable commit, cannot cope: (commit %1$s) (d.%2$s)"
+msgstr ""
+
+#: ../git-debrebase:1375
+msgid "bare dgit dsc import"
+msgstr ""
+
+#: ../git-debrebase:1715 ../git-debrebase:1718
+#, perl-format
+msgid "mismatch %s ?"
+msgstr ""
+
+#: ../git-debrebase:1721
+#, perl-format
+msgid "mismatch %s != %s ?"
+msgstr ""
+
+#: ../git-debrebase:1731
+#, perl-format
+msgid "internal error %#x %s %s"
+msgstr ""
+
+#: ../git-debrebase:1759
+#, perl-format
+msgid "%s: laundered (head was %s)\n"
+msgstr ""
+
+#: ../git-debrebase:1773
+msgid "you are in the middle of a git-rebase already"
+msgstr ""
+
+#: ../git-debrebase:1799
+msgid "launder for rebase"
+msgstr ""
+
+#: ../git-debrebase:1804
+msgid "analyse does not support any options"
+msgstr ""
+
+#: ../git-debrebase:1806
+msgid "too many arguments to analyse"
+msgstr ""
+
+#: ../git-debrebase:1841
+msgid "HEAD symref is not to refs/heads/"
+msgstr ""
+
+#: ../git-debrebase:1864
+#, perl-format
+msgid "OK, you are ahead of %s\n"
+msgstr ""
+
+#: ../git-debrebase:1868
+#, perl-format
+msgid "you are behind %s, divergence risk"
+msgstr ""
+
+#: ../git-debrebase:1872
+#, perl-format
+msgid "you have diverged from %s"
+msgstr ""
+
+#: ../git-debrebase:1894
+msgid "remote dgit branch"
+msgstr ""
+
+#: ../git-debrebase:1897
+msgid "remote dgit branch for sid"
+msgstr ""
+
+#: ../git-debrebase:1925
+msgid "Recorded previous head for preservation"
+msgstr ""
+
+#: ../git-debrebase:1933
+#, perl-format
+msgid "could not record ffq-prev: %s"
+msgstr ""
+
+#: ../git-debrebase:1944
+#, perl-format
+msgid "could not check ffq-prev: %s"
+msgstr ""
+
+#: ../git-debrebase:1964
+msgid "fast forward"
+msgstr ""
+
+#: ../git-debrebase:1974
+msgid "Declare fast forward / record previous work"
+msgstr ""
+
+#: ../git-debrebase:1986
+msgid "No ffq-prev to stitch."
+msgstr ""
+
+#: ../git-debrebase:2017
+#, perl-format
+msgid ""
+"Could not determine appropriate upstream commitish.\n"
+" (Tried these tags: %s)\n"
+" Check version, and specify upstream commitish explicitly."
+msgstr ""
+
+#: ../git-debrebase:2036
+msgid "need NEW-VERSION [UPS-COMMITTISH]"
+msgstr ""
+
+#: ../git-debrebase:2041
+#, perl-format
+msgid "bad version number `%s'"
+msgstr ""
+
+#: ../git-debrebase:2059
+#, perl-format
+msgid "upstream piece `%s'"
+msgstr ""
+
+#: ../git-debrebase:2060
+msgid "upstream (main piece"
+msgstr ""
+
+#: ../git-debrebase:2080
+msgid "for each EXTRA-UPS-NAME need EXTRA-UPS-COMMITISH"
+msgstr ""
+
+#: ../git-debrebase:2098
+msgid "old anchor is recognised due to --anchor, cannot check upstream"
+msgstr ""
+
+#: ../git-debrebase:2114
+#, perl-format
+msgid ""
+"previous upstream combine %s mentions %d pieces (each implying one parent) "
+"but has %d parents (one per piece plus maybe a previous combine)"
+msgstr ""
+
+#: ../git-debrebase:2123
+#, perl-format
+msgid "previous upstream combine %s first piece is not `.'"
+msgstr ""
+
+#: ../git-debrebase:2136
+#, perl-format
+msgid ""
+"previous upstream %s is from git-debrebase but not an `upstream-combine' "
+"commit"
+msgstr ""
+
+#: ../git-debrebase:2147
+#, perl-format
+msgid "introducing upstream piece `%s'"
+msgstr ""
+
+#: ../git-debrebase:2150
+#, perl-format
+msgid "dropping upstream piece `%s'"
+msgstr ""
+
+#: ../git-debrebase:2153
+#, perl-format
+msgid "not fast forward: %s %s"
+msgstr ""
+
+#: ../git-debrebase:2264
+msgid "Previous head already recorded\n"
+msgstr ""
+
+#: ../git-debrebase:2268
+#, perl-format
+msgid "Could not preserve: %s"
+msgstr ""
+
+#: ../git-debrebase:2273 ../git-debrebase:2279 ../git-debrebase:2285
+#: ../git-debrebase:2375 ../git-debrebase:2384 ../git-debrebase:2408
+#: ../git-debrebase:2472
+msgid "no arguments allowed"
+msgstr ""
+
+#: ../git-debrebase:2307
+msgid "branch contains furniture (not laundered)"
+msgstr ""
+
+#: ../git-debrebase:2308
+msgid "branch is unlaundered"
+msgstr ""
+
+#: ../git-debrebase:2309
+msgid "branch needs laundering"
+msgstr ""
+
+#: ../git-debrebase:2310
+msgid "branch not in git-debrebase form"
+msgstr ""
+
+#: ../git-debrebase:2320
+msgid "current branch contents, in git-debrebase terms:\n"
+msgstr ""
+
+#: ../git-debrebase:2322
+msgid "  branch is laundered\n"
+msgstr ""
+
+#: ../git-debrebase:2338
+#, perl-format
+msgid "  %s is not well-defined\n"
+msgstr ""
+
+#: ../git-debrebase:2344
+msgid "key git-debrebase commits:\n"
+msgstr ""
+
+#: ../git-debrebase:2345
+msgid "anchor"
+msgstr ""
+
+#: ../git-debrebase:2346
+msgid "breakwater"
+msgstr ""
+
+#: ../git-debrebase:2351
+msgid "branch and ref status, in git-debrebase terms:\n"
+msgstr ""
+
+#: ../git-debrebase:2358
+msgid "  unstitched; previous tip was:\n"
+msgstr ""
+
+#: ../git-debrebase:2361
+msgid "  stitched? (no record of git-debrebase work)\n"
+msgstr ""
+
+#: ../git-debrebase:2363
+msgid "  stitched\n"
+msgstr ""
+
+#: ../git-debrebase:2365
+msgid "  not git-debrebase (diverged since last stitch)\n"
+msgstr ""
+
+#: ../git-debrebase:2368
+msgid "you are currently rebasing\n"
+msgstr ""
+
+#: ../git-debrebase:2385 ../git-debrebase:2398
+msgid "launder for git-debrebase quick"
+msgstr ""
+
+#: ../git-debrebase:2392 ../git-debrebase:2422
+msgid "No ongoing git-debrebase session."
+msgstr ""
+
+#: ../git-debrebase:2461
+msgid "Commit patch queue (exported by git-debrebase)"
+msgstr ""
+
+#: ../git-debrebase:2478
+msgid "No (more) patches to export."
+msgstr ""
+
+#: ../git-debrebase:2485
+#, perl-format
+msgid ""
+"Patch export produced patch amendments (abandoned output commit %s).  Try "
+"laundering first."
+msgstr ""
+
+#: ../git-debrebase:2505
+#, perl-format
+msgid "%s contains comments, which will be discarded"
+msgstr ""
+
+#: ../git-debrebase:2510
+#, perl-format
+msgid "patch %s repeated in %s !"
+msgstr ""
+
+#: ../git-debrebase:2517
+#, perl-format
+msgid "Unused patch file %s will be discarded"
+msgstr ""
+
+#: ../git-debrebase:2525
+msgid "ffq-prev exists, this is already managed by git-debrebase!"
+msgstr ""
+
+#: ../git-debrebase:2530
+msgid "ahead of debrebase-last, this is already managed by git-debrebase!"
+msgstr ""
+
+#: ../git-debrebase:2546
+msgid "want only 1 optional argument, the upstream git commitish"
+msgstr ""
+
+#: ../git-debrebase:2551
+msgid "missing Version from changelog\n"
+msgstr ""
+
+#: ../git-debrebase:2567
+#, perl-format
+msgid ""
+"upstream (%s) and HEAD are not\n"
+"identical in upstream files.  See diffstat above, or run\n"
+"  git diff %s HEAD -- :!/debian :/\n"
+msgstr ""
+
+#: ../git-debrebase:2575
+#, perl-format
+msgid "upstream (%s) is not an ancestor of HEAD"
+msgstr ""
+
+#: ../git-debrebase:2582
+#, perl-format
+msgid ""
+"history between upstream (%s) and HEAD contains direct changes to upstream "
+"files - are you sure this is a gbp (patches-unapplied) branch?"
+msgstr ""
+
+#: ../git-debrebase:2584
+#, perl-format
+msgid "list expected changes with:  %s\n"
+msgstr ""
+
+#: ../git-debrebase:2591
+#, perl-format
+msgid "upstream (%s) contains debian/ directory"
+msgstr ""
+
+#: ../git-debrebase:2609
+msgid "neither of the first two changelog entries are released\n"
+msgstr ""
+
+#: ../git-debrebase:2615
+#, perl-format
+msgid "could not find suitable maintainer view tag %s\n"
+msgstr ""
+
+#: ../git-debrebase:2618
+#, perl-format
+msgid "HEAD is not FF from maintainer tag %s!"
+msgstr ""
+
+#: ../git-debrebase:2621
+#, perl-format
+msgid "dgit view tag %s not found\n"
+msgstr ""
+
+#: ../git-debrebase:2623
+#, perl-format
+msgid "dgit view tag %s is not FF from maintainer tag %s\n"
+msgstr ""
+
+#: ../git-debrebase:2625
+#, perl-format
+msgid "will stitch in dgit view, %s\n"
+msgstr ""
+
+#: ../git-debrebase:2632
+#, perl-format
+msgid ""
+"Cannot confirm dgit view: %s\n"
+"Failed to stitch in dgit view (see messages above).\n"
+"dgit --overwrite will be needed on the first dgit push after conversion.\n"
+msgstr ""
+
+#: ../git-debrebase:2678
+#, perl-format
+msgid "%s: converted from patched-unapplied (gbp) branch format, OK\n"
+msgstr ""
+
+#: ../git-debrebase:2707
+#, perl-format
+msgid ""
+"%s: converted to git-buildpackage branch format\n"
+"%s: WARNING: do not now run \"git-debrebase\" any more\n"
+"%s: WARNING: doing so would drop all upstream patches!\n"
+msgstr ""
+
+#: ../git-debrebase:2728
+msgid "takes 1 optional argument, the upstream commitish"
+msgstr ""
+
+#: ../git-debrebase:2736
+#, perl-format
+msgid "%s, from command line"
+msgstr ""
+
+#: ../git-debrebase:2750
+#, perl-format
+msgid ""
+"%s: Branch already seems to be in git-debrebase format!\n"
+"%s: --always-convert-anyway would do the conversion operation anyway\n"
+"%s: but is probably a bad idea.  Probably, you wanted to do nothing.\n"
+msgstr ""
+
+#: ../git-debrebase:2754
+msgid "Branch already in git-debrebase format."
+msgstr ""
+
+#: ../git-debrebase:2766
+msgid "Considering possible commits corresponding to upstream:\n"
+msgstr ""
+
+#: ../git-debrebase:2773
+#, perl-format
+msgid "git tag %s"
+msgstr ""
+
+#: ../git-debrebase:2779
+#, perl-format
+msgid " git tag: no suitable tag found (tried %s)\n"
+msgstr ""
+
+#: ../git-debrebase:2788
+#, perl-format
+msgid "opendir build-products-dir %s: %s"
+msgstr ""
+
+#: ../git-debrebase:2794
+#, perl-format
+msgid " orig: found what looks like a .orig, %s\n"
+msgstr ""
+
+#: ../git-debrebase:2825
+#, perl-format
+msgid " orig: no suitable origs found (looked for %s in %s)\n"
+msgstr ""
+
+#: ../git-debrebase:2834
+msgid "Evaluating possible commits corresponding to upstream:\n"
+msgstr ""
+
+#: ../git-debrebase:2871
+#, perl-format
+msgid " %s: couldn't apply patches: gbp pq %s"
+msgstr ""
+
+#: ../git-debrebase:2880
+#, perl-format
+msgid " %s: applying patches gives different tree\n"
+msgstr ""
+
+#: ../git-debrebase:2894
+msgid ""
+"Could not find or construct a suitable upstream commit.\n"
+"Rerun adding --diagnose after convert-from-dgit-view, or pass a\n"
+"upstream commmit explicitly or provide suitable origs.\n"
+msgstr ""
+
+#: ../git-debrebase:2900
+#, perl-format
+msgid "Yes, will base new branch on %s\n"
+msgstr ""
+
+#: ../git-debrebase:2907
+msgid "forget-was-ever-debrebase takes no further arguments"
+msgstr ""
+
+#: ../git-debrebase:2911
+#, perl-format
+msgid "Not suitable for recording git-debrebaseness anyway: %s"
+msgstr ""
+
+#: ../git-debrebase:3013
+msgid "bad options\n"
+msgstr ""
+
+#: ../git-debrebase:3023
+#, perl-format
+msgid "%s: no cuddling to -i for git-rebase"
+msgstr ""
+
+#: ../git-debrebase:3053
+#, perl-format
+msgid "unknown git-debrebase sub-operation %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:295
+#, perl-format
+msgid "error: %s\n"
+msgstr ""
+
+#: ../Debian/Dgit.pm:315
+#, perl-format
+msgid "getcwd failed: %s\n"
+msgstr ""
+
+#: ../Debian/Dgit.pm:334
+msgid "terminated, reporting successful completion"
+msgstr ""
+
+#: ../Debian/Dgit.pm:336
+#, perl-format
+msgid "failed with error exit status %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:339
+#, perl-format
+msgid "died due to fatal signal %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:343
+#, perl-format
+msgid "failed with unknown wait status %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:349
+msgid "failed command"
+msgstr ""
+
+#: ../Debian/Dgit.pm:355
+#, perl-format
+msgid "failed to fork/exec: %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:357
+#, perl-format
+msgid "subprocess %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:359
+msgid "subprocess produced invalid output"
+msgstr ""
+
+#: ../Debian/Dgit.pm:450
+msgid "stat source file: %S"
+msgstr ""
+
+#: ../Debian/Dgit.pm:460
+msgid "stat destination file: %S"
+msgstr ""
+
+#: ../Debian/Dgit.pm:479
+msgid "finally install file after cp: %S"
+msgstr ""
+
+#: ../Debian/Dgit.pm:485
+msgid "delete old file after cp: %S"
+msgstr ""
+
+#: ../Debian/Dgit.pm:506
+msgid ""
+"not in a git working tree?\n"
+"(git rev-parse --show-toplevel produced no output)\n"
+msgstr ""
+
+#: ../Debian/Dgit.pm:509
+#, perl-format
+msgid "chdir toplevel %s: %s\n"
+msgstr ""
+
+#: ../Debian/Dgit.pm:617
+msgid "git index contains changes (does not match HEAD)"
+msgstr ""
+
+#: ../Debian/Dgit.pm:618
+msgid "working tree is dirty (does not match HEAD)"
+msgstr ""
+
+#: ../Debian/Dgit.pm:689
+msgid "detached HEAD"
+msgstr ""
+
+#: ../Debian/Dgit.pm:690
+msgid "HEAD symref is not to refs/"
+msgstr ""
+
+#: ../Debian/Dgit.pm:706
+#, perl-format
+msgid "parsing of %s failed"
+msgstr ""
+
+#: ../Debian/Dgit.pm:715
+#, perl-format
+msgid ""
+"control file %s is (already) PGP-signed.  Note that dgit push needs to "
+"modify the .dsc and then do the signature itself"
+msgstr ""
+
+#: ../Debian/Dgit.pm:729
+#, perl-format
+msgid "open %s (%s): %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:750
+#, perl-format
+msgid "missing field %s in %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:822
+msgid "Dummy commit - do not use\n"
+msgstr ""
+
+#: ../Debian/Dgit.pm:843
+#, perl-format
+msgid "exec %s: %s\n"
+msgstr ""
+
+#: ../Debian/Dgit.pm:911
+#, perl-format
+msgid "cannot stat %s/.git: %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:934
+#, perl-format
+msgid "failed to mkdir playground parent %s: %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:942
+#, perl-format
+msgid "failed to mkdir a playground %s: %s"
+msgstr ""
+
+#: ../Debian/Dgit.pm:951
+#, perl-format
+msgid "failed to mkdir the playground %s: %s"
+msgstr ""

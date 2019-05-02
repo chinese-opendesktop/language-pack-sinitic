@@ -1,0 +1,2163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"& [-v] [-c CONFFILE] [-F FMTFILE] -d DIR\n"
+"or:\n"
+"& [-v] [-c CONFFILE] [-d DIR] -t[ID] [-u -C UR_CONFFILE] FILE...\n"
+"\n"
+"Reports a problem to RHTSupport.\n"
+"\n"
+"If not specified, CONFFILE defaults to "
+msgstr ""
+
+msgid ""
+"\n"
+"& [-vbf] [-g GROUP-NAME]... [-c CONFFILE]... [-F FMTFILE] [-A FMTFILE2] -d "
+"DIR\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] FILE...\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] -w\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... -h DUPHASH [-p[PRODUCT]]\n"
+"\n"
+"Reports problem to Bugzilla.\n"
+"\n"
+"The tool reads DIR. Then it logs in to Bugzilla and tries to find a bug\n"
+"with the same abrt_hash:HEXSTRING in 'Whiteboard'.\n"
+"\n"
+"If such bug is not found, then a new bug is created. Elements of DIR\n"
+"are stored in the bug as part of bug description or as attachments,\n"
+"depending on their type and size.\n"
+"\n"
+"Otherwise, if such bug is found and it is marked as CLOSED DUPLICATE,\n"
+"the tool follows the chain of duplicates until it finds a non-DUPLICATE "
+"bug.\n"
+"The tool adds a new comment to found bug.\n"
+"\n"
+"The URL to new or modified bug is printed to stdout and recorded in\n"
+"'reported_to' element.\n"
+"\n"
+"Option -t uploads FILEs to the already created bug on Bugzilla site.\n"
+"The bug ID is retrieved from directory specified by -d DIR.\n"
+"If problem data in DIR was never reported to Bugzilla, upload will fail.\n"
+"\n"
+"Option -tID uploads FILEs to the bug with specified ID on Bugzilla site.\n"
+"-d DIR is ignored.\n"
+"\n"
+"Option -w adds bugzilla user to bug's CC list.\n"
+"\n"
+"Option -r sets the last url from reporter_to element which is prefixed with\n"
+"TRACKER_NAME to URL field. This option is applied only when a new bug is to "
+"be\n"
+"filed. The default value is 'ABRT Server'\n"
+"\n"
+"If not specified, CONFFILE defaults to "
+msgstr ""
+
+msgid ""
+"\n"
+"& [-vf] [-c CONFFILE]... [-F FMTFILE] [-A FMTFILE2] -d DIR\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] FILE...\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... [-d DIR] -t[ID] -w\n"
+"or:\n"
+"& [-v] [-c CONFFILE]... -h DUPHASH\n"
+"\n"
+"Reports problem to MantisBT.\n"
+"\n"
+"The tool reads DIR. Then it tries to find an issue\n"
+"with the same abrt_hash in custom field 'abrt_hash'.\n"
+"\n"
+"If such issue is not found, then a new issue is created. Elements of DIR\n"
+"are stored in the issue as part of issue description or as attachments,\n"
+"depending on their type and size.\n"
+"\n"
+"Otherwise, if such issue is found and it is marked as CLOSED DUPLICATE,\n"
+"the tool follows the chain of duplicates until it finds a non-DUPLICATE "
+"issue.\n"
+"The tool adds a new comment to found issue.\n"
+"\n"
+"The URL to new or modified issue is printed to stdout and recorded in\n"
+"'reported_to' element.\n"
+"\n"
+"Option -t uploads FILEs to the already created issue on MantisBT site.\n"
+"The issue ID is retrieved from directory specified by -d DIR.\n"
+"If problem data in DIR was never reported to MantisBT, upload will fail.\n"
+"\n"
+"Option -tID uploads FILEs to the issue with specified ID on MantisBT site.\n"
+"-d DIR is ignored.\n"
+"\n"
+"Option -r sets the last url from reporter_to element which is prefixed with\n"
+"TRACKER_NAME to URL field. This option is applied only when a new issue is "
+"to be\n"
+"filed. The default value is 'ABRT Server'\n"
+"\n"
+"If not specified, CONFFILE defaults to "
+msgstr ""
+
+msgid ""
+"\n"
+"No changes were detected in the report"
+msgstr ""
+
+msgid ""
+"\n"
+"The report has been updated"
+msgstr ""
+
+msgid "# Architecture"
+msgstr ""
+
+msgid ""
+"# Backtrace\n"
+"# Check that it does not contain any sensitive data (passwords, etc.)"
+msgstr ""
+
+msgid "# Command line"
+msgstr ""
+
+msgid "# Component"
+msgstr ""
+
+msgid "# Core dump"
+msgstr ""
+
+msgid "# Describe the circumstances of this crash below"
+msgstr ""
+
+msgid "# Executable"
+msgstr ""
+
+msgid "# Kernel version"
+msgstr ""
+
+msgid "# Package"
+msgstr ""
+
+msgid "# Reason of crash"
+msgstr ""
+
+msgid "# Release string of the operating system"
+msgstr ""
+
+msgid "# Release string of the operating system from root dir"
+msgstr ""
+
+msgid "# This field is read only\n"
+msgstr ""
+
+msgid "# os-release configuration file"
+msgstr ""
+
+msgid "# os-release configuration file from root dir"
+msgstr ""
+
+msgid "$DATA_DIRECTORY/%s (binary file, %s)"
+msgstr ""
+
+msgid "%llu bytes, %u files"
+msgstr ""
+
+msgid ""
+"& [-d] DIR\n"
+"\n"
+"newt tool to report problem saved in specified DIR"
+msgstr ""
+
+msgid ""
+"& [-v] --target TARGET --ticket ID FILE...\n"
+"\n"
+"Uploads FILEs to specified ticket on TARGET.\n"
+"\n"
+"This tool is provided to ease transition of users of report package\n"
+"to libreport. Recognized TARGETs are 'strata' and 'bugzilla',\n"
+"first one invokes upload to RHTSupport and second - to Bugzilla.\n"
+"\n"
+"Configuration (such as login data) can be supplied via files\n"
+msgstr ""
+
+msgid ""
+"& [-v] -d DIR [-c CONFFILE] [-F FMTFILE]\n"
+"\n"
+"Sends contents of a problem directory DIR via email\n"
+"\n"
+"If not specified, CONFFILE defaults to "
+msgstr ""
+
+msgid ""
+"& [-v] -d DIR [-c CONFFILE] [-u URL] [-b FILE] [-r FILE]\n"
+"\n"
+"Uploads compressed tarball of problem directory DIR to URL.\n"
+"If URL is not specified, creates tarball in "
+msgstr ""
+
+msgid ""
+"& [-v] -d DIR [-o FILE] [-a yes/no] [-r]\n"
+"\n"
+"Prints problem information to standard output or FILE"
+msgstr ""
+
+msgid ""
+"& [-v] [-c CONFFILE]... -d DIR\n"
+"\n"
+"Reports kernel oops to kerneloops.org (or similar) site.\n"
+"\n"
+"Files with names listed in $EXCLUDE_FROM_REPORT are not included\n"
+"into the tarball.\n"
+"\n"
+"CONFFILE lines should have 'PARAM = VALUE' format.\n"
+"Recognized string parameter: SubmitURL.\n"
+"Parameter can be overridden via $KerneloopsReporter_SubmitURL."
+msgstr ""
+
+msgid ""
+"& [-v] [-c FILE] [-u URL] [-k] [-t SOURCE] [-h CREDENTIALS]\n"
+"  [-A -a bthash -B -b bug-id -E -e email -O -o comment] [-d DIR]\n"
+"  [-A -a bthash -T ATTACHMENT_TYPE -r REPORT_RESULT_TYPE -L RESULT_FIELD] [-"
+"d DIR]\n"
+"  [-A -a bthash -T ATTACHMENT_TYPE -l DATA] [-d DIR]\n"
+"& [-v] [-c FILE] [-u URL] [-k] [-t SOURCE] [-h CREDENTIALS] [-i AUTH_ITEMS] "
+"[-d DIR]\n"
+"\n"
+"Upload micro report or add an attachment to a micro report\n"
+"\n"
+"Reads the default configuration from "
+msgstr ""
+
+msgid ""
+"& [-v] [-d DIR] [-m MESSAGEID] [-F FMTFILE] [-p NONE|ESSENTIAL|FULL] [-s "
+"SYSLOGID]\n"
+"\n"
+"Reports problem information into systemd journal.\n"
+"\n"
+"The tool reads problem directory DIR and sends its details\n"
+"into systemd journal as a message. If MESSAGEID is defined, the tool\n"
+"creates a catalog message as well.\n"
+msgstr ""
+
+msgid ""
+"& [-vpdx] [-e EVENT]... [-g GUI_FILE] PROBLEM_DIR\n"
+"\n"
+"GUI tool to analyze and report problem saved in specified PROBLEM_DIR"
+msgstr ""
+
+msgid ""
+"& [-vsp] -L[PREFIX] [PROBLEM_DIR]\n"
+"   or: & [-vspy] -e EVENT PROBLEM_DIR\n"
+"   or: & [-vspy] -d PROBLEM_DIR\n"
+"   or: & [-vspy] -x PROBLEM_DIR"
+msgstr ""
+
+msgid "'%s' is not an ordinary file"
+msgstr ""
+
+msgid "'%s' is not correct file name"
+msgstr ""
+
+msgid "'comment' file is empty"
+msgstr ""
+
+msgid "'strata' or 'bugzilla'"
+msgstr ""
+
+msgid ""
+"'{0}' must be owned by abrt. Please run '# chown -R abrt.abrt {0}' to fix "
+"the issue."
+msgstr ""
+
+msgid "('%s' completed successfully)\n"
+msgstr ""
+
+msgid "('%s' exited with %u)\n"
+msgstr ""
+
+msgid "('%s' was killed by signal %u)\n"
+msgstr ""
+
+msgid "(binary file, %llu bytes)"
+msgstr ""
+
+msgid "(click here to view/edit)"
+msgstr ""
+
+msgid "(no description)"
+msgstr ""
+
+msgid "(not needed, data already exist: %s)"
+msgstr ""
+
+msgid "(requires: %s)"
+msgstr ""
+
+msgid "--- Running %s ---"
+msgstr ""
+
+msgid ""
+"<b>Your comments are not private.</b> They may be included into publicly "
+"visible problem reports."
+msgstr ""
+
+msgid "A name of bug tracker for an additional URL from 'reported_to'"
+msgstr ""
+
+msgid ""
+"A private ticket creation has been requested, but no groups were specified, "
+"please see https://github.com/abrt/abrt/wiki/FAQ#creating-private-bugzilla-"
+"tickets for more info"
+msgstr ""
+
+msgid "A proper debuginfo is probably missing or the coredump is corrupted."
+msgstr ""
+
+msgid ""
+"A timeout was reached while waiting for a prompt result from the DBus Secret "
+"Service."
+msgstr ""
+
+msgid "Add bugzilla user to CC list [of bug with this ID]"
+msgstr ""
+
+msgid "Add program names to log"
+msgstr ""
+
+msgid "Adding %s to CC list"
+msgstr ""
+
+msgid "Adding External URL to bug %i"
+msgstr ""
+
+msgid "Adding External URL to issue"
+msgstr ""
+
+msgid "Adding attachments to bug %i"
+msgstr ""
+
+msgid "Adding attachments to issue %i"
+msgstr ""
+
+msgid "Adding comment to case '%s'"
+msgstr ""
+
+msgid "Adding extra cc %s to bug report"
+msgstr ""
+
+msgid "Adding new comment to bug %d"
+msgstr ""
+
+msgid "Adding new comment to issue %d"
+msgstr ""
+
+msgid "Additional files included in 'auth' key"
+msgstr ""
+
+msgid "Address of Bugzilla server"
+msgstr ""
+
+msgid "Address of CentOS Bug Tracker server"
+msgstr ""
+
+msgid "Address of the Red Hat support portal"
+msgstr ""
+
+msgid "Address of uReport webservice"
+msgstr ""
+
+msgid "Adds your Bugzilla login to CC List of already reported bugs."
+msgstr ""
+
+msgid "Adds your e-mail to CC List of Bugzilla bug"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Allow insecure connection to ureport server"
+msgstr ""
+
+msgid "Alternate GUI file"
+msgstr ""
+
+msgid ""
+"Analyze the problem locally and export the problem data information to a "
+"text file"
+msgstr ""
+
+msgid "Analyze the problem locally and send information via email"
+msgstr ""
+
+msgid "Analyze the problem locally and upload the data via scp or ftp"
+msgstr ""
+
+msgid "Append"
+msgstr ""
+
+msgid "Append new reports or overwrite the old one."
+msgstr ""
+
+msgid "Append to, or overwrite FILE"
+msgstr ""
+
+msgid "Archive is created: '%s'"
+msgstr ""
+
+msgid "Ask Red Hat Support for help"
+msgstr ""
+
+msgid "Attach FILEs [to bug with this ID]"
+msgstr ""
+
+msgid "Attach FILEs [to issue with this ID]"
+msgstr ""
+
+msgid "Attach a file"
+msgstr ""
+
+msgid "Attaching '%s' to case '%s'"
+msgstr ""
+
+msgid "Attaching better backtrace"
+msgstr ""
+
+msgid "Attaching file '%s' to issue %s"
+msgstr ""
+
+msgid "Attaching problem data to case '%s'"
+msgstr ""
+
+msgid "Bad value for '%s': %s"
+msgstr ""
+
+msgid "Base URL to upload to"
+msgstr ""
+
+msgid "Basic"
+msgstr ""
+
+msgid "Be verbose"
+msgstr ""
+
+msgid "Bug %i is CLOSED as DUPLICATE, but it has no DUP_ID"
+msgstr ""
+
+msgid "Bug %i is CLOSED, but it has no RESOLUTION"
+msgstr ""
+
+msgid "Bug is already reported: %i"
+msgstr ""
+
+msgid "Bug.search(quicksearch) return value did not contain member 'bugs'"
+msgstr ""
+
+msgid "Bugzilla"
+msgstr ""
+
+msgid "Bugzilla URL"
+msgstr ""
+
+msgid "Bugzilla account password"
+msgstr ""
+
+msgid "Bugzilla account user name"
+msgstr ""
+
+msgid "Bugzilla couldn't find parent of bug %d"
+msgstr ""
+
+msgid "Bugzilla product"
+msgstr ""
+
+msgid "Bugzilla product version"
+msgstr ""
+
+msgid "C_onfigure"
+msgstr ""
+
+msgid "Caching files from {0} made from {1}"
+msgstr ""
+
+msgid "Can't call method '%s' over DBus on path '%s' interface '%s': %s"
+msgstr ""
+
+msgid "Can't connect over DBus to name '%s' path '%s' interface '%s': %s"
+msgstr ""
+
+msgid "Can't continue without URL"
+msgstr ""
+
+msgid "Can't continue without email address of %s"
+msgstr ""
+
+msgid "Can't continue without login"
+msgstr ""
+
+msgid "Can't continue without password"
+msgstr ""
+
+msgid "Can't copy '%s': %s"
+msgstr ""
+
+msgid "Can't create a secret item for event '%s': %s"
+msgstr ""
+
+msgid "Can't create a temporary directory in "
+msgstr ""
+
+msgid "Can't create temporary file in "
+msgstr ""
+
+msgid "Can't delete '%s': %s"
+msgstr ""
+
+msgid "Can't delete: '%s'"
+msgstr ""
+
+msgid "Can't determine Bugzilla Product from problem data."
+msgstr ""
+
+msgid "Can't determine RH Support Product from problem data."
+msgstr ""
+
+msgid "Can't disable async download, the output might contain artifacts!"
+msgstr ""
+
+msgid "Can't disable repository '{0!s}': {1!s}"
+msgstr ""
+
+msgid "Can't extract files from '{0}'. For more information see '{1}'"
+msgstr ""
+
+msgid "Can't extract package '{0}'"
+msgstr ""
+
+msgid "Can't find packages for {0} debuginfo files"
+msgstr ""
+
+msgid "Can't generate stacktrace description (no crash thread?)"
+msgstr ""
+
+msgid ""
+"Can't get Bugzilla ID because this problem has not yet been reported to "
+"Bugzilla."
+msgstr ""
+
+msgid ""
+"Can't get MantisBT ID because this problem has not yet been reported to "
+"MantisBT."
+msgstr ""
+
+msgid "Can't lseek '%s'"
+msgstr ""
+
+msgid "Can't open '%s'"
+msgstr ""
+
+msgid "Can't open '%s' for writing. Please select another file:"
+msgstr ""
+
+msgid "Can't open problem dir '%s'."
+msgstr ""
+
+msgid "Can't parse backtrace: %s"
+msgstr ""
+
+msgid "Can't read '%s'"
+msgstr ""
+
+msgid "Can't remove '{0}': {1}"
+msgstr ""
+
+msgid "Can't remove {0}, probably contains an error log"
+msgstr ""
+
+msgid "Can't setup {0}: {1}, disabling"
+msgstr ""
+
+msgid "Can't upload '%s', it's too large (%llu bytes)"
+msgstr ""
+
+msgid "Can't write to '{0}': {1}"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancelled by user."
+msgstr ""
+
+msgid "Cannot attach comment from 'comment' file"
+msgstr ""
+
+msgid "Cannot check backtrace rating because of invalid event name"
+msgstr ""
+
+msgid "Cannot copy file '{0}': {1}"
+msgstr ""
+
+msgid "Cannot run vi: $TERM, $VISUAL and $EDITOR are not set"
+msgstr ""
+
+msgid "Catalog message id"
+msgstr ""
+
+msgid "CentOS Bug Tracker"
+msgstr ""
+
+msgid "CentOS Bug Tracker URL"
+msgstr ""
+
+msgid "CentOS Bug Tracker account password"
+msgstr ""
+
+msgid "CentOS Bug Tracker account user name"
+msgstr ""
+
+msgid "CentOS Bug Tracker project"
+msgstr ""
+
+msgid "CentOS Bug Tracker project version"
+msgstr ""
+
+msgid "Check SSL key validity"
+msgstr ""
+
+msgid "Checking for duplicates"
+msgstr ""
+
+msgid "Checking for hints"
+msgstr ""
+
+msgid "Clear the search bar to see the list of security sensitive words."
+msgstr ""
+
+msgid "Closing bug %i as duplicate of bug %i"
+msgstr ""
+
+msgid "Compressing data"
+msgstr ""
+
+msgid "Config file"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Configuration file"
+msgstr ""
+
+msgid "Configuration file (may be given many times)"
+msgstr ""
+
+msgid "Configuration file for uReport"
+msgstr ""
+
+msgid "Confirm data to report"
+msgstr ""
+
+msgid "Contact email address"
+msgstr ""
+
+msgid ""
+"Create new Red Hat Support case - I would like to be contacted by Red Hat "
+"Support"
+msgstr ""
+
+msgid "Create reported_to in DIR"
+msgstr ""
+
+msgid "Creating a new bug"
+msgstr ""
+
+msgid "Creating a new case"
+msgstr ""
+
+msgid "Creating a new issue"
+msgstr ""
+
+msgid "Credentials are not provided by configuration."
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "D-Bus Secrets Service ReadAlias('%s') method failed: %s"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid "Define SYSLOG_IDENTIFIER systemd journal field"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Display version and exit"
+msgstr ""
+
+msgid "Do you still want to create a RHTSupport ticket?"
+msgstr ""
+
+msgid ""
+"Do you want to stop waiting and continue in reporting without properly "
+"loaded configuration?"
+msgstr ""
+
+msgid "Documentation which might be relevant: "
+msgstr ""
+
+msgid "Don't ask me again"
+msgstr ""
+
+msgid "Don't store passwords"
+msgstr ""
+
+msgid "Download cancelled by user"
+msgstr ""
+
+msgid "Downloading ({0} of {1}) {2}: {3:3}%"
+msgstr ""
+
+msgid "Downloading package {0} failed"
+msgstr ""
+
+msgid "Downloading {0:.2f}Mb, installed size: {1:.2f}Mb. Continue?"
+msgstr ""
+
+msgid "Dump problem dir into systemd journal fields"
+msgstr ""
+
+msgid ""
+"Email address of %s was not specified. Would you like to do so now? If not, "
+"'%s' is to be used"
+msgstr ""
+
+msgid ""
+"Email address that can be used by ABRT server to inform you about news and "
+"updates"
+msgstr ""
+
+msgid "Email was sent to: %s"
+msgstr ""
+
+msgid "Emergency analysis"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error in HTTP POST, HTTP code: 404 (Not found), URL:'%s'"
+msgstr ""
+
+msgid "Error in MantisBT request at '%s'"
+msgstr ""
+
+msgid "Error in MantisBT request at '%s': %s"
+msgstr ""
+
+msgid "Error in case creation at '%s', HTTP code: %d"
+msgstr ""
+
+msgid "Error in case creation at '%s', HTTP code: %d, server says: '%s'"
+msgstr ""
+
+msgid "Error in case creation at '%s': %s"
+msgstr ""
+
+msgid "Error in case creation at '%s': no Location URL, HTTP code: %d"
+msgstr ""
+
+msgid "Error in comment creation at '%s', HTTP code: %d"
+msgstr ""
+
+msgid "Error in comment creation at '%s', HTTP code: %d, server says: '%s'"
+msgstr ""
+
+msgid "Error in comment creation at '%s': %s"
+msgstr ""
+
+msgid "Error in comment creation at '%s': no Location URL, HTTP code: %d"
+msgstr ""
+
+msgid "Error initializing yum (YumBase.doConfigSetup): '{0!s}'"
+msgstr ""
+
+msgid "Error reading repository configuration: '{0!s}'"
+msgstr ""
+
+msgid "Error retrieving filelists: '{0!s}'"
+msgstr ""
+
+msgid "Error retrieving metadata: '{0!s}'"
+msgstr ""
+
+msgid "Error setting up repositories: '{0!s}'"
+msgstr ""
+
+msgid "Error: %s"
+msgstr ""
+
+msgid "Error: can't make cachedir, exiting"
+msgstr ""
+
+msgid "Essential element '%s' is missing, can't continue"
+msgstr ""
+
+msgid ""
+"Event '%s' requires permission to send possibly sensitive data.\n"
+"Do you want to continue?"
+msgstr ""
+
+msgid ""
+"Event '%s' requires permission to send possibly sensitive data. Do you want "
+"to continue?"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid ""
+"Examples:&#xA;ftp://[user[:pass]@]host/dir/[file.tar.gz]&#xA;scp://[user[:"
+"pass]@]host/dir/[file.tar.gz]&#xA;file:///dir/[file.tar.gz]"
+msgstr ""
+
+msgid "Expert mode"
+msgstr ""
+
+msgid "Export the problem data for manual reporting"
+msgstr ""
+
+msgid "Export the problem data information to a text file"
+msgstr ""
+
+msgid "Extracting cpio from {0}"
+msgstr ""
+
+msgid "FTP Proxy"
+msgstr ""
+
+msgid "Failed on submitting the problem"
+msgstr ""
+
+msgid "Failed to add MantisBT issue note: '%s'"
+msgstr ""
+
+msgid "Failed to attach file: '%s'"
+msgstr ""
+
+msgid "Failed to close TAR writer"
+msgstr ""
+
+msgid "Failed to create a new bug."
+msgstr ""
+
+msgid "Failed to create a new issue: '%s'"
+msgstr ""
+
+msgid "Failed to dump xml node."
+msgstr ""
+
+msgid "Failed to finalize TAR archive"
+msgstr ""
+
+msgid "Failed to format duplicate comment from problem data"
+msgstr ""
+
+msgid "Failed to format problem data"
+msgstr ""
+
+msgid "Failed to generate microreport from the problem data"
+msgstr ""
+
+msgid "Failed to get 'REDHAT_BUGZILLA_PRODUCT' from '/etc/os-release'."
+msgstr ""
+
+msgid "Failed to get MantisBT issue: '%s'"
+msgstr ""
+
+msgid "Failed to get custom fields for '%s' project"
+msgstr ""
+
+msgid "Failed to get project id from name"
+msgstr ""
+
+msgid "Failed to open TAR writer"
+msgstr ""
+
+msgid "Failed to read '/etc/os-release' to get Bugzilla product."
+msgstr ""
+
+msgid "Failed to save file '%s'"
+msgstr ""
+
+msgid "Failed to search MantisBT duplicate issue: '%s'"
+msgstr ""
+
+msgid "Failed to search MantisBT issue by duphash: '%s'"
+msgstr ""
+
+msgid "Failed to upload uReport to the server '%s'"
+msgstr ""
+
+msgid "Failed to upload uReport to the server '%s' with curl: %s"
+msgstr ""
+
+msgid "Force reporting even if this problem is already reported"
+msgstr ""
+
+msgid "Formatting file for a new case"
+msgstr ""
+
+msgid "Formatting file for an email"
+msgstr ""
+
+msgid "Formatting file for catalog message"
+msgstr ""
+
+msgid "Formatting file for duplicates"
+msgstr ""
+
+msgid "Formatting file for initial comment"
+msgstr ""
+
+msgid "Found the same comment in the bug history, not adding a new one"
+msgstr ""
+
+msgid "Found the same comment in the issue history, not adding a new one"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "HTTP Proxy"
+msgstr ""
+
+msgid "HTTPS Proxy"
+msgstr ""
+
+msgid ""
+"How did this problem happen (step-by-step)? How can it be reproduced? Any "
+"additional comments useful for diagnosing the problem? Please use English if "
+"possible."
+msgstr ""
+
+msgid "How it can be reproduced (one step per line)?"
+msgstr ""
+
+msgid "How reproducible is this problem?"
+msgstr ""
+
+msgid "How would you like to report the problem?"
+msgstr ""
+
+msgid "I can reproduce this problem"
+msgstr ""
+
+msgid "I don't know what caused this problem"
+msgstr ""
+
+msgid "I have experienced this problem for the first time"
+msgstr ""
+
+msgid "I reviewed the data and _agree with submitting it"
+msgstr ""
+
+msgid ""
+"If you are reporting to a remote server, make sure you removed all private "
+"data (such as usernames and passwords). Backtrace, command line, environment "
+"variables are the typical items in need of examining."
+msgstr ""
+
+msgid ""
+"If you are sure that this problem is not caused by network problems neither "
+"by invalid configuration\n"
+"and want to help us, please click on the upload button and provide all "
+"problem data for a deep analysis.\n"
+"<i>Before you do that, please consider the security risks. Problem data may "
+"contain sensitive information like\n"
+"passwords. The uploaded data are stored in a protected storage and only a "
+"limited number of persons can read them.</i>"
+msgstr ""
+
+msgid "If you don't know how to describe it, you can"
+msgstr ""
+
+msgid ""
+"If you want to report the problem to a different destination, collect "
+"additional information, or provide a better problem description and repeat "
+"reporting process, press 'Forward'."
+msgstr ""
+
+msgid ""
+"If you want to update the configuration and try to report again, please open "
+"<b>Preferences</b> item\n"
+"in the application menu and after applying the configuration changes click "
+"<b>Repeat</b> button."
+msgstr ""
+
+msgid "Ignored invalid ISO date of report result '%s'"
+msgstr ""
+
+msgid "Ignoring URL without scheme and hostname"
+msgstr ""
+
+msgid ""
+"In order to enable the built-in screencasting functionality the package fros-"
+"recordmydesktop has to be installed. Please run the following command if you "
+"want to install it.\n"
+"\n"
+"<b>su -c \"dnf install fros-recordmydesktop\"</b>"
+msgstr ""
+
+msgid ""
+"In order to enable the built-in screencasting functionality the package fros-"
+"recordmydesktop has to be installed. Please run the following command if you "
+"want to install it.\n"
+"\n"
+"<b>su -c \"yum install fros-recordmydesktop\"</b>"
+msgstr ""
+
+msgid "Include"
+msgstr ""
+
+msgid "Initializing package manager"
+msgstr ""
+
+msgid "Invalid boolean value '%s'"
+msgstr ""
+
+msgid "Invalid duplicate format file: '%s"
+msgstr ""
+
+msgid "Invalid format file: %s"
+msgstr ""
+
+msgid "Invalid input, exiting."
+msgstr ""
+
+msgid "Invalid number '%s'"
+msgstr ""
+
+msgid "Invalid password or login."
+msgstr ""
+
+msgid "Invalid password or login. Please enter the password for '%s':"
+msgstr ""
+
+msgid "Invalid password or login. Please enter your Bugzilla login:"
+msgstr ""
+
+msgid "Invalid password or login. Please enter your Red Hat login:"
+msgstr ""
+
+msgid "Invalid utf8 character '%c'"
+msgstr ""
+
+msgid "Issue %i is CLOSED as DUPLICATE, but it has no DUPLICATE_ID"
+msgstr ""
+
+msgid "Issue %i is CLOSED, but it has no RESOLUTION"
+msgstr ""
+
+msgid "Item '%s' already exists and is not modifiable"
+msgstr ""
+
+msgid "Kerneloops URL"
+msgstr ""
+
+msgid "Kerneloops.org"
+msgstr ""
+
+msgid "Learn more about restricted access in the configuration"
+msgstr ""
+
+msgid "Linking ABRT crash statistics record with contact email: '%s'"
+msgstr ""
+
+msgid "Linking ABRT crash statistics record with the case"
+msgstr ""
+
+msgid "List possible events [which start with PREFIX]"
+msgstr ""
+
+msgid "Log File"
+msgstr ""
+
+msgid "Log to syslog"
+msgstr ""
+
+msgid "Logger"
+msgstr ""
+
+msgid "Logging into Bugzilla at %s"
+msgstr ""
+
+msgid "Logging out"
+msgstr ""
+
+msgid ""
+"Login is not provided by configuration. Please enter your Bugzilla login:"
+msgstr ""
+
+msgid "Login is not provided by configuration. Please enter your RHTS login:"
+msgstr ""
+
+msgid "Looking for needed packages in repositories"
+msgstr ""
+
+msgid "Looking for similar problems in MantisBT"
+msgstr ""
+
+msgid "Looking for similar problems in bugzilla"
+msgstr ""
+
+msgid "Looks like corrupted xml response, because '%s' member is missing."
+msgstr ""
+
+msgid "Mailx"
+msgstr ""
+
+msgid "Malformed url to Bugzilla '%s'."
+msgstr ""
+
+msgid "Malformed url to MantisBT '%s'."
+msgstr ""
+
+msgid "MantisBT couldn't find parent of issue %d"
+msgstr ""
+
+msgid ""
+"MantisBT doesn't contain custom field '%s', which is required for full "
+"functionality of the reporter. Do you still want to create a new issue?"
+msgstr ""
+
+msgid "Message subject"
+msgstr ""
+
+msgid "Missing mandatory value"
+msgstr ""
+
+msgid "Missing required item: '%s'"
+msgstr ""
+
+msgid "N"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name of the logfile"
+msgstr ""
+
+msgid ""
+"Need writable directory, but '%s' is not writable. Move it to '%s' and "
+"operate on the moved data?"
+msgstr ""
+
+msgid ""
+"Neither environment variable 'uReport_ContactEmail' nor configuration option "
+"'ContactEmail' is set"
+msgstr ""
+
+msgid "New bug id: %i"
+msgstr ""
+
+msgid "No description available"
+msgstr ""
+
+msgid "No processing for event '%s' is defined"
+msgstr ""
+
+msgid "No reporters available"
+msgstr ""
+
+msgid ""
+"No reporting targets are defined for this problem. Check configuration in /"
+"etc/libreport/*"
+msgstr ""
+
+msgid "Noninteractive: don't ask questions, assume 'yes'"
+msgstr ""
+
+msgid "Not uploading an empty uReport"
+msgstr ""
+
+msgid "Note does not contain rating"
+msgstr ""
+
+msgid "Notify only (Do not mark the report as sent)"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid ""
+"On the following screens, you will be asked to describe how the problem "
+"occurred, to choose how to analyze the problem (if needed), to review "
+"collected data, and to choose where the problem should be reported. Click "
+"'Forward' to proceed."
+msgstr ""
+
+msgid "Oops server url"
+msgstr ""
+
+msgid "Output file"
+msgstr ""
+
+msgid "Packages to download: {0}"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid ""
+"Password is not provided by configuration. Please enter the password for "
+"'%s':"
+msgstr ""
+
+msgid ""
+"Please add a comprehensive description of the problem you have. This is a "
+"very long place holder."
+msgstr ""
+
+msgid ""
+"Please enter a URL (scp, ftp, etc.) where the problem data is to be exported:"
+msgstr ""
+
+msgid "Please enter password for '%s//%s@%s':"
+msgstr ""
+
+msgid "Please enter password for uploading:"
+msgstr ""
+
+msgid "Please enter the password for"
+msgstr ""
+
+msgid "Please enter user name for '%s//%s':"
+msgstr ""
+
+msgid "Please enter your MantisBT login:"
+msgstr ""
+
+msgid ""
+"Please provide a short description of the problem and please include the "
+"steps you have used to reproduce the problem."
+msgstr ""
+
+msgid "Please provide the steps you have used to reproduce the problem."
+msgstr ""
+
+msgid "Please report this problem to ABRT project developers."
+msgstr ""
+
+msgid ""
+"Please review the data before it gets reported. Depending on reporter "
+"chosen, it may end up publicly visible."
+msgstr ""
+
+msgid ""
+"Please try to install debuginfo manually using the command: \"debuginfo-"
+"install %s\" and try again."
+msgstr ""
+
+msgid "Please, type email address of %s:"
+msgstr ""
+
+msgid ""
+"Possible sensitive data detected, feel free to edit the report and remove "
+"them."
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Print BUG_ID which has given DUPHASH"
+msgstr ""
+
+msgid ""
+"Problem '{0!s}' occured while downloading from mirror: '{1!s}'. Trying next "
+"one"
+msgstr ""
+
+msgid "Problem description"
+msgstr ""
+
+msgid "Problem details"
+msgstr ""
+
+msgid "Problem directory"
+msgstr ""
+
+msgid "Process the C/C++ crash using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the C/C++ crash using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the C/C++ crash using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the Java exception using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the Java exception using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the Java exception using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the JavaScript exception using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the JavaScript exception using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the JavaScript exception using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the X Server problem using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the X Server problem using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the X Server problem using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the kernel crash using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the kernel crash using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the kernel crash using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the kerneloops using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the kerneloops using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the kerneloops using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the problem using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the problem using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the problem using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the python 3 exception using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the python 3 exception using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the python exception using the CentOS infrastructure"
+msgstr ""
+
+msgid "Process the python exception using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the python exception using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Process the report using the Fedora infrastructure"
+msgstr ""
+
+msgid "Process the report using the Red Hat infrastructure"
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+msgid "Processing did not start yet"
+msgstr ""
+
+msgid "Processing done"
+msgstr ""
+
+msgid "Processing failed."
+msgstr ""
+
+msgid "Processing finished, please proceed to the next step."
+msgstr ""
+
+msgid "Processing finished."
+msgstr ""
+
+msgid "Processing interrupted: can't continue without writable directory."
+msgstr ""
+
+msgid ""
+"Processing of the problem failed. This can have many reasons but there are "
+"three most common:\n"
+"\t▫ <b>network connection problems</b>\n"
+"\t▫ <b>corrupted problem data</b>\n"
+"\t▫ <b>invalid configuration</b>"
+msgstr ""
+
+msgid "Processing was canceled"
+msgstr ""
+
+msgid "Processing was interrupted because the problem is not reportable."
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "Provide additional information"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "RH Portal URL"
+msgstr ""
+
+msgid "Recipient"
+msgstr ""
+
+msgid "Recipient's email"
+msgstr ""
+
+msgid "Red Hat Customer Support"
+msgstr ""
+
+msgid "Red Hat customer password"
+msgstr ""
+
+msgid "Red Hat customer user name"
+msgstr ""
+
+msgid "Remove DIR after reporting"
+msgstr ""
+
+msgid "Remove PROBLEM_DIR after reporting"
+msgstr ""
+
+msgid "Removing {0}"
+msgstr ""
+
+msgid "Repeat"
+msgstr ""
+
+msgid "Report Uploader"
+msgstr ""
+
+msgid "Report a bug to Fedora maintainers"
+msgstr ""
+
+msgid "Report a bug to Red Hat Bugzilla"
+msgstr ""
+
+msgid "Report a bug to Red Hat Customer Portal"
+msgstr ""
+
+msgid "Report result label mustn't be empty string."
+msgstr ""
+
+msgid "Report result label mustn't contain ':' character."
+msgstr ""
+
+msgid "Report to Bugzilla bug tracker"
+msgstr ""
+
+msgid "Report to CentOS Bug Tracker"
+msgstr ""
+
+msgid "Report to Fedora"
+msgstr ""
+
+msgid "Report to Red Hat Bugzilla"
+msgstr ""
+
+msgid "Report to Red Hat support"
+msgstr ""
+
+msgid "Reported:"
+msgstr ""
+
+msgid "Reporting"
+msgstr ""
+
+msgid "Reporting disabled because the backtrace is unusable."
+msgstr ""
+
+msgid "Reporting has finished. You can close this window now."
+msgstr ""
+
+msgid "Restrict access"
+msgstr ""
+
+msgid ""
+"Restrict access to the created bugzilla ticket allowing only users from "
+"specified groups to view it (see advanced settings for more details)"
+msgstr ""
+
+msgid "Restrict access to the report"
+msgstr ""
+
+msgid "Restrict access to this group only"
+msgstr ""
+
+msgid ""
+"Restrict the access to specified groups &lt;a href=\"https://github.com/abrt/"
+"abrt/wiki/FAQ#creating-private-bugzilla-tickets\"&gt;?&lt;/a&gt;"
+msgstr ""
+
+msgid "Review the data"
+msgstr ""
+
+msgid "Run only these events"
+msgstr ""
+
+msgid ""
+"SOAP: Failed to add a new child node because of no node or no child name."
+msgstr ""
+
+msgid "SOAP: Failed to add method parametr."
+msgstr ""
+
+msgid ""
+"SOAP: Failed to add new issue parameters because the required items are "
+"missing."
+msgstr ""
+
+msgid "SOAP: Failed to add new issue parametrs."
+msgstr ""
+
+msgid ""
+"SOAP: Failed to create SOAP string because of invalid function arguments."
+msgstr ""
+
+msgid "SOAP: Failed to create a new property in custom fields."
+msgstr ""
+
+msgid "SOAP: Failed to create a new property."
+msgstr ""
+
+msgid "SOAP: Failed to create a new xml child item."
+msgstr ""
+
+msgid "SOAP: Failed to create xml text reader."
+msgstr ""
+
+msgid "SOAP: Failed to dump xml node."
+msgstr ""
+
+msgid "SOAP: Failed to get child element because of no parent."
+msgstr ""
+
+msgid "SOAP: Failed to get child node because of no parent."
+msgstr ""
+
+msgid "SOAP: Failed to get next element because of no node."
+msgstr ""
+
+msgid "SOAP: Failed to get xml root element."
+msgstr ""
+
+msgid "SOAP: Failed to parse xml (get related to issue)."
+msgstr ""
+
+msgid "SOAP: Failed to parse xml (searching value at depth by name)."
+msgstr ""
+
+msgid "SOAP: Failed to parse xml during creating request."
+msgstr ""
+
+msgid "SOAP: Failed to parse xml."
+msgstr ""
+
+msgid "SOAP: Failed to print SOAP string."
+msgstr ""
+
+msgid "SSH Private key file"
+msgstr ""
+
+msgid "SSH Public key file"
+msgstr ""
+
+msgid "SSH private key file"
+msgstr ""
+
+msgid "SSH public key file"
+msgstr ""
+
+msgid "Save as text file"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Secret Service is not available, your settings won't be saved!"
+msgstr ""
+
+msgid "Select a workflow to run: "
+msgstr ""
+
+msgid "Select an event to run: "
+msgstr ""
+
+msgid "Select how to report this problem"
+msgstr ""
+
+msgid "Send Binary Data"
+msgstr ""
+
+msgid "Send binary files like coredump"
+msgstr ""
+
+msgid "Send the problem data via email"
+msgstr ""
+
+msgid "Send to kernel oops tracker"
+msgstr ""
+
+msgid "Send via email"
+msgstr ""
+
+msgid "Sender"
+msgstr ""
+
+msgid "Sender's email"
+msgstr ""
+
+msgid "Sending %s to %s//%s"
+msgstr ""
+
+msgid "Sending ABRT crash statistics data"
+msgstr ""
+
+msgid "Sending a notification email to: %s"
+msgstr ""
+
+msgid "Sending an email..."
+msgstr ""
+
+msgid "Sends ureports to FAF server"
+msgstr ""
+
+msgid "Sensitive words"
+msgstr ""
+
+msgid "Server responded with an error: '%s'"
+msgstr ""
+
+msgid "Sets the proxy server to use for FTP"
+msgstr ""
+
+msgid "Sets the proxy server to use for HTTP"
+msgstr ""
+
+msgid "Sets the proxy server to use for HTTPS"
+msgstr ""
+
+msgid "Setting up repositories"
+msgstr ""
+
+msgid "Show log"
+msgstr ""
+
+msgid "Show password"
+msgstr ""
+
+msgid ""
+"Since crashes without a known reproducer can be difficult to diagnose, "
+"please provide a comprehensive description of the problem you have "
+"encountered."
+msgstr ""
+
+msgid "Size:"
+msgstr ""
+
+msgid "Specify a Bugzilla product (ignored without -h)"
+msgstr ""
+
+msgid "Specify server URL"
+msgstr ""
+
+msgid ""
+"Specify this only if you needed different product than specified in /etc/os-"
+"release"
+msgstr ""
+
+msgid ""
+"Specify this only if you needed different product version than specified in /"
+"etc/os-release"
+msgstr ""
+
+msgid ""
+"Specify this only if you needed different project than specified in /etc/os-"
+"release"
+msgstr ""
+
+msgid ""
+"Specify this only if you needed different project version than specified in /"
+"etc/os-release"
+msgstr ""
+
+msgid "Status: %s%s%s %s/show_bug.cgi?id=%u"
+msgstr ""
+
+msgid "Status: %s%s%s %s/view.php?id=%u"
+msgstr ""
+
+msgid "String doesn't seem to be a date: '%s'"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid ""
+"Submit &lt;a href=\"https://access.redhat.com/articles/642323\"&gt;micro-"
+"report&lt;/a&gt; when creating a new case."
+msgstr ""
+
+msgid "Submit anonymous crash report"
+msgstr ""
+
+msgid ""
+"Submit anonymous crash report - I do not want to be contacted by Red Hat "
+"Support"
+msgstr ""
+
+msgid "Submit uReport"
+msgstr ""
+
+msgid "Submit uReport before creating a new case"
+msgstr ""
+
+msgid "Submitting oops report to %s"
+msgstr ""
+
+msgid "Successfully created %s"
+msgstr ""
+
+msgid "The MantisBT project has not been deretmined."
+msgstr ""
+
+msgid "The URL '%s' does not exist (got error 404 from server)"
+msgstr ""
+
+msgid ""
+"The backtrace is incomplete, please make sure you provide the steps to "
+"reproduce."
+msgstr ""
+
+msgid "The backtrace probably can't help developer to diagnose the bug."
+msgstr ""
+
+msgid ""
+"The crashed program was released by '%s'. Would you like to report the "
+"problem to Red Hat Support?"
+msgstr ""
+
+msgid "The date: '%s' has unrecognized suffix: '%s'"
+msgstr ""
+
+msgid "The date: '%s' is out of UNIX time stamp range"
+msgstr ""
+
+msgid ""
+"The issue will be accessible only to users with access to 'Private Issues'"
+msgstr ""
+
+msgid ""
+"The problem cannot be reported due to an invalid data. '%s' file does not "
+"contain a number."
+msgstr ""
+
+msgid ""
+"The problem has only occurred once and the ability to reproduce the problem "
+"is unknown. Please ensure you will be able to provide detailed information "
+"to our Support Team. Would you like to continue and open a new support case?"
+msgstr ""
+
+msgid ""
+"The program '%s' does not appear to be provided by Red Hat. Would you like "
+"to report the problem to Red Hat Support?"
+msgstr ""
+
+msgid "The report result '%s' is missing URL."
+msgstr ""
+
+msgid "The report was appended to %s"
+msgstr ""
+
+msgid "The report was stored to %s"
+msgstr ""
+
+msgid "The response from '%s' has invalid format"
+msgstr ""
+
+msgid "The server at '%s' currently can't handle the request (got error 503)"
+msgstr ""
+
+msgid "The server at '%s' encountered an internal error (got error 500)"
+msgstr ""
+
+msgid "The server at '%s' responded with an error: '%s'"
+msgstr ""
+
+msgid "This problem does not have an uReport assigned."
+msgstr ""
+
+msgid "This problem has already been reported."
+msgstr ""
+
+msgid ""
+"This problem has been reported to Bugzilla '%s' which differs from the "
+"configured Bugzilla '%s'."
+msgstr ""
+
+msgid ""
+"This problem has been reported to MantisBT '%s' which differs from the "
+"configured MantisBT '%s'."
+msgstr ""
+
+msgid "This problem has not been reported to '%s'."
+msgstr ""
+
+msgid "This problem has not been reported to Bugzilla."
+msgstr ""
+
+msgid "This problem occurs repeatedly"
+msgstr ""
+
+msgid "This problem should not be reported (it is likely a known problem). %s"
+msgstr ""
+
+msgid ""
+"This problem was already reported to MantisBT (see '%s'). Do you still want "
+"to create a new issue?"
+msgstr ""
+
+msgid "Ticket/case ID"
+msgstr ""
+
+msgid "Type mismatch has been detected in the response from '%s'"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Unable to find bug ID in bugzilla URL '%s'"
+msgstr ""
+
+msgid "Unable to parse bug ID from bugzilla URL '%s'"
+msgstr ""
+
+msgid "Unable to parse response from ureport server at '%s'"
+msgstr ""
+
+msgid "Unexpected HTTP response from '%s': %d"
+msgstr ""
+
+msgid "Unpacking failed, aborting download..."
+msgstr ""
+
+msgid "Unsupported option type"
+msgstr ""
+
+msgid "Updates which possibly help: "
+msgstr ""
+
+msgid "Upload FILEs [to case with this ID]"
+msgstr ""
+
+msgid "Upload as tar.gz file (via FTP/SCP/...)"
+msgstr ""
+
+msgid "Upload for analysis"
+msgstr ""
+
+msgid "Upload the data via scp or ftp to a remote destination"
+msgstr ""
+
+msgid "Upload the problem data for further analysis"
+msgstr ""
+
+msgid "Upload the problem data to a server"
+msgstr ""
+
+msgid "Uploaded: %llu of %llu kbytes"
+msgstr ""
+
+msgid "Url or request isn't specified."
+msgstr ""
+
+msgid "Usage: "
+msgstr ""
+
+msgid "Use HTTP Authentication"
+msgstr ""
+
+msgid "Use client authentication"
+msgstr ""
+
+msgid ""
+"Use this button to generate more informative backtrace after you installed "
+"additional debug packages"
+msgstr ""
+
+msgid "Use this field if you do not want to have password in URL"
+msgstr ""
+
+msgid "Use this field if you do not want to have user name in URL"
+msgstr ""
+
+msgid "Use this field to specify SSH private keyfile"
+msgstr ""
+
+msgid "Use this field to specify SSH public keyfile"
+msgstr ""
+
+msgid "User name"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Using Bugzilla ID '%s'"
+msgstr ""
+
+msgid "Using MantisBT ID '%s'"
+msgstr ""
+
+msgid "Using default product '%s'"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Verify SSL"
+msgstr ""
+
+msgid "View/edit a text file"
+msgstr ""
+
+msgid ""
+"Warning, private ticket groups already specified as cmdline argument, "
+"ignoring the env variable and configuration"
+msgstr ""
+
+msgid ""
+"Warning: Not enough free space in cache dir '{0}' ({1:.2f}Mb left). Continue?"
+msgstr ""
+
+msgid ""
+"Warning: Not enough free space in tmp dir '{0}' ({1:.2f}Mb left). Continue?"
+msgstr ""
+
+msgid "Watch Bugzilla Bug"
+msgstr ""
+
+msgid "Watch already reported bugs"
+msgstr ""
+
+msgid "When creating bug, attach binary files too"
+msgstr ""
+
+msgid ""
+"Where do you want to upload the tarball with report in form login:"
+"password@url"
+msgstr ""
+
+msgid "Workflows"
+msgstr ""
+
+msgid "You are trying to copy a file onto itself"
+msgstr ""
+
+msgid ""
+"You can create bugs.centos.org account &lt;a href=\"https://bugs.centos.org/"
+"signup_page.php\"&gt;here&lt;/a&gt;"
+msgstr ""
+
+msgid ""
+"You can create bugzilla.redhat.com account &lt;a href=\"https://bugzilla."
+"redhat.com/createaccount.cgi\"&gt;here&lt;/a&gt;"
+msgstr ""
+
+msgid "You have chosen number out of range"
+msgstr ""
+
+msgid ""
+"You have requested to make your data accessible only to a specific group and "
+"this bug is a duplicate of bug: %s/%u In case of bug duplicates a new "
+"comment is added to the original bug report but access to the comments "
+"cannot be restricted to a specific group. Would you like to open a new bug "
+"report and close it as DUPLICATE of the original one? Otherwise, the bug "
+"reporting procedure will be terminated."
+msgstr ""
+
+msgid "You need to fill the how to before you can proceed..."
+msgstr ""
+
+msgid "You need to specify bthash of the uReport to attach."
+msgstr ""
+
+msgid "You need to specify bug ID, contact email, comment or all of them"
+msgstr ""
+
+msgid "Your input is not valid, because of:"
+msgstr ""
+
+msgid ""
+"Your problem seems to be caused by %s\n"
+"\n"
+"%s\n"
+msgstr ""
+
+msgid "Your problem seems to be caused by one of the following:\n"
+msgstr ""
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "_Close"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_No"
+msgstr ""
+
+msgid "_OK"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "_Stop"
+msgstr ""
+
+msgid "_Yes"
+msgstr ""
+
+msgid "add a screencast"
+msgstr ""
+
+msgid ""
+"attach DATA as ureport attachment ATTACHMENT_TYPE (used only with -l|-L)"
+msgstr ""
+
+msgid "attach RHBZ bug (requires -a|-A, conflicts with -B)"
+msgstr ""
+
+msgid ""
+"attach data of FIELD [URL] of the last report result (requires -a|-A, -r and "
+"-T, conflicts with -l)"
+msgstr ""
+
+msgid ""
+"attach last RHBZ bug from reported_to (requires -a|-A, conflicts with -b)"
+msgstr ""
+
+msgid "attach short text (requires -a|-A, conflicts with -D)"
+msgstr ""
+
+msgid "attach short text from comment (requires -a|-A, conflicts with -d)"
+msgstr ""
+
+msgid "attach to a bthash from reported_to (conflicts with -a)"
+msgstr ""
+
+msgid "attach value (requires -a|-A and -T, conflicts with -L)"
+msgstr ""
+
+msgid "bthash of uReport to attach (conflicts with -A)"
+msgstr ""
+
+msgid "can't get secret value of '%s': %s"
+msgstr ""
+
+msgid "cannot be reported"
+msgstr ""
+
+msgid "contact e-mail address (requires -a|-A, conflicts with -E)"
+msgstr ""
+
+msgid ""
+"contact e-mail address from environment or configuration file (requires -a|-"
+"A, conflicts with -e)"
+msgstr ""
+
+msgid "data"
+msgstr ""
+
+msgid "e"
+msgstr ""
+
+msgid "f"
+msgstr ""
+
+msgid "file"
+msgstr ""
+
+msgid "gzip exited with %d"
+msgstr ""
+
+msgid "gzip killed with signal %d"
+msgstr ""
+
+msgid "gzip process failed"
+msgstr ""
+
+msgid "locked by another process"
+msgstr ""
+
+msgid "not a problem directory"
+msgstr ""
+
+msgid "permission denied"
+msgstr ""
+
+msgid "uReport"
+msgstr ""
+
+msgid "uReport Server URL"
+msgstr ""
+
+msgid "uid value is not valid: '%s'"
+msgstr ""
+
+msgid ""
+"use REPORT_RESULT_TYPE when looking for FIELD in reported_to (used only with "
+"-L)"
+msgstr ""
+
+msgid "y"
+msgstr ""

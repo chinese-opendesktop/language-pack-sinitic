@@ -1,0 +1,520 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "  OK  "
+msgstr ""
+
+msgid " done."
+msgstr ""
+
+msgid " failed."
+msgstr ""
+
+msgid " failed; no link present.  Check cable?"
+msgstr ""
+
+msgid "$*"
+msgstr ""
+
+msgid "$0: Usage: daemon [+/-nicelevel] {program}"
+msgstr ""
+
+msgid "$0: configuration for ${1} not found."
+msgstr ""
+
+msgid "$STRING"
+msgstr ""
+
+msgid ""
+"$alias device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr ""
+
+msgid "$base $killlevel"
+msgstr ""
+
+msgid "$base shutdown"
+msgstr ""
+
+msgid "$base startup"
+msgstr ""
+
+msgid "${base} (pid $pid) is running..."
+msgstr ""
+
+msgid "${base} dead but pid file exists"
+msgstr ""
+
+msgid "${base} dead but subsys locked"
+msgstr ""
+
+msgid "${base} is stopped"
+msgstr ""
+
+msgid "${base} status unknown due to insufficient privileges."
+msgstr ""
+
+msgid ""
+"'No route to host' adding route '$networkipv6' via gateway '$gatewayipv6' "
+"through device '$device'"
+msgstr ""
+
+msgid "*** /etc/selinux/config indicates you want to manually fix labeling"
+msgstr ""
+
+msgid "*** Relabeling could take a very long time, depending on file"
+msgstr ""
+
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required."
+msgstr ""
+
+msgid "*** Warning -- SELinux ${SELINUXTYPE} policy relabel is required. "
+msgstr ""
+
+msgid "*** problems. Dropping you to a shell; the system will reboot"
+msgstr ""
+
+msgid "*** system size and speed of hard drives."
+msgstr ""
+
+msgid "*** when you leave the shell."
+msgstr ""
+
+msgid "/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist"
+msgstr ""
+
+msgid ""
+"/etc/sysconfig/network-scripts/chat-${DEVNAME} does not exist for ${DEVICE}"
+msgstr ""
+
+msgid "6to4 configuration is not valid"
+msgstr ""
+
+msgid ""
+"Argument 1 is empty but should contain interface name - skip IPv6to4 "
+"initialization"
+msgstr ""
+
+msgid "Bridge support not available: brctl not found"
+msgstr ""
+
+msgid "Bringing up interface $i: "
+msgstr ""
+
+msgid "Bringing up loopback interface: "
+msgstr ""
+
+msgid "Cannot add IPv6 address '$address' on dev '$device'"
+msgstr ""
+
+msgid ""
+"Cannot enable IPv6 privacy method '$IPV6_PRIVACY', not supported by kernel"
+msgstr ""
+
+msgid "Configured devices:"
+msgstr ""
+
+msgid "Currently active devices:"
+msgstr ""
+
+msgid "DEBUG    "
+msgstr ""
+
+msgid "Determining IP information for ${DEVICE}..."
+msgstr ""
+
+msgid "Determining IPv6 information for ${DEVICE}..."
+msgstr ""
+
+msgid "Device ${DEVICE} does not seem to be present, delaying initialization."
+msgstr ""
+
+msgid ""
+"Device ${DEVICE} has MAC address ${FOUNDMACADDR}, instead of configured "
+"address ${HWADDR}. Ignoring."
+msgstr ""
+
+msgid "Device ${DEVICE} has different MAC address than expected, ignoring."
+msgstr ""
+
+msgid "Device '$DEVICE' is already up, please shutdown first"
+msgstr ""
+
+msgid "Device '$DEVICE' isn't supported as a valid GRE device name."
+msgstr ""
+
+msgid ""
+"Device '$DEVICE' isn't supported here, use IPV6_AUTOTUNNEL setting and "
+"restart (IPv6) networking"
+msgstr ""
+
+msgid "Device '$device' doesn't exist"
+msgstr ""
+
+msgid "Device '$device' enabling didn't work"
+msgstr ""
+
+msgid "Device 'tun6to4' (from '$DEVICE') is already up, shutdown first"
+msgstr ""
+
+msgid "Disabling netconsole"
+msgstr ""
+
+msgid "ERROR    "
+msgstr ""
+
+msgid "ERROR: ${DEVICE} did not come up!"
+msgstr ""
+
+msgid "ERROR: could not add vlan ${VID} as ${DEVICE} on dev ${PHYSDEV}"
+msgstr ""
+
+msgid "Error adding address ${ipaddr[$idx]} for ${DEVICE}."
+msgstr ""
+
+msgid "Error adding default gateway ${GATEWAY} for ${DEVICE}."
+msgstr ""
+
+msgid "Error adding default gateway for ${REALDEVICE}."
+msgstr ""
+
+msgid "Error occurred while calculating the IPv6to4 prefix"
+msgstr ""
+
+msgid "Error, some other host already uses address ${IPADDR}."
+msgstr ""
+
+msgid "FAILED"
+msgstr ""
+
+msgid "Failed to bring up ${DEVICE}."
+msgstr ""
+
+msgid "Given IPv4 address '$ipv4addr' is not globally usable"
+msgstr ""
+
+msgid "Given IPv6 MTU '$ipv6_mtu' is out of range"
+msgstr ""
+
+msgid "Given IPv6 default device '$device' doesn't exist or isn't up"
+msgstr ""
+
+msgid "Given IPv6 default device '$device' requires an explicit nexthop"
+msgstr ""
+
+msgid ""
+"Given IPv6 default gateway '$address' has scope '$device_scope' defined, "
+"given default gateway device '$device' will be not used"
+msgstr ""
+
+msgid ""
+"Given IPv6 default gateway '$address' is link-local, but no scope or gateway "
+"device is specified"
+msgstr ""
+
+msgid "Given IPv6 default gateway '$address' is not in proper format"
+msgstr ""
+
+msgid "Given address '$addr' is not a global IPv4 one (arg 1)"
+msgstr ""
+
+msgid "Given address '$addr' is not a valid IPv4 one (arg 1)"
+msgstr ""
+
+msgid "Given device '$device' is not supported (arg 1)"
+msgstr ""
+
+msgid "Given pidfile '$pidfile' doesn't exist, cannot send trigger to radvd"
+msgstr ""
+
+msgid ""
+"Given remote address '$addressipv4tunnel' on tunnel device '$device' is "
+"already configured on device '$devnew'"
+msgstr ""
+
+msgid ""
+"Global IPv6 forwarding is disabled in configuration, but not currently "
+"disabled in kernel"
+msgstr ""
+
+msgid ""
+"Global IPv6 forwarding is enabled in configuration, but not currently "
+"enabled in kernel"
+msgstr ""
+
+msgid "INFO     "
+msgstr ""
+
+msgid ""
+"IPv6to4 configuration needs an IPv4 address on related interface or "
+"otherwise specified"
+msgstr ""
+
+msgid "Initializing netconsole"
+msgstr ""
+
+msgid "Invalid tunnel type $TYPE"
+msgstr ""
+
+msgid "Legacy static-route support not available: /sbin/route not found"
+msgstr ""
+
+msgid "Missing config file $PARENTCONFIG."
+msgstr ""
+
+msgid "Missing parameter 'IPv4 address' (arg 1)"
+msgstr ""
+
+msgid "Missing parameter 'IPv4-tunnel address' (arg 2)"
+msgstr ""
+
+msgid "Missing parameter 'IPv6 MTU' (arg 2)"
+msgstr ""
+
+msgid "Missing parameter 'IPv6-address' (arg 2)"
+msgstr ""
+
+msgid "Missing parameter 'IPv6-gateway' (arg 2)"
+msgstr ""
+
+msgid "Missing parameter 'IPv6-network' (arg 1)"
+msgstr ""
+
+msgid "Missing parameter 'address' (arg 1)"
+msgstr ""
+
+msgid "Missing parameter 'device' (arg 1)"
+msgstr ""
+
+msgid "Missing parameter 'global IPv4 address' (arg 2)"
+msgstr ""
+
+msgid "Missing parameter 'local IPv4 address' (arg 2)"
+msgstr ""
+
+msgid "Missing parameter 'selection' (arg 2)"
+msgstr ""
+
+msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
+msgstr ""
+
+msgid "No 802.1Q VLAN support available in kernel for device ${DEVICE}"
+msgstr ""
+
+msgid "No 802.1Q VLAN support available in kernel."
+msgstr ""
+
+msgid "No parameters given to setup a default route"
+msgstr ""
+
+msgid "No reason given for sending trigger to radvd"
+msgstr ""
+
+msgid "PASSED"
+msgstr ""
+
+msgid "PHYSDEV should be set for device ${DEVICE}"
+msgstr ""
+
+msgid "Pidfile '$pidfile' is empty, cannot send trigger to radvd"
+msgstr ""
+
+msgid "Please restart network with '/sbin/service network restart'"
+msgstr ""
+
+msgid "Reloading $prog configuration (via systemctl): "
+msgstr ""
+
+msgid "Resetting hostname ${HOSTNAME}: "
+msgstr ""
+
+msgid "Restarting $prog (via systemctl): "
+msgstr ""
+
+msgid "Server address not specified in /etc/sysconfig/netconsole"
+msgstr ""
+
+msgid "Setting up a new ${PEERCONF} config file"
+msgstr ""
+
+msgid "Shutting down interface $i: "
+msgstr ""
+
+msgid "Shutting down loopback interface: "
+msgstr ""
+
+msgid "Starting $prog (via systemctl): "
+msgstr ""
+
+msgid "Stopping $prog (via systemctl): "
+msgstr ""
+
+msgid ""
+"The service command supports only basic LSB actions (start, stop, restart, "
+"try-restart, reload, force-reload, status). For other actions, please try to "
+"use systemctl."
+msgstr ""
+
+msgid "Tunnel device '$device' bringing up didn't work"
+msgstr ""
+
+msgid "Tunnel device '$device' creation didn't work"
+msgstr ""
+
+msgid "Tunnel device 'sit0' enabling didn't work"
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Unsupported mechanism '$mechanism' for sending trigger to radvd"
+msgstr ""
+
+msgid "Unsupported reason '$reason' for sending trigger to radvd"
+msgstr ""
+
+msgid "Unsupported selection '$selection' specified (arg 2)"
+msgstr ""
+
+msgid "Usage: $0 {start|stop|reload|restart|showsysctl}"
+msgstr ""
+
+msgid "Usage: $0 {start|stop|status|restart|condrestart}"
+msgstr ""
+
+msgid "Usage: $0 {start|stop|status|restart|reload|force-reload}"
+msgstr ""
+
+msgid "Usage: ifup <configuration>"
+msgstr ""
+
+msgid "Usage: killproc [-p pidfile] [ -d delay] {program} [-signal]"
+msgstr ""
+
+msgid "Usage: pidfileofproc {program}"
+msgstr ""
+
+msgid "Usage: pidofproc [-p pidfile] {program}"
+msgstr ""
+
+msgid "Usage: status [-p pidfile] {program}"
+msgstr ""
+
+msgid "Usage: sys-unconfig"
+msgstr ""
+
+msgid "Users cannot control this device."
+msgstr ""
+
+msgid ""
+"Using 6to4 and RADVD IPv6 forwarding usually should be enabled, but it isn't"
+msgstr ""
+
+msgid "WARN     "
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+msgid ""
+"Warning: configured MTU '$IPV6TO4_MTU' for 6to4 exceeds maximum limit of "
+"'$tunnelmtu', ignored"
+msgstr ""
+
+msgid "Warning: interface 'tun6to4' does not support 'IPV6_DEFAULTGW', ignored"
+msgstr ""
+
+msgid ""
+"Warning: ipppd (kernel 2.4.x and below) doesn't support IPv6 using "
+"encapsulation 'syncppp'"
+msgstr ""
+
+msgid "Warning: link doesn't support IPv6 using encapsulation 'rawip'"
+msgstr ""
+
+msgid "adsl-start does not exist or is not executable for ${DEVICE}"
+msgstr ""
+
+msgid "error iN $FILE: didn't specify netmask or prefix"
+msgstr ""
+
+msgid "error in $FILE: IPADDR_START and IPADDR_END don't agree"
+msgstr ""
+
+msgid "error in $FILE: IPADDR_START greater than IPADDR_END"
+msgstr ""
+
+msgid "error in $FILE: already seen device $parent_device:$DEVNUM in $devseen"
+msgstr ""
+
+msgid "error in $FILE: already seen ipaddr $IPADDR in $ipseen"
+msgstr ""
+
+msgid "error in $FILE: didn't specify device or ipaddr"
+msgstr ""
+
+msgid "error in $FILE: invalid alias number"
+msgstr ""
+
+msgid "error in ifcfg-${parent_device}: files"
+msgstr ""
+
+msgid "ifup-ppp for ${DEVICE} exiting"
+msgstr ""
+
+msgid "ifup-ppp for ${DEVNAME} exiting"
+msgstr ""
+
+msgid "netconsole module loaded"
+msgstr ""
+
+msgid "netconsole module not loaded"
+msgstr ""
+
+msgid "netconsole: can't resolve MAC address of $SYSLOGADDR"
+msgstr ""
+
+msgid "pppd does not exist or is not executable"
+msgstr ""
+
+msgid "pppd does not exist or is not executable for ${DEVICE}"
+msgstr ""
+
+msgid "pppd started for ${DEVNAME} on ${MODEMPORT} at ${LINESPEED}"
+msgstr ""
+
+msgid "radvd control enabled, but config is not complete"
+msgstr ""
+
+msgid "radvd not (properly) installed, triggering failed"
+msgstr ""
+
+msgid "usage: $0 <net-device>"
+msgstr ""
+
+msgid "usage: ifdown <configuration>"
+msgstr ""
+
+msgid "usage: ifdown-routes <net-device> [<nickname>]"
+msgstr ""
+
+msgid "usage: ifup-aliases <net-device> [<parent-config>]\n"
+msgstr ""
+
+msgid "usage: ifup-routes <net-device> [<nickname>]"
+msgstr ""

@@ -1,0 +1,657 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"If the data directory is not specified, the environment variable PGDATA\n"
+"is used.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Less commonly used options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Other options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Report bugs to <pgsql-bugs@postgresql.org>.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Success. You can now start the database server using:\n"
+"\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Success. You can now start the database server using:\n"
+"\n"
+"    %s%s%spg_ctl%s -D %s%s%s -l logfile start\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Sync to disk skipped.\n"
+"The data directory might become corrupt if the operating system crashes.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"WARNING: enabling \"trust\" authentication for local connections\n"
+"You can change this by editing pg_hba.conf or using the option -A, or\n"
+"--auth-local and --auth-host, the next time you run initdb.\n"
+msgstr ""
+
+msgid ""
+"      --auth-host=METHOD    default authentication method for local TCP/IP "
+"connections\n"
+msgstr ""
+
+msgid ""
+"      --auth-local=METHOD   default authentication method for local-socket "
+"connections\n"
+msgstr ""
+
+msgid ""
+"      --lc-collate=, --lc-ctype=, --lc-messages=LOCALE\n"
+"      --lc-monetary=, --lc-numeric=, --lc-time=LOCALE\n"
+"                            set default locale in the respective category "
+"for\n"
+"                            new databases (default taken from environment)\n"
+msgstr ""
+
+msgid "      --locale=LOCALE       set default locale for new databases\n"
+msgstr ""
+
+msgid "      --no-locale           equivalent to --locale=C\n"
+msgstr ""
+
+msgid ""
+"      --pwfile=FILE         read password for the new superuser from file\n"
+msgstr ""
+
+msgid "  %s [OPTION]... [DATADIR]\n"
+msgstr ""
+
+msgid "  -?, --help                show this help, then exit\n"
+msgstr ""
+
+msgid ""
+"  -A, --auth=METHOD         default authentication method for local "
+"connections\n"
+msgstr ""
+
+msgid "  -E, --encoding=ENCODING   set default encoding for new databases\n"
+msgstr ""
+
+msgid "  -L DIRECTORY              where to find the input files\n"
+msgstr ""
+
+msgid ""
+"  -N, --no-sync             do not wait for changes to be written safely to "
+"disk\n"
+msgstr ""
+
+msgid ""
+"  -N, --nosync              do not wait for changes to be written safely to "
+"disk\n"
+msgstr ""
+
+msgid "  -S, --sync-only           only sync data directory\n"
+msgstr ""
+
+msgid ""
+"  -T, --text-search-config=CFG\n"
+"                            default text search configuration\n"
+msgstr ""
+
+msgid "  -U, --username=NAME       database superuser name\n"
+msgstr ""
+
+msgid "  -V, --version             output version information, then exit\n"
+msgstr ""
+
+msgid ""
+"  -W, --pwprompt            prompt for a password for the new superuser\n"
+msgstr ""
+
+msgid ""
+"  -X, --waldir=WALDIR       location for the write-ahead log directory\n"
+msgstr ""
+
+msgid ""
+"  -X, --xlogdir=XLOGDIR     location for the transaction log directory\n"
+msgstr ""
+
+msgid "  -d, --debug               generate lots of debugging output\n"
+msgstr ""
+
+msgid "  -k, --data-checksums      use data page checksums\n"
+msgstr ""
+
+msgid "  -n, --no-clean            do not clean up after errors\n"
+msgstr ""
+
+msgid "  -n, --noclean             do not clean up after errors\n"
+msgstr ""
+
+msgid "  -s, --show                show internal settings\n"
+msgstr ""
+
+msgid " [-D, --pgdata=]DATADIR     location for this database cluster\n"
+msgstr ""
+
+msgid ""
+"%s initializes a PostgreSQL database cluster.\n"
+"\n"
+msgstr ""
+
+msgid "%s: \"%s\" is not a valid server encoding name\n"
+msgstr ""
+
+msgid "%s: WAL directory \"%s\" not removed at user's request\n"
+msgstr ""
+
+msgid "%s: WAL directory location must be an absolute path\n"
+msgstr ""
+
+msgid "%s: WALdirectory \"%s\" not removed at user's request\n"
+msgstr ""
+
+msgid "%s: WARNING: cannot create restricted tokens on this platform\n"
+msgstr ""
+
+msgid ""
+"%s: cannot be run as root\n"
+"Please log in (using, e.g., \"su\") as the (unprivileged) user that will\n"
+"own the server process.\n"
+msgstr ""
+
+msgid "%s: could not access directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not access file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not allocate SIDs: error code %lu\n"
+msgstr ""
+
+msgid "%s: could not change permissions of \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not change permissions of directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create restricted token: error code %lu\n"
+msgstr ""
+
+msgid "%s: could not create symbolic link \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not execute command \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not find suitable encoding for locale \"%s\"\n"
+msgstr ""
+
+msgid ""
+"%s: could not find suitable text search configuration for locale \"%s\"\n"
+msgstr ""
+
+msgid "%s: could not fsync file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not get exit code from subprocess: error code %lu\n"
+msgstr ""
+
+msgid "%s: could not open directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open file \"%s\" for reading: %s\n"
+msgstr ""
+
+msgid "%s: could not open file \"%s\" for writing: %s\n"
+msgstr ""
+
+msgid "%s: could not open file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open process token: error code %lu\n"
+msgstr ""
+
+msgid "%s: could not re-execute with restricted token: error code %lu\n"
+msgstr ""
+
+msgid "%s: could not read directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not read password from file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not rename file \"%s\" to \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not start process for command \"%s\": error code %lu\n"
+msgstr ""
+
+msgid "%s: could not stat file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not write file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: data directory \"%s\" not removed at user's request\n"
+msgstr ""
+
+msgid "%s: directory \"%s\" exists but is not empty\n"
+msgstr ""
+
+msgid "%s: encoding mismatch\n"
+msgstr ""
+
+msgid "%s: failed to remove WAL directory\n"
+msgstr ""
+
+msgid "%s: failed to remove contents of WAL directory\n"
+msgstr ""
+
+msgid "%s: failed to remove contents of data directory\n"
+msgstr ""
+
+msgid "%s: failed to remove contents of transaction log directory\n"
+msgstr ""
+
+msgid "%s: failed to remove data directory\n"
+msgstr ""
+
+msgid "%s: failed to remove transaction log directory\n"
+msgstr ""
+
+msgid "%s: failed to restore old locale \"%s\"\n"
+msgstr ""
+
+msgid "%s: file \"%s\" does not exist\n"
+msgstr ""
+
+msgid "%s: file \"%s\" is not a regular file\n"
+msgstr ""
+
+msgid ""
+"%s: input file \"%s\" does not belong to PostgreSQL %s\n"
+"Check your installation or specify the correct path using the option -L.\n"
+msgstr ""
+
+msgid "%s: input file location must be an absolute path\n"
+msgstr ""
+
+msgid "%s: invalid authentication method \"%s\" for \"%s\" connections\n"
+msgstr ""
+
+msgid "%s: invalid locale name \"%s\"\n"
+msgstr ""
+
+msgid ""
+"%s: invalid locale settings; check LANG and LC_* environment variables\n"
+msgstr ""
+
+msgid "%s: locale \"%s\" requires unsupported encoding \"%s\"\n"
+msgstr ""
+
+msgid "%s: locale name has non-ASCII characters, skipped: \"%s\"\n"
+msgstr ""
+
+msgid "%s: locale name too long, skipped: \"%s\"\n"
+msgstr ""
+
+msgid ""
+"%s: must specify a password for the superuser to enable %s authentication\n"
+msgstr ""
+
+msgid ""
+"%s: no data directory specified\n"
+"You must identify the directory where the data for this database system\n"
+"will reside.  Do this with either the invocation option -D or the\n"
+"environment variable PGDATA.\n"
+msgstr ""
+
+msgid "%s: out of memory\n"
+msgstr ""
+
+msgid "%s: password file \"%s\" is empty\n"
+msgstr ""
+
+msgid "%s: password prompt and password file cannot be specified together\n"
+msgstr ""
+
+msgid "%s: removing WAL directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing contents of WAL directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing contents of data directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing contents of transaction log directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing data directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing transaction log directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: setlocale() failed\n"
+msgstr ""
+
+msgid ""
+"%s: superuser name \"%s\" is disallowed; role names cannot begin with \"pg_"
+"\"\n"
+msgstr ""
+
+msgid "%s: symlinks are not supported on this platform"
+msgstr ""
+
+msgid "%s: symlinks are not supported on this platform\n"
+msgstr ""
+
+msgid "%s: too many command-line arguments (first is \"%s\")\n"
+msgstr ""
+
+msgid "%s: transaction log directory \"%s\" not removed at user's request\n"
+msgstr ""
+
+msgid "%s: transaction log directory location must be an absolute path\n"
+msgstr ""
+
+msgid ""
+"%s: warning: specified text search configuration \"%s\" might not match "
+"locale \"%s\"\n"
+msgstr ""
+
+msgid ""
+"%s: warning: suitable text search configuration for locale \"%s\" is "
+"unknown\n"
+msgstr ""
+
+msgid "Data page checksums are disabled.\n"
+msgstr ""
+
+msgid "Data page checksums are enabled.\n"
+msgstr ""
+
+msgid ""
+"Encoding \"%s\" implied by locale is not allowed as a server-side encoding.\n"
+"The default database encoding will be set to \"%s\" instead.\n"
+msgstr ""
+
+msgid ""
+"Encoding \"%s\" is not allowed as a server-side encoding.\n"
+"Rerun %s with a different locale selection.\n"
+msgstr ""
+
+msgid "Enter it again: "
+msgstr ""
+
+msgid "Enter new superuser password: "
+msgstr ""
+
+msgid ""
+"If you want to create a new database system, either remove or empty\n"
+"the directory \"%s\" or run %s\n"
+"with an argument other than \"%s\".\n"
+msgstr ""
+
+msgid ""
+"If you want to store the WAL there, either remove or empty the directory\n"
+"\"%s\".\n"
+msgstr ""
+
+msgid ""
+"If you want to store the transaction log there, either\n"
+"remove or empty the directory \"%s\".\n"
+msgstr ""
+
+msgid ""
+"It contains a dot-prefixed/invisible file, perhaps due to it being a mount "
+"point.\n"
+msgstr ""
+
+msgid ""
+"It contains a lost+found directory, perhaps due to it being a mount point.\n"
+msgstr ""
+
+msgid "No usable system locales were found.\n"
+msgstr ""
+
+msgid "Passwords didn't match.\n"
+msgstr ""
+
+msgid "Rerun %s with the -E option.\n"
+msgstr ""
+
+msgid "Running in debug mode.\n"
+msgstr ""
+
+msgid "Running in no-clean mode.  Mistakes will not be cleaned up.\n"
+msgstr ""
+
+msgid "Running in noclean mode.  Mistakes will not be cleaned up.\n"
+msgstr ""
+
+msgid "The database cluster will be initialized with locale \"%s\".\n"
+msgstr ""
+
+msgid ""
+"The database cluster will be initialized with locales\n"
+"  COLLATE:  %s\n"
+"  CTYPE:    %s\n"
+"  MESSAGES: %s\n"
+"  MONETARY: %s\n"
+"  NUMERIC:  %s\n"
+"  TIME:     %s\n"
+msgstr ""
+
+msgid "The default database encoding has accordingly been set to \"%s\".\n"
+msgstr ""
+
+msgid "The default text search configuration will be set to \"%s\".\n"
+msgstr ""
+
+msgid ""
+"The encoding you selected (%s) and the encoding that the\n"
+"selected locale uses (%s) do not match.  This would lead to\n"
+"misbehavior in various character string processing functions.\n"
+"Rerun %s and either do not specify an encoding explicitly,\n"
+"or choose a matching combination.\n"
+msgstr ""
+
+msgid ""
+"The files belonging to this database system will be owned by user \"%s\".\n"
+"This user must also own the server process.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"The program \"postgres\" is needed by %s but was not found in the\n"
+"same directory as \"%s\".\n"
+"Check your installation.\n"
+msgstr ""
+
+msgid ""
+"The program \"postgres\" was found by \"%s\"\n"
+"but was not the same version as %s.\n"
+"Check your installation.\n"
+msgstr ""
+
+msgid ""
+"This might mean you have a corrupted installation or identified\n"
+"the wrong directory with the invocation option -L.\n"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "Use the option \"--debug\" to see details.\n"
+msgstr ""
+
+msgid ""
+"Using a mount point directly as the data directory is not recommended.\n"
+"Create a subdirectory under the mount point.\n"
+msgstr ""
+
+msgid "cannot duplicate null pointer (internal error)\n"
+msgstr ""
+
+msgid "caught signal\n"
+msgstr ""
+
+msgid "child process exited with exit code %d"
+msgstr ""
+
+msgid "child process exited with unrecognized status %d"
+msgstr ""
+
+msgid "child process was terminated by exception 0x%X"
+msgstr ""
+
+msgid "child process was terminated by signal %d"
+msgstr ""
+
+msgid "child process was terminated by signal %s"
+msgstr ""
+
+msgid "command not executable"
+msgstr ""
+
+msgid "command not found"
+msgstr ""
+
+msgid "could not change directory to \"%s\": %s"
+msgstr ""
+
+msgid "could not close directory \"%s\": %s\n"
+msgstr ""
+
+msgid "could not find a \"%s\" to execute"
+msgstr ""
+
+msgid "could not get junction for \"%s\": %s\n"
+msgstr ""
+
+msgid "could not identify current directory: %s"
+msgstr ""
+
+msgid "could not look up effective user ID %ld: %s"
+msgstr ""
+
+msgid "could not open directory \"%s\": %s\n"
+msgstr ""
+
+msgid "could not read binary \"%s\""
+msgstr ""
+
+msgid "could not read directory \"%s\": %s\n"
+msgstr ""
+
+msgid "could not read symbolic link \"%s\""
+msgstr ""
+
+msgid "could not remove file or directory \"%s\": %s\n"
+msgstr ""
+
+msgid "could not set junction for \"%s\": %s\n"
+msgstr ""
+
+msgid "could not stat file or directory \"%s\": %s\n"
+msgstr ""
+
+msgid "could not write to child process: %s\n"
+msgstr ""
+
+msgid "creating configuration files ... "
+msgstr ""
+
+msgid "creating directory %s ... "
+msgstr ""
+
+msgid "creating subdirectories ... "
+msgstr ""
+
+msgid "fixing permissions on existing directory %s ... "
+msgstr ""
+
+msgid "invalid binary \"%s\""
+msgstr ""
+
+msgid "logfile"
+msgstr ""
+
+msgid "ok\n"
+msgstr ""
+
+msgid "out of memory\n"
+msgstr ""
+
+msgid "pclose failed: %s"
+msgstr ""
+
+msgid "performing post-bootstrap initialization ... "
+msgstr ""
+
+msgid "running bootstrap script ... "
+msgstr ""
+
+msgid "selecting default max_connections ... "
+msgstr ""
+
+msgid "selecting default shared_buffers ... "
+msgstr ""
+
+msgid "selecting dynamic shared memory implementation ... "
+msgstr ""
+
+msgid "syncing data to disk ... "
+msgstr ""
+
+msgid "user does not exist"
+msgstr ""
+
+msgid "user name lookup failure: error code %lu"
+msgstr ""

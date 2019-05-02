@@ -1,0 +1,432 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Robert Luberda (msgids)
+# This file is distributed under the same license as the rlinetd package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rlinetd 0.9.1\n"
+"Report-Msgid-Bugs-To: rlinetd@packages.debian.org\n"
+"POT-Creation-Date: 2016-10-16 18:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:88
+#, c-format
+msgid "%s Version %s\n"
+msgstr ""
+
+#: src/main.c:90
+#, c-format
+msgid "Usage:\n"
+msgstr ""
+
+#: src/main.c:91
+#, c-format
+msgid "%s [options]\n"
+msgstr ""
+
+#: src/main.c:93
+#, c-format
+msgid "Options:\n"
+msgstr ""
+
+#: src/main.c:94
+#, c-format
+msgid "  -p|--parser file    alternative parser module (default %s)\n"
+msgstr ""
+
+#: src/main.c:95
+#, c-format
+msgid "  -f|--config file    alternative config file (default %s)\n"
+msgstr ""
+
+#: src/main.c:96
+#, c-format
+msgid "  -d|--debug          enable debugging\n"
+msgstr ""
+
+#: src/main.c:97
+#, c-format
+msgid "  -h|--help           this message\n"
+msgstr ""
+
+#: src/grammar.y:183
+#, c-format
+msgid "No path defined for log %s"
+msgstr ""
+
+#: src/grammar.y:186
+#, c-format
+msgid "open(\"%s\", O_CREAT|O_APPEND|O_WRONLY, 0%o) failed (%s)"
+msgstr ""
+
+#: src/grammar.y:191
+#, c-format
+msgid "fchmod(\"%s\", 0%o) failed (%s)"
+msgstr ""
+
+#: src/grammar.y:197
+#, c-format
+msgid "fchown(\"%s\", %d, %d) failed for log %s (%s)"
+msgstr ""
+
+#: src/grammar.y:214
+#, c-format
+msgid "duplicate path declaration (%s) in log directive %s, ignoring"
+msgstr ""
+
+#: src/grammar.y:241
+#, c-format
+msgid "invalid mode declaration in log directive %s, ignoring"
+msgstr ""
+
+#: src/grammar.y:289 src/grammar.y:410 src/grammar.y:418 src/grammar.y:427
+#: src/grammar.y:447 src/grammar.y:455 src/grammar.y:464 src/grammar.y:479
+#: src/grammar.y:486 src/grammar.y:1454 src/grammar.y:1464 src/grammar.y:1475
+msgid "opcode resolving problem"
+msgstr ""
+
+#: src/grammar.y:382
+#, c-format
+msgid "service %s DISABLED"
+msgstr ""
+
+#: src/grammar.y:384
+#, c-format
+msgid "service %s enabled"
+msgstr ""
+
+#: src/grammar.y:386
+#, c-format
+msgid "+-> uid=%d, sgid=%d, supgid=%d fl=%d"
+msgstr ""
+
+#: src/grammar.y:586
+#, c-format
+msgid "unknown log %s"
+msgstr ""
+
+#: src/grammar.y:598
+msgid "unknown group"
+msgstr ""
+
+#: src/grammar.y:620
+#, c-format
+msgid "failed to parse capability string \"%s\"\n"
+msgstr ""
+
+#: src/grammar.y:625
+msgid "ABORT - support for capabilities not compiled in"
+msgstr ""
+
+#: src/grammar.y:789
+msgid "ABORT - support for socket filter not compiled in"
+msgstr ""
+
+#: src/grammar.y:878
+msgid "invalid resource limit"
+msgstr ""
+
+#: src/grammar.y:896 src/grammar.y:905 src/grammar.y:914 src/grammar.y:923
+#: src/grammar.y:932 src/grammar.y:941 src/grammar.y:950 src/grammar.y:959
+#: src/grammar.y:968
+#, c-format
+msgid "%s limit not available on this system"
+msgstr ""
+
+#: src/grammar.y:1022
+msgid "ipv6 support is not compiled in"
+msgstr ""
+
+#: src/grammar.y:1050
+#, c-format
+msgid "ABORT - %s"
+msgstr ""
+
+#: src/grammar.y:1063
+#, c-format
+msgid "cannot open file %s (%s)"
+msgstr ""
+
+#: src/grammar.y:1075 src/grammar.y:1178 src/grammar.y:1182 src/grammar.y:1288
+#: src/grammar.y:1300 src/grammar.y:1531 src/grammar.y:1569 src/grammar.y:1725
+#: src/grammar.y:1738 src/engine.c:193 src/engine.c:243 src/bytecode.c:164
+#: src/buffer.c:164 src/buffer.c:177 src/data.c:19 src/data.c:46 src/data.c:100
+#: src/db.c:68 src/util.c:29 src/strings.c:33 src/strings.c:53 src/strings.c:71
+#: src/stack.c:39 src/libdb.c:34 src/libdb.c:102 src/libdb.c:256
+#: src/libdb.c:305 src/libdb.c:314 src/libdb.c:342 src/libdb.c:371
+#: src/libdb.c:381 src/libdb.c:414 src/libdb.c:425 src/libdb.c:470
+#: src/libdb.c:487
+msgid "ABORT - Can't allocate memory"
+msgstr ""
+
+#: src/grammar.y:1089
+msgid "service without name"
+msgstr ""
+
+#: src/grammar.y:1095
+#, c-format
+msgid "user is not set for service %s"
+msgstr ""
+
+#: src/grammar.y:1102
+#, c-format
+msgid ""
+"ignoring `instances %d' directive for service %s, because `wait' was also "
+"given"
+msgstr ""
+
+#: src/grammar.y:1115
+#, c-format
+msgid "can't find rpc service %s for service %s"
+msgstr ""
+
+#: src/grammar.y:1170
+#, c-format
+msgid "pmap_set(%d, %d, %d, %d) failed for service %s"
+msgstr ""
+
+#: src/grammar.y:1246 src/grammar.y:1249
+#, c-format
+msgid "getaddrinfo(%s, %s) failed: %s"
+msgstr ""
+
+#: src/grammar.y:1250
+msgid "for reasons unknown"
+msgstr ""
+
+#: src/grammar.y:1266
+#, c-format
+msgid "Failed to resolve %s, protocol %s"
+msgstr ""
+
+#: src/grammar.y:1309
+msgid "funky family in service"
+msgstr ""
+
+#: src/grammar.y:1320
+#, c-format
+msgid "bad address %s in service %s"
+msgstr ""
+
+#: src/grammar.y:1334
+#, c-format
+msgid "setsockopt(%d, SOL_SOCKET, SO_REUSEADDR, 1) failed for service %s (%s)"
+msgstr ""
+
+#: src/grammar.y:1419
+#, c-format
+msgid "%s failed for service %s: %s"
+msgstr ""
+
+#: src/grammar.y:1607
+#, c-format
+msgid "fopen(%s) failed, aborting"
+msgstr ""
+
+#: src/grammar.y:1704 src/grammar.y:1710
+#, c-format
+msgid "regexp compile failed for directory %s: %s"
+msgstr ""
+
+#: src/grammar.y:1731
+#, c-format
+msgid "file %s does not exists or is a directory"
+msgstr ""
+
+#: src/grammar.y:1743
+#, c-format
+msgid "Directory %s open failed (%s)"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:44
+#, perl-format
+msgid "Option `%s' requires an argument\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:53
+#, perl-format
+msgid "Directory %s does not exist\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:54
+msgid "Options `-f' and `-l' cannot be mixed together\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:64
+#, perl-format
+msgid "Cannot open %s: %s\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:104
+#, perl-format
+msgid "skipping internal service: %s\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:120
+#, perl-format
+msgid "unknown protocol: %s; skipping service %s\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:167
+#, perl-format
+msgid "Cannot open temporary file for writing: %s\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:178 scripts/inetd2rlinetd.in.pl:198
+#: scripts/inetd2rlinetd.in.pl:201
+#, perl-format
+msgid "Cannot open file %s: %s\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:183
+#, perl-format
+msgid "Cannot rename tempfile: %s\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:215 scripts/inetd2rlinetd.in.pl:222
+#, perl-format
+msgid "File %s already exists.\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:216
+msgid ""
+"I'm refusing to overwrite it with different version,\n"
+"when I'm not running on the terminal.\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:223
+msgid "* Show [d]ifference between new version.\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:224
+msgid "* [O]verwrite the file.\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:225
+msgid "* [S]kip the file.\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:226
+msgid "* [A]ppend to the end of the file.\n"
+msgstr ""
+
+#: scripts/inetd2rlinetd.in.pl:229
+msgid "Please choose: [D/O/S/A]: "
+msgstr ""
+
+#: src/engine.c:66
+#, c-format
+msgid "ABORT - failed to find function \"%s\" in parser module %s (%s)"
+msgstr ""
+
+#: src/engine.c:70
+#, c-format
+msgid "ABORT - failed to load parser module %s (%s)"
+msgstr ""
+
+#: src/engine.c:101
+#, c-format
+msgid "rlinetd configuration (re)loaded, %ld bytes used\n"
+msgstr ""
+
+#: src/engine.c:105
+msgid "rlinetd configuration (re)loaded"
+msgstr ""
+
+#: src/engine.c:143
+#, c-format
+msgid "select() failed - %s"
+msgstr ""
+
+#: src/bytecode.c:138
+#, c-format
+msgid "ABORT - chroot(\"%s\"): %s"
+msgstr ""
+
+#: src/bytecode.c:140
+#, c-format
+msgid "ABORT - chdir(\"/\"): %s"
+msgstr ""
+
+#: src/bytecode.c:181
+#, c-format
+msgid "fork() failed - %s"
+msgstr ""
+
+#: src/bytecode.c:203
+#, c-format
+msgid "ABORT - Can't allocate memory (OP: %d)"
+msgstr ""
+
+#: src/bytecode.c:223
+#, c-format
+msgid "access for service %s from host %s denied by TCP wrappers"
+msgstr ""
+
+#: src/bytecode.c:357
+#, c-format
+msgid "ABORT - Unknown opcode (%d)"
+msgstr ""
+
+#: src/buffer.c:33 src/buffer.c:87 src/buffer.c:123
+#, c-format
+msgid "%s called with NULL buf"
+msgstr ""
+
+#: src/cleanups.c:33
+#, c-format
+msgid "unknown cleanup type %d"
+msgstr ""
+
+#: src/util.c:19
+#, c-format
+msgid "Failed to open %s (%s)"
+msgstr ""
+
+#: src/util.c:23
+#, c-format
+msgid "Failed to fstat %d (%s)"
+msgstr ""
+
+#: src/util.c:31
+#, c-format
+msgid "Failed to inhale file %s"
+msgstr ""
+
+#: src/strings.c:241
+msgid "Unknown log request"
+msgstr ""
+
+#: src/signals.c:37 src/signals.c:42 src/signals.c:46 src/signals.c:50
+#: src/signals.c:54
+#, c-format
+msgid "ABORT - sigaction(%s) failed"
+msgstr ""
+
+#: src/signals.c:73
+msgid "wait3 failed"
+msgstr ""
+
+#: src/stack.c:12
+msgid "Stack overflow"
+msgstr ""
+
+#: src/stack.c:18
+msgid "Stack underflow"
+msgstr ""
+
+#: src/stack.c:24 src/stack.c:30
+msgid "Stack peek undefined"
+msgstr ""
+
+#: src/libdb.c:206
+msgid "No exec string passed to argvtab_add()"
+msgstr ""

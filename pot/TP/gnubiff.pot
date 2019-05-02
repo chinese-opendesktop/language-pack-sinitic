@@ -1,0 +1,1030 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: gnubiff-bugs@lists.sourceforge.net\n"
+"POT-Creation-Date: 2010-02-07 17:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/decoding.cc:89
+#, c-format
+msgid "[The encoding \"%s\" of this mail can't be decoded]"
+msgstr ""
+
+#: src/decoding.cc:135 src/decoding.cc:142 src/decoding.cc:147
+msgid "[Cannot decode this header line]"
+msgstr ""
+
+#: src/decoding.cc:744
+#, c-format
+msgid "[Cannot convert character sets (from \"%s\" to \"utf-8\")]"
+msgstr ""
+
+#: src/gnubiff.cc:91
+msgid "Start gnome applet from command line"
+msgstr ""
+
+#: src/gnubiff.cc:98
+msgid "Configuration file to use"
+msgstr ""
+
+#: src/gnubiff.cc:98
+msgid "file"
+msgstr ""
+
+#: src/gnubiff.cc:100
+msgid "Skip the configuration process"
+msgstr ""
+
+#: src/gnubiff.cc:102
+msgid "Start gnubiff without GUI"
+msgstr ""
+
+#: src/gnubiff.cc:104
+msgid "Put gnubiff's icon into the system tray"
+msgstr ""
+
+#: src/gnubiff.cc:106
+msgid "Print version information and exit"
+msgstr ""
+
+#: src/gnubiff.cc:112
+msgid "General command line options:"
+msgstr ""
+
+#: src/gnubiff.cc:115
+msgid "Options for debugging:"
+msgstr ""
+
+#: src/biff.cc:123
+#, c-format
+msgid "Configuration file (%s) not found!"
+msgstr ""
+
+#: src/biff.cc:596
+#, c-format
+msgid "Loaded config file from newer gnubiff version \"%s\"."
+msgstr ""
+
+#. Config file belongs to an older version of gnubiff
+#: src/biff.cc:604
+#, c-format
+msgid "Loaded config file from old gnubiff version \"%s\"."
+msgstr ""
+
+#: src/biff.cc:606
+msgid "Trying to convert all options."
+msgstr ""
+
+#: src/biff.cc:650
+msgid "Successfully converted all options."
+msgstr ""
+
+#: src/biff.cc:653
+#, c-format
+msgid ""
+"Successfully converted some options. The following options must be updated "
+"manually: %s."
+msgstr ""
+
+#: src/biff.cc:804
+#, c-format
+msgid "Cannot open your configuration file (%s)"
+msgstr ""
+
+#: src/biff.cc:819
+msgid "Cannot create XML parser for config file"
+msgstr ""
+
+#: src/biff.cc:836
+#, c-format
+msgid "Found no mailbox definition in your configuration file (%s)"
+msgstr ""
+
+#: src/biff.cc:883
+msgid "Illegal parameter format in config file"
+msgstr ""
+
+#: src/biff.cc:912
+#, c-format
+msgid "No protocol specified for mailbox %d"
+msgstr ""
+
+#: src/mailbox.cc:146
+#, c-format
+msgid "[%d] Unable to create thread: %s"
+msgstr ""
+
+#: src/mailbox.cc:319
+#, c-format
+msgid "mailbox %d"
+msgstr ""
+
+#. Insert default values
+#: src/mailbox.cc:644
+msgid "<no date>"
+msgstr ""
+
+#: src/mailbox.cc:645
+msgid "<no sender>"
+msgstr ""
+
+#: src/mailbox.cc:646
+msgid "<no subject>"
+msgstr ""
+
+#: src/mailbox.cc:700
+msgid "[Cannot parse content type header line]"
+msgstr ""
+
+#: src/mailbox.cc:722
+msgid "[Cannot parse content transfer encoding header line]"
+msgstr ""
+
+#: src/mailbox.cc:763
+msgid "[Malformed multipart message]"
+msgstr ""
+
+#: src/mailbox.cc:771
+msgid "[Can't find first part's beginning in the multipart message]"
+msgstr ""
+
+#: src/mailbox.cc:817
+#, c-format
+msgid "[This message has an unsupported content type: \"%s/%s\"]"
+msgstr ""
+
+#: src/mailbox.cc:1219
+#, c-format
+msgid ""
+"Error when compiling a regular expression.\n"
+"Regular expression: %s\n"
+"Error message: %s"
+msgstr ""
+
+#. Otherwise: Ignore it and print error message
+#: src/header.cc:147
+#, c-format
+msgid "Can't sort mails by \"%s\""
+msgstr ""
+
+#: src/socket.cc:116 src/socket.cc:175 src/socket.cc:233
+#: src/socket.cc:242
+#, c-format
+msgid "[%d] Unable to connect to %s on port %d"
+msgstr ""
+
+#: src/socket.cc:218
+#, c-format
+msgid "[%d] Failed to load certificate (%s) for %s"
+msgstr ""
+
+#: src/socket.cc:255
+#, c-format
+msgid "[%d] Cannot identify remote host (%s on port %d)"
+msgstr ""
+
+#: src/socket.cc:340
+#, c-format
+msgid "[%d] Unable to write to %s on port %d"
+msgstr ""
+
+#: src/socket.cc:411
+#, c-format
+msgid "[%d] Unable to read from %s on port %d"
+msgstr ""
+
+#: src/socket.cc:434
+#, c-format
+msgid "Could not set read timeout on socket: %s"
+msgstr ""
+
+#: src/file.cc:97
+#, c-format
+msgid "Cannot open %s."
+msgstr ""
+
+#: src/imap4.cc:459
+msgid "[This message has no part with a supported content type]"
+msgstr ""
+
+#: src/imap4.cc:822
+#, c-format
+msgid "[%d] Unable to select folder %s on host %s"
+msgstr ""
+
+#: src/imap4.cc:910
+#, c-format
+msgid "[%d] Unable to get acknowledgment from %s on port %d"
+msgstr ""
+
+#: src/imap4.cc:969
+#, c-format
+msgid "[%d] Server doesn't send untagged \"%s\" response or acknowledgment"
+msgstr ""
+
+#: src/imap4.cc:1022
+#, c-format
+msgid "[%d] Server doesn't send untagged \"%s\" response"
+msgstr ""
+
+#. see RFC 3501 7.1.5
+#: src/imap4.cc:1578
+#, c-format
+msgid "[%d] Server closes connection immediately:%s"
+msgstr ""
+
+#. see RFC 3501 7.1.3
+#: src/imap4.cc:1583
+#, c-format
+msgid "[%d] Internal server failure or unknown error:%s"
+msgstr ""
+
+#. see RFC 3501 7.1.2
+#: src/imap4.cc:1588
+#, c-format
+msgid "[%d] Warning from server:%s"
+msgstr ""
+
+#: src/maildir.cc:81
+#, c-format
+msgid "Cannot open new mail directory (%s)"
+msgstr ""
+
+#: src/pop.cc:150
+#, c-format
+msgid "[%d] Empty password"
+msgstr ""
+
+#: src/pop.cc:509
+#, c-format
+msgid "[%d] Error message from POP3 server:%s"
+msgstr ""
+
+#: src/pop.cc:516
+#, c-format
+msgid "[%d] Did not get a positive response from POP3 server"
+msgstr ""
+
+#: src/apop.cc:101
+#, c-format
+msgid ""
+"[%d] Your pop server does not seem to accept apop protocol (no timestamp "
+"provided)"
+msgstr ""
+
+#: src/apop.cc:122
+#, c-format
+msgid ""
+"[%d] Problem with crypto that should have been detected at configure time"
+msgstr ""
+
+#: src/options.cc:559
+#, c-format
+msgid "Unknown option \"%s\""
+msgstr ""
+
+#: src/options.cc:566
+#, c-format
+msgid "Cannot set option \"%s\" to \"%s\""
+msgstr ""
+
+#: src/options.cc:720 src/gui.cc:273
+#, c-format
+msgid "Cannot find the specified widget (\"%s\") within xml structure (\"%s\")"
+msgstr ""
+
+#: src/gnubiff_options.cc:140
+msgid "no mail"
+msgstr ""
+
+#: src/gui.cc:195
+#, c-format
+msgid ""
+"Cannot build the interface.\n"
+"\n"
+"Name: %s\n"
+"Path: %s\n"
+"\n"
+"Please make sure package has been installed correctly."
+msgstr ""
+
+#: src/gui.cc:381
+msgid "GUI_connect requires working gmodule"
+msgstr ""
+
+#: src/gui.cc:388
+#, c-format
+msgid "Could not find signal handler '%s'."
+msgstr ""
+
+#: src/ui-applet.cc:217
+msgid " unknown"
+msgstr ""
+
+#: src/ui-applet.cc:222
+msgid " error"
+msgstr ""
+
+#: src/ui-applet.cc:231
+msgid " checking..."
+msgstr ""
+
+#: src/ui-preferences.cc:267 src/ui-popup.cc:183
+msgid "Mailbox"
+msgstr ""
+
+#. Column: TYPE
+#: src/ui-preferences.cc:281 src/ui-preferences.cc:363
+msgid "Type"
+msgstr ""
+
+#: src/ui-preferences.cc:300
+msgid "Status"
+msgstr ""
+
+#: src/ui-preferences.cc:315
+msgid "Security"
+msgstr ""
+
+#. Selection label
+#: src/ui-preferences.cc:327 src/ui-preferences.cc:686
+msgid "No mailbox selected"
+msgstr ""
+
+#: src/ui-preferences.cc:355
+msgid "Option"
+msgstr ""
+
+#: src/ui-preferences.cc:373
+msgid "Value"
+msgstr ""
+
+#: src/ui-preferences.cc:609
+msgid "_Start"
+msgstr ""
+
+#: src/ui-preferences.cc:615 ui/preferences.glade.h:77
+msgid "_Stop"
+msgstr ""
+
+#: src/ui-preferences.cc:626 src/ui-preferences.cc:633
+msgid "Browse for a new mail image"
+msgstr ""
+
+#: src/ui-authentication.cc:86
+#, c-format
+msgid "Please enter your username and password for mailbox '%s'"
+msgstr ""
+
+#: src/ui-certificate.cc:73
+#, c-format
+msgid "Unable to verify the identity of %s as a trusted site.\n"
+msgstr ""
+
+#: src/ui-certificate.cc:74
+#, c-format
+msgid ""
+"Either site's certificate is incomplete or you're connected to a site "
+"pretending to be %s, possibly to obtain your password"
+msgstr ""
+
+#: src/ui-properties.cc:123 src/ui-properties.cc:150
+msgid "Autodetect"
+msgstr ""
+
+#: src/ui-properties.cc:124
+msgid "File or Folder"
+msgstr ""
+
+#: src/ui-properties.cc:152
+msgid "User/Pass"
+msgstr ""
+
+#: src/ui-properties.cc:154
+msgid "Encrypted User/Pass (apop)"
+msgstr ""
+
+#: src/ui-properties.cc:158
+msgid "SSL with certificate"
+msgstr ""
+
+#: src/ui-properties.cc:317
+msgid "Browse for a file or folder"
+msgstr ""
+
+#: src/ui-properties.cc:323 ui/properties.glade.h:5
+msgid "Browse for a certificate file"
+msgstr ""
+
+#: src/ui-popup.cc:195
+msgid "From"
+msgstr ""
+
+#: src/ui-popup.cc:201
+msgid "Subject"
+msgstr ""
+
+#: src/ui-popup.cc:207
+msgid "Date"
+msgstr ""
+
+#. Create error message
+#: src/support.cc:321
+msgid ""
+"You just found an unknown internal error. Please send a detailed bug report "
+"to \"gnubiff-bugs@lists.sourceforge.net\".\n"
+"\n"
+"Additional information:\n"
+msgstr ""
+
+#: src/GNOME_gnubiffApplet.xml.h:1 src/GNOME_gnubiffApplet.xml.h:1
+msgid "Info"
+msgstr ""
+
+#: src/GNOME_gnubiffApplet.xml.h:2 src/GNOME_gnubiffApplet.xml.h:2
+#: ui/applet-gtk.glade.h:14
+msgid "Mark mailboxes read"
+msgstr ""
+
+#: src/GNOME_gnubiffApplet.xml.h:3 src/GNOME_gnubiffApplet.xml.h:3
+msgid "Preferences..."
+msgstr ""
+
+#: src/GNOME_gnubiffApplet.xml.h:4 src/GNOME_gnubiffApplet.xml.h:4
+msgid "Run command"
+msgstr ""
+
+#: src/GNOME_gnubiffApplet.server.in.h:1
+#: src/GNOME_gnubiffApplet.server.in.h:1
+msgid "Mail notification program"
+msgstr ""
+
+#: src/GNOME_gnubiffApplet.server.in.h:2
+#: src/GNOME_gnubiffApplet.server.in.h:2 ui/applet-gtk.glade.h:17
+msgid "gnubiff"
+msgstr ""
+
+#: ui/applet-gtk.glade.h:1
+msgid "About"
+msgstr ""
+
+#: ui/applet-gtk.glade.h:2
+msgid "Gnubiff is a mail notification program."
+msgstr ""
+
+#. See http://www.gnu.org /licenses/translations.html
+#: ui/applet-gtk.glade.h:4
+msgid ""
+"Gnubiff is part of the GNU project.\n"
+"It is released under the aegis of GNU.\n"
+"\n"
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see http://www.gnu.org/licenses/.\n"
+"\n"
+"For an exception to the GNU General Public License for distributing gnubiff "
+"linked to the OpenSSL library see the README file."
+msgstr ""
+
+#: ui/applet-gtk.glade.h:15
+msgid "Start command"
+msgstr ""
+
+#: ui/applet-gtk.glade.h:16
+msgid "_Quit"
+msgstr ""
+
+#: ui/applet-gtk.glade.h:18
+msgid "tooltip"
+msgstr ""
+
+#: ui/preferences.glade.h:1
+msgid "<b>Commands</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:2
+msgid "<b>Expert editing mode</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:3
+msgid "<b>General</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:4
+msgid "<b>Headers</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:5
+msgid "<b>Layout</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:6
+msgid "<b>Mailboxes</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:7
+msgid "<b>When new mail</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:8
+msgid "<b>When no mail</b>"
+msgstr ""
+
+#: ui/preferences.glade.h:9
+msgid ""
+"<small> Gnubiff is part of the GNU project.\n"
+" It is released under the aegis of GNU.</small>"
+msgstr ""
+
+#: ui/preferences.glade.h:11
+msgid ""
+"<small>Developers can be contacted via <span foreground=\"blue\">gnubiff-"
+"devel@lists.sourceforge.net</span>.</small>\n"
+"<small>Bugs should be reported to <span foreground=\"blue\">gnubiff-"
+"bugs@lists.sourceforge.net</span>.</small>"
+msgstr ""
+
+#: ui/preferences.glade.h:13
+msgid ""
+"<small>Here is a list of those people, which translated gnubiff into "
+"different languages (translators of previous versions are marked with an "
+"asterisk):</small>"
+msgstr ""
+
+#: ui/preferences.glade.h:14
+msgid ""
+"<small>Many people have further contributed to gnubiff by\n"
+"  - reporting problems\n"
+"  - suggesting various improvements\n"
+"  - submitting actual code\n"
+"Here is a list of these people:</small>"
+msgstr ""
+
+#: ui/preferences.glade.h:19
+msgid "Applet geometry"
+msgstr ""
+
+#: ui/preferences.glade.h:20
+msgid "Applet or Biff"
+msgstr ""
+
+#: ui/preferences.glade.h:21
+msgid "B_rowse..."
+msgstr ""
+
+#: ui/preferences.glade.h:22
+msgid "Browse for an image file"
+msgstr ""
+
+#: ui/preferences.glade.h:23
+msgid "Contributors"
+msgstr ""
+
+#: ui/preferences.glade.h:24
+msgid "Credits"
+msgstr ""
+
+#: ui/preferences.glade.h:25
+msgid "Developers"
+msgstr ""
+
+#: ui/preferences.glade.h:26
+msgid "Edit option"
+msgstr ""
+
+#: ui/preferences.glade.h:27
+msgid "Expert"
+msgstr ""
+
+#: ui/preferences.glade.h:28
+msgid "Image filename"
+msgstr ""
+
+#: ui/preferences.glade.h:29
+msgid "List all options."
+msgstr ""
+
+#: ui/preferences.glade.h:30
+msgid ""
+"List of options, their type and current values. To edit an option "
+"doubleclick on its value."
+msgstr ""
+
+#: ui/preferences.glade.h:31
+msgid "Mailboxes"
+msgstr ""
+
+#: ui/preferences.glade.h:32
+msgid "Maintainers"
+msgstr ""
+
+#: ui/preferences.glade.h:33
+msgid "Maximum number of headers to display"
+msgstr ""
+
+#: ui/preferences.glade.h:34 ui/popup.glade.h:4
+msgid "Popup"
+msgstr ""
+
+#: ui/preferences.glade.h:35
+msgid "Popup geometry"
+msgstr ""
+
+#: ui/preferences.glade.h:36
+msgid ""
+"Search for those (displayed) options that contain the string in the text "
+"entry."
+msgstr ""
+
+#: ui/preferences.glade.h:37
+msgid "Set to default value"
+msgstr ""
+
+#: ui/preferences.glade.h:38
+msgid "Show _image:"
+msgstr ""
+
+#: ui/preferences.glade.h:39
+msgid "Show _text:"
+msgstr ""
+
+#: ui/preferences.glade.h:40
+msgid "Show i_mage:"
+msgstr ""
+
+#: ui/preferences.glade.h:41
+msgid "Show t_ext:"
+msgstr ""
+
+#: ui/preferences.glade.h:42
+msgid "String to be searched for."
+msgstr ""
+
+#: ui/preferences.glade.h:44
+#, no-c-format
+msgid ""
+"Text to display (%d and %D is the number of new messages, %d is zero "
+"padded). Pango markup may be used."
+msgstr ""
+
+#: ui/preferences.glade.h:45
+msgid "The command to run when new mail arrives"
+msgstr ""
+
+#: ui/preferences.glade.h:46
+msgid "The command to run when the icon is double-clicked"
+msgstr ""
+
+#. The option's descriptions are in English only! This may be included in a translation of this text.
+#: ui/preferences.glade.h:48
+msgid ""
+"The editing dialog for all options that gnubiff uses internally can be "
+"enabled here. So it is possible to change the value of options for which no "
+"gui widgets are provided. A short description for each option is provided.\n"
+"<b>Warning:</b> Changing these options may cause gnubiff to act not properly "
+"or result in security problems."
+msgstr ""
+
+#: ui/preferences.glade.h:50
+msgid "The font to use to display information"
+msgstr ""
+
+#: ui/preferences.glade.h:51
+msgid "Time to display popup window"
+msgstr ""
+
+#: ui/preferences.glade.h:52
+msgid "Toggle option"
+msgstr ""
+
+#: ui/preferences.glade.h:53
+msgid "Translators"
+msgstr ""
+
+#: ui/preferences.glade.h:54
+msgid "Use _decoration"
+msgstr ""
+
+#: ui/preferences.glade.h:55
+msgid "Use _geometry:"
+msgstr ""
+
+#: ui/preferences.glade.h:56
+msgid "When _double-clicked:"
+msgstr ""
+
+#: ui/preferences.glade.h:57
+msgid "When _new mail:"
+msgstr ""
+
+#: ui/preferences.glade.h:58
+msgid "Whether options can be edited in expert mode"
+msgstr ""
+
+#: ui/preferences.glade.h:59
+msgid "Whether to display a text"
+msgstr ""
+
+#: ui/preferences.glade.h:60
+msgid "Whether to display an image"
+msgstr ""
+
+#: ui/preferences.glade.h:61
+msgid "Whether to display the popup window"
+msgstr ""
+
+#: ui/preferences.glade.h:62
+msgid "Whether to restrict number of displayed headers"
+msgstr ""
+
+#: ui/preferences.glade.h:63
+msgid "Whether to show an image"
+msgstr ""
+
+#: ui/preferences.glade.h:64
+msgid ""
+"Whether to show the expert tab. Note: Disabling this option can only be "
+"reversed by editing the config file manually!"
+msgstr ""
+
+#: ui/preferences.glade.h:65
+msgid "Whether to use format for header"
+msgstr ""
+
+#: ui/preferences.glade.h:66
+msgid "Whether to use geometry"
+msgstr ""
+
+#: ui/preferences.glade.h:67
+msgid "Whether to use window manager decoration"
+msgstr ""
+
+#: ui/preferences.glade.h:68
+msgid "[sender max size]:[subject max size]:[date max size]"
+msgstr ""
+
+#: ui/preferences.glade.h:69 ui/properties.glade.h:21
+msgid "_Browse..."
+msgstr ""
+
+#: ui/preferences.glade.h:70
+msgid "_Display for"
+msgstr ""
+
+#: ui/preferences.glade.h:71
+msgid "_Edit options in expert mode"
+msgstr ""
+
+#: ui/preferences.glade.h:72
+msgid "_Font:"
+msgstr ""
+
+#: ui/preferences.glade.h:73
+msgid "_Format:"
+msgstr ""
+
+#: ui/preferences.glade.h:74
+msgid "_Restrict collected mail to"
+msgstr ""
+
+#: ui/preferences.glade.h:75
+msgid "_Restrict number to"
+msgstr ""
+
+#: ui/preferences.glade.h:76
+msgid "_Show expert tab"
+msgstr ""
+
+#: ui/preferences.glade.h:78
+msgid "gnubiff preferences"
+msgstr ""
+
+#: ui/preferences.glade.h:79
+msgid "header(s)"
+msgstr ""
+
+#: ui/preferences.glade.h:80
+msgid "mail(s)"
+msgstr ""
+
+#: ui/preferences.glade.h:81
+msgid "second(s)"
+msgstr ""
+
+#: ui/properties.glade.h:1
+msgid "<b>_Details</b>"
+msgstr ""
+
+#: ui/properties.glade.h:2
+msgid "A_ddress:"
+msgstr ""
+
+#: ui/properties.glade.h:3
+msgid "Aut_hentication:"
+msgstr ""
+
+#: ui/properties.glade.h:4
+msgid "Bro_wse..."
+msgstr ""
+
+#: ui/properties.glade.h:6
+msgid "Cer_tificate:"
+msgstr ""
+
+#: ui/properties.glade.h:7
+msgid "Certificate filename"
+msgstr ""
+
+#: ui/properties.glade.h:8
+msgid "Connection port to connect to server"
+msgstr ""
+
+#: ui/properties.glade.h:9
+msgid "Connection:"
+msgstr ""
+
+#: ui/properties.glade.h:10
+msgid "Dela_y:"
+msgstr ""
+
+#: ui/properties.glade.h:11
+msgid "Mailbox folder"
+msgstr ""
+
+#: ui/properties.glade.h:12
+msgid "Mailbox properties"
+msgstr ""
+
+#: ui/properties.glade.h:13
+msgid "Name of the mailbox"
+msgstr ""
+
+#: ui/properties.glade.h:14
+msgid "Other connection port"
+msgstr ""
+
+#: ui/properties.glade.h:15
+msgid "Other mailbox folder"
+msgstr ""
+
+#: ui/properties.glade.h:16
+msgid "Standard connection port"
+msgstr ""
+
+#: ui/properties.glade.h:17
+msgid "Standard mailbox folder"
+msgstr ""
+
+#: ui/properties.glade.h:18
+msgid ""
+"The amount of time to wait between mail checks or between retries when "
+"connection is lost"
+msgstr ""
+
+#: ui/properties.glade.h:19
+msgid "Your password on the mail server"
+msgstr ""
+
+#: ui/properties.glade.h:20
+msgid "Your username on the mail server"
+msgstr ""
+
+#: ui/properties.glade.h:22
+msgid "_Mailbox:"
+msgstr ""
+
+#: ui/properties.glade.h:23
+msgid "_Name:"
+msgstr ""
+
+#: ui/properties.glade.h:24 ui/authentication.glade.h:4
+msgid "_Password:"
+msgstr ""
+
+#: ui/properties.glade.h:25
+msgid "_Type:"
+msgstr ""
+
+#: ui/properties.glade.h:26 ui/authentication.glade.h:5
+msgid "_Username:"
+msgstr ""
+
+#: ui/properties.glade.h:27
+msgid "_other"
+msgstr ""
+
+#: ui/properties.glade.h:28
+msgid "file or folder or hostname"
+msgstr ""
+
+#: ui/properties.glade.h:29
+msgid "minutes"
+msgstr ""
+
+#: ui/properties.glade.h:30
+msgid "othe_r"
+msgstr ""
+
+#: ui/properties.glade.h:31
+msgid "seconds"
+msgstr ""
+
+#: ui/properties.glade.h:32
+msgid "stan_dard"
+msgstr ""
+
+#: ui/properties.glade.h:33
+msgid "stand_ard"
+msgstr ""
+
+#: ui/authentication.glade.h:1
+msgid "Authentication"
+msgstr ""
+
+#: ui/authentication.glade.h:2
+msgid "Your password on the server"
+msgstr ""
+
+#: ui/authentication.glade.h:3
+msgid "Your username on the server"
+msgstr ""
+
+#: ui/certificate.glade.h:1
+msgid "<b>Address</b>"
+msgstr ""
+
+#: ui/certificate.glade.h:2
+msgid "<b>Issued To</b>"
+msgstr ""
+
+#: ui/certificate.glade.h:3
+msgid "Accept"
+msgstr ""
+
+#: ui/certificate.glade.h:4
+msgid "Cannot certify server"
+msgstr ""
+
+#: ui/certificate.glade.h:5
+msgid "Certificate details"
+msgstr ""
+
+#: ui/certificate.glade.h:6
+msgid "Common Name"
+msgstr ""
+
+#: ui/certificate.glade.h:7
+msgid "Country"
+msgstr ""
+
+#: ui/certificate.glade.h:8
+msgid "Locality"
+msgstr ""
+
+#: ui/certificate.glade.h:9
+msgid "Organization"
+msgstr ""
+
+#: ui/certificate.glade.h:10
+msgid "Organization Unit"
+msgstr ""
+
+#: ui/certificate.glade.h:11
+msgid "State or Province"
+msgstr ""
+
+#: ui/popup.glade.h:1
+msgid "<small><b>Date</b></small>"
+msgstr ""
+
+#: ui/popup.glade.h:2
+msgid "<small><b>From</b></small>"
+msgstr ""
+
+#: ui/popup.glade.h:3
+msgid "<small><b>Subject</b></small>"
+msgstr ""
+
+#: ui/popup.glade.h:5
+msgid "mail content"
+msgstr ""

@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tim Stadelmann
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-07-27 20:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/xhotswap.c:201
+#, c-format
+msgid ""
+"%s: bad command line option \"%s\"\n"
+"\n"
+msgstr ""
+
+#: src/xhotswap.c:213
+#, c-format
+msgid ""
+"Hotswap %s\n"
+"Copyright 2001-2002 Tim Stadelmann\n"
+"This program is free software, licensed under the conditions of the\n"
+"GNU General Public License version 2, or (at your option), any later\n"
+"version.\n"
+msgstr ""
+
+#: src/xhotswap.c:271
+#, c-format
+msgid ""
+"Hotswap Utility (xhotswap) %s\n"
+"\n"
+"Copyright  2001-2002 Tim Stadelmann"
+msgstr ""
+
+#: src/xhotswap.c:301 src/xhotswap.c:472
+msgid "Swap"
+msgstr ""
+
+#: src/xhotswap.c:302
+msgid "Ctrl+S"
+msgstr ""
+
+#: src/xhotswap.c:305
+msgid "S"
+msgstr ""
+
+#: src/xhotswap.c:316 src/xhotswap.c:481
+msgid "Remove"
+msgstr ""
+
+#: src/xhotswap.c:317
+msgid "Ctrl+R"
+msgstr ""
+
+#: src/xhotswap.c:320
+msgid "R"
+msgstr ""
+
+#: src/xhotswap.c:332 src/xhotswap.c:490
+msgid "Insert"
+msgstr ""
+
+#: src/xhotswap.c:333
+msgid "Ctrl+I"
+msgstr ""
+
+#: src/xhotswap.c:336
+msgid "I"
+msgstr ""
+
+#: src/xhotswap.c:352
+msgid "Exit"
+msgstr ""
+
+#: src/xhotswap.c:353
+msgid "Ctrl+Q"
+msgstr ""
+
+#: src/xhotswap.c:356
+msgid "x"
+msgstr ""
+
+#: src/xhotswap.c:372
+msgid "Product Information..."
+msgstr ""
+
+#: src/xhotswap.c:375
+msgid "P"
+msgstr ""
+
+#: src/xhotswap.c:386
+msgid "Device"
+msgstr ""
+
+#: src/xhotswap.c:389
+msgid "D"
+msgstr ""
+
+#: src/xhotswap.c:397
+msgid "Help"
+msgstr ""
+
+#: src/xhotswap.c:430
+msgid "Configured Device"
+msgstr ""
+
+#: src/xhotswap.c:456
+msgid "Action"
+msgstr ""
+
+#: src/xhotswap.c:501 src/xhotswap.c:519 src/xhotswap.c:536
+#: src/message_box.c:270
+msgid "OK"
+msgstr ""
+
+#: src/xhotswap.c:502
+msgid "Product Information"
+msgstr ""
+
+#: src/xhotswap.c:520 src/xhotswap.c:537 src/message_box.c:271
+msgid "Cancel"
+msgstr ""
+
+#: src/xhotswap.c:521
+msgid "Confirmation"
+msgstr ""
+
+#: src/xhotswap.c:538
+msgid "Message"
+msgstr ""
+
+#: src/xhotswap.c:564 src/xhotswap.c:589
+msgid "[error]"
+msgstr ""
+
+#: src/xhotswap.c:580 src/xhotswap.c:839
+msgid "absent"
+msgstr ""
+
+#: src/xhotswap.c:626
+msgid "yes"
+msgstr ""
+
+#: src/xhotswap.c:658
+msgid ""
+"At least one filesystem on the current\n"
+"device is still mounted.  Unmount the\n"
+"mounted filesystems and try again."
+msgstr ""
+
+#: src/xhotswap.c:734 src/xhotswap.c:755
+#, c-format
+msgid ""
+"An error occurred while calling the backend:\n"
+"%s"
+msgstr ""
+
+#: src/xhotswap.c:762
+#, c-format
+msgid ""
+"An error occured while running the backend:\n"
+"%s"
+msgstr ""
+
+#: src/xhotswap.c:776
+#, c-format
+msgid "Hotswap Utility (%s) - Supports hotswapping IDE peripherals.\n"
+msgstr ""
+
+#: src/xhotswap.c:779
+#, c-format
+msgid "Usage: %s [OPTION]...\n"
+msgstr ""
+
+#: src/xhotswap.c:780
+msgid ""
+"\n"
+"Options:\n"
+"      --ide-controller N     use IDE controller N\n"
+"      --hotswap-path PATH    look for the `hotswap' backend at the\n"
+"                             location given by PATH\n"
+"  -h, --help                 display this help and exit\n"
+"  -V, --version              output version information and exit\n"
+"\n"
+"Standard toolkit options are supported as well.\n"
+"\n"
+"The Linux kernel requires hotswappable devices to be the only\n"
+"device on their IDE bus.\n"
+"\n"
+"Report bugs to <t.stadelmann1@physics.ox.ac.uk>.\n"
+msgstr ""
+
+#: src/xhotswap.c:816
+msgid "Please insert the new device and click `OK'."
+msgstr ""
+
+#: src/xhotswap.c:842
+msgid ""
+"No IDE device has been found.  If you are sure that the device\n"
+"connects to the IDE bus, verify that the module is inserted correctly.\n"
+"\n"
+"Do you want to try again?"
+msgstr ""
+
+#: src/xhotswap.c:860
+msgid "You can now remove the device."
+msgstr ""
+
+#: src/xhotswap.c:874
+msgid "You can now exchange the device."
+msgstr ""
+
+#: src/message_box.c:250
+msgid "Error"
+msgstr ""
+
+#: src/message_box.c:254
+msgid "Question"
+msgstr ""
+
+#: src/message_box.c:258
+msgid "Warning"
+msgstr ""
+
+#: src/message_box.c:265
+msgid "Yes"
+msgstr ""
+
+#: src/message_box.c:266
+msgid "No"
+msgstr ""

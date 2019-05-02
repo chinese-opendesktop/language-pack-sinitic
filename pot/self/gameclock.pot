@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-22 23:50-0500\n"
+"PO-Revision-Date: 2013-04-07 18:34-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../gameclock/game.py:161
+msgid "A regular chess game of 60 minutes per player, with no increment."
+msgstr ""
+
+#: ../gameclock/game.py:174
+msgid "A quick 15 minutes per player chess game, no increment."
+msgstr ""
+
+#: ../gameclock/game.py:179
+msgid "A very fast chess game, 5 minutes per player no increment."
+msgstr ""
+
+#: ../gameclock/game.py:184
+msgid ""
+"A delay timing style used for chess and designed by Bobby Fischer. Everytime "
+"the player makes a move, a delay is added to the clock. Defaults: 2 minutes "
+"per player, 10 second increment, results in a reasonably short chess game."
+msgstr ""
+
+#: ../gameclock/game.py:189
+msgid ""
+"A regular board game. A clock goes down until time runs out. The counter is "
+"reset at every move. Default is to give 2 minutes per move."
+msgstr ""
+
+#: ../gameclock/game.py:193
+msgid ""
+"Behave like an hourglass: the clock goes down on one side and up on the "
+"other, 60 seconds by default."
+msgstr ""
+
+#: ../gameclock/game.py:199
+msgid ""
+"A standard or \"japanese\" Go counter. A clock counts down until its time "
+"runs out and then enters overtime. Once in overtime the player has a "
+"specific number of overtime periods (or \"Byo-yomi\") to play. If the player "
+"moves within the chosen delay, the clock's time reverts to the top of the "
+"period and no periods are lost. If the player does not move within the "
+"period, the next period begins and the period count is reduced by 1. A "
+"player loses when his/her clock runs out of time and no more periods remain."
+msgstr ""
+
+#: ../gameclock/gtkui.py:65
+msgid "Default"
+msgstr ""
+
+#: ../gameclock/gtkui.py:65
+msgid "Use the default theme"
+msgstr ""
+
+#: ../gameclock/gtkui.py:66
+msgid "Green"
+msgstr ""
+
+#: ../gameclock/gtkui.py:66
+msgid ""
+"Selected player is green, dead player is red, normal background black (4.0 "
+"default)"
+msgstr ""
+
+#: ../gameclock/gtkui.py:80
+msgid "Blue"
+msgstr ""
+
+#: ../gameclock/gtkui.py:80
+msgid "Selected player is blue, dead player is red, normal background black"
+msgstr ""
+
+#: ../gameclock/gtkui.py:107
+msgid "_Game"
+msgstr ""
+
+#: ../gameclock/gtkui.py:108
+msgid "_New"
+msgstr ""
+
+#: ../gameclock/gtkui.py:109
+msgid "Start"
+msgstr ""
+
+#: ../gameclock/gtkui.py:110
+msgid "Start/pause game"
+msgstr ""
+
+#: ../gameclock/gtkui.py:111
+msgid "_Full screen"
+msgstr ""
+
+#: ../gameclock/gtkui.py:112
+msgid "Full screen mode"
+msgstr ""
+
+#: ../gameclock/gtkui.py:113 ../gameclock/gtkui.py:177
+msgid "_Quit"
+msgstr ""
+
+#: ../gameclock/gtkui.py:114
+msgid "Quit the Program"
+msgstr ""
+
+#: ../gameclock/gtkui.py:115
+msgid "_Settings"
+msgstr ""
+
+#: ../gameclock/gtkui.py:116
+msgid "_Set time..."
+msgstr ""
+
+#: ../gameclock/gtkui.py:117
+msgid "Set the starting time of clocks"
+msgstr ""
+
+#: ../gameclock/gtkui.py:118
+msgid "_Players..."
+msgstr ""
+
+#: ../gameclock/gtkui.py:119
+msgid "Set the number of players and starting player"
+msgstr ""
+
+#: ../gameclock/gtkui.py:120
+msgid "Theme"
+msgstr ""
+
+#: ../gameclock/gtkui.py:121
+msgid "_Help"
+msgstr ""
+
+#: ../gameclock/gtkui.py:122
+msgid "_About"
+msgstr ""
+
+#: ../gameclock/gtkui.py:123
+msgid "More information about this software"
+msgstr ""
+
+#: ../gameclock/gtkui.py:124
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: ../gameclock/gtkui.py:125
+msgid "Display the available keyboard shortcuts"
+msgstr ""
+
+#: ../gameclock/gtkui.py:178
+msgid "_Sound"
+msgstr ""
+
+#: ../gameclock/gtkui.py:178
+msgid "Enable/disable sound"
+msgstr ""
+
+#: ../gameclock/gtkui.py:428
+msgid "Change time settings"
+msgstr ""
+
+#: ../gameclock/gtkui.py:446
+msgid "Time limit: "
+msgstr ""
+
+#: ../gameclock/gtkui.py:457
+msgid "Delay: "
+msgstr ""
+
+#: ../gameclock/gtkui.py:469
+msgid "Number of Byo-yomi: "
+msgstr ""
+
+#: ../gameclock/gtkui.py:496
+msgid "Change players settings"
+msgstr ""
+
+#: ../gameclock/gtkui.py:505
+msgid "Number of players: "
+msgstr ""
+
+#: ../gameclock/gtkui.py:517
+msgid "Starting player: "
+msgstr ""
+
+#: ../gameclock/gtkui.py:519
+msgid "Left"
+msgstr ""
+
+#: ../gameclock/gtkui.py:522
+msgid "Right"
+msgstr ""
+
+#: ../gameclock/gtkui.py:594
+msgid "Resume"
+msgstr ""
+
+#: ../gameclock/gtkui.py:595
+msgid "game paused"
+msgstr ""
+
+#: ../gameclock/gtkui.py:598 ../gameclock/gtkui.py:611
+msgid "Pause"
+msgstr ""
+
+#: ../gameclock/gtkui.py:599
+msgid "game resumed"
+msgstr ""
+
+#: ../gameclock/gtkui.py:613
+msgid "game running"
+msgstr ""
+
+#: ../gameclock/gtkui.py:636
+msgid ""
+"<big>Keyboard shortcuts</big>\n"
+"\n"
+"<b>shift</b> and <b>space</b> keys end turns\n"
+"<b>control-q</b> quits\n"
+"<b>control-n</b> starts a new game\n"
+"<b>control-f</b> enables fullscreen mode\n"
+"<b>control-p, F5-F8</b> pause the game"
+msgstr ""
+
+#: ../gameclock/gtkui.py:643
+msgid ""
+"Left side of the keyboard ends left side's turn and vice-versa for right "
+"turn.\n"
+"\n"
+"We do not currently handle the numpad and arrow keys as we can't tell if "
+"they are present or not (e.g. laptops) and that would favor too much right "
+"right side if it is present."
+msgstr ""
+
+#: ../gameclock/gtkui.py:654
+msgid "A simple game clock to be used for Chess or any board game."
+msgstr ""
+
+#: manual entry for generated content
+msgid "Regular Chess"
+msgstr ""
+
+#: manual entry for generated content
+msgid "Quick Chess"
+msgstr ""
+
+#: manual entry for generated content
+msgid "Lightning Chess"
+msgstr ""
+
+#: manual entry for generated content
+msgid "Hourglass"
+msgstr ""
+
+#: manual entry for generated content
+msgid "Fischer"
+msgstr ""
+
+#: manual entry for generated content
+msgid "Board"
+msgstr ""
+
+#: manual entry for generated content
+msgid "Go Standard Byoyomi"
+msgstr ""
+
+#: ../gameclock/clock.py:91
+#, python-format
+msgid "%d move"
+msgid_plural "%d moves"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gameclock/clock.py:235
+#, python-format
+msgid " %d byoyomi"
+msgid_plural " %d byoyomis"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../gameclock/clock.py:237
+msgid " (lost)"
+msgstr ""

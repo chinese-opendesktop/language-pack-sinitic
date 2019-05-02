@@ -1,0 +1,964 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"Action to be performed:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Connection options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"General options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Optional actions:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Options controlling the output:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Report bugs to <pgsql-bugs@postgresql.org>.\n"
+msgstr ""
+
+msgid "                         (in kB/s, or use suffix \"k\" or \"M\")\n"
+msgstr ""
+
+msgid ""
+"                         include required WAL files with specified method\n"
+msgstr ""
+
+msgid "                         relocate tablespace in OLDDIR to NEWDIR\n"
+msgstr ""
+
+msgid "                         set fast or spread checkpointing\n"
+msgstr ""
+
+msgid ""
+"                         time between status packets sent to server (in "
+"seconds)\n"
+msgstr ""
+
+msgid "                         write recovery.conf for replication\n"
+msgstr ""
+
+msgid ""
+"      --create-slot      create a new replication slot (for the slot's name "
+"see --slot)\n"
+msgstr ""
+
+msgid ""
+"      --drop-slot        drop the replication slot (for the slot's name see "
+"--slot)\n"
+msgstr ""
+
+msgid ""
+"      --if-not-exists    do not error if slot already exists when creating a "
+"slot\n"
+msgstr ""
+
+msgid ""
+"      --no-slot          prevent creation of temporary replication slot\n"
+msgstr ""
+
+msgid ""
+"      --start            start streaming in a replication slot (for the "
+"slot's name see --slot)\n"
+msgstr ""
+
+msgid ""
+"      --synchronous      flush transaction log immediately after writing\n"
+msgstr ""
+
+msgid ""
+"      --synchronous      flush write-ahead log immediately after writing\n"
+msgstr ""
+
+msgid "      --waldir=WALDIR    location for the transaction log directory\n"
+msgstr ""
+
+msgid "      --waldir=WALDIR    location for the write-ahead log directory\n"
+msgstr ""
+
+msgid "  %s [OPTION]...\n"
+msgstr ""
+
+msgid "  -?, --help             show this help, then exit\n"
+msgstr ""
+
+msgid ""
+"  -D, --directory=DIR    receive transaction log files into this directory\n"
+msgstr ""
+
+msgid ""
+"  -D, --directory=DIR    receive write-ahead log files into this directory\n"
+msgstr ""
+
+msgid "  -D, --pgdata=DIRECTORY receive base backup into directory\n"
+msgstr ""
+
+msgid "  -E, --endpos=LSN       exit after receiving the specified LSN\n"
+msgstr ""
+
+msgid ""
+"  -F  --fsync-interval=SECS\n"
+"                         time between fsyncs to the output file (default: "
+"%d)\n"
+msgstr ""
+
+msgid "  -F, --format=p|t       output format (plain (default), tar)\n"
+msgstr ""
+
+msgid ""
+"  -I, --startpos=LSN     where in an existing slot should the streaming "
+"start\n"
+msgstr ""
+
+msgid ""
+"  -N, --no-sync          do not wait for changes to be written safely to "
+"disk\n"
+msgstr ""
+
+msgid "  -P, --plugin=PLUGIN    use output plugin PLUGIN (default: %s)\n"
+msgstr ""
+
+msgid "  -P, --progress         show progress information\n"
+msgstr ""
+
+msgid "  -R, --write-recovery-conf\n"
+msgstr ""
+
+msgid ""
+"  -R, --write-recovery-conf\n"
+"                         write recovery.conf for replication\n"
+msgstr ""
+
+msgid "  -S, --slot=SLOTNAME    name of the logical replication slot\n"
+msgstr ""
+
+msgid "  -S, --slot=SLOTNAME    replication slot to use\n"
+msgstr ""
+
+msgid "  -T, --tablespace-mapping=OLDDIR=NEWDIR\n"
+msgstr ""
+
+msgid ""
+"  -T, --tablespace-mapping=OLDDIR=NEWDIR\n"
+"                         relocate tablespace in OLDDIR to NEWDIR\n"
+msgstr ""
+
+msgid "  -U, --username=NAME    connect as specified database user\n"
+msgstr ""
+
+msgid "  -V, --version          output version information, then exit\n"
+msgstr ""
+
+msgid ""
+"  -W, --password         force password prompt (should happen "
+"automatically)\n"
+msgstr ""
+
+msgid "  -X, --wal-method=none|fetch|stream\n"
+msgstr ""
+
+msgid ""
+"  -X, --wal-method=none|fetch|stream\n"
+"                         include required WAL files with specified method\n"
+msgstr ""
+
+msgid "  -Z, --compress=0-9     compress logs with given compression level\n"
+msgstr ""
+
+msgid ""
+"  -Z, --compress=0-9     compress tar output with given compression level\n"
+msgstr ""
+
+msgid "  -c, --checkpoint=fast|spread\n"
+msgstr ""
+
+msgid ""
+"  -c, --checkpoint=fast|spread\n"
+"                         set fast or spread checkpointing\n"
+msgstr ""
+
+msgid "  -d, --dbname=CONNSTR   connection string\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME    database to connect to\n"
+msgstr ""
+
+msgid "  -f, --file=FILE        receive log into this file, - for stdout\n"
+msgstr ""
+
+msgid "  -h, --host=HOSTNAME    database server host or socket directory\n"
+msgstr ""
+
+msgid "  -l, --label=LABEL      set backup label\n"
+msgstr ""
+
+msgid "  -n, --no-clean         do not clean up after errors\n"
+msgstr ""
+
+msgid "  -n, --no-loop          do not loop on connection lost\n"
+msgstr ""
+
+msgid ""
+"  -o, --option=NAME[=VALUE]\n"
+"                         pass option NAME with optional value VALUE to the\n"
+"                         output plugin\n"
+msgstr ""
+
+msgid "  -p, --port=PORT        database server port number\n"
+msgstr ""
+
+msgid ""
+"  -r, --max-rate=RATE    maximum transfer rate to transfer data directory\n"
+msgstr ""
+
+msgid ""
+"  -r, --max-rate=RATE    maximum transfer rate to transfer data directory\n"
+"                         (in kB/s, or use suffix \"k\" or \"M\")\n"
+msgstr ""
+
+msgid "  -s, --status-interval=INTERVAL\n"
+msgstr ""
+
+msgid ""
+"  -s, --status-interval=INTERVAL\n"
+"                         time between status packets sent to server (in "
+"seconds)\n"
+msgstr ""
+
+msgid ""
+"  -s, --status-interval=SECS\n"
+"                         time between status packets sent to server "
+"(default: %d)\n"
+msgstr ""
+
+msgid "  -v, --verbose          output verbose messages\n"
+msgstr ""
+
+msgid "  -w, --no-password      never prompt for password\n"
+msgstr ""
+
+msgid "  -z, --gzip             compress tar output\n"
+msgstr ""
+
+msgid ""
+"%*s/%s kB (%d%%), %d/%d tablespace (%s%-*.*s)%*s/%s kB (%d%%), %d/%d "
+"tablespaces (%s%-*.*s)"
+msgstr ""
+
+msgid "%*s/%s kB (%d%%), %d/%d tablespace%*s/%s kB (%d%%), %d/%d tablespaces"
+msgstr ""
+
+msgid ""
+"%*s/%s kB (100%%), %d/%d tablespace %*s%*s/%s kB (100%%), %d/%d tablespaces "
+"%*s"
+msgstr ""
+
+msgid ""
+"%s controls PostgreSQL logical decoding streams.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s receives PostgreSQL streaming transaction logs.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s receives PostgreSQL streaming write-ahead logs.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s takes a base backup of a running PostgreSQL server.\n"
+"\n"
+msgstr ""
+
+msgid "%s: %s needs a slot to be specified using --slot\n"
+msgstr ""
+
+msgid "%s: --endpos may only be specified with --start\n"
+msgstr ""
+
+msgid "%s: --no-slot cannot be used with slot name\n"
+msgstr ""
+
+msgid "%s: COPY stream ended before last file was finished\n"
+msgstr ""
+
+msgid "%s: WAL directory \"%s\" not removed at user's request\n"
+msgstr ""
+
+msgid "%s: WAL directory location can only be specified in plain mode\n"
+msgstr ""
+
+msgid "%s: WAL directory location must be an absolute path\n"
+msgstr ""
+
+msgid "%s: at least one action needs to be specified\n"
+msgstr ""
+
+msgid "%s: base backup completed\n"
+msgstr ""
+
+msgid "%s: can only write single tablespace to stdout, database has %d\n"
+msgstr ""
+
+msgid "%s: cannot stream transaction logs in tar mode to stdout\n"
+msgstr ""
+
+msgid "%s: cannot stream write-ahead logs in tar mode to stdout\n"
+msgstr ""
+
+msgid "%s: cannot use --create-slot or --drop-slot together with --startpos\n"
+msgstr ""
+
+msgid "%s: cannot use --create-slot or --start together with --drop-slot\n"
+msgstr ""
+
+msgid "%s: cannot use --create-slot together with --drop-slot\n"
+msgstr ""
+
+msgid "%s: changes to tablespace directories will not be undone\n"
+msgstr ""
+
+msgid "%s: checkpoint completed\n"
+msgstr ""
+
+msgid "%s: child %d died, expected %d\n"
+msgstr ""
+
+msgid "%s: child process did not exit normally\n"
+msgstr ""
+
+msgid "%s: child process exited with error %d\n"
+msgstr ""
+
+msgid "%s: child thread exited with error %u\n"
+msgstr ""
+
+msgid ""
+"%s: compressed segment file \"%s\" has incorrect uncompressed size %d, "
+"skipping\n"
+msgstr ""
+
+msgid "%s: confirming write up to %X/%X, flush to %X/%X (slot %s)\n"
+msgstr ""
+
+msgid "%s: could not access directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not clear search_path: %s"
+msgstr ""
+
+msgid "%s: could not clear search_path: %s\n"
+msgstr ""
+
+msgid "%s: could not close compressed file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not close directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not close file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not connect to server\n"
+msgstr ""
+
+msgid "%s: could not connect to server: %s"
+msgstr ""
+
+msgid "%s: could not create archive status file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create background process: %s\n"
+msgstr ""
+
+msgid "%s: could not create background thread: %s\n"
+msgstr ""
+
+msgid "%s: could not create compressed file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create pipe for background process: %s\n"
+msgstr ""
+
+msgid ""
+"%s: could not create replication slot \"%s\": got %d rows and %d fields, "
+"expected %d rows and %d fields\n"
+msgstr ""
+
+msgid "%s: could not create symbolic link \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create symbolic link from \"%s\" to \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not create temporary replication slot \"%s\": %s"
+msgstr ""
+
+msgid "%s: could not create timeline history file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not determine seek position in file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not determine server setting for integer_datetimes\n"
+msgstr ""
+
+msgid ""
+"%s: could not drop replication slot \"%s\": got %d rows and %d fields, "
+"expected %d rows and %d fields\n"
+msgstr ""
+
+msgid "%s: could not establish database-specific replication connection\n"
+msgstr ""
+
+msgid "%s: could not finish writing WAL files: %s\n"
+msgstr ""
+
+msgid "%s: could not fsync existing write-ahead log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not fsync file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not fsync log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not get COPY data stream: %s"
+msgstr ""
+
+msgid "%s: could not get backup header: %s"
+msgstr ""
+
+msgid "%s: could not get child thread exit status: %s\n"
+msgstr ""
+
+msgid "%s: could not get size of transaction log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not get size of write-ahead log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not get transaction log end position from server: %s"
+msgstr ""
+
+msgid "%s: could not get write-ahead log end position from server: %s"
+msgstr ""
+
+msgid ""
+"%s: could not identify system: got %d rows and %d fields, expected %d rows "
+"and %d or more fields\n"
+msgstr ""
+
+msgid "%s: could not initiate base backup: %s"
+msgstr ""
+
+msgid "%s: could not open compressed file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open existing transaction log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open existing write-ahead log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open transaction log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not open write-ahead log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not parse end position \"%s\"\n"
+msgstr ""
+
+msgid "%s: could not parse next timeline's starting point \"%s\"\n"
+msgstr ""
+
+msgid "%s: could not parse start position \"%s\"\n"
+msgstr ""
+
+msgid "%s: could not parse transaction log location \"%s\"\n"
+msgstr ""
+
+msgid "%s: could not parse write-ahead log location \"%s\"\n"
+msgstr ""
+
+msgid "%s: could not read COPY data: %s"
+msgstr ""
+
+msgid "%s: could not read compressed file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not read directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not read from ready pipe: %s\n"
+msgstr ""
+
+msgid "%s: could not receive data from WAL stream: %s"
+msgstr ""
+
+msgid "%s: could not rename file \"%s\" to \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not seek compressed file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not seek in compressed file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not send command to background pipe: %s\n"
+msgstr ""
+
+msgid "%s: could not send copy-end packet: %s"
+msgstr ""
+
+msgid "%s: could not send feedback packet: %s"
+msgstr ""
+
+msgid "%s: could not send replication command \"%s\": %s"
+msgstr ""
+
+msgid "%s: could not set compression level %d: %s\n"
+msgstr ""
+
+msgid "%s: could not set permissions on directory \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not set permissions on file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not stat file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not sync existing write-ahead log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not wait for child process: %s\n"
+msgstr ""
+
+msgid "%s: could not wait for child thread: %s\n"
+msgstr ""
+
+msgid "%s: could not write %u bytes to WAL file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not write %u bytes to log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not write timeline history file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not write to compressed file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not write to file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: creating replication slot \"%s\"\n"
+msgstr ""
+
+msgid "%s: data directory \"%s\" not removed at user's request\n"
+msgstr ""
+
+msgid "%s: directory \"%s\" exists but is not empty\n"
+msgstr ""
+
+msgid "%s: directory name too long\n"
+msgstr ""
+
+msgid "%s: disconnected\n"
+msgstr ""
+
+msgid "%s: disconnected; waiting %d seconds to try again\n"
+msgstr ""
+
+msgid "%s: dropping replication slot \"%s\"\n"
+msgstr ""
+
+msgid "%s: failed to remove WAL directory\n"
+msgstr ""
+
+msgid "%s: failed to remove contents of WAL directory\n"
+msgstr ""
+
+msgid "%s: failed to remove contents of data directory\n"
+msgstr ""
+
+msgid "%s: failed to remove contents of transaction log directory\n"
+msgstr ""
+
+msgid "%s: failed to remove data directory\n"
+msgstr ""
+
+msgid "%s: failed to remove transaction log directory\n"
+msgstr ""
+
+msgid "%s: final receive failed: %s"
+msgstr ""
+
+msgid "%s: finished segment at %X/%X (timeline %u)\n"
+msgstr ""
+
+msgid "%s: got WAL data offset %08x, expected %08x\n"
+msgstr ""
+
+msgid "%s: incompatible server version %s\n"
+msgstr ""
+
+msgid ""
+"%s: incompatible server version %s; client does not support streaming from "
+"server versions newer than %s\n"
+msgstr ""
+
+msgid ""
+"%s: incompatible server version %s; client does not support streaming from "
+"server versions older than %s\n"
+msgstr ""
+
+msgid "%s: initiating base backup, waiting for checkpoint to complete\n"
+msgstr ""
+
+msgid "%s: integer_datetimes compile flag does not match server\n"
+msgstr ""
+
+msgid "%s: invalid --max-rate unit: \"%s\"\n"
+msgstr ""
+
+msgid ""
+"%s: invalid checkpoint argument \"%s\", must be \"fast\" or \"spread\"\n"
+msgstr ""
+
+msgid "%s: invalid compression level \"%s\"\n"
+msgstr ""
+
+msgid "%s: invalid fsync interval \"%s\"\n"
+msgstr ""
+
+msgid "%s: invalid output format \"%s\", must be \"plain\" or \"tar\"\n"
+msgstr ""
+
+msgid "%s: invalid port number \"%s\"\n"
+msgstr ""
+
+msgid "%s: invalid socket: %s"
+msgstr ""
+
+msgid "%s: invalid status interval \"%s\"\n"
+msgstr ""
+
+msgid ""
+"%s: invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\"\n"
+msgstr ""
+
+msgid "%s: invalid tar block header size: %d\n"
+msgstr ""
+
+msgid "%s: invalid transfer rate \"%s\": %s\n"
+msgstr ""
+
+msgid ""
+"%s: invalid wal-method option \"%s\", must be \"fetch\", \"stream\" or \"none"
+"\"\n"
+msgstr ""
+
+msgid ""
+"%s: invalid wal-method option \"%s\", must be \"fetch\", \"stream\", or "
+"\"none\"\n"
+msgstr ""
+
+msgid "%s: multiple \"=\" signs in tablespace mapping\n"
+msgstr ""
+
+msgid "%s: new directory is not an absolute path in tablespace mapping: %s\n"
+msgstr ""
+
+msgid "%s: no data returned from server\n"
+msgstr ""
+
+msgid "%s: no database specified\n"
+msgstr ""
+
+msgid "%s: no slot specified\n"
+msgstr ""
+
+msgid "%s: no target directory specified\n"
+msgstr ""
+
+msgid "%s: no target file specified\n"
+msgstr ""
+
+msgid "%s: no transaction log end position returned from server\n"
+msgstr ""
+
+msgid "%s: no write-ahead log end position returned from server\n"
+msgstr ""
+
+msgid "%s: not renaming \"%s%s\", segment is not complete\n"
+msgstr ""
+
+msgid "%s: old directory is not an absolute path in tablespace mapping: %s\n"
+msgstr ""
+
+msgid "%s: only tar mode backups can be compressed\n"
+msgstr ""
+
+msgid "%s: out of memory\n"
+msgstr ""
+
+msgid "%s: received interrupt signal, exiting\n"
+msgstr ""
+
+msgid "%s: received transaction log record for offset %u with no file open\n"
+msgstr ""
+
+msgid "%s: received write-ahead log record for offset %u with no file open\n"
+msgstr ""
+
+msgid "%s: removing WAL directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing contents of WAL directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing contents of data directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing contents of transaction log directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing data directory \"%s\"\n"
+msgstr ""
+
+msgid "%s: removing transaction log directory \"%s\"\n"
+msgstr ""
+
+msgid ""
+"%s: replication connection using slot \"%s\" is unexpectedly database "
+"specific\n"
+msgstr ""
+
+msgid "%s: replication slots can only be used with WAL streaming\n"
+msgstr ""
+
+msgid "%s: replication stream was terminated before stop point\n"
+msgstr ""
+
+msgid "%s: segment file \"%s\" has incorrect size %d, skipping\n"
+msgstr ""
+
+msgid "%s: select() failed: %s\n"
+msgstr ""
+
+msgid "%s: server reported unexpected history file name for timeline %u: %s\n"
+msgstr ""
+
+msgid ""
+"%s: server reported unexpected next timeline %u, following timeline %u\n"
+msgstr ""
+
+msgid ""
+"%s: server returned unexpected response to BASE_BACKUP command; got %d rows "
+"and %d fields, expected %d rows and %d fields\n"
+msgstr ""
+
+msgid ""
+"%s: server stopped streaming timeline %u at %X/%X, but reported next "
+"timeline %u to begin at %X/%X\n"
+msgstr ""
+
+msgid "%s: starting background WAL receiver\n"
+msgstr ""
+
+msgid "%s: starting log streaming at %X/%X (slot %s)\n"
+msgstr ""
+
+msgid "%s: starting log streaming at %X/%X (timeline %u)\n"
+msgstr ""
+
+msgid "%s: starting timeline %u is not present in the server\n"
+msgstr ""
+
+msgid "%s: streaming header too small: %d\n"
+msgstr ""
+
+msgid "%s: streaming initiated\n"
+msgstr ""
+
+msgid "%s: switched to timeline %u at %X/%X\n"
+msgstr ""
+
+msgid "%s: symlinks are not supported on this platform\n"
+msgstr ""
+
+msgid ""
+"%s: system identifier does not match between base backup and streaming "
+"connection\n"
+msgstr ""
+
+msgid "%s: this build does not support compression\n"
+msgstr ""
+
+msgid "%s: too many command-line arguments (first is \"%s\")\n"
+msgstr ""
+
+msgid "%s: transaction log directory \"%s\" not removed at user's request\n"
+msgstr ""
+
+msgid ""
+"%s: transaction log directory location can only be specified in plain mode\n"
+msgstr ""
+
+msgid "%s: transaction log directory location must be an absolute path\n"
+msgstr ""
+
+msgid "%s: transaction log end point: %s\n"
+msgstr ""
+
+msgid "%s: transaction log file \"%s\" has %d bytes, should be 0 or %d\n"
+msgstr ""
+
+msgid "%s: transaction log start point: %s on timeline %u\n"
+msgstr ""
+
+msgid "%s: transfer rate \"%s\" exceeds integer range\n"
+msgstr ""
+
+msgid "%s: transfer rate \"%s\" is not a valid value\n"
+msgstr ""
+
+msgid "%s: transfer rate \"%s\" is out of range\n"
+msgstr ""
+
+msgid "%s: transfer rate must be greater than zero\n"
+msgstr ""
+
+msgid ""
+"%s: unexpected response to TIMELINE_HISTORY command: got %d rows and %d "
+"fields, expected %d rows and %d fields\n"
+msgstr ""
+
+msgid ""
+"%s: unexpected result set after end-of-timeline: got %d rows and %d fields, "
+"expected %d rows and %d fields\n"
+msgstr ""
+
+msgid "%s: unexpected termination of replication stream: %s"
+msgstr ""
+
+msgid "%s: unrecognized link indicator \"%c\"\n"
+msgstr ""
+
+msgid "%s: unrecognized streaming header: \"%c\"\n"
+msgstr ""
+
+msgid "%s: waiting for background process to finish streaming ...\n"
+msgstr ""
+
+msgid "%s: write-ahead log end point: %s\n"
+msgstr ""
+
+msgid ""
+"%s: write-ahead log file \"%s\" has %d byte, should be 0 or %d\n"
+"%s: write-ahead log file \"%s\" has %d bytes, should be 0 or %d\n"
+msgstr ""
+
+msgid "%s: write-ahead log file \"%s\" has %d bytes, should be 0 or %d\n"
+msgstr ""
+
+msgid "%s: write-ahead log start point: %s on timeline %u\n"
+msgstr ""
+
+msgid "HINT: use -X none or -X fetch to disable log streaming\n"
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "cannot duplicate null pointer (internal error)\n"
+msgstr ""
+
+msgid "could not change compression parameters"
+msgstr ""
+
+msgid "could not close compression stream"
+msgstr ""
+
+msgid "could not compress data"
+msgstr ""
+
+msgid "could not create tar header"
+msgstr ""
+
+msgid "could not initialize compression library"
+msgstr ""
+
+msgid "could not reset compression stream"
+msgstr ""
+
+msgid "implementation error: tar files can't have more than one open file"
+msgstr ""
+
+msgid "out of memory\n"
+msgstr ""
+
+msgid "unlink not supported with compression"
+msgstr ""

@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 13:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%1 cannot be found."
+msgstr ""
+
+msgid "%1 is not a mountable media."
+msgstr ""
+
+msgid "&Mounting"
+msgstr ""
+
+msgid ""
+"<h2>Defines  the  behaviour  for  creation and display of filenames which "
+"fit into 8.3 characters. If a long name for a file exists, it will always be "
+"preferred display.</h2>\n"
+"\n"
+"<h3><b>Lower</b></h3>\n"
+"Force the short name to lower case upon display; store a long name when the "
+"short name is not all upper case.\n"
+"\n"
+"<h3><b>Windows 95</b></h3>\n"
+"Force the short name to upper case upon display; store a long name when the "
+"short name is not all upper case.\n"
+"\n"
+"<h3><b>Windows NT</b></h3>\n"
+"Display the shortname as is; store a long name when the short name is not "
+"all lower case or all upper case.\n"
+"\n"
+"<h3><b>Mixed</b></h3>\n"
+"Display the short name as is; store a long name when the short name is not "
+"all upper case."
+msgstr ""
+
+msgid ""
+"<h2>Specifies  the journalling mode for file data. Metadata is always "
+"journaled. </h2>\n"
+"           \n"
+"<h3><b>All Data</b></h3>\n"
+"           All  data  is  committed into the journal prior to being written "
+"into the main file system. This is the slowest variant with the highest data "
+"security.\n"
+"\n"
+"<h3><b>Ordered</b></h3>\n"
+"           All data is forced directly out to the main  file system prior to "
+"its metadata being committed to the journal.\n"
+"\n"
+"<h3><b>Write Back</b></h3>\n"
+"           Data ordering is not preserved - data may be written into the "
+"main file system after its metadata has been committed to the journal.  This "
+"is rumoured to  be the  highest-throughput option.  It guarantees internal "
+"file system integrity,  however it can allow old data to appear in files "
+"after  a  crash  and  journal recovery."
+msgstr ""
+
+msgid "Access time updates"
+msgstr ""
+
+msgid "All Data"
+msgstr ""
+
+msgid "All I/O to the file system should be done synchronously."
+msgstr ""
+
+msgid ""
+"Always flush all data to the hot plug devices immediately and don't cache it."
+msgstr ""
+
+msgid ""
+"Attempts to chown or chmod files do not return errors, although they fail. "
+"Use with caution!"
+msgstr ""
+
+msgid "Auto Action"
+msgstr ""
+
+msgid "Bar Graph"
+msgstr ""
+
+msgid "Base URL"
+msgstr ""
+
+msgid "CD Recorder"
+msgstr ""
+
+msgid "CD-ROM"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "DVD"
+msgstr ""
+
+msgid "Device Node"
+msgstr ""
+
+msgid "Device is Busy:"
+msgstr ""
+
+msgid "Device is already mounted."
+msgstr ""
+
+msgid "Do Nothing"
+msgstr ""
+
+msgid "Eject given URL via kdeeject"
+msgstr ""
+
+msgid "Feature only available with HAL"
+msgstr ""
+
+msgid "Filesystem Specific Mount Options"
+msgstr ""
+
+msgid "Filesystem: %1"
+msgstr ""
+
+msgid "Filesystem: iso9660"
+msgstr ""
+
+msgid "Floppy"
+msgstr ""
+
+msgid "Floppy Drive"
+msgstr ""
+
+msgid "Flushed IO"
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Generic Mount Options"
+msgstr ""
+
+msgid "Hard Disk"
+msgstr ""
+
+msgid "Internal Error"
+msgstr ""
+
+msgid "Invalid filesystem type"
+msgstr ""
+
+msgid "Journaling:"
+msgstr ""
+
+msgid "Lower"
+msgstr ""
+
+msgid "Medium Information"
+msgstr ""
+
+msgid "Medium Summary"
+msgstr ""
+
+msgid "Mixed"
+msgstr ""
+
+msgid ""
+"Moreover, programs still using the device have been detected. They are "
+"listed below. You have to close them or change their working directory "
+"before attempting to unmount the device again."
+msgstr ""
+
+msgid "Mount Point"
+msgstr ""
+
+msgid "Mount as user"
+msgstr ""
+
+msgid "Mount automatically"
+msgstr ""
+
+msgid "Mount given URL (default)"
+msgstr ""
+
+msgid "Mount the file system read-only."
+msgstr ""
+
+msgid "Mount this file system as user."
+msgstr ""
+
+msgid "Mount this file system automatically."
+msgstr ""
+
+msgid "Mountpoint has to be below /media"
+msgstr ""
+
+msgid "Mountpoint:"
+msgstr ""
+
+msgid "No such medium."
+msgstr ""
+
+msgid "No such medium: %1"
+msgstr ""
+
+msgid "Open in New Window"
+msgstr ""
+
+msgid "Ordered"
+msgstr ""
+
+msgid "Permissions denied"
+msgstr ""
+
+msgid "Protocol name"
+msgstr ""
+
+msgid "Quiet"
+msgstr ""
+
+msgid "Read only"
+msgstr ""
+
+msgid "Remote Share"
+msgstr ""
+
+msgid "Removable Device"
+msgstr ""
+
+msgid "Saving the changes failed"
+msgstr ""
+
+msgid "Short names:"
+msgstr ""
+
+msgid "Socket name"
+msgstr ""
+
+msgid "Synchronous"
+msgstr ""
+
+msgid "The KDE mediamanager is not running."
+msgstr ""
+
+msgid "The device was successfully unmounted, but could not be ejected"
+msgstr ""
+
+msgid "The device was successfully unmounted, but the tray could not be opened"
+msgstr ""
+
+msgid "The following error was returned by umount command:"
+msgstr ""
+
+msgid "This media name already exists."
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "UTF-8 charset"
+msgstr ""
+
+msgid ""
+"UTF8 is the filesystem safe 8-bit encoding of Unicode that is used by the "
+"console. It can be be enabled for the filesystem with this option."
+msgstr ""
+
+msgid ""
+"Under what directory this file system shall be mounted. Please note that "
+"there is no guarantee that the system will respect your wish. For one the "
+"directory has to be below /media - and it does not yet have to exist."
+msgstr ""
+
+msgid ""
+"Unfortunately, the device <b>%1</b> (%2) named <b>'%3'</b> and currently "
+"mounted at <b>%4</b> could not be unmounted. "
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unknown Drive"
+msgstr ""
+
+msgid "Unmount and Eject given URL (necessary for some USB devices)"
+msgstr ""
+
+msgid "Unmount given URL"
+msgstr ""
+
+msgid "Unmounting failed due to the following error:"
+msgstr ""
+
+msgid "Update inode access time for each access."
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "Windows 95"
+msgstr ""
+
+msgid "Windows NT"
+msgstr ""
+
+msgid "Write Back"
+msgstr ""
+
+msgid "Zip Disk"
+msgstr ""
+
+msgid "Zip Drive"
+msgstr ""
+
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+msgid "media:/ URL to mount/unmount/eject/remove"
+msgstr ""

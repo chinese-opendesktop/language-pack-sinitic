@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Herbert Duerr
+# This file is distributed under the same license as the xfstt package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xfstt 1.10\n"
+"Report-Msgid-Bugs-To: guillem@hadrons.org\n"
+"POT-Creation-Date: 2019-02-09 17:03+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/xfstt.cc:146
+#, c-format
+msgid ""
+"Usage: xfstt [<options>]\n"
+"\n"
+msgstr ""
+
+#: src/xfstt.cc:152
+#, c-format
+msgid ""
+"Options: \n"
+"  --sync               sync database with font directory content\n"
+"  --gslist             print ghostscript style ttf fontlist\n"
+"  --port <value>       change port number (default %i)\n"
+"  --notcp              don't open TCP socket, use unix domain only\n"
+"  --dir <directory>    change font directory (default %s)\n"
+"  --cache <directory>  change font cache directory (default %s)\n"
+"  --pidfile <file>     change pid file location (default %s)\n"
+"  --res <value>        force default resolution to this value\n"
+"  --encoding <list>    change encoding (default %s)\n"
+"  --unstrap            !DANGER! serve all unicodes !DANGER!\n"
+"  --user <username>    username that children should run as\n"
+"  --once               exit after the font client disconnects\n"
+"  --daemon             run in the background\n"
+"  --inetd              run as inetd service\n"
+"  --help               show this help message\n"
+"  --version            show the version\n"
+"\n"
+msgstr ""
+
+#: src/xfstt.cc:172
+#, c-format
+msgid ""
+"Attach to X Server by \"xset fp+ unix/:%i\"\n"
+"  or \"xset fp+ inet/127.0.0.1:%i\"\n"
+msgstr ""
+
+#: src/xfstt.cc:176
+#, c-format
+msgid ""
+"Detach from X Server by \"xset -fp unix/:%u\"\n"
+"  or \"xset -fp inet/127.0.0.1:%i\"\n"
+msgstr ""
+
+#: src/xfstt.cc:187
+#, c-format
+msgid "Sync in directory \"%s/%s\".\n"
+msgstr ""
+
+#: src/xfstt.cc:280 src/xfstt.cc:298 src/xfstt.cc:784
+#, c-format
+msgid "directory \"%s\" does not exist!\n"
+msgstr ""
+
+#: src/xfstt.cc:284
+#, c-format
+msgid "\"%s\" is not a directory!\n"
+msgstr ""
+
+#: src/xfstt.cc:318
+msgid "cannot write to font database!\n"
+msgstr ""
+
+#: src/xfstt.cc:354
+#, c-format
+msgid "Found %d fonts.\n"
+msgstr ""
+
+#: src/xfstt.cc:356
+msgid "no valid truetype fonts found!\n"
+msgstr ""
+
+#: src/xfstt.cc:357
+#, c-format
+msgid "Please put some *.ttf fonts into \"%s\".\n"
+msgstr ""
+
+#: src/xfstt.cc:577
+msgid "entering memory starved mode.\n"
+msgstr ""
+
+#: src/xfstt.cc:794 src/xfstt.cc:830
+msgid "cannot open font database!\n"
+msgstr ""
+
+#: src/xfstt.cc:800
+msgid "cannot stat fond database!\n"
+msgstr ""
+
+#: src/xfstt.cc:809 src/xfstt.cc:844
+msgid "cannot mmap font database!\n"
+msgstr ""
+
+#: src/xfstt.cc:815 src/xfstt.cc:850
+msgid "corrupt font database!\n"
+msgstr ""
+
+#: src/xfstt.cc:820 src/xfstt.cc:855
+msgid "wrong font database version!\n"
+msgstr ""
+
+#: src/xfstt.cc:835
+msgid "cannot stat font database!\n"
+msgstr ""
+
+#: src/xfstt.cc:899
+msgid "setting socket option (IPv6 only).\n"
+msgstr ""
+
+#: src/xfstt.cc:906
+msgid "setting socket option (reuseaddr).\n"
+msgstr ""
+
+#: src/xfstt.cc:922 src/xfstt.cc:1006
+#, c-format
+msgid "cannot open TCP/IP port %d, try another port; %s!\n"
+msgstr ""
+
+#: src/xfstt.cc:942
+#, c-format
+msgid "cannot create Unix socket; %s!\n"
+msgstr ""
+
+#: src/xfstt.cc:953
+#, c-format
+msgid "cannot make socket directory %s!\n"
+msgstr ""
+
+#: src/xfstt.cc:960
+#, c-format
+msgid "could not write to %s/, please check permissions.\n"
+msgstr ""
+
+#: src/xfstt.cc:1070
+msgid "invalid byteorder, giving up.\n"
+msgstr ""
+
+#: src/xfstt.cc:1081
+msgid "byteorder mismatch, giving up.\n"
+msgstr ""
+
+#: src/xfstt.cc:1118
+#, c-format
+msgid "scanline length error! recompile xfstt with LOGSLP defined as %d!\n"
+msgstr ""
+
+#: src/xfstt.cc:2050
+msgid "illegal port number!\n"
+msgstr ""
+
+#: src/xfstt.cc:2059
+msgid "illegal default resolution!\n"
+msgstr ""
+
+#: src/xfstt.cc:2071
+msgid "illegal encoding!\n"
+msgstr ""
+
+#: src/xfstt.cc:2072
+msgid "valid encodings are:\n"
+msgstr ""
+
+#: src/xfstt.cc:2093
+msgid "[unstrapped] you must start X11 with \"-deferglyphs 16\" option!\n"
+msgstr ""
+
+#: src/xfstt.cc:2105
+msgid "sync failed.\n"
+msgstr ""
+
+#: src/xfstt.cc:2147
+#, c-format
+msgid "opening TTF database failed, while reading \"%s\" to build it.\n"
+msgstr ""
+
+#: src/xfstt.cc:2152
+msgid "creating a font database failed.\n"
+msgstr ""
+
+#: src/xfstt.cc:2162
+msgid "good bye.\n"
+msgstr ""

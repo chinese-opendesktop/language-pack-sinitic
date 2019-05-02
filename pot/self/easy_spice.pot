@@ -1,0 +1,984 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-16 09:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/callbacks.c:42 src/callbacks.c:75 src/callbacks.c:110
+#: src/callbacks.c:126 src/callbacks.c:145 src/callbacks.c:167
+#: src/callbacks.c:189 src/callbacks.c:211 src/callbacks.c:234
+#: src/callbacks.c:452 src/callbacks.c:613 src/menu.c:581 src/menu.c:835
+#: src/menu.c:849
+msgid "Error: No project name specified\n"
+msgstr ""
+
+#: src/callbacks.c:43
+msgid "Error: Stopped opening the schematic\n"
+msgstr ""
+
+#: src/callbacks.c:47
+msgid "Starting gschem...\n"
+msgstr ""
+
+#: src/callbacks.c:49
+msgid "Notice"
+msgstr ""
+
+#: src/callbacks.c:49
+msgid ""
+"It seems that an existing\n"
+"gschem session exists.\n"
+"\n"
+"If not, consider deleting the\n"
+"easyspice.gschem.lockfile."
+msgstr ""
+
+#: src/callbacks.c:76
+msgid "Error: Stopped generating the netlist\n"
+msgstr ""
+
+#. TO BE DONE: test if the schematic has been saved
+#: src/callbacks.c:81
+msgid "Creating netlist\n"
+msgstr ""
+
+#: src/callbacks.c:84
+msgid "Netlist created\n"
+msgstr ""
+
+#: src/callbacks.c:111
+msgid "Error: project name missing, stopped showing the netlist\n"
+msgstr ""
+
+#: src/callbacks.c:127 src/callbacks.c:146 src/callbacks.c:168
+#: src/callbacks.c:190 src/callbacks.c:212 src/callbacks.c:235
+msgid "Error: project name missing, stopped simulation\n"
+msgstr ""
+
+#: src/callbacks.c:135 src/callbacks.c:150 src/callbacks.c:172
+#: src/callbacks.c:239
+msgid ""
+"error(s) in the netlist\n"
+" No simulation done\n"
+msgstr ""
+
+#: src/callbacks.c:194
+msgid ""
+"error(s) in the netlist\n"
+" No simulation done"
+msgstr ""
+
+#: src/callbacks.c:216 src/geda.c:121 src/geda.c:149 src/geda.c:160
+#: src/spice.c:300
+msgid "Error"
+msgstr ""
+
+#: src/callbacks.c:216
+msgid ""
+"error(s) in the netlist\n"
+"No simulation done\n"
+msgstr ""
+
+#: src/callbacks.c:319 src/interface.c:1924
+msgid "Step"
+msgstr ""
+
+#: src/callbacks.c:342 src/callbacks.c:365
+msgid "Pts/Dec"
+msgstr ""
+
+#: src/callbacks.c:377 src/callbacks.c:410 src/interface.c:1188
+msgid "Pts/decade"
+msgstr ""
+
+#: src/callbacks.c:388 src/callbacks.c:421
+msgid "Number of Pts"
+msgstr ""
+
+#: src/callbacks.c:399 src/callbacks.c:432
+msgid "Pts/octave"
+msgstr ""
+
+#: src/callbacks.c:441
+msgid "Warning: this funciton is not implemented yet\n"
+msgstr ""
+
+#: src/callbacks.c:453
+msgid "Error: project name missing, stopped plotting\n"
+msgstr ""
+
+#: src/callbacks.c:614
+msgid "Error: Stopped showing the spice output\n"
+msgstr ""
+
+#: src/callbacks.c:779
+msgid "select a library"
+msgstr ""
+
+#: src/spice_plot.c:43
+msgid "Unable to open plot file\n"
+msgstr ""
+
+#: src/geda.c:105
+#, c-format
+msgid ""
+"open the %s file in gschem to see the result\n"
+" but do not modify it!!\n"
+msgstr ""
+
+#: src/geda.c:121
+msgid ""
+"Error!\n"
+"Unable to load file \"gafrc\""
+msgstr ""
+
+#: src/geda.c:149
+msgid ""
+"Error!\n"
+"Unable to load file \"gschemrc\""
+msgstr ""
+
+#: src/geda.c:160
+msgid ""
+"Error!\n"
+"Unable to load file \"gnetlistrc\""
+msgstr ""
+
+#: src/interface.c:333
+msgid "File"
+msgstr ""
+
+#. menu_file_accels = gtk_menu_ensure_uline_accel_group (GTK_MENU (menu_file));
+#: src/interface.c:347
+msgid "New project"
+msgstr ""
+
+#: src/interface.c:353
+msgid "Open project"
+msgstr ""
+
+#: src/interface.c:359
+msgid "Save project"
+msgstr ""
+
+#: src/interface.c:366
+msgid "Save as..."
+msgstr ""
+
+#: src/interface.c:380
+msgid "Quit"
+msgstr ""
+
+#: src/interface.c:387
+msgid "Options"
+msgstr ""
+
+#. menu_options_accels = gtk_menu_ensure_uline_accel_group (GTK_MENU (menu_options));
+#: src/interface.c:401
+msgid "commands ..."
+msgstr ""
+
+#: src/interface.c:408
+msgid "spice libraries ..."
+msgstr ""
+
+#: src/interface.c:415
+msgid "gEDA options ..."
+msgstr ""
+
+#: src/interface.c:430
+msgid "Save options"
+msgstr ""
+
+#: src/interface.c:437
+msgid "Window"
+msgstr ""
+
+#. menu_windows_accels = gtk_menu_ensure_uline_accel_group (GTK_MENU (menu_windows));
+#: src/interface.c:451
+msgid "show simul commands"
+msgstr ""
+
+#: src/interface.c:458
+msgid "show plot commands"
+msgstr ""
+
+#: src/interface.c:473
+msgid "interactive spice"
+msgstr ""
+
+#: src/interface.c:488
+msgid "post processing"
+msgstr ""
+
+#: src/interface.c:495
+msgid "plot results"
+msgstr ""
+
+#: src/interface.c:502
+msgid "Help"
+msgstr ""
+
+#. help1_menu_accels = gtk_menu_ensure_uline_accel_group (GTK_MENU (help1_menu));
+#: src/interface.c:517 src/menu.c:926
+msgid "About"
+msgstr ""
+
+#: src/interface.c:524
+msgid "Page man spice"
+msgstr ""
+
+#: src/interface.c:531
+msgid "doc spice (html)"
+msgstr ""
+
+#: src/interface.c:538
+msgid "doc spice (txt)"
+msgstr ""
+
+#: src/interface.c:556
+msgid ""
+"Edit the \n"
+"schematic"
+msgstr ""
+
+#: src/interface.c:563
+msgid "edit the schematic using gschem"
+msgstr ""
+
+#: src/interface.c:565
+msgid ""
+"Create the \n"
+"netlist"
+msgstr ""
+
+#: src/interface.c:572
+msgid "create the netlist from the schematic"
+msgstr ""
+
+#: src/interface.c:574
+msgid ""
+"Show the \n"
+"netlist"
+msgstr ""
+
+#: src/interface.c:613
+msgid "Operating point calculation"
+msgstr ""
+
+#: src/interface.c:628
+msgid "See the circuit listing"
+msgstr ""
+
+#: src/interface.c:635
+msgid "See the model used"
+msgstr ""
+
+#: src/interface.c:642
+msgid "show the results on the schematic"
+msgstr ""
+
+#: src/interface.c:656
+msgid "Simulate OP"
+msgstr ""
+
+#: src/interface.c:662
+msgid "start the op simulation. See the results on the spice output window"
+msgstr ""
+
+#: src/interface.c:679
+msgid "Polarisation"
+msgstr ""
+
+#: src/interface.c:694
+msgid ""
+"Node\n"
+"or current"
+msgstr ""
+
+#: src/interface.c:716 src/interface.c:789
+msgid "Value"
+msgstr ""
+
+#: src/interface.c:747
+msgid "Device:"
+msgstr ""
+
+#: src/interface.c:768
+msgid "Item"
+msgstr ""
+
+#: src/interface.c:804
+msgid "op"
+msgstr ""
+
+#: src/interface.c:818
+msgid "dc sweep"
+msgstr ""
+
+#: src/interface.c:853
+msgid "First var"
+msgstr ""
+
+#: src/interface.c:867 src/interface.c:1000 src/interface.c:1676
+msgid "Source : "
+msgstr ""
+
+#: src/interface.c:904 src/interface.c:1044
+msgid "the first value of the sweep"
+msgstr ""
+
+#: src/interface.c:906 src/interface.c:1029
+msgid "Start : "
+msgstr ""
+
+#: src/interface.c:922 src/interface.c:1053
+msgid "Stop : "
+msgstr ""
+
+#: src/interface.c:938 src/interface.c:1068 src/interface.c:1092
+msgid "the last value of the sweep"
+msgstr ""
+
+#: src/interface.c:947
+msgid "Inc : "
+msgstr ""
+
+#: src/interface.c:963
+msgid "the increment of the sweep"
+msgstr ""
+
+#: src/interface.c:986
+msgid "Second var(Optional)"
+msgstr ""
+
+#: src/interface.c:1077
+msgid "Inc "
+msgstr ""
+
+#: src/interface.c:1101
+msgid "Simulate DC"
+msgstr ""
+
+#: src/interface.c:1108
+msgid "dc"
+msgstr ""
+
+#: src/interface.c:1122
+msgid "Small signal analysis"
+msgstr ""
+
+#: src/interface.c:1143 src/interface.c:1360
+msgid "Type of analysis"
+msgstr ""
+
+#: src/interface.c:1150 src/interface.c:1367 src/interface.c:1845
+msgid "DEC"
+msgstr ""
+
+#: src/interface.c:1158 src/interface.c:1375 src/interface.c:1837
+msgid "LIN"
+msgstr ""
+
+#: src/interface.c:1166 src/interface.c:1383
+msgid "OCT"
+msgstr ""
+
+#: src/interface.c:1201 src/interface.c:1419
+msgid ""
+"Number of points per decade(DEC) or per octave(OCT) or between fmin and fmax"
+msgstr ""
+
+#: src/interface.c:1210 src/interface.c:1428
+msgid "fmin"
+msgstr ""
+
+#: src/interface.c:1223 src/interface.c:1442
+msgid "first value for the ac analysis"
+msgstr ""
+
+#: src/interface.c:1232 src/interface.c:1451
+msgid "fmax"
+msgstr ""
+
+#: src/interface.c:1245 src/interface.c:1465
+msgid "last value for the ac analysis"
+msgstr ""
+
+#: src/interface.c:1254
+msgid "Simulate AC"
+msgstr ""
+
+#: src/interface.c:1260 src/interface.c:1480 src/interface.c:2181
+msgid "start the ac analysis"
+msgstr ""
+
+#: src/interface.c:1262
+msgid "ac"
+msgstr ""
+
+#: src/interface.c:1276
+msgid "Noise analysis"
+msgstr ""
+
+#: src/interface.c:1297
+msgid "Node"
+msgstr ""
+
+#: src/interface.c:1325
+msgid "Source"
+msgstr ""
+
+#: src/interface.c:1405
+msgid "Pts/Decade"
+msgstr ""
+
+#: src/interface.c:1474
+msgid "Simulate Noise"
+msgstr ""
+
+#: src/interface.c:1482
+msgid "noise"
+msgstr ""
+
+#: src/interface.c:1496
+msgid "Transient analysis"
+msgstr ""
+
+#: src/interface.c:1517
+msgid "tstep"
+msgstr ""
+
+#: src/interface.c:1530
+msgid "the time step report"
+msgstr ""
+
+#: src/interface.c:1539
+msgid "tstop"
+msgstr ""
+
+#: src/interface.c:1552
+msgid "the last value of the transient analysis "
+msgstr ""
+
+#: src/interface.c:1561
+msgid "tstart(opt)"
+msgstr ""
+
+#: src/interface.c:1574
+msgid "the first value for the analysis (default 0)"
+msgstr ""
+
+#: src/interface.c:1583
+msgid "tmax (opt)"
+msgstr ""
+
+#: src/interface.c:1604
+msgid "Simulate TRAN"
+msgstr ""
+
+#: src/interface.c:1610
+msgid "start the transient analysis"
+msgstr ""
+
+#: src/interface.c:1612
+msgid "tran"
+msgstr ""
+
+#: src/interface.c:1626
+msgid "Calculate a transfert function"
+msgstr ""
+
+#: src/interface.c:1647
+msgid "Output var :"
+msgstr ""
+
+#: src/interface.c:1706
+msgid "Simulate TF"
+msgstr ""
+
+#: src/interface.c:1712
+msgid ""
+"start the transfert function simulation. See the results on the spice output "
+"window"
+msgstr ""
+
+#: src/interface.c:1714
+msgid "tf"
+msgstr ""
+
+#: src/interface.c:1728
+msgid "Do a parametric analysis"
+msgstr ""
+
+#: src/interface.c:1742
+msgid "enable"
+msgstr ""
+
+#: src/interface.c:1765
+msgid "name"
+msgstr ""
+
+#: src/interface.c:1794 src/interface.c:1960
+msgid "param"
+msgstr ""
+
+#: src/interface.c:1830
+msgid "Type"
+msgstr ""
+
+#: src/interface.c:1853
+msgid "LIST"
+msgstr ""
+
+#: src/interface.c:1882
+msgid "Start"
+msgstr ""
+
+#: src/interface.c:1903
+msgid "Stop"
+msgstr ""
+
+#: src/interface.c:1946
+msgid "Values"
+msgstr ""
+
+#: src/interface.c:1975
+msgid "Plot the results"
+msgstr ""
+
+#: src/interface.c:1989
+msgid "Commands before plotting :"
+msgstr ""
+
+#: src/interface.c:2035
+msgid "X axis : "
+msgstr ""
+
+#: src/interface.c:2049
+msgid "default"
+msgstr ""
+
+#: src/interface.c:2064
+msgid "value"
+msgstr ""
+
+#: src/interface.c:2088 src/interface.c:2132
+msgid "log scale"
+msgstr ""
+
+#: src/interface.c:2096
+msgid "lin scale"
+msgstr ""
+
+#: src/interface.c:2118
+msgid "Y axis : "
+msgstr ""
+
+#: src/interface.c:2153
+msgid "auto update"
+msgstr ""
+
+#: src/interface.c:2160
+msgid "Reset"
+msgstr ""
+
+#: src/interface.c:2175
+msgid "Plot"
+msgstr ""
+
+#: src/interface.c:2183
+msgid "plot"
+msgstr ""
+
+#: src/interface.c:2222
+msgid " Log "
+msgstr ""
+
+#: src/interface.c:2266
+msgid "spice output "
+msgstr ""
+
+#: src/interface.c:2273
+msgid "-> view"
+msgstr ""
+
+#: src/interface.c:2296
+msgid "Spice errors"
+msgstr ""
+
+#: src/interface.c:2459
+msgid "verify quit"
+msgstr ""
+
+#: src/interface.c:2466
+msgid ""
+"Are you sure you want\n"
+"to quit?"
+msgstr ""
+
+#: src/interface.c:2536
+msgid "config spice"
+msgstr ""
+
+#: src/interface.c:2569
+msgid "Spice configuration"
+msgstr ""
+
+#: src/interface.c:2715
+msgid "Ok"
+msgstr ""
+
+#: src/interface.c:2723 src/interface.c:3128 src/interface.c:3410
+msgid "Default"
+msgstr ""
+
+#: src/interface.c:2765
+msgid "easy_spice: text viewer"
+msgstr ""
+
+#: src/interface.c:2784 src/interface.c:2790
+msgid "Filename: "
+msgstr ""
+
+#: src/interface.c:2900
+msgid "gEDA parameters"
+msgstr ""
+
+#: src/interface.c:2924
+msgid "Include current directory: "
+msgstr ""
+
+#: src/interface.c:2928 src/interface.c:2964 src/interface.c:3089
+msgid "No"
+msgstr ""
+
+#: src/interface.c:2934 src/interface.c:2970 src/interface.c:3095
+msgid "Yes"
+msgstr ""
+
+#: src/interface.c:2944
+msgid "Other directories: "
+msgstr ""
+
+#: src/interface.c:2960
+msgid "pinlabel attribute: "
+msgstr ""
+
+#: src/interface.c:2980
+msgid "Other attributes: "
+msgstr ""
+
+#: src/interface.c:2988
+msgid "Common gEDA configurations:"
+msgstr ""
+
+#: src/interface.c:3012
+msgid "Text size: "
+msgstr ""
+
+#: src/interface.c:3029
+msgid "Snap size: "
+msgstr ""
+
+#: src/interface.c:3038
+msgid "gschem configurations:"
+msgstr ""
+
+#: src/interface.c:3061
+msgid "Net priority: "
+msgstr ""
+
+#: src/interface.c:3065
+msgid "Labels"
+msgstr ""
+
+#: src/interface.c:3071
+msgid "Nodes"
+msgstr ""
+
+#: src/interface.c:3085
+msgid "Allow hierarchy"
+msgstr ""
+
+#: src/interface.c:3106
+msgid "gnetlist command line: "
+msgstr ""
+
+#. End of addition by Gudjon
+#: src/interface.c:3119
+msgid "gnetlist configurations:"
+msgstr ""
+
+#: src/interface.c:3256
+msgid "setup external programms"
+msgstr ""
+
+#: src/interface.c:3280
+msgid "Simulator command: "
+msgstr ""
+
+#: src/interface.c:3296
+msgid "Plot command: "
+msgstr ""
+
+#: src/interface.c:3304
+msgid "spice commands"
+msgstr ""
+
+#: src/interface.c:3328
+msgid "Help command: "
+msgstr ""
+
+#: src/interface.c:3345
+msgid "HTML index: "
+msgstr ""
+
+#: src/interface.c:3354
+msgid "spice help"
+msgstr ""
+
+#: src/interface.c:3377
+msgid "Browser: "
+msgstr ""
+
+#: src/interface.c:3393
+msgid "Text editor: "
+msgstr ""
+
+#: src/interface.c:3401
+msgid "other programms"
+msgstr ""
+
+#: src/interface.c:3545
+msgid "Post traitement"
+msgstr ""
+
+#: src/interface.c:3555
+msgid "For all simulations:"
+msgstr ""
+
+#: src/interface.c:3632
+msgid "library editor"
+msgstr ""
+
+#: src/interface.c:3651
+msgid "Libraries"
+msgstr ""
+
+#: src/menu.c:36
+msgid "Select new project name"
+msgstr ""
+
+#: src/menu.c:103
+msgid "Open a project"
+msgstr ""
+
+#: src/menu.c:174
+#, c-format
+msgid "No local configuration file found: %s\n"
+msgstr ""
+
+#: src/menu.c:193 src/menu.c:360
+msgid "Error: No project file found.\n"
+msgstr ""
+
+#: src/menu.c:231
+#, c-format
+msgid "Error: Loading configuration file %s failed.\n"
+msgstr ""
+
+#: src/menu.c:232
+#, c-format
+msgid "  GError: %s"
+msgstr ""
+
+#: src/menu.c:582
+msgid "Error: Stopped saving the project\n"
+msgstr ""
+
+#: src/menu.c:588
+msgid "Error: unable to write the file"
+msgstr ""
+
+#: src/menu.c:682
+msgid "Save the project as ..."
+msgstr ""
+
+#: src/menu.c:836
+msgid "Error: Stopped showing the simulation commands\n"
+msgstr ""
+
+#: src/menu.c:850
+msgid "Error: Stopped showing the plotting commands\n"
+msgstr ""
+
+#: src/netlist.c:78
+msgid ""
+"\n"
+"Error: unable to open the netlist file\n"
+msgstr ""
+
+#: src/netlist.c:186
+msgid "No netlist\n"
+msgstr ""
+
+#: src/netlist.c:194
+msgid "Testing netlist\n"
+msgstr ""
+
+#: src/netlist.c:203
+msgid "Error : pin not connected\n"
+msgstr ""
+
+#: src/netlist.c:211
+msgid ""
+"no ground\n"
+"Make sure to put an attribute label = 0 for the ground potential\n"
+msgstr ""
+
+#: src/netlist.c:220
+msgid "One missing uref\n"
+msgstr ""
+
+#: src/netlist.c:227
+msgid "Invalid name for uref:"
+msgstr ""
+
+#: src/netlist.c:236
+msgid "Error(s) in the netlist\n"
+msgstr ""
+
+#: src/netlist.c:238
+msgid "No error(s)\n"
+msgstr ""
+
+#: src/netlist.c:280
+#, c-format
+msgid "List of devices:\n"
+msgstr ""
+
+#: src/netlist.c:282
+#, c-format
+msgid "List of sources:\n"
+msgstr ""
+
+#: src/spice.c:219
+msgid "Error: one field empty in first DC variable\n"
+msgstr ""
+
+#: src/spice.c:234
+msgid "Error: One field empty in AC variables\n"
+msgstr ""
+
+#: src/spice.c:240
+msgid "Error: One field empty in TRAN variables\n"
+msgstr ""
+
+#: src/spice.c:246
+msgid "Error: One field empty in TF variables\n"
+msgstr ""
+
+#: src/spice.c:254
+msgid "Error: One field empty in NOISE variables\n"
+msgstr ""
+
+#: src/spice.c:259
+msgid "Error in spice_test_field\n"
+msgstr ""
+
+#: src/spice.c:300
+msgid ""
+"Failed to open the\n"
+"spice error file!"
+msgstr ""
+
+#: src/spice.c:314
+msgid "No error\n"
+msgstr ""
+
+#: src/spice.c:317
+#, c-format
+msgid "One error found\n"
+msgstr ""
+
+#: src/spice.c:320
+#, c-format
+msgid "%d errors founded\n"
+msgstr ""
+
+#: src/spice.c:326
+#, c-format
+msgid "%sSimulation was not successful\n"
+msgstr ""
+
+#. test of the result file
+#: src/spice.c:360
+msgid "Test of the results file\n"
+msgstr ""
+
+#. test of the standard error file
+#: src/spice.c:367
+msgid "Test of the standard error ouput\n"
+msgstr ""
+
+#: src/spice.c:421
+#, c-format
+msgid "  echo -----listing of the circuit--------------------------\n"
+msgstr ""
+
+#: src/spice.c:436
+#, c-format
+msgid "  echo ------- parameters of the devices -----------\n"
+msgstr ""
+
+#: src/spice.c:442
+#, c-format
+msgid "  echo -------   operation point    ----------------\n"
+msgstr ""
+
+#: src/spice.c:648
+msgid "Error: No netlist"
+msgstr ""
+
+#: src/spice.c:655
+msgid "Error: Problem with spice .cir file.\n"
+msgstr ""
+
+#: src/support.c:117
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#: src/support.c:126
+#, c-format
+msgid "Error loading pixmap file: %s"
+msgstr ""
+
+#. no value given
+#: src/util.c:776
+#, c-format
+msgid "spice2double: no value given [%s]\n"
+msgstr ""
+
+#: src/util.c:818
+#, c-format
+msgid "spice2double: strange unit [%s] in value [%s]\n"
+msgstr ""
+
+#: src/util.c:853
+#, c-format
+msgid "Error reading text file %s\n"
+msgstr ""
