@@ -1,0 +1,948 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-18 19:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.cpp:29
+msgid "An interface for potrace"
+msgstr ""
+
+#: main.cpp:33
+msgid "Document to open"
+msgstr ""
+
+#: main.cpp:39
+msgid "potracegui"
+msgstr ""
+
+#: mainwidget.cpp:59
+msgid "Original image"
+msgstr ""
+
+#: mainwidget.cpp:60
+msgid "Preview"
+msgstr ""
+
+#: mainwidget.cpp:84
+msgid "Checking autotrace formats."
+msgstr ""
+
+#: mainwidget.cpp:89
+msgid "Done."
+msgstr ""
+
+#: mainwidget.cpp:92
+msgid "Autotrace not found."
+msgstr ""
+
+#: mainwidget.cpp:107
+msgid "Select an image"
+msgstr ""
+
+#: mainwidget.cpp:119 mainwidget.cpp:205 mainwidget.cpp:402 mainwidget.cpp:492
+#: mainwidget.cpp:626 mainwidget.cpp:1005 rc.cpp:23
+msgid "eps"
+msgstr ""
+
+#: mainwidget.cpp:120 mainwidget.cpp:206
+msgid "*.eps|Encapsulated postscript"
+msgstr ""
+
+#: mainwidget.cpp:121 mainwidget.cpp:207 mainwidget.cpp:402 mainwidget.cpp:492
+#: mainwidget.cpp:645 mainwidget.cpp:1005 rc.cpp:24
+msgid "postscript"
+msgstr ""
+
+#: mainwidget.cpp:122 mainwidget.cpp:208
+msgid "*.ps|Postscript"
+msgstr ""
+
+#: mainwidget.cpp:123 mainwidget.cpp:209 mainwidget.cpp:410 mainwidget.cpp:504
+#: mainwidget.cpp:664 mainwidget.cpp:1001 rc.cpp:25 rc.cpp:55
+msgid "SVG"
+msgstr ""
+
+#: mainwidget.cpp:124 mainwidget.cpp:210
+msgid "*.svg|SVG images"
+msgstr ""
+
+#: mainwidget.cpp:125 mainwidget.cpp:211 mainwidget.cpp:412 mainwidget.cpp:508
+#: mainwidget.cpp:676 rc.cpp:27
+msgid "Gimp path"
+msgstr ""
+
+#: mainwidget.cpp:126 mainwidget.cpp:212
+msgid "*.*|Gimp path"
+msgstr ""
+
+#: mainwidget.cpp:127 mainwidget.cpp:213 mainwidget.cpp:511 mainwidget.cpp:680
+#: rc.cpp:28
+msgid "Xfig"
+msgstr ""
+
+#: mainwidget.cpp:128 mainwidget.cpp:214
+msgid "*.fig|XFig drawing"
+msgstr ""
+
+#: mainwidget.cpp:130 mainwidget.cpp:216
+msgid "*.pgm|PGM image"
+msgstr ""
+
+#: mainwidget.cpp:135 mainwidget.cpp:154 mainwidget.cpp:221 mainwidget.cpp:240
+msgid "Select the file to save to"
+msgstr ""
+
+#: mainwidget.cpp:142 mainwidget.cpp:228
+msgid "Overwrite %1 ?"
+msgstr ""
+
+#: mainwidget.cpp:164 mainwidget.cpp:185 mainwidget.cpp:250
+msgid "Error while saving file"
+msgstr ""
+
+#: mainwidget.cpp:167 mainwidget.cpp:188 mainwidget.cpp:253
+msgid "Saving %1..."
+msgstr ""
+
+#: mainwidget.cpp:174 mainwidget.cpp:195 mainwidget.cpp:260
+msgid "File %1 saved."
+msgstr ""
+
+#: mainwidget.cpp:177 mainwidget.cpp:263
+msgid "File not saved"
+msgstr ""
+
+#: mainwidget.cpp:273
+msgid "Warning: could not remove temporary file."
+msgstr ""
+
+#: mainwidget.cpp:306
+msgid "Could not create temporary filename"
+msgstr ""
+
+#: mainwidget.cpp:318
+msgid "Image pasted."
+msgstr ""
+
+#: mainwidget.cpp:348
+msgid "Selected URL is not a valid image."
+msgstr ""
+
+#: mainwidget.cpp:356
+msgid "Could not create temporary filename."
+msgstr ""
+
+#: mainwidget.cpp:368
+msgid "File %1 loaded."
+msgstr ""
+
+#: mainwidget.cpp:413
+msgid "Xfig path"
+msgstr ""
+
+#: mainwidget.cpp:812
+msgid "You must open an image first."
+msgstr ""
+
+#: mainwidget.cpp:831
+msgid ""
+"The process couldn't be started\n"
+"The process executed was:\n"
+msgstr ""
+
+#: mainwidget.cpp:838
+msgid "Tracing..."
+msgstr ""
+
+#: mainwidget.cpp:839
+msgid "Abort"
+msgstr ""
+
+#: mainwidget.cpp:849 rc.cpp:224
+msgid "&Trace"
+msgstr ""
+
+#: mainwidget.cpp:852
+msgid "Aborted"
+msgstr ""
+
+#: mainwidget.cpp:858
+msgid "Finished with errors"
+msgstr ""
+
+#: mainwidget.cpp:859
+msgid "Error during the process:"
+msgstr ""
+
+#: mainwidget.cpp:860
+msgid "Standard output:\n"
+msgstr ""
+
+#: mainwidget.cpp:867
+msgid "Standard error:\n"
+msgstr ""
+
+#: mainwidget.cpp:875
+msgid "Executed:\n"
+msgstr ""
+
+#: mainwidget.cpp:884
+msgid "Loading preview image..."
+msgstr ""
+
+#: mainwidget.cpp:895
+msgid "Output format not recognized"
+msgstr ""
+
+#: mainwidget.cpp:896
+msgid ""
+"Sorry, but the image format which you are working with\n"
+"is not recognized by KDE.\n"
+"The image will be correctly saved if you want to,\n"
+"but to see a preview try working with another image format (EPS and PGM "
+"showld work well)\n"
+"and only when you are satisfied with the result revert to the format\n"
+"of your choiche and save the result."
+msgstr ""
+
+#: mainwidget.cpp:913
+msgid "Image traced"
+msgstr ""
+
+#: mainwidget.cpp:1003 rc.cpp:26
+msgid "pgm"
+msgstr ""
+
+#: potracegui.cpp:54
+msgid "Welcome to PotraceGui 1.3"
+msgstr ""
+
+#: potracegui.cpp:143
+msgid "Save changes?"
+msgstr ""
+
+#: rc.cpp:1
+msgid "C&ustom"
+msgstr ""
+
+#: rc.cpp:3
+msgid "&Original image"
+msgstr ""
+
+#: rc.cpp:4
+msgid "&Input-Output"
+msgstr ""
+
+#: rc.cpp:5
+msgid "Input"
+msgstr ""
+
+#: rc.cpp:6
+msgid "Black level:"
+msgstr ""
+
+#: rc.cpp:7 rc.cpp:8
+msgid "Pixel threshold for B&W conversion of the image"
+msgstr ""
+
+#: rc.cpp:9
+msgid "&Invert"
+msgstr ""
+
+#: rc.cpp:10
+msgid "Alt+I"
+msgstr ""
+
+#: rc.cpp:11
+msgid "Inverts the image before processing"
+msgstr ""
+
+#: rc.cpp:12
+msgid "Color"
+msgstr ""
+
+#: rc.cpp:14 rc.cpp:16
+msgid "Output foreground color"
+msgstr ""
+
+#: rc.cpp:15
+msgid "Foreground color:"
+msgstr ""
+
+#: rc.cpp:17
+msgid "Opaque:"
+msgstr ""
+
+#: rc.cpp:18
+msgid "Fill in the white parts of the image opaquely"
+msgstr ""
+
+#: rc.cpp:20
+msgid "Fill color"
+msgstr ""
+
+#: rc.cpp:21
+msgid "Output"
+msgstr ""
+
+#: rc.cpp:22
+msgid "Format:"
+msgstr ""
+
+#: rc.cpp:29
+msgid "Output format"
+msgstr ""
+
+#: rc.cpp:30
+msgid "PS-EPS output"
+msgstr ""
+
+#: rc.cpp:31
+msgid "Page size:"
+msgstr ""
+
+#: rc.cpp:32 rc.cpp:45
+msgid "Output page size"
+msgstr ""
+
+#: rc.cpp:33
+msgid "a4"
+msgstr ""
+
+#: rc.cpp:34
+msgid "a3"
+msgstr ""
+
+#: rc.cpp:35
+msgid "a5"
+msgstr ""
+
+#: rc.cpp:36
+msgid "b5"
+msgstr ""
+
+#: rc.cpp:37
+msgid "letter"
+msgstr ""
+
+#: rc.cpp:38
+msgid "legal"
+msgstr ""
+
+#: rc.cpp:39
+msgid "tabloid"
+msgstr ""
+
+#: rc.cpp:40
+msgid "statement"
+msgstr ""
+
+#: rc.cpp:41
+msgid "executive"
+msgstr ""
+
+#: rc.cpp:42
+msgid "folio"
+msgstr ""
+
+#: rc.cpp:43
+msgid "quarto"
+msgstr ""
+
+#: rc.cpp:44
+msgid "10x14"
+msgstr ""
+
+#: rc.cpp:46
+msgid "Optimized numerical code"
+msgstr ""
+
+#: rc.cpp:47
+msgid ""
+"Use a compact numerical format to represent Bezier curves in\n"
+"PostScript"
+msgstr ""
+
+#: rc.cpp:48
+msgid "Compression level"
+msgstr ""
+
+#: rc.cpp:49
+msgid "None"
+msgstr ""
+
+#: rc.cpp:50
+msgid "No compression"
+msgstr ""
+
+#: rc.cpp:51
+msgid "Level 2"
+msgstr ""
+
+#: rc.cpp:52
+msgid "Standard compression (needs LZW-enabled compress)"
+msgstr ""
+
+#: rc.cpp:53
+msgid "Level 3"
+msgstr ""
+
+#: rc.cpp:54
+msgid "Maximum compression"
+msgstr ""
+
+#: rc.cpp:56
+msgid "Group"
+msgstr ""
+
+#: rc.cpp:57
+msgid "Try to group related paths together in the SVG output"
+msgstr ""
+
+#: rc.cpp:58
+msgid "PGM"
+msgstr ""
+
+#: rc.cpp:59
+msgid "Antialias gamma:"
+msgstr ""
+
+#: rc.cpp:60 rc.cpp:61
+msgid "Gamma value for anti-aliasing"
+msgstr ""
+
+#: rc.cpp:62
+msgid "Scale"
+msgstr ""
+
+#: rc.cpp:63 rc.cpp:124
+msgid "All"
+msgstr ""
+
+#: rc.cpp:64
+msgid "All dimesions at once"
+msgstr ""
+
+#: rc.cpp:65 rc.cpp:67 rc.cpp:68 rc.cpp:70 rc.cpp:73
+msgid "Scale factor (>1 enlarges, <1 shrinks)"
+msgstr ""
+
+#: rc.cpp:66 rc.cpp:127
+msgid "Y"
+msgstr ""
+
+#: rc.cpp:69 rc.cpp:126
+msgid "X"
+msgstr ""
+
+#: rc.cpp:71 rc.cpp:128
+msgid "Each"
+msgstr ""
+
+#: rc.cpp:72 rc.cpp:129
+msgid "Each dimension separately"
+msgstr ""
+
+#: rc.cpp:74
+msgid "Sorry, no options for this format."
+msgstr ""
+
+#: rc.cpp:75
+msgid "&Algorithm"
+msgstr ""
+
+#: rc.cpp:76
+msgid "Curve optimization"
+msgstr ""
+
+#: rc.cpp:77
+msgid "Join adiacent bezier curves (off=larger file)"
+msgstr ""
+
+#: rc.cpp:78 rc.cpp:97
+msgid "Curve optimization tolerance (default = 0.2)"
+msgstr ""
+
+#: rc.cpp:79 rc.cpp:98
+msgid ""
+"Set the curve optimization tolerance. The default value is 0.2. Larger "
+"values allow more consecutive Bezier curve segments to be joined together in "
+"a single segment, at the expense of accuracy."
+msgstr ""
+
+#: rc.cpp:80 rc.cpp:100
+msgid "Corner Threshold parameter (<1 hard corners, >1 soft corners)"
+msgstr ""
+
+#: rc.cpp:81 rc.cpp:101
+msgid ""
+"Set the corner threshold parameter. The default value is 1. The smaller this "
+"value, the more sharp corners will be produced. If this parameter is "
+"negative, then no smoothing will be performed and the output is a polygon. "
+"The largest useful value is 4/3 or 1.334, which suppresses all corners and "
+"leads to completely smooth output."
+msgstr ""
+
+#: rc.cpp:82 rc.cpp:103
+msgid "Suppress speckles of up to this many pixels"
+msgstr ""
+
+#: rc.cpp:83
+msgid "black"
+msgstr ""
+
+#: rc.cpp:84
+msgid "white"
+msgstr ""
+
+#: rc.cpp:85
+msgid "right"
+msgstr ""
+
+#: rc.cpp:86
+msgid "left"
+msgstr ""
+
+#: rc.cpp:87
+msgid "minority"
+msgstr ""
+
+#: rc.cpp:88
+msgid "majority"
+msgstr ""
+
+#: rc.cpp:89
+msgid "random"
+msgstr ""
+
+#: rc.cpp:90 rc.cpp:105
+msgid ""
+"How to resolve ambiguities in path\n"
+"decomposition"
+msgstr ""
+
+#: rc.cpp:91
+msgid "To how many points/pixel the output is rounded"
+msgstr ""
+
+#: rc.cpp:92 rc.cpp:95
+msgid ""
+"Set output quantization. Coordinates in the output are rounded to 1/value "
+"pixels. The default value of 10 usually gives good results. In the case of "
+"the gimppath backend, this option is used to set the desired magnification. "
+"This option has no effect for the XFig backend, which always rasterizes to "
+"1/1200 inch."
+msgstr ""
+
+#: rc.cpp:93
+msgid "Output quantization:"
+msgstr ""
+
+#: rc.cpp:94
+msgid "How exactly the output is rounded"
+msgstr ""
+
+#: rc.cpp:96
+msgid "Optimization tolerance:"
+msgstr ""
+
+#: rc.cpp:99
+msgid "Corner Threshold:"
+msgstr ""
+
+#: rc.cpp:102
+msgid "Despeckle:"
+msgstr ""
+
+#: rc.cpp:104
+msgid "Policy:"
+msgstr ""
+
+#: rc.cpp:106
+msgid "&Scaling and transformations"
+msgstr ""
+
+#: rc.cpp:107
+msgid "Transformation"
+msgstr ""
+
+#: rc.cpp:108 rc.cpp:116
+msgid "Rotate output by x degrees"
+msgstr ""
+
+#: rc.cpp:109 rc.cpp:118
+msgid ""
+"Aspect ratio (<1 stretched in the x direction, >1 stretched in the y "
+"direction)"
+msgstr ""
+
+#: rc.cpp:110 rc.cpp:120
+msgid "Output image height"
+msgstr ""
+
+#: rc.cpp:111 rc.cpp:122
+msgid "Output image width"
+msgstr ""
+
+#: rc.cpp:112 rc.cpp:113 rc.cpp:135 rc.cpp:139 rc.cpp:140 rc.cpp:141
+msgid "cm"
+msgstr ""
+
+#: rc.cpp:114
+msgid "degree"
+msgstr ""
+
+#: rc.cpp:115
+msgid "Rotation:"
+msgstr ""
+
+#: rc.cpp:117
+msgid "Stretch:"
+msgstr ""
+
+#: rc.cpp:119
+msgid "Height:"
+msgstr ""
+
+#: rc.cpp:121
+msgid "Width:"
+msgstr ""
+
+#: rc.cpp:123
+msgid "Resolution (dpi)"
+msgstr ""
+
+#: rc.cpp:125
+msgid "All dimensions"
+msgstr ""
+
+#: rc.cpp:130 rc.cpp:131 rc.cpp:132
+msgid ""
+"set the resolution (in dpi). One inch in the output image corresponds to "
+"this many\n"
+"pixels in the input"
+msgstr ""
+
+#: rc.cpp:133
+msgid "&Margins"
+msgstr ""
+
+#: rc.cpp:134
+msgid "Margins"
+msgstr ""
+
+#: rc.cpp:136 rc.cpp:137 rc.cpp:138 rc.cpp:142
+msgid "Set output margins"
+msgstr ""
+
+#: rc.cpp:143
+msgid "Top:"
+msgstr ""
+
+#: rc.cpp:144
+msgid "Right:"
+msgstr ""
+
+#: rc.cpp:145
+msgid "Left:"
+msgstr ""
+
+#: rc.cpp:146
+msgid "Bottom:"
+msgstr ""
+
+#: rc.cpp:147
+msgid "syncronize"
+msgstr ""
+
+#: rc.cpp:149
+msgid "&Input - output"
+msgstr ""
+
+#: rc.cpp:150
+msgid "&Output format"
+msgstr ""
+
+#: rc.cpp:151
+msgid "Select wanted output format"
+msgstr ""
+
+#: rc.cpp:152
+msgid "Input image"
+msgstr ""
+
+#: rc.cpp:153
+msgid "&DPI:"
+msgstr ""
+
+#: rc.cpp:154 rc.cpp:227
+msgid "Alt+D"
+msgstr ""
+
+#: rc.cpp:155 rc.cpp:159
+msgid ""
+"<p>Dot per inch of input image</p><p>(affects scaling in mif output)</p>"
+msgstr ""
+
+#: rc.cpp:156
+msgid "&reduce color count to:"
+msgstr ""
+
+#: rc.cpp:157 rc.cpp:183
+msgid "Alt+R"
+msgstr ""
+
+#: rc.cpp:158 rc.cpp:160
+msgid "<p>Reduce input image to this number of colors (range: 2 - 256)</p>"
+msgstr ""
+
+#: rc.cpp:161
+msgid "Transparent color"
+msgstr ""
+
+#: rc.cpp:162
+msgid "&Use:"
+msgstr ""
+
+#: rc.cpp:163
+msgid "Alt+U"
+msgstr ""
+
+#: rc.cpp:164
+msgid "<p>Toggle transparent color</p>"
+msgstr ""
+
+#: rc.cpp:166
+msgid ""
+"<p>Ignore this color in input file</p><p>(The color will be rendered as "
+"transparent in the output image)</p>"
+msgstr ""
+
+#: rc.cpp:167
+msgid "Log"
+msgstr ""
+
+#: rc.cpp:168
+msgid "Create &logfile"
+msgstr ""
+
+#: rc.cpp:169
+msgid "Alt+L"
+msgstr ""
+
+#: rc.cpp:170
+msgid "Not working at the moment"
+msgstr ""
+
+#: rc.cpp:171
+msgid "&Corners and curves"
+msgstr ""
+
+#: rc.cpp:172
+msgid "Corners"
+msgstr ""
+
+#: rc.cpp:173
+msgid "Thre&shold:"
+msgstr ""
+
+#: rc.cpp:174 rc.cpp:181
+msgid ""
+"<p>Consider any pixel which forms an angle with its predecessor(s) and "
+"successor(s) that is smaller than the specified angle (in degrees) as a "
+"corner.</p>"
+msgstr ""
+
+#: rc.cpp:175
+msgid "&Always threshold:"
+msgstr ""
+
+#: rc.cpp:176 rc.cpp:180
+msgid ""
+"<p>Consider any angle at a pixel which falls below the specified angle (in "
+"degrees) as a corner, even if it is bordered by other corner pixels.</p>"
+msgstr ""
+
+#: rc.cpp:177 rc.cpp:208
+msgid "&Surround:"
+msgstr ""
+
+#: rc.cpp:178 rc.cpp:179
+msgid ""
+"<p>Consider the specified number of pixels on either side of a point when "
+"determining if that point is a corner.</p>"
+msgstr ""
+
+#: rc.cpp:182
+msgid "&Remove adjacent corners"
+msgstr ""
+
+#: rc.cpp:185
+msgid "Curves"
+msgstr ""
+
+#: rc.cpp:186 rc.cpp:190
+msgid ""
+"<p>When a spline is closer to a straight line than the specified real number "
+"weighted by the square of the curve length, maintain it as a straight line, "
+"even if it is a list with curves.</p>"
+msgstr ""
+
+#: rc.cpp:187 rc.cpp:192
+msgid "<p>Smooth the curve the specified number of times prior to fitting</p>"
+msgstr ""
+
+#: rc.cpp:188 rc.cpp:197
+msgid ""
+"<p>If a spline does not deviate from the straight line defined by its "
+"endpoints by more than the specified number of pixels, then treat it as a "
+"straight line.</p>"
+msgstr ""
+
+#: rc.cpp:189
+msgid "Re&version threshold:"
+msgstr ""
+
+#: rc.cpp:191
+msgid "&Filter iterations:"
+msgstr ""
+
+#: rc.cpp:193 rc.cpp:195
+msgid ""
+"<p>Subdivide fitted curves that are offset by a number of pixels exceeding "
+"the specified real number</p>"
+msgstr ""
+
+#: rc.cpp:194
+msgid "&Error threshold:"
+msgstr ""
+
+#: rc.cpp:196
+msgid "&Line threshold:"
+msgstr ""
+
+#: rc.cpp:198
+msgid "&Preserve width"
+msgstr ""
+
+#: rc.cpp:199 rc.cpp:219
+msgid "Alt+P"
+msgstr ""
+
+#: rc.cpp:200
+msgid "<p>Preserve line width prior to thinning</p>"
+msgstr ""
+
+#: rc.cpp:201
+msgid "&Various"
+msgstr ""
+
+#: rc.cpp:202
+msgid "Object recognition"
+msgstr ""
+
+#: rc.cpp:203
+msgid "&Outline"
+msgstr ""
+
+#: rc.cpp:204
+msgid "Alt+O"
+msgstr ""
+
+#: rc.cpp:205
+msgid "C&enterline"
+msgstr ""
+
+#: rc.cpp:206
+msgid "Alt+E"
+msgstr ""
+
+#: rc.cpp:207
+msgid "Tangent"
+msgstr ""
+
+#: rc.cpp:209 rc.cpp:210
+msgid ""
+"<p>Consider the specified number of points to either side of a point when "
+"computing the tangent at that point</p>"
+msgstr ""
+
+#: rc.cpp:211
+msgid "Despeckle"
+msgstr ""
+
+#: rc.cpp:212 rc.cpp:217
+msgid ""
+"<p>Employ the specified real number as the value for despeckle tightness "
+"(range: 0-8)</p>"
+msgstr ""
+
+#: rc.cpp:213 rc.cpp:215
+msgid ""
+"<p>Employ the specified integer as the value for despeckling(range: 1-20)</p>"
+msgstr ""
+
+#: rc.cpp:214
+msgid "&Level:"
+msgstr ""
+
+#: rc.cpp:216
+msgid "T&ightness:"
+msgstr ""
+
+#: rc.cpp:218
+msgid "des&peckle"
+msgstr ""
+
+#: rc.cpp:221
+msgid "Backend:"
+msgstr ""
+
+#: rc.cpp:222
+msgid "potrace"
+msgstr ""
+
+#: rc.cpp:223
+msgid "autotrace"
+msgstr ""
+
+#: rc.cpp:225
+msgid "Alt+T"
+msgstr ""
+
+#: rc.cpp:226
+msgid "&Default options"
+msgstr ""
+
+#: rc.cpp:228
+msgid "Automatic Preview"
+msgstr ""
+
+#: rc.cpp:230
+msgid "Preserve options"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""

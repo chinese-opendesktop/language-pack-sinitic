@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-23 23:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: netobjs/firewall.cc:123
+msgid "Firewall:"
+msgstr ""
+
+#: netobjs/firewall.cc:125 netobjs/host.cc:470 netobjs/iface.cc:298
+#: netobjs/metahost.cc:217 netobjs/metaport.cc:196 netobjs/network.cc:378
+msgid "comment:\t"
+msgstr ""
+
+#: netobjs/firewall.cc:127 netobjs/host.cc:472 netobjs/iface.cc:300
+#: netobjs/metahost.cc:210 netobjs/metaport.cc:189 netobjs/network.cc:372
+msgid "name:\t\t"
+msgstr ""
+
+#: netobjs/firewall.cc:131 netobjs/firewall.cc:146 netobjs/host.cc:476
+#: netobjs/host.cc:492 netobjs/iface.cc:304 netobjs/ipaddr.cc:147
+#: netobjs/macaddr.cc:197
+msgid "(undefined)"
+msgstr ""
+
+#: netobjs/firewall.cc:136 netobjs/host.cc:479
+msgid "os:\t\t"
+msgstr ""
+
+#: netobjs/firewall.cc:139
+msgid "distribution:\t"
+msgstr ""
+
+#: netobjs/firewall.cc:142
+msgid "fwtool:\t\t"
+msgstr ""
+
+#: netobjs/host.cc:384
+#, c-format
+msgid "%s %s network"
+msgstr ""
+
+#: netobjs/host.cc:399
+#, c-format
+msgid "%s interface"
+msgstr ""
+
+#: netobjs/host.cc:413
+#, c-format
+msgid "Host: no name is defined.\n"
+msgstr ""
+
+#: netobjs/host.cc:418
+#, c-format
+msgid "Host `%s': invalid name.\n"
+msgstr ""
+
+#: netobjs/host.cc:423
+#, c-format
+msgid "Host `%s': invalid fqdn.\n"
+msgstr ""
+
+#: netobjs/host.cc:431
+#, c-format
+msgid "Host `%s': wrong interface `%s'.\n"
+msgstr ""
+
+#: netobjs/host.cc:468
+msgid "Host:"
+msgstr ""
+
+#: netobjs/host.cc:483
+msgid "(unknown)"
+msgstr ""
+
+#: netobjs/host.cc:486
+msgid "Linux distribution:\t"
+msgstr ""
+
+#: netobjs/host.cc:488
+msgid "fqdn:\t\t"
+msgstr ""
+
+#: netobjs/host.cc:495
+msgid "address:\t"
+msgstr ""
+
+#: netobjs/iface.cc:242
+#, c-format
+msgid "Interface has no name.\n"
+msgstr ""
+
+#: netobjs/iface.cc:246
+#, c-format
+msgid "Interface `%s': invalid name.\n"
+msgstr ""
+
+#: netobjs/iface.cc:250
+#, c-format
+msgid "Interface `%s': name is too long (>%i).\n"
+msgstr ""
+
+#: netobjs/iface.cc:256
+#, c-format
+msgid "Interface `%s': IP address %s does not belong to network `%s'.\n"
+msgstr ""
+
+#: netobjs/iface.cc:263
+#, c-format
+msgid ""
+"Interface `%s': broadcast IP address %s does not belong to network `%s'.\n"
+msgstr ""
+
+#: netobjs/iface.cc:271
+#, c-format
+msgid ""
+"Interface `%s': no guess can be made, as IP address is already defined to %"
+"s.\n"
+msgstr ""
+
+#: netobjs/iface.cc:276
+#, c-format
+msgid ""
+"Interface `%s': IP address is defined as %s, but is declared as dynamic.\n"
+msgstr ""
+
+#: netobjs/iface.cc:283
+#, c-format
+msgid "Interface `%s': IP address is missing, and no guess will be performed."
+msgstr ""
+
+#: netobjs/iface.cc:296
+msgid "Interface:"
+msgstr ""
+
+#: netobjs/iface.cc:310
+msgid "broadcast:\t"
+msgstr ""
+
+#: netobjs/iface.cc:311
+msgid "flags:\t\t"
+msgstr ""
+
+#: netobjs/iface.cc:312
+msgid "statdyn:\t"
+msgstr ""
+
+#: netobjs/iface.cc:313
+msgid "guess:\t\t"
+msgstr ""
+
+#: netobjs/iface.cc:314
+msgid "disabled:\t\t"
+msgstr ""
+
+#: netobjs/ipaddr.cc:163
+msgid "IP address:\t"
+msgstr ""
+
+#: netobjs/ipaddr_range.cc:124
+msgid "IP address range:\t"
+msgstr ""
+
+#: netobjs/listeners_linux.cc:234
+#, c-format
+msgid ""
+"(No info could be read for process: geteuid()=%d but you should be root.)\n"
+msgstr ""
+
+#: netobjs/listeners_linux.cc:305
+#, c-format
+msgid "warning, got bogus tcp line.\n"
+msgstr ""
+
+#: netobjs/listeners_linux.cc:310 netobjs/listeners_linux.cc:389
+#, c-format
+msgid "warning, unsupported address family %d !\n"
+msgstr ""
+
+#: netobjs/listeners_linux.cc:385
+#, c-format
+msgid "warning, got bogus udp line.\n"
+msgstr ""
+
+#: netobjs/listeners_linux.cc:442
+#, c-format
+msgid "Error: unknown protocol %i.\n"
+msgstr ""
+
+#: netobjs/listeners_linux.cc:451
+#, c-format
+msgid "Error: no support for `%s' on this system.\n"
+msgstr ""
+
+#: netobjs/macaddr.cc:206
+msgid "MAC address:\t"
+msgstr ""
+
+#: netobjs/metahost.cc:121
+#, c-format
+msgid "Error: empty metahost\n"
+msgstr ""
+
+#: netobjs/metahost.cc:208
+msgid "Metahost:"
+msgstr ""
+
+#: netobjs/metahost.cc:212 netobjs/metaport.cc:191
+msgid "elems:\t\t"
+msgstr ""
+
+#: netobjs/metahost_elem.cc:123
+msgid "Metahost elem:\t"
+msgstr ""
+
+#: netobjs/metaport.cc:117
+#, c-format
+msgid "Error: empty metaport\n"
+msgstr ""
+
+#: netobjs/metaport.cc:187
+msgid "Metaport:"
+msgstr ""
+
+#: netobjs/metaport_elem.cc:108
+msgid "Metaport elem:\t"
+msgstr ""
+
+#: netobjs/network.cc:371
+msgid "Network:"
+msgstr ""
+
+#: netobjs/network.cc:373
+msgid "network:\t"
+msgstr ""
+
+#: netobjs/network.cc:374
+msgid "netmask:\t"
+msgstr ""
+
+#: netobjs/protocol_icmp.cc:191
+msgid "Valid ICMP Types:"
+msgstr ""
+
+#: netobjs/service.cc:106
+msgid "Service:\t"
+msgstr ""

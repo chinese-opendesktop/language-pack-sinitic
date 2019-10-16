@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Simon Josefsson
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the gsasl package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gsasl 1.7.4\n"
+"Project-Id-Version: gsasl 1.8.1\n"
 "Report-Msgid-Bugs-To: bug-gsasl@gnu.org\n"
-"POT-Creation-Date: 2012-05-16 00:55+0200\n"
+"POT-Creation-Date: 2019-08-02 13:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,9 +27,9 @@ msgstr ""
 msgid "Using mechanism:\n"
 msgstr ""
 
-#: src/imap.c:180
+#: src/imap.c:186
 #, c-format
-msgid "error: server did not return a token\n"
+msgid "warning: server did not return a token\n"
 msgstr ""
 
 #: src/smtp.c:192
@@ -186,7 +186,7 @@ msgstr ""
 
 #: src/gsasl.c:592
 #, c-format
-msgid "could not verify server certificate (rc=%d)"
+msgid "could not verify server certificate (rc=%u)"
 msgstr ""
 
 #: src/gsasl.c:603

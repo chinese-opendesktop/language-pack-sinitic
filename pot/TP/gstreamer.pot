@@ -5,9 +5,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer 1.15.1\n"
+"Project-Id-Version: gstreamer 1.16.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2019-01-17 01:38+0000\n"
+"POT-Creation-Date: 2019-04-19 00:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1149,15 +1149,15 @@ msgstr ""
 msgid "Internal data flow problem."
 msgstr ""
 
-#: libs/gst/base/gstbasesink.c:4222 libs/gst/base/gstbasesrc.c:2702
+#: libs/gst/base/gstbasesink.c:4222 libs/gst/base/gstbasesrc.c:2708
 msgid "Internal data flow error."
 msgstr ""
 
-#: libs/gst/base/gstbasesrc.c:2632
+#: libs/gst/base/gstbasesrc.c:2638
 msgid "Internal clock error."
 msgstr ""
 
-#: libs/gst/base/gstbasesrc.c:2660 plugins/elements/gstdownloadbuffer.c:842
+#: libs/gst/base/gstbasesrc.c:2666 plugins/elements/gstdownloadbuffer.c:842
 #: plugins/elements/gstdownloadbuffer.c:1265
 msgid "Failed to map buffer."
 msgstr ""
@@ -1280,105 +1280,85 @@ msgstr ""
 msgid "Stream contains no data."
 msgstr ""
 
-#: tools/gst-inspect.c:280
+#: tools/gst-inspect.c:290
 #, c-format
 msgid "%sImplemented Interfaces%s:\n"
 msgstr ""
 
-#: tools/gst-inspect.c:390
+#: tools/gst-inspect.c:400
 msgid "readable"
 msgstr ""
 
-#: tools/gst-inspect.c:395
+#: tools/gst-inspect.c:405
 msgid "writable"
 msgstr ""
 
-#: tools/gst-inspect.c:400
+#: tools/gst-inspect.c:410
 msgid "deprecated"
 msgstr ""
 
-#: tools/gst-inspect.c:404
+#: tools/gst-inspect.c:414
 msgid "controllable"
 msgstr ""
 
-#: tools/gst-inspect.c:410
+#: tools/gst-inspect.c:420
 msgid "changeable in NULL, READY, PAUSED or PLAYING state"
 msgstr ""
 
-#: tools/gst-inspect.c:413
+#: tools/gst-inspect.c:423
 msgid "changeable only in NULL, READY or PAUSED state"
 msgstr ""
 
-#: tools/gst-inspect.c:416
+#: tools/gst-inspect.c:426
 msgid "changeable only in NULL or READY state"
 msgstr ""
 
-#: tools/gst-inspect.c:1119
+#: tools/gst-inspect.c:1131
 msgid "Blacklisted files:"
 msgstr ""
 
-#: tools/gst-inspect.c:1131 tools/gst-inspect.c:1264
+#: tools/gst-inspect.c:1143 tools/gst-inspect.c:1276
 #, c-format
 msgid "%sTotal count%s: %s"
 msgstr ""
 
-#: tools/gst-inspect.c:1133
+#: tools/gst-inspect.c:1145
 #, c-format
 msgid "%d blacklisted file"
 msgid_plural "%d blacklisted files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: tools/gst-inspect.c:1266
+#: tools/gst-inspect.c:1278
 #, c-format
 msgid "%d plugin"
 msgid_plural "%d plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: tools/gst-inspect.c:1269
+#: tools/gst-inspect.c:1281
 #, c-format
 msgid "%d blacklist entry"
 msgid_plural "%d blacklist entries"
 msgstr[0] ""
 msgstr[1] ""
 
-#: tools/gst-inspect.c:1274
+#: tools/gst-inspect.c:1286
 #, c-format
 msgid "%d feature"
 msgid_plural "%d features"
 msgstr[0] ""
 msgstr[1] ""
 
-#: tools/gst-inspect.c:1875
-#, c-format
-msgid "Error creating pipe: %s\n"
-msgstr ""
-
-#: tools/gst-inspect.c:1881
-#, c-format
-msgid "Error forking: %s\n"
-msgstr ""
-
-#: tools/gst-inspect.c:1917
-#, c-format
-msgid "Error reading from console: %s\n"
-msgstr ""
-
-#: tools/gst-inspect.c:1927
-#, c-format
-msgid "Error writing to console: %s\n"
-msgstr ""
-
-#: tools/gst-inspect.c:1963
+#: tools/gst-inspect.c:1953
 msgid "Print all elements"
 msgstr ""
 
-#: tools/gst-inspect.c:1965
+#: tools/gst-inspect.c:1955
 msgid "Print list of blacklisted files"
 msgstr ""
 
-#: tools/gst-inspect.c:1967
+#: tools/gst-inspect.c:1957
 msgid ""
 "Print a machine-parsable list of features the specified plugin or all "
 "plugins provide.\n"
@@ -1386,42 +1366,42 @@ msgid ""
 "automatic plugin installation mechanisms"
 msgstr ""
 
-#: tools/gst-inspect.c:1972
+#: tools/gst-inspect.c:1962
 msgid "List the plugin contents"
 msgstr ""
 
-#: tools/gst-inspect.c:1974
+#: tools/gst-inspect.c:1964
 msgid ""
 "A slashes ('/') separated list of types of elements (also known as klass) to "
 "list. (unordered)"
 msgstr ""
 
-#: tools/gst-inspect.c:1977
+#: tools/gst-inspect.c:1967
 msgid "Check if the specified element or plugin exists"
 msgstr ""
 
-#: tools/gst-inspect.c:1980
+#: tools/gst-inspect.c:1970
 msgid ""
 "When checking if an element or plugin exists, also check that its version is "
 "at least the version specified"
 msgstr ""
 
-#: tools/gst-inspect.c:1984
+#: tools/gst-inspect.c:1974
 msgid "Print supported URI schemes, with the elements that implement them"
 msgstr ""
 
-#: tools/gst-inspect.c:1989
+#: tools/gst-inspect.c:1979
 msgid ""
 "Disable colors in output. You can also achieve the same by "
 "setting'GST_INSPECT_NO_COLORS' environment variable to any value."
 msgstr ""
 
-#: tools/gst-inspect.c:2146
+#: tools/gst-inspect.c:2135
 #, c-format
 msgid "Could not load plugin file: %s\n"
 msgstr ""
 
-#: tools/gst-inspect.c:2151
+#: tools/gst-inspect.c:2141
 #, c-format
 msgid "No such element or plugin '%s'\n"
 msgstr ""

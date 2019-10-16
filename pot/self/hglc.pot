@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Heiko Schäfer
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hgl 0.5.42\n"
+"Report-Msgid-Bugs-To: burmagroup@users.sourceforge.net\n"
+"POT-Creation-Date: 2014-10-11 03:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/compiler/checkvisitor.cpp:63
+#, c-format
+msgid ""
+"Checking for superfluous parameters in call to '%s' in '%s' near line %d..."
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:80
+#, c-format
+msgid "Call to '%s' in '%s' has %zu superfluous parameter near line %d:"
+msgid_plural ""
+"Call to '%s' in '%s' has %zu superfluous parameters near line %d:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/compiler/checkvisitor.cpp:116
+#, c-format
+msgid "Checking for missing reference in '%s'%s..."
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:118 src/compiler/checkvisitor.cpp:245
+#, c-format
+msgid " near line %d"
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:125
+#, c-format
+msgid "Call target '%s' not found near line %d"
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:128
+#, c-format
+msgid "%s%s: Reference to '%s' not found near line %d"
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:149
+#, c-format
+msgid "Did you mean '%s'?"
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:190
+msgid "Removing unused auto generated hash table entry from "
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:218
+msgid "out of memory while checking references"
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:267
+msgid "Validating project"
+msgstr ""
+
+#: src/compiler/checkvisitor.cpp:270
+msgid "Found invalid structures"
+msgstr ""
+
+#: src/compiler/compilerbase.cpp:88
+msgid "Compiling"
+msgstr ""
+
+#: src/compiler/compilerbase.cpp:162
+msgid " near line "
+msgstr ""
+
+#: src/compiler/compilerbase.cpp:235
+#, c-format
+msgid "Trying key '%s' from config file"
+msgstr ""
+
+#: src/compiler/compiler.cpp:73
+msgid "Terminated by a signal, cleaning up..."
+msgstr ""
+
+#: src/compiler/compiler.cpp:81
+msgid "Print verbose information"
+msgstr ""
+
+#: src/compiler/compiler.cpp:85
+msgid "Set target version for interpreter"
+msgstr ""
+
+#: src/compiler/compiler.cpp:85
+msgid "VERSION"
+msgstr ""
+
+#: src/compiler/compiler.cpp:89
+msgid "Precompile Lua scripts (deprecated)"
+msgstr ""
+
+#: src/compiler/compiler.cpp:94
+msgid "Sign output with key"
+msgstr ""
+
+#: src/compiler/compiler.cpp:94
+msgid "KEY"
+msgstr ""
+
+#: src/compiler/compiler.cpp:99
+msgid "Set compression level"
+msgstr ""
+
+#: src/compiler/compiler.cpp:99
+msgid "LEVEL"
+msgstr ""
+
+#: src/compiler/compiler.cpp:122
+msgid "couldn't compress output"
+msgstr ""
+
+#: src/compiler/compiler.cpp:129
+#, c-format
+msgid "couldn't write output to \"%s\""
+msgstr ""
+
+#: src/compiler/compiler.cpp:214
+#, c-format
+msgid "%s(%s) is defined but unused near line %d"
+msgstr ""
+
+#: src/compiler/compiler.cpp:266
+#, c-format
+msgid "Signing with key: %s"
+msgstr ""
+
+#: src/compiler/compiler.cpp:285
+#, c-format
+msgid "Successfully signed with key: %s"
+msgstr ""
+
+#: src/compiler/compiler.cpp:304
+#, c-format
+msgid "%s: no matching key found!"
+msgstr ""
+
+#: src/compiler/compiler.cpp:308
+msgid "failed to retrieve signing keys"
+msgstr ""
+
+#: src/compiler/compiler.cpp:359
+msgid "Illegal compression level. Will use default compression level."
+msgstr ""
+
+#: src/compiler/compiler.cpp:369
+msgid "Precompiling Lua scripts is deprecated"
+msgstr ""
+
+#: src/compiler/compiler.cpp:395
+#, c-format
+msgid "target version can't be greater than compiler version: %u.%u.%u"
+msgstr ""
+
+#: src/compiler/compiler.cpp:405
+#, c-format
+msgid "setting target version to: %u.%u.%u"
+msgstr ""
+
+#: src/compiler/compiler.cpp:417 src/compiler/compiler.cpp:423
+#, c-format
+msgid "invalid target version: %s"
+msgstr ""
+
+#: src/compiler/compiler.cpp:424
+msgid "empty"
+msgstr ""
+
+#: src/compiler/compilerproject.cpp:138
+#, c-format
+msgid "%u.%u.%u is lower than least possible version: %u.%u.%u"
+msgstr ""
+
+#: src/compiler/compilerproject.cpp:178
+#, c-format
+msgid ""
+"Cannot compile for target version: %u.%u.%u; compiled HGLZ needs at least "
+"interpreter version: %u.%u.%u; Reason: %s"
+msgstr ""
+
+#: src/compiler/compilerproject.cpp:201
+#, c-format
+msgid ""
+"Successfully compiled project '%s'; needs at least interpreter version: %u."
+"%u.%u"
+msgstr ""
+
+#: src/compiler/compilerproject.cpp:217
+#, c-format
+msgid "Static aspect ratio: %s:%s"
+msgstr ""
+
+#: src/compiler/compilertype.h:173
+msgid "Analyzing"
+msgstr ""
+
+#: src/compiler/compilertype.h:227
+#, c-format
+msgid "\tIt will get converted to string \"%s\""
+msgstr ""
+
+#: src/compiler/hgl_parser.yy:604
+#, c-format
+msgid "invalid pen image: \"%s\""
+msgstr ""
+
+#: src/compiler/hgl_parser.yy:788 src/compiler/srcparser.cpp:37
+#, c-format
+msgid "parse error near line %d: %s"
+msgstr ""
+
+#: src/compiler/hgl_parser.yy:845
+msgid "Couldn't add MainSegment"
+msgstr ""
+
+#: src/compiler/hgl_parser.yy:852
+msgid "Couldn't add ProceduresSegment"
+msgstr ""
+
+#: src/compiler/hgl_parser.yy:859
+msgid "Couldn't add ObjectsSegment"
+msgstr ""
+
+#: src/compiler/hgl_parser.yy:881
+#, c-format
+msgid "\"%s\" is neither a valid color name nor a valid hex color"
+msgstr ""
+
+#: src/compiler/luacompilerbase.cpp:70
+#, c-format
+msgid "Error while compiling Lua: %s"
+msgstr ""
+
+#: src/compiler/namespacevisitor.cpp:59
+#, c-format
+msgid "Setting auto generated identifier \"%s\" to"
+msgstr ""
+
+#: src/compiler/namespacevisitor.cpp:78
+#, c-format
+msgid "Duplicate identifier '%s' previously declared near line %d"
+msgstr ""
+
+#: src/compiler/namespacevisitor.cpp:80
+#, c-format
+msgid "and redeclared near line %d"
+msgstr ""
+
+#: src/compiler/namespacevisitor.cpp:91
+#, c-format
+msgid "Setting namespaced identifier \"%s\" to"
+msgstr ""
+
+#: src/compiler/polyreordervisitor.cpp:58
+#: src/compiler/polyreordervisitor.cpp:217
+#, c-format
+msgid "Problem while reordering poly%s"
+msgstr ""
+
+#: src/compiler/polyreordervisitor.cpp:183
+msgid "Optimizing"
+msgstr ""
+
+#: src/compiler/referencervisitorbase.h:104
+#, c-format
+msgid "Assigning reference on '%s' to"
+msgstr ""
+
+#: src/compiler/referencervisitorbase.h:122
+#: src/compiler/referencervisitorbase.h:124
+#, c-format
+msgid "%s near line %d"
+msgstr ""
+
+#: src/compiler/srcparser.cpp:60
+msgid "Compilation aborted by signal."
+msgstr ""
+
+#: src/compiler/srcparser.cpp:62
+msgid "out of memory"
+msgstr ""

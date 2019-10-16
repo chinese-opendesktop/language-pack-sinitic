@@ -20,3 +20,4 @@ install:
 	for i in ???_??; do install -Dm644 $$i/mscore.qm $(DESTDIR)$(DATADIR)/mscore-2.2/locale/mscore_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/muse.qm $(DESTDIR)$(DATADIR)/muse-3.0/locale/muse_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/vmpk.qm $(DESTDIR)$(DATADIR)/vmpk/locale/vmpk_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/librecad.qm $(DESTDIR)$(DATADIR)/librecad/qm/librecad_$$i.qm; done

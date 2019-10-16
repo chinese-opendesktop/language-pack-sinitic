@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU mailutils 3.6\n"
+"Project-Id-Version: GNU mailutils 3.6.90\n"
 "Report-Msgid-Bugs-To: bug-mailutils@gnu.org\n"
-"POT-Creation-Date: 2019-02-23 13:25+0200\n"
+"POT-Creation-Date: 2019-05-31 10:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,9 +97,9 @@ msgid "too few arguments"
 msgstr ""
 
 #: comsat/action.c:570 frm/from.c:95 imap4d/imap4d.c:927 maidag/maidag.c:570
-#: mh/fmtcheck.c:125 mh/folder.c:924 mh/prompter.c:100 movemail/movemail.c:352
+#: mh/fmtcheck.c:125 mh/folder.c:933 mh/prompter.c:100 movemail/movemail.c:352
 #: pop3d/pop3d.c:468 pop3d/popauth.c:229 mu/mu.c:235 mu/libexec/pop.c:610
-#: mu/libexec/cflags.c:31 mu/libexec/ldflags.c:93 mu/libexec/stat.c:254
+#: mu/libexec/cflags.c:31 mu/libexec/ldflags.c:96 mu/libexec/stat.c:254
 #, c-format
 msgid "too many arguments"
 msgstr ""
@@ -147,8 +147,8 @@ msgstr ""
 msgid "runs in daemon mode with a maximum of NUMBER children"
 msgstr ""
 
-#: comsat/comsat.c:112 dotlock/dotlock.c:94 frm/from.c:30 mail/mail.c:185
-#: mail/mail.c:269 libmailutils/cli/cli.c:256 mh/fmtcheck.c:54 mh/forw.c:108
+#: comsat/comsat.c:112 dotlock/dotlock.c:94 frm/from.c:30 mail/mail.c:187
+#: mail/mail.c:271 libmailutils/cli/cli.c:256 mh/fmtcheck.c:54 mh/forw.c:108
 #: mh/forw.c:114 mh/forw.c:117 mh/inc.c:80 mh/inc.c:86 mh/inc.c:95 mh/inc.c:119
 #: mh/mhl.c:47 mh/mhn.c:185 mh/mhn.c:213 mh/prompter.c:23 mh/refile.c:71
 #: mh/repl.c:139 mh/scan.c:45 mh/scan.c:60 mh/send.c:100 mh/send.c:115
@@ -414,7 +414,7 @@ msgstr ""
 msgid "enable debugging output"
 msgstr ""
 
-#: frm/frm.c:141 mail/mail.c:254 mail/mail.c:262 mail/mail.c:265
+#: frm/frm.c:141 mail/mail.c:256 mail/mail.c:264 mail/mail.c:267
 #: libmailutils/cli/cli.c:202 mh/mark.c:70 mh/mhn.c:227 mh/pick.c:197
 #: mu/libexec/flt2047.c:48 mu/libexec/flt2047.c:51 mu/libexec/pop.c:590
 #: mu/libexec/query.c:39
@@ -521,7 +521,7 @@ msgstr ""
 msgid "just print a count of messages and exit"
 msgstr ""
 
-#: frm/from.c:27 mail/mail.c:218 sieve/sieve.c:214
+#: frm/from.c:27 mail/mail.c:220 sieve/sieve.c:214
 msgid "ADDRESS"
 msgstr ""
 
@@ -592,7 +592,7 @@ msgstr ""
 #: libmailutils/server/acl.c:418 libmailutils/stream/prog_stream.c:682
 #: libmailutils/mailer/mailer.c:303 libproto/mailer/smtp.c:125
 #: libproto/mailer/smtp_gsasl.c:56 libmailutils/auth/mu_auth.c:354
-#: libmailutils/base/mutil.c:70 mh/folder.c:464 mh/folder.c:716
+#: libmailutils/base/mutil.c:70 mh/folder.c:473 mh/folder.c:725
 #: mh/mh_getopt.c:57 mh/mh_init.c:683 mh/mh_msgset.c:182 mh/mh_msgset.c:651
 #: mh/mh_whatnow.c:350 mh/mh_whatnow.c:435 mh/mhn.c:114 mh/mhn.c:1622
 #: mh/send.c:452
@@ -1429,7 +1429,7 @@ msgstr ""
 msgid "Set radius configuration directory."
 msgstr ""
 
-#: libmu_auth/radius.c:209 libmailutils/cli/stdcapa.c:259
+#: libmu_auth/radius.c:209 libmailutils/cli/stdcapa.c:290
 msgid "dir: string"
 msgstr ""
 
@@ -2164,48 +2164,48 @@ msgstr ""
 msgid "mailbox corrupted, shrank in size"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1139
+#: libproto/mbox/mbox.c:1143
 #, c-format
 msgid "cannot truncate stream after failed append: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1237 libproto/mbox/mbox.c:1246
+#: libproto/mbox/mbox.c:1241 libproto/mbox/mbox.c:1250
 #, c-format
 msgid "%s:%d: error expunging: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1262 libproto/mbox/mbox.c:1293
-#: libproto/mbox/mbox.c:1324 libproto/mbox/mbox.c:1342
+#: libproto/mbox/mbox.c:1266 libproto/mbox/mbox.c:1297
+#: libproto/mbox/mbox.c:1328 libproto/mbox/mbox.c:1346
 #, c-format
 msgid "%s:%d: seek error: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1271
+#: libproto/mbox/mbox.c:1275
 #, c-format
 msgid "%s:%d: error copying: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1302
+#: libproto/mbox/mbox.c:1306
 #, c-format
 msgid "%s:%d: error writing to temporary stream: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1313
+#: libproto/mbox/mbox.c:1317
 #, c-format
 msgid "%s:%d: mailbox shrunk while expunging"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1333
+#: libproto/mbox/mbox.c:1337
 #, c-format
 msgid "%s:%d: cannot get size of the temp stream: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1351
+#: libproto/mbox/mbox.c:1355
 #, c-format
 msgid "%s:%d: copying from the temporary stream: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1360
+#: libproto/mbox/mbox.c:1364
 #, c-format
 msgid "%s:%d: error truncating stream: %s"
 msgstr ""
@@ -2322,7 +2322,7 @@ msgid "use this header to identify messages when logging Sieve actions"
 msgstr ""
 
 #: maidag/maidag.c:325 movemail/movemail.c:224 pop3d/pop3d.c:113
-#: mu/libexec/ldflags.c:171
+#: mu/libexec/ldflags.c:174
 #, c-format
 msgid "unknown keyword: %s"
 msgstr ""
@@ -2398,8 +2398,8 @@ msgid ""
 "  l - sieve action logs\n"
 msgstr ""
 
-#: maidag/maidag.c:453 libmailutils/cli/stdcapa.c:191
-#: libmailutils/cli/stdcapa.c:389 pop3d/pop3d.c:216 sieve/sieve.c:279
+#: maidag/maidag.c:453 libmailutils/cli/stdcapa.c:192
+#: libmailutils/cli/stdcapa.c:429 pop3d/pop3d.c:216 sieve/sieve.c:279
 #: sieve/sieve.c:286
 msgid "arg: string"
 msgstr ""
@@ -2436,8 +2436,8 @@ msgid ""
 "or socket://<socket-file-name>"
 msgstr ""
 
-#: maidag/maidag.c:474 libmailutils/cli/stdcapa.c:148
-#: libmailutils/cli/stdcapa.c:250 pop3d/pop3d.c:243
+#: maidag/maidag.c:474 libmailutils/cli/stdcapa.c:149
+#: libmailutils/cli/stdcapa.c:281 pop3d/pop3d.c:243
 msgid "url: string"
 msgstr ""
 
@@ -2640,13 +2640,13 @@ msgstr ""
 msgid "Cannot determine my email address: %s"
 msgstr ""
 
-#: mail/copy.c:47 mail/file.c:109 mail/mail.c:591 mail/quit.c:118
+#: mail/copy.c:47 mail/file.c:109 mail/mail.c:593 mail/quit.c:118
 #: mail/send.c:1375
 #, c-format
 msgid "Cannot create mailbox %s: %s"
 msgstr ""
 
-#: mail/copy.c:54 mail/file.c:119 mail/mail.c:623 mail/quit.c:125
+#: mail/copy.c:54 mail/file.c:119 mail/mail.c:625 mail/quit.c:125
 #, c-format
 msgid "Cannot open mailbox %s: %s"
 msgstr ""
@@ -2872,7 +2872,7 @@ msgstr ""
 msgid "endif without matching if"
 msgstr ""
 
-#: mail/inc.c:29 mail/mail.c:324
+#: mail/inc.c:29 mail/mail.c:326
 msgid "New mail has arrived.\n"
 msgstr ""
 
@@ -2891,203 +2891,203 @@ msgstr ""
 msgid "-%c: option should have been recognized"
 msgstr ""
 
-#: mail/mail.c:168
+#: mail/mail.c:170
 #, c-format
 msgid "%s: bad descriptor"
 msgstr ""
 
-#: mail/mail.c:190
+#: mail/mail.c:192
 msgid "return true if mail exists"
 msgstr ""
 
-#: mail/mail.c:194
+#: mail/mail.c:196
 msgid "save messages according to sender"
 msgstr ""
 
-#: mail/mail.c:198
+#: mail/mail.c:200
 msgid "write a header summary and exit"
 msgstr ""
 
-#: mail/mail.c:202
+#: mail/mail.c:204
 msgid "ignore interrupts"
 msgstr ""
 
-#: mail/mail.c:206
+#: mail/mail.c:208
 msgid "do not read the system mailrc file"
 msgstr ""
 
-#: mail/mail.c:210
+#: mail/mail.c:212
 msgid "do not display initial header summary"
 msgstr ""
 
-#: mail/mail.c:214
+#: mail/mail.c:216
 msgid "print all mail to standard output"
 msgstr ""
 
-#: mail/mail.c:219
+#: mail/mail.c:221
 msgid "use address as the return address when sending mail"
 msgstr ""
 
-#: mail/mail.c:223
+#: mail/mail.c:225
 msgid "cause interrupts to terminate program"
 msgstr ""
 
-#: mail/mail.c:226
+#: mail/mail.c:228
 msgid "SUBJ"
 msgstr ""
 
-#: mail/mail.c:227
+#: mail/mail.c:229
 msgid "send a message with the given SUBJECT"
 msgstr ""
 
-#: mail/mail.c:231
+#: mail/mail.c:233
 msgid "read recipients from the message header"
 msgstr ""
 
-#: mail/mail.c:234
+#: mail/mail.c:236
 msgid "USER"
 msgstr ""
 
-#: mail/mail.c:235
+#: mail/mail.c:237
 msgid "operate on USER's mailbox"
 msgstr ""
 
-#: mail/mail.c:238
+#: mail/mail.c:240
 msgid "HEADER: VALUE"
 msgstr ""
 
-#: mail/mail.c:239
+#: mail/mail.c:241
 msgid "append given header to the message being sent"
 msgstr ""
 
-#: mail/mail.c:243
+#: mail/mail.c:245
 msgid "force multipart/alternative content type"
 msgstr ""
 
-#: mail/mail.c:247
+#: mail/mail.c:249
 msgid "skip attachments with empty body"
 msgstr ""
 
-#: mail/mail.c:250
+#: mail/mail.c:252
 msgid "COMMAND"
 msgstr ""
 
-#: mail/mail.c:251
+#: mail/mail.c:253
 msgid "execute COMMAND"
 msgstr ""
 
-#: mail/mail.c:255
+#: mail/mail.c:257
 msgid "set encoding for subsequent --attach options"
 msgstr ""
 
-#: mail/mail.c:258
+#: mail/mail.c:260
 msgid "TYPE"
 msgstr ""
 
-#: mail/mail.c:259
+#: mail/mail.c:261
 msgid "set content type for subsequent --attach options"
 msgstr ""
 
-#: mail/mail.c:263
+#: mail/mail.c:265
 msgid "set the Content-Type name parameter for the next --attach option"
 msgstr ""
 
-#: mail/mail.c:266
+#: mail/mail.c:268
 msgid ""
 "set the Content-Disposition filename parameter for the next --attach option"
 msgstr ""
 
-#: mail/mail.c:270
+#: mail/mail.c:272
 msgid "attach FILE"
 msgstr ""
 
-#: mail/mail.c:273
+#: mail/mail.c:275
 msgid "FD"
 msgstr ""
 
-#: mail/mail.c:274
+#: mail/mail.c:276
 msgid "attach from file descriptor FD"
 msgstr ""
 
-#: mail/mail.c:278
+#: mail/mail.c:280
 msgid "compose MIME messages"
 msgstr ""
 
-#: mail/mail.c:285
+#: mail/mail.c:287
 msgid "[OPTION...] [file]"
 msgstr ""
 
-#: mail/mail.c:286
+#: mail/mail.c:288
 msgid "--file [OPTION...] [file]"
 msgstr ""
 
-#: mail/mail.c:287
+#: mail/mail.c:289
 msgid "--file=file [OPTION...]"
 msgstr ""
 
-#: mail/mail.c:294
+#: mail/mail.c:296
 msgid ""
 "GNU mail -- process mail messages.\n"
 "If -f or --file is given, mail operates on the mailbox named by the first "
 "argument, or the user's mbox, if no argument given."
 msgstr ""
 
-#: mail/mail.c:297
+#: mail/mail.c:299
 msgid "[address...]"
 msgstr ""
 
-#: mail/mail.c:331
+#: mail/mail.c:333
 #, c-format
 msgid "Interrupt"
 msgstr ""
 
-#: mail/mail.c:337
+#: mail/mail.c:339
 #, c-format
 msgid "Use \"quit\" to quit."
 msgstr ""
 
-#: mail/mail.c:406
+#: mail/mail.c:408
 msgid "Null message body; hope that's ok"
 msgstr ""
 
-#: mail/mail.c:504
+#: mail/mail.c:506
 #, c-format
 msgid "conflicting options"
 msgstr ""
 
-#: mail/mail.c:513 mail/mail.c:521
+#: mail/mail.c:515 mail/mail.c:523
 #, c-format
 msgid "-f requires at most one command line argument"
 msgstr ""
 
-#: mail/mail.c:594
+#: mail/mail.c:596
 #, c-format
 msgid "Cannot create mailbox: %s"
 msgstr ""
 
-#: mail/mail.c:636
+#: mail/mail.c:638
 #, c-format
 msgid "Cannot read mailbox %s: %s"
 msgstr ""
 
-#: mail/mail.c:652
+#: mail/mail.c:654
 #, c-format
 msgid "Unknown mode `%s'"
 msgstr ""
 
-#: mail/mail.c:664
+#: mail/mail.c:666
 #, c-format
 msgid "No mail for %s\n"
 msgstr ""
 
-#: mail/mail.c:728
+#: mail/mail.c:730
 msgid ""
 "GNU Mailutils -- a suite of utilities for electronic mail\n"
 "Copyright (C) 1999-2019 Free Software Foundation, Inc.\n"
 "\n"
 msgstr ""
 
-#: mail/mail.c:731
+#: mail/mail.c:733
 msgid ""
 "   GNU Mailutils is free software; you can redistribute it and/or modify\n"
 "   it under the terms of the GNU General Public License as published by\n"
@@ -4074,8 +4074,8 @@ msgstr ""
 msgid "argument to `include' is not a string"
 msgstr ""
 
-#: libmailutils/cfg/parser.y:805 libmailutils/cli/stdcapa.c:478
-#: libmailutils/cli/stdcapa.c:510
+#: libmailutils/cfg/parser.y:805 libmailutils/cli/stdcapa.c:518
+#: libmailutils/cli/stdcapa.c:550
 #, c-format
 msgid "expected string value"
 msgstr ""
@@ -4789,34 +4789,34 @@ msgstr ""
 msgid "using legacy configuration file %s: please rename it to %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:41 libmailutils/cli/stdcapa.c:52
+#: libmailutils/cli/stdcapa.c:42 libmailutils/cli/stdcapa.c:53
 #, c-format
 msgid "unknown syslog facility `%s'"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:67
+#: libmailutils/cli/stdcapa.c:68
 #, c-format
 msgid "unknown severity `%s'"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:76
+#: libmailutils/cli/stdcapa.c:77
 msgid "Send diagnostics to syslog."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:78
+#: libmailutils/cli/stdcapa.c:79
 msgid "Print message severity levels."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:80
+#: libmailutils/cli/stdcapa.c:81
 msgid "Output only messages with a severity equal to or greater than this one."
 msgstr ""
 
 #. TRANSLATORS: Translate only arg:, rest are keywords
-#: libmailutils/cli/stdcapa.c:83
+#: libmailutils/cli/stdcapa.c:84
 msgid "arg: debug|info|notice|warning|error|crit|alert|emerg"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:85
+#: libmailutils/cli/stdcapa.c:86
 msgid ""
 "Set syslog facility. Arg is one of the following: user, daemon, auth, "
 "authpriv, mail, cron, local0 through local7 (case-insensitive), or a "
@@ -4824,65 +4824,65 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: Translate only arg: and <number>, rest are keywords
-#: libmailutils/cli/stdcapa.c:89
+#: libmailutils/cli/stdcapa.c:90
 msgid "arg: auth|authpriv|mail|local0-local7|<number>"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:91
+#: libmailutils/cli/stdcapa.c:92
 msgid "Log session ID"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:93
+#: libmailutils/cli/stdcapa.c:94
 msgid "Tag syslog messages with this string."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:98
+#: libmailutils/cli/stdcapa.c:99
 msgid "FACILITY"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:99
+#: libmailutils/cli/stdcapa.c:100
 msgid "output logs to syslog FACILITY"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:120
+#: libmailutils/cli/stdcapa.c:121
 #, c-format
 msgid "invalid mailer URL `%s': %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:125
+#: libmailutils/cli/stdcapa.c:126
 msgid "MAILER"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:126
+#: libmailutils/cli/stdcapa.c:127
 msgid "use specified URL as the default mailer"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:140
+#: libmailutils/cli/stdcapa.c:141
 #, c-format
 msgid "%s: invalid mailer URL: %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:147
+#: libmailutils/cli/stdcapa.c:148
 msgid "Use this URL as the default mailer"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:165
+#: libmailutils/cli/stdcapa.c:166
 msgid "Global debugging settings"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:166
+#: libmailutils/cli/stdcapa.c:167
 msgid "LEVEL"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:167
+#: libmailutils/cli/stdcapa.c:168
 msgid "set Mailutils debugging level"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:170
+#: libmailutils/cli/stdcapa.c:171
 msgid "show source info with debugging messages"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:186
+#: libmailutils/cli/stdcapa.c:187
 msgid ""
 "Set Mailutils debugging level. Argument is a semicolon-separated list of "
 "debugging specifications. A simplified specification syntax is:\n"
@@ -4891,130 +4891,145 @@ msgid ""
 "manual, or visit <http://mailutils.org/wiki/Debug_level>."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:193
+#: libmailutils/cli/stdcapa.c:194
 msgid "Prefix debug messages with Mailutils source locations."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:209
+#: libmailutils/cli/stdcapa.c:210
 #, c-format
 msgid "cannot set mail directory name to `%s': %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:223
+#: libmailutils/cli/stdcapa.c:224
 #, c-format
 msgid "cannot set mailbox pattern to `%s': %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:234
+#: libmailutils/cli/stdcapa.c:235
 #, c-format
 msgid "invalid mailbox type: %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:249
-msgid "Use specified URL as a mailspool directory."
-msgstr ""
-
-#: libmailutils/cli/stdcapa.c:252
-msgid "Create mailbox URL using <pattern>."
-msgstr ""
-
-#: libmailutils/cli/stdcapa.c:253
-msgid "pattern: string"
-msgstr ""
-
-#: libmailutils/cli/stdcapa.c:255
-msgid "Default mailbox type."
-msgstr ""
-
-#: libmailutils/cli/stdcapa.c:256
-msgid "protocol: string"
-msgstr ""
-
-#: libmailutils/cli/stdcapa.c:258
-msgid "Default user mail folder"
-msgstr ""
-
-#: libmailutils/cli/stdcapa.c:296
-#, c-format
-msgid "invalid lock flag `%c'"
-msgstr ""
-
-#: libmailutils/cli/stdcapa.c:315 libmailutils/cli/stdcapa.c:339
-#: libmailutils/cli/stdcapa.c:363
+#: libmailutils/cli/stdcapa.c:268 libmailutils/cli/stdcapa.c:355
+#: libmailutils/cli/stdcapa.c:379 libmailutils/cli/stdcapa.c:403
 #, c-format
 msgid "conversion failed: %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:388
+#: libmailutils/cli/stdcapa.c:280
+msgid "Use specified URL as a mailspool directory."
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:283
+msgid "Create mailbox URL using <pattern>."
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:284
+msgid "pattern: string"
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:286
+msgid "Default mailbox type."
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:287
+msgid "protocol: string"
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:289
+msgid "Default user mail folder"
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:292
+msgid ""
+"Accuracy level of mailbox format autodetection. Argument is either a decimal "
+"number or any of the following constants:\n"
+"  auto    - set accuracy level from the environment variable\n"
+"            MU_AUTODETECT_ACCURACY (default)\n"
+"  fast    - do only a rough estimation of the mailbox format: fastest,\n"
+"            but possibly inaccurate\n"
+"  minimal - good balance between speed and accuracy"
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:299
+msgid "n: number"
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:336
+#, c-format
+msgid "invalid lock flag `%c'"
+msgstr ""
+
+#: libmailutils/cli/stdcapa.c:428
 msgid "Default locker flags (E=external, R=retry, T=time, P=pid)."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:391
+#: libmailutils/cli/stdcapa.c:431
 msgid "Set timeout for acquiring the lock."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:392 libmailutils/cli/stdcapa.c:398
+#: libmailutils/cli/stdcapa.c:432 libmailutils/cli/stdcapa.c:438
 msgid "arg: interval"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:394
+#: libmailutils/cli/stdcapa.c:434
 msgid "Set the maximum number of times to retry acquiring the lock."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:395
+#: libmailutils/cli/stdcapa.c:435
 msgid "arg: integer"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:397
+#: libmailutils/cli/stdcapa.c:437
 msgid "Expire locks older than this amount of time."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:400
+#: libmailutils/cli/stdcapa.c:440
 msgid "Use external locker program."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:401
+#: libmailutils/cli/stdcapa.c:441
 msgid "prog: string"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:418
+#: libmailutils/cli/stdcapa.c:458
 #, c-format
 msgid "invalid email address `%s': %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:433
+#: libmailutils/cli/stdcapa.c:473
 #, c-format
 msgid "invalid email domain `%s': %s"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:440
+#: libmailutils/cli/stdcapa.c:480
 msgid ""
 "Set the current user email address (default is loginname@defaultdomain)."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:442
+#: libmailutils/cli/stdcapa.c:482
 msgid "email: address"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:444
+#: libmailutils/cli/stdcapa.c:484
 msgid "Set e-mail domain for unqualified user names (default is this host)"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:445
+#: libmailutils/cli/stdcapa.c:485
 msgid "domain: string"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:520
+#: libmailutils/cli/stdcapa.c:560
 msgid ""
 "Set a list of modules for authentication. Modlist is a colon-separated list "
 "of module names or a word `clear' to clear the previously set up values."
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:523 libmailutils/cli/stdcapa.c:528
+#: libmailutils/cli/stdcapa.c:563 libmailutils/cli/stdcapa.c:568
 msgid "modlist"
 msgstr ""
 
-#: libmailutils/cli/stdcapa.c:525
+#: libmailutils/cli/stdcapa.c:565
 msgid ""
 "Set a list of modules for authorization. Modlist is a colon-separated list "
 "of module names or a word `clear' to clear the previously set up values."
@@ -5651,69 +5666,69 @@ msgstr ""
 msgid "do nothing, print what would be done (with --pack)"
 msgstr ""
 
-#: mh/folder.c:241 mh/rmf.c:109
+#: mh/folder.c:240 mh/rmf.c:109
 #, c-format
 msgid "cannot scan folder %s: %s"
 msgstr ""
 
-#: mh/folder.c:330
+#: mh/folder.c:345
 #, c-format
 msgid " has %4lu message  (%4lu-%4lu)"
 msgid_plural " has %4lu messages (%4lu-%4lu)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: mh/folder.c:341
+#: mh/folder.c:356
 #, c-format
 msgid " has no messages"
 msgstr ""
 
-#: mh/folder.c:350
+#: mh/folder.c:365
 #, c-format
 msgid "(others)"
 msgstr ""
 
-#: mh/folder.c:407
+#: mh/folder.c:416
 #, c-format
 msgid ""
 "Folder                  # of messages     (  range  )  cur msg   (other "
 "files)\n"
 msgstr ""
 
-#: mh/folder.c:416
+#: mh/folder.c:425
 msgid "TOTAL"
 msgstr ""
 
-#: mh/folder.c:417
+#: mh/folder.c:426
 #, c-format
 msgid "%4lu message  "
 msgid_plural "%4lu messages "
 msgstr[0] ""
 msgstr[1] ""
 
-#: mh/folder.c:420
+#: mh/folder.c:429
 #, c-format
 msgid "in %4lu folder"
 msgid_plural "in %4lu folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: mh/folder.c:611
+#: mh/folder.c:620
 #, c-format
 msgid "Renaming %s to %s\n"
 msgstr ""
 
-#: mh/folder.c:616
+#: mh/folder.c:625
 #, c-format
 msgid "cannot rename `%s' to `%s': %s"
 msgstr ""
 
-#: mh/folder.c:653
+#: mh/folder.c:662
 #, c-format
 msgid "rolling back changes..."
 msgstr ""
 
-#: mh/folder.c:657
+#: mh/folder.c:666
 #, c-format
 msgid ""
 "CRITICAL ERROR: Folder `%s' left in an inconsistent state, because an error\n"
@@ -5721,59 +5736,59 @@ msgid ""
 "Message range %s-%s has been renamed to %s-%s."
 msgstr ""
 
-#: mh/folder.c:665
+#: mh/folder.c:674
 #, c-format
 msgid "You will have to fix it manually."
 msgstr ""
 
-#: mh/folder.c:669
+#: mh/folder.c:678
 #, c-format
 msgid "folder `%s' restored successfully"
 msgstr ""
 
-#: mh/folder.c:797 mh/inc.c:209
+#: mh/folder.c:806 mh/inc.c:209
 #, c-format
 msgid "cannot read input mailbox: %s"
 msgstr ""
 
-#: mh/folder.c:805
+#: mh/folder.c:814
 #, c-format
 msgid "Getting message numbers.\n"
 msgstr ""
 
-#: mh/folder.c:813 mh/inc.c:242
+#: mh/folder.c:822 mh/inc.c:242
 #, c-format
 msgid "%lu: cannot get message: %s"
 msgstr ""
 
-#: mh/folder.c:820
+#: mh/folder.c:829
 #, c-format
 msgid "%s message number collected.\n"
 msgid_plural "%s message numbers collected.\n"
 msgstr[0] ""
 msgstr[1] ""
 
-#: mh/folder.c:838
+#: mh/folder.c:847
 #, c-format
 msgid "Reverting pack table.\n"
 msgstr ""
 
-#: mh/folder.c:846
+#: mh/folder.c:855
 #, c-format
 msgid "cannot change to directory `%s': %s"
 msgstr ""
 
-#: mh/folder.c:861
+#: mh/folder.c:870
 #, c-format
 msgid "Finished packing messages.\n"
 msgstr ""
 
-#: mh/folder.c:872
+#: mh/folder.c:881
 #, c-format
 msgid "Fixing global sequences\n"
 msgstr ""
 
-#: mh/folder.c:875
+#: mh/folder.c:884
 #, c-format
 msgid "Fixing private sequences\n"
 msgstr ""
@@ -7713,37 +7728,57 @@ msgstr[1] ""
 msgid "cannot get UIDLs"
 msgstr ""
 
-#: movemail/movemail.c:1045 movemail/movemail.c:1082
+#: movemail/movemail.c:1045 movemail/movemail.c:1117
 #, c-format
 msgid "cannot set iteration direction: %s"
 msgstr ""
 
-#: movemail/movemail.c:1060 movemail/movemail.c:1105
+#: movemail/movemail.c:1061 movemail/movemail.c:1140
 #, c-format
 msgid "cannot read message %lu: %s"
 msgstr ""
 
-#: movemail/movemail.c:1075
+#: movemail/movemail.c:1072
+#, c-format
+msgid "%lu: cannot get header: %s"
+msgstr ""
+
+#: movemail/movemail.c:1082
+#, c-format
+msgid "%lu: cannot get %s: %s"
+msgstr ""
+
+#: movemail/movemail.c:1088
+#, c-format
+msgid "%lu: stored and reported UIDL differ; fixing"
+msgstr ""
+
+#: movemail/movemail.c:1096
+#, c-format
+msgid "%lu: cannot set header: %s"
+msgstr ""
+
+#: movemail/movemail.c:1110
 #, c-format
 msgid "cannot obtain mailbox iterator: %s"
 msgstr ""
 
-#: movemail/movemail.c:1097
+#: movemail/movemail.c:1132
 #, c-format
 msgid "cannot get iterator position: %s"
 msgstr ""
 
-#: movemail/movemail.c:1122
+#: movemail/movemail.c:1157
 #, c-format
 msgid "number of processed messages: %lu"
 msgstr ""
 
-#: movemail/movemail.c:1125
+#: movemail/movemail.c:1160
 #, c-format
 msgid "number of errors: %lu / %lu"
 msgstr ""
 
-#: movemail/movemail.c:1139
+#: movemail/movemail.c:1174
 #, c-format
 msgid "cannot close destination mailbox: %s"
 msgstr ""

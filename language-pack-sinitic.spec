@@ -1,6 +1,6 @@
 Name: language-pack-sinitic
 Summary: Translations for some sinitic languages
-Version: 2019.5
+Version: 2019.10
 Release: 1
 License: Open Source
 Group: Translations
@@ -27,11 +27,21 @@ make
 %files
 %{_datadir}/locale/*/LC_MESSAGES/*.mo
 %{_libdir}/R/library/translations/*/LC_MESSAGES/*.mo
-%{_datadir}/etoys/locale/*/LC_MESSAGES/*.mo
+%{_libdir}/textadept/core/locales/locale.*.conf
+%{_datadir}/0ad/l10n/*.engine.po
+%{_datadir}/FBReader/resources/*.xml
 %{_datadir}/Telegram/Desktop_*.strings
 %{_datadir}/locale/*/LC_MESSAGES/*.qm
 %{_datadir}/*/*/*.qm
+%{_libexecdir}/*/Translations/*.qm
+%{_datadir}/zlibrary/resources/*.xml
+%{_datadir}/childsplay_sp/*/*/words-*
+%{_datadir}/*/locale/*/LC_MESSAGES/*.mo
+%{_datadir}/liblunar/holiday.dat-*
+%{_datadir}/logo/logolib/Messages.*
+/var/www/html/clipbucket/includes/langs/*.lang
+/etc/joe/joerc.*
 
 %changelog
-* Thu May 02 2019 Wei-Lun Chao <bluebat@member.fsf.org> - 2019.5
+* Tue Oct 15 2019 Wei-Lun Chao <bluebat@member.fsf.org> - 2019.10
 - Initial package

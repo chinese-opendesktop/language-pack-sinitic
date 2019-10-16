@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR kakurasan
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xbrightness-rgbgamma 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-25 21:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:55
+msgid "_File"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:67
+msgid "Remove _autostart file on exit"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:99
+msgid "_Help"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:193
+msgid "<b>Bright_ness</b>"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:276
+msgid "<b>_Red</b>"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:345
+msgid "<b>_Green</b>"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:414
+msgid "<b>_Blue</b>"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.ui:436
+msgid "<b>Gamma correction</b>"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:47 ../xbrightness_rgbgamma/CliMain.py:91
+#: ../xbrightness_rgbgamma/CliMain.py:94
+#: ../xbrightness_rgbgamma/CliMain.py:100
+#: ../xbrightness_rgbgamma/CliMain.py:104
+#: ../xbrightness_rgbgamma/CliMain.py:108
+#: ../xbrightness_rgbgamma/CliMain.py:111
+#: ../xbrightness_rgbgamma/CliMain.py:113
+#: ../xbrightness_rgbgamma/CliMain.py:120
+#: ../xbrightness_rgbgamma/CliMain.py:122
+#: ../xbrightness_rgbgamma/CliMain.py:124
+#: ../xbrightness_rgbgamma/CliMain.py:126
+#: ../xbrightness_rgbgamma/CliMain.py:135
+#: ../xbrightness_rgbgamma/GuiMain.py:46 ../xbrightness_rgbgamma/GuiMain.py:50
+#: ../xbrightness_rgbgamma/GuiMain.py:54 ../xbrightness_rgbgamma/GuiMain.py:58
+#: ../xbrightness_rgbgamma/GuiMain.py:62 ../xbrightness_rgbgamma/GuiMain.py:78
+#: ../xbrightness_rgbgamma/GuiMain.py:83 ../xbrightness_rgbgamma/GuiMain.py:85
+#: ../xbrightness_rgbgamma/GuiMain.py:87 ../xbrightness_rgbgamma/GuiMain.py:89
+msgid "Error: "
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:47 ../xbrightness_rgbgamma/GuiMain.py:77
+#: ../xbrightness_rgbgamma/GuiMain.py:78
+msgid "Could not load libXxf86vm"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:57
+msgid ""
+"USAGE:\n"
+" {0} [BRIGHTNESS]\n"
+" {0} [BRIGHTNESS] [GAMMA]\n"
+" {0} [BRIGHTNESS] [GAMMA_RED] [GAMMA_GREEN] [GAMMA_BLUE]\n"
+" {0} [GAMMA_RED] [GAMMA_GREEN] [GAMMA_BLUE]\n"
+"\n"
+"BRIGHTNESS: 0 - 65535\n"
+"GAMMA,GAMMA_RED,GAMMA_GREEN,GAMMA_BLUE: 0.000..1 - 10"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:67
+msgid ""
+"{0} version {1}\n"
+"Copyright {2}"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:91
+#: ../xbrightness_rgbgamma/CliMain.py:100
+#: ../xbrightness_rgbgamma/CliMain.py:104
+#: ../xbrightness_rgbgamma/CliMain.py:108
+msgid "Invalid value \"{0}\""
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:94
+msgid "Invalid brightness (range: 0 - 65535)"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:111
+msgid "Gamma must be greater than 0"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:113
+msgid "Gamma must be less or equal to 10"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:120
+#: ../xbrightness_rgbgamma/CliMain.py:122
+#: ../xbrightness_rgbgamma/GuiMain.py:83 ../xbrightness_rgbgamma/GuiMain.py:85
+msgid "Could not open display: "
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:122
+#: ../xbrightness_rgbgamma/GuiMain.py:85
+msgid "(undefined)"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:124
+#: ../xbrightness_rgbgamma/GuiMain.py:87
+msgid "Could not get size of gamma ramp."
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:126
+#: ../xbrightness_rgbgamma/GuiMain.py:89
+msgid "Could not get gamma ramp."
+msgstr ""
+
+#: ../xbrightness_rgbgamma/CliMain.py:135
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:642
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:669
+msgid "Could not set gamma ramp."
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMain.py:46
+msgid "Could not import PyGI module"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMain.py:50
+msgid "typelib for GTK+ not found"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMain.py:54
+msgid "typelib for GDK not found"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMain.py:58
+msgid "typelib for GLib not found"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMain.py:62
+msgid "typelib for gdk-pixbuf not found"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiFunctions.py:38
+msgid "Brightness and gamma adjustment tool"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiFunctions.py:65
+msgid "Error"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:596
+msgid "Gra_ph"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:597
+msgid "Gamma _chart"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:630
+msgid "Set brightness to {0:d}"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:632
+msgid "Set gamma/red to {0:.2f}"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:634
+msgid "Set gamma/green to {0:.2f}"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:636
+msgid "Set gamma/blue to {0:.2f}"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:649
+msgid "Cancel after {0} second"
+msgid_plural "Cancel after {0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:666
+msgid "Values are reverted"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:684
+msgid "Values are applied"
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:709
+msgid "Could not write to file \"{0}\""
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:711
+msgid "Could not open file \"{0}\""
+msgstr ""
+
+#: ../xbrightness_rgbgamma/GuiMainWindow.py:731
+msgid "Could not remove file \"{0}\""
+msgstr ""
