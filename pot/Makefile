@@ -9,7 +9,7 @@ build:
 	make -C misc build
 	make -C etoys build
 	make -C noinstall build
-	make -C libo_ui build
+	make -C libreoffice build
 
 install:
 	make -C self install

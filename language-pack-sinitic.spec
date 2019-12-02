@@ -1,6 +1,6 @@
 Name: language-pack-sinitic
 Summary: Translations for some sinitic languages
-Version: 2019.10
+Version: 2019.12
 Release: 1
 License: Open Source
 Group: Translations
@@ -15,6 +15,20 @@ BuildArch: noarch
 %description
 Translation data for all supported packages for some sinitic languages.
 
+%package -n language-pack-cmn
+Summary: Translations for Mandarin Chinese
+Requires: glibc-langpack-cmn
+
+%description -n language-pack-cmn
+Translation data for all supported packages for Mandarin Chinese.
+
+%package -n language-pack-yue
+Summary: Translations for Yue Chinese
+Requires: glibc-langpack-yue
+
+%description -n language-pack-yue
+Translation data for all supported packages for Yue Chinese.
+
 %prep
 %setup -q
 
@@ -24,24 +38,42 @@ make
 %install
 %make_install
 
-%files
-%{_datadir}/locale/*/LC_MESSAGES/*.mo
-%{_libdir}/R/library/translations/*/LC_MESSAGES/*.mo
-%{_libdir}/textadept/core/locales/locale.*.conf
-%{_datadir}/0ad/l10n/*.engine.po
-%{_datadir}/FBReader/resources/*.xml
-%{_datadir}/Telegram/Desktop_*.strings
-%{_datadir}/locale/*/LC_MESSAGES/*.qm
-%{_datadir}/*/*/*.qm
-%{_libexecdir}/*/Translations/*.qm
-%{_datadir}/zlibrary/resources/*.xml
-%{_datadir}/childsplay_sp/*/*/words-*
-%{_datadir}/*/locale/*/LC_MESSAGES/*.mo
-%{_datadir}/liblunar/holiday.dat-*
-%{_datadir}/logo/logolib/Messages.*
-/var/www/html/clipbucket/includes/langs/*.lang
-/etc/joe/joerc.*
+%files -n language-pack-cmn
+%{_datadir}/locale/cmn*/LC_MESSAGES/*.mo
+%{_libdir}/R/library/translations/cmn*/LC_MESSAGES/*.mo
+%{_libdir}/textadept/core/locales/locale.cmn*.conf
+%{_datadir}/0ad/l10n/cmn*.engine.po
+%{_datadir}/FBReader/resources/cmn*.xml
+%{_datadir}/Telegram/Desktop_cmn*.strings
+%{_datadir}/locale/cmn*/LC_MESSAGES/*.qm
+%{_datadir}/*/*/*cmn*.qm
+%{_libexecdir}/*/Translations/*cmn*.qm
+%{_datadir}/zlibrary/resources/cmn*.xml
+%{_datadir}/childsplay_sp/*/*/words-cmn*
+%{_datadir}/*/locale/cmn*/LC_MESSAGES/*.mo
+%{_datadir}/liblunar/holiday.dat-cmn*
+%{_datadir}/logo/logolib/Messages.cmn*
+/var/www/html/clipbucket/includes/langs/cmn*.lang
+/etc/joe/joerc.cmn*
+
+%files -n language-pack-yue
+%{_datadir}/locale/yue*/LC_MESSAGES/*.mo
+%{_libdir}/R/library/translations/yue*/LC_MESSAGES/*.mo
+%{_libdir}/textadept/core/locales/locale.yue*.conf
+%{_datadir}/0ad/l10n/yue*.engine.po
+%{_datadir}/FBReader/resources/yue*.xml
+%{_datadir}/Telegram/Desktop_yue*.strings
+%{_datadir}/locale/yue*/LC_MESSAGES/*.qm
+%{_datadir}/*/*/*yue*.qm
+%{_libexecdir}/*/Translations/*yue*.qm
+%{_datadir}/zlibrary/resources/yue*.xml
+%{_datadir}/childsplay_sp/*/*/words-yue*
+%{_datadir}/*/locale/yue*/LC_MESSAGES/*.mo
+%{_datadir}/liblunar/holiday.dat-yue*
+%{_datadir}/logo/logolib/Messages.yue*
+/var/www/html/clipbucket/includes/langs/yue*.lang
+/etc/joe/joerc.yue*
 
 %changelog
-* Tue Oct 15 2019 Wei-Lun Chao <bluebat@member.fsf.org> - 2019.10
+* Mon Dec 02 2019 Wei-Lun Chao <bluebat@member.fsf.org> - 2019.12
 - Initial package
