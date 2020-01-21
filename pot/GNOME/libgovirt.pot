@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libgovirt/issues\n"
-"POT-Creation-Date: 2019-03-11 13:30+0000\n"
+"POT-Creation-Date: 2019-10-04 18:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Unexpected parameter type in REST call"
 msgstr ""
 
-#: govirt/ovirt-collection.c:253
+#: govirt/ovirt-collection.c:248
 #, c-format
 msgid "Got '%s' node, expected '%s'"
 msgstr ""
@@ -46,58 +46,66 @@ msgstr ""
 msgid "Show oVirt Options"
 msgstr ""
 
-#: govirt/ovirt-proxy.c:625
+#: govirt/ovirt-proxy.c:358
+msgid "Failed to parse response from collection"
+msgstr ""
+
+#: govirt/ovirt-proxy.c:627
 msgid "Could not extract CA certificate filename from URI"
 msgstr ""
 
-#: govirt/ovirt-resource.c:183
+#: govirt/ovirt-resource.c:178
 msgid "Cancellable initialization not supported"
 msgstr ""
 
-#: govirt/ovirt-resource.c:432
+#: govirt/ovirt-resource.c:427
 msgid "Missing mandatory 'id' attribute"
 msgstr ""
 
-#: govirt/ovirt-resource.c:439
+#: govirt/ovirt-resource.c:434
 msgid "Missing mandatory 'href' attribute"
 msgstr ""
 
-#: govirt/ovirt-resource.c:695
+#: govirt/ovirt-resource.c:690
 msgid "Could not find 'status' node"
 msgstr ""
 
-#: govirt/ovirt-resource.c:701
+#: govirt/ovirt-resource.c:696
 msgid "Could not find 'state' node"
 msgstr ""
 
-#: govirt/ovirt-resource.c:709
+#: govirt/ovirt-resource.c:704
 msgid "Action is pending"
 msgstr ""
 
-#: govirt/ovirt-resource.c:713
+#: govirt/ovirt-resource.c:708
 msgid "Action is in progress"
 msgstr ""
 
-#: govirt/ovirt-resource.c:717
+#: govirt/ovirt-resource.c:712
 msgid "Action has failed"
 msgstr ""
 
-#: govirt/ovirt-resource.c:722
+#: govirt/ovirt-resource.c:717
 msgid "Unknown action failure"
 msgstr ""
 
-#: govirt/ovirt-utils.c:354
+#: govirt/ovirt-resource.c:870
+msgid "Failed to parse response from resource"
+msgstr ""
+
+#: govirt/ovirt-utils.c:362
 msgid "Could not find 'reason' node"
 msgstr ""
 
-#: govirt/ovirt-vm.c:404
+#: govirt/ovirt-vm.c:403
 msgid "Could not find 'ticket' node"
 msgstr ""
 
-#: govirt/ovirt-vm.c:414
+#: govirt/ovirt-vm.c:413
 msgid "Could not find 'value' node"
 msgstr ""
 
-#: govirt/ovirt-vm.c:421
+#: govirt/ovirt-vm.c:420
 msgid "Could not find 'expiry' node"
 msgstr ""

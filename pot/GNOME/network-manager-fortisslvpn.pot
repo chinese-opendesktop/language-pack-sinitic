@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/network-manager-"
+"fortisslvpn/issues\n"
+"POT-Creation-Date: 2018-06-04 12:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-fortisslvpn.metainfo.xml.in.h:1
+msgid "Fortinet SSLVPN client"
+msgstr ""
+
+#: ../appdata/network-manager-fortisslvpn.metainfo.xml.in.h:2
+msgid "Client for Fortinet SSLVPN virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-fortisslvpn.metainfo.xml.in.h:3
+msgid ""
+"Support for configuring Fortinet SSLVPN virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-fortisslvpn.metainfo.xml.in.h:4
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:150
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network “%s”."
+msgstr ""
+
+#: ../auth-dialog/main.c:159 ../auth-dialog/main.c:182
+msgid "Authenticate VPN"
+msgstr ""
+
+#: ../auth-dialog/main.c:162 ../properties/nm-fortisslvpn-dialog.ui.h:14
+msgid "Password:"
+msgstr ""
+
+#: ../auth-dialog/main.c:164
+msgid "Token:"
+msgstr ""
+
+#: ../auth-dialog/main.c:186
+msgid "_Token:"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-editor-plugin.c:38
+msgid "Fortinet SSLVPN"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-editor-plugin.c:39
+msgid "Compatible with Fortinet SSLVPN servers."
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:264
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:271
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:278
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:286
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:295
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:306
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:80
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:86
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:95
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:121
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:210
+#, c-format
+msgid "invalid gateway “%s”"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:218
+#, c-format
+msgid "invalid certificate authority “%s”"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:232
+#, c-format
+msgid "invalid integer property “%s”"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:242
+#, c-format
+msgid "invalid boolean property “%s” (not yes or no)"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:249
+#, c-format
+msgid "unhandled property “%s” type %s"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:260
+#, c-format
+msgid "property “%s” invalid or not supported"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:277
+msgid "No VPN configuration options."
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:297
+#, c-format
+msgid "Missing required option “%s”."
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:317
+msgid "No VPN secrets!"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:434
+msgid "Could not find the openfortivpn binary."
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:556
+msgid "Missing VPN username."
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:566
+msgid "Missing or invalid VPN password."
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:809
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:810
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:811
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-fortisslvpn-service.c:832
+msgid ""
+"nm-fortisslvpn-service provides integrated SSLVPN capability (compatible "
+"with Fortinet) to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:1
+msgid "SSLVPN Advanced Options"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:2
+msgid "Authentication"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:3
+msgid "Use a _one-time password"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:4
+msgid "Ask for an one-time password (OTP) for two factor authentication (2FA)."
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:5
+msgid "Security"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:6
+msgid ""
+"A SHA256 sum of the X509 certificate that will be accepted even if the "
+"certificate is not trusted by a certificate authority."
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:7
+msgid "Trusted certificate:"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:8
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:9
+msgid ""
+"SSLVPN server IP or name.\n"
+"config: the first parameter of fortisslvpn"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:11
+msgid "_Gateway:"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:12
+msgid "Show password"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:13
+msgid "Password passed to SSLVPN when prompted for it."
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:15
+msgid ""
+"Set the name used for authenticating the local system to the peer to "
+"<name>.\n"
+"config: user <name>"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:17
+msgid "User name:"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:18
+msgid "CA Certificate:"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:19
+msgid "User Key:"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:20
+msgid "User Certificate:"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:21
+msgid "A_dvanced…"
+msgstr ""
+
+#: ../properties/nm-fortisslvpn-dialog.ui.h:22
+msgid "Default"
+msgstr ""

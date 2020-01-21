@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/atomix/issues\n"
+"POT-Creation-Date: 2019-11-01 10:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "A puzzle game about atoms and molecules"
-msgstr ""
-
-msgid "About Atomix"
-msgstr ""
-
-msgid "Acetic Acid"
-msgstr ""
-
-msgid "Acetone"
-msgstr ""
-
+#: data/atomix.appdata.xml.in:7 data/atomix.desktop.in:3 src/main.c:119
+#: src/main.c:684
 msgid "Atomix"
 msgstr ""
 
+#: data/atomix.appdata.xml.in:8
+msgid "Build molecules out of single atoms"
+msgstr ""
+
+#: data/atomix.appdata.xml.in:10
 msgid ""
 "Atomix is a puzzle game where your goal is to assemble molecules from "
 "compound atoms by moving them on the playfield. However, atoms don’t just "
@@ -39,125 +34,169 @@ msgid ""
 "wall or another atom."
 msgstr ""
 
-msgid "Build molecules out of single atoms"
+#: data/atomix.appdata.xml.in:16
+msgid ""
+"Try to build the molecules as fast as you can on each level to earn a higher "
+"score."
 msgstr ""
 
-msgid "Butanol"
+#: data/atomix.desktop.in:4
+msgid "Molecule puzzle game"
 msgstr ""
 
-msgid "Congratulations! You have finished all Atomix levels."
-msgstr ""
-
-msgid "Cyclobutane"
-msgstr ""
-
-msgid "Dimethyl Ether"
-msgstr ""
-
-msgid "End Game"
-msgstr ""
-
-msgid "Ethanal"
-msgstr ""
-
-msgid "Ethane"
-msgstr ""
-
-msgid "Ethanol"
-msgstr ""
-
-msgid "Ethylene"
-msgstr ""
-
-# (Abel) 這裡是 empirical formula（經驗式）的簡稱，但少人明白；
-# 況且這只是遊戲，採用一般人較易明白的詞彙會比較適當
-msgid "Formula:"
+#: data/atomix.desktop.in:5 src/main.c:122
+msgid "A puzzle game about atoms and molecules"
 msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/atomix.desktop.in:13
 msgid "GNOME;game;logic;puzzle;atoms;molecules;sokoban;"
 msgstr ""
 
+#: data/level/aceticacid.atomix.xml.in:2
+msgid "Acetic Acid"
+msgstr ""
+
+#: data/level/acetone.atomix.xml.in:2
+msgid "Acetone"
+msgstr ""
+
+#: data/level/butanol.atomix.xml.in:2
+msgid "Butanol"
+msgstr ""
+
+#: data/level/cyclobutane.atomix.xml.in:2
+msgid "Cyclobutane"
+msgstr ""
+
+#: data/level/dimethylether.atomix.xml.in:2
+msgid "Dimethyl Ether"
+msgstr ""
+
+#: data/level/ethanal.atomix.xml.in:2
+msgid "Ethanal"
+msgstr ""
+
+#: data/level/ethane.atomix.xml.in:2
+msgid "Ethane"
+msgstr ""
+
+#: data/level/ethanol.atomix.xml.in:2
+msgid "Ethanol"
+msgstr ""
+
+#: data/level/ethylene.atomix.xml.in:2
+msgid "Ethylene"
+msgstr ""
+
+#: data/level/glycerin.atomix.xml.in:2
 msgid "Glycerin"
 msgstr ""
 
+#: data/level/lactic-acid.atomix.xml.in:2
+msgid "Lactic Acid"
+msgstr ""
+
+#: data/level/methanal.atomix.xml.in:2
+msgid "Methanal"
+msgstr ""
+
+#: data/level/methane.atomix.xml.in:2
+msgid "Methane"
+msgstr ""
+
+#: data/level/methanol.atomix.xml.in:2
+msgid "Methanol"
+msgstr ""
+
+#: data/level/propanal.atomix.xml.in:2
+msgid "Propanal"
+msgstr ""
+
+#: data/level/propylene.atomix.xml.in:2
+msgid "Propylene"
+msgstr ""
+
+#: data/level/pyran.atomix.xml.in:2
+msgid "Pyran"
+msgstr ""
+
+#: data/level/transbutylen.atomix.xml.in:2
+msgid "Trans Butylen"
+msgstr ""
+
+#: data/level/water.atomix.xml.in:2
+msgid "Water"
+msgstr ""
+
+#: data/ui/interface.ui:101
+msgid "Level:"
+msgstr ""
+
+#: data/ui/interface.ui:113
+msgid "Molecule:"
+msgstr ""
+
+#: data/ui/interface.ui:125
+msgid "Formula:"
+msgstr ""
+
+#: data/ui/interface.ui:137
+msgid "Score:"
+msgstr ""
+
+#: data/ui/interface.ui:149
+msgid "Time:"
+msgstr ""
+
+#: data/ui/interface.ui:161 data/ui/interface.ui:172 data/ui/interface.ui:184
+#: data/ui/interface.ui:196
+msgid "empty"
+msgstr ""
+
+#: data/ui/interface.ui:215
+msgid "Statistics"
+msgstr ""
+
+#: data/ui/menu.ui:7
+msgid "New Game"
+msgstr ""
+
+#: data/ui/menu.ui:12
+msgid "Pause/Continue Game"
+msgstr ""
+
+#: data/ui/menu.ui:17
+msgid "End Game"
+msgstr ""
+
+#: data/ui/menu.ui:23
+msgid "Skip Level"
+msgstr ""
+
+#: data/ui/menu.ui:28
+msgid "Reset Level"
+msgstr ""
+
+#: data/ui/menu.ui:32
+msgid "Undo Move"
+msgstr ""
+
+#: data/ui/menu.ui:39
+msgid "About Atomix"
+msgstr ""
+
+#: src/board-gtk.c:343
 msgid ""
 "Guide the atoms through the maze to form molecules. Click, or use the arrow "
 "keys and Enter, to select an atom and move it. Be careful, though: an atom "
 "keeps moving until it hits a wall."
 msgstr ""
 
-msgid "Lactic Acid"
-msgstr ""
-
-msgid "Level:"
-msgstr ""
-
-msgid "Methanal"
-msgstr ""
-
-msgid "Methane"
-msgstr ""
-
-msgid "Methanol"
-msgstr ""
-
-msgid "Molecule puzzle game"
-msgstr ""
-
-msgid "Molecule:"
-msgstr ""
-
-msgid "New Game"
-msgstr ""
-
-msgid "Pause/Continue Game"
-msgstr ""
-
-msgid "Propanal"
-msgstr ""
-
-msgid "Propylene"
-msgstr ""
-
-msgid "Pyran"
-msgstr ""
-
-msgid "Reset Level"
-msgstr ""
-
-msgid "Score:"
-msgstr ""
-
-msgid "Skip Level"
-msgstr ""
-
-msgid "Statistics"
-msgstr ""
-
-msgid "Time:"
-msgstr ""
-
-msgid "Trans Butylen"
-msgstr ""
-
-msgid ""
-"Try to build the molecules as fast as you can on each level to earn a higher "
-"score."
-msgstr ""
-
-msgid "Undo Move"
-msgstr ""
-
-msgid "Water"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-msgid "atomix"
-msgstr ""
-
-msgid "empty"
-msgstr ""
-
+#: src/main.c:126
 msgid "translator-credits"
+msgstr ""
+
+#: src/main.c:437
+msgid "Congratulations! You have finished all Atomix levels."
 msgstr ""

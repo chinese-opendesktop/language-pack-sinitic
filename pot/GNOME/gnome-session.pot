@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-session/issues\n"
+"POT-Creation-Date: 2019-11-28 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,233 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: data/gnome-custom-session.desktop.in.in:3
+msgid "Custom"
+msgstr ""
+
+#: data/gnome-custom-session.desktop.in.in:4
+msgid "This entry lets you select a saved session"
+msgstr ""
+
+#: data/gnome.desktop.in.in:3 data/gnome.session.desktop.in.in:3
+#: data/gnome-wayland.desktop.in.in:3
+msgid "GNOME"
+msgstr ""
+
+#: data/gnome.desktop.in.in:4 data/gnome-wayland.desktop.in.in:4
+#: data/gnome-xorg.desktop.in.in:4
+msgid "This session logs you into GNOME"
+msgstr ""
+
+#: data/gnome-dummy.session.desktop.in.in:3
+msgid "GNOME dummy"
+msgstr ""
+
+#: data/gnome-xorg.desktop.in.in:3
+msgid "GNOME on Xorg"
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:5
+msgid "Save sessions"
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:6
+msgid "If enabled, gnome-session will save the session automatically."
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:10
+msgid "Save this session"
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:11
+msgid ""
+"When enabled, gnome-session will automatically save the next session at log "
+"out even if auto saving is disabled."
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:15
+msgid "Logout prompt"
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:16
+msgid "If enabled, gnome-session will prompt the user before ending a session."
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:20
+msgid "Show the fallback warning"
+msgstr ""
+
+#: data/org.gnome.SessionManager.gschema.xml.in:21
+msgid ""
+"If enabled, gnome-session will display a warning dialog after login if the "
+"session was automatically fallen back."
+msgstr ""
+
+#: data/session-selector.ui:15
+msgid "Custom Session"
+msgstr ""
+
+#: data/session-selector.ui:50 tools/gnome-session-selector.c:102
+msgid "Please select a custom session to run"
+msgstr ""
+
+#: data/session-selector.ui:105
+msgid "_New Session"
+msgstr ""
+
+#: data/session-selector.ui:119
+msgid "_Remove Session"
+msgstr ""
+
+#: data/session-selector.ui:133
+msgid "Rena_me Session"
+msgstr ""
+
+#: data/session-selector.ui:168
+msgid "_Continue"
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:313
+msgid "Oh no!  Something has gone wrong."
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:320
+msgid ""
+"A problem has occurred and the system can’t recover. Please contact a system "
+"administrator"
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:322
+msgid ""
+"A problem has occurred and the system can’t recover. All extensions have "
+"been disabled as a precaution."
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:324
+msgid ""
+"A problem has occurred and the system can’t recover.\n"
+"Please log out and try again."
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:339
+msgid "_Log Out"
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:361 gnome-session/main.c:396
+msgid "Enable debugging code"
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:362
+msgid "Allow logout"
+msgstr ""
+
+#: gnome-session/gsm-fail-whale-dialog.c:363
+msgid "Show extension warning"
+msgstr ""
+
+#: gnome-session/gsm-manager.c:1289 gnome-session/gsm-manager.c:1999
+msgid "Not responding"
+msgstr ""
+
+#: gnome-session/gsm-util.c:414
+msgid "_Log out"
+msgstr ""
+
+#. It'd be really surprising to reach this code: if we're here,
+#. * then the XSMP client already has set several XSMP
+#. * properties. But it could still be that SmProgram is not set.
+#.
+#: gnome-session/gsm-xsmp-client.c:557
+msgid "Remembered Application"
+msgstr ""
+
+#: gnome-session/gsm-xsmp-client.c:1216
+msgid "This program is blocking logout."
+msgstr ""
+
+#: gnome-session/gsm-xsmp-server.c:338
+msgid ""
+"Refusing new client connection because the session is currently being shut "
+"down\n"
+msgstr ""
+
+#: gnome-session/gsm-xsmp-server.c:605
+#, c-format
+msgid "Could not create ICE listening socket: %s"
+msgstr ""
+
+#: gnome-session/main.c:390
+msgid "Running as systemd service"
+msgstr ""
+
+#: gnome-session/main.c:391
+msgid "Use systemd session management"
+msgstr ""
+
+#: gnome-session/main.c:393
+msgid "Use builtin session management (rather than the systemd based one)"
+msgstr ""
+
+#: gnome-session/main.c:394
+msgid "Override standard autostart directories"
+msgstr ""
+
+#: gnome-session/main.c:394
+msgid "AUTOSTART_DIR"
+msgstr ""
+
+#: gnome-session/main.c:395
+msgid "Session to use"
+msgstr ""
+
+#: gnome-session/main.c:395
+msgid "SESSION_NAME"
+msgstr ""
+
+#: gnome-session/main.c:397
+msgid "Do not load user-specified applications"
+msgstr ""
+
+#: gnome-session/main.c:398
+msgid "Version of this application"
+msgstr ""
+
+#. Translators: the 'fail whale' is the black dialog we show when something goes seriously wrong
+#: gnome-session/main.c:400
+msgid "Show the fail whale dialog for testing"
+msgstr ""
+
+#: gnome-session/main.c:401
+msgid "Disable hardware acceleration check"
+msgstr ""
+
+#: gnome-session/main.c:433
 msgid " — the GNOME session manager"
 msgstr ""
 
+#: tools/gnome-session-ctl.c:244
+msgid "Start gnome-session-shutdown.target"
+msgstr ""
+
+#: tools/gnome-session-ctl.c:245
+msgid ""
+"Start gnome-session-shutdown.target when receiving EOF or a single byte on "
+"stdin"
+msgstr ""
+
+#: tools/gnome-session-ctl.c:246
+msgid "Signal initialization done to gnome-session"
+msgstr ""
+
+#: tools/gnome-session-ctl.c:247
+msgid "Restart dbus.service if it is running"
+msgstr ""
+
+#: tools/gnome-session-ctl.c:275
+msgid "Program needs exactly one parameter"
+msgstr ""
+
+#: tools/gnome-session-inhibit.c:108
 #, c-format
 msgid ""
 "%s [OPTION…] COMMAND\n"
@@ -38,193 +262,64 @@ msgid ""
 "If no --inhibit option is specified, idle is assumed.\n"
 msgstr ""
 
-#, c-format
-msgid "%s requires an argument\n"
-msgstr ""
-
-msgid ""
-"A problem has occurred and the system can’t recover.\n"
-"Please log out and try again."
-msgstr ""
-
-msgid ""
-"A problem has occurred and the system can’t recover. All extensions have "
-"been disabled as a precaution."
-msgstr ""
-
-msgid ""
-"A problem has occurred and the system can’t recover. Please contact a system "
-"administrator"
-msgstr ""
-
-#, c-format
-msgid "A session named “%s” already exists"
-msgstr ""
-
-msgid "AUTOSTART_DIR"
-msgstr ""
-
-msgid "Allow logout"
-msgstr ""
-
-msgid "Could not connect to the session manager"
-msgstr ""
-
-#, c-format
-msgid "Could not create ICE listening socket: %s"
-msgstr ""
-
-msgid "Custom"
-msgstr ""
-
-msgid "Custom Session"
-msgstr ""
-
-msgid "Disable hardware acceleration check"
-msgstr ""
-
-msgid "Do not load user-specified applications"
-msgstr ""
-
-msgid "Don’t prompt for user confirmation"
-msgstr ""
-
-msgid "Enable debugging code"
-msgstr ""
-
+#: tools/gnome-session-inhibit.c:146
 #, c-format
 msgid "Failed to execute %s\n"
 msgstr ""
 
-msgid "GNOME"
+#: tools/gnome-session-inhibit.c:206 tools/gnome-session-inhibit.c:216
+#: tools/gnome-session-inhibit.c:226
+#, c-format
+msgid "%s requires an argument\n"
 msgstr ""
 
-msgid "GNOME dummy"
-msgstr ""
-
-msgid "GNOME on Xorg"
-msgstr ""
-
-msgid ""
-"If enabled, gnome-session will display a warning dialog after login if the "
-"session was automatically fallen back."
-msgstr ""
-
-msgid "If enabled, gnome-session will prompt the user before ending a session."
-msgstr ""
-
-msgid "If enabled, gnome-session will save the session automatically."
-msgstr ""
-
-msgid "Ignoring any existing inhibitors"
-msgstr ""
-
+#: tools/gnome-session-quit.c:50
 msgid "Log out"
 msgstr ""
 
-msgid "Logout prompt"
-msgstr ""
-
-msgid "Not responding"
-msgstr ""
-
-msgid "Oh no!  Something has gone wrong."
-msgstr ""
-
-msgid "Override standard autostart directories"
-msgstr ""
-
-msgid "Please select a custom session to run"
-msgstr ""
-
+#: tools/gnome-session-quit.c:51
 msgid "Power off"
 msgstr ""
 
-msgid "Program called with conflicting options"
-msgstr ""
-
+#: tools/gnome-session-quit.c:52
 msgid "Reboot"
 msgstr ""
 
-msgid ""
-"Refusing new client connection because the session is currently being shut "
-"down\n"
+#: tools/gnome-session-quit.c:53
+msgid "Ignoring any existing inhibitors"
 msgstr ""
 
-#. It'd be really surprising to reach this code: if we're here,
-#. * then the XSMP client already has set several XSMP
-#. * properties. But it could still be that SmProgram is not set.
-#.
-msgid "Remembered Application"
+#: tools/gnome-session-quit.c:54
+msgid "Don’t prompt for user confirmation"
 msgstr ""
 
-msgid "Rena_me Session"
+#: tools/gnome-session-quit.c:88 tools/gnome-session-quit.c:102
+msgid "Could not connect to the session manager"
 msgstr ""
 
-msgid "SESSION_NAME"
+#: tools/gnome-session-quit.c:198
+msgid "Program called with conflicting options"
 msgstr ""
 
-msgid "Save sessions"
-msgstr ""
-
-msgid "Save this session"
-msgstr ""
-
+#: tools/gnome-session-selector.c:61
 #, c-format
 msgid "Session %d"
 msgstr ""
 
-msgid "Session names are not allowed to contain “/” characters"
-msgstr ""
-
-msgid "Session names are not allowed to start with “.”"
-msgstr ""
-
+#: tools/gnome-session-selector.c:107
 msgid ""
 "Session names are not allowed to start with “.” or contain “/” characters"
 msgstr ""
 
-msgid "Session to use"
+#: tools/gnome-session-selector.c:111
+msgid "Session names are not allowed to start with “.”"
 msgstr ""
 
-msgid "Show extension warning"
+#: tools/gnome-session-selector.c:115
+msgid "Session names are not allowed to contain “/” characters"
 msgstr ""
 
-#. Translators: the 'fail whale' is the black dialog we show when something goes seriously wrong
-msgid "Show the fail whale dialog for testing"
-msgstr ""
-
-msgid "Show the fallback warning"
-msgstr ""
-
-msgid "This entry lets you select a saved session"
-msgstr ""
-
-msgid "This program is blocking logout."
-msgstr ""
-
-msgid "This session logs you into GNOME"
-msgstr ""
-
-msgid "Version of this application"
-msgstr ""
-
-msgid ""
-"When enabled, gnome-session will automatically save the next session at log "
-"out even if auto saving is disabled."
-msgstr ""
-
-msgid "_Continue"
-msgstr ""
-
-msgid "_Log Out"
-msgstr ""
-
-msgid "_Log out"
-msgstr ""
-
-msgid "_New Session"
-msgstr ""
-
-msgid "_Remove Session"
+#: tools/gnome-session-selector.c:123
+#, c-format
+msgid "A session named “%s” already exists"
 msgstr ""

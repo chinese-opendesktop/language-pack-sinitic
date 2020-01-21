@@ -1,0 +1,3635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-11-29 05:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/ab-conf.page:8
+msgid "Address Book Configuration"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/ab-conf.page:9
+msgid "This is to be filled in."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/ab-conf.page:12
+msgid "Address book type"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:13
+msgid "You can choose among several address book types."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/ab-conf.page:17
+msgid "External address book"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:21
+msgid "The balsa addressbook supports input from programs. Thus, you can use (no importing needed!) for example your pine or mutt addressbook. The mutt mailer (<link href=\"http://www.mutt.org/\">www.mutt.org</link>) uses an identical system to retrieve addresses from programs."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/ab-conf.page:28
+msgid "Existing programs"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:30
+msgid "The following programs are compatible with the mutt mail reader and <em>should</em> be with balsa. Submit links to more programs."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/ab-conf.page:34
+msgid "<link href=\"http://www.spinnaker.de/lbdb/\" type=\"http\">http://www.spinnaker.de/lbdb/</link> - The little brother database. Read emailaddresses and names from: finger, /etc/passwd, incoming procmail email, NIS, fido, the abook program, mutt addressbook, pine addressbook, palm addressbook, gnomecard addressbook, big brother database, ldap database."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/ab-conf.page:43
+msgid "<link href=\"http://www.fiction.net/blong/programs/mutt/\">http://www.fiction.net/blong/programs/mutt/</link> - palm address database, ldapsearch wrapper, ph/qi server, UIUC, ph,"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/ab-conf.page:51
+msgid "Writing your own load scripts"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:53
+msgid "<app>Balsa</app> ignores the first line of output from your program. You might want to write comments or debug output on this line. The remaining lines should have this format:"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:56
+msgid "<output> e-mail address full name nickname </output>"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:60
+msgid "The three fields should be separated by tabs. The third field is currently not used by balsa, but might be in the future. It is also kept to ensure compatibility with mutt."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:64
+msgid "<app>Balsa</app> executes your script with one argument: the pattern to search for. A space (“ ”) is used as the first argument when creating a list of all users."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:68
+msgid "All characters are allowed, except the tab (\\t), since that is the field separator."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:72
+msgid "An example output could be:"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:73
+msgid "<output> lbdbq: 3 matches </output>"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:76
+msgid "<output> balsa-list@gnome.org Balsa List balsa-list </output>"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:78
+msgid "<output> jelmer@nl.linux.org Jelmer Vernooij jelmer </output>"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:80
+msgid "<output> balsa-maintainer@theochem.kth.se Pawel Salek balsa-maintainer </output>"
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/ab-conf.page:85
+msgid "Your script/program should write its output to stdout and not to stderr!"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/ab-conf.page:91
+msgid "Writing your own save scripts"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:93
+msgid "Adding addresses is also possible. Your script should receive 3 arguments. The first is an email address, the second a full name and the third is an alias (currently not used and replaced by 'TODO')."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:97
+msgid "Note that mutt does not have support for adding addresses and there is thus no compatibility in this case."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/ab-conf.page:99
+msgid "Comments are welcome: <link href=\"mailto:jelmer@nl.linux.org\">jelmer@nl.linux.org</link>"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/authors.page:8
+msgid "Authors"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/authors.page:9
+msgid "<app>Balsa</app> is currently developed by (in alphabetical order):"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:13
+#: C/authors.page:80
+msgid "Peter Bloomfield ( <link href=\"mailto:peterbloomfield@bellsouth.net\"> peterbloomfield@bellsouth.net</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:18
+msgid "Carlos Morgado ( <link href=\"mailto:chbm@chbm.nu\">chbm@chbm.nu</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:22
+#: C/authors.page:100
+msgid "Pawel Salek ( <link href=\"mailto:pawsa@theochem.kth.se\"> pawsa@theochem.kth.se</link> )"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/authors.page:27
+msgid "In the past, numerous people contributed to balsa, including (in alphabetical order):"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:31
+msgid "Hector Garcia Alvarez ( <link href=\"mailto:hector@scouts-es.org\"> hector@scouts-es.org</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:36
+#: C/authors.page:90
+msgid "Matthew Guenther ( <link href=\"mailto:guentherm@asme.org\"> guentherm@asme.org</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:41
+msgid "Bruno Pires Marinho ( <link href=\"mailto:bapm@camoes.rnl.ist.utl.pt\"> bapm@camoes.rnl.ist.utl.pt</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:46
+msgid "Jay Painter ( <link href=\"mailto:jpaint@gimp.org\"> jpaint@gimp.org</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:51
+msgid "Stuart Parmenter ( <link href=\"mailto:pavlov@pavlov.net\"> pavlov@pavlov.net</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:56
+msgid "David Pickens ( <link href=\"mailto:dpickens@iaesthetic.com\"> dpickens@iaesthetic.com</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:61
+#: C/authors.page:110
+msgid "Peter Williams ( <link href=\"mailto:peter@newton.cx\"> peter@newton.cx</link> )"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/authors.page:66
+msgid "To find more information about it, please visit the <app>Balsa</app> <link href=\"http://balsa.gnome.org/\">Web page</link>. Please send all comments, suggestions, and bug reports to the <link href=\"http://bugs.gnome.org/\">GNOME bug tracking database</link>. Instructions for submitting bug reports can be found on-line at <link href=\"http://balsa.gnome.org/bugs.html\"> http://balsa.gnome.org/bugs.html</link>. If you are using GNOME 1.1 or later, you can also use command <cmd>bug-buddy</cmd> for submitting bug reports."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/authors.page:77
+msgid "The following people contributed to this manual:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:85
+msgid "Berend De Schouwer ( <link href=\"mailto:bds@jhb.ucs.co.za\"> bds@jhb.ucs.co.za</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:95
+msgid "Craig Routledge ( <link href=\"mailto:webstuff@craigroutledge.com\"> webstuff@craigroutledge.com</link> )"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/authors.page:105
+msgid "Jelmer Vernooij ( <link href=\"mailto:jelmer@nl.linux.org\"> jelmer@nl.linux.org</link> )"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/authors.page:115
+msgid "Please send all comments and suggestions regarding the manual to the GNOME Documentation Project at <link href=\"mailto:docs@gnome.org\">docs@gnome.org</link> and the <link href=\"http://mail.gnome.org/mailman/listinfo/balsa-list\"> <app>Balsa</app> Discussion List</link>. You can also add your comments online by using <link href=\"http://library.gnome.org/devel/gdp-handbook/stable/gettingstarted.html.en\"> GNOME Documentation Status Table</link>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/common-tasks.page:8
+msgid "Common Tasks with <app>Balsa</app>"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/common-tasks.page:9
+msgid "This section explains many of the things you might want to do with <app>Balsa</app>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:13
+msgid "<link xref=\"common-tasks#ct-create-new-mb\">Creating new mailboxes</link>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:19
+msgid "<link xref=\"common-tasks#ct-move-msg\">Moving messages around</link>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:24
+msgid "<link xref=\"common-tasks#ct-main-folder-imap\">Making one of the main folders IMAP-based</link>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:30
+msgid "<link xref=\"common-tasks#ct-alias-expansion\">Expanding e-mail addresses automatically</link>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:36
+msgid "<link xref=\"common-tasks#ct-ldap\">Setting up LDAP address books</link>"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/common-tasks.page:43
+msgid "Creating New Mailboxes"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:44
+msgid "You can create new local and <link xref=\"glossary#imap\">IMAP</link> mailboxes using the <guiseq><gui>File</gui><gui>New</gui></guiseq> command, or by right-clicking in the mailbox list and selecting <gui>New Mailbox</gui>. This will start a dialog that will let you name the mailbox and specify its location."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:51
+msgid "To create a new <link xref=\"glossary#pop\">POP3</link> mailbox, go to the <link xref=\"preferences\">preferences window</link>, select the <gui>Mail options</gui> page, and click <gui>Add</gui> in the <gui>Remote mailbox servers</gui> area. A dialog will be displayed that will let you set up the new mailbox."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/common-tasks.page:59
+msgid "Moving Messages"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:60
+msgid "There are several methods available for moving or copying messages from one mailbox to another. The first is via the <gui>Transfer</gui> context menu, and the second is using drag and drop."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:64
+msgid "To transfer messages using the <gui>Transfer</gui> menu, simply select the messages you desire to move from one mailbox, then press <keyseq><key>Shift</key><key>F10</key></keyseq> or <key>Menu</key>, or click the right mouse button, to bring up the context menu and select the <gui>Move to</gui> submenu. This will display a list of mailboxes similar to the mailbox list in the main window. The list can be scrolled and trees expanded and collapsed, although these changes will not be reflected in the main list. Selecting a mailbox will start the transfer."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:77
+msgid "The other method of transferring messages is to simply drag and drop the message(s) from the message index to the desired destination. Select the message(s) you wish to transfer, then drag them using the mouse until they are over the intended mailbox. The destination can either be in the mailbox list in the main window, or if open mailbox tabs are enabled the messages can be dragged to them."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/common-tasks.page:86
+msgid "I want one of the main folders to be IMAP"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:87
+msgid "First, create the IMAP folder as you want it configured. Then, press right mouse button on the mailbox entry and select <gui>Mark as Inbox</gui>. That is all!"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/common-tasks.page:92
+msgid "I want Balsa to guess my friends"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:93
+msgid "<app>Balsa</app> can expand the names of your contacts it finds in <app>Balsa</app> addressbooks. It will do this by any part of the contact's name or email address."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:96
+msgid "As you type a username in any of the To:, Cc:, or Bcc: entry boxes in the <link xref=\"win-composer\">Compose window</link>, it will do a case insensitive search in the addressbook for a matching username, and pop up a list of matching complete addresses. Press <key>Cursor-Down</key> to highlight one of the addresses, and <key>Enter</key> to select it."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:123
+msgid "To enable this feature, you must select which address books you wish to be searched for aliases to expand. This can be done in the <link xref=\"preferences-address-books\"> Preferences</link> window, on the <gui>Address Books</gui> page. Also, some address books are expensive to lookup. You will need then to press <key>Escape</key> to explicitly expand the alias."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/common-tasks.page:133
+msgid "Setting up LDAP address books"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:134
+msgid "Only steps crucial for <app>Balsa</app> are described here. Some of the steps may be specific to OpenLDAP server. Whenever in doubt, consult the documentation provided with your LDAP server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:140
+msgid "Install the LDAP server software."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:143
+msgid "Configure. In the case of OpenLDAP, edit <file>/etc/openldap/ldap.conf</file> and <file>/etc/openldap/slapd.conf</file>. Consult your LDAP configuration and other sources to choose the right Domain Name for your institution and authentication level apriopriate to your environment."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/common-tasks.page:151
+msgid "Import data to your LDAP server. OpenLDAP comes with a set of migration tools but they do not create directly objects of standard <code>inetOrgPerson</code> class which is an apropriate type for address book entry. You may need to tune them."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/common-tasks.page:158
+msgid "<app>Balsa</app> searches for objects having <sys>mail</sys> attribute. The search is done on the <sys>cn</sys> attribute and the search filter has a form “(&amp;(mail=*)(cn=John D))”. <app>Balsa</app> uses <sys>cn</sys>(common name), <sys>givenName</sys>(given name), <sys>sn</sys>(surname) and <sys>mail</sys>(e-mail address) attributes of the found objects."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/folder-config.page:8
+msgid "IMAP Folder Configuration"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/folder-config.page:9
+msgid "The folder configuration edit dialog allows you to configure entire mailbox sets on remote IMAP servers. Entire configuration is split into basic and advanced parts."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/folder-config.page:13
+msgid "Basic IMAP folder configuration"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/folder-config.page:14
+msgid "The basic IMAP folder configuration tab is probably the only part you need to fill in."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:18
+msgid "Descriptive name is the name of the root node that will be shown in the mailbox tree on the left side."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:22
+msgid "Server is the host name or IP number of the IMAP server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:26
+msgid "User name is the name used for authorization on the IMAP server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:30
+msgid "Some servers allow anonymous access to bulletin boards or mailing list archives. Check this box if you want to use this mode - you will not be asked for password."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:35
+msgid "Password is the password used for authorization on the IMAP server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:39
+msgid "Check box allows you to choose all mailboxes on the server, or only those you subscribed to."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:43
+msgid "Prefix is the root mailbox on the server. You may leave it empty if you want to show all the folders on your server but if your IMAP server stores also other kind of files you may specify for instance “mail”."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/folder-config.page:51
+msgid "Advanced IMAP folder configuration"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/folder-config.page:52
+msgid "Sometimes, it is necessary to tune the folder configuration in order to assure a secure connection, adjust to server limits or just obtain better performance. This functionality is provided by the Advanced IMAP folder configuration tab."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:58
+msgid "The <gui>Use SSL</gui> check box should be active if the connection is to be made to IMAPS service on port 993. Connection to this port will be encrypted from the start. Not all servers provide this service - many provide only negotiated TLS encryption."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:66
+msgid "The <gui>Use TLS</gui> option list determines instruct balsa how to negotiate the TLS encryption. <app>Balsa</app> can never attempt to negotiate it, can start TLS encryption whenever it is supported by server, or can abort the connection if TLS is inavailable or fails for some reason."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:74
+msgid "<gui>Max. number of connections</gui> limits the number of concurrent connections open to the IMAP server. A number around 15-40 is a sane option as it avoids time-consuming and load-creating reselections of imap mailboxes. Some IMAP servers -- notably Courier -- limit the number of connections open from single IP number to 4 by default. The limit in balsa has to be in such a case adjusted accordingly."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:85
+msgid "The <gui>Enable persistent cache</gui> check box chooses whether <app>Balsa</app> should try to store downloaded messages between sessions or throw them away when it is closed. The optimal choice depends on the local configuration. If the connection to the IMAP server is slow and local storage in the home directory fast and cheap, it is recommended to enable persistent message cache. If the home directory is slow (eg. NFS-mounted) and the connection to the imap server - fast, persistent cache becomes just a burden and should be disabled."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:98
+msgid "The <gui>Use IDLE command</gui> check box chooses whether <app>Balsa</app> should try to use IDLE command when available. With this command, some servers notify immediately when a new command arrives. Also, this command may reduce the amount of network traffic. There are some downsides, too: some firewalls do not track IMAP connections correctly and will incorrectly interrupt a session in an IDLE state. In particular, home-grade network routers with NAT translation have notoriously this bug. In such case, it may be safer to disable this command."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:111
+msgid "The <gui>Enable bug workarounds</gui> check box makes <app>Balsa</app> work even with an IMAP server that cannot provide selected message parts. <app>Balsa</app> in such a case will try to fetch entire messages instead."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:118
+msgid "The <gui>Use STATUS for mailbox checking</gui> check box enables a more thorough but potentially more expensive way of checking mailboxes on IMAP server. This method can be consume many resources on the server and should be used <em>only</em> on IMAP servers that have optimized STATUS command."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/folder-config.page:129
+msgid "IMAP Subfolder Properties"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/folder-config.page:130
+msgid "The subfolder properties dialog allows you to manage folders on remote IMAP servers. Specifically, you can <em>create</em> a new subfolder, <em>rename</em> an existing subfolder, or <em>move</em> a subfolder within the folder tree."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:137
+msgid "<gui>Folder name</gui> is how the folder is shown in the mailbox tree on the left side."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:142
+msgid "<gui>Subfolder of</gui> indicates the immediate parent of the folder."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/folder-config.page:147
+msgid "When the dialog is opened from <guiseq> <gui>File</gui> <gui>New</gui> <gui>Remote IMAP subfolder</gui> </guiseq>, you can enter the folder name and browse IMAP trees to find the parent folder. If you had already selected a mailbox in an IMAP tree, only that tree is shown for browsing; otherwise, all IMAP trees will be shown."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/folder-config.page:156
+msgid "When the dialog is opened from <guiseq> <gui>Mailbox</gui> <gui>Edit</gui> </guiseq> with an IMAP folder selected, or by right-clicking on an IMAP mailbox and selecting <gui>Properties…</gui>, the mailbox may be:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:165
+msgid "Renamed, by editing the folder name;"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/folder-config.page:168
+msgid "Moved, by browsing for a different parent folder in the same tree."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/getting-started.page:9
+msgid "Getting Started with <app>Balsa</app>"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/getting-started.page:10
+msgid "If you're starting <app>Balsa</app> for the first time, the first thing you'll see is an assistant that will set up <app>Balsa</app>'s basic settings. <app>Balsa</app> can guess most of what it needs to know about you. It will also create five standard local mailboxes: the Inbox, Outbox, Sentbox, Draftbox, and Trash. (These can be changed to be <link xref=\"glossary#imap\">IMAP</link> mailboxes later.)"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/getting-started.page:17
+msgctxt "_"
+msgid "external ref='figures/druid-start.png' md5='68bf6bf83a3f6fa5a4099bad2d2706a5'"
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/getting-started.page:18
+msgid "<app>Balsa</app> Start Assistant"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/getting-started.page:20
+msgid "Don't worry. <app>Balsa</app> cooperates with other <link xref=\"glossary#mua\">MUA</link>'s very well. They share the same locking semantics for mailboxes. If <app>Balsa</app> shares the same mail directory as <app>pine</app> or <app>Mutt</app>, it will detect new folders as they are created. So if you have to telnet in to your mail machine, you won't be stuck."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/getting-started.page:26
+msgid "There are many more settings in <app>Balsa</app>'s <link xref=\"preferences\">preferences window</link>, but most of them do not need to be changed."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/getting-started.page:29
+msgid "Once <app>Balsa</app> is configured, you will proceed on to the <link xref=\"win-main\">main window</link>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/glossary.page:8
+msgid "Glossary"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:10
+msgid "POP"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:11
+msgid "An acronym for “Post Office Protocol”, a simple method of retrieving mail messages from a remote mail server. Widely used by mail clients from an Internet Service Provider's mail server to a user's machine for viewing. Currently most people use version three of the protocol, otherwise known as POP3. A very simple protocol, and not very flexible, but simple to implement and ubiquitous throughout the internet."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:20
+msgid "IMAP"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:21
+msgid "An acronym that stands for “Internet Mail Access Protocol”. It is a newer method of accessing mail over the internet. It is far more featureful than <link xref=\"glossary#pop\">POP3</link>, allowing for remote folders on the mail server, and more control over mail delivery. However it is not as widely supported."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:28
+msgid "LDAP"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:29
+msgid "An acronym for “Lightweight Directory Access Protocol”. It is a widely-accepted standard for accessing contact information over a network. This enables organizations to store address information in a central database, but have many people able to access it."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:36
+msgid "libmutt"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:37
+msgid "The library based on Mutt's code and used by previous versions of <app>Balsa</app> to handle local mail and IMAP servers."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:42
+msgid "mailbox list"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:43
+msgid "The list of mailboxes found in <app>Balsa</app>'s left hand pane."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:47
+msgid "message index"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:48
+msgid "The list of messages in <app>Balsa</app>'s upper-right hand pane."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:52
+msgid "message view"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:53
+msgid "The message display in <app>Balsa</app>'s lower-right hand pane."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:57
+msgid "MDA"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:58
+msgid "An acronym for “Mail Delivery Agent”, this type of program is also known as a Local Delivery Agent (LDA). It is responsible for delivering the mail recieved for someone on a machine to the mail folder of that person. <app>procmail</app> is an example of this type of program, although many <link xref=\"glossary#mta\">MTA</link>'s have their own MDA implementations."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:67
+msgid "MTA"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:68
+msgid "An acronym for “Mail Transfer Agent”, this class of program is responsible for moving mail around between people, be they on the same computer, on on completely separate networks. Examples of this type of program include <app>sendmail</app>, <app>qmail</app>, and <app>postfix</app>."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:77
+msgid "MUA"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:78
+msgid "An acronym for “Mail User Agent”, this the program a user would use to read existing mail and create new messages. MUAs are one of three types of programs that allow internet email to work. The other two types of programs are <link xref=\"glossary#mta\">MTA</link> s and <link xref=\"glossary#mda\">MDA</link> s. <app>Balsa</app> is primarily an MUA, but it also functions as an MDA/MTA when retrieving mail from a remote server."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:88
+msgid "Regular Expression"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:89
+msgid "Often abbreviated as a <em>regexp</em>, this is a method of specifing a pattern to match in text. Both very simple and very complex patterns can be easily matched using this method. For information on how to understand and construct regular expressions the best source is the <cmd>grep</cmd> manual or info page."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:98
+msgid "SMTP"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:99
+msgid "An acronym that stands for “Simple Mail Transfer Protocol”, it is exactly that. A standard that defines a simple an reliable way to transfer messages between computers on a network. It is used by most, if not all, mail programs to transfer mail."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/glossary.page:106
+msgid "VCARD"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/glossary.page:107
+msgid "VCARD is a standard method of storing contact information for easy exchange between programs. <app>Balsa</app> supports VCARD addressbooks, as does GnomeCard and Evolution. Many other programs are capable of exporting their contact lists in VCARD format as well."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/identities.page:8
+msgid "Identities"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/identities.page:9
+msgid "This dialog window lets you specify how you present yourself to the rest of the world through your email. The first page has your general information:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:14
+msgid "<gui>Identity Name</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:17
+msgid "A unique title by which this identity will be named within <app>Balsa</app>."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:21
+msgid "<gui>Full Name</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:24
+msgid "This doesn't <em>have</em> to be your name, I guess. But it's the word prefixing your email address in mail you send."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:29
+msgid "<gui>Mailing Address</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:32
+msgid "As you wish it to appear in your “From” header."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:35
+msgid "<gui>Reply-To address</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:38
+msgid "The address that you wish people to reply to your email with (if you have a home and a work address, for instance)."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:43
+msgid "<gui>Default Domain</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:46
+msgid "The domain that you wish to append to all e-mail entries where you did not specify the domain. Normally you would use your local domain. You need to enable <link xref=\"preferences-address-books\">Alias Expansion</link> for this to work."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/identities.page:53
+msgid "The “Messages” page shows various initial settings for the new message:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:57
+#: C/win-composer.page:575
+msgid "<gui>Bcc</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:60
+msgid "The default value for the blind-carbon-copy field when using this identity. Useful if you want to always send a copy of outgoing mail to another account."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:65
+msgid "<gui>Reply String</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:68
+msgid "The prefix for the subject line when replying to a message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:72
+msgid "<gui>Forward String</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:75
+msgid "The prefix for the subject line when forwarding a message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:79
+msgid "<gui>Request Message Disposition Notification</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:82
+msgid "Whether Message Disposition Notification should be requested by default."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:86
+msgid "<gui>Face Path</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:89
+msgid "Whether a “Face” header should be attached to a program. Specified path points out to a file containing a textual representation of the face icon. Please see <link href=\"http://quimby.gnus.org/circus/face/\">a description of Face and X-Face</link> headers for more details as well as the list of mail programs supporting this feature."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:98
+msgid "<gui>X-Face Path</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:101
+msgid "Whether a “Face” header should be attached to a program. Specified path points out to a file containing a textual representation of the face icon."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:106
+msgid "<gui>SMTP server</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:109
+msgid "The <link xref=\"preferences-mail-options#smtp-server-config\"> SMTP server</link> to be used for this identity."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/identities.page:115
+msgid "You control the signature that <app>Balsa</app> appends to your messages on the “Signature” page:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:119
+msgid "<gui>Signature Path</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:122
+msgid "The file containing the signature to append to all your messages. This can be generated in one of three ways:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:126
+msgid "From a regular file. List the path to any regular file, and the text from that file will be appended to your messages."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:131
+msgid "A named pipe or FIFO. In this case, to <app>Balsa</app>, the file looks normal, but in reality, it is a pipe to a program that is generating the content. List the path to the pipe."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:137
+msgid "An executable program. <app>Balsa</app> will execute the program and read its output, appending that text to the message. List the path to the program with a “|” prepended to it. For example:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:141
+msgid "“|/home/user/dynsig.pl”"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:146
+msgid "<gui>Execute Signature</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:149
+msgid "Execute the instructions in the signature file and use the results as the signature to append to outgoing mail. Select this when generating the signature from an executable program as outlined above in Signature Path."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:155
+msgid "<gui>Include Signature</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:158
+msgid "Append the signature to the end of all outgoing mail."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:161
+msgid "<gui>Include Signature When Forwarding</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:164
+msgid "Add the signature when forwarding an existing mail."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:167
+msgid "<gui>Include Signature When Replying</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:170
+msgid "Add the signature when replying to a existing message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:173
+msgid "<gui>Add Signature Separator</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:176
+msgid "When checked, this has <app>Balsa</app> insert the standard signature separator before your signature."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:180
+msgid "<gui>Prepend Signature</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:183
+msgid "Add the signature before the message text, rather than after it."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/identities.page:187
+msgid "Security settings are on the fourth page:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:190
+msgid "<gui>Sign messages by default.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:193
+msgid "By default enable the cryptographic signature for every new message. The default protocol is determined by the <gui>Default protocol</gui> option."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:198
+msgid "<gui>Encrypt messages by default.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:201
+msgid "By default encrypt every new message. The default protocol is determined by the <gui>Default protocol</gui> option."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:205
+msgid "<gui>Default protocol.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:208
+msgid "Choose the default protocol for the cryptographic signature and message encryption."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:212
+msgid "<gui>Always trust GnuPG keys when encrypting.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:215
+msgid "Do not ask for confirmation when encrypting for a recipient whose GnuPG key is not fully trusted."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:219
+msgid "<gui>Remind me if messages can be encrypted.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:222
+msgid "Before sending a message, check if valid keys are present for all recipients and show a dialog in this case."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/identities.page:226
+msgid "<gui>Use secret key with this id for signing.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/identities.page:229
+msgid "Usually, <app>Balsa</app> automatically selects a proper secret key for cryptographic signatures from the identity's mail address. Therefore, most users should leave this entry empty. If you want to force using a specific secret key for cryptographic signatures, enter the key id here. You can get the key id by running the command <cmd>gpg --list-secret-keys</cmd>."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/identities.page:239
+msgid "These security options are available only if <app>Balsa</app> is built with <app>GnuPG</app> support."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/index.page:5
+msgid "<app>Balsa</app> User's Guide"
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/index.page:9
+msgid "Pawel Salek"
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/index.page:12
+msgid "Stuart Parmenter and others, see AUTHORS for a list of people"
+msgstr ""
+
+#. (itstool) path: credit/years
+#: C/index.page:14
+msgid "1997-2013"
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:17
+msgid "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:20
+msgid "Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:25
+msgid "Permission is granted to copy and distribute translations of this manual into another language, under the above conditions for modified versions, except that this permission notice may be stated in a translation approved by the Free Software Foundation."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:30
+msgid "UNIX is a trademark of X/Open Group."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:31
+msgid "Linux is a trademark of Linus Torvalds."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:32
+msgid "X Window System is a trademark of X Consortium, Inc."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:33
+msgid "Windows is a trademark of Microsoft Corp."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:34
+msgid "Macintosh and Apple are trademarks of Apple Computer, Inc."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/index.page:36
+msgid "All other trademarks are property of their respective owners."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/index.page:40
+msgid "<app>Balsa</app> is a graphical mail client. While it is in active development, <app>Balsa</app> has many features such as: <link xref=\"glossary#imap\">IMAP</link> and <link xref=\"glossary#pop\">POP3</link> support; sendmail or direct <link xref=\"glossary#smtp\">SMTP</link> support; optional multi-threaded retrieval and sending of messages; support for all configurations of local mail folders; automatic mail checking; mail printing; inline attachment viewing; and the proverbial much, much more."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/index.page:47
+msgid "This document will introduce a person who understands mail to using <app>Balsa</app>. However, it will not explain email to a confused individual. If you're looking for that, try asking a friend or visiting the <link href=\"http://www.cs.queensu.ca/FAQs/email/\" type=\"http\"> Email FAQ</link>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/introduction.page:9
+msgid "Introduction"
+msgstr ""
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:11
+msgctxt "_"
+msgid "external ref='figures/balsa_logo.png' md5='9598e9795c931dc2e4396d41d660f916'"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/introduction.page:12
+msgid "<app>Balsa</app> is a graphical mail client. It supports the standard features of any good reader and has new features added continually. See the abstract above for a quick feature rundown."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/introduction.page:16
+msgid "<app>Balsa</app> is written using GTK+ and GNOME. Originally based on libmutt, the back end code to <app>Mutt</app>, <app>Balsa</app> now uses a combination of GMime for handling Mime messages, and its own drivers for local and remote mailstores."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/introduction.page:20
+msgid "If you want to learn more about <app>Balsa</app>, your best bet is the mailing list <code>balsa-list@gnome.org</code>, to which you can subscribe by going to the website <link href=\"http://mail.gnome.org/mailman/listinfo/balsa-list\"> http://mail.gnome.org/mailman/listinfo/balsa-list</link> or by sending a message with a subject of <em>subscribe</em> to <link href=\"mailto:balsa-list-request@gnome.org?subject=Subscribe\"> balsa-list-request@gnome.org</link>. Bugs can be reported via <app>bug-buddy</app> or to the <link href=\"http://bugzilla.gnome.org/enter_bug.cgi?product=balsa\"> Gnome bug tool</link>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/its-not-working.page:8
+msgid "It's not Working!!!"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/its-not-working.page:9
+msgid "This is a FAQ for when <app>Balsa</app> appears to lock up, or other things that you think should be happening aren't. If you can't figure out how to do something but <app>Balsa</app> lets you do it, that's a bug. Report it."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/its-not-working.page:15
+msgid "<link xref=\"its-not-working#main-to-imap\">i I want one of the main folders to be IMAP</link>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/its-not-working.page:22
+msgid "<link xref=\"its-not-working#frozen\"> <app>Balsa</app>'s frozen!</link>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/its-not-working.page:28
+msgid "<link xref=\"its-not-working#spooky-win\"> What's that window that flashed on the screen?</link>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/its-not-working.page:35
+msgid "<link xref=\"its-not-working#address-book\"> The address book doesn't import my addresses.</link>"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/its-not-working.page:43
+msgid "I want a basic mailbox to use IMAP"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/its-not-working.page:44
+msgid "See <link xref=\"common-tasks#ct-main-folder-imap\">this section</link>."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/its-not-working.page:48
+msgid "<app>Balsa</app>'s frozen!"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/its-not-working.page:49
+msgid "Odds are it isn't. Watch out for:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/its-not-working.page:52
+msgid "If you don't have threading, <app>Balsa</app> will stop responding when it sends and receives email. Use threading, if possible."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/its-not-working.page:57
+msgid "<app>Balsa</app> is downloading a new message or closing a large mailbox. This could take a while, especially when this file is accessed via NFS."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/its-not-working.page:62
+msgid "A dialog box is being displayed but it is obscured by another one. This seems to happen under Sawfish. Try moving the windows around and see if there's a hidden dialog somewhere."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/its-not-working.page:70
+msgid "What's that window that flashed on the screen?"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/its-not-working.page:71
+msgid "Were you checking your mail? Probably. This is the window that displays progress for retrieving <link xref=\"glossary#pop\">POP3</link> mail. If you don't have any <link xref=\"glossary#pop\">POP3</link> accounts, it will still appear -- but it'll disappear almost instantly. You can disable displaying this window in preferences."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/its-not-working.page:78
+msgid "The address book doesn't import my addresses."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/its-not-working.page:79
+msgid "<app>Balsa</app> attempts to open the file <file>~/.gnome/GnomeCard.gcrd</file>. If you're not using this file, you may need to create a symlink so that <app>Balsa</app> can open it."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/its-not-working.page:83
+msgid "There have been slight changes in <app>GnomeCard</app>'s file format between its various versions. <app>Balsa</app> is known to work with at least <app>GnomeCard</app> version 1.0.10 and probably most other releases."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/mbox-formats.page:8
+msgid "Available Mailbox Formats"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/mbox-formats.page:9
+msgid "<app>Balsa</app> handles several mailbox formats, including mbox. Further information can be found in the following documents:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/mbox-formats.page:13
+msgid "Benchmarking mbox versus maildir"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/mbox-formats.page:14
+msgid "<link href=\"http://www.courier-mta.org/mbox-vs-maildir/\"> http://www.courier-mta.org/mbox-vs-maildir/</link>"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/mbox-formats.page:20
+msgid "Mailbox Format Characteristics"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/mbox-formats.page:21
+msgid "<link href=\"http://www.washington.edu/imap/documentation/formats.txt.html\"> http://www.washington.edu/imap/documentation/formats.txt.html</link>"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/mbox-formats.page:27
+msgid "Maildir format"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/mbox-formats.page:28
+msgid "maildir(5) manual page (from qmail): <link href=\"http://www.qmail.org/qmail-manual-html/man5/maildir.html\"> http://www.qmail.org/qmail-manual-html/man5/maildir.html</link>"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/mbox-formats.page:33
+msgid "Using Maildir format"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/mbox-formats.page:34
+msgid "<link href=\"http://cr.yp.to/proto/maildir.html\"> http://cr.yp.to/proto/maildir.html</link>"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/mbox-formats.page:40
+msgid "QMail"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/mbox-formats.page:41
+msgid "mbox(5) manual page (from qmail): <link href=\"http://www.qmail.org/qmail-manual-html/man5/mbox.html\"> http://www.qmail.org/qmail-manual-html/man5/mbox.html</link>"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/mbox-formats.page:46
+msgid "Mailbox formats"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/mbox-formats.page:47
+msgid "(From Mail-Administrator HOWTO): <link href=\"http://linuxdocs.org/HOWTOs/Mail-Administrator-HOWTO-3.html#ss3.5\"> http://linuxdocs.org/HOWTOs/Mail-Administrator-HOWTO-3.html#ss3.5</link>"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/preferences-address-books.page:9
+msgid "Address Book Preferences"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/preferences-address-books.page:10
+msgid "<app>Balsa</app> supports the use of multiple address books, both local <link xref=\"glossary#vcard\">VCARD</link> and remote <link xref=\"glossary#ldap\">LDAP</link> address books, both of which can be configured here. <app>GnomeCard</app> also uses VCARD address books, so this allows <app>Balsa</app> to share address books with other GNOME applications."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/preferences-address-books.page:17
+msgid "<app>Balsa</app> also supports LDIF address books, and can be built to use GPE address books, when SQLite is available, and Rubrica address books. Which types are supported depends on how <app>Balsa</app> was built."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/preferences-address-books.page:21
+msgid "The main portion of the preferences page is occupied by the list of current address books for <app>Balsa</app>. The list shows the type of address book, the name, and whether it is included in automatic alias expansion when typing new messages. There are also several buttons that manipulate the list of address books:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-address-books.page:29
+msgid "<gui>Add</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-address-books.page:32
+msgid "Using this adds a new address book for <app>Balsa</app> to use to find addresses. If you click it, a drop-down menu of the supported address book types is shown. Click one to begin the process. <app>Balsa</app> pops up a dialog, which, if you choose VCARD, looks like this:"
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/preferences-address-books.page:38
+msgid "VCARD Address Book Dialog"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/preferences-address-books.page:39
+msgctxt "_"
+msgid "external ref='figures/address-book-vcard.png' md5='c9eeb6585d9cb0eba42fd02b649c7239'"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-address-books.page:41
+msgid "With <link xref=\"glossary#ldap\">LDAP</link> support, the dialog looks somewhat different, offering options to set the location of the directory instead of a file."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/preferences-address-books.page:45
+msgid "<link xref=\"glossary#ldap\">LDAP</link> Address Book Dialog"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/preferences-address-books.page:46
+msgctxt "_"
+msgid "external ref='figures/address-book-ldap.png' md5='8482f8bc4a698338fb4f36b40dd35204'"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-address-books.page:48
+msgid "In order to use a LDAP address book, you need to know the host name of the LDAP server. Depending on the server configuration, you may need also so called Base Domain Name which identifies your particular department. You can always try leaving Base Domain Name field empty and a default value will be used (OpenLDAP stores the default Base Domain Name in <file>/etc/openldap/ldap.conf</file>). If this does not work, you may need to ask your administrator for the value of this. The usual values are usually similar to: “dc=theochem,dc=KTH,dc=se” or “o=Theoretical Chemistry, c=SE”."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-address-books.page:62
+msgid "<gui>Modify</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-address-books.page:65
+msgid "This enables you to change the properties of the selected address book."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/preferences-address-books.page:68
+msgid "Modify an Address Book"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/preferences-address-books.page:70
+msgctxt "_"
+msgid "external ref='figures/address-book-modify.png' md5='5b5b5ea63419ea2843c9ef4ceaa5077e'"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-address-books.page:72
+msgid "It is possible to modify both the name and location for any address book. Also, you can change whether the contents of the address book will be used when attempting to auto-complete an address when sending a message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-address-books.page:78
+msgid "<gui>Delete</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-address-books.page:81
+msgid "Delete the selected address book."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-address-books.page:84
+msgid "<gui>Set as Default</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-address-books.page:87
+msgid "Set the selected address book as default."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/preferences-display-options.page:9
+msgid "Display Preferences"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/preferences-display-options.page:10
+msgid "This page controls how <app>Balsa</app> appears to you."
+msgstr ""
+
+#. (itstool) path: section/title
+#. (itstool) path: figure/title
+#: C/preferences-display-options.page:12
+#: C/win-main.page:11
+msgid "Main Window"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:15
+msgid "<gui>Use Preview Pane</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:18
+msgid "Set whether to use the preview pane to display messages, or rely on the separate mail viewing window."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:22
+msgid "<gui>Show Mailbox Info</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:25
+msgid "This will allow the number of total and unread messages for each mailbox to be shown in the left pane of the <app>Balsa</app> main window. You can save space by not showing them; if you choose not to show them, <app>Balsa</app> will then show the number of unread messages (in parentheses) after the mailbox name."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:33
+msgid "<gui>Alternative Layout</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:36
+msgid "<app>Balsa</app>'s default layout has a full-height mailbox list on the left, and the message list above the preview pane on the right. You can choose an alternative layout, in which the mailbox list and the message list occupy the upper part of the window, and the preview pane is full-width below them."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:44
+msgid "<gui>Automatic View</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:47
+msgid "Select this option if you want <app>Balsa</app> to open the first unread message when you open a mailbox. If no message is unread, <app>Balsa</app> opens the most recent message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:52
+msgid "<gui>Page Up and Page Down</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:55
+msgid "By default, the <key>Page Up</key> and <key>Page Down</key> keys scroll the message by whole pages. Use this option to choose a different amount."
+msgstr ""
+
+#. (itstool) path: section/title
+#. (itstool) path: figure/title
+#: C/preferences-display-options.page:63
+#: C/win-message.page:27
+msgid "Message Window"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:66
+msgid "<gui>Moving a Message</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:69
+msgid "If you are reading a message in its own message window and you move it (to the trash, or another mailbox), <app>Balsa</app> can move on the next unread message or the next message in the same mailbox, or simply close the window."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/preferences-display-options.page:78
+msgid "Sort and Thread"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:81
+msgid "<gui>Default sort column</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:84
+msgid "Choose the column by which you would like a new mailbox to be sorted."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:88
+msgid "<gui>Default threading style</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:91
+msgid "Choose the default threading style for a new mailbox."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:95
+msgid "<gui>Expand threads</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:98
+msgid "If you choose a threaded view of a mailbox, you can decide whether the threads should be expanded or collapsed when the mailbox is opened."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/preferences-display-options.page:105
+msgid "Message"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:108
+msgid "<gui>Fonts</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:111
+msgid "Using system fonts to view and compose messages makes the display consistent with other applications. If you choose this option, the message's subject line will be made bold."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:114
+msgid "Alternatively, you can choose your own font to view or compose a message, with a different weight or font for the subject line. A fixed-width font such as Monospace can be useful for viewing source code, or formatted text such as tables or <link href=\"https://en.wikipedia.org/wiki/ASCII_art\">ASCII art</link>."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:122
+msgid "<gui>Quoted Text Regular Expression</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:125
+msgid "The entry box allows you to set a <link xref=\"glossary#regular-expression\">regular expression</link> you would like to use to identify text that should be considered quoted for incoming messages. The regular expression should match the beginning of line of quoted text a single level deep, the program will then use this to calculate the depth of quoting and alter the quoted text colors appropriately. A default regexp is provided that should work in most situations."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:134
+msgid "This regexp affects both highlighting and spell checking, and uses the extended regular expression set. For more information see the <cmd>grep</cmd>(1) manual or info page."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:140
+msgid "<gui>Alternative Parts</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:143
+msgid "You can choose whether <app>Balsa</app> should show a text/plain part or a text/html part, when a message contains both."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/preferences-display-options.page:150
+msgid "Colors"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:153
+msgid "<gui>Message Colors</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:156
+msgid "Choose the colors for quoted text."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:159
+msgid "<gui>Link Color</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:162
+msgid "<app>Balsa</app> uses this color to highlight a hyperlink in a message."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/preferences-display-options.page:168
+msgid "Format"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:171
+msgid "<gui>Date Encoding</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:174
+msgid "Set the format used to display dates in <app>Balsa</app>. This uses the same format string as <code>strftime</code>, a summary which is provided below:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:180
+msgid "<code>%a</code>-- The abbreviated weekday name."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:185
+msgid "<code>%A</code>-- The full weekday name."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:189
+msgid "<code>%b</code>-- The abbreviated month name."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:193
+msgid "<code>%B</code>-- The full month name."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:197
+msgid "<code>%d</code>-- The day of the month."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:201
+msgid "<code>%R</code>-- The time using a 24-hour clock. (HH:MM)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:206
+msgid "<code>%r</code>-- The time using a 12-hour clock (HH:MM AM/PM)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:211
+msgid "<code>%T</code>-- The time using a 24-hour clock, with seconds (HH:MM:SS)."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/preferences-display-options.page:217
+msgid "See the <code>strftime</code> manual page for a full listing of conversion specifiers."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:223
+msgid "<gui>Selected Headers</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:226
+msgid "A space-separated list of the headers to display in the message window."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:230
+msgid "<gui>Fallback codeset</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:233
+msgid "Some messages contain national characters without specifying how they are encoded. You can choose whether <app>Balsa</app> displays such characters as “?”, or tries a specific character set to display such messages."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/preferences-display-options.page:241
+msgid "Status Messages"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:244
+msgid "<gui>Information Messages</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:247
+msgid "<app>Balsa</app> gives you information in the form of five different levels of messages. You can specify how you want all five levels to be presented to you."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-display-options.page:252
+msgid "<gui>Display Progress</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-display-options.page:255
+msgid "This sets the behaviour of the dialog that is shown when <app>Balsa</app> retrieves messages from its specified <link xref=\"glossary#pop\">POP3</link> servers. The dialog can be shown only while the messages are being retrieved, automatically closing after <app>Balsa</app> is finished. Or it can be set to stay active until manually closed. Finally, the dialog can not be displayed at all."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/preferences-mail-options.page:9
+msgid "Mail Server Preferences"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/preferences-mail-options.page:10
+msgid "This page lets you specify how you get POP3 mail, send mail, etc."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:14
+msgid "<gui>Remote Mailbox Servers</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:17
+msgid "These are <link xref=\"glossary#imap\">IMAP</link> and <link xref=\"glossary#pop\">POP3</link> servers that you receive email from. The three buttons let you create, modify, and remove records. <link xref=\"glossary#pop\">POP3</link> mailboxes will not show up in the mailbox list. You can specify multiple servers, when adding a server you will be asked to give:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:24
+msgid "mailbox name that will identify the mailbox"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:27
+msgid "The server you have the POP mailbox on."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:30
+msgid "The port that will be used to connect to the server. The port number is usually 110 but you may change it if you for example use some kind of connection tunneling,"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:36
+msgid "The user name on the mailbox server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:39
+msgid "Corresponding password."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:42
+msgid "You can select the “delete from server” button to remove the downloaded messages from the server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:46
+msgid "You can choose to have messages filtered through <app>procmail</app> ."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:50
+msgid "The <app>procmail</app> command."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:54
+msgid "Whether to check for new mail."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:59
+msgid "<gui>Local Mail Directory</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:62
+msgid "This is the directory that <app>Balsa</app> will scan looking for mail folders."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:66
+msgid "<gui>Outgoing Mail Servers</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:69
+msgid "Most users will need only one outgoing mail server, but you may need to use more than one. <app>Balsa</app> allows you to set up as many as you need. The server used for a particular message is controlled by the <link xref=\"identities\">identity</link> you choose for the message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:75
+msgid "To view or change the details of a server, select it and click <gui>Modify</gui> . To create a new server, click <gui>Add</gui> . A dialog will open, showing the properties of the selected server. Specify the domain name and optionally the port for of the SMTP server you use for submitting mail. Please note that the default port number is 587. The syntax is hostname[:port]. Port can be a decimal number or the name of the service as specified in <file>/etc/services</file> . Typically you can just set this to “localhost:smtp”. <app>Balsa</app> can also break up a large message into fragments, which can be reassembled by <app>Balsa</app> or any RFC 2046-compliant mailer. This dialog allows you to set this option, and the size above which a message should be split."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:90
+msgid "You will be asked to give:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:93
+msgid "A descriptive name that will identify the server"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:96
+msgid "The domain name and port"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:99
+msgid "The user name on the SMTP server. If the remote SMTP server requires authentication, enter your user name here. Note that the exact format depends on the MTA in use. For example, some systems expect a user name, others may require an email address."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:106
+msgid "Corresponding pass phrase. If the remote SMTP server requires authentication, enter your pass phrase here. Some systems refer to the pass phrase as a password. Limitations on the length of the pass phrase depend on the SMTP server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:113
+msgid "When you want <app>Balsa</app> to use TLS."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:116
+msgid "The TLS certificate pass phrase."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:119
+msgid "Whether to split large messages, and the threshhold size."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/preferences-mail-options.page:126
+msgid "Incoming"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:129
+msgid "<gui>Check Mail Automatically</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:132
+msgid "If selected, <app>Balsa</app> will connect to your <link xref=\"glossary#pop\">POP3</link> servers at the given interval and check for mail."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:136
+msgid "<gui>Check IMAP mailboxes</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:139
+msgid "If selected, <app>Balsa</app> will include your IMAP mailboxes when checking for mail. You can also specify that INBOX is the only mailbox to be checked."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:142
+msgid "Checking IMAP mailboxes can take some time; these options give you extra control over how long the mailbox check will take."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:147
+msgid "<gui>Display message if new mail has arrived</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:150
+msgid "If selected, <app>Balsa</app> will alert you when mail has arrived."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:154
+msgid "<gui>Do background check quietly</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:157
+msgid "If selected, <app>Balsa</app> will give you no indication that a background mail check is in progress."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:161
+msgid "<gui>Wrap Incoming Text</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:164
+msgid "If selected, <app>Balsa</app> will wrap text of incoming messages at the specified line length."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:168
+msgid "<gui>Reflow messages of type `text/plain;format=flowed'</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:172
+msgid "The <gui>format</gui> parameter distinguishes two ways of representing paragraphs in messages of type “text/plain” (that is, simple text). The value “flowed” indicates that paragraphs have been broken into lines ended with “soft” line breaks: a space is left at the end of the line. A “hard” line break (one that is not preceded by a space) indicates the end of a paragraph."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:179
+msgid "<app>Balsa</app> can reflow the paragraphs, quoted or otherwise, in a message of this type. Reflowing eliminates the line fragments that are left when text is first wrapped at one length and then rewrapped to a shorter length, which are often misquoted."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:184
+msgid "The only other value of <gui>format</gui> is “fixed”, which is the value assumed by default when <gui>format</gui> is not specified, as with older mailers. In this case, all line breaks must be respected. If you do not select the <gui>Reflow…</gui> option, <app>Balsa</app> will treat all messages of type “text/plain” as if they were “format=fixed”. Long lines will still be wrapped, if the <gui>Wrap Incoming Messages</gui> option is selected, but this will usually leave unquoted line fragments."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:195
+msgid "<gui>Message Disposition Notification request</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:198
+msgid "You will sometimes receive a message whose sender has asked for notification that you have received or seen the message. You can specify how <app>Balsa</app> responds to these requests."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/preferences-mail-options.page:209
+msgid "Outgoing"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:212
+msgid "<gui>Wrap Outgoing Text</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:215
+msgid "Have <app>Balsa</app> wrap all outgoing mail at the specified column."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:219
+msgid "<gui>Reply prefix</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:222
+msgid "The string that <app>Balsa</app> should use as a prefix when quoting a message. Note: When you send a message with <gui>format=flowed</gui>, <app>Balsa</app> is required to use the one-character string “&gt;”."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:228
+msgid "<gui>Automatically quote original when replying</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:231
+msgid "Have <app>Balsa</app> include the text of a message in the reply. The text will be prefixed as shown above."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:233
+msgid "You can instead include the original message using an option on the <gui>Edit</gui> menu, or by dragging the message from the message index into the text area of the reply. If you prefer to include text this way, do not select the <gui>Automatically quote…</gui> option."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:240
+msgid "<gui>Don't include HTML parts as text when replying or forwarding mail</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:244
+msgid "Tell <app>Balsa</app> to be sensible."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:247
+msgid "<gui>Forward a mail as attachment instead of quoting it</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:251
+msgid "If this option is selected, messages that are “Automatically quoted” will actually be attached unmodified, instead of included in the text of the reply, prefixed by the reply string."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:255
+msgid "You can also attach any message to a new message by dragging it from the message index into the attachment area of the new message (or, in fact, any part of the new message window except the text area or the address lines)."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:262
+msgid "<gui>Send button always queues outgoing mail in outbox</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:266
+msgid "This option gives you control over when <app>Balsa</app> connects to a server to send messages."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:270
+msgid "<gui>Copy outgoing messages to sentbox</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:273
+msgid "Have <app>Balsa</app> save a copy of each message you send in the mailbox marked as the “Sentbox”."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-mail-options.page:277
+msgid "<gui>Encoding</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-mail-options.page:280
+msgid "Set the character encoding method to either 7 bit, 8 bit, or what the quoted message is using."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/preferences-miscellaneous.page:9
+msgid "Miscellaneous Preferences"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-miscellaneous.page:12
+msgid "<gui>Debug</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-miscellaneous.page:15
+msgid "Toggle the output of debugging information. Depending on what notification priority set for it in the <link xref=\"preferences-display-options\"> Display</link> page, it can show up in list or dialog as the program runs."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-miscellaneous.page:22
+msgid "<gui>Empty Trash on Exit</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-miscellaneous.page:25
+msgid "Set <app>Balsa</app> to delete all messages in the <code>Trash</code> mailbox when <app>Balsa</app> exits."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-miscellaneous.page:29
+msgid "<gui>Automatically close mailbox</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-miscellaneous.page:32
+msgid "Set <app>Balsa</app> to close any mailbox that is unused for more than the specified time. The currently displayed mailbox is never automatically closed."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-miscellaneous.page:37
+msgid "<gui>Hide messages marked as deleted</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-miscellaneous.page:40
+msgid "When a message is moved to another mailbox, including the <code>Trash</code> mailbox, it is actually copied to the destination, and the original is marked as deleted. Deleted messages may either be shown in the mailbox index, with the trashcan icon indicating that they are deleted, or hidden. This item controls which of those actions is taken."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-miscellaneous.page:46
+msgid "A message may also be simply marked as deleted, without copying it to another mailbox: <guiseq> <gui>Message</gui> <gui>Toggle flag</gui> <gui>Deleted</gui> </guiseq>. Again, this item controls whether such a message is hidden."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-miscellaneous.page:56
+msgid "<gui>Expunge deleted messages on close</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-miscellaneous.page:59
+msgid "“Expunging” is the act of physically removing from the backing mailstore all messages marked as deleted. You can expunge messages manually: <guiseq> <gui>Mailbox</gui> <gui>Expunge deleted messages</gui> </guiseq>, or you can set <app>Balsa</app> to expunge deleted messages when the mailbox is closed (all mailboxes are closed when you exit <app>Balsa</app>)."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/preferences.page:8
+msgid "The Preferences Window"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/preferences.page:10
+msgid "<app>Balsa</app> has many more options than the initial assistant reveals. To access the Preferences window, select <guiseq> <gui>Edit</gui> <gui>Preferences</gui> </guiseq>. In the Preferences window, options are organized into groups, and related groups are shown on individual pages. The pages and groups are explained below."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/preferences-startup.page:9
+msgid "Startup Preferences"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-startup.page:12
+msgid "<gui>Open Inbox upon Startup</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-startup.page:15
+msgid "If set, <app>Balsa</app> will open your system inbox upon startup."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-startup.page:19
+msgid "<gui>Check Mail at Startup</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-startup.page:22
+msgid "If set, <app>Balsa</app> will automatically attempt to download mail from the <link xref=\"glossary#pop\">POP3</link> mail server upon startup, and will check for new mail on an <link xref=\"glossary#imap\">IMAP</link> server."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-startup.page:27
+msgid "<gui>Remember Open Mailboxes Between Sessions</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-startup.page:30
+msgid "When marked, <app>Balsa</app> will remember and reopen mailboxes that were open when <app>Balsa</app> was last quit."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/preferences-startup.page:34
+msgid "<gui>Folder Scanning</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-startup.page:37
+msgid "Scanning a folder tree can be time-consuming, because of the need to explore an entire tree of subfolders. You can defer scanning the tree by setting the scan depth to 1. <app>Balsa</app> will then descend into the tree only far enough to discover whether any folders that you can see have subfolders. The first time you expand any subtree, <app>Balsa</app> will explore more of the tree."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-startup.page:44
+msgid "If you prefer to have the whole tree available from startup, choose a depth as great as that of your folder tree. Intermediate settings may also be used."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/preferences-startup.page:47
+msgid "You may set the depth for initial scanning separately for local and <link xref=\"glossary#imap\">IMAP</link> trees."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/toolbar-prefs.page:8
+msgid "Customizing Toolbars"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/toolbar-prefs.page:9
+msgid "<app>Balsa</app> allows you to change the layout of the toolbars on the three main types of window: the <link xref=\"win-main\">main window</link>, <link xref=\"win-message\">message windows</link>, and <link xref=\"win-composer\">compose windows</link>. You open the dialog with the <guiseq> <gui>Settings</gui> <gui>Toolbars…</gui> </guiseq> menu item."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/toolbar-prefs.page:19
+msgid "The dialog contains a notebook with a page for each type of window. On each page, you'll see a Preview of the toolbar, which changes as you change the layout. The list of <gui>Available buttons</gui> shows buttons that may be used on the toolbar, but aren't currently used, and the <gui>Current toolbar</gui> list shows the current layout, including both buttons and separators. You can add buttons to the current toolbar, remove them, or move them up or down in the list, using the controls in the central button box."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/toolbar-prefs.page:28
+msgid "Below the notebook is a checkbox for wrapping the button labels (the text that may accompany the buttons). This option applies to the toolbars on all three types of window. If you choose wrapping, long labels will be shown on two lines."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/toolbar-prefs.page:32
+msgid "This is an “instant apply” dialog: the changes you make take effect immediately, as shown in the Preview toolbar. Below the Preview toolbar you'll find a button that restores the standard layout for that toolbar."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/toolbar-prefs.page:37
+msgid "Note that the standard layout is the one that you see before the toolbar has been customized. If you use this option, all current <em>and past</em> changes will be undone."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/toolbar-prefs.page:41
+msgid "A second button below the Preview toolbar pops up a menu that gives you control over what is shown in the toolbar: icons, text, or both. The popup (right click) menu for any actual toolbar offers the same choices, as well as the option to open up this dialog (“Customize Toolbars…”)."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/win-composer.page:8
+msgid "The Message Composer"
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/win-composer.page:10
+msgid "Message Composition Window"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-composer.page:11
+msgctxt "_"
+msgid "external ref='figures/newmsg-window.png' md5='3e4d93b3b504b11160981d7ffff3a4d0'"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-composer.page:13
+msgid "When the <gui>New Message</gui> or <gui>Reply</gui> or <gui>Forward</gui> action is selected, the message to be sent is brought up in the Message Composer. This window is where you can type the text of the message, attach files, and specify recipients. The window also provides an interface to spell check the message. Signing and encryption of messages using <app>GnuPG</app> or <app>PGP</app> are also supported, when <app>Balsa</app> is built with cryptographic support."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-composer.page:24
+msgid "When the message window first opens, you will see the several main sections:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:28
+msgid "The menu bar"
+msgstr ""
+
+#. (itstool) path: item/p
+#. (itstool) path: section/title
+#. (itstool) path: figure/title
+#: C/win-composer.page:31
+#: C/win-composer.page:465
+#: C/win-composer.page:472
+msgid "Toolbar"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:34
+msgid "Mail headers"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:37
+msgid "The attachment box"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:40
+msgid "The message body"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-composer.page:43
+msgid "These will each be covered in depth below:"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-composer.page:45
+msgid "Menu Bar"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:46
+msgid "This contains all of the available commands for acting on the message, from selecting the headers to display to changing the character set of the message. Some of the menu items are not always available, depending on what state the message is currently in."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:53
+msgid "<gui>File</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:56
+msgid "The file menu contains commands for manipulating the message as a whole."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:60
+msgid "<guiseq> <gui>File</gui> <gui>Include File…</gui> </guiseq> -- Include a text file in the body of the message; only works for plain text files."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:68
+msgid "<guiseq> <gui>File</gui> <gui>Attach File…</gui> </guiseq> -- Attach any kind of file to the message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:76
+msgid "<guiseq> <gui>File</gui> <gui>Send</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>Enter</key> </keyseq> -- Send the message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:87
+msgid "<guiseq> <gui>File</gui> <gui>Queue</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>Q</key> </keyseq> -- Queue the message in the outbox for sending later."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/win-composer.page:98
+msgid "A message is considered valid (ready for sending or queuing) if it contains at least one valid email address, and no invalid addresses, in the <gui>Recipients</gui> fields."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:105
+msgid "<guiseq> <gui>File</gui> <gui>Postpone</gui> </guiseq> -- Save the message in the <code>Draftbox</code> for later revision and sending, and close the compose window. You will be unable to postpone a message that is not currently valid."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:115
+msgid "<guiseq> <gui>File</gui> <gui>Save</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>S</key> </keyseq> -- Save the message in the <code>Draftbox</code> and continue editing."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:127
+msgid "<guiseq> <gui>File</gui> <gui>Page Setup</gui> </guiseq> -- Set print options such as paper size and print orientation."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:135
+msgid "<guiseq> <gui>File</gui> <gui>Print…</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>P</key> </keyseq> -- Print a hard-copy of the current message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:147
+msgid "<guiseq> <gui>File</gui> <gui>Close</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>W</key> </keyseq> -- Close and discard the current message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:161
+msgid "<gui>Edit</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:164
+msgid "The Edit menu contains commands which are used to modify the body of the message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:168
+msgid "<guiseq> <gui>Edit</gui> <gui>Undo</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>Z</key> </keyseq> -- Undo the most recent editing action."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:180
+msgid "<guiseq> <gui>Edit</gui> <gui>Redo</gui> </guiseq> <keyseq> <key>Shift</key> <key>Ctrl</key> <key>Z</key> </keyseq> -- Redo an undone editing action."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:192
+msgid "<guiseq> <gui>Edit</gui> <gui>Cut</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>X</key> </keyseq> -- Cut the selected text to the clipboard."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:204
+msgid "<guiseq> <gui>Edit</gui> <gui>Copy</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>C</key> </keyseq> -- Copy the selected text to the clipboard."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:216
+msgid "<guiseq> <gui>Edit</gui> <gui>Paste</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>V</key> </keyseq> -- Paste the contents of the clipboard to the current position of the cursor."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:228
+msgid "<guiseq> <gui>Edit</gui> <gui>Select All</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>A</key> </keyseq>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:240
+msgid "<guiseq> <gui>Edit</gui> <gui>Wrap Body</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>B</key> </keyseq> -- Cause all the lines in the message to be wrapped to the specified outgoing mail wrap column."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:253
+msgid "<guiseq> <gui>Edit</gui> <gui>Reflow Paragraph</gui> </guiseq> <keyseq> <key>Ctrl</key> <key>R</key> </keyseq> -- Cause all selected lines to be wrapped to the specified outgoing mail wrap column."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:265
+msgid "<guiseq> <gui>Edit</gui> <gui>Check Spelling</gui> </guiseq> -- Start spell checking the current message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:275
+msgid "<gui>Show</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:278
+msgid "The Show menu is used to control which headers are displayed in the composer window for editing."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:282
+msgid "<guiseq> <gui>Show</gui> <gui>Toolbar</gui> </guiseq> -- Show or hide the toolbar."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:289
+msgid "<guiseq> <gui>Show</gui> <gui>From</gui> </guiseq> -- Display the <code>From</code> header."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:297
+msgid "<guiseq> <gui>Show</gui> <gui>Recipients</gui> </guiseq> -- Display the <code>To:</code> , <code>Cc:</code> , and <code>Bcc:</code> addresses."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:307
+msgid "<guiseq> <gui>Show</gui> <gui>Reply To</gui> </guiseq> -- Display the <code>Reply-To</code> header."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:315
+msgid "<guiseq> <gui>Show</gui> <gui>Fcc</gui> </guiseq> -- Display the <code>Fcc</code> header; this is the folder to which your copy of the sent message will be saved. The default is your Sentbox."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:327
+msgid "<gui>Language</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:330
+msgid "The Language menu allows you to set the language to use for composing and checking the spelling of the message. Only languages for which you have dictionaries installed are shown."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:336
+msgid "<gui>Options</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:341
+msgid "<guiseq> <gui>Options</gui> <gui>Request Disposition Notification</gui> </guiseq> -- If checked <app>Balsa</app> will include the <code>Disposition-Notification-To</code> header line with your <code>From</code> address. Please note that the handling of this request depends on the receiving mail program and that it not guaranteed that this notification will be sent back."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:355
+msgid "<guiseq> <gui>Options</gui> <gui>Format = Flowed</gui> </guiseq> -- The “Flowed” format (RFC 3676) breaks the message text into paragraphs, which you type continuously using the <key>Enter</key> key only to mark the end of a paragraph, and “fixed” lines which you mark individually using the <key>Enter</key> key. This allows other mailers that recognize the format to display the text appropriately for the width of the recipient's screen, and to quote the text correctly when constructing a reply. The text is also displayed intelligibly by a non-flowed-aware mailer."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/win-composer.page:372
+msgid "Using “Format=Flowed” is strongly recommended. It helps to avert the “embarrassing line wrap” that you see when quoted text is broken across lines and shown with the wrong level of quoting."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:379
+msgid "<guiseq> <gui>Options</gui> <gui>Send as plain text and HTML</gui> </guiseq> -- <app>Balsa</app> can send and receive messages in right-to-left languages such as Arabic, Hebrew, and Persian, but some other agents such as mailing lists may mangle them when translating into HTML. If the “Send as plain text and HTML” option is selected, <app>Balsa</app> will generate a correct HTML message part that such agents will use instead."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:392
+msgid "<guiseq> <gui>Options</gui> <gui>Sign message</gui> </guiseq> -- Cryptographically sign the message. The recipients can check the signature to prove the sender's (=your) identity or to detect any tampering with the message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:402
+msgid "<guiseq> <gui>Options</gui> <gui>Encrypt message</gui> </guiseq> -- Encrypt the message. Only the intended recipient(s) can decrypt and read the contents."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:410
+msgid "The following options determine the protocol used for signing and/or encrypting the message. You should choose the appropriate protocol which all recipients can use."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:416
+msgid "<guiseq> <gui>Options</gui> <gui>GnuPG uses MIME mode</gui> </guiseq> -- Sign and/or encrypt the complete message, including all attachments, using the PGP/MIME mode (RFC 3156). Note that the message envelope (including the Subject) is not protected."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:427
+msgid "<guiseq> <gui>Options</gui> <gui>GnuPG uses old OpenPGP mode</gui> </guiseq> -- Sign and/or encrypt only the message text, but not attachments, using the OpenPGP mode (RFC 2440). If you want to add any attachments, sign and/or encrypt them manually before adding."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:438
+msgid "<guiseq> <gui>Options</gui> <gui>S/MIME mode (GpgSM)</gui> </guiseq> -- Sign and/or encrypt the complete message, including all attachments, using the S/MIME mode (RFC 2633). Note that the message envelope (including the Subject) is not protected."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/win-composer.page:450
+msgid "Cryptographic signatures and encryption are available only when <app>Balsa</app> has been built with <app>GnuPG</app> support. For a detailed description of E-Mail cryptography, see the <link href=\"http://www.gnupg.org/documentation/manuals/gnupg/\" type=\"http\"> GnuPG Manual</link> and the <link href=\"http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto.html\" type=\"http\"> GnuPG HOWTO</link> ."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:466
+msgid "The toolbar contains buttons for the most commonly used functions when sending messages, including <gui>Send</gui>, <gui>Attach File…</gui>, and <gui>Save</gui>. As with the menu bar, some buttons are disabled if the message is not correctly setup to be sent."
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-composer.page:474
+msgctxt "_"
+msgid "external ref='figures/newmsg-window-toolbar.png' md5='9a3d497c60c021ccee42871d6a700683'"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:478
+msgid "<gui>Send</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:481
+msgid "Send the current message. Only available if the message is legal to be sent (i.e. proper email addresses). This button may also be configured to queue the message in the outbox to be sent later (see the <link xref=\"preferences-outgoing\"> Preferences</link> dialog)."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:489
+msgid "<gui>Attach</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:492
+msgid "Open a dialog to attach a file to the current message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:496
+msgid "<gui>Postpone</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:499
+msgid "Postpone the message to the Draftbox for later revision and sending."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:503
+msgid "<gui>Check Spelling</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:506
+msgid "Start a spell check on the current message. If <app>Balsa</app> is built with support for <app>GtkSpell</app> , your spelling is checked in place. Otherwise, <app>Balsa</app> can use either <app>ispell</app> or <app>aspell</app> to do the spell checking. Settings for this can be found in the <link xref=\"preferences-spelling\"> Preferences</link> dialog."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:517
+msgid "<gui>Print</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:520
+msgid "Print out the draft of the message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:523
+#: C/win-composer.page:727
+msgid "<gui>Cancel</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:526
+msgid "Close the composition window without saving or sending the message within."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-composer.page:532
+msgid "Headers"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:533
+msgid "The headers area is where the information regarding where the message is being sent to and from, as well as comments and keywords can be entered. All of the available headers are not shown by default, but they can be turned on and off very quickly using the menu."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:540
+msgid "<gui>From</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:543
+msgid "<code>From</code> is used to indicate the origin of the message, <app>Balsa</app> automatically fills this in for you if you have entered your name and email address in the <link xref=\"identities\">identities</link> window."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:550
+msgid "<gui>To</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:553
+msgid "The <code>To</code> header is used to indicate the intended recipient of the message; <app>Balsa</app> automatically fills this in for you if you are replying to a message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:559
+msgid "<gui>Subject</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:562
+msgid "The <code>Subject</code> header is used to summarize the topic of the message."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:567
+msgid "<gui>Cc</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:570
+msgid "The “Carbon Copy” header. A comma separated list of recipients other than the main recipient should go here."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:578
+msgid "The <code>Bcc</code> , or “Blind Carbon Copy” header. Similar to the Cc header, except that email addresses placed in this header will not appear as recipients to readers of the message. Also known as a “silent” carbon copy."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:585
+msgid "<gui>Fcc</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:588
+msgid "The <code>Fcc</code> header stands for “Folder Carbon Copy”, and it is used to specify any folders that you want the message copied to after being sent. It is presented as a drop-down combo box with a list of all available mailboxes, simply select the destination."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:596
+msgid "<gui>Reply-To</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:599
+msgid "The <code>Reply-To</code> header is for specifying what email address you want any replies to go to."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-composer.page:605
+msgid "Specifying Addresses"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:606
+msgid "<app>Balsa</app> supports many different methods of selecting email addresss. All of the headers that can contain addresses have a small colored book to the left of them that will open up <app>Balsa</app>'s address book."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:610
+msgid "However, <app>Balsa</app> will also attempt to guess what the headers should contain depending on what context the composition window is opened in, so it may not be neccessary to fill them in most of the time."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/win-composer.page:615
+msgid "Also, <app>Balsa</app> supports alias expansion. As you type a name, <app>Balsa</app> will guess the e-mail address from all the entries in the <app>GnomeCard</app> application. To enable this feature, read the section on <link xref=\"common-tasks#ct-alias-expansion\"> Alias Expansion</link> . In addtion, the composition window supports drag-and-drop of addresses from the <app>GnomeCard</app> application."
+msgstr ""
+
+#. (itstool) path: section/section
+#: C/win-composer.page:604
+msgid "<_:title-1/> <_:p-2/> <_:p-3/> <_:note-4/> &gt;"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-composer.page:626
+msgid "Attachments"
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/win-composer.page:628
+msgid "List of Attachments"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-composer.page:630
+msgctxt "_"
+msgid "external ref='figures/newmsg-window-attachments.png' md5='afd5a47d787b0c1a1d32867bec9cb8ee'"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:632
+msgid "Below the headers may be a large box displaying a list of attachments; this view can be toggled in the <gui>Show</gui> menu."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:635
+msgid "When there are attachments displayed, it is possible to right-click on one of them to access an option menu. <gui>Inline</gui> and <gui>Attachment</gui> are mutually exclusive options that will display to the recipient either the attachment inline with the rest of the message, or separately as an attachment. Selecting <gui>Reference</gui> will send a MIME external part reference (a kind of link) in lieu of the actual file. <gui>Remove</gui> , and any available <gui>Open with</gui> options are also available."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-composer.page:647
+msgid "Message Body"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:648
+msgid "Finally, below the attachment list is the main area of the window where the text of the message is displayed. The text editing capabilities are very basic, but it supports cut, copy, and paste so it is possible to write a message in your favorite editor and simply paste it in."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:653
+msgid "If the message is a reply or forward, the referenced message will be displayed in the body text widget, with the prefix specified in the <link xref=\"preferences-outgoing\">Preferences</link> dialog."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-composer.page:659
+msgid "Spell Checker"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:660
+msgid "Once the spell check has been started, it will take a moment to load the text and spell checking module, and then it will automatically begin checking the message. If it finds any words that are incorrect, the word will be highlighted and a panel will be shown that offers a number of suggestions and available courses of action."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/win-composer.page:667
+msgid "Spell Checking Panel"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-composer.page:668
+msgctxt "_"
+msgid "external ref='figures/spell-check.png' md5='99eea5d4372fe11ce809fba8da61569c'"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:670
+msgid "As shown above, the panel consists of a list of two panes, one the left containing a list of suggestions and an entry box, while the right contains several buttons to choose your action. The list on the left is re-generated for each incorrect word, with all the suggestions the spell check program comes up with. You can choose what program you want to use through loadable modules, selectable in the <link xref=\"preferences-spelling\">Preferences</link> dialog. The entry box above the list is what will be used to replace the current word, and usually reflects the current selection in the list, but can be edited by hand if you wish to make manual changes."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:682
+msgid "The buttons on the left control the actions to take for each incorrect word. The buttons include:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:686
+msgid "<gui>Change</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:689
+msgid "Change the incorrect word with the currently selected suggested word or the user's edited word."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:693
+msgid "<gui>Change All</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:696
+msgid "Change all occurances of the current incorrect word with the currently selected suggestion."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:700
+msgid "<gui>Ignore</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:703
+msgid "Ignore the current incorrect word and continue to the next one."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:707
+msgid "Ignore all occurrances of the current word, and continue to the next incorrect word."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:711
+msgid "<gui>Learn</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:714
+msgid "Add the current incorrect word to your personal dictionary. This will cause it to be considered correct for all future spell checks."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-composer.page:719
+msgid "<gui>Done</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:722
+msgid "Stop the spell check at the current point, keeping all changes so far and returning to the normal message window interface."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-composer.page:730
+msgid "Stop the spell check at the current point, reverting all changes so far, including any words added to your personal dictionary."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-composer.page:737
+msgid "Address Book"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:738
+msgid "When composing a message, clicking on any of the colored book icons next to a destination field (To, Cc, Bcc) will bring up the <app>Balsa</app> address book. It helps you to select recipients for your messages quickly and easily."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/win-composer.page:743
+msgid "Address Book Window"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-composer.page:744
+msgctxt "_"
+msgid "external ref='figures/address-book.png' md5='7fe1a6d0c0960ec16337685ccddf8fff'"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:746
+msgid "The address book provides two panes, the one on the left consisting of all available addresses, while the one on the right contains the intended recipients of your message. Addresses are added to the recipient list by selecting them in the left pane and clicking the arrow button pointing to the right, or by simply double-clicking on the address. This will remove the address from the left pane, so they cannot be added more than once. If you decide that you no longer want to send the message to a particular address, simply select it in the right-hand pane and click the left-arrow button, or double-click it again, to move it back."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-composer.page:757
+msgid "If, while selecting people to send your message to, you decide to add someone new to the address book, it is a simple matter to click on the <gui>Run GnomeCard</gui> button. This will bring up the <app>GnomeCard</app> application, allowing you to easily manipulate your contact list. After any changes have been made using the address book, they can be forced to show up in the left hand pane by clicking on the <gui>Re-Import</gui> button."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/win-filters.page:8
+msgid "The Filters Window"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-filters.page:9
+msgid "This window is divided in two parts: the left part is the list of all filters. When you select one of them, the right part displays its properties. The right part is a two-page notebook (the <link xref=\"win-filters#wf-match-page\">match page</link>, and the <link xref=\"win-filters#wf-action-page\">action page</link>); their descriptions follow."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-filters.page:16
+msgid "There are two buttons under the filters list:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:19
+msgid "The <gui>New</gui> button: you click on it to create a new filter; the filter is initially named “New Filter”, and contains no condition. Then you fill in the different fields in the notebook pages (in particular remember to change the name of the filter), add the conditions that will describe how this filters matches a message, and to confirm the modifications push the <gui>Apply</gui> button on the right hand side of the Filters window."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:31
+msgid "The <gui>Remove</gui> button: removes the currently selected filter."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-filters.page:37
+msgid "The Match Page"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:38
+msgid "Each filter is made of one or several conditions; each condition represents a test to be applied to the messages. The results of these tests is then combined following the type of operation specified:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:44
+msgid "AND: all condition tests must be true to make the match."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:48
+msgid "OR: one condition test must be true to make the match."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:52
+msgid "Then the page displays the name of the filter and the conditions that describes how the filters matches a message. The list displays the type of the conditions (the conditions will be described later):"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:58
+msgid "<gui>Simple</gui>: the match is done by a simple substring test."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:63
+msgid "<gui>Regular expression</gui>: the match uses regular expressions on the message headers."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:68
+msgid "<gui>Date interval</gui>: the match is done by checking if the date of the message is within certain bounds."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:73
+msgid "<gui>Flag condition</gui>: the match is done by checking the flags of the message: unread, replied, deleted, flagged."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:79
+msgid "The three buttons under the list allows you to edit the selected condition, add a new one, or remove one. Editing or creating a condition is done in the <link xref=\"win-condition\">condition window</link>, which pops up when you click on the <gui>Edit</gui> or the <gui>New</gui> button."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:86
+msgid "The two buttons under the notebook at the right hand side of the window lets you manipulate the currently selected filter. The <gui>Apply</gui> button is used to confirm the modifications you have made on any field. If you make changes and select another filter without first clicking on the <gui>Apply</gui> button, all your changes will be lost."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:93
+msgid "The <gui>Revert</gui> button cancels all previous changes: the current filter is reverted to its state just before the last click on the <gui>Apply</gui> button."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-filters.page:100
+msgid "The Action Page"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:101
+msgid "This page describes the actions to take in case the filter matches. First you specify the notification to inform you that the one or several messages has matched the filter in the <gui>Notification</gui> frame. Then in the <gui>Action</gui> frame you tell what to do with the matching messages. You can ask <app>Balsa</app> to copy or move them to any mailbox, or to send them to the trash can. The other actions are not yet implemented."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-filters.page:111
+msgid "The Condition Window"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:112
+msgid "This window is used to edit an existing condition or to create a new one. It displays all the information needed to describe the condition, it is launched when you click on the <gui>Edit</gui> or <gui>New</gui> buttons under the conditions list in the match page of the notebook in the right part of the <link xref=\"win-filters\">filters window</link>."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-filters.page:119
+msgid "This window is made of three frames:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:122
+msgid "The <gui>Match in</gui> frame: it's a set of check boxes, one per match field. For example if you want to match all messages that was sent by hotmail users, you just have to check the <gui>From</gui> box, or if you want to match all messages about <app>Balsa</app>, check the <gui>Subject</gui> box."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/win-filters.page:131
+msgid "Be careful with <gui>Body</gui> match, this can take time for large messages."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:135
+msgid "For advanced use you can also specify directly the name of the header to match on. A standard example the “X-Mailer” is a header added to your message by the MUAs with their name and versions."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:139
+msgid "The <gui>All</gui> button will check all boxes, whereas the <gui>Clear</gui> button will uncheck all boxes (as you might have guessed)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:143
+msgid "If you specify several headers, a message will match this condition if one of the header matches. For example if you want to filter all messages talking about <app>Balsa</app>, you should check the <gui>Body</gui> and the <gui>Subject</gui> boxes, so that all mails with the word “Balsa” in its subject or its body will match. You can also, if you're fed up with <app>Balsa</app> ;-), match all mails that do NOT contain the word “Balsa” in their subject and in their body neither. See the description of the search types to see how to do this."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:157
+msgid "The <gui>Search Type</gui> frame: it's a list of the different condition types. You choose <gui>Simple</gui>, <gui>Regular expression</gui>, <gui>Date interval</gui>, or <gui>flag condition</gui>. Your choice will change the third frame so that it displays the fields needed by the type of match chosen."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:168
+msgid "This part depends on the search type you've chosen:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:171
+msgid "<gui>Simple</gui> type: a text entry lets you input the string to look for (case does not matter, the search is case-insensitive). The button lets you specify if a message matches when the string is or is NOT a substring of the specified headers, the sentence above the text entry will be updated accordingly."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:180
+msgid "<gui>Regular expression</gui>: you can input a list of regular expressions. You type your regular expression in the text entry, then you click on the <gui>Add</gui> button to put it into the list. Of course the <gui>Remove</gui> button destroys the selected regular expression in the list. The last button <gui>One matches/None matches</gui> lets you specify when a message matches the condition: when one of the regular expression matches or when none matches. The sentence above te list will be updated accordingly."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:194
+msgid "<gui>Date interval</gui>: you can input the interval by the mean of the two text entries. A blank entry means no bound. The button tells to match when the message date is within the bounds or not. The sentence above the text entries will be updated accordingly."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-filters.page:202
+msgid "<gui>Flag condition</gui>: the four check boxes let you select which messages will match this condition. If you want to match all replied OR unread messages, check the corresponding boxes. The button let you specify that the match will be done when none of the specified flags are set, the sentence above the check boxes will be updated accordingly. For example if you want to filter all read and replied messages, check the <gui>unread</gui> and <gui>replied</gui> boxes, and click on the button."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/win-main.page:8
+msgid "The Main Window"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-main.page:10
+msgctxt "_"
+msgid "external ref='figures/main-window.png' md5='19fb1edfaade98c5786473ea9d46afaf'"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-main.page:13
+msgid "<app>Balsa</app> 's main window has three major areas. To the left is the <link xref=\"win-main#subwin-mblist\"> mailbox list</link> . This displays all the mailboxes <app>Balsa</app> knows about; it will scan for ones in your local mail directory. (This means <app>Balsa</app> works well with <app>procmail</app> .) It will also list <link xref=\"glossary#imap\">IMAP</link> mailboxes that you have configured. If the <gui> Show Mailbox Info</gui> preference is set, two columns will also be displayed next to the mailbox names containing the number of unread and total messages in each mailbox that has unread messages; otherwise, the number of unread messages is shown in parentheses after the mailbox name. Also, any mailboxes that contain unread messages will be shown in a bold font."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-main.page:26
+msgid "At the top-right is a view of the currently open mailbox, called the <link xref=\"win-main#subwin-msgindex\"> message index</link> . You can browse messages and manipulate them here."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-main.page:30
+msgid "At the bottom-right of <app>Balsa</app> 's main window is the <link xref=\"win-main#subwin-msgview\"> message view</link> . This displays the message selected in the message index. You can save attachments, view attachments, and read incoming email here."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-main.page:35
+msgid "Menu &amp; Toolbar"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-main.page:37
+msgctxt "_"
+msgid "external ref='figures/main-window-toolbar.png' md5='16ba548c7bbdb8ad4d9354bb212787db'"
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/win-main.page:38
+msgid "Main Window Toolbar"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:40
+msgid "The menu bar, located at the top of the Main Window, provides the following commands:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:44
+msgid "<guiseq> <gui> File</gui> </guiseq>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:49
+msgid "This menu contains basic commands."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:52
+msgid "<guiseq> <gui> File</gui> <gui> New</gui> </guiseq>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:60
+msgid "<guiseq> <gui> File</gui> <gui> New</gui> <gui> Message…</gui> </guiseq> <key>M</key> -- Create a new message, and display a new window to type the message in."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:70
+msgid "<guiseq> <gui> File</gui> <gui> New</gui> <gui> Mailbox…</gui> </guiseq> -- Open a dialog box to create a new mailbox. There are various items like this, corresponding to the different types of mailbox that <app>Balsa</app> supports. See the <link xref=\"mbox-formats\"> discussion of different mailbox formats</link> and their advantages and disadvantages."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:84
+msgid "<guiseq> <gui> File</gui> <gui> New</gui> <gui> Remote IMAP folder…</gui> </guiseq> -- Open a dialog box to create a folder for an account on an IMAP server. This <link xref=\"folder-config\"> IMAP folder properties</link> dialog can also be used to change the details of the account."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:96
+msgid "<guiseq> <gui> File</gui> <gui> New</gui> <gui> Remote IMAP subfolder…</gui> </guiseq> -- Open a dialog box to create a new subfolder in an existing IMAP folder tree. This <link xref=\"subfolder-config\"> IMAP subfolder properties</link> dialog can also be used to rename or move a subfolder."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:110
+msgid "<guiseq> <gui> File</gui> <gui> Continue</gui> </guiseq> <key>C</key> -- Continue a postponed message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:118
+msgid "<guiseq> <gui> File</gui> <gui> Get New Mail</gui> </guiseq> <keyseq><key>Ctrl</key><key>M</key></keyseq> -- This causes <app>Balsa</app> to attempt to retrieve any new messages from the <link xref=\"glossary#pop\">POP3</link> server."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:129
+msgid "<guiseq> <gui> File</gui> <gui> Send Queued Mail</gui> </guiseq> <keyseq><key>Ctrl</key><key>T</key></keyseq> -- Send all mail waiting in the Outbox mailbox to the mail server now."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:139
+msgid "<guiseq> <gui> File</gui> <gui> Send and Receive Mail</gui> </guiseq> <keyseq><key>Ctrl</key><key>B</key></keyseq> -- Send all mail waiting in the Outbox mailbox to the mail server now and retrieve any new messages."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:150
+msgid "<guiseq> <gui> File</gui> <gui> Page Setup</gui> </guiseq> -- Set print options such as paper size and print orientation."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:158
+msgid "<guiseq> <gui> File</gui> <gui> Print</gui> </guiseq> -- Print the currently selected message (displayed in the message view pane.)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:166
+msgid "<guiseq> <gui> File</gui> <gui> Address Book</gui> </guiseq> <key>B</key> -- Open <app>Balsa</app> 's address book."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:175
+msgid "<guiseq> <gui> File</gui> <gui> Quit</gui> </guiseq> <keyseq><key>Ctrl</key><key>Q</key></keyseq> -- Exit the program."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:186
+msgid "<gui> Edit</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:191
+msgid "<guiseq> <gui> Edit</gui> <gui> Copy</gui> </guiseq> <keyseq><key>Ctrl&gt;</key><key>C</key></keyseq> -- Copy selected text to the clipboard."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:200
+msgid "<guiseq> <gui> Edit</gui> <gui> Select All</gui> </guiseq> <keyseq><key>Ctrl</key><key>A</key></keyseq> -- Select all text in the currently displayed message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:210
+msgid "<guiseq> <gui> Edit</gui> <gui> Select Thread</gui> </guiseq> -- Select all messages in the same thread as the currently displayed message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:218
+msgid "<guiseq> <gui> Edit</gui> <gui> Find</gui> </guiseq> <keyseq><key>Ctrl</key><key>F</key></keyseq> -- Find messages in the current mailbox that match a given set of conditions, using the <link xref=\"win-search\"> search mailbox window</link> ."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:230
+msgid "<guiseq> <gui> Edit</gui> <gui> Find Next</gui> </guiseq> <keyseq><key>Ctrl</key><key>G</key></keyseq> -- Find the next matching message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:239
+msgid "<guiseq> <gui> Edit</gui> <gui> Find in Message</gui> </guiseq> <key>/</key>-- Selecting this option opens a “search bar” at the foot of the message preview, in which you can type text for which <app>Balsa</app> will search in the current message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:250
+msgid "<guiseq> <gui> Edit</gui> <gui> Filters</gui> </guiseq> -- Open up the <link xref=\"win-filters\"> filters window</link> ."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:258
+msgid "<guiseq> <gui> Edit</gui> <gui> Export filters</gui> </guiseq> -- Open up a window for exporting filters in the Sieve format."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:266
+msgid "<guiseq> <gui> Edit</gui> <gui> Preferences…</gui> </guiseq> -- Open the <link xref=\"preferences\"> Preferences</link> window to change the settings of <app>Balsa</app> ."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:277
+msgid "<gui> View</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:280
+msgid "Menu for changing how messages are viewed."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:283
+msgid "<guiseq> <gui> View</gui> <gui> Show Mailbox Tree</gui> </guiseq> <key>F9</key> -- Toggle the display of the mailbox tree in the main window."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:292
+msgid "<guiseq> <gui> View</gui> <gui> Show Mailbox Tabs</gui> </guiseq> -- Toggle the display of tabs for all open mailboxes."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:300
+msgid "<guiseq> <gui> View</gui> <gui> Wrap</gui> </guiseq> -- Toggle the display of messages using word wrap. The column to which the message is wrapped is set in the <link xref=\"preferences\"> Preferences</link> window."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:310
+msgid "<guiseq> <gui> View</gui> <gui> No Headers</gui> </guiseq> , <guiseq> <gui> Selected Headers</gui> </guiseq> , <guiseq> <gui> All Headers</gui> </guiseq> -- Select the headers to display in the message pane."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:324
+msgid "<guiseq> <gui> View</gui> <gui> Flat index</gui> </guiseq> , <guiseq> <gui> Simple threading</gui> </guiseq> , <guiseq> <gui> JWZ threading</gui> </guiseq> -- Select the type of threading used to display the messages in the message index."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:338
+msgid "<guiseq> <gui> View</gui> <gui> Expand All</gui> </guiseq> <keyseq><key>Ctrl</key><key>E</key></keyseq> -- <guiseq> <gui> View</gui> <gui> Collapse All</gui> </guiseq> <keyseq><key>Ctrl</key><key>L</key></keyseq> -- Expand or collapse all threads in the currently displayed mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:353
+msgid "<guiseq> <gui> View</gui> <gui> Zoom In</gui> </guiseq> <keyseq><key>Ctrl</key><key>+</key></keyseq>, <guiseq> <gui> Zoom Out</gui> </guiseq> <keyseq><key>Ctrl</key><key>-</key></keyseq>, <guiseq> <gui> Zoom 100%</gui> </guiseq> -- Alter the font size of HTML messages. Plain text messages will always use the font specified in the <link xref=\"preferences\"> Preferences</link> window."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:373
+msgid "<gui> Mailbox</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:376
+msgid "For manipulating mailboxes."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:379
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Next</gui> </guiseq> <key>N</key>-- Select the next message in the current mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:388
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Previous</gui> </guiseq> <key> P</key> -- Select the previous message in the current mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:397
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Next Unread</gui> </guiseq> <keyseq><key>Ctrl</key><key>N</key></keyseq> -- Select the next unread message in the current mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:407
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Next Flagged</gui> </guiseq> <keyseq><key>Ctrl</key><key>Alt</key><key>F</key></keyseq> -- Select the next flagged message in the current mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:417
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Hide messages</gui> </guiseq> -- A submenu listing all the types of messages that may be hidden and unhidden in the current mailbox. Types in the submenu are toggled when selected. A Checkmark indicates it is currently hidden."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:428
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Reset Filter</gui> </guiseq> -- Resets to the mailbox filter."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:435
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Select All</gui> </guiseq> -- Selects all messages in the current mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:443
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Edit…</gui> </guiseq> -- Edit mailbox properties."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:450
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Delete…</gui> </guiseq> -- Delete the currently selected mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:458
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Expunge Deleted Messages</gui> </guiseq> -- Physically remove from the backing mailstore all messages marked as deleted."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:466
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Close</gui> </guiseq> -- Close the currently selected mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:474
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Empty Trash</gui> </guiseq> -- Delete all messages from the <code> Trash</code> mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:482
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Select Filters</gui> </guiseq> -- Pop up a dialog that allows you to control which filters are applied to this mailbox, and optionally to apply them."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:491
+msgid "<guiseq> <gui> Mailbox</gui> <gui> Remove Duplicates</gui> </guiseq> -- Remove duplicate messages; <app>Balsa</app> locates all messages in the current mailbox that have the same Message-ID header, and removes all but one."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:503
+msgid "<gui> Message</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:506
+msgid "This menu has commands for manipulating messages."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:509
+msgid "<guiseq> <key> R</key> <gui> Message</gui> <gui> Reply…</gui> </guiseq> <key>R</key> -- Reply to the currently selected message(s)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:518
+msgid "<guiseq> <key> A</key> <gui> Message</gui> <gui> Reply to All…</gui> </guiseq> <key>A</key> -- Reply to the currently selected message(s), sending the reply to all senders and recipients of the message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:528
+msgid "<guiseq> <key> G</key> <gui> Message</gui> <gui> Reply to Group…</gui> </guiseq> <key>G</key> -- Reply to a mailing list, instead of the sender to that list."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:537
+msgid "<guiseq> <key> F</key> <gui> Message</gui> <gui> Forward attached…</gui> </guiseq> -- Forward the currently selected message(s) as an attachment."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:546
+msgid "<guiseq> <gui> Message</gui> <gui> Forward inline…</gui> </guiseq> -- Forward the currently selected message(s), quoted inline."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:554
+msgid "<guiseq> <gui> Message</gui> <gui> Next Part</gui> </guiseq> <keyseq><key>Ctrl</key><key>.</key></keyseq>-- View the next part of the message (if the message is multi-part)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:564
+msgid "<guiseq> <shortcut> <keycombo> <sys> Ctrl</sys> <sys> ,</sys> </keycombo> </shortcut> <gui> Message</gui> <gui> Previous Part</gui> </guiseq> <keyseq><key>Ctrl</key><key>,</key></keyseq> -- View the previous part of the message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:580
+msgid "<guiseq> <gui> Message</gui> <gui> Save Current Part…</gui> </guiseq> <keyseq><key>Ctrl</key><key>S</key></keyseq>-- Save the currently selected part of the message to a file."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:590
+msgid "<guiseq> <shortcut> <keycombo> <sys> Ctrl</sys> <sys> U</sys> </keycombo> </shortcut> <gui> Message</gui> <gui> View Source…</gui> </guiseq> <keyseq><key>Ctrl</key><key>U</key></keyseq> -- Opens a new window that displays the raw message as received from the <link xref=\"glossary#mta\">MTA</link> ."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:607
+msgid "<guiseq> <gui> Message</gui> <gui> Copy</gui> </guiseq> <keyseq><key>Ctrl</key><key>C</key></keyseq> -- Copies to the clipboard any text selected in the message view of the current message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:618
+msgid "<guiseq> <gui> Message</gui> <gui> Select Text</gui> </guiseq> -- Selects the entire text of the current message in the message view."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:626
+msgid "<guiseq> <gui> Message</gui> <gui> Move to Trash</gui> </guiseq> <key>D</key> -- Moves the currently selected message(s) to the Trash."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:634
+msgid "<guiseq> <gui> Message</gui> <gui> Toggle flag</gui> </guiseq>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:642
+msgid "<guiseq> <gui> Message</gui> <gui> Toggle flag</gui> <gui> Flagged</gui> </guiseq> <key>X</key> -- Toggle the flag on the currently selected message(s). This is shown as an exclamation mark next in the message index."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:653
+msgid "<guiseq> <shortcut> <keycombo> <sys> Ctrl</sys> <sys> D</sys> </keycombo> </shortcut> <gui> Message</gui> <gui> Toggle flag</gui> <gui> Deleted</gui> </guiseq> <keyseq><key>Ctrl</key><key>D</key></keyseq> -- Marks the message as set for deletion. The message will be actually removed from the backing mailstore when it is “expunged” either manually, or as specified in the <link xref=\"preferences\">Preferences</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:673
+msgid "<guiseq> <shortcut> <keycombo> <sys> Ctrl</sys> <sys> R</sys> </keycombo> </shortcut> <gui> Message</gui> <gui> Toggle flag</gui> <gui> New</gui> </guiseq> <keyseq><key>Ctrl</key><key>R</key></keyseq> -- Marks a message that has been read as new, and vice-versa. The message will display the standard icon and font for a new message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:691
+msgid "<guiseq> <gui> Message</gui> <gui> Toggle flag</gui> <gui> Answered</gui> </guiseq> -- Toggles the reply icon for a message."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:702
+msgid "<guiseq> <key> S</key> <gui> Message</gui> <gui> Store Address…</gui> </guiseq> <key>S</key>-- Add the sender of the currently selected message to your address book."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:713
+msgid "<gui> Settings</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:716
+msgid "Menu for changing <app>Balsa</app> 's configuration."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:719
+msgid "<guiseq> <gui> Settings</gui> <gui> Toolbars…</gui> </guiseq> -- Open the <link xref=\"toolbar-prefs\"> Toolbars</link> window to modify the content and arrangement of the toolbars in <app>Balsa</app> ."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:729
+msgid "<guiseq> <gui> Settings</gui> <gui> Identities…</gui> </guiseq> -- Open the <link xref=\"identities\"> Identities</link> window to customize how you present yourself to the rest of the world."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-main.page:741
+msgid "<gui>Help</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:744
+msgid "Menu for getting this help, and information about <app>Balsa</app>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:747
+msgid "<guiseq> <gui>Help</gui> <gui>Contents</gui> </guiseq> <key>F1</key> -- Show this help file."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:754
+msgid "<guiseq> <gui>Help</gui> <gui>About</gui> </guiseq> -- Show information about <app>Balsa</app>."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-main.page:765
+msgid "The Mailbox List"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:766
+msgid "The mailbox list in the main window lists all of your mailboxes. <app>Balsa</app> will automatically detect your local mailboxes by searching for mailboxes under your local mail directory (probably ~/mail). This lets <app>Balsa</app> coexist with <app>pine</app> and <app>procmail</app> without causing problems."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:771
+msgid "Your mailboxes will be displayed as a tree view, with mailboxes in subdirectories of your local mail directory initially hidden but accessible by expanding the tree. <link xref=\"glossary#imap\">IMAP</link> mailboxes will also be displayed as being at the top level of the tree. <link xref=\"glossary#pop\">POP3</link> mailboxes are not displayed."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-main.page:778
+msgid "The Message Index"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:779
+msgid "The message index displays the messages in the current folder, and lets you choose which messages to view. Click on the notebook tabs, if shown, or click on a folder in the mailbox list to bring it to the front."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:783
+msgid "From the message index you can do a lot. Clicking on a message will cause it to be displayed in the message view. Right-clicking on it will give a pop-up menu letting you reply to the message (or forward it, etc.) and move it to another folder (using the <gui> Move to</gui> menu item). Double-clicking on a message, or pressing either the space-bar or the <sys> Enter</sys> key while the keyboard focus is in the index, will open the message in a separate window. Also, it is possible to drag and drop messages from the index to other mailboxes in the mailbox list and open mailbox tabs."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:794
+msgid "The pop-up (context) menu contains the following items:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:797
+msgid "<guiseq> <gui> Reply</gui> </guiseq> , <guiseq> <gui> Reply To All</gui> </guiseq> , <guiseq> <gui> Reply To Group</gui> </guiseq> , <guiseq> <gui> Forward Attached</gui> </guiseq> , <guiseq> <gui> Forward Inline</gui> </guiseq> , <guiseq> <gui> Store Address</gui> </guiseq> , <guiseq> <gui> Delete</gui> </guiseq> , <guiseq> <gui> Undelete</gui> </guiseq> , <guiseq> <gui> Move To Trash</gui> </guiseq> , <guiseq> <gui> Toggle Flagged</gui> </guiseq> , <guiseq> <gui> Toggle Unread</gui> </guiseq> , <guiseq> <gui> Move to</gui> </guiseq> , <guiseq> <gui> View Source</gui> </guiseq> -- These perform the same actions as their counterparts in the <link xref=\"win-main#subwin-messagemenu\"> message menu</link> ."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-main.page:841
+msgid "<guiseq> <gui> Move to</gui> </guiseq> -- Moves the currently selected message(s) to another mailbox. When this menu item is selected, a list of available mailboxes is displayed, from which the destination may be selected."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/win-main.page:852
+msgid "The Message View"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:853
+msgid "This displays the email that is selected in the message index. Message headers are displayed above the main text of the message, unless they have been disabled. The text of the message is shown below the headers."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:857
+msgid "If the message is multipart, an attachment icon will appear beside the headers. Clicking this icon will display a list of the parts from which you may select one. If <app>Balsa</app> is unable to display it, you will be given a choice of applications known to handle the part. Additionally, there is always an option to save the attachment to a file."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/win-main.page:864
+msgid "<app>Balsa</app> supports viewing HTML messages only when compiled with <app> gtkhtml</app> or <app> WebKit</app> support. Gtkhtml support will be compiled in if gtkhtml-devel files are found. WebKit is currently supported only on an experimental basis,"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/win-main.page:871
+msgid "You are not restricted to that pane either. Double-clicking on a message in the message index, or touching either the space bar or the <sys> Enter</sys> key, will open it in a <link xref=\"win-message\"> separate window</link> ."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/win-message.page:8
+msgid "The Message Window"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-message.page:10
+msgid "In addition to the preview pane, <app>Balsa</app> can display messages in separate windows. Simply double-click on the desired message from the message index in the main window, or select the message and press the space bar. Any number of windows may be opened, although only one per unique message."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-message.page:18
+msgid "The message window has a menu and toolbar containing commands pertinent to an individual message. Commands are as described in the <link xref=\"win-main\">main window</link>. Below the menu and toolbar are the message headers in a box, followed by the message body."
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-message.page:28
+msgctxt "_"
+msgid "external ref='figures/message-window.png' md5='b72ce86097d5b8bc4ea8ca52f48b3205'"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-message.page:31
+msgid "If your copy of <app>Balsa</app> has cryptographic support, there will be an icon in the header box depicting an envelope with a lock and a check mark. Clicking the icon will check the key used to sign the message. The message body will contain an icon and some descriptive text noting whether the signing key is valid, invalid, or unchecked."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-message.page:40
+msgid "If the message contains attachments or more than one part of any kind, an attachment icon will be present in the header box as shown below. Clicking this icon will show a menu of all available parts. Selecting a part will update the display of the message body accordingly."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/win-message.page:49
+msgid "Selecting a Message Part"
+msgstr ""
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/win-message.page:50
+msgctxt "_"
+msgid "external ref='figures/msg-part-select.png' md5='8265967b3acae486db6f90bddec897e1'"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-message.page:53
+msgid "The <gui>complete message</gui> selection will do its best to render all parts at once, but some may have to be selected individually or opened in an external program. Parts which cannot be rendered within <app>Balsa</app> will instead display a list of options for opening external programs or saving the data. Right-clicking on a part will also provide a menu with these options."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-message.page:63
+msgid "Navigation between messages is possible without returning to the index in the main window. Next unread being quite useful for checking all new mail. Deleting the current message will automatically display the next unread one. This behavior can be changed in the <link xref=\"preferences\">preferences</link>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/win-run-filters.page:8
+msgid "The Select Filters Window"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:9
+msgid "This window is divided in two lists: the left one displays all available filters, and the right part displays all filters to be applied on the mailbox (the name of which is shown in the window title). See the <link xref=\"win-filters\">filters window</link> section to see how to set up filters."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:15
+msgid "The right list has three columns. The first one contains the filters name. The two others tells you if the filter will be automatically applied: e.g. if a dot is displayed in the second column (<gui>On reception</gui>), this tells you that whenever new messages arrived in this mailbox, they will be filtered by the corresponding filter (Note: the filter is applied only on the new messages, not the entire mailbox; this is similar to the use of procmail). In the same way, if a dot is displayed in the third column (<gui>On exit</gui>), the filter will be applied to the entire mailbox when you exit <app>Balsa</app>."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:27
+msgid "Note: the <gui>On exit</gui> feature is not yet implemented."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:29
+msgid "When you tell <app>Balsa</app> to apply several filters on the same mailbox (i.e. when you put several filters in the right list), only the first match counts: the filters are applied in the specified order and the first that matches on the current message will be applied but not the following ones."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:34
+msgid "There are two buttons between the filters lists:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-run-filters.page:37
+msgid "The <gui>Add</gui> button: moves the selected filters from the left list to the right one, adding more filters to be applied to the mailbox."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-run-filters.page:43
+msgid "The <gui>Remove</gui> button: removes the currently selected filter in the right list and puts it back in the left list."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:49
+msgid "The <gui>Up</gui> and <gui>Down</gui> buttons under the right list serve to reorder the filters that are to be applied. This is a sort of priority between filters, because if several filters could match the current message, only the first one will be applied. The <gui>Apply Now</gui> button applies all filters of the right list to the entire mailbox immediately (be patient, this can take a quite a long time on big mailboxes or remote ones)."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:58
+msgid "You can also use this dialog to apply a filter to a mailbox without actually attaching it to the mailbox. Select one or more filters in the left hand list, and click the <gui>Apply Selected</gui> button below that list."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-run-filters.page:62
+msgid "There are three buttons below the filters lists:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-run-filters.page:65
+msgid "The <gui>OK</gui> button: saves the list of filters associated to the mailbox. Note that this does not apply the filters to the mailbox. It is useful only when you have set up automatic filters, or when you have to manually apply a lot of filters frequently to this mailbox: the next time <app>Balsa</app> will reload the saved filters and you will only have to press the <gui>Apply</gui> button."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-run-filters.page:75
+msgid "The <gui>Cancel</gui> button: this discards any changes and closes the dialog box."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-run-filters.page:80
+msgid "The <gui>Help</gui> button: opens this help window."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/win-search.page:8
+msgid "The Search Mailbox Window"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-search.page:9
+msgid "You can search a mailbox to find and display messages that contain a given string in the To, From, Subject, or Cc headers, or in the message body. This window allows you to specify the string for which you want to search and where <app>Balsa</app> should look. Open the window with the <guiseq> <gui>Edit</gui> <gui>Find</gui> </guiseq>command, or <keyseq> <key>Ctrl</key> <key>F</key> </keyseq>."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/win-search.page:22
+msgid "You can view the matching messages in two ways:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-search.page:25
+msgid "<gui>Show only matching messages</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-search.page:28
+msgid "If you click the <gui>Apply</gui>button, the mailbox view will be filtered to show only the messages that match the conditions. If you click the <gui>Clear</gui>button, the filter will be cleared, and the mailbox view will be restored to show all messages. You can also use <guiseq> <gui>Mailbox</gui> <gui>Reset Filter</gui> </guiseq>to restore the view."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/win-search.page:41
+msgid "<gui>Open next matching message</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/win-search.page:44
+msgid "Alternatively, you can step through the matching messages, either forward or in reverse, and optionally wrapping the search when it reaches the end of the mailbox. Click the <gui>OK</gui>button to view the first matching message after (or before) the current message. Then you can use <guiseq> <gui>Edit</gui> <gui>Find Next</gui> </guiseq>, or <keyseq> <key>Ctrl</key> <key>G</key> </keyseq>, to step through the matching messages."
+msgstr ""
+

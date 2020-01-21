@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sound-converter&keywords=I18N+L10N&component=General\n"
+"POT-Creation-Date: 2017-04-10 18:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/main.ui.h:1
+msgid "Convert Audio File"
+msgstr ""
+
+#: ../data/main.ui.h:2
+msgid "Select A Folder"
+msgstr ""
+
+#: ../data/main.ui.h:3
+msgid "Destination"
+msgstr ""
+
+#: ../data/main.ui.h:4
+msgid "Format"
+msgstr ""
+
+#: ../data/progress.ui.h:1
+msgid "Converting Progress"
+msgstr ""
+
+#: ../data/nautilus-sound-converter.schemas.in.h:1
+msgid "Use source directory as output directory"
+msgstr ""
+
+#: ../data/nautilus-sound-converter.schemas.in.h:2
+msgid "Use the source directory as the default output directory."
+msgstr ""
+
+#: ../src/nsc-converter.c:340
+#, c-format
+msgid "Converting: %d of %d"
+msgstr ""
+
+#: ../src/nsc-converter.c:366
+#, c-format
+msgid ""
+"Nautilus Sound Converter could not convert this file.\n"
+"Reason: %s"
+msgstr ""
+
+#: ../src/nsc-converter.c:404 ../src/nsc-converter.c:620
+msgid "Speed: Unknown"
+msgstr ""
+
+#: ../src/nsc-converter.c:458
+#, c-format
+msgid "Estimated time left: %d:%02d (at %0.1f×)"
+msgstr ""
+
+#: ../src/nsc-converter.c:463
+msgid "Estimated time left: unknown"
+msgstr ""
+
+#. Create edit profile button
+#: ../src/nsc-converter.c:698
+msgid "Edit _Profiles..."
+msgstr ""
+
+#. Should probably do more than just give a warning
+#: ../src/nsc-converter.c:745
+msgid "Could not create GConf client.\n"
+msgstr ""
+
+#: ../src/nsc-extension.c:170
+msgid "_Convert..."
+msgstr ""
+
+#: ../src/nsc-extension.c:172
+msgid "Convert each selected audio file"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:194
+msgid "Audio Profile"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:195
+msgid "The GNOME Audio Profile used for encoding audio"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:374 ../src/nsc-gstreamer.c:383
+#, c-format
+msgid "Could not create GStreamer file input"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:392
+#, c-format
+msgid "Could not create GStreamer encoders for %s"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:407
+#, c-format
+msgid "Could not create GStreamer file output"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:421 ../src/nsc-gstreamer.c:429
+#, c-format
+msgid "Could not link pipeline"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:464
+msgid "Could not get current file position"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:565
+msgid "Could not get current file duration"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:633
+#, c-format
+msgid "The plugin necessary for mp3 file access was not found"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:650
+#, c-format
+msgid "The plugin necessary for wav file access was not found"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:668
+#, c-format
+msgid "The plugin necessary for aac file access was not found"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:685
+#, c-format
+msgid "The plugin necessary for musepack file access was not found"
+msgstr ""
+
+#: ../src/nsc-gstreamer.c:702
+#, c-format
+msgid "The plugin necessary for wma file access was not found"
+msgstr ""

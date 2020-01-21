@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/hitori/issues\n"
+"POT-Creation-Date: 2019-11-27 14:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,94 +17,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Options
-msgid "- Play a game of Hitori"
-msgstr ""
-
-msgid "10×10"
-msgstr ""
-
-msgid "5×5"
-msgstr ""
-
-msgid "6×6"
-msgstr ""
-
-msgid "7×7"
-msgstr ""
-
-msgid "8×8"
-msgstr ""
-
-msgid "9×9"
-msgstr ""
-
-msgid "A logic puzzle originally designed by Nikoli"
-msgstr ""
-
-msgid "Board _Size"
-msgstr ""
-
-msgid "Board size"
-msgstr ""
-
-#. Print an error
-#, c-format
-msgid "Command line options could not be parsed: %s\n"
-msgstr ""
-
-msgid "Copyright © 2007–2010 Philip Withnall"
-msgstr ""
-
-msgid "Do you want to stop the current game?"
-msgstr ""
-
-msgid "Enable debug mode"
-msgstr ""
-
-#. Translators: the name of the application as it appears in a software center
-msgid "GNOME Hitori"
-msgstr ""
-
-msgid "Get a hint for your next move"
-msgstr ""
-
+#: data/org.gnome.Hitori.desktop.in:3 data/hitori.ui:68 src/main.c:101
 msgid "Hitori"
 msgstr ""
 
-msgid "Hitori Website"
-msgstr ""
-
-#. Translators: These are the application description paragraphs in the AppData file.
-msgid "Hitori is a logic game similar to the popular game of Sudoku."
-msgstr ""
-
-msgid "Keep _Playing"
-msgstr ""
-
 #. Translators: the brief summary of the application as it appears in a software center.
+#: data/org.gnome.Hitori.desktop.in:4 data/org.gnome.Hitori.appdata.xml.in:12
 msgid "Play the Hitori puzzle game"
 msgstr ""
 
-msgid "Redo a move"
+#. Translators: Search terms to find this application. Do NOT translate or localise the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Hitori.desktop.in:6
+msgid "puzzle;game;logic;grid;"
 msgstr ""
 
-#. Translators: This means to choose a number as the "seed" for random number generation used when creating a board
-msgid "Seed the board generation"
+#. Translators: the name of the application as it appears in a software center
+#: data/org.gnome.Hitori.appdata.xml.in:9
+msgid "GNOME Hitori"
 msgstr ""
 
-msgid "The GNOME Project"
+#. Translators: These are the application description paragraphs in the AppData file.
+#: data/org.gnome.Hitori.appdata.xml.in:16
+msgid "Hitori is a logic game similar to the popular game of Sudoku."
 msgstr ""
 
-msgid "The help contents could not be displayed"
-msgstr ""
-
-msgid "The size of the board, in cells."
-msgstr ""
-
-msgid "Undo your last move"
-msgstr ""
-
+#: data/org.gnome.Hitori.appdata.xml.in:17
 msgid ""
 "You play the game against the clock, aiming to eliminate all the duplicate "
 "numbers in each row and column in the fastest time. Multiple sizes of game "
@@ -112,30 +49,256 @@ msgid ""
 "solution. If you get stuck, the game can give you a hint."
 msgstr ""
 
+#: data/org.gnome.Hitori.appdata.xml.in:41
+msgid "The GNOME Project"
+msgstr ""
+
+#: data/help-overlay.ui:16
+msgctxt "shortcut window"
+msgid "Start a new game"
+msgstr ""
+
+#: data/help-overlay.ui:23
+msgctxt "shortcut window"
+msgid "Highlight a cell"
+msgstr ""
+
+#: data/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Undo your last move"
+msgstr ""
+
+#: data/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Redo a move"
+msgstr ""
+
+#: data/help-overlay.ui:44
+msgctxt "shortcut window"
+msgid "Get a hint for your next move"
+msgstr ""
+
+#: data/help-overlay.ui:51
+msgctxt "shortcut window"
+msgid "Show Help"
+msgstr ""
+
+#: data/help-overlay.ui:58
+msgctxt "shortcut window"
+msgid "Show Keyboard Shortcuts"
+msgstr ""
+
+#: data/help-overlay.ui:65
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: data/hitori.ui:9 src/main.c:350
+msgid "_New Game"
+msgstr ""
+
+#: data/hitori.ui:12
+msgid "Board _Size"
+msgstr ""
+
+#: data/hitori.ui:16
+msgid "_5×5"
+msgstr ""
+
+#: data/hitori.ui:21
+msgid "_6×6"
+msgstr ""
+
+#: data/hitori.ui:26
+msgid "_7×7"
+msgstr ""
+
+#: data/hitori.ui:31
+msgid "_8×8"
+msgstr ""
+
+#: data/hitori.ui:36
+msgid "_9×9"
+msgstr ""
+
+#: data/hitori.ui:41
+msgid "_10×10"
+msgstr ""
+
+#: data/hitori.ui:49
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: data/hitori.ui:54
+msgid "_Help"
+msgstr ""
+
+#: data/hitori.ui:58
+msgid "_About Hitori"
+msgstr ""
+
+#: data/hitori.ui:84
+msgid "Undo your last move"
+msgstr ""
+
+#: data/hitori.ui:105
+msgid "Redo a move"
+msgstr ""
+
+#: data/hitori.ui:150
+msgid "Get a hint for your next move"
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:6
+msgid "Board size"
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:7
+msgid "The size of the board, in cells."
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:11
+msgid "Window maximized state"
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:12
+msgid "Whether the window is maximized."
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:16
+msgid "Window position"
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:17
+msgid "Window position (x and y)."
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:21
+msgid "Window size"
+msgstr ""
+
+#: data/org.gnome.hitori.gschema.xml:22
+msgid "Window size (width and height)."
+msgstr ""
+
+#. Translators: This is a digit rendered in a cell on the game board.
+#. * Translate it to your locale’s number system if you wish the game
+#. * board to be rendered in those digits. Otherwise, leave the digits as
+#. * Arabic numerals.
+#: src/interface.c:194
+msgctxt "Board cell"
+msgid "1"
+msgstr ""
+
+#: src/interface.c:195
+msgctxt "Board cell"
+msgid "2"
+msgstr ""
+
+#: src/interface.c:196
+msgctxt "Board cell"
+msgid "3"
+msgstr ""
+
+#: src/interface.c:197
+msgctxt "Board cell"
+msgid "4"
+msgstr ""
+
+#: src/interface.c:198
+msgctxt "Board cell"
+msgid "5"
+msgstr ""
+
+#: src/interface.c:199
+msgctxt "Board cell"
+msgid "6"
+msgstr ""
+
+#: src/interface.c:200
+msgctxt "Board cell"
+msgid "7"
+msgstr ""
+
+#: src/interface.c:201
+msgctxt "Board cell"
+msgid "8"
+msgstr ""
+
+#: src/interface.c:202
+msgctxt "Board cell"
+msgid "9"
+msgstr ""
+
+#: src/interface.c:203
+msgctxt "Board cell"
+msgid "10"
+msgstr ""
+
+#: src/interface.c:204
+msgctxt "Board cell"
+msgid "11"
+msgstr ""
+
+#: src/interface.c:722
+msgid "The help contents could not be displayed"
+msgstr ""
+
+#: src/interface.c:746
+msgid "Copyright © 2007–2010 Philip Withnall"
+msgstr ""
+
+#: src/interface.c:747
+msgid "A logic puzzle originally designed by Nikoli"
+msgstr ""
+
+#: src/interface.c:749
+msgid "translator-credits"
+msgstr ""
+
+#: src/interface.c:753
+msgid "Hitori Website"
+msgstr ""
+
+#: src/main.c:254
+msgid "Enable debug mode"
+msgstr ""
+
+#. Translators: This means to choose a number as the "seed" for random number generation used when creating a board
+#: src/main.c:256
+msgid "Seed the board generation"
+msgstr ""
+
+#. Options
+#: src/main.c:270
+msgid "- Play a game of Hitori"
+msgstr ""
+
+#. Print an error
+#: src/main.c:280
+#, c-format
+msgid "Command line options could not be parsed: %s\n"
+msgstr ""
+
+#: src/main.c:346
+msgid "Do you want to stop the current game?"
+msgstr ""
+
+#: src/main.c:349
+msgid "Keep _Playing"
+msgstr ""
+
 #. Translators: The first parameter is the number of minutes which have elapsed since the start of the game; the second parameter is
 #. * the number of seconds.
+#: src/rules.c:267
 #, c-format
 msgid "You’ve won in a time of %02u:%02u!"
 msgstr ""
 
-msgid "_About Hitori"
-msgstr ""
-
-msgid "_Help"
-msgstr ""
-
-msgid "_New Game"
-msgstr ""
-
-msgid "_Play Again"
-msgstr ""
-
+#: src/rules.c:272
 msgid "_Quit"
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localise the semicolons! The list MUST also end with a semicolon!
-msgid "puzzle;game;logic;grid;"
-msgstr ""
-
-msgid "translator-credits"
+#: src/rules.c:273
+msgid "_Play Again"
 msgstr ""

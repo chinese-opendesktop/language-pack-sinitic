@@ -1,6 +1,6 @@
 Name: language-pack-sinitic
 Summary: Translations for some sinitic languages
-Version: 2019.12
+Version: 2020.1
 Release: 1
 License: Open Source
 Group: Translations
@@ -46,7 +46,9 @@ make
 %{_datadir}/FBReader/resources/cmn*.xml
 %{_datadir}/Telegram/Desktop_cmn*.strings
 %{_datadir}/locale/cmn*/LC_MESSAGES/*.qm
+%{_datadir}/*/*cmn*.qm
 %{_datadir}/*/*/*cmn*.qm
+%{_datadir}/*/*/*/*cmn*.qm
 %{_libexecdir}/*/Translations/*cmn*.qm
 %{_datadir}/zlibrary/resources/cmn*.xml
 %{_datadir}/childsplay_sp/*/*/words-cmn*
@@ -55,6 +57,8 @@ make
 %{_datadir}/logo/logolib/Messages.cmn*
 /var/www/html/clipbucket/includes/langs/cmn*.lang
 /etc/joe/joerc.cmn*
+%{python3_sitelib}/openshot_qt/language/OpenShot.cmn*.qm
+%{_libdir}/libreoffice/program/resource/cmn*/LC_MESSAGES/*.mo
 
 %files -n language-pack-yue
 %{_datadir}/locale/yue*/LC_MESSAGES/*.mo
@@ -64,7 +68,9 @@ make
 %{_datadir}/FBReader/resources/yue*.xml
 %{_datadir}/Telegram/Desktop_yue*.strings
 %{_datadir}/locale/yue*/LC_MESSAGES/*.qm
+%{_datadir}/*/*yue*.qm
 %{_datadir}/*/*/*yue*.qm
+%{_datadir}/*/*/*/*yue*.qm
 %{_libexecdir}/*/Translations/*yue*.qm
 %{_datadir}/zlibrary/resources/yue*.xml
 %{_datadir}/childsplay_sp/*/*/words-yue*
@@ -73,7 +79,9 @@ make
 %{_datadir}/logo/logolib/Messages.yue*
 /var/www/html/clipbucket/includes/langs/yue*.lang
 /etc/joe/joerc.yue*
+%{python3_sitelib}/openshot_qt/language/OpenShot.yue*.qm
+%{_libdir}/libreoffice/program/resource/yue*/LC_MESSAGES/*.mo
 
 %changelog
-* Mon Dec 02 2019 Wei-Lun Chao <bluebat@member.fsf.org> - 2019.12
+* Thu Jan 16 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 2020.1
 - Initial package

@@ -7,45 +7,55 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/nautilus-sendto/issues\n"
+"POT-Creation-Date: 2019-09-02 14:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/nautilus-sendto.c:54
+msgid "Run from build directory (ignored)"
+msgstr ""
+
+#: src/nautilus-sendto.c:55
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr ""
+
+#: src/nautilus-sendto.c:56
+msgid "Files to send"
+msgstr ""
+
+#: src/nautilus-sendto.c:57
+msgid "Output version information and exit"
+msgstr ""
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
+#: src/nautilus-sendto.c:245
 msgid "Archive"
 msgstr ""
 
+#: src/nautilus-sendto.c:558
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr ""
 
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
-
-msgid "Files to send"
-msgstr ""
-
-msgid "Integrates mail clients into the Nautilus file manager"
-msgstr ""
-
-msgid "Nautilus Send to"
-msgstr ""
-
+#: src/nautilus-sendto.c:571
 msgid "No mail client installed, not sending files\n"
 msgstr ""
 
-msgid "Output version information and exit"
+#: src/nautilus-sendto.c:577
+msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-msgid "Run from build directory (ignored)"
+#: src/nautilus-sendto.metainfo.xml.in:5
+msgid "Nautilus Send to"
 msgstr ""
 
-msgid "Use XID as parent to the send dialogue (ignored)"
+#: src/nautilus-sendto.metainfo.xml.in:6
+msgid "Integrates mail clients into the Nautilus file manager"
 msgstr ""

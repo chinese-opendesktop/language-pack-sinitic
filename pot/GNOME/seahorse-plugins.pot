@@ -1,0 +1,647 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/seahorse-plugins/"
+"issues\n"
+"POT-Creation-Date: 2019-03-02 15:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../data/seahorse-plugins.schemas.in.h:1
+msgid "Whether the GPG password cache is enabled"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:2
+msgid ""
+"This option enables the GPG password cache in the seahorse-agent program. "
+"The 'use-agent' setting in gpg.conf affects this setting."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:3
+msgid "Where to store cached passwords."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:4
+msgid ""
+"If set to 'gnome' uses gnome-keyring to cache passwords. When set to "
+"'internal' uses internal cache."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:5
+msgid "Expire passwords in the cache"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:6
+msgid ""
+"When set, seahorse-agent expires GPG passwords in its cache after a period "
+"of time."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:7
+msgid "The time (in minutes) to cache GPG passwords"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:8
+msgid ""
+"This is the amount of time, specified in minutes, to cache GPG passwords in "
+"seahorse-agent."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:9
+msgid "Prompt before using GPG passwords in cache"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:10
+msgid ""
+"Set to 'true' to have seahorse-agent prompt before giving out passwords it "
+"has cached."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:11
+msgid "Display cache reminder in the notification area"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:12
+msgid ""
+"Set to 'true' to enable display of the cache reminder in the notification "
+"area of your panel."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:13
+msgid "Show clipboard state in panel"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:14
+msgid ""
+"Reflect the contents of the clipboard (whether encrypted, signed, etc...) in "
+"the panel applet icon."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:15
+msgid "Display clipboard after encrypting"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:16
+msgid ""
+"After performing an encrypt or signing operation from the applet, display "
+"the resulting text in a window."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:17
+msgid "Display clipboard after decrypting"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:18
+msgid ""
+"After performing an decrypt operation from the applet, display the resulting "
+"text in a window."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:19
+msgid "Display clipboard after verifying"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:20
+msgid ""
+"After performing a verify operation from the applet, display the resulting "
+"text in a window."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:21
+msgid "Whether to use ASCII Armor"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:22
+msgid ""
+"If set to true, then files encrypted with seahorse will be ASCII armor "
+"encoded."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:23
+msgid "ID of the default key"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:24
+msgid ""
+"This specifies the default key to use for certain operations, mainly signing."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:25
+msgid "Whether to always encrypt to default key"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:26
+msgid ""
+"If set to true, then the default key will always be added to an encryption "
+"recipients list."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:27
+msgid "Last key used to sign a message."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:28
+msgid "The ID of the last secret key used to sign a message."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:29
+msgid "The column to sort the recipients by"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:30
+msgid ""
+"Specify the column to sort the recipients window by. Columns are: 'name' and "
+"'id'. Put a '-' in front of the column name to sort in descending order."
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:31
+msgid "PGP Key servers"
+msgstr ""
+
+#: ../data/seahorse-plugins.schemas.in.h:32
+msgid ""
+"A list of key server URIs to search for remote PGP keys. In later versions a "
+"display name can be included, by appending a space and then the name."
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:1
+msgid "Encrypt Multiple Files"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:2
+msgid "<b>You have selected multiple files or folders</b>"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:3
+msgid "encrypted-package"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:4
+msgid "Encrypt each file separately"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:5
+msgid "Encrypt packed together in a package"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:6
+msgid "Packaging:"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:7
+msgid "Package Name:"
+msgstr ""
+
+#: ../libseahorse/seahorse-multi-encrypt.xml.h:8
+msgid ""
+"Because the files are located remotely, each file will be encrypted "
+"separately."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:580
+#: ../libseahorse/seahorse-notification.c:605
+msgid "Key Imported"
+msgid_plural "Keys Imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../libseahorse/seahorse-notification.c:584
+#: ../libseahorse/seahorse-notification.c:604
+#, c-format
+msgid "Imported %i key"
+msgid_plural "Imported %i keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../libseahorse/seahorse-notification.c:586
+#, c-format
+msgid "Imported a key for"
+msgid_plural "Imported keys for"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:623
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:624
+msgid "Invalid Signature"
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:630
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:631
+msgid "Expired Signature"
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:637
+#, c-format
+msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:638
+msgid "Revoked Signature"
+msgstr ""
+
+#. TRANSLATORS: <key id='xxx'> is a custom markup tag, do not translate.
+#: ../libseahorse/seahorse-notification.c:644
+#, c-format
+msgid "Signed by <i><key id='%s'/></i> on %s."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:645
+msgid "Good Signature"
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:650
+msgid "Signing key not in keyring."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:651
+msgid "Unknown Signature"
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:655
+msgid "Bad or forged signature. The signed data was modified."
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:656
+msgid "Bad Signature"
+msgstr ""
+
+#: ../libseahorse/seahorse-notification.c:664
+msgid "Couldn't verify signature."
+msgstr ""
+
+#: ../libseahorse/seahorse-notify.xml.h:1
+msgid "Notification Messages"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.c:94
+msgid "None. Prompt for a key."
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.xml.h:1
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:1
+msgid "Encryption and Keyrings"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.xml.h:2
+msgid "<b>Default Key</b>"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.xml.h:3
+msgid "_Default key:"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.xml.h:4
+msgid "<i>This key is used to sign messages when no other key is chosen</i>"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.xml.h:5
+msgid "When _encrypting, always include myself as a recipient"
+msgstr ""
+
+#: ../libseahorse/seahorse-prefs.xml.h:6
+msgid "PGP Passphrases"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:170
+msgid "Decryption failed. You probably do not have the decryption key."
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:220
+msgid "%Y-%m-%d"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:639
+msgid "Couldn't run file-roller"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:644
+msgid "Couldn't package files"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:645
+msgid "The file-roller process did not complete successfully"
+msgstr ""
+
+#. Filter for PGP keys. We also include *.asc, as in many
+#. cases that extension is associated with text/plain
+#: ../libseahorse/seahorse-util.c:705
+msgid "All key files"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:712 ../libseahorse/seahorse-util.c:752
+msgid "All files"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:745
+msgid "Archive files"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:774
+msgid ""
+"<b>A file already exists with this name.</b>\n"
+"\n"
+"Do you want to replace it with a new file?"
+msgstr ""
+
+#: ../libseahorse/seahorse-util.c:777
+msgid "_Replace"
+msgstr ""
+
+#: ../libseahorse/seahorse-widget.c:363
+#, c-format
+msgid "Could not display help: %s"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:284
+msgid "seahorse-applet"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:286
+#: ../plugins/applet/seahorse-applet.c:867
+msgid "Use PGP/GPG to encrypt/decrypt/sign/verify/import the clipboard."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:291
+msgid "translator-credits"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:294
+msgid "Seahorse Project Homepage"
+msgstr ""
+
+#. Get the recipient list
+#: ../plugins/applet/seahorse-applet.c:366
+#: ../plugins/epiphany/seahorse-extension.c:271
+#: ../plugins/gedit/seahorse-gedit.c:335
+msgid "Choose Recipient Keys"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:385
+msgid "Encrypted Text"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:387
+msgid "Encryption Failed"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:387
+msgid "The clipboard could not be encrypted."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:425
+#: ../plugins/epiphany/seahorse-extension.c:321
+#: ../plugins/gedit/seahorse-gedit.c:625
+msgid "Choose Key to Sign with"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:445
+msgid "Signed Text"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:447
+#: ../plugins/applet/seahorse-applet.c:527
+msgid "Signing Failed"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:447
+#: ../plugins/applet/seahorse-applet.c:527
+msgid "The clipboard could not be Signed."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:489
+#: ../plugins/epiphany/seahorse-extension.c:365
+msgid "Import Failed"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:490
+#: ../plugins/epiphany/seahorse-extension.c:366
+msgid "Keys were found but not imported."
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:582
+msgid "No PGP key or message was found on clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:583
+msgid "No PGP data found."
+msgstr ""
+
+#. TRANSLATORS: This means 'The text that was decrypted'
+#: ../plugins/applet/seahorse-applet.c:620
+msgid "Decrypted Text"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:712
+#, c-format
+msgid "Could not display URL: %s"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:782
+msgid "_Encrypt Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:789
+msgid "_Sign Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:796
+msgid "_Decrypt/Verify Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:802
+msgid "_Import Keys from Clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:864
+#: ../plugins/applet/seahorse-applet.c:866
+msgid "Encryption Applet"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:934
+msgid "_Preferences"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:937
+msgid "_Help"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet.c:940
+msgid "_About"
+msgstr ""
+
+#.
+#. PANEL_APPLET_OUT_PROCESS_FACTORY ("SeahorseAppletFactory",
+#. SEAHORSE_TYPE_APPLET, "SeahorseApplet",
+#. seahorse_applet_factory, NULL);
+#.
+#: ../plugins/applet/seahorse-applet-preferences.xml.h:1
+msgid "Clipboard Encryption Preferences"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.xml.h:2
+msgid "_Show clipboard state in panel"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.xml.h:3
+msgid "<b>Display clipboard contents after:</b>"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.xml.h:4
+msgid "_Encrypting or signing the clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.xml.h:5
+msgid "_Decrypting the clipboard"
+msgstr ""
+
+#: ../plugins/applet/seahorse-applet-preferences.xml.h:6
+msgid "_Verifying the clipboard"
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:404
+msgid "Decrypting Failed"
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:404
+msgid "Text may be malformed."
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:628
+msgid "_Encrypt"
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:635
+msgid "_Sign"
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:642
+msgid "_Decrypt/Verify"
+msgstr ""
+
+#: ../plugins/epiphany/seahorse-extension.c:649
+msgid "_Import Key"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:265
+msgid "Couldn't connect to seahorse-daemon"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:357
+msgid "Encrypted text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:360
+msgid "Couldn't encrypt text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:390
+msgid "Couldn't import keys"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:399
+msgid "Keys found but not imported"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:436
+msgid "Couldn't decrypt text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:473
+msgid "Couldn't verify text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:521
+msgid "No encrypted or signed text is selected."
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:551
+msgid "Decrypted text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:558
+msgid "Verified text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:593
+#, c-format
+msgid "Imported %d key"
+msgid_plural "Imported %d keys"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../plugins/gedit/seahorse-gedit.c:647
+msgid "Signed text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.c:650
+msgid "Couldn't sign text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:130
+msgid "_Encrypt..."
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:131
+msgid "Encrypt the selected text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:132
+msgid "Decr_ypt/Verify"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:133
+msgid "Decrypt and/or Verify text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:134
+msgid "Sig_n..."
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit-plugin.c:135
+msgid "Sign the selected text"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:1
+msgid "Enable the seahorse gedit plugin"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-gedit.schemas.in.h:2
+msgid "Enable the seahorse encryption plugin for gedit."
+msgstr ""
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:1
+msgid "Text Encryption"
+msgstr ""
+
+#: ../plugins/gedit/seahorse-pgp.gedit-plugin.desktop.in.h:2
+msgid "This plugin performs encryption operations on text."
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.c:59
+msgid "Encryption Preferences"
+msgstr ""
+
+#: ../plugins/nautilus/seahorse-pgp-preferences.desktop.in.h:2
+msgid "Configure key servers and other encryption settings"
+msgstr ""

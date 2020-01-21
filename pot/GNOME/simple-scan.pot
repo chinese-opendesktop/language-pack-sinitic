@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\n"
+"POT-Creation-Date: 2019-12-02 22:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,56 +16,125 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#. Preferences dialog: Label for resolution value in resolution list (dpi = dots per inch)
-#, c-format
-msgid "%d dpi"
+#: data/org.gnome.SimpleScan.gschema.xml:11
+msgid "Device to scan from"
 msgstr ""
 
-#. Preferences dialog: Label for default resolution in resolution list
-#, c-format
-msgid "%d dpi (default)"
+#: data/org.gnome.SimpleScan.gschema.xml:12
+msgid "SANE device to acquire images from."
 msgstr ""
 
-#. Preferences dialog: Label for minimum resolution in resolution list
-#, c-format
-msgid "%d dpi (draft)"
+#: data/org.gnome.SimpleScan.gschema.xml:20
+msgid "Type of document being scanned"
 msgstr ""
 
-#. Preferences dialog: Label for maximum resolution in resolution list
-#, c-format
-msgid "%d dpi (high resolution)"
+#: data/org.gnome.SimpleScan.gschema.xml:21
+msgid ""
+"Type of document being scanned. This setting decides on the scan resolution, "
+"colors and post-processing."
 msgstr ""
 
-#. Preferences Dialog: Toggle button to select scanning on front side of a page
-msgid "10"
+#: data/org.gnome.SimpleScan.gschema.xml:25
+msgid "Width of paper in tenths of a mm"
 msgstr ""
 
-#. Preferences Dialog: Toggle button to select scanning on front side of a page
-msgid "15"
+#: data/org.gnome.SimpleScan.gschema.xml:26
+msgid ""
+"The width of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
 msgstr ""
 
-#. Preferences Dialog: Toggle button to select scanning on front side of a page
-msgid "3"
+#: data/org.gnome.SimpleScan.gschema.xml:30
+msgid "Height of paper in tenths of a mm"
 msgstr ""
 
-#. Radio button for cropping page to 4x6 inch
-msgid "4×6"
+#: data/org.gnome.SimpleScan.gschema.xml:31
+msgid ""
+"The height of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
 msgstr ""
 
-#. Preferences Dialog: Toggle button to select scanning on front side of a page
-msgid "5"
+#: data/org.gnome.SimpleScan.gschema.xml:35
+msgid "Brightness of scan"
 msgstr ""
 
-#. Preferences Dialog: Toggle button to select scanning on front side of a page
-msgid "7"
+#: data/org.gnome.SimpleScan.gschema.xml:36
+msgid "The brightness adjustment from -100 to 100 (0 being none)."
 msgstr ""
 
-#. Contents of dialog that shows if saving would overwrite and existing file. %s is replaced with the name of the file.
-#, c-format
-msgid "A file named “%s” already exists.  Do you want to replace it?"
+#: data/org.gnome.SimpleScan.gschema.xml:40
+msgid "Contrast of scan"
 msgstr ""
 
+#: data/org.gnome.SimpleScan.gschema.xml:41
+msgid "The contrast adjustment from -100 to 100 (0 being none)."
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:45
+msgid "Resolution for text scans"
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:46
+msgid "The resolution in dots-per-inch to use when scanning text."
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:50
+msgid "Resolution for photo scans"
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:51
+msgid "The resolution in dots-per-inch to use when scanning photos."
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:55
+msgid "Page side to scan"
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:56
+msgid "The page side to scan."
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:60
+msgid "Directory to save files to"
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:61
+msgid ""
+"The directory to save files to. Defaults to the documents directory if unset."
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:66
+msgid "Quality value to use for JPEG compression"
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:67
+msgid "Quality value to use for JPEG compression."
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:72
+msgid "Delay in millisecond between pages"
+msgstr ""
+
+#: data/org.gnome.SimpleScan.gschema.xml:73
+msgid "Delay in millisecond between pages."
+msgstr ""
+
+#. Title of scan window
+#. Set HeaderBar title here because Glade doesn't keep it translated
+#. https://bugzilla.gnome.org/show_bug.cgi?id=782753
+#. Title of scan window
+#: data/simple-scan.appdata.xml.in:6 data/simple-scan.desktop.in:3
+#: src/app-window.ui:490 src/app-window.vala:1317 src/app-window.vala:1571
+msgid "Document Scanner"
+msgstr ""
+
+#: data/simple-scan.appdata.xml.in:7 data/simple-scan.desktop.in:4
+msgid "Scan Documents"
+msgstr ""
+
+#: data/simple-scan.appdata.xml.in:9
 msgid ""
 "A really easy way to scan both documents and photos. You can crop out the "
 "bad parts of a photo and rotate it if it is the wrong way round. You can "
@@ -73,490 +142,329 @@ msgid ""
 "formats."
 msgstr ""
 
-#. Radio button for cropping page to A3
-msgid "A_3"
+#: data/simple-scan.appdata.xml.in:14
+msgid "This app uses the SANE framework to support most existing scanners."
 msgstr ""
 
-#. Radio button for cropping page to A4 size
-msgid "A_4"
+#: data/simple-scan.appdata.xml.in:24
+msgid "The GNOME Project"
 msgstr ""
 
-#. Radio button for cropping page to A5 size
-msgid "A_5"
-msgstr ""
-
-#. Radio button for cropping page to A6 size
-msgid "A_6"
-msgstr ""
-
-#. Title of about dialog
-msgid "About Simple Scan"
-msgstr ""
-
-#. Warning displayed when no drivers are installed but a compatible scanner is detected
-msgid "Additional software needed"
-msgstr ""
-
-#. Save dialog: Filter name to show all files
-msgid "All Files"
-msgstr ""
-
-msgid "All Pages From _Feeder"
-msgstr ""
-
-#. Combo box value for automatic paper size
-msgid "Automatic"
-msgstr ""
-
-#. Preferences Dialog: Toggle button to select scanning on the back side of a page
-msgid "Back"
-msgstr ""
-
-#. Preferences Dialog: Toggle button to select scanning on both sides of a page
-msgid "Both"
-msgstr ""
-
-#. Label beside brightness scale
-msgid "Brightness"
-msgstr ""
-
-msgid "Brightness of scan"
-msgstr ""
-
-#. Text of button for cancelling save
-msgid "Cancel"
-msgstr ""
-
-#. Label on button for combining sides in reordering dialog
-msgid "Combine sides"
-msgstr ""
-
-#. Label on button for combining sides in reverse order in reordering dialog
-msgid "Combine sides (reverse)"
-msgstr ""
-
-#. Label in save dialog beside compression slider
-msgid "Compression:"
-msgstr ""
-
-#. Label shown when scan started
-msgid "Contacting scanner…"
-msgstr ""
-
-#. Label beside contrast scale
-msgid "Contrast"
-msgstr ""
-
-msgid "Contrast of scan"
-msgstr ""
-
-msgid "Copy current page to clipboard"
-msgstr ""
-
-#. Tooltip for crop button
-msgid "Crop the selected page"
-msgstr ""
-
-msgid "Darker"
-msgstr ""
-
-#. Label beside page delay scale
-msgid "Delay"
-msgstr ""
-
-msgid "Delay in millisecond between pages"
-msgstr ""
-
-msgid "Delay in millisecond between pages."
-msgstr ""
-
-msgid "Delete page"
-msgstr ""
-
-#. Tooltip for delete button
-msgid "Delete the selected page"
-msgstr ""
-
-msgid "Device to scan from"
-msgstr ""
-
-msgid "Directory to save files to"
-msgstr ""
-
-#. Button in dialog to create new document and discard unsaved document
-msgid "Discard Changes"
-msgstr ""
-
-msgid "Document Management"
-msgstr ""
-
-msgid "Document Modification"
-msgstr ""
-
-msgid "Document Scanner"
-msgstr ""
-
-#. Instructions on how to install Samsung scanner drivers
-msgid ""
-"Drivers for this are available on the <a href=\"http://samsung.com/support"
-"\">Samsung website</a>."
-msgstr ""
-
-#. Instructions on how to install Brother scanner drivers
-msgid ""
-"Drivers for this are available on the <a href=\"http://support.brother.com"
-"\">Brother website</a>."
-msgstr ""
-
-#. Instructions on how to install Epson scanner drivers
-msgid ""
-"Drivers for this are available on the <a href=\"http://support.epson.com"
-"\">Epson website</a>."
-msgstr ""
-
-#. Label shown once drivers successfully installed
-msgid "Drivers installed successfully!"
-msgstr ""
-
-msgid "Email"
-msgstr ""
-
-msgid "Email scanned document"
-msgstr ""
-
-#. Error displayed when communication with scanner broken
-msgid "Error communicating with scanner"
-msgstr ""
-
-#. Label shown if failed to install drivers
-#, c-format
-msgid "Failed to install drivers (error code %d)."
-msgstr ""
-
-#. Label shown if failed to install drivers
-msgid "Failed to install drivers."
-msgstr ""
-
-#. Title of error dialog when save failed
-msgid "Failed to save file"
-msgstr ""
-
-#. Title of error dialog when scan failed
-msgid "Failed to scan"
-msgstr ""
-
-#. Label in save dialog beside combo box to choose file format (PDF, JPEG, PNG, WEBP)
-msgid "File format:"
-msgstr ""
-
-msgid "Fix PDF files generated with older versions of Simple Scan"
-msgstr ""
-
-#. Preferences Dialog: Toggle button to select scanning on front side of a page
-msgid "Front"
-msgstr ""
-
-msgid "Height of paper in tenths of a mm"
-msgstr ""
-
-msgid "Help"
-msgstr ""
-
-#. Text in dialog warning when a document is about to be lost
-msgid "If you don’t save, changes will be permanently lost."
-msgstr ""
-
-#. Save dialog: Filter name to show only supported image files
-msgid "Image Files"
-msgstr ""
-
-#. Title of dialog giving instructions on how to install drivers
-msgid "Install drivers"
-msgstr ""
-
-#. Label shown while installing drivers
-msgid "Installing drivers…"
-msgstr ""
-
-#. Save dialog: Label for saving in JPEG format
-msgid "JPEG (compressed)"
-msgstr ""
-
-#. Label on button for cancelling page reordering dialog
-msgid "Keep unchanged"
-msgstr ""
-
-msgid "Keyboard Shortcuts"
-msgstr ""
-
-#. Radio button for cropping to page to US legal size
-msgid "Le_gal"
-msgstr ""
-
-msgid "Less"
-msgstr ""
-
-msgid "Lighter"
-msgstr ""
-
-msgid "More"
-msgstr ""
-
-#. Menu item to move the selected page to the left
-msgid "Move Left"
-msgstr ""
-
-#. Menu item to move the selected page to the right
-msgid "Move Right"
-msgstr ""
-
-msgid "Move page left"
-msgstr ""
-
-msgid "Move page right"
-msgstr ""
-
-#. Preferences dialog: Label above settings for scanning multiple pages from a flatbed
-msgid "Multiple pages from flatbed"
-msgstr ""
-
-#. Error displayed when no scanners to scan with
-msgid "No scanners available.  Please connect a scanner."
-msgstr ""
-
-#. Warning displayed when no scanners are detected
-msgid "No scanners detected"
-msgstr ""
-
-#. Message in driver install dialog
-msgid "Once installed you will need to restart Simple Scan."
-msgstr ""
-
-#. Save dialog: Label for saving in PDF format
-msgid "PDF (multi-page document)"
-msgstr ""
-
-#. Save dialog: Label for saving in PNG format
-msgid "PNG (lossless)"
-msgstr ""
-
-#. Label beside page size combo box
-msgid "Page Size"
-msgstr ""
-
-msgid "Page side to scan"
-msgstr ""
-
-#. Hint to user on why there are no scanners detected
-msgid "Please check your scanner is connected and powered on"
-msgstr ""
-
-#. Title of preferences dialog
-msgid "Preferences"
-msgstr ""
-
-#. Help string for command line --debug flag
-msgid "Print debugging messages"
-msgstr ""
-
-msgid "Print scanned document"
-msgstr ""
-
-#. Preferences Dialog: Tab for quality settings
-msgid "Quality"
-msgstr ""
-
-msgid "Quality value to use for JPEG compression"
-msgstr ""
-
-msgid "Quality value to use for JPEG compression."
-msgstr ""
-
-#. Text in dialog warning when a document is about to be lost
-msgid "Quit without Saving"
-msgstr ""
-
-#. Label shown when detected a scanner
-msgid "Ready to Scan"
-msgstr ""
-
-#. Title of dialog to reorder pages
-msgid "Reorder Pages"
-msgstr ""
-
-msgid "Resolution for photo scans"
-msgstr ""
-
-msgid "Resolution for text scans"
-msgstr ""
-
-#. Label on button for reversing in reordering dialog
-msgid "Reverse"
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/simple-scan.desktop.in:6
+msgid "scan;scanner;flatbed;adf;"
 msgstr ""
 
 #. Menu item to rotate page to left (anti-clockwise)
+#: src/app-window.ui:12
 msgid "Rotate _Left"
 msgstr ""
 
 #. Menu item to rotate page to right (clockwise)
+#: src/app-window.ui:22
 msgid "Rotate _Right"
 msgstr ""
 
-msgid "Rotate page to the left (anti-clockwise)"
+#. Label for page crop submenu
+#: src/app-window.ui:32
+msgid "_Crop"
 msgstr ""
 
-msgid "Rotate page to the right (clockwise)"
+#. Radio button for no crop
+#: src/app-window.ui:42
+msgid "_None"
 msgstr ""
 
-#. Tooltip for rotate left (counter-clockwise) button
-msgid "Rotate the page to the left (counter-clockwise)"
+#. Radio button for cropping page to A4 size
+#: src/app-window.ui:53
+msgid "A_4"
 msgstr ""
 
-#. Tooltip for rotate right (clockwise) button
-msgid "Rotate the page to the right (clockwise)"
+#. Radio button for cropping page to A5 size
+#: src/app-window.ui:64
+msgid "A_5"
 msgstr ""
 
-#. Text printed out when an unknown command-line argument provided
-#, c-format
-msgid "Run “%s --help” to see a full list of available command line options."
+#. Radio button for cropping page to A6 size
+#: src/app-window.ui:75
+msgid "A_6"
 msgstr ""
 
-msgid "SANE device to acquire images from."
+#. Radio button for cropping page to US letter size
+#: src/app-window.ui:86
+msgid "_Letter"
 msgstr ""
 
-#. Save dialog: Dialog title
-msgid "Save As…"
+#. Radio button for cropping to page to US legal size
+#: src/app-window.ui:97
+msgid "Le_gal"
 msgstr ""
 
-#. Text in dialog warning when a document is about to be lost
-msgid "Save current document?"
+#. Radio button for cropping page to 4x6 inch
+#: src/app-window.ui:108
+msgid "4×6"
 msgstr ""
 
-#. Text in dialog warning when a document is about to be lost
-msgid "Save document before quitting?"
+#. Radio button for cropping page to A3
+#: src/app-window.ui:119
+msgid "A_3"
 msgstr ""
 
-#. Tooltip for save toolbar button
-msgid "Save document to a file"
+#. Radio button for cropping to custom page size
+#: src/app-window.ui:130
+msgid "_Custom"
 msgstr ""
 
-msgid "Save scanned document"
+#. Menu item to rotate the crop area
+#: src/app-window.ui:148
+msgid "_Rotate Crop"
 msgstr ""
 
-msgid "Saving"
+#. Menu item to move the selected page to the left
+#: src/app-window.ui:161
+msgid "Move Left"
 msgstr ""
 
-#. Label on scan toolbar item
-msgid "Scan"
+#. Menu item to move the selected page to the right
+#: src/app-window.ui:170
+msgid "Move Right"
 msgstr ""
 
-msgid "Scan Documents"
+#: src/app-window.ui:244
+msgid "_Single Page"
 msgstr ""
 
-#. Label beside scan side combo box
-msgid "Scan Sides"
+#: src/app-window.ui:295
+msgid "All Pages From _Feeder"
 msgstr ""
 
-msgid "Scan a single page"
+#: src/app-window.ui:346
+msgid "_Multiple Pages From Flatbed"
 msgstr ""
 
-#. Tooltip for scan toolbar button
-msgid "Scan a single page from the scanner"
+#: src/app-window.ui:397
+msgid "_Text"
 msgstr ""
 
-msgid "Scan all pages from document feeder"
+#: src/app-window.ui:448
+msgid "_Image"
 msgstr ""
 
-msgid "Scan continuously from a flatbed scanner"
-msgstr ""
-
-#. Attempt to inhibit the screensaver when scanning
-msgid "Scan in progress"
-msgstr ""
-
-#. Default filename to use when saving document
-msgid "Scanned Document.pdf"
-msgstr ""
-
-#. Preferences Dialog: Tab label for scanning settings
-msgid "Scanning"
-msgstr ""
-
-#. Label shown when searching for scanners
-msgid "Searching for Scanners…"
-msgstr ""
-
-#. Label after page delay radio buttons
-msgid "Seconds"
-msgstr ""
-
-#. Help string for command line --version flag
-msgid "Show release version"
-msgstr ""
-
-#. Title of scan window
-#. Set HeaderBar title here because Glade doesn't keep it translated
-#. https://bugzilla.gnome.org/show_bug.cgi?id=782753
-#. Title of scan window
-msgid "Simple Scan"
-msgstr ""
-
-msgid "Simple Scan uses the SANE framework to support most existing scanners."
-msgstr ""
-
-#. Description of program
-msgid "Simple document scanning tool"
-msgstr ""
-
-#. Populate ActionBar (not supported in Glade)
-#. https://bugzilla.gnome.org/show_bug.cgi?id=769966
-#. Label on new document button
-msgid "Start Again…"
-msgstr ""
-
-msgid "Start new document"
-msgstr ""
-
-msgid "Stop"
-msgstr ""
-
-msgid "Stop scan in progress"
+#: src/app-window.ui:468
+msgid "_Preferences"
 msgstr ""
 
 #. Tooltip for stop button
+#: src/app-window.ui:508
 msgid "Stop the current scan"
 msgstr ""
 
-msgid "The brightness adjustment from -100 to 100 (0 being none)."
+#: src/app-window.ui:532
+msgid "S_top"
 msgstr ""
 
-msgid "The contrast adjustment from -100 to 100 (0 being none)."
+#. Tooltip for scan toolbar button
+#: src/app-window.ui:559
+msgid "Scan a single page from the scanner"
 msgstr ""
 
+#: src/app-window.ui:584
+msgid "_Scan"
+msgstr ""
+
+#. Tooltip for save toolbar button
+#: src/app-window.ui:684
+msgid "Save document to a file"
+msgstr ""
+
+#: src/app-window.vala:214 src/app-window.vala:1404
+msgid "_Close"
+msgstr ""
+
+#. Label in authorization dialog.  “%s” is replaced with the name of the resource requesting authorization
+#: src/app-window.vala:223
+#, c-format
+msgid "Username and password required to access “%s”"
+msgstr ""
+
+#. Label shown when searching for scanners
+#: src/app-window.vala:239
+msgid "Searching for Scanners…"
+msgstr ""
+
+#. Label shown when detected a scanner
+#: src/app-window.vala:245
+msgid "Ready to Scan"
+msgstr ""
+
+#. Warning displayed when no drivers are installed but a compatible scanner is detected
+#: src/app-window.vala:252
+msgid "Additional software needed"
+msgstr ""
+
+#. Instructions to install driver software
+#: src/app-window.vala:254
 msgid ""
-"The directory to save files to. Defaults to the documents directory if unset."
+"You need to <a href=\"install-firmware\">install driver software</a> for "
+"your scanner."
 msgstr ""
 
-msgid ""
-"The height of the paper in tenths of a mm (or 0 for automatic paper "
-"detection)."
+#. Warning displayed when no scanners are detected
+#: src/app-window.vala:260
+msgid "No scanners detected"
 msgstr ""
 
-msgid "The page side to scan."
+#. Hint to user on why there are no scanners detected
+#: src/app-window.vala:262
+msgid "Please check your scanner is connected and powered on"
 msgstr ""
 
-msgid "The resolution in dots-per-inch to use when scanning photos."
+#. Contents of dialog that shows if autosaved book should be loaded.
+#: src/app-window.vala:282
+msgid "An autosaved book exists. Do you want to open it?"
 msgstr ""
 
-msgid "The resolution in dots-per-inch to use when scanning text."
+#. Save dialog: Dialog title
+#: src/app-window.vala:299
+msgid "Save As…"
 msgstr ""
 
-msgid ""
-"The width of the paper in tenths of a mm (or 0 for automatic paper "
-"detection)."
+#: src/app-window.vala:302 src/app-window.vala:556
+msgid "_Save"
+msgstr ""
+
+#: src/app-window.vala:303 src/app-window.vala:471 src/app-window.vala:555
+msgid "_Cancel"
+msgstr ""
+
+#. Default filename to use when saving document
+#: src/app-window.vala:310
+msgid "Scanned Document.pdf"
+msgstr ""
+
+#. Save dialog: Filter name to show only supported image files
+#: src/app-window.vala:316
+msgid "Image Files"
+msgstr ""
+
+#. Save dialog: Filter name to show all files
+#: src/app-window.vala:326
+msgid "All Files"
+msgstr ""
+
+#. Save dialog: Label for saving in PDF format
+#: src/app-window.vala:335
+msgid "PDF (multi-page document)"
+msgstr ""
+
+#. Save dialog: Label for saving in JPEG format
+#: src/app-window.vala:341
+msgid "JPEG (compressed)"
+msgstr ""
+
+#. Save dialog: Label for saving in PNG format
+#: src/app-window.vala:347
+msgid "PNG (lossless)"
+msgstr ""
+
+#. Save dialog: Label for sabing in WEBP format
+#: src/app-window.vala:354
+msgid "WebP (compressed)"
+msgstr ""
+
+#. Label in save dialog beside combo box to choose file format (PDF, JPEG, PNG, WEBP)
+#: src/app-window.vala:364
+msgid "File format:"
+msgstr ""
+
+#. Label in save dialog beside compression slider
+#: src/app-window.vala:376
+msgid "Compression:"
+msgstr ""
+
+#. Contents of dialog that shows if saving would overwrite and existing file. %s is replaced with the name of the file.
+#: src/app-window.vala:470
+#, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr ""
+
+#. Button in dialog that shows if saving would overwrite and existing file. Clicking the button allows simple-scan to overwrite the file.
+#: src/app-window.vala:473
+msgid "_Replace"
+msgstr ""
+
+#: src/app-window.vala:512
+msgid "Saving"
+msgstr ""
+
+#. Title of error dialog when save failed
+#: src/app-window.vala:529
+msgid "Failed to save file"
+msgstr ""
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:553
+msgid "If you don’t save, changes will be permanently lost."
+msgstr ""
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:589
+msgid "Save current document?"
+msgstr ""
+
+#. Button in dialog to create new document and discard unsaved document
+#: src/app-window.vala:591
+msgid "Discard Changes"
+msgstr ""
+
+#. Label shown when scan started
+#: src/app-window.vala:623
+msgid "Contacting scanner…"
+msgstr ""
+
+#. Error message display when unable to save image for preview
+#: src/app-window.vala:851
+msgid "Unable to save image for preview"
+msgstr ""
+
+#. Error message display when unable to preview image
+#: src/app-window.vala:863
+msgid "Unable to open image preview application"
+msgstr ""
+
+#. Title of dialog to reorder pages
+#: src/app-window.vala:1025
+msgctxt "dialog title"
+msgid "Reorder Pages"
+msgstr ""
+
+#. Label on button for combining sides in reordering dialog
+#: src/app-window.vala:1048
+msgid "Combine sides"
+msgstr ""
+
+#. Label on button for combining sides in reverse order in reordering dialog
+#: src/app-window.vala:1058
+msgid "Combine sides (reverse)"
+msgstr ""
+
+#. Label on button for reversing in reordering dialog
+#: src/app-window.vala:1068
+msgid "Reverse"
+msgstr ""
+
+#. Label on button for cancelling page reordering dialog
+#: src/app-window.vala:1078
+msgid "Keep unchanged"
+msgstr ""
+
+#. Error message displayed when unable to launch help browser
+#: src/app-window.vala:1292
+msgid "Unable to open help file"
 msgstr ""
 
 #. The license this software is under (GPL3+)
+#: src/app-window.vala:1307
 msgid ""
 "This program is free software: you can redistribute it and/or modify\n"
 "it under the terms of the GNU General Public License as published by\n"
@@ -572,153 +480,469 @@ msgid ""
 "along with this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 
-msgid "Type of document being scanned"
+#. Title of about dialog
+#: src/app-window.vala:1310 src/app-window.vala:1597
+msgid "About Document Scanner"
 msgstr ""
 
+#. Description of program
+#: src/app-window.vala:1313
+msgid "Simple document scanning tool"
+msgstr ""
+
+#: src/app-window.vala:1322
+msgid "translator-credits"
+msgstr ""
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1338
+msgid "Save document before quitting?"
+msgstr ""
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1340
+msgid "Quit without Saving"
+msgstr ""
+
+#. Message to indicate a Brother scanner has been detected
+#: src/app-window.vala:1381
+msgid "You appear to have a Brother scanner."
+msgstr ""
+
+#. Instructions on how to install Brother scanner drivers
+#: src/app-window.vala:1383
 msgid ""
-"Type of document being scanned. This setting decides on the scan resolution, "
-"colors and post-processing."
+"Drivers for this are available on the <a href=\"http://support.brother.com"
+"\">Brother website</a>."
 msgstr ""
 
-#. Error displayed when cannot connect to scanner
-msgid "Unable to connect to scanner"
+#. Message to indicate a Samsung scanner has been detected
+#: src/app-window.vala:1387
+msgid "You appear to have a Samsung scanner."
 msgstr ""
 
+#. Instructions on how to install Samsung scanner drivers
+#: src/app-window.vala:1389
+msgid ""
+"Drivers for this are available on the <a href=\"http://samsung.com/support"
+"\">Samsung website</a>."
+msgstr ""
+
+#. Message to indicate a HP scanner has been detected
+#: src/app-window.vala:1393
+msgid "You appear to have an HP scanner."
+msgstr ""
+
+#. Message to indicate an Epson scanner has been detected
+#: src/app-window.vala:1398
+msgid "You appear to have an Epson scanner."
+msgstr ""
+
+#. Instructions on how to install Epson scanner drivers
+#: src/app-window.vala:1400
+msgid ""
+"Drivers for this are available on the <a href=\"http://support.epson.com"
+"\">Epson website</a>."
+msgstr ""
+
+#. Title of dialog giving instructions on how to install drivers
+#: src/app-window.vala:1404
+msgid "Install drivers"
+msgstr ""
+
+#. Message in driver install dialog
+#: src/app-window.vala:1437
+msgid "Once installed you will need to restart this app."
+msgstr ""
+
+#. Label shown while installing drivers
+#: src/app-window.vala:1450
+msgid "Installing drivers…"
+msgstr ""
+
+#. Label shown once drivers successfully installed
+#: src/app-window.vala:1458
+msgid "Drivers installed successfully!"
+msgstr ""
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1468
+#, c-format
+msgid "Failed to install drivers (error code %d)."
+msgstr ""
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1474
+msgid "Failed to install drivers."
+msgstr ""
+
+#. Label shown to prompt user to install packages (when PackageKit not available)
+#: src/app-window.vala:1481
+#, c-format
+msgid "You need to install the %s package."
+msgid_plural "You need to install the %s packages."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/app-window.vala:1589
+msgid "Email"
+msgstr ""
+
+#: src/app-window.vala:1590
+msgid "Print"
+msgstr ""
+
+#: src/app-window.vala:1591
+msgctxt "menu"
+msgid "Reorder Pages"
+msgstr ""
+
+#. Title of preferences dialog
+#: src/app-window.vala:1592 src/preferences-dialog.ui:52
+msgid "Preferences"
+msgstr ""
+
+#: src/app-window.vala:1595
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/app-window.vala:1596
+msgid "Help"
+msgstr ""
+
+#. Populate ActionBar (not supported in Glade)
+#. https://bugzilla.gnome.org/show_bug.cgi?id=769966
+#. Label on new document button
+#: src/app-window.vala:1605
+msgid "Start Again…"
+msgstr ""
+
+#. Tooltip for rotate left (counter-clockwise) button
+#: src/app-window.vala:1624
+msgid "Rotate the page to the left (counter-clockwise)"
+msgstr ""
+
+#. Tooltip for rotate right (clockwise) button
+#: src/app-window.vala:1633
+msgid "Rotate the page to the right (clockwise)"
+msgstr ""
+
+#. Tooltip for crop button
+#: src/app-window.vala:1645
+msgid "Crop the selected page"
+msgstr ""
+
+#. Tooltip for delete button
+#: src/app-window.vala:1663
+msgid "Delete the selected page"
+msgstr ""
+
+#. Text of button for cancelling save
+#: src/app-window.vala:1822
+msgid "Cancel"
+msgstr ""
+
+#. Button to submit authorization dialog
+#: src/authorize-dialog.ui:22
+msgid "_Authorize"
+msgstr ""
+
+#. Label beside username entry
+#: src/authorize-dialog.ui:80
+msgid "_Username for resource:"
+msgstr ""
+
+#. Label beside password entry
+#: src/authorize-dialog.ui:92
+msgid "_Password:"
+msgstr ""
+
+#: src/book.vala:331 src/book.vala:337
 #, c-format
 msgid "Unable to encode page %i"
 msgstr ""
 
-#. Error message displayed when unable to launch help browser
-msgid "Unable to open help file"
+#: src/help-overlay.ui:12
+msgctxt "shortcut window"
+msgid "Scanning"
 msgstr ""
 
-#. Error message display when unable to preview image
-msgid "Unable to open image preview application"
+#: src/help-overlay.ui:17
+msgctxt "shortcut window"
+msgid "Scan a single page"
 msgstr ""
 
-#. Error message display when unable to save image for preview
-msgid "Unable to save image for preview"
+#: src/help-overlay.ui:24
+msgctxt "shortcut window"
+msgid "Scan all pages from document feeder"
 msgstr ""
 
-#. Error display when unable to start scan
-msgid "Unable to start scan"
+#: src/help-overlay.ui:31
+msgctxt "shortcut window"
+msgid "Scan continuously from a flatbed scanner"
 msgstr ""
 
-#. Label in authorization dialog.  “%s” is replaced with the name of the resource requesting authorization
-#, c-format
-msgid "Username and password required to access “%s”"
+#: src/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Stop scan in progress"
 msgstr ""
 
-#. Save dialog: Label for sabing in WEBP format
-msgid "WebP (compressed)"
+#: src/help-overlay.ui:46
+msgctxt "shortcut window"
+msgid "Document Modification"
 msgstr ""
 
-msgid "Width of paper in tenths of a mm"
+#: src/help-overlay.ui:51
+msgctxt "shortcut window"
+msgid "Move page left"
 msgstr ""
 
-#. Message to indicate a Brother scanner has been detected
-msgid "You appear to have a Brother scanner."
+#: src/help-overlay.ui:58
+msgctxt "shortcut window"
+msgid "Move page right"
 msgstr ""
 
-#. Message to indicate a Samsung scanner has been detected
-msgid "You appear to have a Samsung scanner."
+#: src/help-overlay.ui:65
+msgctxt "shortcut window"
+msgid "Rotate page to the left (anti-clockwise)"
 msgstr ""
 
-#. Message to indicate an Epson scanner has been detected
-msgid "You appear to have an Epson scanner."
+#: src/help-overlay.ui:72
+msgctxt "shortcut window"
+msgid "Rotate page to the right (clockwise)"
 msgstr ""
 
-#. Message to indicate a HP scanner has been detected
-msgid "You appear to have an HP scanner."
+#: src/help-overlay.ui:79
+msgctxt "shortcut window"
+msgid "Delete page"
 msgstr ""
 
-#. Instructions to install driver software
-msgid ""
-"You need to <a href=\"install-firmware\">install driver software</a> for "
-"your scanner."
+#: src/help-overlay.ui:87
+msgctxt "shortcut window"
+msgid "Document Management"
 msgstr ""
 
-#. Label shown to prompt user to install packages (when PackageKit not available)
-#, c-format
-msgid "You need to install the %s package.You need to install the %s packages."
+#: src/help-overlay.ui:92
+msgctxt "shortcut window"
+msgid "Start new document"
 msgstr ""
 
-#. Arguments and description for --help text
-msgid "[DEVICE…] — Scanning utility"
+#: src/help-overlay.ui:99
+msgctxt "shortcut window"
+msgid "Save scanned document"
 msgstr ""
 
-#. Button to submit authorization dialog
-msgid "_Authorize"
+#: src/help-overlay.ui:106
+msgctxt "shortcut window"
+msgid "Email scanned document"
 msgstr ""
 
-msgid "_Cancel"
+#: src/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Print scanned document"
 msgstr ""
 
-msgid "_Close"
-msgstr ""
-
-#. Label for page crop submenu
-msgid "_Crop"
-msgstr ""
-
-#. Radio button for cropping to custom page size
-msgid "_Custom"
-msgstr ""
-
-msgid "_Image"
-msgstr ""
-
-#. Radio button for cropping page to US letter size
-msgid "_Letter"
-msgstr ""
-
-msgid "_Multiple Pages From Flatbed"
-msgstr ""
-
-#. Radio button for no crop
-msgid "_None"
-msgstr ""
-
-#. Label beside password entry
-msgid "_Password:"
+#: src/help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Copy current page to clipboard"
 msgstr ""
 
 #. Label beside scan source combo box
-msgid "_Photo Resolution"
-msgstr ""
-
-#. Button in dialog that shows if saving would overwrite and existing file. Clicking the button allows simple-scan to overwrite the file.
-msgid "_Replace"
-msgstr ""
-
-#. Menu item to rotate the crop area
-msgid "_Rotate Crop"
-msgstr ""
-
-msgid "_Save"
-msgstr ""
-
-#. Label beside scan source combo box
+#: src/preferences-dialog.ui:80
 msgid "_Scanner"
 msgstr ""
 
-msgid "_Single Page"
+#. Label beside scan side combo box
+#: src/preferences-dialog.ui:108
+msgid "Scan Sides"
 msgstr ""
 
-msgid "_Text"
+#. Label beside page size combo box
+#: src/preferences-dialog.ui:124
+msgid "Page Size"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:153
+msgid "Front"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on the back side of a page
+#: src/preferences-dialog.ui:163
+msgid "Back"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on both sides of a page
+#: src/preferences-dialog.ui:173
+msgid "Both"
+msgstr ""
+
+#. Label beside page delay scale
+#: src/preferences-dialog.ui:200
+msgid "Delay"
+msgstr ""
+
+#. Preferences dialog: Label above settings for scanning multiple pages from a flatbed
+#: src/preferences-dialog.ui:215
+msgid "Multiple pages from flatbed"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:233
+msgid "3"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:243
+msgid "5"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:254
+msgid "7"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:265
+msgid "10"
+msgstr ""
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:276
+msgid "15"
+msgstr ""
+
+#. Label after page delay radio buttons
+#: src/preferences-dialog.ui:297
+msgid "Seconds"
+msgstr ""
+
+#. Preferences Dialog: Tab label for scanning settings
+#: src/preferences-dialog.ui:319
+msgid "Scanning"
 msgstr ""
 
 #. Label beside scan source combo box
+#: src/preferences-dialog.ui:339
 msgid "_Text Resolution"
 msgstr ""
 
-#. Label beside username entry
-msgid "_Username for resource:"
+#. Label beside scan source combo box
+#: src/preferences-dialog.ui:354
+msgid "_Photo Resolution"
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-msgid "scan;scanner;flatbed;adf;"
+#. Label beside brightness scale
+#: src/preferences-dialog.ui:398
+msgid "Brightness"
 msgstr ""
 
-msgid "translator-credits"
+#. Label beside contrast scale
+#: src/preferences-dialog.ui:413
+msgid "Contrast"
+msgstr ""
+
+#. Preferences Dialog: Tab for quality settings
+#: src/preferences-dialog.ui:461
+msgid "Quality"
+msgstr ""
+
+#. Combo box value for automatic paper size
+#: src/preferences-dialog.vala:72
+msgid "Automatic"
+msgstr ""
+
+#: src/preferences-dialog.vala:113
+msgid "Darker"
+msgstr ""
+
+#: src/preferences-dialog.vala:115
+msgid "Lighter"
+msgstr ""
+
+#: src/preferences-dialog.vala:123
+msgid "Less"
+msgstr ""
+
+#: src/preferences-dialog.vala:125
+msgid "More"
+msgstr ""
+
+#. Preferences dialog: Label for default resolution in resolution list
+#: src/preferences-dialog.vala:437
+#, c-format
+msgid "%d dpi (default)"
+msgstr ""
+
+#. Preferences dialog: Label for minimum resolution in resolution list
+#: src/preferences-dialog.vala:440
+#, c-format
+msgid "%d dpi (draft)"
+msgstr ""
+
+#. Preferences dialog: Label for maximum resolution in resolution list
+#: src/preferences-dialog.vala:443
+#, c-format
+msgid "%d dpi (high resolution)"
+msgstr ""
+
+#. Preferences dialog: Label for resolution value in resolution list (dpi = dots per inch)
+#: src/preferences-dialog.vala:446
+#, c-format
+msgid "%d dpi"
+msgstr ""
+
+#. Error displayed when no scanners to scan with
+#: src/scanner.vala:844
+msgid "No scanners available.  Please connect a scanner."
+msgstr ""
+
+#. Error displayed when cannot connect to scanner
+#: src/scanner.vala:874
+msgid "Unable to connect to scanner"
+msgstr ""
+
+#. Error display when unable to start scan
+#: src/scanner.vala:1251
+msgid "Unable to start scan"
+msgstr ""
+
+#. Error displayed when communication with scanner broken
+#: src/scanner.vala:1264 src/scanner.vala:1371
+msgid "Error communicating with scanner"
+msgstr ""
+
+#. Help string for command line --version flag
+#: src/simple-scan.vala:21
+msgid "Show release version"
+msgstr ""
+
+#. Help string for command line --debug flag
+#: src/simple-scan.vala:24
+msgid "Print debugging messages"
+msgstr ""
+
+#: src/simple-scan.vala:26
+msgid "Fix PDF files generated with older versions of this app"
+msgstr ""
+
+#. Title of error dialog when scan failed
+#: src/simple-scan.vala:393
+msgid "Failed to scan"
+msgstr ""
+
+#. Attempt to inhibit the screensaver when scanning
+#: src/simple-scan.vala:408
+msgid "Scan in progress"
+msgstr ""
+
+#. Arguments and description for --help text
+#: src/simple-scan.vala:585
+msgid "[DEVICE…] — Scanning utility"
+msgstr ""
+
+#. Text printed out when an unknown command-line argument provided
+#: src/simple-scan.vala:596
+#, c-format
+msgid "Run “%s --help” to see a full list of available command line options."
 msgstr ""

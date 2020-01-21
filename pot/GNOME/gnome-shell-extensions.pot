@@ -7,8 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-shell-extensions/"
+"issues\n"
+"POT-Creation-Date: 2019-11-27 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,178 +18,241 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: data/gnome-classic.desktop.in:3 data/gnome-classic.session.desktop.in:3
+msgid "GNOME Classic"
+msgstr ""
+
+#: data/gnome-classic.desktop.in:4
+msgid "This session logs you into GNOME Classic"
+msgstr ""
+
+#: extensions/apps-menu/extension.js:113
+msgid "Favorites"
+msgstr ""
+
+#: extensions/apps-menu/extension.js:369
+msgid "Applications"
+msgstr ""
+
+#: extensions/auto-move-windows/org.gnome.shell.extensions.auto-move-windows.gschema.xml:6
+msgid "Application and workspace list"
+msgstr ""
+
+#: extensions/auto-move-windows/org.gnome.shell.extensions.auto-move-windows.gschema.xml:7
 msgid ""
 "A list of strings, each containing an application id (desktop file name), "
 "followed by a colon and the workspace number"
 msgstr ""
 
-msgid "Activities Overview"
-msgstr ""
-
-msgid "Add"
-msgstr ""
-
-msgid "Add Rule"
-msgstr ""
-
-msgid "Always group windows"
-msgstr ""
-
+#: extensions/auto-move-windows/prefs.js:59
 msgid "Application"
 msgstr ""
 
-msgid "Application and workspace list"
+#: extensions/auto-move-windows/prefs.js:70
+#: extensions/auto-move-windows/prefs.js:133
+msgid "Workspace"
 msgstr ""
 
-msgid "Applications"
+#: extensions/auto-move-windows/prefs.js:88
+msgid "Add Rule"
 msgstr ""
 
-msgid "Browse Network"
-msgstr ""
-
-msgid "Close"
-msgstr ""
-
-msgid "Close all"
-msgstr ""
-
-msgid "Computer"
-msgstr ""
-
+#: extensions/auto-move-windows/prefs.js:110
 msgid "Create new matching rule"
 msgstr ""
 
-msgid "Cycle Screenshot Sizes"
-msgstr ""
-
-msgid "Cycle Screenshot Sizes Backward"
-msgstr ""
-
-msgid ""
-"Decides when to group windows from the same application on the window list. "
-"Possible values are “never”, “auto” and “always”."
+#: extensions/auto-move-windows/prefs.js:116
+msgid "Add"
 msgstr ""
 
 #. TRANSLATORS: %s is the filesystem name
+#: extensions/drive-menu/extension.js:103
+#: extensions/places-menu/placeDisplay.js:233
 #, javascript-format
 msgid "Ejecting drive “%s” failed:"
 msgstr ""
 
-#, javascript-format
-msgid "Failed to launch “%s”"
-msgstr ""
-
-#, javascript-format
-msgid "Failed to mount volume for “%s”"
-msgstr ""
-
-msgid "Favorites"
-msgstr ""
-
-msgid "GNOME Classic"
-msgstr ""
-
-msgid "Group windows when space is limited"
-msgstr ""
-
-msgid "Home"
-msgstr ""
-
-msgid ""
-"If true, place window captions on top the respective thumbnail, overriding "
-"shell default of placing it at the bottom. Changing this setting requires "
-"restarting the shell to have any effect."
-msgstr ""
-
-msgid "Maximize"
-msgstr ""
-
-msgid "Maximize all"
-msgstr ""
-
-msgid "Minimize"
-msgstr ""
-
-msgid "Minimize all"
-msgstr ""
-
-msgid "Name"
-msgstr ""
-
-msgid "Never group windows"
-msgstr ""
-
-msgid "Open Files"
-msgstr ""
-
-msgid "Place window captions on top"
-msgstr ""
-
-msgid "Places"
-msgstr ""
-
+#: extensions/drive-menu/extension.js:119
 msgid "Removable devices"
 msgstr ""
 
-msgid "Show on all monitors"
+#: extensions/drive-menu/extension.js:146
+msgid "Open Files"
 msgstr ""
 
-msgid "Show the window list on all monitors"
+#: extensions/native-window-placement/org.gnome.shell.extensions.native-window-placement.gschema.xml:5
+msgid "Use more screen for windows"
 msgstr ""
 
-msgid "The name of the theme, to be loaded from ~/.themes/name/gnome-shell"
-msgstr ""
-
-msgid "Theme name"
-msgstr ""
-
-msgid "This session logs you into GNOME Classic"
-msgstr ""
-
+#: extensions/native-window-placement/org.gnome.shell.extensions.native-window-placement.gschema.xml:6
 msgid ""
 "Try to use more screen for placing window thumbnails by adapting to screen "
 "aspect ratio, and consolidating them further to reduce the bounding box. "
 "This setting applies only with the natural placement strategy."
 msgstr ""
 
-msgid "Unmaximize"
+#: extensions/native-window-placement/org.gnome.shell.extensions.native-window-placement.gschema.xml:11
+msgid "Place window captions on top"
 msgstr ""
 
-msgid "Unmaximize all"
+#: extensions/native-window-placement/org.gnome.shell.extensions.native-window-placement.gschema.xml:12
+msgid ""
+"If true, place window captions on top the respective thumbnail, overriding "
+"shell default of placing it at the bottom. Changing this setting requires "
+"restarting the shell to have any effect."
 msgstr ""
 
+#: extensions/places-menu/extension.js:80
+#: extensions/places-menu/extension.js:84
+msgid "Places"
+msgstr ""
+
+#: extensions/places-menu/placeDisplay.js:46
+#, javascript-format
+msgid "Failed to launch “%s”"
+msgstr ""
+
+#: extensions/places-menu/placeDisplay.js:61
+#, javascript-format
+msgid "Failed to mount volume for “%s”"
+msgstr ""
+
+#: extensions/places-menu/placeDisplay.js:148
+#: extensions/places-menu/placeDisplay.js:171
+msgid "Computer"
+msgstr ""
+
+#: extensions/places-menu/placeDisplay.js:359
+msgid "Home"
+msgstr ""
+
+#: extensions/places-menu/placeDisplay.js:404
+msgid "Browse Network"
+msgstr ""
+
+#: extensions/screenshot-window-sizer/org.gnome.shell.extensions.screenshot-window-sizer.gschema.xml:7
+msgid "Cycle Screenshot Sizes"
+msgstr ""
+
+#: extensions/screenshot-window-sizer/org.gnome.shell.extensions.screenshot-window-sizer.gschema.xml:11
+msgid "Cycle Screenshot Sizes Backward"
+msgstr ""
+
+#: extensions/user-theme/org.gnome.shell.extensions.user-theme.gschema.xml:5
+msgid "Theme name"
+msgstr ""
+
+#: extensions/user-theme/org.gnome.shell.extensions.user-theme.gschema.xml:6
+msgid "The name of the theme, to be loaded from ~/.themes/name/gnome-shell"
+msgstr ""
+
+#: extensions/window-list/extension.js:98
+msgid "Close"
+msgstr ""
+
+#: extensions/window-list/extension.js:118
 msgid "Unminimize"
 msgstr ""
 
+#: extensions/window-list/extension.js:118
+msgid "Minimize"
+msgstr ""
+
+#: extensions/window-list/extension.js:125
+msgid "Unmaximize"
+msgstr ""
+
+#: extensions/window-list/extension.js:125
+msgid "Maximize"
+msgstr ""
+
+#: extensions/window-list/extension.js:428
+msgid "Minimize all"
+msgstr ""
+
+#: extensions/window-list/extension.js:434
 msgid "Unminimize all"
 msgstr ""
 
-msgid "Use more screen for windows"
+#: extensions/window-list/extension.js:440
+msgid "Maximize all"
 msgstr ""
 
+#: extensions/window-list/extension.js:448
+msgid "Unmaximize all"
+msgstr ""
+
+#: extensions/window-list/extension.js:456
+msgid "Close all"
+msgstr ""
+
+#: extensions/window-list/extension.js:736
+msgid "Window List"
+msgstr ""
+
+#: extensions/window-list/org.gnome.shell.extensions.window-list.gschema.xml:12
 msgid "When to group windows"
 msgstr ""
 
+#: extensions/window-list/org.gnome.shell.extensions.window-list.gschema.xml:13
+msgid ""
+"Decides when to group windows from the same application on the window list. "
+"Possible values are “never”, “auto” and “always”."
+msgstr ""
+
+#: extensions/window-list/org.gnome.shell.extensions.window-list.gschema.xml:20
+#: extensions/window-list/prefs.js:82
+msgid "Show windows from all workspaces"
+msgstr ""
+
+#: extensions/window-list/org.gnome.shell.extensions.window-list.gschema.xml:21
+msgid "Whether to show windows from all workspaces or only the current one."
+msgstr ""
+
+#: extensions/window-list/org.gnome.shell.extensions.window-list.gschema.xml:27
+msgid "Show the window list on all monitors"
+msgstr ""
+
+#: extensions/window-list/org.gnome.shell.extensions.window-list.gschema.xml:28
 msgid ""
 "Whether to show the window list on all connected monitors or only on the "
 "primary one."
 msgstr ""
 
+#: extensions/window-list/prefs.js:25
 msgid "Window Grouping"
 msgstr ""
 
-msgid "Window List"
+#: extensions/window-list/prefs.js:47
+msgid "Never group windows"
 msgstr ""
 
-msgid "Workspace"
+#: extensions/window-list/prefs.js:48
+msgid "Group windows when space is limited"
 msgstr ""
 
-#, javascript-format
-msgid "Workspace %d"
+#: extensions/window-list/prefs.js:49
+msgid "Always group windows"
 msgstr ""
 
+#: extensions/window-list/prefs.js:75
+msgid "Show on all monitors"
+msgstr ""
+
+#: extensions/window-list/workspaceIndicator.js:209
+#: extensions/workspace-indicator/extension.js:215
 msgid "Workspace Indicator"
 msgstr ""
 
+#: extensions/workspace-indicator/prefs.js:129
 msgid "Workspace Names"
+msgstr ""
+
+#: extensions/workspace-indicator/prefs.js:149
+msgid "Name"
+msgstr ""
+
+#: extensions/workspace-indicator/prefs.js:189
+#, javascript-format
+msgid "Workspace %d"
 msgstr ""

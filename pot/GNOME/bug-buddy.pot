@@ -1,0 +1,512 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=bug-"
+"buddy&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-04-08 13:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/bug-buddy.gtkbuilder.h:1 ../src/bug-buddy.c:1942
+msgid "Bug Buddy"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:2
+msgid "<span size=\"xx-large\"><b>Bug reporting tool</b></span>"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:3
+msgid "<b>What _were you doing when the application crashed?</b>"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:4
+msgid "<b>Your _email address:</b> "
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:5
+msgid ""
+"<small><i><b>Note:</b>  Sensitive information may be present in the crash "
+"details.  Please review the crash details if you are concerned about "
+"transmitting passwords or other sensitive information.</i></small>"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:6
+msgid "_Review Crash Details"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:7
+msgid "Send _other pending crash reports"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:8
+msgid "_Send"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:9
+msgid "Review Crash Details"
+msgstr ""
+
+#: ../data/bug-buddy.gtkbuilder.h:10
+msgid "C_opy"
+msgstr ""
+
+#: ../data/bug-buddy.desktop.in.in.h:1
+msgid "Bug Report Tool"
+msgstr ""
+
+#: ../data/bug-buddy.desktop.in.in.h:2
+msgid "Report a bug in GNOME-based applications"
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:1
+msgid "Bug reporter name"
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:2
+msgid "Real name of user reporting the bug."
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:3
+msgid "Email Address"
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:4
+msgid ""
+"Email Address for submitting bug reports to GNOME Bugzilla. This address "
+"will be used for correspondence regarding the bug you are submitting. If you "
+"already have a GNOME Bugzilla account, please use it as your Email Address."
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:5
+msgid "File to store unsent bug reports."
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:6
+msgid ""
+"File where bug-buddy will save your bug report in case it can't be sent "
+"immediately to Bugzilla."
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:7
+msgid "GTK+ module for crash collection support."
+msgstr ""
+
+#: ../data/bug-buddy.schemas.in.h:8
+msgid ""
+"This key determines the GTK+ module to load for crash collection support."
+msgstr ""
+
+#: ../src/bug-buddy.c:82
+msgid "GNOME Bug Buddy"
+msgstr ""
+
+#: ../src/bug-buddy.c:90
+msgid "Package containing the program"
+msgstr ""
+
+#: ../src/bug-buddy.c:90
+msgid "PACKAGE"
+msgstr ""
+
+#: ../src/bug-buddy.c:91
+msgid "File name of crashed program"
+msgstr ""
+
+#: ../src/bug-buddy.c:91 ../src/bug-buddy.c:93
+msgid "FILE"
+msgstr ""
+
+#: ../src/bug-buddy.c:92
+msgid "PID of crashed program"
+msgstr ""
+
+#: ../src/bug-buddy.c:92
+msgid "PID"
+msgstr ""
+
+#: ../src/bug-buddy.c:93
+msgid "Text file to include in the report"
+msgstr ""
+
+#: ../src/bug-buddy.c:94
+msgid "Delete the included file after reporting"
+msgstr ""
+
+#: ../src/bug-buddy.c:376
+msgid "Copy _Link Address"
+msgstr ""
+
+#: ../src/bug-buddy.c:425
+#, c-format
+msgid "Bug Buddy was unable to display the link \"%s\"\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:460
+msgid ""
+"There was a network error while sending the report. Do you want to save this "
+"report and send it later?"
+msgstr ""
+
+#: ../src/bug-buddy.c:463
+msgid ""
+"Please ensure that your Internet connection is active and working correctly."
+msgstr ""
+
+#: ../src/bug-buddy.c:550 ../src/bug-buddy.c:1184
+msgid "_Close"
+msgstr ""
+
+#: ../src/bug-buddy.c:594
+#, c-format
+msgid ""
+"A bug report detailing your software crash has been sent to GNOME. This "
+"information will allow the developers to understand the cause of the crash "
+"and prepare a solution for it.\n"
+"\n"
+"You may be contacted by a GNOME developer if more details are required about "
+"the crash.\n"
+"\n"
+"You can view your bug report and follow its progress with this URL:\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:605
+msgid ""
+"Bug Buddy encountered an error while submitting your report to the Bugzilla "
+"server.  Details of the error are included below.\n"
+"\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:611
+#, c-format
+msgid ""
+"Bugzilla reported an error when trying to process your request, but was "
+"unable to parse the response."
+msgstr ""
+
+#: ../src/bug-buddy.c:614
+#, c-format
+msgid "The email address you provided is not valid."
+msgstr ""
+
+#: ../src/bug-buddy.c:616
+#, c-format
+msgid ""
+"The account associated with the email address provided has been disabled."
+msgstr ""
+
+#: ../src/bug-buddy.c:619
+#, c-format
+msgid ""
+"The product specified doesn't exist or has been renamed.  Please upgrade to "
+"the latest version."
+msgstr ""
+
+#: ../src/bug-buddy.c:622
+#, c-format
+msgid ""
+"The component specified doesn't exist or has been renamed.  Please upgrade "
+"to the latest version."
+msgstr ""
+
+#: ../src/bug-buddy.c:625
+#, c-format
+msgid ""
+"The summary is required in your bug report. This should not happen with the "
+"latest Bug Buddy."
+msgstr ""
+
+#: ../src/bug-buddy.c:628
+#, c-format
+msgid ""
+"The description is required in your bug report. This should not happen with "
+"the latest Bug Buddy."
+msgstr ""
+
+#: ../src/bug-buddy.c:631
+#, c-format
+msgid ""
+"The fault code returned by Bugzilla is not recognized. Please report the "
+"following information to bugzilla.gnome.org manually:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/bug-buddy.c:638
+#, c-format
+msgid ""
+"Server returned bad state.  This is most likely a server issue and should be "
+"reported to bugmaster@gnome.org\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/bug-buddy.c:643
+#, c-format
+msgid ""
+"Failed to parse the XML-RPC response.  Response follows:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/bug-buddy.c:647
+#, c-format
+msgid ""
+"An unknown error occurred.  This is most likely a problem with Bug Buddy. "
+"Please report this problem manually at bugzilla.gnome.org\n"
+"\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:803
+#, c-format
+msgid "Unable to create the bug report: %s\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:805
+#, c-format
+msgid "There was an error creating the bug report\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:865
+msgid "Sending…"
+msgstr ""
+
+#: ../src/bug-buddy.c:1025
+msgid ""
+"The description you provided for the crash is very short. Are you sure you "
+"want to send it?"
+msgstr ""
+
+#: ../src/bug-buddy.c:1032
+msgid ""
+"A short description is probably not of much help to the developers "
+"investigating your report. If you provide a better one, for instance "
+"specifying a way to reproduce the crash, the issue can be more easily "
+"resolved."
+msgstr ""
+
+#: ../src/bug-buddy.c:1040
+msgid "_Review description"
+msgstr ""
+
+#: ../src/bug-buddy.c:1049
+msgid "_Send anyway"
+msgstr ""
+
+#. Translators: This is the hyperlink which takes to http://live.gnome.org/GettingTraces/DistroSpecificInstructions
+#. * page. Please also mention that the page is in English
+#: ../src/bug-buddy.c:1146
+msgid "Getting useful crash reports"
+msgstr ""
+
+#: ../src/bug-buddy.c:1164
+#, c-format
+msgid ""
+"The application %s crashed. The bug reporting tool was unable to collect "
+"enough information about the crash to be useful to the developers.\n"
+"\n"
+"In order to submit useful reports, please consider installing debug packages "
+"for your distribution.\n"
+"Click the link below to get information about how to install these "
+"packages:\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:1202 ../src/bug-buddy.c:2091
+msgid ""
+"\n"
+"\n"
+"Please write your report in English, if possible."
+msgstr ""
+
+#: ../src/bug-buddy.c:1215
+#, c-format
+msgid ""
+"Information about the %s application crash has been successfully collected.  "
+"Please provide some more details about what you were doing when the "
+"application crashed.\n"
+"\n"
+"A valid email address is required.  This will allow the developers to "
+"contact you for more information if necessary."
+msgstr ""
+
+#: ../src/bug-buddy.c:1252
+msgid "WARNING:"
+msgstr ""
+
+#: ../src/bug-buddy.c:1253
+msgid ""
+"Some sensitive data is likely present in the crash details.  Please review "
+"and edit the information if you are concerned about transmitting passwords "
+"or other sensitive data."
+msgstr ""
+
+#: ../src/bug-buddy.c:1290
+msgid "Save File"
+msgstr ""
+
+#: ../src/bug-buddy.c:1310
+msgid "-bugreport.txt"
+msgstr ""
+
+#: ../src/bug-buddy.c:1368
+msgid "_Save Bug Report"
+msgstr ""
+
+#: ../src/bug-buddy.c:1373
+#, c-format
+msgid ""
+"The application %s has crashed.\n"
+"Information about the crash has been successfully collected.\n"
+"\n"
+"This application is not known to Bug Buddy, therefore the bug report cannot "
+"be sent to the GNOME Bugzilla.  Please save the bug to a text file and "
+"report it to the appropriate bug tracker for this application."
+msgstr ""
+
+#: ../src/bug-buddy.c:1462
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr ""
+
+#: ../src/bug-buddy.c:1923
+msgid ""
+"\n"
+"\n"
+"Bug Buddy is a utility that helps report debugging\n"
+"information to the GNOME Bugzilla when a program crashes."
+msgstr ""
+
+#: ../src/bug-buddy.c:1975
+msgid ""
+"Bug Buddy could not load its user interface file.\n"
+"Please make sure Bug Buddy was installed correctly."
+msgstr ""
+
+#: ../src/bug-buddy.c:1992
+msgid "Collecting information from your system…"
+msgstr ""
+
+#: ../src/bug-buddy.c:1995
+msgid "Either --appname or --package arguments are required.\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:2001
+msgid "Either --pid or --include arguments are required.\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:2006
+msgid "The --unlink-tempfile option needs an --include argument.\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:2013
+msgid ""
+"Bug Buddy was unable to retrieve information regarding the version of GNOME "
+"you are running.  This is most likely due to a missing installation of gnome-"
+"desktop.\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:2035
+#, c-format
+msgid ""
+"The %s application has crashed.  We are collecting information about the "
+"crash to send to the developers in order to fix the problem."
+msgstr ""
+
+#: ../src/bug-buddy.c:2052
+msgid "Collecting information from the crash…"
+msgstr ""
+
+#: ../src/bug-buddy.c:2069
+#, c-format
+msgid ""
+"Bug Buddy encountered the following error when trying to retrieve debugging "
+"information: %s\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:2099
+#, c-format
+msgid ""
+"Bug Buddy doesn't know how to send a suggestion for the application %s.\n"
+msgstr ""
+
+#: ../src/bug-buddy.c:2119
+#, c-format
+msgid ""
+"Thank you for helping us to improve our software.\n"
+"Please fill in your suggestions/error information for %s application.\n"
+"\n"
+"A valid email address is required. This will allow developers to contact you "
+"for more information if necessary."
+msgstr ""
+
+#: ../src/bug-buddy.c:2131
+msgid "Suggestion / Error description:"
+msgstr ""
+
+#: ../src/bugzilla.c:413
+#, c-format
+msgid "HTTP Response returned bad status code %d"
+msgstr ""
+
+#: ../src/bugzilla.c:429
+#, c-format
+msgid ""
+"Unable to parse XML-RPC response\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/bugzilla.c:461
+#, c-format
+msgid "Application does not track its bugs in the GNOME Bugzilla."
+msgstr ""
+
+#: ../src/bugzilla.c:467
+#, c-format
+msgid "Product or component not specified."
+msgstr ""
+
+#: ../src/bugzilla.c:516
+#, c-format
+msgid "Unable to create XML-RPC message."
+msgstr ""
+
+#: ../src/gdb-buddy.c:50
+msgid "gdb has already exited"
+msgstr ""
+
+#: ../src/gdb-buddy.c:91
+msgid "Error on read; aborting."
+msgstr ""
+
+#: ../src/gdb-buddy.c:259
+#, c-format
+msgid ""
+"GDB could not be found on your system. Debugging information will not be "
+"obtained."
+msgstr ""
+
+#: ../src/gdb-buddy.c:268
+#, c-format
+msgid ""
+"Could not find the gdb-cmd file.\n"
+"Please try reinstalling Bug Buddy."
+msgstr ""
+
+#: ../src/gdb-buddy.c:283
+#, c-format
+msgid ""
+"There was an error running gdb:\n"
+"\n"
+"%s"
+msgstr ""

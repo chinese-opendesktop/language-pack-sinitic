@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/baobab/issues\n"
+"POT-Creation-Date: 2019-11-23 21:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,247 +16,333 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#, c-format
-msgid "%d item%d items"
+#: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
+#: src/baobab-main-window.ui:120 src/baobab-window.vala:310
+msgid "Disk Usage Analyzer"
 msgstr ""
 
-#. Translators: when the last modified time is "days" days ago
-#, c-format
-msgid "%lu day%lu days"
+#: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
+msgid "Check folder sizes and available disk space"
 msgstr ""
 
-#. Translators: when the last modified time is "months" months ago
-#, c-format
-msgid "%lu month%lu months"
-msgstr ""
-
-#. Translators: when the last modified time is "years" years ago
-#, c-format
-msgid "%lu year%lu years"
-msgstr ""
-
-#, c-format
-msgid "%s Available"
-msgstr ""
-
-#, c-format
-msgid "%s Total"
-msgstr ""
-
-#. useful for some remote mounts where we don't know the
-#. size but do have a usage figure
-#, c-format
-msgid "%s Used"
-msgstr ""
-
-msgid "A graphical tool to analyze disk usage."
-msgstr ""
-
-msgid "A list of URIs for partitions to be excluded from scanning."
-msgstr ""
-
+#: data/org.gnome.baobab.appdata.xml.in:9
 msgid ""
 "A simple application to keep your disk usage and available space under "
 "control."
 msgstr ""
 
-msgid "Active Chart"
-msgstr ""
-
-msgid "Apparent sizes are shown instead."
-msgstr ""
-
-msgid "Baobab"
-msgstr ""
-
-msgid "Check folder sizes and available disk space"
-msgstr ""
-
-msgid "Close"
-msgstr ""
-
-#, c-format
-msgid "Completed scan of “%s”"
-msgstr ""
-
-msgid "Computer"
-msgstr ""
-
-msgid "Contents"
-msgstr ""
-
-msgid "Could not analyze disk usage."
-msgstr ""
-
-msgid "Could not analyze volume."
-msgstr ""
-
-msgid "Could not detect occupied disk sizes."
-msgstr ""
-
-#, c-format
-msgid "Could not scan folder “%s”"
-msgstr ""
-
-#, c-format
-msgid "Could not scan some of the folders contained in “%s”"
-msgstr ""
-
-msgid "Devices & Locations"
-msgstr ""
-
-msgid "Disk Usage Analyzer"
-msgstr ""
-
+#: data/org.gnome.baobab.appdata.xml.in:12
 msgid ""
 "Disk Usage Analyzer can scan specific folders, storage devices and online "
 "accounts. It provides both a tree and a graphical representation showing the "
 "size of each folder, making it easy to identify where disk space is wasted."
 msgstr ""
 
-msgid "Excluded partitions URIs"
-msgstr ""
-
-msgid "Failed to move file to the trash"
-msgstr ""
-
-msgid "Failed to open file"
-msgstr ""
-
-msgid "Failed to show help"
-msgstr ""
-
-msgid "Folder"
-msgstr ""
-
-msgid "General"
-msgstr ""
-
-msgid "Go back to location list"
-msgstr ""
-
-msgid "Go to _parent folder"
-msgstr ""
-
-msgid "Home folder"
-msgstr ""
-
-msgid "Keyboard _Shortcuts"
-msgstr ""
-
-msgid "Mo_ve to Trash"
-msgstr ""
-
-msgid "Modified"
-msgstr ""
-
-msgid "Print version information and exit"
-msgstr ""
-
-msgid "Quit"
-msgstr ""
-
-msgid "Recursively analyze mount points"
-msgstr ""
-
-msgid "Remote Locations"
-msgstr ""
-
-msgid "Rescan current location"
-msgstr ""
-
-msgid "Rings Chart"
-msgstr ""
-
-msgid "Scan Folder…"
-msgstr ""
-
-msgid "Scan completed"
-msgstr ""
-
-msgid "Scan folder"
-msgstr ""
-
-msgid "Select Folder"
-msgstr ""
-
-msgid "Show / Hide primary menu"
-msgstr ""
-
-msgid "Show Keyboard Shortcuts"
-msgstr ""
-
-msgid "Size"
-msgstr ""
-
+#: data/org.gnome.baobab.appdata.xml.in:34
 msgid "The GNOME Project"
 msgstr ""
 
-msgid "The GdkWindowState of the window"
-msgstr ""
-
-msgid "The initial size of the window"
-msgstr ""
-
-msgid "This Computer"
-msgstr ""
-
-#. Translators: when the last modified time is today
-msgid "Today"
-msgstr ""
-
-msgid "Treemap Chart"
-msgstr ""
-
-#. Translators: when the last modified time is unknown
-msgid "Unknown"
-msgstr ""
-
-msgid "Unmounted"
-msgstr ""
-
-msgid "Which type of chart should be displayed."
-msgstr ""
-
-msgid "Window size"
-msgstr ""
-
-msgid "Window state"
-msgstr ""
-
-msgid "Zoom _in"
-msgstr ""
-
-msgid "Zoom _out"
-msgstr ""
-
-msgid "_About Disk Usage Analyzer"
-msgstr ""
-
-msgid "_Cancel"
-msgstr ""
-
-msgid "_Copy Path to Clipboard"
-msgstr ""
-
-msgid "_Help"
-msgstr ""
-
-msgid "_Open"
-msgstr ""
-
-msgid "_Open Folder"
-msgstr ""
-
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.baobab.desktop.in:6
 msgid "storage;space;cleanup;"
 msgstr ""
 
+#: data/org.gnome.baobab.gschema.xml:9
+msgid "Excluded partitions URIs"
+msgstr ""
+
+#: data/org.gnome.baobab.gschema.xml:10
+msgid "A list of URIs for partitions to be excluded from scanning."
+msgstr ""
+
+#: data/org.gnome.baobab.gschema.xml:20
+msgid "Active Chart"
+msgstr ""
+
+#: data/org.gnome.baobab.gschema.xml:21
+msgid "Which type of chart should be displayed."
+msgstr ""
+
+#: data/org.gnome.baobab.gschema.xml:25
+msgid "Window size"
+msgstr ""
+
+#: data/org.gnome.baobab.gschema.xml:26
+msgid "The initial size of the window"
+msgstr ""
+
+#: data/org.gnome.baobab.gschema.xml:30
+msgid "Window state"
+msgstr ""
+
+#: data/org.gnome.baobab.gschema.xml:31
+msgid "The GdkWindowState of the window"
+msgstr ""
+
+#: src/baobab-application.vala:30
+msgid "Print version information and exit"
+msgstr ""
+
+#: src/baobab-cellrenderers.vala:91
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: when the last modified time is unknown
+#: src/baobab-cellrenderers.vala:101 src/baobab-location-list.vala:79
+msgid "Unknown"
+msgstr ""
+
+#. Translators: when the last modified time is today
+#: src/baobab-cellrenderers.vala:110
+msgid "Today"
+msgstr ""
+
+#. Translators: when the last modified time is "days" days ago
+#: src/baobab-cellrenderers.vala:114
+#, c-format
+msgid "%lu day"
+msgid_plural "%lu days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: when the last modified time is "months" months ago
+#: src/baobab-cellrenderers.vala:118
+#, c-format
+msgid "%lu month"
+msgid_plural "%lu months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: when the last modified time is "years" years ago
+#: src/baobab-cellrenderers.vala:122
+#, c-format
+msgid "%lu year"
+msgid_plural "%lu years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/baobab-location-list.ui:17
+msgid "This Computer"
+msgstr ""
+
+#: src/baobab-location-list.ui:47
+msgid "Remote Locations"
+msgstr ""
+
+#: src/baobab-location-list.vala:66
+#, c-format
+msgid "%s Total"
+msgstr ""
+
+#: src/baobab-location-list.vala:70
+#, c-format
+msgid "%s Available"
+msgstr ""
+
+#. useful for some remote mounts where we don't know the
+#. size but do have a usage figure
+#: src/baobab-location-list.vala:84
+#, c-format
+msgid "%s Used"
+msgstr ""
+
+#: src/baobab-location-list.vala:86
+msgid "Unmounted"
+msgstr ""
+
+#: src/baobab-location.vala:73
+msgid "Home folder"
+msgstr ""
+
+#: src/baobab-location.vala:113
+msgid "Computer"
+msgstr ""
+
+#: src/baobab-main-window.ui:7
+msgid "Scan Folder…"
+msgstr ""
+
+#: src/baobab-main-window.ui:13
+msgid "Keyboard _Shortcuts"
+msgstr ""
+
+#: src/baobab-main-window.ui:17
+msgid "_Help"
+msgstr ""
+
+#: src/baobab-main-window.ui:21
+msgid "_About Disk Usage Analyzer"
+msgstr ""
+
+#: src/baobab-main-window.ui:34 src/menus.ui:7
+msgid "_Open Folder"
+msgstr ""
+
+#: src/baobab-main-window.ui:43 src/menus.ui:11
+msgid "_Copy Path to Clipboard"
+msgstr ""
+
+#: src/baobab-main-window.ui:52 src/menus.ui:15
+msgid "Mo_ve to Trash"
+msgstr ""
+
+#: src/baobab-main-window.ui:184
+msgid "Close"
+msgstr ""
+
+#: src/baobab-main-window.ui:239
+msgid "Folder"
+msgstr ""
+
+#: src/baobab-main-window.ui:266
+msgid "Size"
+msgstr ""
+
+#: src/baobab-main-window.ui:286
+msgid "Contents"
+msgstr ""
+
+#: src/baobab-main-window.ui:304
+msgid "Modified"
+msgstr ""
+
+#: src/baobab-main-window.ui:349
+msgid "Rings Chart"
+msgstr ""
+
+#: src/baobab-main-window.ui:361
+msgid "Treemap Chart"
+msgstr ""
+
+#: src/baobab-window.vala:215
+msgid "Select Folder"
+msgstr ""
+
+#: src/baobab-window.vala:217
+msgid "_Cancel"
+msgstr ""
+
+#: src/baobab-window.vala:218
+msgid "_Open"
+msgstr ""
+
+#: src/baobab-window.vala:224
+msgid "Recursively analyze mount points"
+msgstr ""
+
+#: src/baobab-window.vala:259
+msgid "Could not analyze volume."
+msgstr ""
+
+#: src/baobab-window.vala:291
+msgid "Failed to show help"
+msgstr ""
+
+#: src/baobab-window.vala:313
+msgid "A graphical tool to analyze disk usage."
+msgstr ""
+
+#: src/baobab-window.vala:319
 msgid "translator-credits"
 msgstr ""
 
+#: src/baobab-window.vala:381
+msgid "Failed to open file"
+msgstr ""
+
+#: src/baobab-window.vala:401
+msgid "Failed to move file to the trash"
+msgstr ""
+
+#: src/baobab-window.vala:505
+msgid "Devices & Locations"
+msgstr ""
+
+#: src/baobab-window.vala:567
+#, c-format
+msgid "Could not scan folder “%s”"
+msgstr ""
+
+#: src/baobab-window.vala:570
+#, c-format
+msgid "Could not scan some of the folders contained in “%s”"
+msgstr ""
+
+#: src/baobab-window.vala:589
+msgid "Could not detect occupied disk sizes."
+msgstr ""
+
+#: src/baobab-window.vala:589
+msgid "Apparent sizes are shown instead."
+msgstr ""
+
+#: src/baobab-window.vala:593
+msgid "Scan completed"
+msgstr ""
+
+#: src/baobab-window.vala:594
+#, c-format
+msgid "Completed scan of “%s”"
+msgstr ""
+
 #. || is_virtual_filesystem ()
+#: src/baobab-window.vala:612 src/baobab-window.vala:618
 #, c-format
 msgid "“%s” is not a valid folder"
+msgstr ""
+
+#: src/baobab-window.vala:613 src/baobab-window.vala:619
+msgid "Could not analyze disk usage."
+msgstr ""
+
+#: src/help-overlay.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: src/help-overlay.ui:18
+msgctxt "shortcut window"
+msgid "Show / Hide primary menu"
+msgstr ""
+
+#: src/help-overlay.ui:25
+msgctxt "shortcut window"
+msgid "Rescan current location"
+msgstr ""
+
+#: src/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Scan folder"
+msgstr ""
+
+#: src/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Show Keyboard Shortcuts"
+msgstr ""
+
+#: src/help-overlay.ui:46
+msgctxt "shortcut window"
+msgid "Go back to location list"
+msgstr ""
+
+#: src/help-overlay.ui:52
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: src/menus.ui:21
+msgid "Go to _parent folder"
+msgstr ""
+
+#: src/menus.ui:27
+msgid "Zoom _in"
+msgstr ""
+
+#: src/menus.ui:31
+msgid "Zoom _out"
 msgstr ""

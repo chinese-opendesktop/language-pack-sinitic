@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libgtop/issues\n"
+"POT-Creation-Date: 2019-10-31 19:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,127 +16,174 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgid "Abort"
+#: lib/read.c:49
+#, c-format
+msgid "read %d byte"
+msgid_plural "read %d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/read_data.c:49
+msgid "read data size"
 msgstr ""
 
-msgid "Alarm clock"
-msgstr ""
+#: lib/read_data.c:66
+#, c-format
+msgid "read %lu byte of data"
+msgid_plural "read %lu bytes of data"
+msgstr[0] ""
+msgstr[1] ""
 
-msgid "Background read from tty"
-msgstr ""
+#: lib/write.c:49
+#, c-format
+msgid "wrote %d byte"
+msgid_plural "wrote %d bytes"
+msgstr[0] ""
+msgstr[1] ""
 
-msgid "Background write to tty"
-msgstr ""
-
-msgid "Bad argument to system call"
-msgstr ""
-
-msgid "Broken pipe"
-msgstr ""
-
-msgid "Bus error"
-msgstr ""
-
-msgid "CPU limit exceeded"
-msgstr ""
-
-msgid "Child status has changed"
-msgstr ""
-
-msgid "Continue"
-msgstr ""
-
-msgid "Don’t fork into background"
-msgstr ""
-
-msgid "EMT error"
-msgstr ""
-
+#: src/daemon/gnuserv.c:456
 msgid "Enable debugging"
 msgstr ""
 
+#: src/daemon/gnuserv.c:458
 msgid "Enable verbose output"
 msgstr ""
 
-msgid "File size limit exceeded"
+#: src/daemon/gnuserv.c:460
+msgid "Don’t fork into background"
 msgstr ""
 
-msgid "Floating-point exception"
-msgstr ""
-
-msgid "Hangup"
-msgstr ""
-
-msgid "I/O now possible"
-msgstr ""
-
-msgid "Illegal instruction"
-msgstr ""
-
-msgid "Information request"
-msgstr ""
-
-msgid "Interrupt"
-msgstr ""
-
+#: src/daemon/gnuserv.c:462
 msgid "Invoked from inetd"
 msgstr ""
 
-msgid "Keyboard stop"
-msgstr ""
-
-msgid "Kill"
-msgstr ""
-
-msgid "Profiling alarm clock"
-msgstr ""
-
-msgid "Quit"
-msgstr ""
-
+#: src/daemon/gnuserv.c:498
 #, c-format
 msgid "Run “%s --help” to see a full list of available command line options.\n"
 msgstr ""
 
-msgid "Segmentation violation"
+#: sysdeps/osf1/siglist.c:27 sysdeps/sun4/siglist.c:27
+msgid "Hangup"
 msgstr ""
 
-msgid "Stop"
+#: sysdeps/osf1/siglist.c:28 sysdeps/sun4/siglist.c:28
+msgid "Interrupt"
 msgstr ""
 
-msgid "Termination"
+#: sysdeps/osf1/siglist.c:29 sysdeps/sun4/siglist.c:29
+msgid "Quit"
 msgstr ""
 
+#: sysdeps/osf1/siglist.c:30 sysdeps/sun4/siglist.c:30
+msgid "Illegal instruction"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:31 sysdeps/sun4/siglist.c:31
 msgid "Trace trap"
 msgstr ""
 
+#: sysdeps/osf1/siglist.c:32 sysdeps/sun4/siglist.c:32
+msgid "Abort"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:33 sysdeps/sun4/siglist.c:33
+msgid "EMT error"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:34 sysdeps/sun4/siglist.c:34
+msgid "Floating-point exception"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:35 sysdeps/sun4/siglist.c:35
+msgid "Kill"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:36 sysdeps/sun4/siglist.c:36
+msgid "Bus error"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:37 sysdeps/sun4/siglist.c:37
+msgid "Segmentation violation"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:38 sysdeps/sun4/siglist.c:38
+msgid "Bad argument to system call"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:39 sysdeps/sun4/siglist.c:39
+msgid "Broken pipe"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:40 sysdeps/sun4/siglist.c:40
+msgid "Alarm clock"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:41 sysdeps/sun4/siglist.c:41
+msgid "Termination"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:42 sysdeps/sun4/siglist.c:42
 msgid "Urgent condition on socket"
 msgstr ""
 
-msgid "User defined signal 1"
+#: sysdeps/osf1/siglist.c:43 sysdeps/sun4/siglist.c:43
+msgid "Stop"
 msgstr ""
 
-msgid "User defined signal 2"
+#: sysdeps/osf1/siglist.c:44 sysdeps/sun4/siglist.c:44
+msgid "Keyboard stop"
 msgstr ""
 
+#: sysdeps/osf1/siglist.c:45 sysdeps/sun4/siglist.c:45
+msgid "Continue"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:46 sysdeps/sun4/siglist.c:46
+msgid "Child status has changed"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:47 sysdeps/sun4/siglist.c:47
+msgid "Background read from tty"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:48 sysdeps/sun4/siglist.c:48
+msgid "Background write to tty"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:49 sysdeps/sun4/siglist.c:49
+msgid "I/O now possible"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:50 sysdeps/sun4/siglist.c:50
+msgid "CPU limit exceeded"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:51 sysdeps/sun4/siglist.c:51
+msgid "File size limit exceeded"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:52 sysdeps/sun4/siglist.c:52
 msgid "Virtual alarm clock"
 msgstr ""
 
+#: sysdeps/osf1/siglist.c:53 sysdeps/sun4/siglist.c:53
+msgid "Profiling alarm clock"
+msgstr ""
+
+#: sysdeps/osf1/siglist.c:54 sysdeps/sun4/siglist.c:54
 msgid "Window size change"
 msgstr ""
 
-#, c-format
-msgid "read %d byteread %d bytes"
+#: sysdeps/osf1/siglist.c:55 sysdeps/sun4/siglist.c:55
+msgid "Information request"
 msgstr ""
 
-#, c-format
-msgid "read %lu byte of dataread %lu bytes of data"
+#: sysdeps/osf1/siglist.c:56 sysdeps/sun4/siglist.c:56
+msgid "User defined signal 1"
 msgstr ""
 
-msgid "read data size"
-msgstr ""
-
-#, c-format
-msgid "wrote %d bytewrote %d bytes"
+#: sysdeps/osf1/siglist.c:57 sysdeps/sun4/siglist.c:57
+msgid "User defined signal 2"
 msgstr ""

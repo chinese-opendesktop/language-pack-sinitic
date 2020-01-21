@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU make 4.2.91\n"
+"Project-Id-Version: GNU make 4.2.93\n"
 "Report-Msgid-Bugs-To: bug-make@gnu.org\n"
-"POT-Creation-Date: 2019-09-16 08:26-0400\n"
+"POT-Creation-Date: 2020-01-03 02:30-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,123 +237,123 @@ msgstr ""
 msgid "Removing intermediate files...\n"
 msgstr ""
 
-#: src/file.c:821
+#: src/file.c:871
 msgid "Current time"
 msgstr ""
 
-#: src/file.c:825
+#: src/file.c:875
 #, c-format
 msgid "%s: Timestamp out of range; substituting %s"
 msgstr ""
 
-#: src/file.c:965
+#: src/file.c:1015
 msgid "# Not a target:"
 msgstr ""
 
-#: src/file.c:970
+#: src/file.c:1020
 msgid "#  Precious file (prerequisite of .PRECIOUS)."
 msgstr ""
 
-#: src/file.c:972
+#: src/file.c:1022
 msgid "#  Phony target (prerequisite of .PHONY)."
 msgstr ""
 
-#: src/file.c:974
+#: src/file.c:1024
 msgid "#  Command line target."
 msgstr ""
 
-#: src/file.c:976
+#: src/file.c:1026
 msgid "#  A default, MAKEFILES, or -include/sinclude makefile."
 msgstr ""
 
-#: src/file.c:978
+#: src/file.c:1028
 msgid "#  Builtin rule"
 msgstr ""
 
-#: src/file.c:980
+#: src/file.c:1030
 msgid "#  Implicit rule search has been done."
 msgstr ""
 
-#: src/file.c:981
+#: src/file.c:1031
 msgid "#  Implicit rule search has not been done."
 msgstr ""
 
-#: src/file.c:983
+#: src/file.c:1033
 #, c-format
 msgid "#  Implicit/static pattern stem: '%s'\n"
 msgstr ""
 
-#: src/file.c:985
+#: src/file.c:1035
 msgid "#  File is an intermediate prerequisite."
 msgstr ""
 
-#: src/file.c:989
+#: src/file.c:1039
 msgid "#  Also makes:"
 msgstr ""
 
-#: src/file.c:995
+#: src/file.c:1045
 msgid "#  Modification time never checked."
 msgstr ""
 
-#: src/file.c:997
+#: src/file.c:1047
 msgid "#  File does not exist."
 msgstr ""
 
-#: src/file.c:999
+#: src/file.c:1049
 msgid "#  File is very old."
 msgstr ""
 
-#: src/file.c:1004
+#: src/file.c:1054
 #, c-format
 msgid "#  Last modified %s\n"
 msgstr ""
 
-#: src/file.c:1007
+#: src/file.c:1057
 msgid "#  File has been updated."
 msgstr ""
 
-#: src/file.c:1007
+#: src/file.c:1057
 msgid "#  File has not been updated."
 msgstr ""
 
-#: src/file.c:1011
+#: src/file.c:1061
 msgid "#  Recipe currently running (THIS IS A BUG)."
 msgstr ""
 
-#: src/file.c:1014
+#: src/file.c:1064
 msgid "#  Dependencies recipe running (THIS IS A BUG)."
 msgstr ""
 
-#: src/file.c:1023
+#: src/file.c:1073
 msgid "#  Successfully updated."
 msgstr ""
 
-#: src/file.c:1027
+#: src/file.c:1077
 msgid "#  Needs to be updated (-q is set)."
 msgstr ""
 
-#: src/file.c:1030
+#: src/file.c:1080
 msgid "#  Failed to be updated."
 msgstr ""
 
-#: src/file.c:1035
+#: src/file.c:1085
 msgid "#  Invalid value in 'command_state' member!"
 msgstr ""
 
-#: src/file.c:1054
+#: src/file.c:1104
 msgid ""
 "\n"
 "# Files"
 msgstr ""
 
-#: src/file.c:1058
+#: src/file.c:1108
 msgid ""
 "\n"
 "# files hash-table stats:\n"
 "# "
 msgstr ""
 
-#: src/file.c:1068
+#: src/file.c:1118
 #, c-format
 msgid "%s: Field '%s' not cached: %s"
 msgstr ""
@@ -400,77 +400,77 @@ msgstr ""
 msgid "Cleaning up temporary batch file %s\n"
 msgstr ""
 
-#: src/function.c:2221 src/function.c:2246
+#: src/function.c:2230 src/function.c:2255
 #, c-format
 msgid "file: missing filename"
 msgstr ""
 
-#: src/function.c:2225 src/function.c:2256
+#: src/function.c:2234 src/function.c:2265
 #, c-format
 msgid "open: %s: %s"
 msgstr ""
 
-#: src/function.c:2233
+#: src/function.c:2242
 #, c-format
 msgid "write: %s: %s"
 msgstr ""
 
-#: src/function.c:2236 src/function.c:2273
+#: src/function.c:2245 src/function.c:2282
 #, c-format
 msgid "close: %s: %s"
 msgstr ""
 
-#: src/function.c:2249
+#: src/function.c:2258
 #, c-format
 msgid "file: too many arguments"
 msgstr ""
 
-#: src/function.c:2268
+#: src/function.c:2277
 #, c-format
 msgid "read: %s: %s"
 msgstr ""
 
-#: src/function.c:2281
+#: src/function.c:2290
 #, c-format
 msgid "file: invalid file operation: %s"
 msgstr ""
 
-#: src/function.c:2396
+#: src/function.c:2405
 #, c-format
 msgid "insufficient number of arguments (%d) to function '%s'"
 msgstr ""
 
-#: src/function.c:2408
+#: src/function.c:2417
 #, c-format
 msgid "unimplemented on this platform: function '%s'"
 msgstr ""
 
-#: src/function.c:2474
+#: src/function.c:2483
 #, c-format
 msgid "unterminated call to function '%s': missing '%c'"
 msgstr ""
 
-#: src/function.c:2658
+#: src/function.c:2667
 #, c-format
 msgid "Empty function name"
 msgstr ""
 
-#: src/function.c:2660
+#: src/function.c:2669
 #, c-format
 msgid "Invalid function name: %s"
 msgstr ""
 
-#: src/function.c:2662
+#: src/function.c:2671
 #, c-format
 msgid "Function name too long: %s"
 msgstr ""
 
-#: src/function.c:2665
+#: src/function.c:2674
 #, c-format
 msgid "Invalid minimum argument count (%u) for function %s"
 msgstr ""
 
-#: src/function.c:2668
+#: src/function.c:2677
 #, c-format
 msgid "Invalid maximum argument count (%u) for function %s"
 msgstr ""
@@ -540,22 +540,22 @@ msgstr ""
 msgid "guile: Evaluating '%s'\n"
 msgstr ""
 
-#: src/hash.c:49
+#: src/hash.c:50
 #, c-format
 msgid "can't allocate %lu bytes for hash table: memory exhausted"
 msgstr ""
 
-#: src/hash.c:279
+#: src/hash.c:280
 #, c-format
 msgid "Load=%lu/%lu=%.0f%%, "
 msgstr ""
 
-#: src/hash.c:281
+#: src/hash.c:282
 #, c-format
 msgid "Rehash=%u, "
 msgstr ""
 
-#: src/hash.c:282
+#: src/hash.c:283
 #, c-format
 msgid "Collisions=%lu/%lu=%.0f%%"
 msgstr ""
@@ -575,42 +575,42 @@ msgstr ""
 msgid "Avoiding implicit rule recursion.\n"
 msgstr ""
 
-#: src/implicit.c:486
+#: src/implicit.c:484
 #, c-format
-msgid "Stem too long: '%.*s'.\n"
+msgid "Stem too long: '%s%.*s'.\n"
 msgstr ""
 
-#: src/implicit.c:491
+#: src/implicit.c:490
 #, c-format
 msgid "Trying pattern rule with stem '%.*s'.\n"
 msgstr ""
 
-#: src/implicit.c:697
+#: src/implicit.c:717
 #, c-format
 msgid "Rejecting impossible rule prerequisite '%s'.\n"
 msgstr ""
 
-#: src/implicit.c:698
+#: src/implicit.c:718
 #, c-format
 msgid "Rejecting impossible implicit prerequisite '%s'.\n"
 msgstr ""
 
-#: src/implicit.c:711
+#: src/implicit.c:732
 #, c-format
 msgid "Trying rule prerequisite '%s'.\n"
 msgstr ""
 
-#: src/implicit.c:712
+#: src/implicit.c:733
 #, c-format
 msgid "Trying implicit prerequisite '%s'.\n"
 msgstr ""
 
-#: src/implicit.c:751
+#: src/implicit.c:772
 #, c-format
 msgid "Found prerequisite '%s' as VPATH '%s'\n"
 msgstr ""
 
-#: src/implicit.c:765
+#: src/implicit.c:786
 #, c-format
 msgid "Looking for a rule with intermediate file '%s'.\n"
 msgstr ""
@@ -627,166 +627,166 @@ msgstr ""
 msgid " (ignored)"
 msgstr ""
 
-#: src/job.c:557 src/job.c:1893
+#: src/job.c:557 src/job.c:1892
 msgid "<builtin>"
 msgstr ""
 
-#: src/job.c:576
+#: src/job.c:573
 #, c-format
 msgid "%s[%s: %s] Error %d%s"
 msgstr ""
 
-#: src/job.c:665
+#: src/job.c:662
 #, c-format
 msgid "*** Waiting for unfinished jobs...."
 msgstr ""
 
-#: src/job.c:707
+#: src/job.c:704
 #, c-format
 msgid "Live child %p (%s) PID %s %s\n"
 msgstr ""
 
-#: src/job.c:709 src/job.c:903 src/job.c:1075 src/job.c:1647
+#: src/job.c:706 src/job.c:900 src/job.c:1072 src/job.c:1644
 #, c-format
 msgid " (remote)"
 msgstr ""
 
-#: src/job.c:901
+#: src/job.c:898
 #, c-format
 msgid "Reaping winning child %p PID %s %s\n"
 msgstr ""
 
-#: src/job.c:902
+#: src/job.c:899
 #, c-format
 msgid "Reaping losing child %p PID %s %s\n"
 msgstr ""
 
-#: src/job.c:953
+#: src/job.c:950
 #, c-format
 msgid "Cleaning up temp batch file %s\n"
 msgstr ""
 
-#: src/job.c:959
+#: src/job.c:956
 #, c-format
 msgid "Cleaning up temp batch file %s failed (%d)\n"
 msgstr ""
 
-#: src/job.c:1074
+#: src/job.c:1071
 #, c-format
 msgid "Removing child %p PID %s%s from chain.\n"
 msgstr ""
 
-#: src/job.c:1123
+#: src/job.c:1120
 #, c-format
 msgid "Released token for child %p (%s).\n"
 msgstr ""
 
-#: src/job.c:1578 src/job.c:2477
+#: src/job.c:1575 src/job.c:2487
 #, c-format
 msgid "process_easy() failed to launch process (e=%ld)\n"
 msgstr ""
 
-#: src/job.c:1582 src/job.c:2481
+#: src/job.c:1579 src/job.c:2491
 #, c-format
 msgid ""
 "\n"
 "Counted %d args in failed launch\n"
 msgstr ""
 
-#: src/job.c:1645
+#: src/job.c:1642
 #, c-format
 msgid "Putting child %p (%s) PID %s%s on the chain.\n"
 msgstr ""
 
-#: src/job.c:1876
+#: src/job.c:1875
 #, c-format
 msgid "Obtained token for child %p (%s).\n"
 msgstr ""
 
-#: src/job.c:1903
+#: src/job.c:1902
 #, c-format
 msgid "%s: target '%s' does not exist"
 msgstr ""
 
-#: src/job.c:1906
+#: src/job.c:1905
 #, c-format
 msgid "%s: update target '%s' due to: %s"
 msgstr ""
 
-#: src/job.c:2098
+#: src/job.c:2108
 #, c-format
 msgid "cannot enforce load limits on this operating system"
 msgstr ""
 
-#: src/job.c:2100
+#: src/job.c:2110
 msgid "cannot enforce load limit: "
 msgstr ""
 
-#: src/job.c:2190
+#: src/job.c:2200
 #, c-format
 msgid "no more file handles: could not duplicate stdin\n"
 msgstr ""
 
-#: src/job.c:2202
+#: src/job.c:2212
 #, c-format
 msgid "no more file handles: could not duplicate stdout\n"
 msgstr ""
 
-#: src/job.c:2216
+#: src/job.c:2226
 #, c-format
 msgid "no more file handles: could not duplicate stderr\n"
 msgstr ""
 
-#: src/job.c:2231
+#: src/job.c:2241
 #, c-format
 msgid "Could not restore stdin\n"
 msgstr ""
 
-#: src/job.c:2239
+#: src/job.c:2249
 #, c-format
 msgid "Could not restore stdout\n"
 msgstr ""
 
-#: src/job.c:2247
+#: src/job.c:2257
 #, c-format
 msgid "Could not restore stderr\n"
 msgstr ""
 
-#: src/job.c:2510
+#: src/job.c:2520
 #, c-format
 msgid "make reaped child pid %s, still waiting for pid %s\n"
 msgstr ""
 
-#: src/job.c:2613
+#: src/job.c:2623
 #, c-format
 msgid "spawnvpe: environment space might be exhausted"
 msgstr ""
 
-#: src/job.c:2851
+#: src/job.c:2861
 #, c-format
 msgid "$SHELL changed (was '%s', now '%s')\n"
 msgstr ""
 
-#: src/job.c:3289 src/job.c:3474
+#: src/job.c:3299 src/job.c:3484
 #, c-format
 msgid "Creating temporary batch file %s\n"
 msgstr ""
 
-#: src/job.c:3297
+#: src/job.c:3307
 #, c-format
 msgid ""
 "Batch file contents:\n"
 "\t@echo off\n"
 msgstr ""
 
-#: src/job.c:3486
+#: src/job.c:3496
 #, c-format
 msgid ""
 "Batch file contents:%s\n"
 "\t%s\n"
 msgstr ""
 
-#: src/job.c:3594
+#: src/job.c:3604
 #, c-format
 msgid "%s (line %d) Bad shell context (!unixy && !batch_mode_shell)\n"
 msgstr ""
@@ -1215,24 +1215,24 @@ msgid ""
 "# Finished Make data base on %s\n"
 msgstr ""
 
-#: src/misc.c:613
+#: src/misc.c:643
 #, c-format
 msgid "%s: user %lu (real %lu), group %lu (real %lu)\n"
 msgstr ""
 
-#: src/misc.c:634
+#: src/misc.c:664
 msgid "Initialized access"
 msgstr ""
 
-#: src/misc.c:713
+#: src/misc.c:743
 msgid "User access"
 msgstr ""
 
-#: src/misc.c:761
+#: src/misc.c:791
 msgid "Make access"
 msgstr ""
 
-#: src/misc.c:795
+#: src/misc.c:825
 msgid "Child access"
 msgstr ""
 
@@ -1729,26 +1729,26 @@ msgstr ""
 msgid "Customs won't export: %s\n"
 msgstr ""
 
-#: src/rule.c:499
+#: src/rule.c:516
 msgid ""
 "\n"
 "# Implicit Rules"
 msgstr ""
 
-#: src/rule.c:514
+#: src/rule.c:531
 msgid ""
 "\n"
 "# No implicit rules."
 msgstr ""
 
-#: src/rule.c:517
+#: src/rule.c:534
 #, c-format
 msgid ""
 "\n"
 "# %u implicit rules, %u (%.1f%%) terminal."
 msgstr ""
 
-#: src/rule.c:526
+#: src/rule.c:543
 #, c-format
 msgid "BUG: num_pattern_rules is wrong!  %u != %u"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/podcasts/issues\n"
-"POT-Creation-Date: 2019-03-25 12:35+0000\n"
+"POT-Creation-Date: 2019-11-18 08:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,7 @@ msgstr ""
 #. Weird magic I copy-pasted that sets the Application Name in the Shell.
 #: podcasts-gtk/resources/org.gnome.Podcasts.desktop.in.in:3
 #: podcasts-gtk/resources/org.gnome.Podcasts.appdata.xml.in.in:4
-#: podcasts-gtk/src/app.rs:110 podcasts-gtk/src/app.rs:446
+#: podcasts-gtk/resources/gtk/headerbar.ui:158 podcasts-gtk/src/app.rs:330
 #: podcasts-gtk/src/widgets/aboutdialog.rs:56
 msgid "Podcasts"
 msgstr ""
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Podcast app for GNOME"
 msgstr ""
 
-#: podcasts-gtk/resources/org.gnome.Podcasts.appdata.xml.in.in:77
+#: podcasts-gtk/resources/org.gnome.Podcasts.appdata.xml.in.in:84
 msgid "Jordan Petridis"
 msgstr ""
 
@@ -111,19 +111,23 @@ msgstr ""
 msgid "Import shows from another device"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/episode_widget.ui:180
+#: podcasts-gtk/resources/gtk/episode_widget.ui:79
+msgid "You’ve already listened to this episode."
+msgstr ""
+
+#: podcasts-gtk/resources/gtk/episode_widget.ui:208
 msgid "Calculating episode size…"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/episode_widget.ui:220
+#: podcasts-gtk/resources/gtk/episode_widget.ui:248
 msgid "Play this episode"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/episode_widget.ui:241
+#: podcasts-gtk/resources/gtk/episode_widget.ui:269
 msgid "Cancel the download process"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/episode_widget.ui:264
+#: podcasts-gtk/resources/gtk/episode_widget.ui:292
 msgid "Download this episode"
 msgstr ""
 
@@ -140,19 +144,15 @@ msgid "_Export Shows"
 msgstr ""
 
 #: podcasts-gtk/resources/gtk/hamburger.ui:22
-msgid "_Preferences"
-msgstr ""
-
-#: podcasts-gtk/resources/gtk/hamburger.ui:27
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/hamburger.ui:35
+#: podcasts-gtk/resources/gtk/hamburger.ui:30
 msgid "_About Podcasts"
 msgstr ""
 
 #: podcasts-gtk/resources/gtk/headerbar.ui:35
-#: podcasts-gtk/resources/gtk/headerbar.ui:189
+#: podcasts-gtk/resources/gtk/headerbar.ui:186
 msgid "Add a new feed"
 msgstr ""
 
@@ -164,15 +164,11 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/headerbar.ui:133
-msgid "You are already subscribed to that feed!"
-msgstr ""
-
-#: podcasts-gtk/resources/gtk/headerbar.ui:169
+#: podcasts-gtk/resources/gtk/headerbar.ui:171
 msgid "Show Title"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/headerbar.ui:210
+#: podcasts-gtk/resources/gtk/headerbar.ui:207
 msgid "Back"
 msgstr ""
 
@@ -186,11 +182,6 @@ msgid "Check for new episodes"
 msgstr ""
 
 #: podcasts-gtk/resources/gtk/help-overlay.ui:25
-msgctxt "shortcut window"
-msgid "Preferences"
-msgstr ""
-
-#: podcasts-gtk/resources/gtk/help-overlay.ui:32
 msgctxt "shortcut window"
 msgid "Quit the application"
 msgstr ""
@@ -268,27 +259,6 @@ msgstr ""
 msgid "Normal speed"
 msgstr ""
 
-#: podcasts-gtk/resources/gtk/prefs.ui:42
-#: podcasts-gtk/resources/gtk/prefs.ui:295
-msgid "Preferences"
-msgstr ""
-
-#: podcasts-gtk/resources/gtk/prefs.ui:76
-msgid "Appearance"
-msgstr ""
-
-#: podcasts-gtk/resources/gtk/prefs.ui:120
-msgid "Dark Theme"
-msgstr ""
-
-#: podcasts-gtk/resources/gtk/prefs.ui:166
-msgid "Delete played episodes"
-msgstr ""
-
-#: podcasts-gtk/resources/gtk/prefs.ui:211
-msgid "After"
-msgstr ""
-
 #: podcasts-gtk/resources/gtk/secondary_menu.ui:7
 msgid "_Mark All Episodes as Played"
 msgstr ""
@@ -313,36 +283,8 @@ msgstr ""
 msgid "Unsubscribe"
 msgstr ""
 
-#: podcasts-gtk/src/app.rs:364
+#: podcasts-gtk/src/app.rs:265
 msgid "Fetching new episodes"
-msgstr ""
-
-#: podcasts-gtk/src/headerbar.rs:117
-msgid "You are already subscribed to this show"
-msgstr ""
-
-#: podcasts-gtk/src/headerbar.rs:125
-msgid "Invalid URL"
-msgstr ""
-
-#: podcasts-gtk/src/prefs.rs:78
-msgid "Seconds"
-msgstr ""
-
-#: podcasts-gtk/src/prefs.rs:79
-msgid "Minutes"
-msgstr ""
-
-#: podcasts-gtk/src/prefs.rs:80
-msgid "Hours"
-msgstr ""
-
-#: podcasts-gtk/src/prefs.rs:81
-msgid "Days"
-msgstr ""
-
-#: podcasts-gtk/src/prefs.rs:82
-msgid "Weeks"
 msgstr ""
 
 #: podcasts-gtk/src/stacks/content.rs:54
@@ -353,43 +295,43 @@ msgstr ""
 msgid "Shows"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:387
+#: podcasts-gtk/src/utils.rs:396
 msgid "Select the file from which to you want to import shows."
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:390
+#: podcasts-gtk/src/utils.rs:399
 msgid "_Import"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:399 podcasts-gtk/src/utils.rs:447
+#: podcasts-gtk/src/utils.rs:408 podcasts-gtk/src/utils.rs:456
 msgid "OPML file"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:416
+#: podcasts-gtk/src/utils.rs:425
 msgid "Failed to parse the imported file"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:421 podcasts-gtk/src/utils.rs:465
+#: podcasts-gtk/src/utils.rs:430 podcasts-gtk/src/utils.rs:474
 msgid "Selected file could not be accessed."
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:435
+#: podcasts-gtk/src/utils.rs:444
 msgid "Export shows to…"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:438
+#: podcasts-gtk/src/utils.rs:447
 msgid "_Export"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:439
+#: podcasts-gtk/src/utils.rs:448
 msgid "_Cancel"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:459
+#: podcasts-gtk/src/utils.rs:468
 msgid "GNOME Podcasts Subscriptions"
 msgstr ""
 
-#: podcasts-gtk/src/utils.rs:460
+#: podcasts-gtk/src/utils.rs:469
 msgid "Failed to export podcasts"
 msgstr ""
 
@@ -405,19 +347,19 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 
-#: podcasts-gtk/src/widgets/episode.rs:145
+#: podcasts-gtk/src/widgets/episode.rs:148
 msgid "{} min"
 msgstr ""
 
 #. sender.send(Action::ErrorNotification(format!("Player Error: {}", error)));
-#: podcasts-gtk/src/widgets/player.rs:536
+#: podcasts-gtk/src/widgets/player.rs:539
 msgid "The media player was unable to execute an action."
 msgstr ""
 
-#: podcasts-gtk/src/widgets/show_menu.rs:175
+#: podcasts-gtk/src/widgets/show_menu.rs:179
 msgid "Marked all episodes as listened"
 msgstr ""
 
-#: podcasts-gtk/src/widgets/show_menu.rs:180
+#: podcasts-gtk/src/widgets/show_menu.rs:184
 msgid "Unsubscribed from {}"
 msgstr ""

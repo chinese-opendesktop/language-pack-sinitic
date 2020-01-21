@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/tracker-miners/issues\n"
+"POT-Creation-Date: 2019-11-25 10:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,203 +16,155 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#, c-format
-msgid " %2.2d hour %2.2d hours"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:1
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:1
+#: ../data/org.freedesktop.Tracker.Writeback.gschema.xml.h:1
+msgid "Log verbosity"
 msgstr ""
 
-#, c-format
-msgid " %2.2d minute %2.2d minutes"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:2
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:2
+#: ../data/org.freedesktop.Tracker.Writeback.gschema.xml.h:2
+msgid "Log verbosity."
 msgstr ""
 
-#, c-format
-msgid " %2.2d second %2.2d seconds"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:3
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:5
+msgid "Scheduler priority when idle"
 msgstr ""
 
-#. Translators: this is %2.2d hours
-#, c-format
-msgid " %2.2dh"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:4
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:6
+msgid ""
+"The scheduler is the kernel component that decides which runnable "
+"application will be executed by the CPU next. Each application has an "
+"associated scheduling policy and priority."
 msgstr ""
 
-#. Translators: this is %2.2d minutes
-#, c-format
-msgid " %2.2dm"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:5
+msgid "Max bytes to extract"
 msgstr ""
 
-#. Translators: this is %2.2d seconds
-#, c-format
-msgid " %2.2ds"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:6
+msgid "Maximum number of UTF-8 bytes to extract."
 msgstr ""
 
-#, c-format
-msgid " %d day %d days"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:7
+msgid "Wait for FS miner to be done before extracting"
 msgstr ""
 
-#. Translators: this is %d days
-#, c-format
-msgid " %dd"
+#: ../data/org.freedesktop.Tracker.Extract.gschema.xml.h:8
+msgid ""
+"When true, tracker-extract will wait for tracker-miner-fs to be done "
+"crawling before extracting meta-data. This option is useful on constrained "
+"environment where it is important to list files as fast as possible and can "
+"wait to get meta-data later."
 msgstr ""
 
-#. Translators: this is a "feed" as in RSS
-msgid "Add feed"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:3
+msgid "Initial sleep"
 msgstr ""
 
-msgid "Avoid any directory containing a file blacklisted here"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:4
+msgid "Initial sleep time, in seconds."
 msgstr ""
 
-msgid "Checks if FILE is eligible for being mined based on configuration"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:7
+msgid "Throttle"
 msgstr ""
 
-msgid "Could not add feed"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:8
+msgid "Indexing speed, the higher the slower."
 msgstr ""
 
-msgid "Could not establish a connection to Tracker"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:9
+msgid "Low disk space limit"
 msgstr ""
 
-msgid "Crawling interval"
-msgstr ""
-
-msgid "Crawls and processes files on the file system"
-msgstr ""
-
-#, c-format
-msgid "Data object “%s” currently does not exist"
-msgstr ""
-
-#, c-format
-msgid "Data object “%s” currently exists"
-msgstr ""
-
-msgid "Directories to index non-recursively"
-msgstr ""
-
-msgid "Directories to index recursively"
-msgstr ""
-
-msgid "Directory is NOT eligible to be mined (based on contents)"
-msgstr ""
-
-msgid "Directory is NOT eligible to be mined (based on rules)"
-msgstr ""
-
-msgid "Directory is NOT eligible to be monitored (based on config)"
-msgstr ""
-
-msgid "Directory is eligible to be mined (based on contents)"
-msgstr ""
-
-msgid "Directory is eligible to be mined (based on rules)"
-msgstr ""
-
-msgid "Directory is eligible to be monitored (based on config)"
-msgstr ""
-
-msgid "Disable shutting down after 30 seconds of inactivity"
-msgstr ""
-
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:10
 msgid ""
 "Disk space threshold in percent at which to pause indexing, or -1 to disable."
 msgstr ""
 
-msgid "Displays version information"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:11
+msgid "Crawling interval"
 msgstr ""
 
-msgid "Enable monitors"
-msgstr ""
-
-msgid "Enable writeback"
-msgstr ""
-
-msgid "Extractor"
-msgstr ""
-
-msgid "Extracts metadata from local files"
-msgstr ""
-
-msgid "FILE"
-msgstr ""
-
-msgid "FORMAT"
-msgstr ""
-
-msgid "Fetch RSS/ATOM Feeds"
-msgstr ""
-
-msgid "Fetch RSS/ATOM feeds"
-msgstr ""
-
-msgid "File System"
-msgstr ""
-
-msgid "File is NOT eligible to be mined (based on rules)"
-msgstr ""
-
-msgid "File is NOT eligible to be monitored (based on config)"
-msgstr ""
-
-msgid "File is eligible to be mined (based on rules)"
-msgstr ""
-
-msgid "File is eligible to be monitored (based on config)"
-msgstr ""
-
-msgid "File or Directory is NOT eligible to be monitored (based on config)"
-msgstr ""
-
-msgid "File or Directory is eligible to be monitored (based on config)"
-msgstr ""
-
-msgid "File system data miner"
-msgstr ""
-
-msgid "File to extract metadata for"
-msgstr ""
-
-msgid "Filename and mime type must be provided together"
-msgstr ""
-
-msgid "Force a module to be used for extraction (e.g. “foo” for “foo.so”)"
-msgstr ""
-
-msgid "Ignored directories"
-msgstr ""
-
-msgid "Ignored directories with content"
-msgstr ""
-
-msgid "Ignored files"
-msgstr ""
-
-msgid "Index optical discs"
-msgstr ""
-
-msgid "Index removable devices"
-msgstr ""
-
-msgid "Index when running on battery"
-msgstr ""
-
-msgid "Indexing speed, the higher the slower."
-msgstr ""
-
-msgid "Initial sleep"
-msgstr ""
-
-msgid "Initial sleep time in seconds, 0->1000 (default=15)"
-msgstr ""
-
-msgid "Initial sleep time, in seconds."
-msgstr ""
-
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:12
 msgid ""
 "Interval in days to check whether the filesystem is up to date in the "
 "database. 0 forces crawling anytime, -1 forces it only after unclean "
 "shutdowns, and -2 disables it entirely."
 msgstr ""
 
-msgid "List of directories to avoid"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:13
+msgid "Removable devices’ data permanence threshold"
 msgstr ""
 
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:14
+msgid ""
+"Threshold in days after which files from removables devices will be removed "
+"from database if not mounted. 0 means never, maximum is 365."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:15
+msgid "Enable monitors"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:16
+msgid "Set to false to completely disable any file monitoring"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:17
+msgid "Enable writeback"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:18
+msgid "Set to false to completely disable any file writeback"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:19
+msgid "Index removable devices"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:20
+msgid ""
+"Set to true to enable indexing mounted directories for removable devices."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:21
+msgid "Index optical discs"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:22
+msgid ""
+"Set to true to enable indexing CDs, DVDs, and generally optical media (if "
+"removable devices are not indexed, optical discs won’t be either)"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:23
+msgid "Index when running on battery"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:24
+msgid "Set to true to index while running on battery"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:25
+msgid "Perform initial indexing when running on battery"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:26
+msgid "Set to true to index while running on battery for the first time only"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:27
+msgid "Directories to index recursively"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:28
 msgid ""
 "List of directories to index recursively, Special values include: &amp;"
 "DESKTOP, &amp;DOCUMENTS, &amp;DOWNLOAD, &amp;MUSIC, &amp;PICTURES, &amp;"
@@ -221,6 +173,11 @@ msgid ""
 "See /etc/xdg/user-dirs.defaults and $HOME/.config/user-dirs.default"
 msgstr ""
 
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:31
+msgid "Directories to index non-recursively"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:32
 msgid ""
 "List of directories to index without inspecting subfolders, Special values "
 "include: &amp;DESKTOP, &amp;DOCUMENTS, &amp;DOWNLOAD, &amp;MUSIC, &amp;"
@@ -229,185 +186,358 @@ msgid ""
 "See /etc/xdg/user-dirs.defaults and $HOME/.config/user-dirs.default"
 msgstr ""
 
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:35
+msgid "Index applications installed on the system"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:36
+msgid ""
+"If this option is enabled, the filesystem miner will look for .desktop files "
+"in the standard XDG system and user data directories."
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:37
+msgid "Ignored files"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:38
 msgid "List of file patterns to avoid"
 msgstr ""
 
-msgid "Log verbosity"
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:39
+msgid "Ignored directories"
 msgstr ""
 
-msgid "Log verbosity."
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:40
+msgid "List of directories to avoid"
 msgstr ""
 
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:41
+msgid "Ignored directories with content"
+msgstr ""
+
+#: ../data/org.freedesktop.Tracker.Miner.Files.gschema.xml.h:42
+msgid "Avoid any directory containing a file blacklisted here"
+msgstr ""
+
+#: ../src/libtracker-miners-common/tracker-utils.c:90
+msgid "unknown time"
+msgstr ""
+
+#: ../src/libtracker-miners-common/tracker-utils.c:104
+#: ../src/libtracker-miners-common/tracker-utils.c:155
+msgid "less than one second"
+msgstr ""
+
+#. Translators: this is %d days
+#: ../src/libtracker-miners-common/tracker-utils.c:119
+#, c-format
+msgid " %dd"
+msgstr ""
+
+#. Translators: this is %2.2d hours
+#: ../src/libtracker-miners-common/tracker-utils.c:123
+#, c-format
+msgid " %2.2dh"
+msgstr ""
+
+#. Translators: this is %2.2d minutes
+#: ../src/libtracker-miners-common/tracker-utils.c:127
+#, c-format
+msgid " %2.2dm"
+msgstr ""
+
+#. Translators: this is %2.2d seconds
+#: ../src/libtracker-miners-common/tracker-utils.c:131
+#, c-format
+msgid " %2.2ds"
+msgstr ""
+
+#: ../src/libtracker-miners-common/tracker-utils.c:135
+#, c-format
+msgid " %d day"
+msgid_plural " %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/libtracker-miners-common/tracker-utils.c:139
+#, c-format
+msgid " %2.2d hour"
+msgid_plural " %2.2d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/libtracker-miners-common/tracker-utils.c:143
+#, c-format
+msgid " %2.2d minute"
+msgid_plural " %2.2d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/libtracker-miners-common/tracker-utils.c:147
+#, c-format
+msgid " %2.2d second"
+msgid_plural " %2.2d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/miners/fs/org.freedesktop.Tracker1.Miner.Files.service.in.in.h:1
+msgid "File System"
+msgstr ""
+
+#: ../src/miners/fs/org.freedesktop.Tracker1.Miner.Files.service.in.in.h:2
+msgid "File system data miner"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:73 ../src/miners/rss/tracker-main.c:43
+#: ../src/tracker-writeback/tracker-main.c:55
+msgid ""
+"Logging, 0 = errors only, 1 = minimal, 2 = detailed and 3 = debug (default=0)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:78
+msgid "Initial sleep time in seconds, 0->1000 (default=15)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:83
+msgid "Runs until all configured locations are indexed and then exits"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:87
+msgid "Checks if FILE is eligible for being mined based on configuration"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:88 ../src/tracker-extract/tracker-main.c:88
+msgid "FILE"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:91 ../src/miners/rss/tracker-main.c:57
+#: ../src/tracker-extract/tracker-main.c:102
+msgid "Runs for a specific domain ontology"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:95 ../src/tracker-extract/tracker-main.c:106
+#: ../src/tracker-writeback/tracker-main.c:51
+msgid "Displays version information"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:539
+#, c-format
+msgid "Data object “%s” currently exists"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:540
+#, c-format
+msgid "Data object “%s” currently does not exist"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:555
+msgid "Directory is eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:556
+msgid "Directory is NOT eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:576
+msgid "Directory is eligible to be mined (based on contents)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:577
+msgid "Directory is NOT eligible to be mined (based on contents)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:624
+msgid "Directory is eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:625
+msgid "Directory is NOT eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:629
+msgid "File is eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:630
+msgid "File is NOT eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:634
+msgid "File or Directory is eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:635
+msgid "File or Directory is NOT eligible to be monitored (based on config)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:650
+msgid "File is eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:651
+msgid "File is NOT eligible to be mined (based on rules)"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:660
+msgid "Would be indexed"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:661 ../src/miners/fs/tracker-main.c:663
+msgid "Yes"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:661 ../src/miners/fs/tracker-main.c:663
+msgid "No"
+msgstr ""
+
+#: ../src/miners/fs/tracker-main.c:662
+msgid "Would be monitored"
+msgstr ""
+
+#. Translators: this messagge will apper immediately after the
+#. * usage string - Usage: COMMAND <THIS_MESSAGE>
+#.
+#: ../src/miners/fs/tracker-main.c:792
+msgid "— start the tracker indexer"
+msgstr ""
+
+#: ../src/miners/fs/tracker-miner-fs.desktop.in.in.h:1
+msgid "Tracker File System Miner"
+msgstr ""
+
+#: ../src/miners/fs/tracker-miner-fs.desktop.in.in.h:2
+msgid "Crawls and processes files on the file system"
+msgstr ""
+
+#: ../src/miners/rss/org.freedesktop.Tracker1.Miner.RSS.service.in.in.h:1
+msgid "RSS/ATOM Feeds"
+msgstr ""
+
+#: ../src/miners/rss/org.freedesktop.Tracker1.Miner.RSS.service.in.in.h:2
+msgid "Fetch RSS/ATOM Feeds"
+msgstr ""
+
+#. Translators: this is a "feed" as in RSS
+#: ../src/miners/rss/tracker-main.c:49
+msgid "Add feed"
+msgstr ""
+
+#: ../src/miners/rss/tracker-main.c:50
+msgid "URL"
+msgstr ""
+
+#: ../src/miners/rss/tracker-main.c:53
+msgid "Title to use (must be used with --add-feed)"
+msgstr ""
+
+#. Translators: this messagge will apper immediately after the
+#. * usage string - Usage: COMMAND <THIS_MESSAGE>
+#.
+#: ../src/miners/rss/tracker-main.c:93
+msgid "— start the feeds indexer"
+msgstr ""
+
+#: ../src/miners/rss/tracker-main.c:127
+msgid "Could not establish a connection to Tracker"
+msgstr ""
+
+#: ../src/miners/rss/tracker-main.c:128
+msgid "No error given"
+msgstr ""
+
+#: ../src/miners/rss/tracker-main.c:155
+msgid "Could not add feed"
+msgstr ""
+
+#: ../src/miners/rss/tracker-miner-rss.desktop.in.in.h:1
+msgid "Tracker RSS/ATOM Feeds Miner"
+msgstr ""
+
+#: ../src/miners/rss/tracker-miner-rss.desktop.in.in.h:2
+msgid "Fetch RSS/ATOM feeds"
+msgstr ""
+
+#: ../src/tracker-extract/org.freedesktop.Tracker1.Miner.Extract.service.in.in.h:1
+msgid "Extractor"
+msgstr ""
+
+#: ../src/tracker-extract/org.freedesktop.Tracker1.Miner.Extract.service.in.in.h:2
+msgid "Metadata extractor"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-extract.c:683
+msgid "Metadata extraction failed"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-extract.c:763
+msgid "No metadata or extractor modules found to handle this file"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:82
 msgid ""
 "Logging, 0 = errors only, 1 = minimal, 2 = detailed and 3 = debug (default = "
 "0)"
 msgstr ""
 
-msgid ""
-"Logging, 0 = errors only, 1 = minimal, 2 = detailed and 3 = debug (default=0)"
+#: ../src/tracker-extract/tracker-main.c:87
+msgid "File to extract metadata for"
 msgstr ""
 
-msgid "Low disk space limit"
-msgstr ""
-
-msgid "MIME"
-msgstr ""
-
+#: ../src/tracker-extract/tracker-main.c:91
 msgid "MIME type for file (if not provided, this will be guessed)"
 msgstr ""
 
+#: ../src/tracker-extract/tracker-main.c:92
+msgid "MIME"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:95
+msgid "Force a module to be used for extraction (e.g. “foo” for “foo.so”)"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-main.c:96
 msgid "MODULE"
 msgstr ""
 
-msgid "Max bytes to extract"
-msgstr ""
-
-msgid "Max media art width"
-msgstr ""
-
-msgid "Maximum number of UTF-8 bytes to extract."
-msgstr ""
-
-msgid ""
-"Maximum width in pixels for any media art extracted. Anything bigger is "
-"resized. Set to -1 to disable saving media art from files. Setting to 0 sets "
-"no limit on the media art width."
-msgstr ""
-
-msgid "Metadata extraction failed"
-msgstr ""
-
-msgid "Metadata extractor"
-msgstr ""
-
-msgid "No"
-msgstr ""
-
-msgid "No error given"
-msgstr ""
-
-msgid "No metadata or extractor modules found to handle this file"
-msgstr ""
-
+#: ../src/tracker-extract/tracker-main.c:98
 msgid "Output results format: “sparql”, “turtle” or “json-ld”"
 msgstr ""
 
-msgid "Perform initial indexing when running on battery"
+#: ../src/tracker-extract/tracker-main.c:99
+msgid "FORMAT"
 msgstr ""
 
-msgid "RSS/ATOM Feeds"
-msgstr ""
-
-msgid "Removable devices’ data permanence threshold"
-msgstr ""
-
-msgid "Runs for a specific domain ontology"
-msgstr ""
-
-msgid "Runs until all configured locations are indexed and then exits"
-msgstr ""
-
-msgid "Scheduler priority when idle"
-msgstr ""
-
-msgid "Set to false to completely disable any file monitoring"
-msgstr ""
-
-msgid "Set to false to completely disable any file writeback"
-msgstr ""
-
-msgid ""
-"Set to true to enable indexing CDs, DVDs, and generally optical media (if "
-"removable devices are not indexed, optical discs won’t be either)"
-msgstr ""
-
-msgid ""
-"Set to true to enable indexing mounted directories for removable devices."
-msgstr ""
-
-msgid "Set to true to index while running on battery"
-msgstr ""
-
-msgid "Set to true to index while running on battery for the first time only"
-msgstr ""
-
-msgid ""
-"The scheduler is the kernel component that decides which runnable "
-"application will be executed by the CPU next. Each application has an "
-"associated scheduling policy and priority."
-msgstr ""
-
-msgid ""
-"Threshold in days after which files from removables devices will be removed "
-"from database if not mounted. 0 means never, maximum is 365."
-msgstr ""
-
-msgid "Throttle"
-msgstr ""
-
-msgid "Title to use (must be used with --add-feed)"
-msgstr ""
-
-msgid "Tracker File System Miner"
-msgstr ""
-
-msgid "Tracker Metadata Extractor"
-msgstr ""
-
-msgid "Tracker RSS/ATOM Feeds Miner"
-msgstr ""
-
-msgid "URL"
-msgstr ""
-
+#: ../src/tracker-extract/tracker-main.c:237
 #, c-format
 msgid "Unsupported serialization format “%s”\n"
 msgstr ""
 
-msgid "Wait for FS miner to be done before extracting"
-msgstr ""
-
-msgid ""
-"When true, tracker-extract will wait for tracker-miner-fs to be done "
-"crawling before extracting meta-data. This option is useful on constrained "
-"environment where it is important to list files as fast as possible and can "
-"wait to get meta-data later."
-msgstr ""
-
-msgid "Would be indexed"
-msgstr ""
-
-msgid "Would be monitored"
-msgstr ""
-
-msgid "Yes"
-msgstr ""
-
-msgid "less than one second"
-msgstr ""
-
-msgid "unknown time"
-msgstr ""
-
 #. Translators: this message will appear immediately after the
 #. usage string - Usage: COMMAND [OPTION]... <THIS_MESSAGE>
+#: ../src/tracker-extract/tracker-main.c:326
 msgid "— Extract file meta data"
 msgstr ""
 
-#. Translators: this messagge will apper immediately after the
-#. * usage string - Usage: COMMAND <THIS_MESSAGE>
-#.
-msgid "— start the feeds indexer"
+#: ../src/tracker-extract/tracker-main.c:341
+msgid "Filename and mime type must be provided together"
 msgstr ""
 
-#. Translators: this messagge will apper immediately after the
-#. * usage string - Usage: COMMAND <THIS_MESSAGE>
-#.
-msgid "— start the tracker indexer"
+#: ../src/tracker-extract/tracker-extract.desktop.in.in.h:1
+msgid "Tracker Metadata Extractor"
+msgstr ""
+
+#: ../src/tracker-extract/tracker-extract.desktop.in.in.h:2
+msgid "Extracts metadata from local files"
+msgstr ""
+
+#: ../src/tracker-writeback/tracker-main.c:62
+msgid "Disable shutting down after 30 seconds of inactivity"
 msgstr ""
 
 #. Translators: this message will appear immediately after the
 #. * usage string - Usage: COMMAND <THIS_MESSAGE>
 #.
+#: ../src/tracker-writeback/tracker-main.c:98
 msgid "— start the tracker writeback service"
 msgstr ""

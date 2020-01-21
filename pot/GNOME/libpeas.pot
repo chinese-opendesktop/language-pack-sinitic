@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libpeas/issues\n"
+"POT-Creation-Date: 2019-11-27 15:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,121 +17,134 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "- libpeas demo application"
+#: libpeas/peas-engine.c:1116
+#, c-format
+msgid "Dependency “%s” was not found"
 msgstr ""
 
-msgid "About"
+#: libpeas/peas-engine.c:1126
+#, c-format
+msgid "Dependency “%s” failed to load"
 msgstr ""
 
+#: libpeas/peas-engine.c:1140
+#, c-format
+msgid "Plugin loader “%s” was not found"
+msgstr ""
+
+#: libpeas/peas-engine.c:1152
+#, c-format
+msgid "Failed to load"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-disable-plugins-dialog.c:95
 msgid "Additional plugins must be disabled"
 msgstr ""
 
+#: libpeas-gtk/peas-gtk-disable-plugins-dialog.c:102
+#, c-format
+msgid "The following plugins depend on “%s” and will also be disabled:"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-disable-plugins-dialog.c:144
+msgid "Plugins"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-disable-plugins-dialog.c:161
 msgid "An additional plugin must be disabled"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-disable-plugins-dialog.c:168
+#, c-format
+msgid ""
+"The “%s” plugin depends on the “%s” plugin.\n"
+"If you disable “%s”, “%s” will also be disabled."
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-disable-plugins-dialog.c:182
+msgid "_Cancel"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-disable-plugins-dialog.c:184
+msgid "Disable Plugins"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager.c:207
+msgid "There was an error displaying the help."
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager.c:253
+msgid "_Close"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager.c:265
+msgid "_Help"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager.c:323
+msgid "Pr_eferences"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager.c:328
+#: libpeas-gtk/peas-gtk-plugin-manager.c:379
+msgid "_About"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager.c:387
+msgid "_Preferences"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager-view.c:351
+msgid "_Enabled"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager-view.c:362
+msgid "E_nable All"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager-view.c:366
+msgid "_Disable All"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager-view.c:575
+msgid "Enabled"
+msgstr ""
+
+#: libpeas-gtk/peas-gtk-plugin-manager-view.c:596
+msgid "Plugin"
+msgstr ""
+
+#. Avoid having markup in a translated string
+#: libpeas-gtk/peas-gtk-plugin-manager-view.c:683
+#, c-format
+msgid "The plugin “%s” could not be loaded"
 msgstr ""
 
 #. Keep separate because some translations do special things
 #. * for the ':' and might accidentally not keep the space after it
 #.
+#: libpeas-gtk/peas-gtk-plugin-manager-view.c:689
 #, c-format
 msgid "An error occurred: %s"
 msgstr ""
 
-#, c-format
-msgid "Dependency '%s' failed to load"
-msgstr ""
-
-#, c-format
-msgid "Dependency '%s' was not found"
-msgstr ""
-
-msgid "Disable Plugins"
-msgstr ""
-
-msgid "E_nable All"
-msgstr ""
-
-msgid "Enabled"
-msgstr ""
-
-#, c-format
-msgid "Failed to load"
-msgstr ""
-
-msgid "Peas Gtk"
-msgstr ""
-
-msgid "Plugin"
-msgstr ""
-
-msgid "Plugin Manager"
-msgstr ""
-
-msgid "Plugin Manager View"
-msgstr ""
-
-#, c-format
-msgid "Plugin loader '%s' was not found"
-msgstr ""
-
-msgid "Plugins"
-msgstr ""
-
-msgid "Pr_eferences"
-msgstr ""
-
-msgid "Preferences"
-msgstr ""
-
 #. Translators: The directory in which the demo program was compiled at
+#: peas-demo/peas-demo.c:41
 msgid "Run from build directory"
 msgstr ""
 
-#. Translators: Whether builtin plugins should appear in the view (property name)
-msgid "Show Builtin"
-msgstr ""
-
-#, c-format
-msgid ""
-"The '%s' plugin depends on the '%s' plugin.\n"
-"If you disable '%s', '%s' will also be disabled."
-msgstr ""
-
-#, c-format
-msgid "The following plugins depend on '%s' and will also be disabled:"
-msgstr ""
-
-#. Avoid having markup in a translated string
-#, c-format
-msgid "The plugin '%s' could not be loaded"
-msgstr ""
-
-msgid "There was an error displaying the help."
-msgstr ""
-
-#. Translators: What PeasGtkPluginManagerView to use
-msgid "View"
-msgstr ""
-
-msgid "_About"
-msgstr ""
-
-msgid "_Cancel"
-msgstr ""
-
-msgid "_Close"
-msgstr ""
-
-msgid "_Disable All"
-msgstr ""
-
-msgid "_Enabled"
-msgstr ""
-
-msgid "_Help"
-msgstr ""
-
-msgid "_Preferences"
-msgstr ""
-
+#: peas-demo/peas-demo.c:92
 msgid "_Quit"
+msgstr ""
+
+#: peas-demo/peas-demo.c:108
+msgid "— libpeas demo application"
+msgstr ""
+
+#: tests/libpeas-gtk/plugin-manager.c:77
+msgid "About"
+msgstr ""
+
+#: tests/libpeas-gtk/plugin-manager.c:82
+msgid "Preferences"
 msgstr ""

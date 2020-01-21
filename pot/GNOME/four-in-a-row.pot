@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/four-in-a-row/issues\n"
+"POT-Creation-Date: 2019-11-29 13:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: data/ui/four-in-a-row.ui:23 data/ui/four-in-a-row.ui:28
+#: data/org.gnome.Four-in-a-row.appdata.xml.in:7
+#: data/org.gnome.Four-in-a-row.desktop.in:5
+msgid "Four-in-a-row"
+msgstr ""
+
+#: data/ui/four-in-a-row.ui:37
+msgid "Undo your most recent move"
+msgstr ""
+
+#: data/ui/four-in-a-row.ui:114
+msgid "_Hint"
+msgstr ""
+
+#: data/ui/four-in-a-row.ui:120
+msgid "Receive a hint for your next move"
+msgstr ""
+
+#: data/ui/four-in-a-row.ui:133
+msgid "_Start Over"
+msgstr ""
+
+#: data/ui/four-in-a-row.ui:139
+msgid "Start a new game"
+msgstr ""
+
+#: data/org.gnome.Four-in-a-row.appdata.xml.in:8
+#: data/org.gnome.Four-in-a-row.desktop.in:6
+msgid "Make lines of the same color to win"
+msgstr ""
+
+#: data/org.gnome.Four-in-a-row.appdata.xml.in:10
 msgid ""
 "A family classic, the objective of Four-in-a-row is to build a line of four "
 "of your marbles while trying to stop your opponent (human or computer) from "
@@ -24,220 +56,259 @@ msgid ""
 "diagonal. The first player to connect four in a row is the winner!"
 msgstr ""
 
-msgid "A number specifying the preferred theme."
-msgstr ""
-
-msgid "Blue"
-msgstr ""
-
-# (Abel) 隨便作的。
-msgid "Blue and Red Marbles"
-msgstr ""
-
-msgid "Blue wins!"
-msgstr ""
-
-msgid "Blue’s turn"
-msgstr ""
-
-msgid "Circle"
-msgstr ""
-
-msgid "Circle wins!"
-msgstr ""
-
-msgid "Circle’s turn"
-msgstr ""
-
-msgid "Connect four in a row to win"
-msgstr ""
-
-msgid "Cross"
-msgstr ""
-
-msgid "Cross wins!"
-msgstr ""
-
-msgid "Cross’s turn"
-msgstr ""
-
-msgid "Drawn:"
-msgstr ""
-
-msgid "Drop marble"
-msgstr ""
-
-msgid "E_nable sounds"
-msgstr ""
-
-msgid "Four-in-a-row"
-msgstr ""
-
+#: data/org.gnome.Four-in-a-row.appdata.xml.in:16
 msgid ""
 "Four-in-a-row features multiple difficulty levels. If you’re having trouble, "
 "you can always ask for a hint."
 msgstr ""
 
-msgid "Game"
-msgstr ""
-
-msgid "Green"
-msgstr ""
-
-msgid "Green wins!"
-msgstr ""
-
-msgid "Green’s turn"
-msgstr ""
-
-msgid "High Contrast"
-msgstr ""
-
-msgid "High Contrast Inverse"
-msgstr ""
-
-#, c-format
-msgid "Hint: Column %d"
-msgstr ""
-
-msgid "Human"
-msgstr ""
-
-msgid "I win!"
-msgstr ""
-
-msgid "It’s a draw!"
-msgstr ""
-
-msgid "I’m Thinking…"
-msgstr ""
-
-msgid "Key press to drop a marble."
-msgstr ""
-
-msgid "Key press to move left."
-msgstr ""
-
-msgid "Key press to move right."
-msgstr ""
-
-#. keyboard tab
-msgid "Keyboard Controls"
-msgstr ""
-
-msgid "Level one"
-msgstr ""
-
-msgid "Level three"
-msgstr ""
-
-msgid "Level two"
-msgstr ""
-
-msgid "Make lines of the same color to win"
-msgstr ""
-
-msgid "Me:"
-msgstr ""
-
-msgid "Move left"
-msgstr ""
-
-msgid "Move right"
-msgstr ""
-
-msgid "Opponent"
-msgstr ""
-
-msgid "Opponent:"
-msgstr ""
-
-msgid "Preferences"
-msgstr ""
-
-msgid "Receive a hint for your next move"
-msgstr ""
-
-msgid "Red"
-msgstr ""
-
-msgid "Red and Green Marbles"
-msgstr ""
-
-msgid "Red wins!"
-msgstr ""
-
-msgid "Red’s turn"
-msgstr ""
-
-msgid "Scores"
-msgstr ""
-
-msgid "Sound"
-msgstr ""
-
-msgid "Stars and Rings"
-msgstr ""
-
-msgid "Start a new game"
-msgstr ""
-
+#: data/org.gnome.Four-in-a-row.appdata.xml.in:37
 msgid "The GNOME Project"
 msgstr ""
 
-msgid "Theme ID"
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Four-in-a-row.desktop.in:8
+msgid "game;strategy;logic;"
 msgstr ""
 
-msgid "This key is already in use."
+#: data/org.gnome.Four-in-a-row.gschema.xml:5
+msgid "Opponent"
 msgstr ""
 
-msgid "Undo your most recent move"
-msgstr ""
-
-msgid "Unknown Command"
-msgstr ""
-
-msgid "Whether or not to play event sounds."
-msgstr ""
-
-msgid "You win!"
-msgstr ""
-
-msgid "You:"
-msgstr ""
-
-msgid "Your Turn"
-msgstr ""
-
+#: data/org.gnome.Four-in-a-row.gschema.xml:6
 msgid ""
 "Zero is human; one through three correspond to the level of the computer "
 "player."
 msgstr ""
 
-msgid "_About Four-in-a-row"
+#: data/org.gnome.Four-in-a-row.gschema.xml:11
+msgid "Theme ID"
 msgstr ""
 
-msgid "_Help"
+#: data/org.gnome.Four-in-a-row.gschema.xml:12
+msgid "A number specifying the preferred theme."
 msgstr ""
 
-msgid "_Hint"
+#: data/org.gnome.Four-in-a-row.gschema.xml:16 src/four-in-a-row.vala:772
+msgid "Sound"
 msgstr ""
 
-msgid "_Preferences"
+#: data/org.gnome.Four-in-a-row.gschema.xml:17
+msgid "Whether or not to play event sounds."
 msgstr ""
 
+#: data/org.gnome.Four-in-a-row.gschema.xml:21 src/prefs-box.vala:96
+msgid "Move left"
+msgstr ""
+
+#: data/org.gnome.Four-in-a-row.gschema.xml:22
+msgid "Key press to move left."
+msgstr ""
+
+#: data/org.gnome.Four-in-a-row.gschema.xml:26 src/prefs-box.vala:97
+msgid "Move right"
+msgstr ""
+
+#: data/org.gnome.Four-in-a-row.gschema.xml:27
+msgid "Key press to move right."
+msgstr ""
+
+#: data/org.gnome.Four-in-a-row.gschema.xml:31 src/prefs-box.vala:98
+msgid "Drop marble"
+msgstr ""
+
+#: data/org.gnome.Four-in-a-row.gschema.xml:32
+msgid "Key press to drop a marble."
+msgstr ""
+
+#: src/four-in-a-row.vala:285
+msgid "It’s a draw!"
+msgstr ""
+
+#: src/four-in-a-row.vala:295
+msgid "You win!"
+msgstr ""
+
+#: src/four-in-a-row.vala:297 src/four-in-a-row.vala:318
+msgid "Your Turn"
+msgstr ""
+
+#: src/four-in-a-row.vala:302
+msgid "I win!"
+msgstr ""
+
+#: src/four-in-a-row.vala:304 src/four-in-a-row.vala:515
+msgid "I’m Thinking…"
+msgstr ""
+
+#: src/four-in-a-row.vala:529
+#, c-format
+msgid "Hint: Column %d"
+msgstr ""
+
+#: src/four-in-a-row.vala:688
+msgid "Connect four in a row to win"
+msgstr ""
+
+#: src/four-in-a-row.vala:692
+msgid "translator-credits"
+msgstr ""
+
+#. Translators: hamburger menu entry; "Appearance" submenu (with a mnemonic that appears pressing Alt)
+#: src/four-in-a-row.vala:770
+msgid "A_ppearance"
+msgstr ""
+
+#: src/four-in-a-row.vala:777
 msgid "_Scores"
 msgstr ""
 
-msgid "_Start Over"
+#: src/four-in-a-row.vala:782
+msgid "_Preferences"
 msgstr ""
 
-msgid "_Theme:"
+#: src/four-in-a-row.vala:783
+msgid "_Help"
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-msgid "game;strategy;logic;"
+#: src/four-in-a-row.vala:784
+msgid "_About Four-in-a-row"
 msgstr ""
 
-msgid "translator-credits"
+#: src/games-controls-list.vala:155
+msgid "This key is already in use."
+msgstr ""
+
+#: src/games-controls-list.vala:176
+msgid "Unknown Command"
+msgstr ""
+
+#: src/prefs-box.vala:40
+msgid "Preferences"
+msgstr ""
+
+#: src/prefs-box.vala:57
+msgid "Game"
+msgstr ""
+
+#: src/prefs-box.vala:60
+msgid "Opponent:"
+msgstr ""
+
+#: src/prefs-box.vala:73
+msgid "Human"
+msgstr ""
+
+#: src/prefs-box.vala:77
+msgid "Level one"
+msgstr ""
+
+#: src/prefs-box.vala:81
+msgid "Level two"
+msgstr ""
+
+#: src/prefs-box.vala:85
+msgid "Level three"
+msgstr ""
+
+#. keyboard tab
+#: src/prefs-box.vala:93
+msgid "Keyboard Controls"
+msgstr ""
+
+#: src/scorebox.vala:28
+msgid "Scores"
+msgstr ""
+
+#: src/scorebox.vala:75
+msgid "Drawn:"
+msgstr ""
+
+#. FIXME shouldn't it be Player1&Player2?
+#: src/scorebox.vala:98 src/scorebox.vala:101
+msgid "You:"
+msgstr ""
+
+#: src/scorebox.vala:99 src/scorebox.vala:102
+msgid "Me:"
+msgstr ""
+
+#: src/theme.vala:65
+msgid "High Contrast"
+msgstr ""
+
+#: src/theme.vala:69 src/theme.vala:78
+msgid "Circle"
+msgstr ""
+
+#: src/theme.vala:69 src/theme.vala:78
+msgid "Cross"
+msgstr ""
+
+#: src/theme.vala:70 src/theme.vala:79
+msgid "Circle wins!"
+msgstr ""
+
+#: src/theme.vala:70 src/theme.vala:79
+msgid "Cross wins!"
+msgstr ""
+
+#: src/theme.vala:71 src/theme.vala:80
+msgid "Circle’s turn"
+msgstr ""
+
+#: src/theme.vala:71 src/theme.vala:80
+msgid "Cross’s turn"
+msgstr ""
+
+#: src/theme.vala:74
+msgid "High Contrast Inverse"
+msgstr ""
+
+#: src/theme.vala:83
+msgid "Red and Green Marbles"
+msgstr ""
+
+#: src/theme.vala:87 src/theme.vala:96 src/theme.vala:105
+msgid "Red"
+msgstr ""
+
+#: src/theme.vala:87 src/theme.vala:105
+msgid "Green"
+msgstr ""
+
+#: src/theme.vala:88 src/theme.vala:97 src/theme.vala:106
+msgid "Red wins!"
+msgstr ""
+
+#: src/theme.vala:88 src/theme.vala:106
+msgid "Green wins!"
+msgstr ""
+
+#: src/theme.vala:89 src/theme.vala:98 src/theme.vala:107
+msgid "Red’s turn"
+msgstr ""
+
+#: src/theme.vala:89 src/theme.vala:107
+msgid "Green’s turn"
+msgstr ""
+
+#: src/theme.vala:92
+msgid "Blue and Red Marbles"
+msgstr ""
+
+#: src/theme.vala:96
+msgid "Blue"
+msgstr ""
+
+#: src/theme.vala:97
+msgid "Blue wins!"
+msgstr ""
+
+#: src/theme.vala:98
+msgid "Blue’s turn"
+msgstr ""
+
+#: src/theme.vala:101
+msgid "Stars and Rings"
 msgstr ""

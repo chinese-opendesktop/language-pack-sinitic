@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-boxes/issues\n"
+"POT-Creation-Date: 2019-12-02 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,81 +16,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#. Translator comment: %s is name of vendor here (e.g Canonical Ltd or Red Hat Inc)
-#, c-format
-msgid " from %s"
+#: data/org.gnome.Boxes.appdata.xml.in:7
+msgid "GNOME Boxes"
 msgstr ""
 
-#. Translators: Showing size of widget as WIDTH×HEIGHT here.
-#, c-format
-msgid "%d×%d"
+#: data/org.gnome.Boxes.appdata.xml.in:8
+msgid "Simple remote and virtual machines"
 msgstr ""
 
-#. Translators: This is memory or disk size. E.g. "1 GB (recommended)".
-#, c-format
-msgid "%s (recommended)"
-msgstr ""
-
-#. Translators: This is memory or disk size. E.g. "2 GB (1 GB used)".
-#, c-format
-msgid "%s <span color=\"grey\">(%s used)</span>"
-msgstr ""
-
-#, c-format
-msgid "%s home page: <%s>.\n"
-msgstr ""
-
-#, c-format
-msgid ""
-"%s is known to libvirt as GNOME Boxes’s storage pool but is not a directory"
-msgstr ""
-
-#, c-format
-msgid ""
-"%s is known to libvirt as GNOME Boxes’s storage pool but is not user-"
-"readable/writable"
-msgstr ""
-
-#, c-format
-msgid ""
-"%s is known to libvirt as GNOME Boxes’s storage pool but this directory does "
-"not exist"
-msgstr ""
-
-#. Translators: This is disk size. E.g "1 GB maximum".
-#, c-format
-msgid "%s maximum"
-msgstr ""
-
-#, c-format
-msgid "%u box has been deleted%u boxes have been deleted"
-msgstr ""
-
-#. This goes with the "Click on items to select them" string and is about selection of items (boxes)
-#. when the main collection view is in selection mode.
-#, c-format
-msgid "%u selected%u selected"
-msgstr ""
-
-msgid "(Click on items to select them)"
-msgstr ""
-
-msgid "32-bit x86 system"
-msgstr ""
-
-msgid "64-bit x86 system"
-msgstr ""
-
-#, c-format
-msgid ""
-"<span color=\"grey\">Maximum Disk Size</span>\t\t %s <span color=\"grey"
-"\">(%s used)</span>"
-msgstr ""
-
-msgid "A simple GNOME 3 application to access remote or virtual systems"
-msgstr ""
-
+#: data/org.gnome.Boxes.appdata.xml.in:10
 msgid ""
 "A simple GNOME 3 application to access remote or virtual systems. Unlike "
 "some other virtual machine management software, Boxes is targeted towards "
@@ -99,800 +35,7 @@ msgid ""
 "getting things working out of the box with very little input from user."
 msgstr ""
 
-msgid "About Boxes"
-msgstr ""
-
-msgid "Actions"
-msgstr ""
-
-msgid "Add to Favorites"
-msgstr ""
-
-#. Translators: this is a switch to show all boxes in main view.
-msgid "All"
-msgstr ""
-
-#. An error occurred when trying to setup unattended installation, but it's likely that a non-unattended
-#. installation will work. When this happens, just disable unattended installs, and let the caller decide
-#. if it wants to retry a non-automatic install or to just abort the box creation..
-msgid ""
-"An error occurred during installation preparation. Express Install disabled."
-msgstr ""
-
-#. Translators: Analyzing installer media
-msgid "Analyzing…"
-msgstr ""
-
-msgid ""
-"Any trademarks shown above are used merely for identification of software "
-"products you have already obtained and are the property of their respective "
-"owners."
-msgstr ""
-
-msgid "Application Menu"
-msgstr ""
-
-msgid "Back"
-msgstr ""
-
-msgid "Back to overview"
-msgstr ""
-
-msgid "Box Creation and Properties"
-msgstr ""
-
-msgid "Box Display"
-msgstr ""
-
-msgid "Box Preparation"
-msgstr ""
-
-msgid "Box Setup"
-msgstr ""
-
-#. Translators: Accessibility name for context menu with box-related actions (e.g Pause, Delete etc)
-msgid "Box actions"
-msgstr ""
-
-msgid "Box creation failed"
-msgstr ""
-
-#, c-format
-msgid "Box import from file “%s” failed."
-msgstr ""
-
-#. We did this, so ignore!
-msgid "Box setup failed"
-msgstr ""
-
-#, c-format
-msgid "Box “%s” has been deleted"
-msgstr ""
-
-#, c-format
-msgid "Box “%s” installed and ready to use"
-msgstr ""
-
-msgid "Boxes"
-msgstr ""
-
-msgid "Boxes can be virtual or remote machines."
-msgstr ""
-
-msgid "Boxes cannot access the virtualization backend."
-msgstr ""
-
-msgid "Boxes is doing something"
-msgstr ""
-
-#. accept any vnc:// uri
-#. accept any ssh:// uri
-#. accept any rdp:// uri
-msgid "Boxes was compiled without RDP support"
-msgstr ""
-
-msgid "Boxes will create a new box with the following properties:"
-msgstr ""
-
-msgid "Broker"
-msgstr ""
-
-#. Don't let user eject installer media if it's an express installation or a live media
-msgid "CD/DVD"
-msgstr ""
-
-msgid "CPU"
-msgstr ""
-
-msgid "C_ontinue"
-msgstr ""
-
-msgid "C_reate"
-msgstr ""
-
-msgid "C_ustomize…"
-msgstr ""
-
-msgid "Cancel"
-msgstr ""
-
-#, c-format
-msgid "Changes require restart of “%s”."
-msgstr ""
-
-msgid "Check virtualization capabilities"
-msgstr ""
-
-msgid ""
-"Choose express install to automatically preconfigure the box with optimal "
-"settings."
-msgstr ""
-
-#. Clone
-msgid "Clone"
-msgstr ""
-
-#, c-format
-msgid "Cloning “%s”…"
-msgstr ""
-
-msgid "Close Window/Quit Boxes"
-msgstr ""
-
-msgid "Collections"
-msgstr ""
-
-msgid "Connect to a Box"
-msgstr ""
-
-msgid "Connect to a remote box"
-msgstr ""
-
-msgid "Connect to oVirt or Libvirt brokers."
-msgstr ""
-
-msgid "Connect using RDP, SPICE, SSH, or VNC."
-msgstr ""
-
-msgid "Connected"
-msgstr ""
-
-#. Translators: The %s will be expanded with the name of the vm
-#, c-format
-msgid "Connecting to %s"
-msgstr ""
-
-msgid "Connection to oVirt broker failed"
-msgstr ""
-
-#, c-format
-msgid "Connection to “%s” failed"
-msgstr ""
-
-#. Translators: "%s" is a file name.
-#, c-format
-msgid "Copying “%s” to “Downloads”"
-msgstr ""
-
-msgid ""
-"Could not get “gnome-boxes” storage pool information from libvirt. Make sure "
-"“virsh -c qemu:///session pool-dumpxml gnome-boxes” is working."
-msgstr ""
-
-msgid "Create a Box"
-msgstr ""
-
-msgid "Create a new box"
-msgstr ""
-
-msgid "Creating new snapshot…"
-msgstr ""
-
-msgid "Ctrl + Alt + Backspace"
-msgstr ""
-
-msgid "Ctrl + Alt + Del"
-msgstr ""
-
-#. New section
-msgid "Ctrl + Alt + F1"
-msgstr ""
-
-msgid "Ctrl + Alt + F2"
-msgstr ""
-
-msgid "Ctrl + Alt + F3"
-msgstr ""
-
-msgid "Ctrl + Alt + F7"
-msgstr ""
-
-msgid "Customize Resources"
-msgstr ""
-
-#. Delete
-msgid "Delete"
-msgstr ""
-
-msgid "Devices & Shares"
-msgstr ""
-
-msgid "Disable 3D acceleration"
-msgstr ""
-
-msgid "Disconnected"
-msgstr ""
-
-msgid "Disk"
-msgstr ""
-
-#. Translators: This is the protocal being used to connect to the display/desktop, e.g Spice, VNC, etc.
-msgid "Display Protocol"
-msgstr ""
-
-#. Translators: This is the URL to connect to the display/desktop. e.g spice://somehost:5051.
-msgid "Display URL"
-msgstr ""
-
-msgid "Display version number"
-msgstr ""
-
-msgid "Done"
-msgstr ""
-
-msgid "Download an OS"
-msgstr ""
-
-msgid "Download failed."
-msgstr ""
-
-msgid "Downloading device drivers…"
-msgstr ""
-
-msgid "Downloading media"
-msgstr ""
-
-msgid "Downloading media…"
-msgstr ""
-
-msgid ""
-"Each box can be a virtual machine that runs on this computer, or a "
-"connection to an existing remote machine"
-msgstr ""
-
-msgid "Empty location"
-msgstr ""
-
-msgid ""
-"Enter an address to connect to. Addresses can begin with spice://, rdp://, "
-"ssh:// or vnc://."
-msgstr ""
-
-msgid "Exit fullscreen"
-msgstr ""
-
-msgid "Experiencing graphics problems?"
-msgstr ""
-
-#. Translators: 'Express Install' means that the new box installation will be fully automated, the user won't be asked anything while it's performed.
-msgid "Express Install"
-msgstr ""
-
-#, c-format
-msgid "Express installation of %s requires an internet connection."
-msgstr ""
-
-msgid "Failed to analyze installer media. Corrupted or incomplete media?"
-msgstr ""
-
-msgid "Failed to apply snapshot"
-msgstr ""
-
-#, c-format
-msgid "Failed to create snapshot of %s"
-msgstr ""
-
-#, c-format
-msgid "Failed to find suitable disk to import for box “%s”"
-msgstr ""
-
-#, c-format
-msgid "Failed to start “%s”"
-msgstr ""
-
-msgid "First run"
-msgstr ""
-
-msgid "Folder Shares"
-msgstr ""
-
-msgid "Force Shutdown"
-msgstr ""
-
-msgid "Fullscreen"
-msgstr ""
-
-msgid "Fullscreen/Restore from fullscreen"
-msgstr ""
-
-msgid "GNOME Boxes"
-msgstr ""
-
-#, c-format
-msgid "GNOME Boxes credentials for “%s”"
-msgstr ""
-
-msgid "General"
-msgstr ""
-
-msgid "Grab/Ungrab keyboard"
-msgstr ""
-
-msgid "Grid view"
-msgstr ""
-
-msgid "Help"
-msgstr ""
-
-msgid "Host"
-msgstr ""
-
-#. I/O
-#. 100 MiB/s
-msgid "I/O"
-msgstr ""
-
-msgid "IP Address"
-msgstr ""
-
-msgid "Importing…"
-msgstr ""
-
-#. No guest caps or none compatible
-#. FIXME: Better error messsage than this please?
-msgid "Incapable host system"
-msgstr ""
-
-msgid "Insert operating system installation media or select a source below"
-msgstr ""
-
-#. Translators: First “%s” is filename of ISO or CD/DVD device that user selected and
-#. Second “%s” is name of the box.
-#, c-format
-msgid "Insertion of “%s” as a CD/DVD into “%s” failed"
-msgstr ""
-
-msgid "Installing…"
-msgstr ""
-
-msgid "Invalid URL"
-msgstr ""
-
-msgid "Invalid file"
-msgstr ""
-
-msgid "Just hit the <b>New</b> button to create your first one."
-msgstr ""
-
-msgid "Keyboard Shortcuts"
-msgstr ""
-
-msgid "Keyboard shortcuts"
-msgstr ""
-
-msgid "Launch"
-msgstr ""
-
-msgid "List view"
-msgstr ""
-
-#. Translators: We show 'Live' tag next or below the name of live OS media or box based on such media.
-#. http://en.wikipedia.org/wiki/Live_CD
-msgid "Live"
-msgstr ""
-
-#, c-format
-msgid "Live box “%s” has been deleted automatically."
-msgstr ""
-
-#. Translators: this is a switch to show only local boxes in main view.
-msgid "Local"
-msgstr ""
-
-msgid "Local Folder"
-msgstr ""
-
-msgid "Machine is under construction"
-msgstr ""
-
-msgid "Maximum _Disk Size: "
-msgstr ""
-
-msgid "Memory"
-msgstr ""
-
-msgid "Missing port in Spice URL"
-msgstr ""
-
-msgid "Name"
-msgstr ""
-
-#. Network
-#. 1 MiB/s
-msgid "Network"
-msgstr ""
-
-msgid "New and Recent"
-msgstr ""
-
-msgid "No boxes to import"
-msgstr ""
-
-msgid "No operating systems found"
-msgstr ""
-
-msgid "No snapshots created yet. Create one using the button below."
-msgstr ""
-
-#, c-format
-msgid "No such file %s"
-msgstr ""
-
-#, c-format
-msgid "Not connected to %s"
-msgstr ""
-
-msgid "Oops, something went wrong"
-msgstr ""
-
-msgid "Open box with UUID"
-msgstr ""
-
-#. Open in new Window
-msgid "Open in New Window"
-msgstr ""
-
-msgid "Open in full screen"
-msgstr ""
-
-msgid "Operating system will be downloaded and installed in a virtual machine."
-msgstr ""
-
-msgid "Overview"
-msgstr ""
-
-msgid "P_ause"
-msgstr ""
-
-msgid "Password"
-msgstr ""
-
-msgid "Paused"
-msgstr ""
-
-#, c-format
-msgid "Pausing “%s” failed"
-msgstr ""
-
-msgid "Port"
-msgstr ""
-
-msgid "Powered Off"
-msgstr ""
-
-msgid "Preparing to create new box"
-msgstr ""
-
-msgid "Press & release (left) Ctrl+Alt to ungrab keyboard."
-msgstr ""
-
-msgid "Press (left) Ctrl+Alt to ungrab"
-msgstr ""
-
-msgid "Product Key"
-msgstr ""
-
-#. Properties (in separate section)
-msgid "Properties"
-msgstr ""
-
-msgid "Protocol"
-msgstr ""
-
-msgid "Ready to Receive File"
-msgstr ""
-
-#, c-format
-msgid "Redirection of USB device “%s” for “%s” failed"
-msgstr ""
-
-#. Translators: this is a switch to show only remote boxes in main view.
-msgid "Remote"
-msgstr ""
-
-#. Translators: “%s” here is name of the box.
-#, c-format
-msgid "Removal of CD/DVD from “%s” failed"
-msgstr ""
-
-#. Favorite
-msgid "Remove from Favorites"
-msgstr ""
-
-msgid "Rename"
-msgstr ""
-
-#, c-format
-msgid "Report bugs to <%s>.\n"
-msgstr ""
-
-msgid "Restart"
-msgstr ""
-
-#, c-format
-msgid "Restart of “%s” is taking too long. Force it to shutdown?"
-msgstr ""
-
-#. Translators: The %s will be expanded with the name of the vm
-#, c-format
-msgid "Restoring %s from disk"
-msgstr ""
-
-msgid "Revert to this state"
-msgstr ""
-
-#, c-format
-msgid "Reverting to %s…"
-msgstr ""
-
-msgid "Review"
-msgstr ""
-
-msgid "Running"
-msgstr ""
-
-msgid "SELinux not installed?"
-msgstr ""
-
-msgid ""
-"SPICE guest tools are not installed. These tools improve user experience and "
-"enable host and box interactions, such as copy&amp;paste. Please visit <a "
-"href=\"http://www.spice-space.org/download.html\">http://www.spice-space.org/"
-"download.html</a> to download and install these tools from within the box."
-msgstr ""
-
-msgid "Save"
-msgstr ""
-
-msgid "Saving…"
-msgstr ""
-
-#. Translators: %s => the timestamp of when the screenshot was taken.
-#, c-format
-msgid "Screenshot from %s"
-msgstr ""
-
-msgid "Screenshot interval"
-msgstr ""
-
-msgid "Search"
-msgstr ""
-
-msgid "Search for an OS or enter a download link…"
-msgstr ""
-
-msgid "Search term"
-msgstr ""
-
-msgid "Select All"
-msgstr ""
-
-msgid "Select Items"
-msgstr ""
-
-msgid "Select None"
-msgstr ""
-
-msgid "Select Running"
-msgstr ""
-
-msgid "Select Shared Folder"
-msgstr ""
-
-msgid "Select a bootable image file to install in a virtual machine."
-msgstr ""
-
-msgid "Select a device or ISO file"
-msgstr ""
-
-msgid "Select a file"
-msgstr ""
-
-msgid "Select files to transfer"
-msgstr ""
-
-#. Send files
-msgid "Send File…"
-msgstr ""
-
-#. Translators: Accessibility name for context menu with a set of keyboard combos (that would normally be
-#. intercepted by host/client, to send to the box.
-msgid "Send key combinations"
-msgstr ""
-
-msgid "Setting up clone…"
-msgstr ""
-
-msgid "Share Clipboard"
-msgstr ""
-
-msgid "Shared folders"
-msgstr ""
-
-msgid "Show more…"
-msgstr ""
-
-msgid "Sign In"
-msgstr ""
-
-#, c-format
-msgid "Sign In to %s"
-msgstr ""
-
-msgid "Simple remote and virtual machines"
-msgstr ""
-
-#, c-format
-msgid "Snapshot “%s” deleted."
-msgstr ""
-
-msgid "Snapshots"
-msgstr ""
-
-msgid "Source Selection"
-msgstr ""
-
-#. Translators: The %s will be expanded with the name of the vm
-#, c-format
-msgid "Starting %s"
-msgstr ""
-
-msgid "State of the art virtualization"
-msgstr ""
-
-#. qemu-img doesn't support resizing disk image with snapshots:
-#. https://bugs.launchpad.net/qemu/+bug/1563931
-#, c-format
-msgid ""
-"Storage resize requires deleting associated snapshot.Storage resize requires "
-"deleting %llu associated snapshots."
-msgstr ""
-
-msgid "Switch to the next page"
-msgstr ""
-
-msgid "Switch to the previous page"
-msgstr ""
-
-msgid "System"
-msgstr ""
-
-msgid "TLS Port"
-msgstr ""
-
-#. Take Screenshot
-msgid "Take Screenshot"
-msgstr ""
-
-msgid "The GNOME Project"
-msgstr ""
-
-msgid "The interval in seconds between screenshot updates"
-msgstr ""
-
-msgid "The list of boxes collections"
-msgstr ""
-
-msgid "The port must be specified once"
-msgstr ""
-
-msgid ""
-"There is not enough space on your machine to increase the maximum disk size."
-msgstr ""
-
-msgid "Too many command line arguments specified.\n"
-msgstr ""
-
-msgid "Troubleshooting Log"
-msgstr ""
-
-msgid "Try a different search"
-msgstr ""
-
-msgid "Type"
-msgstr ""
-
-msgid "URL"
-msgstr ""
-
-#. A 'broker' is a virtual-machine manager (local or remote). Currently libvirt and ovirt are supported.
-msgid "URL to display, broker or installer media"
-msgstr ""
-
-msgid "USB devices"
-msgstr ""
-
-#. Translators: "Unknown" is a placeholder for a box name when it could not be determined
-msgid "Unknown"
-msgstr ""
-
-msgid "Unknown installer media"
-msgstr ""
-
-msgid "Unknown media"
-msgstr ""
-
-msgid "Unsupported disk image format."
-msgstr ""
-
-msgid "Unsupported file"
-msgstr ""
-
-#, c-format
-msgid "Unsupported protocol “%s”"
-msgstr ""
-
-msgid "Username"
-msgstr ""
-
-msgid "Variant array of shared folders’ names and path mapping"
-msgstr ""
-
-msgid "View and use virtual machines"
-msgstr ""
-
-msgid "Virtual machine viewer/manager"
-msgstr ""
-
-msgid ""
-"Virtualization extensions are unavailable on your system.\n"
-"Check your BIOS settings to enable them."
-msgstr ""
-
-msgid "Whether Boxes is running for the first time"
-msgstr ""
-
-msgid "Will add boxes for all systems available from this account:"
-msgstr ""
-
-#. Translators: %u here is the number of boxes available for import
-#, c-format
-msgid ""
-"Will import %u box from system brokerWill import %u boxes from system broker"
-msgstr ""
-
-#, c-format
-msgid "Will import “%s” from system broker"
-msgstr ""
-
-msgid "Window maximized"
-msgstr ""
-
-msgid "Window maximized state"
-msgstr ""
-
-msgid "Window position"
-msgstr ""
-
-msgid "Window position (x and y)"
-msgstr ""
-
-msgid "Window size"
-msgstr ""
-
-msgid "Window size (width and height)"
-msgstr ""
-
+#: data/org.gnome.Boxes.appdata.xml.in:17
 msgid ""
 "You want to install Boxes if you just want a very safe and easy way to try "
 "out new operating systems or new (potentially unstable) versions of your "
@@ -900,163 +43,1475 @@ msgid ""
 "example, in your office)."
 msgstr ""
 
-msgid "You will find your file in the Downloads directory."
+#: data/org.gnome.Boxes.appdata.xml.in:71
+msgid "The GNOME Project"
 msgstr ""
 
-#, c-format
-msgid ""
-"Your SELinux context looks incorrect, you can try to fix it by running:\n"
-"%s"
+#: data/org.gnome.Boxes.desktop.in:3 data/ui/app-window.ui:36 src/app.vala:120
+#: src/app-window.vala:137 src/app-window.vala:258 src/app-window.vala:260
+#: src/main.vala:72 src/topbar.vala:94
+msgid "Boxes"
 msgstr ""
 
+#: data/org.gnome.Boxes.desktop.in:4
+msgid "Virtual machine viewer/manager"
+msgstr ""
+
+#: data/org.gnome.Boxes.desktop.in:5
+msgid "View and use virtual machines"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Boxes.desktop.in:7
+msgid "virtual machine;vm;vnc;rdp;"
+msgstr ""
+
+#: data/org.gnome.boxes.gschema.xml:11
+msgid "Collections"
+msgstr ""
+
+#: data/org.gnome.boxes.gschema.xml:12
+msgid "The list of boxes collections"
+msgstr ""
+
+#: data/org.gnome.boxes.gschema.xml:15
 msgid "[ 'Work', 'Research', 'Gaming' ]"
 msgstr ""
 
-msgid "_Add Password"
+#: data/org.gnome.boxes.gschema.xml:19
+msgid "Screenshot interval"
 msgstr ""
 
-msgid "_Cancel"
+#: data/org.gnome.boxes.gschema.xml:20
+msgid "The interval in seconds between screenshot updates"
 msgstr ""
 
-msgid "_Copy to Clipboard"
+#: data/org.gnome.boxes.gschema.xml:32
+msgid "Window size"
 msgstr ""
 
-msgid "_Delete"
+#: data/org.gnome.boxes.gschema.xml:33
+msgid "Window size (width and height)"
 msgstr ""
 
-msgid "_Favorite"
+#: data/org.gnome.boxes.gschema.xml:39
+msgid "Window position"
 msgstr ""
 
-msgid "_Force Shutdown"
+#: data/org.gnome.boxes.gschema.xml:40
+msgid "Window position (x and y)"
 msgstr ""
 
-#. Translators: %u here is the number of boxes available for import
-#, c-format
-msgid "_Import %u box from system broker_Import %u boxes from system broker"
+#: data/org.gnome.boxes.gschema.xml:46
+msgid "Window maximized"
 msgstr ""
 
-#, c-format
-msgid "_Import “%s” from system broker"
+#: data/org.gnome.boxes.gschema.xml:47
+msgid "Window maximized state"
 msgstr ""
 
-msgid "_Memory: "
+#: data/org.gnome.boxes.gschema.xml:53
+msgid "First run"
 msgstr ""
 
-msgid "_Name"
+#: data/org.gnome.boxes.gschema.xml:54
+msgid "Whether Boxes is running for the first time"
 msgstr ""
 
-msgid "_New"
+#: data/org.gnome.boxes.gschema.xml:61
+msgid "Shared folders"
 msgstr ""
 
-msgid "_Open"
+#: data/org.gnome.boxes.gschema.xml:62
+msgid "Variant array of shared folders’ names and path mapping"
 msgstr ""
 
-#. Translators: This is a button to open box(es) in new window(s)
-msgid "_Open in new window"
+#: data/ui/assistant/pages/downloads-page.ui:110
+#: data/ui/wizard-downloads-page.ui:89
+msgid "No operating systems found"
 msgstr ""
 
-#, c-format
-msgid "_Open in new window_Open in %u new windows"
+#: data/ui/assistant/pages/downloads-page.ui:121
+#: data/ui/wizard-downloads-page.ui:100
+msgid "Try a different search"
 msgstr ""
 
-msgid "_Password"
+#: data/ui/assistant/pages/downloads-page.ui:137 data/ui/wizard-toolbar.ui:243
+#: src/assistant/downloads-page.vala:54
+msgid "Search for an OS or enter a download link…"
 msgstr ""
 
-#. Translators: Remove is the label on the button to remove an iso from a cdrom drive
-msgid "_Remove"
+#: data/ui/assistant/pages/index-page.ui:5 data/ui/assistant/vm-assistant.ui:6
+msgid "Create a Virtual Machine"
 msgstr ""
 
-msgid "_Restart"
+#: data/ui/assistant/pages/index-page.ui:35
+msgid ""
+"A new virtual machine will be created and an operating system installed into "
+"it. Select an operating system source to begin."
 msgstr ""
 
-msgid "_Run in background"
+#: data/ui/assistant/pages/index-page.ui:49
+msgid "Detected Sources"
 msgstr ""
 
-#. Translators: This is the text on the button to select an iso for the cd
-msgid "_Select"
+#: data/ui/assistant/pages/index-page.ui:109
+msgid "Featured Downloads"
 msgstr ""
 
-msgid "_Shutdown"
+#: data/ui/assistant/pages/index-page.ui:120
+msgid "You will be notified when the download has completed."
 msgstr ""
 
-msgid "_Troubleshooting Log"
+#: data/ui/assistant/pages/index-page.ui:147
+msgid "Select an OS Source"
 msgstr ""
 
-msgid "_URL"
+#: data/ui/assistant/pages/index-page.ui:180
+msgid "Operating System Download"
 msgstr ""
 
-msgid "_Undo"
+#: data/ui/assistant/pages/index-page.ui:196
+msgid "Browse and search for operating systems to install."
 msgstr ""
 
+#: data/ui/assistant/pages/index-page.ui:242
+msgid "Operating System Image File"
+msgstr ""
+
+#: data/ui/assistant/pages/index-page.ui:258
+msgid "Select an .iso file to install a virtual machine."
+msgstr ""
+
+#: data/ui/assistant/pages/preparation-page.ui:5
+msgid "Preparing…"
+msgstr ""
+
+#: data/ui/assistant/pages/preparation-page.ui:20
+msgid "Preparing to create a new box"
+msgstr ""
+
+#: data/ui/assistant/pages/review-page.ui:5
+msgid "Review and Create"
+msgstr ""
+
+#: data/ui/assistant/pages/review-page.ui:18
+msgid "Boxes is ready to set up a new box with the following properties:"
+msgstr ""
+
+#: data/ui/assistant/pages/review-page.ui:45 data/ui/wizard.ui:220
+msgid ""
+"Virtualization extensions are unavailable on your system.\n"
+"Check your BIOS settings to enable them."
+msgstr ""
+
+#: data/ui/assistant/pages/review-page.ui:68
+msgid "Resource Allocation"
+msgstr ""
+
+#: data/ui/assistant/pages/review-page.ui:77
+msgid "Customize"
+msgstr ""
+
+#: data/ui/assistant/pages/setup-page.ui:5
+msgid "Express Installation"
+msgstr ""
+
+#: data/ui/assistant/remote-connection.ui:6 src/wizard.vala:192
+msgid "Connect to a Box"
+msgstr ""
+
+#: data/ui/assistant/remote-connection.ui:22
+msgid ""
+"Enter an address to connect to. Addresses can begin with spice://, rdp:// or "
+"vnc://."
+msgstr ""
+
+#: data/ui/assistant/remote-connection.ui:37
+#: data/ui/assistant/vm-assistant.ui:47 data/ui/shared-folder-popover.ui:97
+#: src/assistant/index-page.vala:96 src/assistant/index-page.vala:143
+#: src/assistant/vm-assistant.vala:73 src/properties-window.vala:58
+msgid "Cancel"
+msgstr ""
+
+#: data/ui/assistant/remote-connection.ui:45
+msgid "Connect"
+msgstr ""
+
+#: data/ui/assistant/vm-assistant.ui:54 src/assistant/vm-assistant.vala:72
+msgid "Next"
+msgstr ""
+
+#: data/ui/auth-notification.ui:39
 msgid "_Username"
 msgstr ""
 
+#: data/ui/auth-notification.ui:73
+msgid "_Password"
+msgstr ""
+
+#: data/ui/auth-notification.ui:111 src/notificationbar.vala:48
+msgid "Sign In"
+msgstr ""
+
+#. Translators: this is a switch to show all boxes in main view.
+#: data/ui/collection-filter-switcher.ui:14
+msgid "All"
+msgstr ""
+
+#. Translators: this is a switch to show only local boxes in main view.
+#: data/ui/collection-filter-switcher.ui:29
+msgid "Local"
+msgstr ""
+
+#. Translators: this is a switch to show only remote boxes in main view.
+#: data/ui/collection-filter-switcher.ui:44
+msgid "Remote"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:27
+msgid "New"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:51 data/ui/display-toolbar.ui:29
+#: data/ui/properties-toolbar.ui:59 data/ui/wizard-toolbar.ui:76
+#: data/ui/wizard-toolbar.ui:121 data/ui/wizard-toolbar.ui:165
+#: data/ui/wizard-toolbar.ui:225
+msgid "Back"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:74
+msgid "Downloads"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:101
+msgid "Application Menu"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:129
+msgid "Select Items"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:157
+msgid "List view"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:185
+msgid "Grid view"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:211 data/ui/selection-toolbar.ui:86
+msgid "Search"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:239
+msgid "Create a Virtual Machine…"
+msgstr ""
+
+#: data/ui/collection-toolbar.ui:246
+msgid "Connect to a Remote Computer…"
+msgstr ""
+
+#: data/ui/display-page.ui:89
+msgid "Ready to Receive File"
+msgstr ""
+
+#: data/ui/display-page.ui:109
+msgid "You will find your file in the Downloads directory."
+msgstr ""
+
+#: data/ui/display-toolbar.ui:63
+msgid "Actions"
+msgstr ""
+
+#: data/ui/display-toolbar.ui:91
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: data/ui/display-toolbar.ui:121 src/display-toolbar.vala:74
+msgid "Fullscreen"
+msgstr ""
+
+#: data/ui/empty-boxes.ui:68
+msgid "State of the art virtualization"
+msgstr ""
+
+#: data/ui/empty-boxes.ui:82
+msgid "Boxes can be virtual or remote machines."
+msgstr ""
+
+#: data/ui/empty-boxes.ui:95
+msgid "Just hit the <b>+</b> button to create your first one."
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:18
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:25
+msgctxt "shortcut window"
+msgid "Help"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:33
+msgctxt "shortcut window"
+msgid "Create a new box"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:41
+msgctxt "shortcut window"
+msgid "Search"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:49
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:57 data/ui/kbd-shortcuts-window.ui:149
+msgctxt "shortcut window"
+msgid "Close Window/Quit Boxes"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:67
+msgctxt "shortcut window"
+msgid "Box Creation and Properties"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:76 data/ui/kbd-shortcuts-window.ui:95
+msgctxt "shortcut window"
+msgid "Switch to the next page"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:85 data/ui/kbd-shortcuts-window.ui:104
+msgctxt "shortcut window"
+msgid "Switch to the previous page"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:114
+msgctxt "shortcut window"
+msgid "Box Display"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:121
+msgctxt "shortcut window"
+msgid "Grab/Ungrab keyboard"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:131 data/ui/kbd-shortcuts-window.ui:141
+msgctxt "shortcut window"
+msgid "Back to overview"
+msgstr ""
+
+#: data/ui/kbd-shortcuts-window.ui:157
+msgctxt "shortcut window"
+msgid "Fullscreen/Restore from fullscreen"
+msgstr ""
+
+#: data/ui/menus.ui:7
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/ui/menus.ui:11
+msgid "Help"
+msgstr ""
+
+#: data/ui/menus.ui:15
+msgid "About Boxes"
+msgstr ""
+
+#: data/ui/properties-toolbar.ui:43 src/machine.vala:646
+msgid "Troubleshooting Log"
+msgstr ""
+
+#: data/ui/properties-toolbar.ui:81
+msgid "_Copy to Clipboard"
+msgstr ""
+
+#: data/ui/properties-toolbar.ui:106 data/ui/wizard-toolbar.ui:150
+#: src/assistant/index-page.vala:140 src/properties-window.vala:55
+msgid "Select a device or ISO file"
+msgstr ""
+
+#: data/ui/selectionbar.ui:36
+msgid "_Favorite"
+msgstr ""
+
+#: data/ui/selectionbar.ui:54
+msgid "P_ause"
+msgstr ""
+
+#: data/ui/selectionbar.ui:72
+msgid "_Delete"
+msgstr ""
+
+#: data/ui/selection-toolbar.ui:64 data/ui/wizard-toolbar.ui:23
+#: src/app-window.vala:335
+msgid "_Cancel"
+msgstr ""
+
+#: data/ui/selection-toolbar.ui:108
+msgid "Select All"
+msgstr ""
+
+#: data/ui/selection-toolbar.ui:113
+msgid "Select Running"
+msgstr ""
+
+#: data/ui/selection-toolbar.ui:117
+msgid "Select None"
+msgstr ""
+
+#: data/ui/shared-folder-popover.ui:29
+msgid "Local Folder"
+msgstr ""
+
+#: data/ui/shared-folder-popover.ui:44
+msgid "Name"
+msgstr ""
+
+#: data/ui/shared-folder-popover.ui:70
+msgid "Select Shared Folder"
+msgstr ""
+
+#: data/ui/shared-folder-popover.ui:111
+msgid "Save"
+msgstr ""
+
+#: data/ui/snapshot-list-row.ui:6
+msgid "Revert to this state"
+msgstr ""
+
+#: data/ui/snapshot-list-row.ui:10
+msgid "Rename"
+msgstr ""
+
+#. Delete
+#: data/ui/snapshot-list-row.ui:16 src/actions-popover.vala:80
+msgid "Delete"
+msgstr ""
+
+#: data/ui/snapshot-list-row.ui:92
+msgid "Done"
+msgstr ""
+
+#: data/ui/troubleshoot-view.ui:44
+msgid "Oops, something went wrong"
+msgstr ""
+
+#: data/ui/troubleshoot-view.ui:58
+msgid "Boxes cannot access the virtualization backend."
+msgstr ""
+
+#: data/ui/unattended-setup-box.ui:43
+msgid ""
+"Choose express install to automatically preconfigure the box with optimal "
+"settings."
+msgstr ""
+
+#. Translators: 'Express Install' means that the new box installation will be fully automated, the user won't be asked anything while it's performed.
+#: data/ui/unattended-setup-box.ui:73
+msgid "Express Install"
+msgstr ""
+
+#: data/ui/unattended-setup-box.ui:123 src/unattended-installer.vala:271
+msgid "Username"
+msgstr ""
+
+#: data/ui/unattended-setup-box.ui:158 src/unattended-installer.vala:272
+msgid "Password"
+msgstr ""
+
+#: data/ui/unattended-setup-box.ui:180
+msgid "_Add Password"
+msgstr ""
+
+#: data/ui/unattended-setup-box.ui:211
+msgid "Product Key"
+msgstr ""
+
+#: data/ui/wizard-downloadable-entry.ui:57 data/ui/wizard-media-entry.ui:53
+msgid "Unknown media"
+msgstr ""
+
+#: data/ui/wizard-downloads-page.ui:26
+msgid "Show more…"
+msgstr ""
+
+#: data/ui/wizard-source.ui:32
+msgid "Insert operating system installation media or select a source below"
+msgstr ""
+
+#: data/ui/wizard-source.ui:87
+msgid "Download an OS"
+msgstr ""
+
+#: data/ui/wizard-source.ui:94
+msgid "Operating system will be downloaded and installed in a virtual machine."
+msgstr ""
+
+#: data/ui/wizard-source.ui:113 data/ui/wizard-source.ui:175
+#: data/ui/wizard-source.ui:238
+msgid "▶"
+msgstr ""
+
+#: data/ui/wizard-source.ui:157
+msgid "Connect to Libvirt brokers."
+msgstr ""
+
+#: data/ui/wizard-source.ui:213
+msgid "Select a file"
+msgstr ""
+
+#: data/ui/wizard-source.ui:220
+msgid "Select a bootable image file to install in a virtual machine."
+msgstr ""
+
+#: data/ui/wizard-source.ui:256
+msgid ""
+"Any trademarks shown above are used merely for identification of software "
+"products you have already obtained and are the property of their respective "
+"owners."
+msgstr ""
+
+#: data/ui/wizard-source.ui:322
+msgid ""
+"Enter an address to connect to. Addresses can begin with spice://, rdp://, "
+"ssh://, or vnc://."
+msgstr ""
+
+#: data/ui/wizard-toolbar.ui:13 data/ui/wizard-window.ui:23
+#: data/ui/wizard-window.ui:69 src/wizard.vala:178
+msgid "Create a Box"
+msgstr ""
+
+#: data/ui/wizard-toolbar.ui:39
+msgid "C_reate"
+msgstr ""
+
+#: data/ui/wizard-toolbar.ui:55
+msgid "C_ontinue"
+msgstr ""
+
+#: data/ui/wizard-toolbar.ui:106
+msgid "Customize Resources"
+msgstr ""
+
+#: data/ui/wizard-toolbar.ui:188 src/app-window.vala:337
+msgid "_Open"
+msgstr ""
+
+#: data/ui/wizard.ui:56
+msgid "Preparing to create new box"
+msgstr ""
+
+#: data/ui/wizard-window.ui:82
+msgid ""
+"Each box can be a virtual machine that runs on this computer, or a "
+"connection to an existing remote machine"
+msgstr ""
+
+#. Translators: Accessibility name for context menu with box-related actions (e.g Pause, Delete etc)
+#: src/actions-popover.vala:30
+msgid "Box actions"
+msgstr ""
+
+#. Open in new Window
+#: src/actions-popover.vala:44
+msgid "Open in New Window"
+msgstr ""
+
+#. Send files
+#: src/actions-popover.vala:49
+msgid "Send File…"
+msgstr ""
+
+#. Take Screenshot
+#: src/actions-popover.vala:54
+msgid "Take Screenshot"
+msgstr ""
+
+#. Favorite
+#: src/actions-popover.vala:59
+msgid "Remove from Favorites"
+msgstr ""
+
+#: src/actions-popover.vala:61
+msgid "Add to Favorites"
+msgstr ""
+
+#: src/actions-popover.vala:68
+msgid "Force Shutdown"
+msgstr ""
+
+#. Clone
+#: src/actions-popover.vala:75
+msgid "Clone"
+msgstr ""
+
+#: src/actions-popover.vala:84 src/machine.vala:626
+msgid "Restart"
+msgstr ""
+
+#. Properties (in separate section)
+#: src/actions-popover.vala:93
+msgid "Properties"
+msgstr ""
+
+#. Translators: %s => the timestamp of when the screenshot was taken.
+#: src/actions-popover.vala:117
+#, c-format
+msgid "Screenshot from %s"
+msgstr ""
+
+#: src/app.vala:116
+msgid "translator-credits"
+msgstr ""
+
+#: src/app.vala:117
+msgid "A simple GNOME 3 application to access remote or virtual systems"
+msgstr ""
+
+#: src/app.vala:175 src/main.vala:9
+msgid "Display version number"
+msgstr ""
+
+#: src/app.vala:176
+msgid "Open in full screen"
+msgstr ""
+
+#: src/app.vala:177 src/main.vala:10
+msgid "Check virtualization capabilities"
+msgstr ""
+
+#: src/app.vala:178
+msgid "Open box with UUID"
+msgstr ""
+
+#: src/app.vala:179
+msgid "Search term"
+msgstr ""
+
+#. A 'broker' is a virtual-machine manager (local or remote). Currently only libvirt is supported.
+#: src/app.vala:181
+msgid "URL to display, broker or installer media"
+msgstr ""
+
+#: src/app.vala:192
+msgid "— A simple application to access remote or virtual machines"
+msgstr ""
+
+#: src/app.vala:217
+msgid "Too many command line arguments specified.\n"
+msgstr ""
+
+#: src/app.vala:474
+#, c-format
+msgid "Box “%s” installed and ready to use"
+msgstr ""
+
+#: src/app.vala:476
+msgid "Launch"
+msgstr ""
+
+#: src/app.vala:562
+#, c-format
+msgid "Box “%s” has been deleted"
+msgstr ""
+
+#: src/app.vala:563
+#, c-format
+msgid "%u box has been deleted"
+msgid_plural "%u boxes have been deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/app.vala:590 src/libvirt-machine-properties.vala:557
+#: src/snapshot-list-row.vala:194
+msgid "_Undo"
+msgstr ""
+
+#: src/app.vala:634
+msgid "Boxes is doing something"
+msgstr ""
+
+#: src/app-window.vala:334
+msgid "Select files to transfer"
+msgstr ""
+
+#: src/assistant/index-page.vala:143 src/properties-window.vala:58
+msgid "Open"
+msgstr ""
+
+#: src/assistant/index-page.vala:157 src/assistant/vm-assistant.vala:73
+msgid "Previous"
+msgstr ""
+
+#: src/assistant/review-page.vala:47 src/wizard.vala:580
+msgid "Memory"
+msgstr ""
+
+#: src/assistant/review-page.vala:56 src/wizard.vala:589
+msgid "Disk"
+msgstr ""
+
+#. Translators: This is disk size. E.g "1 GB maximum".
+#: src/assistant/review-page.vala:58 src/wizard.vala:591
+#, c-format
+msgid "%s maximum"
+msgstr ""
+
+#: src/assistant/vm-assistant.vala:60 src/wizard.vala:404
+msgid "Failed to analyze installer media. Corrupted or incomplete media?"
+msgstr ""
+
+#: src/assistant/vm-assistant.vala:72
+msgid "Create"
+msgstr ""
+
+#: src/display-page.vala:135
+msgid "Press (left) Ctrl+Alt to ungrab"
+msgstr ""
+
+#: src/display-page.vala:137
+msgid "Press & release (left) Ctrl+Alt to ungrab keyboard."
+msgstr ""
+
+#. Translators: Showing size of widget as WIDTH×HEIGHT here.
+#: src/display-page.vala:307
+#, c-format
+msgid "%d×%d"
+msgstr ""
+
+#: src/display-toolbar.vala:71
+msgid "Exit fullscreen"
+msgstr ""
+
+#: src/downloads-hub.vala:33 src/wizard.vala:657
+msgid "Downloading media"
+msgstr ""
+
+#: src/downloads-hub.vala:49
+#, c-format
+msgid "“%s“ download complete"
+msgstr ""
+
+#: src/downloads-hub.vala:51
+msgid "Install"
+msgstr ""
+
+#. We did this, so ignore!
+#: src/downloads-hub.vala:113
+msgid "Failed to download"
+msgstr ""
+
+#: src/icon-view.vala:32
+msgid "New and Recent"
+msgstr ""
+
+#: src/installed-media.vala:54
+msgid "Unsupported disk image format."
+msgstr ""
+
+#: src/installed-media.vala:100 src/installer-media.vala:178
+#: src/properties-page-widget.vala:19
+msgid "System"
+msgstr ""
+
+#. Translators: This is memory or disk size. E.g. "1 GB used".
+#: src/i-properties-provider.vala:101 src/libvirt-machine-properties.vala:464
+#, c-format
+msgid "%s used"
+msgstr ""
+
+#. Translators: This is memory or disk size. E.g. "1 GB (recommended)".
+#: src/i-properties-provider.vala:115
+#, c-format
+msgid "%s (recommended)"
+msgstr ""
+
+#: src/keys-input-popover.vala:26
+msgid "Ctrl + Alt + Backspace"
+msgstr ""
+
+#: src/keys-input-popover.vala:27
+msgid "Ctrl + Alt + Del"
+msgstr ""
+
+#. New section
+#: src/keys-input-popover.vala:31
+msgid "Ctrl + Alt + F1"
+msgstr ""
+
+#: src/keys-input-popover.vala:32
+msgid "Ctrl + Alt + F2"
+msgstr ""
+
+#: src/keys-input-popover.vala:33
+msgid "Ctrl + Alt + F3"
+msgstr ""
+
+#: src/keys-input-popover.vala:34
+msgid "Ctrl + Alt + F7"
+msgstr ""
+
+#. Translators: Accessibility name for context menu with a set of keyboard combos (that would normally be
+#. intercepted by host/client, to send to the box.
+#: src/keys-input-popover.vala:43
+msgid "Send key combinations"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:96 src/remote-machine.vala:71
+msgid "_Name"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:108
+msgid "IP Address"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:110
+msgid "Broker"
+msgstr ""
+
+#. Translators: This is the protocal being used to connect to the display/desktop, e.g Spice, VNC, etc.
+#: src/libvirt-machine-properties.vala:113
+msgid "Display Protocol"
+msgstr ""
+
+#. Translators: This is the URL to connect to the display/desktop. e.g spice://somehost:5051.
+#: src/libvirt-machine-properties.vala:116
+msgid "Display URL"
+msgstr ""
+
 #. Translators: empty is listed as the filename for a non-mounted CD
+#: src/libvirt-machine-properties.vala:181
+#: src/libvirt-machine-properties.vala:233
 msgid "empty"
 msgstr ""
 
+#. Don't let user eject installer media if it's an express installation or a live media
+#: src/libvirt-machine-properties.vala:190
+#: src/libvirt-machine-properties.vala:246
+msgid "CD/DVD"
+msgstr ""
+
+#. Translators: This is the text on the button to select an iso for the cd
+#: src/libvirt-machine-properties.vala:204
+#: src/libvirt-machine-properties.vala:232
+msgid "_Select"
+msgstr ""
+
+#. Translators: Remove is the label on the button to remove an iso from a cdrom drive
+#: src/libvirt-machine-properties.vala:207
+#: src/libvirt-machine-properties.vala:215
+msgid "_Remove"
+msgstr ""
+
+#. Translators: First “%s” is filename of ISO or CD/DVD device that user selected and
+#. Second “%s” is name of the box.
+#: src/libvirt-machine-properties.vala:222
+#, c-format
+msgid "Insertion of “%s” as a CD/DVD into “%s” failed"
+msgstr ""
+
+#. Translators: “%s” here is name of the box.
+#: src/libvirt-machine-properties.vala:236
+#, c-format
+msgid "Removal of CD/DVD from “%s” failed"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:310
+msgid "CPU"
+msgstr ""
+
+#. I/O
+#. 100 MiB/s
+#: src/libvirt-machine-properties.vala:316
+msgid "I/O"
+msgstr ""
+
+#. Network
+#. 1 MiB/s
+#: src/libvirt-machine-properties.vala:322
+msgid "Network"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:351 src/properties.vala:84
+msgid "_Restart"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:359
+msgid "_Force Shutdown"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:373
+msgid "_Troubleshooting Log"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:394
+msgid "_Memory: "
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:463
+msgid "Maximum Disk Space"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:481
+msgid ""
+"There is not enough space on your machine to increase the maximum disk size."
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:491
+msgid "Maximum _Disk Size: "
+msgstr ""
+
+#. qemu-img doesn't support resizing disk image with snapshots:
+#. https://bugs.launchpad.net/qemu/+bug/1563931
+#: src/libvirt-machine-properties.vala:544
+#, c-format
+msgid "Storage resize requires deleting associated snapshot."
+msgid_plural "Storage resize requires deleting %llu associated snapshots."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/libvirt-machine-properties.vala:661
+msgid "_Run in background"
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:672
+#: src/libvirt-machine-properties.vala:675
+#, c-format
+msgid "“%s” will not be paused automatically."
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:673
+#: src/libvirt-machine-properties.vala:676
+#, c-format
+msgid "“%s” will be paused automatically to save resources."
+msgstr ""
+
+#: src/libvirt-machine-properties.vala:692
+msgid "3D Acceleration"
+msgstr ""
+
+#. Translators: The %s will be expanded with the name of the vm
+#: src/libvirt-machine.vala:633
+#, c-format
+msgid "Restoring %s from disk"
+msgstr ""
+
+#. Translators: The %s will be expanded with the name of the vm
+#: src/libvirt-machine.vala:636
+#, c-format
+msgid "Starting %s"
+msgstr ""
+
+#: src/libvirt-machine.vala:715
+#, c-format
+msgid "Restart of “%s” is taking too long. Force it to shutdown?"
+msgstr ""
+
+#: src/libvirt-machine.vala:717
+msgid "_Shutdown"
+msgstr ""
+
+#: src/libvirt-machine.vala:733
+#, c-format
+msgid "Cloning “%s”…"
+msgstr ""
+
+#: src/libvirt-machine.vala:865
+msgid "Installing…"
+msgstr ""
+
+#. Translators: We show 'Live' tag next or below the name of live OS media or box based on such media.
+#. http://en.wikipedia.org/wiki/Live_CD
+#: src/libvirt-machine.vala:867 src/util-app.vala:152
+#: src/wizard-source.vala:123
+msgid "Live"
+msgstr ""
+
+#: src/libvirt-machine.vala:869
+msgid "Setting up clone…"
+msgstr ""
+
+#: src/libvirt-machine.vala:871
+msgid "Importing…"
+msgstr ""
+
+#: src/libvirt-machine.vala:880
 #, c-format
 msgid "host: %s"
 msgstr ""
 
-msgid "no"
+#: src/libvirt-system-importer.vala:21
+#, c-format
+msgid "_Import “%s” from system broker"
 msgstr ""
 
-msgid "no password"
+#. Translators: %u here is the number of boxes available for import
+#: src/libvirt-system-importer.vala:24
+#, c-format
+msgid "_Import %u box from system broker"
+msgid_plural "_Import %u boxes from system broker"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/libvirt-system-importer.vala:35
+#, c-format
+msgid "Will import “%s” from system broker"
 msgstr ""
 
-msgid "translator-credits"
+#. Translators: %u here is the number of boxes available for import
+#: src/libvirt-system-importer.vala:38
+#, c-format
+msgid "Will import %u box from system broker"
+msgid_plural "Will import %u boxes from system broker"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/libvirt-system-importer.vala:71
+msgid "No boxes to import"
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-msgid "virtual machine;vm;vnc;rdp;"
+#: src/libvirt-system-importer.vala:129
+#, c-format
+msgid "Failed to find suitable disk to import for box “%s”"
 msgstr ""
 
-msgid "yes"
+#: src/list-view-row.vala:125
+msgid "Connected"
 msgstr ""
 
-msgid "— A simple application to access remote or virtual machines"
+#: src/list-view-row.vala:125
+msgid "Disconnected"
 msgstr ""
 
+#: src/list-view-row.vala:131
+msgid "Running"
+msgstr ""
+
+#: src/list-view-row.vala:137
+msgid "Paused"
+msgstr ""
+
+#: src/list-view-row.vala:142
+msgid "Powered Off"
+msgstr ""
+
+#. Translators: The %s will be expanded with the name of the vm
+#: src/machine.vala:202
+#, c-format
+msgid "Connecting to %s"
+msgstr ""
+
+#: src/machine.vala:227 src/machine.vala:653
+#, c-format
+msgid "Connection to “%s” failed"
+msgstr ""
+
+#: src/machine.vala:279
+msgid "Machine is under construction"
+msgstr ""
+
+#: src/machine.vala:433
+msgid "Saving…"
+msgstr ""
+
+#: src/machine.vala:625
 #, c-format
 msgid ""
 "“%s” could not be restored from disk\n"
 "Try without saved state?"
 msgstr ""
 
+#: src/machine.vala:636
+#, c-format
+msgid "Failed to start “%s”"
+msgstr ""
+
 #. Translators: %s => name of launched box
+#: src/machine.vala:740
 #, c-format
 msgid "“%s” requires authentication"
 msgstr ""
 
-#, c-format
-msgid "“%s” will be paused automatically to save resources."
-msgstr ""
-
-#, c-format
-msgid "“%s” will not be paused automatically."
-msgstr ""
-
-#, c-format
-msgid "• Boxes storage pool available: %s\n"
-msgstr ""
-
-#, c-format
-msgid "• Libvirt KVM guest available: %s\n"
-msgstr ""
-
 #. FIXME: add proper UI & docs
+#: src/main.vala:53
 #, c-format
 msgid "• The CPU is capable of virtualization: %s\n"
 msgstr ""
 
+#: src/main.vala:54
 #, c-format
 msgid "• The KVM module is loaded: %s\n"
 msgstr ""
 
+#: src/main.vala:55
+#, c-format
+msgid "• Libvirt KVM guest available: %s\n"
+msgstr ""
+
+#: src/main.vala:56
+#, c-format
+msgid "• Boxes storage pool available: %s\n"
+msgstr ""
+
+#: src/main.vala:60
 #, c-format
 msgid "• The SELinux context is default: %s\n"
 msgstr ""
 
-msgid "▶"
+#: src/main.vala:64
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+
+#: src/main.vala:65
+#, c-format
+msgid "%s home page: <%s>.\n"
+msgstr ""
+
+#: src/media-manager.vala:284
+#, c-format
+msgid "No such file %s"
+msgstr ""
+
+#: src/notificationbar.vala:44
+#, c-format
+msgid "Sign In to %s"
+msgstr ""
+
+#: src/notificationbar.vala:47
+#, c-format
+msgid "Not connected to %s"
+msgstr ""
+
+#: src/properties-page-widget.vala:15
+msgid "General"
+msgstr ""
+
+#: src/properties-page-widget.vala:23
+msgid "Devices & Shares"
+msgstr ""
+
+#: src/properties-page-widget.vala:27
+msgid "Snapshots"
+msgstr ""
+
+#: src/properties.vala:83
+#, c-format
+msgid "Changes require restart of “%s”."
+msgstr ""
+
+#: src/remote-machine.vala:81
+msgid "Protocol"
+msgstr ""
+
+#: src/remote-machine.vala:83 src/wizard.vala:540
+msgid "URL"
+msgstr ""
+
+#: src/remote-machine.vala:85
+msgid "_URL"
+msgstr ""
+
+#: src/selectionbar.vala:60
+#, c-format
+msgid "Pausing “%s” failed"
+msgstr ""
+
+#. Translators: This is a button to open box(es) in new window(s)
+#: src/selectionbar.vala:173
+msgctxt "0 items selected"
+msgid "_Open in new window"
+msgstr ""
+
+#: src/selectionbar.vala:175
+#, c-format
+msgid "_Open in new window"
+msgid_plural "_Open in %u new windows"
+msgstr[0] ""
+msgstr[1] ""
+
+#. This goes with the "Click on items to select them" string and is about selection of items (boxes)
+#. when the main collection view is in selection mode.
+#: src/selection-toolbar.vala:46
+#, c-format
+msgid "%u selected"
+msgid_plural "%u selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/selection-toolbar.vala:48
+msgid "(Click on items to select them)"
+msgstr ""
+
+#: src/snapshot-list-row.vala:137
+#, c-format
+msgid "Reverting to %s…"
+msgstr ""
+
+#: src/snapshot-list-row.vala:155
+msgid "Failed to apply snapshot"
+msgstr ""
+
+#: src/snapshot-list-row.vala:172
+#, c-format
+msgid "Snapshot “%s” deleted."
+msgstr ""
+
+#: src/snapshots-property.vala:61
+msgid "No snapshots created yet. Create one using the button below."
+msgstr ""
+
+#: src/snapshots-property.vala:121
+msgid "Creating new snapshot…"
+msgstr ""
+
+#: src/snapshots-property.vala:129
+#, c-format
+msgid "Failed to create snapshot of %s"
+msgstr ""
+
+#. Translators: "Unknown" is a placeholder for a box name when it could not be determined
+#: src/spice-display.vala:46
+msgid "Unknown"
+msgstr ""
+
+#: src/spice-display.vala:62 src/spice-display.vala:497
+#, c-format
+msgid "Redirection of USB device “%s” for “%s” failed"
+msgstr ""
+
+#. Translators: %s => a link to the website where users can download the guest tools.
+#: src/spice-display.vala:360
+#, c-format
+msgid ""
+"SPICE guest tools are not installed. These tools improve user experience and "
+"enable host and box interactions, such as copy&amp;paste. Please visit %s to "
+"download and install these tools from within the box."
+msgstr ""
+
+#: src/spice-display.vala:387
+msgid "USB devices"
+msgstr ""
+
+#: src/spice-display.vala:403
+msgid "Folder Shares"
+msgstr ""
+
+#: src/spice-display.vala:601 src/spice-display.vala:626
+#: src/spice-display.vala:629 src/wizard.vala:344 src/wizard.vala:357
+msgid "Invalid URL"
+msgstr ""
+
+#: src/spice-display.vala:611
+msgid "The port must be specified once"
+msgstr ""
+
+#: src/spice-display.vala:622
+msgid "Missing port in Spice URL"
+msgstr ""
+
+#. Translators: "%s" is a file name.
+#: src/transfer-info-row.vala:31
+#, c-format
+msgid "Copying “%s” to “Downloads”"
+msgstr ""
+
+#. An error occurred when trying to setup unattended installation, but it's likely that a non-unattended
+#. installation will work. When this happens, just disable unattended installs, and let the caller decide
+#. if it wants to retry a non-automatic install or to just abort the box creation..
+#: src/unattended-installer.vala:200
+msgid ""
+"An error occurred during installation preparation. Express Install disabled."
+msgstr ""
+
+#: src/unattended-installer.vala:458
+msgid "Downloading device drivers…"
+msgstr ""
+
+#: src/unattended-setup-box.vala:53
+msgid "no password"
+msgstr ""
+
+#: src/unattended-setup-box.vala:125
+#, c-format
+msgid "Express installation of %s requires an internet connection."
+msgstr ""
+
+#: src/unattended-setup-box.vala:228
+#, c-format
+msgid "GNOME Boxes credentials for “%s”"
+msgstr ""
+
+#: src/util-app.vala:338
+#, c-format
+msgid ""
+"Your SELinux context looks incorrect, you can try to fix it by running:\n"
+"%s"
+msgstr ""
+
+#: src/util-app.vala:342
+msgid "SELinux not installed?"
+msgstr ""
+
+#: src/util-app.vala:424
+msgid ""
+"Could not get “gnome-boxes” storage pool information from libvirt. Make sure "
+"“virsh -c qemu:///session pool-dumpxml gnome-boxes” is working."
+msgstr ""
+
+#: src/util-app.vala:429
+#, c-format
+msgid ""
+"%s is known to libvirt as GNOME Boxes’s storage pool but this directory does "
+"not exist"
+msgstr ""
+
+#: src/util-app.vala:433
+#, c-format
+msgid ""
+"%s is known to libvirt as GNOME Boxes’s storage pool but is not a directory"
+msgstr ""
+
+#: src/util-app.vala:437
+#, c-format
+msgid ""
+"%s is known to libvirt as GNOME Boxes’s storage pool but is not user-"
+"readable/writable"
+msgstr ""
+
+#: src/util.vala:334
+msgid "yes"
+msgstr ""
+
+#: src/util.vala:334
+msgid "no"
+msgstr ""
+
+#. No guest caps or none compatible
+#. FIXME: Better error messsage than this please?
+#: src/vm-configurator.vala:748
+msgid "Incapable host system"
+msgstr ""
+
+#: src/vm-creator.vala:176
+#, c-format
+msgid "Live box “%s” has been deleted automatically."
+msgstr ""
+
+#: src/vm-importer.vala:50
+#, c-format
+msgid "Box import from file “%s” failed."
+msgstr ""
+
+#: src/wizard-source.vala:128
+msgid "32-bit x86 system"
+msgstr ""
+
+#: src/wizard-source.vala:129
+msgid "64-bit x86 system"
+msgstr ""
+
+#. Translator comment: %s is name of vendor here (e.g Canonical Ltd or Red Hat Inc)
+#: src/wizard-source.vala:134
+#, c-format
+msgid " from %s"
+msgstr ""
+
+#: src/wizard-toolbar.vala:6
+msgid "Source Selection"
+msgstr ""
+
+#: src/wizard-toolbar.vala:7
+msgid "Box Preparation"
+msgstr ""
+
+#: src/wizard-toolbar.vala:8
+msgid "Box Setup"
+msgstr ""
+
+#: src/wizard-toolbar.vala:9
+msgid "Review"
+msgstr ""
+
+#: src/wizard.vala:121
+msgid "Box creation failed"
+msgstr ""
+
+#: src/wizard.vala:303
+msgid "Empty location"
+msgstr ""
+
+#: src/wizard.vala:326
+msgid "Unsupported file"
+msgstr ""
+
+#: src/wizard.vala:332
+msgid "Invalid file"
+msgstr ""
+
+#. accept any vnc:// uri
+#. accept any ssh:// uri
+#. accept any rdp:// uri
+#: src/wizard.vala:374
+msgid "Boxes was compiled without RDP support"
+msgstr ""
+
+#: src/wizard.vala:382
+#, c-format
+msgid "Unsupported protocol “%s”"
+msgstr ""
+
+#: src/wizard.vala:388 src/wizard.vala:462
+msgid "Unknown installer media"
+msgstr ""
+
+#. Translators: Analyzing installer media
+#: src/wizard.vala:390 src/wizard.vala:463
+msgid "Analyzing…"
+msgstr ""
+
+#. We did this, so ignore!
+#: src/wizard.vala:516
+msgid "Box setup failed"
+msgstr ""
+
+#: src/wizard.vala:530
+msgid "Boxes will create a new box with the following properties:"
+msgstr ""
+
+#: src/wizard.vala:535
+msgid "Type"
+msgstr ""
+
+#: src/wizard.vala:538
+msgid "Host"
+msgstr ""
+
+#: src/wizard.vala:549 src/wizard.vala:562
+msgid "Port"
+msgstr ""
+
+#: src/wizard.vala:551
+msgid "TLS Port"
+msgstr ""
+
+#: src/wizard.vala:567
+msgid "Will add boxes for all systems available from this account:"
+msgstr ""
+
+#: src/wizard.vala:654
+msgid "Downloading media…"
+msgstr ""
+
+#: src/wizard.vala:667
+msgid "Download failed."
+msgstr ""
+
+#: src/wizard.vala:787
+msgid "C_ustomize…"
 msgstr ""

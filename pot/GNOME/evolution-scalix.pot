@@ -1,0 +1,729 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=evolution-scalix&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-18 17:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../addressbook/e-book-backend-scalix.c:427
+msgid "Loading..."
+msgstr ""
+
+#: ../addressbook/e-book-backend-scalix.c:429
+msgid "Searching..."
+msgstr ""
+
+#: ../camel/camel-scalix-command.c:549 ../camel/camel-scalix-command.c:556
+#, c-format
+msgid "Failed sending command to IMAP server %s: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-command.c:658
+#, c-format
+msgid "Unexpected response from server %s: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-control-folder.c:187
+msgid "Could not retrieve free-busy information"
+msgstr ""
+
+#: ../camel/camel-scalix-control-folder.c:192
+msgid "Could not retrieve free-busy information: bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-control-folder.c:251
+msgid "Could not store free-busy information"
+msgstr ""
+
+#: ../camel/camel-scalix-control-folder.c:256
+msgid "Could not store free-busy information: bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:222
+#, c-format
+msgid "Unexpected greeting from IMAP server %s."
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:450
+#, c-format
+msgid "Cannot select folder `%s': Invalid mailbox name"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:456
+#, c-format
+msgid "Cannot select folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:1049
+msgid "Wrong password"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:1055
+msgid "New password does not follow password rules"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:1490
+#, c-format
+msgid "Failed to send command to IMAP server %s: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:1492
+msgid "service unavailable"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:1626 ../camel/camel-scalix-engine.c:1665
+#: ../camel/camel-scalix-engine.c:1710 ../camel/camel-scalix-engine.c:1766
+#, c-format
+msgid "Server %s unexpectedly disconnected: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-engine.c:1627 ../camel/camel-scalix-engine.c:1666
+#: ../camel/camel-scalix-engine.c:1711 ../camel/camel-scalix-engine.c:1767
+#: ../camel/camel-scalix-store.c:440
+msgid "Unknown error"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:110
+msgid ""
+"Enable mailing-list detection required for some filter and search folder "
+"rules"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:111
+msgid "Expire cached messages that haven't been read in X seconds"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:112
+msgid "Expire cached messages older than X seconds"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:513
+#, c-format
+msgid "Cannot access folder `%s': %s"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:583
+#, c-format
+msgid "Cannot sync flags to folder `%s': Unknown error"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:590
+#, c-format
+msgid "Cannot sync flags to folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:745
+#, c-format
+msgid "Cannot expunge folder `%s': Unknown error"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:750
+#, c-format
+msgid "Cannot expunge folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1054
+msgid "User cancelled"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1060
+#, c-format
+msgid "Cannot get message %s: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1093
+msgid "This message is not available in offline mode."
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1153
+#, c-format
+msgid "Cannot get message %s from folder `%s': No such message"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1159
+#, c-format
+msgid "Cannot get message %s from folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1213
+#, c-format
+msgid "Cannot append message to folder '%s': Folder is read-only"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1383
+#, c-format
+msgid "Cannot append message to folder `%s': Unknown error"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1417
+#, c-format
+msgid "Cannot append message to folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1455
+msgid "Moving message to trash folder"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1463 ../camel/camel-scalix-folder.c:1530
+#, c-format
+msgid "Error while moving message to trash: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1745
+#, c-format
+msgid "Cannot move messages from folder `%s' to folder `%s': Unknown"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1750
+#, c-format
+msgid "Cannot copy messages from folder `%s' to folder `%s': Unknown"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1760
+#, c-format
+msgid "Cannot move messages from folder `%s' to folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-folder.c:1765
+#, c-format
+msgid "Cannot copy messages from folder `%s' to folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-journal.c:320
+msgid "Cannot append message in offline mode: cache unavailable"
+msgstr ""
+
+#: ../camel/camel-scalix-journal.c:336
+#, c-format
+msgid "Cannot append message in offline mode: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:35
+msgid "Checking for new mail"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:36
+msgid "C_heck for new messages in all folders"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:39
+msgid "Options"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:40
+msgid "_Apply filters to new messages in INBOX on this server"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:41
+msgid "Check new messages for _Junk contents"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:42
+msgid "Only check for Junk messa_ges in the INBOX folder"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:43
+msgid "Automatically synchroni_ze remote mail locally"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:50
+msgid "Scalix"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:52
+msgid "For accessing Scalix servers."
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:67
+msgid "Password"
+msgstr ""
+
+#: ../camel/camel-scalix-provider.c:69
+msgid ""
+"This option will connect to the IMAPv4rev1 server using a plaintext password."
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:337
+#, c-format
+msgid "IMAP server %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:339
+#, c-format
+msgid "IMAP service for %s on %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:377 ../camel/camel-scalix-store.c:392
+#, c-format
+msgid "Could not connect to %s: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:378
+msgid "SSL unavailable"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:389
+msgid "Connection cancelled"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:426 ../camel/camel-scalix-store.c:439
+#: ../camel/camel-scalix-store.c:454 ../camel/camel-scalix-store.c:463
+#, c-format
+msgid "Failed to connect to IMAP server %s in secure mode: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:427
+msgid "SSL negotiations failed"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:455
+msgid "TLS negotiations failed"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:464
+msgid "SSL is not available in this build"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:545
+#, c-format
+msgid ""
+"Cannot authenticate to IMAP server %s using the %s authentication mechanism"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:596
+#, c-format
+msgid "%sPlease enter the IMAP password for %s on host %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:665
+#, c-format
+msgid "Cannot authenticate to IMAP server %s using %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:889 ../camel/camel-scalix-store.c:1192
+msgid "Cannot create IMAP folders in offline mode."
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:951
+#, c-format
+msgid "Cannot get folder `%s' on IMAP server %s: Unknown"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1067 ../camel/camel-scalix-store.c:1187
+#: ../camel/camel-scalix-store.c:1459
+#, c-format
+msgid "\"%s\" is not a valid foldername"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1072
+msgid "Cannot create folders in offline mode."
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1095
+msgid "Unknown folder type"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1137 ../camel/camel-scalix-store.c:1244
+#, c-format
+msgid "Cannot create folder `%s': Invalid mailbox name"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1143 ../camel/camel-scalix-store.c:1250
+#, c-format
+msgid "Cannot create folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1284
+#, c-format
+msgid "Cannot delete folder `%s': Special folder"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1291
+msgid "Cannot delete IMAP folders in offline mode."
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1359
+#, c-format
+msgid "Cannot delete folder `%s': Invalid mailbox name"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1364
+#, c-format
+msgid "Cannot delete folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1444
+#, c-format
+msgid "Cannot rename folder `%s' to `%s': Special folder"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1451
+msgid "Cannot rename IMAP folders in offline mode."
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1523
+#, c-format
+msgid "Cannot rename folder `%s' to `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1979
+#, c-format
+msgid "Cannot get %s information for pattern `%s' on IMAP server %s: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1981
+msgid "Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:1981 ../camel/camel-scalix-utils.c:699
+msgid "Unknown"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2022
+msgid "Cannot subscribe to IMAP folders in offline mode."
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2077
+#, c-format
+msgid "Cannot subscribe to folder `%s': Invalid mailbox name"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2082
+#, c-format
+msgid "Cannot subscribe to folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2108
+msgid "Cannot unsubscribe from IMAP folders in offline mode."
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2161
+#, c-format
+msgid "Cannot unsubscribe from folder `%s': Invalid mailbox name"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2166
+#, c-format
+msgid "Cannot unsubscribe from folder `%s': Bad command"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2242 ../camel/camel-scalix-store.c:2290
+#, c-format
+msgid "Internal Error %s"
+msgstr ""
+
+#: ../camel/camel-scalix-store.c:2300
+#, c-format
+msgid "Server error %s"
+msgstr ""
+
+#: ../camel/camel-scalix-summary.c:1728
+msgid "Scanning for changed messages"
+msgstr ""
+
+#: ../camel/camel-scalix-summary.c:1749
+#, c-format
+msgid "IMAP server %s is in an inconsistent state."
+msgstr ""
+
+#: ../camel/camel-scalix-summary.c:1776
+msgid "Fetching envelopes for new messages"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:441
+#, c-format
+msgid "Unexpected token in response from IMAP server %s: "
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:464
+msgid "No data"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:698
+#, c-format
+msgid "IMAP server %s unexpectedly disconnected: %s"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:895
+msgid "Public Folders"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:901
+msgid "Sent Items"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:905
+msgid "Drafts"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:911
+msgid "Calendar"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:919
+msgid "Contacts"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:928
+msgid "Inbox"
+msgstr ""
+
+#: ../camel/camel-scalix-utils.c:932
+msgid "Deleted Items"
+msgstr ""
+
+#: ../calendar/e-cal-backend-scalix.c:77
+#: ../calendar/e-cal-backend-scalix.c:1674
+#: ../calendar/e-cal-backend-scalix.c:1773
+msgid "Could not open Container"
+msgstr ""
+
+#: ../calendar/e-cal-backend-scalix.c:1667
+msgid "Connecting to server..."
+msgstr ""
+
+#: ../calendar/e-cal-backend-scalix.c:1681
+msgid "Synchronizing ..."
+msgstr ""
+
+#: ../calendar/e-cal-backend-scalix.c:1692
+msgid "Updating free-busy data ..."
+msgstr ""
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:1
+msgid "Open Scalix Rules Wizard webpage"
+msgstr ""
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:2
+msgid "Scalix Rules"
+msgstr ""
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:3
+msgid "Change Password for Scalix server"
+msgstr ""
+
+#: ../eplugin/com-scalix-mail-menus.xml.in.h:4
+msgid "Scalix Change Password"
+msgstr ""
+
+#: ../eplugin/com-scalix-menus.xml.in.h:1
+msgid "Information about the Scalix Connector"
+msgstr ""
+
+#: ../eplugin/com-scalix-menus.xml.in.h:2
+msgid "About Scalix"
+msgstr ""
+
+#: ../eplugin/pw-dialog.glade.h:1
+msgid "Change Password"
+msgstr ""
+
+#: ../eplugin/pw-dialog.glade.h:2
+msgid "Change _Password"
+msgstr ""
+
+#: ../eplugin/pw-dialog.glade.h:3
+msgid "<span weight=\"bold\" size=\"larger\">Change Password</span>"
+msgstr ""
+
+#: ../eplugin/pw-dialog.glade.h:4
+msgid "_Confirm Password:"
+msgstr ""
+
+#: ../eplugin/pw-dialog.glade.h:5
+msgid "New _Password:"
+msgstr ""
+
+#: ../eplugin/pw-dialog.glade.h:6
+msgid "_Old Password:"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:497
+msgid "System"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:700
+#, c-format
+msgid "Sychronizing %s..."
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:788
+msgid "Trying to connect to server"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:797
+msgid ""
+"Authentication failed. Check for correct hostname, username and password."
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:809
+msgid "Error while trying to connect to server."
+msgstr ""
+
+#. Always check for minimal required server version
+#: ../eplugin/scalix-account-synch.c:814
+msgid "Checking version of Scalix server"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:824
+msgid "Wrong version of Scalix server detected"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:835
+msgid "Getting list of folders"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:843
+msgid "Could not obtain folder listening"
+msgstr ""
+
+#. Calendar
+#: ../eplugin/scalix-account-synch.c:849
+msgid "Loading calendar data..."
+msgstr ""
+
+#. Contacts
+#: ../eplugin/scalix-account-synch.c:857
+msgid "Loading contacts..."
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:873
+msgid "Synchronizing additional data"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:925
+msgid "Done loading"
+msgstr ""
+
+#: ../eplugin/scalix-account-synch.c:926
+msgid "Initial loading complete. Please click Forward."
+msgstr ""
+
+#: ../eplugin/scalix-change-password.c:191
+#, c-format
+msgid "<b>Could not change password:</b> %s"
+msgstr ""
+
+#: ../eplugin/scalix-change-password.c:225
+#, c-format
+msgid "<b>The Scalix password was successfully changed</b>"
+msgstr ""
+
+#: ../eplugin/scalix-change-password.c:239
+msgid "_OK"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:1
+msgid "Font Properties"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:2
+msgid "<span weight=\"bold\">Scalix Rules Wizard</span>"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:3
+msgid "Url:"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:4
+msgid "<span weight=\"bold\">Trash handling</span>"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:5
+msgid "When I delete a message:"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:6
+msgid ""
+"Move it to Deleted Items\n"
+"Mark it as deleted\n"
+"Delete it immediately"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:9
+msgid "Select Scalix Account"
+msgstr ""
+
+#: ../eplugin/scalix-config.glade.h:10
+msgid "<span weight=\"bold\">Please select Scalix Account</span>"
+msgstr ""
+
+#: ../eplugin/scalix-config-source.c:181
+msgid "Select a location"
+msgstr ""
+
+#: ../eplugin/scalix-config-source.c:275 ../eplugin/scalix-config-source.c:366
+msgid "Toplevel"
+msgstr ""
+
+#. Label
+#: ../eplugin/scalix-config-source.c:338
+msgid "_Location:"
+msgstr ""
+
+#: ../eplugin/scalix-menus.c:109
+msgid "unkown version"
+msgstr ""
+
+#: ../eplugin/scalix-menus.c:112
+msgid ""
+"\n"
+"Server Version: "
+msgstr ""
+
+#: ../eplugin/scalix-store-model.c:135 ../eplugin/scalix-store-model.c:339
+msgid "Loading ..."
+msgstr ""
+
+#. Not sure if somebody wants to translate this
+#: ../eplugin/scalix-store-model.c:659
+msgid "Scalix Server"
+msgstr ""
+
+#: ../eplugin/syncui.glade.h:1
+msgid ""
+"We will now connect to the Scalix server to synchronize data with it. Please "
+"enter your password and press \"Connect\" to proceed."
+msgstr ""
+
+#: ../eplugin/syncui.glade.h:2
+msgid "Password:"
+msgstr ""
+
+#: ../eplugin/syncui.glade.h:3
+msgid "Connect"
+msgstr ""
+
+#: ../eplugin/syncui.glade.h:4
+msgid "Waiting for user..."
+msgstr ""
+
+#: ../eplugin/syncui.glade.h:5
+msgid "Synchronizing with server"
+msgstr ""
+
+#: ../eplugin/syncui.glade.h:6
+msgid ""
+"We will now try to connect to the Scalix server to synchronize data with it. "
+msgstr ""
+
+#: ../eplugin/syncui.glade.h:7
+msgid "Starting up..."
+msgstr ""
+
+#: ../libescalix/scalix-camel-session.c:100
+msgid "Could not obtain password!\n"
+msgstr ""

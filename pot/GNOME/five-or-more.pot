@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/five-or-more/issues\n"
+"POT-Creation-Date: 2019-10-02 10:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,33 +17,81 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: data/five-or-more-preferences.ui:13
+msgid "Preferences"
+msgstr ""
+
+#: data/five-or-more-preferences.ui:36
 msgid "Appearance"
 msgstr ""
 
-msgid "Are you sure you want to restart the game?"
+#: data/five-or-more-preferences.ui:60
+msgid "_Theme:"
 msgstr ""
 
+#: data/five-or-more-preferences.ui:76
+msgid "balls"
+msgstr ""
+
+#: data/five-or-more-preferences.ui:77
+msgid "shapes"
+msgstr ""
+
+#: data/five-or-more-preferences.ui:78
+msgid "tango"
+msgstr ""
+
+#: data/five-or-more-preferences.ui:87
 msgid "B_ackground color:"
 msgstr ""
 
-msgid "Background color"
+#: data/five-or-more.ui:7
+msgid "_New Game"
 msgstr ""
 
-msgid "Background color. The hex specification of the background color."
+#: data/five-or-more.ui:13
+msgid "S_cores"
 msgstr ""
 
-msgid "Ball style"
+#: data/five-or-more.ui:19
+msgid "_Small"
 msgstr ""
 
-msgid "Ball style. The filename of the images to use for the balls."
+#: data/five-or-more.ui:24
+msgid "_Medium"
 msgstr ""
 
-msgid "Board Size: "
+#: data/five-or-more.ui:29
+msgid "_Large"
 msgstr ""
 
+#: data/five-or-more.ui:36
+msgid "_Preferences"
+msgstr ""
+
+#: data/five-or-more.ui:40
+msgid "_Help"
+msgstr ""
+
+#: data/five-or-more.ui:45
+msgid "_About Five or More"
+msgstr ""
+
+#: data/five-or-more.ui:65 data/org.gnome.five-or-more.appdata.xml.in:7
+#: data/org.gnome.five-or-more.desktop.in:3 src/main.vala:74 src/main.vala:168
 msgid "Five or More"
 msgstr ""
 
+#: data/five-or-more.ui:77
+msgid "Next:"
+msgstr ""
+
+#: data/org.gnome.five-or-more.appdata.xml.in:8
+#: data/org.gnome.five-or-more.desktop.in:4
+msgid "Remove colored balls from the board by forming lines"
+msgstr ""
+
+#: data/org.gnome.five-or-more.appdata.xml.in:10
 msgid ""
 "Five or More is the GNOME port of a once-popular computer game. Align five "
 "or more objects of the same color into a line to cause them to disappear and "
@@ -51,133 +99,142 @@ msgid ""
 "before clearing them."
 msgstr ""
 
-msgid "GNOME port of the once-popular Color Lines game"
-msgstr ""
-
-msgid "Game Over!"
-msgstr ""
-
-msgid "Game field"
-msgstr ""
-
-msgid "Game field from last saved session."
-msgstr ""
-
-msgid "Game preview"
-msgstr ""
-
-msgid "Game preview from last saved session."
-msgstr ""
-
-msgid "Game score"
-msgstr ""
-
-msgid "Game score from last saved session."
-msgstr ""
-
-msgid "Height of the window in pixels"
-msgstr ""
-
-msgid "Large"
-msgstr ""
-
-msgid "Match five objects of the same type in a row to score!"
-msgstr ""
-
-msgid "Medium"
-msgstr ""
-
+#: data/org.gnome.five-or-more.appdata.xml.in:16
 msgid ""
 "More objects appear after every turn. Play for as long as possible, until "
 "the board is completely full!"
 msgstr ""
 
-msgid "Next:"
+#: data/org.gnome.five-or-more.appdata.xml.in:40
+msgid "The GNOME Project"
 msgstr ""
 
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.five-or-more.desktop.in:6
+msgid "game;strategy;logic;"
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:5
 msgid "Playing field size"
 msgstr ""
 
+#: data/org.gnome.five-or-more.gschema.xml:6
 msgid ""
 "Playing field size. 1=Small, 2=Medium, 3=Large. Any other value is invalid."
 msgstr ""
 
-msgid "Preferences"
+#: data/org.gnome.five-or-more.gschema.xml:10
+msgid "Ball style"
 msgstr ""
 
-msgid "Remove colored balls from the board by forming lines"
+#: data/org.gnome.five-or-more.gschema.xml:11
+msgid "Ball style. The filename of the images to use for the balls."
 msgstr ""
 
-msgid "S_cores"
+#: data/org.gnome.five-or-more.gschema.xml:15
+msgid "Background color"
 msgstr ""
 
+#: data/org.gnome.five-or-more.gschema.xml:16
+msgid "Background color. The hex specification of the background color."
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:20
+msgid "Time between moves"
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:21
+msgid "Time between moves in milliseconds."
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:25
+msgid "Game score"
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:26
+msgid "Game score from last saved session."
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:30
+msgid "Game field"
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:31
+msgid "Game field from last saved session."
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:35
+msgid "Game preview"
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:36
+msgid "Game preview from last saved session."
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:40
+msgid "Width of the window in pixels"
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:44
+msgid "Height of the window in pixels"
+msgstr ""
+
+#: data/org.gnome.five-or-more.gschema.xml:48
+msgid "true if the window is maximized"
+msgstr ""
+
+#: src/game.vala:94
+msgctxt "board size"
+msgid "Small"
+msgstr ""
+
+#: src/game.vala:95
+msgctxt "board size"
+msgid "Medium"
+msgstr ""
+
+#: src/game.vala:96
+msgctxt "board size"
+msgid "Large"
+msgstr ""
+
+#: src/main.vala:171
+msgid "GNOME port of the once-popular Color Lines game"
+msgstr ""
+
+#: src/main.vala:177
+msgid "translator-credits"
+msgstr ""
+
+#: src/window.vala:50
+msgid "Match five objects of the same type in a row to score!"
+msgstr ""
+
+#: src/window.vala:51
+msgid "You can’t move there!"
+msgstr ""
+
+#: src/window.vala:52
+msgid "Game Over!"
+msgstr ""
+
+#: src/window.vala:53
 #, c-format
 msgid "Score: %d"
 msgstr ""
 
-msgid "Small"
+#: src/window.vala:87
+msgid "Board Size: "
 msgstr ""
 
-msgid "The GNOME Project"
+#: src/window.vala:159
+msgid "Are you sure you want to restart the game?"
 msgstr ""
 
-msgid "Time between moves"
-msgstr ""
-
-msgid "Time between moves in milliseconds."
-msgstr ""
-
-msgid "Width of the window in pixels"
-msgstr ""
-
-msgid "You can’t move there!"
-msgstr ""
-
-msgid "_About Five or More"
-msgstr ""
-
+#: src/window.vala:161
 msgid "_Cancel"
 msgstr ""
 
-msgid "_Help"
-msgstr ""
-
-msgid "_Large"
-msgstr ""
-
-msgid "_Medium"
-msgstr ""
-
-msgid "_New Game"
-msgstr ""
-
-msgid "_Preferences"
-msgstr ""
-
+#: src/window.vala:162
 msgid "_Restart"
-msgstr ""
-
-msgid "_Small"
-msgstr ""
-
-msgid "_Theme:"
-msgstr ""
-
-msgid "balls"
-msgstr ""
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-msgid "game;strategy;logic;"
-msgstr ""
-
-msgid "shapes"
-msgstr ""
-
-msgid "tango"
-msgstr ""
-
-msgid "translator-credits"
-msgstr ""
-
-msgid "true if the window is maximized"
 msgstr ""

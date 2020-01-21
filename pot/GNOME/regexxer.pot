@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 14:39+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/regexxer/issues\n"
+"POT-Creation-Date: 2019-03-04 19:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,397 +17,523 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "#"
+#: ../ui/regexxer.desktop.in.h:1
+msgid "regexxer Search Tool"
 msgstr ""
 
-msgid "1."
+#: ../ui/regexxer.desktop.in.h:2 ../src/mainwindow.cc:1178
+msgid "Search and replace using regular expressions"
 msgstr ""
 
-msgid "2."
-msgstr ""
-
-msgid "3."
-msgstr ""
-
-msgid "A regular expression in Perl syntax"
-msgstr ""
-
-msgid "Also find hidden files"
-msgstr ""
-
-msgid "Auto indentation"
-msgstr ""
-
-msgid "Back"
-msgstr ""
-
-msgid "Backward"
-msgstr ""
-
-msgid "Both horizontal"
-msgstr ""
-
-msgid "C_urrent match color:"
-msgstr ""
-
-msgid "Cancels the running search"
-msgstr ""
-
-msgid "Can’t read file:"
-msgstr ""
-
-msgid "Cu_t"
-msgstr ""
-
-msgid "Current-match color"
-msgstr ""
-
-msgid "Do case insensitive matching"
-msgstr ""
-
-msgid "Do not automatically start search"
-msgstr ""
-
-msgid "Do not recurse into subdirectories"
-msgstr ""
-
-msgid "Draw spaces"
-msgstr ""
-
-#, qt-format
-msgid "Failed to save file “%1”: %2"
-msgstr ""
-
-msgid "Fallback _encoding:"
-msgstr ""
-
-msgid "Fallback encoding"
-msgstr ""
-
-msgid "File"
-msgstr ""
-
+#: ../ui/org.regexxer.gschema.xml.in.h:1
 msgid "File Patterns"
 msgstr ""
 
-msgid "File backward"
-msgstr ""
-
-msgid "File forward"
-msgstr ""
-
-msgid "File:"
-msgstr ""
-
-msgid "Find all files that match the filename pattern"
-msgstr ""
-
-msgid "Find all matches of the regular expression"
-msgstr ""
-
-msgid "Find all possible matches in a line"
-msgstr ""
-
-msgid "Find fi_les"
-msgstr ""
-
-msgid "Find files matching PATTERN"
-msgstr ""
-
-msgid "Find only the first match in a line"
-msgstr ""
-
-msgid "Find text matching REGEX"
-msgstr ""
-
-msgid "Fol_der:"
-msgstr ""
-
-msgid "Forward"
-msgstr ""
-
-msgid "Go to next match"
-msgstr ""
-
-msgid "Go to previous match"
-msgstr ""
-
-msgid "Go to the next matching file"
-msgstr ""
-
-msgid "Go to the previous matching file"
-msgstr ""
-
-msgid "Highlight the current line"
-msgstr ""
-
-msgid "Icons and text"
-msgstr ""
-
-msgid "Icons only"
-msgstr ""
-
-msgid "List of last patterns used in the 'Regex' entry."
-msgstr ""
-
-msgid "List of last patterns used in the 'Substitution' entry."
-msgstr ""
-
+#: ../ui/org.regexxer.gschema.xml.in.h:2
 msgid "List of pre-defined patterns available in the 'Pattern' entry."
 msgstr ""
 
+#: ../ui/org.regexxer.gschema.xml.in.h:3
+msgid "Regex Patterns"
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:4
+msgid "List of last patterns used in the 'Regex' entry."
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:5
+msgid "List of last patterns used in the 'Substitution' entry."
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:6
+msgid "Text view font"
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:7
+msgid "The font used in the file editor."
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:8
 msgid "Match color"
 msgstr ""
 
-msgid "Match:"
+#: ../ui/org.regexxer.gschema.xml.in.h:9
+msgid ""
+"The background color used to highlight matches of the search expression."
 msgstr ""
 
+#: ../ui/org.regexxer.gschema.xml.in.h:10
+msgid "Current-match color"
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:11
+msgid ""
+"The background color used to highlight the currently selected match of the "
+"search expression."
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:12
+msgid "Fallback encoding"
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:13
 msgid ""
 "Name of the character encoding to use if a file is not readable in either "
 "UTF-8 or the codeset specified by the current locale. Try \"iconv --list\" "
 "for a complete list of possible values."
 msgstr ""
 
-msgid "Next file"
+#: ../ui/org.regexxer.gschema.xml.in.h:14
+msgid "window width"
 msgstr ""
 
-msgid "PATTERN"
+#: ../ui/org.regexxer.gschema.xml.in.h:15
+msgid "The width of the window."
 msgstr ""
 
-msgid "Pattern:"
+#: ../ui/org.regexxer.gschema.xml.in.h:16
+msgid "window height"
 msgstr ""
 
-msgid "Preferences"
+#: ../ui/org.regexxer.gschema.xml.in.h:17
+msgid "The height of the window."
 msgstr ""
 
-msgid "Preview"
+#: ../ui/org.regexxer.gschema.xml.in.h:18
+msgid "window x position"
 msgstr ""
 
-msgid "Preview of the substitution"
+#: ../ui/org.regexxer.gschema.xml.in.h:19
+msgid "The X coordinate of the window."
 msgstr ""
 
-msgid "Previous file"
+#: ../ui/org.regexxer.gschema.xml.in.h:20
+msgid "window y position"
 msgstr ""
 
-msgid "Print match location to standard output"
+#: ../ui/org.regexxer.gschema.xml.in.h:21
+msgid "The Y coordinate of the window."
 msgstr ""
 
-msgid "REGEX"
+#: ../ui/org.regexxer.gschema.xml.in.h:22
+msgid "window maximization"
 msgstr ""
 
-msgid "Recurse into subdirectories"
+#: ../ui/org.regexxer.gschema.xml.in.h:23
+msgid "Whether the window is maximized."
 msgstr ""
 
-msgid "Regex Patterns"
-msgstr ""
-
-msgid "Replace all matches in all files"
-msgstr ""
-
-msgid "Replace all matches in the current file"
-msgstr ""
-
-msgid "Replace current"
-msgstr ""
-
-msgid "Replace current match"
-msgstr ""
-
-msgid "Replace in all files"
-msgstr ""
-
-msgid "Replace in this file"
-msgstr ""
-
-msgid "Replace matches with STRING"
-msgstr ""
-
-msgid "Replace:"
-msgstr ""
-
-msgid "STRING"
-msgstr ""
-
-msgid "Save _all"
-msgstr ""
-
-msgid "Save all"
-msgstr ""
-
-msgid "Search and replace using regular expressions"
-msgstr ""
-
-msgid "Search:"
-msgstr ""
-
+#: ../ui/org.regexxer.gschema.xml.in.h:24
 msgid "Show line numbers"
 msgstr ""
 
-msgid ""
-"Some files haven’t been saved yet.\n"
-"Continue anyway?"
+#: ../ui/org.regexxer.gschema.xml.in.h:25
+msgid "Whether to show the line numbers of the text view."
 msgstr ""
 
+#: ../ui/org.regexxer.gschema.xml.in.h:26
+msgid "Highlight the current line"
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:27
+msgid "Whether to highlight the current line of the text view."
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:28
+msgid "Auto indentation"
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:29
+msgid "Whether to enable auto indentation in the text view."
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:30
+msgid "Draw spaces"
+msgstr ""
+
+#: ../ui/org.regexxer.gschema.xml.in.h:31
+msgid "Which type of space to draw in the text view."
+msgstr ""
+
+#: ../src/filebuffer.cc:198
+msgid "Can’t read file:"
+msgstr ""
+
+#: ../src/filetree.cc:62
+msgid "File"
+msgstr ""
+
+#: ../src/filetree.cc:81
+msgid "#"
+msgstr ""
+
+#: ../src/filetree.cc:519
+#, qt-format
+msgid "Failed to save file “%1”: %2"
+msgstr ""
+
+#: ../src/filetree.cc:946
+#, qt-format
+msgid "“%1” seems to be a binary file."
+msgstr ""
+
+#: ../src/main.cc:101
+msgid "Find files matching PATTERN"
+msgstr ""
+
+#: ../src/main.cc:101
+msgid "PATTERN"
+msgstr ""
+
+#: ../src/main.cc:103
+msgid "Do not recurse into subdirectories"
+msgstr ""
+
+#: ../src/main.cc:105 ../ui/mainwindow.ui.h:7
+msgid "Also find hidden files"
+msgstr ""
+
+#: ../src/main.cc:107
+msgid "Find text matching REGEX"
+msgstr ""
+
+#: ../src/main.cc:107
+msgid "REGEX"
+msgstr ""
+
+#: ../src/main.cc:109
+msgid "Find only the first match in a line"
+msgstr ""
+
+#: ../src/main.cc:111 ../ui/mainwindow.ui.h:13
+msgid "Do case insensitive matching"
+msgstr ""
+
+#: ../src/main.cc:113
+msgid "Replace matches with STRING"
+msgstr ""
+
+#: ../src/main.cc:113
+msgid "STRING"
+msgstr ""
+
+#: ../src/main.cc:115
+msgid "Print match location to standard output"
+msgstr ""
+
+#: ../src/main.cc:117
+msgid "Do not automatically start search"
+msgstr ""
+
+#: ../src/main.cc:119
+msgid "[FOLDER]"
+msgstr ""
+
+#: ../src/mainwindow.cc:708
 msgid ""
 "Some files haven’t been saved yet.\n"
 "Quit anyway?"
 msgstr ""
 
-msgid "Stop"
+#: ../src/mainwindow.cc:711
+msgid "_Cancel"
 msgstr ""
 
-msgid "Text only"
+#: ../src/mainwindow.cc:712 ../ui/app-menu.xml.h:3
+msgid "_Quit"
 msgstr ""
 
-msgid "Text view font"
-msgstr ""
-
-msgid "The X coordinate of the window."
-msgstr ""
-
-msgid "The Y coordinate of the window."
-msgstr ""
-
+#: ../src/mainwindow.cc:722
 msgid ""
-"The background color used to highlight matches of the search expression."
+"Some files haven’t been saved yet.\n"
+"Continue anyway?"
 msgstr ""
 
-msgid ""
-"The background color used to highlight the currently selected match of the "
-"search expression."
-msgstr ""
-
-msgid "The encoding specified by the current locale"
-msgstr ""
-
+#: ../src/mainwindow.cc:752
 msgid "The file search pattern is invalid."
 msgstr ""
 
-msgid "The following errors occurred during save:"
-msgstr ""
-
+#: ../src/mainwindow.cc:758
 msgid "The following errors occurred during search:"
 msgstr ""
 
-msgid "The font used in the file editor."
+#: ../src/mainwindow.cc:1027
+msgid "The following errors occurred during save:"
 msgstr ""
 
-msgid "The height of the window."
+#: ../src/mainwindow.cc:1184
+msgid "translator-credits"
 msgstr ""
 
+#: ../src/prefdialog.cc:186
+#, qt-format
+msgid "“%1” is not a valid encoding."
+msgstr ""
+
+#: ../src/statusline.cc:245
+msgid "Stop"
+msgstr ""
+
+#: ../src/statusline.cc:253
+msgid "File:"
+msgstr ""
+
+#: ../src/statusline.cc:256
+msgid "Match:"
+msgstr ""
+
+#: ../src/statusline.cc:267
+msgid "Cancels the running search"
+msgstr ""
+
+#: ../ui/app-menu.xml.h:1
+msgid "_Preferences"
+msgstr ""
+
+#: ../ui/app-menu.xml.h:2
+msgid "_About"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:1
+msgid "_Save"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:2
+msgid "Save _all"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:3
+msgid "_Undo"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:4
+msgid "Cu_t"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:5
+msgid "_Copy"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:6
+msgid "_Paste"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:7
+msgid "_Delete"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:8
+msgid "Previous file"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:9
+msgid "Back"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:10 ../ui/mainwindow.ui.h:29
+msgid "Forward"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:11
+msgid "Next file"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:12
+msgid "Replace current"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:13
+msgid "Replace in this file"
+msgstr ""
+
+#: ../ui/gear-menu.xml.h:14
+msgid "Replace in all files"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:1
+msgid "Save all"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:2
+msgid "Fol_der:"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:3
+msgid "Pattern:"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:4
+msgid "recursive"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:5
+msgid "Recurse into subdirectories"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:6
+msgid "hidden"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:8
+msgid "Find all files that match the filename pattern"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:9
+msgid "Find fi_les"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:10
+msgid "Search:"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:11
+msgid "Replace:"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:12
+msgid "Find all possible matches in a line"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:14
+msgid "Find all matches of the regular expression"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:15
+msgid "A regular expression in Perl syntax"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:16
 msgid ""
 "The new string to substitute. As in Perl, you can refer to parts of the "
 "match using $1, $2, etc. or even $+, $&amp;, $` and $'. The operators \\l, "
 "\\u, \\L, \\U and \\E are supported as well."
 msgstr ""
 
-msgid "The width of the window."
+#: ../ui/mainwindow.ui.h:17
+msgid "Preview of the substitution"
 msgstr ""
 
-msgid "UTF-8"
+#: ../ui/mainwindow.ui.h:18
+msgid "Preview"
 msgstr ""
 
-msgid "Whether the window is maximized."
-msgstr ""
-
-msgid "Whether to enable auto indentation in the text view."
-msgstr ""
-
-msgid "Whether to highlight the current line of the text view."
-msgstr ""
-
-msgid "Whether to show the line numbers of the text view."
-msgstr ""
-
-msgid "Which type of space to draw in the text view."
-msgstr ""
-
-msgid "[FOLDER]"
-msgstr ""
-
-msgid "_About"
-msgstr ""
-
-msgid "_All files"
-msgstr ""
-
-msgid "_Cancel"
-msgstr ""
-
-msgid "_Copy"
-msgstr ""
-
-msgid "_Delete"
-msgstr ""
-
-msgid "_File access"
-msgstr ""
-
-msgid "_Look’n’feel"
-msgstr ""
-
-msgid "_Match color:"
-msgstr ""
-
-msgid "_Paste"
-msgstr ""
-
-msgid "_Preferences"
-msgstr ""
-
-msgid "_Quit"
-msgstr ""
-
+#: ../ui/mainwindow.ui.h:19
 msgid "_Replace"
 msgstr ""
 
-msgid "_Save"
+#: ../ui/mainwindow.ui.h:20
+msgid "Replace current match"
 msgstr ""
 
-msgid "_Text view font:"
-msgstr ""
-
+#: ../ui/mainwindow.ui.h:21
 msgid "_This file"
 msgstr ""
 
-msgid "_Undo"
+#: ../ui/mainwindow.ui.h:22
+msgid "Replace all matches in the current file"
 msgstr ""
 
-msgid "hidden"
+#: ../ui/mainwindow.ui.h:23
+msgid "_All files"
 msgstr ""
 
-msgid "recursive"
+#: ../ui/mainwindow.ui.h:24
+msgid "Replace all matches in all files"
 msgstr ""
 
-msgid "regexxer Search Tool"
+#: ../ui/mainwindow.ui.h:25
+msgid "File backward"
 msgstr ""
 
+#: ../ui/mainwindow.ui.h:26
+msgid "Go to the previous matching file"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:27
+msgid "Backward"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:28
+msgid "Go to previous match"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:30
+msgid "Go to next match"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:31
+msgid "File forward"
+msgstr ""
+
+#: ../ui/mainwindow.ui.h:32
+msgid "Go to the next matching file"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:1
+msgid "Icons only"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:2
+msgid "Text only"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:3
+msgid "Icons and text"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:4
+msgid "Both horizontal"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:5
+msgid "Preferences"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:6
+msgid "_Text view font:"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:7
+msgid "_Match color:"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:8
+msgid "C_urrent match color:"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:9
+msgid "_Look’n’feel"
+msgstr ""
+
+#: ../ui/prefdialog.ui.h:10
 msgid ""
 "regexxer attempts to read a file in the following encodings before giving up:"
 msgstr ""
 
-msgid "translator-credits"
+#: ../ui/prefdialog.ui.h:11
+msgid "3."
 msgstr ""
 
-msgid "window height"
+#: ../ui/prefdialog.ui.h:12
+msgid "2."
 msgstr ""
 
-msgid "window maximization"
+#: ../ui/prefdialog.ui.h:13
+msgid "1."
 msgstr ""
 
-msgid "window width"
+#: ../ui/prefdialog.ui.h:14
+msgid "UTF-8"
 msgstr ""
 
-msgid "window x position"
+#: ../ui/prefdialog.ui.h:15
+msgid "Fallback _encoding:"
 msgstr ""
 
-msgid "window y position"
+#: ../ui/prefdialog.ui.h:16
+msgid "The encoding specified by the current locale"
 msgstr ""
 
-#, qt-format
-msgid "“%1” is not a valid encoding."
-msgstr ""
-
-#, qt-format
-msgid "“%1” seems to be a binary file."
+#: ../ui/prefdialog.ui.h:17
+msgid "_File access"
 msgstr ""
