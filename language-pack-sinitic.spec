@@ -52,7 +52,7 @@ make
 %{_libexecdir}/*/Translations/*cmn*.qm
 %{_datadir}/zlibrary/resources/cmn*.xml
 %{_datadir}/childsplay_sp/*/*/words-cmn*
-%{_datadir}/*/locale/cmn*/LC_MESSAGES/*.mo
+%{_datadir}/*/*/cmn*/LC_MESSAGES/*.mo
 %{_datadir}/liblunar/holiday.dat-cmn*
 %{_datadir}/logo/logolib/Messages.cmn*
 /var/www/html/clipbucket/includes/langs/cmn*.lang
@@ -74,7 +74,7 @@ make
 %{_libexecdir}/*/Translations/*yue*.qm
 %{_datadir}/zlibrary/resources/yue*.xml
 %{_datadir}/childsplay_sp/*/*/words-yue*
-%{_datadir}/*/locale/yue*/LC_MESSAGES/*.mo
+%{_datadir}/*/*/yue*/LC_MESSAGES/*.mo
 %{_datadir}/liblunar/holiday.dat-yue*
 %{_datadir}/logo/logolib/Messages.yue*
 /var/www/html/clipbucket/includes/langs/yue*.lang

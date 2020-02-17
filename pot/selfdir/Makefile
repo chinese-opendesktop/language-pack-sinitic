@@ -8,4 +8,5 @@ build:
 install:
 	for i in ???_??; do install -Dm644 $$i/openscad.mo $(DESTDIR)$(DATADIR)/openscad/locale/$$i/LC_MESSAGES/openscad.mo; done
 	for i in ???_??; do install -Dm644 $$i/icaro.mo $(DESTDIR)$(DATADIR)/icaro/locale/$$i/LC_MESSAGES/icaro.mo; done
+	for i in ???_??; do install -Dm644 $$i/sunflower.mo $(DESTDIR)$(DATADIR)/sunflower/translations/$$i/LC_MESSAGES/sunflower.mo; done
 	for i in ???_??; do install -Dm644 $$i/engine.po $(DESTDIR)$(DATADIR)/0ad/l10n/$$i.engine.po; done

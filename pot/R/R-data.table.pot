@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: data.table 1.12.7\n"
-"POT-Creation-Date: 2019-10-21 16:15\n"
+"Project-Id-Version: data.table 1.12.9\n"
+"POT-Creation-Date: 2019-12-31 13:02\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -403,16 +403,28 @@ msgstr ""
 msgid ". Do not quote column names. Usage: DT[,sum(colC),by=list(colA,month(colB))]"
 msgstr ""
 
-msgid "The items in the 'by' or 'keyby' list are length ("
+msgid "The items in the 'by' or 'keyby' list are length(s) (%s). Each must be length %d; the same length as there are rows in x (after subsetting if i is provided)."
 msgstr ""
 
-msgid "). Each must be length"
+msgid "Internal error: drop_dot passed"
 msgstr ""
 
-msgid "; the same length as there are rows in x (after subsetting if i is provided)."
+msgid "items"
 msgstr ""
 
-msgid "of the .() or list() passed to j is missing"
+msgid "Item %d of the .() or list() passed to j is missing"
+msgstr ""
+
+msgid "Different branches of j expression produced different auto-named columns:"
+msgstr ""
+
+msgid "%s!=%s"
+msgstr ""
+
+msgid "; using the most \"last\" names"
+msgstr ""
+
+msgid "When .SDcols is a function, it is applied to each column; the output of this function must be a non-missing boolean scalar signalling inclusion/exclusion of the column. However, these conditions were not met for:"
 msgstr ""
 
 msgid ".SDcols missing at the following indices:"
@@ -658,9 +670,6 @@ msgstr ""
 msgid "column data.table"
 msgstr ""
 
-msgid "When 'new' is provided, 'old' must be provided too"
-msgstr ""
-
 msgid "'new' is not a character vector or a function"
 msgstr ""
 
@@ -836,6 +845,9 @@ msgid ". Only allowed operators are"
 msgstr ""
 
 msgid "."
+msgstr ""
+
+msgid "There is no package %s in provided repository."
 msgstr ""
 
 msgid "'fromLast' must be TRUE or FALSE"
@@ -1303,7 +1315,7 @@ msgstr ""
 msgid "Using integer64 class columns require to have 'bit64' package installed."
 msgstr ""
 
-msgid "internal error, package:xts is on search path but could not be loaded via requireNamespace"
+msgid "'xts' class passed to %s function but 'xts' is not available, you should have 'xts' installed already"
 msgstr ""
 
 msgid "Argument 'sort' should be logical TRUE/FALSE"
@@ -1366,10 +1378,7 @@ msgstr ""
 msgid "TRANSLATION CHECK"
 msgstr ""
 
-msgid "**********"
-msgstr ""
-
-msgid "Running data.table in English; package support is available in English only. When searching for online help, be sure to also check for the English error message. This can be obtained by looking at the po/R-<locale>.po and po/<locale>.po files in the package source, where the native language and English error messages can be found side-by-side"
+msgid "**********\nRunning data.table in English; package support is available in English only. When searching for online help, be sure to also check for the English error message. This can be obtained by looking at the po/R-<locale>.po and po/<locale>.po files in the package source, where the native language and English error messages can be found side-by-side\n**********"
 msgstr ""
 
 msgid "**********\nThis development version of data.table was built more than 4 weeks ago. Please update: data.table::update.dev.pkg()\n**********"
@@ -1382,12 +1391,6 @@ msgid "If this is a Mac, please ensure you are using R>=3.4.0 and have followed 
 msgstr ""
 
 msgid "This warning message should not occur on Windows or Linux. If it does, please file a GitHub issue.\n**********"
-msgstr ""
-
-msgid "There is no"
-msgstr ""
-
-msgid "package in provided repository."
 msgstr ""
 
 msgid "The option 'datatable.nomatch' is being used and is not set to the default NA. This option is still honored for now but will be deprecated in future. Please see NEWS for 1.12.4 for detailed information and motivation. To specify inner join, please specify `nomatch=NULL` explicitly in your calls rather than changing the default using this option."
@@ -1462,15 +1465,6 @@ msgstr ""
 msgid "x may no longer be the character name of the data.table. The possibility was undocumented and has been removed."
 msgstr ""
 
-msgid "set2key() is now deprecated. Please use setindex() instead."
-msgstr ""
-
-msgid "set2keyv() is now deprecated. Please use setindexv() instead."
-msgstr ""
-
-msgid "key2() is now deprecated. Please use indices() instead."
-msgstr ""
-
 msgid "key(x)<-value is deprecated and not supported. Please change to use setkey() with perhaps copy(). Has been warning since 2012 and will be an error in future."
 msgstr ""
 
@@ -1540,9 +1534,6 @@ msgstr ""
 msgid "New parallel sort has not been implemented for vectors containing NA values so far. Using one thread."
 msgstr ""
 
-msgid "x must be a data.frame or data.table."
-msgstr ""
-
 msgid "x must be a data.frame or data.table"
 msgstr ""
 
@@ -1564,10 +1555,7 @@ msgstr ""
 msgid "is non-atomic, which can't be sorted; try setting sorted = FALSE"
 msgstr ""
 
-msgid "Cross product of elements provided to CJ() would result in"
-msgstr ""
-
-msgid "rows which exceeds .Machine$integer.max =="
+msgid "Cross product of elements provided to CJ() would result in %.0f rows which exceeds .Machine$integer.max == %d"
 msgstr ""
 
 msgid "x and y must both be data.tables"
@@ -1660,34 +1648,28 @@ msgstr ""
 msgid "script must end with '.Rraw'. If a file ending '.Rraw.bz2' exists, that will be found and used."
 msgstr ""
 
-msgid "Neither"
+msgid "Neither %s nor %s exist in %s"
 msgstr ""
 
-msgid "exist in"
+msgid "Failed after test"
+msgstr ""
+
+msgid "before the next test() call in"
+msgstr ""
+
+msgid "out of"
+msgstr ""
+
+msgid ". Search"
+msgstr ""
+
+msgid "for test number"
 msgstr ""
 
 msgid "Timings count mismatch:"
 msgstr ""
 
 msgid "vs"
-msgstr ""
-
-msgid "out of"
-msgstr ""
-
-msgid "in"
-msgstr ""
-
-msgid "on"
-msgstr ""
-
-msgid ". ["
-msgstr ""
-
-msgid "Search"
-msgstr ""
-
-msgid "for test number"
 msgstr ""
 
 msgid "Test"
@@ -1732,6 +1714,12 @@ msgstr ""
 msgid "l not type list"
 msgstr ""
 
+msgid "Argument 'nan' must be length 1"
+msgstr ""
+
+msgid "Argument 'nan' must be NA or NaN"
+msgstr ""
+
 msgid "x not boolean"
 msgstr ""
 
@@ -1752,3 +1740,8 @@ msgstr ""
 
 msgid "Following columns are not numeric and will be omitted:"
 msgstr ""
+
+msgid        "%d variable not shown: %s\n"
+msgid_plural "%d variables not shown: %s\n"
+msgstr[0]    ""
+msgstr[1]    ""
