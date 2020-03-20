@@ -1,4 +1,5 @@
-# http://l10n-files.qt.io/l10n-files/
+# http://l10n-files.qt.io/l10n-files
+# https://code.qt.io/cgit/qt/qttranslations.git/tree/translations
 
 build:
 	mkdir -p cmn_TW yue_HK
@@ -24,9 +25,9 @@ install:
 	for i in ???_??; do install -Dm644 $$i/qtquickcontrols.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtquickcontrols_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtquickcontrols2.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtquickcontrols2_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtscript.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtscript_$$i.qm; done
-#	for i in ???_??; do install -Dm644 $$i/qtserialport.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtserialport_$$i.qm; done
-#	for i in ???_??; do install -Dm644 $$i/qtwebengine.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtwebengine_$$i.qm; done
-#	for i in ???_??; do install -Dm644 $$i/qtwebsockets.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtwebsockets_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/qtserialport.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtserialport_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/qtwebengine.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtwebengine_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/qtwebsockets.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtwebsockets_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtxmlpatterns.qm $(DESTDIR)$(DATADIR)/qt5/translations/qtxmlpatterns_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/ifw.qm $(DESTDIR)$(DATADIR)/ifw/translations/ifw_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtcreator.qm $(DESTDIR)$(DATADIR)/qtcreator/translations/qtcreator_$$i.qm; done

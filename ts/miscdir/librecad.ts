@@ -9015,12 +9015,10 @@ Continue?</source>
     </message>
     <message>
         <source>Radius</source>
-        <extracomment>Draw Tangential Arc by the given radius</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Angle</source>
-        <extracomment>Draw Tangential Arc by the given radius</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

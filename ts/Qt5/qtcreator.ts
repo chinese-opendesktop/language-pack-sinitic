@@ -2021,7 +2021,6 @@ For example, &quot;Revision: 15&quot; will leave the branch at revision 15.</sou
     <message>
         <location/>
         <source>Use file .astylerc or astylerc in HOME</source>
-        <extracomment>HOME is replaced by the user&apos;s home directory</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2198,7 +2197,6 @@ For example, &quot;Revision: 15&quot; will leave the branch at revision 15.</sou
     <message>
         <location/>
         <source>Use file uncrustify.cfg in HOME</source>
-        <extracomment>HOME is replaced by the user&apos;s home directory</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2414,7 +2412,6 @@ However, using the relaxed and extended rules means also that no highlighting/co
     <message>
         <location/>
         <source>Use &amp;Hijacked file</source>
-        <extracomment>Hijack: Unset read-only flag without check-out. This is used for local changes which the user does not want to commit.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2488,7 +2485,6 @@ However, using the relaxed and extended rules means also that no highlighting/co
     <message>
         <location/>
         <source>&amp;Index only VOBs:</source>
-        <extracomment>VOB: Versioned Object Base</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2565,7 +2561,6 @@ However, using the relaxed and extended rules means also that no highlighting/co
     <message>
         <location/>
         <source>Created on:</source>
-        <extracomment>Date</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3511,7 +3506,6 @@ To do this, you type this shortcut and a space in the Locator entry field, and t
     <message>
         <location/>
         <source>min</source>
-        <extracomment>unit for minutes</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4424,7 +4418,6 @@ These prefixes are used in addition to current file name on Switch Header/Source
     <message>
         <location filename="../../../src/plugins/debugger/cdb/cdboptionspagewidget.ui"/>
         <source>Startup</source>
-        <extracomment>Placeholder</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5365,7 +5358,6 @@ Unchecked - The change is not a draft.</source>
     <message>
         <location line="+2"/>
         <source>Restore to &amp;Branch...</source>
-        <extracomment>Restore a git stash to new branch to be created</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -11550,13 +11542,11 @@ should a repository require SSH-authentication (see documentation on SSH and the
     <message>
         <location line="+75"/>
         <source>Select All</source>
-        <extracomment>Check all for submit</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Unselect All</source>
-        <extracomment>Uncheck all for submit</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -15035,13 +15025,11 @@ will also disable the following plugins:
     <message>
         <location filename="../../../src/libs/qmldebug/qmloutputparser.cpp" line="+92"/>
         <source>The port seems to be in use.</source>
-        <extracomment>Error message shown after &apos;Could not connect ... debugger:&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>The application is not set up for QML/JS debugging.</source>
-        <extracomment>Error message shown after &apos;Could not connect ... debugger:&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -16484,13 +16472,11 @@ To clear a variable, put its name on a line with nothing else on it.</source>
         <location line="+73"/>
         <location filename="../../../src/plugins/projectexplorer/environmentwidget.cpp" line="+328"/>
         <source>&lt;VARIABLE&gt;</source>
-        <extracomment>Name when inserting a new variable</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&lt;VALUE&gt;</source>
-        <extracomment>Value when inserting a new variable</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -17347,7 +17333,6 @@ To clear a variable, put its name on a line with nothing else on it.</source>
         <location filename="../../../src/plugins/android/androidbuildapkstep.cpp" line="+135"/>
         <location line="+533"/>
         <source>Build Android APK</source>
-        <extracomment>AndroidBuildApkStep default display name</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -17693,7 +17678,6 @@ The minimum API level required by the kit is %1.</source>
     <message>
         <location line="+33"/>
         <source>Deploy to Android device</source>
-        <extracomment>AndroidDeployQtStep default display name</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -18220,7 +18204,6 @@ Do you want to uninstall the existing package?</source>
     <message>
         <location line="+37"/>
         <source>Android</source>
-        <extracomment>Qt Version is meant for Android</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -18458,7 +18441,6 @@ Do you want to uninstall the existing package?</source>
     <message>
         <location filename="../../../src/plugins/android/androidsettingswidget.cpp" line="-276"/>
         <source>AVD Name</source>
-        <extracomment>AVD - Android Virtual Device</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19679,7 +19661,6 @@ Check the test environment.</source>
     <message>
         <location line="+58"/>
         <source>Default</source>
-        <extracomment>The name of the build configuration created by default for a autotools project.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -20795,31 +20776,26 @@ Check the test environment.</source>
     <message>
         <location line="+6"/>
         <source>Format &amp;Current File</source>
-        <extracomment>Menu entry</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Format &amp;Selected Text</source>
-        <extracomment>Menu entry</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Format at Cursor</source>
-        <extracomment>Menu entry</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Disable Formatting for Selected Text</source>
-        <extracomment>Menu entry</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>%1 Command</source>
-        <extracomment>File dialog title for path chooser when choosing binary</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21503,7 +21479,6 @@ Check the test environment.</source>
     <message>
         <location filename="../../../src/plugins/clangcodemodel/clangcompletionassistprocessor.cpp" line="+516"/>
         <source>Location: %1</source>
-        <extracomment>Parent folder for proposed #include completion</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21528,7 +21503,6 @@ Check the test environment.</source>
     <message>
         <location filename="../../../src/plugins/clangcodemodel/clangmodelmanagersupport.cpp" line="+492"/>
         <source>Clang</source>
-        <extracomment>Display name</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -22689,7 +22663,6 @@ Output:
     <message>
         <location filename="../../../src/plugins/cmakeprojectmanager/cmakebuildstep.cpp" line="+84"/>
         <source>CMake Build</source>
-        <extracomment>Default display name for the cmake make step.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -23815,7 +23788,6 @@ Copy the path to the source files to the clipboard?</source>
     <message>
         <location line="+2"/>
         <source>Useful text</source>
-        <extracomment>Sample external tool text</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -26258,7 +26230,6 @@ to version control (%2)
     <message>
         <location line="+8"/>
         <source>&lt;br/&gt;From revision %1&lt;br/&gt;</source>
-        <extracomment>This gets conditionally inserted as argument %8 into the description string.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -28177,7 +28148,6 @@ Flags: %3</source>
     <message>
         <location line="+5"/>
         <source>&lt;invalid state&gt;</source>
-        <extracomment>Invalid breakpoint state.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -28988,7 +28958,6 @@ If you build %2 from sources and want to use a CDB executable with another bitne
     <message>
         <location line="+217"/>
         <source>Locals &amp;&amp; Expressions</source>
-        <extracomment>&apos;&amp;&amp;&apos; will appear as one (one is marking keyboard shortcut)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -29520,7 +29489,6 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+4"/>
         <source>For example, %1</source>
-        <extracomment>&quot;For example, /dev/ttyS0, COM1, 127.0.0.1:1234&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -29814,7 +29782,6 @@ You can choose another communication channel here, such as a serial line or cust
     <message>
         <location line="+106"/>
         <source>%1 for &quot;%2&quot;</source>
-        <extracomment>e.g. LLDB for &quot;myproject&quot;, shows up i</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -30176,13 +30143,11 @@ Setting breakpoints by file name and line number may fail.</source>
     <message>
         <location filename="../../../src/plugins/debugger/debuggerplugin.cpp" line="-342"/>
         <source>0x%1 hit</source>
-        <extracomment>Message tracepoint: Address hit.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>%1:%2 %3() hit</source>
-        <extracomment>Message tracepoint: %1 file, %2 line %3 function hit.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -30260,7 +30225,6 @@ Setting breakpoints by file name and line number may fail.</source>
         <location line="+789"/>
         <location line="+56"/>
         <source>Process %1</source>
-        <extracomment>%1: PID</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -30680,7 +30644,6 @@ Setting breakpoints by file name and line number may fail.</source>
     <message>
         <location line="+3"/>
         <source>Specify the path to the &lt;a href=&quot;%1&quot;&gt;Windows Console Debugger executable&lt;/a&gt; (%2) here.</source>
-        <extracomment>Label text for path configuration. %2 is &quot;x-bit version&quot;.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -30691,7 +30654,6 @@ Setting breakpoints by file name and line number may fail.</source>
     <message>
         <location line="+74"/>
         <source>System %1 at %2</source>
-        <extracomment>%1: Debugger engine type (GDB, LLDB, CDB...), %2: Path</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -30991,7 +30953,6 @@ Setting breakpoints by file name and line number may fail.</source>
     <message>
         <location line="+100"/>
         <source>Debugger</source>
-        <extracomment>Category under which Analyzer tasks are listed in Issues view</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -32549,7 +32510,6 @@ Stepping into the module or setting breakpoints by file and line is expected to 
         <location line="+15"/>
         <source>&lt;unknown&gt;</source>
         <comment>address</comment>
-        <extracomment>End address of loaded module</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -33432,13 +33392,11 @@ Do you want to retry?</source>
     <message>
         <location filename="../../../src/plugins/debugger/watchdata.cpp" line="-324"/>
         <source>&lt;not in scope&gt;</source>
-        <extracomment>Value of variable in Debugger Locals display for variables out of scope (stopped above initialization).</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
         <source>%1 &lt;shadowed %2&gt;</source>
-        <extracomment>Display of variables shadowed by variables of the same name in nested scopes: Variable %1 is the variable name, %2 is a simple count.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -33497,13 +33455,11 @@ Do you want to retry?</source>
     <message>
         <location line="+432"/>
         <source>&lt;i&gt;%1&lt;/i&gt; %2 at #%3</source>
-        <extracomment>HTML tooltip of a variable in the memory editor</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&lt;i&gt;%1&lt;/i&gt; %2</source>
-        <extracomment>HTML tooltip of a variable in the memory editor</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -34295,13 +34251,11 @@ Rebuilding the project might help.</source>
     <message>
         <location filename="../../../src/plugins/vcsbase/wizard/vcsconfigurationpage.cpp" line="+102"/>
         <source>&quot;data&quot; must be a JSON object for &quot;VcsConfiguration&quot; pages.</source>
-        <extracomment>Do not translate &quot;VcsConfiguration&quot;, because it is the id of a page.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&quot;VcsConfiguration&quot; page requires a &quot;vcsId&quot; set.</source>
-        <extracomment>Do not translate &quot;VcsConfiguration&quot;, because it is the id of a page.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -36798,7 +36752,6 @@ Rebuilding the project might help.</source>
     <message>
         <location line="+44"/>
         <source>Default</source>
-        <extracomment>The name of the build configuration created by default for a generic project.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -37387,7 +37340,6 @@ were not verified among remotes in %3. Select different folder?</source>
     <message numerus="yes">
         <location filename="../../../src/plugins/git/gitclient.cpp" line="+142"/>
         <source>and %n more</source>
-        <extracomment>Displayed after the untranslated message &quot;Branches: branch1, branch2 &apos;and %n more&apos;&quot;</extracomment>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
@@ -37527,13 +37479,11 @@ were not verified among remotes in %3. Select different folder?</source>
     <message>
         <location line="+45"/>
         <source>Cannot checkout &quot;%1&quot; of %2 in &quot;%3&quot;: %4</source>
-        <extracomment>Meaning of the arguments: %1: revision, %2: files, %3: repository, %4: Error message</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Cannot find parent revisions of &quot;%1&quot; in &quot;%2&quot;: %3</source>
-        <extracomment>Failed to find parent revisions of a SHA1 for &quot;annotate previous&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -37564,7 +37514,6 @@ were not verified among remotes in %3. Select different folder?</source>
     <message>
         <location line="+70"/>
         <source>Cannot resolve stash message &quot;%1&quot; in &quot;%2&quot;.</source>
-        <extracomment>Look-up of a stash via its descriptive message failed.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -38970,7 +38919,6 @@ instead of its installation directory when run outside git bash.</source>
     <message>
         <location filename="../../../src/plugins/glsleditor/glsleditorplugin.cpp" line="+121"/>
         <source>GLSL</source>
-        <extracomment>GLSL sub-menu in the Tools menu</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -39394,7 +39342,6 @@ instead of its installation directory when run outside git bash.</source>
     <message>
         <location line="+9"/>
         <source>x</source>
-        <extracomment>Multiplication, as in 32x32</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -39788,7 +39735,6 @@ Expiration date: %3</source>
     <message>
         <location line="+2"/>
         <source>Developer status</source>
-        <extracomment>Whether the device is in developer mode.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -39846,7 +39792,6 @@ Expiration date: %3</source>
     <message>
         <location line="+26"/>
         <source>iOS</source>
-        <extracomment>Qt Version is meant for Ios</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -41231,7 +41176,6 @@ Expiration date: %3</source>
     <message>
         <location line="+13"/>
         <source>Unable to determine the client root.</source>
-        <extracomment>Unable to determine root of the p4 client installation</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -41639,13 +41583,11 @@ Expiration date: %3</source>
     <message>
         <location line="+65"/>
         <source>Error running &quot;where&quot; on %1: %2</source>
-        <extracomment>Failed to run p4 &quot;where&quot; to resolve a Perforce file name to a local file system name.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+32"/>
         <source>The file is not mapped</source>
-        <extracomment>File is not managed by Perforce</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -42626,7 +42568,6 @@ Excluding: %2
     <message>
         <location filename="../../../src/plugins/projectexplorer/baseprojectwizarddialog.cpp" line="+168"/>
         <source>untitled</source>
-        <extracomment>File path suggestion for a new project. If you choose to translate it, make sure it is a valid path name without blanks and using only ascii chars.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -42811,7 +42752,6 @@ Excluding: %2
     <message>
         <location line="+24"/>
         <source>Clone Configuration</source>
-        <extracomment>Title of a the cloned BuildConfiguration window, text of the window</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -42863,13 +42803,11 @@ Excluding: %2
     <message>
         <location filename="../../../src/plugins/projectexplorer/buildsteplist.cpp" line="+51"/>
         <source>Build</source>
-        <extracomment>Display name of the build build step list. Used as part of the labels in the project window.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clean</source>
-        <extracomment>Display name of the clean build step list. Used as part of the labels in the project window.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -42903,7 +42841,6 @@ Excluding: %2
     <message>
         <location line="+113"/>
         <source>%1 Steps</source>
-        <extracomment>%1 is the name returned by BuildStepList::displayName</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -42986,13 +42923,11 @@ Excluding: %2
     <message>
         <location filename="../../../src/plugins/projectexplorer/copytaskhandler.cpp" line="+45"/>
         <source>error:</source>
-        <extracomment>Task is of type: error</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>warning:</source>
-        <extracomment>Task is of type: warning</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -43227,19 +43162,16 @@ Excluding: %2
         <location line="+8"/>
         <location line="+46"/>
         <source>Deploy</source>
-        <extracomment>Display name of the deploy build step list. Used as part of the labels in the project window.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Deploy locally</source>
-        <extracomment>Default DeployConfiguration display name</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+212"/>
         <source>Deploy Configuration</source>
-        <extracomment>Display name of the default deploy configuration</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -43689,13 +43621,11 @@ Excluding: %2
     <message>
         <location line="+6"/>
         <source>Use &lt;b&gt;%1&lt;/b&gt;</source>
-        <extracomment>%1 is &quot;System Environment&quot; or some such.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Use &lt;b&gt;%1&lt;/b&gt; and</source>
-        <extracomment>Yup, word puzzle. The Set/Unset phrases above are appended to this. %1 is &quot;System Environment&quot; or some such.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -44142,7 +44072,6 @@ Excluding: %2
     <message>
         <location line="+6"/>
         <source>Remove Project...</source>
-        <extracomment>Remove project from parent profile (Project explorer view); will not physically delete any files.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -44894,7 +44823,6 @@ Rename %2 to %3 anyway?</source>
     <message>
         <location filename="../../../src/plugins/projectexplorer/jsonwizard/jsonprojectpage.cpp" line="+76"/>
         <source>untitled</source>
-        <extracomment>File path suggestion for a new project. If you choose to translate it, make sure it is a valid path name without blanks and using only ascii chars.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -45494,7 +45422,6 @@ to project &quot;%2&quot;.</source>
     <message>
         <location filename="../../../src/plugins/projectexplorer/kitmodel.cpp" line="+84"/>
         <source>%1 (default)</source>
-        <extracomment>Mark up a kit as the default one.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -45894,7 +45821,6 @@ Please close all running instances of your application before starting a build.<
         <location filename="../../../src/plugins/projectexplorer/processstep.cpp" line="+51"/>
         <location line="+60"/>
         <source>Custom Process Step</source>
-        <extracomment>Default ProcessStep display name</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -46483,13 +46409,11 @@ What should Qt Creator do now?</source>
     <message>
         <location line="+170"/>
         <source>Run on %1</source>
-        <extracomment>Shown in Run configuration if no executable is given, %1 is device name</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>%1 (on %2)</source>
-        <extracomment>Shown in Run configuration, Add menu: &quot;name of runnable (on device name)&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -46720,7 +46644,6 @@ What should Qt Creator do now?</source>
     <message>
         <location line="+141"/>
         <source>Clone Configuration</source>
-        <extracomment>Title of a the cloned RunConfiguration window, text of the window</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -47465,27 +47388,23 @@ Enable this if you plan to create 32-bit x86 binaries without using a dedicated 
     <message>
         <location line="+18"/>
         <source>Debug</source>
-        <extracomment>The name of the debug build configuration created by default for a qbs project.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Debug</source>
         <comment>Shadow build directory suffix</comment>
-        <extracomment>Non-ASCII characters in directory suffix may cause build issues.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Release</source>
-        <extracomment>The name of the release build configuration created by default for a qbs project.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Release</source>
         <comment>Shadow build directory suffix</comment>
-        <extracomment>Non-ASCII characters in directory suffix may cause build issues.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -47982,40 +47901,34 @@ Neither the path to the library nor the path to its includes is added to the .pr
     <message>
         <location line="+47"/>
         <source>Release</source>
-        <extracomment>The name of the release build configuration created by default for a qmake project.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Release</source>
         <comment>Shadow build directory suffix</comment>
-        <extracomment>Non-ASCII characters in directory suffix may cause build issues.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Debug</source>
-        <extracomment>The name of the debug build configuration created by default for a qmake project.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Debug</source>
         <comment>Shadow build directory suffix</comment>
-        <extracomment>Non-ASCII characters in directory suffix may cause build issues.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Profile</source>
-        <extracomment>The name of the profile build configuration created by default for a qmake project.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Profile</source>
         <comment>Shadow build directory suffix</comment>
-        <extracomment>Non-ASCII characters in directory suffix may cause build issues.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -48377,7 +48290,6 @@ Please update your kit (%3) or choose a mkspec for qmake that matches your targe
         <location filename="../../../src/plugins/qmakeprojectmanager/qmakestep.cpp" line="+80"/>
         <location line="+745"/>
         <source>qmake</source>
-        <extracomment>QMakeStep default display name</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -52603,7 +52515,6 @@ Saving failed.</source>
     <message>
         <location filename="../../../src/plugins/qnx/qnxqtversion.cpp" line="+52"/>
         <source>QNX %1</source>
-        <extracomment>Qt Version is meant for QNX</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -52647,7 +52558,6 @@ Saving failed.</source>
     <message>
         <location line="+2"/>
         <source>SDP path:</source>
-        <extracomment>SDP refers to &apos;Software Development Platform&apos;.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -52995,13 +52905,11 @@ Saving failed.</source>
     <message>
         <location filename="../../../src/plugins/qtsupport/baseqtversion.cpp" line="+139"/>
         <source>The Qt version is invalid: %1</source>
-        <extracomment>%1: Reason for being invalid</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
         <source>The qmake command &quot;%1&quot; was not found or is not executable.</source>
-        <extracomment>%1: Path to qmake executable</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -53092,7 +53000,6 @@ Saving failed.</source>
     <message>
         <location filename="../../../src/plugins/qtsupport/profilereader.cpp" line="+48"/>
         <source>[Inexact] </source>
-        <extracomment>Prefix used for output from the cumulative evaluation of project files.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -55742,7 +55649,6 @@ Row: %4, Column: %5
     <message>
         <location line="+32"/>
         <source>My Tasks</source>
-        <extracomment>Category under which tasklist tasks are listed in Issues view</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -55985,7 +55891,6 @@ Row: %4, Column: %5
 Filter: %2
 Excluding: %3
 %4</source>
-        <extracomment>the last arg is filled by BaseFileFind::runNewSearch</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -59621,13 +59526,11 @@ What do you want to do?</source>
     <message>
         <location line="+43"/>
         <source>No version control set on &quot;VcsConfiguration&quot; page.</source>
-        <extracomment>Do not translate &quot;VcsConfiguration&quot;, because it is the id of a page.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&quot;vcsId&quot; (&quot;%1&quot;) is invalid for &quot;VcsConfiguration&quot; page. Possible values are: %2.</source>
-        <extracomment>Do not translate &quot;VcsConfiguration&quot;, because it is the id of a page.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

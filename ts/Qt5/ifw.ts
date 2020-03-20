@@ -963,19 +963,16 @@ Error while loading %2</source>
     <message>
         <location line="+8"/>
         <source>Cannot open file &quot;%1&quot; for writing: %2</source>
-        <extracomment>%2 is a sentence describing the error</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
         <source>File &quot;%1&quot; not open for writing: %2</source>
-        <extracomment>%2 is a sentence describing the error.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Writing to file &quot;%1&quot; failed: %2</source>
-        <extracomment>%2 is a sentence describing the error.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -991,7 +988,6 @@ Error while loading %2</source>
     <message>
         <location line="+6"/>
         <source>Unknown network error while downloading &quot;%1&quot;.</source>
-        <extracomment>%1 is a sentence describing the error</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1007,7 +1003,6 @@ Error while loading %2</source>
     <message>
         <location line="+10"/>
         <source>Invalid source URL &quot;%1&quot;: %2</source>
-        <extracomment>%2 is a sentence describing the error</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

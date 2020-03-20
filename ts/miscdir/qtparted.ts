@@ -2,7 +2,7 @@
 <!DOCTYPE TS>
 <TS version="2.1">
 <context>
-    <name></name>
+    <name> </name>
     <message>
         <source>command not found</source>
         <translation type="unfinished"></translation>

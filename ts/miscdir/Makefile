@@ -36,3 +36,4 @@ install:
 	for i in ???_??; do install -Dm644 $$i/otter-browser.qm $(DESTDIR)$(DATADIR)/otter-browser/locale/otter-browser_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cortina.qm $(DESTDIR)$(DATADIR)/qt4/translations/cortina/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/dsbbg.qm $(DESTDIR)$(DATADIR)/dsbbg/dsbbg_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/photoflare.qm $(DESTDIR)$(DATADIR)/photoflare/languages/$$i.qm; done

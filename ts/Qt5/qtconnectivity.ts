@@ -624,7 +624,6 @@
     <message>
         <location line="+2"/>
         <source>Bond Management</source>
-        <extracomment>Connection management (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -760,25 +759,21 @@
     <message>
         <location line="+20"/>
         <source>GAP Device Name</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>GAP Appearance</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>GAP Peripheral Privacy Flag</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>GAP Reconnection Address</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -789,7 +784,6 @@
     <message>
         <location line="+2"/>
         <source>GATT Service Changed</source>
-        <extracomment>GATT: _G_eneric _Att_ribute Profile (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1050,7 +1044,6 @@
     <message>
         <location line="+2"/>
         <source>HID Information</source>
-        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1061,7 +1054,6 @@
     <message>
         <location line="+2"/>
         <source>HID Control Point</source>
-        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1092,19 +1084,16 @@
     <message>
         <location line="+3"/>
         <source>Record Access Control Point</source>
-        <extracomment>Glucose Sensor patient record database.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>RSC Measurement</source>
-        <extracomment>RSC: Running Speed and Cadence</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>RSC Feature</source>
-        <extracomment>RSC: Running Speed and Cadence</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1115,13 +1104,11 @@
     <message>
         <location line="+2"/>
         <source>CSC Measurement</source>
-        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>CSC Feature</source>
-        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1177,13 +1164,11 @@
     <message>
         <location line="+3"/>
         <source>Magnetic Declination</source>
-        <extracomment>Angle between geographic and magnetic north</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Elevation</source>
-        <extracomment>Above/below sea level</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1204,7 +1189,6 @@
     <message>
         <location line="+2"/>
         <source>True Wind Speed</source>
-        <extracomment>Wind speed while standing</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1215,7 +1199,6 @@
     <message>
         <location line="+3"/>
         <source>Apparent Wind Speed</source>
-        <extracomment>Wind speed while observer is moving</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1226,7 +1209,6 @@
     <message>
         <location line="+3"/>
         <source>Gust Factor</source>
-        <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1267,7 +1249,6 @@
     <message>
         <location line="+3"/>
         <source>Descriptor Value Changed</source>
-        <extracomment>Environmental sensing related</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1288,7 +1269,6 @@
     <message>
         <location line="+2"/>
         <source>Age</source>
-        <extracomment>Age of person</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1354,7 +1334,6 @@
     <message>
         <location line="+2"/>
         <source>Height</source>
-        <extracomment>Height of a person</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1410,7 +1389,6 @@
     <message>
         <location line="+3"/>
         <source>Database Change Increment</source>
-        <extracomment>Environmental sensing related</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

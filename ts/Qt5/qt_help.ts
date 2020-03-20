@@ -114,7 +114,6 @@
     <message>
         <location filename="../../qttools/src/assistant/help/qhelpdbreader.cpp" line="+103"/>
         <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
-        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

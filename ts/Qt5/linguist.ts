@@ -146,7 +146,6 @@ Will assume a single universal form.</source>
     <message>
         <location line="+50"/>
         <source>%1 (%2)</source>
-        <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -355,19 +354,16 @@ Will assume a single universal form.</source>
     <message>
         <location filename="../../qttools/src/linguist/linguist/messageeditorwidgets.cpp" line="+301"/>
         <source>Alt+Delete</source>
-        <extracomment>translate, but don&apos;t change</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Shift+Alt+Insert</source>
-        <extracomment>translate, but don&apos;t change</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Alt+Insert</source>
-        <extracomment>translate, but don&apos;t change</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2119,7 +2115,6 @@ Line: %2</source>
         <location filename="../../qttools/src/linguist/linguist/translationsettingsdialog.cpp" line="+50"/>
         <location line="+38"/>
         <source>%1 (%2)</source>
-        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

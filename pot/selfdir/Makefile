@@ -10,3 +10,4 @@ install:
 	for i in ???_??; do install -Dm644 $$i/icaro.mo $(DESTDIR)$(DATADIR)/icaro/locale/$$i/LC_MESSAGES/icaro.mo; done
 	for i in ???_??; do install -Dm644 $$i/sunflower.mo $(DESTDIR)$(DATADIR)/sunflower/translations/$$i/LC_MESSAGES/sunflower.mo; done
 	for i in ???_??; do install -Dm644 $$i/engine.po $(DESTDIR)$(DATADIR)/0ad/l10n/$$i.engine.po; done
+	for i in ???_??; do install -Dm644 $$i/joe.po $(DESTDIR)$(DATADIR)/joe/lang/$$i.po; done

@@ -182,12 +182,20 @@ Free Chess Database </source>
     <message numerus="yes">
         <location filename="../src/gui/analysiswidget.cpp" line="447"/>
         <source>White wins in %n moves</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/analysiswidget.cpp" line="451"/>
         <source>Black wins in %n moves</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/analysiswidget.cpp" line="471"/>
@@ -2201,18 +2209,18 @@ Shall I download a database?</source>
     </message>
     <message numerus="yes">
         <source>Loses in %n move(s)</source>
-        <translation type="obsolete">
-            <numerusform>Przegrywa w %n posunięciu</numerusform>
-            <numerusform>Przegrywa w %n posunięciach</numerusform>
-            <numerusform>Przegrywa w %n posunięciach</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Wins in %n move(s)</source>
-        <translation type="obsolete">
-            <numerusform>Wygrywa w %n posunięciu</numerusform>
-            <numerusform>Wygrywa w %n posunięciach</numerusform>
-            <numerusform>Wygrywa w %n posunięciach</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>

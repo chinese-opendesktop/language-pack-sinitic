@@ -434,7 +434,6 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <message>
         <location filename="../../qtlocation/src/location/maps/qgeorouteparserosrmv5.cpp" line="+104"/>
         <source>North</source>
-        <extracomment>Translations exist at https://github.com/Project-OSRM/osrm-text-instructions. Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -456,7 +455,6 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
         <location line="+13"/>
         <source>first</source>
         <comment>roundabout exit</comment>
-        <extracomment>always used in &quot; and take the %1 exit [onto &lt;street name&gt;]&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -576,7 +574,6 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <message>
         <location line="+15"/>
         <source> and take the %1 exit</source>
-        <extracomment>Always appended to one of the following strings: - &quot;Enter the roundabout&quot; - &quot;Enter the rotary&quot; - &quot;Enter the rotary &lt;rotaryname&gt;&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -690,7 +687,6 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <message>
         <location line="-242"/>
         <source>Head %1</source>
-        <extracomment>%1 is &quot;North&quot;, &quot;South&quot;, &quot;East&quot; or &quot;West&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1051,13 +1047,11 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <message>
         <location line="+11"/>
         <source>Enter the rotary</source>
-        <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Enter the roundabout</source>
-        <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1163,7 +1157,6 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <message>
         <location line="+29"/>
         <source> and continue straight</source>
-        <extracomment>This string will be prepended with lane instructions. E.g., &quot;Use the left or the right lane and continue straight&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1264,85 +1257,71 @@ Please visit https://www.mapbox.com</source>
     <message>
         <location filename="../../qtlocation/src/plugins/geoservices/mapbox/qgeotiledmappingmanagerenginemapbox.cpp" line="+83"/>
         <source>Street</source>
-        <extracomment>Noun describing map type &apos;Street map&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Light</source>
-        <extracomment>Noun describing type of a map using light colors (weak contrast)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Dark</source>
-        <extracomment>Noun describing type of a map using dark colors</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Satellite</source>
-        <extracomment>Noun describing type of a map created by satellite</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Streets Satellite</source>
-        <extracomment>Noun describing type of a street map created by satellite</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Wheatpaste</source>
-        <extracomment>Noun describing type of a map using wheat paste colors</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Streets Basic</source>
-        <extracomment>Noun describing type of a basic street map</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Comic</source>
-        <extracomment>Noun describing type of a map using cartoon-style fonts</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Outdoors</source>
-        <extracomment>Noun describing type of a map for outdoor activities</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Run Bike Hike</source>
-        <extracomment>Noun describing type of a map for sports</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pencil</source>
-        <extracomment>Noun describing type of a map drawn by pencil</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Pirates</source>
-        <extracomment>Noun describing type of a treasure map with pirate boat watermark</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Emerald</source>
-        <extracomment>Noun describing type of a map using emerald colors</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>High Contrast</source>
-        <extracomment>Noun describing type of a map with high contrast</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -973,7 +973,6 @@ Press ESC to cancel</source>
     <message>
         <location filename="../../qtbase/src/widgets/widgets/qdockwidget.cpp" line="+745"/>
         <source>Float</source>
-        <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -984,7 +983,6 @@ Press ESC to cancel</source>
     <message>
         <location line="+8"/>
         <source>Close</source>
-        <extracomment>Accessible name for button closing a dock widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1094,7 +1092,6 @@ Press ESC to cancel</source>
     <message>
         <location filename="../../qtbase/src/network/ssl/qdtls_openssl.cpp" line="+710"/>
         <source>%1 failed</source>
-        <extracomment>%1: Some function</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1526,7 +1523,6 @@ Do you want to delete it anyway?</source>
     <message>
         <location line="+4"/>
         <source>%1 File</source>
-        <extracomment>%1 is a file name suffix, for example txt</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1675,13 +1671,11 @@ Do you want to delete it anyway?</source>
     <message>
         <location line="-1162"/>
         <source>Extra</source>
-        <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Demi</source>
-        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2503,7 +2497,6 @@ Do you want to delete it anyway?</source>
     <message>
         <location line="+194"/>
         <source>%1, ...</source>
-        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3050,7 +3043,6 @@ Do you want to delete it anyway?</source>
     <message>
         <location line="+6"/>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3798,37 +3790,31 @@ Do you want to delete it anyway?</source>
     <message>
         <location line="+66"/>
         <source>mm</source>
-        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>pt</source>
-        <extracomment>Unit &apos;Points&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>in</source>
-        <extracomment>Unit &apos;Inch&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>P̸</source>
-        <extracomment>Unit &apos;Pica&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>DD</source>
-        <extracomment>Unit &apos;Didot&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>CC</source>
-        <extracomment>Unit &apos;Cicero&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3837,43 +3823,36 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../qtbase/src/gui/painting/qpagesize.cpp" line="+480"/>
         <source>Custom (%1mm x %2mm)</source>
-        <extracomment>Custom size name in millimeters</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Custom (%1pt x %2pt)</source>
-        <extracomment>Custom size name in points</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Custom (%1in x %2in)</source>
-        <extracomment>Custom size name in inches</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Custom (%1pc x %2pc)</source>
-        <extracomment>Custom size name in picas</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Custom (%1DD x %2DD)</source>
-        <extracomment>Custom size name in didots</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Custom (%1CC x %2CC)</source>
-        <extracomment>Custom size name in ciceros</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+989"/>
         <source>%1 x %2 in</source>
-        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6246,7 +6225,6 @@ Please turn one of those options off.</source>
     <message>
         <location filename="../../qtbase/src/gui/kernel/qkeysequence.cpp" line="+425"/>
         <source>Space</source>
-        <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6457,13 +6435,11 @@ Please turn one of those options off.</source>
     <message>
         <location line="+2"/>
         <source>Media Pause</source>
-        <extracomment>Media player pause button</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Toggle Media Play/Pause</source>
-        <extracomment>Media player button to toggle between playing and paused</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7209,19 +7185,16 @@ Please turn one of those options off.</source>
     <message>
         <location line="+2"/>
         <source>Call</source>
-        <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Hangup</source>
-        <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Toggle Call/Hangup</source>
-        <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7232,25 +7205,21 @@ Please turn one of those options off.</source>
     <message>
         <location line="+2"/>
         <source>Voice Dial</source>
-        <extracomment>Button to trigger voice dialing</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Last Number Redial</source>
-        <extracomment>Button to redial the last number called</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Camera Shutter</source>
-        <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Camera Focus</source>
-        <extracomment>Button to focus the camera</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7481,7 +7450,6 @@ Please turn one of those options off.</source>
     <message>
         <location line="-58"/>
         <source>+</source>
-        <extracomment>Key separator in shortcut string</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7568,449 +7536,374 @@ Please turn one of those options off.</source>
     <message>
         <location filename="../../qtbase/src/platformsupport/linuxaccessibility/bridge.cpp" line="+120"/>
         <source>invalid role</source>
-        <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>title bar</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>menu bar</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>scroll bar</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>grip</source>
-        <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>sound</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>cursor</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>text caret</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>alert message</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+20"/>
         <source>frame</source>
-        <extracomment>Role of an accessible object: a window with frame and title
 ----------
-Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-18"/>
         <source>filler</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>popup menu</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>menu item</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>tool tip</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>application</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>document</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+8"/>
         <source>panel</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-6"/>
         <source>chart</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>dialog</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>separator</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>tool bar</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>status bar</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>table</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>column header</source>
-        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>row header</source>
-        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>column</source>
-        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>row</source>
-        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>cell</source>
-        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>link</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>help balloon</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>assistant</source>
-        <extracomment>Role of an accessible object - a helper dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>list</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>list item</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>tree</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>tree item</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>page tab</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>property page</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>indicator</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>graphic</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>label</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>text</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>push button</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>check box</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>radio button</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>combo box</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>progress bar</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>dial</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>hotkey field</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>slider</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>spin box</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>canvas</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>animation</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>equation</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>button with drop down</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>button menu</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>button with drop down grid</source>
-        <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>space</source>
-        <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>page tab list</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>clock</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>splitter</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>layered pane</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>web document</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>paragraph</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>section</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>color chooser</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>footer</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>form</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>heading</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>note</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>complementary content</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>terminal</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>desktop</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>notification</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>unknown</source>
-        <extracomment>Role of an accessible object</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9319,28 +9212,24 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <location line="+36"/>
         <source>&apos;%1&apos;</source>
         <comment>expected</comment>
-        <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1, &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

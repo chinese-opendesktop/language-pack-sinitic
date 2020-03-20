@@ -359,13 +359,11 @@
         <location filename="../../qttools/src/designer/src/lib/shared/formlayoutmenu.cpp" line="+445"/>
         <location filename="../../qttools/src/designer/src/components/taskmenu/button_taskmenu.cpp" line="+269"/>
         <source>Add &apos;%1&apos; to &apos;%2&apos;</source>
-        <extracomment>Command description for adding buttons to a QButtonGroup</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../qttools/src/designer/src/lib/shared/morphmenu.cpp" line="+334"/>
         <source>Morph %1/&apos;%2&apos; into %3</source>
-        <extracomment>MorphWidgetCommand description</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -713,7 +711,6 @@
     <message>
         <location line="+15"/>
         <source>Remove &apos;%1&apos; from &apos;%2&apos;</source>
-        <extracomment>Command description for removing buttons from a QButtonGroup</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -763,19 +760,16 @@
     <message>
         <location filename="../../qttools/src/designer/src/components/formeditor/dpi_chooser.cpp" line="+55"/>
         <source>Standard (96 x 96)</source>
-        <extracomment>Embedded device standard screen resolution</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Greenphone (179 x 185)</source>
-        <extracomment>Embedded device screen resolution</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>High (192 x 192)</source>
-        <extracomment>Embedded device high definition screen resolution</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -838,7 +832,6 @@
     <message>
         <location filename="../../qttools/src/designer/src/lib/shared/deviceprofile.cpp" line="+381"/>
         <source>&apos;%1&apos; is not a number.</source>
-        <extracomment>Reading a number for an embedded device profile</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -938,7 +931,6 @@
     <message>
         <location filename="../../qttools/src/designer/src/components/formeditor/embeddedoptionspage.cpp" line="+301"/>
         <source>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolution&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</source>
-        <extracomment>Format embedded device profile description</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -947,13 +939,11 @@
     <message>
         <location line="+103"/>
         <source>Embedded Design</source>
-        <extracomment>Tab in preferences dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Device Profiles</source>
-        <extracomment>EmbeddedOptionsControl group box&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1013,13 +1003,11 @@
     <message>
         <location filename="../../qttools/src/designer/src/lib/uilib/formbuilderextra.cpp" line="+419"/>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+62"/>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1028,7 +1016,6 @@
     <message>
         <location filename="../../qttools/src/designer/src/components/formeditor/formeditor_optionspage.cpp" line="+76"/>
         <source>%1 %</source>
-        <extracomment>Zoom percentage</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1044,7 +1031,6 @@
     <message>
         <location line="+29"/>
         <source>Forms</source>
-        <extracomment>Tab in preferences dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1300,7 +1286,6 @@
     <message>
         <location filename="../../qttools/src/designer/src/components/taskmenu/itemlisteditor.cpp" line="-55"/>
         <source>XX Icon Selected off</source>
-        <extracomment>Sample string to determinate the width for the first column of the list item property browser</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1309,7 +1294,6 @@
     <message>
         <location filename="../../qttools/src/designer/src/designer/mainwindow.cpp" line="+109"/>
         <source>Main</source>
-        <extracomment>Not currently used (main tool bar)</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1486,7 +1470,6 @@
     <message>
         <location filename="../../qttools/src/designer/src/lib/shared/promotionmodel.cpp" line="+98"/>
         <source>Not used</source>
-        <extracomment>Usage of promoted widgets</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1965,7 +1948,6 @@ Would you like to retry?</source>
     <message>
         <location filename="../../qttools/src/designer/src/designer/qdesigner_appearanceoptions.cpp" line="+120"/>
         <source>Appearance</source>
-        <extracomment>Tab in preferences dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2170,19 +2152,16 @@ Container pages should only be added by specifying them in XML returned by the d
     <message>
         <location line="+506"/>
         <source>Unexpected element &lt;%1&gt;</source>
-        <extracomment>Parsing clipboard contents</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
-        <extracomment>Parsing clipboard contents</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Error while pasting clipboard contents: The root element &lt;ui&gt; is missing.</source>
-        <extracomment>Parsing clipboard contents</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2340,7 +2319,6 @@ Container pages should only be added by specifying them in XML returned by the d
     <message>
         <location filename="../../qttools/src/designer/src/lib/uilib/formbuilder.cpp" line="+175"/>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3924,7 +3902,6 @@ Do you want overwrite the template?</source>
     <message>
         <location filename="../../qttools/src/designer/src/components/formeditor/templateoptionspage.cpp" line="+145"/>
         <source>Template Paths</source>
-        <extracomment>Tab in preferences dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4446,7 +4423,6 @@ Do you want overwrite the template?</source>
     <message>
         <location filename="../../qttools/src/designer/src/components/formeditor/dpi_chooser.cpp" line="+29"/>
         <source>System (%1 x %2)</source>
-        <extracomment>System resolution</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4457,7 +4433,6 @@ Do you want overwrite the template?</source>
     <message>
         <location line="+19"/>
         <source> x </source>
-        <extracomment>DPI X/Y separator</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5482,7 +5457,6 @@ Please select another name.</source>
     <message>
         <location line="+67"/>
         <source>Widgets</source>
-        <extracomment>New Form Dialog Categories</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5836,13 +5810,11 @@ Please select another name.</source>
     <message>
         <location line="+2"/>
         <source>Landscape (&amp;CCW)</source>
-        <extracomment>Rotate form preview counter-clockwise</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Landscape (CW)</source>
-        <extracomment>Rotate form preview clockwise</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5865,7 +5837,6 @@ Please select another name.</source>
         <location filename="../../qttools/src/designer/src/components/propertyeditor/previewframe.cpp" line="+59"/>
         <source>The moose in the noose
 ate the goose who was loose.</source>
-        <extracomment>Palette editor background</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5874,67 +5845,56 @@ ate the goose who was loose.</source>
     <message>
         <location filename="../../qttools/src/designer/src/components/propertyeditor/previewwidget.ui"/>
         <source>Preview Window</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>LineEdit</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>ComboBox</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>PushButton</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>ButtonGroup2</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>CheckBox1</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>CheckBox2</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>ButtonGroup</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>RadioButton1</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>RadioButton2</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location/>
         <source>RadioButton3</source>
-        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7031,7 +6991,6 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <location filename="../../qttools/src/designer/src/lib/shared/zoomwidget.cpp" line="+64"/>
         <source>%1 %</source>
-        <extracomment>Zoom factor</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

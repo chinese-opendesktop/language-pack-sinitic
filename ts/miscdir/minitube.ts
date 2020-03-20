@@ -1247,7 +1247,6 @@
     <message>
         <location filename="src/searchview.cpp" line="108"/>
         <source>Enter</source>
-        <extracomment>&quot;Enter&quot;, as in &quot;type&quot;. The whole phrase says: &quot;Enter a keyword to start watching videos&quot;</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

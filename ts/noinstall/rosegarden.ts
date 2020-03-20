@@ -17775,13 +17775,11 @@ Please ensure the device is configured correctly in the Manage MIDI Devices dial
     <message>
         <location filename="../../src/gui/rulers/PercussionPitchRuler.cpp" line="56"/>
         <source>  A#2   Acoustic Bass Drum  </source>
-        <extracomment>Note to the translators: Don&apos;t translate literally. This string is never displayed but defines the largest width of the text (pitch and intrument name) in the percussion ruler.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/gui/rulers/PercussionPitchRuler.cpp" line="93"/>
         <source>A#2</source>
-        <extracomment>Note to the translators: Don&apos;t translate literally. This string is never displayed but defines the largest width of the pitch name in the percussion ruler text.</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

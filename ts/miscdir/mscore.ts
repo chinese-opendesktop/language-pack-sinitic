@@ -2274,9 +2274,7 @@
         <location filename="../../mscore/editstyle.ui" line="5419"/>
         <location filename="../../mscore/editstyle.ui" line="5438"/>
         <source>sp</source>
-        <extracomment>spatium unit
 ----------
-space unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2536,7 +2534,6 @@ space unit</extracomment>
         <location filename="../../mscore/editstyle.ui" line="1447"/>
         <location filename="../../mscore/editstyle.ui" line="5517"/>
         <source>System</source>
-        <extracomment>a music system, a line of music</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -4574,7 +4571,6 @@ space unit</extracomment>
     <message>
         <location filename="../../mscore/inspector/inspector_caesura.ui" line="90"/>
         <source>sec</source>
-        <extracomment>seconds</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -4663,7 +4659,6 @@ space unit</extracomment>
         <location filename="../../mscore/inspector/inspector_chord.ui" line="178"/>
         <location filename="../../mscore/inspector/inspector_chord.ui" line="233"/>
         <source>sp</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -4823,7 +4818,6 @@ space unit</extracomment>
         <location filename="../../mscore/inspector/inspector_element.ui" line="115"/>
         <location filename="../../mscore/inspector/inspector_element.ui" line="182"/>
         <source>sp</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -5103,7 +5097,6 @@ space unit</extracomment>
         <location filename="../../mscore/inspector/inspector_hbox.ui" line="122"/>
         <location filename="../../mscore/inspector/inspector_hbox.ui" line="144"/>
         <source>sp</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -5609,7 +5602,6 @@ space unit</extracomment>
     <message>
         <location filename="../../mscore/inspector/inspector_line.ui" line="174"/>
         <source>sp</source>
-        <extracomment>Staff space unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -6151,7 +6143,6 @@ space unit</extracomment>
         <location filename="../../mscore/inspector/inspector_segment.ui" line="103"/>
         <location filename="../../mscore/inspector/inspector_segment.ui" line="128"/>
         <source>sp</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -6285,7 +6276,6 @@ space unit</extracomment>
     <message>
         <location filename="../../mscore/inspector/inspector_spacer.ui" line="100"/>
         <source>sp</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -6393,7 +6383,6 @@ space unit</extracomment>
         <location filename="../../mscore/inspector/inspector_tbox.ui" line="299"/>
         <location filename="../../mscore/inspector/inspector_tbox.ui" line="331"/>
         <source>sp</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -6841,7 +6830,6 @@ space unit</extracomment>
         <location filename="../../mscore/inspector/inspector_vbox.ui" line="198"/>
         <location filename="../../mscore/inspector/inspector_vbox.ui" line="227"/>
         <source>sp</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -9893,7 +9881,6 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../../mscore/musescore.cpp" line="2648"/>
         <source>System</source>
-        <extracomment>The default language of the operating system. NOT a music system.</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -12721,7 +12708,6 @@ failed: </source>
     <message>
         <location filename="../../mscore/playpanel.ui" line="401"/>
         <source>Volume</source>
-        <extracomment>short text for volume slider</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -12732,7 +12718,6 @@ failed: </source>
     <message>
         <location filename="../../mscore/playpanel.ui" line="929"/>
         <source>Tempo</source>
-        <extracomment>short text for tempo slider</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -13161,7 +13146,6 @@ This will re-evaluate all plugins, picking up any changes that may have occurred
     <message>
         <location filename="../../mscore/prefsdialog.ui" line="628"/>
         <source>min</source>
-        <extracomment>minutes</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -13177,7 +13161,6 @@ This will re-evaluate all plugins, picking up any changes that may have occurred
     <message>
         <location filename="../../mscore/prefsdialog.ui" line="675"/>
         <source>Port number:</source>
-        <extracomment>The UDP port number on which the MuseScore OSC server will listen on</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -13226,7 +13209,6 @@ This will re-evaluate all plugins, picking up any changes that may have occurred
         <location filename="../../mscore/prefsdialog.ui" line="801"/>
         <location filename="../../mscore/prefsdialog.ui" line="1179"/>
         <source>px</source>
-        <extracomment>pixel</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -13434,7 +13416,6 @@ This will re-evaluate all plugins, picking up any changes that may have occurred
         <location filename="../../mscore/prefsdialog.ui" line="1324"/>
         <location filename="../../mscore/prefsdialog.ui" line="2828"/>
         <source>ms</source>
-        <extracomment>milliseconds</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -14078,7 +14059,6 @@ Adjusting latency can help synchronize your MIDI hardware with MuseScore&apos;s 
         <location filename="../../mscore/prefsdialog.ui" line="3045"/>
         <location filename="../../mscore/prefsdialog.ui" line="3867"/>
         <source>Hz</source>
-        <extracomment>Hertz</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -14299,7 +14279,6 @@ Adjusting latency can help synchronize your MIDI hardware with MuseScore&apos;s 
         <location filename="../../mscore/prefsdialog.ui" line="3566"/>
         <location filename="../../mscore/prefsdialog.ui" line="3711"/>
         <source>dpi</source>
-        <extracomment>dots per inch</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -15685,7 +15664,6 @@ Do you want to overwrite it?</source>
     <message>
         <location filename="../../mscore/synthcontrol.ui" line="271"/>
         <source>Hz</source>
-        <extracomment>Frequency Herz</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -15790,7 +15768,6 @@ Do you want to overwrite it?</source>
         <location filename="../../mscore/textproperties.ui" line="415"/>
         <location filename="../../mscore/textproperties.ui" line="557"/>
         <source>Horizontal:</source>
-        <extracomment>coordinate</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -15802,7 +15779,6 @@ Do you want to overwrite it?</source>
         <location filename="../../mscore/textproperties.ui" line="466"/>
         <location filename="../../mscore/textproperties.ui" line="668"/>
         <source>Vertical:</source>
-        <extracomment>coordinate</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -15833,7 +15809,6 @@ Do you want to overwrite it?</source>
     <message>
         <location filename="../../mscore/textproperties.ui" line="541"/>
         <source>Staff space</source>
-        <extracomment>spatium unit</extracomment>
         <translation type="unfinished"/>
     </message>
     <message>

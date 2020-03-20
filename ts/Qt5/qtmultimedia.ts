@@ -269,7 +269,6 @@
     <message>
         <location line="+20"/>
         <source>Drive mode not supported</source>
-        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

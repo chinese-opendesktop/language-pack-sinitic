@@ -1,6 +1,6 @@
 Name: language-pack-sinitic
 Summary: Translations for some sinitic languages
-Version: 2020.2
+Version: 2020.3
 Release: 1
 License: Open Source
 Group: Translations
@@ -42,7 +42,7 @@ make
 %{_datadir}/locale/cmn*/LC_MESSAGES/*.mo
 %{_libdir}/R/library/translations/cmn*/LC_MESSAGES/*.mo
 %{_libdir}/textadept/core/locales/locale.cmn*.conf
-%{_datadir}/0ad/l10n/cmn*.engine.po
+%{_datadir}/*/*/cmn*.po
 %{_datadir}/FBReader/resources/cmn*.xml
 %{_datadir}/Telegram/Desktop_cmn*.strings
 %{_datadir}/locale/cmn*/LC_MESSAGES/*.qm
@@ -64,7 +64,7 @@ make
 %{_datadir}/locale/yue*/LC_MESSAGES/*.mo
 %{_libdir}/R/library/translations/yue*/LC_MESSAGES/*.mo
 %{_libdir}/textadept/core/locales/locale.yue*.conf
-%{_datadir}/0ad/l10n/yue*.engine.po
+%{_datadir}/*/*/yue*.po
 %{_datadir}/FBReader/resources/yue*.xml
 %{_datadir}/Telegram/Desktop_yue*.strings
 %{_datadir}/locale/yue*/LC_MESSAGES/*.qm
@@ -83,5 +83,5 @@ make
 %{_libdir}/libreoffice/program/resource/yue*/LC_MESSAGES/*.mo
 
 %changelog
-* Mon Feb 24 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 2020.2
+* Thu Mar 19 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 2020.3
 - Initial package
