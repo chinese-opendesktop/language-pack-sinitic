@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the bison package.
+# This file is distributed under the same license as the GNU bison package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: bison 3.0.5\n"
+"Project-Id-Version: GNU bison 3.5.90\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
-"POT-Creation-Date: 2018-05-27 11:55+0200\n"
+"POT-Creation-Date: 2020-04-18 10:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,46 +17,54 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/glr.c:803 data/yacc.c:643
+#: data/skeletons/glr.c:893 data/skeletons/yacc.c:739
 msgid "syntax error: cannot back up"
 msgstr ""
 
-#: data/glr.c:1688
+#: data/skeletons/glr.c:1802
 msgid "syntax is ambiguous"
 msgstr ""
 
-#: data/glr.c:2009 data/glr.c:2090 data/glr.c:2130 data/glr.c:2394
-#: data/lalr1.cc:1090 data/lalr1.cc:1111 data/yacc.c:1211 data/yacc.c:1712
-#: data/yacc.c:1718
+#: data/skeletons/glr.c:2213 data/skeletons/glr.c:2239
+#: data/skeletons/glr.c:2292 data/skeletons/glr.c:2530
+#: data/skeletons/lalr1.cc:1073 data/skeletons/lalr1.cc:1490
+#: data/skeletons/yacc.c:1408 data/skeletons/yacc.c:1915
+#: data/skeletons/yacc.c:1919
 msgid "syntax error"
 msgstr ""
 
-#: data/glr.c:2091 data/lalr1.cc:1091 data/yacc.c:1212
+#: data/skeletons/glr.c:2240 data/skeletons/lalr1.cc:1491
+#: data/skeletons/yacc.c:1409
 #, c-format
 msgid "syntax error, unexpected %s"
 msgstr ""
 
-#: data/glr.c:2092 data/lalr1.cc:1092 data/yacc.c:1213
+#: data/skeletons/glr.c:2241 data/skeletons/lalr1.cc:1492
+#: data/skeletons/yacc.c:1410
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s"
 msgstr ""
 
-#: data/glr.c:2093 data/lalr1.cc:1093 data/yacc.c:1214
+#: data/skeletons/glr.c:2242 data/skeletons/lalr1.cc:1493
+#: data/skeletons/yacc.c:1411
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s"
 msgstr ""
 
-#: data/glr.c:2094 data/lalr1.cc:1094 data/yacc.c:1215
+#: data/skeletons/glr.c:2243 data/skeletons/lalr1.cc:1494
+#: data/skeletons/yacc.c:1412
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s"
 msgstr ""
 
-#: data/glr.c:2095 data/lalr1.cc:1095 data/yacc.c:1216
+#: data/skeletons/glr.c:2244 data/skeletons/lalr1.cc:1495
+#: data/skeletons/yacc.c:1413
 #, c-format
 msgid "syntax error, unexpected %s, expecting %s or %s or %s or %s"
 msgstr ""
 
-#: data/glr.c:2454 data/yacc.c:1296 data/yacc.c:1298 data/yacc.c:1471
-#: data/yacc.c:1868
+#: data/skeletons/glr.c:2589 data/skeletons/yacc.c:1492
+#: data/skeletons/yacc.c:1494 data/skeletons/yacc.c:1669
+#: data/skeletons/yacc.c:2070
 msgid "memory exhausted"
 msgstr ""
