@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU bison 3.5.90\n"
+"Project-Id-Version: GNU bison 3.5.91\n"
 "Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
-"POT-Creation-Date: 2020-04-18 10:42+0200\n"
+"POT-Creation-Date: 2020-04-29 08:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,68 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: examples/c/bistromathic/parse.y:105 examples/java/calc/Calc.y:50
+msgid "number"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:107
+msgid "function"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:108
+msgid "variable"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:319
+msgid "%@: syntax error"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:320
+msgid "%@: syntax error: unexpected %u"
+msgstr ""
+
+#. TRANSLATORS: '%@' is a location in a file, '%u' is an
+#. "unexpected token", and '%0e', '%1e'... are expected tokens
+#. at this point.
+#.
+#. For instance on the expression "1 + * 2", you'd get
+#.
+#. 1.5: syntax error: expected - or ( or number or function or variable before *
+#: examples/c/bistromathic/parse.y:328
+msgid "%@: syntax error: expected %0e before %u"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:329
+msgid "%@: syntax error: expected %0e or %1e before %u"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:330
+msgid "%@: syntax error: expected %0e or %1e or %2e before %u"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:331
+msgid "%@: syntax error: expected %0e or %1e or %2e or %3e before %u"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:332
+msgid "%@: syntax error: expected %0e or %1e or %2e or %3e or %4e before %u"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:333
+msgid ""
+"%@: syntax error: expected %0e or %1e or %2e or %3e or %4e or %5e before %u"
+msgstr ""
+
+#: examples/c/bistromathic/parse.y:334
+msgid ""
+"%@: syntax error: expected %0e or %1e or %2e or %3e or %4e or %5e or %6e "
+"before %u"
+msgstr ""
+
+#: examples/java/calc/Calc.y:48
+msgid "end of line"
+msgstr ""
 
 #: src/complain.c:115
 msgid "S/R conflicts (enabled by default)"
@@ -142,7 +204,7 @@ msgid "expected %1$s or %2$s or %3$s before %0$s"
 msgstr ""
 
 #: src/complain.c:603
-msgid "expected %1$s or %2$s or %4$s or %5$s before %0$s"
+msgid "expected %1$s or %2$s or %3$s or %4$s before %0$s"
 msgstr ""
 
 #: src/conflicts.c:81
@@ -500,7 +562,15 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/location.c:150 src/scan-gram.l:924
+#: src/i18n-strings.c:35
+msgid "end of file"
+msgstr ""
+
+#: src/i18n-strings.c:36
+msgid "invalid token"
+msgstr ""
+
+#: src/location.c:150 src/scan-gram.l:945
 #, c-format
 msgid "line number overflow"
 msgstr ""
@@ -851,7 +921,7 @@ msgstr ""
 msgid ", cannot be accessed from midrule action at $%d"
 msgstr ""
 
-#: src/scan-code.l:422 src/scan-gram.l:846
+#: src/scan-code.l:422 src/scan-gram.l:867
 #, c-format
 msgid "integer out of range: %s"
 msgstr ""
@@ -911,84 +981,84 @@ msgstr ""
 msgid "multiple occurrences of $%d with api.value.automove"
 msgstr ""
 
-#: src/scan-gram.l:198
+#: src/scan-gram.l:95
+#, c-format
+msgid "invalid number after \\-escape: %s"
+msgstr ""
+
+#: src/scan-gram.l:215
 #, c-format
 msgid "stray ',' treated as white space"
 msgstr ""
 
-#: src/scan-gram.l:292
+#: src/scan-gram.l:309
 #, c-format
 msgid "invalid directive: %s"
 msgstr ""
 
-#: src/scan-gram.l:313
+#: src/scan-gram.l:331
 #, c-format
 msgid "invalid identifier: %s"
 msgstr ""
 
-#: src/scan-gram.l:366
+#: src/scan-gram.l:385
 msgid "invalid character"
 msgid_plural "invalid characters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scan-gram.l:384
+#: src/scan-gram.l:405
 #, c-format
 msgid "invalid null character"
 msgstr ""
 
-#: src/scan-gram.l:438
+#: src/scan-gram.l:462
 #, c-format
 msgid "unexpected identifier in bracketed name: %s"
 msgstr ""
 
-#: src/scan-gram.l:460
+#: src/scan-gram.l:486
 #, c-format
 msgid "an identifier expected"
 msgstr ""
 
-#: src/scan-gram.l:465
+#: src/scan-gram.l:493
 msgid "invalid character in bracketed name"
 msgid_plural "invalid characters in bracketed name"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scan-gram.l:536 src/scan-gram.l:550
+#: src/scan-gram.l:565 src/scan-gram.l:579
 #, c-format
 msgid "POSIX Yacc does not support string literals"
 msgstr ""
 
-#: src/scan-gram.l:572
+#: src/scan-gram.l:601
 #, c-format
 msgid "empty character literal"
 msgstr ""
 
-#: src/scan-gram.l:578
+#: src/scan-gram.l:607
 #, c-format
 msgid "extra characters in character literal"
 msgstr ""
 
-#: src/scan-gram.l:627 src/scan-gram.l:637 src/scan-gram.l:655
-#, c-format
-msgid "invalid number after \\-escape: %s"
-msgstr ""
-
-#: src/scan-gram.l:667
+#: src/scan-gram.l:687
 #, c-format
 msgid "invalid character after \\-escape: %s"
 msgstr ""
 
-#: src/scan-gram.l:839
+#: src/scan-gram.l:860
 #, c-format
 msgid "POSIX Yacc does not support hexadecimal literals"
 msgstr ""
 
-#: src/scan-gram.l:977
+#: src/scan-gram.l:998
 #, c-format
 msgid "missing %s at end of file"
 msgstr ""
 
-#: src/scan-gram.l:988
+#: src/scan-gram.l:1009
 #, c-format
 msgid "missing %s at end of line"
 msgstr ""
@@ -1120,27 +1190,27 @@ msgstr ""
 msgid "token number too large"
 msgstr ""
 
-#: src/symtab.c:1134
+#: src/symtab.c:1149
 #, c-format
 msgid "the start symbol %s is undefined"
 msgstr ""
 
-#: src/symtab.c:1138
+#: src/symtab.c:1153
 #, c-format
 msgid "the start symbol %s is a token"
 msgstr ""
 
-#: src/symtab.c:1309
+#: src/symtab.c:1336
 #, c-format
 msgid "useless precedence and associativity for %s"
 msgstr ""
 
-#: src/symtab.c:1312
+#: src/symtab.c:1339
 #, c-format
 msgid "useless precedence for %s"
 msgstr ""
 
-#: src/symtab.c:1316
+#: src/symtab.c:1343
 #, c-format
 msgid "useless associativity for %s, use %%precedence"
 msgstr ""

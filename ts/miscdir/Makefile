@@ -9,12 +9,12 @@ build:
 	cd yue_HK; for i in *.ts; do lrelease-qt5 $$i; done
 
 install:
-	for i in ???_??; do install -Dm644 $$i/bitcoin.qm $(DESTDIR)$(DATADIR)/locale/$$i/LC_MESSAGES/bitcoin.qm; done
 	for i in ???_??; do install -Dm644 $$i/minitube.qm $(DESTDIR)$(DATADIR)/minitube/locale/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qiviewer.qm $(DESTDIR)$(DATADIR)/qiviewer/locale/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/skype.qm $(DESTDIR)$(DATADIR)/skype/lang/skype_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/chessx.qm $(DESTDIR)$(DATADIR)/chessx/lang/chessx_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/vym.qm $(DESTDIR)$(DATADIR)/vym/lang/vym.$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/sonic-pi.qm $(DESTDIR)$(DATADIR)/sonic-pi/lang/sonic-pi_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/dooble.qm $(DESTDIR)/usr/libexec/dooble/Translations/dooble_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/ffDiaporama.qm $(DESTDIR)$(DATADIR)/ffDiaporama/locale/ffDiaporama_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtparted.qm $(DESTDIR)$(DATADIR)/qtparted/locale/qtparted_$$i.qm; done
@@ -32,7 +32,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/smtube.qm $(DESTDIR)$(DATADIR)/smtube/translations/smtube_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/stopmotion.qm $(DESTDIR)$(DATADIR)/stopmotion/translations/stopmotion_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qscreenshot.qm $(DESTDIR)$(DATADIR)/qscreenshot/translations/qscreenshot_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/OpenShot.qm $(DESTDIR)/usr/lib/python3.7/site-packages/openshot_qt/language/OpenShot.$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/OpenShot.qm $(DESTDIR)/usr/lib/python3.8/site-packages/openshot_qt/language/OpenShot.$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/otter-browser.qm $(DESTDIR)$(DATADIR)/otter-browser/locale/otter-browser_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cortina.qm $(DESTDIR)$(DATADIR)/qt4/translations/cortina/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/dsbbg.qm $(DESTDIR)$(DATADIR)/dsbbg/dsbbg_$$i.qm; done

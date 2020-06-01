@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: fetchmail 6.4.3-rc2\n"
+"Project-Id-Version: fetchmail 6.4.5-rc2\n"
 "Report-Msgid-Bugs-To: fetchmail-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-03-30 21:43+0200\n"
+"POT-Creation-Date: 2020-05-04 12:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1582,6 +1582,12 @@ msgstr ""
 #: fm_getaddrinfo.c:23 fm_getaddrinfo.c:30
 #, c-format
 msgid "Cannot modify signal mask: %s"
+msgstr ""
+
+#: fm_realpath.c:35
+msgid ""
+"Your operating system neither defines PATH_MAX nor will it accept "
+"realpath(f, NULL). Aborting.\n"
 msgstr ""
 
 #: getpass.c:71

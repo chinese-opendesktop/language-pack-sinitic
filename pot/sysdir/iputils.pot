@@ -1,0 +1,862 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: iputils 20161105\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-28 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "\t(same route)"
+msgstr ""
+
+msgid "\n"
+"  -s <source>   source ip address\n"
+"  <destination> dns name or ip address\n"
+"\n"
+"For more details see arping(8).\n"
+msgstr ""
+
+msgid "\n"
+"Usage\n"
+"  tracepath [options] <destination>\n"
+"\n"
+"Options:\n"
+"  -4             use IPv4\n"
+"  -6             use IPv6\n"
+"  -b             print both name and ip\n"
+"  -l <length>    use packet <length>\n"
+"  -m <hops>      use maximum <hops>\n"
+"  -n             no dns name resolution\n"
+"  -p <port>      use destination <port>\n"
+"  -V             print version and exit\n"
+"  <destination>  dns name or ip address\n"
+"\n"
+"For more details see tracepath(8).\n"
+msgstr ""
+
+msgid "\n"
+"Usage:\n"
+"  arping [options] <destination>\n"
+"\n"
+"Options:\n"
+"  -f            quit on first reply\n"
+"  -q            be quiet\n"
+"  -b            keep on broadcasting, do not unicast\n"
+"  -D            duplicate address detection mode\n"
+"  -U            unsolicited ARP mode, update your neighbours\n"
+"  -A            ARP answer mode, update your neighbours\n"
+"  -V            print version and exit\n"
+"  -c <count>    how many packets to send\n"
+"  -w <timeout>  how long to wait for a reply\n"
+"  -i <interval> set interval between packets (default: 1 second)\n"
+"  -I <device>   which ethernet device to use"
+msgstr ""
+
+msgid "\n"
+"Usage:\n"
+"  clockdiff [options] <destination>\n"
+"\n"
+"Options:\n"
+"                without -o, use ip timestamp only\n"
+"  -o            use ip timestamp and icmp echo\n"
+"  -o1           use three-term ip timestamp and icmp echo\n"
+"  -V            print version and exit\n"
+"  <destination> dns name or ip address\n"
+"\n"
+"For more details see clockdiff(8).\n"
+msgstr ""
+
+msgid "\n"
+"Usage:\n"
+"  traceroute6 [options] <destination>\n"
+"\n"
+"Options:\n"
+"  -d            use SO_DEBUG socket option\n"
+"  -i <device>   bind to <device>\n"
+"  -m <hops>     use maximum <hops>\n"
+"  -n            no dns name resolution\n"
+"  -p <port>     use destination <port>\n"
+"  -q <nprobes>  number of probes\n"
+"  -r            use SO_DONTROUTE socket option\n"
+"  -s <address>  use source <address>\n"
+"  -v            verbose output\n"
+"  -w <timeout>  time to wait for response\n"
+"\n"
+"For more details see traceroute6(8).\n"
+msgstr ""
+
+msgid "\n"
+"unknown option %x"
+msgstr ""
+
+msgid "\n"
+"wrong data byte #%d should be 0x%x but was 0x%x"
+msgstr ""
+
+msgid "  %.4f ms"
+msgstr ""
+
+msgid " %ld.%03ldms\n"
+msgstr ""
+
+msgid " (truncated)"
+msgstr ""
+
+msgid " from %s"
+msgstr ""
+
+msgid " parse error (too short)"
+msgstr ""
+
+msgid " parse error (truncated)"
+msgstr ""
+
+msgid " refused"
+msgstr ""
+
+msgid " time=%ld ms"
+msgstr ""
+
+msgid " time=%ld.%01ld ms"
+msgstr ""
+
+msgid " time=%ld.%02ld ms"
+msgstr ""
+
+msgid " time=%ld.%03ld ms"
+msgstr ""
+
+msgid " unexpeced error in inet_ntop(%s)"
+msgstr ""
+
+msgid " unknown"
+msgstr ""
+
+msgid " unknown code(%02x)"
+msgstr ""
+
+msgid " unknown qtype(0x%02x)"
+msgstr ""
+
+msgid "%2d:  no reply\n"
+msgstr ""
+
+msgid "%2d:  send failed\n"
+msgstr ""
+
+msgid "%2d?: reply received 8)\n"
+msgstr ""
+
+msgid "%3ld.%03ldms "
+msgstr ""
+
+msgid "%d bytes from %s:"
+msgstr ""
+
+msgid "%d data bytes\n"
+msgstr ""
+
+msgid "%d request(s)"
+msgstr ""
+
+msgid "%d(%d) bytes of data.\n"
+msgstr ""
+
+msgid "%ld packets transmitted, "
+msgstr ""
+
+msgid "%ld received"
+msgstr ""
+
+msgid "%ld/%ld packets, %d%% loss"
+msgstr ""
+
+msgid "%s from "
+msgstr ""
+
+msgid "%s is down\n"
+msgstr ""
+
+msgid "%s is unreachable\n"
+msgstr ""
+
+msgid "%s time transmitted in a non-standard format\n"
+msgstr ""
+
+msgid "%s%d broadcast(s)"
+msgstr ""
+
+msgid "%sipg/ewma %d.%03d/%d.%03d ms"
+msgstr ""
+
+msgid "(New nexthop: %s)\n"
+msgstr ""
+
+msgid "(This broken router returned corrupted payload) "
+msgstr ""
+
+msgid ", %d hops max, %d byte packets\n"
+msgstr ""
+
+msgid ", %g%% packet loss"
+msgstr ""
+
+msgid ", +%ld corrupted"
+msgstr ""
+
+msgid ", +%ld duplicates"
+msgstr ""
+
+msgid ", +%ld errors"
+msgstr ""
+
+msgid ", code=%d"
+msgstr ""
+
+msgid ", flow 0x%05x, "
+msgstr ""
+
+msgid ", min/avg/ewma/max = %ld.%03ld/%lu.%03ld/%d.%03d/%ld.%03ld ms"
+msgstr ""
+
+msgid ", time %ldms"
+msgstr ""
+
+msgid "--- %s ping statistics ---\n"
+msgstr ""
+
+msgid "Address Mask Reply\n"
+msgstr ""
+
+msgid "Address Mask Request\n"
+msgstr ""
+
+msgid "Address unreachable"
+msgstr ""
+
+msgid "Administratively prohibited"
+msgstr ""
+
+msgid "Bad ICMP type: %d\n"
+msgstr ""
+
+msgid "Beyond scope of source address"
+msgstr ""
+
+msgid "Broadcast"
+msgstr ""
+
+msgid "Defragmentation failure"
+msgstr ""
+
+msgid "Dest Unreachable, Bad Code: %d\n"
+msgstr ""
+
+msgid "Destination Host Prohibited\n"
+msgstr ""
+
+msgid "Destination Host Unknown\n"
+msgstr ""
+
+msgid "Destination Host Unreachable\n"
+msgstr ""
+
+msgid "Destination Host Unreachable for Type of Service\n"
+msgstr ""
+
+msgid "Destination Net Prohibited\n"
+msgstr ""
+
+msgid "Destination Net Unknown\n"
+msgstr ""
+
+msgid "Destination Net Unreachable\n"
+msgstr ""
+
+msgid "Destination Net Unreachable for Type of Service\n"
+msgstr ""
+
+msgid "Destination Port Unreachable\n"
+msgstr ""
+
+msgid "Destination Protocol Unreachable\n"
+msgstr ""
+
+msgid "Destination Unreachable"
+msgstr ""
+
+msgid "Destination unreachable: "
+msgstr ""
+
+msgid "Do you want to ping broadcast? Then -b. If not, check your local firewall "
+"rules"
+msgstr ""
+
+msgid "Echo Reply"
+msgstr ""
+
+msgid "Echo Reply\n"
+msgstr ""
+
+msgid "Echo Request"
+msgstr ""
+
+msgid "Echo Request\n"
+msgstr ""
+
+msgid "Echo reply"
+msgstr ""
+
+msgid "Echo request"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error: max hops must be 0 .. %d (inclusive).\n"
+msgstr ""
+
+msgid "Error: pktlen must be > %d and <= %d\n"
+msgstr ""
+
+msgid "Error: pktlen must be > %d and <= %d.\n"
+msgstr ""
+
+msgid "Frag needed and DF set (mtu = %u)\n"
+msgstr ""
+
+msgid "Frag reassembly time exceeded\n"
+msgstr ""
+
+msgid "From %s icmp_seq=%u "
+msgstr ""
+
+msgid "From %s: "
+msgstr ""
+
+msgid "From %s: icmp_seq=%u "
+msgstr ""
+
+msgid "Home Agent Address Discovery Reply message"
+msgstr ""
+
+msgid "Home Agent Address Discovery Request Message"
+msgstr ""
+
+msgid "Hop limit"
+msgstr ""
+
+msgid "IDN encoding error: %s"
+msgstr ""
+
+msgid "Information Reply\n"
+msgstr ""
+
+msgid "Information Request\n"
+msgstr ""
+
+msgid "Interface \"%s\" is down\n"
+msgstr ""
+
+msgid "Interface \"%s\" is not ARPable\n"
+msgstr ""
+
+msgid "Interface \"%s\" is not ARPable (no ll address)\n"
+msgstr ""
+
+msgid "MLD Query"
+msgstr ""
+
+msgid "MLD Reduction"
+msgstr ""
+
+msgid "MLD Report"
+msgstr ""
+
+msgid "Membership Query"
+msgstr ""
+
+msgid "Membership Reduction"
+msgstr ""
+
+msgid "Membership Report"
+msgstr ""
+
+msgid "Mobile Prefix Solicitation Advertisement"
+msgstr ""
+
+msgid "Mobile Prefix Solicitation Message"
+msgstr ""
+
+msgid "Multicast Listener Report packet"
+msgstr ""
+
+msgid "Neighbor Advertisement"
+msgstr ""
+
+msgid "Neighbor Query"
+msgstr ""
+
+msgid "Neighbor Reply"
+msgstr ""
+
+msgid "Neighbor Solicitation"
+msgstr ""
+
+msgid "No route"
+msgstr ""
+
+msgid "OUT-OF-RANGE"
+msgstr ""
+
+msgid "Overflow %d hops\n"
+msgstr ""
+
+msgid "PATTERN: 0x"
+msgstr ""
+
+msgid "Packet Too Big"
+msgstr ""
+
+msgid "Packet filtered\n"
+msgstr ""
+
+msgid "Packet too big: mtu=%u"
+msgstr ""
+
+msgid "Parameter Problem"
+msgstr ""
+
+msgid "Parameter problem: "
+msgstr ""
+
+msgid "Parameter problem: pointer = %u\n"
+msgstr ""
+
+msgid "Port unreachable"
+msgstr ""
+
+msgid "Precedence Cutoff\n"
+msgstr ""
+
+msgid "Precedence Violation\n"
+msgstr ""
+
+msgid "Received %d response(s)"
+msgstr ""
+
+msgid "Redirect"
+msgstr ""
+
+msgid "Redirect Host"
+msgstr ""
+
+msgid "Redirect Network"
+msgstr ""
+
+msgid "Redirect Type of Service and Host"
+msgstr ""
+
+msgid "Redirect Type of Service and Network"
+msgstr ""
+
+msgid "Redirect, Bad Code: %d"
+msgstr ""
+
+msgid "Router Advertisement"
+msgstr ""
+
+msgid "Router Solicitation"
+msgstr ""
+
+msgid "Sent %d probes (%d broadcast(s))\n"
+msgstr ""
+
+msgid "Source Host Isolated\n"
+msgstr ""
+
+msgid "Source Quench\n"
+msgstr ""
+
+msgid "Source Route Failed\n"
+msgstr ""
+
+msgid "Time Exceeded in Transit"
+msgstr ""
+
+msgid "Time exceeded, Bad Code: %d\n"
+msgstr ""
+
+msgid "Time exceeded: "
+msgstr ""
+
+msgid "Time to live exceeded\n"
+msgstr ""
+
+msgid "Timestamp\n"
+msgstr ""
+
+msgid "Timestamp Reply\n"
+msgstr ""
+
+msgid "Unicast"
+msgstr ""
+
+msgid "Unknown code %d"
+msgstr ""
+
+msgid "Unknown header "
+msgstr ""
+
+msgid "Unknown option "
+msgstr ""
+
+msgid "WARNING: failed to install socket filter"
+msgstr ""
+
+msgid "WARNING: interface is ignored"
+msgstr ""
+
+msgid "WARNING: pinging broadcast address\n"
+msgstr ""
+
+msgid "WARNING: probably, rcvbuf is not enough to hold preload"
+msgstr ""
+
+msgid "WARNING: setsockopt(ICMP_FILTER)"
+msgstr ""
+
+msgid "WARNING: setsockopt(IP_RECVTTL)"
+msgstr ""
+
+msgid "WARNING: setsockopt(IP_RETOPTS)"
+msgstr ""
+
+msgid "WARNING: setsockopt(SO_DONTROUTE)"
+msgstr ""
+
+msgid "WARNING: using default broadcast address.\n"
+msgstr ""
+
+msgid "WARNING: your kernel is veeery old. No problems."
+msgstr ""
+
+msgid "Warning: Failed to set mark: %d"
+msgstr ""
+
+msgid "Warning: no SO_TIMESTAMP support, falling back to SIOCGSTAMP"
+msgstr ""
+
+msgid "Warning: source address might be selected on device other than: %s"
+msgstr ""
+
+msgid "Warning: time of day goes back (%ldus), taking countermeasures"
+msgstr ""
+
+msgid "Wrong header field "
+msgstr ""
+
+msgid "Wrong timestamp %d\n"
+msgstr ""
+
+msgid "arping: Device %s not available.\n"
+msgstr ""
+
+msgid "arping: Suitable device could not be determined. Please, use option -I.\n"
+msgstr ""
+
+msgid "arping: invalid source %s\n"
+msgstr ""
+
+msgid "arping: no source address in not-DAD mode\n"
+msgstr ""
+
+msgid "arping: too many interfaces!?\n"
+msgstr ""
+
+msgid "bad linger time"
+msgstr ""
+
+msgid "bad linger time: %s"
+msgstr ""
+
+msgid "bad number of packets to transmit: %ld"
+msgstr ""
+
+msgid "bad preload value: %s, should be 1..%d"
+msgstr ""
+
+msgid "bad sndbuf value: %s"
+msgstr ""
+
+msgid "bad timing interval"
+msgstr ""
+
+msgid "bad timing interval: %s"
+msgstr ""
+
+msgid "bad value for flowinfo: %s"
+msgstr ""
+
+msgid "bad wait time: %s"
+msgstr ""
+
+msgid "broadcast ping does not fragment"
+msgstr ""
+
+msgid "broadcast ping with too short interval: %d"
+msgstr ""
+
+msgid "can't disable multicast loopback"
+msgstr ""
+
+msgid "can't receive hop limit"
+msgstr ""
+
+msgid "can't send flowinfo"
+msgstr ""
+
+msgid "can't set flowlabel"
+msgstr ""
+
+msgid "can't set multicast hop limit"
+msgstr ""
+
+msgid "can't set unicast hop limit"
+msgstr ""
+
+msgid "cannot copy: %s"
+msgstr ""
+
+msgid "cannot disable multicast loopback"
+msgstr ""
+
+msgid "cannot flood; minimal interval allowed for user is %dms"
+msgstr ""
+
+msgid "cannot set broadcasting"
+msgstr ""
+
+msgid "cannot set multicast time-to-live"
+msgstr ""
+
+msgid "cannot set preload to value greater than 3: %d"
+msgstr ""
+
+msgid "cannot set unicast time-to-live"
+msgstr ""
+
+msgid "code %d"
+msgstr ""
+
+msgid "code %d "
+msgstr ""
+
+msgid "dn_comp() returned too long result"
+msgstr ""
+
+msgid "flow labels are not supported"
+msgstr ""
+
+msgid "flow value is greater than 20 bits: %s"
+msgstr ""
+
+msgid "flowinfo is not supported"
+msgstr ""
+
+msgid "for "
+msgstr ""
+
+msgid "for %s "
+msgstr ""
+
+msgid "from %s %s\n"
+msgstr ""
+
+msgid "from %s %s: "
+msgstr ""
+
+msgid "gatifaddrs failed"
+msgstr ""
+
+msgid "illegal packet size: %d"
+msgstr ""
+
+msgid "illegal preload and/or interval: %d"
+msgstr ""
+
+msgid "inappropriate subject name: %s"
+msgstr ""
+
+msgid "invalid -M argument: %s"
+msgstr ""
+
+msgid "invalid source address: %s"
+msgstr ""
+
+msgid "invalid timestamp type: %s"
+msgstr ""
+
+msgid "local error"
+msgstr ""
+
+msgid "local error: %s"
+msgstr ""
+
+msgid "local error: message too long, mtu: %u"
+msgstr ""
+
+msgid "local error: message too long, mtu=%u"
+msgstr ""
+
+msgid "malloc failed\n"
+msgstr ""
+
+msgid "mark cannot be negative: %s"
+msgstr ""
+
+msgid "measure: unknown failure\n"
+msgstr ""
+
+msgid "memory allocation failed"
+msgstr ""
+
+msgid "multicast ping does not fragment"
+msgstr ""
+
+msgid "multicast ping with too short interval: %d"
+msgstr ""
+
+msgid "no answer yet for icmp_seq=%lu\n"
+msgstr ""
+
+msgid "no info\n"
+msgstr ""
+
+msgid "only one -4 or -6 option may be specified"
+msgstr ""
+
+msgid "only one of -T or -R may be used"
+msgstr ""
+
+msgid "packet size %d is too large. Maximum is %d"
+msgstr ""
+
+msgid "packet size too large: %d"
+msgstr ""
+
+msgid "packet too short (%d bytes) from %s"
+msgstr ""
+
+msgid "packet too short: %d bytes"
+msgstr ""
+
+msgid "patterns must be specified as hex digits: %s"
+msgstr ""
+
+msgid "ping -6 -N <nodeinfo opt>\n"
+"Help:\n"
+"  help\n"
+"Query:\n"
+"  name\n"
+"  ipv6\n"
+"  ipv6-all\n"
+"  ipv6-compatible\n"
+"  ipv6-global\n"
+"  ipv6-linklocal\n"
+"  ipv6-sitelocal\n"
+"  ipv4\n"
+"  ipv4-all\n"
+"Subject:\n"
+"  subject-ipv6=addr\n"
+"  subject-ipv4=addr\n"
+"  subject-name=name\n"
+"  subject-fqdn=name\n"
+msgstr ""
+
+msgid "ping: IP_OPTIONS (fallback to icmp tstamps)"
+msgstr ""
+
+msgid "reached\n"
+msgstr ""
+
+msgid "reply"
+msgstr ""
+
+msgid "request"
+msgstr ""
+
+msgid "rtt min/avg/max/mdev = %ld.%03ld/%lu.%03ld/%ld.%03ld/%ld.%03ld ms"
+msgstr ""
+
+msgid "scope discrepancy among the nodes"
+msgstr ""
+
+msgid "setsockopt(RAW_CHECKSUM) failed - try to continue"
+msgstr ""
+
+msgid "setsockopt(RAW_CHECKSUM) failed - try to continue."
+msgstr ""
+
+msgid "the decimal value of TOS bits must be in range 0-255: %d"
+msgstr ""
+
+msgid "too long scope name"
+msgstr ""
+
+msgid "tracepath: Only one -4 or -6 option may be specified\n"
+msgstr ""
+
+msgid "traceroute: max ttl must be >1.\n"
+msgstr ""
+
+msgid "traceroute: nprobes must be >0.\n"
+msgstr ""
+
+msgid "traceroute: packet size must be %d <= s < %d.\n"
+msgstr ""
+
+msgid "traceroute: port must be >0.\n"
+msgstr ""
+
+msgid "traceroute: unknown addr %s\n"
+msgstr ""
+
+msgid "traceroute: wait must be >1 sec.\n"
+msgstr ""
+
+msgid "traceroute: wrote %s %d chars, ret=%d\n"
+msgstr ""
+
+msgid "traffic class is not supported"
+msgstr ""
+
+msgid "ttl out of range: %s"
+msgstr ""
+
+msgid "unknown icmp type: %u"
+msgstr ""
+
+msgid "unknown iface: %s"
+msgstr ""
+
+msgid "unknown protocol family: %d"
+msgstr ""
+
+msgid "warning: QOS sockopts"
+msgstr ""
+
+msgid "wrong timestamps\n"
+msgstr ""
+
