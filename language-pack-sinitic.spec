@@ -1,6 +1,6 @@
 Name: language-pack-sinitic
 Summary: Translations for some sinitic languages
-Version: 2020.5
+Version: 2020.8
 Release: 1
 License: Open Source
 Group: Translations
@@ -83,5 +83,5 @@ make
 %{_libdir}/libreoffice/program/resource/yue*/LC_MESSAGES/*.mo
 
 %changelog
-* Tue May 19 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 2020.5
+* Wed Aug 12 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 2020.8
 - Initial package

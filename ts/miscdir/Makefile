@@ -32,6 +32,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/smtube.qm $(DESTDIR)$(DATADIR)/smtube/translations/smtube_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/stopmotion.qm $(DESTDIR)$(DATADIR)/stopmotion/translations/stopmotion_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qscreenshot.qm $(DESTDIR)$(DATADIR)/qscreenshot/translations/qscreenshot_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/pdfmixtool.qm $(DESTDIR)$(DATADIR)/pdfmixtool/translations/pdfmixtool_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/OpenShot.qm $(DESTDIR)/usr/lib/python3.8/site-packages/openshot_qt/language/OpenShot.$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/otter-browser.qm $(DESTDIR)$(DATADIR)/otter-browser/locale/otter-browser_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cortina.qm $(DESTDIR)$(DATADIR)/qt4/translations/cortina/$$i.qm; done
