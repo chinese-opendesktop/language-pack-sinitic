@@ -1,7 +1,7 @@
 build:
 	mkdir -p cmn_TW yue_HK
 	for i in *.ts; do ts2po --progress none --pot $$i $${i%.ts}.pot; done
-	for i in *.pot; do msgchi $$i -l eng2cmn | msgattrib --clear-fuzzy -o cmn_TW/$${i%.pot}.po; done
+	for i in *.pot; do msgchi $$i -l eng2cmn -F -o cmn_TW/$${i%.pot}.po; done
 	cd cmn_TW; for i in *.po; do po2ts $$i $${i%.po}.ts; done
 	cd cmn_TW; for i in *.ts; do lrelease-qt5 $$i; done
 	cd cmn_TW; for i in *.po; do msgchi $$i -l cmn2yue -o ../yue_HK/$$i; done
@@ -33,6 +33,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/stopmotion.qm $(DESTDIR)$(DATADIR)/stopmotion/translations/stopmotion_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qscreenshot.qm $(DESTDIR)$(DATADIR)/qscreenshot/translations/qscreenshot_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/pdfmixtool.qm $(DESTDIR)$(DATADIR)/pdfmixtool/translations/pdfmixtool_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/kdiskmark.qm $(DESTDIR)$(DATADIR)/pdfmixtool/translations/kdiskmark_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/OpenShot.qm $(DESTDIR)/usr/lib/python3.8/site-packages/openshot_qt/language/OpenShot.$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/otter-browser.qm $(DESTDIR)$(DATADIR)/otter-browser/locale/otter-browser_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cortina.qm $(DESTDIR)$(DATADIR)/qt4/translations/cortina/$$i.qm; done

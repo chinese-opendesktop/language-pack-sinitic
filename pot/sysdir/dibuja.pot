@@ -1,0 +1,875 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the dibuja package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dibuja 0.12.0\n"
+"Report-Msgid-Bugs-To: juan.balderas.0@gmail.com\n"
+"POT-Creation-Date: 2020-05-25 15:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/dibuja.desktop.in:3
+msgid "Dibuja"
+msgstr ""
+
+#: data/dibuja.desktop.in:4
+msgid "Simple image editor"
+msgstr ""
+
+#: data/dibuja.desktop.in:6
+msgid "dibuja"
+msgstr ""
+
+#: data/dibuja.ui:108
+msgid "_File"
+msgstr ""
+
+#: data/dibuja.ui:116
+msgid "_New Default Size"
+msgstr ""
+
+#: data/dibuja.ui:127
+msgid "New At Si_ze.."
+msgstr ""
+
+#: data/dibuja.ui:176
+msgid "_Take Snapshot Of Desktop"
+msgstr ""
+
+#: data/dibuja.ui:189
+msgid "File Info..."
+msgstr ""
+
+#: data/dibuja.ui:246
+msgid "_Edit"
+msgstr ""
+
+#: data/dibuja.ui:328
+msgid "Paste From _File..."
+msgstr ""
+
+#: data/dibuja.ui:345
+msgid "_View"
+msgstr ""
+
+#: data/dibuja.ui:391
+msgid "_Toolbar"
+msgstr ""
+
+#: data/dibuja.ui:401
+msgid "Too_ls"
+msgstr ""
+
+#: data/dibuja.ui:411
+msgid "_Colors"
+msgstr ""
+
+#: data/dibuja.ui:421
+msgid "_Statusbar"
+msgstr ""
+
+#: data/dibuja.ui:437
+msgid "C_heckerboard Background"
+msgstr ""
+
+#: data/dibuja.ui:447
+msgid "Show _Grid"
+msgstr ""
+
+#: data/dibuja.ui:461
+msgid "_Image"
+msgstr ""
+
+#: data/dibuja.ui:472
+msgid "Flip _Horizontally"
+msgstr ""
+
+#: data/dibuja.ui:481
+msgid "Flip _Vertically"
+msgstr ""
+
+#: data/dibuja.ui:496
+msgid "Rotate _90° clockwise"
+msgstr ""
+
+#: data/dibuja.ui:505
+msgid "Rotate 90° _counter-clockwise"
+msgstr ""
+
+#: data/dibuja.ui:514
+msgid "Rotate 1_80°"
+msgstr ""
+
+#: data/dibuja.ui:523
+msgid "_Rotate Custom..."
+msgstr ""
+
+#: data/dibuja.ui:538
+msgid "Resi_ze..."
+msgstr ""
+
+#: data/dibuja.ui:547
+msgid "_Scale..."
+msgstr ""
+
+#: data/dibuja.ui:562
+msgid "C_rop To Selection"
+msgstr ""
+
+#: data/dibuja.ui:571
+msgid "_Use Selection As Brush"
+msgstr ""
+
+#: data/dibuja.ui:584
+msgid "Effec_ts"
+msgstr ""
+
+#: data/dibuja.ui:595
+msgid "_Grayscale"
+msgstr ""
+
+#: data/dibuja.ui:604
+msgid "_Invert"
+msgstr ""
+
+#: data/dibuja.ui:613
+msgid "Insta B_rannan"
+msgstr ""
+
+#: data/dibuja.ui:622
+msgid "Insta _1977"
+msgstr ""
+
+#: data/dibuja.ui:631
+msgid "_Pixelate Selection"
+msgstr ""
+
+#: data/dibuja.ui:640
+msgid "_Emboss"
+msgstr ""
+
+#: data/dibuja.ui:655
+msgid "_Brightness - Contrast..."
+msgstr ""
+
+#: data/dibuja.ui:664
+msgid "_Gaussian Blur..."
+msgstr ""
+
+#: data/dibuja.ui:673
+msgid "Posteri_ze..."
+msgstr ""
+
+#: data/dibuja.ui:682
+msgid "_Threshold..."
+msgstr ""
+
+#: data/dibuja.ui:691
+msgid "_Vignette..."
+msgstr ""
+
+#: data/dibuja.ui:700
+msgid "_Sharpen..."
+msgstr ""
+
+#: data/dibuja.ui:713
+msgid "_Color"
+msgstr ""
+
+#: data/dibuja.ui:723
+msgid "_Edit Colors..."
+msgstr ""
+
+#: data/dibuja.ui:736
+msgid "_Help"
+msgstr ""
+
+#: data/dibuja.ui:781
+msgid "New File"
+msgstr ""
+
+#. Dialog title
+#: data/dibuja.ui:795 src/file.c:238
+msgid "Open File"
+msgstr ""
+
+#: data/dibuja.ui:809 src/file.c:443
+msgid "Save File"
+msgstr ""
+
+#: data/dibuja.ui:894
+msgid "Cut At Selection"
+msgstr ""
+
+#: data/dibuja.ui:908
+msgid ""
+"Copy to the clipboard,\n"
+"the whole image, or\n"
+"the current selection"
+msgstr ""
+
+#: data/dibuja.ui:924
+msgid "Paste image from the clipboard"
+msgstr ""
+
+#: data/dibuja.ui:961
+msgid "Zoom In"
+msgstr ""
+
+#: data/dibuja.ui:987
+msgid "Zoom Out"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1050 src/lines.c:152
+msgid "Line"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1075 src/shapes.c:152
+msgid "Rectangle"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1102 src/shapes.c:152
+msgid "Ellipse"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1129 src/pencil.c:148
+msgid "Pencil"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1156 src/text.c:194
+msgid "Text"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1183
+msgid "Brushes"
+msgstr ""
+
+#. The name of the tool activated by this button
+#. - 1,
+#. - 1);
+#: data/dibuja.ui:1212 src/selection.c:140 src/selection.c:292
+#: src/selection.c:428
+msgid "Selection"
+msgstr ""
+
+#. The name of the tool activated by this button
+#. + 2 for alias
+#: data/dibuja.ui:1241 src/flood-fill.c:279
+msgid "Flood Fill"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1270 src/shapes.c:152
+msgid "Rounded Rectangle"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1297 src/polyline.c:197
+msgid "Polygon"
+msgstr ""
+
+#. The name of the tool activated by this button
+#: data/dibuja.ui:1326 src/curve.c:307 src/curve.c:345
+msgid "Curve"
+msgstr ""
+
+#: data/dibuja.ui:1386
+msgid ""
+"Draw line as\n"
+"an arrow"
+msgstr ""
+
+#: data/dibuja.ui:1421
+msgid "<small>Brush Width</small>"
+msgstr ""
+
+#: data/dibuja.ui:1493
+msgid ""
+"Round filled\n"
+"brush"
+msgstr ""
+
+#: data/dibuja.ui:1518
+msgid ""
+"Square filled\n"
+"brush"
+msgstr ""
+
+#: data/dibuja.ui:1546
+msgid "Round brush"
+msgstr ""
+
+#: data/dibuja.ui:1573
+msgid "Square brush"
+msgstr ""
+
+#: data/dibuja.ui:1600
+msgid ""
+"Back slash\n"
+"brush"
+msgstr ""
+
+#: data/dibuja.ui:1628
+msgid ""
+"Forward slash\n"
+"brush"
+msgstr ""
+
+#: data/dibuja.ui:1714
+msgid "Soft brush"
+msgstr ""
+
+#: data/dibuja.ui:1741
+msgid ""
+"Crosshatch\n"
+"brush"
+msgstr ""
+
+#: data/dibuja.ui:1771
+msgid "Crayon"
+msgstr ""
+
+#: data/dibuja.ui:1800
+msgid ""
+"Image\n"
+"brush"
+msgstr ""
+
+#: data/dibuja.ui:1834
+msgid "<small>Brush Spacing</small>"
+msgstr ""
+
+#: data/dibuja.ui:1900
+msgid "<small>No Fill</small>"
+msgstr ""
+
+#: data/dibuja.ui:1922
+msgid "<small>Fore Fill</small>"
+msgstr ""
+
+#: data/dibuja.ui:1946
+msgid "<small>Back Fill</small>"
+msgstr ""
+
+#: data/dibuja.ui:1966
+msgid "<small>Fill Properties</small>"
+msgstr ""
+
+#: data/dibuja.ui:2021
+msgid "Click to apply the selection."
+msgstr ""
+
+#: data/dibuja.ui:2093
+msgid "Smooth lines"
+msgstr ""
+
+#: data/dibuja.ui:2101
+msgid "<small>Antialias</small>"
+msgstr ""
+
+#: data/dibuja.ui:2134
+msgid "<small>Line Width</small>"
+msgstr ""
+
+#: data/dibuja.ui:2224
+msgid ""
+"Foreground Color.\n"
+"\n"
+"Right click to swap\n"
+"background and\n"
+"foreground colors"
+msgstr ""
+
+#: data/dibuja.ui:2245
+msgid ""
+"Backgound Color.\n"
+"\n"
+"Right click to swap\n"
+"background and\n"
+"foreground colors"
+msgstr ""
+
+#. Undo description
+#: data/dibuja.ui:2334 src/dibuja.c:229
+msgid "Resize"
+msgstr ""
+
+#: data/dibuja.ui:2420 data/dibuja.ui:2794
+msgid "New Width:"
+msgstr ""
+
+#: data/dibuja.ui:2428 data/dibuja.ui:2802
+msgid "New Height:"
+msgstr ""
+
+#: data/dibuja.ui:2489
+msgid "Centered"
+msgstr ""
+
+#. Undo description
+#: data/dibuja.ui:2640 src/dibuja.c:240
+msgid "Scale"
+msgstr ""
+
+#: data/dibuja.ui:2689
+msgid "Percentage"
+msgstr ""
+
+#: data/dibuja.ui:2750
+msgid "<b>Current Size: 600 x 400</b>"
+msgstr ""
+
+#: data/dibuja.ui:2863
+msgid "Keep aspect ratio"
+msgstr ""
+
+#: data/dibuja.ui:2885
+msgid "Dimensions"
+msgstr ""
+
+#: data/dibuja.ui:2918
+msgid "Insert Text"
+msgstr ""
+
+#: data/dibuja.ui:2934
+msgid "Insert"
+msgstr ""
+
+#: data/dibuja.ui:3015
+msgid "Use 'Fill Properties'"
+msgstr ""
+
+#: data/dibuja.ui:3028
+msgid "Center Text Horizontally"
+msgstr ""
+
+#: data/dibuja.ui:3043
+msgid "Center Text Vertically"
+msgstr ""
+
+#: data/dibuja.ui:3058
+msgid "Meme Style Text"
+msgstr ""
+
+#: data/dibuja.ui:3062
+msgid ""
+"Text in the background\n"
+"color outlined with the\n"
+"foreground color.\n"
+"\n"
+"The outline width is the width\n"
+"from the \"Line Width\"\n"
+"spin button."
+msgstr ""
+
+#: data/dibuja.ui:3111
+msgid "Pixels"
+msgstr ""
+
+#: data/dibuja.ui:3116
+msgid "Inches"
+msgstr ""
+
+#: data/dibuja.ui:3121
+msgid "Centimeters"
+msgstr ""
+
+#: data/dibuja.ui:3130
+msgid "New File Size"
+msgstr ""
+
+#: data/dibuja.ui:3193
+msgid "_Width"
+msgstr ""
+
+#: data/dibuja.ui:3201
+msgid "H_eight"
+msgstr ""
+
+#: src/dibuja-colorsel.c:34
+msgid ""
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
+msgstr ""
+
+#: src/dibuja-colorsel.c:250
+msgid "Click to set the palette to it's default colors."
+msgstr ""
+
+#: src/file.c:32
+msgid ""
+"Dibuja could not determine a supported writable file format based on the "
+"filename.\n"
+"Please try a different file extension like .png or .jpg."
+msgstr ""
+
+#: src/file.c:225 src/dibuja.c:951
+#, c-format
+msgid ""
+"The current file \"%s\" needs saving.\n"
+"Save?"
+msgstr ""
+
+#: src/file.c:247
+msgid "Supported Formats"
+msgstr ""
+
+#: src/file.c:423
+msgid "By extension"
+msgstr ""
+
+#: src/file.c:443
+msgid "Save File As"
+msgstr ""
+
+#: src/brushes.c:172
+#, c-format
+msgid ""
+"The maximum size for image brushes\n"
+"is 100 x 100 pixels, the current size is\n"
+"%d x %d pixels."
+msgstr ""
+
+#: src/brushes.c:526
+msgid "Brush"
+msgstr ""
+
+#: src/brushes.c:651
+msgid "Restore Image Brush"
+msgstr ""
+
+#: src/dibuja.c:68
+msgid "px"
+msgstr ""
+
+#: src/dibuja.c:133
+msgid "The information could not be displayed"
+msgstr ""
+
+#: src/dibuja.c:137
+msgid "File Information"
+msgstr ""
+
+#: src/dibuja.c:155
+msgid "File last saved"
+msgstr ""
+
+#: src/dibuja.c:158
+msgid "Size on disk"
+msgstr ""
+
+#: src/dibuja.c:164
+msgid "Screen Resolution"
+msgstr ""
+
+#: src/dibuja.c:169
+msgid "Width"
+msgstr ""
+
+#: src/dibuja.c:170
+msgid "Height"
+msgstr ""
+
+#: src/dibuja.c:173
+msgid "File type"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:194
+msgid "Flip Horizontally"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:196
+msgid "Flip Vertically"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:217
+msgid "Rotate"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:335
+msgid "Invert"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:417
+msgid "Grayscale"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:462
+msgid "Insta Brannan"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:507
+msgid "Insta 1977"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:552
+msgid "Emboss"
+msgstr ""
+
+#. File name for new screen shots
+#. * 'Screenshot' + 'number of screenshot'
+#.
+#: src/dibuja.c:609
+#, c-format
+msgid "Screenshot %d"
+msgstr ""
+
+#: src/dibuja.c:761
+msgid "Clear undo buffer also?"
+msgstr ""
+
+#. Undo description
+#: src/dibuja.c:766
+msgid "Clear"
+msgstr ""
+
+#: src/dibuja.c:901
+#, c-format
+msgid "Could not open the file \"%s\"."
+msgstr ""
+
+#: src/dibuja.c:909
+#, c-format
+msgid "The file \"%s\" is not supported"
+msgstr ""
+
+#. filename for new files
+#: src/dibuja.c:1043
+#, c-format
+msgid "untitled %d"
+msgstr ""
+
+#: src/help.c:38
+#, c-format
+msgid "Error opening the help file. %s"
+msgstr ""
+
+#: src/help.c:42
+#, c-format
+msgid "Error opening the help file \"%s\"."
+msgstr ""
+
+#: src/help.c:68
+msgid ""
+"Simple to use paint program like classic MS Paint or Paintbrushfor Mac but "
+"for Linux"
+msgstr ""
+
+#: src/help.c:78
+msgid "About Dibuja"
+msgstr ""
+
+#. Translator name for credit
+#: src/help.c:81
+msgid "translator-credits"
+msgstr ""
+
+#: src/menu.c:143 src/selection.c:380 src/selection.c:391
+msgid "Could not paste image from clipboard"
+msgstr ""
+
+#: src/menu.c:206
+msgid "_Copy Selection"
+msgstr ""
+
+#: src/menu.c:206
+msgid "_Copy Image"
+msgstr ""
+
+#: src/menu.c:594
+msgid "Brightness - Contrast"
+msgstr ""
+
+#: src/menu.c:600 src/fx-dlg.c:578
+msgid "Gaussian Blur"
+msgstr ""
+
+#: src/menu.c:606
+msgid "Threshold"
+msgstr ""
+
+#: src/menu.c:612
+msgid "Posterize"
+msgstr ""
+
+#: src/menu.c:618
+msgid "Vignette"
+msgstr ""
+
+#: src/menu.c:624
+msgid "Sharpen"
+msgstr ""
+
+#: src/resize.c:86
+#, c-format
+msgid "<b>Current size: %d x %d</b>"
+msgstr ""
+
+#: src/scale.c:122
+#, c-format
+msgid "New Size: %d x %d"
+msgstr ""
+
+#: src/scale.c:261
+#, c-format
+msgid "<b>Current Size: %d x %d</b>"
+msgstr ""
+
+#: src/selection.c:411
+msgid ""
+"The size of the image in the clipboard is larger\n"
+"than the size of the drawing area.\n"
+"Resize the drawing area to fit the new image?"
+msgstr ""
+
+#: src/selection.c:550
+msgid "Cut"
+msgstr ""
+
+#: src/selection.c:563
+msgid "Crop"
+msgstr ""
+
+#: src/undo.c:133
+msgid "Undo "
+msgstr ""
+
+#: src/undo.c:148
+msgid "Redo "
+msgstr ""
+
+#. Undo plus undo action
+#. ex Undo %s -> Undo Rectangle
+#: src/undo.c:166 src/undo.c:467
+#, c-format
+msgid "_Undo %s"
+msgstr ""
+
+#: src/undo.c:171 src/undo.c:460
+msgid "_Undo"
+msgstr ""
+
+#. Redo plus undo action
+#. ex Undo %s -> Undo Rectangle
+#: src/undo.c:187
+#, c-format
+msgid "_Redo %s"
+msgstr ""
+
+#: src/undo.c:192
+msgid "_Redo"
+msgstr ""
+
+#: src/undo.c:305
+#, c-format
+msgid "_Undo %s Create"
+msgstr ""
+
+#: src/undo.c:309
+#, c-format
+msgid "%s Create"
+msgstr ""
+
+#: src/color.c:219
+msgid ""
+"Left click to set this color\n"
+"as the foreground color.\n"
+"\n"
+"Right click to set this color\n"
+"as the background color."
+msgstr ""
+
+#: src/uni-exiv2.hpp:49
+msgid "Camera make"
+msgstr ""
+
+#: src/uni-exiv2.hpp:50
+msgid "Camera model"
+msgstr ""
+
+#: src/uni-exiv2.hpp:51
+msgid "Date Taken"
+msgstr ""
+
+#: src/uni-exiv2.hpp:52
+msgid "Exposure time"
+msgstr ""
+
+#: src/uni-exiv2.hpp:53
+msgid "Exposure mode"
+msgstr ""
+
+#: src/uni-exiv2.hpp:54
+msgid "Aperture Value"
+msgstr ""
+
+#: src/uni-exiv2.hpp:55
+msgid "ISO speed"
+msgstr ""
+
+#: src/uni-exiv2.hpp:56
+msgid "Flash"
+msgstr ""
+
+#: src/uni-exiv2.hpp:57
+msgid "Metering mode"
+msgstr ""
+
+#: src/uni-exiv2.hpp:58
+msgid "Focal length"
+msgstr ""
+
+#: src/uni-exiv2.hpp:59
+msgid "Software"
+msgstr ""
+
+#: src/uni-exiv2.hpp:63
+msgid "Description"
+msgstr ""
+
+#: src/uni-exiv2.hpp:64
+msgid "Copyright"
+msgstr ""
+
+#: src/uni-exiv2.hpp:65
+msgid "Author"
+msgstr ""
+
+#: src/fx-dlg.c:359
+msgid "Circle"
+msgstr ""
+
+#: src/fx-dlg.c:371
+msgid "Diamond"
+msgstr ""
+
+#: src/fx-dlg.c:381
+msgid "Square"
+msgstr ""
+
+#: src/fx-dlg.c:695
+msgid "Reset"
+msgstr ""

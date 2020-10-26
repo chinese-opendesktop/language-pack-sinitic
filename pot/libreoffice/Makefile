@@ -1,7 +1,7 @@
 # https://dev-www.libreoffice.org/l10n/latest-pot/ 
 
 build:
-	for i in `find . -name messages.pot`; do msgchi $$i -l eng2cmn -a "~"| msgattrib --clear-fuzzy -o $${i%.pot}.cmn_TW.po; done
+	for i in `find . -name messages.pot`; do msgchi $$i -l eng2cmn -a "~" -F -o $${i%.pot}.cmn_TW.po; done
 	for i in `find . -name messages.cmn_TW.po`; do msgfmt $$i -o $${i%.po}.mo; done
 	for i in `find . -name messages.cmn_TW.po`; do msgchi $$i -l cmn2yue -o $${i%.cmn_TW.po}.yue_HK.po; done
 	for i in `find . -name messages.yue_HK.po`; do msgfmt $$i -o $${i%.po}.mo; done
