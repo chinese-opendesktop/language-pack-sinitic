@@ -1,0 +1,1501 @@
+msgid ""
+msgstr "Project-Id-Version: chbg-1.5a\n"
+"POT-Creation-Date: 2001-08-02 22:50+0200\n"
+"PO-Revision-Date: 2001-07-28 09:20+MET\n"
+"Last-Translator: Jean-pierre PEDRON <jppedron@club-internet.fr>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "\t-R                    - recurse through directory\n"
+msgstr ""
+
+msgid "\t-add_banner $file     - directory or file which will be used for banners\n"
+msgstr ""
+
+msgid "\t-add_tile $file       - directory or file which will be used for tiles\n"
+msgstr ""
+
+msgid "\t-banner $file         - use image as banner\n"
+msgstr ""
+
+msgid "\t-banner_max_grow $nr  - maximal growing ratio of banner\n"
+msgstr ""
+
+msgid "\t-banner_max_size $nr  - maximal size of banner in %% of screen size\n"
+msgstr ""
+
+msgid "\t-banner_mode $mode    - banner painting mode (0-%d)\n"
+msgstr ""
+
+msgid "\t-banner_xpos $pos     - horizontal banner position on screen\n"
+msgstr ""
+
+msgid "\t-banner_ypos $pos     - vertical banner position on screen\n"
+msgstr ""
+
+msgid "\t-bg $color            - set default background color 1\n"
+msgstr ""
+
+msgid "\t-bg2 $color           - set default background color 2\n"
+msgstr ""
+
+msgid "\t-blank                - show blank screen, when can't load picture\n"
+msgstr ""
+
+msgid "\t-cycle_blank          - when pictures not present cycle with blanking\n"
+"\t                        screen (optionally with shading)\n"
+msgstr ""
+
+msgid "\t-deffects $list       - list of disabled effects\n"
+msgstr ""
+
+msgid "\t-dshaders $list       - list of disabled shaders\n"
+msgstr ""
+
+msgid "\t-effect $nr           - effect type for changing pictures [0-%d]\n"
+msgstr ""
+
+msgid "\t-enlightenment        - set desktop background via Enlightenment WM\n"
+"\t                        when available\n"
+msgstr ""
+
+msgid "\t-force_nautilus       - force nautilus to use background picture\n"
+"\t                        set by chbg\n"
+msgstr ""
+
+msgid "\t-friter $nr           - number of iterations for fractal based shaders\n"
+msgstr ""
+
+msgid "\t-grad $nr             - number of selected gradient (0 = random)\n"
+msgstr ""
+
+msgid "\t-grad_dir $dir        - supply path to GIMP gradients directory\n"
+msgstr ""
+
+msgid "\t-h                    - print this help message and exit\n"
+msgstr ""
+
+msgid "\t-interval $start[-$end]\n"
+"\t                      - time between picture changes\n"
+msgstr ""
+
+msgid "\t-inwindow             - run in own window not on root\n"
+msgstr ""
+
+msgid "\t-max_grow $nr         - maximal growing ratio of picture in\n"
+"\t                        smart mode\n"
+msgstr ""
+
+msgid "\t-max_size $nr         - maximal size of picture in %% of screen size\n"
+"\t                        used in smart mode, acceptable value 10-100\n"
+msgstr ""
+
+msgid "\t-min_psize $nr        - minimal allowed size of picture when recursing\n"
+"\t                        directories\n"
+msgstr ""
+
+msgid "\t-mode $type           - set picture rendering mode, mode is\n"
+"\t                        one of following:\n"
+"\t                        : tile\n"
+"\t                        : mirror\n"
+"\t                        : center\n"
+"\t                        : maximize\n"
+"\t                        : smart\n"
+"\t                        : centertile\n"
+"\t                        : inttile\n"
+"\t                        : symtile\n"
+"\t                        : intmirror\n"
+"\t                        : symmirror\n"
+msgstr ""
+
+msgid "\t-notooltips           - disable tooltips in GUI setup\n"
+msgstr ""
+
+msgid "\t-once                 - run one cycle of background changing and exit\n"
+msgstr ""
+
+msgid "\t-out_file $file       - name of file in which will be image written\n"
+msgstr ""
+
+msgid "\t-out_file_height $nr  - height of picture when writing to file\n"
+"\t                        0 means - take height of root window\n"
+msgstr ""
+
+msgid "\t-out_file_width $nr   - width of picture when writing to file\n"
+"\t                        0 means - take width of root window\n"
+msgstr ""
+
+msgid "\t-pattern $ptrn        - wildcard pattern for picture selection in\n"
+"\t                        recursion through directories\n"
+msgstr ""
+
+msgid "\t-rand_colors          - randomize background colors\n"
+msgstr ""
+
+msgid "\t-randomize            - randomize picture order\n"
+msgstr ""
+
+msgid "\t-rect_size $nr        - size of rectangle used in picture changing\n"
+"\t                        effects\n"
+msgstr ""
+
+msgid "\t-remember             - remember last picture\n"
+msgstr ""
+
+msgid "\t-run                  - start runining, after setup window is popped up\n"
+"\t                        (have effect only when used with -setup option)\n"
+msgstr ""
+
+msgid "\t-scenario $file       - fetch parameters from file $file\n"
+msgstr ""
+
+msgid "\t-screensaver          - act as screensaver\n"
+msgstr ""
+
+msgid "\t-send_expose          - send expose event when running in foreign window\n"
+msgstr ""
+
+msgid "\t-setup                - start setup window\n"
+msgstr ""
+
+msgid "\t-shader $nr           - set background color shading effect\n"
+"\t                        type [0-%d]\n"
+msgstr ""
+
+msgid "\t-sort                 - sort picture alphabeticaly\n"
+msgstr ""
+
+msgid "\t-speed $nr            - speed ratio for picture changing effects\n"
+"\t                        (lower is faster)\n"
+msgstr ""
+
+msgid "\t-thumb $type          - show thumbnail view dialog, choose one of\n"
+"\t                        all - all thumbnails in one window\n"
+"\t                        dir - make thumbnail pages by directories\n"
+"\t                        page - show 25 thumbnails per window\n"
+msgstr ""
+
+msgid "\t-tile $file           - default tile for picture background\n"
+msgstr ""
+
+msgid "\t-to_file              - generate picture into file instead of to window\n"
+msgstr ""
+
+msgid "\t-use_banners          - put banner on top of background picture\n"
+msgstr ""
+
+msgid "\t-use_grad             - use GIMP gradients for shading background\n"
+msgstr ""
+
+msgid "\t-use_tiles            - use picture tiles for picture background\n"
+msgstr ""
+
+msgid "\t-v                    - print version number and exit\n"
+msgstr ""
+
+msgid "\t-windowid $id         - run in existing X window with known window ID\n"
+msgstr ""
+
+msgid "\t-xpos $pos            - horizontal picture position on screen\n"
+"\t                        in smart mode (0.0-1.0)\n"
+msgstr ""
+
+msgid "\t-xscreensaver         - act as xscreensaver client\n"
+msgstr ""
+
+msgid "\t-ypos $pos            - vertical picture position on screen\n"
+"\t                        in smart mode (0.0-1.0)\n"
+msgstr ""
+
+msgid " pixels"
+msgstr ""
+
+msgid " sec."
+msgstr ""
+
+msgid " x "
+msgstr ""
+
+msgid "# This file was generated by chbg\n"
+"# You may edit it if you're careful!\n"
+"\n"
+msgstr ""
+
+msgid "# this is automaticaly generated chbg scenario file\n"
+"\n"
+msgstr ""
+
+msgid "%"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "(+) Size +10 %"
+msgstr ""
+
+msgid "(-) Size -10 %"
+msgstr ""
+
+msgid "(d) Size double"
+msgstr ""
+
+msgid "(h) Size half"
+msgstr ""
+
+msgid "(m) Flip horizontal"
+msgstr ""
+
+msgid "(n) Next"
+msgstr ""
+
+msgid "(none)"
+msgstr ""
+
+msgid "(o) Size original"
+msgstr ""
+
+msgid "(p) Previous"
+msgstr ""
+
+msgid "(q) Close"
+msgstr ""
+
+msgid "(s) Toggle slideshow"
+msgstr ""
+
+msgid "(v) Flip vertical"
+msgstr ""
+
+msgid "-- "
+msgstr ""
+
+msgid "0) None"
+msgstr ""
+
+msgid "1) Random"
+msgstr ""
+
+msgid "10) Line Mesh Left-Right"
+msgstr ""
+
+msgid "11) Line Fill Fade In Top-Bottom"
+msgstr ""
+
+msgid "12) Boxed Mesh Fade In TopL-BottomR"
+msgstr ""
+
+msgid "13) TopL-BottomR"
+msgstr ""
+
+msgid "14) All 4 Corners-Center"
+msgstr ""
+
+msgid "15) All 4 Corners Scissor Cut-Center"
+msgstr ""
+
+msgid "16) Rectangular Border Fill In-Center"
+msgstr ""
+
+msgid "17) Center-Rectangular Border Fill In"
+msgstr ""
+
+msgid "18) Boxed Mesh Fill Out"
+msgstr ""
+
+msgid "19) Diagonal Scissor Cut Fill In"
+msgstr ""
+
+msgid "2) C-Left, C-Right"
+msgstr ""
+
+msgid "20) Zigzag Diagonal Scissor Cut Fill In"
+msgstr ""
+
+msgid "21) R-C, L-C Center Line Fill In"
+msgstr ""
+
+msgid "22) T-C, B-C Line Fill In"
+msgstr ""
+
+msgid "23) Pixel Fill In"
+msgstr ""
+
+msgid "24) Line Draw Top-Bottom"
+msgstr ""
+
+msgid "25) Line Draw Left-Right"
+msgstr ""
+
+msgid "26) Line Mesh Fade In Side-C, C-Side"
+msgstr ""
+
+msgid "27) Line Mesh Fade In Top&B-C, C-Top&B"
+msgstr ""
+
+msgid "28) Wiggly Squiggly Left-Right"
+msgstr ""
+
+msgid "29) Wiggy Jiggy Outer-Inner"
+msgstr ""
+
+msgid "3) C-Top, C-Bottom"
+msgstr ""
+
+msgid "4) Left-C, Right-C"
+msgstr ""
+
+msgid "5) Top-C, Bottom-C"
+msgstr ""
+
+msgid "6) Top-Bottom"
+msgstr ""
+
+msgid "7) Left-Right"
+msgstr ""
+
+msgid "8) Expanding Box-Full Screen"
+msgstr ""
+
+msgid "9) Full Screen-Tiny Box"
+msgstr ""
+
+msgid ": "
+msgstr ""
+
+msgid "<< previous"
+msgstr ""
+
+msgid "About ..."
+msgstr ""
+
+msgid "Act as screensaver"
+msgstr ""
+
+msgid "Act as xscreensaver hack"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Additional convert options: "
+msgstr ""
+
+msgid "Adjusting image"
+msgstr ""
+
+msgid "All thumbnails ..."
+msgstr ""
+
+msgid "All thumbnails preview ..."
+msgstr ""
+
+msgid "Append"
+msgstr ""
+
+msgid "Append pictures ..."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Apply changes"
+msgstr ""
+
+msgid "Apply setup changes"
+msgstr ""
+
+msgid "Apply to selected"
+msgstr ""
+
+msgid "Auto preview"
+msgstr ""
+
+msgid "Average"
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Background color2: "
+msgstr ""
+
+msgid "Background color: "
+msgstr ""
+
+msgid "Background coloring mode: "
+msgstr ""
+
+msgid "Background pictures"
+msgstr ""
+
+msgid "Background shading effect"
+msgstr ""
+
+msgid "Banner painting mode: "
+msgstr ""
+
+msgid "Banner properties"
+msgstr ""
+
+msgid "Banner: "
+msgstr ""
+
+msgid "Banners"
+msgstr ""
+
+msgid "Banners which will be drawn on top of background picture."
+msgstr ""
+
+msgid "Batch conversion ..."
+msgstr ""
+
+msgid "Batch rescaling ..."
+msgstr ""
+
+msgid "Blanking screen"
+msgstr ""
+
+msgid "Browse ..."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Center picture"
+msgstr ""
+
+msgid "Center tiled"
+msgstr ""
+
+msgid "Center tiled picture"
+msgstr ""
+
+msgid "Centered"
+msgstr ""
+
+msgid "ChBg %s\n"
+"\n"
+"Manager & changer of background pictures\n"
+"\n"
+"By Stefan Ondrejicka\n"
+"\n"
+"(ondrej@idata.sk)\n"
+"\n"
+"URL: http://www.idata.sk/~ondrej/chbg/\n"
+msgstr ""
+
+msgid "ChBg setup"
+msgstr ""
+
+msgid "ChBg setup [%s]"
+msgstr ""
+
+msgid "ChBg: About"
+msgstr ""
+
+msgid "ChBg: Get new tiles"
+msgstr ""
+
+msgid "ChBg: Get pictures"
+msgstr ""
+
+msgid "ChBg: Load scenario"
+msgstr ""
+
+msgid "ChBg: Options"
+msgstr ""
+
+msgid "ChBg: Picture properties"
+msgstr ""
+
+msgid "ChBg: Save scenario"
+msgstr ""
+
+msgid "ChBg: batch format conversion"
+msgstr ""
+
+msgid "ChBg: batch format conversion (converting ...)"
+msgstr ""
+
+msgid "ChBg: batch scale (scaling ...)"
+msgstr ""
+
+msgid "ChBg: batch scaling"
+msgstr ""
+
+msgid "ChBg: picture %s"
+msgstr ""
+
+msgid "ChBg: rename image"
+msgstr ""
+
+msgid "ChBg: save shader"
+msgstr ""
+
+msgid "ChBg: select %s"
+msgstr ""
+
+msgid "ChBg: shader %d"
+msgstr ""
+
+msgid "Changing picture"
+msgstr ""
+
+msgid "Chbg: all thumbnails preview"
+msgstr ""
+
+msgid "Chbg: all thumbnails preview (wait ...)"
+msgstr ""
+
+msgid "Chbg: dir thumbnails preview"
+msgstr ""
+
+msgid "Chbg: dir thumbnails preview (wait ...)"
+msgstr ""
+
+msgid "Chbg: page thumbnails preview"
+msgstr ""
+
+msgid "Chbg: page thumbnails preview (wait ...)"
+msgstr ""
+
+msgid "Chbg: shaders preview"
+msgstr ""
+
+msgid "Chbg: shaders preview (wait ...)"
+msgstr ""
+
+msgid "Chbg: thumbnails preview (wait ...)"
+msgstr ""
+
+msgid "Choose ..."
+msgstr ""
+
+msgid "Choose if for shading backround use only two blended colors, free colored "
+"GIMP gradients or tiled pictures."
+msgstr ""
+
+msgid "Choose which images or directories of images you wish to add to your picture "
+"list."
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Click mouse once to quit screensaver mode. Runs in full-screen mode."
+msgstr ""
+
+msgid "Click on image to show a small preview."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Colors"
+msgstr ""
+
+msgid "Command"
+msgstr ""
+
+msgid "Confirm picture remove"
+msgstr ""
+
+msgid "Convert"
+msgstr ""
+
+msgid "Currently chbg have many shading effects. It takes horrible ammount of time "
+"to render such amount of pictures, so it is clever to let it render per "
+"pages. This value allows you to specify how many shaders will be on one page."
+msgstr ""
+
+msgid "Cycle blank screens"
+msgstr ""
+
+msgid "Darken only"
+msgstr ""
+
+msgid "Default banner properties"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete selected"
+msgstr ""
+
+msgid "Destination directory: "
+msgstr ""
+
+msgid "Dimensions: "
+msgstr ""
+
+msgid "Dir thumbnails ..."
+msgstr ""
+
+msgid "Dir thumbnails preview ..."
+msgstr ""
+
+msgid "Display mode"
+msgstr ""
+
+msgid "Divide"
+msgstr ""
+
+msgid "Do you realy want to remove this picture?"
+msgstr ""
+
+msgid "Don't rename"
+msgstr ""
+
+msgid "Effect: "
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Eliminate unwanted Background shading effects [2-62] when randomizing."
+msgstr ""
+
+msgid "Eliminate unwanted Picture changing effects [2-29] when randomizing."
+msgstr ""
+
+msgid "Emboss"
+msgstr ""
+
+msgid "Enable this option to let ChBg manage your desktop background."
+msgstr ""
+
+msgid "Enable tooltips"
+msgstr ""
+
+msgid "Enabled changing effects in random mode"
+msgstr ""
+
+msgid "Enabled shading effects in random mode"
+msgstr ""
+
+msgid "External editors"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+msgid "File name: "
+msgstr ""
+
+msgid "Force background to Nautilus "
+msgstr ""
+
+msgid "Foreign window infos"
+msgstr ""
+
+msgid "Format conversion parameters"
+msgstr ""
+
+msgid "From shader preview dialog, you can create pictures in PNG format and thus "
+"way export it to external image processing programs. This value specifies "
+"the height of shaded picture which will be passed to external program."
+msgstr ""
+
+msgid "From shader preview dialog, you can create pictures in PNG format and thus "
+"way export it to external image processing programs. This value specifies "
+"the width of shaded picture which will be passed to external program."
+msgstr ""
+
+msgid "GIMP gradients"
+msgstr ""
+
+msgid "Generate picture into PNG file"
+msgstr ""
+
+msgid "Generating background shading effect"
+msgstr ""
+
+msgid "Gradient"
+msgstr ""
+
+msgid "Gradient: "
+msgstr ""
+
+msgid "Grayscale"
+msgstr ""
+
+msgid "HINT: To see only pure shading effects, enable this option, clear picture "
+"list and select random shading effect."
+msgstr ""
+
+msgid "Height: "
+msgstr ""
+
+msgid "Hide Setup window and run with actual settings"
+msgstr ""
+
+msgid "Hide window & run"
+msgstr ""
+
+msgid "Hint: Choose this option, hit checkmark Apply Setup Changes ,choose Tools/"
+"Shaders preview page to see random two colored shading effects each time "
+"it's open."
+msgstr ""
+
+msgid "Horizontal banner position: "
+msgstr ""
+
+msgid "Horizontal picture position: "
+msgstr ""
+
+msgid "If you have selected above \"Scrolled window\" preview window type. With "
+"this options you can control when will be picture redisplayed when draging "
+"it. If you will select this option, the preview window will be redrawed "
+"immediatly when you move your mouse. I suggest to use it only when you have "
+"fast enough computer."
+msgstr ""
+
+msgid "If you have selected above \"Scrolled window\" preview window type. With "
+"this options you can control when will be picture redisplayed when draging "
+"it. If you will select this option, the preview window will be redrawed just "
+"when you will finish the mouse drag. I suggest to use it only when you have "
+"slower computer."
+msgstr ""
+
+msgid "Image format: "
+msgstr ""
+
+msgid "Image to rename"
+msgstr ""
+
+msgid "Image:"
+msgstr ""
+
+msgid "Images selection"
+msgstr ""
+
+msgid "Immediately quit"
+msgstr ""
+
+msgid "In picture preview you can activate automatic slideshows, this value is used "
+"to determine period for picture changes."
+msgstr ""
+
+msgid "In thumbnail preview dialogs you can select multiple pictures for removing. "
+"At default chbg shows dialog to confirm removing of each picture. With this "
+"option you can turn on/off displaying of that dialog. When picture removing "
+"dialog is disallowed, all selected pictures will be removed without any "
+"question !"
+msgstr ""
+
+msgid "Initializing"
+msgstr ""
+
+msgid "Integer mirrored"
+msgstr ""
+
+msgid "Integer mirrored picture"
+msgstr ""
+
+msgid "Integer tiled"
+msgstr ""
+
+msgid "Integer tiled picture"
+msgstr ""
+
+msgid "Interval: "
+msgstr ""
+
+msgid "Jumping drag"
+msgstr ""
+
+msgid "Keep aspect ratio"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Last scenarios"
+msgstr ""
+
+msgid "Lighten only"
+msgstr ""
+
+msgid "Loading image"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Max grow ratio for banner: "
+msgstr ""
+
+msgid "Max grow ratio for picture: "
+msgstr ""
+
+msgid "Maximal allowed banner scaling factor. (default 1.0)\n"
+"Real scaling factor depends on picture and screen size\n"
+msgstr ""
+
+msgid "Maximal allowed picture scaling factor. (default 1.0)\n"
+"Real scaling factor depends on picture and screen size\n"
+msgstr ""
+
+msgid "Maximal size of screen taken by banner: "
+msgstr ""
+
+msgid "Maximal size of screen taken by picture: "
+msgstr ""
+
+msgid "Maximize picture"
+msgstr ""
+
+msgid "Maximized"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Minimal picture size when recursing directories: "
+msgstr ""
+
+msgid "Miscelanous settings"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Multiply"
+msgstr ""
+
+msgid "Multiply bg value"
+msgstr ""
+
+msgid "Multiply fg value"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No."
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Number of iterations in fractal-based effects: "
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Open scenario"
+msgstr ""
+
+msgid "Open scenario ..."
+msgstr ""
+
+msgid "Open with"
+msgstr ""
+
+msgid "Original name:"
+msgstr ""
+
+msgid "Own properties"
+msgstr ""
+
+msgid "PNG file rendering infos"
+msgstr ""
+
+msgid "Page thumbnails ..."
+msgstr ""
+
+msgid "Page thumbnails preview ..."
+msgstr ""
+
+msgid "Pattern for recursion: "
+msgstr ""
+
+msgid "Picture changing effect "
+msgstr ""
+
+msgid "Picture changing effect speed ratio: "
+msgstr ""
+
+msgid "Picture changing effects rectangle size: "
+msgstr ""
+
+msgid "Picture informations"
+msgstr ""
+
+msgid "Picture list"
+msgstr ""
+
+msgid "Picture preview window type"
+msgstr ""
+
+msgid "Picture scrolling type"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Preview image ..."
+msgstr ""
+
+msgid "Preview image fullscreen ..."
+msgstr ""
+
+msgid "Preview last selected picture"
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Random effects"
+msgstr ""
+
+msgid "Randomize background colors"
+msgstr ""
+
+msgid "Randomize picture order"
+msgstr ""
+
+msgid "Raw - fullsize window"
+msgstr ""
+
+msgid "Recurse through directories"
+msgstr ""
+
+msgid "Recursion parameters"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Remember last picture"
+msgstr ""
+
+msgid "Remove ..."
+msgstr ""
+
+msgid "Remove picture ?"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Rename ..."
+msgstr ""
+
+msgid "Rendering Mode"
+msgstr ""
+
+msgid "Requested to use Enlightenment, but Enlightenment not found!\n"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset configuration"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+msgid "Run in desktop background (root) window"
+msgstr ""
+
+msgid "Run in foreign window"
+msgstr ""
+
+msgid "Run in own window"
+msgstr ""
+
+msgid "Run with actual settings"
+msgstr ""
+
+msgid "Runs in any selected window in your desktop"
+msgstr ""
+
+msgid "Runs in it's own window and doesn't change the root background (X11 "
+"Wallpaper).\n"
+"Use spacebar to skip forward to next picture, and Q key to hide the window."
+msgstr ""
+
+msgid "Save as ..."
+msgstr ""
+
+msgid "Save scenario"
+msgstr ""
+
+msgid "Save scenario ..."
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Scaling parameters"
+msgstr ""
+
+msgid "Scanning directory for pictures"
+msgstr ""
+
+msgid "Scans sub-directories for pictures.Example: choose /home/photos only and "
+"it'll display all photos in /home/photos/family and /home/photos/friends."
+msgstr ""
+
+msgid "Scrolled window"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Send expose event to window"
+msgstr ""
+
+msgid "Set desktop background via Enlightenment (0.16<)"
+msgstr ""
+
+msgid "Set properties ..."
+msgstr ""
+
+msgid "Set to below 100% to see background banner background in all cases. (default "
+"90%)"
+msgstr ""
+
+msgid "Set to below 100% to see background shading effects in all cases. (default "
+"90%)"
+msgstr ""
+
+msgid "Set wallpaper"
+msgstr ""
+
+msgid "Settings ..."
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "Shader number: %d\n"
+"Color1: #%02x%02x%02x\n"
+"Color2: #%02x%02x%02x"
+msgstr ""
+
+msgid "Shader number: %d\n"
+"Gradient: %s"
+msgstr ""
+
+msgid "Shader open height: "
+msgstr ""
+
+msgid "Shader open width: "
+msgstr ""
+
+msgid "Shader: "
+msgstr ""
+
+msgid "Shaders per page: "
+msgstr ""
+
+msgid "Shaders preview page ..."
+msgstr ""
+
+msgid "Show blank screen when unable to load picture"
+msgstr ""
+
+msgid "Show pictures in alphabetical order."
+msgstr ""
+
+msgid "Size: "
+msgstr ""
+
+msgid "Size:  %d x %d  "
+msgstr ""
+
+msgid "Sleeping"
+msgstr ""
+
+msgid "Slideshow interval: "
+msgstr ""
+
+msgid "Slow"
+msgstr ""
+
+msgid "Smart rendering mode setup"
+msgstr ""
+
+msgid "Smart resized centered picture"
+msgstr ""
+
+msgid "Smart scaled centered"
+msgstr ""
+
+msgid "Smooth drag"
+msgstr ""
+
+msgid "Sort pictures"
+msgstr ""
+
+msgid "Source Directory: "
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Stop changing pictures"
+msgstr ""
+
+msgid "Store composed picture to file instead of setting desktop window background\n"
+"Don't forget to set the file informations below."
+msgstr ""
+
+msgid "Subtract bg"
+msgstr ""
+
+msgid "Subtract fg"
+msgstr ""
+
+msgid "Super fast"
+msgstr ""
+
+msgid "Super slow"
+msgstr ""
+
+msgid "Symetrical mirrored"
+msgstr ""
+
+msgid "Symetrical tiled"
+msgstr ""
+
+msgid "Symmetrical mirrored picture"
+msgstr ""
+
+msgid "Symmetrical tiled picture"
+msgstr ""
+
+msgid "This background color applies only when background shading is enabled."
+msgstr ""
+
+msgid "This option is usable to generate ChBg scenario files for use with "
+"Xscreensaver.\n"
+"When using directly from this ChBg setup, it will not work."
+msgstr ""
+
+msgid "Tile mirrored picture"
+msgstr ""
+
+msgid "Tile picture"
+msgstr ""
+
+msgid "Tile: "
+msgstr ""
+
+msgid "Tiled"
+msgstr ""
+
+msgid "Tiled-mirrored"
+msgstr ""
+
+msgid "Tiles"
+msgstr ""
+
+msgid "Tille: "
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Unable to create ~/.chbg_prop file"
+msgstr ""
+
+msgid "Unable to find foreign window"
+msgstr ""
+
+msgid "Unable to find window id - 0x%08lx\n"
+msgstr ""
+
+msgid "Unable to find xscreensaver window"
+msgstr ""
+
+msgid "Unable to find xscreensaver window\n"
+msgstr ""
+
+msgid "Unable to load scenario"
+msgstr ""
+
+msgid "Unable to parse line:\n"
+"%s\n"
+msgstr ""
+
+msgid "Unable to parse: \"%s\"\n"
+msgstr ""
+
+msgid "Unable to parse: %s\n"
+msgstr ""
+
+msgid "Unselect"
+msgstr ""
+
+msgid "Unselect all"
+msgstr ""
+
+msgid "Usage:  %s  [options] [any number of pictures]\n"
+"%s-%s\n"
+msgstr ""
+
+msgid "Use -h option to print full list of available options\n"
+msgstr ""
+
+msgid "Use banners"
+msgstr ""
+
+msgid "Used to change the speed of picture changing effects.\n"
+"On slow machines choose faster and on very fast machines choose slower."
+msgstr ""
+
+msgid "Useful for determining whether you have files in your picture list which "
+"either images which imlib can't handle or the files are not images such as "
+"html, text, etc."
+msgstr ""
+
+msgid "Useful for excluding small pictures or thumbnails."
+msgstr ""
+
+msgid "Useful for speedup all fractalbased background shading effects or to "
+"generate more detailed fractals."
+msgstr ""
+
+msgid "Useful for speedup picture changing effects which uses rectangles."
+msgstr ""
+
+msgid "Usefull when you maintain long picture lists and you want to start next time "
+"where you stops"
+msgstr ""
+
+msgid "Various GIMP gradients which should be used for coloring background shading "
+"effects."
+msgstr ""
+
+msgid "Various tilable pixmaps for picture background."
+msgstr ""
+
+msgid "Vertical picture position: "
+msgstr ""
+
+msgid "Very fast"
+msgstr ""
+
+msgid "Very slow"
+msgstr ""
+
+msgid "View ..."
+msgstr ""
+
+msgid "View fullscreen ..."
+msgstr ""
+
+msgid "View picture ..."
+msgstr ""
+
+msgid "When you will select this option, ChBg will attempt to use Enlightenemnt WM "
+"capabilities to manage background of your desktop."
+msgstr ""
+
+msgid "Width: "
+msgstr ""
+
+msgid "Window ID: "
+msgstr ""
+
+msgid "With this option you can contol what type of picture preview dialog you will "
+"see. When you will select this option, chbg will display picture always in "
+"window with same size as have picture. This is not good idea when picture is "
+"too big to fit to screen size, but is ideal for normal size pictures."
+msgstr ""
+
+msgid "With this option you can contol what type of picture preview dialog you will "
+"see. When you will select this option, chbg will display picture in window "
+"inside which you can scroll picture by draging mouse, when picture is bigger "
+"than current size of window. Size of this dialog always attempt to fit to "
+"screen size."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "[0-29] various transition effects between pictures."
+msgstr ""
+
+msgid "[0-527] Blends color1 & color2 to create various background shades.(see "
+"Randomize background colors)"
+msgstr ""
+
+msgid "_Action"
+msgstr ""
+
+msgid "_Config"
+msgstr ""
+
+msgid "_File"
+msgstr ""
+
+msgid "_Help"
+msgstr ""
+
+msgid "_Preview"
+msgstr ""
+
+msgid "_Tools"
+msgstr ""
+
+msgid "bad banner mode value: %s, (0-%d required)\n"
+msgstr ""
+
+msgid "bad box size value: %s\n"
+msgstr ""
+
+msgid "bad effect value: %s, (0 - %d required)\n"
+msgstr ""
+
+msgid "bad float value: %s\n"
+msgstr ""
+
+msgid "bad fractal iterations value: %s\n"
+msgstr ""
+
+msgid "bad gradient value: %s\n"
+msgstr ""
+
+msgid "bad grow value: %s, (positive float number required)\n"
+msgstr ""
+
+msgid "bad height value: %s\n"
+msgstr ""
+
+msgid "bad interval value: %s\n"
+msgstr ""
+
+msgid "bad list: %s\n"
+msgstr ""
+
+msgid "bad list: %s for option %s\n"
+msgstr ""
+
+msgid "bad max_size value: %s, (10 - 100 required)\n"
+msgstr ""
+
+msgid "bad min_psize value: %s\n"
+msgstr ""
+
+msgid "bad position value: %s, (0.0 - 1.0 required)\n"
+msgstr ""
+
+msgid "bad shader value: %s, (0 - %d required)\n"
+msgstr ""
+
+msgid "bad speed value: %s\n"
+msgstr ""
+
+msgid "bad value: %s for option -box_size\n"
+msgstr ""
+
+msgid "bad value: %s for option -friter\n"
+msgstr ""
+
+msgid "bad value: %s for option -grad\n"
+msgstr ""
+
+msgid "bad value: %s for option -min_psize\n"
+msgstr ""
+
+msgid "bad width value: %s\n"
+msgstr ""
+
+msgid "bad windowid: %s\n"
+msgstr ""
+
+msgid "bug in chbg - contact autor"
+msgstr ""
+
+msgid "kB"
+msgstr ""
+
+msgid "missing parameters for %s option\n"
+msgstr ""
+
+msgid "next >>"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "only one picture available : changing not required"
+msgstr ""
+
+msgid "only one picture available : changing not required\n"
+msgstr ""
+
+msgid "preview"
+msgstr ""
+
+msgid "removing picture \"%s\" from list\n"
+msgstr ""
+
+msgid "to choose multiple directories...hit OK button when done."
+msgstr ""
+
+msgid "unable to find any suitable picture"
+msgstr ""
+
+msgid "unable to find any suitable picture\n"
+msgstr ""
+
+msgid "unknown color: %s\n"
+msgstr ""
+
+msgid "unknown option : %s\n"
+msgstr ""
+
+msgid "unknown rendering type : %s\n"
+msgstr ""
+
+msgid "unknown thumbnailview type: %s\n"
+msgstr ""
+
+msgid "using image loader - %s\n"
+msgstr ""
+
+msgid "which type(s) of image(s) you wish to display (case-insensitive) (you can "
+"enter multiple space separated wildcard patterns)"
+msgstr ""
+
+msgid "x"
+msgstr ""
+
+msgid "Bumpmap self"
+msgstr ""
+
+msgid "Bumpmap to bg"
+msgstr ""
+

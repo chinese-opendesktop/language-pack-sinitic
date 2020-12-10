@@ -8,3 +8,5 @@ build:
 
 install:
 	for i in ???_??; do mkdir -p $(DESTDIR)$(DATADIR)/locale/$$i/LC_MESSAGES; cp -a $$i/*.mo $(DESTDIR)$(DATADIR)/locale/$$i/LC_MESSAGES; done
+	for i in ???_??; do install -Dm644 $$i/gutenprint.po $(DESTDIR)$(DATADIR)/locale/$$i/gutenprint_$$i.po; done
+	for i in ???_??; do install -Dm644 $$i/pyspread.po $(DESTDIR)$(DATADIR)/locale/pyspread/po/$$i.po; done

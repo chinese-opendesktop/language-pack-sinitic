@@ -1,0 +1,195 @@
+msgid ""
+msgstr "Project-Id-Version: pg_checksums (PostgreSQL) 12\n"
+"Report-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\n"
+"PO-Revision-Date: 2019-09-27 17:23+0200\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+msgid "\n"
+"If no data directory (DATADIR) is specified, the environment variable "
+"PGDATA\n"
+"is used.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"Options:\n"
+msgstr ""
+
+msgid "  %s [OPTION]... [DATADIR]\n"
+msgstr ""
+
+msgid "  -?, --help               show this help, then exit\n"
+msgstr ""
+
+msgid "  -N, --no-sync            do not wait for changes to be written safely to "
+"disk\n"
+msgstr ""
+
+msgid "  -P, --progress           show progress information\n"
+msgstr ""
+
+msgid "  -V, --version            output version information, then exit\n"
+msgstr ""
+
+msgid "  -c, --check              check data checksums (default)\n"
+msgstr ""
+
+msgid "  -d, --disable            disable data checksums\n"
+msgstr ""
+
+msgid "  -e, --enable             enable data checksums\n"
+msgstr ""
+
+msgid "  -f, --filenode=FILENODE  check only relation with specified filenode\n"
+msgstr ""
+
+msgid "  -v, --verbose            output verbose messages\n"
+msgstr ""
+
+msgid " [-D, --pgdata=]DATADIR    data directory\n"
+msgstr ""
+
+msgid "%*s/%s MB (%d%%) computed"
+msgstr ""
+
+msgid "%s enables, disables, or verifies data checksums in a PostgreSQL database "
+"cluster.\n"
+"\n"
+msgstr ""
+
+msgid "Bad checksums:  %s\n"
+msgstr ""
+
+msgid "Blocks scanned: %s\n"
+msgstr ""
+
+msgid "Checksum operation completed\n"
+msgstr ""
+
+msgid "Checksums disabled in cluster\n"
+msgstr ""
+
+msgid "Checksums enabled in cluster\n"
+msgstr ""
+
+msgid "Data checksum version: %d\n"
+msgstr ""
+
+msgid "Files scanned:  %s\n"
+msgstr ""
+
+msgid "Report bugs to <pgsql-bugs@lists.postgresql.org>.\n"
+msgstr ""
+
+msgid "The database cluster was initialized with block size %u, but pg_checksums "
+"was compiled with block size %u.\n"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "checksum verification failed in file \"%s\", block %u: calculated checksum "
+"%X but block contains %X"
+msgstr ""
+
+msgid "checksums enabled in file \"%s\""
+msgstr ""
+
+msgid "checksums verified in file \"%s\""
+msgstr ""
+
+msgid "cluster is not compatible with this version of pg_checksums"
+msgstr ""
+
+msgid "cluster must be shut down"
+msgstr ""
+
+msgid "could not open directory \"%s\": %m"
+msgstr ""
+
+msgid "could not open file \"%s\": %m"
+msgstr ""
+
+msgid "could not read block %u in file \"%s\": %m"
+msgstr ""
+
+msgid "could not read block %u in file \"%s\": read %d of %d"
+msgstr ""
+
+msgid "could not stat file \"%s\": %m"
+msgstr ""
+
+msgid "could not write block %u in file \"%s\": %m"
+msgstr ""
+
+msgid "could not write block %u in file \"%s\": wrote %d of %d"
+msgstr ""
+
+msgid "data checksums are already disabled in cluster"
+msgstr ""
+
+msgid "data checksums are already enabled in cluster"
+msgstr ""
+
+msgid "data checksums are not enabled in cluster"
+msgstr ""
+
+msgid "database cluster is not compatible"
+msgstr ""
+
+msgid "error: "
+msgstr ""
+
+msgid "fatal: "
+msgstr ""
+
+msgid "invalid filenode specification, must be numeric: %s"
+msgstr ""
+
+msgid "invalid segment number %d in file name \"%s\""
+msgstr ""
+
+msgid "no data directory specified"
+msgstr ""
+
+msgid "option -f/--filenode can only be used with --check"
+msgstr ""
+
+msgid "pg_control CRC value is incorrect"
+msgstr ""
+
+msgid "seek failed for block %u in file \"%s\": %m"
+msgstr ""
+
+msgid "syncing data directory"
+msgstr ""
+
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr ""
+
+msgid "updating control file"
+msgstr ""
+
+msgid "warning: "
+msgstr ""
+
+msgid "%s enables, disables or verifies data checksums in a PostgreSQL database "
+"cluster.\n"
+"\n"
+msgstr ""
+
+msgid "--filenode option only possible with --check"
+msgstr ""
+
+msgid "could not update checksum of block %u in file \"%s\": %m"
+msgstr ""
+

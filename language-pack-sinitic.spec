@@ -1,6 +1,6 @@
 Name: language-pack-sinitic
 Summary: Translations for some sinitic languages
-Version: 2020.10
+Version: 2020.12
 Release: 1
 License: Open Source
 Group: Translations
@@ -9,7 +9,7 @@ Source0: https://github.com/chinese-opendesktop/%{name}/archive/v%{version}.tar.
 BuildRequires: msghack
 BuildRequires: translate-toolkit
 BuildRequires: qt5-linguist
-BuildRequires: msgchi
+BuildRequires: msgchi >= 1.4
 BuildArch: noarch
 
 %description
@@ -58,7 +58,30 @@ make
 /var/www/html/clipbucket/includes/langs/cmn*.lang
 /etc/joe/joerc.cmn*
 %{python3_sitelib}/openshot_qt/language/OpenShot.cmn*.qm
+/usr/lib/mcm/i18n/locale/cmn*/LC_MESSAGES/mcm.mo
+%{_libdir}/doublecmd/language/doublecmd.cmn*.po
 %{_libdir}/libreoffice/program/resource/cmn*/LC_MESSAGES/*.mo
+%{_libdir}/viewmol/locale/cmn*/LC_MESSAGES/Viewmol.mo
+%{_datadir}/cobras/cobras_cmn*.ts
+%{_datadir}/discwrapper/po/cmn*/discwrapper.mo
+%{_datadir}/easymp3gain/lang/easymp3gain.cmn*.po
+%{_datadir}/exe/locale/cmn*/exe_cmn*.po
+%{_datadir}/lazpaint/i18n/lazpaint.cmn*.po
+%{_datadir}/leechcraft/qml5/cpuload/ts/leechcraft_cpuload_qml_cmn*.ts
+%{_datadir}/leechcraft/qml5/lemon/ts/leechcraft_lemon_qml_cmn*.ts
+%{_datadir}/locale/applets/LC_MESSAGES/universal-cmn*.mo
+%{_datadir}/locale/cmn*/cups_cmn*.po
+%{_datadir}/locale/cmn*/gutenprint_cmn*.po
+%{_datadir}/locale/manager/LC_MESSAGES/screenlets-cmn*.mo
+%{_datadir}/locale/pyspread/po/cmn*.po
+%{_datadir}/meandmyshadow/data/locale/cmn*.po
+%{_datadir}/qaquarelle/locale/cmn*/qaquarelle.qm
+%{_datadir}/qmetro/locale/cmn*.lng
+%{_datadir}/ufo2000/translations/ufo2000-cmn*.po
+%{_datadir}/ulipad/lang/cmn*/ulipad_cmn*.mo
+%{_datadir}/wazapp/i18n/cmn*.ts
+%{_datadir}/wikidpad/WikidPad_cmn*.po
+%{_datadir}/winff/languages/winff.cmn*.po
 
 %files -n language-pack-yue
 %{_datadir}/locale/yue*/LC_MESSAGES/*.mo
@@ -80,8 +103,34 @@ make
 /var/www/html/clipbucket/includes/langs/yue*.lang
 /etc/joe/joerc.yue*
 %{python3_sitelib}/openshot_qt/language/OpenShot.yue*.qm
+/usr/lib/mcm/i18n/locale/yue*/LC_MESSAGES/mcm.mo
+%{_libdir}/doublecmd/language/doublecmd.yue*.po
 %{_libdir}/libreoffice/program/resource/yue*/LC_MESSAGES/*.mo
+%{_libdir}/viewmol/locale/yue*/LC_MESSAGES/Viewmol.mo
+%{_datadir}/cobras/cobras_yue*.ts
+%{_datadir}/discwrapper/po/yue*/discwrapper.mo
+%{_datadir}/easymp3gain/lang/easymp3gain.yue*.po
+%{_datadir}/exe/locale/yue*/exe_yue*.po
+%{_datadir}/lazpaint/i18n/lazpaint.yue*.po
+%{_datadir}/leechcraft/qml5/cpuload/ts/leechcraft_cpuload_qml_yue*.ts
+%{_datadir}/leechcraft/qml5/lemon/ts/leechcraft_lemon_qml_yue*.ts
+%{_datadir}/locale/applets/LC_MESSAGES/universal-yue*.mo
+%{_datadir}/locale/yue*/cups_yue*.po
+%{_datadir}/locale/yue*/gutenprint_yue*.po
+%{_datadir}/locale/manager/LC_MESSAGES/screenlets-yue*.mo
+%{_datadir}/locale/pyspread/po/yue*.po
+%{_datadir}/meandmyshadow/data/locale/yue*.po
+%{_datadir}/qaquarelle/locale/yue*/qaquarelle.qm
+%{_datadir}/qmetro/locale/yue*.lng
+%{_datadir}/ufo2000/translations/ufo2000-yue*.po
+%{_datadir}/ulipad/lang/yue*/ulipad_yue*.mo
+%{_datadir}/wazapp/i18n/yue*.ts
+%{_datadir}/wikidpad/WikidPad_yue*.po
+%{_datadir}/winff/languages/winff.yue*.po
+
+%clean
+rm -rf %{buildroot}
 
 %changelog
-* Mon Oct 26 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 2020.10
+* Mon Dec 07 2020 Wei-Lun Chao <bluebat@member.fsf.org> - 2020.12
 - Initial package

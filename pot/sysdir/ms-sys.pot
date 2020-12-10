@@ -1,0 +1,657 @@
+msgid ""
+msgstr "Project-Id-Version: ms-sys\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2015-09-21 00:12+CEST\n"
+"Last-Translator: Jörg Jenderek <joerg.jen.der.ek@gmx.net>\n"
+"Language-Team: German \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "                    to boot record\n"
+msgstr ""
+
+msgid "    -1, --fat12     Write a FAT12 floppy boot record to device\n"
+msgstr ""
+
+msgid "    -3, --fat32     Write a FAT32 partition DOS boot record to device\n"
+msgstr ""
+
+msgid "    -4, --fat32free Write a FAT32 partition FreeDOS boot record to device\n"
+msgstr ""
+
+msgid "    -5, --fat16free Write a FAT16 partition FreeDOS boot record to device\n"
+msgstr ""
+
+msgid "    -6, --fat16     Write a FAT16 partition DOS boot record to device\n"
+msgstr ""
+
+msgid "    -7, --mbr7      Write a Windows 7 MBR to device\n"
+msgstr ""
+
+msgid "    -9, --mbr95b    Write a Windows 95B/98/98SE/ME MBR to device\n"
+msgstr ""
+
+msgid "    -B, --bps <n>   Manually set number of bytes per sector (default 512)\n"
+msgstr ""
+
+msgid "    -H, --heads <n> Manually set number of heads if partition info is "
+"written\n"
+msgstr ""
+
+msgid "    -O, --writeoem <s>   Write OEM ID string <s> to file system\n"
+msgstr ""
+
+msgid "    -S, --writewds <x>   Write Windows Disk Signature hexadecimal <x> to "
+"MBR\n"
+msgstr ""
+
+msgid "    -a, --mbrreactos     Write a ReactOS MBR to device\n"
+msgstr ""
+
+msgid "    -b, --mbrgrub2  Write a Grub 2 MBR to device\n"
+msgstr ""
+
+msgid "    -c, --fat32ros  Write a FAT32 partition ReactOS boot record to device\n"
+msgstr ""
+
+msgid "    -d, --mbrdos    Write a DOS/Windows NT MBR to device\n"
+msgstr ""
+
+msgid "    -e, --fat32pe   Write a FAT32 partition PE boot record to device\n"
+msgstr ""
+
+msgid "    -f, --force     Force writing of boot record\n"
+msgstr ""
+
+msgid "    -g, --mbrgrub4dos    Write a Grub4Dos MBR to device\n"
+msgstr ""
+
+msgid "    -h, --help      Display this help and exit\n"
+msgstr ""
+
+msgid "    -i, --mbrvista  Write a Windows Vista MBR to device\n"
+msgstr ""
+
+msgid "    -k, --mbrkolibrios   Write a KolibriOS MBR to device\n"
+msgstr ""
+
+msgid "    -l, --wipelabel Reset partition disk label in boot record\n"
+msgstr ""
+
+msgid "    -m, --mbr       Write a Windows 2000/XP/2003 MBR to device\n"
+msgstr ""
+
+msgid "    -n, --ntfs      Write a NTFS partition Windows 7 boot record to device\n"
+msgstr ""
+
+msgid "    -o, --fat16ros  Write a FAT16 partition ReactOS boot record to device\n"
+msgstr ""
+
+msgid "    -p, --partition Write partition info (hidden sectors, heads and drive "
+"id)\n"
+msgstr ""
+
+msgid "    -q, --fat32kos  Write a FAT32 partition KolibriOS boot record to device\n"
+msgstr ""
+
+msgid "    -r, --mbrrufus  Write a Rufus MBR to device\n"
+msgstr ""
+
+msgid "    -s, --mbrsyslinux    Write a Syslinux MBR to device\n"
+msgstr ""
+
+msgid "    -t, --mbrgptsyslinux Write a Syslinux GPT MBR to device\n"
+msgstr ""
+
+msgid "    -v, --version   Show program version\n"
+msgstr ""
+
+msgid "    -w, --write     Write automatically selected boot record to device\n"
+"\n"
+msgstr ""
+
+msgid "    -z, --mbrzero   Write an empty (zeroed) MBR to device\n"
+msgstr ""
+
+msgid "    Default         Inspect current boot record\n"
+"\n"
+msgstr ""
+
+msgid "%s does not seem to be a disk device,\n"
+msgstr ""
+
+msgid "%s does not seem to be a disk partition device,\n"
+msgstr ""
+
+msgid "%s does not seem to be a floppy disk device,\n"
+msgstr ""
+
+msgid "%s does not seem to be a floppy or disk partition device,\n"
+msgstr ""
+
+msgid "%s does not seem to have a EXFAT file system,\n"
+msgstr ""
+
+msgid "%s does not seem to have a FAT file system,\n"
+msgstr ""
+
+msgid "%s does not seem to have a FAT12 file system,\n"
+msgstr ""
+
+msgid "%s does not seem to have a FAT16 file system,\n"
+msgstr ""
+
+msgid "%s does not seem to have a FAT32 file system,\n"
+msgstr ""
+
+msgid "%s does not seem to have a NTFS file system,\n"
+msgstr ""
+
+msgid "%s has a EXFAT file system.\n"
+msgstr ""
+
+msgid "%s has a FAT12 file system.\n"
+msgstr ""
+
+msgid "%s has a FAT16 file system.\n"
+msgstr ""
+
+msgid "%s has a FAT32 file system.\n"
+msgstr ""
+
+msgid "%s has a NTFS file system.\n"
+msgstr ""
+
+msgid "%s has an x86 boot sector,\n"
+msgstr ""
+
+msgid "%s has no x86 boot sector\n"
+msgstr ""
+
+msgid "%s seems to be a disk partition device,\n"
+msgstr ""
+
+msgid "%s seems to be a floppy disk device,\n"
+msgstr ""
+
+msgid "Copyright (C) 2009-2016 Free Software Foundation, Inc.\n"
+msgstr ""
+
+msgid "DOS/Windows NT master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "EXFAT NT6.0 boot record successfully written to %s\n"
+msgstr ""
+
+msgid "EXFAT VBR checksum successfully written to %s\n"
+msgstr ""
+
+msgid "EXFAT partition.\n"
+msgstr ""
+
+msgid "Empty (zeroed) master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Error: contains_data called with uiLen > %d,\n"
+msgstr ""
+
+msgid "F2 instruction. You will get equal functionality with the MBR this\n"
+msgstr ""
+
+msgid "FAT12 boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT16 FreeDOS boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT16 ReactOS boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT16 boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT32 DOS boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT32 FreeDOS boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT32 KolibriOS boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT32 NT5.0 boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT32 NT6.0 boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT32 PE boot record successfully written to %s\n"
+msgstr ""
+
+msgid "FAT32 ReactOS boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Failed writing DOS/Windows NT master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing EXFAT NT6.0 boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing EXFAT VBR checksum to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT12 boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT16 FreeDOS boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT16 ReactOS boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT16 boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT32 DOS boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT32 FreeDOS boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT32 KolibriOS boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT32 NT5.0 boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT32 NT6.0 boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT32 PE boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing FAT32 ReactOS boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing GRUB2 master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Grub4DOS master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing KolibriOS master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing NTFS Windows 7 boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing OEM ID to %s\n"
+msgstr ""
+
+msgid "Failed writing ReactOS master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Rufus master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Syslinux GPT master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Syslinux master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Windows 2000/XP/2003 master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Windows 7 master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Windows 95B/98/98SE/ME master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing Windows Disk Signature to %s\n"
+msgstr ""
+
+msgid "Failed writing Windows Vista master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing empty (zeroed) master boot record to %s\n"
+msgstr ""
+
+msgid "Failed writing number of heads to %s\n"
+msgstr ""
+
+msgid "Failed writing partition information to %s\n"
+msgstr ""
+
+msgid "Failed writing physical disk drive id to %s\n"
+msgstr ""
+
+msgid "Failed writing start sector to %s, this is only possible to do with\n"
+msgstr ""
+
+msgid "GRUB 2 master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Grub4DOS master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "It has windows disk signature 0x%08x.\n"
+msgstr ""
+
+msgid "KolibriOS master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "NTFS Windows 7 boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Number of heads (%d) successfully written to %s\n"
+msgstr ""
+
+msgid "OEM ID '%s' successfully written to %s\n"
+msgstr ""
+
+msgid "Physical disk drive id 0x80 (C:) successfully written to %s\n"
+msgstr ""
+
+msgid "ReactOS master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Rufus master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Start sector %ld (nr of hidden sectors) successfully written to %s\n"
+msgstr ""
+
+msgid "Syslinux GPT master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Syslinux master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "The OEM ID is %s\n"
+msgstr ""
+
+msgid "This is free software; see the source for copying conditions.  There is NO\n"
+msgstr ""
+
+msgid "Unable to automaticly select boot record for %s\n"
+msgstr ""
+
+msgid "Unable to open %s, %s\n"
+msgstr ""
+
+msgid "Usage:\n"
+"\t%s [options] [device]\n"
+"Options:\n"
+msgstr ""
+
+msgid "Warning: Writing the wrong kind of boot record to a device might\n"
+msgstr ""
+
+msgid "Whoops, internal error, unknown boot record\n"
+msgstr ""
+
+msgid "Windows 2000/XP/2003 master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Windows 7 master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Windows 95B/98/98SE/ME master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Windows Disk Signature 0x%08x successfully written to %s\n"
+msgstr ""
+
+msgid "Windows Vista master boot record successfully written to %s\n"
+msgstr ""
+
+msgid "Written by Henrik Carlqvist\n"
+"\n"
+msgstr ""
+
+msgid "bytes 0x%04x (%s).\n"
+msgstr ""
+
+msgid "copy protected"
+msgstr ""
+
+msgid "create such boot records.\n"
+msgstr ""
+
+msgid "destroy partition information or file system!\n"
+"\n"
+msgstr ""
+
+msgid "differs from what this program would create with the\n"
+msgstr ""
+
+msgid "it is a GPL syslinux GPT master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a GRUB 2 master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a Grub4DOS master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a KolibriOS master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a Microsoft 2000/XP/2003 master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a Microsoft 7 master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a Microsoft 95B/98/98SE/ME master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a Microsoft DOS/NT/95A master boot record with the undocumented\n"
+msgstr ""
+
+msgid "it is a Microsoft DOS/NT/95A master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a Microsoft Vista master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a ReactOS master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a Rufus master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a non-bootable master boot record, almost like the one this\n"
+msgstr ""
+
+msgid "it is a public domain syslinux master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is a zeroed non-bootable master boot record, like the one this\n"
+msgstr ""
+
+msgid "it is an unknown boot record\n"
+msgstr ""
+
+msgid "it is exactly the kind of EXFAT NT6.0 boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT12 boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT16 DOS boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT16 FreeDOS boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT16 ReactOS boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT32 DOS boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT32 FreeDOS boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT32 KolibriOS boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT32 NT5.0 boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT32 NT6.0 boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT32 PE boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of FAT32 ReactOS boot record this program\n"
+msgstr ""
+
+msgid "it is exactly the kind of NTFS boot record this program\n"
+msgstr ""
+
+msgid "it seems to be a EXFAT boot record, but it differs from\n"
+msgstr ""
+
+msgid "it seems to be a FAT16 or FAT32 boot record, but it\n"
+msgstr ""
+
+msgid "it seems to be a LILO boot record, please use lilo to\n"
+msgstr ""
+
+msgid "not copy protected"
+msgstr ""
+
+msgid "please increase MAX_DATA_LEN in file.h\n"
+msgstr ""
+
+msgid "program creates with the switch -7 on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -9 on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -a on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -b on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -d on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -g on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -i on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -k on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -m on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -r on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -s on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -t on a hard disk device.\n"
+msgstr ""
+
+msgid "program creates with the switch -z on a hard disk device but\n"
+msgstr ""
+
+msgid "program creates with the switch -z on a hard disk device.\n"
+msgstr ""
+
+msgid "real partitions!\n"
+msgstr ""
+
+msgid "switch -6, -2, -8, -e or -3 on a FAT16 or FAT32 partition.\n"
+msgstr ""
+
+msgid "unknown value"
+msgstr ""
+
+msgid "use the switch -f to force writing of OEM ID\n"
+msgstr ""
+
+msgid "use the switch -f to force writing of a EXFAT boot record\n"
+msgstr ""
+
+msgid "use the switch -f to force writing of a FAT12 boot record\n"
+msgstr ""
+
+msgid "use the switch -f to force writing of a FAT16 boot record\n"
+msgstr ""
+
+msgid "use the switch -f to force writing of a FAT32 boot record\n"
+msgstr ""
+
+msgid "use the switch -f to force writing of a NTFS boot record\n"
+msgstr ""
+
+msgid "use the switch -f to force writing of a master boot record\n"
+msgstr ""
+
+msgid "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"\n"
+msgstr ""
+
+msgid "what this program would create with the switch -x on a\n"
+msgstr ""
+
+msgid "which this program can write with switch -S and copy protect\n"
+msgstr ""
+
+msgid "with windows disk signature 0x%08x\n"
+msgstr ""
+
+msgid "would create with the switch -1 on a floppy.\n"
+msgstr ""
+
+msgid "would create with the switch -2 on a FAT32 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -3 on a FAT32 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -4 on a FAT32 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -5 on a FAT16 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -6 on a FAT16 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -8 on a FAT32 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -c on a FAT32 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -e on a FAT32 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -n on a NTFS partition.\n"
+msgstr ""
+
+msgid "would create with the switch -o on a FAT16 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -q on a FAT32 partition.\n"
+msgstr ""
+
+msgid "would create with the switch -x on a EXFAT partition.\n"
+msgstr ""
+

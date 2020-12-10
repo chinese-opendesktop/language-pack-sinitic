@@ -1,0 +1,1017 @@
+msgid ""
+msgstr "Project-Id-Version: pg_upgrade (PostgreSQL) 11\n"
+"Report-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\n"
+"PO-Revision-Date: 2019-09-27 20:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+
+msgid "\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"*Clusters are compatible*\n"
+msgstr ""
+
+msgid "\n"
+"*failure*"
+msgstr ""
+
+msgid "\n"
+"Before running pg_upgrade you must:\n"
+"  create a new database cluster (using the new version of initdb)\n"
+"  shutdown the postmaster servicing the old cluster\n"
+"  shutdown the postmaster servicing the new cluster\n"
+msgstr ""
+
+msgid "\n"
+"For example:\n"
+"  pg_upgrade -d oldCluster/data -D newCluster/data -b oldCluster/bin -B "
+"newCluster/bin\n"
+"or\n"
+msgstr ""
+
+msgid "\n"
+"If pg_upgrade fails after this point, you must re-initdb the\n"
+"new cluster before continuing.\n"
+msgstr ""
+
+msgid "\n"
+"If you want to start the old cluster, you will need to remove\n"
+"the \".old\" suffix from %s/global/pg_control.old.\n"
+"Because \"link\" mode was used, the old cluster cannot be safely\n"
+"started once the new cluster has been started.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"Performing Upgrade\n"
+"------------------\n"
+msgstr ""
+
+msgid "\n"
+"Report bugs to <pgsql-bugs@lists.postgresql.org>.\n"
+msgstr ""
+
+msgid "\n"
+"The old cluster has a \"plpython_call_handler\" function defined\n"
+"in the \"public\" schema which is a duplicate of the one defined\n"
+"in the \"pg_catalog\" schema.  You can confirm this by executing\n"
+"in psql:\n"
+"\n"
+"    \\df *.plpython_call_handler\n"
+"\n"
+"The \"public\" schema version of this function was created by a\n"
+"pre-8.1 install of plpython, and must be removed for pg_upgrade\n"
+"to complete because it references a now-obsolete \"plpython\"\n"
+"shared object file.  You can remove the \"public\" schema version\n"
+"of this function by running the following command:\n"
+"\n"
+"    DROP FUNCTION public.plpython_call_handler()\n"
+"\n"
+"in each affected database:\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"Upgrade Complete\n"
+"----------------\n"
+msgstr ""
+
+msgid "\n"
+"WARNING:  new data directory should not be inside the old data directory, e."
+"g. %s\n"
+msgstr ""
+
+msgid "\n"
+"WARNING:  user-defined tablespace locations should not be inside the data "
+"directory, e.g. %s\n"
+msgstr ""
+
+msgid "\n"
+"When you run pg_upgrade, you must provide the following information:\n"
+"  the data directory for the old cluster  (-d DATADIR)\n"
+"  the data directory for the new cluster  (-D DATADIR)\n"
+"  the \"bin\" directory for the old version (-b BINDIR)\n"
+"  the \"bin\" directory for the new version (-B BINDIR)\n"
+msgstr ""
+
+msgid "\n"
+"Your installation contains hash indexes.  These indexes have different\n"
+"internal formats between your old and new clusters, so they must be\n"
+"reindexed with the REINDEX command.  After upgrading, you will be given\n"
+"REINDEX instructions.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"Your installation contains hash indexes.  These indexes have different\n"
+"internal formats between your old and new clusters, so they must be\n"
+"reindexed with the REINDEX command.  The file\n"
+"    %s\n"
+"when executed by psql by the database superuser will recreate all invalid\n"
+"indexes; until then, none of these indexes will be used.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"Your installation contains large objects.  The new database has an\n"
+"additional large object permission table, so default permissions must be\n"
+"defined for all large objects.  The file\n"
+"    %s\n"
+"when executed by psql by the database superuser will set the default\n"
+"permissions.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"Your installation contains large objects.  The new database has an\n"
+"additional large object permission table.  After upgrading, you will be\n"
+"given a command to populate the pg_largeobject_metadata table with\n"
+"default permissions.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"connection to database failed: %s"
+msgstr ""
+
+msgid "\n"
+"source databases:\n"
+msgstr ""
+
+msgid "\n"
+"target databases:\n"
+msgstr ""
+
+msgid " "
+msgstr ""
+
+msgid "    %s\n"
+msgstr ""
+
+msgid "  $ export PGDATAOLD=oldCluster/data\n"
+"  $ export PGDATANEW=newCluster/data\n"
+"  $ export PGBINOLD=oldCluster/bin\n"
+"  $ export PGBINNEW=newCluster/bin\n"
+"  $ pg_upgrade\n"
+msgstr ""
+
+msgid "  --clone                       clone instead of copying files to new "
+"cluster\n"
+msgstr ""
+
+msgid "  -?, --help                    show this help, then exit\n"
+msgstr ""
+
+msgid "  -B, --new-bindir=BINDIR       new cluster executable directory\n"
+msgstr ""
+
+msgid "  -D, --new-datadir=DATADIR     new cluster data directory\n"
+msgstr ""
+
+msgid "  -O, --new-options=OPTIONS     new cluster options to pass to the server\n"
+msgstr ""
+
+msgid "  -P, --new-port=PORT           new cluster port number (default %d)\n"
+msgstr ""
+
+msgid "  -U, --username=NAME           cluster superuser (default \"%s\")\n"
+msgstr ""
+
+msgid "  -V, --version                 display version information, then exit\n"
+msgstr ""
+
+msgid "  -b, --old-bindir=BINDIR       old cluster executable directory\n"
+msgstr ""
+
+msgid "  -c, --check                   check clusters only, don't change any data\n"
+msgstr ""
+
+msgid "  -d, --old-datadir=DATADIR     old cluster data directory\n"
+msgstr ""
+
+msgid "  -j, --jobs                    number of simultaneous processes or threads "
+"to use\n"
+msgstr ""
+
+msgid "  -k, --link                    link instead of copying files to new "
+"cluster\n"
+msgstr ""
+
+msgid "  -o, --old-options=OPTIONS     old cluster options to pass to the server\n"
+msgstr ""
+
+msgid "  -p, --old-port=PORT           old cluster port number (default %d)\n"
+msgstr ""
+
+msgid "  -r, --retain                  retain SQL and log files after success\n"
+msgstr ""
+
+msgid "  -s, --socketdir=DIR           socket directory to use (default current "
+"dir.)\n"
+msgstr ""
+
+msgid "  -v, --verbose                 enable verbose internal logging\n"
+msgstr ""
+
+msgid "  C:\\> set PGDATAOLD=oldCluster/data\n"
+"  C:\\> set PGDATANEW=newCluster/data\n"
+"  C:\\> set PGBINOLD=oldCluster/bin\n"
+"  C:\\> set PGBINNEW=newCluster/bin\n"
+"  C:\\> pg_upgrade\n"
+msgstr ""
+
+msgid "  WAL block size\n"
+msgstr ""
+
+msgid "  WAL segment size\n"
+msgstr ""
+
+msgid "  block size\n"
+msgstr ""
+
+msgid "  checkpoint next XID\n"
+msgstr ""
+
+msgid "  data checksum version\n"
+msgstr ""
+
+msgid "  dates/times are integers?\n"
+msgstr ""
+
+msgid "  first WAL segment after reset\n"
+msgstr ""
+
+msgid "  float8 argument passing method\n"
+msgstr ""
+
+msgid "  large relation segment size\n"
+msgstr ""
+
+msgid "  large-object chunk size\n"
+msgstr ""
+
+msgid "  latest checkpoint next MultiXactId\n"
+msgstr ""
+
+msgid "  latest checkpoint next MultiXactOffset\n"
+msgstr ""
+
+msgid "  latest checkpoint next OID\n"
+msgstr ""
+
+msgid "  latest checkpoint oldest MultiXactId\n"
+msgstr ""
+
+msgid "  maximum TOAST chunk size\n"
+msgstr ""
+
+msgid "  maximum alignment\n"
+msgstr ""
+
+msgid "  maximum identifier length\n"
+msgstr ""
+
+msgid "  maximum number of indexed columns\n"
+msgstr ""
+
+msgid "  pg_upgrade [OPTION]...\n"
+"\n"
+msgstr ""
+
+msgid " which is an index on \"%s.%s\""
+msgstr ""
+
+msgid " which is an index on OID %u"
+msgstr ""
+
+msgid " which is the TOAST table for \"%s.%s\""
+msgstr ""
+
+msgid " which is the TOAST table for OID %u"
+msgstr ""
+
+msgid "\"%s\" is not a directory\n"
+msgstr ""
+
+msgid "%-*s"
+msgstr ""
+
+msgid "%d: controldata retrieval problem\n"
+msgstr ""
+
+msgid "%d: database cluster state problem\n"
+msgstr ""
+
+msgid "%d: pg_resetwal problem\n"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "%s\n"
+msgstr ""
+
+msgid "%s.%s: %u to %u\n"
+msgstr ""
+
+msgid "%s: cannot be run as root\n"
+msgstr ""
+
+msgid "%s: could not find own program executable\n"
+msgstr ""
+
+msgid "Adding \".old\" suffix to old global/pg_control"
+msgstr ""
+
+msgid "All non-template0 databases must allow connections, i.e. their pg_database."
+"datallowconn must be true\n"
+msgstr ""
+
+msgid "Analyzing all rows in the new cluster"
+msgstr ""
+
+msgid "Cannot continue without required control information, terminating\n"
+msgstr ""
+
+msgid "Cannot upgrade to/from the same system catalog version when\n"
+"using tablespaces.\n"
+msgstr ""
+
+msgid "Checking cluster versions"
+msgstr ""
+
+msgid "Checking database connection settings"
+msgstr ""
+
+msgid "Checking database user is the install user"
+msgstr ""
+
+msgid "Checking for contrib/isn with bigint-passing mismatch"
+msgstr ""
+
+msgid "Checking for hash indexes"
+msgstr ""
+
+msgid "Checking for incompatible \"jsonb\" data type"
+msgstr ""
+
+msgid "Checking for incompatible \"line\" data type"
+msgstr ""
+
+msgid "Checking for invalid \"unknown\" user columns"
+msgstr ""
+
+msgid "Checking for large objects"
+msgstr ""
+
+msgid "Checking for prepared transactions"
+msgstr ""
+
+msgid "Checking for presence of required libraries"
+msgstr ""
+
+msgid "Checking for reg* data types in user tables"
+msgstr ""
+
+msgid "Checking for roles starting with \"pg_\""
+msgstr ""
+
+msgid "Checking for tables WITH OIDS"
+msgstr ""
+
+msgid "Cloning user relation files\n"
+msgstr ""
+
+msgid "Consult the last few lines of \"%s\" for\n"
+"the probable cause of the failure.\n"
+msgstr ""
+
+msgid "Consult the last few lines of \"%s\" or \"%s\" for\n"
+"the probable cause of the failure.\n"
+msgstr ""
+
+msgid "Copying old %s to new server"
+msgstr ""
+
+msgid "Copying user relation files\n"
+msgstr ""
+
+msgid "Could not create a script to delete the old cluster's data files\n"
+"because user-defined tablespaces or the new cluster's data directory\n"
+"exist in the old cluster directory.  The old cluster's contents must\n"
+"be deleted manually.\n"
+msgstr ""
+
+msgid "Creating dump of database schemas\n"
+msgstr ""
+
+msgid "Creating dump of global objects"
+msgstr ""
+
+msgid "Creating script to analyze new cluster"
+msgstr ""
+
+msgid "Creating script to delete old cluster"
+msgstr ""
+
+msgid "Database: %s\n"
+msgstr ""
+
+msgid "Deleting files from new %s"
+msgstr ""
+
+msgid "Failed to match up old and new tables in database \"%s\"\n"
+msgstr ""
+
+msgid "Failure, exiting\n"
+msgstr ""
+
+msgid "Finding the real data directory for the source cluster"
+msgstr ""
+
+msgid "Finding the real data directory for the target cluster"
+msgstr ""
+
+msgid "Freezing all rows in the new cluster"
+msgstr ""
+
+msgid "Linking user relation files\n"
+msgstr ""
+
+msgid "New cluster data and binary directories are from different major versions.\n"
+msgstr ""
+
+msgid "New cluster database \"%s\" is not empty: found relation \"%s.%s\"\n"
+msgstr ""
+
+msgid "No match found in new cluster for old relation with OID %u in database \"%s"
+"\": %s\n"
+msgstr ""
+
+msgid "No match found in old cluster for new relation with OID %u in database \"%s"
+"\": %s\n"
+msgstr ""
+
+msgid "Old cluster data and binary directories are from different major versions.\n"
+msgstr ""
+
+msgid "Only the install user can be defined in the new cluster.\n"
+msgstr ""
+
+msgid "Optimizer statistics and free space information are not transferred\n"
+"by pg_upgrade so, once you start the new server, consider running:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Optimizer statistics are not transferred by pg_upgrade so,\n"
+"once you start the new server, consider running:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Options:\n"
+msgstr ""
+
+msgid "Performing Consistency Checks\n"
+"-----------------------------\n"
+msgstr ""
+
+msgid "Performing Consistency Checks on Old Live Server\n"
+"------------------------------------------------\n"
+msgstr ""
+
+msgid "Relation names for OID %u in database \"%s\" do not match: old name \"%s.%s"
+"\", new name \"%s.%s\"\n"
+msgstr ""
+
+msgid "Remove the problem functions from the old cluster to continue.\n"
+msgstr ""
+
+msgid "Resetting WAL archives"
+msgstr ""
+
+msgid "Restoring database schemas in the new cluster\n"
+msgstr ""
+
+msgid "Restoring global objects in the new cluster"
+msgstr ""
+
+msgid "Running in verbose mode\n"
+msgstr ""
+
+msgid "Running this script will delete the old cluster's data files:\n"
+"    %s\n"
+msgstr ""
+
+msgid "SQL command failed\n"
+"%s\n"
+"%s"
+msgstr ""
+
+msgid "Setting frozenxid and minmxid counters in new cluster"
+msgstr ""
+
+msgid "Setting minmxid counter in new cluster"
+msgstr ""
+
+msgid "Setting next OID for new cluster"
+msgstr ""
+
+msgid "Setting next multixact ID and offset for new cluster"
+msgstr ""
+
+msgid "Setting next transaction ID and epoch for new cluster"
+msgstr ""
+
+msgid "Setting oldest multixact ID in new cluster"
+msgstr ""
+
+msgid "Sync data directory to disk"
+msgstr ""
+
+msgid "The source cluster contains prepared transactions\n"
+msgstr ""
+
+msgid "The source cluster contains roles starting with \"pg_\"\n"
+msgstr ""
+
+msgid "The source cluster lacks cluster state information:\n"
+msgstr ""
+
+msgid "The source cluster lacks some required control information:\n"
+msgstr ""
+
+msgid "The source cluster was not shut down cleanly.\n"
+msgstr ""
+
+msgid "The source cluster was shut down while in recovery mode.  To upgrade, use "
+"\"rsync\" as documented or shut it down as a primary.\n"
+msgstr ""
+
+msgid "The target cluster contains prepared transactions\n"
+msgstr ""
+
+msgid "The target cluster contains roles starting with \"pg_\"\n"
+msgstr ""
+
+msgid "The target cluster lacks cluster state information:\n"
+msgstr ""
+
+msgid "The target cluster lacks some required control information:\n"
+msgstr ""
+
+msgid "The target cluster was not shut down cleanly.\n"
+msgstr ""
+
+msgid "The target cluster was shut down while in recovery mode.  To upgrade, use "
+"\"rsync\" as documented or shut it down as a primary.\n"
+msgstr ""
+
+msgid "There seems to be a postmaster servicing the new cluster.\n"
+"Please shutdown that postmaster and try again.\n"
+msgstr ""
+
+msgid "There seems to be a postmaster servicing the old cluster.\n"
+"Please shutdown that postmaster and try again.\n"
+msgstr ""
+
+msgid "There were problems executing \"%s\"\n"
+msgstr ""
+
+msgid "This utility can only upgrade from PostgreSQL version 8.4 and later.\n"
+msgstr ""
+
+msgid "This utility can only upgrade to PostgreSQL version %s.\n"
+msgstr ""
+
+msgid "This utility cannot be used to downgrade to older major PostgreSQL "
+"versions.\n"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Unable to rename %s to %s.\n"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "When checking a live server, the old and new port numbers must be "
+"different.\n"
+msgstr ""
+
+msgid "When checking a pre-PG 9.1 live old server, you must specify the old "
+"server's port number.\n"
+msgstr ""
+
+msgid "You must have read and write access in the current directory.\n"
+msgstr ""
+
+msgid "You must identify the directory where the %s.\n"
+"Please use the %s command-line option or the %s environment variable.\n"
+msgstr ""
+
+msgid "Your installation contains \"contrib/isn\" functions which rely on the\n"
+"bigint data type.  Your old and new clusters pass bigint values\n"
+"differently so this cluster cannot currently be upgraded.  You can\n"
+"manually upgrade databases that use \"contrib/isn\" facilities and remove\n"
+"\"contrib/isn\" from the old cluster and restart the upgrade.  A list of\n"
+"the problem functions is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Your installation contains one of the reg* data types in user tables.\n"
+"These data types reference system OIDs that are not preserved by\n"
+"pg_upgrade, so this cluster cannot currently be upgraded.  You can\n"
+"remove the problem tables and restart the upgrade.  A list of the problem\n"
+"columns is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Your installation contains tables declared WITH OIDS, which is not "
+"supported\n"
+"anymore. Consider removing the oid column using\n"
+"    ALTER TABLE ... SET WITHOUT OIDS;\n"
+"A list of tables with the problem is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Your installation contains the \"jsonb\" data type in user tables.\n"
+"The internal format of \"jsonb\" changed during 9.4 beta so this cluster "
+"cannot currently\n"
+"be upgraded.  You can remove the problem tables and restart the upgrade.  A "
+"list\n"
+"of the problem columns is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Your installation contains the \"line\" data type in user tables.  This\n"
+"data type changed its internal and input/output format between your old\n"
+"and new clusters so this cluster cannot currently be upgraded.  You can\n"
+"remove the problem tables and restart the upgrade.  A list of the problem\n"
+"columns is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Your installation contains the \"unknown\" data type in user tables.  This\n"
+"data type is no longer allowed in tables, so this cluster cannot currently\n"
+"be upgraded.  You can remove the problem tables and restart the upgrade.\n"
+"A list of the problem columns is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "Your installation references loadable libraries that are missing from the\n"
+"new installation.  You can add these libraries to the new installation,\n"
+"or remove the functions using them from the old installation.  A list of\n"
+"problem libraries is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "cannot run pg_upgrade from inside the new cluster data directory on Windows\n"
+msgstr ""
+
+msgid "check for \"%s\" failed: %s\n"
+msgstr ""
+
+msgid "check for \"%s\" failed: cannot execute (permission denied)\n"
+msgstr ""
+
+msgid "check for \"%s\" failed: cannot read file (permission denied)\n"
+msgstr ""
+
+msgid "check for \"%s\" failed: not a regular file\n"
+msgstr ""
+
+msgid "child process exited abnormally: status %d\n"
+msgstr ""
+
+msgid "child worker exited abnormally: %s\n"
+msgstr ""
+
+msgid "cloning \"%s\" to \"%s\"\n"
+msgstr ""
+
+msgid "command too long\n"
+msgstr ""
+
+msgid "connection to database failed: %s"
+msgstr ""
+
+msgid "copying \"%s\" to \"%s\"\n"
+msgstr ""
+
+msgid "could not add execute permission to file \"%s\": %s\n"
+msgstr ""
+
+msgid "could not clone file between old and new data directories: %s\n"
+msgstr ""
+
+msgid "could not connect to source postmaster started with the command:\n"
+"%s\n"
+msgstr ""
+
+msgid "could not connect to target postmaster started with the command:\n"
+"%s\n"
+msgstr ""
+
+msgid "could not create file \"%s\": %s\n"
+msgstr ""
+
+msgid "could not create hard link between old and new data directories: %s\n"
+"In link mode the old and new data directories must be on the same file "
+"system.\n"
+msgstr ""
+
+msgid "could not create worker process: %s\n"
+msgstr ""
+
+msgid "could not create worker thread: %s\n"
+msgstr ""
+
+msgid "could not delete directory \"%s\"\n"
+msgstr ""
+
+msgid "could not determine current directory\n"
+msgstr ""
+
+msgid "could not determine the number of users\n"
+msgstr ""
+
+msgid "could not get control data using %s: %s\n"
+msgstr ""
+
+msgid "could not get data directory using %s: %s\n"
+msgstr ""
+
+msgid "could not get pg_ctl version data using %s: %s\n"
+msgstr ""
+
+msgid "could not get pg_ctl version output from %s\n"
+msgstr ""
+
+msgid "could not load library \"%s\": %s"
+msgstr ""
+
+msgid "could not open file \"%s\" for reading: %s\n"
+msgstr ""
+
+msgid "could not open file \"%s\": %s\n"
+msgstr ""
+
+msgid "could not open log file \"%s\": %m\n"
+msgstr ""
+
+msgid "could not open version file: %s\n"
+msgstr ""
+
+msgid "could not parse PG_VERSION file from %s\n"
+msgstr ""
+
+msgid "could not read line %d from file \"%s\": %s\n"
+msgstr ""
+
+msgid "could not read permissions of directory \"%s\": %s\n"
+msgstr ""
+
+msgid "could not stat tablespace directory \"%s\": %s\n"
+msgstr ""
+
+msgid "could not write to log file \"%s\": %m\n"
+msgstr ""
+
+msgid "database user \"%s\" is not the install user\n"
+msgstr ""
+
+msgid "encodings for database \"%s\" do not match:  old \"%s\", new \"%s\"\n"
+msgstr ""
+
+msgid "error while checking for file existence \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
+msgstr ""
+
+msgid "error while cloning relation \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
+msgstr ""
+
+msgid "error while cloning relation \"%s.%s\": could not create file \"%s\": %s\n"
+msgstr ""
+
+msgid "error while cloning relation \"%s.%s\": could not open file \"%s\": %s\n"
+msgstr ""
+
+msgid "error while copying relation \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
+msgstr ""
+
+msgid "error while copying relation \"%s.%s\": could not create file \"%s\": %s\n"
+msgstr ""
+
+msgid "error while copying relation \"%s.%s\": could not open file \"%s\": %s\n"
+msgstr ""
+
+msgid "error while copying relation \"%s.%s\": could not read file \"%s\": %s\n"
+msgstr ""
+
+msgid "error while copying relation \"%s.%s\": could not stat file \"%s\": %s\n"
+msgstr ""
+
+msgid "error while copying relation \"%s.%s\": could not write file \"%s\": %s\n"
+msgstr ""
+
+msgid "error while copying relation \"%s.%s\": partial page found in file \"%s\"\n"
+msgstr ""
+
+msgid "error while creating link for relation \"%s.%s\" (\"%s\" to \"%s\"): %s\n"
+msgstr ""
+
+msgid "executing: %s\n"
+msgstr ""
+
+msgid "failed to get system locale name for \"%s\"\n"
+msgstr ""
+
+msgid "failed to get the current locale\n"
+msgstr ""
+
+msgid "failed to restore old locale \"%s\"\n"
+msgstr ""
+
+msgid "fatal\n"
+msgstr ""
+
+msgid "file cloning not supported on this platform\n"
+msgstr ""
+
+msgid "invalid new port number\n"
+msgstr ""
+
+msgid "invalid old port number\n"
+msgstr ""
+
+msgid "lc_collate values for database \"%s\" do not match:  old \"%s\", new \"%s\"\n"
+msgstr ""
+
+msgid "lc_ctype values for database \"%s\" do not match:  old \"%s\", new \"%s\"\n"
+msgstr ""
+
+msgid "libpq environment variable %s has a non-local server value: %s\n"
+msgstr ""
+
+msgid "linking \"%s\" to \"%s\"\n"
+msgstr ""
+
+msgid "mappings for database \"%s\":\n"
+msgstr ""
+
+msgid "new cluster binaries reside"
+msgstr ""
+
+msgid "new cluster data resides"
+msgstr ""
+
+msgid "ok"
+msgstr ""
+
+msgid "old and new cluster pg_controldata checksum versions do not match\n"
+msgstr ""
+
+msgid "old and new pg_controldata WAL block sizes are invalid or do not match\n"
+msgstr ""
+
+msgid "old and new pg_controldata WAL segment sizes are invalid or do not match\n"
+msgstr ""
+
+msgid "old and new pg_controldata alignments are invalid or do not match\n"
+"Likely one cluster is a 32-bit install, the other 64-bit\n"
+msgstr ""
+
+msgid "old and new pg_controldata block sizes are invalid or do not match\n"
+msgstr ""
+
+msgid "old and new pg_controldata date/time storage types do not match\n"
+msgstr ""
+
+msgid "old and new pg_controldata large-object chunk sizes are invalid or do not "
+"match\n"
+msgstr ""
+
+msgid "old and new pg_controldata maximum TOAST chunk sizes are invalid or do not "
+"match\n"
+msgstr ""
+
+msgid "old and new pg_controldata maximum identifier lengths are invalid or do not "
+"match\n"
+msgstr ""
+
+msgid "old and new pg_controldata maximum indexed columns are invalid or do not "
+"match\n"
+msgstr ""
+
+msgid "old and new pg_controldata maximum relation segment sizes are invalid or do "
+"not match\n"
+msgstr ""
+
+msgid "old cluster binaries reside"
+msgstr ""
+
+msgid "old cluster data resides"
+msgstr ""
+
+msgid "old cluster does not use data checksums but the new one does\n"
+msgstr ""
+
+msgid "old cluster uses data checksums but the new one does not\n"
+msgstr ""
+
+msgid "old database \"%s\" not found in the new cluster\n"
+msgstr ""
+
+msgid "out of memory\n"
+msgstr ""
+
+msgid "pg_ctl failed to start the source server, or connection failed\n"
+msgstr ""
+
+msgid "pg_ctl failed to start the target server, or connection failed\n"
+msgstr ""
+
+msgid "pg_upgrade upgrades a PostgreSQL cluster to a different major version.\n"
+"\n"
+msgstr ""
+
+msgid "relname: %s.%s: reloid: %u reltblspace: %s\n"
+msgstr ""
+
+msgid "rewriting \"%s\" to \"%s\"\n"
+msgstr ""
+
+msgid "sockets will be created"
+msgstr ""
+
+msgid "tablespace directory \"%s\" does not exist\n"
+msgstr ""
+
+msgid "tablespace path \"%s\" is not a directory\n"
+msgstr ""
+
+msgid "template0 must not allow connections, i.e. its pg_database.datallowconn must "
+"be false\n"
+msgstr ""
+
+msgid "user-supplied old port number %hu corrected to %hu\n"
+msgstr ""
+
+msgid "waitpid() failed: %s\n"
+msgstr ""
+
+msgid "warning"
+msgstr ""
+
+msgid "  -j, --jobs=NUM                number of simultaneous processes or threads "
+"to use\n"
+msgstr ""
+
+msgid "Checking for invalid \"sql_identifier\" user columns"
+msgstr ""
+
+msgid "Your installation contains the \"sql_identifier\" data type in user tables\n"
+"and/or indexes.  The on-disk format for this data type has changed, so this\n"
+"cluster cannot currently be upgraded.  You can remove the problem tables or\n"
+"change the data type to \"name\" and restart the upgrade.\n"
+"A list of the problem columns is in the file:\n"
+"    %s\n"
+"\n"
+msgstr ""
+
+msgid "could not open version file \"%s\": %m\n"
+msgstr ""
+
+msgid "could not parse version file \"%s\"\n"
+msgstr ""
+
+msgid "\n"
+"Report bugs to <pgsql-bugs@postgresql.org>.\n"
+msgstr ""
+
+msgid "New cluster database \"%s\" is not empty\n"
+msgstr ""
+
+msgid "could not write to log file \"%s\"\n"
+msgstr ""
+
+msgid "  -s, --socketdir=DIR           socket directory to use (default CWD)\n"
+msgstr ""
+

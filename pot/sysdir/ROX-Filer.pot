@@ -1,0 +1,3414 @@
+msgid ""
+msgstr "Project-Id-Version: rox\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jan 'jenik' Provaznik <xprovazn@fi.muni.cz>\n"
+"Language-Team:\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "\n"
+"---\n"
+msgstr ""
+
+msgid "\n"
+"Asking child process to terminate...\n"
+msgstr ""
+
+msgid "\n"
+"Process terminated.\n"
+msgstr ""
+
+msgid "\n"
+"Trying to KILL run-away process...\n"
+msgstr ""
+
+msgid " (%u hidden)"
+msgstr ""
+
+msgid " and "
+msgstr ""
+
+msgid " will affect some items on the pinboard or panel - really delete it?"
+msgstr ""
+
+msgid " will affect some items on the pinboard or panel - really delete them?"
+msgstr ""
+
+msgid "!%s\n"
+"Failed to copy '%s'\n"
+msgstr ""
+
+msgid "!%s\n"
+"Failed to move %s as %s\n"
+msgstr ""
+
+msgid "!%s\n"
+"Mount failed\n"
+msgstr ""
+
+msgid "!%s\n"
+"Unmount failed\n"
+msgstr ""
+
+msgid "!'%s' is a symbolic link\n"
+msgstr ""
+
+msgid "!ERROR: Can't copy object into itself\n"
+msgstr ""
+
+msgid "!ERROR: Can't move/rename object into itself\n"
+msgstr ""
+
+msgid "!ERROR: Destination already exists, but is not a directory\n"
+msgstr ""
+
+msgid "!Invalid find condition - change it and try again\n"
+msgstr ""
+
+msgid "!Invalid mode command - change it and try again\n"
+msgstr ""
+
+msgid "!No mount points selected!\n"
+msgstr ""
+
+msgid "%"
+msgstr ""
+
+msgid "%d items"
+msgstr ""
+
+msgid "%u selected (%s)"
+msgstr ""
+
+msgid "'\n"
+"Done\n"
+msgstr ""
+
+msgid "'\n"
+"Total: %s ("
+msgstr ""
+
+msgid "'%s' isn't a directory"
+msgstr ""
+
+msgid "'(while checking '%s')\n"
+msgstr ""
+
+msgid "'Changing permissions of '%s'\n"
+msgstr ""
+
+msgid "'Copying %s as %s\n"
+msgstr ""
+
+msgid "'Deleting '%s'\n"
+msgstr ""
+
+msgid "'Directory '%s' deleted\n"
+msgstr ""
+
+msgid "'Linking %s as %s\n"
+msgstr ""
+
+msgid "'Mounting %s\n"
+msgstr ""
+
+msgid "'Moving %s as %s\n"
+msgstr ""
+
+msgid "'Trying copy anyway...\n"
+msgstr ""
+
+msgid "'Trying move anyway...\n"
+msgstr ""
+
+msgid "'Unmounting %s\n"
+msgstr ""
+
+msgid "(Small Icons):"
+msgstr ""
+
+msgid "(bad utf-8)"
+msgstr ""
+
+msgid "(click to set)"
+msgstr ""
+
+msgid "(saving disabled by CHOICESPATH)"
+msgstr ""
+
+msgid "(thick)"
+msgstr ""
+
+msgid "(use default)"
+msgstr ""
+
+msgid ", going"
+msgstr ""
+
+msgid "<dir>"
+msgstr ""
+
+msgid "<missing label>"
+msgstr ""
+
+msgid "<nothing yet>"
+msgstr ""
+
+msgid "<nothing>"
+msgstr ""
+
+msgid "<u>Quick Start</u>\n"
+"Just put the name of the file you're looking for in single quotes:\n"
+"<b>'index.html'</b> (to find a file called 'index.html')\n"
+"\n"
+"<u>Examples</u>\n"
+"<b>'*.htm', '*.html'</b> (finds HTML files)\n"
+"<b>IsDir 'lib'</b> (finds directories called 'lib')\n"
+"<b>IsReg 'core'</b> (finds a regular file called 'core')\n"
+"<b>! (IsDir, IsReg)</b> (is neither a directory nor a regular file)\n"
+"<b>mtime after 1 day ago and size > 1Mb</b> (big, and recently modified)\n"
+"<b>'CVS' prune, isreg</b> (a regular file not in CVS)\n"
+"<b>IsReg system(grep -q fred \"%\")</b> (contains the word 'fred')\n"
+"\n"
+"<u>Simple Tests</u>\n"
+"<b>IsReg, IsLink, IsDir, IsChar, IsBlock, IsDev, IsPipe, IsSocket, IsDoor</"
+"b> (types)\n"
+"<b>IsSUID, IsSGID, IsSticky, IsReadable, IsWriteable, IsExecutable</b> "
+"(permissions)\n"
+"<b>IsEmpty, IsMine</b>\n"
+"A pattern in single quotes is a shell-style wildcard pattern to match. If "
+"it\n"
+"contains a slash then the match is against the full path; otherwise it is\n"
+"against the leafname only.\n"
+"\n"
+"<u>Comparisons</u>\n"
+"<b>&lt;, &lt;=, =, !=, &gt;, &gt;=, After, Before</b> (compare two values)\n"
+"<b>5 bytes, 1Kb, 2Mb, 3Gb</b> (file sizes)\n"
+"<b>2 secs|mins|hours|days|weeks|years  ago|hence</b> (times)\n"
+"<b>atime, ctime, mtime, now, size, inode, nlinks, uid, gid, blocks</b> "
+"(values)\n"
+"\n"
+"<u>Specials</u>\n"
+"<b>system(command)</b> (true if 'command' returns with a zero exit status;\n"
+"a % in 'command' is replaced with the path of the current file)\n"
+"<b>prune</b> (false, and prevents searching the contents of a directory)."
+msgstr ""
+
+msgid "?'%s' already exists - %s?"
+msgstr ""
+
+msgid "?'%s' already exists - overwrite?"
+msgstr ""
+
+msgid "?Another search?"
+msgstr ""
+
+msgid "?Change permissions of '%s'?"
+msgstr ""
+
+msgid "?Check '%s'?"
+msgstr ""
+
+msgid "?Copy %s as %s?"
+msgstr ""
+
+msgid "?Count contents of %s?"
+msgstr ""
+
+msgid "?Delete %s'%s'?"
+msgstr ""
+
+msgid "?Link %s as %s?"
+msgstr ""
+
+msgid "?Mount %s?"
+msgstr ""
+
+msgid "?Move %s as %s?"
+msgstr ""
+
+msgid "?Unmount %s?"
+msgstr ""
+
+msgid "A run action already exists and is quite a big program - are you sure you "
+"want to delete it?"
+msgstr ""
+
+msgid "About ROX-Filer..."
+msgstr ""
+
+msgid "Access time:"
+msgstr ""
+
+msgid "Action windows"
+msgstr ""
+
+msgid "Action windows appear when you start a background\n"
+"operation, such as copying or deleting some files."
+msgstr ""
+
+msgid "Add New Bookmark"
+msgstr ""
+
+msgid "Add the file and image filenames to your personal list. The setting will be "
+"lost if the image or the file is moved."
+msgstr ""
+
+msgid "After"
+msgstr ""
+
+msgid "Ago"
+msgstr ""
+
+msgid "Allow dragging to icons in filer windows"
+msgstr ""
+
+msgid "Also change contents of subdirectories"
+msgstr ""
+
+msgid "Also change contents of subdirectories."
+msgstr ""
+
+msgid "Always resize"
+msgstr ""
+
+msgid "And"
+msgstr ""
+
+msgid "App dir"
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Applet quit without ever creating a widget!"
+msgstr ""
+
+msgid "Application directory:"
+msgstr ""
+
+msgid "Application:\n"
+"This is an application directory - you can run it as a program, or open it "
+"(hold down Shift while you open it). Most applications provide their own "
+"help here, but this one doesn't."
+msgstr ""
+
+msgid "Applications have just an image, everything else has both an image and text."
+msgstr ""
+
+msgid "Are you sure you want to open %d windows?"
+msgstr ""
+
+msgid "Attempt to invoke unknown SOAP method '%s'"
+msgstr ""
+
+msgid "Attempt to read an XML file as a text file. File '%s' may be corrupted."
+msgstr ""
+
+msgid "Auto-resize filer windows"
+msgstr ""
+
+msgid "Auto-start (Quiet) these actions"
+msgstr ""
+
+msgid "Automatic"
+msgstr ""
+
+msgid "Automatic size mode"
+msgstr ""
+
+msgid "Automatic small icons:"
+msgstr ""
+
+msgid "B"
+msgstr ""
+
+msgid "Backdrop..."
+msgstr ""
+
+msgid "Background:"
+msgstr ""
+
+msgid "Beep if Tab-completion fails"
+msgstr ""
+
+msgid "Beep if there are several matches"
+msgstr ""
+
+msgid "Before"
+msgstr ""
+
+msgid "Behaviour"
+msgstr ""
+
+msgid "Bigger Icons"
+msgstr ""
+
+msgid "Blackbox root menus hack"
+msgstr ""
+
+msgid "Blackbox, Fluxbox and similar window managers do not yet work well with the "
+"ROX-Filer pinboard. This option enables some workarounds. These window "
+"managers are expected to change their behaviour in new versions so that this "
+"isn't necessary."
+msgstr ""
+
+msgid "Blank file"
+msgstr ""
+
+msgid "Block dev"
+msgstr ""
+
+msgid "Block device:"
+msgstr ""
+
+msgid "Bookmarks"
+msgstr ""
+
+msgid "Bookmarks menu"
+msgstr ""
+
+msgid "Brief"
+msgstr ""
+
+msgid "Broken symlink (or you don't have permission to follow it): %s"
+msgstr ""
+
+msgid "Byte"
+msgstr ""
+
+msgid "Bytes"
+msgstr ""
+
+msgid "Can't access '%s':\n"
+"%s"
+msgstr ""
+
+msgid "Can't bookmark non-local directories like '%s'"
+msgstr ""
+
+msgid "Can't bookmark non-local resource '%s'\n"
+msgstr ""
+
+msgid "Can't delete '%s':\n"
+"%s"
+msgstr ""
+
+msgid "Can't delete thumbnails in %s:\n"
+"%s"
+msgstr ""
+
+msgid "Can't get data from remote machine (application/octet-stream not provided)"
+msgstr ""
+
+msgid "Can't open directory: %s"
+msgstr ""
+
+msgid "Can't remove %s: %s"
+msgstr ""
+
+msgid "Can't stat directory: %s"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Capitalised names first (for sort by name)"
+msgstr ""
+
+msgid "Centre"
+msgstr ""
+
+msgid "Centre the image without scaling it"
+msgstr ""
+
+msgid "Change at:"
+msgstr ""
+
+msgid "Change icon size"
+msgstr ""
+
+msgid "Change time:"
+msgstr ""
+
+msgid "Change to home directory"
+msgstr ""
+
+msgid "Change to parent directory"
+msgstr ""
+
+msgid "Changing the size of the icons or which details are displayed will resize "
+"the window for you."
+msgstr ""
+
+msgid "Char dev"
+msgstr ""
+
+msgid "Character device:"
+msgstr ""
+
+msgid "Chinese (simplified)"
+msgstr ""
+
+msgid "Chinese (traditional)"
+msgstr ""
+
+msgid "Choices saving is disabled by CHOICESPATH variable"
+msgstr ""
+
+msgid "Choices will be saved as:\n"
+"%s"
+msgstr ""
+
+msgid "Choose a style and drag an image in:"
+msgstr ""
+
+msgid "Clear Selection"
+msgstr ""
+
+msgid "Clicking on an item opens it with this on. Hold down Control to select the "
+"item instead. If off, clicking once selects an item; double click to open "
+"things."
+msgstr ""
+
+msgid "Clicking the icon opens:"
+msgstr ""
+
+msgid "Clicking with mouse button 1 (usually the left button) opens a directory in "
+"a new window with this turned on. Clicking with the button-2 (middle) will "
+"reuse the current window."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "Close filer window"
+msgstr ""
+
+msgid "Coarse"
+msgstr ""
+
+msgid "Colour files based on their types"
+msgstr ""
+
+msgid "Colours"
+msgstr ""
+
+msgid "Command:"
+msgstr ""
+
+msgid "Compatibility"
+msgstr ""
+
+msgid "Compiled with GTK version %s\n"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy ... ?"
+msgstr ""
+
+msgid "Copy files without confirming first."
+msgstr ""
+
+msgid "Copy image into directory"
+msgstr ""
+
+msgid "Copy the files"
+msgstr ""
+
+msgid "Copy the image inside the directory, as a hidden file called '.DirIcon'. All "
+"users will then see the icon, and you can move the directory around safely. "
+"This is usually the best option if you can write to the directory."
+msgstr ""
+
+msgid "Copy..."
+msgstr ""
+
+msgid "Could not read link: %s"
+msgstr ""
+
+msgid "Could not send data to program: %s"
+msgstr ""
+
+msgid "Count"
+msgstr ""
+
+msgid "Count the size of ... ?"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Create links to files without confirming first."
+msgstr ""
+
+msgid "Customise"
+msgstr ""
+
+msgid "DELETE ... ?"
+msgstr ""
+
+msgid "Danish"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Default details:"
+msgstr ""
+
+msgid "Default settings"
+msgstr ""
+
+msgid "Default settings for new windows"
+msgstr ""
+
+msgid "Default size:"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete files without confirming first."
+msgstr ""
+
+msgid "Deleting items such as "
+msgstr ""
+
+msgid "Deleting the item "
+msgstr ""
+
+msgid "Deleting the items "
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Dir"
+msgstr ""
+
+msgid "Directories come first (for sort by name)"
+msgstr ""
+
+msgid "Directories spring open"
+msgstr ""
+
+msgid "Directory"
+msgstr ""
+
+msgid "Directory '%s' is not accessible"
+msgstr ""
+
+msgid "Directory '%s' not found."
+msgstr ""
+
+msgid "Directory missing/deleted"
+msgstr ""
+
+msgid "Directory:"
+msgstr ""
+
+msgid "Disk Usage"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Dnotify support"
+msgstr ""
+
+msgid "Do you want to unmount this device?\n"
+"\n"
+"Unmounting a device makes it safe to remove the disk."
+msgstr ""
+
+msgid "Don't confirm deletion of non-writeable items"
+msgstr ""
+
+msgid "Don't confirm deletion of non-writeable items."
+msgstr ""
+
+msgid "Don't confirm every operation"
+msgstr ""
+
+msgid "Don't display so much information in the message area."
+msgstr ""
+
+msgid "Don't list processed files"
+msgstr ""
+
+msgid "Don't use hostnames"
+msgstr ""
+
+msgid "Door"
+msgstr ""
+
+msgid "Door files are a bit like sockets or pipes, and have only been seen on "
+"Solaris."
+msgstr ""
+
+msgid "Door:"
+msgstr ""
+
+msgid "Drag a directory here to bookmark it."
+msgstr ""
+
+msgid "Drag and Drop"
+msgstr ""
+
+msgid "Drag and drop"
+msgstr ""
+
+msgid "Drag the icon to a directory viewer\n"
+"(or enter a full pathname)"
+msgstr ""
+
+msgid "Dragging to icons"
+msgstr ""
+
+msgid "Drop a suitable application here"
+msgstr ""
+
+msgid "Drop an icon file here"
+msgstr ""
+
+msgid "Drop an image here"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "ERROR"
+msgstr ""
+
+msgid "ERROR reading"
+msgstr ""
+
+msgid "Edit Bookmarks"
+msgstr ""
+
+msgid "Edit Item"
+msgstr ""
+
+msgid "English (no translation)"
+msgstr ""
+
+msgid "Enter Path..."
+msgstr ""
+
+msgid "Enter a shell command to execute. Click on a file to add it to the buffer."
+msgstr ""
+
+msgid "Enter a shell command which will load \"$@\" into a suitable program. Eg:\n"
+"\n"
+"gimp \"$@\""
+msgstr ""
+
+msgid "Enter a shell command:"
+msgstr ""
+
+msgid "Enter the name of a file and I'll display it for you. Press Tab to fill in "
+"the longest match. Escape to close the minibuffer."
+msgstr ""
+
+msgid "Error creating '%s': %s"
+msgstr ""
+
+msgid "Error creating file: could not find the template for %s"
+msgstr ""
+
+msgid "Error creating image '%s':\n"
+"%s"
+msgstr ""
+
+msgid "Error getting file list: %s"
+msgstr ""
+
+msgid "Error in '%s' file at line %d: \n"
+"\"%s\"\n"
+"This may be due to upgrading from a previous version of ROX-Filer. Open the "
+"Options window and click on Save.\n"
+"Further errors will be ignored."
+msgstr ""
+
+msgid "Error in handler %s: %s"
+msgstr ""
+
+msgid "Error loading backdrop image:\n"
+"%s\n"
+"Backdrop removed."
+msgstr ""
+
+msgid "Error running applet:\n"
+"%s"
+msgstr ""
+
+msgid "Error saving %s: %s"
+msgstr ""
+
+msgid "Error saving file: %s"
+msgstr ""
+
+msgid "Error saving panel %s: %s"
+msgstr ""
+
+msgid "Error saving pinboard %s: %s"
+msgstr ""
+
+msgid "Error scanning '%s':\n"
+"%s"
+msgstr ""
+
+msgid "Error scanning '%s':\n"
+"%s\n"
+msgstr ""
+
+msgid "Error, such as a symlink which points to a non-existant file, or a file "
+"which the filer does not have permission to examine."
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Every panel icon is shown with an image and some text."
+msgstr ""
+
+msgid "Executable '%s' is world-writeable! Refusing to run. Please change the "
+"permissions now (this problem may have been caused by a bug in earlier "
+"versions of the filer).\n"
+"\n"
+"Having (non-symlink) run actions world-writeable means that other people who "
+"use your computer can replace your run actions with malicious versions.\n"
+"\n"
+"If you trust everyone who could write to these files then you needn't worry. "
+"Otherwise, you should check, or even just delete, all the existing run "
+"actions."
+msgstr ""
+
+msgid "Executable file:"
+msgstr ""
+
+msgid "Execute file"
+msgstr ""
+
+msgid "Expression:"
+msgstr ""
+
+msgid "Failed to get keyboard grab!"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "File doesn't exist, or I can't access it: %s"
+msgstr ""
+
+msgid "File type colours"
+msgstr ""
+
+msgid "Filenames (and details) are coloured according to the file's type."
+msgstr ""
+
+msgid "Filer windows"
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "Find expression reference"
+msgstr ""
+
+msgid "Fine"
+msgstr ""
+
+msgid "Follow Symbolic Links"
+msgstr ""
+
+msgid "Force"
+msgstr ""
+
+msgid "Foreground:"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "GNOME-VFS library"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Goto:"
+msgstr ""
+
+msgid "Group %s is not set. Select some files and press Ctrl+%s to set the group. "
+"Press %s on its own to reselect the files later.\n"
+"Make sure NumLock is on if you use the keypad."
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Hence"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Home Directory"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Huge Icons"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
+msgid "I can't show you the currently set item, because nothing is currently set. "
+"Drag something onto me!"
+msgstr ""
+
+msgid "I don't know how to open '%s'"
+msgstr ""
+
+msgid "I'll show you your SendTo directory now; you should symlink (Ctrl+Shift "
+"drag) any applications you want into it."
+msgstr ""
+
+msgid "Icon View"
+msgstr ""
+
+msgid "Icon grid step:"
+msgstr ""
+
+msgid "Iconified windows"
+msgstr ""
+
+msgid "Iconify to the"
+msgstr ""
+
+msgid "Icons View"
+msgstr ""
+
+msgid "Icons only"
+msgstr ""
+
+msgid "Icons, With..."
+msgstr ""
+
+msgid "If a handler for the specific type isn't set up, use this as the default."
+msgstr ""
+
+msgid "If on, all filenames starting with a capital letter come before filenames "
+"starting with lowercase ones."
+msgstr ""
+
+msgid "If on, the symlink will store the path from the symlink to the target file. "
+"Use this if the symlink and the target will be moved together.\n"
+"If off, the path from the root directory is stored - use this if the symlink "
+"may move but the target will stay put."
+msgstr ""
+
+msgid "If this is on then column headings will be shown in the list view."
+msgstr ""
+
+msgid "If this is on then directories will always appear before anything else when "
+"sorting by name."
+msgstr ""
+
+msgid "If this is on then display options for a new window are inherited from the "
+"source window if possible, otherwise they are set to the defaults below."
+msgstr ""
+
+msgid "If this is on then files whose names start with a dot are shown too, "
+"otherwise they are hidden."
+msgstr ""
+
+msgid "If this is set, pinboard icons are always kept completely within screen "
+"limits, including the label."
+msgstr ""
+
+msgid "If this option is on, the filer will show each iconified window as a small "
+"button on the pinboard. Requires a compatible window manager, and the "
+"pinboard must be in use."
+msgstr ""
+
+msgid "If you open a directory and that directory is already displayed in another "
+"window, then this option causes the other window to be closed."
+msgstr ""
+
+msgid "Image and text"
+msgstr ""
+
+msgid "Image only"
+msgstr ""
+
+msgid "Image only for applications"
+msgstr ""
+
+msgid "Incorrect or missing line break in text/uri-list data"
+msgstr ""
+
+msgid "Inherit options from source window"
+msgstr ""
+
+msgid "Internal error - bad info type"
+msgstr ""
+
+msgid "Internal error: %s unreadable"
+msgstr ""
+
+msgid "Invalid .gmo translation file (GNU magic number not found): %s"
+msgstr ""
+
+msgid "Invalid .gmo translation file (too short): %s"
+msgstr ""
+
+msgid "Invalid Find condition"
+msgstr ""
+
+msgid "Invalid application %s (bad AppRun)"
+msgstr ""
+
+msgid "Invert Selection"
+msgstr ""
+
+msgid "IsBlock"
+msgstr ""
+
+msgid "IsChar"
+msgstr ""
+
+msgid "IsDev"
+msgstr ""
+
+msgid "IsDir"
+msgstr ""
+
+msgid "IsDoor"
+msgstr ""
+
+msgid "IsEmpty"
+msgstr ""
+
+msgid "IsExecutable"
+msgstr ""
+
+msgid "IsLink"
+msgstr ""
+
+msgid "IsMine"
+msgstr ""
+
+msgid "IsPipe"
+msgstr ""
+
+msgid "IsReadable"
+msgstr ""
+
+msgid "IsReg"
+msgstr ""
+
+msgid "IsSGID"
+msgstr ""
+
+msgid "IsSUID"
+msgstr ""
+
+msgid "IsSocket"
+msgstr ""
+
+msgid "IsSticky"
+msgstr ""
+
+msgid "IsWriteable"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Item no longer exists!"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "Keep icons within screen limits"
+msgstr ""
+
+msgid "Keyboard shortcuts"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Large File Support"
+msgstr ""
+
+msgid "Large Icons"
+msgstr ""
+
+msgid "Largest window size:"
+msgstr ""
+
+msgid "Last _Modified"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Link..."
+msgstr ""
+
+msgid "List View"
+msgstr ""
+
+msgid "Look Inside"
+msgstr ""
+
+msgid "Look inside ... ?"
+msgstr ""
+
+msgid "MIME types"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "Max width (Large icons):"
+msgstr ""
+
+msgid "Maximum width for the text beside a Small Icon."
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Menus"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "Minibuffer"
+msgstr ""
+
+msgid "Mins"
+msgstr ""
+
+msgid "Missing ',' after icon label"
+msgstr ""
+
+msgid "Missing '='"
+msgstr ""
+
+msgid "Missing '>' in icon label"
+msgstr ""
+
+msgid "Missing < or > in panel config file"
+msgstr ""
+
+msgid "Modify time:"
+msgstr ""
+
+msgid "Most window managers provide a way to iconify (or 'minimise') windows, and "
+"various programs, including ROX-Filer, can be used to display the iconified "
+"windows."
+msgstr ""
+
+msgid "Mount"
+msgstr ""
+
+msgid "Mount / Unmount"
+msgstr ""
+
+msgid "Mount and unmount filesystems without confirming first."
+msgstr ""
+
+msgid "Mount point"
+msgstr ""
+
+msgid "Mount point (%s)"
+msgstr ""
+
+msgid "Mount point for %s (%s)"
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Move files without confirming first."
+msgstr ""
+
+msgid "Move the files"
+msgstr ""
+
+msgid "NOTE: Your system does not support long options - \n"
+"you must use the short versions instead.\n"
+"\n"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Never automatically resize"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New Window"
+msgstr ""
+
+msgid "New pathname is not absolute"
+msgstr ""
+
+msgid "New window on button 1"
+msgstr ""
+
+msgid "NewDir"
+msgstr ""
+
+msgid "NewFile"
+msgstr ""
+
+msgid "Newer"
+msgstr ""
+
+msgid "Next Click"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Icons"
+msgstr ""
+
+msgid "No URIs in the text/uri-list (nothing to do!)"
+msgstr ""
+
+msgid "No details"
+msgstr ""
+
+msgid "No items%s"
+msgstr ""
+
+msgid "No pinboard was in use... the 'Default' pinboard has been selected. Use 'rox "
+"-p=Default' to turn it on in future."
+msgstr ""
+
+msgid "No run action defined"
+msgstr ""
+
+msgid "Non-executable %s"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "None of these files are on the local machine - I can't operate on multiple "
+"remote files - sorry."
+msgstr ""
+
+msgid "Normally, right clicking on the desktop background will open the pinboard "
+"menu and left clicking will clear the selection. Turn this on to forward the "
+"events to your window manager instead. Clicks on icons will not be forwarded."
+msgstr ""
+
+msgid "Normally, you can just select a command from the menu (click \n"
+"on the arrow beside the command box). Sometimes, you need more...\n"
+"\n"
+"The format of a command is: <b>CHANGE, CHANGE, ...</b>\n"
+"Each <b>CHANGE</b> is: <b>WHO HOW PERMISSIONS</b>\n"
+"<b>WHO</b> is some combination of <b>u</b>, <b>g</b> and <b>o</b> which "
+"determines whether to\n"
+"change the permissions for the User (owner), Group or Others.\n"
+"<b>HOW</b> is <b>+</b>, <b>-</b> or <b>=</b> to add, remove or set exactly "
+"the permissions.\n"
+"<b>PERMISSIONS</b> is some combination of the letters <b>rwxXstugo</b>\n"
+"\n"
+"Bracketed text and spaces are ignored.\n"
+"\n"
+"<u>Examples</u>\n"
+"<b>u+rw</b>: the file owner gains read and write permission\n"
+"<b>g=u</b>: the group permissions are set to be the same as the user's\n"
+"<b>o=u-w</b>: others get the same permissions as the owner, but without "
+"write permission\n"
+"<b>a+x</b>: <b>a</b>ll get execute/access permission - same as <b>ugo+x</b>\n"
+"<b>a+X</b>: directories become accessable by everyone; files which were\n"
+"executable by anyone become executable by everyone\n"
+"<b>u+rw, go+r</b>: two commands at once!\n"
+"<b>u+s</b>: set the SetUID bit - often has no effect on script files\n"
+"<b>755</b>: set the permissions directly\n"
+"\n"
+"See the chmod(1) man page for full details."
+msgstr ""
+
+msgid "Norwegian"
+msgstr ""
+
+msgid "Not"
+msgstr ""
+
+msgid "Note that you can still get the menu to appear, by dragging with Alt held "
+"down."
+msgstr ""
+
+msgid "Note that you can still get the menu to appear, by dragging with the left "
+"button and holding down the Alt key."
+msgstr ""
+
+msgid "Note that you must save your choices and restart the filer for the new "
+"language setting to take full effect."
+msgstr ""
+
+msgid "Nothing"
+msgstr ""
+
+msgid "Now"
+msgstr ""
+
+msgid "OR"
+msgstr ""
+
+msgid "Only files (and certain applications) can be used to set the background "
+"image."
+msgstr ""
+
+msgid "Only for the file `%s'"
+msgstr ""
+
+msgid "Only for the type `%s' (%s/%s)"
+msgstr ""
+
+msgid "Only log directories being deleted"
+msgstr ""
+
+msgid "Only over-write if source is newer than destination."
+msgstr ""
+
+msgid "Only the image is shown."
+msgstr ""
+
+msgid "Open AVFS"
+msgstr ""
+
+msgid "Open As Text"
+msgstr ""
+
+msgid "Open unmounted"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Options..."
+msgstr ""
+
+msgid "Override window manager control of the pinboard and panels"
+msgstr ""
+
+msgid "Owner, Group:"
+msgstr ""
+
+msgid "Panel style"
+msgstr ""
+
+msgid "Panel width (thin)"
+msgstr ""
+
+msgid "Panels"
+msgstr ""
+
+msgid "Panels are bars of icons that run along the side of the screen. See the "
+"manual for information about using panels."
+msgstr ""
+
+msgid "Parent, New Window"
+msgstr ""
+
+msgid "Parent, Same Window"
+msgstr ""
+
+msgid "Pass all backdrop mouse clicks to window manager"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Pinboard"
+msgstr ""
+
+msgid "Pinboard behaviour"
+msgstr ""
+
+msgid "Pipe"
+msgstr ""
+
+msgid "Pipe:"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Press the desired shortcut (eg, Control+F1)"
+msgstr ""
+
+msgid "Program %s not found - deleted?"
+msgstr ""
+
+msgid "Purge thumbnails disk cache"
+msgstr ""
+
+msgid "Put the cursor on an entry in the list to move it"
+msgstr ""
+
+msgid "Quiet"
+msgstr ""
+
+msgid "ROX application"
+msgstr ""
+
+msgid "ROX-Filer"
+msgstr ""
+
+msgid "ROX-Filer does not yet support mount points on your system. Sorry."
+msgstr ""
+
+msgid "ROX-Filer has converted your Options file to the new XML format"
+msgstr ""
+
+msgid "Real directory:"
+msgstr ""
+
+msgid "Really delete icon '%s'?"
+msgstr ""
+
+msgid "Recently Visited"
+msgstr ""
+
+msgid "Recurse"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Regular file:"
+msgstr ""
+
+msgid "Remote app can't or won't send me the data - sorry"
+msgstr ""
+
+msgid "Remote application wants to use Direct Save, but I can't read the "
+"XdndDirectSave0 (type text/plain) property.\n"
+msgstr ""
+
+msgid "Remove Item(s)"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Rename ... ?"
+msgstr ""
+
+msgid "Rename..."
+msgstr ""
+
+msgid "Rescan directory contents"
+msgstr ""
+
+msgid "Resize Window"
+msgstr ""
+
+msgid "Resize when changing the display style"
+msgstr ""
+
+msgid "Restore all choices to how they were when the Options box was opened."
+msgstr ""
+
+msgid "Reversed"
+msgstr ""
+
+msgid "Run action:"
+msgstr ""
+
+msgid "Running as user '%s'"
+msgstr ""
+
+msgid "Running with GTK version %d.%d.%d\n"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "Same as current window"
+msgstr ""
+
+msgid "Same as default"
+msgstr ""
+
+msgid "Save As:"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Scale the image to fit the backdrop area, without distorting it"
+msgstr ""
+
+msgid "Scan"
+msgstr ""
+
+msgid "Scanning, "
+msgstr ""
+
+msgid "Search inside ... ?"
+msgstr ""
+
+msgid "Sec"
+msgstr ""
+
+msgid "Secs"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "Select If..."
+msgstr ""
+
+msgid "Select If:"
+msgstr ""
+
+msgid "Select the buttons you want on the bar:"
+msgstr ""
+
+msgid "Send ... to ... ?"
+msgstr ""
+
+msgid "Send To..."
+msgstr ""
+
+msgid "Set Icon..."
+msgstr ""
+
+msgid "Set Run Action..."
+msgstr ""
+
+msgid "Set backdrop"
+msgstr ""
+
+msgid "Set default for all `%s/<anything>'"
+msgstr ""
+
+msgid "Set icon"
+msgstr ""
+
+msgid "Set icon for ... ?"
+msgstr ""
+
+msgid "Set icon for all `%s/<anything>'"
+msgstr ""
+
+msgid "Set keyboard shortcuts"
+msgstr ""
+
+msgid "Set permissions on ... ?"
+msgstr ""
+
+msgid "Set run action"
+msgstr ""
+
+msgid "Set run action for ... ?"
+msgstr ""
+
+msgid "Setting icon disabled by CHOICESPATH"
+msgstr ""
+
+msgid "Shell Command..."
+msgstr ""
+
+msgid "Shell:"
+msgstr ""
+
+msgid "Shift Open"
+msgstr ""
+
+msgid "Shift Open ... ?"
+msgstr ""
+
+msgid "Short titlebar flags"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Show Bookmarks"
+msgstr ""
+
+msgid "Show Help Files"
+msgstr ""
+
+msgid "Show Hidden"
+msgstr ""
+
+msgid "Show Info"
+msgstr ""
+
+msgid "Show Location"
+msgstr ""
+
+msgid "Show ROX-Filer help"
+msgstr ""
+
+msgid "Show Target"
+msgstr ""
+
+msgid "Show Thumbnails"
+msgstr ""
+
+msgid "Show _Help Files"
+msgstr ""
+
+msgid "Show a menu of possible actions"
+msgstr ""
+
+msgid "Show column headings"
+msgstr ""
+
+msgid "Show extra details"
+msgstr ""
+
+msgid "Show hidden files"
+msgstr ""
+
+msgid "Show iconified windows"
+msgstr ""
+
+msgid "Show image thumbnails"
+msgstr ""
+
+msgid "Show the current choice in a filer window"
+msgstr ""
+
+msgid "Show the number of items displayed in a filer window, as well as the number "
+"of hidden items (if any). When there's a selection, show the number of "
+"selected items and their combined size."
+msgstr ""
+
+msgid "Show totals of items"
+msgstr ""
+
+msgid "Show/hide hidden files"
+msgstr ""
+
+msgid "Single-click navigation"
+msgstr ""
+
+msgid "Single-click to open"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Size of icons in menus:"
+msgstr ""
+
+msgid "Size:"
+msgstr ""
+
+msgid "Sizes"
+msgstr ""
+
+msgid "Small Icons"
+msgstr ""
+
+msgid "Smaller Icons"
+msgstr ""
+
+msgid "Socket"
+msgstr ""
+
+msgid "Socket:"
+msgstr ""
+
+msgid "Some of these files are on a different machine - they will be ignored - sorry"
+msgstr ""
+
+msgid "Some older applications don't support XDND fully and may need to have this "
+"option turned on. Use this if dragging files to an application shows a + "
+"sign on the pointer but the drop doesn't work."
+msgstr ""
+
+msgid "Some window managers don't support the new Extended Window Manager Hints "
+"system, and so treat the pinboard and panels like normal windows. Turn this "
+"on to fix problems such as the pinboard coming to the front when you click "
+"on it, titlebars and other decorations appearing around windows, or having "
+"them appear in window-select lists."
+msgstr ""
+
+msgid "Sorry - I require a target type of text/uri-list or XdndDirectSave0."
+msgstr ""
+
+msgid "Sorry - I require a target type of text/uri-list or application/octet-stream."
+msgstr ""
+
+msgid "Sorry, I can't use '%s' because it's not a local file."
+msgstr ""
+
+msgid "Sorry, can't display a menu of actions for a remote file / raw data."
+msgstr ""
+
+msgid "Sorry, you need to drop exactly one file onto the drop area."
+msgstr ""
+
+msgid "Sort by Date"
+msgstr ""
+
+msgid "Sort by Group"
+msgstr ""
+
+msgid "Sort by Name"
+msgstr ""
+
+msgid "Sort by Owner"
+msgstr ""
+
+msgid "Sort by Size"
+msgstr ""
+
+msgid "Sort by Type"
+msgstr ""
+
+msgid "Sort by:"
+msgstr ""
+
+msgid "Sorting"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Spring delay:"
+msgstr ""
+
+msgid "Stretch"
+msgstr ""
+
+msgid "Stretch the image to fill the backdrop area"
+msgstr ""
+
+msgid "Swedish"
+msgstr ""
+
+msgid "Switch to xterm"
+msgstr ""
+
+msgid "Sym link"
+msgstr ""
+
+msgid "Symbolic link"
+msgstr ""
+
+msgid "Symbolic link to "
+msgstr ""
+
+msgid "Symlink"
+msgstr ""
+
+msgid "Symlink ... ?"
+msgstr ""
+
+msgid "Symlink from '%s' already exists. Replace it with a link to '%s'?"
+msgstr ""
+
+msgid "T"
+msgstr ""
+
+msgid "Text beside icons"
+msgstr ""
+
+msgid "Text shadow:"
+msgstr ""
+
+msgid "Text under icons"
+msgstr ""
+
+msgid "Text wider than this is broken onto two lines in Large Icons mode. In Huge "
+"Icons mode, text is wrapped when 50% wider than this."
+msgstr ""
+
+msgid "The -o argument is no longer used. You can turn on override redirect from "
+"the Options box instead."
+msgstr ""
+
+msgid "The `Send To' menu provides a quick way to send some files to an "
+"application. The applications listed are those in the following "
+"directories:\n"
+"\n"
+"%s\n"
+"%s\n"
+"The `Send To' menu may be opened by Shift+Menu clicking over a file.\n"
+"\n"
+"Advanced use:\n"
+"You can also create subdirectories called `.text_html', `.text', etc which "
+"will only be shown for files of that type. `.group' is shown only when "
+"multiple files are selected."
+msgstr ""
+
+msgid "The backdrop handler must be an application directory. Drag an application "
+"directory into the Set Backdrop dialog box, or (for programmers) pass it to "
+"the SOAP SetBackdropApp method."
+msgstr ""
+
+msgid "The filer will resize windows whenever it seems useful (that is, when "
+"changing directory or display style)."
+msgstr ""
+
+msgid "The font used for the text displayed under the icons"
+msgstr ""
+
+msgid "The keyboard shortcut is:"
+msgstr ""
+
+msgid "The largest size, as a percentage of the screen size, that the auto-resizer "
+"will resize a window to."
+msgstr ""
+
+msgid "The location must contain at least one character!"
+msgstr ""
+
+msgid "The pathname you gave does not exist. The icon has not been changed."
+msgstr ""
+
+msgid "The program to launch when you choose `Xterm Here' from the menu."
+msgstr ""
+
+msgid "The size of the panels."
+msgstr ""
+
+msgid "The text displayed under the icon is:"
+msgstr ""
+
+msgid "There are no thumbnails to delete"
+msgstr ""
+
+msgid "There was one error.\n"
+msgstr ""
+
+msgid "There were %d errors.\n"
+msgstr ""
+
+msgid "Thick"
+msgstr ""
+
+msgid "Thin"
+msgstr ""
+
+msgid "This filename is not valid UTF-8. You should rename it.\n"
+msgstr ""
+
+msgid "This is already the canonical name for this directory."
+msgstr ""
+
+msgid "This is not a program! Give me an application instead!"
+msgstr ""
+
+msgid "This is the default setting for new windows. Use the Display menu to turn "
+"thumbnails on and off for individual windows."
+msgstr ""
+
+msgid "This item is already at the end"
+msgstr ""
+
+msgid "This option sets how long, in ms, you must hold a file over a directory "
+"before it will spring open. The above option must be turned on for this to "
+"have any effect."
+msgstr ""
+
+msgid "This option, which requires the above option to be turned on too, causes the "
+"highlighted directory to 'spring open' after the file is held over it for a "
+"short while."
+msgstr ""
+
+msgid "Thumbnails"
+msgstr ""
+
+msgid "Thumbnails cache"
+msgstr ""
+
+msgid "Thumbs, "
+msgstr ""
+
+msgid "Tile"
+msgstr ""
+
+msgid "Tile the image over the backdrop area"
+msgstr ""
+
+msgid "Times"
+msgstr ""
+
+msgid "To set a keyboard short-cut for a menu item:\n"
+"\n"
+"- Open the menu over a filer window,\n"
+"- Move the pointer over the item you want to use,\n"
+"- Press the key you want attached to it.\n"
+"\n"
+"The key will appear next to the menu item and you can just press that key "
+"without opening the menu in future."
+msgstr ""
+
+msgid "To speed things up, the generated thumbnails are stored in the hidden ~/."
+"thumbnails directory. Click here to remove all the cached thumbnails. They "
+"will be created again as needed."
+msgstr ""
+
+msgid "Toolbar"
+msgstr ""
+
+msgid "Toolbar type:"
+msgstr ""
+
+msgid "Tools/Minibuffer"
+msgstr ""
+
+msgid "Translation"
+msgstr ""
+
+msgid "Try `ROX-Filer/AppRun --help' for more information.\n"
+msgstr ""
+
+msgid "Try `ROX-Filer/AppRun -h' for more information.\n"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type:"
+msgstr ""
+
+msgid "Types"
+msgstr ""
+
+msgid "Unable to load image file -- maybe it's not in a format I understand, or "
+"maybe the permissions are wrong?\n"
+"The icon has not been changed."
+msgstr ""
+
+msgid "Unique windows"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unknown action requested"
+msgstr ""
+
+msgid "Unknown details type '%s'"
+msgstr ""
+
+msgid "Unknown sorting type '%s'"
+msgstr ""
+
+msgid "Unknown style '%s'"
+msgstr ""
+
+msgid "Unknown target"
+msgstr ""
+
+msgid "Unknown type:"
+msgstr ""
+
+msgid "Unmount"
+msgstr ""
+
+msgid "Unnamed"
+msgstr ""
+
+msgid "UntitledData"
+msgstr ""
+
+msgid "Up"
+msgstr ""
+
+msgid "Use a 16-pixel grid for positioning icons on the desktop."
+msgstr ""
+
+msgid "Use a 2-pixel grid for positioning icons on the desktop."
+msgstr ""
+
+msgid "Use a 32-pixel grid for positioning icons on the desktop."
+msgstr ""
+
+msgid "Use a copy of the image as the default for all files of these MIME types."
+msgstr ""
+
+msgid "Use a copy of the image for all files of this MIME type."
+msgstr ""
+
+msgid "Use custom font:"
+msgstr ""
+
+msgid "Use single letters instead of words for Scanning, All and Thumbs indicators "
+"in the titlebar."
+msgstr ""
+
+msgid "Use the LANG environment variable"
+msgstr ""
+
+msgid "Use this application for all files with this MIME type."
+msgstr ""
+
+msgid "View type:"
+msgstr ""
+
+msgid "WRITE-PROTECTED "
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "Weeks"
+msgstr ""
+
+msgid "When automatic icon sizing is selected: If the directory contains this many "
+"items then it will be shown using Small Icons, otherwise Large Icons will be "
+"used."
+msgstr ""
+
+msgid "When dragging files with the left mouse button"
+msgstr ""
+
+msgid "When dragging files with the middle mouse button"
+msgstr ""
+
+msgid "When this is on you can drag a file over a sub-directory or program in a "
+"filer window. The item will highlight when you do this and dropping the file "
+"will put it into that directory, or load it into the program."
+msgstr ""
+
+msgid "When thumbnails are turned on, each image file in a directory is loaded and "
+"a small thumbnail of it is shown."
+msgstr ""
+
+msgid "When using a pinboard, you can drag files and applications onto the desktop "
+"background to create shortcuts to them."
+msgstr ""
+
+msgid "When using the `Enter Path...' minibuffer and Tab is pressed, beep if "
+"nothing happens (eg, because there are several possibilities and the next "
+"letter varies)."
+msgstr ""
+
+msgid "When using the `Enter Path...' minibuffer and Tab is pressed, beep if there "
+"is more than one matching file, even though some more letters were added."
+msgstr ""
+
+msgid "Window"
+msgstr ""
+
+msgid "Window behaviour"
+msgstr ""
+
+msgid "Window manager problems"
+msgstr ""
+
+msgid "XDS protocol error: leafname may not contain '/'\n"
+msgstr ""
+
+msgid "XDS protocol error: return code should be 'S', 'F' or 'E'\n"
+msgstr ""
+
+msgid "XdndDirectSave0 target provided, but the atom XdndDirectSave0 (type text/"
+"plain) did not contain a leafname\n"
+msgstr ""
+
+msgid "Xterm Here"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Years"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You can only set the backdrop to an image or to a program which knows how to "
+"manage ROX-Filer's backdrop.\n"
+"\n"
+"Programmers: the application's AppInfo.xml must contain the CanSetBackdrop "
+"element, as described in ROX-Filer's manual."
+msgstr ""
+
+msgid "You can only set the run action for a regular file"
+msgstr ""
+
+msgid "You can't open a second view onto this directory because the `Unique "
+"Windows' option is turned on in the Options window."
+msgstr ""
+
+msgid "You cannot do this to more than one item at a time"
+msgstr ""
+
+msgid "You have tried to close a panel via the window manager - I usually find that "
+"this is accidental... really close?"
+msgstr ""
+
+msgid "You must first select some items to remove"
+msgstr ""
+
+msgid "You must open the menu over an item"
+msgstr ""
+
+msgid "You need to select some items to count"
+msgstr ""
+
+msgid "You need to select some items to search through"
+msgstr ""
+
+msgid "You need to select the items whose permissions you want to change"
+msgstr ""
+
+msgid "You should Shift+Menu click over a file to send it somewhere"
+msgstr ""
+
+msgid "You should first select some rows to delete"
+msgstr ""
+
+msgid "You'll have to resize windows manually, using the window manager, the "
+"`Resize Window' menu entry or by double-clicking on the window background."
+msgstr ""
+
+msgid "Your CHOICESPATH variable setting prevents customisations - sorry."
+msgstr ""
+
+msgid "Your old panel file has been converted to the new XML format."
+msgstr ""
+
+msgid "Your old pinboard file has been converted to the new XML format."
+msgstr ""
+
+msgid "_Group"
+msgstr ""
+
+msgid "_Name"
+msgstr ""
+
+msgid "_Owner"
+msgstr ""
+
+msgid "_Permissions"
+msgstr ""
+
+msgid "_Quiet"
+msgstr ""
+
+msgid "_Relative link"
+msgstr ""
+
+msgid "_Replace"
+msgstr ""
+
+msgid "_Revert"
+msgstr ""
+
+msgid "_Size"
+msgstr ""
+
+msgid "_Type"
+msgstr ""
+
+msgid "`Xterm Here' program"
+msgstr ""
+
+msgid "a+x (Make executable/searchable)"
+msgstr ""
+
+msgid "a-x (Make non-executable/non-searchable)"
+msgstr ""
+
+msgid "atime"
+msgstr ""
+
+msgid "blocks"
+msgstr ""
+
+msgid "bottom-left"
+msgstr ""
+
+msgid "bottom-right"
+msgstr ""
+
+msgid "byte"
+msgstr ""
+
+msgid "bytes"
+msgstr ""
+
+msgid "ctime"
+msgstr ""
+
+msgid "directories"
+msgstr ""
+
+msgid "directory"
+msgstr ""
+
+msgid "features set at compile time"
+msgstr ""
+
+msgid "file"
+msgstr ""
+
+msgid "file(1) says... %s"
+msgstr ""
+
+msgid "files"
+msgstr ""
+
+msgid "gid"
+msgstr ""
+
+msgid "go-rwx (Private - owner access only)"
+msgstr ""
+
+msgid "go-w (Fix security problem)"
+msgstr ""
+
+msgid "go=u-w (Public access, not write)"
+msgstr ""
+
+msgid "horizontally"
+msgstr ""
+
+msgid "inode"
+msgstr ""
+
+msgid "item"
+msgstr ""
+
+msgid "items"
+msgstr ""
+
+msgid "lstat(2) failed: %s"
+msgstr ""
+
+msgid "merge contents"
+msgstr ""
+
+msgid "mounted"
+msgstr ""
+
+msgid "ms"
+msgstr ""
+
+msgid "mtime"
+msgstr ""
+
+msgid "nlinks"
+msgstr ""
+
+msgid "no directories)\n"
+msgstr ""
+
+msgid "overwrite"
+msgstr ""
+
+msgid "pixels"
+msgstr ""
+
+msgid "prune"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
+msgid "system"
+msgstr ""
+
+msgid "top-left"
+msgstr ""
+
+msgid "top-right"
+msgstr ""
+
+msgid "u+rw (Give owner read+write)"
+msgstr ""
+
+msgid "uid"
+msgstr ""
+
+msgid "unmounted"
+msgstr ""
+
+msgid "vertically"
+msgstr ""
+
+msgid "!%s\n"
+"eject failed\n"
+msgstr ""
+
+msgid "!Invalid type - change it and try again\n"
+msgstr ""
+
+msgid "%s '%s'"
+msgstr ""
+
+msgid "%s total, %s used, %s free (%.1f %%)"
+msgstr ""
+
+msgid "'%s' is no longer a symlink"
+msgstr ""
+
+msgid "'(seems to be mounted now anyway)\n"
+msgstr ""
+
+msgid "'Changing type of '%s' to '%s'\n"
+msgstr ""
+
+msgid "'Eject '%s'\n"
+msgstr ""
+
+msgid ".\n"
+"Home page (including updated versions): http://rox.sourceforge.net/\n"
+msgstr ""
+
+msgid "<b>Contents indicate...</b>"
+msgstr ""
+
+msgid "<b>Permissions</b>"
+msgstr ""
+
+msgid "?Change type of '%s'?"
+msgstr ""
+
+msgid "?Eject '%s'?"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Arguments to pass (for executables):"
+msgstr ""
+
+msgid "Ask the window manager not to cover panels at all when you maximise windows. "
+"Some window managers may not honour this. If unset, the filer asks for just "
+"a couple of pixels at the edge of the screen to remain uncovered, so that "
+"auto-raising works."
+msgstr ""
+
+msgid "Binary compatibility"
+msgstr ""
+
+msgid "Bottom margin"
+msgstr ""
+
+msgid "Change contents of subdirectories"
+msgstr ""
+
+msgid "Change sort criteria"
+msgstr ""
+
+msgid "Confine to Xinerama monitor"
+msgstr ""
+
+msgid "Could not change permissions: %s"
+msgstr ""
+
+msgid "Customise Menu..."
+msgstr ""
+
+msgid "Czech"
+msgstr ""
+
+msgid "Disable this option if the panel stays above other windows against your "
+"wishes. Requires a restart to take effect."
+msgstr ""
+
+msgid "Display style"
+msgstr ""
+
+msgid "Do not cover panel"
+msgstr ""
+
+msgid "Don't log each file as it is moved"
+msgstr ""
+
+msgid "Double-click on background resizes"
+msgstr ""
+
+msgid "Download handler"
+msgstr ""
+
+msgid "Each filer window is constrained to be wide enough to show the whole of the "
+"toolbar"
+msgstr ""
+
+msgid "Eject"
+msgstr ""
+
+msgid "Enter a file name pattern to select all matching files:\n"
+"\n"
+"? means any character\n"
+"* means zero or more characters\n"
+"[aA] means 'a' or 'A'\n"
+"[a-z] means any character from a to z (lowercase)\n"
+"*.png means any name ending in '.png'"
+msgstr ""
+
+msgid "Enter a pattern to match for files to be shown.  An empty filter turns the "
+"filter off."
+msgstr ""
+
+msgid "Exec"
+msgstr ""
+
+msgid "Failed to add some items to the pinboard, because they are on a remote "
+"machine. For example:\n"
+"\n"
+"%s"
+msgstr ""
+
+msgid "Failed to create symlink '%s':\n"
+"%s\n"
+"\n"
+"(this may mean that the ROX theme already exists there, but the 'mime-"
+"application:postscript' icon couldn't be loaded for some reason)"
+msgstr ""
+
+msgid "Failed to create symlink from '%s':\n"
+"%s\n"
+"(note: old link has been deleted)"
+msgstr ""
+
+msgid "Failed to read size"
+msgstr ""
+
+msgid "Failed to scan"
+msgstr ""
+
+msgid "Failed to unlink '%s':\n"
+"%s"
+msgstr ""
+
+msgid "File menu on right-click"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Filter Files..."
+msgstr ""
+
+msgid "For all files of type `%s' (%s/%s)"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Height of no-go area at bottom of screen."
+msgstr ""
+
+msgid "Height of no-go area at top of screen."
+msgstr ""
+
+msgid "Icon theme"
+msgstr ""
+
+msgid "Icon theme '%s' does not contain MIME icons. Using ROX default theme instead."
+msgstr ""
+
+msgid "If on then double clicking on the window background resizes the window, just "
+"like clicking on the Automatic size mode button in the toolbar."
+msgstr ""
+
+msgid "If you have an Xinerama multi-monitor setup, use this option to confine the "
+"panels to one monitor instead of spanning them."
+msgstr ""
+
+msgid "Link target:"
+msgstr ""
+
+msgid "No (apsymbols.h not found)"
+msgstr ""
+
+msgid "No (need 2.8.0 or later)"
+msgstr ""
+
+msgid "Only log directories as they are copied"
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+msgid "Panel is a 'dock'"
+msgstr ""
+
+msgid "Path"
+msgstr ""
+
+msgid "Pattern:"
+msgstr ""
+
+msgid "Portuguese (Brasil)"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Properties of ... ?"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Romanian"
+msgstr ""
+
+msgid "SGID"
+msgstr ""
+
+msgid "SUID"
+msgstr ""
+
+msgid "Save Display Settings..."
+msgstr ""
+
+msgid "Scanning"
+msgstr ""
+
+msgid "Select Named:"
+msgstr ""
+
+msgid "Select all/invert selection"
+msgstr ""
+
+msgid "Select by Name..."
+msgstr ""
+
+msgid "Select display properties to save"
+msgstr ""
+
+msgid "Set Type..."
+msgstr ""
+
+msgid "Set type"
+msgstr ""
+
+msgid "Set type of ... ?"
+msgstr ""
+
+msgid "Set type reference"
+msgstr ""
+
+msgid "Show hidden"
+msgstr ""
+
+msgid "Show the File menu instead of the main menu when right-clicking with files "
+"selected (the main menu can be accessed by holding down Control)."
+msgstr ""
+
+msgid "Sometimes the filer doesn't know about your desktop furniture and puts "
+"iconified windows under (for example) the Gnome panel. You can define a top "
+"or bottom margin to avoid placing the icons there. The filer already knows "
+"about its own panel."
+msgstr ""
+
+msgid "Sort"
+msgstr ""
+
+msgid "Sort by date"
+msgstr ""
+
+msgid "Sort by group"
+msgstr ""
+
+msgid "Sort by name"
+msgstr ""
+
+msgid "Sort by owner"
+msgstr ""
+
+msgid "Sort by size"
+msgstr ""
+
+msgid "Sort by type"
+msgstr ""
+
+msgid "Sort type and order"
+msgstr ""
+
+msgid "Sticky"
+msgstr ""
+
+msgid "Symlink any programs you want into this directory. They will appear in the "
+"menu for all items of this type (%s/%s)."
+msgstr ""
+
+msgid "The monitor the panels are confined to in Xinerama mode (numbered from 0)."
+msgstr ""
+
+msgid "Themes should be placed inside the ~/.icons directory."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Top margin"
+msgstr ""
+
+msgid "Use the 'Set Icon...' dialog box to set the icon for each MIME type. Note "
+"that icons set this way override those from the selected theme."
+msgstr ""
+
+msgid "User-definable shortcuts are disabled by default in Gtk2, and you have not "
+"enabled them. You can turn this feature on by:\n"
+"\n"
+"1) using an XSettings manager, such as ROX-Session or gnome-settings-daemon, "
+"or\n"
+"\n"
+"2) adding this line to ~/.gtkrc-2.0:\n"
+"\tgtk-can-change-accels = 1\n"
+"\t(this only works if NOT using XSETTINGS)"
+msgstr ""
+
+msgid "When you drag a file from a web browser or other remote source, this program "
+"will be run to download it. $1 is the URI dragged to the filer, and the "
+"current directory is the destination. Eg:\n"
+"xterm -e wget $1"
+msgstr ""
+
+msgid "Width of toolbar sets minimum width of window"
+msgstr ""
+
+msgid "World"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Xinerama"
+msgstr ""
+
+msgid "Xinerama monitor %d unavailable"
+msgstr ""
+
+msgid "Yes (can run with older glibc versions)"
+msgstr ""
+
+msgid "You need to select the items whose type you want to change"
+msgstr ""
+
+msgid "ascending"
+msgstr ""
+
+msgid "descending"
+msgstr ""
+
+msgid "\n"
+"\n"
+"Note: If this is a computer program which you want to run, you need to set "
+"the execute bit by choosing Permissions from the File menu."
+msgstr ""
+
+msgid "%d directories could not be migrated"
+msgstr ""
+
+msgid "%d names matched, but the results were all the same"
+msgstr ""
+
+msgid "%s (for '%s')"
+msgstr ""
+
+msgid "A file called '%s' already exists"
+msgstr ""
+
+msgid "A file called '%s' already exists. Aborting bulk rename."
+msgstr ""
+
+msgid "Any files placed in your Templates directories will appear on the `New' "
+"menu. Choosing one of them will make a copy of it as the new file.\n"
+"\n"
+"The following directories contain templates:\n"
+"\n"
+"%s\n"
+"%s\n"
+msgstr ""
+
+msgid "Basque"
+msgstr ""
+
+msgid "Both a panel and a pinboard are shown."
+msgstr ""
+
+msgid "Bottom edge"
+msgstr ""
+
+msgid "Bottom edge panel"
+msgstr ""
+
+msgid "Bulk rename files"
+msgstr ""
+
+msgid "Change permissions reference"
+msgstr ""
+
+msgid "Changes here take effect the next time the filer is run."
+msgstr ""
+
+msgid "Choices have been moved from \n"
+"<b>%s</b>\n"
+" to the new location \n"
+"<b>%s</b>\n"
+msgstr ""
+
+msgid "Choices migration"
+msgstr ""
+
+msgid "Choose between the fast or slow method of scaling backdrop images.  The slow "
+"method can give better results."
+msgstr ""
+
+msgid "Copyright (C) 2005 Thomas Leonard.\n"
+"ROX-Filer comes with ABSOLUTELY NO WARRANTY,\n"
+"to the extent permitted by law.\n"
+"You may redistribute copies of ROX-Filer\n"
+"under the terms of the GNU General Public License.\n"
+"For more information about these matters, see the file named COPYING.\n"
+msgstr ""
+
+msgid "Desktop"
+msgstr ""
+
+msgid "Do a search-and-replace in the New column. The files are not actually "
+"renamed until you click on the Rename button below."
+msgstr ""
+
+msgid "Don't use extended attributes"
+msgstr ""
+
+msgid "Edit MIME rules"
+msgstr ""
+
+msgid "Enter the name of the panel to show here."
+msgstr ""
+
+msgid "Enter the name of the pinboard to show here."
+msgstr ""
+
+msgid "Estonian"
+msgstr ""
+
+msgid "Extended attributes"
+msgstr ""
+
+msgid "Extended attributes, used to store types, are not supported for this file or "
+"files.\n"
+"This may be due to lack of support from the filesystem or the C library, or "
+"it may simply be that the filesystem needs to be mounted with the right "
+"mount option ('user_xattr' on Linux)."
+msgstr ""
+
+msgid "Extended attributes:"
+msgstr ""
+
+msgid "Failed to load image '%s': reason not known, probably a corrupt image file"
+msgstr ""
+
+msgid "Failed to open file '%s': %s"
+msgstr ""
+
+msgid "Failed to rename '%s' as '%s':\n"
+"%s\n"
+"Aborting bulk rename."
+msgstr ""
+
+msgid "Fast scaling of images"
+msgstr ""
+
+msgid "Finnish"
+msgstr ""
+
+msgid "G"
+msgstr ""
+
+msgid "Gb"
+msgstr ""
+
+msgid "I'll show you your Templates directory now; you should place any template "
+"files you want inside it."
+msgstr ""
+
+msgid "If this is on then the full description of each object's type will be show "
+"rather than a short summary of its basic type."
+msgstr ""
+
+msgid "If this option is on, the filer will only show iconified windows associated "
+"with the current workspace."
+msgstr ""
+
+msgid "If this option is on, then large icons are sorted vertically, not "
+"horizontally."
+msgstr ""
+
+msgid "If this option is on, then small icons are ordered vertically, not "
+"horizontally."
+msgstr ""
+
+msgid "K"
+msgstr ""
+
+msgid "Kb"
+msgstr ""
+
+msgid "Left edge"
+msgstr ""
+
+msgid "Left edge panel"
+msgstr ""
+
+msgid "Link (absolute)"
+msgstr ""
+
+msgid "Link (relative)"
+msgstr ""
+
+msgid "M"
+msgstr ""
+
+msgid "Make the New column a copy of Old"
+msgstr ""
+
+msgid "Mb"
+msgstr ""
+
+msgid "New name"
+msgstr ""
+
+msgid "No change"
+msgstr ""
+
+msgid "No run action specified for files of this type (%s/%s) - you can set a run "
+"action by choosing `Set Run Action' from the File menu, or you can just drag "
+"the file to an application.%s"
+msgstr ""
+
+msgid "No shadow"
+msgstr ""
+
+msgid "No strings (in the New column) matched the given expression"
+msgstr ""
+
+msgid "No toolbar"
+msgstr ""
+
+msgid "None of the names have changed. Nothing to do!"
+msgstr ""
+
+msgid "Normally ROX-Filer determines the type of a regular file\n"
+"by matching it's name against a pattern. To change the\n"
+"type of the file you must rename it.\n"
+"\n"
+"Newer file systems can support something called 'Extended\n"
+"Attributes' which can be used to store additional data with\n"
+"each file as named parameters. ROX-Filer uses the\n"
+"'user.mime_type' attribute to store file types.\n"
+"\n"
+"File types are only supported for regular files, not\n"
+"directories, devices, pipes or sockets, and then only\n"
+"on certain file systems and where the OS implements them.\n"
+msgstr ""
+
+msgid "Not supported"
+msgstr ""
+
+msgid "Old name"
+msgstr ""
+
+msgid "One name matched, but the result was the same"
+msgstr ""
+
+msgid "Only a panel is shown."
+msgstr ""
+
+msgid "Only the pinboard is shown."
+msgstr ""
+
+msgid "Order large icons vertically"
+msgstr ""
+
+msgid "Order small icons vertically"
+msgstr ""
+
+msgid "Panel"
+msgstr ""
+
+msgid "Panel Options"
+msgstr ""
+
+msgid "Panel Options..."
+msgstr ""
+
+msgid "Panel and pinboard"
+msgstr ""
+
+msgid "Panel only"
+msgstr ""
+
+msgid "Panel: %s"
+msgstr ""
+
+msgid "Pinboard only"
+msgstr ""
+
+msgid "Present"
+msgstr ""
+
+msgid "Replace:"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Right edge"
+msgstr ""
+
+msgid "Right-edge panel"
+msgstr ""
+
+msgid "See the attr(5) man page for full details."
+msgstr ""
+
+msgid "See the fsattr(5) man page for full details."
+msgstr ""
+
+msgid "Select the panel's position:"
+msgstr ""
+
+msgid "Setting type not supported for some of these files"
+msgstr ""
+
+msgid "Show full type"
+msgstr ""
+
+msgid "Show per workspace"
+msgstr ""
+
+msgid "Some of the New names contain / characters (eg '%s'). This will cause the "
+"files to end up in different directories. Continue?"
+msgstr ""
+
+msgid "Specify a regular expression to match, and a string to replace matches with."
+msgstr ""
+
+msgid "The filer uses a set of rules to work out the correct MIME type for each "
+"regular file, and then chooses a suitable icon for that type."
+msgstr ""
+
+msgid "The first match in each filename will be replaced by this string. There are "
+"no special characters."
+msgstr ""
+
+msgid "The session manager activates these options by using the -S or --rox-session "
+"argument to rox."
+msgstr ""
+
+msgid "Themes"
+msgstr ""
+
+msgid "This disables the use of extended attributes available in newer operating "
+"systems and file systems.  With this option set the 'Set Type' menu entry is "
+"disabled, the MIME type of the file is only derived from the file name and "
+"the properties window does not report extended attributes."
+msgstr ""
+
+msgid "This is a regular expression to search for.\n"
+"^ matches the start of a filename\n"
+"$ matches the end\n"
+"\\. matches a dot\n"
+"\\.htm$ matches the '.htm' in 'index.htm', etc"
+msgstr ""
+
+msgid "This program cannot be run, as the 0launch command is not available. It can "
+"be downloaded from here:\n"
+"\n"
+"http://0install.net/injector.html"
+msgstr ""
+
+msgid "Top edge"
+msgstr ""
+
+msgid "Top-edge panel"
+msgstr ""
+
+msgid "Usage: ROX-Filer/AppRun [OPTION]... [FILE]...\n"
+"Open each directory or file listed, or the current working\n"
+"directory if no arguments are given.\n"
+"\n"
+"  -b, --border=PANEL\topen PANEL as a border panel\n"
+"  -B, --bottom=PANEL\topen PAN as a bottom-edge panel\n"
+"  -c, --client-id=ID\tused for session management\n"
+"  -d, --dir=DIR\t\topen DIR as directory (not application)\n"
+"  -D, --close=DIR\tclose DIR and its subdirectories\n"
+"  -h, --help\t\tdisplay this help and exit\n"
+"  -l, --left=PANEL\topen PAN as a left-edge panel\n"
+"  -m, --mime-type=FILE\tprint MIME type of FILE and exit\n"
+"  -n, --new\t\tstart new copy; for debugging the filer\n"
+"  -p, --pinboard=PIN\tuse pinboard PIN as the pinboard\n"
+"  -r, --right=PANEL\topen PAN as a right-edge panel\n"
+"  -R, --RPC\t\tinvoke method call read from stdin\n"
+"  -s, --show=FILE\topen a directory showing FILE\n"
+"  -S, --rox-session\tuse default panel and pinboard options, and -n\n"
+"  -t, --top=PANEL\topen PANEL as a top-edge panel\n"
+"  -u, --user\t\tshow user name in each window \n"
+"  -v, --version\t\tdisplay the version information and exit\n"
+"  -x, --examine=FILE\tFILE has changed - re-examine it\n"
+"\n"
+"Report bugs to "
+msgstr ""
+
+msgid "Video thumbnails"
+msgstr ""
+
+msgid "We got a BadWindow error from the X server. This might be due to this GTK "
+"bug (during drag-and-drop?):\n"
+"http://bugzilla.gnome.org/show_bug.cgi?id=152151\n"
+"Trying to continue..."
+msgstr ""
+
+msgid "When run by a session manager program (such as ROX-Session) the filer can "
+"open up a panel and/or the pinboard.  Here you configure which."
+msgstr ""
+
+msgid "With:"
+msgstr ""
+
+msgid "You do not appear to have OS support."
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+msgid "_Use Command"
+msgstr ""
+
+msgid "%s not accessable"
+msgstr ""
+
+msgid "%s on %d items"
+msgstr ""
+
+msgid "%s: no handler for %s"
+msgstr ""
+
+msgid "'%s' is not a valid URI"
+msgstr ""
+
+msgid "'Non-regular file '%s' not changed\n"
+msgstr ""
+
+msgid "'Not changing type of directory '%s'\n"
+msgstr ""
+
+msgid "<b>Panel style</b>"
+msgstr ""
+
+msgid "<b>Position</b>"
+msgstr ""
+
+msgid "<b>Save display settings for directory</b>"
+msgstr ""
+
+msgid "<b>When all directories are closed</b>"
+msgstr ""
+
+msgid "<b>Xinerama</b>"
+msgstr ""
+
+msgid "?Change contents of '%s'?"
+msgstr ""
+
+msgid "A"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Add Panel"
+msgstr ""
+
+msgid "All, "
+msgstr ""
+
+msgid "An item must be unlocked before it can be removed."
+msgstr ""
+
+msgid "Applications in this panel have just an image, everything else has both an "
+"image and text."
+msgstr ""
+
+msgid "Are you sure you want to remove this panel from the desktop?"
+msgstr ""
+
+msgid "Ask"
+msgstr ""
+
+msgid "Ask the window manager not to cover this panel when maximising windows, "
+"otherwise leave just 2 pixels at the edge of the screen to allow auto-"
+"raising. Some window managers may not honour this setting."
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Choices have been moved from \n"
+"%s\n"
+" to the new location \n"
+"%s\n"
+"%s"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Do nothing"
+msgstr ""
+
+msgid "Eject command"
+msgstr ""
+
+msgid "Enter the name of the panel to show here. This option is now only used when "
+"upgrading from an old version."
+msgstr ""
+
+msgid "Error in '%s' file at line %d: \n"
+"\"%s\"\n"
+"This may be due to upgrading from a previous version of ROX-Filer. Open the "
+"Options window and try changing something and then changing it back (causing "
+"the file to be resaved).\n"
+"Further errors will be ignored."
+msgstr ""
+
+msgid "Every icon on this panel is shown with an image and some text."
+msgstr ""
+
+msgid "Execute"
+msgstr ""
+
+msgid "Extended attribute support"
+msgstr ""
+
+msgid "Failed to create symlink '%s':\n"
+"%s"
+msgstr ""
+
+msgid "Failed to mmap file '%s': %s"
+msgstr ""
+
+msgid "Failed to open and stat file '%s': %s"
+msgstr ""
+
+msgid "File system table \"%s\" not found, cannot monitor system mounts"
+msgstr ""
+
+msgid "Filter Directories With Files"
+msgstr ""
+
+msgid "Fit"
+msgstr ""
+
+msgid "Font for displaying mono-spaced text"
+msgstr ""
+
+msgid "Glob (%s), "
+msgstr ""
+
+msgid "If this is on then files which have one or more extended attributes set will "
+"have an emblem added to indicate this."
+msgstr ""
+
+msgid "If this option is on, then large icons are arranged in columns, not rows."
+msgstr ""
+
+msgid "If this option is on, then small icons are arranged in columns, not rows."
+msgstr ""
+
+msgid "If you use multiple monitors with Xinerama, use this option to confine the "
+"panel to one monitor."
+msgstr ""
+
+msgid "Image and Text"
+msgstr ""
+
+msgid "Inotify support"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Keeps the panel above other windows. Enable this option to make sure the "
+"dock option works correctly in some versions of compiz. May require a "
+"restart to take effect."
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Left margin"
+msgstr ""
+
+msgid "Left-click to run %s.\n"
+"Right-click for a list of versions."
+msgstr ""
+
+msgid "Left: Show/hide hidden files\n"
+"Right: Show/hide thumbnails"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Locking an item prevents it from being accidentally removed"
+msgstr ""
+
+msgid "Makes sure panels stay against screen edges. Disable this option if the "
+"panel stays above other windows against your wishes. Requires a restart to "
+"take effect."
+msgstr ""
+
+msgid "Manage thumbnails"
+msgstr ""
+
+msgid "Mono font"
+msgstr ""
+
+msgid "Mount command"
+msgstr ""
+
+msgid "Mount commands"
+msgstr ""
+
+msgid "Non-local URL %s"
+msgstr ""
+
+msgid "Only the image is shown for icons in this panel."
+msgstr ""
+
+msgid "Open Directory"
+msgstr ""
+
+msgid "Panel (obsolete)"
+msgstr ""
+
+msgid "Panel stays on top"
+msgstr ""
+
+msgid "Panel width"
+msgstr ""
+
+msgid "Perform the same action in future for this mount point"
+msgstr ""
+
+msgid "ROX-Filer log viewer"
+msgstr ""
+
+msgid "ROX-Filer started"
+msgstr ""
+
+msgid "Recently performed actions..."
+msgstr ""
+
+msgid "Remove Panel"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Right margin"
+msgstr ""
+
+msgid "Save Current Display Settings..."
+msgstr ""
+
+msgid "Scale the image to fit the backdrop area, regardless of image dimensions - "
+"overscale"
+msgstr ""
+
+msgid "Select settings to save"
+msgstr ""
+
+msgid "Show Log"
+msgstr ""
+
+msgid "Show extended attribute indicator"
+msgstr ""
+
+msgid "Switch to Terminal"
+msgstr ""
+
+msgid "Terminal Here"
+msgstr ""
+
+msgid "Terminal emulator program"
+msgstr ""
+
+msgid "The command used to eject removable media. If unsure, use \"eject\"."
+msgstr ""
+
+msgid "The command used to mount a filesystem. If unsure, use \"mount\"."
+msgstr ""
+
+msgid "The command used to unmount a filesystem. If unsure, use \"umount\" (yes, "
+"without the first \"n\")."
+msgstr ""
+
+msgid "The first match in each filename will be replaced by this string. The only "
+"special characters are back-references from \\0 to \\9. To use them "
+"literally, they have to be escaped with a backslash."
+msgstr ""
+
+msgid "The monitor this panel is confined to when using Xinerama. The numbering "
+"starts from zero."
+msgstr ""
+
+msgid "The program to launch when you choose `Terminal Here' from the menu."
+msgstr ""
+
+msgid "The size of this panel."
+msgstr ""
+
+msgid "This program (%s) cannot be run, as the 0launch command is not available. It "
+"can be downloaded from here:\n"
+"\n"
+"http://0install.net/injector.html"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Unable to read '%s': %s"
+msgstr ""
+
+msgid "Unable to replace '%s'"
+msgstr ""
+
+msgid "Unable to save '%s'"
+msgstr ""
+
+msgid "Unknown side"
+msgstr ""
+
+msgid "Unmount command"
+msgstr ""
+
+msgid "Usage: ROX-Filer/AppRun [OPTION]... [FILE]...\n"
+"Open each directory or file listed, or the current working\n"
+"directory if no arguments are given.\n"
+"\n"
+"  -b, --border=PANEL\topen PANEL as a border panel\n"
+"  -B, --bottom=PANEL\topen PAN as a bottom-edge panel\n"
+"  -c, --client-id=ID\tused for session management\n"
+"  -d, --dir=DIR\t\topen DIR as directory (not application)\n"
+"  -D, --close=DIR\tclose DIR and its subdirectories\n"
+"  -h, --help\t\tdisplay this help and exit\n"
+"  -l, --left=PANEL\topen PAN as a left-edge panel\n"
+"  -m, --mime-type=FILE\tprint MIME type of FILE and exit\n"
+"  -n, --new\t\tstart new copy; for debugging the filer\n"
+"  -p, --pinboard=PIN\tuse pinboard PIN as the pinboard\n"
+"  -r, --right=PANEL\topen PAN as a right-edge panel\n"
+"  -R, --RPC\t\tinvoke method call read from stdin\n"
+"  -s, --show=FILE\topen a directory showing FILE\n"
+"  -S, --rox-session\tuse default panel and pinboard options, and -n\n"
+"  -t, --top=PANEL\topen PANEL as a top-edge panel\n"
+"  -u, --user\t\tshow user name in each window \n"
+"  -U, --url=URL\t\topen file or directory in URI form\n"
+"  -v, --version\t\tdisplay the version information and exit\n"
+"  -x, --examine=FILE\tFILE has changed - re-examine it\n"
+"\n"
+"Report bugs to %s.\n"
+"Home page (including updated versions): http://rox.sourceforge.net/\n"
+msgstr ""
+
+msgid "Width of no-go area at left of screen."
+msgstr ""
+
+msgid "Width of no-go area at right of screen."
+msgstr ""
+
+msgid "You must unlock '%s' before removing it"
+msgstr ""
+
+msgid "px"
+msgstr ""
+
+msgid "Failed to create symlink '%s':\n"
+"%s\n"
+"\n"
+"(this may mean that the ROX theme already exists there, but the 'mime-"
+"application:postscript' icon couldn't be loaded for some reason, or %s is a "
+"link to an invalid directory; try deleting it)"
+msgstr ""
+
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+msgid "Ukrainian"
+msgstr ""
+
+msgid "Vietnamese"
+msgstr ""
+
+msgid "Failed to create symlink '%s':\n"
+"%s\n"
+"\n"
+"(this may mean that %s already exists as a link to an invalid directory; try "
+"deleting it)"
+msgstr ""
+
+msgid ""
+"If you use multiple montors with Xinerama, use this option to confine the "
+"panel to one monitor."
+msgstr ""
+

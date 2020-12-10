@@ -1,0 +1,3813 @@
+msgid ""
+msgstr "Project-Id-Version: pavuk-0.9pl28\n"
+"PO-Revision-Date: 2001-08-22 22:31+0200\n"
+"Last-Translator: Petr Čech <cech@debian.org>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "\t issuer: %s\n"
+msgstr ""
+
+msgid "\t subject: %s\n"
+msgstr ""
+
+msgid "\t%s    (%d bytes)\n"
+msgstr ""
+
+msgid "\t-FTPdir/-noFTPdir  - recurse FTP directory\n"
+msgstr ""
+
+msgid "\t-FTPhtml/-noFTPhtml\n"
+"\t                   - process HTML files downloaded over FTP\n"
+msgstr ""
+
+msgid "\t-FTPlist/-noFTPlist\n"
+"\t                   - use wide FTP directory listing\n"
+msgstr ""
+
+msgid "\t-X                 - start GUI interface\n"
+msgstr ""
+
+msgid "\t-acharset $list    - list of preferred character sets (only via HTTP)\n"
+msgstr ""
+
+msgid "\t-adomain $list     - list of allowed domains\n"
+msgstr ""
+
+msgid "\t-adv_re $RE        - regular expressions for matching advertisement\n"
+"\t                     banner URLs\n"
+msgstr ""
+
+msgid "\t-aip_pattern $re   - pattern for allowed IP addresses of servers\n"
+msgstr ""
+
+msgid "\t-alang $list       - list of preferred languages (only via HTTP)\n"
+msgstr ""
+
+msgid "\t-all_to_local/-noall_to_local\n"
+"\t                   - change all links inside HTML document to\n"
+"\t                     local immediately after download\n"
+msgstr ""
+
+msgid "\t-all_to_remote/-noall_to_remote\n"
+"\t                   - change all links inside HTML document to\n"
+"\t                     remote immediately after download and\n"
+"\t                     don't do any further changes to it\n"
+msgstr ""
+
+msgid "\t-amimet $list      - list of alloved MIME types\n"
+msgstr ""
+
+msgid "\t-aport $list       - allow downloading of documents from servers\n"
+"\t                     siting on listed ports\n"
+msgstr ""
+
+msgid "\t-aprefix $list     - list of allowed directory/file prefixes\n"
+msgstr ""
+
+msgid "\t-asfx $list        - list of allowed suffixes\n"
+msgstr ""
+
+msgid "\t-asite $list       - comma-separated list of allowed sites\n"
+msgstr ""
+
+msgid "\t-auth_file $file   - file where you have stored your auth infos\n"
+"\t                     see manual for format description\n"
+msgstr ""
+
+msgid "\t-auth_name $str    - name for Authorization (only via HTTP)\n"
+msgstr ""
+
+msgid "\t-auth_ntlm_domain $str\n"
+"\t                   - SMB domain name for HTTP NTLM authorization\n"
+msgstr ""
+
+msgid "\t-auth_passwd $str  - password for Authorization (only via HTTP)\n"
+msgstr ""
+
+msgid "\t-auth_proxy_ntlm_domain $str\n"
+"\t                   - SMB domain name for HTTP proxy NTLM authorization\n"
+msgstr ""
+
+msgid "\t-auth_reuse_nonce/-noauth_reuse_nonce\n"
+"\t                   - reuse one HTTP digest access authorization\n"
+"\t                     nonce for more requests\n"
+msgstr ""
+
+msgid "\t-auth_reuse_proxy_nonce/-noauth_reuse_proxy_nonce\n"
+"\t                   - reuse one HTTP proxy digest access\n"
+"\t                     authorization nonce for more requests\n"
+msgstr ""
+
+msgid "\t-auth_scheme 1/2/3 - HTTP authorization scheme 1-user 2-Basic 3-Digest,\n"
+"\t                     default 2\n"
+msgstr ""
+
+msgid "\t-auto_referer/-noauto_referer\n"
+"\t                   - in HTTP request send for each starting URL\n"
+"\t                     Referer: field which contains its own URL\n"
+msgstr ""
+
+msgid "\t-base_level $nr    - number of levels of directory tree to omit from top\n"
+msgstr ""
+
+msgid "\t-bg/-nobg          - detach pavuk proces from terminal and\n"
+"\t                     don't output any messages on screen\n"
+msgstr ""
+
+msgid "\t-browser $str      - your preferred browser programm\n"
+msgstr ""
+
+msgid "\t-bufsize $nr       - size of read buffer (kB)\n"
+msgstr ""
+
+msgid "\t-cdir $dir         - directory for storing documents\n"
+msgstr ""
+
+msgid "\t-check_bg/-nocheck_bg\n"
+"\t                   - if running at background, don't write any\n"
+"\t                     messages to screen\n"
+msgstr ""
+
+msgid "\t-check_size/-nocheck_size\n"
+"\t                   - compare received size of file with\n"
+"\t                     that provided by remote server\n"
+msgstr ""
+
+msgid "\t-cookie_check/-nocookie_check\n"
+"\t                   - check if cookies are set for source domain\n"
+msgstr ""
+
+msgid "\t-cookie_file $file - file where are stored cookie infos\n"
+msgstr ""
+
+msgid "\t-cookie_recv/-nocookie_recv\n"
+"\t                   - accept cookies from HTTP response\n"
+msgstr ""
+
+msgid "\t-cookie_send/-nocookie_send\n"
+"\t                   - send cookie info in HTTP request\n"
+msgstr ""
+
+msgid "\t-cookie_update/-nocookie_update\n"
+"\t                   - update cookies in cookies file\n"
+msgstr ""
+
+msgid "\t-cookies_max $nr   - maximal number of cookies in cookie cache\n"
+msgstr ""
+
+msgid "\t-ddays $nr         - number of days since last access when document is\n"
+"\t                     checked in sync mode\n"
+msgstr ""
+
+msgid "\t-ddomain $list     - list of disallowed domains\n"
+msgstr ""
+
+msgid "\t-debug             - turn on debug mode\n"
+msgstr ""
+
+msgid "\t-debug_level $l    - debug level number, see manual for $l description\n"
+msgstr ""
+
+msgid "\t-default_prefix $str\n"
+"\t                  - default URL prefix for subdirectory of\n"
+"\t                    mirrored files\n"
+msgstr ""
+
+msgid "\t-del_after/-nodel_after\n"
+"\t                   - delete FTP document after succesfull transfer\n"
+msgstr ""
+
+msgid "\t-dip_pattern $re   - pattern for disallowed IP addresses of servers\n"
+msgstr ""
+
+msgid "\t-disable_html_tag $TAG,[$ATTRIB][;...]\n"
+"\t                   - disable processing of URLs from\n"
+"\t                     attribute $ATTRIB of HTML tag $TAG\n"
+msgstr ""
+
+msgid "\t-disabled_cookie_domains $list\n"
+"\t                   - comma-separated list of disabled cookie domains\n"
+msgstr ""
+
+msgid "\t-dmax $nr          - maximal number of downloaded documents\n"
+msgstr ""
+
+msgid "\t-dmimet $list      - list of disallowed MIME types\n"
+msgstr ""
+
+msgid "\t-dont_leave_dir/-leave_dir\n"
+"\t                   - don't/leave directory of starting URL\n"
+msgstr ""
+
+msgid "\t-dont_leave_site/-leave_site\n"
+"\t                   - don't/leave site of starting URL\n"
+msgstr ""
+
+msgid "\t-dport $list       - deny downloading of documents from servers\n"
+"\t                     siting on listed ports\n"
+msgstr ""
+
+msgid "\t-dprefix $list     - list of disallowed directory/file prefixes\n"
+msgstr ""
+
+msgid "\t-dsfx $list        - list of disallowed suffixes\n"
+msgstr ""
+
+msgid "\t-dsite $list       - comma-separated list of disallowed sites\n"
+msgstr ""
+
+msgid "\t-dump_after/-nodump_after\n"
+"\t                   - when used with option -dumpfd, dump document after\n"
+"\t                     successful download and processing of HTML\n"
+"\t                     documents\n"
+msgstr ""
+
+msgid "\t-dump_response/-nodump_response\n"
+"\t                   - when used with option -dumpfd, also responses\n"
+"\t                     from HTTP servers will be dumped\n"
+msgstr ""
+
+msgid "\t-dump_urlfd $nr    - number of filedescriptor where to output\n"
+"\t                     all URLs found in documents\n"
+msgstr ""
+
+msgid "\t-dumpfd $nr        - number of filedescriptor where to output\n"
+"\t                     document contents instead to file\n"
+msgstr ""
+
+msgid "\t-dumpscn $str      - save scenario in scndir with name $str\n"
+msgstr ""
+
+msgid "\t-egd_socket $file  - path to EGD listening socket\n"
+msgstr ""
+
+msgid "\t-enable_html_tag $TAG,[$ATTRIB][;...]\n"
+"\t                   - enable proccessing of URLs from\n"
+"\t                     attribute $ATTRIB of HTML tag $TAG\n"
+msgstr ""
+
+msgid "\t-enable_js/-disable_js\n"
+"\t                   - enable downloading of javascript source files\n"
+msgstr ""
+
+msgid "\t-ewait             - wait to finish program after downloading progress\n"
+"\t                     is done\n"
+msgstr ""
+
+msgid "\t-file_quota $nr    - maximal size of file to transfer (kB)\n"
+msgstr ""
+
+msgid "\t-fix_wuftpd_list/-nofix_wuftpd_list\n"
+"\t                   - do extensive checking of FTP directory presence to\n"
+"\t                     workaround WuFTPD broken responses when trying\n"
+"\t                     to list nonexisting directory\n"
+msgstr ""
+
+msgid "\t-fnrules $t $m $r  - local filename construction rules\n"
+"\t                     (for better description see manual)\n"
+msgstr ""
+
+msgid "\t-follow_cmd $str   - user exit script used tell if you want to follow\n"
+"\t                     any link from current HTML document\n"
+msgstr ""
+
+msgid "\t-force_reget/-noforce_reget\n"
+"\t                   - force reget of whole file when server doesn't\n"
+"\t                     support reget\n"
+msgstr ""
+
+msgid "\t-formdata $data    - used to specify HTML form fields, for HTML\n"
+"\t                     forms found during traversing document tree.\n"
+"\t                     Only forms mentiond in this option will be\n"
+"\t                     processed automaticaly.\n"
+"\t                     \"URL:$url\n"
+"\t                       FIELD:$variable=$value\n"
+"\t                       FILE:$variable=$filename\"\n"
+"\t                     (for more informations see manual page)\n"
+msgstr ""
+
+msgid "\t-from $str         - e-mail address used for user identification\n"
+msgstr ""
+
+msgid "\t-fs_quota $nr      - disk free space quota (kB)\n"
+msgstr ""
+
+msgid "\t-ftp_active        - select active FTP data connection\n"
+msgstr ""
+
+msgid "\t-ftp_dirtyproxy/-noftp_dirtyproxy\n"
+"\t                   - use CONNECT request to HTTP proxy for FTP\n"
+"\t                     connections\n"
+msgstr ""
+
+msgid "\t-ftp_httpgw/-noftp_httpgw\n"
+"\t                   - specified ftp proxy is HTTP gateway for FTP\n"
+msgstr ""
+
+msgid "\t-ftp_list_options $str\n"
+"\t                   - additional options or parameters to FTP LIST or\n"
+"\t                     NLST commands\n"
+msgstr ""
+
+msgid "\t-ftp_login_handshake $host $handshake\n"
+"\t                   - customize login handshake for FTP server\n"
+msgstr ""
+
+msgid "\t-ftp_passive       - select passive FTP data connection\n"
+msgstr ""
+
+msgid "\t-ftp_proxy $site[:$port]\n"
+"\t                   - ftp proxy/cache server\n"
+msgstr ""
+
+msgid "\t-ftp_proxy_pass $str\n"
+"\t                   - password for access authorization to FTP proxy\n"
+msgstr ""
+
+msgid "\t-ftp_proxy_user $str\n"
+"\t                   - username for access authorization to FTP proxy\n"
+msgstr ""
+
+msgid "\t-gopher_httpgw/-nogopher_httpgw\n"
+"\t                   - specified gopher proxy is HTTP gateway for Gopher\n"
+msgstr ""
+
+msgid "\t-gopher_proxy $site[:$port]\n"
+"\t                   - gopher proxy/cache server\n"
+msgstr ""
+
+msgid "\t-gui_font $font    - font name used in GUI interface\n"
+msgstr ""
+
+msgid "\t-h                 - help\n"
+msgstr ""
+
+msgid "\t-hack_add_index/-nohack_add_index\n"
+"\t                   - this is hack to allow adding of also directories\n"
+"\t                     of all queued files\n"
+msgstr ""
+
+msgid "\t-hash_size $nr     - size of internal hash tables for performance tuning\n"
+msgstr ""
+
+msgid "\t-http_proxy $site[:$port]\n"
+"\t                   - http proxy/cache server\n"
+msgstr ""
+
+msgid "\t-http_proxy_auth 1/2/3\n"
+"\t                   - authorization scheme for HTTP proxy authorization\n"
+msgstr ""
+
+msgid "\t-http_proxy_pass $str\n"
+"\t                   - password for HTTP proxy authorization\n"
+msgstr ""
+
+msgid "\t-http_proxy_user $str\n"
+"\t                   - user name for HTTP proxy authorization\n"
+msgstr ""
+
+msgid "\t-httpad $hdr       - additional HTTP header\n"
+msgstr ""
+
+msgid "\t-identity $str     - contents of User-agent: field in HTTP request\n"
+msgstr ""
+
+msgid "\t-ie_cache          - allow loading of files from MSIE browser cache\n"
+msgstr ""
+
+msgid "\t-immesg/-noimmesg  - write messages immediately after produced, not\n"
+"\t                     just when safe (from MT point of view)\n"
+msgstr ""
+
+msgid "\t-index_name $str   - name of directory index instead of _._.html\n"
+msgstr ""
+
+msgid "\t-info_dir $dir    - separate directory where will stored info files\n"
+"\t                    instead of directly into document tree\n"
+msgstr ""
+
+msgid "\t-js_pattern $re    - additional RE patterns for matching URLs in DOM\n"
+"\t                     event attributes of HTML tags\n"
+msgstr ""
+
+msgid "\t-js_script_file $file\n"
+"\t                  - script file with JavaScript functions\n"
+msgstr ""
+
+msgid "\t-js_transform $p $t $h $a\n"
+"\t                   - custom JS pattern with transformation\n"
+"\t                     $p - pattern\n"
+"\t                     $t - transfomation\n"
+"\t                     $h - HTML tag or * or \"\"\n"
+"\t                     $a - HTML attrib\n"
+msgstr ""
+
+msgid "\t-js_transform2 $p $t $h $a\n"
+"\t                   - custom JS pattern with transformation and\n"
+"\t                     rewriting of URLs in first subpattern\n"
+"\t                     $p - pattern\n"
+"\t                     $t - transfomation\n"
+"\t                     $h - HTML tag or * or \"\"\n"
+"\t                     $a - HTML attrib\n"
+msgstr ""
+
+msgid "\t-language $str     - set language for messages\n"
+msgstr ""
+
+msgid "\t-leave_level $nr   - how many tree levels leave from starting\n"
+"\t                     site , (0 == don't care) default 0\n"
+msgstr ""
+
+msgid "\t-leave_site_enter_dir/-dont_leave_site_enter_dir\n"
+"\t                   - leave directory which we first entered on site\n"
+msgstr ""
+
+msgid "\t-limit_inlines/-dont_limit_inlines\n"
+"\t                   - apply limiting options on page inline objects?\n"
+msgstr ""
+
+msgid "\t-lmax $nr          - allowed depth of tree\n"
+msgstr ""
+
+msgid "\t-local_ip $str     - use this local ip address of network interface.\n"
+"\t                     This option is for multihomed machines.\n"
+msgstr ""
+
+msgid "\t-logfile $file     - name of file where mesages are stored\n"
+msgstr ""
+
+msgid "\t-max_time $nr      - set maximal amount of time for program run\n"
+"\t                     in minutes, default 0 == no limit\n"
+"\t                     you can use floating point numbers, to\n"
+"\t                     specify subminute times\n"
+msgstr ""
+
+msgid "\t-maxrate $nr       - limit to maximal speed of transfer (kB/s)\n"
+msgstr ""
+
+msgid "\t-maxsize $nr       - maximal allowed size of document in bytes\n"
+msgstr ""
+
+msgid "\t-minrate $nr       - limit to minimal speed of transfer (kB/s)\n"
+msgstr ""
+
+msgid "\t-minsize $nr       - minimal allowed size of document in bytes\n"
+msgstr ""
+
+msgid "\t-mode $mode        - set operation mode\n"
+"\t                         normal - recurse throught WWW (default)\n"
+"\t                         linkupdate - update remote links in local tree\n"
+"\t                         sync - synchronize local tree with remote WWW\n"
+"\t                                servers\n"
+"\t                         singlepage - single page with inline objects\n"
+"\t                         singlereget - reget file until not whole\n"
+"\t                         resumeregets - reget all files which are broken\n"
+"\t                         dontstore - transfer documents, but don't store\n"
+"\t                         reminder - checks URLs if they are changed\n"
+"\t                         ftpdir - list content of FTP directory\n"
+msgstr ""
+
+msgid "\t-mozcache_dir $dir - path to Mozilla browser cache directory\n"
+msgstr ""
+
+msgid "\t-msgcat $dir       - directory where message catalogs are stored\n"
+msgstr ""
+
+msgid "\t-newer_than $time  - download only documents newer than $time\n"
+"\t                     format of $time: YYYY.MM.DD.hh:mm\n"
+msgstr ""
+
+msgid "\t-noCGI/-CGI        - download parametric CGI pages ?\n"
+msgstr ""
+
+msgid "\t-noEnc/-Enc        - allow transfer of encoded files ?\n"
+msgstr ""
+
+msgid "\t-noFTP/-FTP        - don't download FTP files\n"
+msgstr ""
+
+msgid "\t-noFTPS/-FTPS      - don't download FTPS files\n"
+msgstr ""
+
+msgid "\t-noGopher/-Gopher  - download Gopher files ?\n"
+msgstr ""
+
+msgid "\t-noHTTP/-HTTP      - don't download HTTP files\n"
+msgstr ""
+
+msgid "\t-noRelocate/-Relocate\n"
+"\t                   - don't rewrite links\n"
+msgstr ""
+
+msgid "\t-noRobots/-Robots  - care about \"robots.txt\" file ?\n"
+msgstr ""
+
+msgid "\t-noSSL/-SSL        - don't download (HTTPS) SSL files\n"
+msgstr ""
+
+msgid "\t-nocache/-cache    - disallow caching of HTTP documents (on proxy cache)\n"
+msgstr ""
+
+msgid "\t-nredirs $nr       - max number of followed HTTP redirections, default 5\n"
+msgstr ""
+
+msgid "\t-nregets $nr       - max number of regets on single file, default 2\n"
+msgstr ""
+
+msgid "\t-nscache_dir $dir  - path to Netcape browser cache directory\n"
+msgstr ""
+
+msgid "\t-nthreads $nr      - set number of concurent downloading threads\n"
+msgstr ""
+
+msgid "\t-older_than $time  - download only documents older than $time\n"
+"\t                     format of $time: YYYY.MM.DD.hh:mm\n"
+msgstr ""
+
+msgid "\t-pattern $list     - list of wildcard patterns for files\n"
+msgstr ""
+
+msgid "\t-post_cmd $str     - postprocessing command, which will be invoked\n"
+"\t                     after document will be successfully downloaded\n"
+msgstr ""
+
+msgid "\t-post_update/-nopost_update\n"
+"\t                  - update in parent documents only links pointing\n"
+"\t                    to current document\n"
+msgstr ""
+
+msgid "\t-prefs/-noprefs    - load preferences from ~/.pavuk_prefs file\n"
+msgstr ""
+
+msgid "\t-preserve_perm/-nopreserve_perm\n"
+"\t                   - preserve document permissions\n"
+msgstr ""
+
+msgid "\t-preserve_slinks/-nopreserve_slinks\n"
+"\t                   - preserve absolute symlinks\n"
+msgstr ""
+
+msgid "\t-preserve_time/-nopreserve_time\n"
+"\t                   - preserve document modification time\n"
+msgstr ""
+
+msgid "\t-progress/-noprogress\n"
+"\t                   - show retrieving progress while running on terminal\n"
+msgstr ""
+
+msgid "\t-quiet             - don't show output messages\n"
+msgstr ""
+
+msgid "\t-remind_cmd $str   - command which sends result from reminder mode\n"
+msgstr ""
+
+msgid "\t-remove_adv/-noremove_adv\n"
+"\t                   - enable removing of advertisement banners\n"
+"\t                     assumes you have setup regular expresions\n"
+"\t                     for matching adv banners with -adv_re option\n"
+msgstr ""
+
+msgid "\t-remove_old/-noremove_old\n"
+"\t                   - remove improper files or directories while running\n"
+"\t                     in sync mode\n"
+msgstr ""
+
+msgid "\t-request $req      - extended request informations, used to specify\n"
+"\t                     information for GET or POST requests.\n"
+"\t                     format of $req :\n"
+"\t                     \"URL:$url METHOD:[GET|POST] ENCODING:[m|u]\n"
+"\t                       FIELD:$variable=$value\n"
+"\t                       FILE:$variable=$filename\n"
+"\t                       LNAME:$local_filename\"\n"
+"\t                     (for more informations see manual page)\n"
+msgstr ""
+
+msgid "\t-reschedule $nr    - number of hours between two runs\n"
+"\t                     for cyclic scheduling\n"
+msgstr ""
+
+msgid "\t-retrieve_symlink/-noretrieve_symlink\n"
+"\t                   - retrieve symliks like regular files or directories\n"
+msgstr ""
+
+msgid "\t-retry $nr         - number of retries if anything failed\n"
+msgstr ""
+
+msgid "\t-rollback $nr      - number of bytes to discard (counted from end\n"
+"\t                     of file) if regetting, default 0\n"
+msgstr ""
+
+msgid "\t-rpattern $re      - RE matching pattern for files\n"
+msgstr ""
+
+msgid "\t-rsleep/-norsleep  - randomize sleeping time between transfers\n"
+"\t                     from 0 to -sleep time\n"
+msgstr ""
+
+msgid "\t-runX              - after start of GUI interface, immediately\n"
+"\t                     start processing of entered URLs\n"
+msgstr ""
+
+msgid "\t-scenario $str     - name of scenario from scenario directory to load\n"
+"\t                     and or run\n"
+msgstr ""
+
+msgid "\t-sched_cmd $str    - command for scheduling\n"
+msgstr ""
+
+msgid "\t-schedule $time    - schedule pavuk start at $time\n"
+"\t                     format of $time: YYYY.MM.DD.hh:mm\n"
+msgstr ""
+
+msgid "\t-scndir $dir       - directory ,where are stored your scenarios\n"
+"\t                     (config files)\n"
+msgstr ""
+
+msgid "\t-sel_to_local/-nosel_to_local\n"
+"\t                   - change all links inside HTML document\n"
+"\t                     which acomplish the limits, to\n"
+"\t                     local immediately after download\n"
+msgstr ""
+
+msgid "\t-send_from/-nosend_from\n"
+"\t                   - send From: header in HTTP request with your\n"
+"\t                     e-mail address\n"
+msgstr ""
+
+msgid "\t-send_if_range/-nosend_if_range\n"
+"\t                   - send If-Range header in HTTP request\n"
+"\t                     turn this of when server support reget, but\n"
+"\t                     generates different Etags for two requests\n"
+msgstr ""
+
+msgid "\t-singlepage/-nosinglepage\n"
+"\t                   - donwload single HTML page with all inline objects\n"
+msgstr ""
+
+msgid "\t-site_level $nr    - maximum allowed number of sites to leave from\n"
+"\t                     starting site\n"
+msgstr ""
+
+msgid "\t-skip_pattern $list\n"
+"\t                   - list of skip wildcard patterns for files\n"
+msgstr ""
+
+msgid "\t-skip_rpattern $re\n"
+"\t                   - skip RE matching pattern for files\n"
+msgstr ""
+
+msgid "\t-skip_url_pattern $list\n"
+"\t                   - list of wildcard patterns for urls\n"
+msgstr ""
+
+msgid "\t-skip_url_rpattern $re\n"
+"\t                   - RE matching patterns for urls\n"
+msgstr ""
+
+msgid "\t-sleep $nr         - sleep for $nr seconds between transfers,\n"
+"\t                     default 0 seconds\n"
+msgstr ""
+
+msgid "\t-slogfile $file    - name of file where short log will be stored\n"
+msgstr ""
+
+msgid "\t-ssl_cert_file $str\n"
+"\t                   - SSL certification file\n"
+msgstr ""
+
+msgid "\t-ssl_cert_passwd $str\n"
+"\t                   - password for SSL certification file\n"
+msgstr ""
+
+msgid "\t-ssl_cipher_list $str\n"
+"\t                   - list of prefered SSL ciphers in SSL communication\n"
+msgstr ""
+
+msgid "\t-ssl_key_file $str - SSL certification key file\n"
+msgstr ""
+
+msgid "\t-ssl_proxy $site[:$port]\n"
+"\t                   - ssl proxy server\n"
+msgstr ""
+
+msgid "\t-ssl_version $v    - version of SSL protocol used for communication,\n"
+"\t                     valid values: ssl23,ssl2,ssl3\n"
+msgstr ""
+
+msgid "\t-ssl_version $v    - version of SSL protocol used for communication,\n"
+"\t                     valid values: ssl23,ssl2,ssl3,tls1\n"
+msgstr ""
+
+msgid "\t-statfile $str     - statistical report from downloading progress\n"
+msgstr ""
+
+msgid "\t-stime/-nostime    - write starting and ending time of transfer\n"
+msgstr ""
+
+msgid "\t-store_index/-nostore_index\n"
+"\t                   - store directory URLs as index files\n"
+msgstr ""
+
+msgid "\t-store_info/-nostore_info\n"
+"\t                   - store document info files with each document\n"
+msgstr ""
+
+msgid "\t-store_name $str   - filename for first downloaded document\n"
+msgstr ""
+
+msgid "\t-subdir $dir       - subdirectory of cdir to operate on\n"
+msgstr ""
+
+msgid "\t-timeout $nr       - timeout for network communications (min).\n"
+"\t                     0 == no timeout, default = 0\n"
+msgstr ""
+
+msgid "\t-tr_chr_chr $chrset1 $chrset2\n"
+"\t                   - translate $chrset1 to $chrset2 in local filename\n"
+msgstr ""
+
+msgid "\t-tr_del_chr $str   - characters that will be deleted from\n"
+"\t                     local filename\n"
+msgstr ""
+
+msgid "\t-tr_str_str $str1 $str2\n"
+"\t                   - translate $str1 to $str2 in local filename\n"
+msgstr ""
+
+msgid "\t-trans_quota $nr   - maximal amount of transfer per session (kB)\n"
+msgstr ""
+
+msgid "\t-unique_log/-nounique_log\n"
+"\t                   - when original log file locked try to find other\n"
+"\t                     with numbering extension which is not locked\n"
+msgstr ""
+
+msgid "\t-unique_name/-nounique_name\n"
+"\t                   - always generate unique name for each document\n"
+msgstr ""
+
+msgid "\t-unique_sslid/-nounique_sslid\n"
+"\t                   - use unique SSL ID with each SSL session\n"
+msgstr ""
+
+msgid "\t-url_pattern $list - list of wildcard patterns for urls\n"
+msgstr ""
+
+msgid "\t-url_rpattern $re  - RE matching pattern for urls\n"
+msgstr ""
+
+msgid "\t-url_strategy $strategy\n"
+"\t                   - scheduling strategy for URLs\n"
+"\t                     (this means order how URLs will be downloaded)\n"
+"\t                     $strategy is one of :\n"
+"\t                        level  - level order in URL tree\n"
+"\t                        leveli - level order in URL tree,\n"
+"\t                                 but inline objects go first\n"
+"\t                        pre    - pre-order in URL tree\n"
+"\t                        prei   - pre-order in URL tree,\n"
+"\t                                 but inline objects go first\n"
+msgstr ""
+
+msgid "\t-urls_file $file   - URLs should be read from file, until\n"
+"\t                     line with single \".\" occurs in input\n"
+msgstr ""
+
+msgid "\t-use_http11/-nouse_http11\n"
+"\t                   - enable or disable using of HTTP/1.1 protocol\n"
+"\t                     features, default is off now\n"
+msgstr ""
+
+msgid "\t-user_condition $str\n"
+"\t                   - user exit script used to restrict some URLs\n"
+"\t                     for more informations see manpage\n"
+msgstr ""
+
+msgid "\t-v                 - print version number\n"
+msgstr ""
+
+msgid "\t-verbose           - show output messages (default)\n"
+msgstr ""
+
+msgid "\t-xmaxlog           - maximal length of log window\n"
+msgstr ""
+
+msgid "       domain\n"
+msgstr ""
+
+msgid "       local hostname\n"
+msgstr ""
+
+msgid "       password\n"
+msgstr ""
+
+msgid "       username\n"
+msgstr ""
+
+msgid " - Debug mode\n"
+msgstr ""
+
+msgid " - GNU gettext internationalization of messages\n"
+msgstr ""
+
+msgid " - Gtk GUI interface\n"
+msgstr ""
+
+msgid " - Socks v4 proxy support\n"
+msgstr ""
+
+msgid " - Socks v5 proxy support\n"
+msgstr ""
+
+msgid " - URL tree preview\n"
+msgstr ""
+
+msgid " - fcntl() document locking\n"
+msgstr ""
+
+msgid " - flock() document locking\n"
+msgstr ""
+
+msgid " - http over SSL\n"
+msgstr ""
+
+msgid " - with BSD regexp\n"
+msgstr ""
+
+msgid " - with Bell V8 regexp\n"
+msgstr ""
+
+msgid " - with GNU regexp\n"
+msgstr ""
+
+msgid " - with JavaScript bindings\n"
+msgstr ""
+
+msgid " - with NTLM authorization support\n"
+msgstr ""
+
+msgid " - with PCRE regexp\n"
+msgstr ""
+
+msgid " - with POSIX regexp\n"
+msgstr ""
+
+msgid " - with filesystem free space checking\n"
+msgstr ""
+
+msgid " - with multithreading support\n"
+msgstr ""
+
+msgid " - with optional regex patterns in -fnrules and -*rpattern options\n"
+msgstr ""
+
+msgid " - with support for detecting whether pavuk is running as background job\n"
+msgstr ""
+
+msgid " - with support for loading files from Netscape browser cache\n"
+msgstr ""
+
+msgid " : "
+msgstr ""
+
+msgid " bytes"
+msgstr ""
+
+msgid " days "
+msgstr ""
+
+msgid " entries "
+msgstr ""
+
+msgid " hours"
+msgstr ""
+
+msgid " kB"
+msgstr ""
+
+msgid " kB "
+msgstr ""
+
+msgid " kB/s"
+msgstr ""
+
+msgid " min"
+msgstr ""
+
+msgid " min."
+msgstr ""
+
+msgid " sec."
+msgstr ""
+
+msgid "# This file was generated by %s\n"
+"# You may edit it if you're careful!\n"
+"\n"
+msgstr ""
+
+msgid "%s of %s"
+msgstr ""
+
+msgid "%s: ERROR: 306\n"
+msgstr ""
+
+msgid "%s: ERROR: FTP authentification - bad password\n"
+msgstr ""
+
+msgid "%s: ERROR: FTP authentification - bad username\n"
+msgstr ""
+
+msgid "%s: ERROR: FTP proxy authentification - bad password\n"
+msgstr ""
+
+msgid "%s: ERROR: FTP proxy authentification - bad username\n"
+msgstr ""
+
+msgid "%s: ERROR: FTP server doesn't support MDTM command\n"
+msgstr ""
+
+msgid "%s: ERROR: FTP server doesn't support REST command\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP authentication is required\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP client sends bad request\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP document is truncated\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP document not found\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP payment required\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP proxy authentication is required\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP remote server error\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP server doesn't support partial content retrieving\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP server replied with conflict response\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP server replied with connection timeout response\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP service currently not available, check later\n"
+msgstr ""
+
+msgid "%s: ERROR: HTTP version used in request is unsupported by remote server\n"
+msgstr ""
+
+msgid "%s: ERROR: URL pointing to local directory is not supported\n"
+msgstr ""
+
+msgid "%s: ERROR: broken HTTP request send\n"
+msgstr ""
+
+msgid "%s: ERROR: client doesn't accept MIME type of requested URL\n"
+msgstr ""
+
+msgid "%s: ERROR: cyclic redirection!\n"
+msgstr ""
+
+msgid "%s: ERROR: document is locked\n"
+msgstr ""
+
+msgid "%s: ERROR: document was removed from HTTP server\n"
+msgstr ""
+
+msgid "%s: ERROR: error in proxy connect\n"
+msgstr ""
+
+msgid "%s: ERROR: failed to fulfill expectation from request\n"
+msgstr ""
+
+msgid "%s: ERROR: failed to read HTTP response\n"
+msgstr ""
+
+msgid "%s: ERROR: file from FTP server is truncated\n"
+msgstr ""
+
+msgid "%s: ERROR: file has zero size - possible error\n"
+msgstr ""
+
+msgid "%s: ERROR: forbidden HTTP request\n"
+msgstr ""
+
+msgid "%s: ERROR: gatewaying failed for this URL\n"
+msgstr ""
+
+msgid "%s: ERROR: in request header is missing Content-Length: header\n"
+msgstr ""
+
+msgid "%s: ERROR: low free space on filesystem, breaking transfer\n"
+msgstr ""
+
+msgid "%s: ERROR: opening file\n"
+msgstr ""
+
+msgid "%s: ERROR: preconditions in request failed for requested URL\n"
+msgstr ""
+
+msgid "%s: ERROR: reading socket\n"
+msgstr ""
+
+msgid "%s: ERROR: received bad redirect response from server\n"
+msgstr ""
+
+msgid "%s: ERROR: redirecting to unsupported URL\n"
+msgstr ""
+
+msgid "%s: ERROR: request URL too long\n"
+msgstr ""
+
+msgid "%s: ERROR: request body too large\n"
+msgstr ""
+
+msgid "%s: ERROR: requested HTTP method not implemented on server side\n"
+msgstr ""
+
+msgid "%s: ERROR: requested bad range of document\n"
+msgstr ""
+
+msgid "%s: ERROR: resource in format unsupported for this request\n"
+msgstr ""
+
+msgid "%s: ERROR: storing document\n"
+msgstr ""
+
+msgid "%s: ERROR: this FTP server doesn't support SSL connections\n"
+msgstr ""
+
+msgid "%s: ERROR: timeout occured in communication between gateway and remote "
+"server\n"
+msgstr ""
+
+msgid "%s: ERROR: transfer broken by user\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to connect to FTP server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to connect to GOPHER server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to connect to HTTP server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to connect to HTTPS server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to connect to proxy server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to do HTTP Digest authorization\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to do HTTP proxy Digest authorization\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to do NTLM authorization\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to do NTLM proxy authorization\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to establish SSL control connection to FTPS server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to establish SSL data connection to FTPS server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to get file from FTP server\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to list directory content\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to open FTP data connection\n"
+msgstr ""
+
+msgid "%s: ERROR: unable to send HTTP request data\n"
+msgstr ""
+
+msgid "%s: ERROR: unexpected HTTP response code after trying to reget\n"
+msgstr ""
+
+msgid "%s: ERROR: unknown\n"
+msgstr ""
+
+msgid "%s: ERROR: unknown GOPHER error\n"
+msgstr ""
+
+msgid "%s: ERROR: unknown HTTP error\n"
+msgstr ""
+
+msgid "%s: ERROR: unknown errcode : %d\n"
+msgstr ""
+
+msgid "%s: ERROR: unnown FTP error\n"
+msgstr ""
+
+msgid "%s: ERROR: used HTTP method is not supported or not allowed for this URL\n"
+msgstr ""
+
+msgid "%s: ERROR: you must use proxy to access this URL\n"
+msgstr ""
+
+msgid "%s: MESSAGE: FTP transfer not allowed because of rules\n"
+msgstr ""
+
+msgid "%s: MESSAGE: bigger than maximal allowed size\n"
+msgstr ""
+
+msgid "%s: MESSAGE: disabled by user-exit script condition\n"
+msgstr ""
+
+msgid "%s: MESSAGE: document was already processed\n"
+msgstr ""
+
+msgid "%s: MESSAGE: document was disabled by limiting rules\n"
+msgstr ""
+
+msgid "%s: MESSAGE: document was disabled by user\n"
+msgstr ""
+
+msgid "%s: MESSAGE: file modification time doesn't fit to specified interval\n"
+msgstr ""
+
+msgid "%s: MESSAGE: redirecting to another location\n"
+msgstr ""
+
+msgid "%s: MESSAGE: reget unneeded - file is up to date\n"
+msgstr ""
+
+msgid "%s: MESSAGE: smaller than minimal allowed size\n"
+msgstr ""
+
+msgid "%s: MESSAGE: this mime type is not allowed (%s)\n"
+msgstr ""
+
+msgid "%s: OK\n"
+msgstr ""
+
+msgid "%s: WARNING: FTP directory URL, but FTP directory not allowed (-FTPdir)\n"
+msgstr ""
+
+msgid "%s: WARNING: FTP login_handshake failed\n"
+msgstr ""
+
+msgid "%s: WARNING: file size quota exceeded, rest will be truncated\n"
+msgstr ""
+
+msgid "%s: WARNING: maximal allowed running time exceeded, downloading will break\n"
+msgstr ""
+
+msgid "%s: WARNING: transfer quota exceeded, breaking download\n"
+msgstr ""
+
+msgid "%s: WARNING: transfer rate lower than minimal allowed\n"
+msgstr ""
+
+msgid "%s: user break\n"
+msgstr ""
+
+msgid "*********** HTTP Server response MIME header **********\n"
+msgstr ""
+
+msgid "************ Client HTTP MIME header ***************\n"
+msgstr ""
+
+msgid "************ HTTP request data ***************\n"
+msgstr ""
+
+msgid "***************** Proxy connect response *****************\n"
+msgstr ""
+
+msgid "***************** class 1xx HTTP response ****************\n"
+msgstr ""
+
+msgid "****************** Proxy connect request *****************\n"
+msgstr ""
+
+msgid "********************* Gopher request **************\n"
+msgstr ""
+
+msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n"
+"<HTML>\n"
+"<TITLE>\n"
+"Directory of %s://%s:%d%s\n"
+"</TITLE>\n"
+"<BODY>\n"
+"<H1 ALIGN=CENTER><B>List of FTP directory %s://%s:%d/%s </H1><BR><UL>"
+msgstr ""
+
+msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n"
+"<HTML>\n"
+"<TITLE>\n"
+"Directory of gopher://%s:%d/%s\n"
+"</TITLE>\n"
+"<BODY>\n"
+"<H1 ALIGN=CENTER><B>Directory of gopher://%s:%d/%s </H1><BR><BR><UL>"
+msgstr ""
+
+msgid "About ..."
+msgstr ""
+
+msgid "Accept cookies"
+msgstr ""
+
+msgid "Action URL: "
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add scenario ..."
+msgstr ""
+
+msgid "Adding %s to resume list\n"
+msgstr ""
+
+msgid "Adding file %s to sync list as URL %s\n"
+msgstr ""
+
+msgid "Additional FTP list options: "
+msgstr ""
+
+msgid "Additional HTTP headers: "
+msgstr ""
+
+msgid "Advertisement"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Allow \"robots.txt\""
+msgstr ""
+
+msgid "Allow / Disallow MIME type"
+msgstr ""
+
+msgid "Allow / Disallow domains"
+msgstr ""
+
+msgid "Allow / Disallow prefix"
+msgstr ""
+
+msgid "Allow / Disallow sites"
+msgstr ""
+
+msgid "Allow / Disallow suffix"
+msgstr ""
+
+msgid "Allow caching of documents"
+msgstr ""
+
+msgid "Allow tooltips"
+msgstr ""
+
+msgid "Allow/denny"
+msgstr ""
+
+msgid "Allowed protocols"
+msgstr ""
+
+msgid "Already processed\n"
+msgstr ""
+
+msgid "Always generate unique name for document"
+msgstr ""
+
+msgid "Append"
+msgstr ""
+
+msgid "Append URL ..."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Apply limiting options on inline objects"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "August"
+msgstr ""
+
+msgid "Auth"
+msgstr ""
+
+msgid "Auth. info editor ..."
+msgstr ""
+
+msgid "Automaticaly watch last processed URLs"
+msgstr ""
+
+msgid "Bad auth scheme \"%s\"\n"
+msgstr ""
+
+msgid "Bad debug level selection : %s\n"
+msgstr ""
+
+msgid "Bad parameter - Cache directory"
+msgstr ""
+
+msgid "Bad parameter - Working subdirectory"
+msgstr ""
+
+msgid "Bad port number %s\n"
+msgstr ""
+
+msgid "Bad protocol - %s\n"
+msgstr ""
+
+msgid "Bad reminder db entry - %s\n"
+msgstr ""
+
+msgid "Bad section - specify hostname\n"
+msgstr ""
+
+msgid "Bad section - specify protocol\n"
+msgstr ""
+
+msgid "Bad time parameter \"%s\"\n"
+msgstr ""
+
+msgid "Base auth. scheme"
+msgstr ""
+
+msgid "Base dir."
+msgstr ""
+
+msgid "Base directory: "
+msgstr ""
+
+msgid "Base level of tree: "
+msgstr ""
+
+msgid "Basic auth. scheme"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
+msgid "Break"
+msgstr ""
+
+msgid "Break transfer and stop"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Browse ..."
+msgstr ""
+
+msgid "Browser: "
+msgstr ""
+
+msgid "C_ommon ..."
+msgstr ""
+
+msgid "Cache Directory: "
+msgstr ""
+
+msgid "Can't list available message catalogs\n"
+msgstr ""
+
+msgid "Can't open directory\n"
+msgstr ""
+
+msgid "Can't open directory %s\n"
+msgstr ""
+
+msgid "Can't work on directory\n"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Certificate PEM file: "
+msgstr ""
+
+msgid "Certificate key file: "
+msgstr ""
+
+msgid "Certificate password: "
+msgstr ""
+
+msgid "Changed URLs\n"
+msgstr ""
+
+msgid "Character set code: "
+msgstr ""
+
+msgid "Character set1: "
+msgstr ""
+
+msgid "Character set2: "
+msgstr ""
+
+msgid "Character set: "
+msgstr ""
+
+msgid "Check cookies domain"
+msgstr ""
+
+msgid "Check if doc. time newer than this"
+msgstr ""
+
+msgid "Check if doc. time older than this"
+msgstr ""
+
+msgid "Check transferred size of document"
+msgstr ""
+
+msgid "Checking \"robots.txt\""
+msgstr ""
+
+msgid "Checking HTTP proxy server %s:%d\n"
+msgstr ""
+
+msgid "Checking: %s\n"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Clear log"
+msgstr ""
+
+msgid "Clear log window"
+msgstr ""
+
+msgid "Clear selection"
+msgstr ""
+
+msgid "Client requests"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Co_ntinue"
+msgstr ""
+
+msgid "Common ..."
+msgstr ""
+
+msgid "Communication timeout: "
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Connecting ..."
+msgstr ""
+
+msgid "Construction rule: "
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Continue after stop or break"
+msgstr ""
+
+msgid "Cookie file has changed - > synchronizing\n"
+msgstr ""
+
+msgid "Cookie file: "
+msgstr ""
+
+msgid "Cookies"
+msgstr ""
+
+msgid "Cookies maximal number: "
+msgstr ""
+
+msgid "Cookies settings"
+msgstr ""
+
+msgid "Copy selection"
+msgstr ""
+
+msgid "Data transfer done"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid "Debug level"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+msgid "Decoding document - OK\n"
+msgstr ""
+
+msgid "Decoding document - failed\n"
+msgstr ""
+
+msgid "Default URL prefix: "
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete FTP document after succesful download"
+msgstr ""
+
+msgid "Delete characters from filename"
+msgstr ""
+
+msgid "Destroy window as soon as posible and continue on terminal"
+msgstr ""
+
+msgid "Digest auth. scheme"
+msgstr ""
+
+msgid "Disable URL"
+msgstr ""
+
+msgid "Disabled cookie domains"
+msgstr ""
+
+msgid "Disallowed by \"robots.txt\"\n"
+msgstr ""
+
+msgid "Disallowed by rules\n"
+msgstr ""
+
+msgid "Disallowed by user\n"
+msgstr ""
+
+msgid "Document _Tree ..."
+msgstr ""
+
+msgid "Document age before syncing with server: "
+msgstr ""
+
+msgid "Document transfer data"
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "Documents matching pattern: "
+msgstr ""
+
+msgid "Documents with fatal errors: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Documents with unknown status: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Documents with unspecific status: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Domain: "
+msgstr ""
+
+msgid "Don't leave site enter directory"
+msgstr ""
+
+msgid "Don't leave starting directory"
+msgstr ""
+
+msgid "Don't leave starting site"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Download URL"
+msgstr ""
+
+msgid "Download cgi-generated pages"
+msgstr ""
+
+msgid "Download just single page"
+msgstr ""
+
+msgid "Downloaded over network: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Downloaded truncated: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Dropped URL : %s\n"
+msgstr ""
+
+msgid "Dumping processed document"
+msgstr ""
+
+msgid "E-mail address: "
+msgstr ""
+
+msgid "EGD daemon socket path: "
+msgstr ""
+
+msgid "ERROR: Scenario loading failed (%s)\n"
+msgstr ""
+
+msgid "ERROR: unable to parse FTP list line :\n"
+"\t%s\n"
+msgstr ""
+
+msgid "ET:          "
+msgstr ""
+
+msgid "E_xit"
+msgstr ""
+
+msgid "Elapsed time"
+msgstr ""
+
+msgid "Enable URL"
+msgstr ""
+
+msgid "Enable removing of advertisement banners"
+msgstr ""
+
+msgid "Ending log : %H:%M:%S %d.%m.%Y\n"
+msgstr ""
+
+msgid "Ending time :    %s\n"
+msgstr ""
+
+msgid "Entering directory %s\n"
+msgstr ""
+
+msgid "Error compiling regular expression : %s\n"
+msgstr ""
+
+msgid "Error occured while executing user-exit script"
+msgstr ""
+
+msgid "Error parsing .pavuk_info file field: %s\n"
+msgstr ""
+
+msgid "Error parsing commandline\n"
+msgstr ""
+
+msgid "Error parsing commandline at: %s\n"
+msgstr ""
+
+msgid "Error reading HTTP 1xx class response\n"
+msgstr ""
+
+msgid "Error reading document with \"chunked\" transfer encoding!\n"
+msgstr ""
+
+msgid "Error removing FTP document from remote server\n"
+msgstr ""
+
+msgid "Error scheduling\n"
+msgstr ""
+
+msgid "Error: Supplied bad file descriptor in -dump_urlfd option\n"
+msgstr ""
+
+msgid "Error: Supplied bad file descriptor in -dumpfd option\n"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Exiting ..."
+msgstr ""
+
+msgid "Extended informations for HTTP POST request"
+msgstr ""
+
+msgid "Extended user infos"
+msgstr ""
+
+msgid "FTP"
+msgstr ""
+
+msgid "FTP data connection type "
+msgstr ""
+
+msgid "FTP login handshake rules"
+msgstr ""
+
+msgid "FTP proxy"
+msgstr ""
+
+msgid "FTP proxy user authentification"
+msgstr ""
+
+msgid "FTP via HTTP proxy"
+msgstr ""
+
+msgid "FTP via HTTP tunneling proxy"
+msgstr ""
+
+msgid "FTP/Directory"
+msgstr ""
+
+msgid "FTP/File"
+msgstr ""
+
+msgid "FTPS"
+msgstr ""
+
+msgid "FTPS/Directory"
+msgstr ""
+
+msgid "FTPS/File"
+msgstr ""
+
+msgid "Failed NTLM nonce negotiation\n"
+msgstr ""
+
+msgid "Failed NTLM proxy nonce negotiation\n"
+msgstr ""
+
+msgid "Failed obtaining entropy pathname\n"
+msgstr ""
+
+msgid "Failed to check proxy !\n"
+msgstr ""
+
+msgid "Failed to initialize random seed for OpenSSL via EGD daemon\n"
+msgstr ""
+
+msgid "Failed to parse Gopher directory entry:\n"
+"%s\n"
+msgstr ""
+
+msgid "Failed:       "
+msgstr ""
+
+msgid "Failed: %4d"
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "Fetch URL from Clipboard"
+msgstr ""
+
+msgid "Fetch URL from browser"
+msgstr ""
+
+msgid "Fetched URL from browser : %s\n"
+msgstr ""
+
+msgid "Fetched URL from clipboard : %s\n"
+msgstr ""
+
+msgid "File locking"
+msgstr ""
+
+msgid "File may be truncated\n"
+msgstr ""
+
+msgid "File redirect\n"
+msgstr ""
+
+msgid "File size quota: "
+msgstr ""
+
+msgid "Filename"
+msgstr ""
+
+msgid "Filesystem freespace quota: "
+msgstr ""
+
+msgid "Fill forms"
+msgstr ""
+
+msgid "Finish this transfer and stop"
+msgstr ""
+
+msgid "Fix detection of nonexisting FTP directories on WuFTPD FTP servers"
+msgstr ""
+
+msgid "Follow command: "
+msgstr ""
+
+msgid "Form data"
+msgstr ""
+
+msgid "Form number: "
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Go bg"
+msgstr ""
+
+msgid "Gopher"
+msgstr ""
+
+msgid "Gopher proxy"
+msgstr ""
+
+msgid "Gopher via HTTP proxy"
+msgstr ""
+
+msgid "Gopher/BINHEX"
+msgstr ""
+
+msgid "Gopher/CSO phone book"
+msgstr ""
+
+msgid "Gopher/DOS bin"
+msgstr ""
+
+msgid "Gopher/Directory"
+msgstr ""
+
+msgid "Gopher/Duplicated server"
+msgstr ""
+
+msgid "Gopher/Error"
+msgstr ""
+
+msgid "Gopher/GIF"
+msgstr ""
+
+msgid "Gopher/Image"
+msgstr ""
+
+msgid "Gopher/Search index"
+msgstr ""
+
+msgid "Gopher/TN3270"
+msgstr ""
+
+msgid "Gopher/Telnet session"
+msgstr ""
+
+msgid "Gopher/Text File"
+msgstr ""
+
+msgid "Gopher/UUencoded"
+msgstr ""
+
+msgid "Gopher/bin"
+msgstr ""
+
+msgid "Got unexpected response\n"
+msgstr ""
+
+msgid "Grabber I"
+msgstr ""
+
+msgid "Grabber II"
+msgstr ""
+
+msgid "HTML"
+msgstr ""
+
+msgid "HTML document URL rewriting"
+msgstr ""
+
+msgid "HTML form content"
+msgstr ""
+
+msgid "HTML forms editor ..."
+msgstr ""
+
+msgid "HTML parsers"
+msgstr ""
+
+msgid "HTML tag"
+msgstr ""
+
+msgid "HTML tag attribute"
+msgstr ""
+
+msgid "HTML tag attribute: "
+msgstr ""
+
+msgid "HTML tag not supported : %s.%s\n"
+msgstr ""
+
+msgid "HTML tag: "
+msgstr ""
+
+msgid "HTTP"
+msgstr ""
+
+msgid "HTTP proxy"
+msgstr ""
+
+msgid "HTTP proxy user authentification"
+msgstr ""
+
+msgid "HTTPS"
+msgstr ""
+
+msgid "Handshake: "
+msgstr ""
+
+msgid "Hash tables size: "
+msgstr ""
+
+msgid "Hmm: redirecting \"robots.txt\" to %s ???\n"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgid "Host: "
+msgstr ""
+
+msgid "Hosts"
+msgstr ""
+
+msgid "How many moved links to follow: "
+msgstr ""
+
+msgid "How many times retry on fail: "
+msgstr ""
+
+msgid "How many times to reget file: "
+msgstr ""
+
+msgid "IP address RE patterns"
+msgstr ""
+
+msgid "Icons only"
+msgstr ""
+
+msgid "Identity string: "
+msgstr ""
+
+msgid "Immediate messages"
+msgstr ""
+
+msgid "Immediately quit the program"
+msgstr ""
+
+msgid "Index file name: "
+msgstr ""
+
+msgid "Invalid FTP login handshake string \"%s\" for option \"-%s\"\n"
+msgstr ""
+
+msgid "Invalid FTP login handshake string \"%s\".\n"
+msgstr ""
+
+msgid "Invalid additional HTTP header - \"%s\"\n"
+msgstr ""
+
+msgid "Invalid js_transform specification - \"%s\"\n"
+msgstr ""
+
+msgid "Invalid number list \"%s\" for option \"-%s\"\n"
+msgstr ""
+
+msgid "Invalid number list specification - \"%s\"\n"
+msgstr ""
+
+msgid "Invalid parameters for \"-%s\" option\n"
+msgstr ""
+
+msgid "Invalid request specification - \"%s\"\n"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "JavaScript source file: "
+msgstr ""
+
+msgid "Javascript"
+msgstr ""
+
+msgid "Javascript console ..."
+msgstr ""
+
+msgid "Javascript patterns"
+msgstr ""
+
+msgid "Javascript patterns with transform rules"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "LSP analyze error: bad macro at - %s\n"
+msgstr ""
+
+msgid "LSP analyze error: bad numeric value at - %s\n"
+msgstr ""
+
+msgid "LSP analyze error: bad parameter type at - %s\n"
+msgstr ""
+
+msgid "LSP analyze error: bad token at - %s\n"
+msgstr ""
+
+msgid "LSP analyze error: unterminated string at - %s\n"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Language code: "
+msgstr ""
+
+msgid "Languages"
+msgstr ""
+
+msgid "Launch browser"
+msgstr ""
+
+msgid "Leaving directory %s\n"
+msgstr ""
+
+msgid "Level order"
+msgstr ""
+
+msgid "Level order, inline first"
+msgstr ""
+
+msgid "Limitations ..."
+msgstr ""
+
+msgid "Limiting conditions"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "List of preffered ciphers: "
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Load HTML file ..."
+msgstr ""
+
+msgid "Load scenario ..."
+msgstr ""
+
+msgid "Load script to JavaScript runtime"
+msgstr ""
+
+msgid "Loaded from Netscape browser cache dir: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Loaded from local tree: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Loading copy from local MSIE cache - %s\n"
+msgstr ""
+
+msgid "Loading copy from local Mozilla cache - %s\n"
+msgstr ""
+
+msgid "Loading copy from local NS cache - %s\n"
+msgstr ""
+
+msgid "Loading local copy\n"
+msgstr ""
+
+msgid "Local file"
+msgstr ""
+
+msgid "Local filename"
+msgstr ""
+
+msgid "Local filename conversion rules"
+msgstr ""
+
+msgid "Local filename mapping rules"
+msgstr ""
+
+msgid "Local filename: "
+msgstr ""
+
+msgid "Local filename: %s\n"
+msgstr ""
+
+msgid "Local interface address: "
+msgstr ""
+
+msgid "Log"
+msgstr ""
+
+msgid "Log file is locked by another process - "
+msgstr ""
+
+msgid "Log file: "
+msgstr ""
+
+msgid "Log window autoscroll"
+msgstr ""
+
+msgid "Log window length: "
+msgstr ""
+
+msgid "Login handshake"
+msgstr ""
+
+msgid "Lower document time limit"
+msgstr ""
+
+msgid "MIME type: "
+msgstr ""
+
+msgid "MIME types"
+msgstr ""
+
+msgid "Making symlink \"%s\" to \"%s\"\n"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "Match pattern"
+msgstr ""
+
+msgid "Matching action URL: "
+msgstr ""
+
+msgid "Matching pattern: "
+msgstr ""
+
+msgid "Max. count of documents: "
+msgstr ""
+
+msgid "Max. depth of tree: "
+msgstr ""
+
+msgid "Max. document size: "
+msgstr ""
+
+msgid "Max. levels to leave from starting site: "
+msgstr ""
+
+msgid "Max. site levels to leave from starting site: "
+msgstr ""
+
+msgid "Maximal allowed time of downloading: "
+msgstr ""
+
+msgid "Maximal transfer rate: "
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Min. document size: "
+msgstr ""
+
+msgid "Minimal transfer rate: "
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "Misc settings"
+msgstr ""
+
+msgid "Miscelanous"
+msgstr ""
+
+msgid "Miscelanous SSL settings"
+msgstr ""
+
+msgid "Missing request fields specification for POST request\n"
+msgstr ""
+
+msgid "Missing specification of URL in request\n"
+msgstr ""
+
+msgid "Missing:\n"
+msgstr ""
+
+msgid "Modification time: %a, %d %b %Y %H:%M:%S %Z\n"
+msgstr ""
+
+msgid "Modified from last download - regeting whole\n"
+msgstr ""
+
+msgid "Modify"
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Moved to URL: %s\n"
+msgstr ""
+
+msgid "Moved to already processed URL.\n"
+msgstr ""
+
+msgid "Moved to another location: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Mozilla browser cache directory: "
+msgstr ""
+
+msgid "Multipart encoding not supported with GET requests\n"
+msgstr ""
+
+msgid "Multithreading - locking"
+msgstr ""
+
+msgid "Multithreading - threads"
+msgstr ""
+
+msgid "NTLM auth. scheme"
+msgstr ""
+
+msgid "NTLM authorization supported only on persistent connections!\n"
+msgstr ""
+
+msgid "NTLM domain: "
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name: "
+msgstr ""
+
+msgid "Net"
+msgstr ""
+
+msgid "Netscape browser cache directory: "
+msgstr ""
+
+msgid "Networking code"
+msgstr ""
+
+msgid "New URL:"
+msgstr ""
+
+msgid "No transfer - file not expired\n"
+msgstr ""
+
+msgid "Non fatal errors: %d (%3d%%)\n"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Not available yet"
+msgstr ""
+
+msgid "Not enough data for NTLM authorization!\n"
+msgstr ""
+
+msgid "Not enough number of parameters \"-msgcat\"\n"
+msgstr ""
+
+msgid "Not enough number of parameters \"-scenario\"\n"
+msgstr ""
+
+msgid "Not enough number of parameters for \"-%s\" option\n"
+msgstr ""
+
+msgid "Not found documents: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Not processed yet: %d (%3d%%)\n"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "Nr."
+msgstr ""
+
+msgid "Number of downloading threads: "
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid "Omitting %s\n"
+msgstr ""
+
+msgid "Only \"true\" & \"false\" is allowed : \"%s\"\n"
+msgstr ""
+
+msgid "Open _URL ..."
+msgstr ""
+
+msgid "Opening connection"
+msgstr ""
+
+msgid "Optional features available :\n"
+msgstr ""
+
+msgid "POST request data"
+msgstr ""
+
+msgid "Parent URLs:\n"
+msgstr ""
+
+msgid "Passive"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Pattern"
+msgstr ""
+
+msgid "Pattern: "
+msgstr ""
+
+msgid "Patterns"
+msgstr ""
+
+msgid "Pavuk %s %s\n"
+" \n"
+"an automatic WEB file grabber\n"
+" \n"
+"By Stefan Ondrejicka\n"
+" \n"
+"(ondrej@idata.sk)\n"
+" \n"
+"URL : http://www.idata.sk/~ondrej/pavuk/\n"
+" "
+msgstr ""
+
+msgid "Pavuk will run at backround as PID %d\n"
+msgstr ""
+
+msgid "Pavuk: About"
+msgstr ""
+
+msgid "Pavuk: Append URL"
+msgstr ""
+
+msgid "Pavuk: Authorization info editor"
+msgstr ""
+
+msgid "Pavuk: Choose form field file"
+msgstr ""
+
+msgid "Pavuk: Common config"
+msgstr ""
+
+msgid "Pavuk: HTML forms editor"
+msgstr ""
+
+msgid "Pavuk: JavaScript console"
+msgstr ""
+
+msgid "Pavuk: Limits config"
+msgstr ""
+
+msgid "Pavuk: Load auth. info file"
+msgstr ""
+
+msgid "Pavuk: Save auth. info file"
+msgstr ""
+
+msgid "Pavuk: Scenario add"
+msgstr ""
+
+msgid "Pavuk: Scenario loader"
+msgstr ""
+
+msgid "Pavuk: Scenario saver"
+msgstr ""
+
+msgid "Pavuk: Scheduler"
+msgstr ""
+
+msgid "Pavuk: Store tree"
+msgstr ""
+
+msgid "Pavuk: URL tree preview"
+msgstr ""
+
+msgid "Pavuk: load form file"
+msgstr ""
+
+msgid "Pavuk: save log"
+msgstr ""
+
+msgid "Pavuk: save status page"
+msgstr ""
+
+msgid "Pavuk: select %s"
+msgstr ""
+
+msgid "Pavuk: status page"
+msgstr ""
+
+msgid "Please specify floating number \"%s\"\n"
+msgstr ""
+
+msgid "Please specify floating number with parameter \"-%s\"\n"
+msgstr ""
+
+msgid "Please specify number \"%s\"\n"
+msgstr ""
+
+msgid "Please specify number with parameter \"-%s\"\n"
+msgstr ""
+
+msgid "Please specify proper arguments for %s\n"
+msgstr ""
+
+msgid "Please specify proper condition type for %s (%s)\n"
+msgstr ""
+
+msgid "Please specify proper condition type for -%s (%s)\n"
+msgstr ""
+
+msgid "Please specify valid RE \"%s\"\n"
+msgstr ""
+
+msgid "Please specify valid RE with parameter \"-%s\"\n"
+msgstr ""
+
+msgid "Popup config window"
+msgstr ""
+
+msgid "Popup limits window"
+msgstr ""
+
+msgid "Port: "
+msgstr ""
+
+msgid "Ports: "
+msgstr ""
+
+msgid "Post command: "
+msgstr ""
+
+msgid "Pre order"
+msgstr ""
+
+msgid "Pre order, inline first"
+msgstr ""
+
+msgid "Preffered character sets"
+msgstr ""
+
+msgid "Preffered languages"
+msgstr ""
+
+msgid "Prefix: "
+msgstr ""
+
+msgid "Preserve FTP document permissions"
+msgstr ""
+
+msgid "Preserve FTP symbolic links paths"
+msgstr ""
+
+msgid "Preserve document modification time"
+msgstr ""
+
+msgid "Private key does not match the certificate public key\n"
+msgstr ""
+
+msgid "Procedure calling"
+msgstr ""
+
+msgid "Process HTML files downloaded over FTP"
+msgstr ""
+
+msgid "Processed OK: %d (%3d%%)\n"
+msgstr ""
+
+msgid "Processed:       "
+msgstr ""
+
+msgid "Processed: %5d"
+msgstr ""
+
+msgid "Processing of javascript"
+msgstr ""
+
+msgid "Progressbar"
+msgstr ""
+
+msgid "Prompt: "
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Protocol: "
+msgstr ""
+
+msgid "Proxy"
+msgstr ""
+
+msgid "Proxy %s:%d is HTTP/%d.%d proxy\n"
+msgstr ""
+
+msgid "Proxy: "
+msgstr ""
+
+msgid "QUIT signal catched\n"
+msgstr ""
+
+msgid "Query fields: "
+msgstr ""
+
+msgid "Query values:\n"
+msgstr ""
+
+msgid "Queued:       "
+msgstr ""
+
+msgid "Queued: %5d"
+msgstr ""
+
+msgid "Quiet"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "R:          "
+msgstr ""
+
+msgid "RE for Javascript patterns: "
+msgstr ""
+
+msgid "RE for advertisement URLs: "
+msgstr ""
+
+msgid "RE pattern"
+msgstr ""
+
+msgid "RE patterns"
+msgstr ""
+
+msgid "RT:          "
+msgstr ""
+
+msgid "Re-using established FTP control connection\n"
+msgstr ""
+
+msgid "Read buffer size: "
+msgstr ""
+
+msgid "Realm"
+msgstr ""
+
+msgid "Realm: "
+msgstr ""
+
+msgid "Received Encoded file but decoding not allowed (untouched)\n"
+msgstr ""
+
+msgid "Recurse through FTP directory"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Refresh URL list"
+msgstr ""
+
+msgid "Regeting whole file\n"
+msgstr ""
+
+msgid "Rejected:       "
+msgstr ""
+
+msgid "Rejected: %5d"
+msgstr ""
+
+msgid "Reload script file"
+msgstr ""
+
+msgid "Relocating %s\n"
+msgstr ""
+
+msgid "Relocating and scanning HTML document"
+msgstr ""
+
+msgid "Remaining time"
+msgstr ""
+
+msgid "Reminder command: "
+msgstr ""
+
+msgid "Remove improper documents"
+msgstr ""
+
+msgid "Removing cookie from disabled domain %s\n"
+msgstr ""
+
+msgid "Removing improper document : %s\n"
+msgstr ""
+
+msgid "Removing unsupported URL: %s\n"
+msgstr ""
+
+msgid "Replace String1 with String2 in filename"
+msgstr ""
+
+msgid "Replace chars from Set1 with chars from Set2 in filename"
+msgstr ""
+
+msgid "Request URL: "
+msgstr ""
+
+msgid "Request encoding: "
+msgstr ""
+
+msgid "Request method: "
+msgstr ""
+
+msgid "Request type: "
+msgstr ""
+
+msgid "Reschedule after "
+msgstr ""
+
+msgid "Rescheduling locked URL as no. %d\n"
+msgstr ""
+
+msgid "Reset configuration"
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Restart JavaScript runtime"
+msgstr ""
+
+msgid "Retrieve FTP symbolic links like files"
+msgstr ""
+
+msgid "Reuse HTTP Digest access nonce"
+msgstr ""
+
+msgid "Rewrite"
+msgstr ""
+
+msgid "Rewrite URL part in HTML document"
+msgstr ""
+
+msgid "Rewrite URLs inside HTML doc."
+msgstr ""
+
+msgid "Rewrite URLs to local when stored locally"
+msgstr ""
+
+msgid "Rewrite all URLs to local immediately"
+msgstr ""
+
+msgid "Rewrite all URLs to remote immediately"
+msgstr ""
+
+msgid "Rewrite all suitable URLs to local"
+msgstr ""
+
+msgid "Rewrite only one currently download URL"
+msgstr ""
+
+msgid "Rewriting links inside parent documents"
+msgstr ""
+
+msgid "Rollback amount on reget: "
+msgstr ""
+
+msgid "Rule"
+msgstr ""
+
+msgid "Running post-processing command\n"
+msgstr ""
+
+msgid "S:                     "
+msgstr ""
+
+msgid "S: %s [R: %s] [ET: %s] \r"
+msgstr ""
+
+msgid "S: %s [R: %s] [ET: %s] [RT: %s] \r"
+msgstr ""
+
+msgid "SSL"
+msgstr ""
+
+msgid "SSL client certificate"
+msgstr ""
+
+msgid "SSL connection is using %s\n"
+msgstr ""
+
+msgid "SSL protocol version"
+msgstr ""
+
+msgid "SSL proxy"
+msgstr ""
+
+msgid "SSLv2"
+msgstr ""
+
+msgid "SSLv23"
+msgstr ""
+
+msgid "SSLv3"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save ..."
+msgstr ""
+
+msgid "Save log ..."
+msgstr ""
+
+msgid "Save scenario ..."
+msgstr ""
+
+msgid "Save script to file"
+msgstr ""
+
+msgid "Save settings to ~/.pavukrc"
+msgstr ""
+
+msgid "Schedule ..."
+msgstr ""
+
+msgid "Scheduling command: "
+msgstr ""
+
+msgid "Scheme"
+msgstr ""
+
+msgid "Scheme: "
+msgstr ""
+
+msgid "Searching for documents to synchronize"
+msgstr ""
+
+msgid "Searching for files to resume"
+msgstr ""
+
+msgid "Seeding entropy pool INSECURELY!\n"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Select allowed HTML tags and attributes"
+msgstr ""
+
+msgid "Send From: header with HTTP request"
+msgstr ""
+
+msgid "Send If-Range header field when regeting"
+msgstr ""
+
+msgid "Send cookies"
+msgstr ""
+
+msgid "Send self URL as Referer for starting URLs"
+msgstr ""
+
+msgid "Sending data ..."
+msgstr ""
+
+msgid "Sending request ..."
+msgstr ""
+
+msgid "Separate info directory: "
+msgstr ""
+
+msgid "September"
+msgstr ""
+
+msgid "Server %s is trying to set cookie for %s domain\n"
+msgstr ""
+
+msgid "Server IP address matching pattern: "
+msgstr ""
+
+msgid "Server certificate:\n"
+msgstr ""
+
+msgid "Server ports"
+msgstr ""
+
+msgid "Server responses"
+msgstr ""
+
+msgid "Shortlog file: "
+msgstr ""
+
+msgid "Show time of start and end of downloading"
+msgstr ""
+
+msgid "Show whole main window"
+msgstr ""
+
+msgid "Site: "
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Size differs, regeting whole\n"
+msgstr ""
+
+msgid "Size: %d\n"
+msgstr ""
+
+msgid "Sleep time between transfers: "
+msgstr ""
+
+msgid "Sleeping ..."
+msgstr ""
+
+msgid "Specify at least one starting URL!"
+msgstr ""
+
+msgid "Specify at least one starting URL!\n"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Start working on currently set starting URLs"
+msgstr ""
+
+msgid "Starting ..."
+msgstr ""
+
+msgid "Starting download"
+msgstr ""
+
+msgid "Starting log : %H:%M:%S %d.%m.%Y\n"
+msgstr ""
+
+msgid "Starting time :  %s\n"
+msgstr ""
+
+msgid "Starting urls: %d\n"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status page"
+msgstr ""
+
+msgid "Status page ..."
+msgstr ""
+
+msgid "Status: "
+msgstr ""
+
+msgid "Sto_p"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Store directory URLs as index files"
+msgstr ""
+
+msgid "Store failed\n"
+msgstr ""
+
+msgid "Store file name: "
+msgstr ""
+
+msgid "Store info files with each document"
+msgstr ""
+
+msgid "Store tree ..."
+msgstr ""
+
+msgid "Storing document"
+msgstr ""
+
+msgid "String1: "
+msgstr ""
+
+msgid "String2: "
+msgstr ""
+
+msgid "Suffix: "
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "Suspending download for %d seconds.\n"
+msgstr ""
+
+msgid "TLSv1"
+msgstr ""
+
+msgid "Text only"
+msgstr ""
+
+msgid "This URL type is not supported with ftpdir mode\n"
+msgstr ""
+
+msgid "This is the result of running pavuk reminder mode\n"
+"\n"
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Time: "
+msgstr ""
+
+msgid "Toggle toolbar"
+msgstr ""
+
+msgid "Too high timeout value for GUI interface implementation of timeout\n"
+msgstr ""
+
+msgid "Toolbar"
+msgstr ""
+
+msgid "Total number of URLs in queue: %d\n"
+msgstr ""
+
+msgid "Tranform rule: "
+msgstr ""
+
+msgid "Transfer quota: "
+msgstr ""
+
+msgid "Transfer rate"
+msgstr ""
+
+msgid "Transfering data"
+msgstr ""
+
+msgid "Transform rule"
+msgstr ""
+
+msgid "Tree"
+msgstr ""
+
+msgid "Try download"
+msgstr ""
+
+msgid "Try to find unique name, when original log file locked"
+msgstr ""
+
+msgid "Trying to do HTTP Digest authorization\n"
+msgstr ""
+
+msgid "Trying to do HTTP proxy Digest authorization\n"
+msgstr ""
+
+msgid "Trying to do NTLM authorization\n"
+msgstr ""
+
+msgid "Trying to do proxy NTLM authorization\n"
+msgstr ""
+
+msgid "Trying to resume from position %d \n"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type \"%s --help\" for long help\n"
+msgstr ""
+
+msgid "Type: "
+msgstr ""
+
+msgid "Type: %s\n"
+msgstr ""
+
+msgid "Type: unknown\n"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "URL matching pattern: "
+msgstr ""
+
+msgid "URL not found on remote server\n"
+msgstr ""
+
+msgid "URL scheduling strategy: "
+msgstr ""
+
+msgid "URL tree"
+msgstr ""
+
+msgid "URL: %5d(%d) of %5d  %s\n"
+msgstr ""
+
+msgid "URL: %s\n"
+msgstr ""
+
+msgid "URL[%2d]: %5d(%d) of %5d  %s\n"
+msgstr ""
+
+msgid "URLs with forms"
+msgstr ""
+
+msgid "URLs with some errors\n"
+msgstr ""
+
+msgid "Unable to create ~/.pavuk_keys file\n"
+msgstr ""
+
+msgid "Unable to fork pavuk to background - running in foreground\n"
+msgstr ""
+
+msgid "Unable to open Mozilla cache index - %s\n"
+msgstr ""
+
+msgid "Unable to open Netscape cache index - %s\n"
+msgstr ""
+
+msgid "Unable to open log file - disabling logging\n"
+msgstr ""
+
+msgid "Unable to parse \"%s\"\n"
+msgstr ""
+
+msgid "Unable to parse : \"%s\"\n"
+msgstr ""
+
+msgid "Unable to parse : %s\n"
+msgstr ""
+
+msgid "Unable to parse commandline: %s\n"
+msgstr ""
+
+msgid "Unable to parse: %s\n"
+msgstr ""
+
+msgid "Unable to set certificate file (wrong password?)\n"
+msgstr ""
+
+msgid "Unable to set public key file\n"
+msgstr ""
+
+msgid "Unexpected response \"%d %s\" when trying to reget!\n"
+msgstr ""
+
+msgid "Unique ID for all SSL sessions"
+msgstr ""
+
+msgid "Unknow operation mode \"%s\"\n"
+msgstr ""
+
+msgid "Unknown SSL version - \"%s\"\n"
+msgstr ""
+
+msgid "Unknown URL scheduling strategy - \"%s\"\n"
+msgstr ""
+
+msgid "Unknown auth type - %s\n"
+msgstr ""
+
+msgid "Unknown option %s\n"
+msgstr ""
+
+msgid "Unknown port \"%s\"\n"
+msgstr ""
+
+msgid "Unknown window to popup"
+msgstr ""
+
+msgid "Unsupported BASE URL -  %s (probably bad handled)\n"
+msgstr ""
+
+msgid "Unsupported URL\n"
+msgstr ""
+
+msgid "Unsupported document encoding\n"
+msgstr ""
+
+msgid "Unsupported form type in context: %d\n"
+msgstr ""
+
+msgid "Unsupported type"
+msgstr ""
+
+msgid "Update cookies"
+msgstr ""
+
+msgid "Updating cookie file\n"
+msgstr ""
+
+msgid "Upper document time limit"
+msgstr ""
+
+msgid "Usage:  %s  [options]  [any number of URLS]\n"
+"pavuk-%s %s\n"
+msgstr ""
+
+msgid "Use HTTP/1.1 protocol for HTTP communication"
+msgstr ""
+
+msgid "Use gzip encoding for transfer"
+msgstr ""
+
+msgid "Use preferences"
+msgstr ""
+
+msgid "Use wide listing of FTP directories"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "User auth. scheme"
+msgstr ""
+
+msgid "User authentification"
+msgstr ""
+
+msgid "User condition script: "
+msgstr ""
+
+msgid "User name: "
+msgstr ""
+
+msgid "User: "
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Value: "
+msgstr ""
+
+msgid "WARNING: option \"%s\" not supported in current configuration!\n"
+msgstr ""
+
+msgid "WARNING: option \"-%s\" not supported in current configuration!\n"
+msgstr ""
+
+msgid "WARNING: scndir not specified - saving to current directory\n"
+msgstr ""
+
+msgid "Waiting for response ..."
+msgstr ""
+
+msgid "Waiting to releases document lock on: %s\n"
+msgstr ""
+
+msgid "Warning: FTP server undertand REST command, but can't handle it properly.\n"
+msgstr ""
+
+msgid "Warning: broken ftp transfer ...\n"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "Whole reget when partial not supported"
+msgstr ""
+
+msgid "Wildcard patterns"
+msgstr ""
+
+msgid "Working subdirectory :"
+msgstr ""
+
+msgid "Wrong format of option %s\n"
+msgstr ""
+
+msgid "_Action"
+msgstr ""
+
+msgid "_Break"
+msgstr ""
+
+msgid "_Config"
+msgstr ""
+
+msgid "_File"
+msgstr ""
+
+msgid "_Help"
+msgstr ""
+
+msgid "_Limitations ..."
+msgstr ""
+
+msgid "_Mode"
+msgstr ""
+
+msgid "_Restart"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "bad parameter"
+msgstr ""
+
+msgid "decode"
+msgstr ""
+
+msgid "disabled by user\n"
+msgstr ""
+
+msgid "disabling logging\n"
+msgstr ""
+
+msgid "download"
+msgstr ""
+
+msgid "downloaded OK\n"
+msgstr ""
+
+msgid "file"
+msgstr ""
+
+msgid "ftp: setsockopt TOS - THROUGHPUT failed"
+msgstr ""
+
+msgid "ftp_get_response: ftp control connection closed before any response\n"
+msgstr ""
+
+msgid "generating new log filename\n"
+msgstr ""
+
+msgid "host not found"
+msgstr ""
+
+msgid "last document locked -> sleeping for 5 seconds\n"
+msgstr ""
+
+msgid "list ftp directory"
+msgstr ""
+
+msgid "loaded from NS cache\n"
+msgstr ""
+
+msgid "loaded from local URL tree\n"
+msgstr ""
+
+msgid "moved to another URL\n"
+msgstr ""
+
+msgid "name is valid, but doesn't have an IP address"
+msgstr ""
+
+msgid "no error"
+msgstr ""
+
+msgid "non recoverable error"
+msgstr ""
+
+msgid "normal recurse"
+msgstr ""
+
+msgid "not enough parameters"
+msgstr ""
+
+msgid "not processed yet\n"
+msgstr ""
+
+msgid "press any key to exit\n"
+msgstr ""
+
+msgid "probably recoverable error\n"
+msgstr ""
+
+msgid "randomize"
+msgstr ""
+
+msgid "reading URLs from file - %s\n"
+msgstr ""
+
+msgid "rejected by rules\n"
+msgstr ""
+
+msgid "reminder"
+msgstr ""
+
+msgid "resume files"
+msgstr ""
+
+msgid "retry no. %d\n"
+msgstr ""
+
+msgid "rewrite parent"
+msgstr ""
+
+msgid "setsockopt: SO_RCVBUF failed"
+msgstr ""
+
+msgid "single page"
+msgstr ""
+
+msgid "skip: "
+msgstr ""
+
+msgid "storing document"
+msgstr ""
+
+msgid "synchronize"
+msgstr ""
+
+msgid "temporary error (try again later)"
+msgstr ""
+
+msgid "transfer but don't store"
+msgstr ""
+
+msgid "transfering \"robots.txt\""
+msgstr ""
+
+msgid "transfering \"robots.txt\"\n"
+msgstr ""
+
+msgid "truncated\n"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "unknown\n"
+msgstr ""
+
+msgid "unknown hostname translation error"
+msgstr ""
+
+msgid "unknown limiting condition"
+msgstr ""
+
+msgid "unlimited reget"
+msgstr ""
+
+msgid "unrecoverable error\n"
+msgstr ""
+
+msgid "unsupported URL type \"%s\"\n"
+msgstr ""
+
+msgid "update local links"
+msgstr ""
+
+msgid "waiting to release lock on FD : %d\n"
+msgstr ""
+
+msgid "wildcard pattern"
+msgstr ""
+
+msgid "\t-active_ftp_port_range $min:$max\n"
+"\t                   - range of FTP data connection ports used\n"
+"\t                     for active ftp\n"
+msgstr ""
+
+msgid "\t-always_mdtm/-noalways_mdtm\n"
+"\t                   - always use MDTM to determine modifictaion time\n"
+"\t                     of remote file; never use values from file listing\n"
+msgstr ""
+
+msgid "\t-default_prefix $str\n"
+"\t                   - default URL prefix for subdirectory of\n"
+"\t                     mirrored files\n"
+msgstr ""
+
+msgid "\t-dont_touch_tag_rpattern $re\n"
+"\t                   - RE pattern of HTML tag in which URLs should\n"
+"\t                     not be touched by URL rewriting engine\n"
+msgstr ""
+
+msgid "\t-dont_touch_url_pattern $list\n"
+"\t                   - wilcard patterns of URLs which should not\n"
+"\t                     be touched by URL rewriting engine\n"
+msgstr ""
+
+msgid "\t-dont_touch_url_rpattern $re\n"
+"\t                   - RE pattern of URL which should not be touched\n"
+"\t                     by URL rewriting engine\n"
+msgstr ""
+
+msgid "\t-info_dir $dir     - separate directory where will stored info files\n"
+"\t                     instead of directly into document tree\n"
+msgstr ""
+
+msgid "\t-mode $mode        - set operation mode\n"
+"\t                         normal - recurse throught WWW (default)\n"
+"\t                         linkupdate - update remote links in local tree\n"
+"\t                         sync - synchronize local tree with remote WWW\n"
+"\t                                servers\n"
+"\t                         singlepage - single page with inline objects\n"
+"\t                         singlereget - reget file until not whole\n"
+"\t                         resumeregets - reget all files which are broken\n"
+"\t                         dontstore - transfer documents, but don't store\n"
+"\t                         reminder - checks URLs if they are changed\n"
+"\t                         ftpdir - list content of FTP directory\n"
+"\t                         mirror - make exact copy of remote site\n"
+msgstr ""
+
+msgid "\t-noencode          - do not perform rfc 2396 character encoding\n"
+msgstr ""
+
+msgid "\t-noverify/-verify        - don't verify SSL certificates\n"
+msgstr ""
+
+msgid "\t-nss_accept_unknown_cert/-nonss_accept_unknown_cert\n"
+"\t                   - accept SSL server certificates not listed in\n"
+"\t                     certificate database\n"
+msgstr ""
+
+msgid "\t-nss_cert_dir $dir - set certificate config directory for Netscape NSS\n"
+msgstr ""
+
+msgid "\t-nss_domestic_policy/-nss_export_policy\n"
+"\t                   - set policy for SSL ciphers in NSS\n"
+msgstr ""
+
+msgid "\t-post_update/-nopost_update\n"
+"\t                   - update in parent documents only links pointing\n"
+"\t                     to current document\n"
+msgstr ""
+
+msgid "\t-read_css/-noread_css\n"
+"\t                   - fetch objects mentioned in style sheets\n"
+msgstr ""
+
+msgid "\t-referer/-noreferer\n"
+"\t                   - send Referer: field in HTTP request\n"
+msgstr ""
+
+msgid "\t-remove_before_store/-noremove_before_store\n"
+"\t                   - remove file before storing new content\n"
+msgstr ""
+
+msgid "\t-sdemo_mode/-notsdemo_mode\n"
+"\t                   - sdemo compatible output\n"
+msgstr ""
+
+msgid "\t-tag_pattern $tag $attrib $url\n"
+"\t                   - wilcard patterns for precise matching of URLs\n"
+"\t                     inside HTML tags\n"
+msgstr ""
+
+msgid "\t-tag_rpattern $tag $attrib $url\n"
+"\t                   - RE patterns for precise matching of URLs\n"
+"\t                     inside HTML tags\n"
+msgstr ""
+
+msgid "\t-tlogfile $file    - name of file where time log will be stored\n"
+msgstr ""
+
+msgid "\t-transparent_proxy $site[:$port]\n"
+"\t                   - transparent proxy\n"
+msgstr ""
+
+msgid "\t-transparent_ssl_proxy $site[:$port]\n"
+"\t                   - transparent SSL proxy\n"
+msgstr ""
+
+msgid "\t-trelative $str (object/program)\n"
+"\t                   - what timings are relative to\n"
+msgstr ""
+
+msgid " - BSD regexp\n"
+msgstr ""
+
+msgid " - Bell V8 regexp\n"
+msgstr ""
+
+msgid " - GNU regexp\n"
+msgstr ""
+
+msgid " - HTTP and FTP over SSL\n"
+msgstr ""
+
+msgid " - IPv6 support\n"
+msgstr ""
+
+msgid " - JavaScript bindings\n"
+msgstr ""
+
+msgid " - NTLM authorization support\n"
+msgstr ""
+
+msgid " - PCRE regexp\n"
+msgstr ""
+
+msgid " - POSIX regexp\n"
+msgstr ""
+
+msgid " - SSL layer implemented with %s library\n"
+msgstr ""
+
+msgid " - Socks proxy support\n"
+msgstr ""
+
+msgid " - filesystem free space checking\n"
+msgstr ""
+
+msgid " - multithreading support\n"
+msgstr ""
+
+msgid " - optional regex patterns in -fnrules and -*rpattern options\n"
+msgstr ""
+
+msgid " - support for detecting whether pavuk is running as background job\n"
+msgstr ""
+
+msgid " - support for loading files from Netscape browser cache\n"
+msgstr ""
+
+msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n"
+"<HTML>\n"
+"<TITLE>\n"
+"Directory of %s://%s:%hu%s\n"
+"</TITLE>\n"
+"<BODY>\n"
+"<H1 ALIGN=CENTER><B>List of FTP directory %s://%s:%hu/%s </H1><BR><UL>"
+msgstr ""
+
+msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n"
+"<HTML>\n"
+"<TITLE>\n"
+"Directory of gopher://%s:%hu/%s\n"
+"</TITLE>\n"
+"<BODY>\n"
+"<H1 ALIGN=CENTER><B>Directory of gopher://%s:%hu/%s </H1><BR><BR><UL>"
+msgstr ""
+
+msgid "Accept unknown certificates"
+msgstr ""
+
+msgid "Allow/deny"
+msgstr ""
+
+msgid "Attribute pattern"
+msgstr ""
+
+msgid "Bad -tag_pattern attribute wildcard pattern\n"
+msgstr ""
+
+msgid "Bad -tag_pattern tag wildcard pattern\n"
+msgstr ""
+
+msgid "Bad -tag_pattern url wildcard pattern\n"
+msgstr ""
+
+msgid "Bad -tag_rpattern attribute RE pattern\n"
+msgstr ""
+
+msgid "Bad -tag_rpattern tag RE pattern\n"
+msgstr ""
+
+msgid "Bad -tag_rpattern url RE pattern\n"
+msgstr ""
+
+msgid "Checking HTTP proxy server %s:%hu\n"
+msgstr ""
+
+msgid "Cookie file format not supported for writing.\n"
+msgstr ""
+
+msgid "Corrupted Mozilla cache blockfile!"
+msgstr ""
+
+msgid "Corrupted Mozilla cache map file!"
+msgstr ""
+
+msgid "Czech"
+msgstr ""
+
+msgid "Deflating document - failed\n"
+msgstr ""
+
+msgid "Domestic SSL ciphers policy"
+msgstr ""
+
+msgid "Don't touch HTML tag RE pattern: "
+msgstr ""
+
+msgid "Don't touch URL RE pattern: "
+msgstr ""
+
+msgid "Don't touch URL wildcard pattern: "
+msgstr ""
+
+msgid "Edit ..."
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Error opening cache index file %s\n"
+msgstr ""
+
+msgid "Error parsing FTP response to %s command - %s\n"
+msgstr ""
+
+msgid "Failed to check proxy (bad response)!\n"
+msgstr ""
+
+msgid "Failed to check proxy (read failed)!\n"
+msgstr ""
+
+msgid "Failed to check proxy (sock open)!\n"
+msgstr ""
+
+msgid "Failed to check proxy (write failed)!\n"
+msgstr ""
+
+msgid "Failed: %4ld"
+msgstr ""
+
+msgid "Fetch objects mentioned in style sheets"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "HTML document URL rewriting rules"
+msgstr ""
+
+msgid "Invalid port range \"%s\"\n"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "Mozilla new cache map file format not recognized"
+msgstr ""
+
+msgid "NSS certificate config directory: "
+msgstr ""
+
+msgid "NSS_Init: Unable to open cert database"
+msgstr ""
+
+msgid "Pattern type: "
+msgstr ""
+
+msgid "Pavuk %s %s\n"
+"\n"
+"an automatic WEB file grabber\n"
+"\n"
+"By Stefan Ondrejicka\n"
+"\n"
+"URL: http://pavuk.sourceforge.net/\n"
+msgstr ""
+
+msgid "Pavuk: edit %s"
+msgstr ""
+
+msgid "Pavuk: edit Documents matching skip pattern"
+msgstr ""
+
+msgid "Pavuk: edit Server IP address matching skip pattern"
+msgstr ""
+
+msgid "Pavuk: edit URL matching skip pattern"
+msgstr ""
+
+msgid "PavukFnrules constructor call prohibited from script\n"
+msgstr ""
+
+msgid "PavukUrl constructor failed\n"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Processed: %5ld"
+msgstr ""
+
+msgid "Program has been forcefully terminated\n"
+msgstr ""
+
+msgid "Proxy %s:%hu is HTTP/%d.%d proxy\n"
+msgstr ""
+
+msgid "Queued: %5ld"
+msgstr ""
+
+msgid "Rejected: %5ld"
+msgstr ""
+
+msgid "S: %s [R: %s] [ET: %s]"
+msgstr ""
+
+msgid "S: %s [R: %s] [ET: %s] [RT: %s]"
+msgstr ""
+
+msgid "SSL connect failure - %s\n"
+msgstr ""
+
+msgid "SSL error - %s\n"
+msgstr ""
+
+msgid "SSL informations"
+msgstr ""
+
+msgid "Send Referer with HTTP requests"
+msgstr ""
+
+msgid "Slovak"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "TERM signal catched\n"
+msgstr ""
+
+msgid "Tag pattern"
+msgstr ""
+
+msgid "Tag patterns"
+msgstr ""
+
+msgid "Trying to resume from position %d\n"
+msgstr ""
+
+msgid "Tuning of HTML rewriting engine"
+msgstr ""
+
+msgid "URL pattern"
+msgstr ""
+
+msgid "Ukrainian"
+msgstr ""
+
+msgid "Unable to change language during processing time!\n"
+msgstr ""
+
+msgid "Warning: FTP server understands REST command, but can't handle it properly.\n"
+msgstr ""
+
+msgid "Warning: locking not supported ... don't run multiple processes or threads!\n"
+msgstr ""
+
+msgid "bad parameters"
+msgstr ""
+
+msgid "bad parent index"
+msgstr ""
+
+msgid "entry"
+msgstr ""
+
+msgid "invalid assignment"
+msgstr ""
+
+msgid "mirror"
+msgstr ""
+
+msgid "pjs: There is no \"%s\" JavaScript function!\n"
+msgstr ""
+

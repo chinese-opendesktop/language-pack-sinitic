@@ -1,0 +1,1649 @@
+msgid ""
+msgstr "Project-Id-Version: pg_dump-cs (PostgreSQL 9.3)\n"
+"Report-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\n"
+"PO-Revision-Date: 2019-09-27 19:57+0200\n"
+"Last-Translator: Tomas Vondra <tv@fuzzy.cz>\n"
+"Language-Team: Czech <info@cspug.cx>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 2.2.3\n"
+
+msgid "\n"
+"Connection options:\n"
+msgstr ""
+
+msgid "\n"
+"General options:\n"
+msgstr ""
+
+msgid "\n"
+"If -f/--file is not used, then the SQL script will be written to the "
+"standard\n"
+"output.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"If no database name is supplied, then the PGDATABASE environment\n"
+"variable value is used.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"If no input file name is supplied, then standard input is used.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"Options controlling the output content:\n"
+msgstr ""
+
+msgid "\n"
+"Options controlling the restore:\n"
+msgstr ""
+
+msgid "\n"
+"The options -I, -n, -N, -P, -t, -T, and --section can be combined and "
+"specified\n"
+"multiple times to select multiple objects.\n"
+msgstr ""
+
+msgid "  %s"
+msgstr ""
+
+msgid "  %s [OPTION]...\n"
+msgstr ""
+
+msgid "  %s [OPTION]... [DBNAME]\n"
+msgstr ""
+
+msgid "  %s [OPTION]... [FILE]\n"
+msgstr ""
+
+msgid "  --binary-upgrade             for use by upgrade utilities only\n"
+msgstr ""
+
+msgid "  --column-inserts             dump data as INSERT commands with column "
+"names\n"
+msgstr ""
+
+msgid "  --disable-dollar-quoting     disable dollar quoting, use SQL standard "
+"quoting\n"
+msgstr ""
+
+msgid "  --disable-triggers           disable triggers during data-only restore\n"
+msgstr ""
+
+msgid "  --enable-row-security        enable row security\n"
+msgstr ""
+
+msgid "  --enable-row-security        enable row security (dump only content user "
+"has\n"
+"                               access to)\n"
+msgstr ""
+
+msgid "  --exclude-database=PATTERN   exclude databases whose name matches PATTERN\n"
+msgstr ""
+
+msgid "  --exclude-table-data=PATTERN do NOT dump data for the specified table(s)\n"
+msgstr ""
+
+msgid "  --extra-float-digits=NUM     override default setting for "
+"extra_float_digits\n"
+msgstr ""
+
+msgid "  --if-exists                  use IF EXISTS when dropping objects\n"
+msgstr ""
+
+msgid "  --inserts                    dump data as INSERT commands, rather than "
+"COPY\n"
+msgstr ""
+
+msgid "  --load-via-partition-root    load partitions via the root table\n"
+msgstr ""
+
+msgid "  --lock-wait-timeout=TIMEOUT  fail after waiting TIMEOUT for a table lock\n"
+msgstr ""
+
+msgid "  --no-comments                do not dump comments\n"
+msgstr ""
+
+msgid "  --no-comments                do not restore comments\n"
+msgstr ""
+
+msgid "  --no-data-for-failed-tables  do not restore data of tables that could not "
+"be\n"
+"                               created\n"
+msgstr ""
+
+msgid "  --no-publications            do not dump publications\n"
+msgstr ""
+
+msgid "  --no-publications            do not restore publications\n"
+msgstr ""
+
+msgid "  --no-role-passwords          do not dump passwords for roles\n"
+msgstr ""
+
+msgid "  --no-security-labels         do not dump security label assignments\n"
+msgstr ""
+
+msgid "  --no-security-labels         do not restore security labels\n"
+msgstr ""
+
+msgid "  --no-subscriptions           do not dump subscriptions\n"
+msgstr ""
+
+msgid "  --no-subscriptions           do not restore subscriptions\n"
+msgstr ""
+
+msgid "  --no-sync                    do not wait for changes to be written safely "
+"to disk\n"
+msgstr ""
+
+msgid "  --no-synchronized-snapshots  do not use synchronized snapshots in parallel "
+"jobs\n"
+msgstr ""
+
+msgid "  --no-tablespaces             do not dump tablespace assignments\n"
+msgstr ""
+
+msgid "  --no-tablespaces             do not restore tablespace assignments\n"
+msgstr ""
+
+msgid "  --no-unlogged-table-data     do not dump unlogged table data\n"
+msgstr ""
+
+msgid "  --on-conflict-do-nothing     add ON CONFLICT DO NOTHING to INSERT "
+"commands\n"
+msgstr ""
+
+msgid "  --quote-all-identifiers      quote all identifiers, even if not key words\n"
+msgstr ""
+
+msgid "  --role=ROLENAME          do SET ROLE before dump\n"
+msgstr ""
+
+msgid "  --role=ROLENAME          do SET ROLE before restore\n"
+msgstr ""
+
+msgid "  --rows-per-insert=NROWS      number of rows per INSERT; implies --inserts\n"
+msgstr ""
+
+msgid "  --section=SECTION            dump named section (pre-data, data, or post-"
+"data)\n"
+msgstr ""
+
+msgid "  --section=SECTION            restore named section (pre-data, data, or "
+"post-data)\n"
+msgstr ""
+
+msgid "  --serializable-deferrable    wait until the dump can run without "
+"anomalies\n"
+msgstr ""
+
+msgid "  --snapshot=SNAPSHOT          use given snapshot for the dump\n"
+msgstr ""
+
+msgid "  --strict-names               require table and/or schema include patterns "
+"to\n"
+"                               match at least one entity each\n"
+msgstr ""
+
+msgid "  --use-set-session-authorization\n"
+"                               use SET SESSION AUTHORIZATION commands "
+"instead of\n"
+"                               ALTER OWNER commands to set ownership\n"
+msgstr ""
+
+msgid "  -1, --single-transaction     restore as a single transaction\n"
+msgstr ""
+
+msgid "  -?, --help                   show this help, then exit\n"
+msgstr ""
+
+msgid "  -?, --help               show this help, then exit\n"
+msgstr ""
+
+msgid "  -B, --no-blobs               exclude large objects in dump\n"
+msgstr ""
+
+msgid "  -C, --create                 create the target database\n"
+msgstr ""
+
+msgid "  -C, --create                 include commands to create database in dump\n"
+msgstr ""
+
+msgid "  -E, --encoding=ENCODING      dump the data in encoding ENCODING\n"
+msgstr ""
+
+msgid "  -F, --format=c|d|t       backup file format (should be automatic)\n"
+msgstr ""
+
+msgid "  -F, --format=c|d|t|p         output file format (custom, directory, tar,\n"
+"                               plain text (default))\n"
+msgstr ""
+
+msgid "  -I, --index=NAME             restore named index\n"
+msgstr ""
+
+msgid "  -L, --use-list=FILENAME      use table of contents from this file for\n"
+"                               selecting/ordering output\n"
+msgstr ""
+
+msgid "  -N, --exclude-schema=NAME    do not restore objects in this schema\n"
+msgstr ""
+
+msgid "  -N, --exclude-schema=PATTERN do NOT dump the specified schema(s)\n"
+msgstr ""
+
+msgid "  -O, --no-owner               skip restoration of object ownership\n"
+msgstr ""
+
+msgid "  -O, --no-owner               skip restoration of object ownership in\n"
+"                               plain-text format\n"
+msgstr ""
+
+msgid "  -P, --function=NAME(args)    restore named function\n"
+msgstr ""
+
+msgid "  -S, --superuser=NAME         superuser user name to use for disabling "
+"triggers\n"
+msgstr ""
+
+msgid "  -S, --superuser=NAME         superuser user name to use in plain-text "
+"format\n"
+msgstr ""
+
+msgid "  -S, --superuser=NAME         superuser user name to use in the dump\n"
+msgstr ""
+
+msgid "  -T, --exclude-table=PATTERN  do NOT dump the specified table(s)\n"
+msgstr ""
+
+msgid "  -T, --trigger=NAME           restore named trigger\n"
+msgstr ""
+
+msgid "  -U, --username=NAME      connect as specified database user\n"
+msgstr ""
+
+msgid "  -V, --version                output version information, then exit\n"
+msgstr ""
+
+msgid "  -V, --version            output version information, then exit\n"
+msgstr ""
+
+msgid "  -W, --password           force password prompt (should happen "
+"automatically)\n"
+msgstr ""
+
+msgid "  -Z, --compress=0-9           compression level for compressed formats\n"
+msgstr ""
+
+msgid "  -a, --data-only              dump only the data, not the schema\n"
+msgstr ""
+
+msgid "  -a, --data-only              restore only the data, no schema\n"
+msgstr ""
+
+msgid "  -b, --blobs                  include large objects in dump\n"
+msgstr ""
+
+msgid "  -c, --clean                  clean (drop) database objects before "
+"recreating\n"
+msgstr ""
+
+msgid "  -c, --clean                  clean (drop) databases before recreating\n"
+msgstr ""
+
+msgid "  -d, --dbname=CONNSTR     connect using connection string\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME      database to dump\n"
+msgstr ""
+
+msgid "  -d, --dbname=NAME        connect to database name\n"
+msgstr ""
+
+msgid "  -e, --exit-on-error          exit on error, default is to continue\n"
+msgstr ""
+
+msgid "  -f, --file=FILENAME          output file name\n"
+msgstr ""
+
+msgid "  -f, --file=FILENAME          output file or directory name\n"
+msgstr ""
+
+msgid "  -f, --file=FILENAME      output file name (- for stdout)\n"
+msgstr ""
+
+msgid "  -g, --globals-only           dump only global objects, no databases\n"
+msgstr ""
+
+msgid "  -h, --host=HOSTNAME      database server host or socket directory\n"
+msgstr ""
+
+msgid "  -j, --jobs=NUM               use this many parallel jobs to dump\n"
+msgstr ""
+
+msgid "  -j, --jobs=NUM               use this many parallel jobs to restore\n"
+msgstr ""
+
+msgid "  -l, --database=DBNAME    alternative default database\n"
+msgstr ""
+
+msgid "  -l, --list               print summarized TOC of the archive\n"
+msgstr ""
+
+msgid "  -n, --schema=NAME            restore only objects in this schema\n"
+msgstr ""
+
+msgid "  -n, --schema=PATTERN         dump the specified schema(s) only\n"
+msgstr ""
+
+msgid "  -p, --port=PORT          database server port number\n"
+msgstr ""
+
+msgid "  -r, --roles-only             dump only roles, no databases or tablespaces\n"
+msgstr ""
+
+msgid "  -s, --schema-only            dump only the schema, no data\n"
+msgstr ""
+
+msgid "  -s, --schema-only            restore only the schema, no data\n"
+msgstr ""
+
+msgid "  -t, --table=NAME             restore named relation (table, view, etc.)\n"
+msgstr ""
+
+msgid "  -t, --table=PATTERN          dump the specified table(s) only\n"
+msgstr ""
+
+msgid "  -t, --tablespaces-only       dump only tablespaces, no databases or roles\n"
+msgstr ""
+
+msgid "  -v, --verbose                verbose mode\n"
+msgstr ""
+
+msgid "  -v, --verbose            verbose mode\n"
+msgstr ""
+
+msgid "  -w, --no-password        never prompt for password\n"
+msgstr ""
+
+msgid "  -x, --no-privileges          do not dump privileges (grant/revoke)\n"
+msgstr ""
+
+msgid "  -x, --no-privileges          skip restoration of access privileges (grant/"
+"revoke)\n"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "%s dumps a database as a text file or to other formats.\n"
+"\n"
+msgstr ""
+
+msgid "%s extracts a PostgreSQL database cluster into an SQL script file.\n"
+"\n"
+msgstr ""
+
+msgid "%s restores a PostgreSQL database from an archive created by pg_dump.\n"
+"\n"
+msgstr ""
+
+msgid "%s: %sCommand was: %s"
+msgstr ""
+
+msgid "(The system catalogs might be corrupted.)"
+msgstr ""
+
+msgid "COPY failed for table \"%s\": %s"
+msgstr ""
+
+msgid "Consider using a full dump instead of a --data-only dump to avoid this "
+"problem."
+msgstr ""
+
+msgid "Dumping the contents of table \"%s\" failed: PQgetCopyData() failed."
+msgstr ""
+
+msgid "Dumping the contents of table \"%s\" failed: PQgetResult() failed."
+msgstr ""
+
+msgid "Error message from server: %s"
+msgstr ""
+
+msgid "Exported snapshots are not supported by this server version."
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Report bugs to <pgsql-bugs@lists.postgresql.org>.\n"
+msgstr ""
+
+msgid "Synchronized snapshots are not supported by this server version.\n"
+"Run with --no-synchronized-snapshots instead if you do not need\n"
+"synchronized snapshots."
+msgstr ""
+
+msgid "Synchronized snapshots on standby servers are not supported by this server "
+"version.\n"
+"Run with --no-synchronized-snapshots instead if you do not need\n"
+"synchronized snapshots."
+msgstr ""
+
+msgid "The command was: %s"
+msgstr ""
+
+msgid "The program \"pg_dump\" is needed by %s but was not found in the\n"
+"same directory as \"%s\".\n"
+"Check your installation."
+msgstr ""
+
+msgid "The program \"pg_dump\" was found by \"%s\"\n"
+"but was not the same version as %s.\n"
+"Check your installation."
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "WITH OIDS is not supported anymore (table \"%s\")"
+msgstr ""
+
+msgid "WSAStartup failed: %d"
+msgstr ""
+
+msgid "You might not be able to restore the dump without using --disable-triggers "
+"or temporarily dropping the constraints."
+msgstr ""
+
+msgid "a worker process died unexpectedly"
+msgstr ""
+
+msgid "aborting because of server version mismatch"
+msgstr ""
+
+msgid "actual file length (%s) does not match expected (%s)"
+msgstr ""
+
+msgid "aggregate function %s could not be dumped correctly for this database "
+"version; ignored"
+msgstr ""
+
+msgid "already connected to a database"
+msgstr ""
+
+msgid "archive is compressed, but this installation does not support compression -- "
+"no data will be available"
+msgstr ""
+
+msgid "archive items not in correct section order"
+msgstr ""
+
+msgid "archive was made on a machine with larger integers, some operations might "
+"fail"
+msgstr ""
+
+msgid "bad dumpId"
+msgstr ""
+
+msgid "bad table dumpId for TABLE DATA item"
+msgstr ""
+
+msgid "bogus transform definition, at least one of trffromsql and trftosql should "
+"be nonzero"
+msgstr ""
+
+msgid "bogus value in pg_cast.castfunc or pg_cast.castmethod field"
+msgstr ""
+
+msgid "bogus value in pg_cast.castmethod field"
+msgstr ""
+
+msgid "bogus value in pg_transform.trffromsql field"
+msgstr ""
+
+msgid "bogus value in pg_transform.trftosql field"
+msgstr ""
+
+msgid "bogus value in proargmodes array"
+msgstr ""
+
+msgid "can only reopen input archives"
+msgstr ""
+
+msgid "cannot duplicate null pointer (internal error)\n"
+msgstr ""
+
+msgid "cannot restore from compressed archive (compression not supported in this "
+"installation)"
+msgstr ""
+
+msgid "cannot specify both --single-transaction and multiple jobs"
+msgstr ""
+
+msgid "child process exited with exit code %d"
+msgstr ""
+
+msgid "child process exited with unrecognized status %d"
+msgstr ""
+
+msgid "child process was terminated by exception 0x%X"
+msgstr ""
+
+msgid "child process was terminated by signal %d: %s"
+msgstr ""
+
+msgid "command not executable"
+msgstr ""
+
+msgid "command not found"
+msgstr ""
+
+msgid "compression is not supported by tar archive format"
+msgstr ""
+
+msgid "compression level must be in range 0..9"
+msgstr ""
+
+msgid "compressor active"
+msgstr ""
+
+msgid "connecting to database \"%s\" as user \"%s\""
+msgstr ""
+
+msgid "connecting to database for restore"
+msgstr ""
+
+msgid "connecting to new database \"%s\""
+msgstr ""
+
+msgid "connection needs password"
+msgstr ""
+
+msgid "connection to database \"%s\" failed: %s"
+msgstr ""
+
+msgid "corrupt tar header found in %s (expected %d, computed %d) file position %s"
+msgstr ""
+
+msgid "could not change directory to \"%s\": %m"
+msgstr ""
+
+msgid "could not close TOC file: %m"
+msgstr ""
+
+msgid "could not close archive file: %m"
+msgstr ""
+
+msgid "could not close compression library: %s"
+msgstr ""
+
+msgid "could not close compression stream: %s"
+msgstr ""
+
+msgid "could not close data file: %m"
+msgstr ""
+
+msgid "could not close directory \"%s\": %m"
+msgstr ""
+
+msgid "could not close input file: %m"
+msgstr ""
+
+msgid "could not close large object TOC file \"%s\": %m"
+msgstr ""
+
+msgid "could not close output file: %m"
+msgstr ""
+
+msgid "could not close tar member"
+msgstr ""
+
+msgid "could not close temporary file: %m"
+msgstr ""
+
+msgid "could not commit database transaction"
+msgstr ""
+
+msgid "could not compress data: %s"
+msgstr ""
+
+msgid "could not connect to database"
+msgstr ""
+
+msgid "could not connect to database \"%s\""
+msgstr ""
+
+msgid "could not connect to database \"%s\": %s"
+msgstr ""
+
+msgid "could not connect to databases \"postgres\" or \"template1\"\n"
+"Please specify an alternative database."
+msgstr ""
+
+msgid "could not create communication channels: %m"
+msgstr ""
+
+msgid "could not create directory \"%s\": %m"
+msgstr ""
+
+msgid "could not create large object %u: %s"
+msgstr ""
+
+msgid "could not create worker process: %m"
+msgstr ""
+
+msgid "could not determine seek position in archive file: %m"
+msgstr ""
+
+msgid "could not execute query"
+msgstr ""
+
+msgid "could not find a \"%s\" to execute"
+msgstr ""
+
+msgid "could not find block ID %d in archive -- possibly corrupt archive"
+msgstr ""
+
+msgid "could not find block ID %d in archive -- possibly due to out-of-order "
+"restore request, which cannot be handled due to lack of data offsets in "
+"archive"
+msgstr ""
+
+msgid "could not find block ID %d in archive -- possibly due to out-of-order "
+"restore request, which cannot be handled due to non-seekable input file"
+msgstr ""
+
+msgid "could not find entry for ID %d"
+msgstr ""
+
+msgid "could not find file \"%s\" in archive"
+msgstr ""
+
+msgid "could not find function definition for function with OID %u"
+msgstr ""
+
+msgid "could not find header for file \"%s\" in tar archive"
+msgstr ""
+
+msgid "could not find operator with OID %s"
+msgstr ""
+
+msgid "could not find parent extension for %s %s"
+msgstr ""
+
+msgid "could not find referenced extension %u"
+msgstr ""
+
+msgid "could not find where to insert IF EXISTS in statement \"%s\""
+msgstr ""
+
+msgid "could not generate temporary file name: %m"
+msgstr ""
+
+msgid "could not get server version"
+msgstr ""
+
+msgid "could not get server_version from libpq"
+msgstr ""
+
+msgid "could not identify current directory: %m"
+msgstr ""
+
+msgid "could not identify dependency loop"
+msgstr ""
+
+msgid "could not initialize compression library: %s"
+msgstr ""
+
+msgid "could not obtain lock on relation \"%s\"\n"
+"This usually means that someone requested an ACCESS EXCLUSIVE lock on the "
+"table after the pg_dump parent process had gotten the initial ACCESS SHARE "
+"lock on the table."
+msgstr ""
+
+msgid "could not open TOC file \"%s\" for input: %m"
+msgstr ""
+
+msgid "could not open TOC file \"%s\" for output: %m"
+msgstr ""
+
+msgid "could not open TOC file \"%s\": %m"
+msgstr ""
+
+msgid "could not open TOC file for input: %m"
+msgstr ""
+
+msgid "could not open TOC file for output: %m"
+msgstr ""
+
+msgid "could not open input file \"%s\": %m"
+msgstr ""
+
+msgid "could not open input file: %m"
+msgstr ""
+
+msgid "could not open large object %u: %s"
+msgstr ""
+
+msgid "could not open large object TOC file \"%s\" for input: %m"
+msgstr ""
+
+msgid "could not open output file \"%s\": %m"
+msgstr ""
+
+msgid "could not open output file: %m"
+msgstr ""
+
+msgid "could not open temporary file"
+msgstr ""
+
+msgid "could not parse ACL list (%s) for tablespace \"%s\""
+msgstr ""
+
+msgid "could not parse GRANT ACL list (%s) or REVOKE ACL list (%s) for object \"%s"
+"\" (%s)"
+msgstr ""
+
+msgid "could not parse default ACL list (%s)"
+msgstr ""
+
+msgid "could not parse initial GRANT ACL list (%s) or initial REVOKE ACL list (%s) "
+"for object \"%s\" (%s)"
+msgstr ""
+
+msgid "could not parse numeric array \"%s\": invalid character in number"
+msgstr ""
+
+msgid "could not parse numeric array \"%s\": too many numbers"
+msgstr ""
+
+msgid "could not parse proallargtypes array"
+msgstr ""
+
+msgid "could not parse proargmodes array"
+msgstr ""
+
+msgid "could not parse proargnames array"
+msgstr ""
+
+msgid "could not parse proconfig array"
+msgstr ""
+
+msgid "could not parse reloptions array"
+msgstr ""
+
+msgid "could not parse result of current_schemas()"
+msgstr ""
+
+msgid "could not parse server version \"%s\""
+msgstr ""
+
+msgid "could not parse subpublications array"
+msgstr ""
+
+msgid "could not re-open the output file \"%s\": %m"
+msgstr ""
+
+msgid "could not read binary \"%s\""
+msgstr ""
+
+msgid "could not read directory \"%s\": %m"
+msgstr ""
+
+msgid "could not read from input file: %m"
+msgstr ""
+
+msgid "could not read from input file: %s"
+msgstr ""
+
+msgid "could not read from input file: end of file"
+msgstr ""
+
+msgid "could not read input file: %m"
+msgstr ""
+
+msgid "could not read symbolic link \"%s\": %m"
+msgstr ""
+
+msgid "could not reconnect to database"
+msgstr ""
+
+msgid "could not reconnect to database: %s"
+msgstr ""
+
+msgid "could not resolve dependency loop among these items:"
+msgstr ""
+
+msgid "could not set default_table_access_method: %s"
+msgstr ""
+
+msgid "could not set default_tablespace to %s: %s"
+msgstr ""
+
+msgid "could not set search_path to \"%s\": %s"
+msgstr ""
+
+msgid "could not set seek position in archive file: %m"
+msgstr ""
+
+msgid "could not set session user to \"%s\": %s"
+msgstr ""
+
+msgid "could not start database transaction"
+msgstr ""
+
+msgid "could not uncompress data: %s"
+msgstr ""
+
+msgid "could not write to blobs TOC file"
+msgstr ""
+
+msgid "could not write to large object (result: %lu, expected: %lu)"
+msgstr ""
+
+msgid "could not write to output file: %s"
+msgstr ""
+
+msgid "could not write to the communication channel: %m"
+msgstr ""
+
+msgid "creating %s \"%s\""
+msgstr ""
+
+msgid "creating %s \"%s.%s\""
+msgstr ""
+
+msgid "definition of view \"%s\" appears to be empty (length zero)"
+msgstr ""
+
+msgid "did not find magic string in file header"
+msgstr ""
+
+msgid "direct database connections are not supported in pre-1.3 archives"
+msgstr ""
+
+msgid "directory \"%s\" does not appear to be a valid archive (\"toc.dat\" does not "
+"exist)"
+msgstr ""
+
+msgid "directory name too long: \"%s\""
+msgstr ""
+
+msgid "disabling triggers for %s"
+msgstr ""
+
+msgid "don't know how to set owner for object type \"%s\""
+msgstr ""
+
+msgid "dropping %s %s"
+msgstr ""
+
+msgid "dumping contents of table \"%s.%s\""
+msgstr ""
+
+msgid "dumping database \"%s\""
+msgstr ""
+
+msgid "enabling triggers for %s"
+msgstr ""
+
+msgid "entering main parallel loop"
+msgstr ""
+
+msgid "entry ID %d out of range -- perhaps a corrupt TOC"
+msgstr ""
+
+msgid "error during file seek: %m"
+msgstr ""
+
+msgid "error reading large object %u: %s"
+msgstr ""
+
+msgid "error reading large object TOC file \"%s\""
+msgstr ""
+
+msgid "error returned by PQputCopyData: %s"
+msgstr ""
+
+msgid "error returned by PQputCopyEnd: %s"
+msgstr ""
+
+msgid "error: "
+msgstr ""
+
+msgid "errors ignored on restore: %d"
+msgstr ""
+
+msgid "excluding database \"%s\""
+msgstr ""
+
+msgid "executing %s"
+msgstr ""
+
+msgid "executing %s %s"
+msgstr ""
+
+msgid "expected %d check constraint on table \"%s\" but found %d"
+"expected %d check constraints on table \"%s\" but found %d"
+msgstr ""
+
+msgid "expected format (%d) differs from format found in file (%d)"
+msgstr ""
+
+msgid "extra_float_digits must be in range -15..3"
+msgstr ""
+
+msgid "failed sanity check, parent OID %u of table \"%s\" (OID %u) not found"
+msgstr ""
+
+msgid "failed sanity check, parent table with OID %u of pg_rewrite entry with OID "
+"%u not found"
+msgstr ""
+
+msgid "failed sanity check, parent table with OID %u of sequence with OID %u not "
+"found"
+msgstr ""
+
+msgid "fatal: "
+msgstr ""
+
+msgid "file name too long: \"%s\""
+msgstr ""
+
+msgid "file offset in dump file is too large"
+msgstr ""
+
+msgid "finding check constraints for table \"%s.%s\""
+msgstr ""
+
+msgid "finding default expressions of table \"%s.%s\""
+msgstr ""
+
+msgid "finding extension tables"
+msgstr ""
+
+msgid "finding inheritance relationships"
+msgstr ""
+
+msgid "finding the columns and types of table \"%s.%s\""
+msgstr ""
+
+msgid "finished item %d %s %s"
+msgstr ""
+
+msgid "finished main parallel loop"
+msgstr ""
+
+msgid "flagging indexes in partitioned tables"
+msgstr ""
+
+msgid "flagging inherited columns in subtables"
+msgstr ""
+
+msgid "found unexpected block ID (%d) when reading data -- expected %d"
+msgstr ""
+
+msgid "from TOC entry %d; %u %u %s %s %s"
+msgstr ""
+
+msgid "ftell mismatch with expected position -- ftell used"
+msgstr ""
+
+msgid "function \"%s\" not found"
+msgstr ""
+
+msgid "identifying extension members"
+msgstr ""
+
+msgid "implied data-only restore"
+msgstr ""
+
+msgid "incomplete tar header found (%lu byte)"
+"incomplete tar header found (%lu bytes)"
+msgstr ""
+
+msgid "index \"%s\" not found"
+msgstr ""
+
+msgid "input file appears to be a text format dump. Please use psql."
+msgstr ""
+
+msgid "input file does not appear to be a valid archive"
+msgstr ""
+
+msgid "input file does not appear to be a valid archive (too short?)"
+msgstr ""
+
+msgid "input file is too short (read %lu, expected 5)"
+msgstr ""
+
+msgid "internal error -- WriteData cannot be called outside the context of a "
+"DataDumper routine"
+msgstr ""
+
+msgid "internal error -- neither th nor fh specified in tarReadRaw()"
+msgstr ""
+
+msgid "invalid ENCODING item: %s"
+msgstr ""
+
+msgid "invalid OID for large object"
+msgstr ""
+
+msgid "invalid OID for large object (%u)"
+msgstr ""
+
+msgid "invalid STDSTRINGS item: %s"
+msgstr ""
+
+msgid "invalid adnum value %d for table \"%s\""
+msgstr ""
+
+msgid "invalid argument string (%s) for trigger \"%s\" on table \"%s\""
+msgstr ""
+
+msgid "invalid binary \"%s\""
+msgstr ""
+
+msgid "invalid client encoding \"%s\" specified"
+msgstr ""
+
+msgid "invalid column number %d for table \"%s\""
+msgstr ""
+
+msgid "invalid column numbering in table \"%s\""
+msgstr ""
+
+msgid "invalid compression code: %d"
+msgstr ""
+
+msgid "invalid creation date in header"
+msgstr ""
+
+msgid "invalid dependency %d"
+msgstr ""
+
+msgid "invalid dumpId %d"
+msgstr ""
+
+msgid "invalid line in large object TOC file \"%s\": \"%s\""
+msgstr ""
+
+msgid "invalid message received from worker: \"%s\""
+msgstr ""
+
+msgid "invalid number of parallel jobs"
+msgstr ""
+
+msgid "invalid number of parents %d for table \"%s\""
+msgstr ""
+
+msgid "invalid output format \"%s\" specified"
+msgstr ""
+
+msgid "invalid type \"%c\" of access method \"%s\""
+msgstr ""
+
+msgid "large-object output not supported in chosen format"
+msgstr ""
+
+msgid "last built-in OID is %u"
+msgstr ""
+
+msgid "launching item %d %s %s"
+msgstr ""
+
+msgid "line ignored: %s"
+msgstr ""
+
+msgid "maximum number of parallel jobs is %d"
+msgstr ""
+
+msgid "missing index for constraint \"%s\""
+msgstr ""
+
+msgid "no matching schemas were found"
+msgstr ""
+
+msgid "no matching schemas were found for pattern \"%s\""
+msgstr ""
+
+msgid "no matching tables were found"
+msgstr ""
+
+msgid "no matching tables were found for pattern \"%s\""
+msgstr ""
+
+msgid "no output directory specified"
+msgstr ""
+
+msgid "no referenced object %u %u"
+msgstr ""
+
+msgid "no referencing object %u %u"
+msgstr ""
+
+msgid "not built with zlib support"
+msgstr ""
+
+msgid "one of -d/--dbname and -f/--file must be specified"
+msgstr ""
+
+msgid "option --exclude-database cannot be used together with -g/--globals-only, -"
+"r/--roles-only, or -t/--tablespaces-only"
+msgstr ""
+
+msgid "option --if-exists requires option -c/--clean"
+msgstr ""
+
+msgid "option --on-conflict-do-nothing requires option --inserts, --rows-per-"
+"insert, or --column-inserts"
+msgstr ""
+
+msgid "options -C/--create and -1/--single-transaction cannot be used together"
+msgstr ""
+
+msgid "options -c/--clean and -a/--data-only cannot be used together"
+msgstr ""
+
+msgid "options -d/--dbname and -f/--file cannot be used together"
+msgstr ""
+
+msgid "options -g/--globals-only and -r/--roles-only cannot be used together"
+msgstr ""
+
+msgid "options -g/--globals-only and -t/--tablespaces-only cannot be used together"
+msgstr ""
+
+msgid "options -r/--roles-only and -t/--tablespaces-only cannot be used together"
+msgstr ""
+
+msgid "options -s/--schema-only and -a/--data-only cannot be used together"
+msgstr ""
+
+msgid "out of memory"
+msgstr ""
+
+msgid "out of memory\n"
+msgstr ""
+
+msgid "out of on_exit_nicely slots"
+msgstr ""
+
+msgid "owner of aggregate function \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of data type \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of function \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of operator \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of operator class \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of operator family \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of publication \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of schema \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of subscription \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "owner of table \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "parallel backup only supported by the directory format"
+msgstr ""
+
+msgid "parallel restore from non-seekable file is not supported"
+msgstr ""
+
+msgid "parallel restore from standard input is not supported"
+msgstr ""
+
+msgid "parallel restore is not supported with archives made by pre-8.0 pg_dump"
+msgstr ""
+
+msgid "parallel restore is not supported with this archive file format"
+msgstr ""
+
+msgid "pclose failed: %m"
+msgstr ""
+
+msgid "pg_dump failed on database \"%s\", exiting"
+msgstr ""
+
+msgid "pgpipe: could not accept connection: error code %d"
+msgstr ""
+
+msgid "pgpipe: could not bind: error code %d"
+msgstr ""
+
+msgid "pgpipe: could not connect socket: error code %d"
+msgstr ""
+
+msgid "pgpipe: could not create second socket: error code %d"
+msgstr ""
+
+msgid "pgpipe: could not create socket: error code %d"
+msgstr ""
+
+msgid "pgpipe: could not listen: error code %d"
+msgstr ""
+
+msgid "pgpipe: getsockname() failed: error code %d"
+msgstr ""
+
+msgid "processing %s"
+msgstr ""
+
+msgid "processing data for table \"%s.%s\""
+msgstr ""
+
+msgid "processing item %d %s %s"
+msgstr ""
+
+msgid "processing missed item %d %s %s"
+msgstr ""
+
+msgid "query failed: %s"
+msgstr ""
+
+msgid "query produced null referenced table name for foreign key trigger \"%s\" on "
+"table \"%s\" (OID of table: %u)"
+msgstr ""
+
+msgid "query returned %d row instead of one: %s"
+"query returned %d rows instead of one: %s"
+msgstr ""
+
+msgid "query to get data of sequence \"%s\" returned %d row (expected 1)"
+""
+"query to get data of sequence \"%s\" returned %d rows (expected 1)"
+msgstr ""
+
+msgid "query to get rule \"%s\" for table \"%s\" failed: wrong number of rows "
+"returned"
+msgstr ""
+
+msgid "query to obtain definition of view \"%s\" returned more than one definition"
+msgstr ""
+
+msgid "query to obtain definition of view \"%s\" returned no data"
+msgstr ""
+
+msgid "query was: %s"
+msgstr ""
+
+msgid "reading column info for interesting tables"
+msgstr ""
+
+msgid "reading constraints"
+msgstr ""
+
+msgid "reading default privileges"
+msgstr ""
+
+msgid "reading dependency data"
+msgstr ""
+
+msgid "reading event triggers"
+msgstr ""
+
+msgid "reading extended statistics"
+msgstr ""
+
+msgid "reading extensions"
+msgstr ""
+
+msgid "reading foreign key constraints for table \"%s.%s\""
+msgstr ""
+
+msgid "reading indexes"
+msgstr ""
+
+msgid "reading indexes for table \"%s.%s\""
+msgstr ""
+
+msgid "reading large objects"
+msgstr ""
+
+msgid "reading policies"
+msgstr ""
+
+msgid "reading policies for table \"%s.%s\""
+msgstr ""
+
+msgid "reading procedural languages"
+msgstr ""
+
+msgid "reading publication membership"
+msgstr ""
+
+msgid "reading publication membership for table \"%s.%s\""
+msgstr ""
+
+msgid "reading publications"
+msgstr ""
+
+msgid "reading rewrite rules"
+msgstr ""
+
+msgid "reading row security enabled for table \"%s.%s\""
+msgstr ""
+
+msgid "reading schemas"
+msgstr ""
+
+msgid "reading subscriptions"
+msgstr ""
+
+msgid "reading table inheritance information"
+msgstr ""
+
+msgid "reading transforms"
+msgstr ""
+
+msgid "reading triggers"
+msgstr ""
+
+msgid "reading triggers for table \"%s.%s\""
+msgstr ""
+
+msgid "reading type casts"
+msgstr ""
+
+msgid "reading user-defined access methods"
+msgstr ""
+
+msgid "reading user-defined aggregate functions"
+msgstr ""
+
+msgid "reading user-defined collations"
+msgstr ""
+
+msgid "reading user-defined conversions"
+msgstr ""
+
+msgid "reading user-defined foreign servers"
+msgstr ""
+
+msgid "reading user-defined foreign-data wrappers"
+msgstr ""
+
+msgid "reading user-defined functions"
+msgstr ""
+
+msgid "reading user-defined operator classes"
+msgstr ""
+
+msgid "reading user-defined operator families"
+msgstr ""
+
+msgid "reading user-defined operators"
+msgstr ""
+
+msgid "reading user-defined tables"
+msgstr ""
+
+msgid "reading user-defined text search configurations"
+msgstr ""
+
+msgid "reading user-defined text search dictionaries"
+msgstr ""
+
+msgid "reading user-defined text search parsers"
+msgstr ""
+
+msgid "reading user-defined text search templates"
+msgstr ""
+
+msgid "reading user-defined types"
+msgstr ""
+
+msgid "requested compression not available in this installation -- archive will be "
+"uncompressed"
+msgstr ""
+
+msgid "restored %d large object"
+"restored %d large objects"
+msgstr ""
+
+msgid "restoring data out of order is not supported in this archive format: \"%s\" "
+"is required, but comes before \"%s\" in the archive file."
+msgstr ""
+
+msgid "restoring large object with OID %u"
+msgstr ""
+
+msgid "restoring tables WITH OIDS is not supported anymore"
+msgstr ""
+
+msgid "role name starting with \"pg_\" skipped (%s)"
+msgstr ""
+
+msgid "rows-per-insert must be in range %d..%d"
+msgstr ""
+
+msgid "running \"%s\""
+msgstr ""
+
+msgid "sanity check on integer size (%lu) failed"
+msgstr ""
+
+msgid "saving database definition"
+msgstr ""
+
+msgid "saving encoding = %s"
+msgstr ""
+
+msgid "saving large objects"
+msgstr ""
+
+msgid "saving search_path = %s"
+msgstr ""
+
+msgid "saving standard_conforming_strings = %s"
+msgstr ""
+
+msgid "schema \"%s\" not found"
+msgstr ""
+
+msgid "schema with OID %u does not exist"
+msgstr ""
+
+msgid "select() failed: %m"
+msgstr ""
+
+msgid "server version: %s; %s version: %s"
+msgstr ""
+
+msgid "skipping item %d %s %s"
+msgstr ""
+
+msgid "subscriptions not dumped because current user is not a superuser"
+msgstr ""
+
+msgid "table \"%s\" could not be created, will not restore its data"
+msgstr ""
+
+msgid "table \"%s\" not found"
+msgstr ""
+
+msgid "there are circular foreign-key constraints on this table:"
+"there are circular foreign-key constraints among these tables:"
+msgstr ""
+
+msgid "this format cannot be read"
+msgstr ""
+
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr ""
+
+msgid "trigger \"%s\" not found"
+msgstr ""
+
+msgid "typtype of data type \"%s\" appears to be invalid"
+msgstr ""
+
+msgid "unexpected COPY statement syntax: \"%s\""
+msgstr ""
+
+msgid "unexpected data offset flag %d"
+msgstr ""
+
+msgid "unexpected extra results during COPY of table \"%s\""
+msgstr ""
+
+msgid "unexpected policy command type: %c"
+msgstr ""
+
+msgid "unexpected section code %d"
+msgstr ""
+
+msgid "unexpected tgtype value: %d"
+msgstr ""
+
+msgid "unrecognized aggfinalmodify value for aggregate \"%s\""
+msgstr ""
+
+msgid "unrecognized aggmfinalmodify value for aggregate \"%s\""
+msgstr ""
+
+msgid "unrecognized archive format \"%s\"; please specify \"c\", \"d\", or \"t\""
+msgstr ""
+
+msgid "unrecognized collation provider: %s"
+msgstr ""
+
+msgid "unrecognized command received from master: \"%s\""
+msgstr ""
+
+msgid "unrecognized constraint type: %c"
+msgstr ""
+
+msgid "unrecognized data block type %d while restoring archive"
+msgstr ""
+
+msgid "unrecognized data block type (%d) while searching archive"
+msgstr ""
+
+msgid "unrecognized encoding \"%s\""
+msgstr ""
+
+msgid "unrecognized file format \"%d\""
+msgstr ""
+
+msgid "unrecognized object type in default privileges: %d"
+msgstr ""
+
+msgid "unrecognized proparallel value for function \"%s\""
+msgstr ""
+
+msgid "unrecognized provolatile value for function \"%s\""
+msgstr ""
+
+msgid "unrecognized section name: \"%s\""
+msgstr ""
+
+msgid "unrecognized sequence type: %s"
+msgstr ""
+
+msgid "unsupported version (%d.%d) in file header"
+msgstr ""
+
+msgid "warning from original dump file: %s"
+msgstr ""
+
+msgid "warning: "
+msgstr ""
+
+msgid "while FINALIZING:"
+msgstr ""
+
+msgid "while INITIALIZING:"
+msgstr ""
+
+msgid "while PROCESSING TOC:"
+msgstr ""
+
+msgid "worker process failed: exit code %d"
+msgstr ""
+
+msgid "wrote %lu byte of large object data (result = %lu)"
+"wrote %lu bytes of large object data (result = %lu)"
+msgstr ""
+
+msgid "could not close data file \"%s\": %m"
+msgstr ""
+
+msgid "data block %d has wrong seek position"
+msgstr ""
+
+msgid "  --exclude-table-data=TABLE   do NOT dump data for the named table(s)\n"
+msgstr ""
+
+msgid "  -N, --exclude-schema=SCHEMA  do NOT dump the named schema(s)\n"
+msgstr ""
+
+msgid "  -T, --exclude-table=TABLE    do NOT dump the named table(s)\n"
+msgstr ""
+
+msgid "  -n, --schema=SCHEMA          dump the named schema(s) only\n"
+msgstr ""
+
+msgid "  -t, --table=TABLE            dump the named table(s) only\n"
+msgstr ""
+
+msgid "could not open the output file \"%s\": %m"
+msgstr ""
+
+msgid "dumping database \"%s\"..."
+msgstr ""
+
+msgid "excluding database \"%s\"..."
+msgstr ""
+
+msgid "failed to connect to database"
+msgstr ""
+
+msgid "failed to reconnect to database"
+msgstr ""
+
+msgid "internal error -- neither th nor fh specified in tarReadRaw()\n"
+msgstr ""
+
+msgid "option --exclude-database cannot be used together with -g/--globals-only, -"
+"r/--roles-only or -t/--tablespaces-only"
+msgstr ""
+
+msgid "option --on-conflict-do-nothing requires option --inserts, --rows-per-insert "
+"or --column-inserts"
+msgstr ""
+
+msgid "unrecognized collation provider: %s\n"
+msgstr ""
+
+msgid "  -o, --oids                   include OIDs in dump\n"
+msgstr ""
+

@@ -1,0 +1,1732 @@
+msgid ""
+msgstr "Project-Id-Version: mp3c 0.31\n"
+"Report-Msgid-Bugs-To: matthias@wspse.de\n"
+"POT-Creation-Date: 2006-07-30 20:16+0200\n"
+"PO-Revision-Date: 2006-07-30 20:30+0100\n"
+"Last-Translator: Matthias Hensler <matthias@wspse.de>\n"
+"Language-Team: GERMAN <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: iso-8859-1\n"
+
+msgid "\n"
+"\n"
+"MP3c, by WSPse 1999-2006, Matthias Hensler, <matthias@wspse.de>\n"
+"Thanks for using this program\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"\n"
+"Useful arguments for \"%s\":\n"
+"-i <configfile>\n"
+"-b <batchfile>\n"
+"-t <tmp-dir> (only in context with -b)\n"
+"-d <cdrom-device>\n"
+"-v\n"
+"-n (show news)\n"
+"\n"
+"if you start %s with \"-b\" argument given, a\n"
+"scriptfile will created non-interactivly and program\n"
+"exits.\n"
+"\n"
+msgstr ""
+
+msgid "\n"
+"This is MP3c, an automated, CDDB-based, MP3/OGG-encoder\n"
+"version V%s, compiled on %s\n"
+"\n"
+"MP3c is written by Matthias Hensler <matthias@wspse.de>\n"
+"Copyright WSPse 1999-2006, distributed under GNU General Public License\n"
+"\n"
+"MP3c-Homepage: http://mp3c.wspse.de/\n"
+"Download:      ftp://ftp.wspse.de/pub/linux/wspse/\n"
+"\n"
+"I want to thank for any suggestion I received (take a look in README-\n"
+"file and ChangeLog for details)\n"
+"\n"
+"If you have any wish for a feature not currently included in MP3c, or\n"
+"if you found a bug, or an unexpected error, please feel free to contact\n"
+"me. I would like to implement new features and fix bugs. It is really\n"
+"helpful if you can send me a detailed bugreport, and maybe how to\n"
+"reproduce the problem. If you get a segmentation fault, *please* send me\n"
+"the core-dump AND your binary-file (and maybe your config-file)\n"
+"My eMail-address: Matthias Hensler <matthias@wspse.de>\n"
+"\n"
+"Thanks for reading this. Hope you like this program.\n"
+"\n"
+msgstr ""
+
+msgid " * F7: MKdir * F12: Abort   "
+msgstr ""
+
+msgid " - ENGLISH ("
+msgstr ""
+
+msgid "\"%s\" is no directory"
+msgstr ""
+
+msgid "\"ArTiSt\" will be converted to \"artist\" if 1, to \"ARTIST\" if 2"
+msgstr ""
+
+msgid "\"localhost:smtp\"."
+msgstr ""
+
+msgid "# automaticly created, but you may edit this file manually.\n"
+msgstr ""
+
+msgid "%1: Artist, %2: Title, %3: Album, %4: Genre, %5: Year, %6: Track"
+msgstr ""
+
+msgid "%1: Artistname"
+msgstr ""
+
+msgid "%1: Artistname,  %2: Songtitle"
+msgstr ""
+
+msgid "%1: cdrom device"
+msgstr ""
+
+msgid "%1: inputfile, %2: outputfile"
+msgstr ""
+
+msgid "%1: outputfile"
+msgstr ""
+
+msgid "%2: Songtitle"
+msgstr ""
+
+msgid "%2: track (numeric)"
+msgstr ""
+
+msgid "%3: Albumname"
+msgstr ""
+
+msgid "%3: album, %4: genre by number, %5: year"
+msgstr ""
+
+msgid "%3: outputfile"
+msgstr ""
+
+msgid "%4: Genre (by number),  %8: Genre (by name)"
+msgstr ""
+
+msgid "%4: Genre, %5: Year"
+msgstr ""
+
+msgid "%5: Year,  %6: Comment"
+msgstr ""
+
+msgid "%6: Track, %7: Track with leading zeros"
+msgstr ""
+
+msgid "%6: comment, %7: filename, %8: genre by name"
+msgstr ""
+
+msgid "%7: Filename of MP3-file"
+msgstr ""
+
+msgid "%7: Track (leading zeros), %8: MP3c-Version, %a: Encode-day"
+msgstr ""
+
+msgid "%8: CDDB-ID"
+msgstr ""
+
+msgid "%a: track, %b: track (with leading zeros)"
+msgstr ""
+
+msgid "%a: tracknumber without, %b: with leading zeros"
+msgstr ""
+
+msgid "%b: Encode-month, %c: Encode-year (2 digits), %d: Encode-year (4 dig)"
+msgstr ""
+
+msgid "%c: artist, %d: title"
+msgstr ""
+
+msgid "%e: Encode-weekday (3 letter), %f: Encode-month (3 letter)"
+msgstr ""
+
+msgid "%g: Encode-hour, %h: Encode-minute (not so useful ;-)"
+msgstr ""
+
+msgid "%i: Tracklen (minutes), %j: Tracklen (seconds), %9: CDDBID"
+msgstr ""
+
+msgid "(you can use a directory-requester by changing value in preferences)"
+msgstr ""
+
+msgid "(you can use a file-requester by changing value in preferences)"
+msgstr ""
+
+msgid "0: Never"
+msgstr ""
+
+msgid "0: Spaces in filename allowed"
+msgstr ""
+
+msgid "0: leave case as it is"
+msgstr ""
+
+msgid "0: leave them untouched"
+msgstr ""
+
+msgid "0: use fullpath to mp3-file"
+msgstr ""
+
+msgid "1: Sometimes"
+msgstr ""
+
+msgid "1: Spaces will be converted to specified character"
+msgstr ""
+
+msgid "1: convert all to lower case"
+msgstr ""
+
+msgid "1: delete all files with set delflag"
+msgstr ""
+
+msgid "1: use a relative path to m3u-maindir"
+msgstr ""
+
+msgid "2: Yes, everytime"
+msgstr ""
+
+msgid "2: convert all to upper case"
+msgstr ""
+
+msgid "2: delete them all"
+msgstr ""
+
+msgid "2: every space will be killed"
+msgstr ""
+
+msgid "2: use a relative path to the playlist"
+msgstr ""
+
+msgid "Abort"
+msgstr ""
+
+msgid "Aborted"
+msgstr ""
+
+msgid "Album  :"
+msgstr ""
+
+msgid "Allow parallel running sessions of MP3c?"
+msgstr ""
+
+msgid "Alter informations for track %d"
+msgstr ""
+
+msgid "An other MP3c process is still running, continue anyway?"
+msgstr ""
+
+msgid "Append to file"
+msgstr ""
+
+msgid "Artist :"
+msgstr ""
+
+msgid "CDDB access is locked, use \"l\" to unlock"
+msgstr ""
+
+msgid "CDDB eMail address"
+msgstr ""
+
+msgid "CDDB entry exists and could not be overwritten"
+msgstr ""
+
+msgid "CDDB entry saved"
+msgstr ""
+
+msgid "CDDB entry transmitted successfully"
+msgstr ""
+
+msgid "CDDB server"
+msgstr ""
+
+msgid "CDDB-dir \"%s\" does not exist!"
+msgstr ""
+
+msgid "CDripper non-fly (output to file)"
+msgstr ""
+
+msgid "CDripper on-fly (output to stdout)"
+msgstr ""
+
+msgid "CDrom device"
+msgstr ""
+
+msgid "Case change"
+msgstr ""
+
+msgid "Clear delflag on export?"
+msgstr ""
+
+msgid "Convert first letter in filename toupper?"
+msgstr ""
+
+msgid "Delete tempfiles on exit?"
+msgstr ""
+
+msgid "ERROR: %s\n"
+msgstr ""
+
+msgid "Enter mode for case changing (0, 1 or 2)"
+msgstr ""
+
+msgid "Enter pattern for filename creation"
+msgstr ""
+
+msgid "Enter pattern for filename creation (sampler cds)"
+msgstr ""
+
+msgid "Enter pattern for mp3/ogg-comment"
+msgstr ""
+
+msgid "Enter pattern for playlist creation (0 to disable)"
+msgstr ""
+
+msgid "Enter pattern for playlist creation, sampler cds (0 to disable)"
+msgstr ""
+
+msgid "Enter pattern mode (0, 1 or 2)"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Exit Optionmenu"
+msgstr ""
+
+msgid "Exportfile for ripped tracks"
+msgstr ""
+
+msgid "F10 to cancel"
+msgstr ""
+
+msgid "F1: New File * "
+msgstr ""
+
+msgid "F1: OK * "
+msgstr ""
+
+msgid "F3: Home * F4: hidden "
+msgstr ""
+
+msgid "FIFO: %3d%% full"
+msgstr ""
+
+msgid "Failure: read error message before exit"
+msgstr ""
+
+msgid "File   :"
+msgstr ""
+
+msgid "HOT-NEWS\n"
+"\n"
+"You just updated MP3c from V%d.%d to V%d.%d\n"
+"\n"
+msgstr ""
+
+msgid "HOT-NEWS\n"
+"\n"
+"You just updated MP3c to Version %d.%d\n"
+"\n"
+msgstr ""
+
+msgid "How to create the filename for a playlist-entry"
+msgstr ""
+
+msgid "Ignore"
+msgstr ""
+
+msgid "Ignore all"
+msgstr ""
+
+msgid "Input albumname"
+msgstr ""
+
+msgid "Input albumname for this track"
+msgstr ""
+
+msgid "Input artist for this track"
+msgstr ""
+
+msgid "Input artistname"
+msgstr ""
+
+msgid "Input comment for this track"
+msgstr ""
+
+msgid "Input comment pattern"
+msgstr ""
+
+msgid "Input songtitle"
+msgstr ""
+
+msgid "Input title for this track"
+msgstr ""
+
+msgid "Input year"
+msgstr ""
+
+msgid "Input year for this track"
+msgstr ""
+
+msgid "Interrupt. Leave program?"
+msgstr ""
+
+msgid "Load Config"
+msgstr ""
+
+msgid "Load Presets (MP3/lame)"
+msgstr ""
+
+msgid "Load Presets (OGG/oggenc)"
+msgstr ""
+
+msgid "Load defaults"
+msgstr ""
+
+msgid "M3U destination directory"
+msgstr ""
+
+msgid "MAIL FROM failed"
+msgstr ""
+
+msgid "MP3/OGG destination directory"
+msgstr ""
+
+msgid "MP3/OGG-comment"
+msgstr ""
+
+msgid "MP3/Oggencoder non-fly (input from file)"
+msgstr ""
+
+msgid "MP3/Oggencoder on-fly (input from stdin)"
+msgstr ""
+
+msgid "MP3c was started in interactive mode without controlling terminal!\n"
+"This normally causes high load of CPU-time, so MP3c exits now.\n"
+"(if you think this is wrong, please contact the author wsp@gmx.de)\n"
+msgstr ""
+
+msgid "Maybe you want to create \"%s\"?"
+msgstr ""
+
+msgid "My eMail address"
+msgstr ""
+
+msgid "NO"
+msgstr ""
+
+msgid "New in 0.24:\n"
+"-Portuguese translation (done by Lucas Correia Villa \n"
+" Real)                                               \n"
+"-Improved handling of relative filenames in playlists\n"
+"-Usage of more CDDB-servers possible (seperate each  \n"
+" server by a comma in optionmenu).                   \n"
+"\n"
+msgstr ""
+
+msgid "New in 0.25:\n"
+"-Save CDDB entries by pressing 'm' or transmit them  \n"
+" to CDDB server by pressing 'M' (transmit requires   \n"
+" proper settings of SMTP-server, see Options->SMTP   \n"
+" Server, \"CDDB eMail address\" and \"My eMail\").       \n"
+"-Press 'd' to get rid of dead files on right side.   \n"
+"-Open tray after encoding (see Options->Open tray    \n"
+" after encoding).                                    \n"
+"-Option to change case of filenames (see             \n"
+" Options->Case Change).                              \n"
+"-Totally rewrote directory and filerequester. Please \n"
+" make sure that you activate the requester in option-\n"
+" menu.                                               \n"
+"-Improved key-handling, so that backspace and end-key\n"
+" should now work even in Xterms                      \n"
+"-MP3c is now also available via CVS (see READMEs)    \n"
+"\n"
+msgstr ""
+
+msgid "New in 0.26:\n"
+"-Replacestring for unknown genre.                    \n"
+"-Special handling for illegal characters: removing by\n"
+" default, or using patternmode (and replacing by     \n"
+" space or underscore, or removing).                  \n"
+"-Fixed broken ripping (introduced with 0.25).        \n"
+"\n"
+msgstr ""
+
+msgid "New in 0.27:\n"
+"-CDDB.com is not longer useable as CDDB-server.      \n"
+" please switch to \"freedb.freedb.org:8880\" now.      \n"
+"-added option to protect patternmasks from           \n"
+" substitution.                                       \n"
+"-use different patterns for MP3 and M3U files,       \n"
+" depending if cd is a sampler with different artists \n"
+" or just a normal cd with one artist.                \n"
+"-added possibility to use the encoder for tagging the\n"
+" files too. If your encoder supports tagging, you    \n"
+" do not need a seperate program any longer and you   \n"
+" can disable the tag-program by changing the value to\n"
+" \"0\".                                                \n"
+"-improved detection of sampler-cds. Furthermore you  \n"
+" can force sampler-detection by pressing SHIFT+V     \n"
+" instead of just \"v\" after inserting a new cd.       \n"
+"-added support for BSD and 64-bit systems.           \n"
+"-new and updated translations, as well as the usual  \n"
+" bugfixes.                                           \n"
+"\n"
+"I know it took long, but I hope you enjoy 0.27\n"
+"\n"
+msgstr ""
+
+msgid "New in 0.28:\n"
+"-replace spaces with an own defined character instead\n"
+" of underscore.                                      \n"
+"-some batchscript fixes.                             \n"
+"-a lot of bugfixes.                                  \n"
+"\n"
+"The MP3c is not dead release, enjoy 0.28\n"
+"\n"
+msgstr ""
+
+msgid "New in 0.29:\n"
+"-presets to switch between MP3/lame and OGG/oggenc   \n"
+" encodings.                                          \n"
+"-defaults changed to lame and cdda2wav.              \n"
+"-some changes to make MP3c more generic (and not MP3 \n"
+" specific)                                           \n"
+"\n"
+"The MP3c lives on release, enjoy 0.29\n"
+"\n"
+msgstr ""
+
+msgid "New in 0.30:\n"
+"-fix some typos in manualpage/translations           \n"
+"-fix defaults for ogg/onfly (debian #316849)         \n"
+"-fix scrolling for cdda2wav output                   \n"
+"-fix defaults for cdda2wav to not leave tmpgarbage   \n"
+"-fix CDDB submit                                     \n"
+"-fix rebuild of filenames on loading presets         \n"
+"\n"
+"The who said MP3c is dead release\n"
+"\n"
+msgstr ""
+
+msgid "New in 0.31:\n"
+"-use protocol level 5 for CDDB transfers, which will \n"
+" allow better detection and saving of year and genre \n"
+" information                                         \n"
+"\n"
+msgstr ""
+
+msgid "Onlinehelp for MP3Creator\n"
+"\n"
+"on both sides:\n"
+"F1: This help\n"
+"F2: Optionsmenu\n"
+"F12: Quit program\n"
+"\n"
+"on left side:\n"
+"F3: Start encoding (marked tracks)\n"
+"F4: Encode only actual track\n"
+"F5: Output Batch-script\n"
+"F6: Start ripping (marked tracks) and\n"
+"    put them into right window       \n"
+"F7: Rip only actual track\n"
+"\n"
+"on right side:\n"
+"F3+F6: Start encoding (marked tracks)\n"
+"F4+F7: Encode only actual track\n"
+"F8: Delete marked tracks\n"
+"F9: Delete actual track\n"
+"\n"
+"Note for F-keys:\n"
+"Since F-keys won't work in all enviroments,\n"
+"you can use number-keys instead. Press '1'\n"
+"for F1, '2' for F2, and so on\n"
+"\n"
+"CRSR-keys: move in window up/down\n"
+"Page-keys: fast up and down\n"
+"Pos1/End: jump to first/last track on\n"
+"          screen/list                \n"
+"Del/Space: swap encoding flag         \n"
+"           (if file should be encoded)\n"
+"'*': swap encoding flag for all tracks\n"
+"TAB: switch between left and right window\n"
+"\n"
+"Enter: open window to change information for track(s)\n"
+"Here you can make changes for one or all tracks at once,   \n"
+"without knowing all the shortcuts that follow later.       \n"
+"You can see there fields with \"[ ]\" which shows information\n"
+"which shouldn't change and fields with \"[*]\" for data you  \n"
+"want to change.                                            \n"
+"Every time you enter new data a field is converted to \"[*]\"\n"
+"You can swap these flags by pressing SPACE.                \n"
+"\n"
+"a (#): input artist name for current track        \n"
+"t (#): input title for current track              \n"
+"b (#): input albumname for current track          \n"
+"y (#): input year for current track               \n"
+"c (#): input comment for current track            \n"
+"g (#): select genre for current track             \n"
+"o (#): swap \"on the fly\" flag for current track   \n"
+"s (#): swap artist and interpret for current track\n"
+"ALT+j: input year for all tracks (all selected)   \n"
+"\n"
+"w    : export actual track (only on right side)   \n"
+"W    : export marked tracks                       \n"
+"r    : import tracklist                           \n"
+"       (see HINTS about tracklist export)         \n"
+"d    : remove dead files from list                \n"
+"\n"
+"p    : play actual track from cd                  \n"
+"x    : stop playing                               \n"
+"e    : eject tray of cdrom-device                 \n"
+"E    : close tray of cdrom-device                 \n"
+"\n"
+"v    : reinit cd-volume (necessary after new cd)  \n"
+"V    : force CDDB interpretation for sampler cds  \n"
+"F    : force loading of CDDB (even if there is an \n"
+"       local entry)                               \n"
+"l    : lock/unlock remote CDDB access             \n"
+"L    : toggle sampler flag for actual track       \n"
+"m    : write CDDB entry to local file             \n"
+"M    : transfer CDDB entry to remote database     \n"
+"\n"
+"q    : used to cancel and leave most windows      \n"
+"\n"
+"Note: if a key is marked with (#) you can perform\n"
+"      the operation on all selected tracks, if   \n"
+"      you press down ALT-key too. (e.g. press    \n"
+"      ALT+s to swap artist and title for all     \n"
+"      marked tracks, or ALT+g to select genre for\n"
+"      marked tracks)                             \n"
+"Note2: some (#) keys let you input information   \n"
+"       for each track seperately (e.g. year or   \n"
+"       title). Here you can press SHIFT down too,\n"
+"       to input information for all selected     \n"
+"       tracks at once. (e.g. press ALT+SHIFT+y to\n"
+"       input year once for all selected tracks). \n"
+"       This isn't really useful for tracktitles, \n"
+"       I think, but maybe..... ;-)               \n"
+"\n"
+"\n"
+"HINTS\n"
+"-------\n"
+"\n"
+"On-the fly encoding\n"
+"MP3-file will be created without using a temporary-\n"
+"file. Must be supported by your ripper (output wav \n"
+"or cda to stdout) and your encoder (use wav or cda \n"
+"input from stdin). This sometimes causes \"klicks\"  \n"
+"on mp3-files. Streams will be buffered over a FIFO,\n"
+"set size of FIFO in option-menu.                   \n"
+"\n"
+"Ripping all tracks before encoding\n"
+"If you want to rip all tracks before encoding just \n"
+"activate the flag in option-menu. Remember that you\n"
+"should have enough space on your harddisk, since   \n"
+"wav-data uses much space.                          \n"
+"Ripped data is stored in the same temp-directory   \n"
+"like normally, you don't have to change your old   \n"
+"setting. An unique number is inserted without      \n"
+"destroying any \".wav\"-ending.                      \n"
+"\n"
+"Replace slash character\n"
+"You can set a character which is inserted instead  \n"
+"of slashs in option-menu. This prevents sensless   \n"
+"directory creation if a songtitle contains a slash.\n"
+"\n"
+"Character set\n"
+"You cannot input all characters or some characters \n"
+"are missing in CDBB-entries (eg Umlauts, etc)? Just\n"
+"set character-handling to \"non-strict\" in option-  \n"
+"menu.                                              \n"
+"\n"
+"CDDB\n"
+"No internet-connection? Just input \"0\" as CDDB-    \n"
+"server, and only local database is used.           \n"
+"\n"
+"Filename-Creation\n"
+"You have lots of options for filename-creation.    \n"
+"The first thing is to set the root-directory for   \n"
+"your mp3-files. Then create a pattern-mask for the \n"
+"filenames (here you can use several patterns for   \n"
+"inserting artistname, songtitle, etc. You can even \n"
+"use slashes to split the files into different      \n"
+"directorys). Furthermore you can set if you accept \n"
+"spaces in filenames or not and you can input a list\n"
+"with all characters you don't like in filenames.   \n"
+"Each character which is killed is then replaced by \n"
+"an defined char or left out. You can select what   \n"
+"you like by setting \"Patternmode\" in option-menu.  \n"
+"A nice additional feature is to convert characters \n"
+"toupper if the previous was killed. This is really \n"
+"nice if you kill every space without converting    \n"
+"them to underscores. Just try option-menu for all  \n"
+"the features.                                      \n"
+"\n"
+"Ripping several cds before encoding\n"
+"As introduced with version 0.21 you can rip several\n"
+"tracks, without doing encoding. Each ripped track  \n"
+"is placed on the right window. Of course the old   \n"
+"behavior is still possible (F3 and F4), but you can\n"
+"also use F6 to rip all marked tracks (or F7 to rip \n"
+"the actual track) without encoding. (If you use F3 \n"
+"or F4 and encoding fails, the already ripped track \n"
+"is saved).                                         \n"
+"On the right side you can do the same like on the  \n"
+"left one: mark tracks, encode one or all and open a\n"
+"setup window with ENTER-key. Furthermore you can   \n"
+"delete one or all marked tracks by using F8 and F9.\n"
+"Maybe you will notice that there is no \"on-the-fly\"\n"
+"flag on the right side, but a \"delete\"-flag. This  \n"
+"flag shows if a track should be deleted after en-  \n"
+"coding. Its setting is also checked on exit if the \n"
+"\"Delete Tempfiles on Exit\" option is set to \"1\".   \n"
+"Later you will be able to import new wav-files.    \n"
+"\n"
+"Tracklist export and import\n"
+"Since version 0.21 it is possible to rip several cds  \n"
+"without doing the encoding directly after it. But what\n"
+"if you have no time to encode and want to leave MP3c? \n"
+"Well, no problem. Just export the ripped tracks and do\n"
+"the encoding in the next session. You can select a    \n"
+"file to store the datas in option-menu. Then you can  \n"
+"press \"W\" to save all marked tracks in the right win- \n"
+"dow, or \"w\" to save only the actual track. If a file  \n"
+"is already existing you can overwrite it, or add the  \n"
+"new tracks. Don't worry if you export some tracks     \n"
+"double, MP3c will allow only one unique track in list.\n"
+"But be careful, watch the deleteflag of the tracks and\n"
+"the setting \"delete tempfiles on exit\" in optionmenu, \n"
+"otherwise you could lose your ripped files if you quit\n"
+"MP3c. Note: you can set an option to clear the delete-\n"
+"flag on export in option-menu.                        \n"
+"You can read export tracks just by pressing \"r\".      \n"
+"By pressing \"d\" you can remove every dead track.      \n"
+"\n"
+"Configuration\n"
+"MP3c saves his configuration in \"~/.mp3crc\". You can \n"
+"also put a global configuration file \"mp3crc\" (no    \n"
+"dot) into \"$prefix/etc/\", where $prefix is the global\n"
+"path MP3c was stored in (\"/usr/etc\" for distributed  \n"
+"versions and \"/usr/local/etc\" if you self installed  \n"
+"MP3c). You can set global-path to \"/etc\" by changing \n"
+"\"mp3creat.h\" before compiling it.                    \n"
+"To dump actual configuration just use \"Save Config\"  \n"
+"in option-menu, or enable \"Auto Save\" to save before \n"
+"leaving MP3c.                                        \n"
+"The configurationfile is an normal ascii-text file.  \n"
+"You can edit it manually without any risks, each key \n"
+"stored in it has a lot of comments, so you should    \n"
+"understand the file easily.                          \n"
+"\n"
+"\n"
+"Hope you find this program useful. If you found a\n"
+"bug, write to: matthias@wspse.de\n"
+"see file FAQ for reporting bugs or start MP3c like this:\n"
+"\"mp3c -v\"\n"
+"\n"
+"look on http://mp3c.wspse.de/\n"
+"for new versions\n"
+"\n"
+"WSPse 1999-2006"
+msgstr ""
+
+msgid "Optionmenu"
+msgstr ""
+
+msgid "Overwrite file"
+msgstr ""
+
+msgid "Pattern for m3u-playlist creation"
+msgstr ""
+
+msgid "Pattern for m3u-playlists (sampler cds)"
+msgstr ""
+
+msgid "Pattern for mp3/ogg-filename (sampler cds)"
+msgstr ""
+
+msgid "Pattern for mp3/ogg-filename creation"
+msgstr ""
+
+msgid "Patternmode"
+msgstr ""
+
+msgid "Program for encoding wav->mp3/ogg (input from file)"
+msgstr ""
+
+msgid "Program for encoding wav->mp3/ogg (input from stdin)"
+msgstr ""
+
+msgid "Program for ripping audiocds with output to file"
+msgstr ""
+
+msgid "Program for ripping audiocds with output to stdout"
+msgstr ""
+
+msgid "Program for setting MP3/OGG ID-Fields (0 to disable)"
+msgstr ""
+
+msgid "Program for setting MP3/OGG-ID-fields"
+msgstr ""
+
+msgid "Protect patternmasks from substitutions?"
+msgstr ""
+
+msgid "RCPT TO failed"
+msgstr ""
+
+msgid "Really leave this program?"
+msgstr ""
+
+msgid "Reload original values"
+msgstr ""
+
+msgid "SMTP EHLO failed"
+msgstr ""
+
+msgid "SMTP defered connection (EHLO)"
+msgstr ""
+
+msgid "SMTP defered connection (MAIL FROM)"
+msgstr ""
+
+msgid "SMTP defered data transfer"
+msgstr ""
+
+msgid "SMTP server"
+msgstr ""
+
+msgid "SMTP: DATA cmd failed"
+msgstr ""
+
+msgid "SMTP: mail closing timeout"
+msgstr ""
+
+msgid "SMTP: sending header failed"
+msgstr ""
+
+msgid "STOP! No write permissions for CDDB-directory. <EMERGENCY ABORT>"
+msgstr ""
+
+msgid "Save Config"
+msgstr ""
+
+msgid "Save Config on exit?"
+msgstr ""
+
+msgid "Set values for ALL tracks"
+msgstr ""
+
+msgid "Set values for all marked tracks"
+msgstr ""
+
+msgid "Set values for this track"
+msgstr ""
+
+msgid "Show fancy colors in windows (0, 1 or 2)"
+msgstr ""
+
+msgid "Size of FIFO-buffer in KB (for on-fly encoding)"
+msgstr ""
+
+msgid "String for unknown genre"
+msgstr ""
+
+msgid "Tempfile (for non-fly encoding)"
+msgstr ""
+
+msgid "Title  :"
+msgstr ""
+
+msgid "To-Upper mode"
+msgstr ""
+
+msgid "Track  :   /   [  :  ,~     KB] - Total:   :   [~      KB]"
+msgstr ""
+
+msgid "Track exported"
+msgstr ""
+
+msgid "Tracks :       [  :  ,~     KB] - Total:   :   [~      KB]"
+msgstr ""
+
+msgid "Tracks exported"
+msgstr ""
+
+msgid "Tracks imported"
+msgstr ""
+
+msgid "Uh, cannot receive entries without valid CDDB-path."
+msgstr ""
+
+msgid "Uh, cannot write entries without valid CDDB-path."
+msgstr ""
+
+msgid "Use directory requester for selecting directories?"
+msgstr ""
+
+msgid "WARNING\n"
+"-------\n"
+"Your configfile is newer than this version\n"
+"of MP3c. So if you run into trouble please\n"
+"use a recent version of MP3c.             \n"
+msgstr ""
+
+msgid "WSPse - MP3Creator\n"
+"\n"
+"written by Matthias Hensler 1999-2006\n"
+"licensed under GPL\n"
+"\n"
+"http://mp3c.wspse.de/\n"
+"eMail: matthias@wspse.de\n"
+"\n"
+"contains CDDB functions\n"
+"\n"
+"program version:\n"
+"%s"
+msgstr ""
+
+msgid "WSPse MP3c - Batchmode, noninteractive\n"
+"reading config\n"
+msgstr ""
+
+msgid "YES"
+msgstr ""
+
+msgid "Year   :       Genre:"
+msgstr ""
+
+msgid "[ ] Album"
+msgstr ""
+
+msgid "[ ] Artist"
+msgstr ""
+
+msgid "[ ] Comment"
+msgstr ""
+
+msgid "[ ] Delete after enc"
+msgstr ""
+
+msgid "[ ] Genre"
+msgstr ""
+
+msgid "[ ] Onfly convert"
+msgstr ""
+
+msgid "[ ] Sampler CD"
+msgstr ""
+
+msgid "[ ] Title"
+msgstr ""
+
+msgid "[ ] Year"
+msgstr ""
+
+msgid "[*] Album"
+msgstr ""
+
+msgid "[*] Artist"
+msgstr ""
+
+msgid "[*] Comment"
+msgstr ""
+
+msgid "[*] Delete after enc"
+msgstr ""
+
+msgid "[*] Genre"
+msgstr ""
+
+msgid "[*] Onfly convert"
+msgstr ""
+
+msgid "[*] Sampler CD"
+msgstr ""
+
+msgid "[*] Title"
+msgstr ""
+
+msgid "[*] Year"
+msgstr ""
+
+msgid "[CDDB]"
+msgstr ""
+
+msgid "[No]"
+msgstr ""
+
+msgid "[Sampler]"
+msgstr ""
+
+msgid "[Yes]"
+msgstr ""
+
+msgid "[delete]"
+msgstr ""
+
+msgid "[on fly]"
+msgstr ""
+
+msgid "a comma, eg. \"freedb.freedb.org:8880,cddb.cddb.com:8880\""
+msgstr ""
+
+msgid "accessing directory failed"
+msgstr ""
+
+msgid "action was canceled"
+msgstr ""
+
+msgid "album title is missing"
+msgstr ""
+
+msgid "all artist fields are empty"
+msgstr ""
+
+msgid "allow more characters in CDDB and inputbox?"
+msgstr ""
+
+msgid "allow parallel running MP3c sessions?"
+msgstr ""
+
+msgid "allow remote CDDB access?"
+msgstr ""
+
+msgid "asking for categories"
+msgstr ""
+
+msgid "at least \"freedb-submit@freedb.org\" should accept your entries"
+msgstr ""
+
+msgid "auto save flag"
+msgstr ""
+
+msgid "building shellscript\n"
+msgstr ""
+
+msgid "building up data tree\n"
+msgstr ""
+
+msgid "cdrom initialisation in progress....."
+msgstr ""
+
+msgid "character for replacing slashes (to avoid sensless dir-creation)"
+msgstr ""
+
+msgid "character for replacing spaces"
+msgstr ""
+
+msgid "checking supported protocol levels"
+msgstr ""
+
+msgid "child (cd-ripper) died unexpected"
+msgstr ""
+
+msgid "child (encoder) died unexpected"
+msgstr ""
+
+msgid "child (mp3-info) died unexpected"
+msgstr ""
+
+msgid "clear delflag on export?"
+msgstr ""
+
+msgid "closed"
+msgstr ""
+
+msgid "closing connection"
+msgstr ""
+
+msgid "configuration loaded"
+msgstr ""
+
+msgid "configuration saved"
+msgstr ""
+
+msgid "connect to SMTP-server"
+msgstr ""
+
+msgid "connect to cddb-server"
+msgstr ""
+
+msgid "connect to server"
+msgstr ""
+
+msgid "connecting socket failed"
+msgstr ""
+
+msgid "converting track %d..."
+msgstr ""
+
+msgid "cool, you configured it right, ya"
+msgstr ""
+
+msgid "could not create directory"
+msgstr ""
+
+msgid "could not create tmpfile with CDDB entry"
+msgstr ""
+
+msgid "could not delete tempfile"
+msgstr ""
+
+msgid "could not fork"
+msgstr ""
+
+msgid "could not open \"%s\""
+msgstr ""
+
+msgid "could not open file \"%s\" for writing"
+msgstr ""
+
+msgid "could not write to playlist!"
+msgstr ""
+
+msgid "couldn't encode, no prg in $PATH"
+msgstr ""
+
+msgid "couldn't open file for writing!"
+msgstr ""
+
+msgid "couldn't rip, no prg in $PATH"
+msgstr ""
+
+msgid "couldn't write to playlistfile"
+msgstr ""
+
+msgid "creating new window caused in NULL-pointer (ncurses-bug?!)"
+msgstr ""
+
+msgid "creating of directory \"%s\" failed"
+msgstr ""
+
+msgid "currently TAB-expansion does not work :-("
+msgstr ""
+
+msgid "delete after encoding?"
+msgstr ""
+
+msgid "deleting tmpfiles"
+msgstr ""
+
+msgid "device is ok, but no cd inserted, eh?"
+msgstr ""
+
+msgid "ejecting cdrom"
+msgstr ""
+
+msgid "ejecting failed..."
+msgstr ""
+
+msgid "encode on-fly as default?"
+msgstr ""
+
+msgid "encoderprg non-fly not found!"
+msgstr ""
+
+msgid "encoderprg on-fly not found!"
+msgstr ""
+
+msgid "encoding track %d..."
+msgstr ""
+
+msgid "enter CDDB-server [host:port] (0 to disable)"
+msgstr ""
+
+msgid "enter CDDBs eMail address"
+msgstr ""
+
+msgid "enter cdrom device"
+msgstr ""
+
+msgid "enter new directory name"
+msgstr ""
+
+msgid "enter new filename"
+msgstr ""
+
+msgid "enter unallowed characters in filenames"
+msgstr ""
+
+msgid "enter your eMail address"
+msgstr ""
+
+msgid "enter your relaying SMTP server [host:port]"
+msgstr ""
+
+msgid "error delivering mail"
+msgstr ""
+
+msgid "error opening pipe for STDERR"
+msgstr ""
+
+msgid "error opening pipe for STDIN"
+msgstr ""
+
+msgid "error opening pipe for STDOUT"
+msgstr ""
+
+msgid "error while reading pid from existing lockfile"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "failed to open CDDB entry"
+msgstr ""
+
+msgid "failed to open cdrom device"
+msgstr ""
+
+msgid "failed..."
+msgstr ""
+
+msgid "failure while sending data to server"
+msgstr ""
+
+msgid "fancy colors"
+msgstr ""
+
+msgid "file \"%s\" exists, and isn't writeable"
+msgstr ""
+
+msgid "file \"%s\" exists, what to do?"
+msgstr ""
+
+msgid "forking failed"
+msgstr ""
+
+msgid "forking for encoder subprocess failed"
+msgstr ""
+
+msgid "forking not possible"
+msgstr ""
+
+msgid "found exact match"
+msgstr ""
+
+msgid "full path"
+msgstr ""
+
+msgid "getcwd() does not work"
+msgstr ""
+
+msgid "handling of allowed characters"
+msgstr ""
+
+msgid "hostname missing (usage host:port)"
+msgstr ""
+
+msgid "hostname unknown"
+msgstr ""
+
+msgid "how to create m3u-entries"
+msgstr ""
+
+msgid "if 1 and toupper is also set it will be converted to \"Artist\""
+msgstr ""
+
+msgid "if you have a local daemon running you can use"
+msgstr ""
+
+msgid "illegal characters for filenames"
+msgstr ""
+
+msgid "illegal directoryname"
+msgstr ""
+
+msgid "illegal discid"
+msgstr ""
+
+msgid "illegal value for del_tmp_on_exit"
+msgstr ""
+
+msgid "illegal value for fancy_colors"
+msgstr ""
+
+msgid "illegal value for pat_mode"
+msgstr ""
+
+msgid "importfile is in illegal format!"
+msgstr ""
+
+msgid "input albumname for selected tracks"
+msgstr ""
+
+msgid "input artistname for selected tracks"
+msgstr ""
+
+msgid "input comment for selected tracks"
+msgstr ""
+
+msgid "input title for selected tracks"
+msgstr ""
+
+msgid "input tracktitle for nr.%d"
+msgstr ""
+
+msgid "input year for all selected tracks"
+msgstr ""
+
+msgid "input year for nr.%d"
+msgstr ""
+
+msgid "interpreting CDDB as sampler"
+msgstr ""
+
+msgid "listfile is locked, read aborted"
+msgstr ""
+
+msgid "listfile is locked, write aborted"
+msgstr ""
+
+msgid "loading configuration"
+msgstr ""
+
+msgid "loading failed..."
+msgstr ""
+
+msgid "local CDDB directory"
+msgstr ""
+
+msgid "lockfile exists and is not readable"
+msgstr ""
+
+msgid "look in local CDDB"
+msgstr ""
+
+msgid "lookup hostname"
+msgstr ""
+
+msgid "lookup servicename"
+msgstr ""
+
+msgid "might deny relaying."
+msgstr ""
+
+msgid "missing CDDB recipient"
+msgstr ""
+
+msgid "missing eMail address"
+msgstr ""
+
+msgid "missing mp3-info program"
+msgstr ""
+
+msgid "more than one character in \"slash_rep_char\", skipping trailing garbage"
+msgstr ""
+
+msgid "more than one character in \"space_rep_char\", skipping trailing garbage"
+msgstr ""
+
+msgid "mp3-file already exists and isn't writable"
+msgstr ""
+
+msgid "mp3info-prg missing!"
+msgstr ""
+
+msgid "nN"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "no CD inserted"
+msgstr ""
+
+msgid "no CDDB-directory specified"
+msgstr ""
+
+msgid "no M3U-directory specified"
+msgstr ""
+
+msgid "no MP3-directory specified"
+msgstr ""
+
+msgid "no SMTP server set"
+msgstr ""
+
+msgid "no cd in cdrom-drive\n"
+msgstr ""
+
+msgid "no cd-volume inserted"
+msgstr ""
+
+msgid "no cd-volume or illegal device"
+msgstr ""
+
+msgid "no cddb-path, try to create"
+msgstr ""
+
+msgid "no cdrom device specified"
+msgstr ""
+
+msgid "no configfile found, using defaults"
+msgstr ""
+
+msgid "no data from mailserver"
+msgstr ""
+
+msgid "no datas for scriptcreation"
+msgstr ""
+
+msgid "no dir \"%s\""
+msgstr ""
+
+msgid "no encoder for on-fly in $PATH"
+msgstr ""
+
+msgid "no hostaddress specified"
+msgstr ""
+
+msgid "no local cddb-database specified"
+msgstr ""
+
+msgid "no permissions for \"%s\""
+msgstr ""
+
+msgid "no ripper for on-fly in $PATH"
+msgstr ""
+
+msgid "no write permission for \"%s\""
+msgstr ""
+
+msgid "non-strict (8-bit Western)"
+msgstr ""
+
+msgid "not found..."
+msgstr ""
+
+msgid "note: cddb.com is not longer usable!"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "ok"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "onfly encoding?"
+msgstr ""
+
+msgid "only if delflag is set"
+msgstr ""
+
+msgid "open connection to server"
+msgstr ""
+
+msgid "open tray after encoding?"
+msgstr ""
+
+msgid "opening \"%s\" for writing failed."
+msgstr ""
+
+msgid "opening cdrom device \"%s\" failed!\n"
+msgstr ""
+
+msgid "opening socket failed"
+msgstr ""
+
+msgid "or insert cd an press \"V\""
+msgstr ""
+
+msgid "overwrite \"%s\"?"
+msgstr ""
+
+msgid "overwrite config file?"
+msgstr ""
+
+msgid "overwrite existing CDDB entry?"
+msgstr ""
+
+msgid "overwrite existing script?"
+msgstr ""
+
+msgid "permission denied to save config"
+msgstr ""
+
+msgid "please input path of directory"
+msgstr ""
+
+msgid "please input path of file"
+msgstr ""
+
+msgid "please use the right address, otherwise your SMTP-server"
+msgstr ""
+
+msgid "port missing (usage host:port)"
+msgstr ""
+
+msgid "preparing data transfer"
+msgstr ""
+
+msgid "press \"F2\" for configmenu"
+msgstr ""
+
+msgid "press F1 or 'H' for help"
+msgstr ""
+
+msgid "press a key"
+msgstr ""
+
+msgid "protect pattern masks"
+msgstr ""
+
+msgid "protocol level changed"
+msgstr ""
+
+msgid "query category of cd"
+msgstr ""
+
+msgid "reading TOC of cd\n"
+msgstr ""
+
+msgid "reading dir failed"
+msgstr ""
+
+msgid "ready...\n"
+"\n"
+msgstr ""
+
+msgid "receiving CDDB entry"
+msgstr ""
+
+msgid "receiving failed"
+msgstr ""
+
+msgid "refresh genres (requires CDDB-access)"
+msgstr ""
+
+msgid "reinitialising cd"
+msgstr ""
+
+msgid "relative to m3u-dir"
+msgstr ""
+
+msgid "relative to m3u-file"
+msgstr ""
+
+msgid "relay defered: %s"
+msgstr ""
+
+msgid "remote cddb disabled"
+msgstr ""
+
+msgid "remove illegal characters (otherwise use patternmode)?"
+msgstr ""
+
+msgid "remove them"
+msgstr ""
+
+msgid "reset on-fly flag for your actual cd?"
+msgstr ""
+
+msgid "rip all tracks at once before encoding?"
+msgstr ""
+
+msgid "rip all tracks before encoding?"
+msgstr ""
+
+msgid "ripperprg non-fly not found!"
+msgstr ""
+
+msgid "ripperprg on-fly not found!"
+msgstr ""
+
+msgid "ripping track %d..."
+msgstr ""
+
+msgid "sampler cd?"
+msgstr ""
+
+msgid "saving configuration"
+msgstr ""
+
+msgid "saying hello to SMTP-server"
+msgstr ""
+
+msgid "saying hello to cddb-server"
+msgstr ""
+
+msgid "script already exists, and isn't writeable"
+msgstr ""
+
+msgid "script created"
+msgstr ""
+
+msgid "scriptcreation failed"
+msgstr ""
+
+msgid "select CDDB base directory"
+msgstr ""
+
+msgid "select CDDB genre"
+msgstr ""
+
+msgid "select MP3/OGG destination directory"
+msgstr ""
+
+msgid "select default exportfile for ripped tracks"
+msgstr ""
+
+msgid "select directory for M3U playlists"
+msgstr ""
+
+msgid "select entry"
+msgstr ""
+
+msgid "select file for batch-script"
+msgstr ""
+
+msgid "select genre"
+msgstr ""
+
+msgid "select tempfile name"
+msgstr ""
+
+msgid "send request for data transfer"
+msgstr ""
+
+msgid "serveral matches for cd"
+msgstr ""
+
+msgid "service \"%s\" is unknown"
+msgstr ""
+
+msgid "setting mp3-infos for track %d..."
+msgstr ""
+
+msgid "setting socket to nonblock mode failed.\n"
+msgstr ""
+
+msgid "size of FIFO-buffer in KB (for on-the-fly encoding) [16 - 8192]"
+msgstr ""
+
+msgid "slash replace character"
+msgstr ""
+
+msgid "socket is illegal (usage host:port)"
+msgstr ""
+
+msgid "socketaddress is illegal (usage host:port)"
+msgstr ""
+
+msgid "sorry, unspecified error occured"
+msgstr ""
+
+msgid "space replace character"
+msgstr ""
+
+msgid "strict (7-bit ASCII)"
+msgstr ""
+
+msgid "submitting from address"
+msgstr ""
+
+msgid "submitting recipient address"
+msgstr ""
+
+msgid "switching protocol level"
+msgstr ""
+
+msgid "tempfile not found"
+msgstr ""
+
+msgid "tempfile not readable"
+msgstr ""
+
+msgid "tempfile not writable"
+msgstr ""
+
+msgid "terminated..."
+msgstr ""
+
+msgid "this server is used to relay your CDDB-entries via eMail"
+msgstr ""
+
+msgid "timeout"
+msgstr ""
+
+msgid "to lower"
+msgstr ""
+
+msgid "to upper"
+msgstr ""
+
+msgid "too many chars, skipping trailing garbage"
+msgstr ""
+
+msgid "too many users, try later"
+msgstr ""
+
+msgid "trackfile \"%s\" is not available"
+msgstr ""
+
+msgid "transmission failed"
+msgstr ""
+
+msgid "uh, device \"%s\" failure (please get permissions and/or devicename)"
+msgstr ""
+
+msgid "unknown key \"%s\" in line %d"
+msgstr ""
+
+msgid "ups, we ran out of memory :-("
+msgstr ""
+
+msgid "use directory requester instead of inputbox for dir select?"
+msgstr ""
+
+msgid "use mp3/ogg-dir for playlists?"
+msgstr ""
+
+msgid "use patternmode"
+msgstr ""
+
+msgid "using alternate tmp-file \"%s\"\n"
+msgstr ""
+
+msgid "waiting for greeting"
+msgstr ""
+
+msgid "well done, initialisation finished successful"
+msgstr ""
+
+msgid "what to do with ill characters"
+msgstr ""
+
+msgid "what to do with remaining tmpfiles on exit"
+msgstr ""
+
+msgid "would you like to use on-fly encoding as default?"
+msgstr ""
+
+msgid "yY"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "yes, ever"
+msgstr ""
+
+msgid "you can input more servers, by seperating them with"
+msgstr ""
+
+msgid "you can input more servers, by seperating them with a comma"
+msgstr ""
+

@@ -1,1090 +1,601 @@
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: Create Background Slideshow 0.9.8\n"
-"Report-Msgid-Bugs-To: https://bugs.launchpad.net/crebs\n"
+msgstr "Project-Id-Version: crebs\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-07-11 15:28+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2010-07-14 18:33+0000\n"
+"Last-Translator: Marc Stewart <Unknown>\n"
+"Language-Team: Afrikaans <af@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2010-12-18 18:52+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
-#. Translators: This is the program's name, so it uses title case. To keep it
-#. reasonably short, consider alternatives with equivalent meaning, such as
-#. 'Make [a] Wallpaper Sequence'.
-#: __init__.py:33 create-background-slideshow.glade.h:11
-msgid "Create Background Slideshow"
+msgid "FILE"
 msgstr ""
 
-#. Tooltip for the GNOME menu entry
-#. (System > Preferences > Create Background Slideshow).
-#: __init__.py:42
-msgid ""
-"Choose a set of images for desktop wallpaper that changes periodically"
-msgstr ""
-
-#. Translators: If you need to transliterate my name into non-Latin characters,
-#. e.g. Japanese, Arabic, Cyrillic, etc., 'Marc' is pronounced like 'mark', and
-#. 'Stewart' is pronounced like 'Stuart' or 's-choo-utt', NOT like 'stee-vart'.
-#: args.py:213 args.py:214
-msgid "Copyright (C) 2010 Marc Stewart"
-msgstr ""
-
-#: args.py:217 args.py:218
-msgid "This program comes with ABSOLUTELY NO WARRANTY."
-msgstr ""
-
-#: args.py:221 args.py:222
-msgid ""
-"This is free software, and you are welcome to redistribute it under certain "
-"conditions; see COPYING text file for details."
-msgstr ""
-
-#. Tooltip for the images section
-#: create-background-slideshow.glade.h:13
-msgid "Drag and drop images to change their position in the slideshow"
-msgstr ""
-
-#. Tooltip for the 'Add' button
-#: create-background-slideshow.glade.h:7
-msgid "Choose images to add to the slideshow"
-msgstr ""
-
-#. Tooltip for the 'Copy' button
-#: create-background-slideshow.glade.h:10
-msgid "Copy the selected image"
-msgstr ""
-
-#. Tooltip for the 'Earlier' button
-#: create-background-slideshow.glade.h:17
-msgid "Move the selected image before the previous one"
-msgstr ""
-
-#. Tooltip for the 'Later' button
-#: create-background-slideshow.glade.h:16
-msgid "Move the selected image after the next one"
-msgstr ""
-
-#. Tooltip for the 'Remove' button
-#: create-background-slideshow.glade.h:19
-msgid "Remove the selected image from the slideshow"
-msgstr ""
-
-#. Title of the tab used to choose slideshow length and style.
-#. Translators: Use Title Case, and try to keep the accelerator key (after the
-#. underscore) unique.
-#: create-background-slideshow.glade.h:4
-msgid "<b>_Slideshow</b>"
-msgstr ""
-
-#. Title of the tab used to choose default timings for all images.
-#. Translators: Use Title Case, and try to keep the accelerator key (after the
-#. underscore) unique.
-#: create-background-slideshow.glade.h:1
-msgid "<b>I_mage Defaults</b>"
-msgstr ""
-
-#. Tooltip for the 'Image Defaults' tab.
-#: create-background-slideshow.glade.h:8
-msgid "Choose the default timings for the slideshow"
-msgstr ""
-
-#. Title of the tab used to choose timings for the selected image only.
-#. Translators: Use Title Case, and try to keep the accelerator key (after the
-#. underscore) unique.
-#: create-background-slideshow.glade.h:2
-msgid "<b>Se_lected Image</b>"
-msgstr ""
-
-#. Tooltip for the 'Selected Image' tab.
-#: create-background-slideshow.glade.h:9
-msgid "Choose the timings for the selected image"
-msgstr ""
-
-#. Label for the time an image will be shown for.
-#. Translators: This could also be translated as 'Duration:'
-#: create-background-slideshow.glade.h:37
-msgid "_Display for:"
-msgstr ""
-
-#. Label for the time an image will be shown for.
-#. Translators: This could also be translated as 'Duration:'
-#: create-background-slideshow.glade.h:12
-msgid "D_isplay for:"
-msgstr ""
-
-#. Tooltip for the default image duration.
-#: create-background-slideshow.glade.h:22
-msgid "Set the default time to show each image in the slideshow"
-msgstr ""
-
-#. Tooltip for the selected image duration.
-#: create-background-slideshow.glade.h:25
-msgid "Set the time to show the selected image"
-msgstr ""
-
-#. Label for the time to fade between images.
-#. Translators: try to keep the keyboard accelerator key (after the underscore)
-#. unique.
-#: create-background-slideshow.glade.h:39
-msgid "_Transition:"
-msgstr ""
-
-#. Label for the time to fade between images.
-#. Translators: try to keep the keyboard accelerator key (after the underscore)
-#. unique.
-#: create-background-slideshow.glade.h:29
-msgid "T_ransition:"
-msgstr ""
-
-#. Tooltip for the default image transition time.
-#: create-background-slideshow.glade.h:23
-msgid "Set the default time to transition from one image to the next"
-msgstr ""
-
-#. Tooltip for the selected image transition time.
-#: create-background-slideshow.glade.h:24
-msgid "Set the time taken to transition from the selected image to the next"
-msgstr ""
-
-#. Label for the checkbox used to indicate an image should use the default
-#. time setting.
-#. Translators: try to keep the keyboard accelerator key (after the underscore)
-#. unique.
-#: create-background-slideshow.glade.h:40
-msgid "_Use default"
-msgstr ""
-
-#. Label for the checkbox used to indicate an image should use the default
-#. transition setting.
-#. Translators: try to keep the keyboard accelerator key (after the underscore)
-#. unique.
-#: create-background-slideshow.glade.h:33
-msgid "Us_e default"
-msgstr ""
-
-#. Tooltip for the 'Use default' duration checkbox.
-#: create-background-slideshow.glade.h:34
-msgid "Use the default display time for the selected image"
-msgstr ""
-
-#. Tooltip for the 'Use default' transition time checkbox.
-#: create-background-slideshow.glade.h:35
-msgid "Use the default transition time between the selected and next images"
-msgstr ""
-
-#. Scale associated with the slideshow length
-#: gui.py:1094
-msgid "day"
-msgid_plural "days"
-msgstr[0] ""
-msgstr[1] ""
-
-#. Scale associated with the slideshow length
-#: create-background-slideshow.glade.h:41
-msgid "days"
-msgstr ""
-
-#. Scale associated with the image duration
-#: gui.py:969 gui.py:989 gui.py:1095
-msgid "hour"
-msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#. Scale associated with the image duration
-#: create-background-slideshow.glade.h:42
-msgid "hours"
-msgstr ""
-
-#. Scale associated with the image duration
-#: gui.py:970 gui.py:990 gui.py:1096
-msgid "minute"
-msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#. Scale associated with the image duration
-#: create-background-slideshow.glade.h:43
-msgid "minutes"
-msgstr ""
-
-#. Scale associated with the image duration
-#: gui.py:971 gui.py:991 gui.py:1097
-msgid "second"
-msgid_plural "seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#. Scale associated with the image duration
-#: create-background-slideshow.glade.h:44
-msgid "seconds"
-msgstr ""
-
-#. Label for the slideshow length.
-#. Translators: please try to use a unique accelerator key (after the
-#. underscore).
-#: create-background-slideshow.glade.h:15
-msgid "Len_gth:"
-msgstr ""
-
-#. Tooltip for the slideshow length.
-#: create-background-slideshow.glade.h:31
-msgid ""
-"The length of slideshow. After this time, the slideshow will loop back to "
-"the beginning"
-msgstr ""
-
-#. Label for the 'Fit to length' checkbox.
-#. Translators: please try to use a unique accelerator key (after the
-#. underscore).
-#: create-background-slideshow.glade.h:38
-msgid "_Fit to length"
-msgstr ""
-
-#. Tooltip for the 'Fit to length' checkbox.
-#: create-background-slideshow.glade.h:5
-msgid ""
-"Automatically adjust the default display time to keep the slideshow length "
-"constant"
-msgstr ""
-
-#. Label for the display style.
-#. Translators: please try to use a unique accelerator key (after the
-#. underscore), and try to match the translation in the GNOME Background
-#. Preferences tab.
-#: create-background-slideshow.glade.h:27
-msgid "St_yle:"
-msgstr ""
-
-#. Tooltip for the 'Style' widget.
-#: create-background-slideshow.glade.h:30
-msgid "The display style determines how the images will fit on the desktop"
-msgstr ""
-
-#. Option for the display style.
-#. Translators: please use the same word that's used in the GNOME Background
-#. Preferences tab.
-#: create-background-slideshow.glade.h:32
-msgid "Tile"
-msgstr ""
-
-#. Option for the display style.
-#. Translators: please use the same word that's used in the GNOME Background
-#. Preferences tab.
-#: create-background-slideshow.glade.h:36
-msgid "Zoom"
-msgstr ""
-
-#. Option for the display style.
-#. Translators: please use the same word that's used in the GNOME Background
-#. Preferences tab.
-#: create-background-slideshow.glade.h:6
-msgid "Centre"
-msgstr ""
-
-#. Option for the display style.
-#. Translators: please use the same word that's used in the GNOME Background
-#. Preferences tab.
-#: create-background-slideshow.glade.h:21
-msgid "Scale"
-msgstr ""
-
-#. Option for the display style.
-#. Translators: please use the same word that's used in the GNOME Background
-#. Preferences tab.
-#: create-background-slideshow.glade.h:28
-msgid "Stretch"
-msgstr ""
-
-#. Option for the display style.
-#. Translators: please use the same word that's used in the GNOME Background
-#. Preferences tab.
-#: create-background-slideshow.glade.h:26
-msgid "Span"
-msgstr ""
-
-#. Label for the slideshow's name.
-#. Translators: This could also be translated as 'Title:'.
-#: create-background-slideshow.glade.h:3
-msgid "<b>_Name:</b>"
-msgstr ""
-
-#. Tooltip for the slideshow name text-box.
-#: create-background-slideshow.glade.h:14
-msgid "Give the slideshow a name"
-msgstr ""
-
-#. This message fills the 'Name' textbox when a name isn't needed, to tell the
-#. user that the slideshow XML will be written to the Standard Output stream
-#: gui.py:254
-msgid "Standard Output only"
-msgstr ""
-
-#. This message fills the 'Name' textbox when a name isn't needed, to remind the
-#. user that the -c option is in use.
-#: gui.py:256
-msgid "No files will be created"
-msgstr ""
-
-#. Tooltip for the 'Apply' button.
-#: create-background-slideshow.glade.h:20
-msgid "Save this slideshow and set it as the desktop background"
-msgstr ""
-
-#. Alternative tooltip for the 'Apply' button.
-#: gui.py:267
-msgid "Save this slideshow and exit"
-msgstr ""
-
-#. Alternative tooltip for the 'Apply' button.
-#: gui.py:269
-msgid "Save this slideshow"
-msgstr ""
-
-#. Alternative tooltip for the 'Apply' button.
-#: gui.py:251
-msgid "Create this slideshow"
-msgstr ""
-
-#. Alternative tooltip for the 'Apply' button.
-#: gui.py:273
-msgid "Register this slideshow and exit"
-msgstr ""
-
-#. Alternative tooltip for the 'Apply' button.
-#: gui.py:275
-msgid "Register this slideshow"
-msgstr ""
-
-#. Heading for the notification after the slideshow is created and set as the
-#. new desktop wallpaper.
-#. Translators: Use Title Case.
-#: notify.py:17
-msgid "Background Slideshow Created"
-msgstr ""
-
-#. Translators: This is the message text for the notification. {0} will be
-#. replaced by the slideshow's name.
-#: notify.py:18
-msgid "\"{0}\" set as desktop wallpaper"
-msgstr ""
-
-#. Title for the 'Add Images' dialog window
-#: add-images.glade.h:1
-msgid "Add images to the slideshow"
-msgstr ""
-
-#. Tooltip for the 'Open' button
-#: add-images.glade.h:2
-msgid "Add the selected images to the slideshow"
-msgstr ""
-
-#. Tooltip for the 'Cancel' button
-#: add-images.glade.h:3
-msgid "Return to the slideshow without adding any images"
-msgstr ""
-
-#. Tooltip for the file-chooser section. 'CTRL' denotes the Control key.
-#: add-images.glade.h:4
-msgid ""
-"Select images and/or other slideshows to add. Hold down CTRL to select more "
-"than one file"
-msgstr ""
-
-#. File-type selector option in the 'Add Images' dialog window.
-#: gui.py:336
 msgid "Images"
 msgstr ""
 
-#. File-type selector option in the 'Add Images' dialog window.
-#: gui.py:344
-msgid "Slideshows"
+msgid "LIST"
 msgstr ""
 
-#. File-type selector option in the 'Add Images' dialog window.
-#: gui.py:348
-msgid "All supported types"
+msgid "NAME"
 msgstr ""
 
-#. Question in the 'Clear All Images' dialog window.
-#: clear-images.glade.h:1
-msgid "<b>Are you sure you want to clear the slideshow?</b>"
+msgid "STYLE"
 msgstr ""
 
-#. Extra information in the 'Clear All Images' dialog window.
-#: clear-images.glade.h:2
-msgid "If you clear the slideshow, every image will be removed."
+msgid "Scale"
 msgstr ""
 
-#. Tooltip for the 'Clear' button.
-#: clear-images.glade.h:4 create-background-slideshow.glade.h:18
-msgid "Remove all the images from the slideshow"
+msgid "This program comes with ABSOLUTELY NO WARRANTY."
 msgstr ""
 
-#. Tooltip for the 'Cancel' button.
-#: clear-images.glade.h:3
-msgid "Keep all the images in the slideshow"
-msgstr ""
-
-#. Warning and question for the 'File Overwrite' dialog window.
-#: gui.py:1219
-msgid "\"{0}\" already exists. Do you want to replace it?"
-msgstr ""
-
-#. Extra information in the 'File Overwrite' dialog window.
-#: file-overwrite.glade.h:1
-msgid ""
-"If you want to keep the existing slideshow, you will need to give the new "
-"one a different name."
-msgstr ""
-
-#. Label for the 'overwrite old slideshow' button.
-#. Translators: Please try to ensure the accelerator key (after the underscore)
-#. is different to the one used by the 'Cancel' button.
-#: file-overwrite.glade.h:4
-msgid "_Replace"
-msgstr ""
-
-##: file-overwrite.glade.h:3
-#. Tooltip for the 'overwrite old slideshow' button.
-msgid "Replace the existing slideshow with this new one"
-msgstr ""
-
-#. Tooltip for the 'don't overwrite old slideshow' button.
-#: file-overwrite.glade.h:2
-msgid "Keep the existing slideshow, and rename the new one"
-msgstr ""
-
-#. Warning for the 'Import Error' dialog window.
-#: import-error.glade.h:1
-msgid "<b>Some of your files could not be added to the slideshow.</b>"
-msgstr ""
-
-#. Extra information for the 'Import Error' dialog window.
-#. Translators: {0} will be replaced by a number.
-#: gui.py:299
-msgid "One file could not be imported."
-msgid_plural "{0} files were unable to be imported."
-msgstr[0] ""
-msgstr[1] ""
-
-#. Extra information for the 'Import Error' dialog window.
-#: gui.py:301
-msgid "This file could not be imported:"
-msgid_plural "These files could not be imported:"
-msgstr[0] ""
-msgstr[1] ""
-
-#. Extra information for the 'Import Error' dialog window.
-#: gui.py:304
-msgid ""
-"Only JPEG, PNG, GIF, and SVG images, and other slideshows containing these "
-"image types, can be used for your slideshow."
-msgstr ""
-
-#. Heading for the 'Save Error' dialog window.
-#: save-error.glade.h:1
-msgid "<b>The slideshow could not be saved.</b>"
-msgstr ""
-
-#. Extra information for the 'Save Error' dialog window.
-#. Translators: {0} will be replaced by the slideshow's filename.
-#: gui.py:1235
-msgid "An error was encountered while trying to save \"{0}\"."
-msgstr ""
-
-#. Extra information for the 'Save Error' dialog window.
-#. Translators: {0} will be replaced by the directory name.
-#: gui.py:1236
-msgid "Ensure that you have write access for the \"{0}\" directory."
-msgstr ""
-
-#. Heading for the 'Set Error' dialog window.
-#: set-error.glade.h:1
-msgid "<b>The desktop background could not be changed.</b>"
-msgstr ""
-
-#. Extra information for the 'Set Error' dialog window.
-#. Translators: {0} will be replaced by the slideshow's name.
-#: gui.py:1252
-msgid ""
-"An error was encountered while trying to set the \"{0}\" slideshow as your "
-"desktop background."
-msgstr ""
-
-#. Extra information for the 'Set Error' dialog window.
-#: gui.py:1254
-msgid "An error was encountered while trying to register the slideshow."
-msgstr ""
-
-#. Extra information for the 'Set Error' dialog window.
-#: gui.py:1256
-msgid "It has been saved as:"
-msgstr ""
-
-#. Question for the 'Set Error' dialog window.
-#: gui.py:1262
-msgid ""
-"Would you like the Background preferences window to be opened so you can try "
-"to set it yourself?"
-msgstr ""
-
-#. Heading for the 'Fit Error' dialog window.
-#: gui.py:1115
-msgid ""
-"<b>There are no longer any images using the default duration. Would you like "
-"to stop fitting the slideshow to length?</b>"
-msgstr ""
-
-#. Heading for the 'Fit Error' dialog window.
-#: gui.py:1133 fit-error.glade.h:1
-msgid ""
-"<b>The selected durations exceed the desired slideshow total. Would you like "
-"to stop fitting the slideshow to length?</b>"
-msgstr ""
-
-#. Extra information for the 'Fit Error' dialog window.
-#: fit-error.glade.h:2
-msgid ""
-"If you do not wish to stop fitting the slideshow to length, your last change "
-"will be cancelled."
-msgstr ""
-
-#. Tooltip for the 'Stop' button.
-#: fit-error.glade.h:3
-msgid "Stop fitting the slideshow to length"
-msgstr ""
-
-#. This is the heading for 'Usage: crebs [options] [list of files]', which
-#. explains how to use the program from the command line.
-#: args.py:41
 msgid "Usage"
 msgstr ""
 
-#. These are command-line 'options', also called 'arguments', for
-#. 'crebs [options] [list of files]'
-#: args.py:41
+msgid "Zoom"
+msgstr ""
+
+msgid "_Replace"
+msgstr ""
+
+msgid "day"
+"days"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "hour"
+"hours"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "minute"
+"minutes"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
 msgid "options"
 msgstr ""
 
-#. This refers to the list of images and other slideshows that may be passed to
-#. crebs on the command line, as 'crebs [options] [list of files]'
-#: args.py:41
-msgid "list of files"
+msgid "second"
+"seconds"
 msgstr ""
 
-#. Program description
-#. Translators: Use Title Case for the program name, as in its separate
-#. translation.
-#: args.py:42
-msgid ""
-"Create Background Slideshow takes a list of images and uses them to create a "
+msgid "seconds"
+msgstr ""
+
+msgid "\"{0}\" already exists. Do you want to replace it?"
+msgstr ""
+
+msgid "\"{0}\" set as desktop wallpaper"
+msgstr ""
+
+msgid "--create-files"
+msgstr ""
+
+msgid "--def-display"
+msgstr ""
+
+msgid "--def-transition"
+msgstr ""
+
+msgid "--display-times"
+msgstr ""
+
+msgid "--experimental-features"
+msgstr ""
+
+msgid "--filename"
+msgstr ""
+
+msgid "--force-overwrite"
+msgstr ""
+
+msgid "--keep-wallpaper"
+msgstr ""
+
+msgid "--location"
+msgstr ""
+
+msgid "--no-files"
+msgstr ""
+
+msgid "--no-gui"
+msgstr ""
+
+msgid "--no-notifications"
+msgstr ""
+
+msgid "--no-standard-output"
+msgstr ""
+
+msgid "--only-create"
+msgstr ""
+
+msgid "--output"
+msgstr ""
+
+msgid "--register-wallpaper"
+msgstr ""
+
+msgid "--send-notifications"
+msgstr ""
+
+msgid "--set-wallpaper"
+msgstr ""
+
+msgid "--standard-output"
+msgstr ""
+
+msgid "--style"
+msgstr ""
+
+msgid "--title"
+msgstr ""
+
+msgid "--transition-times"
+msgstr ""
+
+msgid "--verbose"
+msgstr ""
+
+msgid "--warn-overwrite"
+msgstr ""
+
+msgid "<b>Are you sure you want to clear the slideshow?</b>"
+msgstr ""
+
+msgid "<b>I_mage Defaults</b>"
+msgstr ""
+
+msgid "<b>Se_lected Image</b>"
+msgstr ""
+
+msgid "<b>Some of your files could not be added to the slideshow.</b>"
+msgstr ""
+
+msgid "<b>The desktop background could not be changed.</b>"
+msgstr ""
+
+msgid "<b>The selected durations exceed the desired slideshow total. Would you like "
+"to stop fitting the slideshow to length?</b>"
+msgstr ""
+
+msgid "<b>The slideshow could not be saved.</b>"
+msgstr ""
+
+msgid "<b>There are no longer any images using the default duration. Would you like "
+"to stop fitting the slideshow to length?</b>"
+msgstr ""
+
+msgid "<b>_Name:</b>"
+msgstr ""
+
+msgid "<b>_Slideshow</b>"
+msgstr ""
+
+msgid "Add images to the slideshow"
+msgstr ""
+
+msgid "Add the selected images to the slideshow"
+msgstr ""
+
+msgid "Adding an image..."
+msgstr ""
+
+msgid "All supported types"
+msgstr ""
+
+msgid "An error was encountered while trying to register the slideshow."
+msgstr ""
+
+msgid "An error was encountered while trying to save \"{0}\"."
+msgstr ""
+
+msgid "An error was encountered while trying to set the \"{0}\" slideshow as your "
+"desktop background."
+msgstr ""
+
+msgid "Automatically adjust the default display time to keep the slideshow length "
+"constant"
+msgstr ""
+
+msgid "Background Slideshow Created"
+msgstr ""
+
+msgid "Centre"
+msgstr ""
+
+msgid "Choose a set of images for desktop wallpaper that changes periodically"
+msgstr ""
+
+msgid "Choose images to add to the slideshow"
+msgstr ""
+
+msgid "Choose the default timings for the slideshow"
+msgstr ""
+
+msgid "Choose the timings for the selected image"
+msgstr ""
+
+msgid "Clearing all images..."
+msgstr ""
+
+msgid "Copy the selected image"
+msgstr ""
+
+msgid "Copying image at position {0}..."
+msgstr ""
+
+msgid "Copyright (C) 2010 Marc Stewart"
+msgstr ""
+
+msgid "Create Background Slideshow"
+msgstr ""
+
+msgid "Create Background Slideshow takes a list of images and uses them to create a "
 "wallpaper slideshow for the GNOME desktop background, saved as an XML file. "
 "Acceptable image formats are JPEG, PNG, GIF, and SVG; other slideshows can "
 "also be listed with the images."
 msgstr ""
 
-#. Heading for a group of command-line options
-#: args.py:48
-msgid "Timing options"
+msgid "Create this slideshow"
 msgstr ""
 
-#. Description for the command-line options group
-#: args.py:49
-msgid "These options affect the timings of images in the slideshow"
+msgid "Creating slideshow XML..."
 msgstr ""
 
-#. A command-line option.
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#. Contracted form of 'default display time'; expects a single value in seconds.
-#: args.py:50
-msgid "--def-display"
+msgid "Creating the image list..."
 msgstr ""
 
-#. Description for the command-line option
-#: args.py:54
-msgid "set the default display duration in seconds"
-msgstr ""
-
-#. Type of data expected with the command-line option.
-#: args.py:55 args.py:61
-msgid "SECONDS"
-msgstr ""
-
-#. A command-line option; expects a single value (seconds)
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#. Contracted form of 'default transition time'
-#: args.py:56
-msgid "--def-transition"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:60
-msgid "set the default transition time in seconds"
-msgstr ""
-
-#. A command-line option; expects a list of values (in seconds)
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#: args.py:62
-msgid "--display-times"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:65
-msgid ""
-"specify the display times for each image with a comma-separated LIST of "
-"times in seconds; empty items and hyphens are interpreted as 'use default'"
-msgstr ""
-
-#. Type of data expected with the command-line option.
-#: args.py:66 args.py:71
-msgid "LIST"
-msgstr ""
-
-#. A command-line option; expects a list of values (in seconds)
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#: args.py:67
-msgid "--transition-times"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:70
-msgid ""
-"specify the transition times for each image with a comma-separated LIST of "
-"times in seconds; empty items and hyphens are interpreted as 'use default'"
-msgstr ""
-
-#. Heading for a group of command-line options
-#: args.py:74
-msgid "Slideshow options"
-msgstr ""
-
-#. Description for the command-line options group
-#: args.py:75
-msgid "These options affect the slideshow itself"
-msgstr ""
-
-#. A command-line option; expects a name/title for the slideshow.
-#. Translators: the translation MUST NOT be '--name'
-#: args.py:76
-msgid "--title"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:79
-msgid "specify the NAME for the slideshow; this is a title, not a filename"
-msgstr ""
-
-#. Type of data expected with the command-line option.
-#: args.py:80
-msgid "NAME"
-msgstr ""
-
-#. A command-line option; used to prevent setting the wallpaper.
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#: args.py:81
-msgid "--only-create"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:85
-msgid ""
-"do not register the slideshow as an available wallpaper; implicitly set by -"
-"g without one of -n, -m, or -o"
-msgstr ""
-
-#. A command-line option; used to ensure the slideshow is registered as an
-#. available wallpaper.
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#: args.py:86
-msgid "--register-wallpaper"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:90
-msgid "register the slideshow as an available wallpaper; overrides -r"
-msgstr ""
-
-#. A command-line option; used to keep the current wallpaper.
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#: args.py:91
-msgid "--keep-wallpaper"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:95
-msgid ""
-"do not change the wallpaper after creating the slideshow; implicitly set by -"
-"r"
-msgstr ""
-
-#. A command-line option; used to ensure the slideshow is set as the new
-#. desktop background.
-#. Translators: use abbreviations where appropriate. These should be short but
-#. understandable.
-#: args.py:96
-msgid "--set-wallpaper"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:100
-msgid "change the wallpaper after creating the slideshow; overrides -w"
-msgstr ""
-
-#. A command-line option; used to set the way the slideshow is displayed as the
-#. desktop background.
-#: args.py:101
-msgid "--style"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:105
-msgid ""
-"specify the style used to display the wallpaper; one of 'wallpaper', 'zoom', "
-"'centered', 'scaled', 'stretched', and 'spanned'"
-msgstr ""
-
-#. Type of data expected with the command-line option.
-#: args.py:106
-msgid "STYLE"
-msgstr ""
-
-#. Heading for a group of command-line options
-#: args.py:109
-msgid "File options"
-msgstr ""
-
-#. Description for the command-line options group
-#: args.py:110
-msgid "These options affect the slideshow file name and location"
-msgstr ""
-
-#. A command-line option; used to specify a directory for slideshows.
-#: args.py:111
-msgid "--location"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:115
-msgid ""
-"specify the DIRECTORY in which to save slideshows; relative paths are "
-"assumed to be in your home directory"
-msgstr ""
-
-#. Type of data expected with the command-line option.
-#: args.py:116
 msgid "DIRECTORY"
 msgstr ""
 
-#. A command-line option; used to specify a filename (not including directory)
-#: args.py:117
-msgid "--filename"
+msgid "DIRECTORY/FILENAME"
 msgstr ""
 
-#. Description for the command-line option
-#: args.py:121
-msgid ""
-"save slideshow to FILE within the slideshow directory; if the GUI is shown, "
+msgid "D_isplay for:"
+msgstr ""
+
+msgid "Drag and drop images to change their position in the slideshow"
+msgstr ""
+
+msgid "Ensure that you have write access for the \"{0}\" directory."
+msgstr ""
+
+msgid "Error: File already exists: {0}"
+msgstr ""
+
+msgid "Error: The notification could not be sent."
+msgstr ""
+
+msgid "Error: Unable to create slideshow file. Ensure you have write access for {0}"
+msgstr ""
+
+msgid "Failure: No images were found."
+msgstr ""
+
+msgid "Failure: The wallpaper list is empty."
+msgstr ""
+
+msgid "Failure: Unable to create gconf client."
+msgstr ""
+
+msgid "Failure: Unable to create slideshow file."
+msgstr ""
+
+msgid "Failure: Unable to open and parse the slideshow file."
+msgstr ""
+
+msgid "Failure: Unable to register the wallpaper."
+msgstr ""
+
+msgid "Failure: Unable to set wallpaper with gconf."
+msgstr ""
+
+msgid "File options"
+msgstr ""
+
+msgid "GUI options"
+msgstr ""
+
+msgid "Give the slideshow a name"
+msgstr ""
+
+msgid "If you clear the slideshow, every image will be removed."
+msgstr ""
+
+msgid "If you do not wish to stop fitting the slideshow to length, your last change "
+"will be cancelled."
+msgstr ""
+
+msgid "If you want to keep the existing slideshow, you will need to give the new "
+"one a different name."
+msgstr ""
+
+msgid "Importing a slideshow..."
+msgstr ""
+
+msgid "It has been saved as:"
+msgstr ""
+
+msgid "Keep all the images in the slideshow"
+msgstr ""
+
+msgid "Keep the existing slideshow, and rename the new one"
+msgstr ""
+
+msgid "Len_gth:"
+msgstr ""
+
+msgid "Move the selected image after the next one"
+msgstr ""
+
+msgid "Move the selected image before the previous one"
+msgstr ""
+
+msgid "No files will be created"
+msgstr ""
+
+msgid "Notifications can not be sent."
+msgstr ""
+
+msgid "One file could not be imported."
+"{0} files were unable to be imported."
+msgstr ""
+
+msgid "Only JPEG, PNG, GIF, and SVG images, and other slideshows containing these "
+"image types, can be used for your slideshow."
+msgstr ""
+
+msgid "Register this slideshow"
+msgstr ""
+
+msgid "Register this slideshow and exit"
+msgstr ""
+
+msgid "Registering the slideshow as a wallpaper..."
+msgstr ""
+
+msgid "Remove all the images from the slideshow"
+msgstr ""
+
+msgid "Remove the selected image from the slideshow"
+msgstr ""
+
+msgid "Removing image at position {0}..."
+msgstr ""
+
+msgid "Replace the existing slideshow with this new one"
+msgstr ""
+
+msgid "Return to the slideshow without adding any images"
+msgstr ""
+
+msgid "SECONDS"
+msgstr ""
+
+msgid "Save this slideshow"
+msgstr ""
+
+msgid "Save this slideshow and exit"
+msgstr ""
+
+msgid "Save this slideshow and set it as the desktop background"
+msgstr ""
+
+msgid "Select images and/or other slideshows to add. Hold down CTRL to select more "
+"than one file"
+msgstr ""
+
+msgid "Sending a notification..."
+msgstr ""
+
+msgid "Set the default time to show each image in the slideshow"
+msgstr ""
+
+msgid "Set the default time to transition from one image to the next"
+msgstr ""
+
+msgid "Set the time taken to transition from the selected image to the next"
+msgstr ""
+
+msgid "Set the time to show the selected image"
+msgstr ""
+
+msgid "Setting slideshow as current background..."
+msgstr ""
+
+msgid "Slideshow options"
+msgstr ""
+
+msgid "Slideshows"
+msgstr ""
+
+msgid "Span"
+msgstr ""
+
+msgid "St_yle:"
+msgstr ""
+
+msgid "Standard Output only"
+msgstr ""
+
+msgid "Stop fitting the slideshow to length"
+msgstr ""
+
+msgid "Stretch"
+msgstr ""
+
+msgid "T_ransition:"
+msgstr ""
+
+msgid "The display style determines how the images will fit on the desktop"
+msgstr ""
+
+msgid "The length of slideshow. After this time, the slideshow will loop back to "
+"the beginning"
+msgstr ""
+
+msgid "These options affect the graphical user interface (GUI)"
+msgstr ""
+
+msgid "These options affect the slideshow file name and location"
+msgstr ""
+
+msgid "These options affect the slideshow itself"
+msgstr ""
+
+msgid "These options affect the timings of images in the slideshow"
+msgstr ""
+
+msgid "This file could not be imported:"
+"These files could not be imported:"
+msgstr ""
+
+msgid "This is free software, and you are welcome to redistribute it under certain "
+"conditions; see COPYING text file for details."
+msgstr ""
+
+msgid "Tile"
+msgstr ""
+
+msgid "Timing options"
+msgstr ""
+
+msgid "Us_e default"
+msgstr ""
+
+msgid "Use the default display time for the selected image"
+msgstr ""
+
+msgid "Use the default transition time between the selected and next images"
+msgstr ""
+
+msgid "Would you like the Background preferences window to be opened so you can try "
+"to set it yourself?"
+msgstr ""
+
+msgid "Writing slideshow XML to file..."
+msgstr ""
+
+msgid "_Display for:"
+msgstr ""
+
+msgid "_Fit to length"
+msgstr ""
+
+msgid "_Transition:"
+msgstr ""
+
+msgid "_Use default"
+msgstr ""
+
+msgid "activate the experimental features; these may not function perfectly"
+msgstr ""
+
+msgid "change the wallpaper after creating the slideshow; overrides -w"
+msgstr ""
+
+msgid "create slideshow files; overrides -c"
+msgstr ""
+
+msgid "do not change the wallpaper after creating the slideshow; implicitly set by -"
+"r"
+msgstr ""
+
+msgid "do not register the slideshow as an available wallpaper; implicitly set by -"
+"g without one of -n, -m, or -o"
+msgstr ""
+
+msgid "do not send a notification when wallpaper is set"
+msgstr ""
+
+msgid "do not show the GUI; a name or filename is required in order to set the "
+"wallpaper"
+msgstr ""
+
+msgid "give warning of existing slideshows before overwriting them; overrides -f"
+msgstr ""
+
+msgid "list of files"
+msgstr ""
+
+msgid "no files will be created; use with -s to pipe background XML data to another "
+"program"
+msgstr ""
+
+msgid "option -c may not be used with -l, -m, or -o"
+msgstr ""
+
+msgid "option -o may not be used with -l or -m"
+msgstr ""
+
+msgid "option -y must be one of 'wallpaper', 'zoom', 'centered', 'scaled', "
+"'stretched', or 'spanned'"
+msgstr ""
+
+msgid "overwrite existing slideshows with the same filename without asking"
+msgstr ""
+
+msgid "register the slideshow as an available wallpaper; overrides -r"
+msgstr ""
+
+msgid "save slideshow to FILE within the slideshow directory; if the GUI is shown, "
 "this option will cause it to close once the slideshow has been created"
 msgstr ""
 
-#. Type of data expected with the command-line option.
-#: args.py:122
-msgid "FILE"
+msgid "send a notification when wallpaper is set; overrides -q"
 msgstr ""
 
-#. A command-line option; used to specify the exact location for the slideshow
-#. file (directory AND filename)
-#: args.py:123
-msgid "--output"
+msgid "set the default display duration in seconds"
 msgstr ""
 
-#. Description for the command-line option
-#: args.py:127
-msgid ""
-"specify DIRECTORY and FILENAME for the slideshow in a single path; relative "
+msgid "set the default transition time in seconds"
+msgstr ""
+
+msgid "specify DIRECTORY and FILENAME for the slideshow in a single path; relative "
 "paths are assumed to be in your home directory; if the GUI is shown, this "
 "option will cause it to close once the slideshow has been created"
 msgstr ""
 
-#. Type of data expected with the command-line option.
-#. The slash is to indicate a file-path, not 'or'.
-#: args.py:128
-msgid "DIRECTORY/FILENAME"
+msgid "specify the DIRECTORY in which to save slideshows; relative paths are "
+"assumed to be in your home directory"
 msgstr ""
 
-#. A command-line option; used to avoid the 'overwrite existing file' warning.
-#: args.py:129
-msgid "--force-overwrite"
+msgid "specify the NAME for the slideshow; this is a title, not a filename"
 msgstr ""
 
-#. Description for the command-line option
-#: args.py:133
-msgid "overwrite existing slideshows with the same filename without asking"
+msgid "specify the display times for each image with a comma-separated LIST of "
+"times in seconds; empty items and hyphens are interpreted as 'use default'"
 msgstr ""
 
-#. A command-line option; used to ensure files aren't overwritten accidentally.
-#: args.py:134
-msgid "--warn-overwrite"
+msgid "specify the style used to display the wallpaper; one of 'wallpaper', 'zoom', "
+"'centered', 'scaled', 'stretched', and 'spanned'"
 msgstr ""
 
-#. Description for the command-line option
-#: args.py:138
-msgid ""
-"give warning of existing slideshows before overwriting them; overrides -f"
+msgid "specify the transition times for each image with a comma-separated LIST of "
+"times in seconds; empty items and hyphens are interpreted as 'use default'"
 msgstr ""
 
-#. A command-line option; used to send slideshow XML to standard output stream.
-#: args.py:139
-msgid "--standard-output"
+msgid "do not write the slideshow file to standard output; overrides -s"
 msgstr ""
 
-#. Description for the command-line option
-#: args.py:143
+msgid "be more verbose; use more than once for extra verbosity; messages are "
+"written to the standard error stream"
+msgstr ""
+
 msgid ""
 "write the slideshow file to standard output; use with -c to pipe background "
 "XML data to another program"
 msgstr ""
 
-#. A command-line option; used to prevent sending XML data to the standard
-#. output stream.
-#: args.py:144
-msgid "--no-standard-output"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:148
-msgid "do not write the slideshow file to standard output; overrides -s"
-msgstr ""
-
-#. A command-line option; used to prevent writing any files.
-#: args.py:149
-msgid "--no-files"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:153
-msgid ""
-"no files will be created; use with -s to pipe background XML data to another "
-"program"
-msgstr ""
-
-#. A command-line option; used to ensure slideshow files are created.
-#: args.py:154
-msgid "--create-files"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:158
-msgid "create slideshow files; overrides -c"
-msgstr ""
-
-#. Heading for a group of command-line options; GUI = Graphical User Interface
-#: args.py:161
-msgid "GUI options"
-msgstr ""
-
-#. Description for the command-line options group
-#: args.py:162
-msgid "These options affect the graphical user interface (GUI)"
-msgstr ""
-
-#. A command-line option; used to hide the graphical user interface (GUI).
-#: args.py:163
-msgid "--no-gui"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:167
-msgid ""
-"do not show the GUI; a name or filename is required in order to set the "
-"wallpaper"
-msgstr ""
-
-#. A command-line option; used to prevent notifications when the slideshow is
-#. created.
-#: args.py:168
-msgid "--no-notifications"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:172
-msgid "do not send a notification when wallpaper is set"
-msgstr ""
-
-#. A command-line option; used to ensure a notification is sent after changing
-#. the wallpaper.
-#: args.py:173
-msgid "--send-notifications"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:177
-msgid "send a notification when wallpaper is set; overrides -q"
-msgstr ""
-
-#. A command-line option; used to activate any experimental features.
-#: args.py:178
-msgid "--experimental-features"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:182
-msgid "activate the experimental features; these may not function perfectly"
-msgstr ""
-
-#. A command-line option; used to get more information about what the program is
-#. doing.
-#: args.py:185
-msgid "--verbose"
-msgstr ""
-
-#. Description for the command-line option
-#: args.py:188
-msgid ""
-"be more verbose; use more than once for extra verbosity; messages are "
-"written to the standard error stream"
-msgstr ""
-
-#. An error message
-#: args.py:202
-msgid "option -o may not be used with -l or -m"
-msgstr ""
-
-#. An error message
-#: args.py:205
-msgid "option -c may not be used with -l, -m, or -o"
-msgstr ""
-
-#. An error message
-#. Translators: the quoted options ('wallpaper', 'zoom', etc) should not be
-#. translated.
-#: args.py:208
-msgid ""
-"option -y must be one of 'wallpaper', 'zoom', 'centered', 'scaled', "
-"'stretched', or 'spanned'"
-msgstr ""
-
-#. Command-line output
-#: imagelists.py:14
-msgid "Creating the image list..."
-msgstr ""
-
-#. Command-line output
-#: imagelists.py:27 imagelists.py:72
-msgid "Adding an image..."
-msgstr ""
-
-#. Command-line output
-#: slideshows.py:141
-msgid "Importing a slideshow..."
-msgstr ""
-
-#. An error message
-#: slideshows.py:149
-msgid "Failure: Unable to open and parse the slideshow file."
-msgstr ""
-
-#. An error message when the slideshow file is empty.
-#: slideshows.py:219
-msgid "Failure: No images were found."
-msgstr ""
-
-#. Command-line output
-#: gui.py:679
-msgid "Copying image at position {0}..."
-msgstr ""
-
-#. Command-line output
-#: gui.py:745
-msgid "Removing image at position {0}..."
-msgstr ""
-
-#. Command-line output
-#: gui.py:781
-msgid "Clearing all images..."
-msgstr ""
-
-#. Command-line output
-#: slideshows.py:75
-msgid "Creating slideshow XML..."
-msgstr ""
-
-#. Command-line output
-#: slideshows.py:272
-msgid "Writing slideshow XML to file..."
-msgstr ""
-
-#. An error message
-#: slideshows.py:285
-msgid "Failure: Unable to create slideshow file."
-msgstr ""
-
-#. An error message. {0} is replaced by the filename.
-#: slideshows.py:286
-msgid ""
-"Error: Unable to create slideshow file. Ensure you have write access for {0}"
-msgstr ""
-
-#. An error message. {0} is replaced by the filename.
-#: cli.py:54
-msgid "Error: File already exists: {0}"
-msgstr ""
-
-#. Command-line output
-#: wallpapers.py:13
-msgid "Setting slideshow as current background..."
-msgstr ""
-
-#. An error message
-#: wallpapers.py:19
-msgid "Failure: Unable to create gconf client."
-msgstr ""
-
-#. An error message
-#: wallpapers.py:22
-msgid "Failure: Unable to set wallpaper with gconf."
-msgstr ""
-
-#. Command-line output
-#: wallpapers.py:100
-msgid "Registering the slideshow as a wallpaper..."
-msgstr ""
-
-#. An error message
-#: wallpapers.py:112
-msgid "Failure: The wallpaper list is empty."
-msgstr ""
-
-#. An error message
-#: wallpapers.py:121
-msgid "Failure: Unable to register the wallpaper."
-msgstr ""
-
-#. Command-line output
-#: notify.py:15
-msgid "Sending a notification..."
-msgstr ""
-
-#. Command-line output
-#: notify.py:12
-msgid "Notifications can not be sent."
-msgstr ""
-
-#. An error message
-#: notify.py:24
-msgid "Error: The notification could not be sent."
-msgstr ""

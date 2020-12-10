@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU grep 3.4.31\n"
+"Project-Id-Version: GNU grep 3.5.16\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
-"POT-Creation-Date: 2020-09-18 21:18-0700\n"
+"POT-Creation-Date: 2020-11-03 23:21-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,11 +31,11 @@ msgstr ""
 msgid "Valid arguments are:"
 msgstr ""
 
-#: lib/c-stack.c:209 lib/c-stack.c:302
+#: lib/c-stack.c:225 lib/c-stack.c:338
 msgid "program error"
 msgstr ""
 
-#: lib/c-stack.c:210 lib/c-stack.c:303
+#: lib/c-stack.c:226 lib/c-stack.c:339
 msgid "stack overflow"
 msgstr ""
 
@@ -43,39 +43,39 @@ msgstr ""
 msgid "write error"
 msgstr ""
 
-#: lib/dfa.c:955
+#: lib/dfa.c:954
 msgid "unbalanced ["
 msgstr ""
 
-#: lib/dfa.c:1076
+#: lib/dfa.c:1075
 msgid "invalid character class"
 msgstr ""
 
-#: lib/dfa.c:1202
+#: lib/dfa.c:1201
 msgid "character class syntax is [[:space:]], not [:space:]"
 msgstr ""
 
-#: lib/dfa.c:1269
+#: lib/dfa.c:1268
 msgid "unfinished \\ escape"
 msgstr ""
 
-#: lib/dfa.c:1430
+#: lib/dfa.c:1429
 msgid "invalid content of \\{\\}"
 msgstr ""
 
-#: lib/dfa.c:1433
+#: lib/dfa.c:1432
 msgid "regular expression too big"
 msgstr ""
 
-#: lib/dfa.c:1917
+#: lib/dfa.c:1916
 msgid "unbalanced ("
 msgstr ""
 
-#: lib/dfa.c:2034
+#: lib/dfa.c:2033
 msgid "no syntax specified"
 msgstr ""
 
-#: lib/dfa.c:2045
+#: lib/dfa.c:2044
 msgid "unbalanced )"
 msgstr ""
 
@@ -118,7 +118,7 @@ msgstr ""
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr ""
 
-#: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34 src/pcresearch.c:306
+#: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr ""
 
@@ -565,24 +565,19 @@ msgstr ""
 msgid "invalid matcher %s"
 msgstr ""
 
-#: src/grep.c:2537
-#, c-format
-msgid "warning: GREP_OPTIONS is deprecated; please use an alias or script"
-msgstr ""
-
-#: src/grep.c:2564
+#: src/grep.c:2541
 msgid "unknown devices method"
 msgstr ""
 
-#: src/grep.c:2712
+#: src/grep.c:2689
 msgid "invalid max count"
 msgstr ""
 
-#: src/grep.c:2770
+#: src/grep.c:2747
 msgid "unknown binary-files type"
 msgstr ""
 
-#: src/grep.c:2855
+#: src/grep.c:2832
 msgid ""
 "Written by Mike Haertel and others; see\n"
 "<https://git.sv.gnu.org/cgit/grep.git/tree/AUTHORS>."
@@ -608,19 +603,27 @@ msgstr ""
 msgid "exceeded PCRE's line length limit"
 msgstr ""
 
-#: src/pcresearch.c:310
-msgid "exhausted PCRE JIT stack"
-msgstr ""
-
-#: src/pcresearch.c:314
-msgid "exceeded PCRE's backtracking limit"
-msgstr ""
-
-#: src/pcresearch.c:317
-msgid "exceeded PCRE's recursion limit"
-msgstr ""
-
-#: src/pcresearch.c:324
+#: src/pcresearch.c:306
 #, c-format
-msgid "internal PCRE error: %d"
+msgid "%s: memory exhausted"
+msgstr ""
+
+#: src/pcresearch.c:310
+#, c-format
+msgid "%s: exhausted PCRE JIT stack"
+msgstr ""
+
+#: src/pcresearch.c:315
+#, c-format
+msgid "%s: exceeded PCRE's backtracking limit"
+msgstr ""
+
+#: src/pcresearch.c:319
+#, c-format
+msgid "%s: exceeded PCRE's recursion limit"
+msgstr ""
+
+#: src/pcresearch.c:327
+#, c-format
+msgid "%s: internal PCRE error: %d"
 msgstr ""

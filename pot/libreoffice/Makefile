@@ -23,14 +23,14 @@ install:
 	for i in cmn_TW yue_HK; do install -Dm644 formula/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/for.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 fpicker/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/fps.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 framework/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/fwk.mo; done
-#	for i in cmn_TW yue_HK; do install -Dm644 oox/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/.mo; done
+	for i in cmn_TW yue_HK; do install -Dm644 oox/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/oox.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 reportdesign/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/rpt.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 scaddins/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/sca.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 sccomp/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/scc.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 sc/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/sc.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 sd/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/sd.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 sfx2/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/sfx.mo; done
-#	for i in cmn_TW yue_HK; do install -Dm644 shell/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/.mo; done
+	for i in cmn_TW yue_HK; do install -Dm644 shell/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/shell.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 starmath/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/sm.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 svl/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/svl.mo; done
 	for i in cmn_TW yue_HK; do install -Dm644 svtools/messages.$$i.mo $(DESTDIR)$(LIBDIR)/libreoffice/program/resource/$$i/LC_MESSAGES/svt.mo; done

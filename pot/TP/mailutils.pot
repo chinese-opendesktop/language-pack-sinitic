@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU mailutils 3.10\n"
+"Project-Id-Version: GNU mailutils 3.10.90\n"
 "Report-Msgid-Bugs-To: bug-mailutils@gnu.org\n"
-"POT-Creation-Date: 2020-08-14 21:30+0300\n"
+"POT-Creation-Date: 2020-11-17 13:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -998,12 +998,12 @@ msgstr ""
 msgid "MASTER: exiting on signal (%s)"
 msgstr ""
 
-#: imap4d/imap4d.c:1041 imap4d/starttls.c:174 pop3d/pop3d.c:547
+#: imap4d/imap4d.c:1043 imap4d/starttls.c:174 pop3d/pop3d.c:549
 #, c-format
 msgid "TLS is not configured, but requested in the configuration"
 msgstr ""
 
-#: imap4d/imap4d.c:1063 pop3d/pop3d.c:569
+#: imap4d/imap4d.c:1065 pop3d/pop3d.c:571
 #, c-format
 msgid "main loop status: %s"
 msgstr ""
@@ -1277,7 +1277,7 @@ msgstr ""
 msgid "Set directory for mandatory lock files."
 msgstr ""
 
-#: lib/manlock.c:261
+#: lib/manlock.c:257
 #, c-format
 msgid "locking mailbox `%s' failed: %s"
 msgstr ""
@@ -2189,48 +2189,48 @@ msgstr ""
 msgid "mailbox corrupted, shrank in size"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1154
+#: libproto/mbox/mbox.c:1172
 #, c-format
 msgid "cannot truncate stream after failed append: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1252 libproto/mbox/mbox.c:1261
+#: libproto/mbox/mbox.c:1270 libproto/mbox/mbox.c:1279
 #, c-format
 msgid "%s:%d: error expunging: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1277 libproto/mbox/mbox.c:1311
-#: libproto/mbox/mbox.c:1342 libproto/mbox/mbox.c:1360
+#: libproto/mbox/mbox.c:1295 libproto/mbox/mbox.c:1329
+#: libproto/mbox/mbox.c:1360 libproto/mbox/mbox.c:1378
 #, c-format
 msgid "%s:%d: seek error: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1289
+#: libproto/mbox/mbox.c:1307
 #, c-format
 msgid "%s:%d: error copying: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1320
+#: libproto/mbox/mbox.c:1338
 #, c-format
 msgid "%s:%d: error writing to temporary stream: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1331
+#: libproto/mbox/mbox.c:1349
 #, c-format
 msgid "%s:%d: mailbox shrunk while expunging"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1351
+#: libproto/mbox/mbox.c:1369
 #, c-format
 msgid "%s:%d: cannot get size of the temp stream: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1369
+#: libproto/mbox/mbox.c:1387
 #, c-format
 msgid "%s:%d: copying from the temporary stream: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1378
+#: libproto/mbox/mbox.c:1396
 #, c-format
 msgid "%s:%d: error truncating stream: %s"
 msgstr ""
@@ -2557,11 +2557,6 @@ msgstr ""
 #: mda/lib/mailquota.c:266
 #, c-format
 msgid "cannot retrieve mailbox quota from SQL: %s"
-msgstr ""
-
-#: mda/lib/mailquota.c:279
-#, c-format
-msgid "bogus mailbox quota for `%s' (near `%s')"
 msgstr ""
 
 #: mda/lib/script.c:71 mh/inc.c:381 mh/inc.c:391
