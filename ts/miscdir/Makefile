@@ -24,30 +24,6 @@ install:
 	for i in ???_??; do install -Dm644 $$i/muse.qm $(DESTDIR)$(DATADIR)/muse-3.0/locale/muse_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/vmpk.qm $(DESTDIR)$(DATADIR)/vmpk/locale/vmpk_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/librecad.qm $(DESTDIR)$(DATADIR)/librecad/qm/librecad_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/launchy.qm $(DESTDIR)$(DATADIR)/launchy/translations/launchy_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/retroshare.qm $(DESTDIR)$(DATADIR)/retroshare/translations/retroshare_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/shotcut.qm $(DESTDIR)$(DATADIR)/shotcut/translations/shotcut_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/sigil.qm $(DESTDIR)$(DATADIR)/sigil/translations/sigil_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/smplayer.qm $(DESTDIR)$(DATADIR)/smplayer/translations/smplayer_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/smtube.qm $(DESTDIR)$(DATADIR)/smtube/translations/smtube_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/stopmotion.qm $(DESTDIR)$(DATADIR)/stopmotion/translations/stopmotion_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qscreenshot.qm $(DESTDIR)$(DATADIR)/qscreenshot/translations/qscreenshot_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/pdfmixtool.qm $(DESTDIR)$(DATADIR)/pdfmixtool/translations/pdfmixtool_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/kdiskmark.qm $(DESTDIR)$(DATADIR)/kdiskmark/translations/kdiskmark_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qps.qm $(DESTDIR)$(DATADIR)/qps/translations/qps_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/compton-conf.qm $(DESTDIR)$(DATADIR)/compton-conf/translations/compton-conf_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/libfm-qt.qm $(DESTDIR)$(DATADIR)/libfm-qt/translations/libfm-qt_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/liblxqt.qm $(DESTDIR)$(DATADIR)/liblxqt/translations/liblxqt_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/lxqt-about.qm $(DESTDIR)$(DATADIR)/lxqt-about/translations/lxqt-about_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/lxqt-archiver.qm $(DESTDIR)$(DATADIR)/lxqt-archiver/translations/lxqt-archiver_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/lxqt-panel.qm $(DESTDIR)$(DATADIR)/lxqt-panel/translations/lxqt-panel_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/obconf-qt.qm $(DESTDIR)$(DATADIR)/obconf-qt/translations/obconf-qt_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/pcmanfm-qt.qm $(DESTDIR)$(DATADIR)/pcmanfm-qt/translations/pcmanfm-qt_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qterminal.qm $(DESTDIR)$(DATADIR)/qterminal/translations/qterminal_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/screengrab.qm $(DESTDIR)$(DATADIR)/screengrab/translations/screengrab_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/pavucontrol-qt.qm $(DESTDIR)$(DATADIR)/pavucontrol-qt/translations/pavucontrol-qt_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qtermwidget.qm $(DESTDIR)$(DATADIR)/qtermwidget5/translations/qtermwidget_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/tanglet.qm $(DESTDIR)$(DATADIR)/tanglet/translations/tanglet_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/OpenShot.qm $(DESTDIR)/usr/lib/python3.8/site-packages/openshot_qt/language/OpenShot.$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/otter-browser.qm $(DESTDIR)$(DATADIR)/otter-browser/locale/otter-browser_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cortina.qm $(DESTDIR)$(DATADIR)/qt4/translations/cortina/$$i.qm; done
@@ -55,14 +31,8 @@ install:
 	for i in ???_??; do install -Dm644 $$i/photoflare.qm $(DESTDIR)$(DATADIR)/photoflare/languages/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qmetro.qm $(DESTDIR)$(DATADIR)/qmetro/locale/$$i.lng; done
 	for i in ???_??; do install -Dm644 $$i/wazapp.ts $(DESTDIR)$(DATADIR)/wazapp/i18n/$$i.ts; done
-	for i in ???_??; do install -Dm644 $$i/tupi.qm $(DESTDIR)$(DATADIR)/tupi/translations/tupi_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qtemu.qm $(DESTDIR)$(DATADIR)/qtemu/translations/qtemu_cmn-TW.qm; done
-	for i in ???_??; do install -Dm644 $$i/qstopmotion.qm $(DESTDIR)$(DATADIR)/qstopmotion/translations/qstopmotion_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/bitmessage.qm $(DESTDIR)$(DATADIR)/pybitmessage/translations/bitmessage_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/photivo.qm $(DESTDIR)$(DATADIR)/photivo/Translations/photivo_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/ktoon.qm $(DESTDIR)$(DATADIR)/ktoon/data/translations/ktoon_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/knotter.qm $(DESTDIR)$(DATADIR)/knotter/translations/knotter_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/convertall.qm $(DESTDIR)$(DATADIR)/convertall/translations/convertall_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cobras.ts $(DESTDIR)$(DATADIR)/cobras/cobras_$$i.ts; done
 	for i in ???_??; do install -Dm644 $$i/chains.qm $(DESTDIR)$(DATADIR)/chains/data/lang/chains_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/2mandvd.qm $(DESTDIR)$(DATADIR)/2ManDVD/2mandvd_$$i.qm; done
@@ -71,18 +41,13 @@ install:
 	for i in ???_??; do install -Dm644 $$i/arduide.qm $(DESTDIR)$(DATADIR)/arduino-ide/translations/arduide_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/basic256.qm $(DESTDIR)$(DATADIR)/basic256/basic256_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/canorus.qm $(DESTDIR)$(DATADIR)/canorus/lang/$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/connectagram.qm $(DESTDIR)$(DATADIR)/connectagram/translations/connectagram_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cr3.qm $(DESTDIR)$(DATADIR)/cr3/i18n/cr3_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/crosti.qm $(DESTDIR)$(DATADIR)/crosti/system/translations/crosti_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cuberok.qm $(DESTDIR)$(DATADIR)/cuberok/locale/cuberok_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/cutemaze.qm $(DESTDIR)$(DATADIR)/cutemaze/translations/cutemaze_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drawpile.qm $(DESTDIR)$(DATADIR)/drawpile/drawpile/i18n/drawpile_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/easypaint.qm $(DESTDIR)$(DATADIR)/easypaint/translations/easypaint_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/everpad.qm $(DESTDIR)$(DATADIR)/everpad/i18n/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/feff.qm $(DESTDIR)$(DATADIR)/feff/languages/feff_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/Gambit.qm $(DESTDIR)$(DATADIR)/gambitchess/nls/Gambit_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/gottet.qm $(DESTDIR)$(DATADIR)/gottet/translations/gottet_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/hexalate.qm $(DESTDIR)$(DATADIR)/hexalate/translations/hexalate_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/hotshots.qm $(DESTDIR)$(DATADIR)/hotshots/lang/hotshots_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/hplip.qm $(DESTDIR)$(DATADIR)/hplip/data/localization/hplip_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/jag.qm $(DESTDIR)$(DATADIR)/jag/data/lang/jag_$$i.qm; done
@@ -105,36 +70,22 @@ install:
 	for i in ???_??; do install -Dm644 $$i/plume-creator.qm $(DESTDIR)$(DATADIR)/plume-creator/locale/plume-creator_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qantenna.qm $(DESTDIR)$(DATADIR)/qantenna/qantenna_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qaquarelle.qm $(DESTDIR)$(DATADIR)/qaquarelle/locale/$$i/qaquarelle.qm; done
-	for i in ???_??; do install -Dm644 $$i/qarecord.qm $(DESTDIR)$(DATADIR)/qarecord/translations/qarecord_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qchat.qm $(DESTDIR)$(DATADIR)/qchat/translations/qchat_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qgifer.qm $(DESTDIR)$(DATADIR)/qgifer/locale/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qgigaset.qm $(DESTDIR)$(DATADIR)/qgigaset/qgigaset_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qgo.qm $(DESTDIR)$(DATADIR)/qgo/languages/qgo_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qnetwalk.qm $(DESTDIR)$(DATADIR)/qnetwalk/translations/qnetwalk_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qomp.qm $(DESTDIR)$(DATADIR)/qomp/translations/qomp_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qprogram-starter.qm $(DESTDIR)$(DATADIR)/qprogram-starter/translations/qprogram-starter-$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtqr.qm $(DESTDIR)$(DATADIR)/qr-tools/qtqr_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qshare.qm $(DESTDIR)$(DATADIR)/qshare/translations/qshare_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qshutdown.qm $(DESTDIR)$(DATADIR)/qshutdown/translations/qshutdown-$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/radiola.qm $(DESTDIR)$(DATADIR)/radiola/translations/radiola_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/schat.qm $(DESTDIR)$(DATADIR)/schat/translations/schat_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/schatd-ui.qm $(DESTDIR)$(DATADIR)/schat/translations/schatd-ui_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/schatd.qm $(DESTDIR)$(DATADIR)/schat/translations/schatd_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/schat2.qm $(DESTDIR)$(DATADIR)/schat2/translations/schat2_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/sddm.qm $(DESTDIR)$(DATADIR)/sddm/translations/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/sigram.qm $(DESTDIR)$(DATADIR)/sigram/translations/lang-$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/simsu.qm $(DESTDIR)$(DATADIR)/simsu/translations/simsu_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/skydmin.qm $(DESTDIR)$(DATADIR)/skylendar/skydmin_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/skylendar.qm $(DESTDIR)$(DATADIR)/skylendar/skylendar_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/tbe.qm $(DESTDIR)$(DATADIR)/tbe/i18n/tbe_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtstalker.qm $(DESTDIR)$(DATADIR)/qtstalker/i18n/qtstalker_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/tetzle.qm $(DESTDIR)$(DATADIR)/tetzle/translations/tetzle_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/umplayer.qm $(DESTDIR)$(DATADIR)/umplayer/translations/umplayer_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/videoporama.qm $(DESTDIR)$(DATADIR)/videoporama/locale/videoporama_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/wg.qm $(DESTDIR)$(DATADIR)/winegame/translations/wg_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/lwg.qm $(DESTDIR)$(DATADIR)/winestuff/l10n/lwg_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/wiznote.qm $(DESTDIR)$(DATADIR)/wiznote/locales/wiznote_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/xmodconfig.qm $(DESTDIR)$(DATADIR)/xmodconfig/xmodconfig_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/znotes.qm $(DESTDIR)$(DATADIR)/znotes/translations/znotes_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/ifw.qm $(DESTDIR)$(DATADIR)/ifw/translations/ifw_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/qtcreator.qm $(DESTDIR)$(DATADIR)/qtcreator/translations/qtcreator_$$i.qm; done

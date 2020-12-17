@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MUIbase\n"
 "Report-Msgid-Bugs-To: https://sourceforge.net/p/muibase/bugs\n"
-"POT-Creation-Date: 2020-06-18 12:34+PDT\n"
+"POT-Creation-Date: 2020-11-01 20:43+PDT\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,6 +43,14 @@ msgstr ""
 
 msgctxt "MSG_Save (//)"
 msgid "Save"
+msgstr ""
+
+msgctxt "MSG_Convert (//)"
+msgid "Convert"
+msgstr ""
+
+msgctxt "MSG_Rename (//)"
+msgid "Rename"
 msgstr ""
 
 msgctxt "MSG_Open (//)"
@@ -258,29 +266,24 @@ msgstr ""
 #, c-format
 msgctxt "MSG_Info (//)"
 msgid "Project '%s'\n"
-"%ld records in %ld tables.\n"
-"\n"
-"Reorganization would gain at least\n"
-"%ld bytes of disk space."
-msgstr ""
-
-msgctxt "MSG_UpdateProject (//)"
-msgid "The version of this project does not support all new features.\n"
-"To enable all features, please update the project by saving it."
+"%ld records in %ld tables."
 msgstr ""
 
 msgctxt "MSG_SelectProjectname (//)"
 msgid "Select project name..."
 msgstr ""
 
-msgctxt "MSG_AskReplaceAnswers (//)"
-msgid "*Replace|_Cancel"
+msgctxt "MSG_AskConvertProject (//)"
+msgid "Project '%s' is stored in an obsolete format.\n"
+"Please convert to the new SQLite3 format."
 msgstr ""
 
-#, c-format
-msgctxt "MSG_AskReplaceProject (//)"
-msgid "Project '%s' exists.\n"
-"Replace it?"
+msgctxt "MSG_AskConvertProjectAnswers (//)"
+msgid "*Convert|_Cancel"
+msgstr ""
+
+msgctxt "MSG_AskReplaceAnswers (//)"
+msgid "*Replace|_Cancel"
 msgstr ""
 
 #, c-format
@@ -328,6 +331,10 @@ msgctxt "MSG_AskProjectSaveFirstAnswers (//)"
 msgid "*Save project|_Cancel"
 msgstr ""
 
+msgctxt "MSG_AskProjectRetryContinueAnswers (//)"
+msgid "*Retry|Continue"
+msgstr ""
+
 #, c-format
 msgctxt "MSG_AskProjectReallyRevert (//)"
 msgid "%ld change(s) has/have been made to\n"
@@ -347,6 +354,10 @@ msgstr ""
 
 msgctxt "MSG_AskProjectReloadNewVersionAnswers (//)"
 msgid "*Reload|_Cancel"
+msgstr ""
+
+msgctxt "MSG_LoadingDatabase (//)"
+msgid "Loading database"
 msgstr ""
 
 #, c-format
@@ -395,8 +406,12 @@ msgctxt "MSG_SaveProject (//)"
 msgid "Saving project"
 msgstr ""
 
-msgctxt "MSG_ExportAsSQLite3Database (//)"
-msgid "Export as SQLite3 database"
+msgctxt "MSG_SavingDatabase (//)"
+msgid "Saving database"
+msgstr ""
+
+msgctxt "MSG_Vacuum (//)"
+msgid "Vacuum"
 msgstr ""
 
 msgctxt "MSG_EnterAdminPassword (//)"
@@ -437,72 +452,6 @@ msgid "There are problems with the character encoding\n"
 "in project '%s'.\n"
 "Select menu item 'Check data integrity'\n"
 "for more information."
-msgstr ""
-
-msgctxt "MSG_CheckDataIntegrity (//)"
-msgid "Checking data integrity"
-msgstr ""
-
-#, c-format
-msgctxt "MSG_DataIntegrity_CodesetWarnings (//)"
-msgid "Data integrity is good but there are\n"
-"%ld characters in %ld fields of %ld records\n"
-"that are either invalid UTF-8 code points\n"
-"or not present in the current charset.\n"
-"For more information, see the log file\n"
-"'%s'.\n"
-"Reorganizing the project clears all warnings\n"
-"by replacing these characters with '?'."
-msgstr ""
-
-#, c-format
-msgctxt "MSG_DataIntegrity_CodesetWarningsNoRecords (//)"
-msgid "Data integrity is good but there are\n"
-"%ld characters in %ld fields that\n"
-"are either invalid UTF-8 code points\n"
-"or not present in the current charset.\n"
-"Reorganizing the project clears all warnings\n"
-"by replacing these characters with '?'."
-msgstr ""
-
-msgctxt "MSG_DataIntegrity_Ok (//)"
-msgid "Data integrity is perfect."
-msgstr ""
-
-msgctxt "MSG_DataIntegrity_Gaps (//)"
-msgid "A data memory leak has been detected\n"
-"but there is no loss of data.\n"
-"Reorganizing the project would\n"
-"gain some memory though."
-msgstr ""
-
-msgctxt "MSG_DataIntegrity_FreeListOverlap (//)"
-msgid "Some overlapping free list entries have\n"
-"been detected but there is no loss of data.\n"
-"Please reorganize the project now."
-msgstr ""
-
-#, c-format
-msgctxt "MSG_DataIntegrity_RecordOverlap (//)"
-msgid "Overlapping records have been found!  %ld records\n"
-"are corrupted and might contain illegal data.\n"
-"Additionally, %ld records are not accessible anymore\n"
-"and have been deleted.  For more information, see\n"
-"the log file '%s'.\n"
-"Reorganize the project now!"
-msgstr ""
-
-#, c-format
-msgctxt "MSG_DataIntegrity_RecordNodeCorrupted (//)"
-msgid "The list of record nodes is corrupted\n"
-"and a possible number of %ld records are missing!\n"
-"It's probably better to go back to a previously\n"
-"saved copy.  For more information, see\n"
-"the log file '%s'."
-msgstr ""
-
-msgctxt "MSG_DataIntegrity_Answers (//)"
-msgid "*Save & reorg|_Cancel"
 msgstr ""
 
 #, c-format
@@ -679,6 +628,10 @@ msgid "Log error:\n"
 "%s"
 msgstr ""
 
+msgctxt "MSG_SetLogFile (//)"
+msgid "Set log file"
+msgstr ""
+
 msgctxt "MSG_SetLogLabel (//)"
 msgid "Set log label"
 msgstr ""
@@ -714,6 +667,10 @@ msgstr ""
 
 msgctxt "MSG_Log_ApplyChangeError_OldValueDoesNotMatch (//)"
 msgid "Old value does not match"
+msgstr ""
+
+msgctxt "MSG_Log_ApplyChangeError_InvalidOldValue (//)"
+msgid "Invalid old value"
 msgstr ""
 
 msgctxt "MSG_Log_ApplyChangeError_InvalidNewValue (//)"
@@ -1076,6 +1033,22 @@ msgctxt "MSG_Import_InsertRecordsAnswers (//)"
 msgid "*Insert|_Abort"
 msgstr ""
 
+msgctxt "MSG_ApplyChanges_SkipUncommittedEntries (//)"
+msgid "The entries in the imported file starting at\n"
+"%s %s have not been committed.\n"
+"Should these entries be applied or skipped?"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_SkipAnswers (//)"
+msgid "_Apply|_Skip"
+msgstr ""
+
+msgctxt "MSG_ApplyChanges_SkipOldEntries (//)"
+msgid "There are entries in the imported file that\n"
+"are older than the entries in the project log.\n"
+"Should these entries be applied or skipped?"
+msgstr ""
+
 msgctxt "MSG_ApplyChanges_NoChangesFound (//)"
 msgid "No changes found."
 msgstr ""
@@ -1228,6 +1201,10 @@ msgctxt "MSG_Err_Internal (//)"
 msgid "Internal error"
 msgstr ""
 
+msgctxt "MSG_Err_Mem (//)"
+msgid "Out of memory"
+msgstr ""
+
 msgctxt "MSG_Err_ObjectLevel (//)"
 msgid "The selected objects must be on the same level."
 msgstr ""
@@ -1253,17 +1230,13 @@ msgctxt "MSG_Err_RecordNotLocked (//)"
 msgid "Record not locked (internal error)."
 msgstr ""
 
-msgctxt "MSG_Err_NoSwapFile (//)"
+msgctxt "MSG_Err_NoProjectName (//)"
 msgid "No name has been set for this project yet.\n"
 "Please save the project to set one."
 msgstr ""
 
 msgctxt "MSG_Err_OpenSwapFile (//)"
 msgid "Can't open swap file"
-msgstr ""
-
-msgctxt "MSG_Err_WriteSwapFile (//)"
-msgid "Error writing swap file"
 msgstr ""
 
 msgctxt "MSG_Err_ReadSwapFile (//)"
@@ -1293,13 +1266,17 @@ msgid "User canceled"
 msgstr ""
 
 #, c-format
-msgctxt "MSG_Err_SQLite (//)"
+msgctxt "MSG_Err_SQLite3Message (//)"
 msgid "SQLite3 error\n"
 "%s"
 msgstr ""
 
-msgctxt "MSG_Err_Mem (//)"
-msgid "Out of memory"
+msgctxt "MSG_Err_SQLite3Generic (//)"
+msgid "SQLite3 generic error"
+msgstr ""
+
+msgctxt "MSG_Err_SQLite3IO (//)"
+msgid "SQLite3 I/O error"
 msgstr ""
 
 msgctxt "MSG_Err_CodesetInvalidUTF8 (//)"
@@ -1332,6 +1309,15 @@ msgctxt "MSG_Err_ProjectWriteLock (//)"
 msgid "Can't obtain write lock on project.\n"
 "Maybe someone else is accessing it?\n"
 "Just try again in a short while."
+msgstr ""
+
+#, c-format
+msgctxt "MSG_Err_ProjectVacuum (//)"
+msgid "The SQLite3 Vacuum command failed.\n"
+"Your database file is just fine though,\n"
+"it just is not as compact as it could be.\n"
+"\n"
+"%s: %s"
 msgstr ""
 
 #, c-format
@@ -1428,6 +1414,14 @@ msgstr ""
 
 msgctxt "MSG_Err_NoFilename (//)"
 msgid "No filename given"
+msgstr ""
+
+msgctxt "MSG_Err_OpenLogFile (//)"
+msgid "Can't open log file."
+msgstr ""
+
+msgctxt "MSG_Err_WriteLogFile (//)"
+msgid "Error writing log file."
 msgstr ""
 
 #, c-format
@@ -1956,7 +1950,7 @@ msgid "Layout weight.  The higher the value\n"
 msgstr ""
 
 msgctxt "MSG_Font (//)"
-msgid "_Font"
+msgid "Font"
 msgstr ""
 
 msgctxt "MSG_FontBH (//)"
@@ -2362,6 +2356,10 @@ msgstr ""
 #.
 msgctxt "MSG_DisplayField (//)"
 msgid "Display field"
+msgstr ""
+
+msgctxt "MSG_DisplayField_Title (//)"
+msgid "Title"
 msgstr ""
 
 msgctxt "MSG_DisplayField_Extras (//)"
@@ -3237,10 +3235,6 @@ msgctxt "MSG_QueryPrint_Custom (//)"
 msgid "Custom"
 msgstr ""
 
-msgctxt "MSG_QueryPrint_Font (//)"
-msgid "Font"
-msgstr ""
-
 msgctxt "MSG_QueryPrint_FontBH (//)"
 msgid "Font for printing"
 msgstr ""
@@ -3701,6 +3695,16 @@ msgctxt "MSG_StructureEditor_RecompileProgramAnswers (//)"
 msgid "*Compile|_Later"
 msgstr ""
 
+msgctxt "MSG_StructureEditor_RenameTablesAndFields (//)"
+msgid "There are %ld table(s) and/or field(s)\n"
+"with names that are no longer valid.\n"
+"Please rename these tables and/or fields."
+msgstr ""
+
+msgctxt "MSG_StructureEditor_RenameTablesAndFieldsAnswers (//)"
+msgid "*Rename|_Later"
+msgstr ""
+
 #.
 #. Message strings for menus
 #.
@@ -3790,10 +3794,6 @@ msgstr ""
 
 msgctxt "MSG_MenuItem_SaveAndReorgAs (//)"
 msgid "Save & reorg as..."
-msgstr ""
-
-msgctxt "MSG_MenuItem_ExportAsSQLite3Database (//)"
-msgid "Export as SQLite3 database..."
 msgstr ""
 
 msgctxt "MSG_MenuItem_RevertToSaved (//)"
@@ -3904,6 +3904,10 @@ msgctxt "MSG_MenuItem_ConfirmSaveReorg (//)"
 msgid "Confirm save & reorg?"
 msgstr ""
 
+msgctxt "MSG_MenuItem_VacuumAfterReorg (//)"
+msgid "Vacuum after reorg?"
+msgstr ""
+
 msgctxt "MSG_MenuItem_PathsRelativeToProject (//)"
 msgid "Paths relative to directory of project?"
 msgstr ""
@@ -3914,6 +3918,26 @@ msgstr ""
 
 msgctxt "MSG_MenuItem_LoggingActive (//)"
 msgid "Logging active?"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode (//)"
+msgid "Logging mode"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode_ToProject (//)"
+msgid "To project"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode_ToFile (//)"
+msgid "To file"
+msgstr ""
+
+msgctxt "MSG_MenuItem_LoggingMode_ToProjectAndFile (//)"
+msgid "To project and file"
+msgstr ""
+
+msgctxt "MSG_MenuItem_SetLogFile (//)"
+msgid "Set log file..."
 msgstr ""
 
 msgctxt "MSG_MenuItem_SetLogLabel (//)"
