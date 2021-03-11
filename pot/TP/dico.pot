@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU dico 2.10\n"
+"Project-Id-Version: GNU dico 2.10.90\n"
 "Report-Msgid-Bugs-To: bug-dico@gnu.org\n"
-"POT-Creation-Date: 2020-09-04 07:06+0300\n"
+"POT-Creation-Date: 2021-01-08 14:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,60 +18,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: xdico/userprivs.c:40
+#: xdico/userprivs.c:39
 msgid "Refusing to run as root"
 msgstr ""
 
-#: xdico/userprivs.c:58
+#: xdico/userprivs.c:57
 #, c-format
 msgid "setgroups(1, %lu) failed"
 msgstr ""
 
-#: xdico/userprivs.c:69
+#: xdico/userprivs.c:68
 #, c-format
 msgid "setegid(%lu) failed"
 msgstr ""
 
-#: xdico/userprivs.c:73
+#: xdico/userprivs.c:72
 #, c-format
 msgid "setregid(%lu,%lu) failed"
 msgstr ""
 
-#: xdico/userprivs.c:77
+#: xdico/userprivs.c:76
 #, c-format
 msgid "setresgid(%lu,%lu,%lu) failed"
 msgstr ""
 
-#: xdico/userprivs.c:85
+#: xdico/userprivs.c:84
 #, c-format
 msgid "setgid(%lu) failed"
 msgstr ""
 
-#: xdico/userprivs.c:88
+#: xdico/userprivs.c:87
 #, c-format
 msgid "Cannot set effective gid to %lu"
 msgstr ""
 
-#: xdico/userprivs.c:106
+#: xdico/userprivs.c:105
 #, c-format
 msgid "setreuid(%lu,-1) failed"
 msgstr ""
 
-#: xdico/userprivs.c:111
+#: xdico/userprivs.c:110
 #, c-format
 msgid "second setuid(%lu) failed"
 msgstr ""
 
-#: xdico/userprivs.c:118
+#: xdico/userprivs.c:117
 #, c-format
 msgid "setuid(%lu) failed"
 msgstr ""
 
-#: xdico/userprivs.c:126
+#: xdico/userprivs.c:125
 msgid "seteuid(0) succeeded when it should not"
 msgstr ""
 
-#: xdico/userprivs.c:129
+#: xdico/userprivs.c:128
 msgid "Cannot drop non-root setuid privileges"
 msgstr ""
 
@@ -100,11 +100,11 @@ msgstr ""
 #. If you don't know what to put here, please see
 #. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
 #. and use glyphs suitable for your language.
-#: xdico/gnu/quotearg.c:362
+#: xdico/gnu/quotearg.c:355
 msgid "`"
 msgstr ""
 
-#: xdico/gnu/quotearg.c:363
+#: xdico/gnu/quotearg.c:356
 msgid "'"
 msgstr ""
 
@@ -1177,7 +1177,7 @@ msgstr ""
 #: dicod/main.c:853 dicod/main.c:896 dicod/main.c:899 dicod/main.c:903
 #: dicod/main.c:1029 dicod/main.c:1318 dicod/main.c:1327 dicod/main.c:1330
 #: dicod/main.c:1332 dicod/main.c:1337 dicod/main.c:1346 dicod/main.c:1368
-#: dicod/main.c:1383 grecs/src/format.c:141
+#: dicod/main.c:1383 grecs/src/format.c:142
 msgid "arg"
 msgstr ""
 
@@ -2438,52 +2438,101 @@ msgstr ""
 msgid "invalid network address: %s"
 msgstr ""
 
-#: grecs/src/format.c:33
+#. TRANSLATORS: The msgids below are data types in direct (nominative)
+#. and indirect (most often, genitive) cases.  The indirect case is
+#. used only in the construct "list %s" (e.g., for "number" data type,
+#. this makes "list of numbers").  Please, translate it so that it
+#. forms a correct sentence in this context.
+#: grecs/src/format.c:37
 msgid "void"
 msgstr ""
 
-#: grecs/src/format.c:36 grecs/src/tree.c:69
+#: grecs/src/format.c:38 grecs/src/tree.c:69
 msgid "string"
 msgstr ""
 
-#: grecs/src/format.c:46
+#: grecs/src/format.c:38
+msgid "of strings"
+msgstr ""
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
 msgid "number"
 msgstr ""
 
-#: grecs/src/format.c:49
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "of numbers"
+msgstr ""
+
+#: grecs/src/format.c:46
 msgid "time"
 msgstr ""
 
-#: grecs/src/format.c:52
+#: grecs/src/format.c:46
+msgid "of times"
+msgstr ""
+
+#: grecs/src/format.c:47
 msgid "boolean"
 msgstr ""
 
-#: grecs/src/format.c:55
+#: grecs/src/format.c:47
+msgid "of booleans"
+msgstr ""
+
+#: grecs/src/format.c:48
 msgid "IPv4"
 msgstr ""
 
-#: grecs/src/format.c:58
+#: grecs/src/format.c:48
+msgid "of IPv4"
+msgstr ""
+
+#: grecs/src/format.c:49
 msgid "CIDR"
 msgstr ""
 
-#: grecs/src/format.c:61
+#: grecs/src/format.c:49
+msgid "of CIDR"
+msgstr ""
+
+#: grecs/src/format.c:50
 msgid "hostname"
 msgstr ""
 
-#: grecs/src/format.c:64
+#: grecs/src/format.c:50
+msgid "of hostnames"
+msgstr ""
+
+#: grecs/src/format.c:51
 msgid "sockaddr"
 msgstr ""
 
-#: grecs/src/format.c:67
+#: grecs/src/format.c:51
+msgid "of sockaddr"
+msgstr ""
+
+#: grecs/src/format.c:52
 msgid "section"
 msgstr ""
 
-#: grecs/src/format.c:70
+#: grecs/src/format.c:53
 msgid "null"
 msgstr ""
 
-#: grecs/src/format.c:133
+#: grecs/src/format.c:134
 msgid "Disabled;"
+msgstr ""
+
+#. TRANSLATORS: The %s in this message will be expanded
+#. to a data type in indirect case (see above).  The two
+#. must form a grammatically correct sentence.
+#: grecs/src/format.c:156
+#, c-format
+msgid "list %s"
 msgstr ""
 
 #: grecs/src/grecs-lex.l:186

@@ -24,7 +24,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/muse.qm $(DESTDIR)$(DATADIR)/muse-3.0/locale/muse_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/vmpk.qm $(DESTDIR)$(DATADIR)/vmpk/locale/vmpk_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/librecad.qm $(DESTDIR)$(DATADIR)/librecad/qm/librecad_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/OpenShot.qm $(DESTDIR)/usr/lib/python3.8/site-packages/openshot_qt/language/OpenShot.$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/OpenShot.qm $(DESTDIR)/usr/lib/python3.9/site-packages/openshot_qt/language/OpenShot.$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/otter-browser.qm $(DESTDIR)$(DATADIR)/otter-browser/locale/otter-browser_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/cortina.qm $(DESTDIR)$(DATADIR)/qt4/translations/cortina/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/dsbbg.qm $(DESTDIR)$(DATADIR)/dsbbg/dsbbg_$$i.qm; done

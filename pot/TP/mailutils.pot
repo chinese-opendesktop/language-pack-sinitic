@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU mailutils 3.10.90\n"
+"Project-Id-Version: GNU mailutils 3.11\n"
 "Report-Msgid-Bugs-To: bug-mailutils@gnu.org\n"
-"POT-Creation-Date: 2020-11-17 13:34+0200\n"
+"POT-Creation-Date: 2020-12-23 16:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgid "too few arguments"
 msgstr ""
 
 #: comsat/action.c:580 frm/from.c:95 imap4d/imap4d.c:933 mda/lmtpd/lmtpd.c:219
-#: mh/fmtcheck.c:125 mh/folder.c:933 mh/prompter.c:100 movemail/movemail.c:352
+#: mh/fmtcheck.c:125 mh/folder.c:934 mh/prompter.c:100 movemail/movemail.c:352
 #: pop3d/pop3d.c:474 pop3d/popauth.c:229 mu/mu.c:235 mu/libexec/pop.c:610
 #: mu/libexec/cflags.c:31 mu/libexec/ldflags.c:94 mu/libexec/stat.c:254
 #, c-format
@@ -245,7 +245,7 @@ msgstr[1] ""
 msgid "cannot resize buffer: %s"
 msgstr ""
 
-#: comsat/comsat.c:442 mda/lib/deliver.c:193 mda/lib/deliver.c:385 mh/inc.c:201
+#: comsat/comsat.c:442 mda/lib/deliver.c:193 mda/lib/deliver.c:385 mh/inc.c:218
 #: mh/mh_init.c:533 sieve/sieve.c:413
 #, c-format
 msgid "cannot open mailbox %s: %s"
@@ -589,7 +589,7 @@ msgstr ""
 #: mail/util.c:931 libmailutils/cfg/parser.y:1294
 #: libmailutils/cfg/parser.y:1370 libmailutils/cfg/parser.y:1392
 #: libmailutils/diag/debug.c:284 libmailutils/diag/debug.c:373
-#: libmailutils/server/acl.c:418 libmailutils/stream/prog_stream.c:682
+#: libmailutils/server/acl.c:417 libmailutils/stream/prog_stream.c:681
 #: libmailutils/mailer/mailer.c:296 libproto/mailer/smtp.c:135
 #: libproto/mailer/smtp_gsasl.c:56 libmailutils/auth/mu_auth.c:354
 #: libmailutils/base/mutil.c:70 mh/folder.c:473 mh/folder.c:725
@@ -1097,17 +1097,17 @@ msgstr ""
 msgid "cannot obtain IP address of client: %s"
 msgstr ""
 
-#: imap4d/search.c:595 imap4d/search.c:722 imap4d/search.c:798
+#: imap4d/search.c:596 imap4d/search.c:732 imap4d/search.c:813
 #, c-format
 msgid "%s:%d: INTERNAL ERROR (please report)"
 msgstr ""
 
-#: imap4d/search.c:937
+#: imap4d/search.c:952
 #, c-format
 msgid "can't handle encoding %s: %s"
 msgstr ""
 
-#: imap4d/search.c:963
+#: imap4d/search.c:978
 #, c-format
 msgid "can't convert from charset %s to %s"
 msgstr ""
@@ -2184,55 +2184,24 @@ msgstr ""
 msgid "%lu: cannot get sender address: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:234
+#: libproto/mbox/mboxrb.c:210
 #, c-format
 msgid "mailbox corrupted, shrank in size"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1172
+#: libproto/mbox/mboxrb.c:1199
 #, c-format
 msgid "cannot truncate stream after failed append: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1270 libproto/mbox/mbox.c:1279
+#: libproto/mbox/mboxrb.c:1669
 #, c-format
-msgid "%s:%d: error expunging: %s"
+msgid "failed to restore %s from backup %s: %s"
 msgstr ""
 
-#: libproto/mbox/mbox.c:1295 libproto/mbox/mbox.c:1329
-#: libproto/mbox/mbox.c:1360 libproto/mbox/mbox.c:1378
+#: libproto/mbox/mboxrb.c:1671
 #, c-format
-msgid "%s:%d: seek error: %s"
-msgstr ""
-
-#: libproto/mbox/mbox.c:1307
-#, c-format
-msgid "%s:%d: error copying: %s"
-msgstr ""
-
-#: libproto/mbox/mbox.c:1338
-#, c-format
-msgid "%s:%d: error writing to temporary stream: %s"
-msgstr ""
-
-#: libproto/mbox/mbox.c:1349
-#, c-format
-msgid "%s:%d: mailbox shrunk while expunging"
-msgstr ""
-
-#: libproto/mbox/mbox.c:1369
-#, c-format
-msgid "%s:%d: cannot get size of the temp stream: %s"
-msgstr ""
-
-#: libproto/mbox/mbox.c:1387
-#, c-format
-msgid "%s:%d: copying from the temporary stream: %s"
-msgstr ""
-
-#: libproto/mbox/mbox.c:1396
-#, c-format
-msgid "%s:%d: error truncating stream: %s"
+msgid "backup left in %s"
 msgstr ""
 
 #: mda/mda/mda.c:26 mda/lmtpd/lmtpd.c:110
@@ -2559,7 +2528,7 @@ msgstr ""
 msgid "cannot retrieve mailbox quota from SQL: %s"
 msgstr ""
 
-#: mda/lib/script.c:71 mh/inc.c:381 mh/inc.c:391
+#: mda/lib/script.c:71 mh/inc.c:385 mh/inc.c:395
 #, c-format
 msgid "unknown or unsupported language: %s"
 msgstr ""
@@ -2702,52 +2671,52 @@ msgstr ""
 msgid "Cannot create mailbox %s: %s"
 msgstr ""
 
-#: mail/copy.c:54 mail/file.c:119 mail/mail.c:627 mail/quit.c:161
+#: mail/copy.c:54 mail/file.c:119 mail/mail.c:636 mail/quit.c:161
 #, c-format
 msgid "Cannot open mailbox %s: %s"
 msgstr ""
 
-#: mail/copy.c:69 mail/copy.c:184 mail/send.c:1398
+#: mail/copy.c:69 mail/copy.c:185 mail/send.c:1398
 #, c-format
 msgid "Cannot append message: %s"
 msgstr ""
 
-#: mail/copy.c:107
+#: mail/copy.c:106
 #, c-format
 msgid "Cannot open output file %s: %s"
 msgstr ""
 
-#: mail/copy.c:116
+#: mail/copy.c:115
 #, c-format
 msgid "Cannot create locker %s: %s"
 msgstr ""
 
-#: mail/copy.c:126
+#: mail/copy.c:125
 #, c-format
 msgid "Cannot lock %s: %s"
 msgstr ""
 
-#: mail/copy.c:146
+#: mail/copy.c:150
 #, c-format
 msgid "Cannot get envelope: %s"
 msgstr ""
 
-#: mail/copy.c:153
+#: mail/copy.c:157
 #, c-format
 msgid "Cannot get envelope sender: %s"
 msgstr ""
 
-#: mail/copy.c:160
+#: mail/copy.c:164
 #, c-format
 msgid "Cannot get envelope date: %s"
 msgstr ""
 
-#: mail/copy.c:167
+#: mail/copy.c:171
 #, c-format
 msgid "Write error: %s"
 msgstr ""
 
-#: mail/copy.c:177
+#: mail/copy.c:178
 #, c-format
 msgid "Cannot get message: %s"
 msgstr ""
@@ -3121,29 +3090,34 @@ msgstr ""
 msgid "Cannot create mailbox: %s"
 msgstr ""
 
-#: mail/mail.c:640
+#: mail/mail.c:629
+#, c-format
+msgid "mailbox opened read-only"
+msgstr ""
+
+#: mail/mail.c:650
 #, c-format
 msgid "Cannot read mailbox %s: %s"
 msgstr ""
 
-#: mail/mail.c:656
+#: mail/mail.c:666
 #, c-format
 msgid "Unknown mode `%s'"
 msgstr ""
 
-#: mail/mail.c:669
+#: mail/mail.c:679
 #, c-format
 msgid "No mail for %s\n"
 msgstr ""
 
-#: mail/mail.c:732
+#: mail/mail.c:742
 msgid ""
 "GNU Mailutils -- a suite of utilities for electronic mail\n"
 "Copyright (C) 1999-2019 Free Software Foundation, Inc.\n"
 "\n"
 msgstr ""
 
-#: mail/mail.c:735
+#: mail/mail.c:745
 msgid ""
 "   GNU Mailutils is free software; you can redistribute it and/or modify\n"
 "   it under the terms of the GNU General Public License as published by\n"
@@ -5794,7 +5768,7 @@ msgstr ""
 msgid "folder `%s' restored successfully"
 msgstr ""
 
-#: mh/folder.c:806 mh/inc.c:209
+#: mh/folder.c:806 mh/inc.c:226
 #, c-format
 msgid "cannot read input mailbox: %s"
 msgstr ""
@@ -5804,7 +5778,7 @@ msgstr ""
 msgid "Getting message numbers.\n"
 msgstr ""
 
-#: mh/folder.c:822 mh/inc.c:242
+#: mh/folder.c:822 mh/inc.c:246
 #, c-format
 msgid "%lu: cannot get message: %s"
 msgstr ""
@@ -6033,47 +6007,47 @@ msgstr ""
 msgid "enable debugging"
 msgstr ""
 
-#: mh/inc.c:185
+#: mh/inc.c:202
 #, c-format
 msgid "cannot create default mailbox: %s"
 msgstr ""
 
-#: mh/inc.c:192 mh/mh_init.c:526 mh/rmf.c:82
+#: mh/inc.c:209 mh/mh_init.c:526 mh/rmf.c:82
 #, c-format
 msgid "cannot create mailbox %s: %s"
 msgstr ""
 
-#: mh/inc.c:253
+#: mh/inc.c:257
 #, c-format
 msgid "%lu: filter failed: %s"
 msgstr ""
 
-#: mh/inc.c:266
+#: mh/inc.c:270
 #, c-format
 msgid "%lu: error appending message: %s"
 msgstr ""
 
-#: mh/inc.c:314
+#: mh/inc.c:318
 #, c-format
 msgid "failed to move messages to %s: %s"
 msgstr ""
 
-#: mh/inc.c:352
+#: mh/inc.c:356
 #, c-format
 msgid "unrecognized arguments"
 msgstr ""
 
-#: mh/inc.c:400
+#: mh/inc.c:404
 #, c-format
 msgid "script initialization failed: %s"
 msgstr ""
 
-#: mh/inc.c:410 movemail/movemail.c:988
+#: mh/inc.c:414 movemail/movemail.c:988
 #, c-format
 msgid "failed to set up notification: %s"
 msgstr ""
 
-#: mh/inc.c:416
+#: mh/inc.c:420
 #, c-format
 msgid "cannot read output mailbox: %s"
 msgstr ""
@@ -6464,7 +6438,7 @@ msgid ""
 "alternate editor."
 msgstr ""
 
-#: mh/mh_whatnow.c:562 mh/mh_whatnow.c:592 mh/mh_whatnow.c:759
+#: mh/mh_whatnow.c:562 mh/mh_whatnow.c:592 mh/mh_whatnow.c:757
 msgid "List the draft on the terminal."
 msgstr ""
 
@@ -6509,24 +6483,24 @@ msgstr ""
 msgid "What now?"
 msgstr ""
 
-#: mh/mh_whatnow.c:696
+#: mh/mh_whatnow.c:695
 #, c-format
 msgid "cannot parse command line (%s): %s"
 msgstr ""
 
-#: mh/mh_whatnow.c:747
+#: mh/mh_whatnow.c:745
 msgid "Disposition?"
 msgstr ""
 
-#: mh/mh_whatnow.c:757
+#: mh/mh_whatnow.c:755
 msgid "Don't use the draft."
 msgstr ""
 
-#: mh/mh_whatnow.c:758
+#: mh/mh_whatnow.c:756
 msgid "Use the draft."
 msgstr ""
 
-#: mh/mh_whatnow.c:800
+#: mh/mh_whatnow.c:798
 #, c-format
 msgid "Use \"%s\"?"
 msgstr ""
