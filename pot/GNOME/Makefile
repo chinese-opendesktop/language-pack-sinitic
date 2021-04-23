@@ -1,4 +1,4 @@
-# https://l10n.gnome.org/POT/
+# https://l10n.gnome.org/POT/*.master/*.pot
 build:
 	mkdir -p cmn_TW yue_HK
 	for i in *.pot; do msgchi $$i -l eng2cmn -F -o cmn_TW/$${i%.pot}.po; done
