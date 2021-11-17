@@ -1,4 +1,4 @@
-VERSION = 2021.4
+VERSION = 2021.11
 PACKAGE = language-pack-sinitic
 DESTDIR =
 PREFIX = /usr
@@ -9,6 +9,7 @@ ifeq ($(LBITS), 64)
 else
   LIBDIR = $(PREFIX)/lib
 endif
+PYTHON = python3.9
 export
 
 build:

@@ -1,0 +1,4626 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: psql-cs (PostgreSQL 9.3)\n"
+"Report-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\n"
+"PO-Revision-Date: 2020-11-01 00:59+0100\n"
+"Last-Translator: Tomas Vondra <tv@fuzzy.cz>\n"
+"Language-Team: Czech <info@cspug.cx>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 2.4.1\n"
+
+msgid ""
+"\n"
+"Connection options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Display settings:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Environment variables:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"For more information, type \"\\?\" (for internal commands) or \"\\help"
+"\" (for SQL\n"
+"commands) from within psql, or consult the psql section in the PostgreSQL\n"
+"documentation.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Input and output options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Output format options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Parser: \"%s\""
+msgstr ""
+
+msgid ""
+"\n"
+"Parser: \"%s.%s\""
+msgstr ""
+
+msgid ""
+"      --csv                CSV (Comma-Separated Values) table output mode\n"
+msgstr ""
+
+msgid "      --help=commands      list backslash commands, then exit\n"
+msgstr ""
+
+msgid "      --help=variables     list special variables, then exit\n"
+msgstr ""
+
+msgid "  (options: S = show system objects, + = additional detail)\n"
+msgstr ""
+
+msgid ""
+"  -0, --record-separator-zero\n"
+"                           set record separator for unaligned output to zero "
+"byte\n"
+msgstr ""
+
+msgid ""
+"  -1 (\"one\"), --single-transaction\n"
+"                           execute as a single transaction (if non-"
+"interactive)\n"
+msgstr ""
+
+msgid "  -?, --help[=options]     show this help, then exit\n"
+msgstr ""
+
+msgid "  -A, --no-align           unaligned table output mode\n"
+msgstr ""
+
+msgid ""
+"  -E, --echo-hidden        display queries that internal commands generate\n"
+msgstr ""
+
+msgid ""
+"  -F, --field-separator=STRING\n"
+"                           field separator for unaligned output (default: "
+"\"%s\")\n"
+msgstr ""
+
+msgid "  -H, --html               HTML table output mode\n"
+msgstr ""
+
+msgid "  -L, --log-file=FILENAME  send session log to file\n"
+msgstr ""
+
+msgid ""
+"  -P, --pset=VAR[=ARG]     set printing option VAR to ARG (see \\pset "
+"command)\n"
+msgstr ""
+
+msgid ""
+"  -R, --record-separator=STRING\n"
+"                           record separator for unaligned output (default: "
+"newline)\n"
+msgstr ""
+
+msgid ""
+"  -S, --single-line        single-line mode (end of line terminates SQL "
+"command)\n"
+msgstr ""
+
+msgid ""
+"  -T, --table-attr=TEXT    set HTML table tag attributes (e.g., width, "
+"border)\n"
+msgstr ""
+
+msgid "  -U, --username=USERNAME  database user name (default: \"%s\")\n"
+msgstr ""
+
+msgid "  -V, --version            output version information, then exit\n"
+msgstr ""
+
+msgid ""
+"  -W, --password           force password prompt (should happen "
+"automatically)\n"
+msgstr ""
+
+msgid "  -X, --no-psqlrc          do not read startup file (~/.psqlrc)\n"
+msgstr ""
+
+msgid "  -a, --echo-all           echo all input from script\n"
+msgstr ""
+
+msgid "  -b, --echo-errors        echo failed commands\n"
+msgstr ""
+
+msgid ""
+"  -c, --command=COMMAND    run only single command (SQL or internal) and "
+"exit\n"
+msgstr ""
+
+msgid ""
+"  -d, --dbname=DBNAME      database name to connect to (default: \"%s\")\n"
+msgstr ""
+
+msgid "  -e, --echo-queries       echo commands sent to server\n"
+msgstr ""
+
+msgid "  -f, --file=FILENAME      execute commands from file, then exit\n"
+msgstr ""
+
+msgid ""
+"  -h, --host=HOSTNAME      database server host or socket directory "
+"(default: \"%s\")\n"
+msgstr ""
+
+msgid "  -l, --list               list available databases, then exit\n"
+msgstr ""
+
+msgid ""
+"  -n, --no-readline        disable enhanced command line editing (readline)\n"
+msgstr ""
+
+msgid "  -o, --output=FILENAME    send query results to file (or |pipe)\n"
+msgstr ""
+
+msgid "  -p, --port=PORT          database server port (default: \"%s\")\n"
+msgstr ""
+
+msgid ""
+"  -q, --quiet              run quietly (no messages, only query output)\n"
+msgstr ""
+
+msgid "  -s, --single-step        single-step mode (confirm each query)\n"
+msgstr ""
+
+msgid "  -t, --tuples-only        print rows only\n"
+msgstr ""
+
+msgid ""
+"  -v, --set=, --variable=NAME=VALUE\n"
+"                           set psql variable NAME to VALUE\n"
+"                           (e.g., -v ON_ERROR_STOP=1)\n"
+msgstr ""
+
+msgid "  -w, --no-password        never prompt for password\n"
+msgstr ""
+
+msgid "  -x, --expanded           turn on expanded table output\n"
+msgstr ""
+
+msgid ""
+"  -z, --field-separator-zero\n"
+"                           set field separator for unaligned output to zero "
+"byte\n"
+msgstr ""
+
+msgid ""
+"  AUTOCOMMIT\n"
+"    if set, successful SQL commands are automatically committed\n"
+msgstr ""
+
+msgid ""
+"  COLUMNS\n"
+"    number of columns for wrapped format\n"
+msgstr ""
+
+msgid ""
+"  COMP_KEYWORD_CASE\n"
+"    determines the case used to complete SQL key words\n"
+"    [lower, upper, preserve-lower, preserve-upper]\n"
+msgstr ""
+
+msgid ""
+"  DBNAME\n"
+"    the currently connected database name\n"
+msgstr ""
+
+msgid ""
+"  ECHO\n"
+"    controls what input is written to standard output\n"
+"    [all, errors, none, queries]\n"
+msgstr ""
+
+msgid ""
+"  ECHO_HIDDEN\n"
+"    if set, display internal queries executed by backslash commands;\n"
+"    if set to \"noexec\", just show them without execution\n"
+msgstr ""
+
+msgid ""
+"  ENCODING\n"
+"    current client character set encoding\n"
+msgstr ""
+
+msgid ""
+"  ERROR\n"
+"    true if last query failed, else false\n"
+msgstr ""
+
+msgid ""
+"  FETCH_COUNT\n"
+"    the number of result rows to fetch and display at a time (0 = "
+"unlimited)\n"
+msgstr ""
+
+msgid ""
+"  HIDE_TABLEAM\n"
+"    if set, table access methods are not displayed\n"
+msgstr ""
+
+msgid ""
+"  HISTCONTROL\n"
+"    controls command history [ignorespace, ignoredups, ignoreboth]\n"
+msgstr ""
+
+msgid ""
+"  HISTFILE\n"
+"    file name used to store the command history\n"
+msgstr ""
+
+msgid ""
+"  HISTSIZE\n"
+"    maximum number of commands to store in the command history\n"
+msgstr ""
+
+msgid ""
+"  HOST\n"
+"    the currently connected database server host\n"
+msgstr ""
+
+msgid ""
+"  IGNOREEOF\n"
+"    number of EOFs needed to terminate an interactive session\n"
+msgstr ""
+
+msgid ""
+"  LASTOID\n"
+"    value of the last affected OID\n"
+msgstr ""
+
+msgid ""
+"  LAST_ERROR_MESSAGE\n"
+"  LAST_ERROR_SQLSTATE\n"
+"    message and SQLSTATE of last error, or empty string and \"00000\" if "
+"none\n"
+msgstr ""
+
+msgid ""
+"  NAME=VALUE [NAME=VALUE] psql ...\n"
+"  or \\setenv NAME [VALUE] inside psql\n"
+"\n"
+msgstr ""
+
+msgid ""
+"  ON_ERROR_ROLLBACK\n"
+"    if set, an error doesn't stop a transaction (uses implicit savepoints)\n"
+msgstr ""
+
+msgid ""
+"  ON_ERROR_STOP\n"
+"    stop batch execution after error\n"
+msgstr ""
+
+msgid ""
+"  PGAPPNAME\n"
+"    same as the application_name connection parameter\n"
+msgstr ""
+
+msgid ""
+"  PGDATABASE\n"
+"    same as the dbname connection parameter\n"
+msgstr ""
+
+msgid ""
+"  PGHOST\n"
+"    same as the host connection parameter\n"
+msgstr ""
+
+msgid ""
+"  PGPASSFILE\n"
+"    password file name\n"
+msgstr ""
+
+msgid ""
+"  PGPASSWORD\n"
+"    connection password (not recommended)\n"
+msgstr ""
+
+msgid ""
+"  PGPORT\n"
+"    same as the port connection parameter\n"
+msgstr ""
+
+msgid ""
+"  PGUSER\n"
+"    same as the user connection parameter\n"
+msgstr ""
+
+msgid ""
+"  PORT\n"
+"    server port of the current connection\n"
+msgstr ""
+
+msgid ""
+"  PROMPT1\n"
+"    specifies the standard psql prompt\n"
+msgstr ""
+
+msgid ""
+"  PROMPT2\n"
+"    specifies the prompt used when a statement continues from a previous "
+"line\n"
+msgstr ""
+
+msgid ""
+"  PROMPT3\n"
+"    specifies the prompt used during COPY ... FROM STDIN\n"
+msgstr ""
+
+msgid ""
+"  PSQLRC\n"
+"    alternative location for the user's .psqlrc file\n"
+msgstr ""
+
+msgid ""
+"  PSQL_EDITOR, EDITOR, VISUAL\n"
+"    editor used by the \\e, \\ef, and \\ev commands\n"
+msgstr ""
+
+msgid ""
+"  PSQL_EDITOR_LINENUMBER_ARG\n"
+"    how to specify a line number when invoking the editor\n"
+msgstr ""
+
+msgid ""
+"  PSQL_HISTORY\n"
+"    alternative location for the command history file\n"
+msgstr ""
+
+msgid ""
+"  PSQL_PAGER, PAGER\n"
+"    name of external pager program\n"
+msgstr ""
+
+msgid ""
+"  QUIET\n"
+"    run quietly (same as -q option)\n"
+msgstr ""
+
+msgid ""
+"  ROW_COUNT\n"
+"    number of rows returned or affected by last query, or 0\n"
+msgstr ""
+
+msgid ""
+"  SERVER_VERSION_NAME\n"
+"  SERVER_VERSION_NUM\n"
+"    server's version (in short string or numeric format)\n"
+msgstr ""
+
+msgid ""
+"  SHELL\n"
+"    shell used by the \\! command\n"
+msgstr ""
+
+msgid ""
+"  SHOW_CONTEXT\n"
+"    controls display of message context fields [never, errors, always]\n"
+msgstr ""
+
+msgid ""
+"  SINGLELINE\n"
+"    if set, end of line terminates SQL commands (same as -S option)\n"
+msgstr ""
+
+msgid ""
+"  SINGLESTEP\n"
+"    single-step mode (same as -s option)\n"
+msgstr ""
+
+msgid ""
+"  SQLSTATE\n"
+"    SQLSTATE of last query, or \"00000\" if no error\n"
+msgstr ""
+
+msgid ""
+"  TMPDIR\n"
+"    directory for temporary files\n"
+msgstr ""
+
+msgid ""
+"  USER\n"
+"    the currently connected database user\n"
+msgstr ""
+
+msgid ""
+"  VERBOSITY\n"
+"    controls verbosity of error reports [default, verbose, terse, sqlstate]\n"
+msgstr ""
+
+msgid ""
+"  VERSION\n"
+"  VERSION_NAME\n"
+"  VERSION_NUM\n"
+"    psql's version (in verbose string, short string, or numeric format)\n"
+msgstr ""
+
+msgid ""
+"  \\! [COMMAND]           execute command in shell or start interactive "
+"shell\n"
+msgstr ""
+
+msgid "  \\? [commands]          show help on backslash commands\n"
+msgstr ""
+
+msgid "  \\? options             show help on psql command-line options\n"
+msgstr ""
+
+msgid "  \\? variables           show help on special variables\n"
+msgstr ""
+
+msgid "  \\C [STRING]            set table title, or unset if none\n"
+msgstr ""
+
+msgid "  \\H                     toggle HTML output mode (currently %s)\n"
+msgstr ""
+
+msgid ""
+"  \\T [STRING]            set HTML <table> tag attributes, or unset if none\n"
+msgstr ""
+
+msgid ""
+"  \\a                     toggle between unaligned and aligned output mode\n"
+msgstr ""
+
+msgid ""
+"  \\c[onnect] {[DBNAME|- USER|- HOST|- PORT|-] | conninfo}\n"
+"                         connect to new database (currently \"%s\")\n"
+msgstr ""
+
+msgid ""
+"  \\c[onnect] {[DBNAME|- USER|- HOST|- PORT|-] | conninfo}\n"
+"                         connect to new database (currently no connection)\n"
+msgstr ""
+
+msgid "  \\cd [DIR]              change the current working directory\n"
+msgstr ""
+
+msgid ""
+"  \\conninfo              display information about current connection\n"
+msgstr ""
+
+msgid ""
+"  \\copy ...              perform SQL COPY with data stream to the client "
+"host\n"
+msgstr ""
+
+msgid ""
+"  \\copyright             show PostgreSQL usage and distribution terms\n"
+msgstr ""
+
+msgid ""
+"  \\crosstabview [COLUMNS] execute query and display results in crosstab\n"
+msgstr ""
+
+msgid "  \\dA[+]  [PATTERN]      list access methods\n"
+msgstr ""
+
+msgid "  \\dAc[+] [AMPTRN [TYPEPTRN]]  list operator classes\n"
+msgstr ""
+
+msgid "  \\dAf[+] [AMPTRN [TYPEPTRN]]  list operator families\n"
+msgstr ""
+
+msgid "  \\dAo[+] [AMPTRN [OPFPTRN]]   list operators of operator families\n"
+msgstr ""
+
+msgid ""
+"  \\dAp    [AMPTRN [OPFPTRN]]   list support functions of operator families\n"
+msgstr ""
+
+msgid "  \\dC[+]  [PATTERN]      list casts\n"
+msgstr ""
+
+msgid "  \\dD[S+] [PATTERN]      list domains\n"
+msgstr ""
+
+msgid "  \\dE[S+] [PATTERN]      list foreign tables\n"
+msgstr ""
+
+msgid "  \\dF[+]  [PATTERN]      list text search configurations\n"
+msgstr ""
+
+msgid "  \\dFd[+] [PATTERN]      list text search dictionaries\n"
+msgstr ""
+
+msgid "  \\dFp[+] [PATTERN]      list text search parsers\n"
+msgstr ""
+
+msgid "  \\dFt[+] [PATTERN]      list text search templates\n"
+msgstr ""
+
+msgid "  \\dL[S+] [PATTERN]      list procedural languages\n"
+msgstr ""
+
+msgid "  \\dO[S+] [PATTERN]      list collations\n"
+msgstr ""
+
+msgid ""
+"  \\dP[itn+] [PATTERN]    list [only index/table] partitioned relations "
+"[n=nested]\n"
+msgstr ""
+
+msgid "  \\dRp[+] [PATTERN]      list replication publications\n"
+msgstr ""
+
+msgid "  \\dRs[+] [PATTERN]      list replication subscriptions\n"
+msgstr ""
+
+msgid "  \\dT[S+] [PATTERN]      list data types\n"
+msgstr ""
+
+msgid "  \\d[S+]                 list tables, views, and sequences\n"
+msgstr ""
+
+msgid "  \\d[S+]  NAME           describe table, view, sequence, or index\n"
+msgstr ""
+
+msgid "  \\da[S]  [PATTERN]      list aggregates\n"
+msgstr ""
+
+msgid "  \\db[+]  [PATTERN]      list tablespaces\n"
+msgstr ""
+
+msgid "  \\dc[S+] [PATTERN]      list conversions\n"
+msgstr ""
+
+msgid ""
+"  \\dd[S]  [PATTERN]      show object descriptions not displayed elsewhere\n"
+msgstr ""
+
+msgid "  \\ddp    [PATTERN]      list default privileges\n"
+msgstr ""
+
+msgid "  \\des[+] [PATTERN]      list foreign servers\n"
+msgstr ""
+
+msgid "  \\det[+] [PATTERN]      list foreign tables\n"
+msgstr ""
+
+msgid "  \\deu[+] [PATTERN]      list user mappings\n"
+msgstr ""
+
+msgid "  \\dew[+] [PATTERN]      list foreign-data wrappers\n"
+msgstr ""
+
+msgid ""
+"  \\df[anptw][S+] [PATRN] list [only agg/normal/procedures/trigger/window] "
+"functions\n"
+msgstr ""
+
+msgid "  \\dg[S+] [PATTERN]      list roles\n"
+msgstr ""
+
+msgid "  \\di[S+] [PATTERN]      list indexes\n"
+msgstr ""
+
+msgid "  \\dl                    list large objects, same as \\lo_list\n"
+msgstr ""
+
+msgid "  \\dm[S+] [PATTERN]      list materialized views\n"
+msgstr ""
+
+msgid "  \\dn[S+] [PATTERN]      list schemas\n"
+msgstr ""
+
+msgid "  \\do[S]  [PATTERN]      list operators\n"
+msgstr ""
+
+msgid ""
+"  \\dp     [PATTERN]      list table, view, and sequence access privileges\n"
+msgstr ""
+
+msgid "  \\drds [PATRN1 [PATRN2]] list per-database role settings\n"
+msgstr ""
+
+msgid "  \\ds[S+] [PATTERN]      list sequences\n"
+msgstr ""
+
+msgid "  \\dt[S+] [PATTERN]      list tables\n"
+msgstr ""
+
+msgid "  \\du[S+] [PATTERN]      list roles\n"
+msgstr ""
+
+msgid "  \\dv[S+] [PATTERN]      list views\n"
+msgstr ""
+
+msgid "  \\dx[+]  [PATTERN]      list extensions\n"
+msgstr ""
+
+msgid "  \\dy     [PATTERN]      list event triggers\n"
+msgstr ""
+
+msgid ""
+"  \\e [FILE] [LINE]       edit the query buffer (or file) with external "
+"editor\n"
+msgstr ""
+
+msgid ""
+"  \\echo [-n] [STRING]    write string to standard output (-n for no "
+"newline)\n"
+msgstr ""
+
+msgid ""
+"  \\ef [FUNCNAME [LINE]]  edit function definition with external editor\n"
+msgstr ""
+
+msgid ""
+"  \\elif EXPR             alternative within current conditional block\n"
+msgstr ""
+
+msgid ""
+"  \\else                  final alternative within current conditional "
+"block\n"
+msgstr ""
+
+msgid "  \\encoding [ENCODING]   show or set client encoding\n"
+msgstr ""
+
+msgid "  \\endif                 end conditional block\n"
+msgstr ""
+
+msgid ""
+"  \\errverbose            show most recent error message at maximum "
+"verbosity\n"
+msgstr ""
+
+msgid "  \\ev [VIEWNAME [LINE]]  edit view definition with external editor\n"
+msgstr ""
+
+msgid ""
+"  \\f [STRING]            show or set field separator for unaligned query "
+"output\n"
+msgstr ""
+
+msgid ""
+"  \\g [(OPTIONS)] [FILE]  execute query (and send results to file or |"
+"pipe);\n"
+"                         \\g with no arguments is equivalent to a semicolon\n"
+msgstr ""
+
+msgid ""
+"  \\gdesc                 describe result of query, without executing it\n"
+msgstr ""
+
+msgid ""
+"  \\gexec                 execute query, then execute each value in its "
+"result\n"
+msgstr ""
+
+msgid ""
+"  \\gset [PREFIX]         execute query and store results in psql variables\n"
+msgstr ""
+
+msgid "  \\gx [(OPTIONS)] [FILE] as \\g, but forces expanded output mode\n"
+msgstr ""
+
+msgid ""
+"  \\h [NAME]              help on syntax of SQL commands, * for all "
+"commands\n"
+msgstr ""
+
+msgid "  \\i FILE                execute commands from file\n"
+msgstr ""
+
+msgid "  \\if EXPR               begin conditional block\n"
+msgstr ""
+
+msgid ""
+"  \\ir FILE               as \\i, but relative to location of current "
+"script\n"
+msgstr ""
+
+msgid "  \\l[+]   [PATTERN]      list databases\n"
+msgstr ""
+
+msgid ""
+"  \\lo_export LOBOID FILE\n"
+"  \\lo_import FILE [COMMENT]\n"
+"  \\lo_list\n"
+"  \\lo_unlink LOBOID      large object operations\n"
+msgstr ""
+
+msgid "  \\o [FILE]              send all query results to file or |pipe\n"
+msgstr ""
+
+msgid "  \\p                     show the contents of the query buffer\n"
+msgstr ""
+
+msgid "  \\password [USERNAME]   securely change the password for a user\n"
+msgstr ""
+
+msgid "  \\prompt [TEXT] NAME    prompt user to set internal variable\n"
+msgstr ""
+
+msgid ""
+"  \\pset [NAME [VALUE]]   set table output option\n"
+"                         (border|columns|csv_fieldsep|expanded|fieldsep|\n"
+"                         fieldsep_zero|footer|format|linestyle|null|\n"
+"                         numericlocale|pager|pager_min_lines|recordsep|\n"
+"                         recordsep_zero|tableattr|title|tuples_only|\n"
+"                         unicode_border_linestyle|unicode_column_linestyle|\n"
+"                         unicode_header_linestyle)\n"
+msgstr ""
+
+msgid "  \\q                     quit psql\n"
+msgstr ""
+
+msgid ""
+"  \\qecho [-n] [STRING]   write string to \\o output stream (-n for no "
+"newline)\n"
+msgstr ""
+
+msgid "  \\r                     reset (clear) the query buffer\n"
+msgstr ""
+
+msgid "  \\s [FILE]              display history or save it to file\n"
+msgstr ""
+
+msgid ""
+"  \\set [NAME [VALUE]]    set internal variable, or list all if no "
+"parameters\n"
+msgstr ""
+
+msgid "  \\setenv NAME [VALUE]   set or unset environment variable\n"
+msgstr ""
+
+msgid "  \\sf[+]  FUNCNAME       show a function's definition\n"
+msgstr ""
+
+msgid "  \\sv[+]  VIEWNAME       show a view's definition\n"
+msgstr ""
+
+msgid "  \\t [on|off]            show only rows (currently %s)\n"
+msgstr ""
+
+msgid "  \\timing [on|off]       toggle timing of commands (currently %s)\n"
+msgstr ""
+
+msgid "  \\unset NAME            unset (delete) internal variable\n"
+msgstr ""
+
+msgid "  \\w FILE                write query buffer to file\n"
+msgstr ""
+
+msgid ""
+"  \\warn [-n] [STRING]    write string to standard error (-n for no "
+"newline)\n"
+msgstr ""
+
+msgid "  \\watch [SEC]           execute query every SEC seconds\n"
+msgstr ""
+
+msgid "  \\x [on|off|auto]       toggle expanded output (currently %s)\n"
+msgstr ""
+
+msgid "  \\z      [PATTERN]      same as \\dp\n"
+msgstr ""
+
+msgid ""
+"  border\n"
+"    border style (number)\n"
+msgstr ""
+
+msgid ""
+"  columns\n"
+"    target width for the wrapped format\n"
+msgstr ""
+
+msgid ""
+"  expanded (or x)\n"
+"    expanded output [on, off, auto]\n"
+msgstr ""
+
+msgid ""
+"  fieldsep\n"
+"    field separator for unaligned output (default \"%s\")\n"
+msgstr ""
+
+msgid ""
+"  fieldsep_zero\n"
+"    set field separator for unaligned output to a zero byte\n"
+msgstr ""
+
+msgid ""
+"  footer\n"
+"    enable or disable display of the table footer [on, off]\n"
+msgstr ""
+
+msgid ""
+"  format\n"
+"    set output format [unaligned, aligned, wrapped, html, asciidoc, ...]\n"
+msgstr ""
+
+msgid ""
+"  linestyle\n"
+"    set the border line drawing style [ascii, old-ascii, unicode]\n"
+msgstr ""
+
+msgid ""
+"  null\n"
+"    set the string to be printed in place of a null value\n"
+msgstr ""
+
+msgid ""
+"  numericlocale\n"
+"    enable display of a locale-specific character to separate groups of "
+"digits\n"
+msgstr ""
+
+msgid ""
+"  pager\n"
+"    control when an external pager is used [yes, no, always]\n"
+msgstr ""
+
+msgid ""
+"  psql --pset=NAME[=VALUE]\n"
+"  or \\pset NAME [VALUE] inside psql\n"
+"\n"
+msgstr ""
+
+msgid ""
+"  psql --set=NAME=VALUE\n"
+"  or \\set NAME VALUE inside psql\n"
+"\n"
+msgstr ""
+
+msgid ""
+"  psql [OPTION]... [DBNAME [USERNAME]]\n"
+"\n"
+msgstr ""
+
+msgid ""
+"  recordsep\n"
+"    record (line) separator for unaligned output\n"
+msgstr ""
+
+msgid ""
+"  recordsep_zero\n"
+"    set record separator for unaligned output to a zero byte\n"
+msgstr ""
+
+msgid ""
+"  set NAME=VALUE\n"
+"  psql ...\n"
+"  or \\setenv NAME [VALUE] inside psql\n"
+"\n"
+msgstr ""
+
+msgid ""
+"  tableattr (or T)\n"
+"    specify attributes for table tag in html format, or proportional\n"
+"    column widths for left-aligned data types in latex-longtable format\n"
+msgstr ""
+
+msgid ""
+"  title\n"
+"    set the table title for subsequently printed tables\n"
+msgstr ""
+
+msgid ""
+"  tuples_only\n"
+"    if set, only actual table data is shown\n"
+msgstr ""
+
+msgid ""
+"  unicode_border_linestyle\n"
+"  unicode_column_linestyle\n"
+"  unicode_header_linestyle\n"
+"    set the style of Unicode line drawing [single, double]\n"
+msgstr ""
+
+msgid "\"%s.%s\" is not a view"
+msgstr ""
+
+msgid "%d connection"
+msgid_plural "%d connections"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "%s"
+msgstr ""
+
+msgid "%s\t%s (every %gs)\n"
+msgstr ""
+
+msgid "%s (%s, server %s)\n"
+msgstr ""
+
+msgid "%s (every %gs)\n"
+msgstr ""
+
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+msgid "%s: %m"
+msgstr ""
+
+msgid "%s: %s"
+msgstr ""
+
+msgid "%s: cannot copy from/to a directory"
+msgstr ""
+
+msgid "%s: current transaction is aborted"
+msgstr ""
+
+msgid "%s: invalid encoding name or conversion procedure not found"
+msgstr ""
+
+msgid "%s: not connected to a database"
+msgstr ""
+
+msgid "%s: out of memory"
+msgstr ""
+
+msgid "%s: unknown transaction status"
+msgstr ""
+
+msgid "(%lu row)"
+msgid_plural "(%lu rows)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid ""
+"***(Single step mode: verify "
+"command)*******************************************\n"
+"%s\n"
+"***(press return to proceed or enter x and return to "
+"cancel)********************\n"
+msgstr ""
+
+msgid ""
+"********* QUERY **********\n"
+"%s\n"
+"**************************\n"
+"\n"
+msgstr ""
+
+msgid ", clustered"
+msgstr ""
+
+msgid ", deferrable"
+msgstr ""
+
+msgid ", initially deferred"
+msgstr ""
+
+msgid ", invalid"
+msgstr ""
+
+msgid ", predicate (%s)"
+msgstr ""
+
+msgid ", replica identity"
+msgstr ""
+
+msgid ", tablespace \"%s\""
+msgstr ""
+
+msgid "-1 can only be used in non-interactive mode"
+msgstr ""
+
+msgid "AM"
+msgstr ""
+
+msgid "Access method: %s"
+msgstr ""
+
+msgid "Access privileges"
+msgstr ""
+
+msgid ""
+"All connection parameters must be supplied because no database connection "
+"exists"
+msgstr ""
+
+msgid "All tables"
+msgstr ""
+
+msgid "Applicable types"
+msgstr ""
+
+msgid "Argument data types"
+msgstr ""
+
+msgid ""
+"Asynchronous notification \"%s\" received from server process with PID %d.\n"
+msgstr ""
+
+msgid ""
+"Asynchronous notification \"%s\" with payload \"%s\" received from server "
+"process with PID %d.\n"
+msgstr ""
+
+msgid "Attributes"
+msgstr ""
+
+msgid "Available help:\n"
+msgstr ""
+
+msgid "Border style is %d.\n"
+msgstr ""
+
+msgid "Bypass RLS"
+msgstr ""
+
+msgid "COPY data transfer failed: %s"
+msgstr ""
+
+msgid "Cache"
+msgstr ""
+
+msgid "Call handler"
+msgstr ""
+
+msgid "Cancel request sent\n"
+msgstr ""
+
+msgid "Cannot add cell to table content: total cell count of %d exceeded.\n"
+msgstr ""
+
+msgid "Cannot add header to table content: column count of %d exceeded.\n"
+msgstr ""
+
+msgid "Cannot login"
+msgstr ""
+
+msgid "Check"
+msgstr ""
+
+msgid "Check constraints:"
+msgstr ""
+
+msgid "Child tables"
+msgstr ""
+
+msgid "Collate"
+msgstr ""
+
+msgid "Collation"
+msgstr ""
+
+msgid "Column"
+msgstr ""
+
+msgid "Column privileges"
+msgstr ""
+
+msgid ""
+"Command:     %s\n"
+"Description: %s\n"
+"Syntax:\n"
+"%s\n"
+"\n"
+"URL: %s\n"
+"\n"
+msgstr ""
+
+msgid "Composite type \"%s.%s\""
+msgstr ""
+
+msgid "Conditional\n"
+msgstr ""
+
+msgid "Connection\n"
+msgstr ""
+
+msgid "Conninfo"
+msgstr ""
+
+msgid "Could not send cancel request: "
+msgstr ""
+
+msgid "Could not send cancel request: %s"
+msgstr ""
+
+msgid "Create DB"
+msgstr ""
+
+msgid "Create role"
+msgstr ""
+
+msgid "Ctype"
+msgstr ""
+
+msgid "Cycles?"
+msgstr ""
+
+msgid "Database"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Default access privileges"
+msgstr ""
+
+msgid "Default footer is off.\n"
+msgstr ""
+
+msgid "Default footer is on.\n"
+msgstr ""
+
+msgid "Default?"
+msgstr ""
+
+msgid "Definition"
+msgstr ""
+
+msgid "Deletes"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Deterministic?"
+msgstr ""
+
+msgid "Dictionaries"
+msgstr ""
+
+msgid "Did not find any extension named \"%s\"."
+msgstr ""
+
+msgid "Did not find any extensions."
+msgstr ""
+
+msgid "Did not find any publication named \"%s\"."
+msgstr ""
+
+msgid "Did not find any publications."
+msgstr ""
+
+msgid "Did not find any relation named \"%s\"."
+msgstr ""
+
+msgid "Did not find any relation with OID %s."
+msgstr ""
+
+msgid "Did not find any relations."
+msgstr ""
+
+msgid "Did not find any settings for role \"%s\" and database \"%s\"."
+msgstr ""
+
+msgid "Did not find any settings for role \"%s\"."
+msgstr ""
+
+msgid "Did not find any settings."
+msgstr ""
+
+msgid "Did not find any text search configuration named \"%s\"."
+msgstr ""
+
+msgid "Did not find any text search configurations."
+msgstr ""
+
+msgid "Did not find any text search parser named \"%s\"."
+msgstr ""
+
+msgid "Did not find any text search parsers."
+msgstr ""
+
+msgid "Disabled internal triggers:"
+msgstr ""
+
+msgid "Disabled rules:"
+msgstr ""
+
+msgid "Disabled triggers:"
+msgstr ""
+
+msgid "Disabled user triggers:"
+msgstr ""
+
+msgid "Elements"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Encoding"
+msgstr ""
+
+msgid "End parse"
+msgstr ""
+
+msgid ""
+"Enter data to be copied followed by a newline.\n"
+"End with a backslash and a period on a line by itself, or an EOF signal."
+msgstr ""
+
+msgid "Enter it again: "
+msgstr ""
+
+msgid "Enter new password: "
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Expanded display is off.\n"
+msgstr ""
+
+msgid "Expanded display is on.\n"
+msgstr ""
+
+msgid "Expanded display is used automatically.\n"
+msgstr ""
+
+msgid "FDW options"
+msgstr ""
+
+msgid "FDW options: (%s)"
+msgstr ""
+
+msgid "Failed.\n"
+msgstr ""
+
+msgid "Field separator for CSV is \"%s\".\n"
+msgstr ""
+
+msgid "Field separator is \"%s\".\n"
+msgstr ""
+
+msgid "Field separator is zero byte.\n"
+msgstr ""
+
+msgid "Foreign table \"%s.%s\""
+msgstr ""
+
+msgid "Foreign-data wrapper"
+msgstr ""
+
+msgid "Foreign-key constraints:"
+msgstr ""
+
+msgid "Formatting\n"
+msgstr ""
+
+msgid "Function"
+msgstr ""
+
+msgid "GSSAPI-encrypted connection\n"
+msgstr ""
+
+msgid "General\n"
+msgstr ""
+
+msgid "General options:\n"
+msgstr ""
+
+msgid "Get headline"
+msgstr ""
+
+msgid "Get next token"
+msgstr ""
+
+msgid "Get token types"
+msgstr ""
+
+msgid "Handler"
+msgstr ""
+
+msgid "Has OIDs: yes"
+msgstr ""
+
+msgid "Help\n"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Implicit?"
+msgstr ""
+
+msgid "Increment"
+msgstr ""
+
+msgid "Index"
+msgstr ""
+
+msgid "Index \"%s.%s\""
+msgstr ""
+
+msgid "Indexes:"
+msgstr ""
+
+msgid "Informational\n"
+msgstr ""
+
+msgid "Inherits"
+msgstr ""
+
+msgid "Init"
+msgstr ""
+
+msgid "Init options"
+msgstr ""
+
+msgid "Inline handler"
+msgstr ""
+
+msgid "Input type"
+msgstr ""
+
+msgid "Input/Output\n"
+msgstr ""
+
+msgid "Inserts"
+msgstr ""
+
+msgid "Internal language"
+msgstr ""
+
+msgid "Internal name"
+msgstr ""
+
+msgid "Interrupted\n"
+msgstr ""
+
+msgid "Key?"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Large Objects\n"
+msgstr ""
+
+msgid "Large objects"
+msgstr ""
+
+msgid "Leaf partition size"
+msgstr ""
+
+msgid "Left arg type"
+msgstr ""
+
+msgid "Lexize"
+msgstr ""
+
+msgid "Line style is %s.\n"
+msgstr ""
+
+msgid "List of access methods"
+msgstr ""
+
+msgid "List of aggregate functions"
+msgstr ""
+
+msgid "List of casts"
+msgstr ""
+
+msgid "List of collations"
+msgstr ""
+
+msgid "List of conversions"
+msgstr ""
+
+msgid "List of data types"
+msgstr ""
+
+msgid "List of databases"
+msgstr ""
+
+msgid "List of domains"
+msgstr ""
+
+msgid "List of event triggers"
+msgstr ""
+
+msgid "List of foreign servers"
+msgstr ""
+
+msgid "List of foreign tables"
+msgstr ""
+
+msgid "List of foreign-data wrappers"
+msgstr ""
+
+msgid "List of functions"
+msgstr ""
+
+msgid "List of installed extensions"
+msgstr ""
+
+msgid "List of languages"
+msgstr ""
+
+msgid "List of operator classes"
+msgstr ""
+
+msgid "List of operator families"
+msgstr ""
+
+msgid "List of operators"
+msgstr ""
+
+msgid "List of operators of operator families"
+msgstr ""
+
+msgid "List of partitioned indexes"
+msgstr ""
+
+msgid "List of partitioned relations"
+msgstr ""
+
+msgid "List of partitioned tables"
+msgstr ""
+
+msgid "List of publications"
+msgstr ""
+
+msgid "List of relations"
+msgstr ""
+
+msgid "List of roles"
+msgstr ""
+
+msgid "List of schemas"
+msgstr ""
+
+msgid "List of settings"
+msgstr ""
+
+msgid ""
+"List of specially treated variables\n"
+"\n"
+msgstr ""
+
+msgid "List of subscriptions"
+msgstr ""
+
+msgid "List of support functions of operator families"
+msgstr ""
+
+msgid "List of tablespaces"
+msgstr ""
+
+msgid "List of text search configurations"
+msgstr ""
+
+msgid "List of text search dictionaries"
+msgstr ""
+
+msgid "List of text search parsers"
+msgstr ""
+
+msgid "List of text search templates"
+msgstr ""
+
+msgid "List of user mappings"
+msgstr ""
+
+msgid "Locale-adjusted numeric output is off.\n"
+msgstr ""
+
+msgid "Locale-adjusted numeric output is on.\n"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Materialized view \"%s.%s\""
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "Member of"
+msgstr ""
+
+msgid "Method"
+msgstr ""
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "No changes"
+msgstr ""
+
+msgid "No connections"
+msgstr ""
+
+msgid ""
+"No help available for \"%s\".\n"
+"Try \\h with no arguments to see available help.\n"
+msgstr ""
+
+msgid "No inheritance"
+msgstr ""
+
+msgid "No partition constraint"
+msgstr ""
+
+msgid "Null display is \"%s\".\n"
+msgstr ""
+
+msgid "Nullable"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Number of child tables: %d (Use \\d+ to list them.)"
+msgstr ""
+
+msgid "Number of partitions: %d"
+msgstr ""
+
+msgid "Number of partitions: %d (Use \\d+ to list them.)"
+msgstr ""
+
+msgid "Object"
+msgstr ""
+
+msgid "Object description"
+msgstr ""
+
+msgid "Object descriptions"
+msgstr ""
+
+msgid "Objects in extension \"%s\""
+msgstr ""
+
+msgid "Operating System\n"
+msgstr ""
+
+msgid "Operator"
+msgstr ""
+
+msgid "Operator class"
+msgstr ""
+
+msgid "Operator family"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Output format is %s.\n"
+msgstr ""
+
+msgid "Owned by: %s"
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+msgid "Owning table: \"%s.%s\""
+msgstr ""
+
+msgid "Pager is always used.\n"
+msgstr ""
+
+msgid "Pager is used for long output.\n"
+msgstr ""
+
+msgid "Pager usage is off.\n"
+msgstr ""
+
+msgid "Pager won't be used for less than %d line.\n"
+msgid_plural "Pager won't be used for less than %d lines.\n"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Parallel"
+msgstr ""
+
+msgid "Parent name"
+msgstr ""
+
+msgid "Partition constraint: %s"
+msgstr ""
+
+msgid "Partition key: %s"
+msgstr ""
+
+msgid "Partition of: %s %s"
+msgstr ""
+
+msgid "Partitioned index \"%s.%s\""
+msgstr ""
+
+msgid "Partitioned table \"%s.%s\""
+msgstr ""
+
+msgid "Partitions"
+msgstr ""
+
+msgid "Password for user %s: "
+msgstr ""
+
+msgid "Password valid until "
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Passwords didn't match."
+msgstr ""
+
+msgid "Persistence"
+msgstr ""
+
+msgid "Policies"
+msgstr ""
+
+msgid "Policies (forced row security enabled):"
+msgstr ""
+
+msgid "Policies (forced row security enabled): (none)"
+msgstr ""
+
+msgid "Policies (row security disabled):"
+msgstr ""
+
+msgid "Policies (row security enabled): (none)"
+msgstr ""
+
+msgid "Policies:"
+msgstr ""
+
+msgid "Previous connection kept"
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Publication"
+msgstr ""
+
+msgid "Publication %s"
+msgstr ""
+
+msgid "Publications:"
+msgstr ""
+
+msgid "Purpose"
+msgstr ""
+
+msgid "Query Buffer\n"
+msgstr ""
+
+msgid "Query buffer is empty."
+msgstr ""
+
+msgid "Query buffer reset (cleared)."
+msgstr ""
+
+msgid "Record separator is \"%s\".\n"
+msgstr ""
+
+msgid "Record separator is <newline>.\n"
+msgstr ""
+
+msgid "Record separator is zero byte.\n"
+msgstr ""
+
+msgid "Referenced by:"
+msgstr ""
+
+msgid "Registered left type"
+msgstr ""
+
+msgid "Registered right type"
+msgstr ""
+
+msgid "Replica Identity"
+msgstr ""
+
+msgid "Replication"
+msgstr ""
+
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+
+msgid "Result data type"
+msgstr ""
+
+msgid "Result type"
+msgstr ""
+
+msgid "Right arg type"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Role name"
+msgstr ""
+
+msgid "Rules firing always:"
+msgstr ""
+
+msgid "Rules firing on replica only:"
+msgstr ""
+
+msgid "Rules:"
+msgstr ""
+
+msgid "SSL connection (protocol: %s, cipher: %s, bits: %s, compression: %s)\n"
+msgstr ""
+
+msgid "STATEMENT:  %s"
+msgstr ""
+
+msgid "Schema"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Sequence \"%s.%s\""
+msgstr ""
+
+msgid "Sequence for identity column: %s"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Server: %s"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Sort opfamily"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Source code"
+msgstr ""
+
+msgid "Source type"
+msgstr ""
+
+msgid "Special relation \"%s.%s\""
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Start parse"
+msgstr ""
+
+msgid "Statistics objects:"
+msgstr ""
+
+msgid "Stats target"
+msgstr ""
+
+msgid "Storage"
+msgstr ""
+
+msgid "Storage type"
+msgstr ""
+
+msgid "Strategy"
+msgstr ""
+
+msgid "Succeeded.\n"
+msgstr ""
+
+msgid "Superuser"
+msgstr ""
+
+msgid "Synchronous commit"
+msgstr ""
+
+msgid "TOAST table \"%s.%s\""
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "Table \"%s.%s\""
+msgstr ""
+
+msgid "Table attributes are \"%s\".\n"
+msgstr ""
+
+msgid "Table attributes unset.\n"
+msgstr ""
+
+msgid "Tables:"
+msgstr ""
+
+msgid "Tablespace"
+msgstr ""
+
+msgid "Tablespace: \"%s\""
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Target type"
+msgstr ""
+
+msgid "Target width is %d.\n"
+msgstr ""
+
+msgid "Target width is unset.\n"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Text search configuration \"%s\""
+msgstr ""
+
+msgid "Text search configuration \"%s.%s\""
+msgstr ""
+
+msgid "Text search parser \"%s\""
+msgstr ""
+
+msgid "Text search parser \"%s.%s\""
+msgstr ""
+
+msgid "The command has no result, or the result has no columns.\n"
+msgstr ""
+
+msgid "The connection to the server was lost. Attempting reset: "
+msgstr ""
+
+msgid ""
+"The input is a PostgreSQL custom-format dump.\n"
+"Use the pg_restore command-line client to restore this dump to a database.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support access methods."
+msgstr ""
+
+msgid "The server (version %s) does not support altering default privileges."
+msgstr ""
+
+msgid "The server (version %s) does not support collations."
+msgstr ""
+
+msgid ""
+"The server (version %s) does not support declarative table partitioning."
+msgstr ""
+
+msgid "The server (version %s) does not support editing function source."
+msgstr ""
+
+msgid "The server (version %s) does not support editing view definitions."
+msgstr ""
+
+msgid "The server (version %s) does not support extensions."
+msgstr ""
+
+msgid "The server (version %s) does not support foreign servers."
+msgstr ""
+
+msgid "The server (version %s) does not support foreign tables."
+msgstr ""
+
+msgid "The server (version %s) does not support foreign-data wrappers."
+msgstr ""
+
+msgid "The server (version %s) does not support full text search."
+msgstr ""
+
+msgid "The server (version %s) does not support per-database role settings."
+msgstr ""
+
+msgid "The server (version %s) does not support publications."
+msgstr ""
+
+msgid ""
+"The server (version %s) does not support savepoints for ON_ERROR_ROLLBACK."
+msgstr ""
+
+msgid "The server (version %s) does not support showing function source."
+msgstr ""
+
+msgid "The server (version %s) does not support showing view definitions."
+msgstr ""
+
+msgid "The server (version %s) does not support subscriptions."
+msgstr ""
+
+msgid "The server (version %s) does not support tablespaces."
+msgstr ""
+
+msgid "The server (version %s) does not support user mappings."
+msgstr ""
+
+msgid "There is no previous error."
+msgstr ""
+
+msgid "Time: %.3f ms\n"
+msgstr ""
+
+msgid "Time: %.3f ms (%.0f d %02d:%02d:%06.3f)\n"
+msgstr ""
+
+msgid "Time: %.3f ms (%02d:%02d:%06.3f)\n"
+msgstr ""
+
+msgid "Time: %.3f ms (%02d:%06.3f)\n"
+msgstr ""
+
+msgid "Timing is off."
+msgstr ""
+
+msgid "Timing is on."
+msgstr ""
+
+msgid "Title is \"%s\".\n"
+msgstr ""
+
+msgid "Title is unset.\n"
+msgstr ""
+
+msgid "Token"
+msgstr ""
+
+msgid "Token name"
+msgstr ""
+
+msgid "Token types for parser \"%s\""
+msgstr ""
+
+msgid "Token types for parser \"%s.%s\""
+msgstr ""
+
+msgid "Total size"
+msgstr ""
+
+msgid "Triggers firing always:"
+msgstr ""
+
+msgid "Triggers firing on replica only:"
+msgstr ""
+
+msgid "Triggers:"
+msgstr ""
+
+msgid "Truncates"
+msgstr ""
+
+msgid "Trusted"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Try \\? for help."
+msgstr ""
+
+msgid "Tuples only is off.\n"
+msgstr ""
+
+msgid "Tuples only is on.\n"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid ""
+"Type \"help\" for help.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"Type:  \\copyright for distribution terms\n"
+"       \\h for help with SQL commands\n"
+"       \\? for help with psql commands\n"
+"       \\g or terminate with semicolon to execute query\n"
+"       \\q to quit\n"
+msgstr ""
+
+msgid "Typed table of type: %s"
+msgstr ""
+
+msgid "Unicode border line style is \"%s\".\n"
+msgstr ""
+
+msgid "Unicode column line style is \"%s\".\n"
+msgstr ""
+
+msgid "Unicode header line style is \"%s\".\n"
+msgstr ""
+
+msgid "Unlogged index \"%s.%s\""
+msgstr ""
+
+msgid "Unlogged materialized view \"%s.%s\""
+msgstr ""
+
+msgid "Unlogged partitioned index \"%s.%s\""
+msgstr ""
+
+msgid "Unlogged partitioned table \"%s.%s\""
+msgstr ""
+
+msgid "Unlogged table \"%s.%s\""
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "Use \"\\q\" to leave %s.\n"
+msgstr ""
+
+msgid "Use \\? for help or press control-C to clear the input buffer."
+msgstr ""
+
+msgid "Use \\? for help."
+msgstr ""
+
+msgid "Use \\q to quit."
+msgstr ""
+
+msgid "Use control-C to quit."
+msgstr ""
+
+msgid "Use control-D to quit."
+msgstr ""
+
+msgid "User name"
+msgstr ""
+
+msgid "Validator"
+msgstr ""
+
+msgid "Variables\n"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Via root"
+msgstr ""
+
+msgid "View \"%s.%s\""
+msgstr ""
+
+msgid "View definition:"
+msgstr ""
+
+msgid "Volatility"
+msgstr ""
+
+msgid ""
+"WARNING: %s major version %s, server major version %s.\n"
+"         Some psql features might not work.\n"
+msgstr ""
+
+msgid ""
+"WARNING: Console code page (%u) differs from Windows code page (%u)\n"
+"         8-bit characters might not work correctly. See psql reference\n"
+"         page \"Notes for Windows users\" for details.\n"
+msgstr ""
+
+msgid "Wrote history to file \"%s\".\n"
+msgstr ""
+
+msgid ""
+"You are connected to database \"%s\" as user \"%s\" on address \"%s\" at "
+"port \"%s\".\n"
+msgstr ""
+
+msgid ""
+"You are connected to database \"%s\" as user \"%s\" on host \"%s\" (address "
+"\"%s\") at port \"%s\".\n"
+msgstr ""
+
+msgid ""
+"You are connected to database \"%s\" as user \"%s\" on host \"%s\" at port "
+"\"%s\".\n"
+msgstr ""
+
+msgid ""
+"You are connected to database \"%s\" as user \"%s\" via socket in \"%s\" at "
+"port \"%s\".\n"
+msgstr ""
+
+msgid "You are currently not connected to a database."
+msgstr ""
+
+msgid "You are currently not connected to a database.\n"
+msgstr ""
+
+msgid ""
+"You are now connected to database \"%s\" as user \"%s\" on address \"%s\" at "
+"port \"%s\".\n"
+msgstr ""
+
+msgid ""
+"You are now connected to database \"%s\" as user \"%s\" on host \"%s"
+"\" (address \"%s\") at port \"%s\".\n"
+msgstr ""
+
+msgid ""
+"You are now connected to database \"%s\" as user \"%s\" on host \"%s\" at "
+"port \"%s\".\n"
+msgstr ""
+
+msgid ""
+"You are now connected to database \"%s\" as user \"%s\" via socket in \"%s\" "
+"at port \"%s\".\n"
+msgstr ""
+
+msgid "You are now connected to database \"%s\" as user \"%s\".\n"
+msgstr ""
+
+msgid "You are using psql, the command-line interface to PostgreSQL."
+msgstr ""
+
+msgid "\\!: failed"
+msgstr ""
+
+msgid "\\%s command ignored; use \\endif or Ctrl-C to exit current \\if block"
+msgstr ""
+
+msgid "\\%s: could not change directory to \"%s\": %m"
+msgstr ""
+
+msgid "\\%s: could not read value for variable"
+msgstr ""
+
+msgid "\\%s: environment variable name must not contain \"=\""
+msgstr ""
+
+msgid "\\%s: extra argument \"%s\" ignored"
+msgstr ""
+
+msgid "\\%s: missing required argument"
+msgstr ""
+
+msgid "\\%s: missing right parenthesis"
+msgstr ""
+
+msgid "\\connect: %s"
+msgstr ""
+
+msgid "\\copy: arguments required"
+msgstr ""
+
+msgid "\\copy: parse error at \"%s\""
+msgstr ""
+
+msgid "\\copy: parse error at end of line"
+msgstr ""
+
+msgid "\\crosstabview: ambiguous column name: \"%s\""
+msgstr ""
+
+msgid "\\crosstabview: column name not found: \"%s\""
+msgstr ""
+
+msgid "\\crosstabview: column number %d is out of range 1..%d"
+msgstr ""
+
+msgid ""
+"\\crosstabview: data column must be specified when query returns more than "
+"three columns"
+msgstr ""
+
+msgid "\\crosstabview: maximum number of columns (%d) exceeded"
+msgstr ""
+
+msgid "\\crosstabview: query must return at least three columns"
+msgstr ""
+
+msgid ""
+"\\crosstabview: query result contains multiple data values for row \"%s\", "
+"column \"%s\""
+msgstr ""
+
+msgid "\\crosstabview: statement did not return a result set"
+msgstr ""
+
+msgid ""
+"\\crosstabview: vertical and horizontal headers must be different columns"
+msgstr ""
+
+msgid "\\df does not take a \"%c\" option with server version %s"
+msgstr ""
+
+msgid "\\df only takes [anptwS+] as options"
+msgstr ""
+
+msgid "\\elif: cannot occur after \\else"
+msgstr ""
+
+msgid "\\elif: no matching \\if"
+msgstr ""
+
+msgid "\\else: cannot occur after \\else"
+msgstr ""
+
+msgid "\\else: no matching \\if"
+msgstr ""
+
+msgid "\\endif: no matching \\if"
+msgstr ""
+
+msgid "\\if: escaped"
+msgstr ""
+
+msgid "\\pset: allowed Unicode border line styles are single, double"
+msgstr ""
+
+msgid "\\pset: allowed Unicode column line styles are single, double"
+msgstr ""
+
+msgid "\\pset: allowed Unicode header line styles are single, double"
+msgstr ""
+
+msgid ""
+"\\pset: allowed formats are aligned, asciidoc, csv, html, latex, latex-"
+"longtable, troff-ms, unaligned, wrapped"
+msgstr ""
+
+msgid "\\pset: allowed line styles are ascii, old-ascii, unicode"
+msgstr ""
+
+msgid "\\pset: ambiguous abbreviation \"%s\" matches both \"%s\" and \"%s\""
+msgstr ""
+
+msgid ""
+"\\pset: csv_fieldsep cannot be a double quote, a newline, or a carriage "
+"return"
+msgstr ""
+
+msgid "\\pset: csv_fieldsep must be a single one-byte character"
+msgstr ""
+
+msgid "\\pset: unknown option: %s"
+msgstr ""
+
+msgid "\\watch cannot be used with COPY"
+msgstr ""
+
+msgid "\\watch cannot be used with an empty query"
+msgstr ""
+
+msgid "abbreviated_grant_or_revoke"
+msgstr ""
+
+msgid "abort the current transaction"
+msgstr ""
+
+msgid "aborted because of read failure"
+msgstr ""
+
+msgid "access_method_type"
+msgstr ""
+
+msgid "action"
+msgstr ""
+
+msgid "agg"
+msgstr ""
+
+msgid "aggregate_name"
+msgstr ""
+
+msgid "aggregate_signature"
+msgstr ""
+
+msgid "alias"
+msgstr ""
+
+msgid "alignment"
+msgstr ""
+
+msgid "allowconn"
+msgstr ""
+
+msgid "always"
+msgstr ""
+
+msgid "analyze_function"
+msgstr ""
+
+msgid "and aggregate_signature is:"
+msgstr ""
+
+msgid "and column_constraint is:"
+msgstr ""
+
+msgid "and conflict_action is one of:"
+msgstr ""
+
+msgid "and grouping_element can be one of:"
+msgstr ""
+
+msgid "and like_option is:"
+msgstr ""
+
+msgid "and partition_bound_spec is:"
+msgstr ""
+
+msgid "and table_and_columns is:"
+msgstr ""
+
+msgid "and table_constraint is:"
+msgstr ""
+
+msgid "and table_constraint_using_index is:"
+msgstr ""
+
+msgid "and with_query is:"
+msgstr ""
+
+msgid "arg_data_type"
+msgstr ""
+
+msgid "arg_name"
+msgstr ""
+
+msgid "arg_type"
+msgstr ""
+
+msgid "argmode"
+msgstr ""
+
+msgid "argname"
+msgstr ""
+
+msgid "argtype"
+msgstr ""
+
+msgid "argument"
+msgstr ""
+
+msgid "argument_type"
+msgstr ""
+
+msgid "arguments"
+msgstr ""
+
+msgid "attribute_name"
+msgstr ""
+
+msgid "attribute_option"
+msgstr ""
+
+msgid "base_type"
+msgstr ""
+
+msgid "boolean"
+msgstr ""
+
+msgid "cache"
+msgstr ""
+
+msgid "call_handler"
+msgstr ""
+
+msgid "cancel a transaction that was earlier prepared for two-phase commit"
+msgstr ""
+
+msgid "canceled by user"
+msgstr ""
+
+msgid "cannot duplicate null pointer (internal error)\n"
+msgstr ""
+
+msgid "cannot escape without active connection"
+msgstr ""
+
+msgid "canonical_function"
+msgstr ""
+
+msgid "category"
+msgstr ""
+
+msgid "change a database"
+msgstr ""
+
+msgid "change a database role"
+msgstr ""
+
+msgid "change a run-time parameter"
+msgstr ""
+
+msgid "change a server configuration parameter"
+msgstr ""
+
+msgid "change role name or membership"
+msgstr ""
+
+msgid "change the definition of a collation"
+msgstr ""
+
+msgid "change the definition of a conversion"
+msgstr ""
+
+msgid "change the definition of a domain"
+msgstr ""
+
+msgid "change the definition of a foreign server"
+msgstr ""
+
+msgid "change the definition of a foreign table"
+msgstr ""
+
+msgid "change the definition of a foreign-data wrapper"
+msgstr ""
+
+msgid "change the definition of a function"
+msgstr ""
+
+msgid "change the definition of a large object"
+msgstr ""
+
+msgid "change the definition of a materialized view"
+msgstr ""
+
+msgid "change the definition of a procedural language"
+msgstr ""
+
+msgid "change the definition of a procedure"
+msgstr ""
+
+msgid "change the definition of a publication"
+msgstr ""
+
+msgid "change the definition of a routine"
+msgstr ""
+
+msgid "change the definition of a row level security policy"
+msgstr ""
+
+msgid "change the definition of a rule"
+msgstr ""
+
+msgid "change the definition of a schema"
+msgstr ""
+
+msgid "change the definition of a sequence generator"
+msgstr ""
+
+msgid "change the definition of a subscription"
+msgstr ""
+
+msgid "change the definition of a table"
+msgstr ""
+
+msgid "change the definition of a tablespace"
+msgstr ""
+
+msgid "change the definition of a text search configuration"
+msgstr ""
+
+msgid "change the definition of a text search dictionary"
+msgstr ""
+
+msgid "change the definition of a text search parser"
+msgstr ""
+
+msgid "change the definition of a text search template"
+msgstr ""
+
+msgid "change the definition of a trigger"
+msgstr ""
+
+msgid "change the definition of a type"
+msgstr ""
+
+msgid "change the definition of a user mapping"
+msgstr ""
+
+msgid "change the definition of a view"
+msgstr ""
+
+msgid "change the definition of an aggregate function"
+msgstr ""
+
+msgid "change the definition of an event trigger"
+msgstr ""
+
+msgid "change the definition of an extended statistics object"
+msgstr ""
+
+msgid "change the definition of an extension"
+msgstr ""
+
+msgid "change the definition of an index"
+msgstr ""
+
+msgid "change the definition of an operator"
+msgstr ""
+
+msgid "change the definition of an operator class"
+msgstr ""
+
+msgid "change the definition of an operator family"
+msgstr ""
+
+msgid "change the ownership of database objects owned by a database role"
+msgstr ""
+
+msgid "channel"
+msgstr ""
+
+msgid "check_expression"
+msgstr ""
+
+msgid "child process exited with exit code %d"
+msgstr ""
+
+msgid "child process exited with unrecognized status %d"
+msgstr ""
+
+msgid "child process was terminated by exception 0x%X"
+msgstr ""
+
+msgid "child process was terminated by signal %d: %s"
+msgstr ""
+
+msgid "close a cursor"
+msgstr ""
+
+msgid "cluster a table according to an index"
+msgstr ""
+
+msgid "code"
+msgstr ""
+
+msgid "collatable"
+msgstr ""
+
+msgid "collation"
+msgstr ""
+
+msgid "collect statistics about a database"
+msgstr ""
+
+msgid "column_alias"
+msgstr ""
+
+msgid "column_constraint"
+msgstr ""
+
+msgid "column_definition"
+msgstr ""
+
+msgid "column_name"
+msgstr ""
+
+msgid "column_number"
+msgstr ""
+
+msgid "column_type"
+msgstr ""
+
+msgid "com_op"
+msgstr ""
+
+msgid "combinefunc"
+msgstr ""
+
+msgid "command"
+msgstr ""
+
+msgid "command not executable"
+msgstr ""
+
+msgid "command not found"
+msgstr ""
+
+msgid "commit a transaction that was earlier prepared for two-phase commit"
+msgstr ""
+
+msgid "commit the current transaction"
+msgstr ""
+
+msgid "compute a set of rows"
+msgstr ""
+
+msgid "condition"
+msgstr ""
+
+msgid "configuration_parameter"
+msgstr ""
+
+msgid "conflict_action"
+msgstr ""
+
+msgid "conflict_target"
+msgstr ""
+
+msgid "connection to server was lost"
+msgstr ""
+
+msgid "conninfo"
+msgstr ""
+
+msgid "connlimit"
+msgstr ""
+
+msgid "constraint"
+msgstr ""
+
+msgid "constraint_name"
+msgstr ""
+
+msgid "copy data between a file and a table"
+msgstr ""
+
+msgid "could not change directory to \"%s\": %m"
+msgstr ""
+
+msgid "could not close pipe to external command: %m"
+msgstr ""
+
+msgid "could not connect to server: %s"
+msgstr ""
+
+msgid "could not execute command \"%s\": %m"
+msgstr ""
+
+msgid "could not find a \"%s\" to execute"
+msgstr ""
+
+msgid "could not find own program executable"
+msgstr ""
+
+msgid "could not get home directory for user ID %ld: %s"
+msgstr ""
+
+msgid "could not identify current directory: %m"
+msgstr ""
+
+msgid "could not locate temporary directory: %s"
+msgstr ""
+
+msgid "could not look up effective user ID %ld: %s"
+msgstr ""
+
+msgid "could not open log file \"%s\": %m"
+msgstr ""
+
+msgid "could not open temporary file \"%s\": %m"
+msgstr ""
+
+msgid "could not parse reloptions array"
+msgstr ""
+
+msgid "could not print result table: %m"
+msgstr ""
+
+msgid "could not read binary \"%s\""
+msgstr ""
+
+msgid "could not read from input file: %m"
+msgstr ""
+
+msgid "could not read symbolic link \"%s\": %m"
+msgstr ""
+
+msgid "could not save history to file \"%s\": %m"
+msgstr ""
+
+msgid "could not set printing parameter \"%s\""
+msgstr ""
+
+msgid "could not start /bin/sh"
+msgstr ""
+
+msgid "could not start editor \"%s\""
+msgstr ""
+
+msgid "could not stat file \"%s\": %m"
+msgstr ""
+
+msgid "could not write COPY data: %m"
+msgstr ""
+
+msgid "count"
+msgstr ""
+
+msgid "create a new database"
+msgstr ""
+
+msgid "create new rows in a table"
+msgstr ""
+
+msgid "cursor_name"
+msgstr ""
+
+msgid "data_type"
+msgstr ""
+
+msgid "database_name"
+msgstr ""
+
+msgid "deallocate a prepared statement"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "default_expr"
+msgstr ""
+
+msgid "define a cursor"
+msgstr ""
+
+msgid "define a new access method"
+msgstr ""
+
+msgid "define a new aggregate function"
+msgstr ""
+
+msgid "define a new cast"
+msgstr ""
+
+msgid "define a new collation"
+msgstr ""
+
+msgid "define a new data type"
+msgstr ""
+
+msgid "define a new database role"
+msgstr ""
+
+msgid "define a new domain"
+msgstr ""
+
+msgid "define a new encoding conversion"
+msgstr ""
+
+msgid "define a new event trigger"
+msgstr ""
+
+msgid "define a new foreign server"
+msgstr ""
+
+msgid "define a new foreign table"
+msgstr ""
+
+msgid "define a new foreign-data wrapper"
+msgstr ""
+
+msgid "define a new function"
+msgstr ""
+
+msgid "define a new index"
+msgstr ""
+
+msgid "define a new mapping of a user to a foreign server"
+msgstr ""
+
+msgid "define a new materialized view"
+msgstr ""
+
+msgid "define a new operator"
+msgstr ""
+
+msgid "define a new operator class"
+msgstr ""
+
+msgid "define a new operator family"
+msgstr ""
+
+msgid "define a new procedural language"
+msgstr ""
+
+msgid "define a new procedure"
+msgstr ""
+
+msgid "define a new publication"
+msgstr ""
+
+msgid "define a new rewrite rule"
+msgstr ""
+
+msgid "define a new row level security policy for a table"
+msgstr ""
+
+msgid "define a new savepoint within the current transaction"
+msgstr ""
+
+msgid "define a new schema"
+msgstr ""
+
+msgid "define a new sequence generator"
+msgstr ""
+
+msgid "define a new subscription"
+msgstr ""
+
+msgid "define a new table"
+msgstr ""
+
+msgid "define a new table from the results of a query"
+msgstr ""
+
+msgid "define a new tablespace"
+msgstr ""
+
+msgid "define a new text search configuration"
+msgstr ""
+
+msgid "define a new text search dictionary"
+msgstr ""
+
+msgid "define a new text search parser"
+msgstr ""
+
+msgid "define a new text search template"
+msgstr ""
+
+msgid "define a new transform"
+msgstr ""
+
+msgid "define a new trigger"
+msgstr ""
+
+msgid "define a new view"
+msgstr ""
+
+msgid "define access privileges"
+msgstr ""
+
+msgid "define default access privileges"
+msgstr ""
+
+msgid "define extended statistics"
+msgstr ""
+
+msgid "define or change a security label applied to an object"
+msgstr ""
+
+msgid "define or change the comment of an object"
+msgstr ""
+
+msgid "definer"
+msgstr ""
+
+msgid "definition"
+msgstr ""
+
+msgid "delete"
+msgstr ""
+
+msgid "delete rows of a table"
+msgstr ""
+
+msgid "delimiter"
+msgstr ""
+
+msgid "delimiter_character"
+msgstr ""
+
+msgid "deserialfunc"
+msgstr ""
+
+msgid "dest_encoding"
+msgstr ""
+
+msgid "destroy a previously defined savepoint"
+msgstr ""
+
+msgid "dictionary_name"
+msgstr ""
+
+msgid "direction"
+msgstr ""
+
+msgid "directory"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+msgid "discard session state"
+msgstr ""
+
+msgid "domain constraint"
+msgstr ""
+
+msgid "domain_constraint"
+msgstr ""
+
+msgid "domain_name"
+msgstr ""
+
+msgid "element"
+msgstr ""
+
+msgid "empty a table or set of tables"
+msgstr ""
+
+msgid "enabled"
+msgstr ""
+
+msgid "encoding"
+msgstr ""
+
+msgid "encoding_name"
+msgstr ""
+
+msgid "end_function"
+msgstr ""
+
+msgid ""
+"environment variable PSQL_EDITOR_LINENUMBER_ARG must be set to specify a "
+"line number"
+msgstr ""
+
+msgid "error: "
+msgstr ""
+
+msgid "escape_character"
+msgstr ""
+
+msgid "event"
+msgstr ""
+
+msgid "exclude_element"
+msgstr ""
+
+msgid "exclude_element in an EXCLUDE constraint is:"
+msgstr ""
+
+msgid "execute a prepared statement"
+msgstr ""
+
+msgid "execute an anonymous code block"
+msgstr ""
+
+msgid "execution_cost"
+msgstr ""
+
+msgid "existing_collation"
+msgstr ""
+
+msgid "existing_enum_value"
+msgstr ""
+
+msgid "expression"
+msgstr ""
+
+msgid "extension_name"
+msgstr ""
+
+msgid "extra command-line argument \"%s\" ignored"
+msgstr ""
+
+msgid "family_name"
+msgstr ""
+
+msgid "fatal: "
+msgstr ""
+
+msgid "fdw_name"
+msgstr ""
+
+msgid "ffunc"
+msgstr ""
+
+msgid "filename"
+msgstr ""
+
+msgid "filter_variable"
+msgstr ""
+
+msgid "for table \"%s.%s\""
+msgstr ""
+
+msgid "force a write-ahead log checkpoint"
+msgstr ""
+
+msgid "foreign table"
+msgstr ""
+
+msgid "format_name"
+msgstr ""
+
+msgid "from_item"
+msgstr ""
+
+msgid "from_sql_function_name"
+msgstr ""
+
+msgid "func"
+msgstr ""
+
+msgid "function"
+msgstr ""
+
+msgid "function name is required"
+msgstr ""
+
+msgid "function_name"
+msgstr ""
+
+msgid "garbage-collect and optionally analyze a database"
+msgstr ""
+
+msgid "generate a notification"
+msgstr ""
+
+msgid "generation_expr"
+msgstr ""
+
+msgid "gettoken_function"
+msgstr ""
+
+msgid "group_name"
+msgstr ""
+
+msgid "grouping_element"
+msgstr ""
+
+msgid "handler_function"
+msgstr ""
+
+msgid "headline_function"
+msgstr ""
+
+msgid "history is not supported by this installation"
+msgstr ""
+
+msgid "immutable"
+msgstr ""
+
+msgid "import table definitions from a foreign server"
+msgstr ""
+
+msgid "in assignment"
+msgstr ""
+
+msgid "increment"
+msgstr ""
+
+msgid "index"
+msgstr ""
+
+msgid "index_column_name"
+msgstr ""
+
+msgid "index_expression"
+msgstr ""
+
+msgid "index_method"
+msgstr ""
+
+msgid "index_name"
+msgstr ""
+
+msgid "index_parameters"
+msgstr ""
+
+msgid "index_parameters in UNIQUE, PRIMARY KEY, and EXCLUDE constraints are:"
+msgstr ""
+
+msgid "index_predicate"
+msgstr ""
+
+msgid "init_function"
+msgstr ""
+
+msgid "initial_condition"
+msgstr ""
+
+msgid "inline_handler"
+msgstr ""
+
+msgid "input_function"
+msgstr ""
+
+msgid "insert"
+msgstr ""
+
+msgid "install an extension"
+msgstr ""
+
+msgid "integer"
+msgstr ""
+
+msgid "internallength"
+msgstr ""
+
+msgid "invalid binary \"%s\""
+msgstr ""
+
+msgid "invalid command \\%s"
+msgstr ""
+
+msgid "invalid line number: %s"
+msgstr ""
+
+msgid "invalid output format (internal error): %d"
+msgstr ""
+
+msgid "invalid value \"%s\" for \"%s\": integer expected"
+msgstr ""
+
+msgid "invalid variable name: \"%s\""
+msgstr ""
+
+msgid "invoke a procedure"
+msgstr ""
+
+msgid "invoker"
+msgstr ""
+
+msgid "istemplate"
+msgstr ""
+
+msgid "join_column"
+msgstr ""
+
+msgid "join_condition"
+msgstr ""
+
+msgid "join_proc"
+msgstr ""
+
+msgid "join_type"
+msgstr ""
+
+msgid "label"
+msgstr ""
+
+msgid "lang_name"
+msgstr ""
+
+msgid "large_object_oid"
+msgstr ""
+
+msgid "lc_collate"
+msgstr ""
+
+msgid "lc_ctype"
+msgstr ""
+
+msgid "left_type"
+msgstr ""
+
+msgid "lexize_function"
+msgstr ""
+
+msgid "lextypes_function"
+msgstr ""
+
+msgid "like_option"
+msgstr ""
+
+msgid "like_type"
+msgstr ""
+
+msgid "link_symbol"
+msgstr ""
+
+msgid "listen for a notification"
+msgstr ""
+
+msgid "load a shared library file"
+msgstr ""
+
+msgid "local socket"
+msgstr ""
+
+msgid "local_schema"
+msgstr ""
+
+msgid "locale"
+msgstr ""
+
+msgid "lock a named relation (table, etc)"
+msgstr ""
+
+msgid "lockmode"
+msgstr ""
+
+msgid "loid"
+msgstr ""
+
+msgid "materialized view"
+msgstr ""
+
+msgid "maxvalue"
+msgstr ""
+
+msgid "member_object"
+msgstr ""
+
+msgid "method"
+msgstr ""
+
+msgid "mffunc"
+msgstr ""
+
+msgid "minitial_condition"
+msgstr ""
+
+msgid "minvalue"
+msgstr ""
+
+msgid "minvfunc"
+msgstr ""
+
+msgid "more than one row returned for \\gset"
+msgstr ""
+
+msgid "msfunc"
+msgstr ""
+
+msgid "mstate_data_size"
+msgstr ""
+
+msgid "mstate_data_type"
+msgstr ""
+
+msgid "name"
+msgstr ""
+
+msgid "neg_op"
+msgstr ""
+
+msgid "neighbor_enum_value"
+msgstr ""
+
+msgid "new_attribute_name"
+msgstr ""
+
+msgid "new_column_name"
+msgstr ""
+
+msgid "new_constraint_name"
+msgstr ""
+
+msgid "new_dictionary"
+msgstr ""
+
+msgid "new_enum_value"
+msgstr ""
+
+msgid "new_name"
+msgstr ""
+
+msgid "new_owner"
+msgstr ""
+
+msgid "new_role"
+msgstr ""
+
+msgid "new_schema"
+msgstr ""
+
+msgid "new_table"
+msgstr ""
+
+msgid "new_tablespace"
+msgstr ""
+
+msgid "new_target"
+msgstr ""
+
+msgid "new_version"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "no query buffer"
+msgstr ""
+
+msgid "no rows returned for \\gset"
+msgstr ""
+
+msgid "null_string"
+msgstr ""
+
+msgid "numeric_literal"
+msgstr ""
+
+msgid "obj_file"
+msgstr ""
+
+msgid "object_name"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "old_dictionary"
+msgstr ""
+
+msgid "old_role"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "op_type"
+msgstr ""
+
+msgid "opclass"
+msgstr ""
+
+msgid "opclass_parameter"
+msgstr ""
+
+msgid "operator"
+msgstr ""
+
+msgid "operator class"
+msgstr ""
+
+msgid "operator family"
+msgstr ""
+
+msgid "operator_name"
+msgstr ""
+
+msgid "option"
+msgstr ""
+
+msgid "or the old syntax"
+msgstr ""
+
+msgid "ordering"
+msgstr ""
+
+msgid "out of memory"
+msgstr ""
+
+msgid "out of memory\n"
+msgstr ""
+
+msgid "output_expression"
+msgstr ""
+
+msgid "output_function"
+msgstr ""
+
+msgid "output_name"
+msgstr ""
+
+msgid "parameter"
+msgstr ""
+
+msgid "parent_table"
+msgstr ""
+
+msgid "parser_name"
+msgstr ""
+
+msgid "partition_bound_expr"
+msgstr ""
+
+msgid "partition_bound_spec"
+msgstr ""
+
+msgid "partition_name"
+msgstr ""
+
+msgid "partitioned index"
+msgstr ""
+
+msgid "partitioned table"
+msgstr ""
+
+msgid "password"
+msgstr ""
+
+msgid "payload"
+msgstr ""
+
+msgid "pclose failed: %m"
+msgstr ""
+
+msgid "permanent"
+msgstr ""
+
+msgid "policy_name"
+msgstr ""
+
+msgid "position a cursor"
+msgstr ""
+
+msgid "predicate"
+msgstr ""
+
+msgid "preferred"
+msgstr ""
+
+msgid "prepare a statement for execution"
+msgstr ""
+
+msgid "prepare the current transaction for two-phase commit"
+msgstr ""
+
+msgid "primary key, "
+msgstr ""
+
+msgid "proc"
+msgstr ""
+
+msgid "procedure_name"
+msgstr ""
+
+msgid "property"
+msgstr ""
+
+msgid "provider"
+msgstr ""
+
+msgid ""
+"psql is the PostgreSQL interactive terminal.\n"
+"\n"
+msgstr ""
+
+msgid "psql variables:\n"
+msgstr ""
+
+msgid "publication_name"
+msgstr ""
+
+msgid "publication_parameter"
+msgstr ""
+
+msgid "query"
+msgstr ""
+
+msgid "query ignored; use \\endif or Ctrl-C to exit current \\if block"
+msgstr ""
+
+msgid "quote_character"
+msgstr ""
+
+msgid "reached EOF without finding closing \\endif(s)"
+msgstr ""
+
+msgid "rebuild indexes"
+msgstr ""
+
+msgid "receive_function"
+msgstr ""
+
+msgid "refcolumn"
+msgstr ""
+
+msgid "referenced_table_name"
+msgstr ""
+
+msgid "referential_action"
+msgstr ""
+
+msgid "refresh_option"
+msgstr ""
+
+msgid "reftable"
+msgstr ""
+
+msgid "relation_name"
+msgstr ""
+
+msgid "remote_schema"
+msgstr ""
+
+msgid "remove a cast"
+msgstr ""
+
+msgid "remove a collation"
+msgstr ""
+
+msgid "remove a conversion"
+msgstr ""
+
+msgid "remove a data type"
+msgstr ""
+
+msgid "remove a database"
+msgstr ""
+
+msgid "remove a database role"
+msgstr ""
+
+msgid "remove a domain"
+msgstr ""
+
+msgid "remove a foreign server descriptor"
+msgstr ""
+
+msgid "remove a foreign table"
+msgstr ""
+
+msgid "remove a foreign-data wrapper"
+msgstr ""
+
+msgid "remove a function"
+msgstr ""
+
+msgid "remove a materialized view"
+msgstr ""
+
+msgid "remove a procedural language"
+msgstr ""
+
+msgid "remove a procedure"
+msgstr ""
+
+msgid "remove a publication"
+msgstr ""
+
+msgid "remove a rewrite rule"
+msgstr ""
+
+msgid "remove a routine"
+msgstr ""
+
+msgid "remove a row level security policy from a table"
+msgstr ""
+
+msgid "remove a schema"
+msgstr ""
+
+msgid "remove a sequence"
+msgstr ""
+
+msgid "remove a subscription"
+msgstr ""
+
+msgid "remove a table"
+msgstr ""
+
+msgid "remove a tablespace"
+msgstr ""
+
+msgid "remove a text search configuration"
+msgstr ""
+
+msgid "remove a text search dictionary"
+msgstr ""
+
+msgid "remove a text search parser"
+msgstr ""
+
+msgid "remove a text search template"
+msgstr ""
+
+msgid "remove a transform"
+msgstr ""
+
+msgid "remove a trigger"
+msgstr ""
+
+msgid "remove a user mapping for a foreign server"
+msgstr ""
+
+msgid "remove a view"
+msgstr ""
+
+msgid "remove access privileges"
+msgstr ""
+
+msgid "remove an access method"
+msgstr ""
+
+msgid "remove an aggregate function"
+msgstr ""
+
+msgid "remove an event trigger"
+msgstr ""
+
+msgid "remove an extension"
+msgstr ""
+
+msgid "remove an index"
+msgstr ""
+
+msgid "remove an operator"
+msgstr ""
+
+msgid "remove an operator class"
+msgstr ""
+
+msgid "remove an operator family"
+msgstr ""
+
+msgid "remove database objects owned by a database role"
+msgstr ""
+
+msgid "remove extended statistics"
+msgstr ""
+
+msgid "replace the contents of a materialized view"
+msgstr ""
+
+msgid "replica"
+msgstr ""
+
+msgid "res_proc"
+msgstr ""
+
+msgid "restart"
+msgstr ""
+
+msgid "restore the value of a run-time parameter to the default value"
+msgstr ""
+
+msgid "restricted"
+msgstr ""
+
+msgid "result_rows"
+msgstr ""
+
+msgid "retrieve rows from a query using a cursor"
+msgstr ""
+
+msgid "retrieve rows from a table or view"
+msgstr ""
+
+msgid "rettype"
+msgstr ""
+
+msgid "rewrite_rule_name"
+msgstr ""
+
+msgid "right_type"
+msgstr ""
+
+msgid "role_name"
+msgstr ""
+
+msgid "role_specification"
+msgstr ""
+
+msgid "roll back to a savepoint"
+msgstr ""
+
+msgid "routine_name"
+msgstr ""
+
+msgid "rule"
+msgstr ""
+
+msgid "rule_name"
+msgstr ""
+
+msgid "safe"
+msgstr ""
+
+msgid "sampling_method"
+msgstr ""
+
+msgid "savepoint_name"
+msgstr ""
+
+msgid "schema"
+msgstr ""
+
+msgid "schema_element"
+msgstr ""
+
+msgid "schema_name"
+msgstr ""
+
+msgid "search"
+msgstr ""
+
+msgid "seed"
+msgstr ""
+
+msgid "select"
+msgstr ""
+
+msgid "send_function"
+msgstr ""
+
+msgid "sequence"
+msgstr ""
+
+msgid "sequence_name"
+msgstr ""
+
+msgid "sequence_option"
+msgstr ""
+
+msgid "sequence_options"
+msgstr ""
+
+msgid "serialfunc"
+msgstr ""
+
+msgid "server_name"
+msgstr ""
+
+msgid "server_type"
+msgstr ""
+
+msgid "server_version"
+msgstr ""
+
+msgid "set constraint check timing for the current transaction"
+msgstr ""
+
+msgid "set the characteristics of the current transaction"
+msgstr ""
+
+msgid "set the current user identifier of the current session"
+msgstr ""
+
+msgid ""
+"set the session user identifier and the current user identifier of the "
+"current session"
+msgstr ""
+
+msgid "set_publication_option"
+msgstr ""
+
+msgid "sfunc"
+msgstr ""
+
+msgid "shell command argument contains a newline or carriage return: \"%s\""
+msgstr ""
+
+msgid "show the execution plan of a statement"
+msgstr ""
+
+msgid "show the value of a run-time parameter"
+msgstr ""
+
+msgid "skipping recursive expansion of variable \"%s\""
+msgstr ""
+
+msgid "snapshot_id"
+msgstr ""
+
+msgid "sort_expression"
+msgstr ""
+
+msgid "sort_family_name"
+msgstr ""
+
+msgid "sort_operator"
+msgstr ""
+
+msgid "source_config"
+msgstr ""
+
+msgid "source_encoding"
+msgstr ""
+
+msgid "source_table"
+msgstr ""
+
+msgid "source_type"
+msgstr ""
+
+msgid "special"
+msgstr ""
+
+msgid "stable"
+msgstr ""
+
+msgid "start"
+msgstr ""
+
+msgid "start a transaction block"
+msgstr ""
+
+msgid "start_function"
+msgstr ""
+
+msgid "state_data_size"
+msgstr ""
+
+msgid "state_data_type"
+msgstr ""
+
+msgid "statement"
+msgstr ""
+
+msgid "statistics_kind"
+msgstr ""
+
+msgid "statistics_name"
+msgstr ""
+
+msgid "stop listening for a notification"
+msgstr ""
+
+msgid "storage"
+msgstr ""
+
+msgid "storage_parameter"
+msgstr ""
+
+msgid "storage_type"
+msgstr ""
+
+msgid "strategy_number"
+msgstr ""
+
+msgid "sub-SELECT"
+msgstr ""
+
+msgid "subscription_name"
+msgstr ""
+
+msgid "subscription_parameter"
+msgstr ""
+
+msgid "subtype"
+msgstr ""
+
+msgid "subtype_diff_function"
+msgstr ""
+
+msgid "subtype_operator_class"
+msgstr ""
+
+msgid "support_function"
+msgstr ""
+
+msgid "support_number"
+msgstr ""
+
+msgid ""
+"tab completion query failed: %s\n"
+"Query was:\n"
+"%s"
+msgstr ""
+
+msgid "table"
+msgstr ""
+
+msgid "table constraint"
+msgstr ""
+
+msgid "table_and_columns"
+msgstr ""
+
+msgid "table_constraint"
+msgstr ""
+
+msgid "table_constraint_using_index"
+msgstr ""
+
+msgid "table_name"
+msgstr ""
+
+msgid "tablespace_name"
+msgstr ""
+
+msgid "tablespace_option"
+msgstr ""
+
+msgid "target_role"
+msgstr ""
+
+msgid "target_type"
+msgstr ""
+
+msgid "template"
+msgstr ""
+
+msgid "temporary"
+msgstr ""
+
+msgid "text"
+msgstr ""
+
+msgid "timestamp"
+msgstr ""
+
+msgid "timezone"
+msgstr ""
+
+msgid "to_sql_function_name"
+msgstr ""
+
+msgid "token_type"
+msgstr ""
+
+msgid "transaction_id"
+msgstr ""
+
+msgid "transaction_mode"
+msgstr ""
+
+msgid "transition_relation_name"
+msgstr ""
+
+msgid "trigger"
+msgstr ""
+
+msgid "trigger_name"
+msgstr ""
+
+msgid "trying to exit copy mode"
+msgstr ""
+
+msgid "type"
+msgstr ""
+
+msgid "type_modifier_input_function"
+msgstr ""
+
+msgid "type_modifier_output_function"
+msgstr ""
+
+msgid "type_name"
+msgstr ""
+
+msgid "uid"
+msgstr ""
+
+msgid "unexpected PQresultStatus: %d"
+msgstr ""
+
+msgid "unexpected result status for \\watch"
+msgstr ""
+
+msgid "unexpected transaction status (%d)"
+msgstr ""
+
+msgid "unique, "
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "unlogged"
+msgstr ""
+
+msgid ""
+"unrecognized value \"%s\" for \"%s\"\n"
+"Available values are: %s."
+msgstr ""
+
+msgid "unrecognized value \"%s\" for \"%s\": Boolean expected"
+msgstr ""
+
+msgid "unsafe"
+msgstr ""
+
+msgid "unterminated quoted string"
+msgstr ""
+
+msgid "update"
+msgstr ""
+
+msgid "update rows of a table"
+msgstr ""
+
+msgid "user does not exist"
+msgstr ""
+
+msgid "user name lookup failure: error code %lu"
+msgstr ""
+
+msgid "user_name"
+msgstr ""
+
+msgid "using_expression"
+msgstr ""
+
+msgid "valfunction"
+msgstr ""
+
+msgid "validator_function"
+msgstr ""
+
+msgid "value"
+msgstr ""
+
+msgid "values"
+msgstr ""
+
+msgid "version"
+msgstr ""
+
+msgid "view"
+msgstr ""
+
+msgid "view name is required"
+msgstr ""
+
+msgid "view_option_name"
+msgstr ""
+
+msgid "view_option_value"
+msgstr ""
+
+msgid "volatile"
+msgstr ""
+
+msgid "warning: "
+msgstr ""
+
+msgid "where abbreviated_grant_or_revoke is one of:"
+msgstr ""
+
+msgid "where action is one of:"
+msgstr ""
+
+msgid "where aggregate_signature is:"
+msgstr ""
+
+msgid "where column_constraint is:"
+msgstr ""
+
+msgid "where conflict_target can be one of:"
+msgstr ""
+
+msgid "where constraint is:"
+msgstr ""
+
+msgid "where direction can be empty or one of:"
+msgstr ""
+
+msgid "where event can be one of:"
+msgstr ""
+
+msgid "where from_item can be one of:"
+msgstr ""
+
+msgid "where lockmode is one of:"
+msgstr ""
+
+msgid "where member_object is:"
+msgstr ""
+
+msgid "where option can be one of:"
+msgstr ""
+
+msgid "where option can be:"
+msgstr ""
+
+msgid "where role_specification can be:"
+msgstr ""
+
+msgid "where transaction_mode is one of:"
+msgstr ""
+
+msgid "window"
+msgstr ""
+
+msgid "window_definition"
+msgstr ""
+
+msgid "window_name"
+msgstr ""
+
+msgid "with_query"
+msgstr ""
+
+msgid "with_query_name"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid ""
+"  \\dAp[+] [AMPTRN [OPFPTRN]]   list support functions of operator families\n"
+msgstr ""
+
+msgid "  \\do[S+] [PATTERN]      list operators\n"
+msgstr ""
+
+msgid "  \\dy[+]  [PATTERN]      list event triggers\n"
+msgstr ""
+
+msgid "attempt to \\gset into specially treated variable \"%s\" ignored"
+msgstr ""
+
+msgid "lock a table"
+msgstr ""
+
+msgid ""
+"  VERBOSITY\n"
+"    controls verbosity of error reports [default, verbose, terse]\n"
+msgstr ""
+
+msgid "  \\echo [STRING]         write string to standard output\n"
+msgstr ""
+
+msgid ""
+"  \\g [FILE] or ;         execute query (and send results to file or |pipe)\n"
+msgstr ""
+
+msgid "  \\gx [FILE]             as \\g, but forces expanded output mode\n"
+msgstr ""
+
+msgid ""
+"  \\pset [NAME [VALUE]]   set table output option\n"
+"                         (NAME := {border|columns|expanded|fieldsep|"
+"fieldsep_zero|\n"
+"                         footer|format|linestyle|null|numericlocale|pager|\n"
+"                         pager_min_lines|recordsep|recordsep_zero|tableattr|"
+"title|\n"
+"                         tuples_only|unicode_border_linestyle|\n"
+"                         unicode_column_linestyle|"
+"unicode_header_linestyle})\n"
+msgstr ""
+
+msgid ""
+"  \\qecho [STRING]        write string to query output stream (see \\o)\n"
+msgstr ""
+
+msgid "\"%s.%s\" is not a view\n"
+msgstr ""
+
+msgid "%s\n"
+msgstr ""
+
+msgid "%s: %s\n"
+msgstr ""
+
+msgid "%s: -1 can only be used in non-interactive mode\n"
+msgstr ""
+
+msgid "%s: cannot copy from/to a directory\n"
+msgstr ""
+
+msgid "%s: could not find own program executable\n"
+msgstr ""
+
+msgid "%s: could not open log file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not set printing parameter \"%s\"\n"
+msgstr ""
+
+msgid "%s: current transaction is aborted\n"
+msgstr ""
+
+msgid "%s: invalid encoding name or conversion procedure not found\n"
+msgstr ""
+
+msgid "%s: not connected to a database\n"
+msgstr ""
+
+msgid "%s: out of memory\n"
+msgstr ""
+
+msgid "%s: unknown transaction status\n"
+msgstr ""
+
+msgid "%s: warning: extra command-line argument \"%s\" ignored\n"
+msgstr ""
+
+msgid ""
+"All connection parameters must be supplied because no database connection "
+"exists\n"
+msgstr ""
+
+msgid ""
+"Command:     %s\n"
+"Description: %s\n"
+"Syntax:\n"
+"%s\n"
+"\n"
+msgstr ""
+
+msgid "Did not find any extension named \"%s\".\n"
+msgstr ""
+
+msgid "Did not find any extensions.\n"
+msgstr ""
+
+msgid "Did not find any publication named \"%s\".\n"
+msgstr ""
+
+msgid "Did not find any publications.\n"
+msgstr ""
+
+msgid "Did not find any relation named \"%s\".\n"
+msgstr ""
+
+msgid "Did not find any relation with OID %s.\n"
+msgstr ""
+
+msgid "Did not find any relations.\n"
+msgstr ""
+
+msgid "Did not find any settings for role \"%s\" and database \"%s\".\n"
+msgstr ""
+
+msgid "Did not find any settings for role \"%s\".\n"
+msgstr ""
+
+msgid "Did not find any settings.\n"
+msgstr ""
+
+msgid "Did not find any text search configuration named \"%s\".\n"
+msgstr ""
+
+msgid "Did not find any text search configurations.\n"
+msgstr ""
+
+msgid "Did not find any text search parser named \"%s\".\n"
+msgstr ""
+
+msgid "Did not find any text search parsers.\n"
+msgstr ""
+
+msgid "Invalid command \\%s. Try \\? for help.\n"
+msgstr ""
+
+msgid "Passwords didn't match.\n"
+msgstr ""
+
+msgid "Previous connection kept\n"
+msgstr ""
+
+msgid "Report bugs to <pgsql-bugs@postgresql.org>.\n"
+msgstr ""
+
+msgid "STATEMENT:  %s\n"
+msgstr ""
+
+msgid "The server (version %s) does not support access methods.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support altering default privileges.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support collations.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support editing function source.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support editing view definitions.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support extensions.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support foreign servers.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support foreign tables.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support foreign-data wrappers.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support full text search.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support per-database role settings.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support publications.\n"
+msgstr ""
+
+msgid ""
+"The server (version %s) does not support savepoints for ON_ERROR_ROLLBACK.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support showing function source.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support showing view definitions.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support subscriptions.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support tablespaces.\n"
+msgstr ""
+
+msgid "The server (version %s) does not support user mappings.\n"
+msgstr ""
+
+msgid "\\!: failed\n"
+msgstr ""
+
+msgid ""
+"\\%s command ignored; use \\endif or Ctrl-C to exit current \\if block\n"
+msgstr ""
+
+msgid "\\%s: could not change directory to \"%s\": %s\n"
+msgstr ""
+
+msgid "\\%s: could not read value for variable\n"
+msgstr ""
+
+msgid "\\%s: environment variable name must not contain \"=\"\n"
+msgstr ""
+
+msgid "\\%s: extra argument \"%s\" ignored\n"
+msgstr ""
+
+msgid "\\%s: missing required argument\n"
+msgstr ""
+
+msgid "\\copy: arguments required\n"
+msgstr ""
+
+msgid "\\copy: parse error at \"%s\"\n"
+msgstr ""
+
+msgid "\\copy: parse error at end of line\n"
+msgstr ""
+
+msgid "\\crosstabview: ambiguous column name: \"%s\"\n"
+msgstr ""
+
+msgid "\\crosstabview: column name not found: \"%s\"\n"
+msgstr ""
+
+msgid "\\crosstabview: column number %d is out of range 1..%d\n"
+msgstr ""
+
+msgid ""
+"\\crosstabview: data column must be specified when query returns more than "
+"three columns\n"
+msgstr ""
+
+msgid "\\crosstabview: maximum number of columns (%d) exceeded\n"
+msgstr ""
+
+msgid "\\crosstabview: query must return at least three columns\n"
+msgstr ""
+
+msgid ""
+"\\crosstabview: query result contains multiple data values for row \"%s\", "
+"column \"%s\"\n"
+msgstr ""
+
+msgid "\\crosstabview: statement did not return a result set\n"
+msgstr ""
+
+msgid ""
+"\\crosstabview: vertical and horizontal headers must be different columns\n"
+msgstr ""
+
+msgid "\\df does not take a \"%c\" option with server version %s\n"
+msgstr ""
+
+msgid "\\df only takes [anptwS+] as options\n"
+msgstr ""
+
+msgid "\\elif: cannot occur after \\else\n"
+msgstr ""
+
+msgid "\\elif: no matching \\if\n"
+msgstr ""
+
+msgid "\\else: cannot occur after \\else\n"
+msgstr ""
+
+msgid "\\else: no matching \\if\n"
+msgstr ""
+
+msgid "\\endif: no matching \\if\n"
+msgstr ""
+
+msgid "\\if: escaped\n"
+msgstr ""
+
+msgid "\\pset: allowed Unicode border line styles are single, double\n"
+msgstr ""
+
+msgid "\\pset: allowed Unicode column line styles are single, double\n"
+msgstr ""
+
+msgid "\\pset: allowed Unicode header line styles are single, double\n"
+msgstr ""
+
+msgid ""
+"\\pset: allowed formats are unaligned, aligned, wrapped, html, asciidoc, "
+"latex, latex-longtable, troff-ms\n"
+msgstr ""
+
+msgid "\\pset: allowed line styles are ascii, old-ascii, unicode\n"
+msgstr ""
+
+msgid "\\pset: unknown option: %s\n"
+msgstr ""
+
+msgid "\\watch cannot be used with COPY\n"
+msgstr ""
+
+msgid "\\watch cannot be used with an empty query\n"
+msgstr ""
+
+msgid "cannot escape without active connection\n"
+msgstr ""
+
+msgid "child process was terminated by signal %d"
+msgstr ""
+
+msgid "child process was terminated by signal %s"
+msgstr ""
+
+msgid "connection to server was lost\n"
+msgstr ""
+
+msgid "could not change directory to \"%s\": %s"
+msgstr ""
+
+msgid "could not close pipe to external command: %s\n"
+msgstr ""
+
+msgid "could not execute command \"%s\": %s\n"
+msgstr ""
+
+msgid "could not get home directory for user ID %ld: %s\n"
+msgstr ""
+
+msgid "could not identify current directory: %s"
+msgstr ""
+
+msgid "could not locate temporary directory: %s\n"
+msgstr ""
+
+msgid "could not open temporary file \"%s\": %s\n"
+msgstr ""
+
+msgid "could not parse reloptions array\n"
+msgstr ""
+
+msgid "could not read from input file: %s\n"
+msgstr ""
+
+msgid "could not read symbolic link \"%s\""
+msgstr ""
+
+msgid "could not save history to file \"%s\": %s\n"
+msgstr ""
+
+msgid "could not start /bin/sh\n"
+msgstr ""
+
+msgid "could not start editor \"%s\"\n"
+msgstr ""
+
+msgid "could not stat file \"%s\": %s\n"
+msgstr ""
+
+msgid "could not write COPY data: %s\n"
+msgstr ""
+
+msgid ""
+"environment variable PSQL_EDITOR_LINENUMBER_ARG must be set to specify a "
+"line number\n"
+msgstr ""
+
+msgid "from_list"
+msgstr ""
+
+msgid "function name is required\n"
+msgstr ""
+
+msgid "history is not supported by this installation\n"
+msgstr ""
+
+msgid "invalid command \\%s\n"
+msgstr ""
+
+msgid "invalid line number: %s\n"
+msgstr ""
+
+msgid "invalid value \"%s\" for \"%s\": integer expected\n"
+msgstr ""
+
+msgid "invalid variable name: \"%s\"\n"
+msgstr ""
+
+msgid "more than one row returned for \\gset\n"
+msgstr ""
+
+msgid "no query buffer\n"
+msgstr ""
+
+msgid "no rows returned for \\gset\n"
+msgstr ""
+
+msgid "old_version"
+msgstr ""
+
+msgid "pclose failed: %s"
+msgstr ""
+
+msgid "query ignored; use \\endif or Ctrl-C to exit current \\if block\n"
+msgstr ""
+
+msgid "reached EOF without finding closing \\endif(s)\n"
+msgstr ""
+
+msgid "shell command argument contains a newline or carriage return: \"%s\"\n"
+msgstr ""
+
+msgid "skipping recursive expansion of variable \"%s\"\n"
+msgstr ""
+
+msgid "string_literal"
+msgstr ""
+
+msgid ""
+"tab completion query failed: %s\n"
+"Query was:\n"
+"%s\n"
+msgstr ""
+
+msgid "unexpected PQresultStatus: %d\n"
+msgstr ""
+
+msgid "unexpected result status for \\watch\n"
+msgstr ""
+
+msgid "unexpected transaction status (%d)\n"
+msgstr ""
+
+msgid ""
+"unrecognized value \"%s\" for \"%s\"\n"
+"Available values are: %s.\n"
+msgstr ""
+
+msgid "unrecognized value \"%s\" for \"%s\": Boolean expected\n"
+msgstr ""
+
+msgid "unterminated quoted string\n"
+msgstr ""
+
+msgid "using_list"
+msgstr ""
+
+msgid "view name is required\n"
+msgstr ""
+
+msgid "Binary"
+msgstr ""
+
+msgid "Report bugs to <pgsql-bugs@lists.postgresql.org>.\n"
+msgstr ""
+
+msgid ""
+"  \\dP[tin+] [PATTERN]    list [only table/index] partitioned relations\n"
+msgstr ""
+
+msgid "GSSAPI Encrypted connection\n"
+msgstr ""

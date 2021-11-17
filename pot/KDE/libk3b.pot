@@ -1,0 +1,2640 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: libk3b\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2011-07-26 11:10+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid " - %1 Copy"
+msgid_plural " - %1 Copies"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " - %1 copy"
+msgid_plural " - %1 copies"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " and %1 session"
+msgid_plural " and %1 sessions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " – One copy"
+msgid_plural " – %1 copies"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%1 Hz"
+msgstr ""
+
+msgid "%1 could not reserve shared memory segment of requested size."
+msgstr ""
+
+msgid "%1 crashed."
+msgstr ""
+
+msgid "%1 did not exit cleanly."
+msgstr ""
+
+msgid "%1 executable could not be found."
+msgstr ""
+
+msgid "%1 executable too old: need version %2 or greater."
+msgstr ""
+
+msgid "%1 has no permission to open the device."
+msgstr ""
+
+msgid ""
+"%1 media do not support write simulation. Do you really want to continue? "
+"The disc will actually be written to."
+msgstr ""
+
+msgid "%1 returned an unknown error (code %2)."
+msgstr ""
+
+msgid "%1 returned error: %2"
+msgstr ""
+
+msgid "%1 version %2 is too old."
+msgstr ""
+
+msgctxt "%2 is of form XX:YY:ZZ, no pluralization needed"
+msgid "1 track (%2 minutes)"
+msgid_plural "%1 tracks (%2 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "'Force unsafe operations' enabled."
+msgstr ""
+
+msgid "(Description taken from the Wikipedia article)"
+msgstr ""
+
+msgid "...and the K3b FAQ does not help you..."
+msgstr ""
+
+msgid "...and this error also occurs with high quality media..."
+msgstr ""
+
+msgid ""
+"...or by lowering the used software buffer size in the advanced K3b settings."
+msgstr ""
+
+msgid "...please include the debugging output in your problem report."
+msgstr ""
+
+msgid "1 MPEG (%2)"
+msgid_plural "%1 MPEGs (%2)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "1 bit/s"
+msgid_plural "%1 bits/s"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "<em>%1</em> renamed to <em>%2</em>"
+msgstr ""
+
+msgid ""
+"<p>If this option is checked K3b will adjust the volume of all tracks to a "
+"standard level. This is useful for things like creating mixes, where "
+"different recording levels on different albums can cause the volume to vary "
+"greatly from song to song.<p><b>Be aware that K3b currently does not support "
+"normalizing when writing on the fly.</b>"
+msgstr ""
+
+msgid ""
+"<p>If this option is checked K3b will not close the CD, and will write a "
+"temporary table of contents.</p><p>This allows further sessions to be "
+"appended to the CD later.</p>"
+msgstr ""
+
+msgid ""
+"<p>If this option is checked K3b will perform all writing steps with the "
+"laser turned off.<p>This is useful, for example, to test a higher writing "
+"speed or whether your system is able to write on-the-fly.<p><b>Caution:</b> "
+"DVD+R(W) does not support simulated writing."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked and K3b is not able to read an audio sector "
+"from the source CD it will be replaced with zeros on the resulting copy."
+"<p>Since audio CD Player are able to interpolate small errors in the data it "
+"is no problem to let K3b skip unreadable sectors."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked, K3b enables <em>Burnfree</em> (or <em>Just "
+"Link</em>). This is a feature of the CD writer which avoids buffer underruns."
+"<p>Without <em>burnfree</em>, if the writer cannot get any more data a "
+"buffer underrun would occur, since the writer needs a constant stream of "
+"data to write the CD.<p>With <em>burnfree</em> the writer can <em>mark</em> "
+"the current position of the laser and get back to it when the buffer is "
+"filled again; but, since this means having little data gaps on the CD, <b>it "
+"is highly recommended to always choose an appropriate writing speed to "
+"prevent the usage of burnfree, especially for audio CDs</b> (in the worst "
+"case one would hear the gap).<p><em>Burnfree</em> was formerly known as "
+"<em>Burnproof</em>, but has since been renamed when it became part of the "
+"MMC standard."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked, K3b will create an image before writing the "
+"files to the CD/DVD. Otherwise the data will be written <em>on-the-fly</em>, "
+"i.e. no intermediate image will be created.<p><b>Caution:</b> Although "
+"writing on-the-fly should work on most systems, make sure the data is sent "
+"to the writer fast enough."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked, K3b will not create an image first but write "
+"the files directly to the CD/DVD.<p><b>Caution:</b> Although this should "
+"work on most systems, make sure the data is sent to the writer fast enough."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked, K3b will only create an image and not do any "
+"actual writing.<p>The image can later be written to a CD/DVD with most "
+"current writing programs (including K3b of course)."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked, K3b will remove any created images after the "
+"writing has finished.<p>Uncheck this if you want to keep the images."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked, K3b will write the CD in 'disk at once' mode "
+"as compared to 'track at once' (TAO).<p>It is always recommended to use DAO "
+"where possible.<p><b>Caution:</b> Track pregaps with a length other than 2 "
+"seconds are only supported in DAO mode."
+msgstr ""
+
+msgid ""
+"<p>If this option is checked, then after successfully writing the disk K3b "
+"will compare the original source data with the written data to verify that "
+"the disk has been written correctly."
+msgstr ""
+
+msgid "<p>It is recommended to try a simulation first."
+msgstr ""
+
+msgid ""
+"<p>Sets the correction mode for digital audio extraction.<ul><li>0: No "
+"checking, data is copied directly from the drive. <li>1: Perform overlapped "
+"reading to avoid jitter.</li><li>2: Like 1 but with additional checks of the "
+"read audio data.</li><li>3: Like 2 but with additional scratch detection and "
+"repair.</li></ul><p><b>The extraction speed reduces from 0 to 3.</b>"
+msgstr ""
+
+msgid "A file with that name already exists. Please enter a new name:"
+msgstr ""
+
+msgid "A hard-disk boot image has to contain a single partition."
+msgstr ""
+
+msgid "A write error occurred."
+msgstr ""
+
+msgid "AC3"
+msgstr ""
+
+msgid "AC3 (Pass-through)"
+msgstr ""
+
+msgid "AC3 (Stereo)"
+msgstr ""
+
+msgid ""
+"AC3, better known as Dolby Digital is standardized as ATSC A/52. It contains "
+"up to 6 total channels of sound."
+msgstr ""
+
+msgid "APS' pts seems out of order (actual pts %1, last seen pts %2)"
+msgstr ""
+
+msgid "Adjust the volume levels of all tracks"
+msgstr ""
+
+msgid "Adjusting volume level for track %1 of %2"
+msgstr ""
+
+msgid "After 10-20 reformats the media might become unusable."
+msgstr ""
+
+msgid "An unknown error occurred."
+msgstr ""
+
+msgid "An unknown number of remaining stream bytes will be ignored."
+msgstr ""
+
+msgid "Analysing %1"
+msgstr ""
+
+msgid "Analysing Chapter %1 of %2"
+msgstr ""
+
+msgid "Analysing Title %1 of Video DVD %2"
+msgstr ""
+
+msgid "Analysing the audio file"
+msgstr ""
+
+msgid "Analysing the audio file failed. Corrupt file?"
+msgstr ""
+
+msgid "Analyzing medium..."
+msgstr ""
+
+msgid "Another application is blocking the device (most likely automounting)."
+msgstr ""
+
+msgid "Appendable %1 medium"
+msgstr ""
+
+msgid "Appendable Data %1"
+msgstr ""
+
+msgid "Appending session to %1."
+msgstr ""
+
+msgid "Appending session to CD"
+msgstr ""
+
+msgid "Appending session to DVD+R."
+msgstr ""
+
+msgid "Appending session to Double Layer DVD+R."
+msgstr ""
+
+msgid "Appending session to rewritable CD."
+msgstr ""
+
+msgid "Audio CD"
+msgstr ""
+
+msgid "Audio images successfully created."
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Average overall write speed: %1 KB/s (%2x)"
+msgstr ""
+
+msgid "Bad packet at packet #%1 (stream byte offset %2)"
+msgstr ""
+
+msgid "Blanking"
+msgstr ""
+
+msgid "Blanking successfully completed"
+msgstr ""
+
+msgid "Booktype successfully changed"
+msgstr ""
+
+msgid "Boot catalog"
+msgstr ""
+
+msgid "Buffer was low once."
+msgid_plural "Buffer was low %1 times."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Burnfree was used once."
+msgid_plural "Burnfree was used %1 times."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Burning Clone Image"
+msgstr ""
+
+msgid "CD Track"
+msgstr ""
+
+msgid "CD writer %1 (%2) does not support cloning."
+msgstr ""
+
+msgid "CDDB Lookup"
+msgstr ""
+
+msgid "Cache the data to be written on the harddisk"
+msgstr ""
+
+msgid "Cancel and go back"
+msgstr ""
+
+msgid "Cannot change booktype on non-empty DVD+R media."
+msgstr ""
+
+msgid "Cannot copy encrypted DVDs."
+msgstr ""
+
+msgid "Cannot read source disk."
+msgstr ""
+
+msgid "Cannot write %1 media using %2. Falling back to default application."
+msgstr ""
+
+msgid "Capacity: %1"
+msgstr ""
+
+msgid "Caption for children"
+msgstr ""
+
+msgid "Caption with bigger size characters"
+msgstr ""
+
+msgid "Caption with normal size characters"
+msgstr ""
+
+msgid "Cdrdao %1 does not support disabling burnfree."
+msgstr ""
+
+msgid "Cdrdao %1 does not support overburning."
+msgstr ""
+
+msgid "Cdrecord %1 does not support CD-Text writing."
+msgstr ""
+
+msgid "Cdrecord %1 does not support overburning."
+msgstr ""
+
+msgid "Cdrecord does not support writing %1 media."
+msgstr ""
+
+msgid "Cdrecord version %1 does not have cloning support."
+msgstr ""
+
+msgid "Cdrecord version %1 does not support Blu-ray writing."
+msgstr ""
+
+msgid "Changing Booktype"
+msgstr ""
+
+msgid "Changing DVD Booktype"
+msgstr ""
+
+msgid "Checking Source Medium"
+msgstr ""
+
+msgid "Checking medium"
+msgstr ""
+
+msgid "Checking source medium"
+msgstr ""
+
+msgid "Cloning CD"
+msgstr ""
+
+msgid "Closed caption for children"
+msgstr ""
+
+msgid "Closed caption with bigger size characters"
+msgstr ""
+
+msgid "Closed caption with normal size characters"
+msgstr ""
+
+msgid "Closing Disk"
+msgstr ""
+
+msgid "Closing Session"
+msgstr ""
+
+msgid "Closing Session..."
+msgstr ""
+
+msgid "Closing Track"
+msgstr ""
+
+msgid "Compare original with written data"
+msgstr ""
+
+msgid "Complete %1 medium"
+msgstr ""
+
+msgid "Complete Data %1"
+msgstr ""
+
+msgid "Component"
+msgstr ""
+
+msgid "Computing level for track %1 of %2"
+msgstr ""
+
+msgid ""
+"Consider enabling the 'update scan offsets' option, if it is not enabled "
+"already."
+msgstr ""
+
+msgid "Copying"
+msgstr ""
+
+msgid "Copying Audio CD."
+msgstr ""
+
+msgid "Copying CD"
+msgstr ""
+
+msgid "Copying CD On-The-Fly"
+msgstr ""
+
+msgid "Copying DVD or BD"
+msgstr ""
+
+msgid "Copying DVD or BD On-The-Fly"
+msgstr ""
+
+msgid "Copying Data CD."
+msgstr ""
+
+msgid "Copying Enhanced Audio CD (CD-Extra)."
+msgstr ""
+
+msgid "Copying Multisession Data CD."
+msgstr ""
+
+msgid "Copying successfully completed"
+msgstr ""
+
+msgid "Corrected error in sector %1"
+msgstr ""
+
+msgid "Could not backup tocfile."
+msgstr ""
+
+msgid "Could not delete file %1."
+msgstr ""
+
+msgid "Could not determine next writable address."
+msgstr ""
+
+msgid "Could not determine size of resulting image file."
+msgstr ""
+
+msgid "Could not find %1 executable."
+msgstr ""
+
+msgid "Could not find a valid eMovix installation."
+msgstr ""
+
+msgid "Could not find file %1"
+msgstr ""
+
+msgid "Could not find file %1. Skipping..."
+msgstr ""
+
+msgid "Could not find image %1"
+msgstr ""
+
+msgid "Could not find normalize executable."
+msgstr ""
+
+msgid "Could not find readcd executable with cloning support."
+msgstr ""
+
+msgid "Could not find the following files:"
+msgstr ""
+
+msgid "Could not follow link %1 to non-existing file %2. Skipping..."
+msgstr ""
+
+msgid "Could not load libcdparanoia."
+msgstr ""
+
+msgid "Could not open %1 for writing"
+msgstr ""
+
+msgid "Could not open device %1"
+msgstr ""
+
+msgid "Could not open file %1"
+msgstr ""
+
+msgid "Could not open file %1."
+msgstr ""
+
+msgid "Could not read file %1. Skipping..."
+msgstr ""
+
+msgid ""
+"Could not rename subtitle file. File with requested name %1 already exists."
+msgstr ""
+
+msgid "Could not retrieve multisession information from disk."
+msgstr ""
+
+msgid "Could not start %1"
+msgstr ""
+
+msgid "Could not start %1."
+msgstr ""
+
+msgid "Could not start normalize."
+msgstr ""
+
+msgid "Could not start readcd."
+msgstr ""
+
+msgid "Could not unlock drive."
+msgstr ""
+
+msgid "Could not write correct XML file."
+msgstr ""
+
+msgid "Could not write temporary file"
+msgstr ""
+
+msgid "Create image"
+msgstr ""
+
+msgid "Creating 1 clone copy"
+msgid_plural "Creating %1 clone copies"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Creating 1 copy"
+msgid_plural "Creating %1 copies"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Creating CD Image"
+msgstr ""
+
+msgid "Creating Clone Image"
+msgstr ""
+
+msgid "Creating Data Image File"
+msgstr ""
+
+msgid "Creating ISO image file"
+msgstr ""
+
+msgid "Creating ISO image in %1"
+msgstr ""
+
+msgid "Creating Image"
+msgstr ""
+
+msgid "Creating Image for track %1"
+msgstr ""
+
+msgid "Creating Video DVD Image File"
+msgstr ""
+
+msgid "Creating audio image files"
+msgstr ""
+
+msgid "Creating audio image files in %1"
+msgstr ""
+
+msgid "Creating image"
+msgstr ""
+
+msgid "Creating image file"
+msgstr ""
+
+msgid "Creating image file in %1"
+msgstr ""
+
+msgid "Creating image files"
+msgstr ""
+
+msgid "Creating image files in %1"
+msgstr ""
+
+msgid "Cue sheet not accepted."
+msgstr ""
+
+msgid "Cue/Bin files successfully created."
+msgstr ""
+
+msgid "Cut volume descriptor in the Joliet tree"
+msgstr ""
+
+msgid "DAO (Disk At Once) recording not supported with this writer"
+msgstr ""
+
+msgid "DTS"
+msgstr ""
+
+msgid "DVD and Blu-ray tracks can only be written in MODE1."
+msgstr ""
+
+msgid ""
+"DVD+R(W) media do not support write simulation. Do you really want to "
+"continue? The media will actually be written to."
+msgstr ""
+
+msgid "Data did not fit on disk."
+msgstr ""
+
+msgid "Data does not fit on disk."
+msgstr ""
+
+msgid "Decoding audio track %1 of %2%3"
+msgstr ""
+
+msgid "Determining maximum writing speed"
+msgstr ""
+
+msgid "Device Selection"
+msgstr ""
+
+msgid "Device not ready, waiting."
+msgstr ""
+
+msgid "Director's comments 1"
+msgstr ""
+
+msgid "Director's comments 2"
+msgstr ""
+
+msgid "Director's comments for children"
+msgstr ""
+
+msgid "Director's comments with bigger size characters"
+msgstr ""
+
+msgid "Director's comments with normal size characters"
+msgstr ""
+
+msgid "Disable Joliet extensions"
+msgstr ""
+
+msgid "Disabled Burnfree"
+msgstr ""
+
+msgid "Disabling on-the-fly writing."
+msgstr ""
+
+msgid "Discard symbolic links to folders"
+msgstr ""
+
+msgid "Disk at once"
+msgstr ""
+
+msgid "Do not be concerned with the progress stopping before 100%."
+msgstr ""
+
+msgid "Do not close the disk to allow additional sessions to be added later"
+msgstr ""
+
+msgid "Do not force VCD"
+msgstr ""
+
+msgid "Do you want to overwrite %1?"
+msgstr ""
+
+msgid ""
+"Due to a bug in cdrdao the toc/cue file %1 has been deleted. K3b was unable "
+"to restore it from the backup %2."
+msgstr ""
+
+msgid ""
+"Due to a bug in mkisofs <= 1.15a40, K3b is unable to handle filenames that "
+"contain more than one backslash:"
+msgstr ""
+
+msgid "Ejecting DVD..."
+msgstr ""
+
+msgid "Ejecting Medium"
+msgstr ""
+
+msgid "Ejecting medium..."
+msgstr ""
+
+msgid "El Torito Boot image"
+msgstr ""
+
+msgid "El Torito boot catalog file"
+msgstr ""
+
+msgid "Empty"
+msgstr ""
+
+msgid "Empty %1 medium"
+msgstr ""
+
+msgid "Enable Burnfree (or Just Link) to avoid buffer underruns"
+msgstr ""
+
+msgid "Enable overburning in the advanced K3b settings to burn anyway."
+msgstr ""
+
+msgid "Enabled Burnfree"
+msgstr ""
+
+msgid "Enabling UDF extension."
+msgstr ""
+
+msgid "Encountered an incorrectly encoded filename '%1'"
+msgstr ""
+
+msgid "Engaging DAO"
+msgstr ""
+
+msgid "Enter New Filename"
+msgstr ""
+
+msgid "Erasing CD-RW"
+msgstr ""
+
+msgid "Erasing successfully completed"
+msgstr ""
+
+msgid "Error while creating ISO image"
+msgstr ""
+
+msgid "Error while creating ISO image."
+msgstr ""
+
+msgid "Error while decoding audio tracks."
+msgstr ""
+
+msgid "Error while decoding track %1."
+msgstr ""
+
+msgid "Error while initializing audio ripping."
+msgstr ""
+
+msgid "Error while normalizing tracks."
+msgstr ""
+
+msgid "Error while reading disk."
+msgstr ""
+
+msgid "Error while reading from file %1"
+msgstr ""
+
+msgid "Error while reading sector %1."
+msgstr ""
+
+msgid "Error while reading session %1."
+msgstr ""
+
+msgid "Executing Power calibration"
+msgstr ""
+
+msgid "Execution of %1 failed."
+msgstr ""
+
+msgid "Extended"
+msgstr ""
+
+msgid ""
+"FFmpeg contains an implementation of the MPEG-4 video encoding standard "
+"which produces high quality results."
+msgstr ""
+
+msgid ""
+"FFmpeg is an open-source project trying to support most video and audio "
+"codecs used these days. Its subproject libavcodec forms the basis for "
+"multimedia players such as xine or mplayer."
+msgstr ""
+
+msgid "Failed to backup boot image file %1"
+msgstr ""
+
+msgid "Failed to read disk completely in clone mode."
+msgstr ""
+
+msgid "Failed to reload the medium"
+msgstr ""
+
+msgid "Failed to retrieve all CSS keys."
+msgstr ""
+
+msgid "Failed to write temporary file '%1'"
+msgstr ""
+
+msgid "Fatal error at startup: %1"
+msgstr ""
+
+msgid "Fatal error during recording: %1"
+msgstr ""
+
+msgid "File %1 is empty."
+msgstr ""
+
+msgid "File Exists"
+msgstr ""
+
+msgid "Files bigger than 2 GB cannot be handled."
+msgstr ""
+
+msgid "Flushing Cache"
+msgstr ""
+
+msgid "Flushing cache"
+msgstr ""
+
+msgid "Flushing the cache may take some time."
+msgstr ""
+
+msgid "For most current drives this would be 'generic-mmc'."
+msgstr ""
+
+msgid "For the visually impaired"
+msgstr ""
+
+msgid "Force VCD"
+msgstr ""
+
+msgid "Forced caption"
+msgstr ""
+
+msgid "Forcing formatting anyway."
+msgstr ""
+
+msgid "Formatted in %1 mode."
+msgstr ""
+
+msgid "Formatting"
+msgstr ""
+
+msgid "Formatting %1 medium"
+msgstr ""
+
+msgid "Formatting DVD-RW in %1 mode."
+msgstr ""
+
+msgid "Formatting disc"
+msgstr ""
+
+msgid "Formatting successfully completed"
+msgstr ""
+
+msgid "Found %1 medium."
+msgstr ""
+
+msgid "Found ISRC code"
+msgstr ""
+
+msgid "Found a high-speed medium not suitable for the writer being used."
+msgstr ""
+
+msgid "Found a low-speed medium not suitable for the writer being used."
+msgstr ""
+
+msgid "Found encrypted DVD."
+msgstr ""
+
+msgid "Found files bigger than 4 GB. K3b needs at least %1 to continue."
+msgstr ""
+
+msgid "Found pregap: %1"
+msgstr ""
+
+msgid "Free space: %1"
+msgstr ""
+
+msgid "From now on, scan information data errors will not be reported anymore"
+msgstr ""
+
+msgid "From previous session"
+msgstr ""
+
+msgid ""
+"Growisofs version %1 does not feature a software buffer which may result in "
+"an unstable burn process."
+msgstr ""
+
+msgid "Growisofs version %1 is too old. K3b needs at least version 5.10."
+msgstr ""
+
+msgid "I/O Error"
+msgstr ""
+
+msgid "I/O Error. Most likely no space left on harddisk."
+msgstr ""
+
+msgid "ISO image successfully created."
+msgstr ""
+
+msgid "If you are running an unpatched cdrecord version..."
+msgstr ""
+
+msgid "Ignore read errors"
+msgstr ""
+
+msgid "Ignored %1 erroneous sector."
+msgid_plural "Ignored a total of %1 erroneous sectors."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"Ignoring clipping values of last chapter due to its short playback time."
+msgstr ""
+
+msgid ""
+"Ignoring link %1 to folder %2. K3b is unable to follow links to folders."
+msgstr ""
+
+msgid "Ignoring read error in sector %1."
+msgstr ""
+
+msgid "Ignoring this aps"
+msgstr ""
+
+msgid "Image successfully created in %1"
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Input/output error. Not necessarily serious."
+msgstr ""
+
+msgid "Internal Error: No medium type fits. This project cannot be burned."
+msgstr ""
+
+msgid "Internal Error: Verification job improperly initialized (%1)"
+msgstr ""
+
+msgid "Invalid audio codec set: %1"
+msgstr ""
+
+msgid "Invalid filename: '%1'"
+msgstr ""
+
+msgid "Invalid video codec set: %1"
+msgstr ""
+
+msgid "It can be solved by issuing the command 'ulimit -l unlimited'..."
+msgstr ""
+
+msgid "It is not possible to write CD-Text in TAO mode."
+msgstr ""
+
+msgid "It is not possible to write CD-Text in TAO mode. Try DAO or RAW."
+msgstr ""
+
+msgid "It is not recommended to force formatting of %1 media."
+msgstr ""
+
+msgid "It may simply be overwritten."
+msgstr ""
+
+msgid "K3b can only copy CD-Extra mixed mode CDs."
+msgstr ""
+
+msgid "K3b detected a problem with the medium."
+msgstr ""
+
+msgid "K3b does not copy CDs containing multiple data tracks."
+msgstr ""
+
+msgid "K3b does not support copying DVD-RAM."
+msgstr ""
+
+msgid "K3b does not support copying multi-session DVD or Blu-ray disks."
+msgstr ""
+
+msgid "K3b does not support writing on-the-fly with growisofs %1."
+msgstr ""
+
+msgid "K3b found multiple or inexact CDDB entries. Please select one."
+msgstr ""
+
+msgid ""
+"K3b is not able to follow symbolic links to folders after they have been "
+"added to the project. Do you want to continue without writing the symbolic "
+"links to the image?"
+msgstr ""
+
+msgid "K3b needs cdrecord 2.01a12 or newer to copy Mode2 data tracks."
+msgstr ""
+
+msgid "K3b was unable to eject the source disk. Please do so manually."
+msgstr ""
+
+msgid "K3b was unable to eject the source medium. Please do so manually."
+msgstr ""
+
+msgid "K3b was unable to eject the written disk. Please do so manually."
+msgstr ""
+
+msgid "K3b was unable to eject the written medium. Please do so manually."
+msgstr ""
+
+msgid ""
+"K3b will create a %1 image from the given MPEG files, but these files must "
+"already be in %1 format. K3b does not yet resample MPEG files."
+msgstr ""
+
+msgid "LPCM"
+msgstr ""
+
+msgid "Layer %1"
+msgstr ""
+
+msgid "MPEG1"
+msgstr ""
+
+msgid "MPEG1 Layer III"
+msgstr ""
+
+msgid ""
+"MPEG1 Layer III is better known as MP3 and is the most used lossy audio "
+"format."
+msgstr ""
+
+msgid "MPEG2 Extended"
+msgstr ""
+
+msgid "MPEG4 (FFMPEG)"
+msgstr ""
+
+msgid "Media is already empty."
+msgstr ""
+
+msgid "Medium or burner does not support writing at %1x speed"
+msgstr ""
+
+msgid ""
+"Missing Blu-ray support in cdrecord and growisofs. Please update the system."
+msgstr ""
+
+msgid "Mixed CD"
+msgstr ""
+
+msgid "Mkisofs executable not found."
+msgstr ""
+
+msgid "Most likely mkisofs failed in some way."
+msgstr ""
+
+msgid "Most likely the burning failed due to low-quality media."
+msgstr ""
+
+msgid "Most writers do not support writing multisession CDs in DAO mode."
+msgstr ""
+
+msgid "Motion Picture"
+msgstr ""
+
+msgid "Multiple CDDB Entries Found"
+msgstr ""
+
+msgid "Multisession CD"
+msgstr ""
+
+msgid "Need to reload medium to return to proper state."
+msgstr ""
+
+msgid "No DVD+R(W) media found."
+msgstr ""
+
+msgid "No Incremental Streaming"
+msgstr ""
+
+msgid "No Read Permission"
+msgstr ""
+
+msgid "No Simulation with %1"
+msgstr ""
+
+msgid "No Simulation with DVD+R(W)"
+msgstr ""
+
+msgid "No Simulation with DVD-R(W)"
+msgstr ""
+
+msgid "No cdrdao driver found."
+msgstr ""
+
+msgid "No device set"
+msgstr ""
+
+msgid "No device set."
+msgstr ""
+
+msgid "No files to be written."
+msgstr ""
+
+msgid "No medium information"
+msgstr ""
+
+msgid ""
+"No medium inserted or an empty medium in %1. Cannot continue multisession "
+"disk."
+msgstr ""
+
+msgid "No medium present"
+msgstr ""
+
+msgid "No need to format %1 media more than once."
+msgstr ""
+
+msgid "No permission to read the following files:"
+msgstr ""
+
+msgid "No rewritable DVD or BD medium found. Unable to format."
+msgstr ""
+
+msgid "No settings available for plugin %1."
+msgstr ""
+
+msgid "No source medium found."
+msgstr ""
+
+msgid "No such file or directory '%1'."
+msgstr ""
+
+msgid "No support for reading formless Mode2 sectors."
+msgstr ""
+
+msgid "No valid %1 option: %2"
+msgstr ""
+
+msgid "No valid audio cue file: '%1'"
+msgstr ""
+
+msgid "No volume id specified. Using default."
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Normalize volume levels"
+msgstr ""
+
+msgid "Normalizing volume levels"
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "Not enough space left in temporary folder."
+msgstr ""
+
+msgid ""
+"Note: Forcing MPEG2 as VCD is not supported by some standalone DVD players."
+msgstr ""
+
+msgid "OPC failed. Please try writing speed 1x."
+msgstr ""
+
+msgid "OPC failed. Probably the writer does not like the medium."
+msgstr ""
+
+msgid "On the fly"
+msgstr ""
+
+msgid "On-the-fly writing with cdrecord < 2.01a13 not supported."
+msgstr ""
+
+msgid "One copy successfully created"
+msgid_plural "%1 copies successfully created"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "One file (%2) and about 8 MB eMovix data"
+msgid_plural "%1 files (%2) and about 8 MB eMovix data"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "One or more BCD fields out of range for %1"
+msgstr ""
+
+msgid "Only MPEG1 and MPEG2 video files are supported.\n"
+msgstr ""
+
+msgid "Only copying first session."
+msgstr ""
+
+msgid "Only create an image"
+msgstr ""
+
+msgid "Only create image"
+msgstr ""
+
+msgid "Only session 1 will be cloned."
+msgstr ""
+
+msgid "Only simulate the writing process"
+msgstr ""
+
+msgid "Optimum Power Calibration failed."
+msgstr ""
+
+msgid ""
+"PBC (Playback control) enabled.\n"
+"Video players cannot reach Segments (MPEG Still Pictures) without Playback "
+"control."
+msgstr ""
+
+msgid "Performing Optimum Power Calibration"
+msgstr ""
+
+msgid "Please add files to your project first."
+msgstr ""
+
+msgid "Please choose TAO (Track At Once) and try again"
+msgstr ""
+
+msgid "Please choose a lower burning speed."
+msgstr ""
+
+msgid "Please consult the debugging output for details."
+msgstr ""
+
+msgid "Please enable Burnfree or choose a lower burning speed."
+msgstr ""
+
+msgid "Please include the debugging output in your problem report."
+msgstr ""
+
+msgid "Please insert Audio CD %1%2"
+msgstr ""
+
+msgid "Please insert a Data medium"
+msgstr ""
+
+msgid "Please insert a Data medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert a Mixed Mode CD medium"
+msgstr ""
+
+msgid "Please insert a Mixed Mode CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert a Video CD medium"
+msgstr ""
+
+msgid "Please insert a Video CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert a Video DVD medium"
+msgstr ""
+
+msgid "Please insert a Video DVD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert a non-empty medium"
+msgstr ""
+
+msgid "Please insert a non-empty medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert a non-empty rewritable medium"
+msgstr ""
+
+msgid "Please insert a non-empty rewritable medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert a rewritable CD medium into drive<p><b>%1 %2 (%3)</b>."
+msgstr ""
+
+msgid ""
+"Please insert a rewritable DVD or Blu-ray medium into drive<p><b>%1 %2 (%3)</"
+"b>."
+msgstr ""
+
+msgid "Please insert a rewritable medium"
+msgstr ""
+
+msgid "Please insert a rewritable medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert a suitable medium"
+msgstr ""
+
+msgid "Please insert a suitable medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an Audio CD medium"
+msgstr ""
+
+msgid "Please insert an Audio CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty Blu-ray medium"
+msgstr ""
+
+msgid "Please insert an empty Blu-ray medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty CD medium"
+msgstr ""
+
+msgid "Please insert an empty CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty DVD medium"
+msgstr ""
+
+msgid "Please insert an empty DVD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty DVD or Blu-ray medium"
+msgstr ""
+
+msgid "Please insert an empty DVD or Blu-ray medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid ""
+"Please insert an empty DVD+R or a DVD+RW medium into drive<p><b>%1 %2 (%3)</"
+"b>."
+msgstr ""
+
+msgid "Please insert an empty DVD-DL medium"
+msgstr ""
+
+msgid "Please insert an empty DVD-DL medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty medium"
+msgstr ""
+
+msgid "Please insert an empty medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty medium of size %1 or larger"
+msgstr ""
+
+msgid ""
+"Please insert an empty medium of size %1 or larger into drive<p><b>%2</b>"
+msgstr ""
+
+msgid "Please insert an empty or appendable Blu-ray medium"
+msgstr ""
+
+msgid ""
+"Please insert an empty or appendable Blu-ray medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty or appendable CD medium"
+msgstr ""
+
+msgid "Please insert an empty or appendable CD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty or appendable DVD medium"
+msgstr ""
+
+msgid "Please insert an empty or appendable DVD medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty or appendable DVD or Blu-ray medium"
+msgstr ""
+
+msgid ""
+"Please insert an empty or appendable DVD or Blu-ray medium into drive<p><b>"
+"%1</b>"
+msgstr ""
+
+msgid "Please insert an empty or appendable DVD-DL medium"
+msgstr ""
+
+msgid ""
+"Please insert an empty or appendable DVD-DL medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please insert an empty or appendable medium"
+msgstr ""
+
+msgid "Please insert an empty or appendable medium into drive<p><b>%1</b>"
+msgstr ""
+
+msgid "Please reload the medium and press 'OK'"
+msgstr ""
+
+msgid "Please select a device:"
+msgstr ""
+
+msgid "Please select one manually in the device settings."
+msgstr ""
+
+msgid "Please send me an email with the last output."
+msgstr ""
+
+msgid "Please try again with the 'ignore speed' setting."
+msgstr ""
+
+msgid "Please try again with writing mode DAO."
+msgstr ""
+
+msgid ""
+"Please try another brand of media, preferably one explicitly recommended by "
+"your writer's vendor."
+msgstr ""
+
+msgid "Power calibration successful"
+msgstr ""
+
+msgid "Preparing blanking process..."
+msgstr ""
+
+msgid "Preparing burn process..."
+msgstr ""
+
+msgid "Preparing copy process..."
+msgstr ""
+
+msgid "Preparing data"
+msgstr ""
+
+msgid "Preparing read process..."
+msgstr ""
+
+msgid "Preparing write process..."
+msgstr ""
+
+msgid "Probably a buffer underrun occurred."
+msgstr ""
+
+msgid "Probably a problem with the medium."
+msgstr ""
+
+msgid "Probably this is lower than your writer's lowest writing speed."
+msgstr ""
+
+msgid "Probably you chose a too large buffer size."
+msgstr ""
+
+msgid "Problem while reading. Retrying from sector %1."
+msgstr ""
+
+msgid "Quick Format"
+msgstr ""
+
+msgid "RAW recording not supported with this writer"
+msgstr ""
+
+msgid "RLE"
+msgstr ""
+
+msgid "Raw Audio CD Image"
+msgstr ""
+
+msgid "Read error from file '%1'"
+msgstr ""
+
+msgid "Readcd exited abnormally."
+msgstr ""
+
+msgid "Reading"
+msgstr ""
+
+msgid "Reading Session %1"
+msgstr ""
+
+msgid "Reading Source Medium"
+msgstr ""
+
+msgid "Reading clone image"
+msgstr ""
+
+msgid "Reading source medium."
+msgstr ""
+
+msgid "Reading successfully completed"
+msgstr ""
+
+msgid "Reading track %1 of %2"
+msgstr ""
+
+msgid "Reading with sector size %1."
+msgstr ""
+
+msgid "Reloading of medium required"
+msgstr ""
+
+msgid "Reloading the medium"
+msgstr ""
+
+msgid "Remove image"
+msgstr ""
+
+msgid "Remove images from disk when finished"
+msgstr ""
+
+msgid "Remove missing files and continue"
+msgstr ""
+
+msgid "Removed image file %1"
+msgstr ""
+
+msgid "Removing Binary file %1"
+msgstr ""
+
+msgid "Removing Cue file %1"
+msgstr ""
+
+msgid "Removing buffer files."
+msgstr ""
+
+msgid "Removing image files."
+msgstr ""
+
+msgid "Removing incomplete video file '%1'"
+msgstr ""
+
+msgid "Removing reference to lead-out."
+msgstr ""
+
+msgid "Removing temporary files."
+msgstr ""
+
+msgid "Report the problem if it persists anyway."
+msgstr ""
+
+msgid "Resizing picture of title %1 to %2x%3"
+msgstr ""
+
+msgid "Restricted Overwrite is not possible with DVD-R media."
+msgstr ""
+
+msgid "Retrieving all CSS keys. This might take a while."
+msgstr ""
+
+msgid "Retrying from sector %1."
+msgstr ""
+
+msgid "SVCD"
+msgstr ""
+
+msgid "Scanning video file %1 of %2 (%3)"
+msgstr ""
+
+msgid "Searching for old session"
+msgstr ""
+
+msgid "Searching previous session"
+msgstr ""
+
+msgid "Sending CUE sheet"
+msgstr ""
+
+msgid "Set the paranoia level for reading audio CDs"
+msgstr ""
+
+msgid "Setting iso level to 3 to support files bigger than 4 GB."
+msgstr ""
+
+msgid "Shorten Filenames"
+msgstr ""
+
+msgid "Silence"
+msgstr ""
+
+msgid "Simulate"
+msgstr ""
+
+msgid "Simulating"
+msgstr ""
+
+msgid "Simulating CD Cloning"
+msgstr ""
+
+msgid "Simulating CD Copy"
+msgstr ""
+
+msgid "Simulating CD Copy On-The-Fly"
+msgstr ""
+
+msgid "Simulating Clone Image"
+msgstr ""
+
+msgid "Simulating Session %1"
+msgstr ""
+
+msgid "Simulating clone copy"
+msgstr ""
+
+msgid "Simulating copy"
+msgstr ""
+
+msgid "Simulating first session"
+msgstr ""
+
+msgid "Simulating second session"
+msgstr ""
+
+msgid "Simulation successfully completed"
+msgstr ""
+
+msgid ""
+"Since kernel version 2.6.8 cdrecord cannot use SCSI transport when running "
+"suid root anymore."
+msgstr ""
+
+msgid "Single-pass Encoding"
+msgstr ""
+
+msgid "Skip unreadable audio sectors"
+msgstr ""
+
+msgid "Some drives do not support all erase types."
+msgstr ""
+
+msgid ""
+"Some filenames need to be shortened due to the %1 char restriction of the "
+"Joliet extensions. If the Joliet extensions are disabled filenames do not "
+"have to be shortened but long filenames will not be available on Windows "
+"systems."
+msgstr ""
+
+msgid "Sometimes using TAO writing mode solves this issue."
+msgstr ""
+
+msgid "Sorry, no error handling yet."
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Specified an unusable temporary path. Using default."
+msgstr ""
+
+msgid "Start multisession CD"
+msgstr ""
+
+msgid "Starting %1 simulation at %2x speed..."
+msgstr ""
+
+msgid "Starting %1 writing at %2x speed..."
+msgstr ""
+
+msgid "Starting DAO simulation at %1x speed..."
+msgstr ""
+
+msgid "Starting DAO writing at %1x speed..."
+msgstr ""
+
+msgid "Starting blanking..."
+msgstr ""
+
+msgid "Starting copy at %1x speed..."
+msgstr ""
+
+msgid "Starting disc write"
+msgstr ""
+
+msgid "Starting disc write..."
+msgstr ""
+
+msgid "Starting reading..."
+msgstr ""
+
+msgid "Starting simulation at %1x speed..."
+msgstr ""
+
+msgid "Starting simulation copy at %1x speed..."
+msgstr ""
+
+msgid "Starting simulation..."
+msgstr ""
+
+msgid "Starting writing at %1x speed..."
+msgstr ""
+
+msgid "Still Picture"
+msgstr ""
+
+msgid "Successfully decoded all tracks."
+msgstr ""
+
+msgid "Successfully normalized all tracks."
+msgstr ""
+
+msgid "Successfully read disk."
+msgstr ""
+
+msgid "Successfully read session %1."
+msgstr ""
+
+msgid "Successfully read source disk."
+msgstr ""
+
+msgid "Successfully read source medium."
+msgstr ""
+
+msgid "Successfully written clone copy %1."
+msgstr ""
+
+msgid "Successfully written copy %1."
+msgstr ""
+
+msgid "Switching burn speed down to %1x"
+msgstr ""
+
+msgid "Switching burn speed up to %1x"
+msgstr ""
+
+msgid "Switching down burn speed to %1x"
+msgstr ""
+
+msgid "Target"
+msgstr ""
+
+msgid ""
+"The Joliet extensions (which are needed for long filenames on Windows "
+"systems) restrict the length of the volume descriptor (the name of the "
+"filesystem) to %1 characters. The selected descriptor '%2' is longer than "
+"that. Do you want it to be cut or do you want to go back and change it "
+"manually?"
+msgstr ""
+
+msgid "The boot image contains multiple partitions."
+msgstr ""
+
+msgid "The boot image has an invalid size."
+msgstr ""
+
+msgid "The disk is either empty or not appendable."
+msgstr ""
+
+msgid "The disk might still be readable."
+msgstr ""
+
+msgid ""
+"The following files could not be found. Do you want to remove them from the "
+"project and continue without adding them to the image?"
+msgstr ""
+
+msgid "The formatting will continue in the background during writing."
+msgstr ""
+
+msgid "The project does not contain all necessary Video DVD files."
+msgstr ""
+
+msgid "The remaining byte of the stream will be ignored."
+msgid_plural "The remaining %1 bytes of the stream will be ignored."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"The resulting DVD will most likely not be playable on a Hifi DVD player."
+msgstr ""
+
+msgid "The source disk is empty."
+msgstr ""
+
+msgid "The writer does not support writing Double Layer DVDs."
+msgstr ""
+
+msgid "This error is caused by the low memorylocked resource limit."
+msgstr ""
+
+msgid "This growisofs version does not support writing Double Layer DVDs."
+msgstr ""
+
+msgctxt ""
+"This is the default volume identifier of a data project created by K3b. The "
+"string should not be longer than 16 characters to avoid warnings regarding "
+"Joiliet extensions which induce this restriction."
+msgid "K3b data project"
+msgstr ""
+
+msgid ""
+"This looks like a RIFF header but a plain multiplexed program stream was "
+"required."
+msgstr ""
+
+msgid ""
+"This looks like an elementary audio stream but a multiplexed program stream "
+"was required."
+msgstr ""
+
+msgid ""
+"This looks like an elementary video stream but a multiplexed program stream "
+"was required."
+msgstr ""
+
+msgid ""
+"This may be caused by a system update which changed the local character set."
+msgstr ""
+
+msgid ""
+"This might result in a corrupt copy if the source was mastered with buggy "
+"software."
+msgstr ""
+
+msgid "Track %1 from Audio CD %2"
+msgstr ""
+
+msgid "Track %1 is already normalized."
+msgstr ""
+
+msgid "Track 1 of 1"
+msgstr ""
+
+msgid "Track lengths below 4 seconds violate the Red Book standard."
+msgstr ""
+
+msgid "Transcoding title %1 from Video DVD %2"
+msgstr ""
+
+msgid "Try DAO writing mode."
+msgstr ""
+
+msgid ""
+"Try adding '-use-the-force-luke=noopc' to the growisofs user parameters in "
+"the K3b settings."
+msgstr ""
+
+msgid "Try again using 'Complete' erasing."
+msgstr ""
+
+msgid "Trying to write more than the official disk capacity"
+msgstr ""
+
+msgid "Turning BURN-Proof on"
+msgstr ""
+
+msgid "Two-pass Encoding: First Pass"
+msgstr ""
+
+msgid "Two-pass Encoding: Second Pass"
+msgstr ""
+
+msgid "Unable to allocate software buffer."
+msgstr ""
+
+msgid "Unable to close the tray"
+msgstr ""
+
+msgid "Unable to create folder '%1'"
+msgstr ""
+
+msgid "Unable to create temporary folder '%1'."
+msgstr ""
+
+msgid "Unable to determine free space in temporary folder '%1'."
+msgstr ""
+
+msgid "Unable to determine maximum speed for some reason. Ignoring."
+msgstr ""
+
+msgid "Unable to determine media state."
+msgstr ""
+
+msgid "Unable to determine the current formatting state of the DVD-RW medium."
+msgstr ""
+
+msgid "Unable to determine the last track's datamode. Using default."
+msgstr ""
+
+msgid "Unable to eject media."
+msgstr ""
+
+msgid "Unable to eject medium."
+msgstr ""
+
+msgid "Unable to fixate the disk."
+msgstr ""
+
+msgid "Unable to handle '%1' due to an unsupported format."
+msgstr ""
+
+msgid "Unable to open '%1' for writing."
+msgstr ""
+
+msgid "Unable to open libdvdcss."
+msgstr ""
+
+msgid "Unable to open new session."
+msgstr ""
+
+msgid "Unable to read Table of contents"
+msgstr ""
+
+msgid "Unable to read track %1."
+msgstr ""
+
+msgid "Unable to send CUE sheet."
+msgstr ""
+
+msgid "Unable to set write speed to %1."
+msgstr ""
+
+msgid "Unable to set writing speed."
+msgstr ""
+
+msgid "Unable to write on-the-fly with these audio sources."
+msgstr ""
+
+msgid "Uncorrected error in sector %1"
+msgstr ""
+
+msgid "Unlocking drive..."
+msgstr ""
+
+msgid "Unmounting medium"
+msgstr ""
+
+msgid "Unmounting source medium"
+msgstr ""
+
+msgid "Unrecoverable error while ripping track %1."
+msgstr ""
+
+msgid "Unspecified"
+msgstr ""
+
+msgid "Unsupported media type."
+msgstr ""
+
+msgid "Unsupported media type: %1"
+msgstr ""
+
+msgid "Unsupported sector type."
+msgstr ""
+
+msgid "Updating RMA"
+msgstr ""
+
+msgid "Updating RMA..."
+msgstr ""
+
+msgid "Use Burnfree"
+msgstr ""
+
+msgid "Use the 'force unsafe operations' option to ignore this."
+msgstr ""
+
+msgid "Use this setting to preserve 5.1 channel sound from the DVD."
+msgstr ""
+
+msgid "Used version of mkisofs does not have large file support."
+msgstr ""
+
+msgid "Using %1 %2 – Copyright © %3"
+msgstr ""
+
+msgid "Using readcd %1 instead of default version for clone support."
+msgstr ""
+
+msgid "Using temporary folder %1."
+msgstr ""
+
+msgid "VCD"
+msgstr ""
+
+msgid "Verify written data"
+msgstr ""
+
+msgid "Verifying copy"
+msgstr ""
+
+msgid "Verifying copy %1"
+msgstr ""
+
+msgid "Verifying track %1"
+msgstr ""
+
+msgid "Verifying written copy %1 of %2"
+msgstr ""
+
+msgid "Verifying written data"
+msgstr ""
+
+msgid "Video CD"
+msgstr ""
+
+msgid "Video DVD"
+msgstr ""
+
+msgid "Video DVD decryption failed."
+msgstr ""
+
+msgid "Waiting for a medium"
+msgstr ""
+
+msgid "Waiting for media"
+msgstr ""
+
+msgid "Waiting for medium"
+msgstr ""
+
+msgid "Waiting for source medium"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Warning at exit: (1)"
+msgstr ""
+
+msgid "When erasing a CD-RW no progress information is available."
+msgstr ""
+
+msgid ""
+"With this setting K3b will create a two-channel stereo Dolby Digital audio "
+"stream."
+msgstr ""
+
+msgid ""
+"With this setting K3b will create a two-channel stereo MPEG1 Layer III audio "
+"stream."
+msgstr ""
+
+msgid ""
+"With this setting K3b will use the Dolby Digital audio stream from the "
+"source DVD without changing it."
+msgstr ""
+
+msgid "Write Binary Image"
+msgstr ""
+
+msgid "Write error"
+msgstr ""
+
+msgid "Write files directly to CD/DVD without creating an image"
+msgstr ""
+
+msgid "Write in disk at once mode"
+msgstr ""
+
+msgid "Writer does not support buffer underrun free recording (Burnfree)"
+msgstr ""
+
+msgid "Writer does not support disk at once (DAO) recording"
+msgstr ""
+
+msgid "Writer does not support raw writing."
+msgstr ""
+
+msgid "Writing"
+msgstr ""
+
+msgid "Writing %1"
+msgstr ""
+
+msgid "Writing %1 in DAO mode."
+msgstr ""
+
+msgid "Writing %1 in incremental mode."
+msgstr ""
+
+msgid "Writing %1."
+msgstr ""
+
+msgid "Writing Audio CD"
+msgstr ""
+
+msgid "Writing Audio Cue File"
+msgstr ""
+
+msgid "Writing BD copy"
+msgstr ""
+
+msgid "Writing CD in Raw mode."
+msgstr ""
+
+msgid "Writing CD in Session At Once mode."
+msgstr ""
+
+msgid "Writing CD in Track At Once mode."
+msgstr ""
+
+msgid "Writing CD-Text lead-in..."
+msgstr ""
+
+msgid "Writing Copy"
+msgstr ""
+
+msgid "Writing Copy %1"
+msgstr ""
+
+msgid "Writing Copy %1 (Session %2)"
+msgstr ""
+
+msgid "Writing Copy %1 of %2"
+msgstr ""
+
+msgid "Writing Copy (Session %1)"
+msgstr ""
+
+msgid "Writing DVD copy"
+msgstr ""
+
+msgid "Writing DVD-RW in DAO mode."
+msgstr ""
+
+msgid "Writing DVD-RW in incremental mode."
+msgstr ""
+
+msgid "Writing DVD-RW in restricted overwrite mode."
+msgstr ""
+
+msgid "Writing Data Project"
+msgstr ""
+
+msgid "Writing Double Layer DVD+R."
+msgstr ""
+
+msgid "Writing Enhanced Audio CD"
+msgstr ""
+
+msgid "Writing High-Quality Video CD"
+msgstr ""
+
+msgid "Writing Lead-out"
+msgstr ""
+
+msgid "Writing Leadin"
+msgstr ""
+
+msgid "Writing Leadout"
+msgstr ""
+
+msgid "Writing Mixed Mode CD"
+msgstr ""
+
+msgid "Writing Multisession Project"
+msgstr ""
+
+msgid "Writing Super Video CD"
+msgstr ""
+
+msgid "Writing Track %1 of %2"
+msgstr ""
+
+msgid "Writing Video CD"
+msgstr ""
+
+msgid "Writing Video CD (Version 1.1)"
+msgstr ""
+
+msgid "Writing Video CD (Version 2.0)"
+msgstr ""
+
+msgid "Writing Video DVD"
+msgstr ""
+
+msgid "Writing canceled."
+msgstr ""
+
+msgid "Writing clone copy %1"
+msgstr ""
+
+msgid "Writing copy"
+msgstr ""
+
+msgid "Writing copy %1"
+msgstr ""
+
+msgid "Writing copy %1 of %2"
+msgstr ""
+
+msgid "Writing cue/bin Image"
+msgstr ""
+
+msgid "Writing data"
+msgstr ""
+
+msgid "Writing eMovix Project"
+msgstr ""
+
+msgid "Writing eMovix Project (%1)"
+msgstr ""
+
+msgid "Writing first session"
+msgstr ""
+
+msgid "Writing first session of copy %1"
+msgstr ""
+
+msgid "Writing image"
+msgstr ""
+
+msgid "Writing image file to %1."
+msgstr ""
+
+msgid "Writing image to %1."
+msgstr ""
+
+msgid "Writing mode Incremental Streaming not available"
+msgstr ""
+
+msgid "Writing mode ignored when writing %1 media."
+msgstr ""
+
+msgid "Writing mode ignored when writing DVD+R(W) media."
+msgstr ""
+
+msgid "Writing pregap"
+msgstr ""
+
+msgid "Writing rewritable CD in Raw mode."
+msgstr ""
+
+msgid "Writing rewritable CD in Session At Once mode."
+msgstr ""
+
+msgid "Writing rewritable CD in Track At Once mode."
+msgstr ""
+
+msgid "Writing second session"
+msgstr ""
+
+msgid "Writing second session of copy %1"
+msgstr ""
+
+msgid "Writing speed: %1 KB/s (%2x)"
+msgstr ""
+
+msgid "Writing successfully completed"
+msgstr ""
+
+msgid "Writing the lead-out may take some time."
+msgstr ""
+
+msgid "Writing track %1 of %2"
+msgstr ""
+
+msgid "Writing track %1 of %2 (%3)"
+msgstr ""
+
+msgid "Writing track %1 of %2%3"
+msgstr ""
+
+msgid "Written data in track %1 differs from original."
+msgstr ""
+
+msgid "Written data verified."
+msgstr ""
+
+msgid "Wrong File Format"
+msgstr ""
+
+msgid "Wrong File Type for This Project"
+msgstr ""
+
+msgid "XviD"
+msgstr ""
+
+msgid ""
+"XviD features MPEG-4 Advanced Profile settings such as b-frames, global and "
+"quarter pixel motion compensation, lumi masking, trellis quantization, and "
+"H.263, MPEG and custom quantization matrices."
+msgstr ""
+
+msgid ""
+"XviD is a free and open source MPEG-4 video codec. XviD was created by a "
+"group of volunteer programmers after the OpenDivX source was closed in July "
+"2001."
+msgstr ""
+
+msgid ""
+"XviD is a primary competitor of DivX (XviD being DivX spelled backwards). "
+"While DivX is closed source and may only run on Windows, Mac OS and Linux, "
+"XviD is open source and can potentially run on any platform."
+msgstr ""
+
+msgid ""
+"You cannot mix MPEG1 and MPEG2 video files.\n"
+"Please start a new Project for this filetype.\n"
+"Resample not implemented in K3b yet."
+msgstr ""
+
+msgid ""
+"You may use K3b::Setup to solve this problem or remove the suid bit manually."
+msgstr ""
+
+msgid ""
+"You will only be able to copy the first session in raw writing mode. "
+"Continue anyway?"
+msgstr ""
+
+msgid ""
+"Your writer (%1 %2) does not support Incremental Streaming with %3 media. "
+"Multisession will not be possible. Continue anyway?"
+msgstr ""
+
+msgid ""
+"Your writer (%1 %2) does not support simulation with DVD-R(W) media. Do you "
+"really want to continue? The media will actually be written to."
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "dual channel"
+msgstr ""
+
+msgid "duplicate"
+msgstr ""
+
+msgid "invalid"
+msgstr ""
+
+msgid "joint stereo"
+msgstr ""
+
+msgid "n/a"
+msgstr ""
+
+msgid "no tracks added"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "original"
+msgstr ""
+
+msgctxt "plugin type"
+msgid "Audio Decoder"
+msgstr ""
+
+msgctxt "plugin type"
+msgid "Audio Encoder"
+msgstr ""
+
+msgctxt "plugin type"
+msgid "Project plugin"
+msgstr ""
+
+msgid "single channel"
+msgstr ""
+
+msgid "specified track number '%1' not found on medium"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+msgid "surround sound"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "unknown audio code extension"
+msgstr ""
+
+msgid "unknown audio format"
+msgstr ""
+
+msgid "unknown code extension"
+msgstr ""
+
+msgid "unknown coding mode"
+msgstr ""
+
+msgctxt "%1 is type of medium (e.g. DVD)"
+msgid "rewritable %1"
+msgstr ""
+
+msgid "%2 in %1 track"
+msgid_plural "%2 in %1 tracks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgctxt "%2 is of form XX:YY:ZZ, no pluralization needed"
+msgid "1 track (%2 minutes audio data, %3 ISO 9660 data)"
+msgid_plural "%1 tracks (%2 minutes audio data, %3 ISO 9660 data)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid ""
+"<p>If this option is checked K3b uses some otherwise-unused space on the "
+"audio CD to store additional information, such as the artist's name, or the "
+"CD title.<p>CD-Text is an extension to the audio CD standard introduced by "
+"Sony.<p>CD-Text will only be usable on CD players that support this "
+"extension (mostly car CD players).<p>Since a CD-Text-enhanced CD will work "
+"in any CD player it is never a bad idea to enable this (if you specify CD-"
+"Text data.)"
+msgstr ""
+
+msgid "Blanking error."
+msgstr ""
+
+msgid "Burning ISO 9660 Image"
+msgstr ""
+
+msgid "CD-Text"
+msgstr ""
+
+msgid "CDDB error (%1)."
+msgstr ""
+
+msgid "Capacity of the medium in %1 is smaller than required."
+msgstr ""
+
+msgid "Could not open ISO 9660 filesystem in %1."
+msgstr ""
+
+msgid "Create CD-Text entries"
+msgstr ""
+
+msgid "Creating Cue/Bin files..."
+msgstr ""
+
+msgid ""
+"Found CD-Text (%1 - %2) and CDDB (%3 - %4) entries. Which one should be used "
+"to generate the CD-Text on the new CD?"
+msgstr ""
+
+msgid "Found CD-Text (%1 - %2)."
+msgstr ""
+
+msgid "Found CDDB entry (%1 - %2)."
+msgstr ""
+
+msgid "Found corrupted CD-Text. Ignoring it."
+msgstr ""
+
+msgid "Growing ISO 9660 filesystem on %1."
+msgstr ""
+
+msgid "Growing ISO 9660 filesystem on DVD+RW."
+msgstr ""
+
+msgid "Growing ISO 9660 filesystem on DVD-RW in restricted overwrite mode."
+msgstr ""
+
+msgid "ISO 9660 Filesystem (Size: %1)"
+msgstr ""
+
+msgid "ISO 9660 Filesystem (Size: %2) – One copy"
+msgid_plural "ISO 9660 Filesystem (Size: %2) – %1 copies"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "ISO 9660 data"
+msgstr ""
+
+msgid "ISO 9660/Udf Filesystem (Size: %1)"
+msgstr ""
+
+msgid "K3b relies on the size saved in the ISO 9660 header."
+msgstr ""
+
+msgid "Medium in %1 is not %2."
+msgstr ""
+
+msgid "Medium in %1 is not a %2."
+msgstr ""
+
+msgid "Modify device settings in K3b to solve this problem."
+msgstr ""
+
+msgid "Modifying ISO 9660 volume descriptor"
+msgstr ""
+
+msgid "No CD-Text found."
+msgstr ""
+
+msgid "No CDDB entry found."
+msgstr ""
+
+msgid "Querying CDDB"
+msgstr ""
+
+msgid "Searching CD-Text"
+msgstr ""
+
+msgid "Simulating ISO 9660 Image"
+msgstr ""
+
+msgctxt ""
+"To be shown when a Blu-ray is required but another type of medium is "
+"inserted."
+msgid "Blu-ray"
+msgstr ""
+
+msgctxt ""
+"To be shown when a CD is required but another type of medium is inserted."
+msgid "CD"
+msgstr ""
+
+msgctxt ""
+"To be shown when a DVD is required but another type of medium is inserted."
+msgid "DVD"
+msgstr ""
+
+msgctxt ""
+"To be shown when a DVD or Blu-ray is required but another type of medium is "
+"inserted."
+msgid "DVD or Blu-ray"
+msgstr ""
+
+msgctxt ""
+"To be shown when a DVD-DL is required but another type of medium is inserted."
+msgid "DVD-DL"
+msgstr ""
+
+msgctxt ""
+"To be shown when a specific type of medium is required but another type of "
+"medium is inserted."
+msgid "suitable medium"
+msgstr ""
+
+msgctxt "To be shown when an empty medium is required"
+msgid "empty"
+msgstr ""
+
+msgctxt "To be shown when an empty or appendable medium is required"
+msgid "empty or appendable"
+msgstr ""
+
+msgctxt "To be shown when an non-empty medium is required"
+msgid "non-empty"
+msgstr ""
+
+msgctxt "To be shown when the state of the inserted medium is not suitable."
+msgid "suitable"
+msgstr ""
+
+msgid "To create Video CDs you have to install VcdImager version %1."
+msgstr ""
+
+msgid "Unable to determine the ISO 9660 filesystem size."
+msgstr ""
+
+msgid "Use CD-Text data"
+msgstr ""
+
+msgid "Use CDDB entry"
+msgstr ""
+
+msgid "Write CD-Text"
+msgstr ""
+
+msgid "Writing leadin"
+msgstr ""
+
+msgid "Writing leadout"
+msgstr ""
+
+msgid "rewritable medium"
+msgstr ""
+
+msgid "Cdrskin %1 does not support overburning."
+msgstr ""
+
+msgid "Cdrskin does not support writing %1 media."
+msgstr ""
+
+msgid "Cdrskin version %1 does not support Blu-ray writing."
+msgstr ""
+
+msgid "Disable inhibition for disc writing"
+msgstr ""
+
+msgid "Found files bigger than 2 GB. These files will be fully accessible."
+msgstr ""
+
+msgid "Found invalid entry in the VIDEO_TS folder <filename>%1</filename>."
+msgstr ""
+
+msgid "If you are running an unpatched cdrskin version..."
+msgstr ""
+
+msgid "Inhibiting sleep for disc writing"
+msgstr ""
+
+msgid ""
+"Medium is not of multi-session type and does not contain ISO 9660. Cannot "
+"emulate multi-session on it."
+msgstr ""
+
+msgid "No version of cdrskin can do this yet."
+msgstr ""
+
+msgid ""
+"Since kernel version 2.6.8 cdrskin cannot use SCSI transport when running "
+"suid root anymore."
+msgstr ""
+
+msgid "Unable to create Invalid temporary folder <filename>%1</filename>."
+msgstr ""
+
+msgid "Unable to create temporary folder <filename>%1</filename>."
+msgstr ""
+
+msgid "Unable to link temporary file in folder <filename>%1</filename>."
+msgstr ""
+
+msgid ""
+"You can find this on your distribution disks or download it from https://www."
+"gnu.org/software/vcdimager"
+msgstr ""
+
+msgid ""
+"You may use convmv (https://j3e.de/linux/convmv/) to fix the filename "
+"encoding."
+msgstr ""

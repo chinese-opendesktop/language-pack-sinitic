@@ -1,3 +1,5 @@
+# lconvert --drop-translations foobar_*.qm -o foobar.ts
+
 build:
 	make -C Qt4 build
 	make -C Qt5 build

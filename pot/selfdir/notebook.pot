@@ -1,0 +1,419 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-07-08 21:52-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d active kernel"
+msgid_plural "%d active kernels"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"\n"
+"        DISABLED: use %pylab or %matplotlib in the notebook to enable "
+"matplotlib.\n"
+"        "
+msgstr ""
+
+msgid ""
+"\n"
+"        Set the tornado compression options for websocket connections.\n"
+"\n"
+"        This value will be returned from :meth:`WebSocketHandler."
+"get_compression_options`.\n"
+"        None (default) will disable compression.\n"
+"        A dict (even an empty one) will enable compression.\n"
+"\n"
+"        See the tornado docs for WebSocketHandler.get_compression_options "
+"for details.\n"
+"        "
+msgstr ""
+
+msgid ""
+"\n"
+"    webapp_settings is deprecated, use tornado_settings.\n"
+msgstr ""
+
+msgid "%s does not exist"
+msgstr ""
+
+msgid ""
+"(bytes/sec)\n"
+"        Maximum rate at which stream output can be sent on iopub before they "
+"are\n"
+"        limited."
+msgstr ""
+
+msgid ""
+"(msgs/sec)\n"
+"        Maximum rate at which messages can be sent on iopub before they are\n"
+"        limited."
+msgstr ""
+
+msgid ""
+"(sec) Time window used to \n"
+"        check the message and data rate limits."
+msgstr ""
+
+msgid "Allow the notebook to be run from root user."
+msgstr ""
+
+msgid ""
+"Alternatively use `%s` when working on the notebook's Javascript and LESS"
+msgstr ""
+
+msgid ""
+"Cannot bind to localhost, using 127.0.0.1 as default ip\n"
+"%s"
+msgstr ""
+
+msgid "Could not set permissions on %s"
+msgstr ""
+
+msgid "Currently running servers:"
+msgstr ""
+
+msgid "DEPRECATED use base_url"
+msgstr ""
+
+msgid "DEPRECATED use the nbserver_extensions dict instead"
+msgstr ""
+
+msgid "DEPRECATED, use tornado_settings"
+msgstr ""
+
+msgid ""
+"DISABLED: use %pylab or %matplotlib in the notebook to enable matplotlib."
+msgstr ""
+
+msgid ""
+"Deprecated: Use minified JS file or not, mainly use during dev to avoid JS "
+"recompilation"
+msgstr ""
+
+msgid ""
+"Dict of Python modules to load as notebook server extensions.Entry values "
+"can be used to enable and disable the loading ofthe extensions. The "
+"extensions will be loaded in alphabetical order."
+msgstr ""
+
+msgid "Don't open the notebook in a browser after startup."
+msgstr ""
+
+msgid ""
+"ERROR: the notebook server could not be started because no available port "
+"could be found."
+msgstr ""
+
+msgid "Error loading server extension %s"
+msgstr ""
+
+msgid ""
+"Extra keyword arguments to pass to `set_secure_cookie`. See tornado's "
+"set_secure_cookie docs for details."
+msgstr ""
+
+msgid ""
+"Extra paths to search for serving jinja templates.\n"
+"\n"
+"        Can be used to override templates from notebook.templates."
+msgstr ""
+
+msgid "Extra variables to supply to jinja templates when rendering."
+msgstr ""
+
+msgid "Hint: run the following command to set a password"
+msgstr ""
+
+msgid ""
+"If True, each line of output will be a JSON object with the details from the "
+"server info file."
+msgstr ""
+
+msgid "Interrupted..."
+msgstr ""
+
+msgid "List currently running notebook servers."
+msgstr ""
+
+msgid "No answer for 5s:"
+msgstr ""
+
+msgid "No such file or directory: %s"
+msgstr ""
+
+msgid "No such notebook dir: '%r'"
+msgstr ""
+
+msgid "No web browser found: %s."
+msgstr ""
+
+msgid "Notebook servers are configured to only be run with a password."
+msgstr ""
+
+msgid ""
+"One-time token used for opening a browser.\n"
+"        Once used, this token cannot be used again.\n"
+"        "
+msgstr ""
+
+msgid "Path to search for custom.js, css"
+msgstr ""
+
+msgid "Permission to listen on port %i denied"
+msgstr ""
+
+msgid "Please use `%pylab{0}` or `%matplotlib{0}` in the notebook itself."
+msgstr ""
+
+msgid "Produce machine-readable JSON output."
+msgstr ""
+
+msgid "Reraise exceptions encountered loading server extensions?"
+msgstr ""
+
+msgid "Running as root is not recommended. Use --allow-root to bypass."
+msgstr ""
+
+msgid "Serving notebooks from local directory: %s"
+msgstr ""
+
+msgid "Set the Access-Control-Allow-Credentials: true header"
+msgstr ""
+
+msgid "Shutdown confirmed"
+msgstr ""
+
+msgid "Shutdown this notebook server (%s/[%s])? "
+msgstr ""
+
+msgid "Shutting down %d kernels"
+msgstr ""
+
+msgid ""
+"Specify Where to open the notebook on startup. This is the\n"
+"        `new` argument passed to the standard library method `webbrowser."
+"open`.\n"
+"        The behaviour is not guaranteed, but depends on browser support. "
+"Valid\n"
+"        values are:\n"
+"            2 opens a new tab,\n"
+"            1 opens a new window,\n"
+"            0 opens in an existing window.\n"
+"        See the `webbrowser.open` documentation for details.\n"
+"        "
+msgstr ""
+
+msgid ""
+"Supply SSL options for the tornado HTTPServer.\n"
+"            See the tornado docs for details."
+msgstr ""
+
+msgid "Supply extra arguments that will be passed to Jinja environment."
+msgstr ""
+
+msgid ""
+"Supply overrides for terminado. Currently only supports \"shell_command\"."
+msgstr ""
+
+msgid ""
+"Supply overrides for the tornado.web.Application that the Jupyter notebook "
+"uses."
+msgstr ""
+
+msgid "Support for specifying --pylab on the command line has been removed."
+msgstr ""
+
+msgid "Terminals not available (error was %s)"
+msgstr ""
+
+msgid "The IP address the notebook server will listen on."
+msgstr ""
+
+msgid ""
+"The Jupyter HTML Notebook.\n"
+"    \n"
+"    This launches a Tornado based HTML Notebook Server that serves up an "
+"HTML5/Javascript Notebook client."
+msgstr ""
+
+msgid ""
+"The Jupyter Notebook is running at:\n"
+"%s"
+msgstr ""
+
+msgid "The Jupyter Notebook requires tornado >= 4.0"
+msgstr ""
+
+msgid "The Jupyter Notebook requires tornado >= 4.0, but you have %s"
+msgstr ""
+
+msgid "The Jupyter Notebook requires tornado >= 4.0, but you have < 1.1.0"
+msgstr ""
+
+msgid "The MathJax.js configuration file that is to be used."
+msgstr ""
+
+msgid "The `ignore_minified_js` flag is deprecated and no longer works."
+msgstr ""
+
+msgid ""
+"The `ignore_minified_js` flag is deprecated and will be removed in Notebook "
+"6.0"
+msgstr ""
+
+msgid "The config manager class to use"
+msgstr ""
+
+msgid "The default URL to redirect to from `/`"
+msgstr ""
+
+msgid "The directory to use for notebooks and kernels."
+msgstr ""
+
+msgid "The file where the cookie secret is stored."
+msgstr ""
+
+msgid ""
+"The full path to a certificate authority certificate for SSL/TLS client "
+"authentication."
+msgstr ""
+
+msgid "The full path to a private key file for usage with SSL/TLS."
+msgstr ""
+
+msgid "The full path to an SSL/TLS certificate file."
+msgstr ""
+
+msgid "The kernel manager class to use."
+msgstr ""
+
+msgid "The login handler class to use."
+msgstr ""
+
+msgid "The logout handler class to use."
+msgstr ""
+
+msgid "The notebook manager class to use."
+msgstr ""
+
+msgid ""
+"The number of additional ports to try if the specified port is not available."
+msgstr ""
+
+msgid "The port %i is already in use, trying another port."
+msgstr ""
+
+msgid "The port the notebook server will listen on."
+msgstr ""
+
+msgid "The session manager class to use."
+msgstr ""
+
+msgid ""
+"Token used for authenticating first-time connections to the server.\n"
+"\n"
+"        When no password is enabled,\n"
+"        the default is to generate a new, random token.\n"
+"\n"
+"        Setting to an empty string disables authentication altogether, which "
+"is NOT RECOMMENDED.\n"
+"        "
+msgstr ""
+
+msgid ""
+"Use Control-C to stop this server and shut down all kernels (twice to skip "
+"confirmation)."
+msgstr ""
+
+msgid "Using MathJax configuration file: %s"
+msgstr ""
+
+msgid "Using MathJax: %s"
+msgstr ""
+
+msgid ""
+"Welcome to Project Jupyter! Explore the various tools available and their "
+"corresponding documentation. If you are interested in contributing to the "
+"platform, please visit the communityresources section at http://jupyter.org/"
+"community.html."
+msgstr ""
+
+msgid "Whether to allow the user to run the notebook as root."
+msgstr ""
+
+msgid ""
+"Whether to trust or not X-Scheme/X-Forwarded-Proto and X-Real-Ip/X-Forwarded-"
+"For headerssent by the upstream reverse proxy. Necessary if the proxy "
+"handles SSL"
+msgstr ""
+
+msgid "Writing notebook server cookie secret to %s"
+msgstr ""
+
+msgid "[all ip addresses on your system]"
+msgstr ""
+
+msgid "base_project_url is deprecated, use base_url"
+msgstr ""
+
+msgid "extra paths to look for Javascript notebook extensions"
+msgstr ""
+
+msgid "interrupted"
+msgstr ""
+
+msgid "received signal %s, stopping"
+msgstr ""
+
+msgid "resuming operation..."
+msgstr ""
+
+msgid "server_extensions is deprecated, use nbserver_extensions"
+msgstr ""
+
+msgid "\t$ python -m notebook.auth password"
+msgstr ""
+
+msgid ""
+"The Jupyter Notebook is running at:\n"
+"\r%s"
+msgstr ""
+
+msgid "Untitled"
+msgstr ""
+
+msgid "n"
+msgstr ""
+
+msgid "y"
+msgstr ""
+
+msgid ""
+"If True, each line of output will be a JSON object with the details from the "
+"server info file. For a JSON list output, see the NbserverListApp.jsonlist "
+"configuration value"
+msgstr ""
+
+msgid ""
+"If True, the output will be a JSON list of objects, one per active notebook "
+"server, each with the details from the relevant server info file."
+msgstr ""
+
+msgid "Produce machine-readable JSON list output."
+msgstr ""
+
+msgid "Produce machine-readable JSON object on each line of output."
+msgstr ""
+
+msgid "Shutting down %d kernel"
+msgid_plural "Shutting down %d kernels"
+msgstr[0] ""

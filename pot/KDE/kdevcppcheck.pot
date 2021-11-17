@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2016-12-19 02:31+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+msgid "Cppcheck"
+msgstr ""
+
+msgid "Cppcheck XML Parsing: error at line %1, column %2: %3"
+msgstr ""
+
+msgid "Cppcheck crashed."
+msgstr ""
+
+msgid "Cppcheck process timed out."
+msgstr ""
+
+msgid "Read from Cppcheck process failed."
+msgstr ""
+
+msgid "Write to Cppcheck process failed."
+msgstr ""
+
+msgctxt "@action"
+msgid "Analyze Current File with Cppcheck"
+msgstr ""
+
+msgctxt "@action"
+msgid "Analyze Current Project with Cppcheck"
+msgstr ""
+
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<html>\n"
+"\n"
+"<p>Defines additional parameters for cppcheck (see documentation).</p>\n"
+"\n"
+"<p>You can use the following placeholders:</p>\n"
+"\n"
+"<p><b><tt>%p</tt></b> - Gets replaced by the URL of the project's root "
+"directory.</p>\n"
+"\n"
+"<p><b><tt>%b</tt></b> - Gets replaced by the URL of the project's build "
+"directory.</p>\n"
+"\n"
+"</html>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<html>\n"
+"\n"
+"<p>Defines semicolon-separated list of ignored include directories.</p>\n"
+"\n"
+"<p>You can use the following placeholders:</p>\n"
+"\n"
+"<p><b><tt>%p</tt></b> - Gets replaced by the URL of the project's root "
+"directory.</p>\n"
+"\n"
+"<p><b><tt>%b</tt></b> - Gets replaced by the URL of the project's build "
+"directory.</p>\n"
+"\n"
+"</html>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Add other, 'system' include directories to Cppcheck arguments.<br/><br/"
+">Be careful with using this option - it can dramatically slow checking.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Force checking of files that have a lot of configurations. Error is "
+"printed if such a file is found so there is no reason to use this by "
+"default. If used together with '--max-configs=', the last option is the one "
+"that is effective.<br/><br/>Be careful with using this option - it can "
+"dramatically slow checking.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"Add 'project' include directories to Cppcheck arguments. This option adds "
+"only paths related with project's root and build directories."
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"Allow that Cppcheck reports even though the analysis is inconclusive. There "
+"are false positives with this option. Each result must be carefully "
+"investigated before you know if it is good or bad."
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"Check Cppcheck configuration. The normal code analysis is disabled by this "
+"flag."
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"Check for unused functions. It is recommend to only enable this when the "
+"whole program is scanned"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"Enable all coding style checks. All messages with the severities 'style', "
+"'performance' and 'portability' are enabled."
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid "Enable information messages"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid "Enable performance messages"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid "Enable portability messages"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid "Re-run last Cppcheck analysis"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"Warn if there are missing includes. For detailed information use 'check-"
+"config'"
+msgstr ""
+
+msgctxt "@info:tooltip %1 is the path of the file"
+msgid "Re-run last Cppcheck analysis (%1)"
+msgstr ""
+
+msgctxt "@item:inmenu"
+msgid "Cppcheck"
+msgstr ""
+
+msgctxt "@label:chooser"
+msgid "Cppchec&k executable:"
+msgstr ""
+
+msgctxt "@label:textbox"
+msgid "&Ignored includes:"
+msgstr ""
+
+msgctxt "@label:textbox"
+msgid "Ex&tra parameters:"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Break lines"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Check config"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Force checking"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Hide output view during check"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Inconclusive analysis"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Information"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Missing include"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Performance"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Portability"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Show Cppcheck XML output in the output view"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Style"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Unused function"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Use 'project' include dirs"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Use 'system' include dirs"
+msgstr ""
+
+msgctxt "@title:group"
+msgid "Command Line"
+msgstr ""
+
+msgctxt "@title:group"
+msgid "Output"
+msgstr ""
+
+msgctxt "@title:group"
+msgid "Paths"
+msgstr ""
+
+msgctxt "@title:tab"
+msgid "Checks"
+msgstr ""
+
+msgctxt "@title:tab"
+msgid "Configure Cppcheck Settings"
+msgstr ""
+
+msgctxt "@title:tab"
+msgid "Cppcheck"
+msgstr ""
+
+msgctxt "@title:tab"
+msgid "Extra Parameters"
+msgstr ""
+
+msgctxt "@title:tab"
+msgid "Include Directories"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Test"
+msgstr ""
+
+msgid "Analysis completed, no problems detected."
+msgstr ""
+
+msgid "Analysis started..."
+msgstr ""
+
+msgid "Cppcheck Analysis (%1)"
+msgstr ""
+
+msgid "Failed to start Cppcheck from \"%1\"."
+msgstr ""
+
+msgid ""
+"It seems that this project uses Qt library. For correctly work of cppcheck "
+"the value for define Q_MOC_OUTPUT_REVISION must be set. Unfortunately, the "
+"plugin is unable to find this value automatically - you should set it "
+"manually by adding '-DQ_MOC_OUTPUT_REVISION=XX' to extra parameters. The "
+"'XX' value can be found in any project's moc-generated file or in the "
+"<QtCore/qobjectdefs.h> header file."
+msgstr ""

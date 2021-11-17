@@ -1,0 +1,3068 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesvn\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2015-02-25 23:23+0100\n"
+"Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
+"Language-Team: bosanski <bs@li.org>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Launchpad (build 17341)\n"
+"X-Launchpad-Export-Date: 2015-02-15 06:22+0000\n"
+
+msgid "\"GET\" requires output file"
+msgstr ""
+
+msgid ""
+"%1\n"
+"Really store password as plain text?"
+msgstr ""
+
+msgid "%1 at revision %2"
+msgstr ""
+
+msgid "%1 of %2"
+msgstr ""
+
+msgid "%1 of %2 transferred."
+msgstr ""
+
+msgid "%1 transferred."
+msgstr ""
+
+msgid "%1<br>Check change entry %2 of %3"
+msgstr ""
+
+msgid "%p% of %1"
+msgstr ""
+
+msgid "&Bookmarks"
+msgstr ""
+
+msgid "&Copy Here"
+msgstr ""
+
+msgid "&File"
+msgstr ""
+
+msgid "&Help"
+msgstr ""
+
+msgid "&Move Here"
+msgstr ""
+
+msgid "&Settings"
+msgstr ""
+
+msgid "(Last part)"
+msgstr ""
+
+msgid "(Un)Lock"
+msgstr ""
+
+msgid "-1"
+msgstr ""
+
+msgid "-1 for HEAD"
+msgstr ""
+
+msgid "-1 for START"
+msgstr ""
+
+msgid "<b>Author</b>%1%2%3"
+msgstr ""
+
+msgid "<b>Date</b>%1%2%3"
+msgstr ""
+
+msgid ""
+"<b>Display differences between files</b><p>You may search inside text with "
+"Ctrl-F.</p><p>F3 for search forward again, Shift-F3 for search backward "
+"again.</p><p>You may save the (original) output with Ctrl-S.</p>"
+msgstr ""
+
+msgid "<b>Log</b>%1%2%3"
+msgstr ""
+
+msgid "<b>Revision</b>%1%2%3"
+msgstr ""
+
+msgid "<br>Revision: %1<br>Author: %2<br>Date: %3<br>Log: %4</html>"
+msgstr ""
+
+msgid ""
+"<html><head/><body><p>If set, a local addition at the same path as an "
+"incoming addition of the same node kind results in a normal node with a "
+"possible local modification, instead of a tree conflict.</p></body></html>"
+msgstr ""
+
+msgid ""
+"<html><head/><body><p>If set, create any non-existent parent directories "
+"also by checking them out at depth=empty</p></body></html>"
+msgstr ""
+
+msgid ""
+"<p ><b>Kind of depth</b>: </p>\n"
+"<p ><i>empty depth</i><br />\n"
+"Just the named directory, no entries. Updates will not pull in any files or "
+"subdirectories not already present. </p>\n"
+"<p><i>Files depth</i><br />Folder and its file children, but not subdirs. "
+"Updates will pull in any files not already present, but not subdirectories. "
+"</p>\n"
+"<p><i>Immediate depth</i><br />Folder and its entries. Updates will pull in "
+"any files or subdirectories not already present; those subdirectories "
+"entries will have depth-empty. </p>\n"
+"<p>\n"
+"<i>Infinity depth</i><br />Updates will pull in any files or subdirectories "
+"not already present; those subdirectories' this_dir entries will have depth-"
+"infinity.<br />Equivalent to the pre-1.5 default update behavior. </p>"
+msgstr ""
+
+msgid ""
+"<p align=\"left\">\n"
+"Mark items with non-normal state with an overlayed icon. When you wish to\n"
+"see which items has newer items in repository you may have to set \"Check "
+"for updates on open\" in Subversion-Dialog.\n"
+"</p>"
+msgstr ""
+
+msgid ""
+"<p align=\"left\">When checked, kdesvn get more detailed info about file "
+"items when making a listing to remote repositories. So you may see remote "
+"locks in overview.\n"
+"</p>\n"
+"<p align=\"left\"><i>Be careful: This may let listings REAL slow.</i></p>"
+msgstr ""
+
+msgid ""
+"<p>\n"
+"Enter how kdesvn should call the conflict resolver program. The form is\n"
+"<p align=\"center\">\n"
+"<b><tt>&lt;program&gt; &lt;programoptions&gt;</tt></b>\n"
+"</p>\n"
+"<p>\n"
+"Programoption may contain the place holders for substituting with "
+"filenames.\n"
+"</p>\n"
+"The substitutions means:<br>\n"
+"<b><tt>%o</tt></b> Old version<br>\n"
+"<b><tt>%m</tt></b> Mine or local edit version<br>\n"
+"<b><tt>%n</tt></b> Newest version<br>\n"
+"<b><tt>%t</tt></b> The target to save as, kdesvn will use the original file "
+"name for it.\n"
+"</p>\n"
+"<p>\n"
+"Default: <tt>kdiff3 %o %m %n -o %t</tt>\n"
+"</p>"
+msgstr ""
+
+msgid ""
+"<p>\n"
+"Enter how kdesvn should call the external merge program. The form is\n"
+"<p align=\"center\">\n"
+"<b><tt>&lt;program&gt; &lt;programoptions&gt; %s1 %s2 %t</tt></b>\n"
+"</p>\n"
+"The substitutions means:<br>\n"
+"<b><tt>%s1</tt></b> Source one for merge<br>\n"
+"<b><tt>%s2</tt></b> Source two for merge, if it was not set equal to source "
+"one but other revision<br>\n"
+"<b><tt>%t</tt></b> Local target for merge.\n"
+"</p>"
+msgstr ""
+
+msgid ""
+"<p>If set, the kdesvn KIO shows detailed messages in KDE's Plasma control "
+"area.<br/>\n"
+"Error messages of KIO will always displayed and can <i>not</i> switched off."
+"</p>"
+msgstr ""
+
+msgid ""
+"<p>Tells if your passwords set in kdesvn should stored into KDE Wallet "
+"instead of simple clear text storage of Subversion.</p>\n"
+"<p>This would be a little bit more secure because KDE Wallet is (mostly) "
+"encrypted with a password. On other hand you must re-enter your passwords "
+"with other Subversion clients not accessing KDE wallet (e.g. svn command "
+"line itself, rapidsvn and so on).</p>\n"
+"<p>If you are HOME storage e.g. Subversion's config folder is on a network "
+"drive you should hard think about not storing passwords in a plain text file "
+"like Subversion does but put it into an encrypted storage like KDE Wallet or "
+"do not save passwords.</p>"
+msgstr ""
+
+msgid "A %1"
+msgstr ""
+
+msgid "A (bin) %1"
+msgstr ""
+
+msgid "A newline separated list of file patterns to ignore."
+msgstr ""
+
+msgid ""
+"A property with that name exists.\n"
+"Rejecting it."
+msgstr ""
+
+msgid "About kdesvn part"
+msgstr ""
+
+msgid "Absent"
+msgstr ""
+
+msgid "Accept permanently"
+msgstr ""
+
+msgid "Accept temporarily"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add and Commit"
+msgstr ""
+
+msgid "Add or Remove ignore pattern"
+msgstr ""
+
+msgid "Add selected files/dirs"
+msgstr ""
+
+msgid "Add selected files/dirs recursive"
+msgstr ""
+
+msgid "Add ssh identities to ssh-agent"
+msgstr ""
+
+msgid "Add to revision control"
+msgstr ""
+
+msgid "Added"
+msgstr ""
+
+msgid "Added at revision %1 as %2"
+msgstr ""
+
+msgid "Added in repository"
+msgstr ""
+
+msgid "Added items:"
+msgstr ""
+
+msgid "Adding %1."
+msgstr ""
+
+msgid "Adding (bin) %1."
+msgstr ""
+
+msgid "Adding selected files and/or directories to repository"
+msgstr ""
+
+msgid ""
+"Adding selected files and/or directories to repository and all subitems of "
+"folders"
+msgstr ""
+
+msgid "Addition"
+msgstr ""
+
+msgid "Always get properties on networked repositories"
+msgstr ""
+
+msgid "Annotate"
+msgstr ""
+
+msgid "Annotate lines - hit Cancel for abort"
+msgstr ""
+
+msgid "Append source URL name to subfolder"
+msgstr ""
+
+msgid "Ask for revision when executing single command"
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Automatic generated base layout by kdesvn"
+msgstr ""
+
+msgid "BDB"
+msgstr ""
+
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the end?"
+msgstr ""
+
+msgid "Blame"
+msgstr ""
+
+msgid "Blame range"
+msgstr ""
+
+msgid "Both entries seems to be the same, can not diff."
+msgstr ""
+
+msgid "Both entries seems to be the same, will not do a merge."
+msgstr ""
+
+msgid "Both sources must be same type."
+msgstr ""
+
+msgid "Bottom to top"
+msgstr ""
+
+msgid "Break lock or ignore missing locks?"
+msgstr ""
+
+msgid "Browse folder for unversioned items and add them if wanted."
+msgstr ""
+
+msgid ""
+"Built with Subversion library: %1\n"
+"Running Subversion library: %2"
+msgstr ""
+
+msgid "C&ancel"
+msgstr ""
+
+msgid "Cache filled up to revision %1."
+msgstr ""
+
+msgid "Can KIO overwrite existing files?"
+msgstr ""
+
+msgid "Can not do this diff because networking is disabled."
+msgstr ""
+
+msgid "Can only switch one item at time"
+msgstr ""
+
+msgid "Can only write on HEAD revision."
+msgstr ""
+
+msgid "Cannot import into multiple targets"
+msgstr ""
+
+msgid "Canonical repository URL"
+msgstr ""
+
+msgid "Cat head"
+msgstr ""
+
+msgid "Cat revision..."
+msgstr ""
+
+msgid "Cat this version"
+msgstr ""
+
+msgid "Check for property svn:needs-lock on listings"
+msgstr ""
+
+msgid "Check for unversioned items"
+msgstr ""
+
+msgid "Check for updated items every"
+msgstr ""
+
+msgid "Check for updates"
+msgstr ""
+
+msgid ""
+"Check if current working copy has items with newer version in repository"
+msgstr ""
+
+msgid "Check if items has \"svn:needs-lock\" property set"
+msgstr ""
+
+msgid "Check log cache fill before reading tree"
+msgstr ""
+
+msgid "Check modified items every"
+msgstr ""
+
+msgid "Check status of log cache when starting revision tree"
+msgstr ""
+
+msgid "Check updates"
+msgstr ""
+
+msgid "Checking for updates finished"
+msgstr ""
+
+msgid "Checking for updates started in background"
+msgstr ""
+
+msgid "Checking out"
+msgstr ""
+
+msgid "Checking out %1"
+msgstr ""
+
+msgid "Checking out a file?"
+msgstr ""
+
+msgid "Checkout"
+msgstr ""
+
+msgid "Checkout a repository"
+msgstr ""
+
+msgid "Checkout current repository path"
+msgstr ""
+
+msgid "Checkout info"
+msgstr ""
+
+msgid "Checksum"
+msgstr ""
+
+msgid "Clean logs"
+msgstr ""
+
+msgid "Clean repository cache"
+msgstr ""
+
+msgid "Cleaning up folder"
+msgstr ""
+
+msgid "Cleanup"
+msgstr ""
+
+msgid "Click for navigate"
+msgstr ""
+
+msgid "Click for short info about pre-defined property name"
+msgstr ""
+
+msgid "Closes all branches of the file tree"
+msgstr ""
+
+msgid "Color Settings"
+msgstr ""
+
+msgid "Color for added items"
+msgstr ""
+
+msgid "Color for added items:"
+msgstr ""
+
+msgid "Color for copied items"
+msgstr ""
+
+msgid "Color for copied items:"
+msgstr ""
+
+msgid "Color for deleted items"
+msgstr ""
+
+msgid "Color for deleted items:"
+msgstr ""
+
+msgid "Color for modified items"
+msgstr ""
+
+msgid "Color for modified items:"
+msgstr ""
+
+msgid "Color for renamed items"
+msgstr ""
+
+msgid "Color for renamed items:"
+msgstr ""
+
+msgid "ColorSettings"
+msgstr ""
+
+msgid "Colors"
+msgstr ""
+
+msgid "Command \"%1\" not implemented or known"
+msgstr ""
+
+msgid "Commit"
+msgstr ""
+
+msgid "Commit - hit Cancel for abort"
+msgstr ""
+
+msgid "Commit Added"
+msgstr ""
+
+msgid "Commit Deleted"
+msgstr ""
+
+msgid "Commit Message"
+msgstr ""
+
+msgid "Commit Modified"
+msgstr ""
+
+msgid "Commit Replaced"
+msgstr ""
+
+msgid "Committed revision %1."
+msgstr ""
+
+msgid "Committing %1"
+msgstr ""
+
+msgid "Compatible to Subversion prior 1.5"
+msgstr ""
+
+msgid "Compatible to Subversion prior 1.6"
+msgstr ""
+
+msgid "Configure Kdesvn..."
+msgstr ""
+
+msgid "Conflict"
+msgstr ""
+
+msgid "Conflict resolver program:"
+msgstr ""
+
+msgid "Conflicted items:"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Content last changed"
+msgstr ""
+
+msgid "Copied %1 to %2"
+msgstr ""
+
+msgid "Copied to %1 at revision %2"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy / Move"
+msgstr ""
+
+msgid "Copy from"
+msgstr ""
+
+msgid "Copy from URL"
+msgstr ""
+
+msgid "Copy or Moving entries"
+msgstr ""
+
+msgid "Copyright (c) 2005-2009 Rajko Albrecht"
+msgstr ""
+
+msgid "Could not change to folder %1\n"
+msgstr ""
+
+msgid ""
+"Could not find our part:\n"
+"%1"
+msgstr ""
+
+msgid ""
+"Could not load the part:\n"
+"%1"
+msgstr ""
+
+msgid "Could not open URL %1"
+msgstr ""
+
+msgid "Could not open repository"
+msgstr ""
+
+msgid "Could not open temporary file"
+msgstr ""
+
+msgid "Could not open temporary file %1 for writing."
+msgstr ""
+
+msgid "Could not retrieve conflict information - giving up."
+msgstr ""
+
+msgid "Could not retrieve data for write."
+msgstr ""
+
+msgid ""
+"Could not retrieve logs, reason:\n"
+"%1"
+msgstr ""
+
+msgid "Could not retrieve repository of working copy."
+msgstr ""
+
+msgid "Could not retrieve repository."
+msgstr ""
+
+msgid ""
+"Could not run process \"%1\".\n"
+"\n"
+"Process stopped with message:\n"
+"%2"
+msgstr ""
+
+msgid "Could not write to existing item."
+msgstr ""
+
+msgid "Create a copy of current item"
+msgstr ""
+
+msgid "Create a new folder"
+msgstr ""
+
+msgid "Create and open new repository"
+msgstr ""
+
+msgid "Create and opens a new local Subversion repository"
+msgstr ""
+
+msgid "Create main folders"
+msgstr ""
+
+msgid "Create new repository"
+msgstr ""
+
+msgid "Create subdirectory %1 on import"
+msgstr ""
+
+msgid "Create trunk, tags and branches folders"
+msgstr ""
+
+msgid "Creating list / check status"
+msgstr ""
+
+msgid "Ctrl-F for search, F3 or Shift-F3 for search again."
+msgstr ""
+
+msgid "Current task"
+msgstr ""
+
+msgid "Current transfer"
+msgstr ""
+
+msgid "D %1"
+msgstr ""
+
+msgid "Database"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Default UTF-8"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete all entries and settings for selected repository"
+msgstr ""
+
+msgid "Delete and Commit"
+msgstr ""
+
+msgid "Delete cache"
+msgstr ""
+
+msgid "Delete cache entries for current selected repository"
+msgstr ""
+
+msgid "Delete folder"
+msgstr ""
+
+msgid "Delete from repository"
+msgstr ""
+
+msgid "Delete property"
+msgstr ""
+
+msgid "Delete repository"
+msgstr ""
+
+msgid "Delete selected files/dirs"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Deleted at revision %1"
+msgstr ""
+
+msgid "Deleted items:"
+msgstr ""
+
+msgid "Deleting %1."
+msgstr ""
+
+msgid "Deleting selected directories from repository"
+msgstr ""
+
+msgid "Deleting selected files and/or directories from repository"
+msgstr ""
+
+msgid "Deletion"
+msgstr ""
+
+msgid "Depth for ignore"
+msgstr ""
+
+msgid "Destination folder:"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Developer"
+msgstr ""
+
+msgid "Diff & Merge"
+msgstr ""
+
+msgid "Diff against HEAD"
+msgstr ""
+
+msgid "Diff ignores all white space"
+msgstr ""
+
+msgid "Diff ignores all white spaces"
+msgstr ""
+
+msgid "Diff ignores content type"
+msgstr ""
+
+msgid "Diff ignores white space changes"
+msgstr ""
+
+msgid "Diff in revision tree is recursive"
+msgstr ""
+
+msgid "Diff item"
+msgstr ""
+
+msgid "Diff items"
+msgstr ""
+
+msgid "Diff local changes"
+msgstr ""
+
+msgid "Diff previous"
+msgstr ""
+
+msgid "Diff revisions"
+msgstr ""
+
+msgid "Diff to previous"
+msgstr ""
+
+msgid "Diff to selected item"
+msgstr ""
+
+msgid "Diff two items"
+msgstr ""
+
+msgid ""
+"Diff working copy against BASE (last checked out version) - does not require "
+"access to repository"
+msgstr ""
+
+msgid ""
+"Diff working copy against HEAD (last checked in version)- requires access to "
+"repository"
+msgstr ""
+
+msgid "Diff-process could not started, check command."
+msgstr ""
+
+msgid "Diffing - hit Cancel for abort"
+msgstr ""
+
+msgid "Diffing - hit cancel for abort"
+msgstr ""
+
+msgid "Diffs from revision tree are recursive"
+msgstr ""
+
+msgid "Direction of revision tree"
+msgstr ""
+
+msgid "Disable automatic log file removal (BDB only)"
+msgstr ""
+
+msgid "Disable fsync at commit (BDB only)"
+msgstr ""
+
+msgid "Display Properties"
+msgstr ""
+
+msgid "Display colored annotate"
+msgstr ""
+
+msgid "Display colored blame lines"
+msgstr ""
+
+msgid "Display details"
+msgstr ""
+
+msgid "Display different then normal states colored"
+msgstr ""
+
+msgid "Display icon overlays"
+msgstr ""
+
+msgid "Display ignored files"
+msgstr ""
+
+msgid "Display last changes"
+msgstr ""
+
+msgid "Display last changes as difference to previous commit."
+msgstr ""
+
+msgid "Display process could not started, check command."
+msgstr ""
+
+msgid "Display unknown files"
+msgstr ""
+
+msgid "Displays the history log of selected item"
+msgstr ""
+
+msgid "Displays the history log of selected item without following copies"
+msgstr ""
+
+msgid ""
+"Do not display commits of listed users in log window and statistics view"
+msgstr ""
+
+msgid "Do not display commits without author"
+msgstr ""
+
+msgid "Do not display context menu in Konqueror"
+msgstr ""
+
+msgid "Do not display entries in toplevel action menu"
+msgstr ""
+
+msgid "Do not show commits from following users"
+msgstr ""
+
+msgid "Do not update log cache on open"
+msgstr ""
+
+msgid "Document to open"
+msgstr ""
+
+msgid "Double property"
+msgstr ""
+
+msgid "Download - hit Cancel for abort"
+msgstr ""
+
+msgid "Dry run"
+msgstr ""
+
+msgid "Dump a Subversion repository to a file"
+msgstr ""
+
+msgid "Dump file:"
+msgstr ""
+
+msgid "Dump finished."
+msgstr ""
+
+msgid "Dump into:"
+msgstr ""
+
+msgid "Dump repository"
+msgstr ""
+
+msgid "Dump repository to file"
+msgstr ""
+
+msgid "Dump revision range"
+msgstr ""
+
+msgid "Dumping a repository"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+msgid "Empty Depth"
+msgstr ""
+
+msgid "Empty logs"
+msgstr ""
+
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+
+msgid "End revision"
+msgstr ""
+
+msgid "End revision:"
+msgstr ""
+
+msgid "Enter URL:"
+msgstr ""
+
+msgid "Enter a log message"
+msgstr ""
+
+msgid "Enter authentication info for %1"
+msgstr ""
+
+msgid "Enter folder name:"
+msgstr ""
+
+msgid "Enter password for realm %1"
+msgstr ""
+
+msgid "Entry"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error getting content"
+msgstr ""
+
+msgid "Error getting entry to relocate"
+msgstr ""
+
+msgid "Error getting entry to switch"
+msgstr ""
+
+msgid "Error running the graph layouting tool.\n"
+msgstr ""
+
+msgid "Error validating server certificate for '%1'"
+msgstr ""
+
+msgid "Error while open temporary file"
+msgstr ""
+
+msgid "Execute Subversion command (\"exec help\" for more information)"
+msgstr ""
+
+msgid "Execute single Subversion command on specific revision(-range)"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Export a repository"
+msgstr ""
+
+msgid "Export current repository path"
+msgstr ""
+
+msgid "Export repository"
+msgstr ""
+
+msgid "Exporting"
+msgstr ""
+
+msgid "Exporting a file?"
+msgstr ""
+
+msgid "External"
+msgstr ""
+
+msgid "External diff display:"
+msgstr ""
+
+msgid "External merge program:"
+msgstr ""
+
+msgid "FSFS"
+msgstr ""
+
+msgid ""
+"Failed to revert %1.\n"
+"Try updating instead."
+msgstr ""
+
+msgid "Failure reasons"
+msgstr ""
+
+msgid "Fetching external item into %1."
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "File %1 exists - overwrite?"
+msgstr ""
+
+msgid "Files Depth"
+msgstr ""
+
+msgid "Filling cache canceled."
+msgstr ""
+
+msgid "Filling log cache in background finished."
+msgstr ""
+
+msgid "Filling log cache in background."
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "Fingerprint"
+msgstr ""
+
+msgid "Finished"
+msgstr ""
+
+msgid "Finished at revision %1."
+msgstr ""
+
+msgid "Finished external at revision %1."
+msgstr ""
+
+msgid "Finished external."
+msgstr ""
+
+msgid "Fold File Tree"
+msgstr ""
+
+msgid "Folder"
+msgstr ""
+
+msgid "Force"
+msgstr ""
+
+msgid "Force add ssh-identities to ssh-agent for future use."
+msgstr ""
+
+msgid "Force delete of changed items"
+msgstr ""
+
+msgid "Force delete on modified/unversioned items"
+msgstr ""
+
+msgid "Force operation"
+msgstr ""
+
+msgid "Found %1 modified item"
+msgid_plural "Found %1 modified items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Free existing lock on current item"
+msgstr ""
+
+msgid "Full revision tree"
+msgstr ""
+
+msgid "Gain item info recursive"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Generates and display difference against repository of selected item"
+msgstr ""
+
+msgid "Get Logs"
+msgstr ""
+
+msgid "Get detailed information when making a remote listing"
+msgstr ""
+
+msgid "Get file details while remote listing"
+msgstr ""
+
+msgid "Get item information recursively"
+msgstr ""
+
+msgid "Get properties on selected item on networked protocols"
+msgstr ""
+
+msgid "Getting content - hit Cancel for abort"
+msgstr ""
+
+msgid "Getting logs - hit Cancel for abort"
+msgstr ""
+
+msgid "Go to line"
+msgstr ""
+
+msgid "Got no annotate"
+msgstr ""
+
+msgid "Got no content."
+msgstr ""
+
+msgid "Got no info."
+msgstr ""
+
+msgid "Got no logs"
+msgstr ""
+
+msgid "HEAD"
+msgstr ""
+
+msgid "Handle unrelated as related items"
+msgstr ""
+
+msgid "Height of detail view in tree widget"
+msgstr ""
+
+msgid ""
+"Here you can control if, when moving the mouse over a file, you want to see "
+"a small popup window with additional information about that file"
+msgstr ""
+
+msgid "Hide logs containing following words"
+msgstr ""
+
+msgid "Hide new items"
+msgstr ""
+
+msgid "Hide new items in commit box"
+msgstr ""
+
+msgid "Hide unchanged files"
+msgstr ""
+
+msgid "Hide versioned unchanged files"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "History of item"
+msgstr ""
+
+msgid "History of item ignoring copies"
+msgstr ""
+
+msgid "Hold Ctrl key while click on selected item for unselect"
+msgstr ""
+
+msgid "Host"
+msgstr ""
+
+msgid "Hotcopy a Subversion repository to a new folder"
+msgstr ""
+
+msgid "Hotcopy a repository"
+msgstr ""
+
+msgid "Hotcopy finished."
+msgstr ""
+
+msgid "If checked commit will not release locks."
+msgstr ""
+
+msgid ""
+"If kdesvn should use an external diff display and/or generator. If not "
+"checked use internal display."
+msgstr ""
+
+msgid ""
+"If not empty, load the dump into a specific folder instead into root of "
+"repository. This folder must exist before loading the dump."
+msgstr ""
+
+msgid ""
+"If set KIO shows in KDE's Plasma detailed information about current operation"
+msgstr ""
+
+msgid ""
+"If set check for updates on working copy when network is enabled on regular "
+"base"
+msgstr ""
+
+msgid "If set, add files or directories that match ignore patterns."
+msgstr ""
+
+msgid "If set, kdesvn will not show a menu inside \"Action\" menu of Konqueror"
+msgstr ""
+
+msgid ""
+"If set, kdesvn will not show some extra actions inside \"Action\" menu of "
+"Konqueror/Dolphin"
+msgstr ""
+
+msgid ""
+"If set, the repository created will compatible to Subversion prior 1.5. This "
+"is only useful when svnqt is running with Subversion 1.5 or above."
+msgstr ""
+
+msgid ""
+"If this flag is set, you will have a simple write support for existing "
+"items. E.g. you can open files in your editor and save them direct without "
+"checking out them before (kdesvn will do it in background).\n"
+"\n"
+"Use this only if you are sure what you are doing."
+msgstr ""
+
+msgid ""
+"If this is set then the base layout (<tt>/trunk</tt>,<tt>/branches</tt> and "
+"<tt>/tags</tt>) will created after opening the fresh repository."
+msgstr ""
+
+msgid "Ignore"
+msgstr ""
+
+msgid "Ignore ancestry"
+msgstr ""
+
+msgid "Ignore externals"
+msgstr ""
+
+msgid "Ignore externals while operation"
+msgstr ""
+
+msgid ""
+"Ignore files of which the node type is unknown, such as device files and "
+"pipes."
+msgstr ""
+
+msgid "Ignore unknown node types"
+msgstr ""
+
+msgid "Ignore/Unignore current item"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "Immediate Depth"
+msgstr ""
+
+msgid "Import file"
+msgstr ""
+
+msgid "Import files from folder"
+msgstr ""
+
+msgid "Import folder content into current URL"
+msgstr ""
+
+msgid "Import folders into current"
+msgstr ""
+
+msgid "Importing items"
+msgstr ""
+
+msgid "Incomplete"
+msgstr ""
+
+msgid "Infinity Depth (recurse)"
+msgstr ""
+
+msgid "Info about kdesvn part"
+msgstr ""
+
+msgid "Inserted %v not cached log entries of %m."
+msgstr ""
+
+msgid "Is created repository compatible to Subversion prior 1.5"
+msgstr ""
+
+msgid "Is created repository compatible to Subversion prior 1.6"
+msgstr ""
+
+msgid "Is networking enabled"
+msgstr ""
+
+msgid "Issuer name"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Item needs lock:"
+msgstr ""
+
+msgid "Items sorting order is case sensitive"
+msgstr ""
+
+msgid "Just dry run without modifications"
+msgstr ""
+
+msgid "KIO / Command line"
+msgstr ""
+
+msgid "KIO can overwrite"
+msgstr ""
+
+msgid "KIO operations use standard log message"
+msgstr ""
+
+msgid "KIO shows progress messages"
+msgstr ""
+
+msgid "KIO::svn operations use a standard log message"
+msgstr ""
+
+msgid "KSqueezedTextLabel"
+msgstr ""
+
+msgid "Kdesvn Handbook"
+msgstr ""
+
+msgid "Keep local copies"
+msgstr ""
+
+msgid "Keep locks"
+msgstr ""
+
+msgid "Known repositories"
+msgstr ""
+
+msgid ""
+"Label text to show for the edit box where the user enters the issue number."
+msgstr ""
+
+msgid "Last author"
+msgstr ""
+
+msgid "Last change date"
+msgstr ""
+
+msgid "Last changed Revision"
+msgstr ""
+
+msgid "Last committed"
+msgstr ""
+
+msgid "Last revision"
+msgstr ""
+
+msgid "Last used log messages"
+msgstr ""
+
+msgid "Left to right"
+msgstr ""
+
+msgid "Limit log output to <number>"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "List entries"
+msgstr ""
+
+msgid "List items next commit will send or not"
+msgstr ""
+
+msgid "Load a dump file into a repository."
+msgstr ""
+
+msgid "Load dump into repository"
+msgstr ""
+
+msgid "Load into folder:"
+msgstr ""
+
+msgid "Load into repository:"
+msgstr ""
+
+msgid "Load last opened URL on start"
+msgstr ""
+
+msgid "Loading a dump into a repository."
+msgstr ""
+
+msgid "Loading dump finished."
+msgstr ""
+
+msgid "Local add results in modification instead of conflicts"
+msgstr ""
+
+msgid "Local changed items:"
+msgstr ""
+
+msgid "Locale for blame display"
+msgstr ""
+
+msgid "Locally added"
+msgstr ""
+
+msgid "Locally modified"
+msgstr ""
+
+msgid "Lock comment"
+msgstr ""
+
+msgid "Lock current items"
+msgstr ""
+
+msgid "Lock failed"
+msgstr ""
+
+msgid "Lock token"
+msgstr ""
+
+msgid "Locked by"
+msgstr ""
+
+msgid "Locked items:"
+msgstr ""
+
+msgid "Locked on"
+msgstr ""
+
+msgid "Locking"
+msgstr ""
+
+msgid "Log always reads list of changed files"
+msgstr ""
+
+msgid "Log and statistics setting"
+msgstr ""
+
+msgid "Log cache"
+msgstr ""
+
+msgid "Log cache holds %1 log entries and consumes %2 on disk."
+msgstr ""
+
+msgid "Log cache settings"
+msgstr ""
+
+msgid "Log follows node changes"
+msgstr ""
+
+msgid "Log message for revision"
+msgstr ""
+
+msgid "Log must contain at least lines to show"
+msgstr ""
+
+msgid "Logs follow node changes"
+msgstr ""
+
+msgid "Main Toolbar"
+msgstr ""
+
+msgid "Making update - hit Cancel for abort"
+msgstr ""
+
+msgid "Mark Subversion states with an overlayed icon"
+msgstr ""
+
+msgid "Mark all new e.g. not versioned items for add and commit."
+msgstr ""
+
+msgid "Mark changed and locked items colored"
+msgstr ""
+
+msgid "Mark item status with icon overlay"
+msgstr ""
+
+msgid "Mark resolved"
+msgstr ""
+
+msgid "Marking files or dirs resolved"
+msgstr ""
+
+msgid "Marking resolved"
+msgstr ""
+
+msgid "Maximum log messages in history:"
+msgstr ""
+
+msgid "Maximum number of log messages"
+msgstr ""
+
+msgid "May existing unversioned items overwritten"
+msgstr ""
+
+msgid "May not make subdirectories of a file"
+msgstr ""
+
+msgid "May only switch one URL at time"
+msgstr ""
+
+msgctxt "Menu item"
+msgid "Update"
+msgstr ""
+
+msgid "Merge"
+msgstr ""
+
+msgid "Merge parameter"
+msgstr ""
+
+msgid "Merge process could not started, check command."
+msgstr ""
+
+msgid ""
+"Merge repository path into current working copy path or current repository "
+"path into a target"
+msgstr ""
+
+msgid "Merge two revisions"
+msgstr ""
+
+msgid "Merge two revisions of this entry into itself"
+msgstr ""
+
+msgid "Merge..."
+msgstr ""
+
+msgid "MergeSettings"
+msgstr ""
+
+msgid "Merged"
+msgstr ""
+
+msgid "Merging items"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Minimum log lines to show:"
+msgstr ""
+
+msgid "Missed items:"
+msgstr ""
+
+msgid "Missing"
+msgstr ""
+
+msgid "Missing SVN link"
+msgstr ""
+
+msgid "Modified at revision %1"
+msgstr ""
+
+msgid "Modified state got conflicting mods."
+msgstr ""
+
+msgid "Modified state had mods merged in."
+msgstr ""
+
+msgid "Modify (content or property)"
+msgstr ""
+
+msgid "Modify property"
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Moves or renames current item"
+msgstr ""
+
+msgid "Moving entries"
+msgstr ""
+
+msgid "Moving/Rename item"
+msgstr ""
+
+msgid "N&umber"
+msgstr ""
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid "Needs update"
+msgstr ""
+
+msgid "Networked URL to open but networking is disabled."
+msgstr ""
+
+msgid "New folder"
+msgstr ""
+
+msgid "New version of conflicted file"
+msgstr ""
+
+msgid "No destination to merge."
+msgstr ""
+
+msgid "No difference to display"
+msgstr ""
+
+msgid "No ignore"
+msgstr ""
+
+msgid "No log cache possible due broken database and networking not allowed."
+msgstr ""
+
+msgid "No repository open"
+msgstr ""
+
+msgid "No unversioned items found."
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Not checking for updates because networking is disabled"
+msgstr ""
+
+msgid "Not commit because networking is disabled"
+msgstr ""
+
+msgid ""
+"Not filling log cache because it is disabled due setting for this repository."
+msgstr ""
+
+msgid "Not filling log cache because networking is disabled"
+msgstr ""
+
+msgid "Not versioned"
+msgstr ""
+
+msgid "Not versioned items:"
+msgstr ""
+
+msgid "Nothing selected for delete"
+msgstr ""
+
+msgid "Nothing selected for unlock"
+msgstr ""
+
+msgid "Nothing to commit."
+msgstr ""
+
+msgid "Nothing to merge."
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "One of <b>'native'</b>, <b>'LF'</b>, <b>'CR'</b>, <b>'CRLF'</b>."
+msgstr ""
+
+msgid "Only in working copy possible."
+msgstr ""
+
+msgid "Only on single folder possible"
+msgstr ""
+
+msgid "Only write mergeinfo"
+msgstr ""
+
+msgid "Open With..."
+msgstr ""
+
+msgid "Open a file with a #PKCS12 certificate"
+msgstr ""
+
+msgid "Open after job"
+msgstr ""
+
+msgid "Open repository of working copy"
+msgstr ""
+
+msgid "Open repository or working copy"
+msgstr ""
+
+msgid "Opens all branches of the file tree"
+msgstr ""
+
+msgid "Opens the repository the current working copy was checked out from"
+msgstr ""
+
+msgid "Or insert one of the last:"
+msgstr ""
+
+msgid "Original author and maintainer"
+msgstr ""
+
+msgid "Other..."
+msgstr ""
+
+msgid "Output the content of specified files or URLs at specific revision."
+msgstr ""
+
+msgid ""
+"Output the content of specified files or URLs with revision and author "
+"information in-line."
+msgstr ""
+
+msgid "Output the content of specified files or URLs."
+msgstr ""
+
+msgid "Output to:"
+msgstr ""
+
+msgid "Overview about cache database content"
+msgstr ""
+
+msgid "Overwrite existing"
+msgstr ""
+
+msgid "Overwriting existing items is disabled in settings."
+msgstr ""
+
+msgid "Owner"
+msgstr ""
+
+msgid "Partial revision tree"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Path to load the dump into (see context help)"
+msgstr ""
+
+msgid "Path to repository:"
+msgstr ""
+
+msgid "Patterns to add or remove:"
+msgstr ""
+
+msgid "Performing status on external item at %1."
+msgstr ""
+
+msgid "Please check that 'dot' is installed (package GraphViz)."
+msgstr ""
+
+msgid "Please enter your password below."
+msgstr ""
+
+msgid "Prefer external merge program"
+msgstr ""
+
+msgid "Prefixes to filter out in revision tree"
+msgstr ""
+
+msgid "Previous entries"
+msgstr ""
+
+msgid "Print progress messages in KDE dock area"
+msgstr ""
+
+msgid "Prompt"
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Property"
+msgstr ""
+
+msgid "Property last changed"
+msgstr ""
+
+msgid "Property modified"
+msgstr ""
+
+msgid "Property name:"
+msgstr ""
+
+msgid "Property reject file"
+msgstr ""
+
+msgid "Property value:"
+msgstr ""
+
+msgid "Protected property"
+msgstr ""
+
+msgid "Quick settings"
+msgstr ""
+
+msgid "Rajko Albrecht"
+msgstr ""
+
+msgid "Read detailed change lists"
+msgstr ""
+
+msgid ""
+"Reading lists of changed files may sometimes a little bit slow down things. "
+"But if this feature is switched off, kdesvn may fail generating differences "
+"between node changes from within the log viewer."
+msgstr ""
+
+msgid "Ready"
+msgstr ""
+
+msgid ""
+"Really clean cache and data for repository\n"
+"%1?"
+msgstr ""
+
+msgid ""
+"Really clean cache for repository\n"
+"%1?"
+msgstr ""
+
+msgid "Really delete these entries?"
+msgstr ""
+
+msgid "Really revert these entries to pristine state?"
+msgstr ""
+
+msgid "Realm"
+msgstr ""
+
+msgid "Recent opened URLs"
+msgstr ""
+
+msgid "Record only"
+msgstr ""
+
+msgid "Recursive"
+msgstr ""
+
+msgid ""
+"Recursively clean up the working copy, removing locks, resuming unfinished "
+"operations, etc."
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Refresh view"
+msgstr ""
+
+msgid "Reintegrate merge"
+msgstr ""
+
+msgid "Reject"
+msgstr ""
+
+msgid "Reload last opened URL if no one is given on command line"
+msgstr ""
+
+msgid "Relocate URL of current working copy path to other URL"
+msgstr ""
+
+msgid "Relocate current working copy URL"
+msgstr ""
+
+msgid "Relocate path %1"
+msgstr ""
+
+msgid "Relocate repository to new URL"
+msgstr ""
+
+msgid "Remote changed items:"
+msgstr ""
+
+msgid "Remove patterns"
+msgstr ""
+
+msgid "Rename"
+msgstr ""
+
+msgid "Rename/move"
+msgstr ""
+
+msgid "Renamed to %1 at revision %2"
+msgstr ""
+
+msgid "Replace"
+msgstr ""
+
+msgid "Replaced"
+msgstr ""
+
+msgid "Replaced at revision %1"
+msgstr ""
+
+msgid "Replacing %1."
+msgstr ""
+
+msgid "Repository"
+msgstr ""
+
+msgid "Repository Settings"
+msgstr ""
+
+msgid "Repository opened"
+msgstr ""
+
+msgid "Repository to copy:"
+msgstr ""
+
+msgid "Repository to dump:"
+msgstr ""
+
+msgid "Resolve conflicts"
+msgstr ""
+
+msgid "Resolve-process could not started, check command."
+msgstr ""
+
+msgid "Resolved"
+msgstr ""
+
+msgid "Resolved conflicted state of %1."
+msgstr ""
+
+msgid "Restore missing"
+msgstr ""
+
+msgid "Restored %1."
+msgstr ""
+
+msgid "Retrieving information - hit Cancel for abort"
+msgstr ""
+
+msgid "Revert"
+msgstr ""
+
+msgid "Revert current changes"
+msgstr ""
+
+msgid "Revert entries"
+msgstr ""
+
+msgid "Revert failed"
+msgstr ""
+
+msgid "Revert highlighted item"
+msgstr ""
+
+msgid "Revert item"
+msgstr ""
+
+msgid "Revert this commit"
+msgstr ""
+
+msgid "Reverted %1."
+msgstr ""
+
+msgid "Reverting items"
+msgstr ""
+
+msgid "Review affected items"
+msgstr ""
+
+msgid "Review items before commit"
+msgstr ""
+
+msgid "Revision"
+msgstr ""
+
+msgid "Revision %1"
+msgstr ""
+
+msgid "Revision tree"
+msgstr ""
+
+msgid "Revision tree Settings"
+msgstr ""
+
+msgid "Revisions"
+msgstr ""
+
+msgid "Right to left"
+msgstr ""
+
+msgid "Rotate clockwise"
+msgstr ""
+
+msgid "Rotate counter-clockwise"
+msgstr ""
+
+msgid "S&TART"
+msgstr ""
+
+msgid "START"
+msgstr ""
+
+msgid "SVN Error"
+msgstr ""
+
+msgid "SVN Log"
+msgstr ""
+
+msgid "Save output of Subversion command (eg \"cat\") into file <file>"
+msgstr ""
+
+msgid "Save password"
+msgstr ""
+
+msgid "Save tree as PNG"
+msgstr ""
+
+msgid "Scanning the logs for %1"
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "See context menu for more actions"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Select browse revision"
+msgstr ""
+
+msgid "Select current working copy changes"
+msgstr ""
+
+msgid "Select depth of operation"
+msgstr ""
+
+msgid "Select encoding:"
+msgstr ""
+
+msgid "Select if kdesvn should check for updates when open a working copy"
+msgstr ""
+
+msgid "Select item"
+msgstr ""
+
+msgid "Select new items"
+msgstr ""
+
+msgid "Select revision"
+msgstr ""
+
+msgid "Select second revision with right mouse button"
+msgstr ""
+
+msgid "Select target directory:"
+msgstr ""
+
+msgid "Select the storage type of repository (FSFS or Berkely DB)"
+msgstr ""
+
+msgid "Select type of storage"
+msgstr ""
+
+msgid "Sending %1."
+msgstr ""
+
+msgid "Set if items sortorder should be case sensitive or not"
+msgstr ""
+
+msgid ""
+"Set if merge with external program is preferred and not Subversion's merge"
+msgstr ""
+
+msgid "Set property recursive"
+msgstr ""
+
+msgid ""
+"Set to <b>'false'</b> if you want the bugtracking ID to be inserted at the "
+"top of the log message. The default is <b>'true'</b> which means the "
+"bugtracking ID is appended to the log message."
+msgstr ""
+
+msgid "Set version as left side of diff"
+msgstr ""
+
+msgid "Set version as right side of diff"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Settings for command line and KIO execution"
+msgstr ""
+
+msgid "Settings for current repository"
+msgstr ""
+
+msgid "Settings for diff and merge"
+msgstr ""
+
+msgid "Settings for timed jobs"
+msgstr ""
+
+msgid "Setup an external program for conflict resolving"
+msgstr ""
+
+msgid "Setup an external program for merging"
+msgstr ""
+
+msgid "Should Konqueror not display context menus for kdesvn?"
+msgstr ""
+
+msgid "Should Konqueror not display kdesvn entries in main action menu?"
+msgstr ""
+
+msgid "Should Subversion store passwords in default"
+msgstr ""
+
+msgid "Should files with unknown node types be ignored"
+msgstr ""
+
+msgid "Should kdesvn check content of log cache before starting the tree"
+msgstr ""
+
+msgid "Should kdesvn retrieves properties on selected item in repositories"
+msgstr ""
+
+msgid "Should unversioned items displayed in commit dialog or not."
+msgstr ""
+
+msgid "Show a small log window after executing a command."
+msgstr ""
+
+msgid "Show a small window containing the log after command executed"
+msgstr ""
+
+msgid "Show copies as add"
+msgstr ""
+
+msgid "Show database content"
+msgstr ""
+
+msgid "Show details about selected item"
+msgstr ""
+
+msgid "Show diff in Git format"
+msgstr ""
+
+msgid "Show file info"
+msgstr ""
+
+msgid "Show file information in tooltip"
+msgstr ""
+
+msgid "Show from HEAD"
+msgstr ""
+
+msgid "Show line"
+msgstr ""
+
+msgid "Show line number"
+msgstr ""
+
+msgid "Show log after executing a command"
+msgstr ""
+
+msgid "Show the content of log cache database"
+msgstr ""
+
+msgid "Shows history of item as linked tree"
+msgstr ""
+
+msgid "Shows history of item as linked tree for a revision range"
+msgstr ""
+
+msgid "Shows info about the kdesvn plugin and not the standalone application."
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Size of Listviewicons"
+msgstr ""
+
+msgid "Size of the icons"
+msgstr ""
+
+msgid "Skip"
+msgstr ""
+
+msgid "Skipped %1."
+msgstr ""
+
+msgid "Skipped missing target %1."
+msgstr ""
+
+msgid "Sorry - internal error"
+msgstr ""
+
+msgid "Source 1:"
+msgstr ""
+
+msgid "Source 2:"
+msgstr ""
+
+msgid "Standard message:"
+msgstr ""
+
+msgid "Start caching latest logs on open or commit"
+msgstr ""
+
+msgid "Start check for updates when open a working copy"
+msgstr ""
+
+msgid "Start check for updates when open working copy"
+msgstr ""
+
+msgid "Start checking out to temporary folder"
+msgstr ""
+
+msgid "Start fill log cache on open"
+msgstr ""
+
+msgid "Start refresh the log cache for repository when networking enabled"
+msgstr ""
+
+msgid "Start revision"
+msgstr ""
+
+msgid "Start revision:"
+msgstr ""
+
+msgid "Start with revision"
+msgstr ""
+
+msgid "Statistics for repository"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status against revision: %1."
+msgstr ""
+
+msgid "Status on external"
+msgstr ""
+
+msgid "Steal lock?"
+msgstr ""
+
+msgid "Stop updating the log cache"
+msgstr ""
+
+msgid "Stop with revision"
+msgstr ""
+
+msgid "Store password (into KDE Wallet)"
+msgstr ""
+
+msgid "Store password (into Subversion' simple storage)"
+msgstr ""
+
+msgid "Store passwords for remote connections"
+msgstr ""
+
+msgid "Store passwords in KDE Wallet instead of Subversion' storage"
+msgstr ""
+
+msgid "Store passwords into KDE Wallet"
+msgstr ""
+
+msgid ""
+"Storing passwords is often a security problem. Kdesvn itself does not store "
+"any passwords, but the Subversion itself inside the configuration area of "
+"Subversion. If this area is readable from others you should not set it, but "
+"you may select for single non critical accounts inside the authentication "
+"dialog."
+msgstr ""
+
+msgid ""
+"String which is appended to a log message when an issue number is entered. "
+"The string must contain <b>%BUGID%</b> which gets replaced with the bug "
+"issue number."
+msgstr ""
+
+msgid "Subversion"
+msgstr ""
+
+msgid "Subversion Admin"
+msgstr ""
+
+msgid "Subversion Settings"
+msgstr ""
+
+msgid "Subversion settings"
+msgstr ""
+
+msgid "Subversion toolbar"
+msgstr ""
+
+msgid "Support overwrite for KIO module"
+msgstr ""
+
+msgid "Switch URL"
+msgstr ""
+
+msgid "Switch only on working copies"
+msgstr ""
+
+msgid "Switch repository"
+msgstr ""
+
+msgid "Switch repository path of current working copy path (\"svn switch\")"
+msgstr ""
+
+msgid "Switching URL"
+msgstr ""
+
+msgid "Target for merge must same type like sources."
+msgstr ""
+
+msgid "Temporary checkout done."
+msgstr ""
+
+msgid "The certificate has an unknown error."
+msgstr ""
+
+msgid "The certificate has expired."
+msgstr ""
+
+msgid "The certificate hostname does not match."
+msgstr ""
+
+msgid ""
+"The certificate is not issued by a trusted authority. Use the fingerprint to "
+"validate the certificate manually."
+msgstr ""
+
+msgid "The certificate is not yet valid."
+msgstr ""
+
+msgid ""
+"The merge is not actually performed, but the mergeinfo for the revisions "
+"which would have been merged is recorded in the working copy"
+msgstr ""
+
+msgid ""
+"The mimetype of the file. Used to determine whether to merge the file and "
+"how to serve it from Apache. A mimetype beginning with <b>'text/'</b> (or an "
+"absent mimetype) is treated as text. Anything else is treated as binary."
+msgstr ""
+
+msgid ""
+"The minimum a log output must contain before kdesvn shows a single log window"
+msgstr ""
+
+msgid "The standard log message to use with KIO if not asking for it."
+msgstr ""
+
+msgid "There are new items in repository"
+msgstr ""
+
+msgid ""
+"This is a list which words/substrings a log entry must contain so it will be "
+"hidden from log and statistics"
+msgstr ""
+
+msgid ""
+"This property may not set by users.\n"
+"Rejecting it."
+msgstr ""
+
+msgid ""
+"This value holds for log dialog which kind of log is used, its internal only."
+msgstr ""
+
+msgid "Timed jobs"
+msgstr ""
+
+msgid "Top to bottom"
+msgstr ""
+
+msgid "Transmitting file data "
+msgstr ""
+
+msgid "Trust SSL certificate"
+msgstr ""
+
+msgid "Try lock current item against changes from other users"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type of repository:"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "UUID"
+msgstr ""
+
+msgid "Undelete property"
+msgstr ""
+
+msgid "Unfold File Tree"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unlock current items"
+msgstr ""
+
+msgid "Unlock failed"
+msgstr ""
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Unlocking items"
+msgstr ""
+
+msgid "Unmark all unversioned items so they will be ignored."
+msgstr ""
+
+msgid "Unselect all"
+msgstr ""
+
+msgid "Unselect item"
+msgstr ""
+
+msgid "Unselect new items"
+msgstr ""
+
+msgid "Unset version for diff"
+msgstr ""
+
+msgid "Unversioned"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update complete"
+msgstr ""
+
+msgid "Update external module"
+msgstr ""
+
+msgid "Update finished."
+msgstr ""
+
+msgid "Update log cache"
+msgstr ""
+
+msgid "Update makes missing parents"
+msgstr ""
+
+msgid "Update modifies instead of conflicts"
+msgstr ""
+
+msgid "Update the log cache for current repository"
+msgstr ""
+
+msgid "Update to head"
+msgstr ""
+
+msgid "Update to revision..."
+msgstr ""
+
+msgid "Use Git diff format"
+msgstr ""
+
+msgid "Use an external program for diff viewing/generating"
+msgstr ""
+
+msgid "Use an internal password cache"
+msgstr ""
+
+msgid "Use deltas"
+msgstr ""
+
+msgid "Use external diff display"
+msgstr ""
+
+msgid "Use external merge"
+msgstr ""
+
+msgid "Use external merge not Subversion's merge"
+msgstr ""
+
+msgid "Use external program for diff viewing"
+msgstr ""
+
+msgid "Use internal password cache"
+msgstr ""
+
+msgid "Use navigation panel"
+msgstr ""
+
+msgid "Use post-commit hook"
+msgstr ""
+
+msgid "Use pre-commit hook"
+msgstr ""
+
+msgid "Use properties like bugtraq:url on repository listings"
+msgstr ""
+
+msgid "Username:"
+msgstr ""
+
+msgid "Uuid action"
+msgstr ""
+
+msgid "Valid from"
+msgstr ""
+
+msgid "Valid until"
+msgstr ""
+
+msgid "Validate properties"
+msgstr ""
+
+msgid "Validate the properties on load (only Subversion 1.7 or newer)"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "View and modify properties"
+msgstr ""
+
+msgid "WORKING"
+msgstr ""
+
+msgid ""
+"When browsing kdesvn may try displaying properties below itemlist from a "
+"selected item. \n"
+"On networked repositories (e.g., not opened via file:// protocol) this may "
+"get real slow. So if you have slow network connections or when browsing "
+"hangs often you should deactivate it."
+msgstr ""
+
+msgid ""
+"When listing on working copies kdesvn may check for <tt>svn:needs-lock</tt> "
+"property.<br>But due this listings/updating on folders containing lot of "
+"items may get slow. So you should only switch on if you have repositories "
+"containing lot of such entries."
+msgstr ""
+
+msgid "When listing on working copies kdesvn may check for this property"
+msgstr ""
+
+msgid ""
+"When saving passwords, do it into KDE Wallet instead of Subversions storage?"
+msgstr ""
+
+msgid ""
+"When starting the tree generation and reading data from log cache kdesvn may "
+"check for newer items in repository if network is enabled. \n"
+"\n"
+"But this may slow down tree generation so it is disabled by default."
+msgstr ""
+
+msgid ""
+"Whether getting details about items when making listing on repositories or "
+"not"
+msgstr ""
+
+msgid "Which files or directories should I add?"
+msgstr ""
+
+msgid "Which program for resolving conflicts"
+msgstr ""
+
+msgid "Which program to use for external merges"
+msgstr ""
+
+msgid "Work online"
+msgstr ""
+
+msgid "Working copy"
+msgstr ""
+
+msgid "Wrote %1 to repository"
+msgstr ""
+
+msgid "create any non-existent parent at depth=empty"
+msgstr ""
+
+msgid "incremental Dump"
+msgstr ""
+
+msgid "item wasn't present"
+msgstr ""
+
+msgid "kdesvn"
+msgstr ""
+
+msgid "kdesvn Part"
+msgstr ""
+
+msgid "kdesvnaskpass"
+msgstr ""
+
+msgid "lump-merge all of source URL's unmerged changes"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
+msgctxt "no limit"
+msgid "No minimum"
+msgstr ""
+
+msgid "ssh-askpass for kdesvn"
+msgstr ""
+
+msgid "to"
+msgstr ""
+
+msgid "unchanged"
+msgstr ""
+
+msgid "unversioned item obstructed work"
+msgstr ""
+
+msgid " line(s)"
+msgstr ""
+
+msgid ""
+"(C) 2005-2009 Rajko Albrecht,\n"
+"(C) 2015-2018 Christian Ehrlicher"
+msgstr ""
+
+msgid ""
+"(C) 2005-2009 Rajko Albrecht,\n"
+"(C) 2015-2019 Christian Ehrlicher"
+msgstr ""
+
+msgid "<center>Applying<br/>hit cancel for abort</center>"
+msgstr ""
+
+msgid "<center>The entry<br/>%1<br/>is not versioned - break.</center>"
+msgstr ""
+
+msgid "<center>The entry<br/>%1<br/>is versioned - break.</center>"
+msgstr ""
+
+msgid "<file>"
+msgstr ""
+
+msgid "<number>"
+msgstr ""
+
+msgid ""
+"<p align=\"left\">\n"
+"Enter an external program in form\n"
+"<p align=\"center\">\n"
+"<tt>&lt;program&gt; &lt;param&gt; %f</tt>\n"
+"</p>\n"
+"or\n"
+"<p align=\"center\">\n"
+"<tt>&lt;program&gt; &lt;param&gt;</tt>\n"
+"</p>\n"
+"or\n"
+"<p align=\"center\">\n"
+"<tt>&lt;program&gt; &lt;param&gt; %s1 %s2</tt>\n"
+"</p>\n"
+"<br>\n"
+"If one between the first or the second form is used, svn itself generates "
+"the diff. %f will be replaced with a temporary filename. If %f is not "
+"given,\n"
+"the diff-display should be able to read data from stdin.\n"
+"<br>\n"
+"When %s1 and %s2 are given, kdesvn lets this display make the diff. For that "
+"it makes a temporary export or get (if needed) and fills out the parameters "
+"with the right values. %s1 will be filled with the content of the initial "
+"revision, %s2 with the final revision. On large recursive diffs this may get "
+"really slow.\n"
+"</p>"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Add Property"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Add Unversioned Items"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Annotate"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Applying Properties"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Checkout"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Checkout a Repository"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Cleanup"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Commit"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Commit Log"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Content Get"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Content of %1"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Copy / Move"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Copy File/Directory"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Details"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Diff Display"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Diffing"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Downloading"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Dump"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Dump a Repository"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Edit Pattern to Ignore for \"%1\""
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Enter Merge Range"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Enter Password for Realm %1"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Export"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Export a Repository"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "History of %1"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Hotcopy a Repository"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Import"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Import Log"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Infolist"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Load Dump"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Load a Repository From an svndump"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Lock Message"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Log Message for Revision %1"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Logs"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Making update"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Merge"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Move"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Move/Rename File/Directory"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Open"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Password"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Relocate Path %1"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Relocate Repository"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Resolve"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Revert"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "SVN Log"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "SVN Log of %1"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Scanning logs"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Select Revisions"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Select Text File to Insert"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Settings for %1"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Status / List"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Switch URL"
+msgstr ""
+
+msgid "A Subversion Client by KDE (dynamic Part component)"
+msgstr ""
+
+msgid "A Subversion Client by KDE (standalone application)"
+msgstr ""
+
+msgid ""
+"A newline separated list of module specifiers, each consisting of a relative "
+"directory path, optional revision flags, and a URL. For example:<br/"
+"><nobr><b>foo http://example.com/repos/projectA</b></nobr><br/><nobr><b>foo/"
+"bar -r 1234 http://example.com/repos/projectB</b></nobr>"
+msgstr ""
+
+msgid "Add Property"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Christian Ehrlicher"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Compatible to Subversion prior 1.8"
+msgstr ""
+
+msgid "Delete Property"
+msgstr ""
+
+msgid "Edit property recursively"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid ""
+"If checked, allow merge into mixed revision working copy, otherwise raises "
+"error in that case"
+msgstr ""
+
+msgid ""
+"If present, make the file executable.<br/>This property can not be set on a "
+"directory. A non-recursive attempt will fail, and a recursive attempt will "
+"set the property only on the file children of the folder."
+msgstr ""
+
+msgid ""
+"If set, the repository created will compatible to Subversion prior 1.4. This "
+"is only useful when svnqt is running with Subversion 1.8 or above."
+msgstr ""
+
+msgid ""
+"If set, the repository created will compatible to Subversion prior 1.5. This "
+"is only useful when svnqt is running with Subversion 1.6 or above."
+msgstr ""
+
+msgid "Ignore keywords"
+msgstr ""
+
+msgid "Image (*.png)"
+msgstr ""
+
+msgid "Insert Text File..."
+msgstr ""
+
+msgid "Invalid url given!"
+msgstr ""
+
+msgid "Is created repository compatible to Subversion prior 1.8"
+msgstr ""
+
+msgid ""
+"Keywords to be expanded into the contents of a file.<br/>They can be "
+"inserted into documents by placing a keyword anchor which is formatted as "
+"$KeywordName$.<br/>Valid keywords are:<br/><b>URL/HeadURL</b> The URL for "
+"the head revision of the project.<br/><b>Author/LastChangedBy</b> The last "
+"person to change the file.<br/><b>Date/LastChangedDate</b> The date/time the "
+"object was last modified.<br/><b>Revision/Rev/LastChangedRevision</b> The "
+"last revision the object changed.<br/><b>Id</b> A compressed summary of the "
+"previous 4 keywords."
+msgstr ""
+
+msgid ""
+"Merge into mixed revision\n"
+"working copy"
+msgstr ""
+
+msgid "Modify Property"
+msgstr ""
+
+msgid "No help for this property available"
+msgstr ""
+
+msgid "Not yet implemented"
+msgstr ""
+
+msgid "Obstructed"
+msgstr ""
+
+msgid "Open repository / working copy"
+msgstr ""
+
+msgid "Patch file (*.diff *.patch)"
+msgstr ""
+
+msgid "Property conflicted"
+msgstr ""
+
+msgid "Renaming %1 to %2 successful"
+msgstr ""
+
+msgid "Save diff"
+msgstr ""
+
+msgid "Select or enter new property"
+msgstr ""
+
+msgid "Select text file to insert:"
+msgstr ""
+
+msgid ""
+"Set this to any value (e.g. <b>'*'</b>) to enforce locking for this file.<br/"
+">The file will be set read-only when checked out or updated, indicating that "
+"a user must acquire a lock on the file before they can edit and commit "
+"changes."
+msgstr ""
+
+msgid ""
+"Set to <b>'false'</b> if your bugtracking system has issues which are "
+"referenced not by numbers.<br/>Possible values: <b>'true'</b> or <b>'false'</"
+"b>."
+msgstr ""
+
+msgid ""
+"Set to <b>'yes'</b> if a warning shall be shown when no issue is entered in "
+"the commit dialog. Possible values:<br/><b>'true'</b>/<b>'yes'</b> or "
+"<b>'false'</b>/<b>'no'</b>."
+msgstr ""
+
+msgid "Show new items"
+msgstr ""
+
+msgid ""
+"Two regular expressions separated by a newline.<br/>The first expression is "
+"used to find a string referring to an issue, the second expression is used "
+"to extract the bare bug ID from that string."
+msgstr ""
+
+msgid ""
+"URL pointing to the issue tracker. It must contain <b>%BUGID%</b> which gets "
+"replaced with the bug issue number. Example:<br/><nobr><b>http://example.com/"
+"mantis/view.php?id=%BUGID%</b></nobr>"
+msgstr ""
+
+msgid "Wrong or missing log (may cancel pressed)."
+msgstr ""
+
+msgid "bytes"
+msgstr ""
+
+msgid "see \"What's this\" for details"
+msgstr ""
+
+msgid "startrev[:endrev]"
+msgstr ""

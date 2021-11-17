@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: trader 7.15\n"
+"Project-Id-Version: trader 7.16\n"
 "Report-Msgid-Bugs-To: J.Zaitseff@zap.org.au\n"
-"POT-Creation-Date: 2021-01-12 11:31+1100\n"
+"POT-Creation-Date: 2021-01-19 16:43+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,12 +22,12 @@ msgstr ""
 #. your own language (recommended) or keep it the same as the English
 #. version.  Feel free to look through other translations to see how
 #. others have done this.
-#: data/trader.desktop.in:23 src/intf.c:611
+#: data/trader.desktop.in:23 data/trader.appdata.xml.in:26 src/intf.c:611
 #, c-format
 msgid "Star Traders"
 msgstr ""
 
-#: data/trader.desktop.in:24
+#: data/trader.desktop.in:24 data/trader.appdata.xml.in:27
 msgid "Play Star Traders, a simple game of interstellar trading"
 msgstr ""
 
@@ -37,22 +37,32 @@ msgstr ""
 msgid "game;interstellar;trading;strategy;"
 msgstr ""
 
-#: src/trader.c:235
+#: data/trader.appdata.xml.in:29
+msgid ""
+"Star Traders is a simple game of interstellar trading, where the objective is to create companies, buy and sell shares, borrow "
+"and repay money, in order to become the wealthiest player (the winner)."
+msgstr ""
+
+#: data/trader.appdata.xml.in:48
+msgid "John Zaitseff"
+msgstr ""
+
+#: src/trader.c:238
 #, c-format
 msgid "%s: invalid value for --max-turn: '%s'\n"
 msgstr ""
 
-#: src/trader.c:251
+#: src/trader.c:254
 #, c-format
 msgid "%s: invalid operand '%s'\n"
 msgstr ""
 
-#: src/trader.c:260
+#: src/trader.c:263
 #, c-format
 msgid "%s: invalid game number '%s'\n"
 msgstr ""
 
-#: src/trader.c:269
+#: src/trader.c:272
 #, c-format
 msgid "%s: extra operand '%s'\n"
 msgstr ""
@@ -60,7 +70,7 @@ msgstr ""
 #. TRANSLATORS: "John Zaitseff" [IPA d͡ʒɒn ˈzaɪ̯t͡səf] is the proper
 #. name of the author.  The IPA pronunciation in this comment is in
 #. UTF-8 encoding.
-#: src/trader.c:284
+#: src/trader.c:287
 #, c-format
 msgid ""
 "Star Traders (%s) %s\n"
@@ -76,24 +86,24 @@ msgid ""
 "NO WARRANTY, to the extent permitted by law; see the License for details.\n"
 msgstr ""
 
-#: src/trader.c:308
+#: src/trader.c:311
 #, c-format
 msgid "%s: Try '%s --help' for more information.\n"
 msgstr ""
 
-#: src/trader.c:311
+#: src/trader.c:314
 #, c-format
 msgid "Usage: %s [OPTION ...] [GAME]\n"
 msgstr ""
 
-#: src/trader.c:312
+#: src/trader.c:315
 #, c-format
 msgid ""
 "Play Star Traders, a simple game of interstellar trading.\n"
 "\n"
 msgstr ""
 
-#: src/trader.c:315
+#: src/trader.c:318
 #, c-format
 msgid ""
 "Options:\n"
@@ -104,7 +114,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/trader.c:322
+#: src/trader.c:325
 #, c-format
 msgid ""
 "If GAME is specified as a number between 1 and 9, load and continue\n"
@@ -118,7 +128,7 @@ msgstr ""
 #. with the (translated) text "Report translation bugs to
 #. <ADDRESS>\n", with ADDRESS replaced with either an email
 #. address or web URL for reporting bugs in your translation.
-#: src/trader.c:334
+#: src/trader.c:337
 #, c-format
 msgid "Report bugs to %s <%s>.\n"
 msgstr ""
@@ -128,19 +138,19 @@ msgstr ""
 #. (translated) text "Report translation bugs to <ADDRESS>\n",
 #. with ADDRESS replaced with either an email address or web URL
 #. for reporting bugs in your translation.
-#: src/trader.c:341
+#: src/trader.c:344
 #, c-format
 msgid "Report bugs to <%s>.\n"
 msgstr ""
 
 #. TRANSLATORS: The first %s is for packagers and may be
 #. something like "Debian".
-#: src/trader.c:346
+#: src/trader.c:349
 #, c-format
 msgid "Report %s bugs to <%s>.\n"
 msgstr ""
 
-#: src/trader.c:349
+#: src/trader.c:352
 #, c-format
 msgid "Star Traders home page: <%s>.\n"
 msgstr ""
@@ -1480,31 +1490,31 @@ msgctxt "answer"
 msgid "No"
 msgstr ""
 
-#: src/utils.c:481 src/utils.c:502
+#: src/utils.c:489 src/utils.c:510
 #, c-format
 msgid "%s: "
 msgstr ""
 
-#: src/utils.c:507
+#: src/utils.c:515
 msgid ": "
 msgstr ""
 
-#: src/utils.c:520
+#: src/utils.c:528
 #, c-format
 msgid "out of memory"
 msgstr ""
 
-#: src/utils.c:1235
+#: src/utils.c:1265
 #, c-format
 msgid "xmbstowcs: '%s'"
 msgstr ""
 
-#: src/utils.c:1275
+#: src/utils.c:1305
 #, c-format
 msgid "xwcrtomb: NUL"
 msgstr ""
 
-#: src/utils.c:1280
+#: src/utils.c:1310
 #, c-format
 msgid "xwcrtomb: '%lc'"
 msgstr ""

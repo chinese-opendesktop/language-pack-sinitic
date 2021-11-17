@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: grub 2.06~rc1\n"
+"Project-Id-Version: grub 2.06~rc1a\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
-"POT-Creation-Date: 2021-03-12 18:43+0100\n"
+"POT-Creation-Date: 2021-05-10 16:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,8 +145,8 @@ msgstr ""
 msgid "error: %s.\n"
 msgstr ""
 
-#: grub-core/commands/acpihalt.c:368 grub-core/kern/efi/mm.c:140
-#: grub-core/kern/efi/mm.c:153 grub-core/kern/emu/misc.c:95
+#: grub-core/commands/acpihalt.c:368 grub-core/kern/efi/mm.c:144
+#: grub-core/kern/efi/mm.c:157 grub-core/kern/emu/misc.c:95
 #: grub-core/kern/emu/misc.c:107 grub-core/kern/emu/misc.c:117
 #: grub-core/kern/emu/misc.c:146 grub-core/kern/emu/mm.c:34
 #: grub-core/kern/emu/mm.c:44 grub-core/kern/emu/mm.c:73
@@ -972,7 +972,7 @@ msgstr ""
 #: grub-core/fs/btrfs.c:1746 grub-core/fs/btrfs.c:1775
 #: grub-core/fs/btrfs.c:1819 grub-core/fs/btrfs.c:1902
 #: grub-core/fs/btrfs.c:1926 grub-core/fs/fshelp.c:257 grub-core/fs/jfs.c:707
-#: grub-core/fs/minix.c:426 grub-core/fs/ufs.c:544 grub-core/fs/zfs/zfs.c:2090
+#: grub-core/fs/minix.c:428 grub-core/fs/ufs.c:544 grub-core/fs/zfs/zfs.c:2090
 #: grub-core/fs/zfs/zfs.c:2102 grub-core/fs/zfs/zfs.c:2308
 #: grub-core/net/http.c:120
 #, c-format
@@ -2545,8 +2545,9 @@ msgstr ""
 #. TRANSLATORS: It's a cryptographic key slot: one element of an array
 #. where each element is either empty or holds a key.
 #.
-#: grub-core/disk/luks2.c:739
-msgid "Slot \"%"
+#: grub-core/disk/luks2.c:741
+#, c-format
+msgid "Slot \"%s\" opened\n"
 msgstr ""
 
 #: grub-core/efiemu/i386/loadcore32.c:111 grub-core/kern/arm/dl.c:256
@@ -2562,10 +2563,11 @@ msgstr ""
 msgid "relocation 0x%x is not implemented yet"
 msgstr ""
 
-#: grub-core/efiemu/i386/loadcore64.c:125 grub-core/kern/arm64/dl.c:187
-#: grub-core/kern/ia64/dl.c:140 grub-core/kern/riscv/dl.c:334
-#: grub-core/kern/sparc64/dl.c:180 grub-core/kern/x86_64/dl.c:110
-msgid "relocation 0x%"
+#: grub-core/efiemu/i386/loadcore64.c:130 grub-core/kern/arm64/dl.c:192
+#: grub-core/kern/ia64/dl.c:145 grub-core/kern/riscv/dl.c:339
+#: grub-core/kern/sparc64/dl.c:185 grub-core/kern/x86_64/dl.c:115
+#, c-format
+msgid "relocation 0x%s is not implemented yet"
 msgstr ""
 
 #: grub-core/efiemu/loadcore.c:200 grub-core/efiemu/loadcore.c:237
@@ -2616,18 +2618,18 @@ msgstr ""
 
 #: grub-core/fs/archelp.c:216 grub-core/fs/archelp.c:278
 #: grub-core/fs/btrfs.c:1835 grub-core/fs/fshelp.c:227 grub-core/fs/jfs.c:747
-#: grub-core/fs/minix.c:369 grub-core/fs/ufs.c:454
+#: grub-core/fs/minix.c:371 grub-core/fs/ufs.c:454
 msgid "too deep nesting of symlinks"
 msgstr ""
 
-#: grub-core/fs/bfs.c:228 grub-core/fs/fshelp.c:380 grub-core/fs/minix.c:270
+#: grub-core/fs/bfs.c:228 grub-core/fs/fshelp.c:380 grub-core/fs/minix.c:272
 #: grub-core/kern/file.c:156
 msgid "attempt to read past the end of file"
 msgstr ""
 
 #: grub-core/fs/btrfs.c:1718 grub-core/fs/btrfs.c:1977
 #: grub-core/fs/fshelp.c:189 grub-core/fs/fshelp.c:309 grub-core/fs/jfs.c:442
-#: grub-core/fs/minix.c:414 grub-core/fs/minix.c:562
+#: grub-core/fs/minix.c:416 grub-core/fs/minix.c:578
 #: grub-core/fs/reiserfs.c:732 grub-core/fs/ufs.c:531 grub-core/fs/ufs.c:671
 #: grub-core/fs/zfs/zfs.c:2842 grub-core/fs/zfs/zfs.c:4275
 msgid "not a directory"
@@ -2650,11 +2652,12 @@ msgstr ""
 #: grub-core/loader/linux.c:139 grub-core/loader/linux.c:248
 #: grub-core/script/lexer.c:179 grub-core/video/bitmap.c:145
 #: grub-core/video/readers/png.c:307 grub-core/video/readers/png.c:312
-#: include/grub/buffer.h:79 include/grub/misc.h:287 include/grub/misc.h:296
+#: include/grub/buffer.h:79 include/grub/buffer.h:117 include/grub/misc.h:287
+#: include/grub/misc.h:296
 msgid "overflow is detected"
 msgstr ""
 
-#: grub-core/fs/fshelp.c:281 grub-core/fs/minix.c:630 grub-core/fs/ufs.c:661
+#: grub-core/fs/fshelp.c:281 grub-core/fs/minix.c:646 grub-core/fs/ufs.c:661
 #: grub-core/fs/ufs.c:757 grub-core/kern/fs.c:170 grub-core/kern/fs.c:182
 #, c-format
 msgid "invalid file name `%s'"
@@ -3057,8 +3060,9 @@ msgstr ""
 msgid "invalid arch-independent ELF magic"
 msgstr ""
 
-#: grub-core/kern/efi/mm.c:130
-msgid "invalid memory address (0x%"
+#: grub-core/kern/efi/mm.c:136
+#, c-format
+msgid "invalid memory address (0x%s > 0x%s)"
 msgstr ""
 
 #: grub-core/kern/efi/sb.c:148
@@ -4925,11 +4929,11 @@ msgid "terminal %s isn't found or it's not handled by terminfo"
 msgstr ""
 
 #: grub-core/term/terminfo.c:788
-msgid "[[-a|-u|-v] [-g WxH] TERM [TYPE]]"
+msgid "[[-a|-u|-v] [-g WxH] [TERM] [TYPE]]"
 msgstr ""
 
 #: grub-core/term/terminfo.c:789
-msgid "Set terminfo type of TERM  to TYPE.\n"
+msgid "Set terminfo type of TERM to TYPE.\n"
 msgstr ""
 
 #. TRANSLATORS: this is the BLOCK-argument, not
@@ -4957,10 +4961,6 @@ msgstr ""
 
 #: grub-core/video/video.c:596 grub-core/video/video.c:762
 msgid "no suitable video mode found"
-msgstr ""
-
-#: include/grub/buffer.h:117
-msgid "overflow is detected."
 msgstr ""
 
 #: include/grub/buffer.h:123
@@ -6790,9 +6790,8 @@ msgstr ""
 #: util/grub.d/30_os-prober.in:39
 #, c-format
 msgid ""
-"os-prober will be executed to detect other bootable partitions.\\nIt's "
-"output will be used to detect bootable binaries on them and create new boot "
-"entries."
+"os-prober will be executed to detect other bootable partitions.\\nIts output "
+"will be used to detect bootable binaries on them and create new boot entries."
 msgstr ""
 
 #: util/grub.d/30_os-prober.in:147

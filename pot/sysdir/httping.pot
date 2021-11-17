@@ -1,0 +1,785 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTTPing\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2015-05-04 18:41+0100\n"
+"Last-Translator: Joris Zwart <hallo@joriszwart.nl>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+
+msgid "\n"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"Please run:\n"
+"\t%s --help\n"
+"to see a list of options.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"errno=%d which means %s (if applicable)\n"
+msgstr ""
+
+msgid ""
+"\n"
+" *** -A is no longer required ***\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Auto enabling SSL due to https-URL"
+msgstr ""
+
+msgid ""
+"\n"
+"Connecting to host %s, port %d and requesting file %s"
+msgstr ""
+
+msgid ""
+"\n"
+"HTTP server sent more data than just the response headers"
+msgstr ""
+
+msgid ""
+"\n"
+"HTTP server started sending data with %d bytes still in transit"
+msgstr ""
+
+msgid ""
+"\n"
+"No longer emitting message about \"more data than response headers\""
+msgstr ""
+
+msgid ""
+"\n"
+"No longer emitting message about \"still data in transit\""
+msgstr ""
+
+msgid ""
+"\n"
+"Resolving hostname %s"
+msgstr ""
+
+msgid ""
+"\n"
+"SSL fingerprint: %s"
+msgstr ""
+
+msgid ""
+"\n"
+"Using proxyserver: %s:%d"
+msgstr ""
+
+msgid "   n/a"
+msgstr ""
+
+msgid " * SSL support included (-l)\n"
+msgstr ""
+
+msgid " * TFO (TCP fast open) support included (-F)\n"
+msgstr ""
+
+msgid " * ncurses interface included (-K)\n"
+msgstr ""
+
+msgid " * ncurses interface with FFT included (-K)\n"
+msgstr ""
+
+msgid " *** \"GET\" (instead of HTTP \"HEAD\") settings ***\n"
+msgstr ""
+
+msgid " *** GUI/ncurses mode settings ***\n"
+msgstr ""
+
+msgid " *** HTTP authentication ***\n"
+msgstr ""
+
+msgid " *** HTTP settings ***\n"
+msgstr ""
+
+msgid " *** networking settings ***\n"
+msgstr ""
+
+msgid " *** output mode settings ***\n"
+msgstr ""
+
+msgid " *** output settings ***\n"
+msgstr ""
+
+msgid " *** proxy settings ***\n"
+msgstr ""
+
+msgid " *** timing settings ***\n"
+msgstr ""
+
+msgid " *** where to connect to ***\n"
+msgstr ""
+
+msgid " age=%d"
+msgstr ""
+
+msgid " toff=%d"
+msgstr ""
+
+msgid "\"TCP fast open\" (TFO), reduces the latency of TCP connects"
+msgstr ""
+
+msgid "# cookies: %d"
+msgstr ""
+
+msgid "%s%d%s connects, %s%d%s ok, %s%3.2f%%%s failed, time %s%s%.0fms%s\n"
+msgstr ""
+
+msgid "%s%s%s%s%s:%s%d%s (%d bytes), seq=%s%d%s "
+msgstr ""
+
+msgid "%s%s%s%s%s:%s%d%s (%d/%d bytes), seq=%s%d%s "
+msgstr ""
+
+msgid "%s, run time: %.3fs, press ctrl + c to stop"
+msgstr ""
+
+msgid "%s:    n/a"
+msgstr ""
+
+msgid "%s: - failed: %s"
+msgstr ""
+
+msgid "'Content-Length'-header missing!"
+msgstr ""
+
+msgid "(IPv6) "
+msgstr ""
+
+msgid ", with TFO"
+msgstr ""
+
+msgid "--- %s ping statistics ---\n"
+msgstr ""
+
+msgid ""
+"-b/-B can only be used when also using -G (GET instead of HEAD) or -l (use "
+"SSL)\n"
+msgstr ""
+
+msgid "-i cannot have a value smaller than zero"
+msgstr ""
+
+msgid "-n and -N are mutual exclusive\n"
+msgstr ""
+
+msgid "-n: missing parameter\n"
+msgstr ""
+
+msgid "/sd"
+msgstr ""
+
+msgid "AGG[%d]: %d values, min/avg/max%s = %.1f/%.1f/%.1f"
+msgstr ""
+
+msgid "Aggregates can only be used in non-machine/json-output mode"
+msgstr ""
+
+msgid "Auto enabling SSL due to https-URL"
+msgstr ""
+
+msgid "CRITICAL - average httping-time is %.1f\n"
+msgstr ""
+
+msgid "CRITICAL - connecting failed: %s"
+msgstr ""
+
+msgid "Cannot combine -m, -M and -K"
+msgstr ""
+
+msgid "Cannot open password-file %s"
+msgstr ""
+
+msgid "Cannot resolve %s"
+msgstr ""
+
+msgid ""
+"Connecting to host %s, port %d and requesting file %s\n"
+"\n"
+msgstr ""
+
+msgid "Error message '%s' truncated"
+msgstr ""
+
+msgid "Got signal %d\n"
+msgstr ""
+
+msgid "HTTP rc: %s, SSL fp: %s"
+msgstr ""
+
+msgid "HTTPing v"
+msgstr ""
+
+msgid "Interval must be > 0 when using adaptive interval"
+msgstr ""
+
+msgid "Invalid proxy response headers"
+msgstr ""
+
+msgid "Nagios mode 2: return 0 when all fine, 'x' when anything failes"
+msgstr ""
+
+msgid ""
+"Nagios-mode: return 1 when avg. response time >= warn, 2 if >= crit, "
+"otherwhise return 0"
+msgstr ""
+
+msgid ""
+"No URL/host to ping given\n"
+"\n"
+msgstr ""
+
+msgid "No valid IPv4 or IPv6 address found for %s"
+msgstr ""
+
+msgid "OK - all fine, avg httping time is %.1f|ping=%f\n"
+msgstr ""
+
+msgid "OK - average httping-time is %.1f (%s)|ping=%f\n"
+msgstr ""
+
+msgid "Problem reading password from file %s"
+msgstr ""
+
+msgid "Problem resolving %s (IPv4): %s"
+msgstr ""
+
+msgid "Problem retrieving proxy response"
+msgstr ""
+
+msgid "Problem sending request to proxy"
+msgstr ""
+
+msgid "Proxy indicated error: %s"
+msgstr ""
+
+msgid "READ_SSL: io-error: %s"
+msgstr ""
+
+msgid ""
+"Request headers > 4KB! (%d bytes) This may give failures with some HTTP "
+"servers."
+msgstr ""
+
+msgid "Resolving %s %sfailed: %s"
+msgstr ""
+
+msgid "TCP Fast open and SSL not supported together\n"
+msgstr ""
+
+msgid ""
+"TCP TFO Not Supported. Please check if \"/proc/sys/net/ipv4/tcp_fastopen\" "
+"is 1. Disabling TFO for now.\n"
+msgstr ""
+
+msgid "Transfer speed: min/avg/max = %s%f%s/%s%f%s/%s%f%s KB\n"
+msgstr ""
+
+msgid "URL to ping (e.g. -g http://localhost/)"
+msgstr ""
+
+msgid "URL too big, HTTPing has a %d bytes limit"
+msgstr ""
+
+msgid "Using proxyserver: %s:%d\n"
+msgstr ""
+
+msgid "WARNING - average httping-time is %.1f\n"
+msgstr ""
+
+msgid "WRITE_SSL: io-error: %s"
+msgstr ""
+
+msgid "Warning: TCP TFO is not supported. Disabling.\n"
+msgstr ""
+
+msgid "Will no longer inform about request headers too large."
+msgstr ""
+
+msgid "activate (\"basic\") authentication"
+msgstr ""
+
+msgid "add a cookie to the request"
+msgstr ""
+
+msgid "add colors"
+msgstr ""
+
+msgid "adds \"&x=[random value]\" to the request URL"
+msgstr ""
+
+msgid "adds an extra request-header"
+msgstr ""
+
+msgid "ask any proxies on the way not to cache the requests"
+msgstr ""
+
+msgid "audible ping"
+msgstr ""
+
+msgid "avg"
+msgstr ""
+
+msgid "bind to an ip-address (and thus interface) with an optional port"
+msgstr ""
+
+msgid "cannot convert ip address '%s' (for -y)\n"
+msgstr ""
+
+msgid "close  "
+msgstr ""
+
+msgid "compressed)"
+msgstr ""
+
+msgid "connect"
+msgstr ""
+
+msgid "connect time out"
+msgstr ""
+
+msgid "connect to a different host than in the URL given"
+msgstr ""
+
+msgid ""
+"connect using SSL. pinging an https URL automatically enables this setting"
+msgstr ""
+
+msgid "connected to"
+msgstr ""
+
+msgid "connection prematurely closed by peer"
+msgstr ""
+
+msgid "could not connect (%s)"
+msgstr ""
+
+msgid "could not set TCP_NODELAY on socket (%s)"
+msgstr ""
+
+msgid "cur"
+msgstr ""
+
+msgid "delay between each ping"
+msgstr ""
+
+msgid ""
+"do a GET request instead of HEAD (read the contents of the page as well)"
+msgstr ""
+
+msgid "do not abort the program if resolving failed: keep retrying"
+msgstr ""
+
+msgid "do not add \"Host:\"-line to the request headers"
+msgstr ""
+
+msgid "do not disable Naggle"
+msgstr ""
+
+msgid "do not scale to values above x"
+msgstr ""
+
+msgid "do not show graphs (in ncurses/GUI mode)"
+msgstr ""
+
+msgid "draw phase (fourier transform) in gui"
+msgstr ""
+
+msgid "error binding to interface (%s)"
+msgstr ""
+
+msgid "error sending request to host"
+msgstr ""
+
+msgid "error setting MTU size (%s)"
+msgstr ""
+
+msgid "error setting priority (%s)"
+msgstr ""
+
+msgid "error setting receive buffer size (%s)"
+msgstr ""
+
+msgid "error setting sockopt to interface (%s)"
+msgstr ""
+
+msgid "error setting transmit buffer size (%s)"
+msgstr ""
+
+msgid "error shutting down ssl"
+msgstr ""
+
+msgid ""
+"execute pings at multiples of interval relative to start, automatically "
+"enabled in ncurses output mode"
+msgstr ""
+
+msgid "failed allocating memory for fft (1)"
+msgstr ""
+
+msgid "failed allocating memory for fft (2)"
+msgstr ""
+
+msgid "failed calculating plan for fft"
+msgstr ""
+
+msgid "failed to obtain TOS info"
+msgstr ""
+
+msgid "failed to set TOS info"
+msgstr ""
+
+msgid "fetch proxy settings from environment variables"
+msgstr ""
+
+msgid "flood connect (no delays)"
+msgstr ""
+
+msgid "from what ping value to show the results"
+msgstr ""
+
+msgid ""
+"from what ping value to show the value in red (must be bigger than yellow), "
+"only in color mode (-Y)"
+msgstr ""
+
+msgid "from what ping value to show the value in yellow"
+msgstr ""
+
+msgid "getnameinfo() failed: %d (%s)"
+msgstr ""
+
+msgid "getsockopt failed (%s)"
+msgstr ""
+
+msgid "gettimeofday failed"
+msgstr ""
+
+msgid "give machine parseable output (see also -o and -e)"
+msgstr ""
+
+msgid "graph range: %7.2fms - %7.2fms    "
+msgstr ""
+
+msgid "headers"
+msgstr ""
+
+msgid "highest: %6.2fHz, avg: %6.2fHz"
+msgstr ""
+
+msgid "hostname to ping (e.g. localhost) - use either -g or -h"
+msgstr ""
+
+msgid "how many times to ping"
+msgstr ""
+
+msgid "http result code: %s"
+msgstr ""
+
+msgid "internal error! (curncount)\n"
+msgstr ""
+
+msgid "json output, cannot be combined with -m"
+msgstr ""
+
+msgid "latest"
+msgstr ""
+
+msgid "like -b but use compression if available"
+msgstr ""
+
+msgid "limit the MTU size"
+msgstr ""
+
+msgid "limit the amount of data transferred (for -b) to 'x' (in bytes)"
+msgstr ""
+
+msgid "max"
+msgstr ""
+
+msgid "min"
+msgstr ""
+
+msgid "myread::read failed: %s"
+msgstr ""
+
+msgid "myread::select failed: %s"
+msgstr ""
+
+msgid "mywrite::select failed: %s"
+msgstr ""
+
+msgid "mywrite::write failed: %s"
+msgstr ""
+
+msgid "n/a"
+msgstr ""
+
+msgid "ncurses/GUI mode"
+msgstr ""
+
+msgid "not "
+msgstr ""
+
+msgid "ok: %3d, fail: %3d%s, scc: %s, kalman: %s"
+msgstr ""
+
+msgid "password for authentication"
+msgstr ""
+
+msgid "password for authentication against proxy"
+msgstr ""
+
+msgid "pinged host"
+msgstr ""
+
+msgid "portnumber (e.g. 80) - use with -h"
+msgstr ""
+
+msgid "problem connecting to host: %s"
+msgstr ""
+
+msgid "problem creating SSL context"
+msgstr ""
+
+msgid "problem creating socket (%s)"
+msgstr ""
+
+msgid "problem setting receive timeout (%s)"
+msgstr ""
+
+msgid "problem setting transmit timeout (%s)"
+msgstr ""
+
+msgid "problem starting SSL connection: %d"
+msgstr ""
+
+msgid "proxy is a socks5 server"
+msgstr ""
+
+msgid ""
+"put a timestamp before the measured values, use -v to include the date and -"
+"vv to show in microseconds"
+msgstr ""
+
+msgid "quiet, only returncode"
+msgstr ""
+
+msgid "read of response body dataa failed"
+msgstr ""
+
+msgid "read password for proxy authentication from file x"
+msgstr ""
+
+msgid "read the password fom the file 'x' (replacement for -P)"
+msgstr ""
+
+msgid "realloc issue"
+msgstr ""
+
+msgid "receive buffer size"
+msgstr ""
+
+msgid "request"
+msgstr ""
+
+msgid "resolve"
+msgstr ""
+
+msgid ""
+"resolve hostname only once (useful when pinging roundrobin DNS: also takes "
+"the first DNS lookup out of the loop so that the first measurement is also "
+"correct)"
+msgstr ""
+
+msgid "retrieved invalid data from host"
+msgstr ""
+
+msgid "return the cookies given by the HTTP server in the following request(s)"
+msgstr ""
+
+msgid "round-trip min/avg/max%s = %s%.1f%s/%s%.1f%s/%s%.1f%s"
+msgstr ""
+
+msgid "sd"
+msgstr ""
+
+msgid "select() failed: %s"
+msgstr ""
+
+msgid "send   "
+msgstr ""
+
+msgid "set TOS (type of service)"
+msgstr ""
+
+msgid "set priority of packets"
+msgstr ""
+
+msgid "set_fd_blocking failed! (%s)\n"
+msgstr ""
+
+msgid "set_fd_nonblocking failed! (%s)\n"
+msgstr ""
+
+msgid "short read during receiving reply-headers from host"
+msgstr ""
+
+msgid "show an aggregate each x[/y[/z[/etc]]] seconds"
+msgstr ""
+
+msgid "show fingerprint (SSL)"
+msgstr ""
+
+msgid "show statuscodes"
+msgstr ""
+
+msgid "show the number of KB transferred (for -b)"
+msgstr ""
+
+msgid "show the version"
+msgstr ""
+
+msgid "show transfer speed in KB/s (use with -G)"
+msgstr ""
+
+msgid "socks5connect: bind request replies with version other than 0x05 (%02x)"
+msgstr ""
+
+msgid "socks5connect: command reply receive failure"
+msgstr ""
+
+msgid "socks5connect: failed receiving authentication reply"
+msgstr ""
+
+msgid "socks5connect: failed to connect (%02x)"
+msgstr ""
+
+msgid "socks5connect: failed to transmit associate request"
+msgstr ""
+
+msgid "socks5connect: failed transmitting username/password to socks5 server"
+msgstr ""
+
+msgid "socks5connect: only accepting bind-replies with IPv4 address (%02x)"
+msgstr ""
+
+msgid "socks5connect: password authentication failed"
+msgstr ""
+
+msgid ""
+"socks5connect: reply with requested authentication method does not say "
+"version 5 (%02x)"
+msgstr ""
+
+msgid "socks5connect: socks5 refuses our authentication methods: %02x"
+msgstr ""
+
+msgid "socks5connect: socks5 server requests username/password authentication"
+msgstr ""
+
+msgid ""
+"split measured time in its individual components (resolve, connect, send, "
+"etc."
+msgstr ""
+
+msgid "ssl    "
+msgstr ""
+
+msgid "string to display when http result code doesn't match"
+msgstr ""
+
+msgid "t offst"
+msgstr ""
+
+msgid "tcp rtt"
+msgstr ""
+
+msgid "time=%s%s%s ms %s%s%s"
+msgstr ""
+
+msgid "time=%s+%s+%s+%s+%s%s=%s%s%s%s ms %s%s%s"
+msgstr ""
+
+msgid "timeout (default: 30s)"
+msgstr ""
+
+msgid "timeout connecting to host"
+msgstr ""
+
+msgid "timeout sending to host"
+msgstr ""
+
+msgid "timeout while receiving reply-headers from host"
+msgstr ""
+
+msgid "total  "
+msgstr ""
+
+msgid "transmit buffer size"
+msgstr ""
+
+msgid "trend: %c%6.2f%%, re-tx: %2d, pmtu: %5d, TOS: %02x"
+msgstr ""
+
+msgid "use 'x' for the Referer header"
+msgstr ""
+
+msgid "use 'x' for the UserAgent header"
+msgstr ""
+
+msgid "use IPv6 when resolving/connecting"
+msgstr ""
+
+msgid ""
+"use a persistent connection, i.e. reuse the same TCP connection for multiple "
+"HTTP requests. usually possible when 'Connection: Keep-Alive' is sent by "
+"server. adds a 'C' to the output if httping had to reconnect"
+msgstr ""
+
+msgid "username for authentication"
+msgstr ""
+
+msgid "username for authentication against proxy"
+msgstr ""
+
+msgid "using \"http://\" with SSL enabled (-l)"
+msgstr ""
+
+msgid "verbose mode"
+msgstr ""
+
+msgid ""
+"what http results codes indicate 'ok' comma separated WITHOUT spaces "
+"inbetween default is 200, use with -e"
+msgstr ""
+
+msgid ""
+"when the duration is x or more, show ping line in the slow log window (the "
+"middle window)"
+msgstr ""
+
+msgid ""
+"x should be \"host:port\" which are the network settings of the http/https "
+"proxy server. ipv6 ip-address should be \"[ip:address]:port\""
+msgstr ""
+
+msgid "Voorbeeld:\n"
+msgstr ""

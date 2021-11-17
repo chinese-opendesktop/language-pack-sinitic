@@ -1,19 +1,16 @@
 build:
-	msgchi -t prg -l eng2cmn telegram:Desktop.strings -o telegram:Desktop_cmn_TW.strings
-	msgchi -t prg -l cmn2yue telegram:Desktop_cmn_TW.strings -o telegram:Desktop_yue_HK.strings
-	msgchi -t txt -x '^;.*' -l eng2cmn ucblogo:Messages -o ucblogo:Messages.cmn_TW
-	msgchi -t txt -x '^;.*' -l cmn2yue ucblogo:Messages.cmn_TW -o ucblogo:Messages.yue_HK
-	msgchi -t ini -a _ -l eng2cmn textadept:locale.conf -o textadept:locale.cmn_TW.conf
-	msgchi -t ini -a _ -l cmn2yue textadept:locale.cmn_TW.conf -o textadept:locale.yue_HK.conf
+	mkdir -p cmn_TW yue_HK
+	msgchi -t prg -l eng2cmn telegram:Desktop.strings -o cmn_TW/telegram:Desktop.strings
+	msgchi -t prg -l cmn2yue cmn_TW/telegram:Desktop.strings -o yue_HK/telegram:Desktop.strings
+	msgchi -t txt -x '^;.*' -l eng2cmn ucblogo:Messages -o cmn_TW/ucblogo:Messages
+	msgchi -t txt -x '^;.*' -l cmn2yue cmn_TW/ucblogo:Messages -o yue_HK/ucblogo:Messages
+	msgchi -t ini -a _ -l eng2cmn textadept:locale.conf -o cmn_TW/textadept:locale.conf
+	msgchi -t ini -a _ -l cmn2yue cmn_TW/textadept:locale.conf -o yue_HK/textadept:locale.conf
+	msgchi -t txt -l eng2cmn pebl-battery-SNARC:en.txt -o cmn_TW/pebl-battery-SNARC:en.txt
+	msgchi -t txt -l cmn2yue cmn_TW/pebl-battery-SNARC:en.txt -o yue_HK/pebl-battery-SNARC:en.txt
 
 install:
-	install -d $(DESTDIR)$(DATADIR)/Telegram
-	install -m644 telegram:Desktop_cmn_TW.strings $(DESTDIR)$(DATADIR)/Telegram/Desktop_cmn_TW.strings
-	install -m644 telegram:Desktop_yue_HK.strings $(DESTDIR)$(DATADIR)/Telegram/Desktop_yue_HK.strings
-	install -d $(DESTDIR)$(DATADIR)/logo/logolib
-	install -m644 ucblogo:Messages.cmn_TW $(DESTDIR)$(DATADIR)/logo/logolib/Messages.cmn_TW
-	install -m644 ucblogo:Messages.yue_HK $(DESTDIR)$(DATADIR)/logo/logolib/Messages.yue_HK
-	install -d $(DESTDIR)$(LIBDIR)/textadept/core/locales
-	install -m644 textadept:locale.cmn_TW.conf $(DESTDIR)$(LIBDIR)/textadept/core/locales/locale.cmn_TW.conf
-	install -m644 textadept:locale.yue_HK.conf $(DESTDIR)$(LIBDIR)/textadept/core/locales/locale.yue_HK.conf
-
+	for i in ???_??; do install -Dm644 $$i/telegram:Desktop.strings $(DESTDIR)$(DATADIR)/Telegram/Desktop_$$i.strings; done
+	for i in ???_??; do install -Dm644 $$i/ucblogo:Messages $(DESTDIR)$(DATADIR)/logo/logolib/Messages.$$i; done
+	for i in ???_??; do install -Dm644 $$i/textadept:locale.conf $(DESTDIR)$(LIBDIR)/textadept/core/locales/locale.$$i.conf; done
+	for i in ???_??; do install -Dm644 $$i/pebl-battery-SNARC:en.txt $(DESTDIR)$(DATADIR)/pebl/battery/SNARC/translations/$$i.txt; done

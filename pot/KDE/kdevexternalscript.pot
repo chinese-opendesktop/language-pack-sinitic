@@ -1,0 +1,319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevplatform\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2014-01-13 20:54+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian <bs@li.org>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Launchpad (build 17341)\n"
+"X-Launchpad-Export-Date: 2015-02-15 06:08+0000\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgid ""
+"*** Could not start program '%1'. Make sure that the path is specified "
+"correctly ***"
+msgstr ""
+
+msgid "*** Crashed with return code: %1 ***"
+msgstr ""
+
+msgid "*** Exited normally ***"
+msgstr ""
+
+msgid "*** Exited with return code: %1 ***"
+msgstr ""
+
+msgid "*** Killed Application ***"
+msgstr ""
+
+msgid "*** Process aborted ***"
+msgstr ""
+
+msgid ""
+"<p>Do you really want to remove the external script configuration for <i>%1</"
+"i>?</p><p><i>Note:</i> The script itself will not be removed.</p>"
+msgstr ""
+
+msgid ""
+"Cannot run script '%1' since it tries to access the editor contents but no "
+"document is open."
+msgstr ""
+
+msgid "External Scripts"
+msgstr ""
+
+msgid "Google Selection"
+msgstr ""
+
+msgid "Quick Compile"
+msgstr ""
+
+msgid "Running external script: %1"
+msgstr ""
+
+msgid "Sort Selection"
+msgstr ""
+
+msgctxt "@action"
+msgid "Add External Script"
+msgstr ""
+
+msgctxt "@action"
+msgid "Edit External Script"
+msgstr ""
+
+msgctxt "@action"
+msgid "Remove External Script"
+msgstr ""
+
+msgctxt "@info:placeholder"
+msgid "Filter..."
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines the command that should be executed when this script is run. "
+"Basic shell features of your platform should be available.</p>\n"
+"<p>There are a few placeholders you can use in the command:</p>\n"
+"<dl>\n"
+"  <dt><code>%u</code></dt>\n"
+"  <dd>Gets replaced by the URL of the active document.</dd>\n"
+"  <dt><code>%f</code></dt>\n"
+"  <dd>Gets replaced by the local filepath to the active document.</dd>\n"
+"  <dt><code>%n</code></dt>\n"
+"  <dd>Gets replaced by the name of the active document, including its "
+"extension.</dd>\n"
+"  <dt><code>%b</code></dt>\n"
+"  <dd>Gets replaced by the name of the active document without its extension."
+"</dd>\n"
+"  <dt><code>%d</code></dt>\n"
+"  <dd>Gets replaced by the path to the directory of the active document.</"
+"dd>\n"
+"  <dt><code>%p</code></dt>\n"
+"  <dd>Gets replaced by the URL to the project of the active document.</dd>\n"
+"  <dt><code>%s</code></dt>\n"
+"  <dd>Gets replaced with the shell escaped contents of the selection in the "
+"active document.</dd>\n"
+"  <dt><code>%i</code></dt>\n"
+"  <dd>Gets replaced with the PID of the currently running KDevelop process.</"
+"dd>\n"
+"</dl>\n"
+"<p><b>NOTE:</b>  It is your responsibility to prevent running hazardous "
+"commands that could lead to data loss.</p>\n"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid "<p>Defines the name of the script. Just for displaying purposes.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines the shortcut(s) you can use to execute this external script.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what should be done with the errors (i.e. <code>STDERR</code>) of "
+"the script.</p><p>Note: if the action is the same as that chosen for the "
+"output, the channels will be merged and handled together.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what should be done with the output (i.e. <code>STDOUT</code>) of "
+"the script.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what the external script should get as input (via <code>STDIN</"
+"code>).</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines what type of filtering should be applied to the output. E.g. to "
+"indicate errors by red text.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines whether documents should be saved before the script gets executed."
+"</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Defines whether the output of the script should be shown in a tool view.</"
+"p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid ""
+"<p>The name will also be used as the identifier during code completion.</p>\n"
+"  <p><b>Note:</b> No spaces allowed.</p>"
+msgstr ""
+
+msgctxt "@info:tooltip"
+msgid "Defines shortcuts you can use to execute this script."
+msgstr ""
+
+msgctxt "@item:inlistbox handle errors"
+msgid "Create New File"
+msgstr ""
+
+msgctxt "@item:inlistbox handle errors"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "@item:inlistbox handle errors"
+msgid "Insert at Cursor Position of Current File"
+msgstr ""
+
+msgctxt "@item:inlistbox handle errors"
+msgid "Merge with Normal Output"
+msgstr ""
+
+msgctxt "@item:inlistbox handle errors"
+msgid "Replace Contents of Current File"
+msgstr ""
+
+msgctxt "@item:inlistbox handle errors"
+msgid "Replace Selection of Current File or Insert at Cursor Position"
+msgstr ""
+
+msgctxt "@item:inlistbox handle errors"
+msgid "Replace Selection of Current File or Whole File"
+msgstr ""
+
+msgctxt "@item:inlistbox handle output"
+msgid "Create New File"
+msgstr ""
+
+msgctxt "@item:inlistbox handle output"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "@item:inlistbox handle output"
+msgid "Insert at Cursor Position of Current File"
+msgstr ""
+
+msgctxt "@item:inlistbox handle output"
+msgid "Replace Contents of Current File"
+msgstr ""
+
+msgctxt "@item:inlistbox handle output"
+msgid "Replace Selection of Current File or Insert at Cursor Position"
+msgstr ""
+
+msgctxt "@item:inlistbox handle output"
+msgid "Replace Selection of Current File or Whole File"
+msgstr ""
+
+msgctxt "@item:inlistbox input source"
+msgid "Contents of Current File"
+msgstr ""
+
+msgctxt "@item:inlistbox input source"
+msgid "Nothing"
+msgstr ""
+
+msgctxt "@item:inlistbox input source"
+msgid "Selection in Current File or Nothing"
+msgstr ""
+
+msgctxt "@item:inlistbox input source"
+msgid "Selection in Current File or Whole File"
+msgstr ""
+
+msgctxt "@item:inlistbox output filter"
+msgid "Compiler Filter"
+msgstr ""
+
+msgctxt "@item:inlistbox output filter"
+msgid "No Filter"
+msgstr ""
+
+msgctxt "@item:inlistbox output filter"
+msgid "Script Error Filter"
+msgstr ""
+
+msgctxt "@item:inlistbox output filter"
+msgid "Static Analysis Filter"
+msgstr ""
+
+msgctxt "@item:inlistbox save mode"
+msgid "Save Active Document"
+msgstr ""
+
+msgctxt "@item:inlistbox save mode"
+msgid "Save All Open Documents"
+msgstr ""
+
+msgctxt "@item:inlistbox save mode"
+msgid "Save Nothing"
+msgstr ""
+
+msgctxt "@label:chooser"
+msgid "Shortcut:"
+msgstr ""
+
+msgctxt "@label:listbox"
+msgid "&Input:"
+msgstr ""
+
+msgctxt "@label:listbox"
+msgid "&Output:"
+msgstr ""
+
+msgctxt "@label:listbox"
+msgid "Errors:"
+msgstr ""
+
+msgctxt "@label:listbox"
+msgid "Output filter:"
+msgstr ""
+
+msgctxt "@label:listbox"
+msgid "Save &mode:"
+msgstr ""
+
+msgctxt "@label:textbox"
+msgid "&Command:"
+msgstr ""
+
+msgctxt "@label:textbox"
+msgid "&Name:"
+msgstr ""
+
+msgctxt "@option:check"
+msgid "Show out&put:"
+msgstr ""
+
+msgctxt "@title:menu"
+msgid "External Scripts"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Confirm External Script Removal"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Create New External Script"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "Edit External Script '%1'"
+msgstr ""
+
+msgctxt "@title:window"
+msgid "External Scripts"
+msgstr ""
+
+msgid "Paste to Hastebin"
+msgstr ""

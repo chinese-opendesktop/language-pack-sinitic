@@ -1,5 +1,7 @@
 build:
 	make -C sysdir build
+	make -C sugar build
+	make -C XFCE build
 	make -C TP build
 	make -C GNOME build
 	make -C KDE build
@@ -13,6 +15,8 @@ build:
 
 install:
 	make -C sysdir install
+	make -C sugar install
+	make -C XFCE install
 	make -C TP install
 	make -C GNOME install
 	make -C KDE install
