@@ -1,9 +1,9 @@
 build:
-	mkdir -p cmn_TW yue_HK
+	mkdir -p cmn_TW yue_TW
 	for i in *.pot; do msgchi $$i -l eng2cmn -F -o cmn_TW/$${i%.pot}.po; done
 	cd cmn_TW; for i in *.po; do msgfmt $$i -o $${i%.po}.mo; done
-	cd cmn_TW; for i in *.po; do msgchi $$i -l cmn2yue -o ../yue_HK/$$i; done
-	cd yue_HK; for i in *.po; do msgfmt $$i -o $${i%.po}.mo; done
+	cd cmn_TW; for i in *.po; do msgchi $$i -l cmn2yue -o ../yue_TW/$$i; done
+	cd yue_TW; for i in *.po; do msgfmt $$i -o $${i%.po}.mo; done
 
 install:
 	for i in ???_??; do install -Dm644 $$i/lenmus.mo $(DESTDIR)$(DATADIR)/lenmus/5.6.2/locale/$$i/lenmus_$$i.mo; done
@@ -34,7 +34,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/meandmyshadow.po $(DESTDIR)$(DATADIR)/meandmyshadow/data/locale/$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/ufo2000.po $(DESTDIR)$(DATADIR)/ufo2000/translations/ufo2000-$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/WikidPad.po $(DESTDIR)$(DATADIR)/wikidpad/WikidPad_$$i.po; done
-	for i in ???_??; do install -Dm644 $$i/nelson.mo $(DESTDIR)/opt/Nelson/locale/$$i/LC_MESSAGES/nelson.mo; done
+	for i in ???_??; do install -Dm644 $$i/nelson.mo $(DESTDIR)/usr/libexec/Nelson/locale/$$i/LC_MESSAGES/nelson.mo; done
 	for i in ???_??; do install -Dm644 $$i/tlpkg.mo $(DESTDIR)$(DATADIR)/texlive/tlpkg/translations/$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/AC.mo $(DESTDIR)$(DATADIR)/assaultcube/packages/locale/$$i/LC_MESSAGES/AC.mo; done
 	for i in ???_??; do install -Dm644 $$i/Editra.mo $(DESTDIR)$(LIBDIR)/python2.7/site-packages/Editra/locale/$$i/LC_MESSAGES/Editra.mo; done

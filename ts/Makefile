@@ -8,7 +8,7 @@ build:
 	make -C LXQt build
 	make -C sysdir build
 	make -C leechcraft build
-	make -C noinstall build
+	make -C embed build
 
 install:
 	make -C Qt4 install

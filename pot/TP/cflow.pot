@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU cflow 1.6.91\n"
+"Project-Id-Version: GNU cflow 1.7\n"
 "Report-Msgid-Bugs-To: bug-cflow@gnu.org\n"
-"POT-Creation-Date: 2021-04-01 11:59+0300\n"
+"POT-Creation-Date: 2021-12-30 12:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/c.l:152
+#: src/c.l:150
 msgid "unterminated string?"
 msgstr ""
 
-#: src/c.l:338
+#: src/c.l:336
 #, c-format
 msgid "Command line: %s\n"
 msgstr ""
 
-#: src/c.l:341
+#: src/c.l:339
 #, c-format
 msgid "cannot execute `%s'"
 msgstr ""
 
-#: src/c.l:396 src/rc.c:58
+#: src/c.l:394 src/rc.c:58
 #, c-format
 msgid "cannot open `%s'"
 msgstr ""
 
-#: src/c.l:477
+#: src/c.l:475
 #, c-format
 msgid "New location: %s:%d\n"
 msgstr ""
@@ -67,14 +67,15 @@ msgid ""
 "- to exclude them from the output"
 msgstr ""
 
-#: src/main.c:62 src/main.c:103 src/main.c:150 src/main.c:155
+#: src/main.c:62 src/main.c:103 src/main.c:150 src/main.c:158
 #: gnu/argp-parse.c:85
 msgid "NAME"
 msgstr ""
 
 #: src/main.c:63
 msgid ""
-"use given output format NAME; valid names are `gnu' (default) and `posix'"
+"use given output format NAME; valid names are `gnu' (default), `posix', and "
+"`dot'"
 msgstr ""
 
 #: src/main.c:66
@@ -252,93 +253,103 @@ msgid "print symbol names in declaration strings (default)"
 msgstr ""
 
 #: src/main.c:151
-msgid "assume main function to be called NAME; multiple options are allowed"
+msgid "start graph at this function; multiple options are allowed"
 msgstr ""
 
-#: src/main.c:154
+#: src/main.c:157
 msgid "there's no main function; print graphs for all functions in the program"
 msgstr ""
 
-#: src/main.c:156
+#: src/main.c:159
 msgid ""
-"show only graphs leading from starting symbols to this function; multiple "
+"show only graphs leading from start symbols to this function; multiple "
 "options are allowed"
 msgstr ""
 
-#: src/main.c:161
+#: src/main.c:164
 msgid "Informational options:"
 msgstr ""
 
-#: src/main.c:163
+#: src/main.c:166
 msgid "verbose error diagnostics"
 msgstr ""
 
-#: src/main.c:165
+#: src/main.c:168
 msgid "disable verbose diagnostics (default)"
 msgstr ""
 
-#: src/main.c:167
+#: src/main.c:170
 msgid "set debugging level"
 msgstr ""
 
-#: src/main.c:169 gnu/argp-parse.c:83
+#: src/main.c:172 gnu/argp-parse.c:83
 msgid "give this help list"
 msgstr ""
 
-#: src/main.c:272
+#: src/main.c:275
 #, c-format
 msgid "%s: no symbol type supplied"
 msgstr ""
 
-#: src/main.c:292
+#: src/main.c:285
+#, c-format
+msgid "cyclic alias: %s -> %s"
+msgstr ""
+
+#: src/main.c:291
+#, c-format
+msgid "cyclic alias: %s -> %s -> %s"
+msgstr ""
+
+#: src/main.c:309
 #, c-format
 msgid "unknown symbol type: %s"
 msgstr ""
 
-#: src/main.c:421 src/main.c:428
+#: src/main.c:438 src/main.c:445
 #, c-format
 msgid "level indent string is too long"
 msgstr ""
 
-#: src/main.c:454
+#: src/main.c:471
 #, c-format
 msgid "level-indent syntax"
 msgstr ""
 
-#: src/main.c:476
+#: src/main.c:493
 #, c-format
 msgid "unknown level indent option: %s"
 msgstr ""
 
-#: src/main.c:524
+#: src/main.c:541
 msgid "References:"
 msgstr ""
 
-#: src/main.c:587
+#: src/main.c:604
 #, c-format
 msgid "%s: No such output driver"
 msgstr ""
 
-#: src/main.c:615
+#: src/main.c:632
 #, c-format
 msgid "Unknown symbol class: %c"
 msgstr ""
 
-#: src/main.c:706
+#: src/main.c:723
 msgid "[FILE]..."
 msgstr ""
 
-#: src/main.c:756
+#: src/main.c:773
 #, c-format
 msgid "Exiting"
 msgstr ""
 
-#: src/main.c:802
+#: src/main.c:820
 #, c-format
 msgid "INTERNAL ERROR: %s: No such output driver"
 msgstr ""
 
-#: src/main.c:852
+#: src/main.c:870
 #, c-format
 msgid "no input files"
 msgstr ""
@@ -357,75 +368,75 @@ msgstr ""
 msgid "unrecognized definition"
 msgstr ""
 
-#: src/parser.c:558 src/parser.c:696 src/parser.c:786
+#: src/parser.c:558 src/parser.c:715 src/parser.c:805
 msgid "unexpected end of file in declaration"
 msgstr ""
 
-#: src/parser.c:609
+#: src/parser.c:599 src/parser.c:617 src/parser.c:650 src/parser.c:656
 msgid "unexpected end of file in expression"
 msgstr ""
 
-#: src/parser.c:676 src/parser.c:762
+#: src/parser.c:695 src/parser.c:781
 msgid "expected `;'"
 msgstr ""
 
-#: src/parser.c:715
+#: src/parser.c:734
 msgid "missing `;' after struct declaration"
 msgstr ""
 
-#: src/parser.c:808
+#: src/parser.c:827
 msgid "unexpected end of file in initializer list"
 msgstr ""
 
-#: src/parser.c:838 src/parser.c:845
+#: src/parser.c:857 src/parser.c:864
 msgid "unexpected end of file in struct"
 msgstr ""
 
-#: src/parser.c:894 src/parser.c:959
+#: src/parser.c:913 src/parser.c:979
 msgid "unexpected end of file in function declaration"
 msgstr ""
 
-#: src/parser.c:926 src/parser.c:949
+#: src/parser.c:946 src/parser.c:969
 msgid "expected `)'"
 msgstr ""
 
-#: src/parser.c:1021
+#: src/parser.c:1041
 msgid "unexpected token in parameter list"
 msgstr ""
 
-#: src/parser.c:1037
+#: src/parser.c:1057
 msgid "unexpected end of file in parameter list"
 msgstr ""
 
-#: src/parser.c:1075
+#: src/parser.c:1095
 msgid "forced function body close"
 msgstr ""
 
-#: src/parser.c:1089
+#: src/parser.c:1109
 msgid "unexpected end of file in function body"
 msgstr ""
 
-#: src/parser.c:1189
+#: src/parser.c:1209
 #, c-format
 msgid "%s/%d redefined"
 msgstr ""
 
-#: src/parser.c:1193
+#: src/parser.c:1213
 #, c-format
 msgid "%s redefined"
 msgstr ""
 
-#: src/parser.c:1196
+#: src/parser.c:1216
 #, c-format
 msgid "this is the place of previous definition"
 msgstr ""
 
-#: src/parser.c:1210
+#: src/parser.c:1230
 #, c-format
 msgid "%s:%d: %s/%d defined to %s\n"
 msgstr ""
 
-#: src/parser.c:1235
+#: src/parser.c:1255
 #, c-format
 msgid "%s:%d: type %s\n"
 msgstr ""
@@ -561,6 +572,7 @@ msgid "%s: option requires an argument -- '%c'\n"
 msgstr ""
 
 #: gnu/obstack.c:340 gnu/obstack.c:342 gnu/xalloc-die.c:36
+#: src/wordsplit/wordsplit.c:76 src/wordsplit/wordsplit.c:2851
 msgid "memory exhausted"
 msgstr ""
 
@@ -703,4 +715,117 @@ msgstr ""
 #: gnu/version-etc.c:262
 #, c-format
 msgid "General help using GNU software: <%s>\n"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:130
+msgid "memory exhausted while trying to store error context"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:881
+msgid "Restarting"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:1607
+#, c-format
+msgid "%.*s: variable null or not set"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:1637
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2138
+#, c-format
+msgid "no files match pattern %s"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2599
+msgid "WS trimming"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2601
+msgid "command substitution"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2603 src/wordsplit/wordsplit.c:2611
+msgid "coalesce list"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2605
+msgid "tilde expansion"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2607
+msgid "variable expansion"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2609
+msgid "quote removal"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2613
+msgid "path expansion"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2638
+#, c-format
+msgid "(%02d) Input:%.*s;"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2664
+msgid "Initial list:"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2679
+msgid "Coalesced list:"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2849
+msgid "no error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2850
+msgid "missing closing quote"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2852
+msgid "invalid wordsplit usage"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2853
+msgid "unbalanced curly brace"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2854
+msgid "undefined variable"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2855
+msgid "input exhausted"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2856
+msgid "unbalanced parenthesis"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2857
+msgid "globbing error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2858
+msgid "user-defined error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2859
+msgid "invalid parameter number in assignment"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2871
+msgid "unknown error"
+msgstr ""
+
+#: src/wordsplit/wordsplit.c:2880
+#, c-format
+msgid "missing closing %c (start near #%lu)"
 msgstr ""

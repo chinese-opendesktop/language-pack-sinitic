@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mailfromd 8.12\n"
+"Project-Id-Version: mailfromd 8.13\n"
 "Report-Msgid-Bugs-To: bug-mailfromd@gnu.org.ua\n"
-"POT-Creation-Date: 2021-08-06 20:53+0300\n"
+"POT-Creation-Date: 2022-01-02 15:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -929,23 +929,23 @@ msgstr ""
 msgid "mf_dbm_open(%s) failed: %s"
 msgstr ""
 
-#: lib/transform.c:249 lib/transform.c:363
+#: lib/transform.c:290 lib/transform.c:381
 msgid "invalid transform expression"
 msgstr ""
 
-#: lib/transform.c:299
-msgid "missing 2nd delimiter"
+#: lib/transform.c:318
+msgid "missing replacement expression"
 msgstr ""
 
-#: lib/transform.c:313
+#: lib/transform.c:331
 msgid "missing trailing delimiter"
 msgstr ""
 
-#: lib/transform.c:343
+#: lib/transform.c:361
 msgid "unknown flag"
 msgstr ""
 
-#: lib/transform.c:396
+#: lib/transform.c:414
 msgid "back reference out of range"
 msgstr ""
 
@@ -1091,314 +1091,314 @@ msgstr ""
 msgid "built-in function `%s' cannot be used in prog `%s'"
 msgstr ""
 
-#: src/gram.y:559
+#: src/gram.y:562
 msgid "missing module declaration"
 msgstr ""
 
-#: src/gram.y:571 src/gram.y:582
+#: src/gram.y:574 src/gram.y:585
 msgid "duplicate module declaration"
 msgstr ""
 
-#: src/gram.y:586
+#: src/gram.y:589
 msgid "invalid module declaration"
 msgstr ""
 
-#: src/gram.y:668
+#: src/gram.y:671
 msgid "`precious' used with func"
 msgstr ""
 
-#: src/gram.y:672 src/gram.y:724 src/gram.y:739 src/gram.y:849
+#: src/gram.y:675 src/gram.y:727 src/gram.y:742 src/gram.y:852
 msgid "`static' and `public' used together"
 msgstr ""
 
-#: src/gram.y:802
+#: src/gram.y:805
 #, c-format
 msgid "duplicate `%s'"
 msgstr ""
 
-#: src/gram.y:845
+#: src/gram.y:848
 msgid "`precious' used with const"
 msgstr ""
 
-#: src/gram.y:864 src/gram.y:902
+#: src/gram.y:867 src/gram.y:905
 #, c-format
 msgid "constant name `%s' clashes with a variable name"
 msgstr ""
 
-#: src/gram.y:867 src/gram.y:905 src/gram.y:3930 src/gram.y:3943
-#: src/gram.y:3968 src/drivers.c:2708
+#: src/gram.y:870 src/gram.y:908 src/gram.y:3933 src/gram.y:3946
+#: src/gram.y:3971 src/drivers.c:2708
 msgid "this is the location of the previous definition"
 msgstr ""
 
-#: src/gram.y:886
+#: src/gram.y:889
 msgid "initializer element is not constant"
 msgstr ""
 
-#: src/gram.y:941
+#: src/gram.y:944
 msgid "initializer element is not numeric"
 msgstr ""
 
-#: src/gram.y:1064
+#: src/gram.y:1067
 msgid "unnamed formal parameters are deprecated"
 msgstr ""
 
-#: src/gram.y:1111 src/builtin/macro.bi:27 src/main.c:293
+#: src/gram.y:1114 src/builtin/macro.bi:27 src/main.c:293
 #, c-format
 msgid "unknown smtp state tag: %s"
 msgstr ""
 
-#: src/gram.y:1147
+#: src/gram.y:1150
 #, c-format
 msgid "return from %s is ignored"
 msgstr ""
 
-#: src/gram.y:1164 src/gram.y:1885 src/gram.y:3694
+#: src/gram.y:1167 src/gram.y:1888 src/gram.y:3697
 msgid "unspecified value not ignored as it should be"
 msgstr ""
 
-#: src/gram.y:1204
+#: src/gram.y:1207
 msgid "Sendmail action is not allowed in begin block"
 msgstr ""
 
-#: src/gram.y:1208
+#: src/gram.y:1211
 msgid "Sendmail action is not allowed in end block"
 msgstr ""
 
-#: src/gram.y:1217
+#: src/gram.y:1220
 msgid "header action is not allowed in end block"
 msgstr ""
 
-#: src/gram.y:1235
+#: src/gram.y:1238
 msgid "arguments are ignored for accept"
 msgstr ""
 
-#: src/gram.y:1359
+#: src/gram.y:1362
 msgid "invalid SMTP reply code"
 msgstr ""
 
-#: src/gram.y:1381
+#: src/gram.y:1384
 msgid "invalid extended reply code"
 msgstr ""
 
-#: src/gram.y:1441
+#: src/gram.y:1444
 msgid "duplicate default statement"
 msgstr ""
 
-#: src/gram.y:1443 src/symbols.c:831 src/symbols.c:837
+#: src/gram.y:1446 src/symbols.c:831 src/symbols.c:837
 msgid "previously defined here"
 msgstr ""
 
-#: src/gram.y:1530
+#: src/gram.y:1533
 #, c-format
 msgid "expected string, but found %s"
 msgstr ""
 
-#: src/gram.y:1619
+#: src/gram.y:1622
 msgid "duplicate loop increment"
 msgstr ""
 
-#: src/gram.y:1626
+#: src/gram.y:1629
 msgid "duplicate for statement"
 msgstr ""
 
-#: src/gram.y:1633
+#: src/gram.y:1636
 msgid "duplicate while statement"
 msgstr ""
 
-#: src/gram.y:1675 src/gram.y:1689
+#: src/gram.y:1678 src/gram.y:1692
 #, c-format
 msgid "no such loop: %s"
 msgstr ""
 
-#: src/gram.y:1678
+#: src/gram.y:1681
 msgid "`break' used outside of `loop'"
 msgstr ""
 
-#: src/gram.y:1692
+#: src/gram.y:1695
 msgid "`next' used outside `loop'"
 msgstr ""
 
-#: src/gram.y:1696
+#: src/gram.y:1699
 msgid "`next' is used outside `loop'; did you mean `pass'?"
 msgstr ""
 
-#: src/gram.y:1982 src/gram.y:1990
+#: src/gram.y:1985 src/gram.y:1993
 msgid "$(expr) is allowed only in a function with variable number of arguments"
 msgstr ""
 
-#: src/gram.y:2020 src/gram.y:2045 src/gram.y:2060 src/gram.y:3711
+#: src/gram.y:2023 src/gram.y:2048 src/gram.y:2063 src/gram.y:3714
 #, c-format
 msgid "too few arguments in call to `%s'"
 msgstr ""
 
-#: src/gram.y:2026 src/gram.y:3714
+#: src/gram.y:2029 src/gram.y:3717
 #, c-format
 msgid "too many arguments in call to `%s'"
 msgstr ""
 
-#: src/gram.y:2179
+#: src/gram.y:2182
 #, c-format
 msgid "expected numeric value, but found `%s'"
 msgstr ""
 
-#: src/gram.y:2207
+#: src/gram.y:2210
 msgid "exception code not a number"
 msgstr ""
 
-#: src/gram.y:2210 src/prog.c:2031
+#: src/gram.y:2213 src/prog.c:2031
 #, c-format
 msgid "invalid exception number: %lu"
 msgstr ""
 
-#: src/gram.y:2222 src/gram.y:2234
+#: src/gram.y:2225 src/gram.y:2237
 msgid "`return' outside of a function"
 msgstr ""
 
-#: src/gram.y:2225
+#: src/gram.y:2228
 msgid "`return' with no value, in function returning non-void"
 msgstr ""
 
-#: src/gram.y:2239
+#: src/gram.y:2242
 msgid "`return' with a value, in function returning void"
 msgstr ""
 
-#: src/gram.y:2267
+#: src/gram.y:2270
 msgid "unspecified data type in conditional expression: please, report"
 msgstr ""
 
-#: src/gram.y:2287
+#: src/gram.y:2290
 msgid "`on poll' used without prior `require poll'"
 msgstr ""
 
-#: src/gram.y:2297
+#: src/gram.y:2300
 msgid "recipient address not specified in `on poll' construct"
 msgstr ""
 
-#: src/gram.y:2434
+#: src/gram.y:2437
 msgid "invalid data type, expected number"
 msgstr ""
 
-#: src/gram.y:2745 src/gram.y:3232
+#: src/gram.y:2748 src/gram.y:3235
 #, c-format
 msgid "INTERNAL ERROR at %s:%d, unexpected node type %d"
 msgstr ""
 
-#: src/gram.y:3260
+#: src/gram.y:3263
 msgid "nothing to pop"
 msgstr ""
 
-#: src/gram.y:3304
+#: src/gram.y:3307
 #, c-format
 msgid "unknown regexp flag: %s"
 msgstr ""
 
-#: src/gram.y:3331 src/gram.y:3363
+#: src/gram.y:3334 src/gram.y:3366
 msgid "invalid size: numeric overflow occurred"
 msgstr ""
 
-#: src/gram.y:3358
+#: src/gram.y:3361
 #, c-format
 msgid "invalid size suffix (near %s)"
 msgstr ""
 
-#: src/gram.y:3554
+#: src/gram.y:3557
 #, c-format
 msgid "$%d is not a number"
 msgstr ""
 
-#: src/gram.y:3811
+#: src/gram.y:3814
 #, c-format
 msgid "cannot convert %s to %s"
 msgstr ""
 
-#: src/gram.y:3879
+#: src/gram.y:3882
 msgid "cannot define variable of unspecified type"
 msgstr ""
 
-#: src/gram.y:3891
+#: src/gram.y:3894
 #, c-format
 msgid "INTERNAL ERROR at %s:%d, declaring %s %s"
 msgstr ""
 
-#: src/gram.y:3899
+#: src/gram.y:3902
 #, c-format
 msgid "automatic variable `%s' is shadowing a parameter"
 msgstr ""
 
-#: src/gram.y:3904
+#: src/gram.y:3907
 #, c-format
 msgid "automatic variable `%s' is shadowing a global"
 msgstr ""
 
-#: src/gram.y:3912
+#: src/gram.y:3915
 #, c-format
 msgid "parameter `%s' is shadowing a global"
 msgstr ""
 
-#: src/gram.y:3926 src/gram.y:3939
+#: src/gram.y:3929 src/gram.y:3942
 #, c-format
 msgid "redeclaring `%s' as different data type"
 msgstr ""
 
-#: src/gram.y:3948
+#: src/gram.y:3951
 #, c-format
 msgid "duplicate variable: %s"
 msgstr ""
 
-#: src/gram.y:3955
+#: src/gram.y:3958
 #, c-format
 msgid "duplicate parameter: %s"
 msgstr ""
 
-#: src/gram.y:3965
+#: src/gram.y:3968
 #, c-format
 msgid "variable name `%s' clashes with a constant name"
 msgstr ""
 
-#: src/gram.y:4006
+#: src/gram.y:4009
 #, c-format
 msgid "cannot convert `%s' to number"
 msgstr ""
 
-#: src/gram.y:4047
+#: src/gram.y:4050
 #, c-format
 msgid "redefining variable %s"
 msgstr ""
 
-#: src/gram.y:4071
+#: src/gram.y:4074
 #, c-format
 msgid "<command line>: warning: no such variable: %s"
 msgstr ""
 
-#: src/gram.y:4078
+#: src/gram.y:4081
 #, c-format
 msgid "error initialising variable %s: incompatible types"
 msgstr ""
 
-#: src/gram.y:4130
+#: src/gram.y:4133
 #, c-format
 msgid "variable `%s' already initialized"
 msgstr ""
 
-#: src/gram.y:4133
+#: src/gram.y:4136
 msgid "this is the location of the previous initialization"
 msgstr ""
 
-#: src/gram.y:4164
+#: src/gram.y:4167
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: variable to be initialized is not declared"
 msgstr ""
 
-#: src/gram.y:4190
+#: src/gram.y:4193
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: variable to be initialized has wrong type"
 msgstr ""
 
-#: src/gram.y:4566
+#: src/gram.y:4569
 msgid "argument number too high"
 msgstr ""
 
-#: src/gram.y:4605
+#: src/gram.y:4608
 #, c-format
 msgid "use of uninitialized variable '%s'"
 msgstr ""

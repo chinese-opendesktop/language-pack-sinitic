@@ -1,12 +1,12 @@
 build:
-	mkdir -p cmn_TW yue_HK
+	mkdir -p cmn_TW yue_TW
 	for i in *.ts; do ts2po --progress none --pot $$i $${i%.ts}.pot; done
 	for i in *.pot; do msgchi $$i -l eng2cmn -F -o cmn_TW/$${i%.pot}.po; done
 	cd cmn_TW; for i in *.po; do po2ts --progress none $$i $${i%.po}.ts; done
 	cd cmn_TW; for i in *.ts; do lrelease-qt5 -silent $$i; done
-	cd cmn_TW; for i in *.po; do msgchi $$i -l cmn2yue -o ../yue_HK/$$i; done
-	cd yue_HK; for i in *.po; do po2ts --progress none $$i $${i%.po}.ts; done
-	cd yue_HK; for i in *.ts; do lrelease-qt5 -silent $$i; done
+	cd cmn_TW; for i in *.po; do msgchi $$i -l cmn2yue -o ../yue_TW/$$i; done
+	cd yue_TW; for i in *.po; do po2ts --progress none $$i $${i%.po}.ts; done
+	cd yue_TW; for i in *.ts; do lrelease-qt5 -silent $$i; done
 
 install:
 	for i in ???_??; do install -Dm644 $$i/minitube.qm $(DESTDIR)$(DATADIR)/minitube/locale/$$i.qm; done
@@ -19,6 +19,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/dooble.qm $(DESTDIR)/usr/libexec/dooble/Translations/dooble_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/ripcord.qm $(DESTDIR)$(LIBDIR)/ripcord/translations/ripcord_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/VirtualBox.qm $(DESTDIR)$(LIBDIR)/virtualbox/nls/VirtualBox_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/OpenBoard.qm $(DESTDIR)$(LIBDIR)/OpenBoard/i18n/OpenBoard_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/ffDiaporama.qm $(DESTDIR)$(DATADIR)/ffDiaporama/locale/ffDiaporama_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/raysession.qm $(DESTDIR)$(DATADIR)/raysession/locale/raysession_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/kst_common.qm $(DESTDIR)$(DATADIR)/kst_common/locale/kst_common_$$i.qm; done
@@ -77,7 +78,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/nem-nem.qm $(DESTDIR)$(DATADIR)/nem-nem/nem-nem_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/nmapsi4.qm $(DESTDIR)$(DATADIR)/nmapsi4/locale/nmapsi4_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/nootka.qm $(DESTDIR)$(DATADIR)/nootka/lang/nootka_$$i.qm; done
-	for i in ???_??; do install -Dm644 $$i/octave.qm $(DESTDIR)$(DATADIR)/octave/5.2.0/locale/$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/octave.qm $(DESTDIR)$(DATADIR)/octave/6.4.0/locale/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/pege.qm $(DESTDIR)$(DATADIR)/peg-e/translations/pege_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/dtkwidget.qm $(DESTDIR)$(DATADIR)/libdtk-5.4.0/DWidget/translations/dtkwidget_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/photivo.qm $(DESTDIR)$(DATADIR)/photivo/Translations/photivo_$$i.qm; done
@@ -129,7 +130,9 @@ install:
 	for i in ???_??; do install -Dm644 $$i/stellarium-remotecontrol.qm $(DESTDIR)$(DATADIR)/stellarium/translations/stellarium-remotecontrol/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/stellarium-scripts.qm $(DESTDIR)$(DATADIR)/stellarium/translations/stellarium-scripts/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/stellarium.qm $(DESTDIR)$(DATADIR)/stellarium/translations/stellarium/$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/ring_client_windows.qm $(DESTDIR)$(DATADIR)/ring/translations/ring_client_windows_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-widgets.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-widgets_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-guiplayer.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-guiplayer_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-vpiano.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-vpiano_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-drumgrid.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-drumgrid_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/converseen.qm $(DESTDIR)$(DATADIR)/converseen/loc/converseen_$$i.qm; done

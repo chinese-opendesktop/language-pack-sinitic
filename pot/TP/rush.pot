@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU rush 2.0\n"
+"Project-Id-Version: GNU rush 2.2\n"
 "Report-Msgid-Bugs-To: bug-rush@gnu.org\n"
-"POT-Creation-Date: 2019-07-01 09:59+0300\n"
+"POT-Creation-Date: 2022-01-02 16:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "too few arguments"
 msgstr ""
 
-#: src/config.c:357 src/rush.c:1251
+#: src/config.c:357 src/rush.c:1350
 msgid "too many arguments"
 msgstr ""
 
@@ -283,247 +283,262 @@ msgstr ""
 msgid "INTERNAL ERROR at %s:%d: unrecognized opcode %d"
 msgstr ""
 
-#: src/rush.c:411
+#: src/rush.c:408
+#, c-format
+msgid "%s:%d: %s: can't stat '%s': %s"
+msgstr ""
+
+#: src/rush.c:469
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unrecognized operation %d"
+msgstr ""
+
+#: src/rush.c:509
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: unrecognized node type %d"
 msgstr ""
 
-#: src/rush.c:620
+#: src/rush.c:718
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: invalid envar type %d"
 msgstr ""
 
-#: src/rush.c:625
+#: src/rush.c:723
 msgid "Final environment:"
 msgstr ""
 
-#: src/rush.c:639
+#: src/rush.c:737
 #, c-format
 msgid "wordsplit(%s) failed: %s"
 msgstr ""
 
-#: src/rush.c:665
+#: src/rush.c:763
 #, c-format
 msgid "no argument at index %d in command: %s"
 msgstr ""
 
-#: src/rush.c:805
+#: src/rush.c:903
 #, c-format
 msgid "Removing option %s %s"
 msgstr ""
 
-#: src/rush.c:817
+#: src/rush.c:915
 msgid "Transforming command line"
 msgstr ""
 
-#: src/rush.c:824
+#: src/rush.c:922
 #, c-format
 msgid "Transforming program name (%s)"
 msgstr ""
 
-#: src/rush.c:842
+#: src/rush.c:940
 #, c-format
 msgid "Transforming argv[%d]"
 msgstr ""
 
-#: src/rush.c:849
+#: src/rush.c:947
 #, c-format
 msgid "Transforming variable %s=%s"
 msgstr ""
 
-#: src/rush.c:856 src/rush.c:941
+#: src/rush.c:954 src/rush.c:1040
 msgid "environment transformation is not yet implemented"
 msgstr ""
 
-#: src/rush.c:860
+#: src/rush.c:958
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: can't modify read-only target"
 msgstr ""
 
-#: src/rush.c:879
+#: src/rush.c:977
 #, c-format
 msgid "Transformation map: %s, %s, %s, %u, %u, %s"
 msgstr ""
 
-#: src/rush.c:893
+#: src/rush.c:991
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: invalid node type %d"
 msgstr ""
 
-#: src/rush.c:920
+#: src/rush.c:998
+#, c-format
+msgid "transformed value: %s"
+msgstr ""
+
+#: src/rush.c:1019
 #, c-format
 msgid "Deleting arguments %d-%d"
 msgstr ""
 
-#: src/rush.c:923
+#: src/rush.c:1022
 msgid "Deleting argv[0] is prohibited"
 msgstr ""
 
-#: src/rush.c:945
+#: src/rush.c:1044
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: invalid target type %d"
 msgstr ""
 
-#: src/rush.c:963
+#: src/rush.c:1062
 #, c-format
 msgid "Program name: %s"
 msgstr ""
 
-#: src/rush.c:964
+#: src/rush.c:1063
 msgid "Final arguments:"
 msgstr ""
 
-#: src/rush.c:982
+#: src/rush.c:1081
 #, c-format
 msgid "error writing to database %s: %s"
 msgstr ""
 
-#: src/rush.c:991
+#: src/rush.c:1090
 #, c-format
 msgid "error writing stop to database file %s: %s"
 msgstr ""
 
-#: src/rush.c:1012
+#: src/rush.c:1111
 #, c-format
 msgid "%s:%d: %s: cannot fork: %s"
 msgstr ""
 
-#: src/rush.c:1022
+#: src/rush.c:1121
 #, c-format
 msgid "Forked process %lu"
 msgstr ""
 
-#: src/rush.c:1026
+#: src/rush.c:1125
 #, c-format
 msgid "%s: subprocess exited with code %d"
 msgstr ""
 
-#: src/rush.c:1029
+#: src/rush.c:1128
 #, c-format
 msgid "%s: subprocess terminated on signal %d"
 msgstr ""
 
-#: src/rush.c:1032
+#: src/rush.c:1131
 #, c-format
 msgid "%s: subprocess terminated"
 msgstr ""
 
-#: src/rush.c:1093
+#: src/rush.c:1192
 #, c-format
 msgid "cannot enforce gid %lu: %s"
 msgstr ""
 
-#: src/rush.c:1098
+#: src/rush.c:1197
 #, c-format
 msgid "cannot enforce uid %lu: %s"
 msgstr ""
 
-#: src/rush.c:1103
+#: src/rush.c:1202
 msgid "seteuid(0) succeeded when it should not"
 msgstr ""
 
-#: src/rush.c:1109
+#: src/rush.c:1208
 #, c-format
 msgid "Rule %s at %s:%d matched"
 msgstr ""
 
-#: src/rush.c:1123
+#: src/rush.c:1222
 #, c-format
 msgid "Error message: %s"
 msgstr ""
 
-#: src/rush.c:1126
+#: src/rush.c:1225
 #, c-format
 msgid "Error sending diagnostic message to descriptor %d: %s"
 msgstr ""
 
-#: src/rush.c:1132
+#: src/rush.c:1231
 #, c-format
 msgid "cannot set limits for %s"
 msgstr ""
 
-#: src/rush.c:1139
+#: src/rush.c:1238
 #, c-format
 msgid "Chroot dir: %s"
 msgstr ""
 
-#: src/rush.c:1146
+#: src/rush.c:1245
 #, c-format
 msgid "Home dir: %s"
 msgstr ""
 
-#: src/rush.c:1151
+#: src/rush.c:1250
 #, c-format
 msgid "GID: %lu"
 msgstr ""
 
-#: src/rush.c:1176
+#: src/rush.c:1275
 #, c-format
 msgid "cannot open database %s: %s"
 msgstr ""
 
-#: src/rush.c:1185
+#: src/rush.c:1284
 #, c-format
 msgid "cannot chroot to %s: %s"
 msgstr ""
 
-#: src/rush.c:1192 src/rush.c:1284
+#: src/rush.c:1291 src/rush.c:1383
 #, c-format
 msgid "invalid uid %lu"
 msgstr ""
 
-#: src/rush.c:1197
+#: src/rush.c:1296
 #, c-format
 msgid "chdir %s"
 msgstr ""
 
-#: src/rush.c:1200
+#: src/rush.c:1299
 #, c-format
 msgid "cannot change to dir %s: %s"
 msgstr ""
 
-#: src/rush.c:1204
+#: src/rush.c:1303
 #, c-format
 msgid "Executing %s, %s"
 msgstr ""
 
-#: src/rush.c:1219
+#: src/rush.c:1318
 #, c-format
 msgid "%s:%d: %s: cannot execute %s: %s"
 msgstr ""
 
-#: src/rush.c:1262 src/rush.c:1264
+#: src/rush.c:1361 src/rush.c:1363
 msgid "invalid command line"
 msgstr ""
 
-#: src/rush.c:1275
+#: src/rush.c:1374
 msgid "invalid user name"
 msgstr ""
 
-#: src/rush.c:1286
+#: src/rush.c:1385
 #, c-format
 msgid "user %s, uid %lu"
 msgstr ""
 
-#: src/rush.c:1298
+#: src/rush.c:1397
 msgid "Command line:"
 msgstr ""
 
-#: src/rush.c:1301
+#: src/rush.c:1400
 msgid "Environment:"
 msgstr ""
 
-#: src/rush.c:1332
+#: src/rush.c:1431
 #, c-format
 msgid "Serving interactive shell request for %s by rule %s"
 msgstr ""
 
-#: src/rush.c:1336
+#: src/rush.c:1435
 #, c-format
 msgid "Serving request \"%s\" for %s by rule %s"
 msgstr ""
 
-#: src/rush.c:1342
+#: src/rush.c:1441
 #, c-format
 msgid "no matching rule for \"%s\", user %s"
 msgstr ""
@@ -664,7 +679,7 @@ msgid "Print program version"
 msgstr ""
 
 #: rushopt.opt:23
-msgid "rush - a restricted user shell."
+msgid "rush - restricted user shell."
 msgstr ""
 
 #: rushopt.opt:25
@@ -691,11 +706,11 @@ msgstr ""
 msgid "Report bugs to %s.\n"
 msgstr ""
 
-#: rushopt.opt:698 rwopt.opt:696 rlopt.opt:699
+#: rushopt.opt:700 rwopt.opt:698 rlopt.opt:701
 msgid "(C)"
 msgstr ""
 
-#: rushopt.opt:716 rwopt.opt:714 rlopt.opt:717
+#: rushopt.opt:718 rwopt.opt:716 rlopt.opt:719
 msgid ""
 "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
 "html>\n"

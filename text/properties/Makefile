@@ -1,9 +1,9 @@
 build:
-	mkdir -p cmn-TW yue-HK
+	mkdir -p cmn-TW yue-TW
 	for i in *.properties; do msgchi -t ini -l eng2cmn $$i -o cmn-TW/$$i.native; done
-	cd cmn-TW; for i in *.native; do native2ascii $$i $${i%.native}; done
-	cd cmn-TW; for i in *.native; do msgchi -t ini -l cmn2yue $$i -o ../yue-HK/$$i; done
-	cd yue-HK; for i in *.native; do native2ascii $$i $${i%.native}; done
+	cd cmn-TW; for i in *.native; do uni2ascii -a U -l $$i > $${i%.native}; done
+	cd cmn-TW; for i in *.native; do msgchi -t ini -l cmn2yue $$i -o ../yue-TW/$$i; done
+	cd yue-TW; for i in *.native; do uni2ascii -a U -l $$i > $${i%.native}; done
 
 install:
 	for i in ???-??; do install -Dm644 $$i/lucidor:brand.properties $(DESTDIR)$(DATADIR)/lucidor/chrome/locale/branding/$$i/brand.properties; done
