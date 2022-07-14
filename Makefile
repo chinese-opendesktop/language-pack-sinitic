@@ -1,4 +1,4 @@
-VERSION = 2022.4
+VERSION = 2022.7
 PACKAGE = language-pack-sinitic
 DESTDIR =
 PREFIX = /usr
@@ -9,7 +9,7 @@ ifeq ($(LBITS), 64)
 else
   LIBDIR = $(PREFIX)/lib
 endif
-PYTHON = python3.10
+PYTHON = python$(basename $(word 2,$(shell python3 --version)))
 export
 
 build:

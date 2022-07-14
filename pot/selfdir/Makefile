@@ -34,7 +34,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/meandmyshadow.po $(DESTDIR)$(DATADIR)/meandmyshadow/data/locale/$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/ufo2000.po $(DESTDIR)$(DATADIR)/ufo2000/translations/ufo2000-$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/WikidPad.po $(DESTDIR)$(DATADIR)/wikidpad/WikidPad_$$i.po; done
-	for i in ???_??; do install -Dm644 $$i/nelson.mo $(DESTDIR)/usr/libexec/Nelson/locale/$$i/LC_MESSAGES/nelson.mo; done
+	for i in ???_??; do install -Dm644 $$i/nelson.mo $(DESTDIR)/usr/libexec/nelson/locale/$$i/LC_MESSAGES/nelson.mo; done
 	for i in ???_??; do install -Dm644 $$i/tlpkg.mo $(DESTDIR)$(DATADIR)/texlive/tlpkg/translations/$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/AC.mo $(DESTDIR)$(DATADIR)/assaultcube/packages/locale/$$i/LC_MESSAGES/AC.mo; done
 	for i in ???_??; do install -Dm644 $$i/Editra.mo $(DESTDIR)$(LIBDIR)/python2.7/site-packages/Editra/locale/$$i/LC_MESSAGES/Editra.mo; done
@@ -42,6 +42,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/mu.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/mu/locale/$$i/LC_MESSAGES/mu.mo; done
 	for i in ???_??; do install -Dm644 $$i/thonny.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/thonny/locale/$$i/LC_MESSAGES/thonny.mo; done
 	for i in ???_??; do install -Dm644 $$i/notebook.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/notebook/i18n/$$i/LC_MESSAGES/notebook.mo; done
+	for i in ???_??; do install -Dm644 $$i/safeeyes.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/safeeyes/config/locale/$$i/LC_MESSAGES/safeeyes.mo; done
 	for i in ???_??; do install -Dm644 $$i/phpmyadmin.mo $(DESTDIR)$(DATADIR)/phpMyAdmin/locale/$$i/LC_MESSAGES/phpmyadmin.mo; done
 	for i in ???_??; do install -Dm644 $$i/sqlparser.mo $(DESTDIR)$(DATADIR)/phpMyAdmin/SqlParser5/locale/$$i/LC_MESSAGES/sqlparser.mo; done
 	for i in ???_??; do install -Dm644 $$i/phpldapadmin.mo $(DESTDIR)$(DATADIR)/phpldapadmin/locale/$$i/LC_MESSAGES/messages.mo; done

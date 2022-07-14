@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pspp 1.5.5\n"
+"Project-Id-Version: pspp 1.6.0\n"
 "Report-Msgid-Bugs-To: pspp-dev@gnu.org\n"
-"POT-Creation-Date: 2022-04-10 16:31-0700\n"
+"POT-Creation-Date: 2022-05-30 11:00-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1940,6 +1940,7 @@ msgstr ""
 #: src/ui/gui/psppire-dialog-action-crosstabs.c:141
 #: src/ui/gui/psppire-variable-sheet.c:419 src/ui/gui/var-display.c:34
 #: src/ui/gui/examine.ui:598 src/ui/gui/examine.ui:691
+#: src/ui/gui/text-data-import.ui:494
 msgid "None"
 msgstr ""
 
@@ -1962,7 +1963,7 @@ msgid ""
 "system-missing, zero, or negative.  These case(s) were ignored."
 msgstr ""
 
-#: src/language/command.c:210 src/language/utilities/set.c:304
+#: src/language/command.c:210 src/language/utilities/set.c:305
 #: src/language/stats/graph.c:749 src/language/stats/graph.c:755
 #: src/language/stats/graph.c:789 src/language/stats/graph.c:794
 #: src/language/stats/graph.c:799 src/language/stats/graph.c:852
@@ -2553,7 +2554,7 @@ msgstr ""
 
 #: src/language/lexer/format-parser.c:116
 #: src/language/lexer/format-parser.c:143 src/language/utilities/output.c:108
-#: src/language/data-io/data-list.c:447 src/language/data-io/get-data.c:608
+#: src/language/data-io/data-list.c:449 src/language/data-io/get-data.c:608
 #: src/language/data-io/placement-parser.c:236
 #, c-format
 msgid "Unknown format type `%s'."
@@ -3071,8 +3072,8 @@ msgstr ""
 #: src/language/dictionary/mrsets.c:543
 #: src/language/dictionary/sys-file-info.c:445
 #: src/language/dictionary/sys-file-info.c:732
-#: src/language/stats/autorecode.c:375 src/language/data-io/data-parser.c:688
-#: src/language/data-io/data-parser.c:734 src/language/data-io/print.c:436
+#: src/language/stats/autorecode.c:375 src/language/data-io/data-parser.c:734
+#: src/language/data-io/data-parser.c:780 src/language/data-io/print.c:436
 msgid "Attributes"
 msgstr ""
 
@@ -3156,8 +3157,8 @@ msgstr ""
 #: src/language/stats/jonckheere-terpstra.c:376
 #: src/language/stats/matrix.c:6001 src/language/stats/matrix.c:8336
 #: src/language/stats/npar-summary.c:113 src/language/stats/quick-cluster.c:588
-#: src/language/stats/runs.c:331 src/language/data-io/data-parser.c:692
-#: src/language/data-io/data-parser.c:737 src/language/data-io/print.c:440
+#: src/language/stats/runs.c:331 src/language/data-io/data-parser.c:738
+#: src/language/data-io/data-parser.c:783 src/language/data-io/print.c:440
 #: src/ui/gui/psppire-dictview.c:667 src/ui/gui/psppire-data-editor.c:502
 msgid "Variable"
 msgstr ""
@@ -3166,7 +3167,8 @@ msgstr ""
 msgid "File Information"
 msgstr ""
 
-#: src/language/dictionary/sys-file-info.c:184 src/language/stats/matrix.c:5986
+#: src/language/dictionary/sys-file-info.c:184
+#: src/language/utilities/set.c:1181 src/language/stats/matrix.c:5986
 #: src/language/stats/matrix.c:8334
 msgid "Attribute"
 msgstr ""
@@ -3194,7 +3196,7 @@ msgstr ""
 #: src/language/dictionary/sys-file-info.c:206
 #: src/language/dictionary/sys-file-info.c:215
 #: src/language/dictionary/sys-file-info.c:222
-#: src/language/utilities/set.c:1149
+#: src/language/utilities/set.c:1144
 msgid "Unknown"
 msgstr ""
 
@@ -3397,7 +3399,7 @@ msgid ""
 msgstr ""
 
 #: src/language/dictionary/sys-file-info.c:1048 src/output/output-item.c:711
-#: src/output/output-item.c:740 src/ui/gui/psppire-import-textfile.c:343
+#: src/output/output-item.c:740 src/ui/gui/psppire-import-textfile.c:271
 msgid "Text"
 msgstr ""
 
@@ -3525,86 +3527,110 @@ msgstr ""
 msgid "Command \"%s\" output could not be read (%s)."
 msgstr ""
 
-#: src/language/utilities/set.c:262
+#: src/language/utilities/set.c:263
 msgid "ISL (32-bit IEEE 754 single, little-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:265
+#: src/language/utilities/set.c:266
 msgid "ISB (32-bit IEEE 754 single, big-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:268
+#: src/language/utilities/set.c:269
 msgid "IDL (64-bit IEEE 754 double, little-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:271
+#: src/language/utilities/set.c:272
 msgid "IDB (64-bit IEEE 754 double, big-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:275
+#: src/language/utilities/set.c:276
 msgid "VF (32-bit VAX F, VAX-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:278
+#: src/language/utilities/set.c:279
 msgid "VD (64-bit VAX D, VAX-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:281
+#: src/language/utilities/set.c:282
 msgid "VG (64-bit VAX G, VAX-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:285
+#: src/language/utilities/set.c:286
 msgid "ZS (32-bit IBM Z hexadecimal short, big-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:288
+#: src/language/utilities/set.c:289
 msgid "ZL (64-bit IBM Z hexadecimal long, big-endian)"
 msgstr ""
 
-#: src/language/utilities/set.c:490
+#: src/language/utilities/set.c:491
 #, c-format
 msgid "expecting %s or year"
 msgstr ""
 
-#: src/language/utilities/set.c:530
+#: src/language/utilities/set.c:531
 #, c-format
 msgid ""
 "%s requires numeric output format as an argument.  Specified format %s is of "
 "type string."
 msgstr ""
 
-#: src/language/utilities/set.c:658
+#: src/language/utilities/set.c:659
 #, c-format
 msgid "%s is not a recognized encoding or locale name"
 msgstr ""
 
-#: src/language/utilities/set.c:774 src/language/utilities/set.c:794
+#: src/language/utilities/set.c:775 src/language/utilities/set.c:795
 #, c-format
 msgid "%s must be at least 1."
 msgstr ""
 
-#: src/language/utilities/set.c:814
+#: src/language/utilities/set.c:815
 #, c-format
 msgid "%s must not be negative."
 msgstr ""
 
-#: src/language/utilities/set.c:1156
+#: src/language/utilities/set.c:1151
 #, c-format
 msgid "%s is %s."
 msgstr ""
 
-#: src/language/utilities/set.c:1156
+#: src/language/utilities/set.c:1151
 msgid "empty"
 msgstr ""
 
-#: src/language/utilities/set.c:1352
+#: src/language/utilities/set.c:1180
+msgid "System Information"
+msgstr ""
+
+#: src/language/utilities/set.c:1183
+msgid "Version"
+msgstr ""
+
+#: src/language/utilities/set.c:1184
+msgid "Host System"
+msgstr ""
+
+#: src/language/utilities/set.c:1185
+msgid "Build System"
+msgstr ""
+
+#: src/language/utilities/set.c:1186
+msgid "Locale Directory"
+msgstr ""
+
+#: src/language/utilities/set.c:1187
+msgid "Compiler Version"
+msgstr ""
+
+#: src/language/utilities/set.c:1378
 #, c-format
 msgid ""
 "Too many %s commands without a %s: at most %d levels of saved settings are "
 "allowed."
 msgstr ""
 
-#: src/language/utilities/set.c:1372
+#: src/language/utilities/set.c:1398
 #, c-format
 msgid "%s without matching %s."
 msgstr ""
@@ -5678,7 +5704,7 @@ msgid "Rows"
 msgstr ""
 
 #: src/language/stats/matrix.c:5661 src/language/stats/matrix.c:5988
-#: src/language/stats/matrix.c:8354 src/language/data-io/data-parser.c:689
+#: src/language/stats/matrix.c:8354 src/language/data-io/data-parser.c:735
 #: src/language/data-io/print.c:437 src/ui/gui/psppire-var-sheet-header.c:76
 msgid "Columns"
 msgstr ""
@@ -6850,101 +6876,101 @@ msgstr ""
 msgid "Encountered %zu sets of duplicate cases in the master file."
 msgstr ""
 
-#: src/language/data-io/data-list.c:145
+#: src/language/data-io/data-list.c:146
 #, c-format
 msgid "The %s subcommand may only be used within %s."
 msgstr ""
 
-#: src/language/data-io/data-list.c:188
+#: src/language/data-io/data-list.c:189
 msgid "Only one of FIXED, FREE, or LIST may be specified."
 msgstr ""
 
-#: src/language/data-io/data-list.c:251
+#: src/language/data-io/data-list.c:252
 msgid "Encoding should not be specified for inline data. It will be ignored."
 msgstr ""
 
-#: src/language/data-io/data-list.c:260
+#: src/language/data-io/data-list.c:261
 #, c-format
 msgid "The %s subcommand may be used only with %s."
 msgstr ""
 
-#: src/language/data-io/data-list.c:275
+#: src/language/data-io/data-list.c:276
 msgid "At least one variable must be specified."
 msgstr ""
 
-#: src/language/data-io/data-list.c:377 src/language/data-io/data-list.c:486
+#: src/language/data-io/data-list.c:379 src/language/data-io/data-list.c:488
 #: src/language/data-io/get-data.c:633
 #, c-format
 msgid "%s is a duplicate variable name."
 msgstr ""
 
-#: src/language/data-io/data-list.c:384
+#: src/language/data-io/data-list.c:386
 #, c-format
 msgid "There is already a variable %s of a different type."
 msgstr ""
 
-#: src/language/data-io/data-list.c:391
+#: src/language/data-io/data-list.c:393
 #, c-format
 msgid "There is already a string variable %s of a different width."
 msgstr ""
 
-#: src/language/data-io/data-list.c:399
+#: src/language/data-io/data-list.c:401
 #, c-format
 msgid "Cannot place variable %s on record %d when RECORDS=%d is specified."
 msgstr ""
 
-#: src/language/data-io/data-parser.c:454
-#: src/language/data-io/data-parser.c:463
+#: src/language/data-io/data-parser.c:414
+#: src/language/data-io/data-parser.c:423
 msgid "Quoted string extends beyond end of line."
 msgstr ""
 
-#: src/language/data-io/data-parser.c:489
+#: src/language/data-io/data-parser.c:448
 msgid "Missing delimiter following quoted string."
 msgstr ""
 
-#: src/language/data-io/data-parser.c:511
+#: src/language/data-io/data-parser.c:521
 #, c-format
 msgid "Data for variable %s is not valid as format %s: %s"
 msgstr ""
 
-#: src/language/data-io/data-parser.c:541
+#: src/language/data-io/data-parser.c:551
 #, c-format
 msgid "Partial case of %d of %d records discarded."
 msgstr ""
 
-#: src/language/data-io/data-parser.c:599
+#: src/language/data-io/data-parser.c:644
 #, c-format
 msgid "Partial case discarded.  The first variable missing was %s."
 msgstr ""
 
-#: src/language/data-io/data-parser.c:642
+#: src/language/data-io/data-parser.c:688
 #, c-format
 msgid ""
 "Missing value(s) for all variables from %s onward.  These will be filled "
 "with the system-missing value or blanks, as appropriate."
 msgstr ""
 
-#: src/language/data-io/data-parser.c:664
+#: src/language/data-io/data-parser.c:710
 msgid "Record ends in data not part of any field."
 msgstr ""
 
-#: src/language/data-io/data-parser.c:679
+#: src/language/data-io/data-parser.c:725
 #, c-format
 msgid "Reading %d record from %s."
 msgid_plural "Reading %d records from %s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/language/data-io/data-parser.c:689 src/language/data-io/print.c:437
+#: src/language/data-io/data-parser.c:735 src/language/data-io/print.c:437
 msgid "Record"
 msgstr ""
 
-#: src/language/data-io/data-parser.c:689
-#: src/language/data-io/data-parser.c:734 src/language/data-io/print.c:437
+#: src/language/data-io/data-parser.c:735
+#: src/language/data-io/data-parser.c:780 src/language/data-io/print.c:437
 msgid "Format"
 msgstr ""
 
-#: src/language/data-io/data-parser.c:729
+#: src/language/data-io/data-parser.c:775
 #, c-format
 msgid "Reading free-form data from %s."
 msgstr ""
@@ -8787,36 +8813,40 @@ msgstr ""
 msgid "Bad regular expression: %s"
 msgstr ""
 
-#: src/ui/gui/help-menu.c:157
+#: src/ui/gui/help-menu.c:165
 msgid "A program for the analysis of sampled data"
 msgstr ""
 
 #. TRANSLATORS: Do not translate this string.  Instead, put the names of the people
 #. who have helped in the translation.
-#: src/ui/gui/help-menu.c:167
+#: src/ui/gui/help-menu.c:175
 msgid "translator-credits"
 msgstr ""
 
-#: src/ui/gui/help-menu.c:222
+#: src/ui/gui/help-menu.c:230
 #, c-format
 msgid "Help path conversion error: %s"
 msgstr ""
 
-#: src/ui/gui/help-menu.c:243
+#: src/ui/gui/help-menu.c:251
 #, c-format
 msgid ""
 "Cannot open via html: %s with uri: %s The PSSP manual is also available at %s"
 msgstr ""
 
-#: src/ui/gui/help-menu.c:264
+#: src/ui/gui/help-menu.c:272
 msgid "_Help"
 msgstr ""
 
-#: src/ui/gui/help-menu.c:267
+#: src/ui/gui/help-menu.c:275
 msgid "_About"
 msgstr ""
 
-#: src/ui/gui/help-menu.c:268
+#: src/ui/gui/help-menu.c:276
+msgid "_System Information"
+msgstr ""
+
+#: src/ui/gui/help-menu.c:277
 msgid "_Reference Manual"
 msgstr ""
 
@@ -9230,23 +9260,23 @@ msgstr ""
 msgid "Importing Spreadsheet Data"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:189
+#: src/ui/gui/psppire-import-textfile.c:117
 msgid "line"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:199
+#: src/ui/gui/psppire-import-textfile.c:127
 msgid "var"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:323
+#: src/ui/gui/psppire-import-textfile.c:251
 msgid "Select the First Line"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:335
+#: src/ui/gui/psppire-import-textfile.c:263
 msgid "Line"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:394
+#: src/ui/gui/psppire-import-textfile.c:322
 msgid ""
 "This assistant will guide you through the process of importing data into "
 "PSPP from a text file with one line per case,  in which fields are separated "
@@ -9254,21 +9284,21 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:404
+#: src/ui/gui/psppire-import-textfile.c:332
 #, c-format
 msgid "The selected file contains %'lu line of text.  "
 msgid_plural "The selected file contains %'lu lines of text.  "
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/ui/gui/psppire-import-textfile.c:413
+#: src/ui/gui/psppire-import-textfile.c:341
 #, c-format
 msgid "The selected file contains approximately %'lu line of text.  "
 msgid_plural "The selected file contains approximately %'lu lines of text.  "
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/ui/gui/psppire-import-textfile.c:419
+#: src/ui/gui/psppire-import-textfile.c:347
 #, c-format
 msgid ""
 "Only the first %zu line of the file will be shown for preview purposes in "
@@ -9279,25 +9309,25 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/ui/gui/psppire-import-textfile.c:428
+#: src/ui/gui/psppire-import-textfile.c:356
 msgid "You may choose below how much of the file should actually be imported."
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:437
+#: src/ui/gui/psppire-import-textfile.c:365
 #, c-format
 msgid "Only the first %4d cases"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:448
+#: src/ui/gui/psppire-import-textfile.c:376
 #, c-format
 msgid "Only the first %3d %% of file (approximately)"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:476
+#: src/ui/gui/psppire-import-textfile.c:404
 msgid "Select the Lines to Import"
 msgstr ""
 
-#: src/ui/gui/psppire-import-textfile.c:647
+#: src/ui/gui/psppire-import-textfile.c:563
 msgid "Choose Separators"
 msgstr ""
 
@@ -11098,59 +11128,67 @@ msgstr ""
 msgid "<b>Amount to Import</b>"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:313
+#: src/ui/gui/text-data-import.ui:314
 msgid "C_ustom"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:328
+#: src/ui/gui/text-data-import.ui:329
 msgid "Slas_h (/)"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:343
+#: src/ui/gui/text-data-import.ui:344
 msgid "Semicolo_n (;)"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:358
+#: src/ui/gui/text-data-import.ui:359
 msgid "P_ipe (|)"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:373
+#: src/ui/gui/text-data-import.ui:374
 msgid "H_yphen (-)"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:388
+#: src/ui/gui/text-data-import.ui:389
 msgid "Co_mma (,)"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:403
+#: src/ui/gui/text-data-import.ui:404
 msgid "_Colon (:)"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:418
+#: src/ui/gui/text-data-import.ui:419
 msgid "Ban_g (!)"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:433
+#: src/ui/gui/text-data-import.ui:434
 msgid "Ta_b"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:448
+#: src/ui/gui/text-data-import.ui:449
 msgid "_Space"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:468
-msgid "<b>Separators</b>"
+#: src/ui/gui/text-data-import.ui:469
+msgid "<b>What characters separate fields?</b>"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:519
-msgid "Quote separator characters with"
+#: src/ui/gui/text-data-import.ui:510
+msgid "Single quote (')"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:538
-msgid "<b>Quoting</b>"
+#: src/ui/gui/text-data-import.ui:527
+msgid "Double quote (\")"
 msgstr ""
 
-#: src/ui/gui/text-data-import.ui:576
+#: src/ui/gui/text-data-import.ui:548
+msgid "Custom:"
+msgstr ""
+
+#: src/ui/gui/text-data-import.ui:589
+msgid "<b>What character quotes fields?</b>"
+msgstr ""
+
+#: src/ui/gui/text-data-import.ui:627
 msgid "<b>Fields Preview</b>"
 msgstr ""
 
