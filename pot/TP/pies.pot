@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pies 1.4.97\n"
-"Report-Msgid-Bugs-To: bug-pies@gnu.org.ua\n"
-"POT-Creation-Date: 2020-12-09 13:58+0200\n"
+"Project-Id-Version: pies 1.8\n"
+"Report-Msgid-Bugs-To: bug-pies@gnu.org\t\n"
+"POT-Creation-Date: 2022-08-13 11:03+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,7 +72,7 @@ msgstr ""
 msgid "unknown word: %s"
 msgstr ""
 
-#: src/acl.c:469 src/pies.c:689 src/pies.c:1056
+#: src/acl.c:469 src/pies.c:713 src/pies.c:1080
 msgid "unexpected list"
 msgstr ""
 
@@ -135,104 +135,104 @@ msgstr ""
 msgid "location of the previous definition"
 msgstr ""
 
-#: src/comp.c:436
+#: src/comp.c:442
 #, c-format
 msgid "component %s depends on %s, which is not declared"
 msgstr ""
 
-#: src/comp.c:453
+#: src/comp.c:459
 #, c-format
 msgid "undefined component %s depends on %s"
 msgstr ""
 
-#: src/comp.c:468
+#: src/comp.c:474
 msgid "cyclic dependencies detected:"
 msgstr ""
 
-#: src/comp.c:546
+#: src/comp.c:644
 #, c-format
 msgid "in component %s:"
 msgstr ""
 
-#: src/comp.c:559 src/comp.c:587
+#: src/comp.c:657 src/comp.c:685
 msgid "\"internal\" used without \"service\""
 msgstr ""
 
-#: src/comp.c:566 src/inetd.c:258
+#: src/comp.c:664 src/inetd.c:258
 msgid "unknown internal service"
 msgstr ""
 
-#: src/comp.c:571
+#: src/comp.c:669
 msgid "\"internal\" used with \"command\""
 msgstr ""
 
-#: src/comp.c:575
+#: src/comp.c:673
 msgid "no 'command' statement"
 msgstr ""
 
-#: src/comp.c:583
+#: src/comp.c:681
 msgid "both \"tcpmux\" and \"tcpmuxplus\" used"
 msgstr ""
 
-#: src/comp.c:592
+#: src/comp.c:690
 msgid "pass-fd-socket ignored: wrong mode"
 msgstr ""
 
-#: src/comp.c:598
+#: src/comp.c:696
 msgid "socket ignored: wrong mode"
 msgstr ""
 
-#: src/comp.c:604
+#: src/comp.c:702
 msgid "must supply pass-fd-socket in this mode"
 msgstr ""
 
-#: src/comp.c:615
+#: src/comp.c:713
 msgid "pass-fd-socket must be an absolute file name or chdir must be specified"
 msgstr ""
 
-#: src/comp.c:624 src/comp.c:649
+#: src/comp.c:722 src/comp.c:747
 msgid "socket must be specified in this mode"
 msgstr ""
 
-#: src/comp.c:637
+#: src/comp.c:735
 msgid "TCPMUX master not specified, assuming \"tcpmux\""
 msgstr ""
 
-#: src/comp.c:655
+#: src/comp.c:753
 msgid "SystemV init support is not compiled in"
 msgstr ""
 
-#: src/comp.c:665
+#: src/comp.c:763
 msgid "max-instances ignored"
 msgstr ""
 
 #. TRANSLATORS: `wait' is a keywords, do not translate.
-#: src/comp.c:673
+#: src/comp.c:771
 msgid "wait is useless in this mode"
 msgstr ""
 
-#: src/comp.c:684
+#: src/comp.c:782
 msgid "stdout redirection invalid in this mode"
 msgstr ""
 
-#: src/comp.c:704
+#: src/comp.c:802
 #, c-format
 msgid "%s: must be an absolute file name or chdir must be specified"
 msgstr ""
 
-#: src/comp.c:729
+#: src/comp.c:827
 msgid "flags \"shell\" and \"expandenv\" used together: ignoring \"expandenv\""
 msgstr ""
 
-#: src/comp.c:795
+#: src/comp.c:893
 msgid "No components defined"
 msgstr ""
 
-#: src/comp.c:799
+#: src/comp.c:897
 msgid "Dependency map"
 msgstr ""
 
-#: src/comp.c:811
+#: src/comp.c:909
 msgid "Legend"
 msgstr ""
 
@@ -250,65 +250,65 @@ msgstr ""
 msgid "cannot install header: %s"
 msgstr ""
 
-#: src/ctl.c:435
+#: src/ctl.c:441
 #, c-format
 msgid "cannot install output header: %s"
 msgstr ""
 
-#: src/ctl.c:760
+#: src/ctl.c:766
 #, c-format
 msgid "%s: can't authenticate: %s"
 msgstr ""
 
-#: src/ctl.c:770
+#: src/ctl.c:776
 #, c-format
 msgid "trying identity provider %s..."
 msgstr ""
 
-#: src/ctl.c:779
+#: src/ctl.c:785
 #, c-format
 msgid "%s granted admin access via %s"
 msgstr ""
 
-#: src/ctl.c:788
+#: src/ctl.c:794
 #, c-format
 msgid "%s authenticated via %s"
 msgstr ""
 
-#: src/ctl.c:798
+#: src/ctl.c:804
 #, c-format
 msgid "%s authenticated via %s, component %s"
 msgstr ""
 
-#: src/ctl.c:803
+#: src/ctl.c:809
 #, c-format
 msgid "%s authenticated via %s, but failed ACL check"
 msgstr ""
 
-#: src/ctl.c:1206
+#: src/ctl.c:1212
 #, c-format
 msgid "error reading from control socket: %s"
 msgstr ""
 
-#: src/ctl.c:1226
+#: src/ctl.c:1232
 msgid "error writing to control socket"
 msgstr ""
 
-#: src/ctl.c:1228
+#: src/ctl.c:1234
 #, c-format
 msgid "error writing to control socket: %s"
 msgstr ""
 
-#: src/ctl.c:1267 src/progman.c:1226
+#: src/ctl.c:1273 src/progman.c:1232
 #, c-format
 msgid "%s wants %s"
 msgstr ""
 
-#: src/ctl.c:1267
+#: src/ctl.c:1273
 msgid "control socket"
 msgstr ""
 
-#: src/ctl.c:1297
+#: src/ctl.c:1303
 #, c-format
 msgid "can't create control socket %s"
 msgstr ""
@@ -317,7 +317,7 @@ msgstr ""
 msgid "out of memory trying to log a message"
 msgstr ""
 
-#: src/diag.c:256 src/piesctl.c:440 lib/urlconn.c:70 lib/urlconn.c:128
+#: src/diag.c:256 src/piesctl.c:438 lib/urlconn.c:70 lib/urlconn.c:128
 #: lib/urlconn.c:144 lib/urlconn.c:152
 #, c-format
 msgid "%s: %s failed"
@@ -328,7 +328,7 @@ msgstr ""
 msgid "%s failed"
 msgstr ""
 
-#: src/inetd-bi.c:231 src/pies.c:2000 src/pies.c:2175
+#: src/inetd-bi.c:231 src/pies.c:2061 src/pies.c:2236
 #, c-format
 msgid "cannot open file %s: %s"
 msgstr ""
@@ -348,7 +348,7 @@ msgstr ""
 msgid "cannot open configuration file %s: %s"
 msgstr ""
 
-#: src/inetd.c:172 src/pies.c:1098
+#: src/inetd.c:172 src/pies.c:1122
 msgid "bad socket type"
 msgstr ""
 
@@ -390,593 +390,609 @@ msgstr ""
 msgid "unsupported type"
 msgstr ""
 
-#: src/pies.c:202
+#: src/pies.c:203
 #, c-format
 msgid "unknown action code: %s"
 msgstr ""
 
 #. TRANSLATORS: disable and restart are keywords, do not translate them.
-#: src/pies.c:212
+#: src/pies.c:213
 msgid "arg: {disable | restart}"
 msgstr ""
 
-#: src/pies.c:213
+#: src/pies.c:214
 msgid ""
 "Specifies action to take when a component finishes with this return code."
 msgstr ""
 
-#: src/pies.c:220
+#: src/pies.c:221
 msgid "arg: emails"
 msgstr ""
 
-#: src/pies.c:221
+#: src/pies.c:222
 msgid "Notify this address when a component terminates."
 msgstr ""
 
-#: src/pies.c:227
+#: src/pies.c:228
 msgid "Notification message text (with headers)."
 msgstr ""
 
-#: src/pies.c:233
+#: src/pies.c:234
 msgid "Execute this command."
 msgstr ""
 
-#: src/pies.c:372 src/pies.c:384
+#: src/pies.c:402
 #, c-format
 msgid "%s: not a number"
 msgstr ""
 
-#: src/pies.c:390
+#: src/pies.c:411 src/pies.c:1284
 #, c-format
-msgid "%s: not a signal code"
+msgid "%s: bad signal specification"
 msgstr ""
 
-#: src/pies.c:397
+#: src/pies.c:419
 #, c-format
 msgid "%s: not a return code"
 msgstr ""
 
-#: src/pies.c:453
+#: src/pies.c:475
 msgid "cannot get list item"
 msgstr ""
 
-#: src/pies.c:477 src/pies.c:1506 src/piesctl.c:94
+#: src/pies.c:499 src/pies.c:1556 src/piesctl.c:94
 msgid "missing tag"
 msgstr ""
 
-#: src/pies.c:505 src/piesctl.c:109 grecs/src/tree.c:665
+#: src/pies.c:527 src/piesctl.c:109 grecs/src/tree.c:665
 msgid "invalid use of block statement"
 msgstr ""
 
-#: src/pies.c:548
+#: src/pies.c:570
 msgid "invalid octal number"
 msgstr ""
 
-#: src/pies.c:697
+#: src/pies.c:721
 msgid "can't parse legacy env statement"
 msgstr ""
 
-#: src/pies.c:738
+#: src/pies.c:762
 msgid "unexpected argument"
 msgstr ""
 
-#: src/pies.c:828
+#: src/pies.c:852
 msgid "bool"
 msgstr ""
 
-#: src/pies.c:829
+#: src/pies.c:853
 msgid "Clear environment."
 msgstr ""
 
-#: src/pies.c:834
+#: src/pies.c:858
 msgid "name[=value]"
 msgstr ""
 
-#: src/pies.c:835
+#: src/pies.c:859
 msgid ""
 "Keep this variable. Unless value is supplied, name can contain wildcards.\n"
 "Implies \"clear\"."
 msgstr ""
 
-#: src/pies.c:841
+#: src/pies.c:865
 msgid "name=value"
 msgstr ""
 
-#: src/pies.c:842
+#: src/pies.c:866
 msgid "Set environment variable. Note, that argument must be quoted."
 msgstr ""
 
-#: src/pies.c:847 src/pies.c:1582 grecs/src/format.c:36 grecs/src/tree.c:69
+#: src/pies.c:871 src/pies.c:1632 grecs/src/format.c:38 grecs/src/tree.c:69
 msgid "string"
 msgstr ""
 
-#: src/pies.c:848
+#: src/pies.c:872
 msgid "Evaluate string. Useful for side-effects, e.g. eval ${X:=2}."
 msgstr ""
 
-#: src/pies.c:853 src/pies.c:1295 src/pies.c:1466 src/pies.c:1558
-#: src/pies.c:1570 src/pies.c:1576 src/piesctl.c:126
+#: src/pies.c:877 src/pies.c:1345 src/pies.c:1516 src/pies.c:1608
+#: src/pies.c:1620 src/pies.c:1626 src/piesctl.c:126
 msgid "name"
 msgstr ""
 
-#: src/pies.c:854
+#: src/pies.c:878
 msgid "Unset environment variable. Name can contain wildcards."
 msgstr ""
 
-#: src/pies.c:928 src/pies.c:940
+#: src/pies.c:952 src/pies.c:964
 msgid "unknown syslog priority"
 msgstr ""
 
-#: src/pies.c:935
+#: src/pies.c:959
 msgid "unknown syslog facility"
 msgstr ""
 
-#: src/pies.c:977
+#: src/pies.c:1001
 msgid "expected facility number or symbolic name"
 msgstr ""
 
-#: src/pies.c:982
+#: src/pies.c:1006
 #, c-format
 msgid "unknown syslog facility %s"
 msgstr ""
 
-#: src/pies.c:1020
+#: src/pies.c:1044
 #, c-format
 msgid "%s: unrecognized redirector type"
 msgstr ""
 
-#: src/pies.c:1028
+#: src/pies.c:1052
 msgid "wrong number of arguments"
 msgstr ""
 
-#: src/pies.c:1140
+#: src/pies.c:1164
 #, c-format
 msgid "%s: unrecognized mode"
 msgstr ""
 
-#: src/pies.c:1159
+#: src/pies.c:1183
 #, c-format
 msgid "invalid limit string (near %s)"
 msgstr ""
 
-#: src/pies.c:1216 src/pies.c:1232
+#: src/pies.c:1240 src/pies.c:1256
 #, c-format
 msgid "%s: unrecognized flag"
 msgstr ""
 
-#: src/pies.c:1241
+#: src/pies.c:1265
 msgid "too many arguments"
 msgstr ""
 
-#: src/pies.c:1249
+#: src/pies.c:1294
 msgid "mode"
 msgstr ""
 
-#: src/pies.c:1250
+#: src/pies.c:1295
 msgid "Component execution mode."
 msgstr ""
 
-#: src/pies.c:1257
+#: src/pies.c:1302
 msgid "Full name of the program."
 msgstr ""
 
-#: src/pies.c:1264
+#: src/pies.c:1309
 msgid "Command line."
 msgstr ""
 
-#: src/pies.c:1270 src/pies.c:1276 src/pies.c:1282 grecs/src/tree.c:70
+#: src/pies.c:1315 src/pies.c:1321 src/pies.c:1327 grecs/src/tree.c:70
 msgid "list"
 msgstr ""
 
-#: src/pies.c:1271
+#: src/pies.c:1316
 msgid "List of prerequisites."
 msgstr ""
 
-#: src/pies.c:1277
+#: src/pies.c:1322
 msgid "List of components for which this one is a prerequisite."
 msgstr ""
 
-#: src/pies.c:1283
+#: src/pies.c:1328
 msgid "List of flags."
 msgstr ""
 
-#: src/pies.c:1288
+#: src/pies.c:1332
+msgid "SIGNAL"
+msgstr ""
+
+#: src/pies.c:1333
+msgid "Termination signal."
+msgstr ""
+
+#: src/pies.c:1338
 msgid "chars"
 msgstr ""
 
-#: src/pies.c:1289
+#: src/pies.c:1339
 msgid "Runlevels to start that component in."
 msgstr ""
 
-#: src/pies.c:1296
+#: src/pies.c:1346
 msgid "Pass fd through this socket."
 msgstr ""
 
-#: src/pies.c:1303
+#: src/pies.c:1353
 msgid "Time to wait for pass-fd socket to become available."
 msgstr ""
 
-#: src/pies.c:1310
+#: src/pies.c:1360
 msgid "Maximum number of running instances."
 msgstr ""
 
-#: src/pies.c:1316
+#: src/pies.c:1366
 msgid "Text to send back if max-instances is reached (inetd-components only)."
 msgstr ""
 
-#: src/pies.c:1322
+#: src/pies.c:1372
 msgid "Maximum number of simultaneous connections per IP address (inetd only)."
 msgstr ""
 
-#: src/pies.c:1328
+#: src/pies.c:1378
 msgid "Text to send back if max-ip-connections is reached (inetd only)."
 msgstr ""
 
-#: src/pies.c:1335
+#: src/pies.c:1385
 msgid ""
 "Maximum number of times an inetd component can be invoked in one minute."
 msgstr ""
 
-#: src/pies.c:1340 src/pies.c:1528 src/piesctl.c:69 src/piesctl.c:116
+#: src/pies.c:1390 src/pies.c:1578 src/piesctl.c:69 src/piesctl.c:116
 msgid "url: string"
 msgstr ""
 
-#: src/pies.c:1341 src/pies.c:1529
+#: src/pies.c:1391 src/pies.c:1579
 msgid "Listen on the given url."
 msgstr ""
 
 #. TRANSLATORS: words after `type:' are keywords.
-#: src/pies.c:1348
+#: src/pies.c:1398
 msgid "type: {stream | dgram | raw | rdm | seqpacket}"
 msgstr ""
 
-#: src/pies.c:1349
+#: src/pies.c:1399
 msgid "Set socket type."
 msgstr ""
 
-#: src/pies.c:1355
+#: src/pies.c:1405
 msgid "Define connection ACL."
 msgstr ""
 
-#: src/pies.c:1361
+#: src/pies.c:1411
 msgid "Define who can list this component."
 msgstr ""
 
-#: src/pies.c:1367
+#: src/pies.c:1417
 msgid "Define who can change this component."
 msgstr ""
 
-#: src/pies.c:1373
+#: src/pies.c:1423
 msgid "Text to send back if access is denied (inetd-components only)."
 msgstr ""
 
-#: src/pies.c:1378
+#: src/pies.c:1428
 msgid "file"
 msgstr ""
 
-#: src/pies.c:1379
+#: src/pies.c:1429
 msgid "Remove file before starting the component."
 msgstr ""
 
 #. TRANSLATORS: file and syslog are keywords. Do not translate them.
-#: src/pies.c:1386 src/pies.c:1395
+#: src/pies.c:1436 src/pies.c:1445
 msgid "type: {file | syslog}> <channel: string"
 msgstr ""
 
-#: src/pies.c:1387
+#: src/pies.c:1437
 msgid ""
 "Redirect program's standard output to the given file or syslog priority."
 msgstr ""
 
-#: src/pies.c:1396
+#: src/pies.c:1446
 msgid "Redirect program's standard error to the given file or syslog priority."
 msgstr ""
 
-#: src/pies.c:1404 src/pies.c:1690
+#: src/pies.c:1454 src/pies.c:1743
 msgid "Run with this user privileges."
 msgstr ""
 
-#: src/pies.c:1411 src/pies.c:1697
+#: src/pies.c:1461 src/pies.c:1750
 msgid "Retain supplementary group."
 msgstr ""
 
-#: src/pies.c:1418 src/pies.c:1704
+#: src/pies.c:1468 src/pies.c:1757
 msgid "Retain all supplementary groups of which user is a member."
 msgstr ""
 
-#: src/pies.c:1424 src/pies.c:1710
+#: src/pies.c:1474 src/pies.c:1763
 msgid "arg: number"
 msgstr ""
 
-#: src/pies.c:1425 src/pies.c:1711
+#: src/pies.c:1475 src/pies.c:1764
 msgid "Force this umask."
 msgstr ""
 
-#: src/pies.c:1432
+#: src/pies.c:1482
 msgid "Set system limits"
 msgstr ""
 
-#: src/pies.c:1439 src/pies.c:1630
+#: src/pies.c:1489 src/pies.c:1683
 msgid "Modify program environment."
 msgstr ""
 
-#: src/pies.c:1445
+#: src/pies.c:1495
 msgid "arg: list"
 msgstr ""
 
-#: src/pies.c:1446
+#: src/pies.c:1496
 msgid ""
 "Modify program environment (legacy syntax).\n"
 "Argument is a list of quoted assignments separated by white space."
 msgstr ""
 
-#: src/pies.c:1453
+#: src/pies.c:1503
 msgid "dir"
 msgstr ""
 
-#: src/pies.c:1454
+#: src/pies.c:1504
 msgid "Change to this directory before executing the component."
 msgstr ""
 
-#: src/pies.c:1460 src/pies.c:1738
+#: src/pies.c:1510 src/pies.c:1791
 msgid "tag: exit-code-list"
 msgstr ""
 
-#: src/pies.c:1461 src/pies.c:1739
+#: src/pies.c:1511 src/pies.c:1792
 msgid "Define what to do when the component finishes."
 msgstr ""
 
-#: src/pies.c:1467
+#: src/pies.c:1517
 msgid "Service name for inetd component."
 msgstr ""
 
-#: src/pies.c:1472
+#: src/pies.c:1522
 msgid "tag"
 msgstr ""
 
-#: src/pies.c:1473
+#: src/pies.c:1523
 msgid "Tag of master TCPMUX component."
 msgstr ""
 
-#: src/pies.c:1521
+#: src/pies.c:1571
 msgid "expected block statement"
 msgstr ""
 
-#: src/pies.c:1534
+#: src/pies.c:1584
 msgid "Set connection ACL."
 msgstr ""
 
-#: src/pies.c:1540
+#: src/pies.c:1590
 msgid "Administrative access"
 msgstr ""
 
-#: src/pies.c:1546
+#: src/pies.c:1596
 msgid "User access"
 msgstr ""
 
-#: src/pies.c:1552
+#: src/pies.c:1602
 msgid "Disconnect after <n> seconds of inaction (not implemented)."
 msgstr ""
 
-#: src/pies.c:1559
+#: src/pies.c:1609
 msgid "Authentication realm name"
 msgstr ""
 
-#: src/pies.c:1571
+#: src/pies.c:1621
 msgid ""
 "Syslog device: either absolute pathname of the socket file, or an IPv4 "
 "address and optional port, separated with a colon"
 msgstr ""
 
-#: src/pies.c:1577
+#: src/pies.c:1627
 msgid ""
 "Set syslog facility. Arg is one of the following: user, daemon, auth, "
 "authpriv, mail, cron, local0 through local7 (case-insensitive), or a "
 "facility number."
 msgstr ""
 
-#: src/pies.c:1582
+#: src/pies.c:1632
 msgid "Tag syslog messages with this string"
 msgstr ""
 
-#: src/pies.c:1588 src/piesctl.c:74 src/piesctl.c:121 grecs/src/format.c:141
+#: src/pies.c:1635
+msgid "filename"
+msgstr ""
+
+#: src/pies.c:1635
+msgid "Name of the fallback log file"
+msgstr ""
+
+#: src/pies.c:1641 src/piesctl.c:74 src/piesctl.c:121 grecs/src/format.c:142
 msgid "arg"
 msgstr ""
 
-#: src/pies.c:1588
+#: src/pies.c:1641
 msgid "Prefix each message with its priority"
 msgstr ""
 
-#: src/pies.c:1623
+#: src/pies.c:1676
 msgid "tag: string"
 msgstr ""
 
-#: src/pies.c:1624
+#: src/pies.c:1677
 msgid "Define a component"
 msgstr ""
 
-#: src/pies.c:1637
+#: src/pies.c:1690
 msgid "Define control socket"
 msgstr ""
 
-#: src/pies.c:1643
+#: src/pies.c:1696
 msgid "Configure syslog logging"
 msgstr ""
 
-#: src/pies.c:1648
+#: src/pies.c:1701
 msgid "Set debug verbosity level."
 msgstr ""
 
-#: src/pies.c:1653
+#: src/pies.c:1706
 msgid "Show source info with debugging messages."
 msgstr ""
 
-#: src/pies.c:1658
+#: src/pies.c:1711
 msgid "Full file name of the program state directory."
 msgstr ""
 
-#: src/pies.c:1663
+#: src/pies.c:1716
 msgid "Write PID to this file."
 msgstr ""
 
-#: src/pies.c:1670 src/pies.c:1677
+#: src/pies.c:1723 src/pies.c:1730
 msgid "Ignored for compatibility with version 1.2."
 msgstr ""
 
-#: src/pies.c:1684
+#: src/pies.c:1737
 msgid "Set location of the QOTD file."
 msgstr ""
 
-#: src/pies.c:1718
+#: src/pies.c:1771
 msgid "Set global system limits."
 msgstr ""
 
-#: src/pies.c:1724
+#: src/pies.c:1777
 msgid "arg: char"
 msgstr ""
 
-#: src/pies.c:1725
+#: src/pies.c:1778
 msgid "Default runlevel"
 msgstr ""
 
-#: src/pies.c:1732
+#: src/pies.c:1785
 msgid "Wait <n> seconds for all components to shut down."
 msgstr ""
 
-#: src/pies.c:1745
+#: src/pies.c:1798
 msgid "Set global ACL."
 msgstr ""
 
-#: src/pies.c:1750
+#: src/pies.c:1803
 msgid "name: string"
 msgstr ""
 
-#: src/pies.c:1751
+#: src/pies.c:1804
 msgid "Define an ACL."
 msgstr ""
 
-#: src/pies.c:1756
+#: src/pies.c:1809
 msgid "file-or-dir: string"
 msgstr ""
 
-#: src/pies.c:1757
+#: src/pies.c:1810
 msgid "Include inetd configuration file or directory"
 msgstr ""
 
-#: src/pies.c:1762
+#: src/pies.c:1815
 msgid "file: string"
 msgstr ""
 
-#: src/pies.c:1763
+#: src/pies.c:1816
 msgid "Include components from the specified MeTA1 configuration file."
 msgstr ""
 
-#: src/pies.c:1770
+#: src/pies.c:1823
 msgid "Set the name of MeTA1 queue directory (default /var/spool/meta1)."
 msgstr ""
 
-#: src/pies.c:1777
+#: src/pies.c:1830
 msgid "Full path to the mailer binary."
 msgstr ""
 
-#: src/pies.c:1784
+#: src/pies.c:1837
 msgid "Mailer command line (without recipient addresses)."
 msgstr ""
 
 #. TRANSLATORS: do not translate words in quotes
-#: src/pies.c:1839
+#: src/pies.c:1892
 msgid ""
 "Configuration file structure for pies.\n"
 "For more information, use command \"info pies configuration\"."
 msgstr ""
 
-#: src/pies.c:1873
+#: src/pies.c:1926
 msgid "reading configuration"
 msgstr ""
 
-#: src/pies.c:2014
+#: src/pies.c:2075
 #, c-format
 msgid "unexpected character %#03o in pidfile %s"
 msgstr ""
 
-#: src/pies.c:2024
+#: src/pies.c:2085
 #, c-format
 msgid "cannot signal master process %lu: %s"
 msgstr ""
 
-#: src/pies.c:2109 src/pies.c:2125 src/pies.c:2154
+#: src/pies.c:2170 src/pies.c:2186 src/pies.c:2215
 msgid "pies is not running"
 msgstr ""
 
-#: src/pies.c:2113
+#: src/pies.c:2174
 #, c-format
 msgid "reloading pies at PID %lu"
 msgstr ""
 
-#: src/pies.c:2130
+#: src/pies.c:2191
 #, c-format
 msgid "pies is not running, but a pidfile is found (pid %lu)"
 msgstr ""
 
-#: src/pies.c:2136
+#: src/pies.c:2197
 #, c-format
 msgid "pies seems to run with pid %lu, but is not responding"
 msgstr ""
 
-#: src/pies.c:2158
+#: src/pies.c:2219
 #, c-format
 msgid "stopping pies at PID %lu"
 msgstr ""
 
-#: src/pies.c:2189
+#: src/pies.c:2250
 #, c-format
 msgid "%s appears to run with pid %lu. If it does not, remove %s and retry."
 msgstr ""
 
-#: src/pies.c:2208
+#: src/pies.c:2269
 #, c-format
 msgid "cannot create pidfile `%s': %s"
 msgstr ""
 
-#: src/pies.c:2232
+#: src/pies.c:2293
 #, c-format
 msgid "cannot parse mailer command line: %s"
 msgstr ""
 
-#: src/pies.c:2494
+#: src/pies.c:2587
 #, c-format
 msgid "%s: cannot create control URL: %s"
 msgstr ""
 
-#: src/pies.c:2551
+#: src/pies.c:2648
 #, c-format
 msgid "another pies instance may be running (pid %lu), use --force to override"
 msgstr ""
 
-#: src/pies.c:2558
+#: src/pies.c:2655
 #, c-format
 msgid "another pies instance already running (pid %lu)"
 msgstr ""
 
-#: src/pies.c:2574
+#: src/pies.c:2671
 #, c-format
 msgid "%s %s starting"
 msgstr ""
 
-#: src/pies.c:2585
+#: src/pies.c:2682
 msgid "not started as an absolute pathname; restart will not work"
 msgstr ""
 
-#: src/pies.c:2603
+#: src/pies.c:2700
 msgid "restart command ignored"
 msgstr ""
 
-#: src/pies.c:2682
+#: src/pies.c:2780
 #, c-format
 msgid "%s %s terminated"
 msgstr ""
 
-#: src/pies.c:2689
+#: src/pies.c:2787
 msgid "not enough memory"
 msgstr ""
 
@@ -996,242 +1012,246 @@ msgstr ""
 msgid "Configure connection to a pies instance"
 msgstr ""
 
-#: src/piesctl.c:159 src/piesctl.c:180
+#: src/piesctl.c:157 src/piesctl.c:178
 #, c-format
 msgid "%s: reading configuration from %s\n"
 msgstr ""
 
-#: src/piesctl.c:167 src/piesctl.c:201
+#: src/piesctl.c:165 src/piesctl.c:199
 #, c-format
 msgid "%s: URL not found in %s\n"
 msgstr ""
 
-#: src/piesctl.c:195 src/piesctl.c:217 piesctl-cl.opt:70 lib/grecsasrt.c:38
+#: src/piesctl.c:193 src/piesctl.c:215 piesctl-cl.opt:72 lib/grecsasrt.c:38
 #, c-format
 msgid "%s: cannot create URL: %s"
 msgstr ""
 
-#: src/piesctl.c:210
+#: src/piesctl.c:208
 #, c-format
 msgid "%s: falling back to default URL\n"
 msgstr ""
 
-#: src/piesctl.c:228
+#: src/piesctl.c:226
 #, c-format
 msgid "%s: using URL %s\n"
 msgstr ""
 
-#: src/piesctl.c:236
+#: src/piesctl.c:234
 msgid ""
 "Configuration file structure for piesctl.\n"
 "For more information, use command \"info piesctl.conf\"."
 msgstr ""
 
-#: src/piesctl.c:255
+#: src/piesctl.c:253
 #, c-format
 msgid "warning: "
 msgstr ""
 
-#: src/piesctl.c:383
+#: src/piesctl.c:381
 #, c-format
 msgid "cannot install header %s: %s"
 msgstr ""
 
-#: src/piesctl.c:527
+#: src/piesctl.c:525
 msgid "HTTP read error"
 msgstr ""
 
-#: src/piesctl.c:577
+#: src/piesctl.c:575
 #, c-format
 msgid "wrote %lu of %lu bytes of content"
 msgstr ""
 
-#: src/piesctl.c:600
+#: src/piesctl.c:598
 #, c-format
 msgid "malformed header line: %s"
 msgstr ""
 
-#: src/piesctl.c:634
+#: src/piesctl.c:632
 #, c-format
 msgid "unexpected reply: %s"
 msgstr ""
 
-#: src/piesctl.c:641
+#: src/piesctl.c:639
 #, c-format
 msgid "unsupported HTTP version: %s"
 msgstr ""
 
-#: src/piesctl.c:648
+#: src/piesctl.c:646
 #, c-format
 msgid "bad reply status: %s"
 msgstr ""
 
-#: src/piesctl.c:674
+#: src/piesctl.c:672
 #, c-format
 msgid "bad content length: %s"
 msgstr ""
 
-#: src/piesctl.c:686
+#: src/piesctl.c:684
 msgid "content read error"
 msgstr ""
 
-#: src/piesctl.c:692
+#: src/piesctl.c:690
 msgid "no content type specified"
 msgstr ""
 
-#: src/piesctl.c:694
+#: src/piesctl.c:692
 #, c-format
 msgid "unsupported content type: %s"
 msgstr ""
 
-#: src/piesctl.c:703
+#: src/piesctl.c:701
 #, c-format
 msgid "original json was: %s"
 msgstr ""
 
-#: src/piesctl.c:705
+#: src/piesctl.c:703
 #, c-format
 msgid "original status line: %s %s %s"
 msgstr ""
 
-#: src/piesctl.c:738
+#: src/piesctl.c:736
 #, c-format
 msgid "%s: raw JSON reply follows:\n"
 msgstr ""
 
-#: src/piesctl.c:772
+#: src/piesctl.c:770
 msgid "please report"
 msgstr ""
 
-#: src/piesctl.c:865
+#: src/piesctl.c:863
 #, c-format
 msgid "unsupported authentication type: %s"
 msgstr ""
 
-#: src/piesctl.c:883
+#: src/piesctl.c:881
 #, c-format
 msgid "%s user"
 msgstr ""
 
-#: src/piesctl.c:884
+#: src/piesctl.c:882
 #, c-format
 msgid "%s password"
 msgstr ""
 
-#: src/piesctl.c:934 src/piesctl.c:1009
+#: src/piesctl.c:932 src/piesctl.c:1007
 #, c-format
 msgid "\"%s\" has wrong type"
 msgstr ""
 
-#: src/piesctl.c:940 src/piesctl.c:1016
+#: src/piesctl.c:938 src/piesctl.c:1014
 #, c-format
 msgid "no \"%s\" member"
 msgstr ""
 
-#: src/piesctl.c:944 src/piesctl.c:1020
+#: src/piesctl.c:942 src/piesctl.c:1018
 #, c-format
 msgid "can't get value of \"%s\""
 msgstr ""
 
-#: src/piesctl.c:1036 src/piesctl.c:1467
+#: src/piesctl.c:1034 src/piesctl.c:1470
 #, c-format
 msgid "%lu: unexpected value type"
 msgstr ""
 
-#: src/piesctl.c:1176
+#: src/piesctl.c:1174
 msgid "unexpected end of statement"
 msgstr ""
 
-#: src/piesctl.c:1185
+#: src/piesctl.c:1183
 #, c-format
 msgid "expected end of statement, but found \"%s\""
 msgstr ""
 
-#: src/piesctl.c:1251 src/piesctl.c:1258
+#: src/piesctl.c:1249 src/piesctl.c:1256
 #, c-format
 msgid "%s requires argument"
 msgstr ""
 
-#: src/piesctl.c:1267 grecs/wordsplit/wordsplit.c:2856
+#: src/piesctl.c:1265 grecs/wordsplit/wordsplit.c:2856
 msgid "unbalanced parenthesis"
 msgstr ""
 
-#: src/piesctl.c:1270
+#: src/piesctl.c:1268
 #, c-format
 msgid "parse error at %s"
 msgstr ""
 
-#: src/piesctl.c:1376
+#: src/piesctl.c:1374
 msgid "condition must be specified"
 msgstr ""
 
-#: src/piesctl.c:1445
+#: src/piesctl.c:1443
 #, c-format
 msgid "can't get attribute %s"
 msgstr ""
 
-#: src/piesctl.c:1484 src/piesctl.c:1764 src/piesctl.c:1964 src/piesctl.c:2039
-#: src/piesctl.c:2116 grecs/wordsplit/wordsplit.c:2871
+#: src/piesctl.c:1459
+msgid "no component matches the supplied condition"
+msgstr ""
+
+#: src/piesctl.c:1486 src/piesctl.c:1766 src/piesctl.c:1966 src/piesctl.c:2041
+#: src/piesctl.c:2118 grecs/wordsplit/wordsplit.c:2871
 #, c-format
 msgid "unknown error"
 msgstr ""
 
-#: src/piesctl.c:1487
+#: src/piesctl.c:1489
 #, c-format
 msgid "unknown status"
 msgstr ""
 
-#: src/piesctl.c:1770
+#: src/piesctl.c:1772
 msgid "unrecognized response"
 msgstr ""
 
-#: src/piesctl.c:1834
+#: src/piesctl.c:1836
 #, c-format
 msgid "expected \"list\" or \"set\", but found \"%s\""
 msgstr ""
 
-#: src/piesctl.c:1847
+#: src/piesctl.c:1849
 #, c-format
 msgid "unrecognized subcommand: %s"
 msgstr ""
 
-#: src/piesctl.c:1888
+#: src/piesctl.c:1890
 msgid "bad syntax"
 msgstr ""
 
-#: src/piesctl.c:2134 src/piesctl.c:2147
+#: src/piesctl.c:2136 src/piesctl.c:2149
 #, c-format
 msgid "unexpected word: %s"
 msgstr ""
 
-#: src/piesctl.c:2167
+#: src/piesctl.c:2169
 msgid "[CONDITION]"
 msgstr ""
 
-#: src/piesctl.c:2168
+#: src/piesctl.c:2170
 msgid "list configured components"
 msgstr ""
 
-#: src/piesctl.c:2169 src/piesctl.c:2171 src/piesctl.c:2173
+#: src/piesctl.c:2171 src/piesctl.c:2173 src/piesctl.c:2175
 msgid "CONDITION"
 msgstr ""
 
-#: src/piesctl.c:2170
+#: src/piesctl.c:2172
 msgid "stop components"
 msgstr ""
 
-#: src/piesctl.c:2172
+#: src/piesctl.c:2174
 msgid "start components"
 msgstr ""
 
-#: src/piesctl.c:2174
+#: src/piesctl.c:2176
 msgid "restart components"
 msgstr ""
 
 #. TRANSLATORS: You can leave the BNF below untranslated.  If you
 #. chose to translate it, please do not translate words in double
 #. quotes.
-#: src/piesctl.c:2179
+#: src/piesctl.c:2181
 msgid ""
 "CONDITION is defined as follows:\n"
 "    <condition> ::= <disjunction>\n"
@@ -1250,353 +1270,353 @@ msgid ""
 "    <char> ::= <any character except \"\\\" and \"\"\"> | \"\\\\\" | \"\\\"\""
 msgstr ""
 
-#: src/piesctl.c:2196
+#: src/piesctl.c:2198
 msgid "[KEYWORDS...]"
 msgstr ""
 
-#: src/piesctl.c:2197
+#: src/piesctl.c:2199
 msgid "show info about the running GNU Pies instance"
 msgstr ""
 
 #. TRANSLATORS: Please don't translate the keywords.
-#: src/piesctl.c:2201
+#: src/piesctl.c:2203
 msgid "Available KEYWORDS are: package, version, instance, binary, argv, PID"
 msgstr ""
 
-#: src/piesctl.c:2203
+#: src/piesctl.c:2205
 msgid "stop running pies instance"
 msgstr ""
 
-#: src/piesctl.c:2205
+#: src/piesctl.c:2207
 msgid "restart pies instance"
 msgstr ""
 
-#: src/piesctl.c:2208
+#: src/piesctl.c:2210
 msgid "reload configuration"
 msgstr ""
 
-#: src/piesctl.c:2210
+#: src/piesctl.c:2212
 msgid "clear configuration file list"
 msgstr ""
 
 #. TRANSLATORS: Translate only words in upper case
-#: src/piesctl.c:2212
+#: src/piesctl.c:2214
 msgid "file add SYNTAX FILE"
 msgstr ""
 
-#: src/piesctl.c:2213
+#: src/piesctl.c:2215
 msgid "add FILE of given SYNTAX to the list of configuration files"
 msgstr ""
 
 #. TRANSLATORS: Translate only words in upper case
-#: src/piesctl.c:2215
+#: src/piesctl.c:2217
 msgid "file del[ete] NAME [NAME...]"
 msgstr ""
 
-#: src/piesctl.c:2216
+#: src/piesctl.c:2218
 msgid "remove listed names from the list of configuration files"
 msgstr ""
 
-#: src/piesctl.c:2218
+#: src/piesctl.c:2220
 msgid "list configuration files"
 msgstr ""
 
-#: src/piesctl.c:2220
+#: src/piesctl.c:2222
 msgid "list or change the runlevel"
 msgstr ""
 
 #. TRANSLATORS: Translate only words in upper case
-#: src/piesctl.c:2223
+#: src/piesctl.c:2225
 msgid "environ list [NAME]"
 msgstr ""
 
-#: src/piesctl.c:2224
+#: src/piesctl.c:2226
 msgid "list init execution environment"
 msgstr ""
 
 #. TRANSLATORS: Translate only words in upper case
-#: src/piesctl.c:2226
+#: src/piesctl.c:2228
 msgid "environ set NAME=VALUE"
 msgstr ""
 
-#: src/piesctl.c:2227 src/piesctl.c:2230
+#: src/piesctl.c:2229 src/piesctl.c:2232
 msgid "update execution environment"
 msgstr ""
 
 #. TRANSLATORS: Translate only words in upper case
-#: src/piesctl.c:2229
+#: src/piesctl.c:2231
 msgid "environ unset NAME"
 msgstr ""
 
-#: src/piesctl.c:2263
+#: src/piesctl.c:2265
 #, c-format
 msgid "%s: ambiguous command %s:\n"
 msgstr ""
 
-#: src/piesctl.c:2272
+#: src/piesctl.c:2274
 #, c-format
 msgid "unknown command: %s"
 msgstr ""
 
-#: src/piesctl.c:2285
+#: src/piesctl.c:2287
 msgid "Available commands with their arguments are:"
 msgstr ""
 
-#: src/piesctl.c:2331
+#: src/piesctl.c:2334
 msgid "not enough arguments"
 msgstr ""
 
-#: src/progman.c:323
+#: src/progman.c:329
 #, c-format
 msgid "cannot open output file %s: %s"
 msgstr ""
 
-#: src/progman.c:377
+#: src/progman.c:383
 #, c-format
 msgid "%s: %s while reading %s"
 msgstr ""
 
-#: src/progman.c:387
+#: src/progman.c:393
 #, c-format
 msgid "%s: EOF on %s"
 msgstr ""
 
-#: src/progman.c:550
+#: src/progman.c:556
 #, c-format
 msgid "unexpected address family: %d"
 msgstr ""
 
-#: src/progman.c:584
+#: src/progman.c:590
 #, c-format
 msgid "connections in class %s/%s: %lu"
 msgstr ""
 
-#: src/progman.c:744
+#: src/progman.c:750
 #, c-format
 msgid "%s is respawning too fast, disabled for %d minute"
 msgid_plural "%s is respawning too fast, disabled for %d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/progman.c:761
+#: src/progman.c:767
 #, c-format
 msgid "%s is starting too often, disabled for %d minute"
 msgid_plural "%s is starting too often, disabled for %d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/progman.c:858
+#: src/progman.c:864
 #, c-format
 msgid "%s: can't split command line: %s"
 msgstr ""
 
-#: src/progman.c:887
+#: src/progman.c:893
 #, c-format
 msgid "chdir %s"
 msgstr ""
 
-#: src/progman.c:889
+#: src/progman.c:895
 #, c-format
 msgid "%s: cannot change to directory %s: %s"
 msgstr ""
 
-#: src/progman.c:918
+#: src/progman.c:924
 #, c-format
 msgid "cannot start `%s': %s"
 msgstr ""
 
-#: src/progman.c:985 src/progman.c:1015
+#: src/progman.c:991 src/progman.c:1021
 #, c-format
 msgid "unlinking %s"
 msgstr ""
 
-#: src/progman.c:1011
+#: src/progman.c:1017
 #, c-format
 msgid "starting %s"
 msgstr ""
 
-#: src/progman.c:1017
+#: src/progman.c:1023
 #, c-format
 msgid "%s: cannot remove file `%s': %s"
 msgstr ""
 
-#: src/progman.c:1122
+#: src/progman.c:1128
 #, c-format
 msgid "cannot run `%s': fork failed: %s"
 msgstr ""
 
-#: src/progman.c:1151
+#: src/progman.c:1157
 #, c-format
 msgid "%s started, pid=%lu"
 msgstr ""
 
-#: src/progman.c:1174
+#: src/progman.c:1180
 #, c-format
 msgid "access from %s blocked"
 msgstr ""
 
-#: src/progman.c:1196
+#: src/progman.c:1202
 #, c-format
 msgid "error writing to socket: %s"
 msgstr ""
 
-#: src/progman.c:1243
+#: src/progman.c:1249
 #, c-format
 msgid "%s: access from %s denied: too many instances running"
 msgstr ""
 
-#: src/progman.c:1257
+#: src/progman.c:1263
 #, c-format
 msgid "%s: access from %s denied: too many connections from that ip"
 msgstr ""
 
-#: src/progman.c:1297
+#: src/progman.c:1303
 #, c-format
 msgid "someone wants %s"
 msgstr ""
 
-#: src/progman.c:1303
+#: src/progman.c:1309
 #, c-format
 msgid "%s: too many instances running, dropping connection"
 msgstr ""
 
-#: src/progman.c:1457
+#: src/progman.c:1463
 #, c-format
 msgid "INTERNAL ERROR: attempting to kill nonexistent process %s"
 msgstr ""
 
-#: src/progman.c:1474
+#: src/progman.c:1480
 msgid "checking for components to start"
 msgstr ""
 
-#: src/progman.c:1655
+#: src/progman.c:1661
 #, c-format
 msgid "%s (%lu) exited successfully"
 msgstr ""
 
-#: src/progman.c:1658
+#: src/progman.c:1664
 #, c-format
 msgid "%s (%lu) exited with status %d"
 msgstr ""
 
-#: src/progman.c:1671
+#: src/progman.c:1677
 msgid " (core dumped)"
 msgstr ""
 
-#: src/progman.c:1673
+#: src/progman.c:1679
 #, c-format
 msgid "%s (%lu) terminated on signal %d%s"
 msgstr ""
 
-#: src/progman.c:1678
+#: src/progman.c:1684
 #, c-format
 msgid "%s (%lu) stopped on signal %d"
 msgstr ""
 
-#: src/progman.c:1682
+#: src/progman.c:1688
 #, c-format
 msgid "%s (%lu) terminated with unrecognized status: %d"
 msgstr ""
 
-#: src/progman.c:1754
+#: src/progman.c:1760
 #, c-format
 msgid "cannot parse recipient address list (%s)"
 msgstr ""
 
-#: src/progman.c:1759
+#: src/progman.c:1765
 #, c-format
 msgid "sending notification to %s"
 msgstr ""
 
-#: src/progman.c:1806 src/progman.c:1836
+#: src/progman.c:1812 src/progman.c:1842
 #, c-format
 msgid "cannot send mail: fork failed: %s"
 msgstr ""
 
-#: src/progman.c:1814
+#: src/progman.c:1820
 #, c-format
 msgid "started mailer: %s, pid=%lu"
 msgstr ""
 
-#: src/progman.c:1826
+#: src/progman.c:1832
 #, c-format
 msgid "cannot send mail: pipe failed: %s"
 msgstr ""
 
-#: src/progman.c:1861
+#: src/progman.c:1867
 #, c-format
 msgid "cannot write to pipe: %s"
 msgstr ""
 
 #. TRANSLATORS: The subject of this statement is 'component'
-#: src/progman.c:1906
+#: src/progman.c:1912
 msgid "exited with code"
 msgstr ""
 
 #. TRANSLATORS: The subject of this statement is 'component'
-#: src/progman.c:1909
+#: src/progman.c:1915
 msgid "terminated on signal"
 msgstr ""
 
-#: src/progman.c:2038
+#: src/progman.c:2044
 #, c-format
 msgid "executing %s"
 msgstr ""
 
-#: src/progman.c:2062
+#: src/progman.c:2068
 #, c-format
 msgid "started command: %s, pid=%lu"
 msgstr ""
 
-#: src/progman.c:2064
+#: src/progman.c:2070
 msgid "[action]"
 msgstr ""
 
-#: src/progman.c:2079
+#: src/progman.c:2085
 #, c-format
 msgid "%s: terminated with code %d"
 msgstr ""
 
-#: src/progman.c:2084
+#: src/progman.c:2090
 #, c-format
 msgid "%s: terminated on signal %d"
 msgstr ""
 
-#: src/progman.c:2089
+#: src/progman.c:2095
 #, c-format
 msgid "%s: unrecognized termination status"
 msgstr ""
 
-#: src/progman.c:2116
+#: src/progman.c:2122
 #, c-format
 msgid "disabling component %s"
 msgstr ""
 
-#: src/progman.c:2149
+#: src/progman.c:2154
 msgid "unknown child"
 msgstr ""
 
-#: src/progman.c:2249
+#: src/progman.c:2258
 #, c-format
 msgid "stopping component %s"
 msgstr ""
 
-#: src/progman.c:2269
+#: src/progman.c:2278
 #, c-format
 msgid "waking up component %s"
 msgstr ""
 
-#: src/progman.c:2283
+#: src/progman.c:2292
 #, c-format
 msgid "stopping component %s: component not started"
 msgstr ""
 
-#: src/progman.c:2292
+#: src/progman.c:2301
 #, c-format
 msgid "deactivating listener %s"
 msgstr ""
 
-#: src/progman.c:2305
+#: src/progman.c:2314
 #, c-format
 msgid "activating listener %s"
 msgstr ""
@@ -1810,217 +1830,252 @@ msgstr ""
 msgid "cannot open %s for writing"
 msgstr ""
 
-#: cmdline.opt:24
+#: cmdline.opt:26
 msgid "Operation Mode"
 msgstr ""
 
-#: cmdline.opt:40 piesctl-cl.opt:44
+#: cmdline.opt:42 piesctl-cl.opt:46
 msgid "FILE"
 msgstr ""
 
-#: cmdline.opt:40 piesctl-cl.opt:44
+#: cmdline.opt:42 piesctl-cl.opt:46
 msgid "use FILE instead of the default configuration"
 msgstr ""
 
-#: cmdline.opt:46 piesctl-cl.opt:50
+#: cmdline.opt:48 piesctl-cl.opt:52
 msgid "show configuration file summary"
 msgstr ""
 
-#: cmdline.opt:53
+#: cmdline.opt:55
 msgid "preprocess configuration file and exit"
 msgstr ""
 
-#: cmdline.opt:59
+#: cmdline.opt:61
 msgid "force startup even if another instance may be running"
 msgstr ""
 
-#: cmdline.opt:65
+#: cmdline.opt:67
 msgid "remain in foreground"
 msgstr ""
 
-#: cmdline.opt:72
+#: cmdline.opt:74
 msgid "don't suppose SysV init mode if PID is 1"
 msgstr ""
 
-#: cmdline.opt:78
+#: cmdline.opt:80
 msgid "run in inetd mode"
 msgstr ""
 
-#: cmdline.opt:87 cmdline.opt:158 piesctl-cl.opt:38 piesctl-cl.opt:106
+#: cmdline.opt:89 cmdline.opt:178 piesctl-cl.opt:40 piesctl-cl.opt:127
 msgid "NAME"
 msgstr ""
 
-#: cmdline.opt:87
+#: cmdline.opt:89
 msgid "set instance name"
 msgstr ""
 
-#: cmdline.opt:93
+#: cmdline.opt:95
 msgid "NUMBER"
 msgstr ""
 
-#: cmdline.opt:93
+#: cmdline.opt:95
 msgid "set default maximum rate for inetd-style components"
 msgstr ""
 
-#: cmdline.opt:105
+#: cmdline.opt:107
 msgid "log to stderr"
 msgstr ""
 
-#: cmdline.opt:111
+#: cmdline.opt:113
 msgid "{pies|meta1|inetd|inittab}"
 msgstr ""
 
-#: cmdline.opt:111
+#: cmdline.opt:113
 msgid "expect configuration files in the given syntax"
 msgstr ""
 
-#: cmdline.opt:122
+#: cmdline.opt:124
 msgid "log to syslog"
 msgstr ""
 
-#: cmdline.opt:128
+#: cmdline.opt:130
 msgid "parse configuration file and exit"
 msgstr ""
 
-#: cmdline.opt:136
+#: cmdline.opt:138
 msgid "telinit command: run \"pies -T --help\" for help"
 msgstr ""
 
-#: cmdline.opt:130 piesctl-cl.opt:78
+#: cmdline.opt:132 piesctl-cl.opt:80
 msgid "Preprocessor"
 msgstr ""
 
-#: cmdline.opt:146 piesctl-cl.opt:94
+#: cmdline.opt:148 piesctl-cl.opt:96
+msgid "COMMAND"
+msgstr ""
+
+#: cmdline.opt:148 piesctl-cl.opt:96
+msgid "use COMMAND instead of the default preprocessor"
+msgstr ""
+
+#: cmdline.opt:154 piesctl-cl.opt:103
+msgid "disable preprocessing"
+msgstr ""
+
+#: cmdline.opt:160 piesctl-cl.opt:109
 msgid "DIR"
 msgstr ""
 
-#: cmdline.opt:146 piesctl-cl.opt:94
+#: cmdline.opt:160 piesctl-cl.opt:109
 msgid "add include directory"
 msgstr ""
 
-#: cmdline.opt:152 piesctl-cl.opt:100
+#: cmdline.opt:166 piesctl-cl.opt:115
+msgid "clear default preprocessor search path"
+msgstr ""
+
+#: cmdline.opt:172 piesctl-cl.opt:121
 msgid "NAME[=VALUE]"
 msgstr ""
 
-#: cmdline.opt:152 piesctl-cl.opt:100
+#: cmdline.opt:172 piesctl-cl.opt:121
 msgid "define a preprocessor symbol NAME as having VALUE or empty"
 msgstr ""
 
-#: cmdline.opt:158 piesctl-cl.opt:106
+#: cmdline.opt:178 piesctl-cl.opt:127
 msgid "undefine a preprocessor symbol NAME"
 msgstr ""
 
-#: cmdline.opt:150
+#: cmdline.opt:170
 msgid "Component Management"
 msgstr ""
 
-#: cmdline.opt:167
+#: cmdline.opt:187
 msgid "reload the running instance of pies"
 msgstr ""
 
-#: cmdline.opt:174
+#: cmdline.opt:194
 msgid "restart components named in the command line"
 msgstr ""
 
-#: cmdline.opt:181
+#: cmdline.opt:201
 msgid "display info about the running instance"
 msgstr ""
 
-#: cmdline.opt:188
+#: cmdline.opt:208
 msgid "stop the running instance"
 msgstr ""
 
-#: cmdline.opt:181
+#: cmdline.opt:201
 msgid "Debugging and Additional Diagnostics"
 msgstr ""
 
-#: cmdline.opt:197
+#: cmdline.opt:217
 msgid "dump dependency map"
 msgstr ""
 
-#: cmdline.opt:204
+#: cmdline.opt:224
 msgid "trace dependencies"
 msgstr ""
 
-#: cmdline.opt:211
+#: cmdline.opt:231
 msgid "trace prerequisites"
 msgstr ""
 
-#: cmdline.opt:218
+#: cmdline.opt:238
+msgid "list components in shutdown sequence ordering"
+msgstr ""
+
+#: cmdline.opt:245
 msgid "show source info with debugging messages"
 msgstr ""
 
-#: cmdline.opt:224
+#: cmdline.opt:251
 msgid "LEVEL"
 msgstr ""
 
-#: cmdline.opt:224
+#: cmdline.opt:251
 msgid "set debug verbosity level"
 msgstr ""
 
-#: cmdline.opt:216 piesctl-cl.opt:98
+#: cmdline.opt:243 piesctl-cl.opt:120
 msgid "Other options"
 msgstr ""
 
-#: cmdline.opt:228 piesctl-cl.opt:110
+#: cmdline.opt:255 piesctl-cl.opt:132
 msgid "Give this help list"
 msgstr ""
 
-#: cmdline.opt:228 piesctl-cl.opt:110
+#: cmdline.opt:255 piesctl-cl.opt:132
 msgid "Give a short usage message"
 msgstr ""
 
-#: cmdline.opt:228 piesctl-cl.opt:110
+#: cmdline.opt:255 piesctl-cl.opt:132
 msgid "Print program version"
 msgstr ""
 
-#: cmdline.opt:33
+#: cmdline.opt:35
 msgid "process invocation and execution supervisor"
 msgstr ""
 
-#: cmdline.opt:90
+#: cmdline.opt:252
+#, c-format
+msgid "This pies preprocesses its configuration using %s\n"
+msgstr ""
+
+#: cmdline.opt:254
+#, c-format
+msgid "Preprocessor include path: %s\n"
+msgstr ""
+
+#: cmdline.opt:258
+#, c-format
+msgid "This pies does not use configuration preprocessor.\n"
+msgstr ""
+
+#: cmdline.opt:92
 #, c-format
 msgid "not a number: %s"
 msgstr ""
 
-#: cmdline.opt:107
+#: cmdline.opt:109
 #, c-format
 msgid "unknown syntax type: %s"
 msgstr ""
 
-#: piesctl-cl.opt:38
+#: piesctl-cl.opt:40
 msgid "connect to instance NAME"
 msgstr ""
 
-#: piesctl-cl.opt:57
+#: piesctl-cl.opt:59
 msgid "preprocess configuration files and exit"
 msgstr ""
 
-#: piesctl-cl.opt:63
+#: piesctl-cl.opt:65
 msgid "verbose diagnostics"
 msgstr ""
 
-#: piesctl-cl.opt:69
+#: piesctl-cl.opt:71
 msgid "dump obtained responses verbatim"
 msgstr ""
 
-#: piesctl-cl.opt:75
+#: piesctl-cl.opt:77
 msgid "URL"
 msgstr ""
 
-#: piesctl-cl.opt:75
+#: piesctl-cl.opt:77
 msgid "connect to this socket"
 msgstr ""
 
-#: piesctl-cl.opt:86
+#: piesctl-cl.opt:88
 msgid "don't read ~/.netrc file"
 msgstr ""
 
-#: piesctl-cl.opt:33
+#: piesctl-cl.opt:35
 msgid "GNU pies control program"
 msgstr ""
 
-#: piesctl-cl.opt:35
+#: piesctl-cl.opt:37
 msgid "COMMAND [ARG...]"
 msgstr ""
 
@@ -2032,7 +2087,7 @@ msgstr ""
 msgid "ignoring unrecognized line"
 msgstr ""
 
-#: lib/pp.c:29
+#: lib/pp.c:39
 msgid "no preprocessor configured"
 msgstr ""
 
@@ -2084,81 +2139,193 @@ msgstr ""
 msgid "invalid network address: %s"
 msgstr ""
 
-#: grecs/src/format.c:33
+#. TRANSLATORS: The msgids below are data types in direct (nominative)
+#. and indirect (most often, genitive) cases.  The indirect case is
+#. used only in the construct "list %s" (e.g., for "number" data type,
+#. this makes "list of numbers").  Please, translate it so that it
+#. forms a correct sentence in this context.
+#: grecs/src/format.c:37
 msgid "void"
 msgstr ""
 
-#: grecs/src/format.c:46
+#: grecs/src/format.c:38
+msgid "of strings"
+msgstr ""
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
 msgid "number"
 msgstr ""
 
-#: grecs/src/format.c:49
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "of numbers"
+msgstr ""
+
+#: grecs/src/format.c:46
 msgid "time"
 msgstr ""
 
-#: grecs/src/format.c:52
+#: grecs/src/format.c:46
+msgid "of times"
+msgstr ""
+
+#: grecs/src/format.c:47
 msgid "boolean"
 msgstr ""
 
-#: grecs/src/format.c:55
+#: grecs/src/format.c:47
+msgid "of booleans"
+msgstr ""
+
+#: grecs/src/format.c:48
 msgid "IPv4"
 msgstr ""
 
-#: grecs/src/format.c:58
+#: grecs/src/format.c:48
+msgid "of IPv4"
+msgstr ""
+
+#: grecs/src/format.c:49
 msgid "CIDR"
 msgstr ""
 
-#: grecs/src/format.c:61
+#: grecs/src/format.c:49
+msgid "of CIDR"
+msgstr ""
+
+#: grecs/src/format.c:50
 msgid "hostname"
 msgstr ""
 
-#: grecs/src/format.c:64
+#: grecs/src/format.c:50
+msgid "of hostnames"
+msgstr ""
+
+#: grecs/src/format.c:51
 msgid "sockaddr"
 msgstr ""
 
-#: grecs/src/format.c:67
+#: grecs/src/format.c:51
+msgid "of sockaddr"
+msgstr ""
+
+#: grecs/src/format.c:52
 msgid "section"
 msgstr ""
 
-#: grecs/src/format.c:70
+#: grecs/src/format.c:53
 msgid "null"
 msgstr ""
 
-#: grecs/src/format.c:133
+#: grecs/src/format.c:134
 msgid "Disabled;"
 msgstr ""
 
-#: grecs/src/grecs-lex.l:186 grecs/src/meta1-lex.l:104
+#. TRANSLATORS: The %s in this message will be expanded
+#. to a data type in indirect case (see above).  The two
+#. must form a grammatically correct sentence.
+#: grecs/src/format.c:158
+#, c-format
+msgid "list %s"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:145
+#, c-format
+msgid ""
+"\"%2.2s\" starts comment here; use quotes if you want it to be a part of "
+"string, or insert a whitespace to suppress this warning"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:210
+msgid "end of file in comment"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:341
+msgid "end of file in quoted string"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:405 grecs/src/meta1-lex.l:104
 #, c-format
 msgid "stray character %c"
 msgstr ""
 
-#: grecs/src/grecs-lex.l:189 grecs/src/meta1-lex.l:105
+#: grecs/src/grecs-lex.l:408 grecs/src/meta1-lex.l:105
 #, c-format
 msgid "stray character \\%03o"
 msgstr ""
 
-#: grecs/src/grecs-lex.l:219 grecs/src/meta1-gram.y:207 grecs/src/preproc.c:480
+#: grecs/src/grecs-lex.l:442 grecs/src/grecs-lex.l:459
+msgid "invalid include statement"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:474
+msgid "read error"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:482
+#, c-format
+msgid "%s: No such file or directory"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:811 grecs/src/grecs-lex.l:834
+#, c-format
+msgid "Cannot stat `%s'"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:817 grecs/src/grecs-lex.l:822
+msgid "Recursive inclusion"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:825
+#, c-format
+msgid "`%s' already included here"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:829
+#, c-format
+msgid "`%s' already included at top level"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:844 grecs/src/grecs-lex.l:863
+#: grecs/src/meta1-gram.y:207
 #, c-format
 msgid "Cannot open `%s'"
 msgstr ""
 
-#: grecs/src/grecs-lex.l:227 grecs/src/preproc.c:698
-#, c-format
-msgid "Unable to start external preprocessor `%s'"
-msgstr ""
-
-#: grecs/src/grecs-lex.l:394 grecs/src/grecs-lex.l:431
+#: grecs/src/grecs-lex.l:1140 grecs/src/grecs-lex.l:1161
 #, c-format
 msgid "cannot parse #line line: %s"
 msgstr ""
 
-#: grecs/src/grecs-lex.l:415 grecs/src/grecs-lex.l:435
+#: grecs/src/grecs-lex.l:1147 grecs/src/grecs-lex.l:1164
 msgid "invalid #line statement"
 msgstr ""
 
-#: grecs/src/grecs-lex.l:418 grecs/src/grecs-lex.l:439
+#: grecs/src/grecs-lex.l:1150 grecs/src/grecs-lex.l:1166
 msgid "malformed #line statement"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1256 grecs/src/grecs-lex.l:1287
+#, c-format
+msgid "Cannot run `%s'"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1309
+#, c-format
+msgid "%s exited with status %d"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1314
+#, c-format
+msgid "%s terminated on signal %d"
+msgstr ""
+
+#: grecs/src/grecs-lex.l:1318
+#, c-format
+msgid "%s terminated abnormally (%d)"
 msgstr ""
 
 #: grecs/src/lineacc.c:70
@@ -2256,47 +2423,6 @@ msgstr ""
 
 #: grecs/src/path-parser.c:143
 msgid "parse error"
-msgstr ""
-
-#: grecs/src/preproc.c:448 grecs/src/preproc.c:470
-#, c-format
-msgid "Cannot stat `%s'"
-msgstr ""
-
-#: grecs/src/preproc.c:453 grecs/src/preproc.c:458
-msgid "Recursive inclusion"
-msgstr ""
-
-#: grecs/src/preproc.c:461
-#, c-format
-msgid "`%s' already included here"
-msgstr ""
-
-#: grecs/src/preproc.c:465
-#, c-format
-msgid "`%s' already included at top level"
-msgstr ""
-
-#: grecs/src/preproc.c:595
-msgid "Cannot parse include line"
-msgstr ""
-
-#: grecs/src/preproc.c:598
-msgid "invalid include statement"
-msgstr ""
-
-#: grecs/src/preproc.c:624
-msgid "read error"
-msgstr ""
-
-#: grecs/src/preproc.c:632
-#, c-format
-msgid "%s: No such file or directory"
-msgstr ""
-
-#: grecs/src/preproc.c:773 grecs/src/preproc.c:793
-#, c-format
-msgid "Cannot run `%s'"
 msgstr ""
 
 #: grecs/src/sockaddr.c:67

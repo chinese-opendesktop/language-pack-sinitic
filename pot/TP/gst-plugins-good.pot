@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good-1.0\n"
+"Project-Id-Version: gst-plugins-good-1.21.90\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-23 01:33+0100\n"
+"POT-Creation-Date: 2023-01-13 19:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,14 +21,14 @@ msgstr ""
 msgid "Jack server not found"
 msgstr ""
 
-#: ext/jpeg/gstjpegdec.c:952 ext/jpeg/gstjpegdec.c:1122
-#: ext/jpeg/gstjpegdec.c:1131 ext/jpeg/gstjpegdec.c:1141
-#: ext/jpeg/gstjpegdec.c:1150 ext/jpeg/gstjpegdec.c:1427
-#: ext/jpeg/gstjpegdec.c:1455
+#: ext/jpeg/gstjpegdec.c:983 ext/jpeg/gstjpegdec.c:1255
+#: ext/jpeg/gstjpegdec.c:1264 ext/jpeg/gstjpegdec.c:1274
+#: ext/jpeg/gstjpegdec.c:1283 ext/jpeg/gstjpegdec.c:1567
+#: ext/jpeg/gstjpegdec.c:1595
 msgid "Failed to decode JPEG image"
 msgstr ""
 
-#: ext/jpeg/gstjpegdec.c:1415
+#: ext/jpeg/gstjpegdec.c:1555
 msgid "Failed to read memory"
 msgstr ""
 
@@ -49,41 +49,41 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: 'song title' by 'artist name'
-#: ext/pulse/pulsesink.c:3131
+#: ext/pulse/pulsesink.c:3132
 #, c-format
 msgid "'%s' by '%s'"
 msgstr ""
 
-#: ext/shout2/gstshout2.c:645 ext/shout2/gstshout2.c:655
+#: ext/shout2/gstshout2.c:706 ext/shout2/gstshout2.c:716
 msgid "Could not connect to server"
 msgstr ""
 
-#: ext/soup/gstsouphttpsrc.c:917
+#: ext/soup/gstsouphttpsrc.c:1108
 msgid "No URL set."
 msgstr ""
 
-#: ext/soup/gstsouphttpsrc.c:1377
+#: ext/soup/gstsouphttpsrc.c:1623
 msgid "Could not resolve server name."
 msgstr ""
 
-#: ext/soup/gstsouphttpsrc.c:1382
+#: ext/soup/gstsouphttpsrc.c:1628
 msgid "Could not establish connection to server."
 msgstr ""
 
-#: ext/soup/gstsouphttpsrc.c:1386
+#: ext/soup/gstsouphttpsrc.c:1632
 msgid "Secure connection setup failed."
 msgstr ""
 
-#: ext/soup/gstsouphttpsrc.c:1392
+#: ext/soup/gstsouphttpsrc.c:1638
 msgid ""
 "A network error occurred, or the server closed the connection unexpectedly."
 msgstr ""
 
-#: ext/soup/gstsouphttpsrc.c:1397
+#: ext/soup/gstsouphttpsrc.c:1643
 msgid "Server sent bad data."
 msgstr ""
 
-#: ext/soup/gstsouphttpsrc.c:1629
+#: ext/soup/gstsouphttpsrc.c:1949
 msgid "Server does not support seeking."
 msgstr ""
 
@@ -95,45 +95,45 @@ msgstr ""
 msgid "No or invalid input audio, AVI stream will be corrupt."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:494 gst/isomp4/qtdemux.c:499
+#: gst/isomp4/qtdemux.c:505 gst/isomp4/qtdemux.c:510
 msgid "This file contains no playable streams."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:545 gst/isomp4/qtdemux.c:7046 gst/isomp4/qtdemux.c:7115
-#: gst/isomp4/qtdemux.c:7405 gst/isomp4/qtdemux.c:8783
+#: gst/isomp4/qtdemux.c:556 gst/isomp4/qtdemux.c:7333 gst/isomp4/qtdemux.c:7402
+#: gst/isomp4/qtdemux.c:7708 gst/isomp4/qtdemux.c:9101
 msgid "This file is invalid and cannot be played."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:2972
+#: gst/isomp4/qtdemux.c:3039
 msgid "Cannot play stream because it is encrypted with PlayReady DRM."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:4214 gst/isomp4/qtdemux.c:8179
-#: gst/isomp4/qtdemux.c:8186 gst/isomp4/qtdemux.c:9406
-#: gst/isomp4/qtdemux.c:9843 gst/isomp4/qtdemux.c:9850
-#: gst/isomp4/qtdemux.c:12947
+#: gst/isomp4/qtdemux.c:4356 gst/isomp4/qtdemux.c:8488
+#: gst/isomp4/qtdemux.c:8495 gst/isomp4/qtdemux.c:9803
+#: gst/isomp4/qtdemux.c:10245 gst/isomp4/qtdemux.c:10252
+#: gst/isomp4/qtdemux.c:13389
 msgid "This file is corrupt and cannot be played."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:4456
+#: gst/isomp4/qtdemux.c:4598
 msgid "Invalid atom size."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:4535
+#: gst/isomp4/qtdemux.c:4677
 msgid "This file is incomplete and cannot be played."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:10984
+#: gst/isomp4/qtdemux.c:11386
 msgid "The video in this file might not play correctly."
 msgstr ""
 
-#: gst/rtsp/gstrtspsrc.c:7666
+#: gst/rtsp/gstrtspsrc.c:7885
 msgid ""
 "No supported stream was found. You might need to install a GStreamer RTSP "
 "extension plugin for Real media streams."
 msgstr ""
 
-#: gst/rtsp/gstrtspsrc.c:7671
+#: gst/rtsp/gstrtspsrc.c:7890
 msgid ""
 "No supported stream was found. You might need to allow more transport "
 "protocols or may otherwise be missing the right GStreamer RTSP extension "
@@ -200,109 +200,109 @@ msgstr ""
 msgid "Raspberry Pi Camera Module"
 msgstr ""
 
-#: sys/v4l2/gstv4l2bufferpool.c:1823
+#: sys/v4l2/gstv4l2bufferpool.c:1930
 #, c-format
 msgid "Error reading %d bytes from device '%s'."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:1236
+#: sys/v4l2/gstv4l2object.c:1241
 #, c-format
 msgid "Failed to enumerate possible video formats device '%s' can work with"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:3141
+#: sys/v4l2/gstv4l2object.c:3192
 #, c-format
 msgid "Could not map buffers from device '%s'"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:3149
+#: sys/v4l2/gstv4l2object.c:3200
 #, c-format
 msgid "The driver of device '%s' does not support the IO method %d"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:3156
+#: sys/v4l2/gstv4l2object.c:3207
 #, c-format
 msgid "The driver of device '%s' does not support any known IO method."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4004
+#: sys/v4l2/gstv4l2object.c:4079
 msgid "Invalid caps"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4011 sys/v4l2/gstv4l2object.c:4035
+#: sys/v4l2/gstv4l2object.c:4086 sys/v4l2/gstv4l2object.c:4110
 #, c-format
 msgid "Device '%s' has no supported format"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4017 sys/v4l2/gstv4l2object.c:4041
+#: sys/v4l2/gstv4l2object.c:4092 sys/v4l2/gstv4l2object.c:4116
 #, c-format
 msgid "Device '%s' failed during initialization"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4029
+#: sys/v4l2/gstv4l2object.c:4104
 #, c-format
 msgid "Device '%s' is busy"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4052
+#: sys/v4l2/gstv4l2object.c:4127
 #, c-format
 msgid "Device '%s' cannot capture at %dx%d"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4061
+#: sys/v4l2/gstv4l2object.c:4136
 #, c-format
 msgid "Device '%s' cannot capture in the specified format"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4072
+#: sys/v4l2/gstv4l2object.c:4147
 #, c-format
 msgid "Device '%s' does support non-contiguous planes"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4087
+#: sys/v4l2/gstv4l2object.c:4162
 #, c-format
 msgid "Device '%s' does not support %s interlacing"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4101
+#: sys/v4l2/gstv4l2object.c:4176
 #, c-format
 msgid "Device '%s' does not support %s colorimetry"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4113
+#: sys/v4l2/gstv4l2object.c:4188
 #, c-format
 msgid "Could not get parameters on device '%s'"
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4121
+#: sys/v4l2/gstv4l2object.c:4196
 msgid "Video device did not accept new frame rate setting."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4261
+#: sys/v4l2/gstv4l2object.c:4337
 msgid "Video device did not provide output format."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4267
+#: sys/v4l2/gstv4l2object.c:4343
 msgid "Video device returned invalid dimensions."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4275
+#: sys/v4l2/gstv4l2object.c:4351
 msgid "Video device uses an unsupported interlacing method."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:4282
+#: sys/v4l2/gstv4l2object.c:4358
 msgid "Video device uses an unsupported pixel format."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:5036
+#: sys/v4l2/gstv4l2object.c:5256
 msgid "Failed to configure internal buffer pool."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:5042
+#: sys/v4l2/gstv4l2object.c:5262
 msgid "Video device did not suggest any buffer size."
 msgstr ""
 
-#: sys/v4l2/gstv4l2object.c:5057
+#: sys/v4l2/gstv4l2object.c:5268
 msgid "No downstream pool to import from."
 msgstr ""
 
@@ -336,12 +336,12 @@ msgstr ""
 msgid "Failed to change mute state for device '%s'."
 msgstr ""
 
-#: sys/v4l2/gstv4l2sink.c:634
+#: sys/v4l2/gstv4l2sink.c:636
 msgid "Failed to allocated required memory."
 msgstr ""
 
-#: sys/v4l2/gstv4l2src.c:760 sys/v4l2/gstv4l2videodec.c:830
-#: sys/v4l2/gstv4l2videoenc.c:821
+#: sys/v4l2/gstv4l2src.c:977 sys/v4l2/gstv4l2videodec.c:676
+#: sys/v4l2/gstv4l2videodec.c:992 sys/v4l2/gstv4l2videoenc.c:850
 msgid "Failed to allocate required memory."
 msgstr ""
 
@@ -365,11 +365,11 @@ msgstr ""
 msgid "Decoder on device %s has no supported output format"
 msgstr ""
 
-#: sys/v4l2/gstv4l2videodec.c:844
+#: sys/v4l2/gstv4l2videodec.c:1006
 msgid "Failed to start decoding thread."
 msgstr ""
 
-#: sys/v4l2/gstv4l2videodec.c:851 sys/v4l2/gstv4l2videoenc.c:842
+#: sys/v4l2/gstv4l2videodec.c:1013 sys/v4l2/gstv4l2videoenc.c:871
 msgid "Failed to process frame."
 msgstr ""
 
@@ -383,7 +383,7 @@ msgstr ""
 msgid "Encoder on device %s has no supported input format"
 msgstr ""
 
-#: sys/v4l2/gstv4l2videoenc.c:834
+#: sys/v4l2/gstv4l2videoenc.c:863
 msgid "Failed to start encoding thread."
 msgstr ""
 
@@ -484,31 +484,27 @@ msgstr ""
 msgid "Failed to set value %s for control %d on device '%s'."
 msgstr ""
 
-#: sys/v4l2/v4l2_calls.c:1111
+#: sys/v4l2/v4l2_calls.c:1114
 #, c-format
 msgid "Failed to get current input on device '%s'. May be it is a radio device"
 msgstr ""
 
-#: sys/v4l2/v4l2_calls.c:1136
+#: sys/v4l2/v4l2_calls.c:1139
 #, c-format
 msgid "Failed to set input %u on device %s."
 msgstr ""
 
-#: sys/v4l2/v4l2_calls.c:1183
+#: sys/v4l2/v4l2_calls.c:1186
 #, c-format
 msgid ""
 "Failed to get current output on device '%s'. May be it is a radio device"
 msgstr ""
 
-#: sys/v4l2/v4l2_calls.c:1208
+#: sys/v4l2/v4l2_calls.c:1211
 #, c-format
 msgid "Failed to set output %u on device %s."
 msgstr ""
 
-#: sys/ximage/gstximagesrc.c:838
-msgid "Changing resolution at runtime is not yet supported."
-msgstr ""
-
-#: sys/ximage/gstximagesrc.c:852
+#: sys/ximage/gstximagesrc.c:856
 msgid "Cannot operate without a clock"
 msgstr ""

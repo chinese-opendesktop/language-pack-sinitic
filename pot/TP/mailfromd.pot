@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mailfromd 8.13\n"
+"Project-Id-Version: mailfromd 8.14\n"
 "Report-Msgid-Bugs-To: bug-mailfromd@gnu.org.ua\n"
-"POT-Creation-Date: 2022-01-02 15:27+0200\n"
+"POT-Creation-Date: 2022-08-13 11:58+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,19 +83,19 @@ msgid "%s: invalid connection type: %s; unsupported address family"
 msgstr ""
 
 #: gacopyz/gacopyz.c:369 gacopyz/gacopyz.c:1201 gacopyz/server.c:886
-#: lib/srvman.c:260 src/builtin/io.bi:563
+#: lib/srvman.c:260 src/builtin/io.bi:861
 #, c-format
 msgid "%s:%s: cannot parse address: %s"
 msgstr ""
 
 #: gacopyz/gacopyz.c:376 gacopyz/gacopyz.c:1209 gacopyz/server.c:893
-#: lib/srvman.c:266 src/builtin/io.bi:569
+#: lib/srvman.c:266 src/builtin/io.bi:867
 #, c-format
 msgid "%s:%d: internal error converting %s:%s"
 msgstr ""
 
 #: gacopyz/gacopyz.c:393 gacopyz/gacopyz.c:1227 gacopyz/server.c:912
-#: src/builtin/io.bi:585
+#: src/builtin/io.bi:883
 #, c-format
 msgid "%s:%s: address length too big (%lu)"
 msgstr ""
@@ -391,57 +391,57 @@ msgstr ""
 msgid "%s: not a valid X spec, missing port"
 msgstr ""
 
-#: gacopyz/server.c:772 src/builtin/io.bi:458
+#: gacopyz/server.c:772 src/builtin/io.bi:756
 #, c-format
 msgid "invalid connection type: %s; port is meaningless for UNIX sockets"
 msgstr ""
 
-#: gacopyz/server.c:781 src/builtin/io.bi:464
+#: gacopyz/server.c:781 src/builtin/io.bi:762
 #, c-format
 msgid "%s: UNIX socket name too long"
 msgstr ""
 
-#: gacopyz/server.c:792 src/builtin/io.bi:473
+#: gacopyz/server.c:792 src/builtin/io.bi:771
 #, c-format
 msgid "%s: cannot stat socket: %s"
 msgstr ""
 
-#: gacopyz/server.c:799 src/builtin/io.bi:479
+#: gacopyz/server.c:799 src/builtin/io.bi:777
 #, c-format
 msgid "%s: not a socket"
 msgstr ""
 
-#: gacopyz/server.c:815 src/builtin/io.bi:493 src/builtin/io.bi:545
+#: gacopyz/server.c:815 src/builtin/io.bi:791 src/builtin/io.bi:843
 #, c-format
 msgid "invalid connection type: %s; missing port number"
 msgstr ""
 
-#: gacopyz/server.c:825 src/builtin/io.bi:501
+#: gacopyz/server.c:825 src/builtin/io.bi:799
 #, c-format
 msgid "invalid connection type: %s; bad port number"
 msgstr ""
 
-#: gacopyz/server.c:835 src/builtin/io.bi:510
+#: gacopyz/server.c:835 src/builtin/io.bi:808
 #, c-format
 msgid "invalid connection type: %s; unknown port name"
 msgstr ""
 
-#: gacopyz/server.c:849 src/builtin/io.bi:522
+#: gacopyz/server.c:849 src/builtin/io.bi:820
 #, c-format
 msgid "unknown host name %s"
 msgstr ""
 
-#: gacopyz/server.c:862 src/builtin/io.bi:533
+#: gacopyz/server.c:862 src/builtin/io.bi:831
 #, c-format
 msgid "invalid connection type: %s; unsupported address family"
 msgstr ""
 
-#: gacopyz/server.c:937 lib/srvman.c:300 src/builtin/io.bi:594
+#: gacopyz/server.c:937 lib/srvman.c:300 src/builtin/io.bi:892
 #, c-format
 msgid "unsupported protocol: %s"
 msgstr ""
 
-#: gacopyz/server.c:945 src/builtin/io.bi:601
+#: gacopyz/server.c:945 src/builtin/io.bi:899
 #, c-format
 msgid "unable to create new socket: %s"
 msgstr ""
@@ -451,7 +451,7 @@ msgstr ""
 msgid "cannot bind to local address: %s"
 msgstr ""
 
-#: gacopyz/server.c:986 src/builtin/io.bi:610
+#: gacopyz/server.c:986 src/builtin/io.bi:908
 #, c-format
 msgid "cannot connect to %s: %s"
 msgstr ""
@@ -584,7 +584,7 @@ msgstr ""
 
 #: lib/db.c:377 src/builtin/sa.bi:252 src/calloutd.c:44 src/engine.c:77
 #: src/mfdbtool.c:350 src/prog.c:70 src/prog.c:91 src/prog.c:106
-#: src/prog.c:1623 src/prog.c:2942 src/prog.c:2949 mtasim/mtasim.c:678
+#: src/prog.c:1651 src/prog.c:2973 src/prog.c:2980 mtasim/mtasim.c:728
 msgid "not enough memory"
 msgstr ""
 
@@ -620,7 +620,7 @@ msgstr ""
 msgid "Name of the database file"
 msgstr ""
 
-#: lib/dbcfg.c:87
+#: lib/dbcfg.c:87 lib/dns.c:954
 msgid "name: string"
 msgstr ""
 
@@ -670,9 +670,21 @@ msgstr ""
 msgid "mode: octal"
 msgstr ""
 
-#: lib/dns.c:110
+#: lib/dns.c:120
 #, c-format
 msgid "%s too big"
+msgstr ""
+
+#: lib/dns.c:953
+msgid "Read DNS configuration from this file (default: /etc/resolv.conf)"
+msgstr ""
+
+#: lib/dns.c:957
+msgid "Maximum allowed length of CNAME chains"
+msgstr ""
+
+#: lib/dns.c:970
+msgid "DNS resolver configuration."
 msgstr ""
 
 #: lib/logger.c:68
@@ -724,7 +736,7 @@ msgstr ""
 msgid "pipe: %s"
 msgstr ""
 
-#: lib/server.c:176
+#: lib/server.c:176 src/builtin/io.bi:689
 #, c-format
 msgid "fork: %s"
 msgstr ""
@@ -924,7 +936,7 @@ msgstr ""
 
 #: lib/tbf_rate.c:110 src/builtin/db.bi:228 src/builtin/db.bi:310
 #: src/builtin/db.bi:354 src/builtin/db.bi:398 src/builtin/db.bi:482
-#: src/builtin/db.bi:639 src/builtin/db.bi:765 src/builtin/db.bi:862
+#: src/builtin/db.bi:634 src/builtin/db.bi:760 src/builtin/db.bi:857
 #, c-format
 msgid "mf_dbm_open(%s) failed: %s"
 msgstr ""
@@ -1076,7 +1088,7 @@ msgstr ""
 msgid "Written by %s.\n"
 msgstr ""
 
-#: src/optab.opc:45
+#: src/optab.opc:45 optab.opc:45
 #, c-format
 msgid "%08lx: unknown opcode %u; aborting dump"
 msgstr ""
@@ -1245,7 +1257,7 @@ msgstr ""
 msgid "exception code not a number"
 msgstr ""
 
-#: src/gram.y:2213 src/prog.c:2031
+#: src/gram.y:2213 src/prog.c:2059
 #, c-format
 msgid "invalid exception number: %lu"
 msgstr ""
@@ -1451,23 +1463,23 @@ msgstr ""
 msgid "use `require %*.*s' instead"
 msgstr ""
 
-#: src/lex.l:632
+#: src/lex.l:637
 msgid "unexpected end of file"
 msgstr ""
 
-#: src/lex.l:640
+#: src/lex.l:645
 msgid "misplaced `module'"
 msgstr ""
 
-#: src/lex.l:1143
+#: src/lex.l:1148
 msgid "end of file in comment"
 msgstr ""
 
-#: src/lex.l:1151
+#: src/lex.l:1156
 msgid "end of file in string"
 msgstr ""
 
-#: src/lex.l:1156
+#: src/lex.l:1161
 msgid "end of file in shell block"
 msgstr ""
 
@@ -1562,7 +1574,7 @@ msgstr ""
 msgid "no more database entries available"
 msgstr ""
 
-#: src/builtin/db.bi:517 src/builtin/db.bi:542 src/builtin/db.bi:562
+#: src/builtin/db.bi:517 src/builtin/db.bi:540 src/builtin/db.bi:557
 msgid "invalid database descriptor"
 msgstr ""
 
@@ -1571,43 +1583,43 @@ msgstr ""
 msgid "mu_dbm_nextkey: %s"
 msgstr ""
 
-#: src/builtin/db.bi:568
+#: src/builtin/db.bi:563
 #, c-format
 msgid "cannot fetch key: %s"
 msgstr ""
 
 #. TRANSLATORS: Do not translate keywords:
 #. traditional, gray, ct, con-tassios
-#: src/builtin/db.bi:602
+#: src/builtin/db.bi:597
 msgid ""
 "unknown semantics; allowed values are: traditional (or gray) and ct (or con-"
 "tassios)"
 msgstr ""
 
-#: src/builtin/db.bi:654 src/builtin/db.bi:780 src/builtin/db.bi:877
+#: src/builtin/db.bi:649 src/builtin/db.bi:775 src/builtin/db.bi:872
 #, c-format
 msgid "greylist database %s has wrong data size"
 msgstr ""
 
-#: src/builtin/db.bi:688
+#: src/builtin/db.bi:683
 #, c-format
 msgid "cannot insert datum `%-.*s' in greylist database %s: %s"
 msgstr ""
 
-#: src/builtin/db.bi:714 src/builtin/db.bi:804 src/builtin/db.bi:832
+#: src/builtin/db.bi:709 src/builtin/db.bi:799 src/builtin/db.bi:827
 #, c-format
 msgid "Cannot insert datum `%-.*s' in greylist database %s: %s"
 msgstr ""
 
-#: src/builtin/db.bi:738
+#: src/builtin/db.bi:733
 #, c-format
 msgid ""
 "is_greylisted is not implemented for traditional greylist databases; see "
 "documentation, chapter %s %s for more info"
 msgstr ""
 
-#: src/builtin/db.bi:933 src/builtin/db.bi:943 src/builtin/db.bi:953
-#: src/builtin/db.bi:963
+#: src/builtin/db.bi:928 src/builtin/db.bi:938 src/builtin/db.bi:948
+#: src/builtin/db.bi:958
 #, c-format
 msgid "no such db format: %s"
 msgstr ""
@@ -1617,8 +1629,42 @@ msgstr ""
 msgid "invalid module name: %s"
 msgstr ""
 
-#: src/builtin/debug.bi:109 src/prog.c:772
+#: src/builtin/debug.bi:110 src/prog.c:774
 msgid "out of stack space; increase #pragma stacksize"
+msgstr ""
+
+#: src/builtin/dkim.bi:220
+#, c-format
+msgid "bad signing algorithm: %s"
+msgstr ""
+
+#: src/builtin/dkim.bi:231 src/builtin/dkim.bi:237
+#, c-format
+msgid "bad canonicalization type: %s"
+msgstr ""
+
+#: src/builtin/dkim.bi:261
+#, c-format
+msgid "MMQ incompatible with dkim_sign: %s on %s, value %s"
+msgstr ""
+
+#: src/builtin/dkim.bi:267
+#, c-format
+msgid "%s failed on %s, value %s: %s"
+msgstr ""
+
+#: src/builtin/dkim.bi:274
+#, c-format
+msgid "error: %s"
+msgstr ""
+
+#: src/builtin/dkim.bi:286
+#, c-format
+msgid "Sendmail address header postprocessing failed: %s"
+msgstr ""
+
+#: src/builtin/dkim.bi:293
+msgid "DKIM failed"
 msgstr ""
 
 #: src/builtin/dns.bi:35
@@ -1727,79 +1773,116 @@ msgstr ""
 msgid "Maximum number of stream descriptors."
 msgstr ""
 
-#: src/builtin/io.bi:139
+#: src/builtin/io.bi:70
 #, c-format
-msgid "pipe failed: %s"
+msgid "%s: short write trying to write %zu bytes"
 msgstr ""
 
-#: src/builtin/io.bi:147
+#: src/builtin/io.bi:75
 #, c-format
-msgid "fork failed: %s"
+msgid "%s: write error: %s"
 msgstr ""
 
-#: src/builtin/io.bi:169
+#: src/builtin/io.bi:146 src/builtin/io.bi:239 src/builtin/io.bi:255
+#: src/builtin/io.bi:280 src/builtin/io.bi:1228 src/builtin/io.bi:1258
+#: src/builtin/io.bi:1334 src/builtin/io.bi:1362 src/builtin/io.bi:1370
 #, c-format
-msgid "unknown syslog facility (%s), redirecting stderr to %s"
+msgid "%s: error flushing stream"
 msgstr ""
 
-#: src/builtin/io.bi:176
+#: src/builtin/io.bi:159
+msgid "buffer size out of allowed range"
+msgstr ""
+
+#: src/builtin/io.bi:164
+msgid "can't allocate stream buffer"
+msgstr ""
+
+#: src/builtin/io.bi:172
 #, c-format
-msgid "unknown syslog priority (%s), redirecting stderr to %s"
+msgid "bad buffering type: %ld"
 msgstr ""
 
-#: src/builtin/io.bi:239
-#, c-format
-msgid "cannot open file %s for appending: %s"
-msgstr ""
-
-#: src/builtin/io.bi:369
-#, c-format
-msgid "cannot parse command line %s: %s"
-msgstr ""
-
-#: src/builtin/io.bi:374
-#, c-format
-msgid "cannot run %s: %s"
-msgstr ""
-
-#: src/builtin/io.bi:696 src/builtin/io.bi:700 src/builtin/io.bi:876
-#: src/builtin/io.bi:895 src/builtin/io.bi:898 src/builtin/io.bi:930
-#: src/builtin/io.bi:949 src/builtin/io.bi:967 src/builtin/io.bi:988
-#: src/builtin/io.bi:1070 src/builtin/io.bi:1091 src/builtin/io.bi:1112
-#: src/builtin/io.bi:1126
-msgid "invalid file descriptor"
-msgstr ""
-
-#: src/builtin/io.bi:719 src/builtin/io.bi:778 src/builtin/io.bi:841
-msgid "no more files available"
-msgstr ""
-
-#: src/builtin/io.bi:757 src/builtin/io.bi:815
-#, c-format
-msgid "cannot open stream %s: %s"
-msgstr ""
-
-#: src/builtin/io.bi:936 src/builtin/io.bi:953
+#: src/builtin/io.bi:203
 #, c-format
 msgid "write error on %s: %s"
 msgstr ""
 
-#: src/builtin/io.bi:972 src/builtin/io.bi:1074 src/builtin/io.bi:1096
-#, c-format
-msgid "EOF on %s"
+#: src/builtin/io.bi:225 src/builtin/io.bi:293
+msgid "cannot reallocate stream buffer"
 msgstr ""
 
-#: src/builtin/io.bi:975 src/builtin/io.bi:1077 src/builtin/io.bi:1099
+#: src/builtin/io.bi:306 src/builtin/io.bi:330 src/builtin/io.bi:356
 #, c-format
 msgid "read error on %s: %s"
 msgstr ""
 
-#: src/builtin/io.bi:1013
-msgid "invalid source file descriptor"
+#: src/builtin/io.bi:380 src/builtin/io.bi:1318
+#, c-format
+msgid "EOF on %s"
 msgstr ""
 
-#: src/builtin/io.bi:1016
-msgid "invalid destination file descriptor"
+#: src/builtin/io.bi:419
+#, c-format
+msgid "pipe failed: %s"
+msgstr ""
+
+#: src/builtin/io.bi:427
+#, c-format
+msgid "fork failed: %s"
+msgstr ""
+
+#: src/builtin/io.bi:449
+#, c-format
+msgid "unknown syslog facility (%s), redirecting stderr to %s"
+msgstr ""
+
+#: src/builtin/io.bi:456
+#, c-format
+msgid "unknown syslog priority (%s), redirecting stderr to %s"
+msgstr ""
+
+#: src/builtin/io.bi:519
+#, c-format
+msgid "cannot open file %s for appending: %s"
+msgstr ""
+
+#: src/builtin/io.bi:632
+#, c-format
+msgid "pipe left: %s"
+msgstr ""
+
+#: src/builtin/io.bi:639
+#, c-format
+msgid "pipe right: %s"
+msgstr ""
+
+#: src/builtin/io.bi:675
+#, c-format
+msgid "cannot parse command line %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:680
+#, c-format
+msgid "cannot run %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:726 src/dkim.c:1619
+#, c-format
+msgid "can't open %s: %s"
+msgstr ""
+
+#: src/builtin/io.bi:948
+#, c-format
+msgid "can't parse connection string %s"
+msgstr ""
+
+#: src/builtin/io.bi:1012 src/builtin/io.bi:1025 src/builtin/io.bi:1247
+msgid "invalid file descriptor"
+msgstr ""
+
+#: src/builtin/io.bi:1081 src/builtin/io.bi:1134 src/builtin/io.bi:1189
+msgid "no more files available"
 msgstr ""
 
 #: src/builtin/ipaddr.bi:57
@@ -1812,7 +1895,7 @@ msgstr ""
 msgid "invalid netmask: %lu"
 msgstr ""
 
-#: src/builtin/macro.bi:38 src/prog.c:1210
+#: src/builtin/macro.bi:38 src/prog.c:1238
 #, c-format
 msgid "macro not defined: %s"
 msgstr ""
@@ -2087,31 +2170,31 @@ msgstr ""
 msgid "sieving failed: %s"
 msgstr ""
 
-#: src/builtin/string.bi:62
+#: src/builtin/string.bi:60
 msgid "argument out of range"
 msgstr ""
 
-#: src/builtin/string.bi:80 src/builtin/string.bi:102 src/builtin/string.bi:124
+#: src/builtin/string.bi:75 src/builtin/string.bi:96 src/builtin/string.bi:118
 #, c-format
 msgid "argument out of range: start=%ld"
 msgstr ""
 
-#: src/builtin/string.bi:84
+#: src/builtin/string.bi:79
 #, c-format
 msgid "argument out of range: start=%ld, len=%ld"
 msgstr ""
 
-#: src/builtin/string.bi:169
+#: src/builtin/string.bi:162
 #, c-format
 msgid "argument out of range: count=%ld"
 msgstr ""
 
-#: src/builtin/string.bi:189
+#: src/builtin/string.bi:181
 #, c-format
 msgid "error decoding string: %s"
 msgstr ""
 
-#: src/builtin/string.bi:205
+#: src/builtin/string.bi:197
 #, c-format
 msgid "error encoding string: %s"
 msgstr ""
@@ -2180,36 +2263,49 @@ msgstr ""
 msgid "calloutd -- a call out server"
 msgstr ""
 
-#: src/calloutd.c:57 src/main.c:873 src/mfdbtool.c:325
+#: src/calloutd.c:58 src/main.c:874 src/mfdbtool.c:325
 msgid "Retry acquiring DBM file lock this number of times."
 msgstr ""
 
-#: src/calloutd.c:58 src/mfdbtool.c:326 pmult/pmult.c:717
+#: src/calloutd.c:59 src/mfdbtool.c:326 pmult/pmult.c:717
 msgid "arg: number"
 msgstr ""
 
-#: src/calloutd.c:61 src/main.c:876 src/mfdbtool.c:329
+#: src/calloutd.c:62 src/main.c:877 src/mfdbtool.c:329
 msgid "Set the time span between the two DBM locking attempts."
 msgstr ""
 
-#: src/calloutd.c:62 src/main.c:845 src/main.c:877 src/mfdbtool.c:330
+#: src/calloutd.c:63 src/main.c:846 src/main.c:878 src/mfdbtool.c:330
 #: src/srvcfg.c:415 src/srvcfg.c:420 src/srvcfg.c:425 src/srvcfg.c:430
 #: src/srvcfg.c:436 src/srvcfg.c:442 src/srvcfg.c:448 pmult/pmult.c:720
 msgid "time: interval"
 msgstr ""
 
-#: src/calloutd.c:86 src/main.c:557
+#: src/calloutd.c:87 src/main.c:557
 msgid "General options"
 msgstr ""
 
-#: src/calloutd.c:87 src/main.c:550 src/main.c:578 src/main.c:581
-#: src/mfdbtool.c:252 src/srvcfg.c:623 mtasim/mtasim.c:649 mtasim/mtasim.c:661
-#: mtasim/mtasim.c:664 mtasim/mtasim.c:667
+#: src/calloutd.c:88 src/main.c:550 src/main.c:578 src/main.c:581
+#: src/mfdbtool.c:252 src/srvcfg.c:623 mtasim/mtasim.c:699 mtasim/mtasim.c:711
+#: mtasim/mtasim.c:714 mtasim/mtasim.c:717
 msgid "FILE"
 msgstr ""
 
-#: src/calloutd.c:88 src/main.c:582
+#: src/calloutd.c:89 src/main.c:582
 msgid "read resolver configuration from FILE"
+msgstr ""
+
+#: src/dkim.c:569
+msgid "unexpected end of file in canonical stream"
+msgstr ""
+
+#: src/dkim.c:1481
+msgid "malformed canonical stream"
+msgstr ""
+
+#: src/dkim.c:1626
+#, c-format
+msgid "can't read private key from %s: %s"
 msgstr ""
 
 #: src/drivers.c:274 src/drivers.c:283 src/drivers.c:439 src/drivers.c:449
@@ -2344,12 +2440,12 @@ msgstr ""
 msgid "invalid milter timeout: %s"
 msgstr ""
 
-#: src/main.c:509 mtasim/mtasim.c:582
+#: src/main.c:509 mtasim/mtasim.c:632
 #, c-format
 msgid "%s: invalid log level"
 msgstr ""
 
-#: src/main.c:524 mtasim/mtasim.c:607
+#: src/main.c:524 mtasim/mtasim.c:657
 msgid "Operation modifiers"
 msgstr ""
 
@@ -2407,7 +2503,7 @@ msgid ""
 "files"
 msgstr ""
 
-#: src/main.c:562 src/main.c:566 src/srvcfg.c:663 mtasim/mtasim.c:641
+#: src/main.c:562 src/main.c:566 src/srvcfg.c:663 mtasim/mtasim.c:691
 #: pmult/pmult.c:830
 msgid "STRING"
 msgstr ""
@@ -2425,7 +2521,7 @@ msgid "run in mtasim compatibility mode"
 msgstr ""
 
 #: src/main.c:572 src/main.c:635 src/mfdbtool.c:273 src/srvcfg.c:644
-#: mtasim/mtasim.c:655 pmult/pmult.c:833
+#: mtasim/mtasim.c:705 pmult/pmult.c:833
 msgid "LEVEL"
 msgstr ""
 
@@ -2469,8 +2565,8 @@ msgstr ""
 msgid "define a preprocessor symbol NAME as having VALUE, or empty"
 msgstr ""
 
-#: src/main.c:595 src/srvcfg.c:626 src/srvcfg.c:629 mtasim/mtasim.c:599
-#: mtasim/mtasim.c:602
+#: src/main.c:595 src/srvcfg.c:626 src/srvcfg.c:629 mtasim/mtasim.c:649
+#: mtasim/mtasim.c:652
 msgid "NAME"
 msgstr ""
 
@@ -2534,7 +2630,7 @@ msgstr ""
 msgid "produce a cross-reference listing"
 msgstr ""
 
-#: src/main.c:636 mtasim/mtasim.c:656
+#: src/main.c:636 mtasim/mtasim.c:706
 msgid "set Gacopyz log level"
 msgstr ""
 
@@ -2551,7 +2647,7 @@ msgstr ""
 msgid "not enough arguments"
 msgstr ""
 
-#: src/main.c:702 src/main.c:1415
+#: src/main.c:702 src/main.c:1416
 msgid "too many arguments"
 msgstr ""
 
@@ -2559,107 +2655,107 @@ msgstr ""
 msgid "expected string or list of strings"
 msgstr ""
 
-#: src/main.c:841
+#: src/main.c:842
 msgid "Dump stack traces on runtime errors."
 msgstr ""
 
-#: src/main.c:844
+#: src/main.c:845
 msgid "Set milter timeout."
 msgstr ""
 
-#: src/main.c:847
+#: src/main.c:848
 msgid "Sets the URL of the default callout server."
 msgstr ""
 
-#: src/main.c:848
+#: src/main.c:849
 msgid "url"
 msgstr ""
 
-#: src/main.c:850
+#: src/main.c:851
 msgid ""
 "Add directories to the list of directories to be searched for header files.  "
 "Argument is a list of directory names separated by colons."
 msgstr ""
 
-#: src/main.c:853
+#: src/main.c:854
 msgid "path: string"
 msgstr ""
 
-#: src/main.c:855
+#: src/main.c:856
 msgid "Initialize a mailfromd variable <var> to <value>."
 msgstr ""
 
-#: src/main.c:856
+#: src/main.c:857
 msgid "var: string> <value: string-or-number"
 msgstr ""
 
-#: src/main.c:858
+#: src/main.c:859
 msgid "Read filter script from <file>."
 msgstr ""
 
-#: src/main.c:859 src/srvcfg.c:505
+#: src/main.c:860 src/srvcfg.c:505
 msgid "file"
 msgstr ""
 
-#: src/main.c:861
+#: src/main.c:862
 msgid "Trace executed actions."
 msgstr ""
 
-#: src/main.c:863
+#: src/main.c:864
 msgid "Enable filter program tracing."
 msgstr ""
 
-#: src/main.c:864
+#: src/main.c:865
 msgid "modules: list"
 msgstr ""
 
-#: src/main.c:868
+#: src/main.c:869
 msgid "Read relayed domain names from the file"
 msgstr ""
 
-#: src/main.c:869
+#: src/main.c:870
 msgid "file: string"
 msgstr ""
 
-#: src/main.c:920
+#: src/main.c:921
 msgid "Configure MFL runtime values."
 msgstr ""
 
-#: src/main.c:993
+#: src/main.c:994
 msgid "unknown"
 msgstr ""
 
-#: src/main.c:1149
+#: src/main.c:1150
 #, c-format
 msgid "no servers defined; will listen on %s"
 msgstr ""
 
-#: src/main.c:1231
+#: src/main.c:1232
 #, c-format
 msgid "cannot create echo output stream: %s"
 msgstr ""
 
-#: src/main.c:1328
+#: src/main.c:1329
 #, c-format
 msgid "script file specified twice (%s and %s)"
 msgstr ""
 
-#: src/main.c:1384
+#: src/main.c:1385
 #, c-format
 msgid "function %s is not defined"
 msgstr ""
 
-#: src/main.c:1390
+#: src/main.c:1391
 #, c-format
 msgid "function %s must take variable number of arguments"
 msgstr ""
 
-#: src/main.c:1396
+#: src/main.c:1397
 #, c-format
 msgid "function %s must return number"
 msgstr ""
 
-#: src/main.c:1420
+#: src/main.c:1421
 msgid "script file is given without full file name"
 msgstr ""
 
@@ -2752,7 +2848,7 @@ msgstr ""
 msgid "set new program state directory"
 msgstr ""
 
-#: src/mfdbtool.c:281 mtasim/mtasim.c:617
+#: src/mfdbtool.c:281 mtasim/mtasim.c:667
 msgid "NUMBER"
 msgstr ""
 
@@ -2893,107 +2989,107 @@ msgstr ""
 msgid "unknown pragma"
 msgstr ""
 
-#: src/prog.c:611
+#: src/prog.c:613
 #, c-format
 msgid "stack segment expanded, new size=%lu"
 msgstr ""
 
-#: src/prog.c:676
+#: src/prog.c:678
 msgid "stack trace:"
 msgstr ""
 
-#: src/prog.c:685
+#: src/prog.c:687
 msgid "stack trace finishes"
 msgstr ""
 
-#: src/prog.c:694
+#: src/prog.c:696
 #, c-format
 msgid "RUNTIME WARNING near %s:%u: "
 msgstr ""
 
-#: src/prog.c:709
+#: src/prog.c:711
 #, c-format
 msgid "RUNTIME ERROR near %s:%u: "
 msgstr ""
 
-#: src/prog.c:781
+#: src/prog.c:783
 msgid "stack underflow"
 msgstr ""
 
-#: src/prog.c:792 src/prog.c:812
+#: src/prog.c:794 src/prog.c:814
 msgid "heap overrun; increase #pragma stacksize"
 msgstr ""
 
-#: src/prog.c:861 src/prog.c:872 src/prog.c:901
+#: src/prog.c:868 src/prog.c:879 src/prog.c:908
 msgid "memory chunk too big to fit into heap"
 msgstr ""
 
-#: src/prog.c:1092
+#: src/prog.c:1119
 msgid "Out of stack space; increase #pragma stacksize"
 msgstr ""
 
-#: src/prog.c:1119
+#: src/prog.c:1147
 msgid "no previous regular expression"
 msgstr ""
 
-#: src/prog.c:1123
+#: src/prog.c:1151
 msgid "invalid back-reference number"
 msgstr ""
 
-#: src/prog.c:1703
+#: src/prog.c:1731
 #, c-format
 msgid "invalid transform string \"%s\": %s"
 msgstr ""
 
-#: src/prog.c:1874
+#: src/prog.c:1902
 msgid ""
 "`accept' causes previous message modification commands to be ignored; call "
 "mmq_purge() prior to `accept', to suppress this warning"
 msgstr ""
 
-#: src/prog.c:2443
+#: src/prog.c:2471
 msgid "pc out of range"
 msgstr ""
 
-#: src/prog.c:2457
+#: src/prog.c:2485
 msgid "out of memory while formatting error message:"
 msgstr ""
 
-#: src/prog.c:2520
+#: src/prog.c:2548
 #, c-format
 msgid "unknown exception: %d: %s"
 msgstr ""
 
-#: src/prog.c:2538
+#: src/prog.c:2566
 #, c-format
 msgid "uncaught exception %s: %s"
 msgstr ""
 
-#: src/prog.c:2622
+#: src/prog.c:2653
 #, c-format
 msgid "%scannot create temporary stream: %s"
 msgstr ""
 
-#: src/prog.c:2657
+#: src/prog.c:2688
 #, c-format
 msgid "%stemporary stream seek failed: %s"
 msgstr ""
 
-#: src/prog.c:2672
+#: src/prog.c:2703
 #, c-format
 msgid "%stemporary stream write failed: %s"
 msgstr ""
 
-#: src/prog.c:2900
+#: src/prog.c:2931
 #, c-format
 msgid "unknown built-in private data requested (%d)"
 msgstr ""
 
-#: src/prog.c:2905
+#: src/prog.c:2936
 msgid "no built-in private data registered"
 msgstr ""
 
-#: src/prog.c:2913
+#: src/prog.c:2944
 #, c-format
 msgid "initial allocation for built-in private data #%d failed"
 msgstr ""
@@ -3008,7 +3104,7 @@ msgstr ""
 msgid "%s: error parsing URL"
 msgstr ""
 
-#: src/srvcfg.c:151 src/srvcfg.c:566 mtasim/mtasim.c:746
+#: src/srvcfg.c:151 src/srvcfg.c:566 mtasim/mtasim.c:796
 #, c-format
 msgid "cannot stat file `%s': %s"
 msgstr ""
@@ -3213,7 +3309,7 @@ msgstr ""
 msgid "switch to this user privileges after startup"
 msgstr ""
 
-#: src/srvcfg.c:630 mtasim/mtasim.c:603
+#: src/srvcfg.c:630 mtasim/mtasim.c:653
 msgid "retain the supplementary group NAME when switching to user privileges"
 msgstr ""
 
@@ -3358,251 +3454,261 @@ msgstr ""
 msgid "wrong assignment format: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:331
+#: mtasim/mtasim.c:340
 #, c-format
 msgid "invalid version syntax (near %s)"
 msgstr ""
 
-#: mtasim/mtasim.c:372
+#: mtasim/mtasim.c:413
 #, c-format
 msgid "unknown timeout: %c"
 msgstr ""
 
-#: mtasim/mtasim.c:377
+#: mtasim/mtasim.c:418
 #, c-format
 msgid "missing '=' after %c"
 msgstr ""
 
-#: mtasim/mtasim.c:391
+#: mtasim/mtasim.c:434
 #, c-format
-msgid "unexpected character: %c"
+msgid "unexpected character at %s"
 msgstr ""
 
-#: mtasim/mtasim.c:566
+#: mtasim/mtasim.c:441
+#, c-format
+msgid "invalid timeout near %s"
+msgstr ""
+
+#: mtasim/mtasim.c:443
+#, c-format
+msgid "value out of range: %s"
+msgstr ""
+
+#: mtasim/mtasim.c:616
 #, c-format
 msgid "error parsing --sender-sockaddr argument: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:589
+#: mtasim/mtasim.c:639
 msgid "Mode selection"
 msgstr ""
 
-#: mtasim/mtasim.c:590
+#: mtasim/mtasim.c:640
 msgid "MODE"
 msgstr ""
 
-#: mtasim/mtasim.c:591
+#: mtasim/mtasim.c:641
 msgid "set MTA mode (-bd or -bs)"
 msgstr ""
 
-#: mtasim/mtasim.c:594
+#: mtasim/mtasim.c:644
 msgid "use the SMTP protocol on standard input and output (same as -bs)"
 msgstr ""
 
-#: mtasim/mtasim.c:597
+#: mtasim/mtasim.c:647
 msgid "run as daemon (same as -bd)"
 msgstr ""
 
-#: mtasim/mtasim.c:600
+#: mtasim/mtasim.c:650
 msgid "run with this user privileges"
 msgstr ""
 
-#: mtasim/mtasim.c:608
+#: mtasim/mtasim.c:658
 msgid "MACRO=VALUE"
 msgstr ""
 
-#: mtasim/mtasim.c:609
+#: mtasim/mtasim.c:659
 msgid "define Sendmail macro"
 msgstr ""
 
-#: mtasim/mtasim.c:611
+#: mtasim/mtasim.c:661
 msgid "PORT"
 msgstr ""
 
-#: mtasim/mtasim.c:612
+#: mtasim/mtasim.c:662
 msgid "communicate with Milter PORT"
 msgstr ""
 
-#: mtasim/mtasim.c:615
+#: mtasim/mtasim.c:665
 msgid "pass temporary directory to mailfromd as its state dir (with -Xauto)"
 msgstr ""
 
-#: mtasim/mtasim.c:618
+#: mtasim/mtasim.c:668
 msgid "set the body chunk for xxfi_body calls"
 msgstr ""
 
-#: mtasim/mtasim.c:620
+#: mtasim/mtasim.c:670
 msgid "VER"
 msgstr ""
 
-#: mtasim/mtasim.c:621
+#: mtasim/mtasim.c:671
 msgid "force using the given Milter protocol version number"
 msgstr ""
 
-#: mtasim/mtasim.c:623 mtasim/mtasim.c:626
+#: mtasim/mtasim.c:673 mtasim/mtasim.c:676
 msgid "BITMASK"
 msgstr ""
 
-#: mtasim/mtasim.c:624
+#: mtasim/mtasim.c:674
 msgid "force the given Milter actions"
 msgstr ""
 
-#: mtasim/mtasim.c:627
+#: mtasim/mtasim.c:677
 msgid "set Milter protocol capabilities"
 msgstr ""
 
-#: mtasim/mtasim.c:629
+#: mtasim/mtasim.c:679
 msgid "F=V[,F=V...]"
 msgstr ""
 
-#: mtasim/mtasim.c:630
+#: mtasim/mtasim.c:680
 msgid "set milter timeouts"
 msgstr ""
 
-#: mtasim/mtasim.c:633
+#: mtasim/mtasim.c:683
 msgid "FAMILY[,HOSTNAME,ADDRESS[,PORT]]"
 msgstr ""
 
-#: mtasim/mtasim.c:634
+#: mtasim/mtasim.c:684
 msgid "set sender socket address"
 msgstr ""
 
-#: mtasim/mtasim.c:638
+#: mtasim/mtasim.c:688
 msgid "interactive mode"
 msgstr ""
 
-#: mtasim/mtasim.c:642
+#: mtasim/mtasim.c:692
 msgid "set readline prompt"
 msgstr ""
 
-#: mtasim/mtasim.c:645
+#: mtasim/mtasim.c:695
 msgid "Debugging and tracing"
 msgstr ""
 
-#: mtasim/mtasim.c:647
+#: mtasim/mtasim.c:697
 msgid "append to the trace file"
 msgstr ""
 
-#: mtasim/mtasim.c:650
+#: mtasim/mtasim.c:700
 msgid "set name of the trace file"
 msgstr ""
 
-#: mtasim/mtasim.c:653
+#: mtasim/mtasim.c:703
 msgid "increase verbosity level"
 msgstr ""
 
-#: mtasim/mtasim.c:660
+#: mtasim/mtasim.c:710
 msgid "TLS options"
 msgstr ""
 
-#: mtasim/mtasim.c:662
+#: mtasim/mtasim.c:712
 msgid "set name of the TLS certificate file"
 msgstr ""
 
-#: mtasim/mtasim.c:665
+#: mtasim/mtasim.c:715
 msgid "set name of the TLS CA file"
 msgstr ""
 
-#: mtasim/mtasim.c:668
+#: mtasim/mtasim.c:718
 msgid "set name of the TLS key file"
 msgstr ""
 
-#: mtasim/mtasim.c:724
+#: mtasim/mtasim.c:774
 #, c-format
 msgid "cannot change to directory %s: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:732
+#: mtasim/mtasim.c:782
 #, c-format
 msgid "cannot open directory %s: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:753
+#: mtasim/mtasim.c:803
 #, c-format
 msgid "cannot unlink %s: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:816
+#: mtasim/mtasim.c:866
 #, c-format
 msgid "cannot save current directory: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:822
+#: mtasim/mtasim.c:872
 #, c-format
 msgid "cannot restore current directory: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:829
+#: mtasim/mtasim.c:879
 #, c-format
 msgid "cannot remove directory %s: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:854
+#: mtasim/mtasim.c:904
 #, c-format
 msgid "mailfromd exited with status %d"
 msgstr ""
 
-#: mtasim/mtasim.c:857
+#: mtasim/mtasim.c:907
 #, c-format
 msgid "mailfromd terminated on signal %d"
 msgstr ""
 
-#: mtasim/mtasim.c:859
+#: mtasim/mtasim.c:909
 msgid "mailfromd terminated with unrecognized status"
 msgstr ""
 
-#: mtasim/mtasim.c:872
+#: mtasim/mtasim.c:922
 #, c-format
 msgid "cannot create temporary directory (%s): %s"
 msgstr ""
 
-#: mtasim/mtasim.c:886
+#: mtasim/mtasim.c:936
 #, c-format
 msgid "cannot fork: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:924
+#: mtasim/mtasim.c:974
 #, c-format
 msgid "cannot execute mailfromd: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:937
+#: mtasim/mtasim.c:987
 msgid "child process exited unexpectedly"
 msgstr ""
 
-#: mtasim/mtasim.c:987
+#: mtasim/mtasim.c:1037
 #, c-format
 msgid "cannot open trace output: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:994
+#: mtasim/mtasim.c:1044
 msgid "use either --stdio or --daemon"
 msgstr ""
 
-#: mtasim/mtasim.c:1021
+#: mtasim/mtasim.c:1071
 msgid "cannot create gacopyz server"
 msgstr ""
 
-#: mtasim/mtasim.c:1049
+#: mtasim/mtasim.c:1099
 #, c-format
 msgid "cannot connect to the milter using %s"
 msgstr ""
 
-#: mtasim/mtasim.c:1080
+#: mtasim/mtasim.c:1130
 msgid "end of file reached"
 msgstr ""
 
-#: mtasim/mtasim.c:1298 mtasim/mtasim.c:1322
+#: mtasim/mtasim.c:1348 mtasim/mtasim.c:1372
 #, c-format
 msgid "write failed: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:1354
+#: mtasim/mtasim.c:1404
 #, c-format
 msgid "read failed: %s"
 msgstr ""
 
-#: mtasim/mtasim.c:1530 mtasim/mtasim.c:1648 mtasim/mtasim.c:1712
+#: mtasim/mtasim.c:1580 mtasim/mtasim.c:1698 mtasim/mtasim.c:1762
 #, c-format
 msgid "%s:%d: INTERNAL ERROR: no reply (%s)"
 msgstr ""

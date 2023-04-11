@@ -131,8 +131,12 @@ install:
 	for i in ???_??; do install -Dm644 $$i/stellarium-scripts.qm $(DESTDIR)$(DATADIR)/stellarium/translations/stellarium-scripts/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/stellarium.qm $(DESTDIR)$(DATADIR)/stellarium/translations/stellarium/$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/ring_client_windows.qm $(DESTDIR)$(DATADIR)/ring/translations/ring_client_windows_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/solarus.qm $(DESTDIR)$(DATADIR)/solarus-gui/translations/solarus_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/dustrac-editor.qm $(DESTDIR)$(DATADIR)/dustrac/translations/dustrac-editor_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/dustrac-game.qm $(DESTDIR)$(DATADIR)/dustrac/translations/dustrac-game_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-widgets.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-widgets_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-guiplayer.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-guiplayer_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-vpiano.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-vpiano_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/drumstick-drumgrid.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-drumgrid_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/converseen.qm $(DESTDIR)$(DATADIR)/converseen/loc/converseen_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/wemeet.qm $(DESTDIR)/opt/wemeet/bin/qt_$$i.qm; done
