@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU grep 3.10.7-e498\n"
+"Project-Id-Version: GNU grep 3.10.12-0f2c\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
-"POT-Creation-Date: 2023-04-09 22:25-0700\n"
+"POT-Creation-Date: 2023-04-20 18:51-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "ambiguous argument %s for %s"
 msgstr ""
 
-#: lib/argmatch.c:165 lib/argmatch.h:237
+#: lib/argmatch.c:165 lib/argmatch.h:242
 msgid "Valid arguments are:"
 msgstr ""
 
@@ -39,7 +39,7 @@ msgstr ""
 msgid "stack overflow"
 msgstr ""
 
-#: lib/closeout.c:121 src/grep.c:1351
+#: lib/closeout.c:121 src/grep.c:1346
 msgid "write error"
 msgstr ""
 
@@ -417,49 +417,49 @@ msgstr ""
 msgid "warning: %s"
 msgstr ""
 
-#: src/grep.c:661
+#: src/grep.c:656
 msgid "(standard input)"
 msgstr ""
 
-#: src/grep.c:842
+#: src/grep.c:837
 msgid "invalid context length argument"
 msgstr ""
 
-#: src/grep.c:907
+#: src/grep.c:902
 msgid "input is too large to count"
 msgstr ""
 
-#: src/grep.c:1656
+#: src/grep.c:1651
 #, c-format
 msgid "%s: binary file matches"
 msgstr ""
 
-#: src/grep.c:1694
+#: src/grep.c:1689
 #, c-format
 msgid "%s: warning: recursive directory loop"
 msgstr ""
 
-#: src/grep.c:1914
+#: src/grep.c:1909
 #, c-format
 msgid "%s: input file is also the output"
 msgstr ""
 
-#: src/grep.c:1976 src/grep.c:1983
+#: src/grep.c:1971 src/grep.c:1978
 #, c-format
 msgid "Usage: %s [OPTION]... PATTERNS [FILE]...\n"
 msgstr ""
 
-#: src/grep.c:1978
+#: src/grep.c:1973
 #, c-format
 msgid "Try '%s --help' for more information.\n"
 msgstr ""
 
-#: src/grep.c:1984
+#: src/grep.c:1979
 #, c-format
 msgid "Search for PATTERNS in each FILE.\n"
 msgstr ""
 
-#: src/grep.c:1985
+#: src/grep.c:1980
 #, c-format
 msgid ""
 "Example: %s -i 'hello world' menu.h main.c\n"
@@ -468,7 +468,7 @@ msgid ""
 "Pattern selection and interpretation:\n"
 msgstr ""
 
-#: src/grep.c:1990
+#: src/grep.c:1985
 #, c-format
 msgid ""
 "  -E, --extended-regexp     PATTERNS are extended regular expressions\n"
@@ -477,7 +477,7 @@ msgid ""
 "  -P, --perl-regexp         PATTERNS are Perl regular expressions\n"
 msgstr ""
 
-#: src/grep.c:1996
+#: src/grep.c:1991
 #, c-format
 msgid ""
 "  -e, --regexp=PATTERNS     use PATTERNS for matching\n"
@@ -489,7 +489,7 @@ msgid ""
 "  -z, --null-data           a data line ends in 0 byte, not newline\n"
 msgstr ""
 
-#: src/grep.c:2004
+#: src/grep.c:1999
 #, c-format
 msgid ""
 "\n"
@@ -500,7 +500,7 @@ msgid ""
 "      --help                display this help text and exit\n"
 msgstr ""
 
-#: src/grep.c:2011
+#: src/grep.c:2006
 #, c-format
 msgid ""
 "\n"
@@ -515,7 +515,7 @@ msgid ""
 "prefix\n"
 msgstr ""
 
-#: src/grep.c:2022
+#: src/grep.c:2017
 #, c-format
 msgid ""
 "  -o, --only-matching       show only nonempty parts of lines that match\n"
@@ -525,7 +525,7 @@ msgid ""
 "  -a, --text                equivalent to --binary-files=text\n"
 msgstr ""
 
-#: src/grep.c:2029
+#: src/grep.c:2024
 #, c-format
 msgid ""
 "  -I                        equivalent to --binary-files=without-match\n"
@@ -537,7 +537,7 @@ msgid ""
 "  -R, --dereference-recursive  likewise, but follow all symlinks\n"
 msgstr ""
 
-#: src/grep.c:2038
+#: src/grep.c:2033
 #, c-format
 msgid ""
 "      --include=GLOB        search only files that match GLOB (a file "
@@ -548,7 +548,7 @@ msgid ""
 "      --exclude-dir=GLOB    skip directories that match GLOB\n"
 msgstr ""
 
-#: src/grep.c:2045
+#: src/grep.c:2040
 #, c-format
 msgid ""
 "  -L, --files-without-match  print only names of FILEs with no selected "
@@ -559,7 +559,7 @@ msgid ""
 "  -Z, --null                print 0 byte after FILE name\n"
 msgstr ""
 
-#: src/grep.c:2051
+#: src/grep.c:2046
 #, c-format
 msgid ""
 "\n"
@@ -569,7 +569,7 @@ msgid ""
 "  -C, --context=NUM         print NUM lines of output context\n"
 msgstr ""
 
-#: src/grep.c:2058
+#: src/grep.c:2053
 #, c-format
 msgid ""
 "  -NUM                      same as --context=NUM\n"
@@ -583,7 +583,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/grep.c:2067
+#: src/grep.c:2062
 #, c-format
 msgid ""
 "When FILE is '-', read standard input.  With no FILE, read '.' if\n"
@@ -592,105 +592,101 @@ msgid ""
 "if any error occurs and -q is not given, the exit status is 2.\n"
 msgstr ""
 
-#: src/grep.c:2109
+#: src/grep.c:2104
 msgid "conflicting matchers specified"
 msgstr ""
 
-#: src/grep.c:2116
+#: src/grep.c:2111
 msgid "Perl matching not supported in a --disable-perl-regexp build"
 msgstr ""
 
-#: src/grep.c:2118
+#: src/grep.c:2113
 #, c-format
 msgid "invalid matcher %s"
 msgstr ""
 
-#: src/grep.c:2539
+#: src/grep.c:2534
 msgid "unknown devices method"
 msgstr ""
 
-#: src/grep.c:2581
+#: src/grep.c:2576
 #, c-format
 msgid "warning: --unix-byte-offsets (-u) is obsolete"
 msgstr ""
 
-#: src/grep.c:2693
+#: src/grep.c:2688
 msgid "invalid max count"
 msgstr ""
 
-#: src/grep.c:2751
+#: src/grep.c:2746
 msgid "unknown binary-files type"
 msgstr ""
 
-#: src/grep.c:2836
+#: src/grep.c:2831
 msgid ""
 "Written by Mike Haertel and others; see\n"
 "<https://git.savannah.gnu.org/cgit/grep.git/tree/AUTHORS>."
 msgstr ""
 
-#: src/grep.c:2841
-msgid ""
-"\n"
-"Built with PCRE "
-msgstr ""
-
-#: src/grep.c:2945
+#: src/grep.c:2937
 #, c-format
 msgid "warning: GREP_COLOR='%s' is deprecated; use GREP_COLORS='mt=%s'"
 msgstr ""
 
-#: src/pcresearch.c:156
+#: src/pcresearch.c:83
+#, c-format
+msgid ""
+"\n"
+"grep -P uses PCRE2 %s\n"
+msgstr ""
+
+#: src/pcresearch.c:165
 msgid "-P supports only unibyte locales on this platform"
 msgstr ""
 
-#: src/pcresearch.c:158
+#: src/pcresearch.c:167
 msgid "-P supports only unibyte and UTF-8 locales"
 msgstr ""
 
-#: src/pcresearch.c:182
+#: src/pcresearch.c:191
 msgid "the -P option only supports a single pattern"
 msgstr ""
 
-#: src/pcresearch.c:239
-#, c-format
-msgid "JIT internal error: %d"
-msgstr ""
-
-#: src/pcresearch.c:276
+#: src/pcresearch.c:285
 msgid "exceeded PCRE's line length limit"
 msgstr ""
 
-#: src/pcresearch.c:354
+#: src/pcresearch.c:363
 #, c-format
 msgid "%s: memory exhausted"
 msgstr ""
 
-#: src/pcresearch.c:357
+#: src/pcresearch.c:366
 #, c-format
 msgid "%s: exhausted PCRE JIT stack"
 msgstr ""
 
-#: src/pcresearch.c:361
+#: src/pcresearch.c:370
 #, c-format
 msgid "%s: exceeded PCRE's backtracking limit"
 msgstr ""
 
-#: src/pcresearch.c:366
+#: src/pcresearch.c:375
 #, c-format
 msgid "%s: exceeded PCRE's nested backtracking limit"
 msgstr ""
 
-#: src/pcresearch.c:370
+#: src/pcresearch.c:379
 #, c-format
 msgid "%s: PCRE detected recurse loop"
 msgstr ""
 
-#: src/pcresearch.c:375
+#: src/pcresearch.c:384
 #, c-format
 msgid "%s: exceeded PCRE's heap limit"
 msgstr ""
 
-#: src/pcresearch.c:384
+#: src/pcresearch.c:393
 #, c-format
 msgid "%s: internal PCRE error: %d"
 msgstr ""

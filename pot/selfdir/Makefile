@@ -46,5 +46,6 @@ install:
 	for i in ???_??; do install -Dm644 $$i/phpmyadmin.mo $(DESTDIR)$(DATADIR)/phpMyAdmin/locale/$$i/LC_MESSAGES/phpmyadmin.mo; done
 	for i in ???_??; do install -Dm644 $$i/sqlparser.mo $(DESTDIR)$(DATADIR)/phpMyAdmin/SqlParser5/locale/$$i/LC_MESSAGES/sqlparser.mo; done
 	for i in ???_??; do install -Dm644 $$i/phpldapadmin.mo $(DESTDIR)$(DATADIR)/phpldapadmin/locale/$$i/LC_MESSAGES/messages.mo; done
+	for i in ???_??; do install -Dm644 $$i/frontend.mo $(DESTDIR)$(DATADIR)/zabbix/locale/$$i/LC_MESSAGES/frontend.mo; done
 	for i in ???_??; do install -Dm644 $$i/PrusaSlicer.mo $(DESTDIR)$(DATADIR)/PrusaSlicer/localization/$$i/PrusaSlicer.mo; done
 	for i in ???_??; do install -Dm644 $$i/vim.mo $(DESTDIR)$(DATADIR)/vim/vim82/lang/$$i/LC_MESSAGES/vim.mo; done

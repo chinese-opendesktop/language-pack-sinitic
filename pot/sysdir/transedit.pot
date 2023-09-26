@@ -1,0 +1,831 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-29 12:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: transedit.desktop.in.h:1
+msgid "Interesting PO file editor"
+msgstr ""
+
+#: transedit.desktop.in.h:2
+msgid "Transedit"
+msgstr ""
+
+#: src/editor.c:596
+#, c-format
+msgid "There's no file '%s'"
+msgstr ""
+
+#: src/editor.c:691
+msgid ""
+"Cannot acces file\n"
+"Selecting correct source directory may help"
+msgstr ""
+
+#: src/editor.c:694
+msgid "File is directory"
+msgstr ""
+
+#: src/editor.c:696
+msgid "Not a regular file"
+msgstr ""
+
+#: src/editor.c:1157
+msgid "Given text not found!"
+msgstr ""
+
+#: src/editor.c:1242
+msgid " (modified)"
+msgstr ""
+
+#: src/editor.c:1269
+msgid ""
+"The file hasn't been saved\n"
+"Do you really want to load new one?"
+msgstr ""
+
+#: src/editor.c:1282
+msgid ""
+"The file hasn't been saved\n"
+" Do you really want to quit ?"
+msgstr ""
+
+#: src/entry_tools.c:86
+#, c-format
+msgid "Cannot convert entry no %d in file %s from %s to utf-8!"
+msgstr ""
+
+#: src/entry_tools.c:182
+msgid "can not open file"
+msgstr ""
+
+#: src/entry_tools.c:189
+msgid "Empty file"
+msgstr ""
+
+#: src/entry_tools.c:388
+#, c-format
+msgid "%d translated message"
+msgid_plural "%d translated messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/entry_tools.c:393
+#, c-format
+msgid ", %d fuzzy translation"
+msgid_plural ", %d fuzzy translations"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/entry_tools.c:398
+#, c-format
+msgid "%d untranslated message"
+msgid_plural "%d untranslated messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/entry_tools.c:401
+#, c-format
+msgid "%d%% done"
+msgstr ""
+
+#: src/gui/about_dialog.c:39 src/gui/gui_menu.c:394
+msgid "About"
+msgstr ""
+
+#: src/gui/about_dialog.c:44
+#, c-format
+msgid ""
+"<b>Transedit</b> version %s\n"
+"Copyright (C) 2002 Mateusz Stefek\n"
+"%s\n"
+"\n"
+"Author: Mateusz Stefek"
+msgstr ""
+
+#: src/gui/about_dialog.c:45
+msgid "Interesting *.po file editor for gtk+2.0"
+msgstr ""
+
+#: src/gui/about_dialog.c:51
+msgid "NAME OF TRANSLATOR"
+msgstr ""
+
+#: src/gui/about_dialog.c:53
+#, c-format
+msgid "Translator: %s"
+msgstr ""
+
+#: src/gui/entry_editor.c:147
+msgid "SYNTAX ERROR!"
+msgstr ""
+
+#: src/gui/gui.c:138
+msgid "Warnings"
+msgstr ""
+
+#: src/gui/gui.c:150
+msgid "comment"
+msgstr ""
+
+#: src/gui/gui.c:164
+msgid "msgid (original)"
+msgstr ""
+
+#: src/gui/gui.c:175
+msgid "msgid_plural (original plural)"
+msgstr ""
+
+#: src/gui/gui.c:187
+msgid "msgstr (translated)"
+msgstr ""
+
+#: src/gui/gui.c:211
+#, c-format
+msgid "msgstr[%d] (translated form no. %d)"
+msgstr ""
+
+#: src/gui/gui.c:267
+msgid "source preview"
+msgstr ""
+
+#: src/gui/gui.c:462
+msgid "preview"
+msgstr ""
+
+#: src/gui/gui.c:793
+msgid "Open file"
+msgstr ""
+
+#: src/gui/gui.c:825
+msgid "Save File as"
+msgstr ""
+
+#: src/gui/gui.c:839
+msgid "Write error"
+msgstr ""
+
+#: src/gui/gui.c:864 src/gui/gui_menu.c:375
+msgid "Select source directory"
+msgstr ""
+
+#: src/gui/gui_menu.c:87
+msgid ""
+"This will clear all translations marked as fuzzy.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/gui/gui_menu.c:93
+msgid ""
+"This will REMOVE all translations marked as fuzzy.\n"
+"Do you really want to continue?"
+msgstr ""
+
+#: src/gui/gui_menu.c:99
+msgid ""
+"This will REMOVE all translations with empty msgstr.\n"
+"Do you really want to continue?"
+msgstr ""
+
+#: src/gui/gui_menu.c:107
+msgid ""
+"This will MOVE all translations with plural forms to the end of the file\n"
+"It's usefull for some stupid reasons...\n"
+"Do you really want to continue?"
+msgstr ""
+
+#. -- File menu --
+#: src/gui/gui_menu.c:123
+msgid "File"
+msgstr ""
+
+#: src/gui/gui_menu.c:129
+msgid "_Open"
+msgstr ""
+
+#: src/gui/gui_menu.c:133
+msgid "_Save"
+msgstr ""
+
+#: src/gui/gui_menu.c:138
+msgid "Save _as"
+msgstr ""
+
+#. -- Recent Files Menu --
+#: src/gui/gui_menu.c:143
+msgid "Recent Files"
+msgstr ""
+
+#: src/gui/gui_menu.c:151
+msgid "_Quit"
+msgstr ""
+
+#. -- Edit menu --
+#: src/gui/gui_menu.c:159
+msgid "_Edit"
+msgstr ""
+
+#: src/gui/gui_menu.c:166
+msgid "Add translation"
+msgstr ""
+
+#: src/gui/gui_menu.c:170
+msgid "Add plural translation"
+msgstr ""
+
+#: src/gui/gui_menu.c:176
+msgid "Remove entry"
+msgstr ""
+
+#: src/gui/gui_menu.c:183
+msgid "Add plural form"
+msgstr ""
+
+#: src/gui/gui_menu.c:190
+msgid "Remove plural form"
+msgstr ""
+
+#: src/gui/gui_menu.c:198
+msgid "Clear all fuzzys"
+msgstr ""
+
+#: src/gui/gui_menu.c:203
+msgid "Remove all fuzzys"
+msgstr ""
+
+#: src/gui/gui_menu.c:208
+msgid "Remove all untranslated"
+msgstr ""
+
+#: src/gui/gui_menu.c:213
+msgid "Move all plurals to the end"
+msgstr ""
+
+#: src/gui/gui_menu.c:219
+msgid "_Rough translation"
+msgstr ""
+
+#: src/gui/gui_menu.c:225
+msgid "header info"
+msgstr ""
+
+#. -- Search menu --
+#: src/gui/gui_menu.c:234
+msgid "_Search"
+msgstr ""
+
+#: src/gui/gui_menu.c:241
+msgid "Last entry"
+msgstr ""
+
+#: src/gui/gui_menu.c:248
+msgid "Next entry"
+msgstr ""
+
+#: src/gui/gui_menu.c:255
+msgid "Previous entry"
+msgstr ""
+
+#: src/gui/gui_menu.c:262
+msgid "First entry"
+msgstr ""
+
+#: src/gui/gui_menu.c:272
+msgid "In msgids..."
+msgstr ""
+
+#: src/gui/gui_menu.c:278
+msgid "In msgstrs..."
+msgstr ""
+
+#: src/gui/gui_menu.c:284
+msgid "In translations..."
+msgstr ""
+
+#: src/gui/gui_menu.c:290
+msgid "Search again"
+msgstr ""
+
+#: src/gui/gui_menu.c:300
+msgid "Next untranslated"
+msgstr ""
+
+#: src/gui/gui_menu.c:308
+msgid "Previous untranslated"
+msgstr ""
+
+#: src/gui/gui_menu.c:316
+msgid "Next fuzzy"
+msgstr ""
+
+#: src/gui/gui_menu.c:322
+msgid "Previous fuzzy"
+msgstr ""
+
+#: src/gui/gui_menu.c:328
+msgid "Next notperfect"
+msgstr ""
+
+#: src/gui/gui_menu.c:333
+msgid "Previous notperfect"
+msgstr ""
+
+#: src/gui/gui_menu.c:338
+msgid "Next with warning"
+msgstr ""
+
+#: src/gui/gui_menu.c:342
+msgid "Previous with warning"
+msgstr ""
+
+#: src/gui/gui_menu.c:349
+msgid "line"
+msgstr ""
+
+#. -- Options menu --
+#: src/gui/gui_menu.c:356
+msgid "_Options"
+msgstr ""
+
+#: src/gui/gui_menu.c:365
+msgid "Language for pspell"
+msgstr ""
+
+#: src/gui/gui_menu.c:380
+msgid "_Preferences"
+msgstr ""
+
+#. -- Help menu --
+#: src/gui/gui_menu.c:386
+msgid "Help"
+msgstr ""
+
+#: src/gui/gui_menu.c:492
+msgid "Opens file"
+msgstr ""
+
+#: src/gui/gui_menu.c:495
+msgid "Saves current file"
+msgstr ""
+
+#: src/gui/gui_menu.c:499 src/gui/gui_menu.c:504
+msgid "previous translation"
+msgstr ""
+
+#: src/gui/gui_menu.c:509 src/gui/gui_menu.c:516
+msgid ""
+"previous\n"
+"notperfect"
+msgstr ""
+
+#: src/gui/gui_menu.c:510 src/gui/gui_menu.c:517
+msgid "jumps to the previous notperfect entry"
+msgstr ""
+
+#: src/gui/gui_menu.c:523
+msgid "previous fuzzy"
+msgstr ""
+
+#: src/gui/gui_menu.c:524
+msgid "jumps to the previous fuzzy entry"
+msgstr ""
+
+#: src/gui/gui_menu.c:529
+msgid "next fuzzy"
+msgstr ""
+
+#: src/gui/gui_menu.c:530
+msgid "jumps to the next fuzzy entry"
+msgstr ""
+
+#: src/gui/header_dialog.c:86
+msgid "Translation header"
+msgstr ""
+
+#: src/gui/header_dialog.c:96
+msgid "Project Name: "
+msgstr ""
+
+#: src/gui/header_dialog.c:104
+msgid "Language Team: "
+msgstr ""
+
+#: src/gui/header_dialog.c:112
+msgid "Last Translator: "
+msgstr ""
+
+#: src/gui/header_dialog.c:120
+msgid "Encoding: "
+msgstr ""
+
+#: src/gui/header_dialog.c:268
+msgid "Default value for"
+msgstr ""
+
+#: src/gui/find_dialog.c:69
+msgid "Search Text"
+msgstr ""
+
+#: src/gui/find_dialog.c:80
+msgid "Enter the string you are looking for:"
+msgstr ""
+
+#: src/gui/find_dialog.c:90
+msgid "From?"
+msgstr ""
+
+#: src/gui/find_dialog.c:97
+msgid "From current entry"
+msgstr ""
+
+#: src/gui/find_dialog.c:109
+msgid "From begining of _file"
+msgstr ""
+
+#: src/gui/find_dialog.c:120
+msgid "Case _sensitive"
+msgstr ""
+
+#: src/gui/find_dialog.c:124
+msgid "_Backward"
+msgstr ""
+
+#: src/gui/find_dialog.c:127
+msgid "I_gnore '__'"
+msgstr ""
+
+#: src/gui/find_dialog.c:130
+msgid "Where?"
+msgstr ""
+
+#: src/gui/find_dialog.c:137
+msgid "In msgids"
+msgstr ""
+
+#: src/gui/find_dialog.c:146
+msgid "In msgstrs"
+msgstr ""
+
+#: src/gui/find_dialog.c:155
+msgid "In whole translations"
+msgstr ""
+
+#: src/gui/line_dialog.c:57
+msgid "Goto line"
+msgstr ""
+
+#: src/gui/line_dialog.c:60
+msgid ""
+"Insert line number you are looking for.\n"
+"Note that it only works when the file is normally formatted."
+msgstr ""
+
+#: src/gui/utf8_compatible_dialog.c:78
+msgid "Utf-8 Validation fault"
+msgstr ""
+
+#: src/gui/utf8_compatible_dialog.c:103
+msgid ""
+"Transedit found entry in the file, which isn't compatible with utf-8. What "
+"should the program do now ? "
+msgstr ""
+
+#: src/gui/utf8_compatible_dialog.c:108
+msgid "Treat it as if it was charset:"
+msgstr ""
+
+#: src/gui/utf8_compatible_dialog.c:142
+msgid "Covert _All"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:60
+#, c-format
+msgid "Font: %s"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:62
+#, c-format
+msgid "Warnings font: %s"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:65
+#, c-format
+msgid "msgid font: %s"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:68
+#, c-format
+msgid "Preview font: %s"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:103
+msgid "Select a main font"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:106
+msgid "Select warnings font"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:109
+msgid "Select msgid font"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:112
+msgid "Select preview font"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:287
+msgid "Transedit preferences"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:301
+msgid "Maximum size of a source file"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:317
+msgid "Source file encoding:"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:337
+msgid "Plural forms displayed simultaneously"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:353
+msgid "Check _spelling"
+msgstr ""
+
+#. view tab
+#: src/gui/preferences_dialog.c:364
+msgid "_View"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:374
+msgid "Warn if pair of prefixes are:"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:409
+msgid "Warn if msgid and msgstr doesn't end both with punctation"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:417
+msgid "Warn about msgid"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:425
+msgid "Warn about non-whitespace line joining problem"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:436
+msgid "Warn if msgstr is shorter than this part of msgid: "
+msgstr ""
+
+#: src/gui/preferences_dialog.c:446
+msgid "Warn if msgstr is longer than this part of msgid: "
+msgstr ""
+
+#: src/gui/preferences_dialog.c:454
+msgid "_Warnings"
+msgstr ""
+
+#: src/gui/preferences_dialog.c:464
+msgid "_Fonts"
+msgstr ""
+
+#: src/gui/progress_dialog.c:56
+msgid "Progress"
+msgstr ""
+
+#: src/gui/rough_translation_dialog.c:85
+msgid "Select po file"
+msgstr ""
+
+#: src/gui/rough_translation_dialog.c:164
+msgid "Po files"
+msgstr ""
+
+#: src/gui/rough_translation_dialog.c:167
+msgid "Always mark as _fuzzy"
+msgstr ""
+
+#: src/gui/rough_translation_dialog.c:175
+msgid "Translate fuzzy _entries"
+msgstr ""
+
+#: src/gui/rough_translation_dialog.c:183
+msgid "Fuzzy _matching"
+msgstr ""
+
+#: src/parser.c:134 src/parser.c:175 src/parser.c:537 src/parser.c:578
+#: src/parser.c:623 src/parser.c:669
+#, c-format
+msgid "unexpected byte %d"
+msgstr ""
+
+#: src/parser.c:187
+msgid "msgstr without previous msgid"
+msgstr ""
+
+#: src/parser.c:195
+msgid "repeated msgstr"
+msgstr ""
+
+#: src/parser.c:204
+msgid "missing 'msgstr[0]' section"
+msgstr ""
+
+#: src/parser.c:213
+msgid "missing 'msgstr' section"
+msgstr ""
+
+#: src/parser.c:227 src/parser.c:230
+msgid "missing 'msgid' section"
+msgstr ""
+
+#: src/parser.c:261
+#, c-format
+msgid "unexpected byte %d after '%s'"
+msgstr ""
+
+#: src/parser.c:285 src/parser.c:306 src/parser.c:330 src/parser.c:356
+#: src/parser.c:371 src/parser.c:398
+msgid "unexpected character after msgstr"
+msgstr ""
+
+#: src/parser.c:316 src/parser.c:340
+msgid "unexpected '['"
+msgstr ""
+
+#: src/parser.c:391
+msgid "missing msgstr index"
+msgstr ""
+
+#: src/parser.c:410
+msgid "wrong msgstr index"
+msgstr ""
+
+#: src/parser.c:415
+msgid "unexpected character after msgstr index"
+msgstr ""
+
+#: src/parser.c:423 src/parser.c:443 src/parser.c:465 src/parser.c:485
+msgid "unexpected end of line"
+msgstr ""
+
+#: src/parser.c:435 src/parser.c:457 src/parser.c:477 src/parser.c:498
+#: src/parser.c:523 src/parser.c:564 src/parser.c:606 src/parser.c:651
+msgid "parse error"
+msgstr ""
+
+#: src/parser.c:534
+msgid "unexpected comment"
+msgstr ""
+
+#: src/parser.c:889
+msgid "read error"
+msgstr ""
+
+#: src/warning.c:49
+#, c-format
+msgid "Error: %s!\n"
+msgstr ""
+
+#: src/warning.c:74
+msgid "other character"
+msgstr ""
+
+#: src/warning.c:75
+msgid "upper letter"
+msgstr ""
+
+#: src/warning.c:76
+msgid "lower letter"
+msgstr ""
+
+#: src/warning.c:77
+msgid "digit"
+msgstr ""
+
+#: src/warning.c:78
+msgid "punctation"
+msgstr ""
+
+#: src/warning.c:79
+msgid "newline"
+msgstr ""
+
+#: src/warning.c:80
+msgid "space"
+msgstr ""
+
+#: src/warning.c:81
+msgid "underline"
+msgstr ""
+
+#: src/warning.c:82
+msgid "question-mark"
+msgstr ""
+
+#: src/warning.c:85
+msgid "otherchar:?"
+msgstr ""
+
+#: src/warning.c:86
+msgid "upperletter:A"
+msgstr ""
+
+#: src/warning.c:87
+msgid "lowerletter:a"
+msgstr ""
+
+#: src/warning.c:88
+msgid "digit:4"
+msgstr ""
+
+#: src/warning.c:89
+msgid "punctation:."
+msgstr ""
+
+#: src/warning.c:90
+msgid "newline:\\n"
+msgstr ""
+
+#: src/warning.c:91
+msgid "space: "
+msgstr ""
+
+#: src/warning.c:92
+msgid "underline:_"
+msgstr ""
+
+#: src/warning.c:93
+msgid "question-mark:'?'"
+msgstr ""
+
+#: src/warning.c:132
+#, c-format
+msgid "Possible non-whitespace line-joining problem in %s"
+msgstr ""
+
+#: src/warning.c:148
+#, c-format
+msgid "Only spaces in %s"
+msgstr ""
+
+#: src/warning.c:160
+#, c-format
+msgid "Empty %s"
+msgstr ""
+
+#: src/warning.c:174
+#, c-format
+msgid "%s and %s doesn't end both with newline"
+msgstr ""
+
+#: src/warning.c:177
+#, c-format
+msgid "%s and %s doesn't end both with punctation"
+msgstr ""
+
+#: src/warning.c:188
+#, c-format
+msgid "Mismatch in newline count %s & %s (%d, %d)"
+msgstr ""
+
+#: src/warning.c:201
+#, c-format
+msgid "Number of format specifications in '%s' and '%s' does not match"
+msgstr ""
+
+#: src/warning.c:216
+#, c-format
+msgid "Format specifications in '%s' and '%s' are not the same"
+msgstr ""
+
+#: src/warning.c:231
+#, c-format
+msgid "%s starts with %s but %s starts with %s"
+msgstr ""
+
+#: src/warning.c:245
+#, c-format
+msgid "%s seems to be much more shorter than %s"
+msgstr ""
+
+#: src/warning.c:248
+#, c-format
+msgid "%s seems to be much more longer than %s"
+msgstr ""
