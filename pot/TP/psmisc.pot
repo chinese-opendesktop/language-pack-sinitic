@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: psmisc 23.6_rc1\n"
+"Project-Id-Version: psmisc 23.7rc1\n"
 "Report-Msgid-Bugs-To: csmall@dropbear.xyz\n"
-"POT-Creation-Date: 2022-11-21 21:08+1100\n"
+"POT-Creation-Date: 2024-02-13 20:48+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,15 +62,15 @@ msgstr ""
 msgid "fuser (PSmisc) %s\n"
 msgstr ""
 
-#: src/fuser.c:178 src/killall.c:870
+#: src/fuser.c:178 src/killall.c:870 src/pstree.c:1337
 #, c-format
 msgid ""
-"Copyright (C) 1993-2022 Werner Almesberger and Craig Small\n"
+"Copyright (C) 1993-2024 Werner Almesberger and Craig Small\n"
 "\n"
 msgstr ""
 
 #: src/fuser.c:180 src/killall.c:872 src/peekfd.c:195 src/prtstat.c:68
-#: src/pstree.c:1324
+#: src/pstree.c:1339
 #, c-format
 msgid ""
 "PSmisc comes with ABSOLUTELY NO WARRANTY.\n"
@@ -338,7 +338,7 @@ msgstr ""
 #: src/prtstat.c:66
 #, c-format
 msgid ""
-"Copyright (C) 2009-2022 Craig Small\n"
+"Copyright (C) 2009-2024 Craig Small\n"
 "\n"
 msgstr ""
 
@@ -459,12 +459,12 @@ msgstr ""
 msgid "/proc is not mounted, cannot stat /proc/self/stat.\n"
 msgstr ""
 
-#: src/pstree.c:1239
+#: src/pstree.c:1254
 #, c-format
 msgid "%s is empty (not mounted ?)\n"
 msgstr ""
 
-#: src/pstree.c:1272
+#: src/pstree.c:1287
 #, c-format
 msgid ""
 "Usage: pstree [-acglpsStTuZ] [ -h | -H PID ] [ -n | -N type ]\n"
@@ -472,7 +472,7 @@ msgid ""
 "   or: pstree -V\n"
 msgstr ""
 
-#: src/pstree.c:1276
+#: src/pstree.c:1291
 #, c-format
 msgid ""
 "\n"
@@ -480,7 +480,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/pstree.c:1279
+#: src/pstree.c:1294
 #, c-format
 msgid ""
 "  -a, --arguments     show command line arguments\n"
@@ -488,21 +488,21 @@ msgid ""
 "  -c, --compact-not   don't compact identical subtrees\n"
 msgstr ""
 
-#: src/pstree.c:1283
+#: src/pstree.c:1298
 #, c-format
 msgid ""
 "  -C, --color=TYPE    color process by attribute\n"
 "                      (age)\n"
 msgstr ""
 
-#: src/pstree.c:1286
+#: src/pstree.c:1301
 #, c-format
 msgid ""
 "  -g, --show-pgids    show process group ids; implies -c\n"
 "  -G, --vt100         use VT100 line drawing characters\n"
 msgstr ""
 
-#: src/pstree.c:1289
+#: src/pstree.c:1304
 #, c-format
 msgid ""
 "  -h, --highlight-all highlight current process and its ancestors\n"
@@ -511,7 +511,7 @@ msgid ""
 "  -l, --long          don't truncate long lines\n"
 msgstr ""
 
-#: src/pstree.c:1294
+#: src/pstree.c:1309
 #, c-format
 msgid ""
 "  -n, --numeric-sort  sort output by PID\n"
@@ -521,7 +521,7 @@ msgid ""
 "  -p, --show-pids     show PIDs; implies -c\n"
 msgstr ""
 
-#: src/pstree.c:1300
+#: src/pstree.c:1315
 #, c-format
 msgid ""
 "  -s, --show-parents  show parents of the selected process\n"
@@ -530,7 +530,7 @@ msgid ""
 "  -T, --hide-threads  hide threads, show only processes\n"
 msgstr ""
 
-#: src/pstree.c:1305
+#: src/pstree.c:1320
 #, c-format
 msgid ""
 "  -u, --uid-changes   show uid transitions\n"
@@ -538,14 +538,14 @@ msgid ""
 "  -V, --version       display version information\n"
 msgstr ""
 
-#: src/pstree.c:1309
+#: src/pstree.c:1324
 #, c-format
 msgid ""
 "  -Z, --security-context\n"
 "                      show security attributes\n"
 msgstr ""
 
-#: src/pstree.c:1311
+#: src/pstree.c:1326
 #, c-format
 msgid ""
 "\n"
@@ -554,49 +554,42 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/pstree.c:1319
+#: src/pstree.c:1334
 #, c-format
 msgid "pstree (PSmisc) %s\n"
 msgstr ""
 
-#: src/pstree.c:1322
-#, c-format
-msgid ""
-"Copyright (C) 1993-2021 Werner Almesberger and Craig Small\n"
-"\n"
-msgstr ""
-
-#: src/pstree.c:1439
+#: src/pstree.c:1455
 #, c-format
 msgid "TERM is not set\n"
 msgstr ""
 
-#: src/pstree.c:1443
+#: src/pstree.c:1459
 #, c-format
 msgid "Can't get terminal capabilities\n"
 msgstr ""
 
-#: src/pstree.c:1461
+#: src/pstree.c:1477
 #, c-format
 msgid "procfs file for %s namespace not available\n"
 msgstr ""
 
-#: src/pstree.c:1507
+#: src/pstree.c:1523
 #, c-format
 msgid "No such user name: %s\n"
 msgstr ""
 
-#: src/pstree.c:1523
+#: src/pstree.c:1539
 #, c-format
 msgid "Process %d not found.\n"
 msgstr ""
 
-#: src/pstree.c:1539
+#: src/pstree.c:1555
 #, c-format
 msgid "No processes found.\n"
 msgstr ""
 
-#: src/pstree.c:1547
+#: src/pstree.c:1563
 #, c-format
 msgid "Press return to close\n"
 msgstr ""

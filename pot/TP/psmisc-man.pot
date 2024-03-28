@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: psmisc 23.5.11-97e7-dirty\n"
+"Project-Id-Version: psmisc 23.6.15-473e1\n"
 "Report-Msgid-Bugs-To: Craig Small <csmall@dropbear.xyz>\n"
-"POT-Creation-Date: 2022-11-13 15:26+1100\n"
+"POT-Creation-Date: 2024-01-13 14:23+1100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -603,18 +603,26 @@ msgid ""
 "mount point."
 msgstr ""
 
+#. type: Plain text
+#: ../doc/fuser.1:301
+msgid ""
+"B<fuser> will not match mapped files, such as a process' shared libraries if "
+"they are on a B<btrfs>(5)  filesystem due to the device IDs being different "
+"for B<stat>(2)  and I</proc/E<lt>PIDE<gt>/maps>."
+msgstr ""
+
 #. type: SH
-#: ../doc/fuser.1:293 ../doc/killall.1:170 ../doc/peekfd.1:63 ../doc/pslog.1:27
+#: ../doc/fuser.1:301 ../doc/killall.1:170 ../doc/peekfd.1:63 ../doc/pslog.1:27
 #: ../doc/pstree.1:174
 #, no-wrap
 msgid "SEE ALSO"
 msgstr ""
 
 #. type: Plain text
-#: ../doc/fuser.1:300
+#: ../doc/fuser.1:310
 msgid ""
-"B<kill>(1), B<killall>(1), B<lsof>(8), B<mount_namespaces>(7), B<pkill>(1), "
-"B<ps>(1), B<kill>(2)."
+"B<kill>(1), B<killall>(1), B<stat>(2), B<btrfs>(5), B<lsof>(8), "
+"B<mount_namespaces>(7), B<pkill>(1), B<ps>(1), B<kill>(2)."
 msgstr ""
 
 #. type: TH
@@ -626,7 +634,7 @@ msgstr ""
 #. type: TH
 #: ../doc/killall.1:9
 #, no-wrap
-msgid "2021-01-11"
+msgid "2023-06-17"
 msgstr ""
 
 #. type: Plain text
@@ -648,7 +656,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../doc/killall.1:41
-msgid "B<killall> -l"
+msgid "B<killall> B<-l>, B<--list>"
 msgstr ""
 
 #. type: Plain text
@@ -666,8 +674,8 @@ msgstr ""
 #. type: Plain text
 #: ../doc/killall.1:58
 msgid ""
-"Signals can be specified either by name (e.g.  B<-HUP> or B<-SIGHUP>)  or by "
-"number (e.g.  B<-1>)  or by option B<-s>."
+"Signals can be specified either by name (e.g.\\& B<-HUP> or B<-SIGHUP>)  or "
+"by number (e.g.\\& B<-1>)  or by option B<-s>."
 msgstr ""
 
 #. type: Plain text
