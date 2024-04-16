@@ -1,0 +1,1357 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid " — the GNOME session manager"
+msgstr ""
+
+msgid ""
+"%s [OPTION…] COMMAND\n"
+"\n"
+"Execute COMMAND while inhibiting some session functionality.\n"
+"\n"
+"  -h, --help        Show this help\n"
+"  --version         Show program version\n"
+"  --app-id ID       The application id to use\n"
+"                    when inhibiting (optional)\n"
+"  --reason REASON   The reason for inhibiting (optional)\n"
+"  --inhibit ARG     Things to inhibit, colon-separated list of:\n"
+"                    logout, switch-user, suspend, idle, automount\n"
+"  --inhibit-only    Do not launch COMMAND and wait forever instead\n"
+"  -l, --list        List the existing inhibitions, and exit\n"
+"\n"
+"If no --inhibit option is specified, idle is assumed.\n"
+msgstr ""
+
+msgid "%s requires an argument\n"
+msgstr ""
+
+msgid ""
+"A problem has occurred and the system can’t recover.\n"
+"Please log out and try again."
+msgstr ""
+
+msgid ""
+"A problem has occurred and the system can’t recover. All extensions have "
+"been disabled as a precaution."
+msgstr ""
+
+msgid ""
+"A problem has occurred and the system can’t recover. Please contact a system "
+"administrator"
+msgstr ""
+
+msgid "A session named “%s” already exists"
+msgstr ""
+
+msgid "AUTOSTART_DIR"
+msgstr ""
+
+msgid "Allow logout"
+msgstr ""
+
+msgid "Could not connect to the session manager"
+msgstr ""
+
+msgid "Could not create ICE listening socket: %s"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom Session"
+msgstr ""
+
+msgid "Disable hardware acceleration check"
+msgstr ""
+
+msgid "Do not load user-specified applications"
+msgstr ""
+
+msgid "Don’t prompt for user confirmation"
+msgstr ""
+
+msgid "Enable debugging code"
+msgstr ""
+
+msgid "Failed to execute %s\n"
+msgstr ""
+
+msgid "GNOME"
+msgstr ""
+
+msgid "GNOME dummy"
+msgstr ""
+
+msgid "GNOME on Wayland"
+msgstr ""
+
+msgid "GNOME on Xorg"
+msgstr ""
+
+msgid ""
+"If enabled, gnome-session will display a warning dialog after login if the "
+"session was automatically fallen back."
+msgstr ""
+
+msgid "If enabled, gnome-session will prompt the user before ending a session."
+msgstr ""
+
+msgid "If enabled, gnome-session will save the session automatically."
+msgstr ""
+
+msgid "Ignoring any existing inhibitors"
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+
+msgid "Logout prompt"
+msgstr ""
+
+msgid "Not responding"
+msgstr ""
+
+msgid "Oh no!  Something has gone wrong."
+msgstr ""
+
+msgid "Override standard autostart directories"
+msgstr ""
+
+msgid "Please select a custom session to run"
+msgstr ""
+
+msgid "Power off"
+msgstr ""
+
+msgid "Program called with conflicting options"
+msgstr ""
+
+msgid "Program needs exactly one parameter"
+msgstr ""
+
+msgid "Reboot"
+msgstr ""
+
+msgid ""
+"Refusing new client connection because the session is currently being shut "
+"down\n"
+msgstr ""
+
+msgid "Remembered Application"
+msgstr ""
+
+msgid "Rena_me Session"
+msgstr ""
+
+msgid "Restart dbus.service if it is running"
+msgstr ""
+
+msgid ""
+"Run from ExecStopPost to start gnome-session-failed.target on service failure"
+msgstr ""
+
+msgid "Running as systemd service"
+msgstr ""
+
+msgid "SESSION_NAME"
+msgstr ""
+
+msgid "Save sessions"
+msgstr ""
+
+msgid "Save this session"
+msgstr ""
+
+msgid "Session %d"
+msgstr ""
+
+msgid "Session names are not allowed to contain “/” characters"
+msgstr ""
+
+msgid "Session names are not allowed to start with “.”"
+msgstr ""
+
+msgid ""
+"Session names are not allowed to start with “.” or contain “/” characters"
+msgstr ""
+
+msgid "Session to use"
+msgstr ""
+
+msgid "Show extension warning"
+msgstr ""
+
+msgid "Show the fail whale dialog for testing"
+msgstr ""
+
+msgid "Show the fallback warning"
+msgstr ""
+
+msgid "Signal initialization done to gnome-session"
+msgstr ""
+
+msgid "Start gnome-session-shutdown.target"
+msgstr ""
+
+msgid ""
+"Start gnome-session-shutdown.target when receiving EOF or a single byte on "
+"stdin"
+msgstr ""
+
+msgid "This entry lets you select a saved session"
+msgstr ""
+
+msgid "This program is blocking logout."
+msgstr ""
+
+msgid "This session logs you into GNOME"
+msgstr ""
+
+msgid "Use builtin session management (rather than the systemd based one)"
+msgstr ""
+
+msgid "Use systemd session management"
+msgstr ""
+
+msgid "Version of this application"
+msgstr ""
+
+msgid ""
+"When enabled, gnome-session will automatically save the next session at log "
+"out even if auto saving is disabled."
+msgstr ""
+
+msgid "_Continue"
+msgstr ""
+
+msgid "_Log Out"
+msgstr ""
+
+msgid "_Log out"
+msgstr ""
+
+msgid "_New Session"
+msgstr ""
+
+msgid "_Remove Session"
+msgstr ""
+
+msgid ""
+"%s [OPTION…] COMMAND\n"
+"\n"
+"Execute COMMAND while inhibiting some session functionality.\n"
+"\n"
+"  -h, --help        Show this help\n"
+"  --version         Show program version\n"
+"  --app-id ID       The application id to use\n"
+"                    when inhibiting (optional)\n"
+"  --reason REASON   The reason for inhibiting (optional)\n"
+"  --inhibit ARG     Things to inhibit, colon-separated list of:\n"
+"                    logout, switch-user, suspend, idle, automount\n"
+"  --inhibit-only    Do not launch COMMAND and wait forever instead\n"
+"\n"
+"If no --inhibit option is specified, idle is assumed.\n"
+msgstr ""
+
+msgid "A normal member of the session."
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Add a new session"
+msgstr ""
+
+msgid "Additional startup _programs:"
+msgstr ""
+
+msgid "Are you sure you want to log out?"
+msgstr ""
+
+msgid "Automatically save chan_ges to session"
+msgstr ""
+
+msgid "Command"
+msgstr ""
+
+msgid "Configure your sessions"
+msgstr ""
+
+msgid "Current Session"
+msgstr ""
+
+msgid "Currently running _programs:"
+msgstr ""
+
+msgid "Desktop Settings"
+msgstr ""
+
+msgid "Edit session name"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Initialize session settings"
+msgstr ""
+
+msgid "Kill session"
+msgstr ""
+
+msgid "Log in Anyway"
+msgstr ""
+
+msgid "Metacity Window Manager"
+msgstr ""
+
+msgid "Nautilus"
+msgstr ""
+
+msgid "Never allowed to die."
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Program"
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Saving"
+msgstr ""
+
+msgid "Sawfish Window Manager"
+msgstr ""
+
+msgid "Session Name"
+msgstr ""
+
+msgid "Session Options"
+msgstr ""
+
+msgid "Sessions"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Show splash screen on _login"
+msgstr ""
+
+msgid ""
+"Some changes are not saved.\n"
+"Is it still OK to exit?"
+msgstr ""
+
+msgid "Started but has not yet reported state."
+msgstr ""
+
+msgid "Starting"
+msgstr ""
+
+msgid "Startup Programs"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "The Panel"
+msgstr ""
+
+msgid "The order in which applications are started in the session."
+msgstr ""
+
+msgid "Trash"
+msgstr ""
+
+msgid "Try Again"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Waiting to start or already finished."
+msgstr ""
+
+msgid "What happens to the application when it exits."
+msgstr ""
+
+msgid "Window Manager"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Order:"
+msgstr ""
+
+msgid "_Restart the computer"
+msgstr ""
+
+msgid "_Save current setup"
+msgstr ""
+
+msgid "_Sessions:"
+msgstr ""
+
+msgid "_Style:"
+msgstr ""
+
+msgid " - the GNOME session manager"
+msgstr ""
+
+msgid ""
+"%s [OPTION...] COMMAND\n"
+"\n"
+"Execute COMMAND while inhibiting some session functionality.\n"
+"\n"
+"  -h, --help        Show this help\n"
+"  --version         Show program version\n"
+"  --app-id ID       The application id to use\n"
+"                    when inhibiting (optional)\n"
+"  --reason REASON   The reason for inhibiting (optional)\n"
+"  --inhibit ARG     Things to inhibit, colon-separated list of:\n"
+"                    logout, switch-user, suspend, idle, automount\n"
+"  --inhibit-only    Do not launch COMMAND and wait forever instead\n"
+"\n"
+"If no --inhibit option is specified, idle is assumed.\n"
+msgstr ""
+
+msgid ""
+"A problem has occurred and the system can't recover.\n"
+"Please log out and try again."
+msgstr ""
+
+msgid ""
+"A problem has occurred and the system can't recover. All extensions have "
+"been disabled as a precaution."
+msgstr ""
+
+msgid ""
+"A problem has occurred and the system can't recover. Please contact a system "
+"administrator"
+msgstr ""
+
+msgid "A session named ‘%s’ already exists"
+msgstr ""
+
+msgid "Browse…"
+msgstr ""
+
+msgid "Co_mmand:"
+msgstr ""
+
+msgid "Comm_ent:"
+msgstr ""
+
+msgid "Don't prompt for user confirmation"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Session names are not allowed to contain ‘/’ characters"
+msgstr ""
+
+msgid "Session names are not allowed to start with ‘.’"
+msgstr ""
+
+msgid ""
+"Session names are not allowed to start with ‘.’ or contain ‘/’ characters"
+msgstr ""
+
+msgid "_Automatically remember running applications when logging out"
+msgstr ""
+
+msgid "_Name:"
+msgstr ""
+
+msgid "_Remember Currently Running Applications"
+msgstr ""
+
+msgid "This session logs you into GNOME, using Wayland"
+msgstr ""
+
+msgid "- GNOME Splash Screen"
+msgstr ""
+
+msgid "<b>Some programs are still running:</b>"
+msgstr ""
+
+msgid "A program is still running:"
+msgstr ""
+
+msgid "AT SPI Registry Wrapper"
+msgstr ""
+
+msgid "Add Startup Program"
+msgstr ""
+
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+msgid ""
+"Assistive technology support has been requested for this session, but the "
+"accessibility registry was not found. Please ensure that the AT-SPI package "
+"is installed. Your session has been started without assistive technology "
+"support."
+msgstr ""
+
+msgid "Browse..."
+msgstr ""
+
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Default session"
+msgstr ""
+
+msgid "Disable connection to session manager"
+msgstr ""
+
+msgid "Do not require confirmation"
+msgstr ""
+
+msgid "Edit Startup Program"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "FILE"
+msgstr ""
+
+msgid "File Manager"
+msgstr ""
+
+msgid "File is not a valid .desktop file"
+msgstr ""
+
+msgid "GConf key used to lookup default session"
+msgstr ""
+
+msgid "GNOME Settings Daemon Helper"
+msgstr ""
+
+msgid "GNOME Splash Screen"
+msgstr ""
+
+msgid "Hibernate Anyway"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Icon '%s' not found"
+msgstr ""
+
+msgid ""
+"If enabled, gnome-session will save the session automatically. Otherwise, "
+"the logout dialog will have an option to save the session."
+msgstr ""
+
+msgid "List of applications that are part of the default session."
+msgstr ""
+
+msgid ""
+"List of components that are required as part of the session. (Each element "
+"names a key under \"/desktop/gnome/session/required-components\".) The "
+"Session Preferences will not normally allow users to remove a required "
+"component from the session, and the session manager will automatically add "
+"the required components back to the session if they do get removed."
+msgstr ""
+
+msgid "Lock Screen"
+msgstr ""
+
+msgid "Log out, ignoring any existing inhibitors"
+msgstr ""
+
+msgid "Logout Anyway"
+msgstr ""
+
+msgid "NAME"
+msgstr ""
+
+msgid "No description"
+msgstr ""
+
+msgid "Not a launchable item"
+msgstr ""
+
+msgid "Panel"
+msgstr ""
+
+msgid "Preferred Image to use for login splash screen"
+msgstr ""
+
+msgid "Reboot Anyway"
+msgstr ""
+
+msgid "Required session components"
+msgstr ""
+
+msgid "S_uspend"
+msgstr ""
+
+msgid "Select Command"
+msgstr ""
+
+msgid "Selected option in the log out dialog"
+msgstr ""
+
+msgid "Session Management Options"
+msgstr ""
+
+msgid "Sessions Preferences"
+msgstr ""
+
+msgid "Set the current session name"
+msgstr ""
+
+msgid "Show Session Management options"
+msgstr ""
+
+msgid "Show logout dialog"
+msgstr ""
+
+msgid "Show shutdown dialog"
+msgstr ""
+
+msgid "Show the splash screen"
+msgstr ""
+
+msgid "Show the splash screen when the session starts up"
+msgstr ""
+
+msgid "Shutdown Anyway"
+msgstr ""
+
+msgid "Some programs are still running:"
+msgstr ""
+
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+msgid "Specify session management ID"
+msgstr ""
+
+msgid "Starting %s"
+msgstr ""
+
+msgid "Suspend Anyway"
+msgstr ""
+
+msgid "Switch User Anyway"
+msgstr ""
+
+msgid ""
+"The file manager provides the desktop icons and allows you to interact with "
+"your saved files."
+msgstr ""
+
+msgid "The name of the startup program cannot be empty"
+msgstr ""
+
+msgid ""
+"The number of minutes of inactivity before the session is considered idle."
+msgstr ""
+
+msgid ""
+"The panel provides the bar at the top or bottom of the screen containing "
+"menus, the window list, status icons, the clock, etc."
+msgstr ""
+
+msgid "The startup command cannot be empty"
+msgstr ""
+
+msgid "The startup command is not valid"
+msgstr ""
+
+msgid ""
+"The window manager is the program that draws the title bar and borders "
+"around windows, and allows you to move and resize windows."
+msgstr ""
+
+msgid ""
+"There is a problem with the configuration server.\n"
+"(%s exited with status %d)"
+msgstr ""
+
+msgid ""
+"This is a relative path value based off the $datadir/pixmaps/ directory. Sub-"
+"directories and image names are valid values. Changing this value will "
+"effect the next session login."
+msgstr ""
+
+msgid ""
+"This is the option that will be selected in the logout dialog, valid values "
+"are \"logout\" for logging out, \"shutdown\" for halting the system and "
+"\"restart\" for restarting the system."
+msgstr ""
+
+msgid "This program is blocking log out."
+msgstr ""
+
+msgid "Time before session is considered idle"
+msgstr ""
+
+msgid "Unable to start login session (and unable to connect to the X server)"
+msgstr ""
+
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+msgid "Use dialog boxes for errors"
+msgstr ""
+
+msgid ""
+"Waiting for program to finish.  Interrupting program may cause you to lose "
+"work."
+msgstr ""
+
+msgid ""
+"Waiting for programs to finish.  Interrupting these programs may cause you "
+"to lose work."
+msgstr ""
+
+msgid ""
+"You are currently logged in as \"%s\".\n"
+"This system will be automatically shut down in %d second.You are currently "
+"logged in as \"%s\".\n"
+"This system will be automatically shut down in %d seconds."
+msgstr ""
+
+msgid ""
+"You are currently logged in as \"%s\".\n"
+"You will be automatically logged out in %d second.You are currently logged "
+"in as \"%s\".\n"
+"You will be automatically logged out in %d seconds."
+msgstr ""
+
+msgid "_Hibernate"
+msgstr ""
+
+msgid "_Remember Currently Running Application"
+msgstr ""
+
+msgid "_Restart"
+msgstr ""
+
+msgid "_Shut Down"
+msgstr ""
+
+msgid "_Switch User"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"GNOME will still try to restart the Settings Daemon next time you log in."
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"The last error message was:\n"
+"\n"
+msgstr ""
+
+msgid "A session shutdown is in progress."
+msgstr ""
+
+msgid "Allow TCP connections"
+msgstr ""
+
+msgid "Always started on every login."
+msgstr ""
+
+msgid "Apply changes to the current session"
+msgstr ""
+
+msgid ""
+"Could not look up internet address for %s.\n"
+"This will prevent GNOME from operating correctly.\n"
+"It may be possible to correct the problem by adding\n"
+"%s to the file /etc/hosts."
+msgstr ""
+
+msgid "Discarded on logout and can die."
+msgstr ""
+
+msgid ""
+"For security reasons, on platforms which have _IceTcpTransNoListen() "
+"(XFree86 systems), gnome-session does not listen for connections on TCP "
+"ports. This option will allow connections from (authorized) remote hosts. "
+"gnome-session must be restarted for this to take effect."
+msgstr ""
+
+msgid "Millisecond period spent waiting for clients to die (0=forever)"
+msgstr ""
+
+msgid "Millisecond period spent waiting for clients to register (0=forever)"
+msgstr ""
+
+msgid "Millisecond period spent waiting for clients to respond (0=forever)"
+msgstr ""
+
+msgid "No response to the %s command."
+msgstr ""
+
+msgid "Only read saved sessions from the default.session file"
+msgstr ""
+
+msgid ""
+"Preferred Image to use for the splash screen when logging in to the GNOME "
+"Desktop"
+msgstr ""
+
+msgid "Remove the currently selected client from the session."
+msgstr ""
+
+msgid "Restart abandoned due to failures."
+msgstr ""
+
+msgid "Saving session details."
+msgstr ""
+
+msgid "Session Manager Proxy"
+msgstr ""
+
+msgid "Set the current session"
+msgstr ""
+
+msgid "Sh_ut down"
+msgstr ""
+
+msgid "Specify a session name to load"
+msgstr ""
+
+msgid "Splash Screen Image"
+msgstr ""
+
+msgid "Startup Command"
+msgstr ""
+
+msgid "State not reported within timeout."
+msgstr ""
+
+msgid "The Settings Daemon restarted too many times."
+msgstr ""
+
+msgid "The list of programs in the session."
+msgstr ""
+
+msgid "The program may be slow, stopped or broken."
+msgstr ""
+
+msgid "The session name already exists"
+msgstr ""
+
+msgid "The session name cannot be empty"
+msgstr ""
+
+msgid ""
+"There was an error starting the GNOME Settings Daemon.\n"
+"\n"
+"Some things, such as themes, sounds, or background settings may not work "
+"correctly."
+msgstr ""
+
+msgid "There was an unknown activation error."
+msgstr ""
+
+msgid "Unaffected by logouts but can die."
+msgstr ""
+
+msgid "Use dialog boxes"
+msgstr ""
+
+msgid "Wait abandoned due to conflict."
+msgstr ""
+
+msgid "You may wait for it to respond or remove it."
+msgstr ""
+
+msgid "Your session has been saved"
+msgstr ""
+
+msgid "_Startup Command:"
+msgstr ""
+
+msgid "GNOME GUI Library + EggSMClient"
+msgstr ""
+
+msgid "GNOME Keyring Daemon Wrapper"
+msgstr ""
+
+msgid "Log out of this system now?"
+msgstr ""
+
+msgid "Session management"
+msgstr ""
+
+msgid "Shut down this system now?"
+msgstr ""
+
+msgid "Unable to start login session (and unable connect to the X server)"
+msgstr ""
+
+msgid "Choose what applications to start when you log in"
+msgstr ""
+
+msgid "Could not display help document"
+msgstr ""
+
+msgid "Exited with code %d"
+msgstr ""
+
+msgid "GNOME 3 Failed to Load"
+msgstr ""
+
+msgid "GNOME fallback"
+msgstr ""
+
+msgid "Killed by signal %d"
+msgstr ""
+
+msgid "Learn more about GNOME 3"
+msgstr ""
+
+msgid "Log Out Anyway"
+msgstr ""
+
+msgid "No name"
+msgstr ""
+
+msgid "Session management options:"
+msgstr ""
+
+msgid "Show session management options"
+msgstr ""
+
+msgid "Shut Down Anyway"
+msgstr ""
+
+msgid "Startup Applications"
+msgstr ""
+
+msgid "Startup Applications Preferences"
+msgstr ""
+
+msgid "Stopped by signal %d"
+msgstr ""
+
+msgid ""
+"This system will be automatically shut down in %d second.This system will be "
+"automatically shut down in %d seconds."
+msgstr ""
+
+msgid ""
+"Unfortunately GNOME 3 failed to start properly and started in the "
+"<i>fallback mode</i>.\n"
+"\n"
+"This most likely means your system (graphics hardware or driver) is not "
+"capable of delivering the full GNOME 3 experience."
+msgstr ""
+
+msgid ""
+"Waiting for the program to finish.  Interrupting the program may cause you "
+"to lose work."
+msgstr ""
+
+msgid "You are currently logged in as \"%s\"."
+msgstr ""
+
+msgid ""
+"You will be automatically logged out in %d second.You will be automatically "
+"logged out in %d seconds."
+msgstr ""
+
+msgid ""
+"List of components that are required as part of the session. (Each element "
+"names a key under \"/desktop/gnome/session/required_components\"). The "
+"Startup Applications preferences tool will not normally allow users to "
+"remove a required component from the session, and the session manager will "
+"automatically add the required components back to the session at login time "
+"if they do get removed."
+msgstr ""
+
+msgid "Restart Anyway"
+msgstr ""
+
+msgid "Restart this system now?"
+msgstr ""
+
+msgid ""
+"This system will be automatically restarted in %d second.This system will be "
+"automatically restarted in %d seconds."
+msgstr ""
+
+msgid ""
+"Waiting for programs to finish. Interrupting these programs may cause you to "
+"lose work."
+msgstr ""
+
+msgid ""
+"Waiting for the program to finish. Interrupting the program may cause you to "
+"lose work."
+msgstr ""
+
+msgid "As_k on logout"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "- Manage the GNOME session"
+msgstr ""
+
+msgid "- Save the current session"
+msgstr ""
+
+msgid ""
+"Could not write to file '%s'.  This file must be writable in order for GNOME "
+"to function properly.  Try logging in with the failsafe session and removing "
+"this file.  Also make sure that the file's directory is writable."
+msgstr ""
+
+msgid "Couldn't find program %s in session\n"
+msgstr ""
+
+msgid "Currently registered clients:\n"
+msgstr ""
+
+msgid "DELAY"
+msgstr ""
+
+msgid "Error: could not connect to the session manager\n"
+msgstr ""
+
+msgid "Failed to launch time configuration tool: %s"
+msgstr ""
+
+msgid "If you don't save, changes will be discarded."
+msgstr ""
+
+msgid "List registered clients, then exit"
+msgstr ""
+
+msgid "No Name"
+msgstr ""
+
+msgid "PROGRAM..."
+msgstr ""
+
+msgid "Remember running applications"
+msgstr ""
+
+msgid ""
+"Running a session as a privileged user should be avoided for security "
+"reasons. If possible, you should log in as a normal user."
+msgstr ""
+
+msgid "Save changes to the current session before closing?"
+msgstr ""
+
+msgid ""
+"The GNOME session manager cannot start properly.  Please report this as a "
+"GNOME bug. Please include this ICE failure message in the bug report:  "
+"'%s'.  Meanwhile you could try logging in using the failsafe session."
+msgstr ""
+
+msgid ""
+"The GNOME session manager was unable to lock the file '%s'.  Please report "
+"this as a GNOME bug.  Sometimes this error may occur if the file's directory "
+"is unwritable, you could try logging in via the failsafe session and "
+"ensuring that it is."
+msgstr ""
+
+msgid ""
+"The GNOME session manager was unable to read the file: '%s'.  If this file "
+"exists it must be readable by you for GNOME to work properly.  Try logging "
+"in with the failsafe session and removing this file."
+msgstr ""
+
+msgid "The computer clock appears to be wrong"
+msgstr ""
+
+msgid ""
+"The session might encounter issues if the computer clock is not properly "
+"configured. Please consider adjusting it.\n"
+"\n"
+"Current date is <b>%s</b>."
+msgstr ""
+
+msgid "This session is running as a privileged user"
+msgstr ""
+
+msgid ""
+"You must specify at least one program to remove. You can list the programs "
+"with --list.\n"
+msgstr ""
+
+msgid "Your session has been saved."
+msgstr ""
+
+msgid "_Adjust the Clock"
+msgstr ""
+
+msgid "_Browse..."
+msgstr ""
+
+msgid "_Close without Saving"
+msgstr ""
+
+msgid "_Ignore"
+msgstr ""
+
+msgid "could not connect to the session manager\n"
+msgstr ""
+
+msgid "session manager does not support GNOME extensions\n"
+msgstr ""
+
+msgid "Co_mment:"
+msgstr ""
+
+msgid "New Startup Program"
+msgstr ""
+
+msgid "_Command:"
+msgstr ""
+
+msgid "_Remember currently running applications"
+msgstr ""
+
+msgid "A fatal system error has occurred: %s"
+msgstr ""
+
+msgid "A system error has occurred: %s"
+msgstr ""
+
+msgid "Component '%s': %s"
+msgstr ""
+
+msgid "Killed by signal"
+msgstr ""
+
+msgid "Timed out"
+msgstr ""
+
+msgid "Try _Recovery"
+msgstr ""
+
+msgid ""
+"A problem has occurred and the system can't recover. Some of the extensions "
+"below may have caused this.\n"
+"Please try disabling some of these, and then log out and try again."
+msgstr ""
+
+msgid "Save the current session"
+msgstr ""
+
+msgid ""
+"A list of strings, each containing an application id (desktop file name), "
+"followed by a colon and the workspace number"
+msgstr ""
+
+msgid "Add Rule"
+msgstr ""
+
+msgid "Add Workspace"
+msgstr ""
+
+msgid "Always group windows"
+msgstr ""
+
+msgid "Application and workspace list"
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid "Browse Network"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Close all"
+msgstr ""
+
+msgid "Computer"
+msgstr ""
+
+msgid "Cycle Screenshot Sizes"
+msgstr ""
+
+msgid "Cycle Screenshot Sizes Backward"
+msgstr ""
+
+msgid ""
+"Decides when to group windows from the same application on the window list. "
+"Possible values are “never”, “auto” and “always”."
+msgstr ""
+
+msgid "Ejecting drive “%s” failed:"
+msgstr ""
+
+msgid "Failed to launch “%s”"
+msgstr ""
+
+msgid "Failed to mount volume for “%s”"
+msgstr ""
+
+msgid "Favorites"
+msgstr ""
+
+msgid "GNOME Classic"
+msgstr ""
+
+msgid "GNOME Classic on Wayland"
+msgstr ""
+
+msgid "GNOME Classic on Xorg"
+msgstr ""
+
+msgid "Group windows when space is limited"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid ""
+"If true, place window captions on top the respective thumbnail, overriding "
+"shell default of placing it at the bottom. Changing this setting requires "
+"restarting the shell to have any effect."
+msgstr ""
+
+msgid "Maximize"
+msgstr ""
+
+msgid "Maximize all"
+msgstr ""
+
+msgid "Minimize"
+msgstr ""
+
+msgid "Minimize all"
+msgstr ""
+
+msgid "Never group windows"
+msgstr ""
+
+msgid "Open Files"
+msgstr ""
+
+msgid "Place window captions on top"
+msgstr ""
+
+msgid "Places"
+msgstr ""
+
+msgid "Removable devices"
+msgstr ""
+
+msgid "Show on all monitors"
+msgstr ""
+
+msgid "Show the window list on all monitors"
+msgstr ""
+
+msgid "Show windows from all workspaces"
+msgstr ""
+
+msgid "The name of the theme, to be loaded from ~/.themes/name/gnome-shell"
+msgstr ""
+
+msgid "Theme name"
+msgstr ""
+
+msgid "This session logs you into GNOME Classic"
+msgstr ""
+
+msgid ""
+"Try to use more screen for placing window thumbnails by adapting to screen "
+"aspect ratio, and consolidating them further to reduce the bounding box. "
+"This setting applies only with the natural placement strategy."
+msgstr ""
+
+msgid "Unmaximize"
+msgstr ""
+
+msgid "Unmaximize all"
+msgstr ""
+
+msgid "Unminimize"
+msgstr ""
+
+msgid "Unminimize all"
+msgstr ""
+
+msgid "Use more screen for windows"
+msgstr ""
+
+msgid "When to group windows"
+msgstr ""
+
+msgid ""
+"Whether to show the window list on all connected monitors or only on the "
+"primary one."
+msgstr ""
+
+msgid "Whether to show windows from all workspaces or only the current one."
+msgstr ""
+
+msgid "Window Grouping"
+msgstr ""
+
+msgid "Window List"
+msgstr ""
+
+msgid "Workspace %d"
+msgstr ""
+
+msgid "Workspace Indicator"
+msgstr ""
+
+msgid "Workspace Names"
+msgstr ""
+
+msgid "Workspace Rules"
+msgstr ""

@@ -1,0 +1,1141 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"use '%s {-h --help}' with an operation for available options\n"
+msgstr ""
+
+msgid ""
+"                       This program may be freely redistributed under\n"
+"                       the terms of the GNU General Public License.\n"
+msgstr ""
+
+msgid "        pacman-conf (--repo-list|--help|--version)\n"
+msgstr ""
+
+msgid "      --arch <arch>    set an alternate architecture\n"
+msgstr ""
+
+msgid "      --asdeps         install packages as non-explicitly installed\n"
+msgstr ""
+
+msgid "      --asdeps         mark packages as non-explicitly installed\n"
+msgstr ""
+
+msgid "      --asexplicit     install packages as explicitly installed\n"
+msgstr ""
+
+msgid "      --asexplicit     mark packages as explicitly installed\n"
+msgstr ""
+
+msgid ""
+"      --assume-installed <package=version>\n"
+"                       add a virtual package to satisfy dependencies\n"
+msgstr ""
+
+msgid "      --cachedir <dir> set an alternate package cache location\n"
+msgstr ""
+
+msgid "      --color <when>   colorize the output\n"
+msgstr ""
+
+msgid "      --config <path>  set an alternate configuration file\n"
+msgstr ""
+
+msgid "      --confirm        always ask for confirmation\n"
+msgstr ""
+
+msgid ""
+"      --dbonly         only modify database entries, not package files\n"
+msgstr ""
+
+msgid "      --debug          display debug messages\n"
+msgstr ""
+
+msgid ""
+"      --disable-download-timeout\n"
+"                       use relaxed timeouts for download\n"
+msgstr ""
+
+msgid "      --gpgdir <path>  set an alternate home directory for GnuPG\n"
+msgstr ""
+
+msgid "      --hookdir <dir>  set an alternate hook location\n"
+msgstr ""
+
+msgid ""
+"      --ignore <pkg>   ignore a package upgrade (can be used more than "
+"once)\n"
+msgstr ""
+
+msgid ""
+"      --ignoregroup <grp>\n"
+"                       ignore a group upgrade (can be used more than once)\n"
+msgstr ""
+
+msgid "      --logfile <path> set an alternate log file\n"
+msgstr ""
+
+msgid ""
+"      --machinereadable\n"
+"                       produce machine-readable output\n"
+msgstr ""
+
+msgid "      --needed         do not reinstall up to date packages\n"
+msgstr ""
+
+msgid "      --noconfirm      do not ask for any confirmation\n"
+msgstr ""
+
+msgid ""
+"      --noprogressbar  do not show a progress bar when downloading files\n"
+msgstr ""
+
+msgid ""
+"      --noscriptlet    do not execute the install scriptlet if one exists\n"
+msgstr ""
+
+msgid ""
+"      --overwrite <glob>\n"
+"                       overwrite conflicting files (can be used more than "
+"once)\n"
+msgstr ""
+
+msgid ""
+"      --print-format <string>\n"
+"                       specify how the targets should be printed\n"
+msgstr ""
+
+msgid "      --sysroot        operate on a mounted guest system (root-only)\n"
+msgstr ""
+
+msgid "  -R, --rootdir=<path> set an alternate installation root\n"
+msgstr ""
+
+msgid "  -V, --version        display version information\n"
+msgstr ""
+
+msgid "  -b, --dbpath <path>  set an alternate database location\n"
+msgstr ""
+
+msgid ""
+"  -c, --cascade        remove packages and all packages that depend on them\n"
+msgstr ""
+
+msgid "  -c, --changelog      view the changelog of a package\n"
+msgstr ""
+
+msgid ""
+"  -c, --clean          remove old packages from cache directory (-cc for "
+"all)\n"
+msgstr ""
+
+msgid "  -c, --config=<path>  set an alternate configuration file\n"
+msgstr ""
+
+msgid ""
+"  -d, --deps           list packages installed as dependencies [filter]\n"
+msgstr ""
+
+msgid ""
+"  -d, --nodeps         skip dependency version checks (-dd to skip all "
+"checks)\n"
+msgstr ""
+
+msgid "  -e, --explicit       list packages explicitly installed [filter]\n"
+msgstr ""
+
+msgid "  -g, --groups         view all members of a package group\n"
+msgstr ""
+
+msgid ""
+"  -g, --groups         view all members of a package group\n"
+"                       (-gg to view all groups and members)\n"
+msgstr ""
+
+msgid "  -h, --help           display this help information\n"
+msgstr ""
+
+msgid ""
+"  -i, --info           view package information (-ii for backup files)\n"
+msgstr ""
+
+msgid ""
+"  -i, --info           view package information (-ii for extended "
+"information)\n"
+msgstr ""
+
+msgid ""
+"  -k, --check          check that package files exist (-kk for file "
+"properties)\n"
+msgstr ""
+
+msgid ""
+"  -k, --check          test local database for validity (-kk for sync "
+"databases)\n"
+msgstr ""
+
+msgid "  -l, --list           list the files owned by the queried package\n"
+msgstr ""
+
+msgid "  -l, --list <repo>    view a list of packages in a repo\n"
+msgstr ""
+
+msgid "  -l, --repo-list      list configured repositories\n"
+msgstr ""
+
+msgid ""
+"  -m, --foreign        list installed packages not found in sync db(s) "
+"[filter]\n"
+msgstr ""
+
+msgid ""
+"  -n, --native         list installed packages only found in sync db(s) "
+"[filter]\n"
+msgstr ""
+
+msgid "  -n, --nosave         remove configuration files\n"
+msgstr ""
+
+msgid "  -o, --owns <file>    query the package that owns <file>\n"
+msgstr ""
+
+msgid "  -p, --file <package> query a package file instead of the database\n"
+msgstr ""
+
+msgid ""
+"  -p, --print          print the targets instead of performing the "
+"operation\n"
+msgstr ""
+
+msgid "  -q, --quiet          show less information for query and search\n"
+msgstr ""
+
+msgid "  -q, --quiet          suppress output of success messages\n"
+msgstr ""
+
+msgid "  -r, --repo=<remote>  query options for a specific repo\n"
+msgstr ""
+
+msgid "  -r, --root <path>    set an alternate installation root\n"
+msgstr ""
+
+msgid ""
+"  -s, --recursive      remove unnecessary dependencies\n"
+"                       (-ss includes explicitly installed dependencies)\n"
+msgstr ""
+
+msgid ""
+"  -s, --search <regex> search locally-installed packages for matching "
+"strings\n"
+msgstr ""
+
+msgid ""
+"  -s, --search <regex> search remote repositories for matching strings\n"
+msgstr ""
+
+msgid ""
+"  -t, --unrequired     list packages not (optionally) required by any\n"
+"                       package (-tt to ignore optdepends) [filter]\n"
+msgstr ""
+
+msgid ""
+"  -u, --sysupgrade     upgrade installed packages (-uu enables downgrades)\n"
+msgstr ""
+
+msgid "  -u, --unneeded       remove unneeded packages\n"
+msgstr ""
+
+msgid "  -u, --upgrades       list outdated packages [filter]\n"
+msgstr ""
+
+msgid "  -v, --verbose        always show directive names\n"
+msgstr ""
+
+msgid "  -v, --verbose        be verbose\n"
+msgstr ""
+
+msgid ""
+"  -w, --downloadonly   download packages but do not install/upgrade "
+"anything\n"
+msgstr ""
+
+msgid "  -x, --regex          enable searching using regular expressions\n"
+msgstr ""
+
+msgid ""
+"  -y, --refresh        download fresh package databases from the server\n"
+"                       (-yy to force a refresh even if up to date)\n"
+msgstr ""
+
+msgid "  All current sync database packages\n"
+msgstr ""
+
+msgid "  All locally installed packages\n"
+msgstr ""
+
+msgid ""
+"  if you're sure a package manager is not already\n"
+"  running, you can remove %s\n"
+msgstr ""
+
+msgid " %s downloading...\n"
+msgstr ""
+
+msgid " %s failed to download"
+msgstr ""
+
+msgid " %s is up to date"
+msgstr ""
+
+msgid " [installed]"
+msgstr ""
+
+msgid " [pending]"
+msgstr ""
+
+msgid " there is nothing to do\n"
+msgstr ""
+
+msgid ""
+"%jd altered file\n"
+"%jd altered files\n"
+msgstr ""
+
+msgid ""
+"%jd missing file\n"
+"%jd missing files\n"
+msgstr ""
+
+msgid "%s and %s are in conflict\n"
+msgstr ""
+
+msgid "%s and %s are in conflict (%s)\n"
+msgstr ""
+
+msgid "%s and %s are in conflict (%s). Remove %s?"
+msgstr ""
+
+msgid "%s and %s are in conflict. Remove %s?"
+msgstr ""
+
+msgid "%s exists in both '%s' and '%s'\n"
+msgstr ""
+
+msgid "%s installed as %s.pacnew\n"
+msgstr ""
+
+msgid "%s is designated as a HoldPkg.\n"
+msgstr ""
+
+msgid "%s is in IgnorePkg/IgnoreGroup. Install anyway?"
+msgstr ""
+
+msgid "%s is invalid or corrupted\n"
+msgstr ""
+
+msgid "%s is owned by %s%s %s%s%s\n"
+msgstr ""
+
+msgid "%s is owned by %s%s/%s%s %s%s%s\n"
+msgstr ""
+
+msgid "%s optionally requires %s\n"
+msgstr ""
+
+msgid "%s saved as %s.pacsave\n"
+msgstr ""
+
+msgid "%s, %s from \"%s\""
+msgstr ""
+
+msgid "%s: %jd total file, %s: %jd total files, "
+msgstr ""
+
+msgid "%s: %s (%s checksum information not available)\n"
+msgstr ""
+
+msgid "%s: %s (%s checksum mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (File type mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (GID mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (Modification time mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (Permissions mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (Size mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (Symlink path mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (UID mismatch)\n"
+msgstr ""
+
+msgid "%s: %s (failed to calculate %s checksum)\n"
+msgstr ""
+
+msgid "%s: %s exists in filesystem\n"
+msgstr ""
+
+msgid "%s: %s exists in filesystem (owned by %s)\n"
+msgstr ""
+
+msgid "%s: install reason has been set to 'explicitly installed'\n"
+msgstr ""
+
+msgid "%s: install reason has been set to 'installed as dependency'\n"
+msgstr ""
+
+msgid "%s: no mtree file\n"
+msgstr ""
+
+msgid "'%s' is a file, did you mean %s instead of %s?\n"
+msgstr ""
+
+msgid "'%s' is a file, you might want to use %s.\n"
+msgstr ""
+
+msgid "'%s' is not a valid debug level\n"
+msgstr ""
+
+msgid "(none)\n"
+msgstr ""
+
+msgid "Architecture"
+msgstr ""
+
+msgid "Backup Files"
+msgstr ""
+
+msgid "Build Date"
+msgstr ""
+
+msgid "Cache directory: %s\n"
+msgstr ""
+
+msgid "Cannot find the given file.\n"
+msgstr ""
+
+msgid "Cannot open the given file.\n"
+msgstr ""
+
+msgid "Changelog for %s:\n"
+msgstr ""
+
+msgid "Compressed Size"
+msgstr ""
+
+msgid "Conflicts With"
+msgstr ""
+
+msgid "Database directory: %s\n"
+msgstr ""
+
+msgid "Depends On"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Do you want to remove ALL files from cache?"
+msgstr ""
+
+msgid "Do you want to remove all other packages from cache?"
+msgstr ""
+
+msgid "Do you want to remove these packages?"
+msgstr ""
+
+msgid "Do you want to remove unused repositories?"
+msgstr ""
+
+msgid ""
+"Do you want to skip the above package for this upgrade?Do you want to skip "
+"the above packages for this upgrade?"
+msgstr ""
+
+msgid "Download Size"
+msgstr ""
+
+msgid "Enter a number (default=%d)"
+msgstr ""
+
+msgid "Enter a selection (default=all)"
+msgstr ""
+
+msgid "Errors occurred, no packages were upgraded.\n"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Explicitly installed"
+msgstr ""
+
+msgid "Failed to pass %s entry to libalpm"
+msgstr ""
+
+msgid ""
+"File %s is corrupted (%s).\n"
+"Do you want to delete it?"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "HTTP_USER_AGENT truncated\n"
+msgstr ""
+
+msgid "HoldPkg was found in target list. Do you want to continue?"
+msgstr ""
+
+msgid "Import PGP key %s, \"%s\"?"
+msgstr ""
+
+msgid "Import PGP key %s?"
+msgstr ""
+
+msgid "Install Date"
+msgstr ""
+
+msgid "Install Reason"
+msgstr ""
+
+msgid "Install Script"
+msgstr ""
+
+msgid "Installed Size"
+msgstr ""
+
+msgid "Installed as a dependency for another package"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Key disabled"
+msgstr ""
+
+msgid "Key expired"
+msgstr ""
+
+msgid "Key unknown"
+msgstr ""
+
+msgid "Licenses"
+msgstr ""
+
+msgid "MD5 Sum"
+msgstr ""
+
+msgid "N"
+msgstr ""
+
+msgid "NO"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Net Change"
+msgstr ""
+
+msgid "Net Upgrade Size:"
+msgstr ""
+
+msgid "New Version"
+msgstr ""
+
+msgid "New optional dependencies for %s\n"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No database errors have been found!\n"
+msgstr ""
+
+msgid "No package owns %s\n"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Old Version"
+msgstr ""
+
+msgid "Optional Deps"
+msgstr ""
+
+msgid "Optional For"
+msgstr ""
+
+msgid "Optional dependencies for %s\n"
+msgstr ""
+
+msgid "Package"
+msgstr ""
+
+msgid "Package is invalid.\n"
+msgstr ""
+
+msgid "Package is valid.\n"
+msgstr ""
+
+msgid "Packager"
+msgstr ""
+
+msgid "Packages"
+msgstr ""
+
+msgid "Packages to keep:\n"
+msgstr ""
+
+msgid "Proceed with download?"
+msgstr ""
+
+msgid "Proceed with installation?"
+msgstr ""
+
+msgid "Processing package changes...\n"
+msgstr ""
+
+msgid "Provides"
+msgstr ""
+
+msgid "Replace %s with %s/%s?"
+msgstr ""
+
+msgid "Replaces"
+msgstr ""
+
+msgid "Repository"
+msgstr ""
+
+msgid "Repository %s%s\n"
+msgstr ""
+
+msgid "Required By"
+msgstr ""
+
+msgid "Retrieving packages...\n"
+msgstr ""
+
+msgid "Running post-transaction hooks...\n"
+msgstr ""
+
+msgid "Running pre-transaction hooks...\n"
+msgstr ""
+
+msgid "SHA-256 Sum"
+msgstr ""
+
+msgid "Signature"
+msgstr ""
+
+msgid "Signature error"
+msgstr ""
+
+msgid "Signatures"
+msgstr ""
+
+msgid "Starting full system upgrade...\n"
+msgstr ""
+
+msgid "Synchronizing package databases...\n"
+msgstr ""
+
+msgid ""
+"Test a pacman package for validity.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"The following package cannot be upgraded due to unresolvable dependencies:\n"
+"The following packages cannot be upgraded due to unresolvable dependencies:\n"
+msgstr ""
+
+msgid ""
+"There is %d member in group %s%s%s:\n"
+"There are %d members in group %s%s%s:\n"
+msgstr ""
+
+msgid ""
+"There is %zu provider available for %s\n"
+"There are %zu providers available for %s:\n"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total Download Size:"
+msgstr ""
+
+msgid "Total Installed Size:"
+msgstr ""
+
+msgid "Total Removed Size:"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Usage: testpkg <package file>\n"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Validated By"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Y"
+msgstr ""
+
+msgid "YES"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "[Y/n]"
+msgstr ""
+
+msgid "[ignored]"
+msgstr ""
+
+msgid "[y/N]"
+msgstr ""
+
+msgid "argument '-' specified with empty stdin\n"
+msgstr ""
+
+msgid "argument '-' specified without input on stdin\n"
+msgstr ""
+
+msgid "backup file"
+msgstr ""
+
+msgid "cannot initialize alpm: %s\n"
+msgstr ""
+
+msgid "checking available disk space"
+msgstr ""
+
+msgid "checking available disk space...\n"
+msgstr ""
+
+msgid "checking dependencies...\n"
+msgstr ""
+
+msgid "checking for file conflicts"
+msgstr ""
+
+msgid "checking for file conflicts...\n"
+msgstr ""
+
+msgid "checking keyring...\n"
+msgstr ""
+
+msgid "checking keys in keyring"
+msgstr ""
+
+msgid "checking package integrity"
+msgstr ""
+
+msgid "checking package integrity...\n"
+msgstr ""
+
+msgid "chroot to '%s' failed: (%s)\n"
+msgstr ""
+
+msgid "config file %s could not be read: %s\n"
+msgstr ""
+
+msgid "config file %s, line %d: '%s' option '%s' not recognized\n"
+msgstr ""
+
+msgid "config file %s, line %d: '%s' option invalid, no signature support\n"
+msgstr ""
+
+msgid "config file %s, line %d: All directives must belong to a section.\n"
+msgstr ""
+
+msgid ""
+"config file %s, line %d: directive '%s' in section '%s' not recognized.\n"
+msgstr ""
+
+msgid "config file %s, line %d: directive '%s' needs a value\n"
+msgstr ""
+
+msgid "config file %s, line %d: invalid value for '%s' : '%s'\n"
+msgstr ""
+
+msgid "config file %s, line %d: value for '%s' has to be positive : '%s'\n"
+msgstr ""
+
+msgid "config file %s, line %d: value for '%s' is too large : '%s'\n"
+msgstr ""
+
+msgid "config parsing exceeded max recursion depth of %d.\n"
+msgstr ""
+
+msgid "could not access cache directory %s\n"
+msgstr ""
+
+msgid "could not access database directory\n"
+msgstr ""
+
+msgid "could not add server URL to database '%s': %s (%s)\n"
+msgstr ""
+
+msgid "could not calculate checksums for %s\n"
+msgstr ""
+
+msgid "could not chdir to download directory %s\n"
+msgstr ""
+
+msgid "could not get current working directory\n"
+msgstr ""
+
+msgid "could not load package '%s': %s\n"
+msgstr ""
+
+msgid "could not lock database: %s\n"
+msgstr ""
+
+msgid "could not register '%s' database (%s)\n"
+msgstr ""
+
+msgid "could not remove %s: %s\n"
+msgstr ""
+
+msgid "could not rename %s to %s (%s)\n"
+msgstr ""
+
+msgid "could not restore working directory (%s)\n"
+msgstr ""
+
+msgid "could not set install reason for package %s (%s)\n"
+msgstr ""
+
+msgid "database '%s' is not valid (%s)\n"
+msgstr ""
+
+msgid "database not found: %s\n"
+msgstr ""
+
+msgid "downgrading"
+msgstr ""
+
+msgid "downgrading %s...\n"
+msgstr ""
+
+msgid "downloading required keys...\n"
+msgstr ""
+
+msgid "empty string passed to file owner query\n"
+msgstr ""
+
+msgid "error parsing '%s'\n"
+msgstr ""
+
+msgid "error releasing alpm\n"
+msgstr ""
+
+msgid "error setting rootdir '%s': out of memory\n"
+msgstr ""
+
+msgid "error: "
+msgstr ""
+
+msgid "error: directives may not be specified with %s\n"
+msgstr ""
+
+msgid "error: repo '%s' not configured\n"
+msgstr ""
+
+msgid "failed to allocate string\n"
+msgstr ""
+
+msgid "failed to commit transaction (%s)\n"
+msgstr ""
+
+msgid "failed to init transaction (%s)\n"
+msgstr ""
+
+msgid ""
+"failed to initialize alpm library:\n"
+"(root: %s, dbpath: %s)\n"
+"%s\n"
+msgstr ""
+
+msgid "failed to prepare transaction (%s)\n"
+msgstr ""
+
+msgid "failed to read arguments from stdin: (%s)\n"
+msgstr ""
+
+msgid "failed to release transaction (%s)\n"
+msgstr ""
+
+msgid "failed to reopen stdin for reading: (%s)\n"
+msgstr ""
+
+msgid "failed to synchronize all databases (%s)\n"
+msgstr ""
+
+msgid "file type not recognized: %s%s\n"
+msgstr ""
+
+msgid "file(s)"
+msgstr ""
+
+msgid "full trust"
+msgstr ""
+
+msgid "group '%s' was not found\n"
+msgstr ""
+
+msgid "installed"
+msgstr ""
+
+msgid "installing"
+msgstr ""
+
+msgid "installing %s (%s) breaks dependency '%s' required by %s\n"
+msgstr ""
+
+msgid "installing %s...\n"
+msgstr ""
+
+msgid "insufficient columns available for table display\n"
+msgstr ""
+
+msgid "invalid argument '%s' for %s\n"
+msgstr ""
+
+msgid "invalid number: %s\n"
+msgstr ""
+
+msgid "invalid option '-%c'\n"
+msgstr ""
+
+msgid "invalid option '--%s'\n"
+msgstr ""
+
+msgid "invalid option: '%s' and '%s' may not be used together\n"
+msgstr ""
+
+msgid "invalid package: '%s'\n"
+msgstr ""
+
+msgid "invalid regular expression '%s'\n"
+msgstr ""
+
+msgid "invalid value: %d is not between %d and %d\n"
+msgstr ""
+
+msgid "libalpm error: %s\n"
+msgstr ""
+
+msgid "loading package files"
+msgstr ""
+
+msgid "loading package files...\n"
+msgstr ""
+
+msgid "loading packages...\n"
+msgstr ""
+
+msgid "looking for conflicting packages...\n"
+msgstr ""
+
+msgid ""
+"malloc failure: could not allocate %zu byte\n"
+"malloc failure: could not allocate %zu bytes\n"
+msgstr ""
+
+msgid "marginal trust"
+msgstr ""
+
+msgid "mirror '%s' contains the '%s' variable, but no '%s' is defined.\n"
+msgstr ""
+
+msgid "never trust"
+msgstr ""
+
+msgid "no '%s' configured\n"
+msgstr ""
+
+msgid "no changelog available for '%s'.\n"
+msgstr ""
+
+msgid "no file was specified for --owns\n"
+msgstr ""
+
+msgid "no install reason specified (use -h for help)\n"
+msgstr ""
+
+msgid "no operation specified (use -h for help)\n"
+msgstr ""
+
+msgid "no targets specified (use -h for help)\n"
+msgstr ""
+
+msgid "no usable package repositories configured.\n"
+msgstr ""
+
+msgid "only one operation may be used at a time\n"
+msgstr ""
+
+msgid "operation"
+msgstr ""
+
+msgid "operations:\n"
+msgstr ""
+
+msgid "options"
+msgstr ""
+
+msgid "options:\n"
+msgstr ""
+
+msgid "package %s does not have a valid architecture\n"
+msgstr ""
+
+msgid "package '%s' was not found\n"
+msgstr ""
+
+msgid "package(s)"
+msgstr ""
+
+msgid "pacman-conf - query pacman's configuration file\n"
+msgstr ""
+
+msgid "path too long: %s%s\n"
+msgstr ""
+
+msgid "path too long: %s/\n"
+msgstr ""
+
+msgid "path too long: %slocal/%s-%s/%s\n"
+msgstr ""
+
+msgid "problem adding hookdir '%s' (%s)\n"
+msgstr ""
+
+msgid "problem setting gpgdir '%s' (%s)\n"
+msgstr ""
+
+msgid "problem setting logfile '%s' (%s)\n"
+msgstr ""
+
+msgid "reinstalling"
+msgstr ""
+
+msgid "reinstalling %s...\n"
+msgstr ""
+
+msgid "removal"
+msgstr ""
+
+msgid "removing"
+msgstr ""
+
+msgid "removing %s breaks dependency '%s' required by %s\n"
+msgstr ""
+
+msgid "removing %s...\n"
+msgstr ""
+
+msgid "removing all files from cache...\n"
+msgstr ""
+
+msgid "removing old packages from cache...\n"
+msgstr ""
+
+msgid "removing unused sync repositories...\n"
+msgstr ""
+
+msgid "repository \"%s\" was not found.\n"
+msgstr ""
+
+msgid "repository '%s' does not exist\n"
+msgstr ""
+
+msgid "resolving dependencies...\n"
+msgstr ""
+
+msgid "running XferCommand: fork failed!\n"
+msgstr ""
+
+msgid "skipping target: %s\n"
+msgstr ""
+
+msgid "target not found: %s\n"
+msgstr ""
+
+msgid "try running pacman-db-upgrade\n"
+msgstr ""
+
+msgid "unable to read symlink contents: %s\n"
+msgstr ""
+
+msgid "unable to satisfy dependency '%s' required by %s\n"
+msgstr ""
+
+msgid "unknown callback event type %d for %s\n"
+msgstr ""
+
+msgid "unknown trust"
+msgstr ""
+
+msgid "upgrading"
+msgstr ""
+
+msgid "upgrading %s...\n"
+msgstr ""
+
+msgid "usage"
+msgstr ""
+
+msgid "usage:  pacman-conf [options] [<directive>...]\n"
+msgstr ""
+
+msgid "warning: "
+msgstr ""
+
+msgid "warning: '%s' directives cannot be queried\n"
+msgstr ""
+
+msgid "warning: unknown directive '%s'\n"
+msgstr ""
+
+msgid "you cannot perform this operation unless you are root.\n"
+msgstr ""

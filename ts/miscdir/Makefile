@@ -140,3 +140,10 @@ install:
 	for i in ???_??; do install -Dm644 $$i/drumstick-drumgrid.qm $(DESTDIR)$(DATADIR)/drumstick/drumstick-drumgrid_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/converseen.qm $(DESTDIR)$(DATADIR)/converseen/loc/converseen_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/wemeet.qm $(DESTDIR)/opt/wemeet/bin/qt_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/dde-calendar-service.qm $(DESTDIR)$(DATADIR)/dde-calendar/translations/dde-calendar-service_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/dde-file-manager-app.qm $(DESTDIR)$(DATADIR)/dde-file-manager/translations/dde-file-manager-app_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/dde-file-manager-plugins.qm $(DESTDIR)$(DATADIR)/dde-file-manager/translations/dde-file-manager-plugins_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/dialogs.qm $(DESTDIR)$(DATADIR)/dde-control-center/translations/dialogs_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/keyboard.qm $(DESTDIR)$(DATADIR)/dde-control-center/translations/keyboard_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/recovery.qm $(DESTDIR)$(DATADIR)/dde-control-center/translations/recovery_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/reset-password-dialog.qm $(DESTDIR)$(DATADIR)/dde-control-center/translations/reset-password-dialog_$$i.qm; done

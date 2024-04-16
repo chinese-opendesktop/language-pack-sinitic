@@ -1,0 +1,350 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid ""
+"\n"
+"If no data directory (DATADIR) is specified, the environment variable "
+"PGDATA\n"
+"is used.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+
+msgid "  %s [OPTION] [DATADIR]\n"
+msgstr ""
+
+msgid "  -?, --help             show this help, then exit\n"
+msgstr ""
+
+msgid "  -V, --version          output version information, then exit\n"
+msgstr ""
+
+msgid " [-D, --pgdata=]DATADIR  data directory\n"
+msgstr ""
+
+msgid ""
+"%s displays control information of a PostgreSQL database cluster.\n"
+"\n"
+msgstr ""
+
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+msgid "64-bit integers"
+msgstr ""
+
+msgid "???"
+msgstr ""
+
+msgid "Backup end location:                  %X/%X\n"
+msgstr ""
+
+msgid "Backup start location:                %X/%X\n"
+msgstr ""
+
+msgid "Blocks per segment of large relation: %u\n"
+msgstr ""
+
+msgid "Bytes per WAL segment:                %u\n"
+msgstr ""
+
+msgid "Catalog version number:               %u\n"
+msgstr ""
+
+msgid "Data page checksum version:           %u\n"
+msgstr ""
+
+msgid "Database block size:                  %u\n"
+msgstr ""
+
+msgid "Database cluster state:               %s\n"
+msgstr ""
+
+msgid "Database system identifier:           %llu\n"
+msgstr ""
+
+msgid "Date/time type storage:               %s\n"
+msgstr ""
+
+msgid "End-of-backup record required:        %s\n"
+msgstr ""
+
+msgid "Fake LSN counter for unlogged rels:   %X/%X\n"
+msgstr ""
+
+msgid "Float8 argument passing:              %s\n"
+msgstr ""
+
+msgid "Latest checkpoint location:           %X/%X\n"
+msgstr ""
+
+msgid "Latest checkpoint's NextMultiOffset:  %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's NextMultiXactId:  %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's NextOID:          %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's NextXID:          %u:%u\n"
+msgstr ""
+
+msgid "Latest checkpoint's PrevTimeLineID:   %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's REDO WAL file:    %s\n"
+msgstr ""
+
+msgid "Latest checkpoint's REDO location:    %X/%X\n"
+msgstr ""
+
+msgid "Latest checkpoint's TimeLineID:       %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's full_page_writes: %s\n"
+msgstr ""
+
+msgid "Latest checkpoint's newestCommitTsXid:%u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestActiveXID:  %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestCommitTsXid:%u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestMulti's DB: %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestMultiXid:   %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestXID's DB:   %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestXID:        %u\n"
+msgstr ""
+
+msgid "Maximum columns in an index:          %u\n"
+msgstr ""
+
+msgid "Maximum data alignment:               %u\n"
+msgstr ""
+
+msgid "Maximum length of identifiers:        %u\n"
+msgstr ""
+
+msgid "Maximum size of a TOAST chunk:        %u\n"
+msgstr ""
+
+msgid "Min recovery ending loc's timeline:   %u\n"
+msgstr ""
+
+msgid "Minimum recovery ending location:     %X/%X\n"
+msgstr ""
+
+msgid "Mock authentication nonce:            %s\n"
+msgstr ""
+
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+
+msgid "Size of a large-object chunk:         %u\n"
+msgstr ""
+
+msgid ""
+"The WAL segment size stored in the file, %d byte, is not a power of two\n"
+"between 1 MB and 1 GB.  The file is corrupt and the results below are\n"
+"untrustworthy.\n"
+"\n"
+"The WAL segment size stored in the file, %d bytes, is not a power of two\n"
+"between 1 MB and 1 GB.  The file is corrupt and the results below are\n"
+"untrustworthy.\n"
+"\n"
+msgstr ""
+
+msgid "Time of latest checkpoint:            %s\n"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "WAL block size:                       %u\n"
+msgstr ""
+
+msgid ""
+"WARNING: Calculated CRC checksum does not match value stored in file.\n"
+"Either the file is corrupt, or it has a different layout than this program\n"
+"is expecting.  The results below are untrustworthy.\n"
+"\n"
+msgstr ""
+
+msgid "WARNING: invalid WAL segment size\n"
+msgstr ""
+
+msgid "by reference"
+msgstr ""
+
+msgid "by value"
+msgstr ""
+
+msgid "byte ordering mismatch"
+msgstr ""
+
+msgid "could not close file \"%s\": %m"
+msgstr ""
+
+msgid "could not fsync file \"%s\": %m"
+msgstr ""
+
+msgid "could not open file \"%s\" for reading: %m"
+msgstr ""
+
+msgid "could not open file \"%s\": %m"
+msgstr ""
+
+msgid "could not read file \"%s\": %m"
+msgstr ""
+
+msgid "could not read file \"%s\": read %d of %zu"
+msgstr ""
+
+msgid "could not write file \"%s\": %m"
+msgstr ""
+
+msgid "in archive recovery"
+msgstr ""
+
+msgid "in crash recovery"
+msgstr ""
+
+msgid "in production"
+msgstr ""
+
+msgid "max_connections setting:              %d\n"
+msgstr ""
+
+msgid "max_locks_per_xact setting:           %d\n"
+msgstr ""
+
+msgid "max_prepared_xacts setting:           %d\n"
+msgstr ""
+
+msgid "max_wal_senders setting:              %d\n"
+msgstr ""
+
+msgid "max_worker_processes setting:         %d\n"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "no data directory specified"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "pg_control last modified:             %s\n"
+msgstr ""
+
+msgid "pg_control version number:            %u\n"
+msgstr ""
+
+msgid ""
+"possible byte ordering mismatch\n"
+"The byte ordering used to store the pg_control file might not match the one\n"
+"used by this program.  In that case the results below would be incorrect, "
+"and\n"
+"the PostgreSQL installation would be incompatible with this data directory."
+msgstr ""
+
+msgid "shut down"
+msgstr ""
+
+msgid "shut down in recovery"
+msgstr ""
+
+msgid "shutting down"
+msgstr ""
+
+msgid "starting up"
+msgstr ""
+
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr ""
+
+msgid "track_commit_timestamp setting:       %s\n"
+msgstr ""
+
+msgid "unrecognized status code"
+msgstr ""
+
+msgid "unrecognized wal_level"
+msgstr ""
+
+msgid "wal_level setting:                    %s\n"
+msgstr ""
+
+msgid "wal_log_hints setting:                %s\n"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information."
+msgstr ""
+
+msgid "%s: could not open file \"%s\" for reading: %s\n"
+msgstr ""
+
+msgid "%s: could not read file \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: could not read file \"%s\": read %d of %d\n"
+msgstr ""
+
+msgid "%s: no data directory specified\n"
+msgstr ""
+
+msgid "%s: too many command-line arguments (first is \"%s\")\n"
+msgstr ""
+
+msgid "Database system identifier:           %s\n"
+msgstr ""
+
+msgid "Float4 argument passing:              %s\n"
+msgstr ""
+
+msgid "Report bugs to <pgsql-bugs@postgresql.org>.\n"
+msgstr ""
+
+msgid ""
+"WARNING: possible byte ordering mismatch\n"
+"The byte ordering used to store the pg_control file might not match the one\n"
+"used by this program.  In that case the results below would be incorrect, "
+"and\n"
+"the PostgreSQL installation would be incompatible with this data directory.\n"
+msgstr ""

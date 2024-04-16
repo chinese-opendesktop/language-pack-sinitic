@@ -1,0 +1,458 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"\n"
+"Values to be changed:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"\n"
+"If these values seem acceptable, use -f to force reset.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+msgid "      --wal-segsize=SIZE           size of WAL segments, in megabytes\n"
+msgstr ""
+
+msgid "  -?, --help                       show this help, then exit\n"
+msgstr ""
+
+msgid "  -O, --multixact-offset=OFFSET    set next multitransaction offset\n"
+msgstr ""
+
+msgid ""
+"  -V, --version                    output version information, then exit\n"
+msgstr ""
+
+msgid ""
+"  -c, --commit-timestamp-ids=XID,XID\n"
+"                                   set oldest and newest transactions "
+"bearing\n"
+"                                   commit timestamp (zero means no change)\n"
+msgstr ""
+
+msgid "  -e, --epoch=XIDEPOCH             set next transaction ID epoch\n"
+msgstr ""
+
+msgid "  -f, --force                      force update to be done\n"
+msgstr ""
+
+msgid ""
+"  -l, --next-wal-file=WALFILE      set minimum starting location for new "
+"WAL\n"
+msgstr ""
+
+msgid ""
+"  -m, --multixact-ids=MXID,MXID    set next and oldest multitransaction ID\n"
+msgstr ""
+
+msgid ""
+"  -n, --dry-run                    no update, just show what would be done\n"
+msgstr ""
+
+msgid "  -o, --next-oid=OID               set next OID\n"
+msgstr ""
+
+msgid "  -u, --oldest-transaction-id=XID  set oldest transaction ID\n"
+msgstr ""
+
+msgid "  -x, --next-transaction-id=XID    set next transaction ID\n"
+msgstr ""
+
+msgid " [-D, --pgdata=]DATADIR            data directory\n"
+msgstr ""
+
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+msgid ""
+"%s resets the PostgreSQL write-ahead log.\n"
+"\n"
+msgstr ""
+
+msgid "64-bit integers"
+msgstr ""
+
+msgid "Blocks per segment of large relation: %u\n"
+msgstr ""
+
+msgid "Bytes per WAL segment:                %u\n"
+msgstr ""
+
+msgid "Catalog version number:               %u\n"
+msgstr ""
+
+msgid ""
+"Current pg_control values:\n"
+"\n"
+msgstr ""
+
+msgid "Data page checksum version:           %u\n"
+msgstr ""
+
+msgid "Database block size:                  %u\n"
+msgstr ""
+
+msgid "Database system identifier:           %llu\n"
+msgstr ""
+
+msgid "Date/time type storage:               %s\n"
+msgstr ""
+
+msgid ""
+"File \"%s\" contains \"%s\", which is not compatible with this program's "
+"version \"%s\"."
+msgstr ""
+
+msgid "First log segment after reset:        %s\n"
+msgstr ""
+
+msgid "Float8 argument passing:              %s\n"
+msgstr ""
+
+msgid ""
+"Guessed pg_control values:\n"
+"\n"
+msgstr ""
+
+msgid ""
+"If you are sure the data directory path is correct, execute\n"
+"  touch %s\n"
+"and try again."
+msgstr ""
+
+msgid "Is a server running?  If not, delete the lock file and try again."
+msgstr ""
+
+msgid "Latest checkpoint's NextMultiOffset:  %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's NextMultiXactId:  %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's NextOID:          %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's NextXID:          %u:%u\n"
+msgstr ""
+
+msgid "Latest checkpoint's TimeLineID:       %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's full_page_writes: %s\n"
+msgstr ""
+
+msgid "Latest checkpoint's newestCommitTsXid:%u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestActiveXID:  %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestCommitTsXid:%u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestMulti's DB: %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestMultiXid:   %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestXID's DB:   %u\n"
+msgstr ""
+
+msgid "Latest checkpoint's oldestXID:        %u\n"
+msgstr ""
+
+msgid "Maximum columns in an index:          %u\n"
+msgstr ""
+
+msgid "Maximum data alignment:               %u\n"
+msgstr ""
+
+msgid "Maximum length of identifiers:        %u\n"
+msgstr ""
+
+msgid "Maximum size of a TOAST chunk:        %u\n"
+msgstr ""
+
+msgid "NextMultiOffset:                      %u\n"
+msgstr ""
+
+msgid "NextMultiXactId:                      %u\n"
+msgstr ""
+
+msgid "NextOID:                              %u\n"
+msgstr ""
+
+msgid "NextXID epoch:                        %u\n"
+msgstr ""
+
+msgid "NextXID:                              %u\n"
+msgstr ""
+
+msgid "OID (-o) must not be 0"
+msgstr ""
+
+msgid "OldestMulti's DB:                     %u\n"
+msgstr ""
+
+msgid "OldestMultiXid:                       %u\n"
+msgstr ""
+
+msgid "OldestXID's DB:                       %u\n"
+msgstr ""
+
+msgid "OldestXID:                            %u\n"
+msgstr ""
+
+msgid "Options:\n"
+msgstr ""
+
+msgid "Size of a large-object chunk:         %u\n"
+msgstr ""
+
+msgid ""
+"The database server was not shut down cleanly.\n"
+"Resetting the write-ahead log might cause data to be lost.\n"
+"If you want to proceed anyway, use -f to force reset.\n"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid ""
+"Usage:\n"
+"  %s [OPTION]... DATADIR\n"
+"\n"
+msgstr ""
+
+msgid "WAL block size:                       %u\n"
+msgstr ""
+
+msgid "Write-ahead log reset\n"
+msgstr ""
+
+msgid "You must run %s as the PostgreSQL superuser."
+msgstr ""
+
+msgid "argument of --wal-segsize must be a number"
+msgstr ""
+
+msgid "argument of --wal-segsize must be a power of 2 between 1 and 1024"
+msgstr ""
+
+msgid "by reference"
+msgstr ""
+
+msgid "by value"
+msgstr ""
+
+msgid "cannot be executed by \"root\""
+msgstr ""
+
+msgid "cannot create restricted tokens on this platform: error code %lu"
+msgstr ""
+
+msgid "could not allocate SIDs: error code %lu"
+msgstr ""
+
+msgid "could not change directory to \"%s\": %m"
+msgstr ""
+
+msgid "could not close directory \"%s\": %m"
+msgstr ""
+
+msgid "could not create restricted token: error code %lu"
+msgstr ""
+
+msgid "could not delete file \"%s\": %m"
+msgstr ""
+
+msgid "could not get exit code from subprocess: error code %lu"
+msgstr ""
+
+msgid "could not load library \"%s\": error code %lu"
+msgstr ""
+
+msgid "could not open directory \"%s\": %m"
+msgstr ""
+
+msgid "could not open file \"%s\" for reading: %m"
+msgstr ""
+
+msgid "could not open file \"%s\": %m"
+msgstr ""
+
+msgid "could not open process token: error code %lu"
+msgstr ""
+
+msgid "could not re-execute with restricted token: error code %lu"
+msgstr ""
+
+msgid "could not read directory \"%s\": %m"
+msgstr ""
+
+msgid "could not read file \"%s\": %m"
+msgstr ""
+
+msgid "could not read permissions of directory \"%s\": %m"
+msgstr ""
+
+msgid "could not start process for command \"%s\": error code %lu"
+msgstr ""
+
+msgid "could not write file \"%s\": %m"
+msgstr ""
+
+msgid "data directory is of wrong version"
+msgstr ""
+
+msgid "error: "
+msgstr ""
+
+msgid "fatal: "
+msgstr ""
+
+msgid "fsync error: %m"
+msgstr ""
+
+msgid "invalid argument for option %s"
+msgstr ""
+
+msgid "lock file \"%s\" exists"
+msgstr ""
+
+msgid "multitransaction ID (-m) must not be 0"
+msgstr ""
+
+msgid "multitransaction offset (-O) must not be -1"
+msgstr ""
+
+msgid "newestCommitTsXid:                    %u\n"
+msgstr ""
+
+msgid "no data directory specified"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "oldest multitransaction ID (-m) must not be 0"
+msgstr ""
+
+msgid "oldest transaction ID (-u) must be greater than or equal to %u"
+msgstr ""
+
+msgid "oldestCommitTsXid:                    %u\n"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "pg_control exists but has invalid CRC; proceed with caution"
+msgstr ""
+
+msgid "pg_control exists but is broken or wrong version; ignoring it"
+msgstr ""
+
+msgid ""
+"pg_control specifies invalid WAL segment size (%d byte); proceed with "
+"cautionpg_control specifies invalid WAL segment size (%d bytes); proceed "
+"with caution"
+msgstr ""
+
+msgid "pg_control version number:            %u\n"
+msgstr ""
+
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr ""
+
+msgid "transaction ID (-c) must be either 0 or greater than or equal to 2"
+msgstr ""
+
+msgid "transaction ID (-x) must be greater than or equal to %u"
+msgstr ""
+
+msgid "transaction ID epoch (-e) must not be -1"
+msgstr ""
+
+msgid "unexpected empty file \"%s\""
+msgstr ""
+
+msgid "warning: "
+msgstr ""
+
+msgid "      --wal-segsize=SIZE         size of WAL segments, in megabytes\n"
+msgstr ""
+
+msgid "  -?, --help                     show this help, then exit\n"
+msgstr ""
+
+msgid "  -O, --multixact-offset=OFFSET  set next multitransaction offset\n"
+msgstr ""
+
+msgid ""
+"  -V, --version                  output version information, then exit\n"
+msgstr ""
+
+msgid ""
+"  -c, --commit-timestamp-ids=XID,XID\n"
+"                                 set oldest and newest transactions bearing\n"
+"                                 commit timestamp (zero means no change)\n"
+msgstr ""
+
+msgid "  -e, --epoch=XIDEPOCH           set next transaction ID epoch\n"
+msgstr ""
+
+msgid "  -f, --force                    force update to be done\n"
+msgstr ""
+
+msgid ""
+"  -l, --next-wal-file=WALFILE    set minimum starting location for new WAL\n"
+msgstr ""
+
+msgid ""
+"  -m, --multixact-ids=MXID,MXID  set next and oldest multitransaction ID\n"
+msgstr ""
+
+msgid ""
+"  -n, --dry-run                  no update, just show what would be done\n"
+msgstr ""
+
+msgid "  -o, --next-oid=OID             set next OID\n"
+msgstr ""
+
+msgid "  -x, --next-transaction-id=XID  set next transaction ID\n"
+msgstr ""
+
+msgid " [-D, --pgdata=]DATADIR          data directory\n"
+msgstr ""
+
+msgid "transaction ID (-x) must not be 0"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information."
+msgstr ""
+
+msgid "detail: "
+msgstr ""
+
+msgid "hint: "
+msgstr ""

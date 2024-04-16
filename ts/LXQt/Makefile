@@ -9,5 +9,7 @@ build:
 	cd yue_TW; for i in *.ts; do lrelease-qt5 -silent $$i; done
 
 install:
-	cd cmn_TW; for i in *.qm; do install -Dm644 $$i $(DESTDIR)$(DATADIR)/$${i%.qm}/translations/$${i%.qm}_cmn_TW.qm; done
-	cd yue_TW; for i in *.qm; do install -Dm644 $$i $(DESTDIR)$(DATADIR)/$${i%.qm}/translations/$${i%.qm}_yue_TW.qm; done
+	cd cmn_TW; for i in l*.qm; do install -Dm644 $$i $(DESTDIR)$(DATADIR)/lxqt/translations/$${i%.qm}/$${i%.qm}_cmn_TW.qm; done
+	cd yue_TW; for i in l*.qm; do install -Dm644 $$i $(DESTDIR)$(DATADIR)/lxqt/translations/$${i%.qm}/$${i%.qm}_yue_TW.qm; done
+	cd cmn_TW; for i in [!l]*.qm; do install -Dm644 $$i $(DESTDIR)$(DATADIR)/lxqt/translations/lxqt-panel/$${i%.qm}/$${i%.qm}_cmn_TW.qm; done
+	cd yue_TW; for i in [!l]*.qm; do install -Dm644 $$i $(DESTDIR)$(DATADIR)/lxqt/translations/lxqt-panel/$${i%.qm}/$${i%.qm}_yue_TW.qm; done

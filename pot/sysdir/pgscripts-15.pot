@@ -1,0 +1,830 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid ""
+"\n"
+"By default, a database with the same name as the current user is created.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Connection options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Read the description of the SQL command CLUSTER for details.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Read the description of the SQL command REINDEX for details.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Read the description of the SQL command VACUUM for details.\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+msgid ""
+"      --analyze-in-stages         only update optimizer statistics, in "
+"multiple\n"
+"                                  stages for faster results; no vacuum\n"
+msgstr ""
+
+msgid "      --concurrently           reindex concurrently\n"
+msgstr ""
+
+msgid "      --disable-page-skipping     disable all page-skipping behavior\n"
+msgstr ""
+
+msgid ""
+"      --force-index-cleanup       always remove index entries that point to "
+"dead tuples\n"
+msgstr ""
+
+msgid "      --lc-collate=LOCALE      LC_COLLATE setting for the database\n"
+msgstr ""
+
+msgid "      --lc-ctype=LOCALE        LC_CTYPE setting for the database\n"
+msgstr ""
+
+msgid ""
+"      --min-mxid-age=MXID_AGE     minimum multixact ID age of tables to "
+"vacuum\n"
+msgstr ""
+
+msgid ""
+"      --min-xid-age=XID_AGE       minimum transaction ID age of tables to "
+"vacuum\n"
+msgstr ""
+
+msgid ""
+"      --no-index-cleanup          don't remove index entries that point to "
+"dead tuples\n"
+msgstr ""
+
+msgid ""
+"      --no-process-toast          skip the TOAST table associated with the "
+"table to vacuum\n"
+msgstr ""
+
+msgid ""
+"      --no-truncate               don't truncate empty pages at the end of "
+"the table\n"
+msgstr ""
+
+msgid ""
+"      --skip-locked               skip relations that cannot be immediately "
+"locked\n"
+msgstr ""
+
+msgid "      --tablespace=TABLESPACE  tablespace where indexes are rebuilt\n"
+msgstr ""
+
+msgid "  %s [OPTION]...\n"
+msgstr ""
+
+msgid "  %s [OPTION]... DBNAME\n"
+msgstr ""
+
+msgid "  %s [OPTION]... [DBNAME]\n"
+msgstr ""
+
+msgid "  %s [OPTION]... [DBNAME] [DESCRIPTION]\n"
+msgstr ""
+
+msgid "  %s [OPTION]... [ROLENAME]\n"
+msgstr ""
+
+msgid ""
+"  --if-exists               don't report error if database doesn't exist\n"
+msgstr ""
+
+msgid "  --if-exists               don't report error if user doesn't exist\n"
+msgstr ""
+
+msgid ""
+"  --interactive             prompt for missing role name and attributes "
+"rather\n"
+"                            than using defaults\n"
+msgstr ""
+
+msgid "  --maintenance-db=DBNAME      alternate maintenance database\n"
+msgstr ""
+
+msgid "  --maintenance-db=DBNAME   alternate maintenance database\n"
+msgstr ""
+
+msgid "  --no-replication          role cannot initiate replication\n"
+msgstr ""
+
+msgid "  --replication             role can initiate replication\n"
+msgstr ""
+
+msgid "  -?, --help                      show this help, then exit\n"
+msgstr ""
+
+msgid "  -?, --help                   show this help, then exit\n"
+msgstr ""
+
+msgid "  -?, --help                show this help, then exit\n"
+msgstr ""
+
+msgid "  -?, --help               show this help, then exit\n"
+msgstr ""
+
+msgid "  -D, --no-createdb         role cannot create databases (default)\n"
+msgstr ""
+
+msgid "  -D, --tablespace=TABLESPACE  default tablespace for the database\n"
+msgstr ""
+
+msgid "  -E, --encoding=ENCODING      encoding for the database\n"
+msgstr ""
+
+msgid "  -F, --freeze                    freeze row transaction information\n"
+msgstr ""
+
+msgid "  -I, --no-inherit          role does not inherit privileges\n"
+msgstr ""
+
+msgid "  -L, --no-login            role cannot login\n"
+msgstr ""
+
+msgid "  -O, --owner=OWNER            database user to own the new database\n"
+msgstr ""
+
+msgid ""
+"  -P, --parallel=PARALLEL_WORKERS use this many background workers for "
+"vacuum, if available\n"
+msgstr ""
+
+msgid "  -P, --pwprompt            assign a password to new role\n"
+msgstr ""
+
+msgid "  -R, --no-createrole       role cannot create roles (default)\n"
+msgstr ""
+
+msgid "  -S, --no-superuser        role will not be superuser (default)\n"
+msgstr ""
+
+msgid "  -S, --schema=SCHEMA          reindex specific schema(s) only\n"
+msgstr ""
+
+msgid "  -T, --template=TEMPLATE      template database to copy\n"
+msgstr ""
+
+msgid "  -U, --username=USERNAME      user name to connect as\n"
+msgstr ""
+
+msgid "  -U, --username=USERNAME   user name to connect as\n"
+msgstr ""
+
+msgid ""
+"  -U, --username=USERNAME   user name to connect as (not the one to create)\n"
+msgstr ""
+
+msgid ""
+"  -U, --username=USERNAME   user name to connect as (not the one to drop)\n"
+msgstr ""
+
+msgid "  -U, --username=USERNAME  user name to connect as\n"
+msgstr ""
+
+msgid ""
+"  -V, --version                   output version information, then exit\n"
+msgstr ""
+
+msgid "  -V, --version                output version information, then exit\n"
+msgstr ""
+
+msgid "  -V, --version             output version information, then exit\n"
+msgstr ""
+
+msgid "  -V, --version            output version information, then exit\n"
+msgstr ""
+
+msgid "  -W, --password               force password prompt\n"
+msgstr ""
+
+msgid "  -W, --password            force password prompt\n"
+msgstr ""
+
+msgid ""
+"  -Z, --analyze-only              only update optimizer statistics; no "
+"vacuum\n"
+msgstr ""
+
+msgid "  -a, --all                       vacuum all databases\n"
+msgstr ""
+
+msgid "  -a, --all                    reindex all databases\n"
+msgstr ""
+
+msgid "  -a, --all                 cluster all databases\n"
+msgstr ""
+
+msgid ""
+"  -c, --connection-limit=N  connection limit for role (default: no limit)\n"
+msgstr ""
+
+msgid "  -d, --createdb            role can create new databases\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME             database to vacuum\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME          database to reindex\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME       database to cluster\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME      database name\n"
+msgstr ""
+
+msgid ""
+"  -e, --echo                      show the commands being sent to the "
+"server\n"
+msgstr ""
+
+msgid ""
+"  -e, --echo                   show the commands being sent to the server\n"
+msgstr ""
+
+msgid ""
+"  -e, --echo                show the commands being sent to the server\n"
+msgstr ""
+
+msgid ""
+"  -f, --force               try to terminate other connections before "
+"dropping\n"
+msgstr ""
+
+msgid "  -f, --full                      do full vacuuming\n"
+msgstr ""
+
+msgid "  -g, --role=ROLE           new role will be a member of this role\n"
+msgstr ""
+
+msgid ""
+"  -h, --host=HOSTNAME          database server host or socket directory\n"
+msgstr ""
+
+msgid "  -h, --host=HOSTNAME       database server host or socket directory\n"
+msgstr ""
+
+msgid "  -h, --host=HOSTNAME      database server host or socket directory\n"
+msgstr ""
+
+msgid "  -i, --index=INDEX            recreate specific index(es) only\n"
+msgstr ""
+
+msgid ""
+"  -i, --inherit             role inherits privileges of roles it is a\n"
+"                            member of (default)\n"
+msgstr ""
+
+msgid "  -i, --interactive         prompt before deleting anything\n"
+msgstr ""
+
+msgid ""
+"  -i, --interactive         prompt before deleting anything, and prompt for\n"
+"                            role name if not specified\n"
+msgstr ""
+
+msgid ""
+"  -j, --jobs=NUM                  use this many concurrent connections to "
+"vacuum\n"
+msgstr ""
+
+msgid ""
+"  -j, --jobs=NUM               use this many concurrent connections to "
+"reindex\n"
+msgstr ""
+
+msgid "  -l, --locale=LOCALE          locale settings for the database\n"
+msgstr ""
+
+msgid "  -l, --login               role can login (default)\n"
+msgstr ""
+
+msgid "  -p, --port=PORT              database server port\n"
+msgstr ""
+
+msgid "  -p, --port=PORT           database server port\n"
+msgstr ""
+
+msgid "  -p, --port=PORT          database server port\n"
+msgstr ""
+
+msgid "  -q, --quiet                     don't write any messages\n"
+msgstr ""
+
+msgid "  -q, --quiet                  don't write any messages\n"
+msgstr ""
+
+msgid "  -q, --quiet               don't write any messages\n"
+msgstr ""
+
+msgid "  -q, --quiet              run quietly\n"
+msgstr ""
+
+msgid "  -r, --createrole          role can create new roles\n"
+msgstr ""
+
+msgid "  -s, --superuser           role will be superuser\n"
+msgstr ""
+
+msgid "  -s, --system                 reindex system catalogs\n"
+msgstr ""
+
+msgid "  -t, --table='TABLE[(COLUMNS)]'  vacuum specific table(s) only\n"
+msgstr ""
+
+msgid "  -t, --table=TABLE            reindex specific table(s) only\n"
+msgstr ""
+
+msgid "  -t, --table=TABLE         cluster specific table(s) only\n"
+msgstr ""
+
+msgid ""
+"  -t, --timeout=SECS       seconds to wait when attempting connection, 0 "
+"disables (default: %s)\n"
+msgstr ""
+
+msgid "  -v, --verbose                   write a lot of output\n"
+msgstr ""
+
+msgid "  -v, --verbose                write a lot of output\n"
+msgstr ""
+
+msgid "  -v, --verbose             write a lot of output\n"
+msgstr ""
+
+msgid "  -w, --no-password            never prompt for password\n"
+msgstr ""
+
+msgid "  -w, --no-password         never prompt for password\n"
+msgstr ""
+
+msgid "  -z, --analyze                   update optimizer statistics\n"
+msgstr ""
+
+msgid "\"%s\" is not a valid encoding name"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "%s (%s/%s) "
+msgstr ""
+
+msgid ""
+"%s cleans and analyzes a PostgreSQL database.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s clusters all previously clustered tables in a database.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s creates a PostgreSQL database.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s creates a new PostgreSQL role.\n"
+"\n"
+msgstr ""
+
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+msgid ""
+"%s issues a connection check to a PostgreSQL database.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s reindexes a PostgreSQL database.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s removes a PostgreSQL database.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s removes a PostgreSQL role.\n"
+"\n"
+msgstr ""
+
+msgid "%s: clustering database \"%s\"\n"
+msgstr ""
+
+msgid "%s: processing database \"%s\": %s\n"
+msgstr ""
+
+msgid "%s: reindexing database \"%s\"\n"
+msgstr ""
+
+msgid "%s: vacuuming database \"%s\"\n"
+msgstr ""
+
+msgid "(%lu row)(%lu rows)"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Cancel request sent\n"
+msgstr ""
+
+msgid "Cannot add cell to table content: total cell count of %d exceeded.\n"
+msgstr ""
+
+msgid "Cannot add header to table content: column count of %d exceeded.\n"
+msgstr ""
+
+msgid "Could not send cancel request: "
+msgstr ""
+
+msgid "Database \"%s\" will be permanently removed.\n"
+msgstr ""
+
+msgid "Enter it again: "
+msgstr ""
+
+msgid "Enter name of role to add: "
+msgstr ""
+
+msgid "Enter name of role to drop: "
+msgstr ""
+
+msgid "Enter password for new role: "
+msgstr ""
+
+msgid "Generating default (full) optimizer statistics"
+msgstr ""
+
+msgid "Generating medium optimizer statistics (10 targets)"
+msgstr ""
+
+msgid "Generating minimal optimizer statistics (1 target)"
+msgstr ""
+
+msgid "Interrupted\n"
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Passwords didn't match.\n"
+msgstr ""
+
+msgid "Please answer \"%s\" or \"%s\".\n"
+msgstr ""
+
+msgid "Role \"%s\" will be permanently removed.\n"
+msgstr ""
+
+msgid "Shall the new role be a superuser?"
+msgstr ""
+
+msgid "Shall the new role be allowed to create databases?"
+msgstr ""
+
+msgid "Shall the new role be allowed to create more new roles?"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information.\n"
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "accepting connections\n"
+msgstr ""
+
+msgid "cannot cluster all databases and a specific one at the same time"
+msgstr ""
+
+msgid "cannot cluster specific table(s) in all databases"
+msgstr ""
+
+msgid "cannot duplicate null pointer (internal error)\n"
+msgstr ""
+
+msgid "cannot reindex all databases and a specific one at the same time"
+msgstr ""
+
+msgid "cannot reindex all databases and system catalogs at the same time"
+msgstr ""
+
+msgid "cannot reindex specific index(es) and system catalogs at the same time"
+msgstr ""
+
+msgid "cannot reindex specific index(es) in all databases"
+msgstr ""
+
+msgid "cannot reindex specific schema(s) and system catalogs at the same time"
+msgstr ""
+
+msgid "cannot reindex specific schema(s) in all databases"
+msgstr ""
+
+msgid "cannot reindex specific table(s) and system catalogs at the same time"
+msgstr ""
+
+msgid "cannot reindex specific table(s) in all databases"
+msgstr ""
+
+msgid "cannot reindex system catalogs concurrently, skipping all"
+msgstr ""
+
+msgid "cannot use multiple jobs to reindex indexes"
+msgstr ""
+
+msgid "cannot use multiple jobs to reindex system catalogs"
+msgstr ""
+
+msgid ""
+"cannot use the \"%s\" option on server versions older than PostgreSQL %s"
+msgstr ""
+
+msgid "cannot use the \"%s\" option when performing full vacuum"
+msgstr ""
+
+msgid "cannot use the \"%s\" option when performing only analyze"
+msgstr ""
+
+msgid "cannot use the \"%s\" option with the \"%s\" option"
+msgstr ""
+
+msgid "cannot vacuum all databases and a specific one at the same time"
+msgstr ""
+
+msgid "cannot vacuum specific table(s) in all databases"
+msgstr ""
+
+msgid "clustering of database \"%s\" failed: %s"
+msgstr ""
+
+msgid "clustering of table \"%s\" in database \"%s\" failed: %s"
+msgstr ""
+
+msgid "comment creation failed (database was created): %s"
+msgstr ""
+
+msgid "could not connect to database %s: out of memory"
+msgstr ""
+
+msgid "could not fetch default options"
+msgstr ""
+
+msgid "could not look up effective user ID %ld: %s"
+msgstr ""
+
+msgid "creation of new role failed: %s"
+msgstr ""
+
+msgid "database creation failed: %s"
+msgstr ""
+
+msgid "database removal failed: %s"
+msgstr ""
+
+msgid "error: "
+msgstr ""
+
+msgid "fatal: "
+msgstr ""
+
+msgid "invalid output format (internal error): %d"
+msgstr ""
+
+msgid "invalid value for --connection-limit: %s"
+msgstr ""
+
+msgid "minimum multixact ID age must be at least 1"
+msgstr ""
+
+msgid "minimum transaction ID age must be at least 1"
+msgstr ""
+
+msgid "missing required argument database name"
+msgstr ""
+
+msgid "missing required argument role name"
+msgstr ""
+
+msgid "n"
+msgstr ""
+
+msgid "no attempt\n"
+msgstr ""
+
+msgid "no response\n"
+msgstr ""
+
+msgid "number of parallel jobs must be at least 1"
+msgstr ""
+
+msgid "only one of --locale and --lc-collate can be specified"
+msgstr ""
+
+msgid "only one of --locale and --lc-ctype can be specified"
+msgstr ""
+
+msgid "out of memory\n"
+msgstr ""
+
+msgid "parallel workers for vacuum must be greater than or equal to zero"
+msgstr ""
+
+msgid "password encryption failed: %s"
+msgstr ""
+
+msgid "processing of database \"%s\" failed: %s"
+msgstr ""
+
+msgid "query failed: %s"
+msgstr ""
+
+msgid ""
+"query returned %d row instead of one: %squery returned %d rows instead of "
+"one: %s"
+msgstr ""
+
+msgid "query was: %s"
+msgstr ""
+
+msgid "reindexing of database \"%s\" failed: %s"
+msgstr ""
+
+msgid "reindexing of index \"%s\" in database \"%s\" failed: %s"
+msgstr ""
+
+msgid "reindexing of schema \"%s\" in database \"%s\" failed: %s"
+msgstr ""
+
+msgid "reindexing of system catalogs in database \"%s\" failed: %s"
+msgstr ""
+
+msgid "reindexing of table \"%s\" in database \"%s\" failed: %s"
+msgstr ""
+
+msgid "rejecting connections\n"
+msgstr ""
+
+msgid "removal of role \"%s\" failed: %s"
+msgstr ""
+
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr ""
+
+msgid "too many jobs for this platform"
+msgstr ""
+
+msgid "unknown\n"
+msgstr ""
+
+msgid "user does not exist"
+msgstr ""
+
+msgid "user name lookup failure: error code %lu"
+msgstr ""
+
+msgid "vacuuming of database \"%s\" failed: %s"
+msgstr ""
+
+msgid "vacuuming of table \"%s\" in database \"%s\" failed: %s"
+msgstr ""
+
+msgid "warning: "
+msgstr ""
+
+msgid "y"
+msgstr ""
+
+msgid "      --concurrently        reindex concurrently\n"
+msgstr ""
+
+msgid ""
+"  -P, --parallel=PARALLEL_DEGREE  use this many background workers for "
+"vacuum, if available\n"
+msgstr ""
+
+msgid "  -S, --schema=SCHEMA       reindex specific schema(s) only\n"
+msgstr ""
+
+msgid "  -a, --all                 reindex all databases\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME       database to reindex\n"
+msgstr ""
+
+msgid "  -i, --index=INDEX         recreate specific index(es) only\n"
+msgstr ""
+
+msgid ""
+"  -j, --jobs=NUM            use this many concurrent connections to reindex\n"
+msgstr ""
+
+msgid "  -s, --system              reindex system catalogs\n"
+msgstr ""
+
+msgid "  -t, --table=TABLE         reindex specific table(s) only\n"
+msgstr ""
+
+msgid "Could not send cancel request: %s"
+msgstr ""
+
+msgid "could not connect to database %s: %s"
+msgstr ""
+
+msgid "parallel vacuum degree must be a non-negative integer"
+msgstr ""
+
+msgid "too many jobs for this platform -- try %d"
+msgstr ""
+
+msgid "      --icu-locale=LOCALE      ICU locale setting for the database\n"
+msgstr ""
+
+msgid ""
+"      --locale-provider={libc|icu}\n"
+"                               locale provider for the database's default "
+"collation\n"
+msgstr ""
+
+msgid ""
+"  -S, --strategy=STRATEGY      database creation strategy wal_log or "
+"file_copy\n"
+msgstr ""
+
+msgid "  -s, --system                 reindex system catalogs only\n"
+msgstr ""
+
+msgid "%s must be in range %d..%d"
+msgstr ""
+
+msgid "Query was: %s"
+msgstr ""
+
+msgid "Try \"%s --help\" for more information."
+msgstr ""
+
+msgid "detail: "
+msgstr ""
+
+msgid "hint: "
+msgstr ""
+
+msgid "invalid value \"%s\" for option %s"
+msgstr ""
+
+msgid ""
+"\n"
+"Report bugs to <pgsql-bugs@lists.postgresql.org>.\n"
+msgstr ""
+
+msgid ""
+"cannot use the \"%s\" option on server versions older than PostgreSQL 12"
+msgstr ""
+
+msgid ""
+"cannot use the \"%s\" option on server versions older than PostgreSQL 9.6"
+msgstr ""
+
+msgid "reindexing of system catalogs failed: %s"
+msgstr ""
+
+msgid "too many parallel jobs requested (maximum: %d)"
+msgstr ""

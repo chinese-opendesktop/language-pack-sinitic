@@ -41,6 +41,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/humanize.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/humanize/locale/$$i/LC_MESSAGES/humanize.mo; done
 	for i in ???_??; do install -Dm644 $$i/mu.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/mu/locale/$$i/LC_MESSAGES/mu.mo; done
 	for i in ???_??; do install -Dm644 $$i/thonny.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/thonny/locale/$$i/LC_MESSAGES/thonny.mo; done
+	for i in ???_??; do install -Dm644 $$i/nbui.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/notebook/i18n/$$i/LC_MESSAGES/nbui.mo; done
 	for i in ???_??; do install -Dm644 $$i/notebook.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/notebook/i18n/$$i/LC_MESSAGES/notebook.mo; done
 	for i in ???_??; do install -Dm644 $$i/safeeyes.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/safeeyes/config/locale/$$i/LC_MESSAGES/safeeyes.mo; done
 	for i in ???_??; do install -Dm644 $$i/phpmyadmin.mo $(DESTDIR)$(DATADIR)/phpMyAdmin/locale/$$i/LC_MESSAGES/phpmyadmin.mo; done
@@ -48,4 +49,15 @@ install:
 	for i in ???_??; do install -Dm644 $$i/phpldapadmin.mo $(DESTDIR)$(DATADIR)/phpldapadmin/locale/$$i/LC_MESSAGES/messages.mo; done
 	for i in ???_??; do install -Dm644 $$i/frontend.mo $(DESTDIR)$(DATADIR)/zabbix/locale/$$i/LC_MESSAGES/frontend.mo; done
 	for i in ???_??; do install -Dm644 $$i/PrusaSlicer.mo $(DESTDIR)$(DATADIR)/PrusaSlicer/localization/$$i/PrusaSlicer.mo; done
-	for i in ???_??; do install -Dm644 $$i/vim.mo $(DESTDIR)$(DATADIR)/vim/vim82/lang/$$i/LC_MESSAGES/vim.mo; done
+	for i in ???_??; do install -Dm644 $$i/vim.mo $(DESTDIR)$(DATADIR)/vim/vim91/lang/$$i/LC_MESSAGES/vim.mo; done
+	for i in ???_??; do install -Dm644 $$i/R-nnet.mo $(DESTDIR)$(LIBDIR)/R/library/nnet/po/$$i/LC_MESSAGES/R-nnet.mo; done
+	for i in ???_??; do install -Dm644 $$i/R-spatial.mo $(DESTDIR)$(LIBDIR)/R/library/spatial/po/$$i/LC_MESSAGES/R-spatial.mo; done
+	for i in ???_??; do install -Dm644 $$i/R-class.mo $(DESTDIR)$(LIBDIR)/R/library/class/po/$$i/LC_MESSAGES/R-class.mo; done
+	for i in ???_??; do install -Dm644 $$i/R-MASS.mo $(DESTDIR)$(LIBDIR)/R/library/MASS/po/$$i/LC_MESSAGES/R-MASS.mo; done
+	for i in ???_??; do install -Dm644 $$i/R-Matrix.mo $(DESTDIR)$(LIBDIR)/R/library/Matrix/po/$$i/LC_MESSAGES/R-Matrix.mo; done
+	for i in ???_??; do install -Dm644 $$i/Matrix.mo $(DESTDIR)$(LIBDIR)/R/library/Matrix/po/$$i/LC_MESSAGES/Matrix.mo; done
+	for i in ???_??; do install -Dm644 $$i/R-mgcv.mo $(DESTDIR)$(LIBDIR)/R/library/mgcv/po/$$i/LC_MESSAGES/R-mgcv.mo; done
+	for i in ???_??; do install -Dm644 $$i/mgcv.mo $(DESTDIR)$(LIBDIR)/R/library/mgcv/po/$$i/LC_MESSAGES/mgcv.mo; done
+	for i in ???_??; do install -Dm644 $$i/ardour6.mo $(DESTDIR)$(DATADIR)/ardour6/locale/$$i/LC_MESSAGES/ardour6.mo; done
+	for i in ???_??; do install -Dm644 $$i/gtkmm2ext3.mo $(DESTDIR)$(DATADIR)/ardour6/locale/$$i/LC_MESSAGES/gtkmm2ext3.mo; done
+	for i in ???_??; do install -Dm644 $$i/gtk2_ardour6.mo $(DESTDIR)$(DATADIR)/ardour6/locale/$$i/LC_MESSAGES/gtk2_ardour6.mo; done

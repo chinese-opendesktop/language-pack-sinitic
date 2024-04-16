@@ -1,0 +1,1125 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"\n"
+"Action to be performed:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Connection options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"General options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Optional actions:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Options controlling the output:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+msgid ""
+"      --create-slot      create a new replication slot (for the slot's name "
+"see --slot)\n"
+msgstr ""
+
+msgid ""
+"      --drop-slot        drop the replication slot (for the slot's name see "
+"--slot)\n"
+msgstr ""
+
+msgid ""
+"      --if-not-exists    do not error if slot already exists when creating a "
+"slot\n"
+msgstr ""
+
+msgid ""
+"      --manifest-checksums=SHA{224,256,384,512}|CRC32C|NONE\n"
+"                         use algorithm for manifest checksums\n"
+msgstr ""
+
+msgid ""
+"      --manifest-force-encode\n"
+"                         hex encode all file names in manifest\n"
+msgstr ""
+
+msgid "      --no-estimate-size do not estimate backup size in server side\n"
+msgstr ""
+
+msgid "      --no-manifest      suppress generation of backup manifest\n"
+msgstr ""
+
+msgid ""
+"      --no-slot          prevent creation of temporary replication slot\n"
+msgstr ""
+
+msgid ""
+"      --no-sync          do not wait for changes to be written safely to "
+"disk\n"
+msgstr ""
+
+msgid ""
+"      --no-verify-checksums\n"
+"                         do not verify checksums\n"
+msgstr ""
+
+msgid ""
+"      --start            start streaming in a replication slot (for the "
+"slot's name see --slot)\n"
+msgstr ""
+
+msgid ""
+"      --synchronous      flush write-ahead log immediately after writing\n"
+msgstr ""
+
+msgid "      --waldir=WALDIR    location for the write-ahead log directory\n"
+msgstr ""
+
+msgid "  %s [OPTION]...\n"
+msgstr ""
+
+msgid "  -?, --help             show this help, then exit\n"
+msgstr ""
+
+msgid "  -C, --create-slot      create replication slot\n"
+msgstr ""
+
+msgid ""
+"  -D, --directory=DIR    receive write-ahead log files into this directory\n"
+msgstr ""
+
+msgid "  -D, --pgdata=DIRECTORY receive base backup into directory\n"
+msgstr ""
+
+msgid "  -E, --endpos=LSN       exit after receiving the specified LSN\n"
+msgstr ""
+
+msgid ""
+"  -F  --fsync-interval=SECS\n"
+"                         time between fsyncs to the output file (default: "
+"%d)\n"
+msgstr ""
+
+msgid "  -F, --format=p|t       output format (plain (default), tar)\n"
+msgstr ""
+
+msgid ""
+"  -I, --startpos=LSN     where in an existing slot should the streaming "
+"start\n"
+msgstr ""
+
+msgid ""
+"  -N, --no-sync          do not wait for changes to be written safely to "
+"disk\n"
+msgstr ""
+
+msgid "  -P, --plugin=PLUGIN    use output plugin PLUGIN (default: %s)\n"
+msgstr ""
+
+msgid "  -P, --progress         show progress information\n"
+msgstr ""
+
+msgid ""
+"  -R, --write-recovery-conf\n"
+"                         write configuration for replication\n"
+msgstr ""
+
+msgid "  -S, --slot=SLOTNAME    name of the logical replication slot\n"
+msgstr ""
+
+msgid "  -S, --slot=SLOTNAME    replication slot to use\n"
+msgstr ""
+
+msgid ""
+"  -T, --tablespace-mapping=OLDDIR=NEWDIR\n"
+"                         relocate tablespace in OLDDIR to NEWDIR\n"
+msgstr ""
+
+msgid "  -U, --username=NAME    connect as specified database user\n"
+msgstr ""
+
+msgid "  -V, --version          output version information, then exit\n"
+msgstr ""
+
+msgid ""
+"  -W, --password         force password prompt (should happen "
+"automatically)\n"
+msgstr ""
+
+msgid ""
+"  -X, --wal-method=none|fetch|stream\n"
+"                         include required WAL files with specified method\n"
+msgstr ""
+
+msgid ""
+"  -Z, --compress=METHOD[:DETAIL]\n"
+"                         compress as specified\n"
+msgstr ""
+
+msgid ""
+"  -Z, --compress=[{client|server}-]METHOD[:DETAIL]\n"
+"                         compress on client or server as specified\n"
+msgstr ""
+
+msgid "  -Z, --compress=none    do not compress tar output\n"
+msgstr ""
+
+msgid ""
+"  -c, --checkpoint=fast|spread\n"
+"                         set fast or spread checkpointing\n"
+msgstr ""
+
+msgid "  -d, --dbname=CONNSTR   connection string\n"
+msgstr ""
+
+msgid "  -d, --dbname=DBNAME    database to connect to\n"
+msgstr ""
+
+msgid "  -f, --file=FILE        receive log into this file, - for stdout\n"
+msgstr ""
+
+msgid "  -h, --host=HOSTNAME    database server host or socket directory\n"
+msgstr ""
+
+msgid "  -l, --label=LABEL      set backup label\n"
+msgstr ""
+
+msgid "  -n, --no-clean         do not clean up after errors\n"
+msgstr ""
+
+msgid "  -n, --no-loop          do not loop on connection lost\n"
+msgstr ""
+
+msgid ""
+"  -o, --option=NAME[=VALUE]\n"
+"                         pass option NAME with optional value VALUE to the\n"
+"                         output plugin\n"
+msgstr ""
+
+msgid "  -p, --port=PORT        database server port number\n"
+msgstr ""
+
+msgid ""
+"  -r, --max-rate=RATE    maximum transfer rate to transfer data directory\n"
+"                         (in kB/s, or use suffix \"k\" or \"M\")\n"
+msgstr ""
+
+msgid ""
+"  -s, --status-interval=INTERVAL\n"
+"                         time between status packets sent to server (in "
+"seconds)\n"
+msgstr ""
+
+msgid ""
+"  -s, --status-interval=SECS\n"
+"                         time between status packets sent to server "
+"(default: %d)\n"
+msgstr ""
+
+msgid ""
+"  -t, --target=TARGET[:DETAIL]\n"
+"                         backup target (if other than client)\n"
+msgstr ""
+
+msgid ""
+"  -t, --two-phase        enable decoding of prepared transactions when "
+"creating a slot\n"
+msgstr ""
+
+msgid "  -v, --verbose          output verbose messages\n"
+msgstr ""
+
+msgid "  -w, --no-password      never prompt for password\n"
+msgstr ""
+
+msgid "  -z, --gzip             compress tar output\n"
+msgstr ""
+
+msgid "%*s/%s kB (%d%%), %d/%d tablespace%*s/%s kB (%d%%), %d/%d tablespaces"
+msgstr ""
+
+msgid ""
+"%*s/%s kB (%d%%), %d/%d tablespace (%s%-*.*s)%*s/%s kB (%d%%), %d/%d "
+"tablespaces (%s%-*.*s)"
+msgstr ""
+
+msgid ""
+"%*s/%s kB (100%%), %d/%d tablespace %*s%*s/%s kB (100%%), %d/%d tablespaces "
+"%*s"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "%s and %s are incompatible options"
+msgstr ""
+
+msgid ""
+"%s controls PostgreSQL logical decoding streams.\n"
+"\n"
+msgstr ""
+
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+msgid "%s must be in range %d..%d"
+msgstr ""
+
+msgid "%s needs a slot to be specified using --slot"
+msgstr ""
+
+msgid ""
+"%s receives PostgreSQL streaming write-ahead logs.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"%s takes a base backup of a running PostgreSQL server.\n"
+"\n"
+msgstr ""
+
+msgid "%s() failed: %m"
+msgstr ""
+
+msgid "--endpos may only be specified with --start"
+msgstr ""
+
+msgid "--no-slot cannot be used with slot name"
+msgstr ""
+
+msgid "--two-phase may only be specified with --create-slot"
+msgstr ""
+
+msgid "COPY stream ended before last file was finished"
+msgstr ""
+
+msgid "Only tar archives can be parsed."
+msgstr ""
+
+msgid "Password: "
+msgstr ""
+
+msgid "Plain format requires pg_basebackup to parse the archive."
+msgstr ""
+
+msgid "The -R option requires pg_basebackup to parse the archive."
+msgstr ""
+
+msgid "Try \"%s --help\" for more information."
+msgstr ""
+
+msgid "Usage:\n"
+msgstr ""
+
+msgid "Use -X none or -X fetch to disable log streaming."
+msgstr ""
+
+msgid ""
+"Use client-side compression, send the output to a directory rather than "
+"standard output, or use %s."
+msgstr ""
+
+msgid ""
+"Using - as the output directory requires pg_basebackup to parse the archive."
+msgstr ""
+
+msgid "WAL cannot be streamed when a backup target is specified"
+msgstr ""
+
+msgid "WAL directory \"%s\" not removed at user's request"
+msgstr ""
+
+msgid "WAL directory location can only be specified in plain mode"
+msgstr ""
+
+msgid "WAL directory location cannot be specified along with a backup target"
+msgstr ""
+
+msgid "WAL directory location must be an absolute path"
+msgstr ""
+
+msgid "WAL segment size could not be parsed"
+msgstr ""
+
+msgid ""
+"WAL segment size must be a power of two between 1 MB and 1 GB, but the "
+"remote server reported a value of %d byteWAL segment size must be a power of "
+"two between 1 MB and 1 GB, but the remote server reported a value of %d bytes"
+msgstr ""
+
+msgid "archives must precede manifest"
+msgstr ""
+
+msgid "at least one action needs to be specified"
+msgstr ""
+
+msgid "background process terminated unexpectedly"
+msgstr ""
+
+msgid "backup failed: %s"
+msgstr ""
+
+msgid "backup targets are not supported by this server version"
+msgstr ""
+
+msgid "base backup completed"
+msgstr ""
+
+msgid "can only write single tablespace to stdout, database has %d"
+msgstr ""
+
+msgid ""
+"cannot check file \"%s\": compression with %s not supported by this build"
+msgstr ""
+
+msgid "cannot duplicate null pointer (internal error)\n"
+msgstr ""
+
+msgid "cannot inject manifest into a compressed tar file"
+msgstr ""
+
+msgid "cannot parse archive \"%s\""
+msgstr ""
+
+msgid "cannot specify both format and backup target"
+msgstr ""
+
+msgid "cannot specify both output directory and backup target"
+msgstr ""
+
+msgid "cannot stream write-ahead logs in tar mode to stdout"
+msgstr ""
+
+msgid "cannot use --create-slot or --drop-slot together with --startpos"
+msgstr ""
+
+msgid "cannot use --create-slot or --start together with --drop-slot"
+msgstr ""
+
+msgid "cannot use --create-slot together with --drop-slot"
+msgstr ""
+
+msgid "cannot use --synchronous together with --no-sync"
+msgstr ""
+
+msgid "changes to tablespace directories will not be undone"
+msgstr ""
+
+msgid "checkpoint completed"
+msgstr ""
+
+msgid "checksum error occurred"
+msgstr ""
+
+msgid "child %d died, expected %d"
+msgstr ""
+
+msgid "child thread exited with error %u"
+msgstr ""
+
+msgid ""
+"client-side compression is not possible when a backup target is specified"
+msgstr ""
+
+msgid ""
+"compressed segment file \"%s\" has incorrect uncompressed size %d, skipping"
+msgstr ""
+
+msgid ""
+"compressed segment file \"%s\" has incorrect uncompressed size %zu, skipping"
+msgstr ""
+
+msgid "compression algorithm \"%s\" does not accept a compression level"
+msgstr ""
+
+msgid "compression algorithm \"%s\" does not accept a worker count"
+msgstr ""
+
+msgid ""
+"compression algorithm \"%s\" expects a compression level between %d and %d "
+"(default at %d)"
+msgstr ""
+
+msgid "compression option \"%s\" requires a value"
+msgstr ""
+
+msgid "compression with %s is not yet supported"
+msgstr ""
+
+msgid "confirming write up to %X/%X, flush to %X/%X (slot %s)"
+msgstr ""
+
+msgid "could not access directory \"%s\": %m"
+msgstr ""
+
+msgid "could not change compression parameters"
+msgstr ""
+
+msgid "could not clear search_path: %s"
+msgstr ""
+
+msgid "could not close archive status file \"%s\": %s"
+msgstr ""
+
+msgid "could not close compressed file \"%s\": %m"
+msgstr ""
+
+msgid "could not close compression stream"
+msgstr ""
+
+msgid "could not close directory \"%s\": %m"
+msgstr ""
+
+msgid "could not close file \"%s\": %m"
+msgstr ""
+
+msgid "could not close file \"%s\": %s"
+msgstr ""
+
+msgid "could not compress data"
+msgstr ""
+
+msgid "could not compress data: %s"
+msgstr ""
+
+msgid "could not connect to server"
+msgstr ""
+
+msgid "could not create LZ4 decompression context: %s"
+msgstr ""
+
+msgid "could not create archive status file \"%s\": %s"
+msgstr ""
+
+msgid "could not create background process: %m"
+msgstr ""
+
+msgid "could not create background thread: %m"
+msgstr ""
+
+msgid "could not create compressed file \"%s\": %m"
+msgstr ""
+
+msgid "could not create directory \"%s\": %m"
+msgstr ""
+
+msgid "could not create file \"%s\": %m"
+msgstr ""
+
+msgid "could not create lz4 compression context: %s"
+msgstr ""
+
+msgid "could not create pipe for background process: %m"
+msgstr ""
+
+msgid ""
+"could not create replication slot \"%s\": got %d rows and %d fields, "
+"expected %d rows and %d fields"
+msgstr ""
+
+msgid "could not create symbolic link \"%s\": %m"
+msgstr ""
+
+msgid "could not create symbolic link from \"%s\" to \"%s\": %m"
+msgstr ""
+
+msgid "could not create tar header"
+msgstr ""
+
+msgid "could not create timeline history file \"%s\": %s"
+msgstr ""
+
+msgid "could not create zstd compression context"
+msgstr ""
+
+msgid "could not create zstd decompression context"
+msgstr ""
+
+msgid "could not decompress data: %s"
+msgstr ""
+
+msgid "could not decompress file \"%s\": %s"
+msgstr ""
+
+msgid "could not determine seek position in file \"%s\": %s"
+msgstr ""
+
+msgid "could not determine server setting for integer_datetimes"
+msgstr ""
+
+msgid ""
+"could not drop replication slot \"%s\": got %d rows and %d fields, expected "
+"%d rows and %d fields"
+msgstr ""
+
+msgid "could not duplicate stdout: %m"
+msgstr ""
+
+msgid "could not end lz4 compression: %s"
+msgstr ""
+
+msgid "could not establish database-specific replication connection"
+msgstr ""
+
+msgid ""
+"could not fetch WAL segment size: got %d rows and %d fields, expected %d "
+"rows and %d or more fields"
+msgstr ""
+
+msgid ""
+"could not fetch group access flag: got %d rows and %d fields, expected %d "
+"rows and %d or more fields"
+msgstr ""
+
+msgid "could not finish writing WAL files: %m"
+msgstr ""
+
+msgid "could not free LZ4 decompression context: %s"
+msgstr ""
+
+msgid "could not fsync existing write-ahead log file \"%s\": %s"
+msgstr ""
+
+msgid "could not fsync file \"%s\": %m"
+msgstr ""
+
+msgid "could not fsync file \"%s\": %s"
+msgstr ""
+
+msgid "could not get COPY data stream: %s"
+msgstr ""
+
+msgid "could not get backup header: %s"
+msgstr ""
+
+msgid "could not get child thread exit status: %m"
+msgstr ""
+
+msgid "could not get size of write-ahead log file \"%s\": %s"
+msgstr ""
+
+msgid ""
+"could not identify system: got %d rows and %d fields, expected %d rows and "
+"%d or more fields"
+msgstr ""
+
+msgid "could not initialize compression library"
+msgstr ""
+
+msgid "could not initialize compression library: %s"
+msgstr ""
+
+msgid "could not initiate base backup: %s"
+msgstr ""
+
+msgid "could not open compressed file \"%s\": %m"
+msgstr ""
+
+msgid "could not open directory \"%s\": %m"
+msgstr ""
+
+msgid "could not open existing write-ahead log file \"%s\": %s"
+msgstr ""
+
+msgid "could not open file \"%s\": %m"
+msgstr ""
+
+msgid "could not open log file \"%s\": %m"
+msgstr ""
+
+msgid "could not open output file: %m"
+msgstr ""
+
+msgid "could not open write-ahead log file \"%s\": %s"
+msgstr ""
+
+msgid "could not parse end position \"%s\""
+msgstr ""
+
+msgid "could not parse next timeline's starting point \"%s\""
+msgstr ""
+
+msgid "could not parse restart_lsn \"%s\" for replication slot \"%s\""
+msgstr ""
+
+msgid "could not parse start position \"%s\""
+msgstr ""
+
+msgid "could not parse write-ahead log location \"%s\""
+msgstr ""
+
+msgid "could not read COPY data: %s"
+msgstr ""
+
+msgid "could not read compressed file \"%s\": %m"
+msgstr ""
+
+msgid "could not read compressed file \"%s\": read %d of %zu"
+msgstr ""
+
+msgid "could not read directory \"%s\": %m"
+msgstr ""
+
+msgid "could not read file \"%s\": %m"
+msgstr ""
+
+msgid "could not read from ready pipe: %m"
+msgstr ""
+
+msgid ""
+"could not read replication slot \"%s\": got %d rows and %d fields, expected "
+"%d rows and %d fields"
+msgstr ""
+
+msgid "could not receive data from WAL stream: %s"
+msgstr ""
+
+msgid "could not rename file \"%s\" to \"%s\": %m"
+msgstr ""
+
+msgid "could not reset compression stream"
+msgstr ""
+
+msgid "could not seek in compressed file \"%s\": %m"
+msgstr ""
+
+msgid "could not send command to background pipe: %m"
+msgstr ""
+
+msgid "could not send copy-end packet: %s"
+msgstr ""
+
+msgid "could not send feedback packet: %s"
+msgstr ""
+
+msgid "could not send replication command \"%s\": %s"
+msgstr ""
+
+msgid "could not set compression level %d: %s"
+msgstr ""
+
+msgid "could not set compression worker count to %d: %s"
+msgstr ""
+
+msgid "could not set permissions on directory \"%s\": %m"
+msgstr ""
+
+msgid "could not set permissions on file \"%s\": %m"
+msgstr ""
+
+msgid "could not set zstd compression level to %d: %s"
+msgstr ""
+
+msgid "could not stat file \"%s\": %m"
+msgstr ""
+
+msgid "could not wait for child process: %m"
+msgstr ""
+
+msgid "could not wait for child thread: %m"
+msgstr ""
+
+msgid "could not write %d bytes to WAL file \"%s\": %s"
+msgstr ""
+
+msgid "could not write %d bytes to log file \"%s\": %m"
+msgstr ""
+
+msgid "could not write lz4 header: %s"
+msgstr ""
+
+msgid "could not write timeline history file \"%s\": %s"
+msgstr ""
+
+msgid "could not write to compressed file \"%s\": %s"
+msgstr ""
+
+msgid "could not write to file \"%s\": %m"
+msgstr ""
+
+msgid "created replication slot \"%s\""
+msgstr ""
+
+msgid "created temporary replication slot \"%s\""
+msgstr ""
+
+msgid "creating replication slot \"%s\""
+msgstr ""
+
+msgid "data directory \"%s\" not removed at user's request"
+msgstr ""
+
+msgid "detail: "
+msgstr ""
+
+msgid "directory \"%s\" exists but is not empty"
+msgstr ""
+
+msgid "directory name too long"
+msgstr ""
+
+msgid "disconnected"
+msgstr ""
+
+msgid "disconnected; waiting %d seconds to try again"
+msgstr ""
+
+msgid "dropping replication slot \"%s\""
+msgstr ""
+
+msgid "empty COPY message"
+msgstr ""
+
+msgid "end position %X/%X reached by WAL record at %X/%X"
+msgstr ""
+
+msgid "end position %X/%X reached by keepalive"
+msgstr ""
+
+msgid "error: "
+msgstr ""
+
+msgid "expected a physical replication slot, got type \"%s\" instead"
+msgstr ""
+
+msgid "failed to remove WAL directory"
+msgstr ""
+
+msgid "failed to remove contents of WAL directory"
+msgstr ""
+
+msgid "failed to remove contents of data directory"
+msgstr ""
+
+msgid "failed to remove data directory"
+msgstr ""
+
+msgid "final receive failed: %s"
+msgstr ""
+
+msgid "finished segment at %X/%X (timeline %u)"
+msgstr ""
+
+msgid "found empty string where a compression option was expected"
+msgstr ""
+
+msgid "got WAL data offset %08x, expected %08x"
+msgstr ""
+
+msgid "group access flag could not be parsed: %s"
+msgstr ""
+
+msgid "hint: "
+msgstr ""
+
+msgid "implementation error: tar files can't have more than one open file"
+msgstr ""
+
+msgid "incompatible server version %s"
+msgstr ""
+
+msgid ""
+"incompatible server version %s; client does not support streaming from "
+"server versions newer than %s"
+msgstr ""
+
+msgid ""
+"incompatible server version %s; client does not support streaming from "
+"server versions older than %s"
+msgstr ""
+
+msgid "initiating base backup, waiting for checkpoint to complete"
+msgstr ""
+
+msgid "integer_datetimes compile flag does not match server"
+msgstr ""
+
+msgid "invalid --max-rate unit: \"%s\""
+msgstr ""
+
+msgid "invalid archive name: \"%s\""
+msgstr ""
+
+msgid "invalid checkpoint argument \"%s\", must be \"fast\" or \"spread\""
+msgstr ""
+
+msgid "invalid compression specification: %s"
+msgstr ""
+
+msgid "invalid output format \"%s\", must be \"plain\" or \"tar\""
+msgstr ""
+
+msgid "invalid socket: %s"
+msgstr ""
+
+msgid "invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\""
+msgstr ""
+
+msgid "invalid transfer rate \"%s\": %m"
+msgstr ""
+
+msgid "invalid value \"%s\" for option %s"
+msgstr ""
+
+msgid ""
+"invalid wal-method option \"%s\", must be \"fetch\", \"stream\", or \"none\""
+msgstr ""
+
+msgid "malformed COPY message of type %d, length %zu"
+msgstr ""
+
+msgid "multiple \"=\" signs in tablespace mapping"
+msgstr ""
+
+msgid "must specify output directory or backup target"
+msgstr ""
+
+msgid "new directory is not an absolute path in tablespace mapping: %s"
+msgstr ""
+
+msgid "no data returned from server"
+msgstr ""
+
+msgid "no database specified"
+msgstr ""
+
+msgid "no slot specified"
+msgstr ""
+
+msgid "no target directory specified"
+msgstr ""
+
+msgid "no target file specified"
+msgstr ""
+
+msgid "no write-ahead log end position returned from server"
+msgstr ""
+
+msgid "not renaming \"%s\", segment is not complete"
+msgstr ""
+
+msgid "old directory is not an absolute path in tablespace mapping: %s"
+msgstr ""
+
+msgid "only tar mode backups can be compressed"
+msgstr ""
+
+msgid "out of memory"
+msgstr ""
+
+msgid "out of memory\n"
+msgstr ""
+
+msgid "received interrupt signal, exiting"
+msgstr ""
+
+msgid "received write-ahead log record for offset %u with no file open"
+msgstr ""
+
+msgid "recovery configuration cannot be written when a backup target is used"
+msgstr ""
+
+msgid "removing WAL directory \"%s\""
+msgstr ""
+
+msgid "removing contents of WAL directory \"%s\""
+msgstr ""
+
+msgid "removing contents of data directory \"%s\""
+msgstr ""
+
+msgid "removing data directory \"%s\""
+msgstr ""
+
+msgid "renaming backup_manifest.tmp to backup_manifest"
+msgstr ""
+
+msgid ""
+"replication connection using slot \"%s\" is unexpectedly database specific"
+msgstr ""
+
+msgid "replication slot \"%s\" does not exist"
+msgstr ""
+
+msgid "replication slots can only be used with WAL streaming"
+msgstr ""
+
+msgid "replication stream was terminated before stop point"
+msgstr ""
+
+msgid "segment file \"%s\" has incorrect size %lld, skipping"
+msgstr ""
+
+msgid "server does not support server-side compression"
+msgstr ""
+
+msgid "server reported unexpected history file name for timeline %u: %s"
+msgstr ""
+
+msgid "server reported unexpected next timeline %u, following timeline %u"
+msgstr ""
+
+msgid ""
+"server returned unexpected response to BASE_BACKUP command; got %d rows and "
+"%d fields, expected %d rows and %d fields"
+msgstr ""
+
+msgid ""
+"server stopped streaming timeline %u at %X/%X, but reported next timeline %u "
+"to begin at %X/%X"
+msgstr ""
+
+msgid "starting background WAL receiver"
+msgstr ""
+
+msgid "starting log streaming at %X/%X (slot %s)"
+msgstr ""
+
+msgid "starting log streaming at %X/%X (timeline %u)"
+msgstr ""
+
+msgid "starting timeline %u is not present in the server"
+msgstr ""
+
+msgid "stopped log streaming at %X/%X (timeline %u)"
+msgstr ""
+
+msgid "streaming header too small: %d"
+msgstr ""
+
+msgid "streaming initiated"
+msgstr ""
+
+msgid "switched to timeline %u at %X/%X"
+msgstr ""
+
+msgid "symlinks are not supported on this platform"
+msgstr ""
+
+msgid "syncing data to disk ..."
+msgstr ""
+
+msgid ""
+"system identifier does not match between base backup and streaming connection"
+msgstr ""
+
+msgid "tar file trailer exceeds 2 blocks"
+msgstr ""
+
+msgid "tar member has empty name"
+msgstr ""
+
+msgid "this build does not support compression with %s"
+msgstr ""
+
+msgid "this build does not support gzip compression"
+msgstr ""
+
+msgid "this build does not support lz4 compression"
+msgstr ""
+
+msgid "this build does not support zstd compression"
+msgstr ""
+
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr ""
+
+msgid "transfer rate \"%s\" exceeds integer range"
+msgstr ""
+
+msgid "transfer rate \"%s\" is not a valid value"
+msgstr ""
+
+msgid "transfer rate \"%s\" is out of range"
+msgstr ""
+
+msgid "transfer rate must be greater than zero"
+msgstr ""
+
+msgid "unexpected payload data"
+msgstr ""
+
+msgid ""
+"unexpected response to TIMELINE_HISTORY command: got %d rows and %d fields, "
+"expected %d rows and %d fields"
+msgstr ""
+
+msgid ""
+"unexpected result set after end-of-timeline: got %d rows and %d fields, "
+"expected %d rows and %d fields"
+msgstr ""
+
+msgid "unexpected state while extracting archive"
+msgstr ""
+
+msgid "unexpected state while injecting recovery settings"
+msgstr ""
+
+msgid "unexpected state while parsing tar archive"
+msgstr ""
+
+msgid "unexpected termination of replication stream: %s"
+msgstr ""
+
+msgid "unlink not supported with compression"
+msgstr ""
+
+msgid "unrecognized compression algorithm: \"%s\""
+msgstr ""
+
+msgid "unrecognized compression option: \"%s\""
+msgstr ""
+
+msgid "unrecognized streaming header: \"%c\""
+msgstr ""
+
+msgid "value for compression option \"%s\" must be an integer"
+msgstr ""
+
+msgid "waiting for background process to finish streaming ..."
+msgstr ""
+
+msgid "waiting for checkpoint"
+msgstr ""
+
+msgid "warning: "
+msgstr ""
+
+msgid "write-ahead log end point: %s"
+msgstr ""
+
+msgid ""
+"write-ahead log file \"%s\" has %zd byte, should be 0 or %dwrite-ahead log "
+"file \"%s\" has %zd bytes, should be 0 or %d"
+msgstr ""
+
+msgid "write-ahead log start point: %s on timeline %u"
+msgstr ""
