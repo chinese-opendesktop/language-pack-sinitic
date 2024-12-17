@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU cpio 2.14\n"
+"Project-Id-Version: GNU cpio 2.15\n"
 "Report-Msgid-Bugs-To: bug-cpio@gnu.org\n"
-"POT-Creation-Date: 2023-05-01 21:04+0300\n"
+"POT-Creation-Date: 2024-01-14 13:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,35 +52,35 @@ msgstr ""
 msgid "Garbage in ARGP_HELP_FMT: %s"
 msgstr ""
 
-#: gnu/argp-help.c:1363
+#: gnu/argp-help.c:1368
 msgid ""
 "Mandatory or optional arguments to long options are also mandatory or "
 "optional for any corresponding short options."
 msgstr ""
 
-#: gnu/argp-help.c:1729
+#: gnu/argp-help.c:1734
 msgid "Usage:"
 msgstr ""
 
-#: gnu/argp-help.c:1733
+#: gnu/argp-help.c:1738
 msgid "  or: "
 msgstr ""
 
-#: gnu/argp-help.c:1745
+#: gnu/argp-help.c:1750
 msgid " [OPTION...]"
 msgstr ""
 
-#: gnu/argp-help.c:1772
+#: gnu/argp-help.c:1777
 #, c-format
 msgid "Try '%s --help' or '%s --usage' for more information.\n"
 msgstr ""
 
-#: gnu/argp-help.c:1800
+#: gnu/argp-help.c:1805
 #, c-format
 msgid "Report bugs to %s.\n"
 msgstr ""
 
-#: gnu/argp-help.c:2001 gnu/error.c:193
+#: gnu/argp-help.c:2006 gnu/error.c:194
 msgid "Unknown system error"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid "give a short usage message"
 msgstr ""
 
-#: gnu/argp-parse.c:82 tests/genfile.c:130
+#: gnu/argp-parse.c:82 tests/genfile.c:134
 msgid "NAME"
 msgstr ""
 
@@ -130,42 +130,42 @@ msgstr ""
 msgid "write error"
 msgstr ""
 
-#: gnu/getopt.c:278
+#: gnu/getopt.c:282
 #, c-format
 msgid "%s: option '%s%s' is ambiguous\n"
 msgstr ""
 
-#: gnu/getopt.c:284
+#: gnu/getopt.c:288
 #, c-format
 msgid "%s: option '%s%s' is ambiguous; possibilities:"
 msgstr ""
 
-#: gnu/getopt.c:319
+#: gnu/getopt.c:322
 #, c-format
 msgid "%s: unrecognized option '%s%s'\n"
 msgstr ""
 
-#: gnu/getopt.c:345
+#: gnu/getopt.c:348
 #, c-format
 msgid "%s: option '%s%s' doesn't allow an argument\n"
 msgstr ""
 
-#: gnu/getopt.c:360
+#: gnu/getopt.c:363
 #, c-format
 msgid "%s: option '%s%s' requires an argument\n"
 msgstr ""
 
-#: gnu/getopt.c:621
+#: gnu/getopt.c:624
 #, c-format
 msgid "%s: invalid option -- '%c'\n"
 msgstr ""
 
-#: gnu/getopt.c:636 gnu/getopt.c:682
+#: gnu/getopt.c:639 gnu/getopt.c:685
 #, c-format
 msgid "%s: option requires an argument -- '%c'\n"
 msgstr ""
 
-#: gnu/obstack.c:337 gnu/obstack.c:339 gnu/xalloc-die.c:34
+#: gnu/obstack.c:317 gnu/obstack.c:319 gnu/xalloc-die.c:34
 msgid "memory exhausted"
 msgstr ""
 
@@ -515,7 +515,7 @@ msgstr ""
 msgid "Manipulate a tape drive, accepting commands from a remote process"
 msgstr ""
 
-#: rmt/rmt.c:698 src/main.c:130 tests/genfile.c:167
+#: rmt/rmt.c:698 src/main.c:130 tests/genfile.c:179
 msgid "NUMBER"
 msgstr ""
 
@@ -523,9 +523,9 @@ msgstr ""
 msgid "set debug level"
 msgstr ""
 
-#: rmt/rmt.c:700 src/main.c:167 src/main.c:173 tests/genfile.c:132
-#: tests/genfile.c:181 tests/genfile.c:185 tests/genfile.c:188
-#: tests/genfile.c:194
+#: rmt/rmt.c:700 src/main.c:167 src/main.c:173 tests/genfile.c:136
+#: tests/genfile.c:193 tests/genfile.c:197 tests/genfile.c:200
+#: tests/genfile.c:206
 msgid "FILE"
 msgstr ""
 
@@ -538,7 +538,7 @@ msgstr ""
 msgid "cannot open %s"
 msgstr ""
 
-#: rmt/rmt.c:782 tests/genfile.c:997
+#: rmt/rmt.c:782 tests/genfile.c:1036
 #, c-format
 msgid "too many arguments"
 msgstr ""
@@ -564,7 +564,7 @@ msgstr ""
 msgid "%s: stored filename length is out of range"
 msgstr ""
 
-#: src/copyin.c:175 src/copyin.c:521 src/copyin.c:536 src/copyin.c:1536
+#: src/copyin.c:175 src/copyin.c:521 src/copyin.c:536 src/copyin.c:1552
 #, c-format
 msgid "%s: checksum error (0x%x, should be 0x%x)"
 msgstr ""
@@ -579,7 +579,7 @@ msgstr ""
 msgid "cannot remove current %s"
 msgstr ""
 
-#: src/copyin.c:273 src/copyin.c:469 src/copyin.c:584 src/copypass.c:388
+#: src/copyin.c:273 src/copyin.c:469 src/copyin.c:584 src/copypass.c:395
 #, c-format
 msgid "cannot link %s to %s"
 msgstr ""
@@ -594,47 +594,47 @@ msgstr ""
 msgid "cannot swap bytes of %s: odd number of bytes"
 msgstr ""
 
-#: src/copyin.c:842 src/copyout.c:826 src/copypass.c:308
+#: src/copyin.c:858 src/copyout.c:826 src/copypass.c:315
 #, c-format
 msgid "%s: unknown file type"
 msgstr ""
 
-#: src/copyin.c:999 src/copyin.c:1006
+#: src/copyin.c:1015 src/copyin.c:1022
 #, c-format
 msgid "Malformed number %.*s"
 msgstr ""
 
-#: src/copyin.c:1016
+#: src/copyin.c:1032
 #, c-format
 msgid "Archive value %.*s is out of range"
 msgstr ""
 
-#: src/copyin.c:1055
+#: src/copyin.c:1071
 #, c-format
 msgid "premature end of archive"
 msgstr ""
 
-#: src/copyin.c:1154
+#: src/copyin.c:1170
 #, c-format
 msgid "malformed header: file name of zero length"
 msgstr ""
 
-#: src/copyin.c:1162
+#: src/copyin.c:1178
 #, c-format
 msgid "malformed header: file name is not nul-terminated"
 msgstr ""
 
-#: src/copyin.c:1284
+#: src/copyin.c:1300
 #, c-format
 msgid "warning: archive header has reverse byte-order"
 msgstr ""
 
-#: src/copyin.c:1421
+#: src/copyin.c:1437
 #, c-format
 msgid "standard input is closed"
 msgstr ""
 
-#: src/copyin.c:1594 src/copyout.c:868 src/copypass.c:326
+#: src/copyin.c:1610 src/copyout.c:868 src/copypass.c:333
 #, c-format
 msgid "%lu block\n"
 msgid_plural "%lu blocks\n"
@@ -752,7 +752,7 @@ msgstr ""
 msgid "%s: symbolic link too long"
 msgstr ""
 
-#: src/copypass.c:383
+#: src/copypass.c:390
 #, c-format
 msgid "%s linked to %s"
 msgstr ""
@@ -811,7 +811,7 @@ msgstr ""
 msgid "Archive file is local, even if its name contains colons"
 msgstr ""
 
-#: src/main.c:120 tests/genfile.c:154
+#: src/main.c:120 tests/genfile.c:158
 msgid "FORMAT"
 msgstr ""
 
@@ -888,7 +888,7 @@ msgid ""
 "HOST specify the user and host names in case of a remote archive"
 msgstr ""
 
-#: src/main.c:151 tests/genfile.c:170
+#: src/main.c:151 tests/genfile.c:182
 msgid "STRING"
 msgstr ""
 
@@ -896,7 +896,7 @@ msgstr ""
 msgid "Print STRING when the end of a volume of the backup media is reached"
 msgstr ""
 
-#: src/main.c:154 src/mt.c:181 tests/genfile.c:191
+#: src/main.c:154 src/mt.c:181 tests/genfile.c:203
 msgid "COMMAND"
 msgstr ""
 
@@ -1283,276 +1283,291 @@ msgstr ""
 msgid "internal error: tape descriptor changed from %d to %d"
 msgstr ""
 
-#: src/util.c:1491
+#: src/util.c:1492
 #, c-format
 msgid "%s is not a directory"
 msgstr ""
 
-#: src/util.c:1511
+#: src/util.c:1512
 #, c-format
 msgid "Creating directory `%s'"
 msgstr ""
 
-#: src/util.c:1518
+#: src/util.c:1519
 #, c-format
 msgid "cannot change to directory `%s'"
 msgstr ""
 
-#: tests/genfile.c:111
+#: tests/genfile.c:115
 msgid ""
 "genfile manipulates data files for GNU paxutils test suite.\n"
 "OPTIONS are:\n"
 msgstr ""
 
-#: tests/genfile.c:127
+#: tests/genfile.c:131
 msgid "File creation options:"
 msgstr ""
 
-#: tests/genfile.c:128 tests/genfile.c:139
+#: tests/genfile.c:132 tests/genfile.c:143
 msgid "SIZE"
 msgstr ""
 
-#: tests/genfile.c:129
+#: tests/genfile.c:133
 msgid "Create file of the given SIZE"
 msgstr ""
 
-#: tests/genfile.c:131
+#: tests/genfile.c:135
 msgid "Write to file NAME, instead of standard output"
 msgstr ""
 
-#: tests/genfile.c:133
+#: tests/genfile.c:137
 msgid "Read file names from FILE"
 msgstr ""
 
-#: tests/genfile.c:135
+#: tests/genfile.c:139
 msgid "-T reads null-terminated names"
 msgstr ""
 
-#: tests/genfile.c:136
+#: tests/genfile.c:140
 msgid "PATTERN"
 msgstr ""
 
-#: tests/genfile.c:137
+#: tests/genfile.c:141
 msgid "Fill the file with the given PATTERN. PATTERN is 'default' or 'zeros'"
 msgstr ""
 
-#: tests/genfile.c:140
+#: tests/genfile.c:144
 msgid "Size of a block for sparse file"
 msgstr ""
 
-#: tests/genfile.c:142
+#: tests/genfile.c:146
 msgid "Generate sparse file. Rest of the command line gives the file map."
 msgstr ""
 
-#: tests/genfile.c:144
+#: tests/genfile.c:148
 msgid "OFFSET"
 msgstr ""
 
-#: tests/genfile.c:145
+#: tests/genfile.c:149
 msgid "Seek to the given offset before writing data"
 msgstr ""
 
-#: tests/genfile.c:148
+#: tests/genfile.c:152
 msgid "Suppress non-fatal diagnostic messages"
 msgstr ""
 
-#: tests/genfile.c:152
+#: tests/genfile.c:156
 msgid "File statistics options:"
 msgstr ""
 
-#: tests/genfile.c:155
+#: tests/genfile.c:159
 msgid "Print contents of struct stat for each given file. Default FORMAT is: "
 msgstr ""
 
-#: tests/genfile.c:162
+#: tests/genfile.c:163
+msgid "stat symbolic links instead of referenced files"
+msgstr ""
+
+#: tests/genfile.c:167
+msgid ""
+"Set access and modification times of the files to the time supplied by --"
+"date option"
+msgstr ""
+
+#: tests/genfile.c:174
 msgid "Synchronous execution options:"
 msgstr ""
 
-#: tests/genfile.c:164
+#: tests/genfile.c:176
 msgid "N"
 msgstr ""
 
-#: tests/genfile.c:165
+#: tests/genfile.c:177
 msgid ""
 "Execute ARGS. Trigger checkpoints every Nth record (default 1). Useful with "
 "--checkpoint and one of --cut, --append, --touch, --unlink"
 msgstr ""
 
-#: tests/genfile.c:168
+#: tests/genfile.c:180
 msgid "Perform given action (see below) upon reaching checkpoint NUMBER"
 msgstr ""
 
-#: tests/genfile.c:171
+#: tests/genfile.c:183
 msgid "Set date for next --touch option"
 msgstr ""
 
-#: tests/genfile.c:174
+#: tests/genfile.c:186
 msgid "Display executed checkpoints and exit status of COMMAND"
 msgstr ""
 
-#: tests/genfile.c:179
+#: tests/genfile.c:191
 msgid ""
 "Synchronous execution actions. These are executed when checkpoint number "
 "given by --checkpoint option is reached."
 msgstr ""
 
-#: tests/genfile.c:182
+#: tests/genfile.c:194
 msgid ""
 "Truncate FILE to the size specified by previous --length option (or 0, if it "
 "is not given)"
 msgstr ""
 
-#: tests/genfile.c:186
+#: tests/genfile.c:198
 msgid "Append SIZE bytes to FILE. SIZE is given by previous --length option."
 msgstr ""
 
-#: tests/genfile.c:189
+#: tests/genfile.c:201
 msgid "Update the access and modification times of FILE"
 msgstr ""
 
-#: tests/genfile.c:192
+#: tests/genfile.c:204
 msgid "Execute COMMAND"
 msgstr ""
 
-#: tests/genfile.c:195
+#: tests/genfile.c:207
 msgid "Delete FILE"
 msgstr ""
 
-#: tests/genfile.c:246
+#: tests/genfile.c:258
 #, c-format
 msgid "Invalid size: %s"
 msgstr ""
 
-#: tests/genfile.c:251
+#: tests/genfile.c:263
 #, c-format
 msgid "Number out of allowed range: %s"
 msgstr ""
 
-#: tests/genfile.c:254
+#: tests/genfile.c:266
 #, c-format
 msgid "Negative size: %s"
 msgstr ""
 
-#: tests/genfile.c:267 tests/genfile.c:652
+#: tests/genfile.c:279 tests/genfile.c:672
 #, c-format
 msgid "stat(%s) failed"
 msgstr ""
 
-#: tests/genfile.c:272
+#: tests/genfile.c:284
 #, c-format
 msgid "requested file length %jd, actual %jd"
 msgstr ""
 
-#: tests/genfile.c:277
+#: tests/genfile.c:289
 #, c-format
 msgid "created file is not sparse"
 msgstr ""
 
-#: tests/genfile.c:370
+#: tests/genfile.c:390
 #, c-format
 msgid "Error parsing number near `%s'"
 msgstr ""
 
-#: tests/genfile.c:376
+#: tests/genfile.c:396
 #, c-format
 msgid "Unknown date format"
 msgstr ""
 
-#: tests/genfile.c:400
+#: tests/genfile.c:420
 msgid "[ARGS...]"
 msgstr ""
 
-#: tests/genfile.c:437 tests/genfile.c:477 tests/genfile.c:578
-#: tests/genfile.c:756 tests/genfile.c:770
+#: tests/genfile.c:457 tests/genfile.c:497 tests/genfile.c:598
+#: tests/genfile.c:787 tests/genfile.c:801
 #, c-format
 msgid "cannot open `%s'"
 msgstr ""
 
-#: tests/genfile.c:443
+#: tests/genfile.c:463
 msgid "cannot seek"
 msgstr ""
 
-#: tests/genfile.c:460
+#: tests/genfile.c:480
 #, c-format
 msgid "file name contains null character"
 msgstr ""
 
-#: tests/genfile.c:573
+#: tests/genfile.c:593
 #, c-format
 msgid "cannot generate sparse files on standard output, use --file option"
 msgstr ""
 
-#: tests/genfile.c:679
+#: tests/genfile.c:699
 #, c-format
 msgid "incorrect mask (near `%s')"
 msgstr ""
 
-#: tests/genfile.c:685 tests/genfile.c:718
+#: tests/genfile.c:705 tests/genfile.c:738
 #, c-format
 msgid "Unknown field `%s'"
 msgstr ""
 
-#: tests/genfile.c:745
+#: tests/genfile.c:756 tests/genfile.c:776
 #, c-format
 msgid "cannot set time on `%s'"
 msgstr ""
 
-#: tests/genfile.c:775
+#: tests/genfile.c:806
 #, c-format
 msgid "cannot truncate `%s'"
 msgstr ""
 
-#: tests/genfile.c:784
+#: tests/genfile.c:815
 #, c-format
 msgid "command failed: %s"
 msgstr ""
 
-#: tests/genfile.c:791
+#: tests/genfile.c:822
 #, c-format
 msgid "cannot stat `%s'"
 msgstr ""
 
-#: tests/genfile.c:795
+#: tests/genfile.c:826
 #, c-format
 msgid "cannot remove directory `%s'"
 msgstr ""
 
-#: tests/genfile.c:798
+#: tests/genfile.c:829
 #, c-format
 msgid "cannot unlink `%s'"
 msgstr ""
 
-#: tests/genfile.c:938
+#: tests/genfile.c:969
 #, c-format
 msgid "Command exited successfully\n"
 msgstr ""
 
-#: tests/genfile.c:940
+#: tests/genfile.c:971
 #, c-format
 msgid "Command failed with status %d\n"
 msgstr ""
 
-#: tests/genfile.c:944
+#: tests/genfile.c:975
 #, c-format
 msgid "Command terminated on signal %d\n"
 msgstr ""
 
-#: tests/genfile.c:946
+#: tests/genfile.c:977
 #, c-format
 msgid "Command stopped on signal %d\n"
 msgstr ""
 
-#: tests/genfile.c:949
+#: tests/genfile.c:980
 #, c-format
 msgid "Command dumped core\n"
 msgstr ""
 
-#: tests/genfile.c:952
+#: tests/genfile.c:983
 #, c-format
 msgid "Command terminated\n"
 msgstr ""
 
-#: tests/genfile.c:984
+#: tests/genfile.c:1015
 #, c-format
 msgid "--stat requires file names"
+msgstr ""
+
+#: tests/genfile.c:1023
+#, c-format
+msgid "--set-times requires file names"
 msgstr ""

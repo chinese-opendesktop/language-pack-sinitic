@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU anubis 4.2.91\n"
+"Project-Id-Version: GNU anubis 4.3\n"
 "Report-Msgid-Bugs-To: bug-anubis@gnu.org\n"
-"POT-Creation-Date: 2023-09-22 10:16+0300\n"
+"POT-Creation-Date: 2024-01-05 19:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,57 +19,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: src/authmode.c:451
+#: src/authmode.c:450
 msgid "Entering XDB loop..."
 msgstr ""
 
-#: src/authmode.c:465 src/authmode.c:487
+#: src/authmode.c:464 src/authmode.c:486
 msgid "Exiting XDB loop..."
 msgstr ""
 
-#: src/authmode.c:510
+#: src/authmode.c:509
 msgid "Database not specified"
 msgstr ""
 
-#: src/authmode.c:518
+#: src/authmode.c:517
 #, c-format
 msgid "Cannot open database %s: %s"
 msgstr ""
 
-#: src/authmode.c:525
+#: src/authmode.c:524
 #, c-format
 msgid "Found record for `%s'."
 msgstr ""
 
-#: src/authmode.c:530
+#: src/authmode.c:529
 #, c-format
 msgid "Cannot retrieve data from the SASL database: %s"
 msgstr ""
 
-#: src/authmode.c:535
+#: src/authmode.c:534
 #, c-format
 msgid "Record for `%s' not found."
 msgstr ""
 
-#: src/authmode.c:588 src/transmode.c:129 src/transmode.c:163
+#: src/authmode.c:587 src/transmode.c:129 src/transmode.c:163
 msgid "Connection closed successfully."
 msgstr ""
 
-#: src/authmode.c:595 src/transmode.c:136
+#: src/authmode.c:594 src/transmode.c:136
 msgid "PAM: Session closed."
 msgstr ""
 
-#: src/authmode.c:599 src/transmode.c:140
+#: src/authmode.c:598 src/transmode.c:140
 msgid "PAM: failed to release authenticator."
 msgstr ""
 
-#: src/authmode.c:624 src/authmode.c:631 src/authmode.c:637 src/authmode.c:647
-#: src/authmode.c:654 src/authmode.c:661
+#: src/authmode.c:623 src/authmode.c:630 src/authmode.c:636 src/authmode.c:646
+#: src/authmode.c:653 src/authmode.c:660
 msgid "invalid number of arguments"
 msgstr ""
 
-#: src/authmode.c:668 src/gpg.c:550 src/guile.c:484 src/map.c:210
-#: src/rcfile.c:659 src/rcfile.c:803 src/rcfile.c:885 src/rcfile.c:955
+#: src/authmode.c:667 src/gpg.c:549 src/guile.c:484 src/map.c:210
+#: src/rcfile.c:670 src/rcfile.c:815 src/rcfile.c:897 src/rcfile.c:967
 #, c-format
 msgid "INTERNAL ERROR at %s:%d: unhandled key %d; please report"
 msgstr ""
@@ -327,12 +327,12 @@ msgid ""
 "\n"
 msgstr ""
 
-#: env.opt:73 src/exec.c:171
+#: env.opt:73 src/ident.c:39
 #, c-format
 msgid "wordsplit failed: %s"
 msgstr ""
 
-#: env.opt:92 src/rcfile.c:583
+#: env.opt:92 src/rcfile.c:586
 #, c-format
 msgid "invalid mode: %s"
 msgstr ""
@@ -398,7 +398,7 @@ msgstr ""
 msgid "PAM: Not authenticated to use GNU Anubis."
 msgstr ""
 
-#: env.opt:399 src/main.c:143
+#: env.opt:399 src/main.c:163
 #, c-format
 msgid "UID:%d (%s), GID:%d, EUID:%d, EGID:%d"
 msgstr ""
@@ -582,57 +582,61 @@ msgstr ""
 msgid "execvp() failed"
 msgstr ""
 
-#: src/gpg.c:49
+#: src/gpg.c:46
 #, c-format
 msgid "GPGME: %s."
 msgstr ""
 
-#: src/gpg.c:95
+#: src/gpg.c:92
 #, c-format
 msgid "Install GPGME version %s or later."
 msgstr ""
 
-#: src/gpg.c:102
+#: src/gpg.c:99
 #, c-format
 msgid "GPGME: failed. %s."
 msgstr ""
 
-#: src/gpg.c:188 src/gpg.c:396
+#: src/gpg.c:185 src/gpg.c:396
 #, c-format
 msgid "GPGME: Cannot list keys: %s"
 msgstr ""
 
-#: src/gpg.c:302 src/gpg.c:419
+#: src/gpg.c:304 src/gpg.c:418
 #, c-format
 msgid "GPGME: Invalid recipient encountered: %s"
 msgstr ""
 
-#: src/gpg.c:328
+#: src/gpg.c:329
 #, c-format
 msgid "GPGME: Invalid signer found: %s"
 msgstr ""
 
-#: src/gpg.c:335
+#: src/gpg.c:336
 msgid "GPGME: Unexpected number of signatures created"
 msgstr ""
 
-#: src/gpg.c:342
+#: src/gpg.c:343
 msgid "GPGME: Wrong type of signature created"
 msgstr ""
 
-#: src/gpg.c:347
+#: src/gpg.c:348
 #, c-format
 msgid "GPGME: Wrong pubkey algorithm reported: %i"
 msgstr ""
 
-#: src/gpg.c:354
+#: src/gpg.c:355
 #, c-format
 msgid "GPGME: Wrong hash algorithm reported: %i"
 msgstr ""
 
-#: src/gpg.c:361
+#: src/gpg.c:362
 #, c-format
 msgid "GPGME: Wrong signature class reported: %u"
+msgstr ""
+
+#: src/gsasl.c:201 src/main.c:44
+msgid "Not enough memory"
 msgstr ""
 
 #: src/guile.c:104
@@ -669,55 +673,51 @@ msgstr ""
 msgid "%s is not supported yet"
 msgstr ""
 
-#: src/headers.h:287
+#: src/headers.h:297
 msgid "MTA has not been specified. Set the `remote-mta' or `local-mta'."
 msgstr ""
 
-#: src/ident.c:101
+#: src/ident.c:67
 msgid "IDENT: socket() failed"
 msgstr ""
 
-#: src/ident.c:113
+#: src/ident.c:79
 msgid "IDENT: connect() failed"
 msgstr ""
 
-#: src/ident.c:119
+#: src/ident.c:85
 #, c-format
 msgid "IDENT: connected to %s:%u"
 msgstr ""
 
-#: src/ident.c:128
+#: src/ident.c:94
 #, c-format
 msgid "IDENT: stream_write() failed: %s."
 msgstr ""
 
-#: src/ident.c:136
+#: src/ident.c:102
 #, c-format
 msgid "IDENT: recvline() failed: %s."
 msgstr ""
 
-#: src/ident.c:146
+#: src/ident.c:112
 msgid "IDENT: incorrect data."
 msgstr ""
 
-#: src/ident.c:159
-msgid "IDENT: data probably encrypted with DES..."
+#: src/ident.c:131
+msgid "IDENT: data encrypted with DES"
 msgstr ""
 
-#: src/ident.c:167
+#: src/ident.c:135
 msgid "IDENT: incorrect data (DES deciphered)."
 msgstr ""
 
-#: src/ident.c:185
+#: src/ident.c:141
 #, c-format
 msgid "IDENT: resolved remote user to %s."
 msgstr ""
 
-#: src/main.c:44
-msgid "Not enough memory"
-msgstr ""
-
-#: src/main.c:169
+#: src/main.c:189
 msgid "listen(3) failed"
 msgstr ""
 
@@ -928,52 +928,56 @@ msgstr ""
 msgid "Reading user configuration file %s..."
 msgstr ""
 
-#: src/rcfile.c:320
+#: src/rcfile.c:324
 #, c-format
 msgid "%s: invalid syslog facility"
 msgstr ""
 
-#: src/rcfile.c:440
+#: src/rcfile.c:444
 msgid "invalid rule priority"
 msgstr ""
 
-#: src/rcfile.c:449
+#: src/rcfile.c:453
 msgid "invalid control priority"
 msgstr ""
 
-#: src/rcfile.c:462
+#: src/rcfile.c:466
 msgid "invalid termlevel"
 msgstr ""
 
-#: src/rcfile.c:478
+#: src/rcfile.c:482
 msgid "`logfile' directive is ignored in main configuration file"
 msgstr ""
 
-#: src/rcfile.c:495
+#: src/rcfile.c:499
 msgid "invalid loglevel"
 msgstr ""
 
-#: src/rcfile.c:581
+#: src/rcfile.c:584
 msgid "not enough arguments"
 msgstr ""
 
-#: src/rcfile.c:626
+#: src/rcfile.c:629
 #, c-format
 msgid "Child process suspended for %lu second"
 msgid_plural "Child process suspended for %lu seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/rcfile.c:637
+#: src/rcfile.c:640
 #, c-format
 msgid "Command HANG is not allowed for user `%s'"
 msgstr ""
 
-#: src/rcfile.c:652
+#: src/rcfile.c:655
 msgid "statement ignored: anubis compiled without PAM support"
 msgstr ""
 
-#: src/rcfile.c:1035
+#: src/rcfile.c:663
+msgid "statement ignored: anubis compiled without libgcrypt"
+msgstr ""
+
+#: src/rcfile.c:1047
 #, c-format
 msgid "No such section: %s"
 msgstr ""
@@ -1262,153 +1266,148 @@ msgstr ""
 msgid "Initiated proxy mode."
 msgstr ""
 
-#: src/tunnel.c:318 src/tunnel.c:394
+#: src/tunnel.c:311 src/tunnel.c:387
 msgid "Transferring messages..."
 msgstr ""
 
-#: src/tunnel.c:392
+#: src/tunnel.c:385
 msgid "Starting SMTP session..."
 msgstr ""
 
-#: src/tunnel.c:479
+#: src/tunnel.c:472
 msgid "Using the TLS/SSL encryption..."
 msgstr ""
 
-#: src/tunnel.c:496 src/tunnel.c:632
+#: src/tunnel.c:489 src/tunnel.c:625
 #, c-format
 msgid "WARNING: %s"
 msgstr ""
 
-#: src/tunnel.c:498
+#: src/tunnel.c:491
 msgid "STARTTLS command failed."
 msgstr ""
 
-#: src/tunnel.c:624
+#: src/tunnel.c:617
 msgid "Using TLS/SSL encryption between Anubis and remote MTA only..."
 msgstr ""
 
-#: src/tunnel.c:634
+#: src/tunnel.c:627
 msgid "STARTTLS (ONEWAY) command failed."
 msgstr ""
 
-#: lib/obstack.c:337 lib/obstack.c:339 lib/xalloc-die.c:34
-#: lib/wordsplit/wordsplit.c:78 lib/wordsplit/wordsplit.c:2856
+#: src/wordsplit/wordsplit.c:78 src/wordsplit/wordsplit.c:2856
 msgid "memory exhausted"
 msgstr ""
 
-#: lib/error.c:194
-msgid "Unknown system error"
-msgstr ""
-
-#: lib/wordsplit/wordsplit.c:132
+#: src/wordsplit/wordsplit.c:132
 msgid "memory exhausted while trying to store error context"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:882
+#: src/wordsplit/wordsplit.c:882
 msgid "Restarting"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:1608
+#: src/wordsplit/wordsplit.c:1608
 #, c-format
 msgid "%.*s: variable null or not set"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:1638
+#: src/wordsplit/wordsplit.c:1638
 #, c-format
 msgid "warning: undefined variable `%.*s'"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2139
+#: src/wordsplit/wordsplit.c:2139
 #, c-format
 msgid "no files match pattern %s"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2604
+#: src/wordsplit/wordsplit.c:2604
 msgid "WS trimming"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2606
+#: src/wordsplit/wordsplit.c:2606
 msgid "command substitution"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2608 lib/wordsplit/wordsplit.c:2616
+#: src/wordsplit/wordsplit.c:2608 src/wordsplit/wordsplit.c:2616
 msgid "coalesce list"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2610
+#: src/wordsplit/wordsplit.c:2610
 msgid "tilde expansion"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2612
+#: src/wordsplit/wordsplit.c:2612
 msgid "variable expansion"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2614
+#: src/wordsplit/wordsplit.c:2614
 msgid "quote removal"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2618
+#: src/wordsplit/wordsplit.c:2618
 msgid "path expansion"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2643
+#: src/wordsplit/wordsplit.c:2643
 #, c-format
 msgid "(%02d) Input:%.*s;"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2669
+#: src/wordsplit/wordsplit.c:2669
 msgid "Initial list:"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2684
+#: src/wordsplit/wordsplit.c:2684
 msgid "Coalesced list:"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2854
+#: src/wordsplit/wordsplit.c:2854
 msgid "no error"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2855
+#: src/wordsplit/wordsplit.c:2855
 msgid "missing closing quote"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2857
+#: src/wordsplit/wordsplit.c:2857
 msgid "invalid wordsplit usage"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2858
+#: src/wordsplit/wordsplit.c:2858
 msgid "unbalanced curly brace"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2859
+#: src/wordsplit/wordsplit.c:2859
 msgid "undefined variable"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2860
+#: src/wordsplit/wordsplit.c:2860
 msgid "input exhausted"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2861
+#: src/wordsplit/wordsplit.c:2861
 msgid "unbalanced parenthesis"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2862
+#: src/wordsplit/wordsplit.c:2862
 msgid "globbing error"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2863
+#: src/wordsplit/wordsplit.c:2863
 msgid "user-defined error"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2864
+#: src/wordsplit/wordsplit.c:2864
 msgid "invalid parameter number in assignment"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2876
+#: src/wordsplit/wordsplit.c:2876
 msgid "unknown error"
 msgstr ""
 
-#: lib/wordsplit/wordsplit.c:2885
+#: src/wordsplit/wordsplit.c:2885
 #, c-format
 msgid "missing closing %c (start near #%lu)"
 msgstr ""
