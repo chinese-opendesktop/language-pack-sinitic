@@ -34,7 +34,6 @@ install:
 	for i in ???_??; do install -Dm644 $$i/meandmyshadow.po $(DESTDIR)$(DATADIR)/meandmyshadow/data/locale/$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/ufo2000.po $(DESTDIR)$(DATADIR)/ufo2000/translations/ufo2000-$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/WikidPad.po $(DESTDIR)$(DATADIR)/wikidpad/WikidPad_$$i.po; done
-	for i in ???_??; do install -Dm644 $$i/nelson.mo $(DESTDIR)/usr/libexec/nelson/locale/$$i/LC_MESSAGES/nelson.mo; done
 	for i in ???_??; do install -Dm644 $$i/tlpkg.mo $(DESTDIR)$(DATADIR)/texlive/tlpkg/translations/$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/AC.mo $(DESTDIR)$(DATADIR)/assaultcube/packages/locale/$$i/LC_MESSAGES/AC.mo; done
 	for i in ???_??; do install -Dm644 $$i/Editra.mo $(DESTDIR)$(LIBDIR)/python2.7/site-packages/Editra/locale/$$i/LC_MESSAGES/Editra.mo; done

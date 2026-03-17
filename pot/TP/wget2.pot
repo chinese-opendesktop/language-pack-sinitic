@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU wget2 2.2.0\n"
+"Project-Id-Version: GNU wget2 2.2.1\n"
 "Report-Msgid-Bugs-To: bug-wget2@gnu.org\n"
-"POT-Creation-Date: 2024-11-24 19:19+0100\n"
+"POT-Creation-Date: 2025-12-30 19:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Parameter string not correctly encoded"
 msgstr ""
 
-#: lib/gai_strerror.c:87 libwget/error.c:57
+#: lib/gai_strerror.c:86 libwget/error.c:57
 msgid "Unknown error"
 msgstr ""
 
@@ -194,17 +194,17 @@ msgstr ""
 msgid "cannot create pipe"
 msgstr ""
 
-#: lib/spawn-pipe.c:599 lib/wait-process.c:326 lib/wait-process.c:400
+#: lib/spawn-pipe.c:597 lib/wait-process.c:325 lib/wait-process.c:396
 #, c-format
 msgid "%s subprocess failed"
 msgstr ""
 
-#: lib/wait-process.c:267 lib/wait-process.c:299 lib/wait-process.c:361
+#: lib/wait-process.c:266 lib/wait-process.c:298 lib/wait-process.c:357
 #, c-format
 msgid "%s subprocess"
 msgstr ""
 
-#: lib/wait-process.c:318 lib/wait-process.c:390
+#: lib/wait-process.c:317 lib/wait-process.c:386
 #, c-format
 msgid "%s subprocess got fatal signal %d"
 msgstr ""
@@ -518,42 +518,42 @@ msgstr ""
 msgid "Failed to create request buffer\n"
 msgstr ""
 
-#: libwget/http.c:835 libwget/tls_session.c:374
+#: libwget/http.c:839 libwget/tls_session.c:374
 #, c-format
 msgid "Failed to allocate %zu bytes\n"
 msgstr ""
 
-#: libwget/http.c:929
+#: libwget/http.c:933
 #, c-format
 msgid "Failed to allocate %zu bytes (%s)\n"
 msgstr ""
 
-#: libwget/http.c:952
+#: libwget/http.c:956
 #, c-format
 msgid "Failed to convert chunk size '%.31s' (%s)\n"
 msgstr ""
 
-#: libwget/http.c:990
+#: libwget/http.c:994
 #, c-format
 msgid "Chunk size overflow: %zX (%s)\n"
 msgstr ""
 
-#: libwget/http.c:1032
+#: libwget/http.c:1036
 #, c-format
 msgid "Expected end-of-chunk not found (%s)\n"
 msgstr ""
 
-#: libwget/http.c:1080
+#: libwget/http.c:1084
 #, c-format
 msgid "Failed to read %zd bytes (%d) (%s)\n"
 msgstr ""
 
-#: libwget/http.c:1086
+#: libwget/http.c:1090
 #, c-format
 msgid "Just got %zu of %zu bytes (%s)\n"
 msgstr ""
 
-#: libwget/http.c:1091
+#: libwget/http.c:1095
 #, c-format
 msgid "Body too large: %zu instead of %zu bytes (%s)\n"
 msgstr ""
@@ -623,7 +623,7 @@ msgstr ""
 msgid "HTTP response header not found\n"
 msgstr ""
 
-#: libwget/init.c:137 src/options.c:3683
+#: libwget/init.c:137 src/options.c:3694
 #, c-format
 msgid "Failed to init DNS cache (%d)"
 msgstr ""
@@ -650,9 +650,7 @@ msgstr ""
 
 #: libwget/io.c:346
 #, c-format
-msgid ""
-"WARNING: Size of %s changed from %lld to %lld while reading. This may lead "
-"to unwanted results !\n"
+msgid "WARNING: Size of %s changed from %lld to %lld while reading. This may lead to unwanted results !\n"
 msgstr ""
 
 #: libwget/io.c:349
@@ -779,7 +777,7 @@ msgstr ""
 msgid "Mirror scheme not supported: '%s'\n"
 msgstr ""
 
-#: libwget/metalink.c:289
+#: libwget/metalink.c:308
 msgid "Error in parsing XML"
 msgstr ""
 
@@ -1086,15 +1084,11 @@ msgstr ""
 
 #: libwget/ssl_gnutls.c:1144
 #, c-format
-msgid ""
-"WARNING: OCSP stapling is not supported by '%s', but OCSP validation has "
-"been requested.\n"
+msgid "WARNING: OCSP stapling is not supported by '%s', but OCSP validation has been requested.\n"
 msgstr ""
 
 #: libwget/ssl_gnutls.c:1145
-msgid ""
-"WARNING: This implies a privacy leak: the client sends the certificate "
-"serial ID over HTTP to the CA.\n"
+msgid "WARNING: This implies a privacy leak: the client sends the certificate serial ID over HTTP to the CA.\n"
 msgstr ""
 
 #: libwget/ssl_gnutls.c:1158
@@ -1146,9 +1140,7 @@ msgid "GnuTLS: Unsupported default priority 'NULL': %s\n"
 msgstr ""
 
 #: libwget/ssl_gnutls.c:1708 libwget/ssl_gnutls.c:1714
-msgid ""
-"TLS False Start requested but libwget built with insufficient GnuTLS "
-"version\n"
+msgid "TLS False Start requested but libwget built with insufficient GnuTLS version\n"
 msgstr ""
 
 #: libwget/ssl_gnutls.c:1719
@@ -1165,223 +1157,213 @@ msgstr ""
 msgid "GnuTLS: Failed to set session data: %s\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:626
+#: libwget/ssl_wolfssl.c:631
 msgid "Missing TLS method\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:632
+#: libwget/ssl_wolfssl.c:637
 msgid "Failed to create WOLFSSL_CTX\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:647
+#: libwget/ssl_wolfssl.c:652
 #, c-format
 msgid "WolfSSL: Failed to set ciphers '%s'\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:658
+#: libwget/ssl_wolfssl.c:663
 msgid "Failed to load system certs\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:684
+#: libwget/ssl_wolfssl.c:689
 msgid "Skipped loading CA certs. SSL verification will likely fail.\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:690
+#: libwget/ssl_wolfssl.c:695
 #, c-format
-msgid ""
-"Failed to load CA pem: %s or cert dir: %s, SSL verification will likely "
-"fail.\n"
+msgid "Failed to load CA pem: %s or cert dir: %s, SSL verification will likely fail.\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:929
+#: libwget/ssl_wolfssl.c:934
 msgid "Failed to create WolfSSL session\n"
 msgstr ""
 
-#: libwget/ssl_wolfssl.c:1063
+#: libwget/ssl_wolfssl.c:1068
 #, c-format
 msgid "failed to connect TLS (%d): %s\n"
 msgstr ""
 
 #: libwget/ssl_openssl.c:246 libwget/ssl_openssl.c:286
-#: libwget/ssl_openssl.c:364
+#: libwget/ssl_openssl.c:365
 #, c-format
-msgid ""
-"Unknown configuration key %d (maybe this config value should be of another "
-"type?)\n"
+msgid "Unknown configuration key %d (maybe this config value should be of another type?)\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:413
-msgid ""
-"OpenSSL: TLS 1.3 is not supported by your OpenSSL version. Will use TLS 1.2 "
-"instead.\n"
+#: libwget/ssl_openssl.c:414
+msgid "OpenSSL: TLS 1.3 is not supported by your OpenSSL version. Will use TLS 1.2 instead.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:423
+#: libwget/ssl_openssl.c:424
 #, c-format
 msgid "OpenSSL: Invalid priority string '%s'\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:485
+#: libwget/ssl_openssl.c:486
 #, c-format
-msgid ""
-"OpenSSL: Could not load certificates from default paths. Falling back to "
-"'%s'."
+msgid "OpenSSL: Could not load certificates from default paths. Falling back to '%s'."
 msgstr ""
 
-#: libwget/ssl_openssl.c:490
+#: libwget/ssl_openssl.c:491
 #, c-format
 msgid "OpenSSL: No certificates could be loaded from directory '%s'\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:494
+#: libwget/ssl_openssl.c:495
 #, c-format
 msgid "OpenSSL: Could not open directory '%s'. No certificates were loaded.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:685
+#: libwget/ssl_openssl.c:686
 msgid "Could not get user data to verify stapled OCSP.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:697
+#: libwget/ssl_openssl.c:698
 msgid "Got a stapled OCSP response, but could not parse it. Aborting.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:703
+#: libwget/ssl_openssl.c:704
 msgid "Could not get server's cert stack\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:715
+#: libwget/ssl_openssl.c:716
 msgid "Could not verify stapled OCSP response. Aborting.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:877
+#: libwget/ssl_openssl.c:878
 msgid "ERROR: print_openssl_time: BIO_read failed\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:891
+#: libwget/ssl_openssl.c:892
 msgid "Could not get current time!\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:900
+#: libwget/ssl_openssl.c:901
 msgid "Could not compute time difference for thisUpd. Aborting.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:904
+#: libwget/ssl_openssl.c:905
 msgid "*** OCSP response thisUpd is too old. Aborting.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:915
+#: libwget/ssl_openssl.c:916
 msgid "Could not compute time difference for nextUpd. Aborting.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:920
+#: libwget/ssl_openssl.c:921
 msgid "*** OCSP next update is in the past!\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:950
+#: libwget/ssl_openssl.c:951
 msgid "Unsuccessful OCSP response\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:958
+#: libwget/ssl_openssl.c:959
 msgid "Could not verify OCSP certificate chain\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:964
+#: libwget/ssl_openssl.c:965
 msgid "Could not parse OCSP single response\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:971
+#: libwget/ssl_openssl.c:972
 msgid "Could not obtain OCSP response status\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:986
+#: libwget/ssl_openssl.c:987
 msgid "Could not get 'thisUpd' from OCSP response. Cannot check time.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1046
+#: libwget/ssl_openssl.c:1047
 msgid "Could not obtain OCSP_BASICRESPONSE\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1052
+#: libwget/ssl_openssl.c:1053
 msgid "OCSP nonce does not match\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1197 libwget/ssl_openssl.c:1232
+#: libwget/ssl_openssl.c:1198 libwget/ssl_openssl.c:1233
 #, c-format
 msgid "Could not compute certificate fingerprint for cert %u\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1266
+#: libwget/ssl_openssl.c:1267
 msgid "Certificate check disabled. Peer's certificate will NOT be checked.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1272
+#: libwget/ssl_openssl.c:1273
 msgid "OpenSSL: Could not obtain cert store\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1285
+#: libwget/ssl_openssl.c:1286
 #, c-format
 msgid "Could not load CRL from '%s' (%d)\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1301
+#: libwget/ssl_openssl.c:1302
 #, c-format
 msgid "Could not load CA certificate from file '%s'\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1354
+#: libwget/ssl_openssl.c:1355
 msgid "Could not initialize OpenSSL\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1405
+#: libwget/ssl_openssl.c:1406
 msgid "OpenSSL: Could not parse cached session data.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1413
+#: libwget/ssl_openssl.c:1414
 msgid "OpenSSL: Could not set session data.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1628
-msgid ""
-"Host name check disabled. Server certificate's subject name will not be "
-"checked.\n"
+#: libwget/ssl_openssl.c:1629
+msgid "Host name check disabled. Server certificate's subject name will not be checked.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1637
+#: libwget/ssl_openssl.c:1638
 msgid "Could not set 'status_request' extension\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1643
+#: libwget/ssl_openssl.c:1644
 msgid "SNI could not be sent"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1647
+#: libwget/ssl_openssl.c:1648
 msgid "ALPN offering could not be sent"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1655
+#: libwget/ssl_openssl.c:1656
 msgid "Could not get cached TLS session"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1677
+#: libwget/ssl_openssl.c:1678
 #, c-format
 msgid "Could not complete TLS handshake: %s\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1695
+#: libwget/ssl_openssl.c:1696
 msgid "Public key pinning mismatch\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1714
+#: libwget/ssl_openssl.c:1715
 msgid "Aborting handshake. Could not verify OCSP chain.\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1873
+#: libwget/ssl_openssl.c:1874
 #, c-format
 msgid "TLS read error: %s\n"
 msgstr ""
 
-#: libwget/ssl_openssl.c:1907
+#: libwget/ssl_openssl.c:1908
 #, c-format
 msgid "TLS write error: %s\n"
 msgstr ""
@@ -1477,7 +1459,7 @@ msgstr ""
 msgid "Failed to read file to verify sig: %s\n"
 msgstr ""
 
-#: src/host.c:393 src/wget.c:1000
+#: src/host.c:393 src/wget.c:998
 #, c-format
 msgid "URL '%s' not followed (disallowed by robots.txt)\n"
 msgstr ""
@@ -1489,21 +1471,21 @@ msgid ""
 " from %llu to %llu bytes\n"
 msgstr ""
 
-#: src/job.c:205
+#: src/job.c:206
 #, c-format
 msgid "Checksum OK for '%s'\n"
 msgstr ""
 
-#: src/job.c:212
+#: src/job.c:213
 msgid "Failed to build checksum, assuming file to be OK\n"
 msgstr ""
 
-#: src/job.c:217
+#: src/job.c:218
 #, c-format
 msgid "Bad checksum for '%s'\n"
 msgstr ""
 
-#: src/job.c:235
+#: src/job.c:236
 #, c-format
 msgid "Piece %d/%d not OK - requeuing\n"
 msgstr ""
@@ -1585,8 +1567,7 @@ msgid "Restrict file names to either 'uppercase' or 'lowercase'\n"
 msgstr ""
 
 #: src/options.c:874
-msgid ""
-"    use [none]|[unix|windows],[lowercase|uppercase],[nocontrol][,ascii].\n"
+msgid "    use [none]|[unix|windows],[lowercase|uppercase],[nocontrol][,ascii].\n"
 msgstr ""
 
 #: src/options.c:903
@@ -1652,215 +1633,211 @@ msgstr ""
 msgid "Invalid value for --download-attr: %s\n"
 msgstr ""
 
-#: src/options.c:2592 src/options.c:2627
+#: src/options.c:2598 src/options.c:2633
 #, c-format
 msgid "Unknown option '%s'\n"
 msgstr ""
 
-#: src/options.c:2642
+#: src/options.c:2648
 #, c-format
 msgid "Option 'no-%s' doesn't allow an argument\n"
 msgstr ""
 
-#: src/options.c:2646
+#: src/options.c:2652
 #, c-format
 msgid "Option '%s' doesn't allow an argument\n"
 msgstr ""
 
-#: src/options.c:2657
+#: src/options.c:2663
 #, c-format
 msgid "Missing argument for option '%s'\n"
 msgstr ""
 
-#: src/options.c:2723
+#: src/options.c:2729
 #, c-format
 msgid "Failed to parse: '%s'\n"
 msgstr ""
 
-#: src/options.c:2785
+#: src/options.c:2791
 #, c-format
 msgid "Config file recursion detected in %s\n"
 msgstr ""
 
-#: src/options.c:2812
+#: src/options.c:2818
 #, c-format
 msgid "Failed to open %s (%d): %s\n"
 msgstr ""
 
-#: src/options.c:2876
+#: src/options.c:2882
 #, c-format
 msgid "Failed to parse last line in '%s'\n"
 msgstr ""
 
-#: src/options.c:2956
+#: src/options.c:2962
 #, c-format
 msgid "Missing argument(s) for option '-%c'\n"
 msgstr ""
 
-#: src/options.c:2976
+#: src/options.c:2982
 #, c-format
 msgid "Unknown option '-%c'\n"
 msgstr ""
 
-#: src/options.c:3007
+#: src/options.c:3013
 #, c-format
 msgid "Password for user \"%s\": "
 msgstr ""
 
-#: src/options.c:3009
+#: src/options.c:3015
 msgid "Password: "
 msgstr ""
 
-#: src/options.c:3030
+#: src/options.c:3036
 msgid "Cannot create pipe"
 msgstr ""
 
-#: src/options.c:3036
+#: src/options.c:3042
 #, c-format
 msgid "Error initializing spawn file actions for use-askpass: %d"
 msgstr ""
 
-#: src/options.c:3047
+#: src/options.c:3053
 #, c-format
 msgid "Error setting spawn file actions for use-askpass: %d"
 msgstr ""
 
-#: src/options.c:3054
+#: src/options.c:3060
 #, c-format
 msgid "Error spawning %s: %d"
 msgstr ""
 
-#: src/options.c:3071
+#: src/options.c:3077
 #, c-format
 msgid "Error reading response from command \"%s %s\": %s\n"
 msgstr ""
 
-#: src/options.c:3136
+#: src/options.c:3159
 #, c-format
 msgid "Failed to open %s"
 msgstr ""
 
-#: src/options.c:3186
+#: src/options.c:3197
 #, c-format
 msgid "~/.wget2rc is deprecated. Please move it to %s/wget2rc\n"
 msgstr ""
 
-#: src/options.c:3522
+#: src/options.c:3533
 #, c-format
 msgid "Failed to set http proxies %s\n"
 msgstr ""
 
-#: src/options.c:3526
+#: src/options.c:3537
 #, c-format
 msgid "Failed to set https proxies %s\n"
 msgstr ""
 
-#: src/options.c:3530
+#: src/options.c:3541
 #, c-format
 msgid "Failed to set proxy exceptions %s\n"
 msgstr ""
 
-#: src/options.c:3556
+#: src/options.c:3567
 #, c-format
 msgid "Failed to load %s (%d)"
 msgstr ""
 
-#: src/options.c:3616
-msgid ""
-"Specifying both --start-pos and --continue is not recommended; --continue "
-"will be disabled"
+#: src/options.c:3627
+msgid "Specifying both --start-pos and --continue is not recommended; --continue will be disabled"
 msgstr ""
 
-#: src/options.c:3622
+#: src/options.c:3633
 msgid "WARNING: timestamping does nothing in combination with -O"
 msgstr ""
 
-#: src/options.c:3626
+#: src/options.c:3637
 msgid "Can't timestamp and not clobber old files at the same time"
 msgstr ""
 
-#: src/options.c:3630
+#: src/options.c:3641
 msgid "WARNING: timestamping does nothing in combination with spider"
 msgstr ""
 
-#: src/options.c:3634
-msgid ""
-"WARNING: timestamping and chunk-size only work together without If-Modified-"
-"Since"
+#: src/options.c:3645
+msgid "WARNING: timestamping and chunk-size only work together without If-Modified-Since"
 msgstr ""
 
-#: src/options.c:3673
+#: src/options.c:3684
 #, c-format
 msgid "Failed to init networking (%d)"
 msgstr ""
 
-#: src/options.c:3678
+#: src/options.c:3689
 #, c-format
 msgid "Failed to init DNS (%d)"
 msgstr ""
 
-#: src/options.c:3696 src/options.c:3707 src/options.c:3718 src/options.c:3729
-#: src/options.c:3740
+#: src/options.c:3707 src/options.c:3718 src/options.c:3729 src/options.c:3740
+#: src/options.c:3751
 #, c-format
 msgid "Failed to open '%s' (%d)"
 msgstr ""
 
-#: src/options.c:3993
+#: src/options.c:4004
 #, c-format
 msgid "%s: Option not in order '%s' after '%s' (using opt_compare())\n"
 msgstr ""
 
-#: src/options.c:4002
+#: src/options.c:4013
 #, c-format
 msgid "%s: Option not in order '%s' after '%s' (using opt_compare_config())\n"
 msgstr ""
 
-#: src/options.c:4012
+#: src/options.c:4023
 #, c-format
 msgid "%s: Failed to find option '%s' (using opt_compare())\n"
 msgstr ""
 
-#: src/options.c:4022 src/options.c:4046
+#: src/options.c:4033 src/options.c:4057
 #, c-format
 msgid "%s: Failed to find option '%s' (using opt_compare_config())\n"
 msgstr ""
 
-#: src/options.c:4071
+#: src/options.c:4082
 #, c-format
 msgid "%s: Failed to parse bool short option #%zu (=%d)\n"
 msgstr ""
 
-#: src/options.c:4097 src/options.c:4103
+#: src/options.c:4108 src/options.c:4114
 #, c-format
 msgid "%s: Failed to parse bool long option #%zu (%d)\n"
 msgstr ""
 
-#: src/options.c:4146
+#: src/options.c:4157
 #, c-format
 msgid "%s: Failed to parse timeout short option #%zu (=%d)\n"
 msgstr ""
 
-#: src/options.c:4177
+#: src/options.c:4188
 #, c-format
 msgid "%s: Failed to parse timeout long option #%zu (%d)\n"
 msgstr ""
 
-#: src/options.c:4212
+#: src/options.c:4223
 #, c-format
 msgid "%s: Extra headers found in option #%zu\n"
 msgstr ""
 
-#: src/options.c:4217
+#: src/options.c:4228
 #, c-format
 msgid "%s: Failed to parse header option #%zu\n"
 msgstr ""
 
-#: src/options.c:4240
+#: src/options.c:4251
 #, c-format
 msgid "%s: Accepted illegal header option #%zu\n"
 msgstr ""
 
-#: src/options.c:4268 src/options.c:4287
+#: src/options.c:4279 src/options.c:4298
 #, c-format
 msgid "%s: Failed to parse string short option #%zu (=%s)\n"
 msgstr ""
@@ -1880,12 +1857,12 @@ msgstr ""
 msgid "Internal error: Unexpected relative path: '%s'\n"
 msgstr ""
 
-#: src/utils.c:82 src/utils.c:89
+#: src/utils.c:83 src/utils.c:90
 #, c-format
 msgid "Failed to make directory '%s' (errno=%d)\n"
 msgstr ""
 
-#: src/utils.c:87
+#: src/utils.c:88
 #, c-format
 msgid "Failed to rename '%s' (errno=%d)\n"
 msgstr ""
@@ -1914,56 +1891,76 @@ msgstr ""
 msgid "Cannot resolve URI\n"
 msgstr ""
 
-#: src/wget.c:864
+#: src/wget.c:858
 #, c-format
-msgid "Adding URL: %s\n"
+msgid "URL '%s' not followed (max redirections exceeded)\n"
 msgstr ""
 
-#: src/wget.c:870
+#: src/wget.c:868
 #, c-format
-msgid "not requesting '%s'. (Plugin Verdict)\n"
+msgid "URL '%s' no followed (plugin verdict)\n"
 msgstr ""
 
-#: src/wget.c:884
+#: src/wget.c:882
 #, c-format
 msgid "URL '%s' not followed (unsupported scheme)\n"
 msgstr ""
 
-#: src/wget.c:894
+#: src/wget.c:892
 #, c-format
 msgid "URL '%s' not followed (https-only requested)\n"
 msgstr ""
 
-#: src/wget.c:911
+#: src/wget.c:909
 msgid "missing ip/host/domain"
 msgstr ""
 
-#: src/wget.c:914
+#: src/wget.c:912
 msgid "no host-spanning requested"
 msgstr ""
 
-#: src/wget.c:916
+#: src/wget.c:914
 msgid "domain explicitly excluded"
 msgstr ""
 
-#: src/wget.c:920
+#: src/wget.c:918
 #, c-format
 msgid "URL '%s' not followed (%s)\n"
 msgstr ""
 
-#: src/wget.c:954
+#: src/wget.c:952
 #, c-format
 msgid "URL '%s' not followed (parent ascending not allowed)\n"
 msgstr ""
 
-#: src/wget.c:972
+#: src/wget.c:970 src/wget.c:985
 #, c-format
-msgid "URL '%s' not requested (file already exists)\n"
+msgid "URL '%s' not followed (file already exists)\n"
 msgstr ""
 
-#: src/wget.c:1007
+#: src/wget.c:1005
 #, c-format
 msgid "Failed to get '%s' from hosts\n"
+msgstr ""
+
+#: src/wget.c:1013
+#, c-format
+msgid "URL '%s' not followed (doesn't match accept pattern)\n"
+msgstr ""
+
+#: src/wget.c:1020
+#, c-format
+msgid "URL '%s' not followed (matches reject pattern)\n"
+msgstr ""
+
+#: src/wget.c:1025
+#, c-format
+msgid "URL '%s' not followed (path excluded)\n"
+msgstr ""
+
+#: src/wget.c:1030
+#, c-format
+msgid "Enqueue %s\n"
 msgstr ""
 
 #: src/wget.c:1191
@@ -1976,360 +1973,371 @@ msgstr ""
 msgid "%s not found (%d)\n"
 msgstr ""
 
-#: src/wget.c:1215
+#: src/wget.c:1229
 #, c-format
 msgid "Cannot resolve URI '%s'\n"
 msgstr ""
 
-#: src/wget.c:1245
+#: src/wget.c:1259
 #, c-format
 msgid "Failed to rename %s to %s (%d)"
 msgstr ""
 
-#: src/wget.c:1251
+#: src/wget.c:1265
 #, c-format
 msgid "Failed to write open %s (%d)"
 msgstr ""
 
-#: src/wget.c:1391 src/wget.c:1482
+#: src/wget.c:1404 src/wget.c:1495
 #, c-format
 msgid "Failed to start downloader, error %d\n"
 msgstr ""
 
-#: src/wget.c:1414
+#: src/wget.c:1427
 #, c-format
 msgid "Failed to open input file %s\n"
 msgstr ""
 
-#: src/wget.c:1419
+#: src/wget.c:1432
 msgid "Nothing to do - goodbye\n"
 msgstr ""
 
-#: src/wget.c:1437
+#: src/wget.c:1450
 msgid "Wget2 built without thread support. Disabling progress report\n"
 msgstr ""
 
-#: src/wget.c:1455
+#: src/wget.c:1468
 #, c-format
 msgid "Failed to start progress report thread, error %d\n"
 msgstr ""
 
-#: src/wget.c:1489
+#: src/wget.c:1502
 #, c-format
 msgid "Quota of %lld bytes reached - stopping.\n"
 msgstr ""
 
-#: src/wget.c:1509
+#: src/wget.c:1522
 #, c-format
 msgid "Failed to wait for downloader #%d (%d %d)\n"
 msgstr ""
 
-#: src/wget.c:1516
+#: src/wget.c:1529
 #, c-format
 msgid "Downloaded: %d files, %s bytes, %d redirects, %d errors\n"
 msgstr ""
 
-#: src/wget.c:1542
-msgid ""
-"--convert-links and --convert-file-only cannot be used together, error\n"
+#: src/wget.c:1555
+msgid "--convert-links and --convert-file-only cannot be used together, error\n"
 msgstr ""
 
-#: src/wget.c:1557
+#: src/wget.c:1570
 #, c-format
 msgid "Failed to wait for progress thread (%d %d)\n"
 msgstr ""
 
-#: src/wget.c:1654
+#: src/wget.c:1667
 #, c-format
 msgid "Failed to connect: %s\n"
 msgstr ""
 
-#: src/wget.c:1880
+#: src/wget.c:1895
 msgid "The file is already fully retrieved; nothing to do.\n"
 msgstr ""
 
-#: src/wget.c:1932
+#: src/wget.c:1961
 #, c-format
 msgid "File '%s' not modified on server. Omitting download"
 msgstr ""
 
-#: src/wget.c:1969
+#: src/wget.c:1998
 #, c-format
 msgid "Not scanning '%s' (known ETag)\n"
 msgstr ""
 
-#: src/wget.c:2016
+#: src/wget.c:2045
 #, c-format
 msgid "The sizes do not match (local %lld, remote %zu) -- retrieving"
 msgstr ""
 
-#: src/wget.c:2178
+#: src/wget.c:2213
 #, c-format
 msgid "File length %llu - remove job\n"
 msgstr ""
 
-#: src/wget.c:2180
+#: src/wget.c:2215
 msgid "No download mirrors found - remove job\n"
 msgstr ""
 
-#: src/wget.c:2295
+#: src/wget.c:2217
+msgid "Metalink file name is invalid, missing or empty - remove job\n"
+msgstr ""
+
+#: src/wget.c:2225
+msgid "Metalink validation failed: max tries reached - remove job\n"
+msgstr ""
+
+#: src/wget.c:2338
 msgid "Couldn't determine base file to delete for failed verification\n"
 msgstr ""
 
-#: src/wget.c:2299
+#: src/wget.c:2342
 #, c-format
 msgid "Signature for file %s successfully verified\n"
 msgstr ""
 
-#: src/wget.c:2315
+#: src/wget.c:2358
 msgid "Should not have remaining extensions!\n"
 msgstr ""
 
-#: src/wget.c:2329
+#: src/wget.c:2372
 msgid "File name for signature checking not assigned to job!\n"
 msgstr ""
 
-#: src/wget.c:2331
+#: src/wget.c:2374
 msgid "Cannot check the signature on a signature!\n"
 msgstr ""
 
-#: src/wget.c:2560
+#: src/wget.c:2603
 #, c-format
 msgid "Unhandled action %d\n"
 msgstr ""
 
-#: src/wget.c:2672
+#: src/wget.c:2715
 #, c-format
 msgid "URL '%.*s' not followed (conversion failed)\n"
 msgstr ""
 
-#: src/wget.c:2680
+#: src/wget.c:2723
 #, c-format
 msgid "Cannot resolve relative URI %.*s\n"
 msgstr ""
 
-#: src/wget.c:2702
+#: src/wget.c:2745
 msgid "set by user"
 msgstr ""
 
-#: src/wget.c:2707 src/wget.c:2715 src/wget.c:2723
+#: src/wget.c:2750 src/wget.c:2758 src/wget.c:2766
 msgid "set by BOM"
 msgstr ""
 
-#: src/wget.c:2729
+#: src/wget.c:2772
 msgid "set by server response"
 msgstr ""
 
-#: src/wget.c:2738
+#: src/wget.c:2781
 #, c-format
 msgid "Convert non-ASCII encoding '%s' (%s) to UTF-8\n"
 msgstr ""
 
-#: src/wget.c:2742
+#: src/wget.c:2785
 #, c-format
 msgid "Link conversion disabled for '%s'\n"
 msgstr ""
 
-#: src/wget.c:2745
+#: src/wget.c:2788
 #, c-format
 msgid "Filename conversion disabled for '%s'\n"
 msgstr ""
 
-#: src/wget.c:2749
+#: src/wget.c:2792
 #, c-format
 msgid "Failed to convert non-ASCII encoding '%s' (%s) to UTF-8, skip parsing\n"
 msgstr ""
 
-#: src/wget.c:2762
+#: src/wget.c:2805
 msgid "set by document"
 msgstr ""
 
-#: src/wget.c:2765
+#: src/wget.c:2808
 msgid "default, encoding not specified"
 msgstr ""
 
-#: src/wget.c:2769
+#: src/wget.c:2812
 #, c-format
 msgid "URI content encoding = '%s' (%s)\n"
 msgstr ""
 
-#: src/wget.c:2777
+#: src/wget.c:2820
 #, c-format
 msgid "BASE '%.*s' not usable (missing absolute base URI)\n"
 msgstr ""
 
-#: src/wget.c:2784
+#: src/wget.c:2827
 #, c-format
 msgid "Cannot resolve BASE URI %.*s\n"
 msgstr ""
 
-#: src/wget.c:2794
+#: src/wget.c:2837
 #, c-format
 msgid "URL '%.*s' not followed (action/formaction attribute)\n"
 msgstr ""
 
-#: src/wget.c:2808
+#: src/wget.c:2851
 #, c-format
 msgid "URL '%.*s' not followed (page requisites + level)\n"
 msgstr ""
 
-#: src/wget.c:2819 src/wget.c:3029 src/wget.c:3164
+#: src/wget.c:2862 src/wget.c:3072 src/wget.c:3210
 #, c-format
 msgid "URL '%.*s' not followed (missing base URI)\n"
 msgstr ""
 
-#: src/wget.c:2886 src/wget.c:3019
+#: src/wget.c:2929 src/wget.c:3062
 #, c-format
 msgid "found %d url(s) (base=%s)\n"
 msgstr ""
 
-#: src/wget.c:2893 src/wget.c:2997
+#: src/wget.c:2936 src/wget.c:3040
 #, c-format
 msgid "URL '%.*s' not followed (not matching sitemap location)\n"
 msgstr ""
 
-#: src/wget.c:2904 src/wget.c:2925 src/wget.c:3040
+#: src/wget.c:2947 src/wget.c:2968 src/wget.c:3083
 #, c-format
 msgid "URL '%.*s' not followed (already known)\n"
 msgstr ""
 
-#: src/wget.c:2912
+#: src/wget.c:2955
 #, c-format
 msgid "found %d sitemap url(s) (base=%s)\n"
 msgstr ""
 
-#: src/wget.c:2957
+#: src/wget.c:3000
 #, c-format
 msgid "Can't scan '%s' because no libz support enabled at compile time\n"
 msgstr ""
 
-#: src/wget.c:3098
+#: src/wget.c:3141
 #, c-format
 msgid "Invalid file length %llu\n"
 msgstr ""
 
-#: src/wget.c:3101
+#: src/wget.c:3144
 msgid "No download mirrors found\n"
 msgstr ""
 
-#: src/wget.c:3150 src/wget.c:3178 src/wget.c:3197
+#: src/wget.c:3147
+msgid "Metalink file name is missing or empty\n"
+msgstr ""
+
+#: src/wget.c:3196 src/wget.c:3224 src/wget.c:3243
 #, c-format
 msgid "URI content encoding = '%s'\n"
 msgstr ""
 
-#: src/wget.c:3270
+#: src/wget.c:3316
 #, c-format
 msgid "Failed to set file date (%d)\n"
 msgstr ""
 
-#: src/wget.c:3417
+#: src/wget.c:3463
 #, c-format
 msgid "Failed to write to STDOUT (%td, errno=%d)\n"
 msgstr ""
 
-#: src/wget.c:3517
+#: src/wget.c:3563
 #, c-format
 msgid "Failed to rename %s to %s (errno=%d)\n"
 msgstr ""
 
-#: src/wget.c:3543 src/wget.c:3549
+#: src/wget.c:3589 src/wget.c:3595
 #, c-format
 msgid "Failed to load partial content from '%s' (errno=%d)\n"
 msgstr ""
 
-#: src/wget.c:3558
+#: src/wget.c:3604
 #, c-format
 msgid "Failed to unlink '%s' (errno=%d)\n"
 msgstr ""
 
-#: src/wget.c:3578
+#: src/wget.c:3624
 #, c-format
 msgid "Saving ']8;;file://%s%s\\%s]8;;\\'\n"
 msgstr ""
 
-#: src/wget.c:3582
+#: src/wget.c:3628
 #, c-format
 msgid "Saving '%s'\n"
 msgstr ""
 
-#: src/wget.c:3588
+#: src/wget.c:3634
 #, c-format
 msgid "Failed to write file %s (%zd, errno=%d)\n"
 msgstr ""
 
-#: src/wget.c:3596
+#: src/wget.c:3643
 #, c-format
 msgid "File '%s' already there; not retrieving.\n"
 msgstr ""
 
-#: src/wget.c:3602
+#: src/wget.c:3649
 #, c-format
 msgid "Directory / file name clash - not saving '%s'\n"
 msgstr ""
 
-#: src/wget.c:3604
+#: src/wget.c:3651
 #, c-format
 msgid "Failed to open '%s' (%d)\n"
 msgstr ""
 
-#: src/wget.c:3616
+#: src/wget.c:3663
 #, c-format
 msgid "Failed to save extended attribute %s\n"
 msgstr ""
 
-#: src/wget.c:3807
+#: src/wget.c:3854
 #, c-format
 msgid ""
 "# got header %zu bytes:\n"
 "%s\n"
 msgstr ""
 
-#: src/wget.c:3881
+#: src/wget.c:3928
 #, c-format
 msgid "Failed to open .netrc file '%s' (%d): %s\n"
 msgstr ""
 
-#: src/wget.c:4228
+#: src/wget.c:4277
 #, c-format
 msgid "Failed to fsync errno=%d\n"
 msgstr ""
 
-#: src/wget.c:4536
+#: src/wget.c:4586
 #, c-format
 msgid "Continuing in background, pid %lu.\n"
 msgstr ""
 
-#: src/wget.c:4538 src/wget.c:4619
+#: src/wget.c:4588 src/wget.c:4669
 #, c-format
 msgid "Output will be written to %s.\n"
 msgstr ""
 
-#: src/wget.c:4564
+#: src/wget.c:4614
 msgid "fake_fork_child() failed\n"
 msgstr ""
 
-#: src/wget.c:4572
+#: src/wget.c:4622
 msgid "fake_fork() failed\n"
 msgstr ""
 
-#: src/wget.c:4613
+#: src/wget.c:4663
 #, c-format
 msgid "Failed to fork (%d)\n"
 msgstr ""
 
-#: src/wget.c:4617
+#: src/wget.c:4667
 #, c-format
 msgid "Continuing in background, pid %d.\n"
 msgstr ""
 
-#: src/wget.c:4627
+#: src/wget.c:4677
 msgid "Failed to redirect stdin to /dev/null.\n"
 msgstr ""
 
-#: src/wget.c:4629
+#: src/wget.c:4679
 msgid "Failed to redirect stdout to /dev/null.\n"
 msgstr ""
 
-#: src/wget.c:4631
+#: src/wget.c:4681
 msgid "Failed to redirect stderr to /dev/null.\n"
 msgstr ""

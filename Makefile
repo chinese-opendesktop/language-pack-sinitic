@@ -1,4 +1,4 @@
-VERSION = 2024.12
+VERSION = 2026.03
 PACKAGE = language-pack-sinitic
 DESTDIR =
 PREFIX = /usr

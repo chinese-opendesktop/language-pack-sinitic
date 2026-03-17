@@ -99,6 +99,7 @@ install:
 	for i in ???_??; do install -Dm644 $$i/skydmin.qm $(DESTDIR)$(DATADIR)/skylendar/skydmin_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/skylendar.qm $(DESTDIR)$(DATADIR)/skylendar/skylendar_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/tbe.qm $(DESTDIR)$(DATADIR)/tbe/i18n/tbe_$$i.qm; done
+	for i in ???_??; do install -Dm644 $$i/qgis.qm $(DESTDIR)$(DATADIR)/qgis/i18n/qgis_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/qtstalker.qm $(DESTDIR)$(DATADIR)/qtstalker/i18n/qtstalker_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/avidemux.qm $(DESTDIR)$(DATADIR)/avidemux6/qt5/i18n/avidemux_$$i.qm; done
 	for i in ???_??; do install -Dm644 $$i/hydrogen.qm $(DESTDIR)$(DATADIR)/hydrogen/data/i18n/hydrogen_$$i.qm; done
