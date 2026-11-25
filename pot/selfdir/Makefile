@@ -36,7 +36,6 @@ install:
 	for i in ???_??; do install -Dm644 $$i/WikidPad.po $(DESTDIR)$(DATADIR)/wikidpad/WikidPad_$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/tlpkg.mo $(DESTDIR)$(DATADIR)/texlive/tlpkg/translations/$$i.po; done
 	for i in ???_??; do install -Dm644 $$i/AC.mo $(DESTDIR)$(DATADIR)/assaultcube/packages/locale/$$i/LC_MESSAGES/AC.mo; done
-	for i in ???_??; do install -Dm644 $$i/Editra.mo $(DESTDIR)$(LIBDIR)/python2.7/site-packages/Editra/locale/$$i/LC_MESSAGES/Editra.mo; done
 	for i in ???_??; do install -Dm644 $$i/humanize.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/humanize/locale/$$i/LC_MESSAGES/humanize.mo; done
 	for i in ???_??; do install -Dm644 $$i/mu.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/mu/locale/$$i/LC_MESSAGES/mu.mo; done
 	for i in ???_??; do install -Dm644 $$i/thonny.mo $(DESTDIR)/lib/$(PYTHON)/site-packages/thonny/locale/$$i/LC_MESSAGES/thonny.mo; done

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-15 18:07+0200\n"
+"POT-Creation-Date: 2026-05-18 22:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -617,7 +617,7 @@ msgstr ""
 
 #. type: textblock
 #: wcd.pod:365
-msgid "Ignore diacritics for Latin-based scripts.  Letters with diacritical marks match their base letter without diacritical mark. The following Latin encodings are supported: CP437, CP850, CP852, CP1250, CP1252, ISO-8859-1, ISO-8859-2, and Unicode Latin-1, Latin Extended-A, and Latin Extended-B.  See also L<http://en.wikipedia.org/wiki/Diacritic>"
+msgid "Ignore diacritics for Latin-based scripts.  Letters with diacritical marks match their base letter without diacritical mark. The following Latin encodings are supported: CP437, CP850, CP852, CP1250, CP1252, ISO-8859-1, ISO-8859-2, and Unicode Latin-1, Latin Extended-A, and Latin Extended-B.  See also L<https://en.wikipedia.org/wiki/Diacritic>"
 msgstr ""
 
 #. type: =item
@@ -1560,7 +1560,7 @@ msgstr ""
 
 #. type: textblock
 #: wcd.pod:884
-msgid "For a complete list of language and country codes see the gettext(1)  manual: L<http://www.gnu.org/software/gettext/manual/gettext.html#Language-Codes> On Unix systems you can use to command locale(1) to get locale specific information."
+msgid "For a complete list of language and country codes see the gettext(1)  manual: L<https://www.gnu.org/software/gettext/manual/gettext.html#Language-Codes> On Unix systems you can use to command locale(1) to get locale specific information."
 msgstr ""
 
 #. type: =item
@@ -1570,7 +1570,7 @@ msgstr ""
 
 #. type: textblock
 #: wcd.pod:892
-msgid "With the I<LANGUAGE> environment variable you can specify a priority list of languages, separated by colons. Wcd gives preference to I<LANGUAGE> over I<LANG>. For instance, first Dutch and then German: C<LANGUAGE=nl:de>. You have to first enable localization, by setting I<LANG> or I<LC_ALL> to a value other than I<C>, before you can use a language priority list through the I<LANGUAGE> variable. See also the gettext(1) manual: L<http://www.gnu.org/software/gettext/manual/gettext.html#The-LANGUAGE-variable>"
+msgid "With the I<LANGUAGE> environment variable you can specify a priority list of languages, separated by colons. Wcd gives preference to I<LANGUAGE> over I<LANG>. For instance, first Dutch and then German: C<LANGUAGE=nl:de>. You have to first enable localization, by setting I<LANG> or I<LC_ALL> to a value other than I<C>, before you can use a language priority list through the I<LANGUAGE> variable. See also the gettext(1) manual: L<https://www.gnu.org/software/gettext/manual/gettext.html#The-LANGUAGE-variable>"
 msgstr ""
 
 #. type: textblock
@@ -1718,12 +1718,12 @@ msgstr ""
 
 #. type: textblock
 #: wcd.pod:998
-msgid "Wcd has been I<soft> converted to Unicode. In its core wcd handles all data as a stream of bytes. Only the lines printed to screen are on the fly converted to Unicode wide characters. Wcd fully relies on libc functions and has no UTF-8 specific code. See also L<http://www.cl.cam.ac.uk/~mgk25/unicode.html>"
+msgid "Wcd has been I<soft> converted to Unicode. In its core wcd handles all data as a stream of bytes. Only the lines printed to screen are on the fly converted to Unicode wide characters. Wcd fully relies on libc functions and has no UTF-8 specific code. See also L<https://www.cl.cam.ac.uk/~mgk25/unicode.html>"
 msgstr ""
 
 #. type: textblock
 #: wcd.pod:1004
-msgid "Wcd has optional support for Unicode matching with normalisation. To find out whether Wcd has normalisation support type C<wcd -V>.  Wcd with Unicode normalization support will match Unicode names based on I<compatible> equivalence. Without Unicode normalization support, names are matched when they are binary equivalent.  See also L<http://en.wikipedia.org/wiki/Unicode_normalization>"
+msgid "Wcd has optional support for Unicode matching with normalisation. To find out whether Wcd has normalisation support type C<wcd -V>.  Wcd with Unicode normalization support will match Unicode names based on I<compatible> equivalence. Without Unicode normalization support, names are matched when they are binary equivalent.  See also L<https://en.wikipedia.org/wiki/Unicode_normalization>"
 msgstr ""
 
 #. type: =head3
@@ -1791,7 +1791,7 @@ msgstr ""
 
 #. type: textblock
 #: wcd.pod:1059
-msgid "The non-Unicode Windows version of Wcd can read Unicode treedata files since version 5.2.0, provided there is a Byte Order Mark (BOM) in the file (see L<http://en.wikipedia.org/wiki/Byte_order_mark>), but it can't change to directories with Unicode letters in the name that are not part of the default system ANSI code page. The Unicode Windows version of wcd writes a BOM in the UTF-8 encoded treedata files since version 5.2.0, which makes them also readable by notepad."
+msgid "The non-Unicode Windows version of Wcd can read Unicode treedata files since version 5.2.0, provided there is a Byte Order Mark (BOM) in the file (see L<https://en.wikipedia.org/wiki/Byte_order_mark>), but it can't change to directories with Unicode letters in the name that are not part of the default system ANSI code page. The Unicode Windows version of wcd writes a BOM in the UTF-8 encoded treedata files since version 5.2.0, which makes them also readable by notepad."
 msgstr ""
 
 #. type: =head3
@@ -2334,12 +2334,12 @@ msgstr ""
 
 #. type: textblock
 #: wcd.pod:1371
-msgid "Project homepage: L<http://waterlan.home.xs4all.nl/>"
+msgid "Project homepage: L<https://waterlander.net/wcd/>"
 msgstr ""
 
 #. type: textblock
 #: wcd.pod:1374
-msgid "SourceForge: L<http://sourceforge.net/projects/wcd/>"
+msgid "SourceForge: L<https://sourceforge.net/projects/wcd/>"
 msgstr ""
 
 #. type: textblock
@@ -2349,5 +2349,5 @@ msgstr ""
 
 #. type: textblock
 #: wcd.pod:1380
-msgid "NCD was originally written by Brad Kingsbury for Peter Norton's \"Norton Utilities\" around 1987. See also L<http://www.softpanorama.org/OFM/norton_change_directory_clones.shtml>"
+msgid "NCD was originally written by Brad Kingsbury for Peter Norton's \"Norton Utilities\" around 1987. See also L<https://www.softpanorama.org/OFM/norton_change_directory_clones.shtml>"
 msgstr ""
